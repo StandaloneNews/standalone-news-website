@@ -30,7 +30,8 @@ MODEL=os.getenv('GEMINI_MODEL','gemini-2.5-flash-lite')
 ALLOWED_HOSTS={
     'www.federalreserve.gov','federalreserve.gov','www.bls.gov','bls.gov',
     'www.justice.gov','justice.gov','www.sec.gov','sec.gov',
-    'www.fda.gov','fda.gov','www.federalregister.gov','federalregister.gov'
+    'www.fda.gov','fda.gov','www.federalregister.gov','federalregister.gov',
+    'www.govinfo.gov','govinfo.gov','public-inspection.federalregister.gov'
 }
 # High-stakes or ambiguous news is better served as a link to the original source.
 SENSITIVE=re.compile(r'\b(election|ballot|vote counting|candidate|assassination|shooting|\bdeath\b|\bdead\b|\bkilled\b|\bwar\b|military strike|terroris\w*|warfare|hostage|genocide|\btrial\b|\bindict\w*|criminal charg\w*|arrest|suspect|investigation|allegation|lawsuit|enforcement action|sanction\w*|emergency|disaster|recall\w*|vaccine|cancer|drug approval|scheduling|reschedul\w*|controlled substance|schedule i|schedule ii|schedule iii)\b',re.I)
@@ -43,7 +44,7 @@ MIN_INTERVAL_HOURS=5
 CONTENT_HINT = re.compile(r'(?:^|[-_\s])(content|article|main|press-release|news-release|release-body|page-body)(?:$|[-_\s])',re.I)
 NOISE_HINT = re.compile(r'(?:^|[-_\s])(nav|menu|sidebar|footer|header|cookie|banner|related|social|share)(?:$|[-_\s])',re.I)
 VOID_TAGS = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
-TEXT_TAGS = {'p','li','h2','h3'}
+TEXT_TAGS = {'p','li','h2','h3','pre'}
 BAD_TAGS = {'script','style','noscript','nav','footer','header','aside','form','svg','template'}
 
 class PageText(HTMLParser):
@@ -84,10 +85,19 @@ class PageText(HTMLParser):
         while self.stack:
             node=self.stack.pop()
             if node['capture'] is self.current and self.current:
-                value=re.sub(r'\s+',' ',' '.join(self.current['text'])).strip()
-                if len(value)>=46:
-                    if self.current['focused']:self.focused.append(value)
-                    self.body.append(value)
+                raw = ''.join(self.current['text'])
+                if node['tag'] == 'pre':
+                    # Some official plain-text releases are served in <pre>.
+                    fragments = re.split(r'\n\s*\n+', raw)
+                    if len(fragments) < 3:
+                        fragments = re.split(r'(?<=[.!?])\s+(?=[A-Z])', raw)
+                else:
+                    fragments = [raw]
+                for part in fragments:
+                    value = re.sub(r'\s+', ' ', part).strip()
+                    if len(value)>=46:
+                        if self.current['focused']: self.focused.append(value)
+                        self.body.append(value)
                 self.current=None
             if node['tag']==tag:break
 
@@ -111,22 +121,91 @@ def official_url(url):
     except ValueError:return False
 
 class SafeRedirect(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self,req,fp,code,msg,headers,newurl):
-        if not official_url(newurl):raise ValueError('Redirect outside official-source allowlist')
-        return super().redirect_request(req,fp,code,msg,headers,newurl)
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        # Never silently traverse from a government website to an unapproved host.
+        absolute = urllib.parse.urljoin(req.full_url, newurl)
+        if not official_url(absolute):
+            host = urllib.parse.urlsplit(absolute).hostname or 'unknown'
+            raise ValueError(f'Redirect to unapproved host: {host}')
+        return super().redirect_request(req, fp, code, msg, headers, absolute)
 
-def fetch_official(url):
-    if not official_url(url):raise ValueError('Source URL not from approved agency')
-    opener=urllib.request.build_opener(SafeRedirect)
-    req=urllib.request.Request(url,headers={'User-Agent':'StandaloneNewsBot/1.0 (+https://standalonenews.com/about.html)', 'Accept':'text/html'})
-    with opener.open(req,timeout=13) as resp:
-        if not official_url(resp.geturl()):raise ValueError('Untrusted redirect')
-        if 'text/html' not in resp.headers.get('Content-Type',''):raise ValueError('Not an HTML article')
-        raw=resp.read(550001)
-        if len(raw)>550000:raise ValueError('Source too large')
-    content=parse_source_page(raw)
-    if len(content)<750:raise ValueError(f'Insufficient article evidence ({len(content)} characters extracted; minimum 750)')
+# Federal Register provides a keyless, structured API with canonical body URLs.
+# Retrieve the actual document, not the RSS redirect or a landing page.
+FEDREG_ID = re.compile(r'/(?:documents/(?:\d{4}/\d{2}/\d{2}/)?|d/)((?:C\d-)?(?:\d{4}-\d+|E\d+-\d+))(?:/|$)', re.I)
+MIN_EVIDENCE_CHARS = 600
+
+
+def fetch_limited(url, accepts, max_bytes=550000, timeout=13):
+    if not official_url(url):
+        raise ValueError('URL outside official-source allowlist')
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'StandaloneNews/1.0 (contact: https://standalonenews.com/about.html)',
+        'Accept': accepts
+    })
+    with urllib.request.build_opener(SafeRedirect).open(req, timeout=timeout) as resp:
+        if not official_url(resp.geturl()):
+            raise ValueError('Untrusted final redirect')
+        kind = resp.headers.get('Content-Type', '').lower()
+        raw = resp.read(max_bytes + 1)
+        if len(raw) > max_bytes:
+            raise ValueError('Document exceeds safe size limit')
+        return raw, kind
+
+
+def evidence_length_check(content):
+    if len(content) < MIN_EVIDENCE_CHARS:
+        raise ValueError(
+            f'Insufficient article evidence ({len(content)} characters extracted; '
+            f'minimum {MIN_EVIDENCE_CHARS})')
+    # Three independent substantive excerpts are necessary; total length alone
+    # is not evidence of sufficient factual substance.
+    substantive = [line for line in content.splitlines() if len(line.strip()) >= 65]
+    if len(substantive) < 3:
+        raise ValueError(f'Not enough distinct source passages ({len(substantive)}; minimum 3)')
     return content
+
+
+def fetch_register_document(story_url):
+    match = FEDREG_ID.search(urllib.parse.urlsplit(story_url).path)
+    if not match:
+        raise ValueError('Federal Register link lacks an official document number')
+    doc_number = match.group(1)
+    api_url = f'https://www.federalregister.gov/api/v1/documents/{doc_number}.json'
+    raw, content_type = fetch_limited(api_url, 'application/json')
+    if 'json' not in content_type:
+        raise ValueError('Federal Register API returned non-JSON content')
+    record = json.loads(raw)
+    direct = record.get('raw_text_url') or record.get('body_html_url')
+    if not isinstance(direct, str) or not official_url(direct):
+        raise ValueError('No approved Federal Register full-text URL available')
+    body, body_type = fetch_limited(direct, 'text/plain, text/html')
+    if 'html' in body_type:
+        text = parse_source_page(body)
+    elif 'text/plain' in body_type or direct.endswith('.txt'):
+        text = re.sub(r'\s+', ' ', body.decode('utf-8', 'replace')).strip()
+        # Split into evidence-sized sentences for minimum independent evidence check.
+        text = '\n'.join(x.strip() for x in re.split(r'(?<=[.!?])\s+(?=[A-Z])', text) if len(x.strip()) >= 45)[:11000]
+    else:
+        raise ValueError('Unsupported Federal Register document format')
+    evidence_length_check(text)
+    canonical = record.get('html_url')
+    if not isinstance(canonical, str) or not official_url(canonical):
+        canonical = story_url
+    return text, canonical
+
+
+def fetch_official(url, source_type=''):
+    if not official_url(url):
+        raise ValueError('Source URL not from approved agency')
+    host = (urllib.parse.urlsplit(url).hostname or '').lower()
+    if source_type == 'Official register' and host in ('www.federalregister.gov','federalregister.gov'):
+        return fetch_register_document(url)
+    body, content_type = fetch_limited(url, 'text/html')
+    if 'text/html' not in content_type:
+        raise ValueError(f'Official source is not an HTML article ({content_type[:60]})')
+    content = parse_source_page(body)
+    evidence_length_check(content)
+    return content, url
 
 def normalized(s):return re.sub(r'\s+',' ',s).strip().casefold()
 
@@ -144,11 +223,14 @@ def check_article(value,context,source):
     if not isinstance(points,list) or not 3<=len(points)<=5:raise ValueError('Need 3–5 evidenced points')
     if SENSITIVE.search(title+' '+lede):raise ValueError('Sensitive output needs human review')
     evidence_text=''
+    unique_quotes=set()
     for p in points:
         if not isinstance(p,dict):raise ValueError('Malformed point')
         t=p.get('text');e=p.get('evidence')
         if not isinstance(t,str) or not 60<=len(t)<=460:raise ValueError('Point text invalid')
         if not isinstance(e,str) or not supported_quote(e,context):raise ValueError('Evidence quote not found in official page')
+        if normalized(e) in unique_quotes:raise ValueError('Repeated evidence passage across article points')
+        unique_quotes.add(normalized(e))
         if SENSITIVE.search(t):raise ValueError('Sensitive output needs human review')
         # Unsupported numbers in the article are especially risky.
         if numbers(t)-numbers(e):raise ValueError('Uncorroborated number in article')
@@ -275,26 +357,38 @@ def main():
     already={r['source_url'] for r in records}
     candidates=[s for s in feed.get('items',[]) if s.get('source_type') in ('Official direct','Official register') and official_url(s.get('url','')) and s.get('url') not in already and not SENSITIVE.search(s.get('title',''))]
     print(f'Found {len(candidates)} eligible primary-source candidates')
-    # Diversify attempts so five short Federal Reserve notices do not starve
-    # longer DOJ, FDA, SEC, or other official agency announcements.
-    selected=[];per_source={}
-    for candidate in candidates:
+    # Prefer documents with structured full text. Do not let one source take
+    # every opportunity, and skip source endpoints that regularly fail to serve
+    # article text. Those sources stay in the *headline feed*.
+    ranked = sorted(candidates, key=lambda s: (
+        0 if s.get('source_type') == 'Official register' else
+        1 if s.get('source') in ('Federal Reserve', 'Bureau of Labor Statistics', 'Food and Drug Administration') else
+        2,
+        s.get('source',''),
+        -(len(s.get('title') or ''))))
+    selected=[]; per_source={}
+    for candidate in ranked:
         source_name=candidate.get('source','Unknown')
-        if per_source.get(source_name,0)>=3:continue
+        limit=5 if candidate.get('source_type') == 'Official register' else 3
+        if per_source.get(source_name,0)>=limit: continue
         selected.append(candidate)
         per_source[source_name]=per_source.get(source_name,0)+1
-        if len(selected)>=12:break
+        if len(selected)>=14:break
     print(f'Checking up to {len(selected)} candidates across {len(per_source)} sources')
+    failures={}
     for story in selected:
         try:
-            source=fetch_official(story['url'])
+            source, canonical_url=fetch_official(story['url'],story.get('source_type',''))
+            print(f'Source evidence: {len(source)} chars — {story.get("source","Unknown")}', flush=True)
             value=generate_ai(story,source,key)
-            if value.get('skip'):continue
+            if value.get('skip'):
+                print(f'Model declined story: {story.get("source","Unknown")} (not enough distinct facts)')
+                continue
             headline,summary,paragraphs=check_article(value,source,story)
-            token=hashlib.sha256(story['url'].encode()).hexdigest()[:7]
+            token=hashlib.sha256(canonical_url.encode()).hexdigest()[:7]
             rel='articles/'+now.date().isoformat()+'-'+slug(headline)+'-'+token+'.html'
             record={'id':token,'headline':headline,'summary':summary,'paragraphs':paragraphs,
-                'source':story['source'],'source_url':story['url'],'source_published_at':story['published_at'],
+                'source':story['source'],'source_url':canonical_url,'source_published_at':story['published_at'],
                 'published_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),'category':story['category'],'path':rel,'ai_model':MODEL,'human_reviewed':False}
             (ROOT/rel).write_text(render_html(record),encoding='utf8')
             records.append({k:v for k,v in record.items() if k!='paragraphs'})
@@ -302,10 +396,14 @@ def main():
             write_listing(records);write_sitemap(records);write_articles_feed(records)
             print('Published: '+rel);return 0
         except (ValueError,urllib.error.URLError,TimeoutError,json.JSONDecodeError) as e:
-            print(f'Skipped {story.get("source", "unknown")}: {type(e).__name__}: {e}',file=sys.stderr)
+            reason = str(e)[:240]
+            failures[type(e).__name__+': '+reason] = failures.get(type(e).__name__+': '+reason, 0) + 1
+            print(f'Skipped {story.get("source", "unknown")}: {type(e).__name__}: {reason} | URL={story.get("url","")[:200]}',file=sys.stderr,flush=True)
         except Exception as e:
             print('Unexpected source error: '+type(e).__name__,file=sys.stderr)
     print('No story passed publishing safeguards. No new article.')
+    for reason, count in sorted(failures.items(), key=lambda item:-item[1])[:6]:
+        print(f'  {count}x {reason}')
     return 0
 
 if __name__=='__main__':sys.exit(main())
