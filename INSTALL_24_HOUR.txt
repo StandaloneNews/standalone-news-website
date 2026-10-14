@@ -1,0 +1,20 @@
+STANDALONE NEWS — 24-HOUR CLOCK UPDATE
+
+Times now use 24-hour military format with two-digit hours and minutes:
+  00:05 UTC, 08:30 UTC, 15:33 UTC, 23:59 UTC
+All existing timestamps remain in UTC and retain their underlying values.
+
+QUICK INSTALL (IF THE APP-STYLE REDESIGN IS ALREADY INSTALLED)
+1. In your GitHub repository, select the main branch.
+2. Upload index.html and news-app.js from this ZIP to the repository ROOT.
+3. Commit changes and wait for Cloudflare to deploy.
+4. Refresh your browser (Ctrl+Shift+R if needed).
+
+Why two files? The updated index.html also refreshes the cached JavaScript.
+No need to change GitHub Actions, Gemini, news databases or styles.
+
+FULL INSTALL (IF YOU HAVEN'T INSTALLED THE APP REDESIGN YET)
+Use all four files: index.html, news-app.js, news-app.css and styles.css.
+
+This updates: headline cards, the five-story brief, AI explainer listings,
+feed updated time, and saved stories. Other date-only labels remain dates.
