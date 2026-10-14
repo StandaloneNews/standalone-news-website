@@ -1,21 +1,44 @@
-# Standalone News — TradingView ticker cleanup + SPY / QQQ
+# Standalone News — Expanded News Desk
 
-**Install these 4 files to the main/root directory of your GitHub repo** `StandaloneNews/standalone-news-website`: `index.html`, `newsroom.css`, `newsroom.js`, and `markets-fix.js`. All are based on the most recent TradingView loading fix.
+This package expands the public headline feed and adds an **Outlet** selector to the Latest News Wire. It is based on the most recent SPY/QQQ TradingView cleanup layout. The Gemini publisher, its workflow, and your news databases do not need to be replaced.
 
-## What changed
-- Added **SPY** (`AMEX:SPY`) and **QQQ** (`NASDAQ:QQQ`) to the top scrolling tape, right-side market snapshot, and dashboard watchlists.
-- Removed direct **CME, CBOT and COMEX futures** symbols from embedded widgets where quote entitlements can be restricted. Their actual contract pages remain available as clearly labeled external links.
-- Filled the freed spaces with widely followed, exchange-traded instruments: **DIA, IWM, GLD, SLV, USO**, and bond ETFs.
-- Kept **indicative index, gold, and oil reference quotes**, plus **Treasury yields**, where possible. Availability can still vary by widget and license.
-- **No ETF is presented as a future or as the dollar price per barrel/ounce**: Futures and Treasury tabs now explain the distinction.
-- Preserved the responsive newsroom, headline feed, AI explainer feed and 24-hour UTC clocks.
+## Install on GitHub
 
-## Caveats
-There was no list of which exact TradingView symbols showed `denied` in your browser. This patch removes the most likely exchange-controlled contract embeds, but it cannot guarantee every remaining quote is permitted. TradingView says some exchange symbols are *only available on TradingView* and cannot be shown in third-party widgets; a premium subscription does not bypass that.
+Repository: https://github.com/StandaloneNews/standalone-news-website
 
-If a particular widget *still* says `denied`, send a screenshot with its exact symbol and we can remove/replace it specifically.
+### A. Update RSS script (inside the `scripts` folder)
 
-## Deploy
-Upload the **files**, not the ZIP or containing folder: GitHub → repository main page → Add file → Upload files → Commit changes. Wait for Cloudflare to deploy and hard-refresh (`Ctrl+Shift+R`). No need to change any workflow, Gemini secrets or data JSON.
+1. Open `https://github.com/StandaloneNews/standalone-news-website/blob/main/scripts/update_news.py`.
+2. Click Edit (pencil icon). Replace its contents with the **`scripts/update_news.py`** included here, then commit to `main`.
+3. Do NOT place an extra `update_news.py` in the root directory. It must be `scripts/update_news.py`.
 
-Documentation: https://www.tradingview.com/widget-docs/faq/data/
+### B. Update homepage files (repository root)
+
+Upload/replace these FOUR files at the repository **root** (not inside `scripts`):
+- `index.html`
+- `newsroom.js`
+- `newsroom.css`
+- `markets-fix.js`
+
+The markets file is the unchanged compatible version from the SPY/QQQ update. If you've customized market data since then, keep your newer `markets-fix.js` instead.
+
+You can upload the four files through **Add file → Upload files**, commit to `main`.
+
+### C. Refresh the headlines
+
+Open the repository **Actions** tab and select the scheduled news-update workflow. Click **Run workflow** on branch `main`. Check the step named **Refresh public RSS headlines**. It logs reachable feeds and names of feeds that failed. A few unreachable feeds are normal: feeds can be removed or rate-limited by publishers.
+
+After the job completes and commits its updated `data/news.json`, Cloudflare must deploy the new commit. Refresh `https://standalonenews.com/#wire` with Ctrl+Shift+R.
+
+## What changes
+
+- 49 publisher/agency RSS feeds or Google News discovery queries in total.
+- Added a wider mix of publisher sources: BBC News, PBS News, CNBC, The Guardian, NPR, Deutsche Welle, Al Jazeera English, TechCrunch, The Verge, plus Reuters, AP, Bloomberg, CNN, ABC, CBS, NBC, Fox News, POLITICO, Axios, MarketWatch, Yahoo Finance, and The Hill via discovery feeds.
+- The feed is capped at 180 headlines, with diversity rules so an individual publisher doesn't take over the page.
+- Official Fed/BLS/DOJ/SEC/FDA/DEA sources remain eligible for the separate Gemini explainer publisher.
+- The Latest News Wire gains a **news outlet** dropdown, and the header reports how many outlets are present in the current data.
+- Existing market widgets, SPY/QQQ, 24-hour UTC timestamps, saved stories, the briefing, and AI explainers stay in place.
+
+## Important
+
+News discovery links from Google News sometimes go through a Google News redirect before opening a publisher. This setup displays headlines and links, not full syndicated articles. Publishers' feed terms vary, and you should review relevant permissions before using third-party feeds in a monetized product. The number of outlets available at any moment depends on how many feeds are reachable and have current headlines. This ZIP was syntax-tested and its feed processing was tested with local sample data; live fetching and Cloudflare deployment must still be verified.

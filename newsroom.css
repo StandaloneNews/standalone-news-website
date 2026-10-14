@@ -32,3 +32,10 @@
 
 /* Market data entitlement cleanup: ETF-proxy and contract link disclosure */
 .tv-proxy-note{background:#f1f6fa;border:1px solid #dae6ef;border-radius:7px;color:#37556f;padding:12px 14px;font-size:12px;line-height:1.55;margin:5px 0 14px}.tv-proxy-note strong{color:#163a59}.tv-contract-links{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:12px 0 8px;padding:12px;background:#f8fafc;border-radius:7px}.tv-contract-links span{width:100%;font-size:11px;color:#536e82;font-weight:800}.tv-contract-links a{font-size:11px;color:#165e90;font-weight:800;text-decoration:underline}.tv-contract-links a:focus-visible{outline:3px solid #cf2441;outline-offset:3px}
+
+/* News Desk: publisher comparison / outlet filter. */
+.outlet-filter{min-width:166px;display:flex;gap:8px;align-items:center;white-space:nowrap;padding:9px 11px;background:#f7f9fc;border:1px solid #d6e0e9;border-radius:6px;color:#536678;font-weight:800;font-size:10px;letter-spacing:.06em}
+.outlet-filter select{max-width:240px;min-width:130px;width:100%;padding:3px 18px 3px 4px;border:0;color:#142e4a;background:transparent;font-family:inherit;font-size:12px;cursor:pointer;font-weight:800;letter-spacing:normal}
+.outlet-filter select:focus-visible{outline:3px solid #2684c4;outline-offset:3px}
+@media(max-width:860px){.outlet-filter{flex:1 1 180px;max-width:280px}}
+@media(max-width:600px){.outlet-filter{flex:1 1 100%;max-width:none;justify-content:space-between}.outlet-filter select{max-width:70%;text-align:right}.wire-tools{flex-wrap:wrap}}
