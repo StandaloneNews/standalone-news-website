@@ -1,0 +1,61 @@
+STANDALONE NEWS — NEWS DESK REDESIGN
+===================================
+
+UPGRADE SCOPE
+This is a front-page-only update. It changes the design and browser-side
+presentation. It does NOT replace your existing RSS updater, Gemini AI publisher,
+GitHub Actions workflow, article archive, or live data files.
+
+UPLOAD TO THE ROOT OF YOUR GITHUB REPOSITORY
+https://github.com/StandaloneNews/standalone-news-website
+
+Replace/upload ONLY these three files, all in the TOP LEVEL (root):
+  index.html
+  frontpage.css    (new file)
+  frontpage.js     (new file)
+
+1. Download and unzip the package onto your computer.
+2. On GitHub, open the repo on the 'main' branch and choose Add file > Upload files.
+3. Drag these three unzipped files to the upload area. GitHub should report that
+   index.html is a replacement and frontpage.css/frontpage.js are new files.
+4. Commit directly to main.
+5. If Cloudflare is linked to your GitHub deployment, wait for the deployment to
+   finish. If you manually upload to Cloudflare, redeploy these three files.
+6. Visit https://standalonenews.com/ and hard-refresh (Ctrl+Shift+R).
+
+DO NOT DELETE OR OVERWRITE
+  scripts/auto_publish.py
+  scripts/update_news.py
+  .github/workflows/refresh-headlines.yml
+  data/news.json
+  data/articles.json
+  articles/
+  assets/
+  styles.css
+
+HOW IT WORKS
+- The 5-story brief and all outside-publisher headlines read from data/news.json.
+- Standalone explainer cards read from data/articles.json.
+- Clicking outside stories opens the original source, not a copied article.
+- Clicking explainers opens the locally generated Standalone News article.
+- Topic preferences and saved external-story links are stored in the reader's
+  own browser localStorage. There is no login or server sync.
+- The '5-story' selection is algorithmic. It is not human-ranked, independently
+  verified, or rewritten from the original articles.
+- Empty data yields an honest placeholder, NOT fake current headlines.
+- Live previews or production will NOT show demo headlines automatically.
+
+KNOWN LIMITATION
+Your current Gemini publisher automatically regenerates articles/index.html.
+This update leaves that page and the publisher untouched so your working automation
+is not disrupted. The new homepage displays both article types prominently.
+
+TROUBLESHOOTING
+If the home page has no styling: confirm frontpage.css exists at the root.
+If no news appears: visit /data/news.json and verify that 'items' has entries.
+If no explainers appear: visit /data/articles.json and confirm it has article entries.
+If no changes appear: make sure Cloudflare deployed the latest main-branch commit.
+
+DESIGN / TECH
+No new external fonts, images, APIs, paid services, or dependencies.
+Designed for desktop and mobile screens; accessible keyboard controls.
