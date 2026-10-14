@@ -1,0 +1,24 @@
+STANDALONE NEWS — MARKETS + BONDS UPDATE (24-hour UTC format preserved)
+
+WHAT THIS DOES
+- Adds an always-visible scrolling markets ticker.
+- Replaces the Markets section with: major U.S. indexes, popular stocks, index futures, oil, gold, silver, U.S. Treasury yields, Treasury futures PRICES, and bond ETFs.
+- Adds a Markets tab in mobile navigation.
+- Preserves headline RSS, generated AI explainers, saved stories, and dark mode.
+- Market quotes are provided by embedded TradingView widgets. They can be delayed or unavailable because of exchange restrictions, third-party blocking, or market hours. No market price is fabricated by this site.
+- No API key required in the public website.
+
+INSTALLATION
+1. BACK UP your existing repository files if you have since customized them.
+2. Upload index.html and news-app.css into the ROOT of StandaloneNews/standalone-news-website on GitHub (same level as news-app.js). Replace the existing versions.
+3. Do not upload INSTALL_MARKETS.txt if you don't want to.
+4. Leave news-app.js and styles.css in place: this upgrade is designed for the app redesign package. If you have not installed the 24-hour app redesign, upload news-app.js and styles.css from this ZIP too.
+5. Commit to main and allow Cloudflare to deploy. Test on desktop and mobile, and disable ad/privacy blockers temporarily if the market widgets do not load.
+
+PLEASE NOTE
+The market widgets require browser access to https://widgets.tradingview-widget.com/ . If you enforce a strict Content Security Policy, add the third-party widget host to the relevant script/frame/connect directives per TradingView documentation.
+Instruments like CBOT:ZN1! are TREASURY FUTURES contract prices, not individual cash-bond prices. The 2Y/5Y/10Y/30Y instruments TVC:US..Y are YIELDS, expressed as percentages.
+The website uses UTC 24-hour time for news feed timestamps.
+TradingView attribution remains visible and links to its site.
+
+The U.S. 10-year minus 2-year yield spread is linked to its official FRED series: https://fred.stlouisfed.org/series/T10Y2Y (daily data, not an intraday quote).

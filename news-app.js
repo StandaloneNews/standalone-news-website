@@ -70,6 +70,14 @@
     const theme=loadStorage(STORE_THEME,'light');if(theme==='dark')document.documentElement.classList.add('dark');$('theme-action').setAttribute('aria-pressed',String(theme==='dark'));
     window.addEventListener('hashchange',onHashChange);onHashChange();
     document.querySelectorAll('[data-view-link]').forEach(a=>a.addEventListener('click',()=>showView(a.dataset.viewLink)));
+    // Scroll to Markets sub-sections without confusing the hash-based view router.
+    document.querySelectorAll('[data-market-scroll]').forEach(a=>a.addEventListener('click',e=>{
+      e.preventDefault();
+      const id=a.dataset.marketScroll;
+      if(location.hash!=='#markets')history.pushState(null,'','#markets');
+      showView('markets');
+      requestAnimationFrame(()=>document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'}));
+    }));
     $('theme-action').addEventListener('click',()=>{const on=document.documentElement.classList.toggle('dark');persist(STORE_THEME,on?'dark':'light');$('theme-action').setAttribute('aria-pressed',String(on));toast(on?'Dark mode on':'Light mode on');});
     $('search-action').addEventListener('click',()=>{location.hash='#news';showView('news');$('news-search').focus();});
     $('refresh-action').addEventListener('click',()=>{load().then(()=>toast('News feed refreshed'));});
