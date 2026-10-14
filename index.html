@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#091423" />
+  <meta name="description" content="Standalone News covers major developments in the United States and around the world, with clear sourcing across world affairs, markets and government." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Standalone News | The world in focus" />
+  <meta property="og:description" content="Major news from the U.S. and around the world. Clear sourcing. Less noise." />
+  <meta property="og:image" content="https://standalonenews.com/assets/standalone-news-banner.png" />
+  <meta property="og:url" content="https://standalonenews.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://standalonenews.com/" />
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
+  <link rel="apple-touch-icon" href="./assets/app-icon.png" />
+  <link rel="alternate" type="application/rss+xml" title="Standalone News headlines" href="./feed.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Standalone News — The World in Focus</title>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a href="#latest" class="skip-link">Skip to latest news</a>
+  <div id="site-announcement" class="site-announcement" hidden></div>
+  <div class="topline">
+    <div class="container topline-inner">
+      <div class="topline-left"><span class="red-pip"></span> INDEPENDENT PERSPECTIVE <span class="topline-sep">/</span> U.S. & THE WORLD</div>
+      <div class="topline-right"><span id="current-date"></span><span class="topline-sep">/</span><span class="topline-clock" id="clock" aria-label="UTC time"></span><span class="live-mini">GLOBAL DESK</span></div>
+    </div>
+  </div>
+  <header class="main-header" id="top">
+    <div class="container nav-container">
+      <a href="./" class="brand" aria-label="Standalone News home">
+        <img src="./assets/sn-brand-logo.png" alt="Standalone News SN symbol" width="49" height="49" />
+        <span class="brand-text"><strong>STANDALONE</strong><span>NEWS <i class="brand-rule"></i> THE WORLD IN FOCUS</span></span>
+      </a>
+      <nav class="nav-links" id="primary-navigation" aria-label="Primary navigation">
+        <a href="#latest" data-nav-cat="All" class="nav-active">Latest</a>
+        <a href="#latest" data-nav-cat="US News">U.S.</a>
+        <a href="#latest" data-nav-cat="World">World</a>
+        <a href="#latest" data-nav-cat="Markets">Markets</a>
+        <a href="#latest" data-nav-cat="Government">Government</a>
+        <a href="#standards">About</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="search-toggle" class="icon-button" aria-label="Search headlines" title="Search headlines">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m16 16 5 5"/></svg>
+        </button>
+        <a class="x-button" href="https://x.com/StandaloneNews" rel="noopener noreferrer" target="_blank" aria-label="Follow Standalone News on X"><span class="x-symbol">𝕏</span><span>Follow updates</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 19 14-14M8 5h11v11"/></svg></a>
+        <button class="mobile-menu-button icon-button" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+      </div>
+    </div>
+    <div id="search-panel" class="search-panel" hidden>
+      <div class="container search-inner">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m16 16 5 5"/></svg>
+        <label class="sr-only" for="search-input">Search news headlines</label>
+        <input id="search-input" type="search" placeholder="Search breaking news, agencies, markets…" autocomplete="off" />
+        <span>ESC to close</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-lines" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span><span>THE INDEPENDENT NEWS DESK</span><span class="edition-label">NO. 001 / DIGITAL EDITION</span></div>
+          <h1 id="hero-title">The world <em>moves.</em><br/>Stay <span>informed.</span></h1>
+          <p>Major developments across America and the world. A faster way to follow the stories shaping politics, markets, and everything in between.</p>
+          <div class="hero-actions"><a href="#latest" class="primary-cta">Explore the latest <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-7-7 7 7-7 7"/></svg></a><a href="#standards" class="text-cta">Our approach <span>↗</span></a></div>
+          <div class="hero-small-print"><div class="line-stamp"></div><span>NOT JUST HEADLINES. <b>THE BIGGER PICTURE.</b></span></div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+          <div class="hero-card-top"><span class="signal-chip"><span class="red-pip"></span> IN FOCUS</span><span id="hero-counter">01 / FEATURED</span></div>
+          <article class="feature-panel" id="hero-feature" aria-live="polite">
+            <div class="feature-watermark">SN<span>·</span></div>
+            <p class="feature-label" id="feature-category">THE DAILY BRIEF</p>
+            <h2 id="feature-title">A clearer view of what's happening.</h2>
+            <p id="feature-summary">We're building the feed from direct official announcements and clearly attributed news sources.</p>
+            <div class="feature-bottom"><span id="feature-meta">STANDALONE NEWS DESK</span><a id="feature-link" href="#latest">VIEW LATEST <span>↗</span></a></div>
+          </article>
+          <div class="hero-side-type" aria-hidden="true">THE SIGNAL <span> / 24</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="wire-strip" aria-labelledby="wire-label">
+      <div class="container strip-container">
+        <div class="wire-mark" id="wire-label"><span class="pulse-dot"></span> THE WIRE <span class="wire-mark-arrow">↗</span></div>
+        <div id="wire-items" class="wire-items" aria-live="polite"><span>Monitoring trusted sources for the next update…</span></div>
+        <a href="#latest" class="wire-view">ALL UPDATES <span>↗</span></a>
+      </div>
+    </section>
+    <section class="content-section container" id="latest" aria-labelledby="latest-title">
+      <div class="section-head"><div><div class="section-kicker"><span>01</span> THE NEWSROOM</div><h2 id="latest-title">Today's <i>headlines.</i></h2></div><div class="section-tools"><span class="updated-label" id="last-updated">Awaiting latest feed</span><button class="refresh-button" id="reload-feed" type="button" title="Check for updated headlines"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 7.9a8 8 0 1 0 .2 8.4M20 3v6h-6"/></svg> Refresh</button></div></div>
+      <div class="category-bar" id="category-tabs" role="tablist" aria-label="Filter news categories">
+        <button class="category-active" role="tab" aria-selected="true" data-category="All">All stories</button>
+        <button role="tab" aria-selected="false" data-category="US News">U.S.</button>
+        <button role="tab" aria-selected="false" data-category="World">World</button>
+        <button role="tab" aria-selected="false" data-category="Markets">Markets</button>
+        <button role="tab" aria-selected="false" data-category="Government">Government</button>
+        <button role="tab" aria-selected="false" data-category="DEA">DEA & regulation</button>
+        <button role="tab" aria-selected="false" data-category="Economy">Economy</button>
+      </div>
+      <div class="news-layout">
+        <div class="news-main">
+          <div class="article-grid" id="article-grid" aria-live="polite"></div>
+          <div class="feed-heading"><span class="feed-heading-square"></span><h3>The latest on the wire</h3><span class="feed-heading-line"></span><span id="article-count">0 stories</span></div>
+          <div class="latest-list" id="latest-list" aria-live="polite"></div>
+          <button id="load-more" class="load-more" type="button" hidden>Show more headlines <span>↓</span></button>
+          <div id="empty-state" class="empty-state" hidden>
+            <div class="empty-symbol">◎</div><h3>No stories to display yet.</h3><p id="empty-message">The news desk is waiting for its next update. You can explore our sources or follow our X account in the meantime.</p><button id="reset-filters" type="button">Clear filters →</button>
+          </div>
+        </div>
+        <aside class="sidebar" aria-label="News coverage and sources">
+          <div class="aside-panel radar-panel"><div class="aside-overline"><span class="signal-pulse"></span> COVERAGE DESK <span>001—005</span></div><h3>What we're<br/><em>watching.</em></h3>
+            <div class="radar-links">
+              <button data-category="US News"><span class="radar-index">01</span><span>United States<small>Politics, courts & policy</small></span><span class="radar-arrow">↗</span></button>
+              <button data-category="World"><span class="radar-index">02</span><span>World affairs<small>Diplomacy & geopolitics</small></span><span class="radar-arrow">↗</span></button>
+              <button data-category="Markets"><span class="radar-index">03</span><span>Markets<small>Stocks & business</small></span><span class="radar-arrow">↗</span></button>
+              <button data-category="Government"><span class="radar-index">04</span><span>Washington<small>Federal agencies & regulation</small></span><span class="radar-arrow">↗</span></button>
+              <button data-category="DEA"><span class="radar-index">05</span><span>DEA watch<small>Scheduling & federal notices</small></span><span class="radar-arrow">↗</span></button>
+            </div>
+          </div>
+          <div class="x-panel"><div class="x-panel-top"><span>THE CONVERSATION</span><span class="x-big">𝕏</span></div><h3>News doesn't<br/>wait for the feed.</h3><p>Follow the headlines as they happen. Breaking coverage, updates and original context.</p><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">@StandaloneNews <span>↗</span></a></div>
+          <div class="aside-source"><span>OUR PROMISE</span><p>Clearly attributed headlines. Direct links to original sources. No invented reporting.</p><a href="#standards">How our sourcing works ↗</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="manifesto" id="standards" aria-labelledby="standards-title">
+      <div class="container manifesto-grid">
+        <div class="manifesto-lead"><span class="section-kicker"><span>02</span> OUR EDITORIAL APPROACH</span><h2 id="standards-title">Clarity is<br/><em>the point.</em></h2></div>
+        <div class="manifesto-body"><p class="manifesto-intro">The news moves fast. The facts still matter.</p><p>Standalone News brings together major U.S. and international developments from public announcements and attributed publishers. When a headline comes from another outlet, we show its source and link to the original reporting.</p><div class="principles"><div><span>01</span><strong>Know the source.</strong><small>We identify where each story comes from.</small></div><div><span>02</span><strong>Separate signal from noise.</strong><small>Prioritization helps discovery; it is not fact-checking.</small></div><div><span>03</span><strong>Stay accountable.</strong><small>Corrections and updates matter more than being first.</small></div></div><a href="./about.html" class="standards-link">Read our full standards <span>↗</span></a></div>
+      </div>
+    </section>
+    <section class="bottom-banner"><div class="container bottom-inner"><div><p>STAY IN THE KNOW</p><h2>The story keeps moving.</h2></div><a href="https://x.com/StandaloneNews" rel="noopener noreferrer" target="_blank">Follow Standalone News on X <span>↗</span></a></div></section>
+  </main>
+  <footer><div class="container footer-main"><div class="footer-brand"><a class="brand footer-logo" href="./"><img src="./assets/sn-brand-logo.png" width="48" height="48" alt="" /><span class="brand-text"><strong>STANDALONE</strong><span>NEWS</span></span></a><p>Independent in perspective.<br/>Global in scope.</p></div><div class="footer-links"><div><h3>EXPLORE</h3><a href="#latest" data-nav-cat="All">Latest news</a><a href="#latest" data-nav-cat="US News">U.S. coverage</a><a href="#latest" data-nav-cat="World">World</a><a href="#latest" data-nav-cat="Markets">Markets</a></div><div><h3>THE NEWSROOM</h3><a href="./about.html">About & standards</a><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">On X ↗</a><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">Contact on X</a><a href="./feed.xml">RSS feed</a></div></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Standalone News. All rights reserved.</span><span>Headlines attributed to their respective original publishers.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <div id="toast" role="status" class="toast" aria-live="polite"></div>
+</body>
+</html>
