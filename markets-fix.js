@@ -6,11 +6,7 @@
 const URL='https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js';
 const base={locale:'en',colorTheme:'light',width:'100%',height:'405',showSymbolLogo:true};
 const groups={
- 'Indexes':[{name:'U.S. benchmarks · indicative CFD references',symbols:[
-   {name:'FOREXCOM:SPXUSD',displayName:'S&P 500 CFD reference'},
-   {name:'FOREXCOM:NSXUSD',displayName:'Nasdaq 100 CFD reference'},
-   {name:'FOREXCOM:DJI',displayName:'Dow 30 CFD reference'}]},
-   {name:'Popular index ETFs · share prices (not index values)',symbols:[
+ 'Indexes':[{name:'Popular index ETFs · share prices (not index values)',symbols:[
    {name:'AMEX:SPY',displayName:'SPY · S&P 500 ETF'},
    {name:'NASDAQ:QQQ',displayName:'QQQ · Nasdaq 100 ETF'},
    {name:'AMEX:DIA',displayName:'DIA · Dow 30 ETF'},
@@ -33,25 +29,17 @@ const groups={
    {name:'NASDAQ:QQQ',displayName:'QQQ · Nasdaq 100 ETF'},
    {name:'AMEX:DIA',displayName:'DIA · Dow 30 ETF'},
    {name:'AMEX:IWM',displayName:'IWM · Russell 2000 ETF'}]}],
- 'Oil & metals':[{name:'Gold / oil · indicative references',symbols:[
-   {name:'CMCMARKETS:GOLD',displayName:'Gold reference'},
-   {name:'TVC:USOIL',displayName:'WTI oil reference'}]},
-   {name:'Commodity ETFs · share prices (NOT spot prices)',symbols:[
+ 'Oil & metals':[{name:'Commodity ETFs · share prices (NOT spot prices)',symbols:[
    {name:'AMEX:GLD',displayName:'GLD · Gold ETF'},
    {name:'AMEX:SLV',displayName:'SLV · Silver ETF'},
    {name:'AMEX:USO',displayName:'USO · U.S. Oil Fund'}]}],
- 'Treasuries':[{name:'U.S. Treasury yields · percent, not bond prices',symbols:[
-   {name:'TVC:US02Y',displayName:'2-year Treasury yield'},
-   {name:'TVC:US05Y',displayName:'5-year Treasury yield'},
-   {name:'TVC:US10Y',displayName:'10-year Treasury yield'},
-   {name:'TVC:US30Y',displayName:'30-year Treasury yield'}]}],
  'Bond ETFs':[{name:'Bond ETF share prices · NOT yields',symbols:[
    {name:'NASDAQ:TLT',displayName:'TLT · 20+ year Treasuries'},
    {name:'NASDAQ:IEF',displayName:'IEF · 7–10 year Treasuries'},
    {name:'NASDAQ:SHY',displayName:'SHY · 1–3 year Treasuries'},
    {name:'NASDAQ:BND',displayName:'BND · total bond market'}]}]
 };
-const links={'Indexes':'https://www.tradingview.com/markets/indices/','Stocks':'https://www.tradingview.com/markets/stocks-usa/','Futures':'https://www.tradingview.com/markets/futures/','Oil & metals':'https://www.tradingview.com/markets/commodities/','Treasuries':'https://www.tradingview.com/markets/bonds/','Bond ETFs':'https://www.tradingview.com/markets/etfs/'};
+const links={'Indexes':'https://www.tradingview.com/markets/indices/','Stocks':'https://www.tradingview.com/markets/stocks-usa/','Futures':'https://www.tradingview.com/markets/futures/','Oil & metals':'https://www.tradingview.com/markets/commodities/','Bond ETFs':'https://www.tradingview.com/markets/etfs/'};
 function mount(tab,force=false){
  const panel=Array.from(document.querySelectorAll('[data-market-panel]')).find(e=>e.dataset.marketPanel===tab);
  if(!panel||!groups[tab]||!panel.classList.contains('active'))return;

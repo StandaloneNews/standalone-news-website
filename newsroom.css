@@ -39,3 +39,24 @@
 .outlet-filter select:focus-visible{outline:3px solid #2684c4;outline-offset:3px}
 @media(max-width:860px){.outlet-filter{flex:1 1 180px;max-width:280px}}
 @media(max-width:600px){.outlet-filter{flex:1 1 100%;max-width:none;justify-content:space-between}.outlet-filter select{max-width:70%;text-align:right}.wire-tools{flex-wrap:wrap}}
+
+/* 2026-10-14 mobile TradingView tape repair.
+   TradingView ticker iframes need their full intrinsic height. The previous
+   52px mobile and 56px parent heights clipped the price/change line. */
+.market-strip{position:relative}
+.market-strip .strip-inner{height:94px;min-height:94px;gap:10px;align-items:center}
+.market-strip .strip-quotes{min-width:0;flex:1;overflow:hidden;min-height:86px;display:flex;align-items:center}
+.market-strip .strip-quotes .tv-embed-shell{width:100%;height:86px!important;min-height:86px!important;overflow:hidden}
+.market-strip .strip-quotes .tradingview-widget-container{width:100%!important;height:86px!important;min-height:86px!important}
+.market-strip .strip-quotes .tradingview-widget-container__widget{width:100%!important;height:100%!important}
+.market-strip .strip-quotes iframe{display:block;width:100%!important;max-width:100%!important;height:82px!important;min-height:82px!important;border:0}
+.market-strip .strip-more{flex:0 0 auto}
+@media(max-width:600px){
+ .market-strip .strip-inner{height:98px;min-height:98px;padding:4px 0;gap:0}
+ .market-strip .strip-quotes{height:88px;min-height:88px;width:100%;overflow:hidden}
+ .market-strip .strip-quotes .tv-embed-shell{height:88px!important;min-height:88px!important}
+ .market-strip .strip-quotes .tradingview-widget-container{height:88px!important;min-height:88px!important}
+ .market-strip .strip-quotes iframe{height:84px!important;min-height:84px!important}
+ /* Full Markets is in the main nav and bottom navigation, free its space for prices. */
+ .market-strip .strip-more{display:none}
+}

@@ -1,44 +1,20 @@
-# Standalone News — Expanded News Desk
+# Standalone News — Mobile ticker + footer repair (14 October 2026)
 
-This package expands the public headline feed and adds an **Outlet** selector to the Latest News Wire. It is based on the most recent SPY/QQQ TradingView cleanup layout. The Gemini publisher, its workflow, and your news databases do not need to be replaced.
+## What this fixes
+- Mobile TradingView ticker price/change line no longer intentionally crops at a 52px frame height. The market strip is taller, with an 84px mobile iframe and full-width quote area.
+- Removes TradingView's denied Treasury yield widgets from the ticker strip, Market Pulse, and Treasuries tab. No `TVC:US02Y`, `TVC:US05Y`, `TVC:US10Y`, `TVC:US30Y`, or `VIX` symbols remain in this package.
+- Removes potentially restricted CFD references from the market lists, prioritizing popular ETF/stocks such as SPY, QQQ, DIA, IWM, NVDA, AAPL, GLD, USO and bond ETFs.
+- Keeps a clearly labeled bond ETF tab (TLT, IEF, SHY, BND) and includes an official U.S. Treasury yield-table link; these are **not** the same as Treasury bond prices or yields.
+- Removes the two RSS links from the site footer. On iPhone, the raw XML that opens from those links is technically normal, but confusing. The RSS feeds and `<link rel=alternate>` discovery metadata remain available for readers and bots.
+- Cache-busting query strings updated, so browsers should load the new CSS and JS.
 
-## Install on GitHub
+## Install
+1. Download the ZIP, extract files.
+2. In https://github.com/StandaloneNews/standalone-news-website, upload **index.html**, **newsroom.css**, **newsroom.js**, **markets-fix.js** directly to the repository ROOT (replace existing).
+3. Commit to main and wait for Cloudflare's deployment.
+4. On mobile, close/reopen the Safari tab or clear website data if the old display is cached. Desktop can use Ctrl+Shift+R.
+5. Check the top market tape and the Markets section, then test footer links. RSS is still available at `/feed.xml` and `/articles/feed.xml` for subscribers, but these aren't meant to be browsed directly on iPhone.
 
-Repository: https://github.com/StandaloneNews/standalone-news-website
-
-### A. Update RSS script (inside the `scripts` folder)
-
-1. Open `https://github.com/StandaloneNews/standalone-news-website/blob/main/scripts/update_news.py`.
-2. Click Edit (pencil icon). Replace its contents with the **`scripts/update_news.py`** included here, then commit to `main`.
-3. Do NOT place an extra `update_news.py` in the root directory. It must be `scripts/update_news.py`.
-
-### B. Update homepage files (repository root)
-
-Upload/replace these FOUR files at the repository **root** (not inside `scripts`):
-- `index.html`
-- `newsroom.js`
-- `newsroom.css`
-- `markets-fix.js`
-
-The markets file is the unchanged compatible version from the SPY/QQQ update. If you've customized market data since then, keep your newer `markets-fix.js` instead.
-
-You can upload the four files through **Add file → Upload files**, commit to `main`.
-
-### C. Refresh the headlines
-
-Open the repository **Actions** tab and select the scheduled news-update workflow. Click **Run workflow** on branch `main`. Check the step named **Refresh public RSS headlines**. It logs reachable feeds and names of feeds that failed. A few unreachable feeds are normal: feeds can be removed or rate-limited by publishers.
-
-After the job completes and commits its updated `data/news.json`, Cloudflare must deploy the new commit. Refresh `https://standalonenews.com/#wire` with Ctrl+Shift+R.
-
-## What changes
-
-- 49 publisher/agency RSS feeds or Google News discovery queries in total.
-- Added a wider mix of publisher sources: BBC News, PBS News, CNBC, The Guardian, NPR, Deutsche Welle, Al Jazeera English, TechCrunch, The Verge, plus Reuters, AP, Bloomberg, CNN, ABC, CBS, NBC, Fox News, POLITICO, Axios, MarketWatch, Yahoo Finance, and The Hill via discovery feeds.
-- The feed is capped at 180 headlines, with diversity rules so an individual publisher doesn't take over the page.
-- Official Fed/BLS/DOJ/SEC/FDA/DEA sources remain eligible for the separate Gemini explainer publisher.
-- The Latest News Wire gains a **news outlet** dropdown, and the header reports how many outlets are present in the current data.
-- Existing market widgets, SPY/QQQ, 24-hour UTC timestamps, saved stories, the briefing, and AI explainers stay in place.
-
-## Important
-
-News discovery links from Google News sometimes go through a Google News redirect before opening a publisher. This setup displays headlines and links, not full syndicated articles. Publishers' feed terms vary, and you should review relevant permissions before using third-party feeds in a monetized product. The number of outlets available at any moment depends on how many feeds are reachable and have current headlines. This ZIP was syntax-tested and its feed processing was tested with local sample data; live fetching and Cloudflare deployment must still be verified.
+## Caveats
+- TradingView is a third-party embed: its layout, market access and iframe availability cannot be guaranteed. This patch fixes our site's CSS container sizing and removes the symbols you reported, but must be verified on your live phone.
+- No website edits have been made on GitHub or Cloudflare. No change to AI authoring, RSS collection, or X bot.
