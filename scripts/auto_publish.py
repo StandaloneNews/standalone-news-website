@@ -37,34 +37,71 @@ SENSITIVE=re.compile(r'\b(election|ballot|vote counting|candidate|assassination|
 MAX_DAY=2
 MIN_INTERVAL_HOURS=5
 
+# Public agencies use several page layouts: <main>, <article>, #content,
+# .main-content, and sometimes only body paragraphs. Prefer article containers
+# but fall back to body paragraphs, excluding navigation and boilerplate.
+CONTENT_HINT = re.compile(r'(?:^|[-_\s])(content|article|main|press-release|news-release|release-body|page-body)(?:$|[-_\s])',re.I)
+NOISE_HINT = re.compile(r'(?:^|[-_\s])(nav|menu|sidebar|footer|header|cookie|banner|related|social|share)(?:$|[-_\s])',re.I)
+VOID_TAGS = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
+TEXT_TAGS = {'p','li','h2','h3'}
+BAD_TAGS = {'script','style','noscript','nav','footer','header','aside','form','svg','template'}
+
 class PageText(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.stack=[];self.parts=[];self.buf=[];self.capture=False;self.depth=0
+        self.stack=[]
+        self.current=None
+        self.focused=[]
+        self.body=[]
+
     def handle_starttag(self,tag,attrs):
-        tag=tag.lower();self.stack.append(tag)
-        if tag in ('p','h2','h3','li') and ('main' in self.stack or 'article' in self.stack):
-            if not any(t in self.stack for t in ('nav','footer','aside','script','style','form')):
-                self.capture=True;self.depth=len(self.stack);self.buf=[]
+        tag=tag.lower()
+        if tag in VOID_TAGS:return
+        attributes={k.lower():(v or '') for k,v in attrs}
+        hints=' '.join([attributes.get('id',''),attributes.get('class','')])
+        parent_excluded=any(node['exclude'] for node in self.stack)
+        excluded=parent_excluded or tag in BAD_TAGS or bool(NOISE_HINT.search(hints))
+        parent_focused=any(node['focused'] for node in self.stack)
+        focused=not excluded and (parent_focused or tag in ('main','article')
+                 or attributes.get('role','').lower()=='main' or bool(CONTENT_HINT.search(hints)))
+        node={'tag':tag,'exclude':excluded,'focused':focused,'capture':None}
+        self.stack.append(node)
+        if tag in TEXT_TAGS and not excluded and not self.current and any(n['tag']=='body' for n in self.stack):
+            node['capture']={'text':[],'focused':focused}
+            self.current=node['capture']
+
+    def handle_startendtag(self,tag,attrs):
+        # Void tags should not change the ancestor stack.
+        return
+
     def handle_data(self,text):
-        if self.capture:self.buf.append(text)
+        if self.current and not any(n['exclude'] for n in self.stack):
+            self.current['text'].append(text)
+
     def handle_endtag(self,tag):
-        if self.capture and len(self.stack)==self.depth and self.stack[-1]==tag:
-            value=re.sub(r'\s+',' ',' '.join(self.buf)).strip()
-            if len(value)>45:self.parts.append(value)
-            self.capture=False;self.buf=[]
-        if tag in self.stack:
-            while self.stack:
-                t=self.stack.pop()
-                if t==tag:break
+        tag=tag.lower()
+        # Real-world agency HTML sometimes contains mismatched closing tags.
+        while self.stack:
+            node=self.stack.pop()
+            if node['capture'] is self.current and self.current:
+                value=re.sub(r'\s+',' ',' '.join(self.current['text'])).strip()
+                if len(value)>=46:
+                    if self.current['focused']:self.focused.append(value)
+                    self.body.append(value)
+                self.current=None
+            if node['tag']==tag:break
 
 def parse_source_page(content:bytes):
-    p=PageText();p.feed(content.decode('utf-8','replace'))
-    # Deduplicate repeated section content.
+    parser=PageText()
+    parser.feed(content.decode('utf-8','replace'))
+    # Use the focused extraction where it is substantive; otherwise
+    # try the full body while still excluding sidebars and navigation.
+    parts=parser.focused if sum(map(len,parser.focused))>=600 else parser.body
     unique=[];seen=set()
-    for item in p.parts:
-        key=item.casefold()
-        if key not in seen:seen.add(key);unique.append(item)
+    for part in parts:
+        key=part.casefold()
+        if key not in seen and not re.search(r'^please enable javascript',key):
+            seen.add(key);unique.append(part)
     return '\n'.join(unique)[:11000]
 
 def official_url(url):
@@ -88,7 +125,7 @@ def fetch_official(url):
         raw=resp.read(550001)
         if len(raw)>550000:raise ValueError('Source too large')
     content=parse_source_page(raw)
-    if len(content)<750:raise ValueError('Insufficient article evidence')
+    if len(content)<750:raise ValueError(f'Insufficient article evidence ({len(content)} characters extracted; minimum 750)')
     return content
 
 def normalized(s):return re.sub(r'\s+',' ',s).strip().casefold()
@@ -238,7 +275,17 @@ def main():
     already={r['source_url'] for r in records}
     candidates=[s for s in feed.get('items',[]) if s.get('source_type') in ('Official direct','Official register') and official_url(s.get('url','')) and s.get('url') not in already and not SENSITIVE.search(s.get('title',''))]
     print(f'Found {len(candidates)} eligible primary-source candidates')
-    for story in candidates[:5]:
+    # Diversify attempts so five short Federal Reserve notices do not starve
+    # longer DOJ, FDA, SEC, or other official agency announcements.
+    selected=[];per_source={}
+    for candidate in candidates:
+        source_name=candidate.get('source','Unknown')
+        if per_source.get(source_name,0)>=3:continue
+        selected.append(candidate)
+        per_source[source_name]=per_source.get(source_name,0)+1
+        if len(selected)>=12:break
+    print(f'Checking up to {len(selected)} candidates across {len(per_source)} sources')
+    for story in selected:
         try:
             source=fetch_official(story['url'])
             value=generate_ai(story,source,key)
