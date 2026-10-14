@@ -1,13 +1,14 @@
-name: Update public news feed
+name: Update news and publish official-source explainers
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Use this same group for other workflows that write to main.
 concurrency:
   group: standalone-news-main-writes
   cancel-in-progress: false
@@ -15,8 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 15
     steps:
       - name: Check out website
         uses: actions/checkout@v4
@@ -28,20 +28,43 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Check article publishing files
+        run: |
+          test -f scripts/update_news.py || { echo 'Missing scripts/update_news.py'; exit 1; }
+          test -f scripts/auto_publish.py || { echo 'Missing scripts/auto_publish.py (it must not be at the repository root)'; exit 1; }
+          test -f data/articles.json || { echo 'Missing data/articles.json (it must not be at the repository root)'; exit 1; }
+
       - name: Refresh public RSS headlines
         run: python scripts/update_news.py
 
-      - name: Commit public headline data only
+      - name: Publish strictly sourced AI explainers (if enabled)
+        env:
+          AUTO_PUBLISH_ENABLED: ${{ vars.AUTO_PUBLISH_ENABLED || 'false' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash-lite
+        run: python scripts/auto_publish.py
+
+      - name: Commit news and article data
         run: |
-          git config user.name "Standalone News Feed Bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add data/news.json feed.xml
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Refresh Standalone News headlines"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          else
-            echo "No new headlines to commit."
+          git config user.name 'Standalone News Feed Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json data/articles.json feed.xml sitemap.xml articles/
+          if git diff --cached --quiet; then
+            echo 'No headline or article changes to commit.'
+            exit 0
           fi
+          git commit -m 'Refresh headlines and sourced explainers'
+
+          # Rebase once before pushing and retry a racing push without overwriting history.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Updated headlines and articles on main.'
+              exit 0
+            fi
+            echo "Push raced with another change; retrying attempt $attempt..."
+            sleep 5
+          done
+          echo 'Unable to push after 3 attempts; inspect another workflow writing to main.' >&2
+          exit 1
