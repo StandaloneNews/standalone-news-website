@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-10-15T03:53:57+00:00",
+  "updated_at": "2026-10-15T04:13:26+00:00",
   "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
     "20a80e660d5384fd45df7b39",
     "3033c5157a720fca249515ae",
+    "fdadce39339e52e54e8db5cf",
     "c487f97982d35f8d1cb18bd3",
     "94b3e2a7948190fe7ff99e7c",
     "59a71f51ed8a91025356f6b3",
-    "f251f879b2c890ec3b42c604",
-    "45c3e595af59755e45830a37",
+    "b332ecf33399be9df38318c7",
     "62dfba292a2b777e2c69255c",
     "358ec50450d421f33a84839f",
+    "80e5ace2a92f85085c5e0b11",
     "0e3c76f703003599c1eb68f8",
     "637e36cdc72e6d2267de7542",
     "a6065ae02c332c6028839fba",
     "1d9d814de7faa1f2d7f1b9c6",
-    "a18bc2c952e9c2c9c4149127",
     "9c2e70ef035e5c9105ceefde",
+    "797677cbf7fb09ea88763049",
     "b6037507a65b5ab6449ecda5",
     "d412f0f92353479b3694c240",
-    "797677cbf7fb09ea88763049",
     "e5e1f3de31183b549a8d82da",
     "e08e0dcc35077df11a6139fa",
     "96faa508b0e30813b50f2c74",
@@ -32,17 +32,76 @@
   "image_policy": "Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.",
   "items": [
     {
-      "id": "35c422e411c04f95ed31893c",
-      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
-      "summary": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
-      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "id": "ad1d546557b55a12edad59d2",
+      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
+      "summary": "\"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.",
+      "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
       "source": "CNBC",
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T03:48:58+00:00",
+      "published_at": "2026-10-15T04:11:52+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Ввласенко",
+        "license": "CC BY-SA 3.0",
+        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
+        "label": "Illustrative photo",
+        "matched_query": "Ukraine Kyiv"
+      }
+    },
+    {
+      "id": "b93810a51212f183c21215d5",
+      "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
+      "summary": "Oil fell Thursday, as traders assessed attacks on ships passing through Hormuz, while digesting the International Energy Agency's latest monthly report.",
+      "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T04:09:18+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
+    },
+    {
+      "id": "3ed6fd32b559987cff7f1f6b",
+      "title": "Everyone has the same question in the midterms — where's the beef? (And how much does it cost?) - WSLS",
+      "summary": "Everyone has the same question in the midterms — where's the beef? (And how much does it cost?) WSLS",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVlh2cG9nNFJGcEsxT0Z2Y1lSZmI5VFZCWDdFbkQ4WElKSkRrSXRBU2UxN3lSZnEtUTRYdHJiUHU3WHNtSmpKN291MkFlaU9yQVlDTXlDdWFoLUJSZmE0eUZMQWVFOC1hZGtpYlpaV19XNEt3SURsMXBMVHdOS3VVUU9rZEstSFQ1YjlwWWdlTmhZOHlXdVhUeGVBX25hRTdjZm9XaFd1LXdMdENGTFVGYVAxbUhKU0hBMlRrc0tuUlpwci1NN2UxVU1uLWVIdVR4?oc=5",
+      "source": "WSLS",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:06:57+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8c55985334d5552097cb1d69",
+      "title": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ - The Washington Post",
+      "summary": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdG1RTmwxOTA5VWVBajRaMTFsZG9Tcm9OLUxvY1dCS1hiaDZKS3dhTFUxMzVxRmlEeXYyY2FCQ3VFQWJMUWE4NkcteDZjTC1zdC1CQVNRYUU5c1l4YzF3NU5Bb2xRYURDZWplVy13M1lwTF9qdk8tZjdZWW5aenpBWW5CUUR4UjVDeFBac1doUF84LVQ3dHoyTEprQjZJdVBIdjVXdGt2VWVRYU5ZX1lqNXRvdGJ4ckJtUkthM2NhdEx3c1lwbkZJ?oc=5",
+      "source": "The Washington Post",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:03:45+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf/page1-960px-CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle,_(April_18,_2022).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "United States House Select Committee on the January 6 Attack",
+        "license": "Public domain",
+        "description": "Deposition of Kimberly Guilfoyle, (April 18, 2022) for the United States House Select Committee on the January 6 Attack.",
+        "label": "Illustrative photo",
+        "matched_query": "After Guilfoyle"
+      }
     },
     {
       "id": "cfc366382975c0312bbd1d25",
@@ -53,7 +112,7 @@
       "feed_id": "guardian_world",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T03:44:50+00:00",
+      "published_at": "2026-10-15T03:59:31+00:00",
       "desk_priority": 29,
       "selection_type": "automatic",
       "image": {
@@ -66,6 +125,32 @@
         "label": "Illustrative photo",
         "matched_query": "Australian"
       }
+    },
+    {
+      "id": "d84aa68a87d59ddc23c3d6b2",
+      "title": "Argentina’s Milei backs Trump for US midterms, calls vote crucial for West",
+      "summary": "The US President's ally says conservatives “cannot give an inch” in Latin America as he accepts an award in Washington.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/argentinas-milei-backs-trump-for-us-midterms-calls-vote-crucial-for-west?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:50:14+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "35c422e411c04f95ed31893c",
+      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+      "summary": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
+      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:48:58+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
     },
     {
       "id": "7b6c1a02311ecf5914bcbbd5",
@@ -86,11 +171,11 @@
       "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
       "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
+      "feed_id": "bbc_world",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T03:33:08+00:00",
-      "desk_priority": 38,
+      "desk_priority": 29,
       "selection_type": "automatic",
       "image": {
         "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fragment_of_an_Egyptian_Textile%2C_circa_700-1000_CE%2C_depicting_the_anthropic_figure_of_Anthousa%2C_a_rarely_depicted_divinity%2C_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum%2C_Cambridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -115,6 +200,29 @@
       "published_at": "2026-10-15T03:30:42+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:30:21+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
+        "source": "Wikimedia Commons",
+        "creator": "FrontierEnviro",
+        "license": "CC BY-SA 3.0",
+        "description": "Animal tracking ; Garmin GPS 60",
+        "label": "Illustrative photo",
+        "matched_query": "Tracking"
+      }
     },
     {
       "id": "60412c19255771c4a0d61742",
@@ -163,27 +271,17 @@
       }
     },
     {
-      "id": "ad1d546557b55a12edad59d2",
-      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
-      "summary": "\"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.",
-      "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
+      "id": "859bb261c248efff0d793719",
+      "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
+      "summary": "Thick orange smog descended on the Indonesian city of Palangka Raya as wildfires continue raging nearby.",
+      "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T03:24:36+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Ввласенко",
-        "license": "CC BY-SA 3.0",
-        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
-        "label": "Illustrative photo",
-        "matched_query": "Ukraine Kyiv"
-      }
+      "published_at": "2026-10-15T03:26:36+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
     },
     {
       "id": "02f3c301d73c901d56038e1d",
@@ -531,27 +629,17 @@
       }
     },
     {
-      "id": "8c55985334d5552097cb1d69",
-      "title": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ - The Washington Post",
-      "summary": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdG1RTmwxOTA5VWVBajRaMTFsZG9Tcm9OLUxvY1dCS1hiaDZKS3dhTFUxMzVxRmlEeXYyY2FCQ3VFQWJMUWE4NkcteDZjTC1zdC1CQVNRYUU5c1l4YzF3NU5Bb2xRYURDZWplVy13M1lwTF9qdk8tZjdZWW5aenpBWW5CUUR4UjVDeFBac1doUF84LVQ3dHoyTEprQjZJdVBIdjVXdGt2VWVRYU5ZX1lqNXRvdGJ4ckJtUkthM2NhdEx3c1lwbkZJ?oc=5",
-      "source": "The Washington Post",
-      "feed_id": "us",
-      "category": "US News",
+      "id": "5989ddaf36b7539d1d771659",
+      "title": "Extreme weather - The Guardian",
+      "summary": "Extreme weather The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
+      "source": "The Guardian",
+      "feed_id": "world",
+      "category": "World",
       "source_type": "Google News",
-      "published_at": "2026-10-15T02:33:45+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf/page1-960px-CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle,_(April_18,_2022).pdf",
-        "source": "Wikimedia Commons",
-        "creator": "United States House Select Committee on the January 6 Attack",
-        "license": "Public domain",
-        "description": "Deposition of Kimberly Guilfoyle, (April 18, 2022) for the United States House Select Committee on the January 6 Attack.",
-        "label": "Illustrative photo",
-        "matched_query": "After Guilfoyle"
-      }
+      "published_at": "2026-10-15T02:39:01+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
     },
     {
       "id": "99787b1b6ee0f82111a00405",
@@ -577,29 +665,6 @@
       }
     },
     {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "nbc",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T02:30:21+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
-        "source": "Wikimedia Commons",
-        "creator": "FrontierEnviro",
-        "license": "CC BY-SA 3.0",
-        "description": "Animal tracking ; Garmin GPS 60",
-        "label": "Illustrative photo",
-        "matched_query": "Tracking"
-      }
-    },
-    {
       "id": "d8f0d3374a97ab4aa5934964",
       "title": "Republicans brace for three-way leader fight if they lose - Axios",
       "summary": "Republicans brace for three-way leader fight if they lose Axios",
@@ -610,6 +675,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:27:37+00:00",
       "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4b22ffd17b7b9ac625f3b1cb",
+      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T02:26:07+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -841,19 +919,6 @@
         "label": "Illustrative photo",
         "matched_query": "Dollar"
       }
-    },
-    {
-      "id": "5989ddaf36b7539d1d771659",
-      "title": "Extreme weather - The Guardian",
-      "summary": "Extreme weather The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
-      "source": "The Guardian",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T01:38:42+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
     },
     {
       "id": "6dc7a337a35f92dcc5a07747",
@@ -1205,6 +1270,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "b332ecf33399be9df38318c7",
+      "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus - Stocktwits",
+      "summary": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOTzZEVWNBejE5VXhPNGlKVVhoMXZRNG9MTHNxWVkwc21rbkJ2REJ4ek9QZ0U0aFhTaWpKQ1BEZ2V1ZTFMTVlFNk1KSXN2VUppWUdRS0RaSENPN2JTSTBqVWpWdHlCU2VjMDlybExGUGZ0ZmRWNG9ET1NNSlp0WmNXZTItbkk1cUJWTUczWUNXWTIyYUlzTjBzXzRpX3NNaVBocVFEWEpMWUxpSHZBSmp3eVVaZ0xBaXMwaFE3UUFaUWduUUkzTUgtaEtOVXloMDRFeWZHOXVaUHY3bWZQUE1WM3RyQVg0T2JwaklmcVNPeDBNa3VHQmRmWFh6aE1kd3Vlbnd1d1BpQloyLUdYQUdOMDY4Q0VaekI3RTJjVA?oc=5",
+      "source": "Stocktwits",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T00:11:19+00:00",
+      "desk_priority": 81,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Corner_Store_Russ_Economy_Supperette.jpg/1280px-Corner_Store_Russ_Economy_Supperette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Corner_Store_Russ_Economy_Supperette.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Karen Apricot",
+        "license": "CC BY-SA 2.0",
+        "description": "Corner grocery store in New Orleans, vacant since Katrina. Frenchmen Street at N. Johnson.",
+        "label": "Illustrative photo",
+        "matched_query": "United States economy shopping grocery store"
+      }
+    },
+    {
       "id": "ca3e95c9c0311d27817a3d53",
       "title": "Mexican court closes case against official over 2023 detention centre fire",
       "summary": "Victims' groups, however, have denounced the ruling as 'selective' justice that exonerates the former migration chief.",
@@ -1401,6 +1489,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T23:48:45+00:00",
       "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "dcb67c514dae39ff49d45404",
+      "title": "Gymnastics coach who recorded girls in Mississippi gym's bathroom sentenced to 90 years in prison - CBS News",
+      "summary": "Gymnastics coach who recorded girls in Mississippi gym's bathroom sentenced to 90 years in prison CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeElnc3RSTHpwZGdLdVdxTkhfWFN3aXN1d1lkTXNwYmlYUDIwUG5OSHdoZmRsSnRSaE92MHdSaGJYSnd3b1dha05kZHIwdWtPWGhCR01BMVJSYlpjc0FRczFIcnFHSVZOLTRER0tJeEZNLTExMmowVzR0ckZWM282Q2JKR2Vjd0JGZmRlNW9oOUM?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:47:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1779,6 +1880,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T22:45:37+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "64b02c86387866c9ae634ad3",
+      "title": "US states seek children's data protections in Character.AI bankruptcy - Reuters",
+      "summary": "US states seek children's data protections in Character.AI bankruptcy Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRk9YSG1oZDF4akxVNEpuWGtraGt1eWlDTjh5ZzJfd2JuNndOVTZObmMwXzFZY2haVGZNUUVQOXloMWMtQzNmSDJJZnN4cWY3MXlvdnFPRDU4eGxUbjN0elNUV0NrM09yaWFPazN5Y2JSbTJVWjdPcVB6X21oR2hHa1ZSb3ppWXdiLTZKSTllZW1uU1RjNUlMTUtCZ1RZX1VwZFlCcFh3VHpPSWRkQXc?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T22:45:08+00:00",
+      "desk_priority": 47,
       "selection_type": "automatic"
     },
     {
@@ -2755,7 +2869,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T20:45:00+00:00",
       "desk_priority": 52,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "61089676864c53950bced52e",
@@ -2846,7 +2970,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T20:34:06+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "9f581cc3b654b52338ad3f91",
@@ -3044,19 +3178,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "886d648b15aead2a90bf656c",
-      "title": "How major US stock indexes fared Wednesday 10/14/2026 - AP News",
-      "summary": "How major US stock indexes fared Wednesday 10/14/2026 AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWE4SmNWbEVCMk5XQkh0ZXFMMEdVUTFUcDVrUUVYOFY0Zk1wQk55VURXRWU5OVpqU2xMSV9MWlNTMjJQQXhNR2NmX3RNVkExTVRFWjJKaS1CNndocWFGWEplYVlKNmpHWHduSHVMWmhKUzhjSldrT1YwSGxmU0M2UTFDSDJBWExSOTNvWGI2cVU3WXc?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T20:19:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "84d1f4b511709c6aea5a5e86",
       "title": "Amid Ukraine uproar, Musk says decisions to restrict Starshield up to president - The Hill",
       "summary": "Amid Ukraine uproar, Musk says decisions to restrict Starshield up to president The Hill",
@@ -3067,6 +3188,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T20:19:00+00:00",
       "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "886d648b15aead2a90bf656c",
+      "title": "How major US stock indexes fared Wednesday 10/14/2026 - AP News",
+      "summary": "How major US stock indexes fared Wednesday 10/14/2026 AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWE4SmNWbEVCMk5XQkh0ZXFMMEdVUTFUcDVrUUVYOFY0Zk1wQk55VURXRWU5OVpqU2xMSV9MWlNTMjJQQXhNR2NmX3RNVkExTVRFWjJKaS1CNndocWFGWEplYVlKNmpHWHduSHVMWmhKUzhjSldrT1YwSGxmU0M2UTFDSDJBWExSOTNvWGI2cVU3WXc?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:19:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -3187,19 +3321,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "7131b7964d5de00579030ec8",
-      "title": "As Ukraine struggles with Starlink and US satellite data, Europe has no quick fix - Reuters",
-      "summary": "As Ukraine struggles with Starlink and US satellite data, Europe has no quick fix Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa3dydXBrSC1NYlBrVXhkeFhyYWJzbGM2X3ZGQ3pMMXljNFYzbzNXSW1WQXl2TTM4U0lrQ3BqZnhlNk9DQmZ2Qm5ISmRCZ1EyOWZic25OenA0NmVySlJoc2ZfNldiNlVkZUZveExMdU96blJnTU9vSzhZRkRXV2hLRUNYZkgxbUJGX0VDV2tuZ0EtUURTVnZCNTJDd3c1M3RnazkxMTRWRFNzY1FzalpTSUp1WmtDdzRWZlhZUGI0U1FtWlpnQ280U3BMWGs?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T20:04:48+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "fa361691c0a6800a4ded6ec7",
       "title": "Microsoft and Japan took down a cybercrime network behind over a billion scam messages",
       "summary": "We've all gotten a scam text about a nonexistent parking ticket or a fake package delivery, but hopefully you'll start seeing fewer of them. Microsoft says it helped dismantle a marketplace for scammers sending phishing messages like those around the world. Through an investigation with Japan's National Police Agency, it tracked scam activity back to […]",
@@ -3211,6 +3332,29 @@
       "published_at": "2026-10-14T20:03:43+00:00",
       "desk_priority": 26,
       "selection_type": "automatic"
+    },
+    {
+      "id": "797677cbf7fb09ea88763049",
+      "title": "New inflation warning sign - Axios",
+      "summary": "New inflation warning sign Axios",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tdzlyQnRBa1lENEhRS2N2bXY5alhKUGVxTzFDSFcwRk42ZTQzTmNPOFNFQUVGb1R2dHBOTnM3ZGo3TEJWd2FQcHdrVFdqdTRXZURROWQ0dUNrd25FMGVVblZCR3gwRFpZQjE4?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:01:27+00:00",
+      "desk_priority": 59,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "336c85b7372552af62de37dd",
@@ -3613,6 +3757,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "64d54baa2d623207d5e83aed",
+      "title": "Judge extends pause on taxpayer-funded Trump ads - Politico",
+      "summary": "Judge extends pause on taxpayer-funded Trump ads Politico",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVzlocFpMSlFlNy1NTHBNaEg0ZzNTcWZGTW1oX1N2MUpkRXd2ckVPMEhKVnRmYnVSWUF4UHJ1TjREZGs5Q0RjX2cwWGJ3dkxRR1g3bzlneEV5OERiWHUzSEJRbTlRVEJjdDJ5YkRlcTdERU9wMTUtT2tEQkdmZC1zc1phc1I2eTNXeHUtVGpNOUdOOUtvMlNMRg?oc=5",
+      "source": "Politico",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:02:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6593b2bbec903399046b8114",
       "title": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story",
       "summary": "Article in Atlantic claims The Blue Fighter was artificially generated, days after it won Caine prize for African writers The Zimbabwean writer Simbarashe Kundizeza has denied using AI to write a prize-winning short story after an article in the Atlantic said software had flagged it as almost completely AI-generated. Kundizeza’s story The Blue Fighter was announced as the winner of the prestigious Caine prize for African writers on 6 October. Five days later, The Atlantic published an article by the author and journalist Vauhini Vara titled: “Yet Another Literary prize winner Seems to Be AI.” Continue reading...",
@@ -3648,6 +3805,19 @@
       "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-14T19:00:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7131b7964d5de00579030ec8",
+      "title": "As Ukraine struggles with Starlink and US satellite data, Europe has no quick fix - Reuters",
+      "summary": "As Ukraine struggles with Starlink and US satellite data, Europe has no quick fix Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa3dydXBrSC1NYlBrVXhkeFhyYWJzbGM2X3ZGQ3pMMXljNFYzbzNXSW1WQXl2TTM4U0lrQ3BqZnhlNk9DQmZ2Qm5ISmRCZ1EyOWZic25OenA0NmVySlJoc2ZfNldiNlVkZUZveExMdU96blJnTU9vSzhZRkRXV2hLRUNYZkgxbUJGX0VDV2tuZ0EtUURTVnZCNTJDd3c1M3RnazkxMTRWRFNzY1FzalpTSUp1WmtDdzRWZlhZUGI0U1FtWlpnQ280U3BMWGs?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T18:58:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -3779,7 +3949,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T18:37:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Tyler Merbler from USA",
+        "license": "CC BY 2.0",
+        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
     },
     {
       "id": "727d6de16d7f61a202ecf280",
@@ -4299,136 +4479,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T17:00:14+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "30ab1d5767909fc8e5d17776",
-      "title": "Mosqitter is turning its mosquito traps into an AI-powered surveillance network",
-      "summary": "Mosqitter is turning its mosquito-trapping hardware into an AI-powered surveillance network designed to identify species, monitor populations, and provide earlier warnings of mosquito-borne disease risks.",
-      "url": "https://techcrunch.com/2026/10/14/mosqitter-is-turning-its-mosquito-traps-into-an-ai-powered-surveillance-network/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T17:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "41e5bea0f2c98d88924dcfd7",
-      "title": "Judge extends order restoring White House access for POLITICO, CNN and MS NOW - Politico",
-      "summary": "Judge extends order restoring White House access for POLITICO, CNN and MS NOW Politico",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51UFE4SUZXaUNVRVdUeFp5SXh4OWNmQmdqeF9OUUFDTFpXd1MtWHM3bjE4c1lLbUo0SHZEVWhhaVRvUXVEOFd5dGR0QWt3aHA0ZUFXYldNTnR2VEppSVZrdndDYlZhLUZoblFxSV9scW1UQ2xqT21WTA?oc=5",
-      "source": "Politico",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:58:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3c189b291ad280ddaa0f678a",
-      "title": "Sally Rooney books withdrawn in UK over Palestine Action support",
-      "summary": "The Irish writer is best known for novels such as Normal People, Intermezzo and Conversations With Friends.",
-      "url": "https://www.bbc.co.uk/news/articles/cmx23q4g307vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:56:21+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "748986673631f766b8fc7122",
-      "title": "Business Events 2026: Strategic Drivers of Economic Growth and Global Connection - News and Statistics - IndexBox",
-      "summary": "Business Events 2026: Strategic Drivers of Economic Growth and Global Connection - News and Statistics IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS0pYMUFpcTJGcWhHUzNGajVKLW9jU1dQVG45OUlHdmRNUk00cjRYb1hMRDZ4UU92TWtFODVvQ1ZQM2prSmxDaGFpa3loWnA1QjUtTk1WVE1wb1pnR2lPWjRVOEl1d1BzX21vQXlHc2xBdUNuNGVLWUVBRC10aW1SUTVqUHpUUDJvUS1hRF9DNmFYNFFac0RfcTJfaV83c2s3UTJzazhPQjI4NHI0WHM0NW1n?oc=5",
-      "source": "IndexBox",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:51:16+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "96628ec4f87e7a8ae22770b2",
-      "title": "The Space Force Showed Us Its Weapons Used in Iran and Venezuela",
-      "summary": "Space Force electromagnetic-warfare systems are playing a key role in U.S. military operations around the world. WSJ’s Shelby Holliday visited a base in Colorado to learn more.",
-      "url": "https://www.wsj.com/us-news/the-space-force-showed-us-its-weapons-used-in-iran-and-venezuela-6d87c33f?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:51:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7d9445ada992e937f180c5b6",
-      "title": "How high inflation became a 'fact of life' in the U.S. - CNBC",
-      "summary": "How high inflation became a 'fact of life' in the U.S. CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRTItTVVKcFEteEhCNWJwdG90cHZVTkVqMHpwSGszbmxmbmYxVjZQNlR4MVV4QVJWQ180aFBLUklsa01JLXktNXpoMjBiaHcyMFNxUWY1Ujhhc0stN1gtamNGNGxhWVRXbXVTNXR1dHFyWWtaRjhF0gF8QVVfeXFMTkVVaThocGI3cW00b25FU01ER1B3Nk9BMXFLckdXWEpuMXhWYW9faU9ZbE9veVAxODBZdEM2REpBR0dqeXNFeXEweS1EY1VmMGdoUXZFMDhkUkRFaTVGSGFrd1VRbUhlYTZiSDFBV2tLZlFNOWtCM0lZZHBxWA?oc=5",
-      "source": "CNBC",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:49:18+00:00",
-      "desk_priority": 66,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d99898d8d7f4f5f918b975fe",
-      "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
-      "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
-      "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:47:32+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a82ad19439782bce27e9e794",
-      "title": "Social Security recipients will see rise in monthly payments next year - Axios",
-      "summary": "Social Security recipients will see rise in monthly payments next year Axios",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwQy1mMThWZ21XeXBmd2N2andMZnN2NUNmS3RBSURvMUVVRW9PWGw1RjRKWUpaSEs0bE1OekxVdlJZT2V2MkxjOThDaDZYZHhKZXFYanl4ZUl1bm1TejhXWXlMZjNfNkc0MzI4U2pkZGI?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:46:33+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2ab085e761edd213f21e7327",
-      "title": "Trump's diesel dilemma — by the numbers",
-      "summary": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
-      "url": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:45:26+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d0c43ffec7019b09f5bec4b5",
-      "title": "The eyes have it: Reform politician’s ‘smart glasses’ prompt calls for ban in Westminster",
-      "summary": "Jason O’Connell’s suspected use of the specs to aid his speech in Senedd reignites debate over AI-enabled devices It was a flowing speech packed full of precise statistics – but Jason O’Connell, a Reform UK Senedd member, was not quite the gifted orator he had first appeared. The periodic flashing in his spectacles seemed to give the game away as he spoke for five minutes in the Senedd chamber without a glance at his notes. “Cardiff reviewed 192 roads, following 933 requests, and only four routes have returned to 30mph,” he said as he led the party’s charge to abolish 20mph traffic zones. “£38.3m wasted to implement this policy and up to £8.9bn in an act of economic self-harm.” Continue reading...",
-      "url": "https://www.theguardian.com/technology/2026/oct/14/smart-glasses-ai-technology-reform-senedd-westminster-ban",
-      "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:43:27+00:00",
-      "desk_priority": 26,
       "selection_type": "automatic"
     }
   ]
