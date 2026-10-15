@@ -437,70 +437,119 @@ def search_pexels(query: str) -> list[dict]:
     return photos
 
 
+# A photo is only appropriate when a concrete, photographable entity is present
+# in the actual headline. Do not turn broad concepts like "markets", "inflation",
+# "stocks", "CPI", or a publisher's brand into a random street or store photo.
+SPECIFIC_IMAGE_SUBJECTS = {
+    'federal reserve': 'Federal Reserve building Washington DC',
+    'fed chair': 'Federal Reserve building Washington DC',
+    'jerome powell': 'Federal Reserve building Washington DC',
+    'powell': 'Federal Reserve building Washington DC',
+    'fomc': 'Federal Reserve building Washington DC',
+    'white house': 'White House Washington DC',
+    'supreme court': 'Supreme Court of the United States building',
+    'congress': 'United States Capitol building',
+    'senate': 'United States Capitol building',
+    'house of representatives': 'United States Capitol building',
+    'treasury department': 'United States Treasury building Washington DC',
+    'securities and exchange commission': 'United States Securities and Exchange Commission building',
+    'fda': 'Food and Drug Administration headquarters',
+    'department of justice': 'United States Department of Justice building',
+    'nvidia': 'Nvidia headquarters Santa Clara',
+    'apple inc': 'Apple Park Cupertino',
+    'microsoft': 'Microsoft headquarters Redmond',
+    'tesla': 'Tesla factory',
+    'amazon': 'Amazon headquarters Seattle',
+    'openai': 'OpenAI office',
+    'google': 'Google headquarters Mountain View',
+    'meta platforms': 'Meta headquarters Menlo Park',
+    'ukraine': 'Kyiv Ukraine skyline',
+    'russia': 'Moscow Russia skyline',
+    'china': 'Beijing China skyline',
+    'taiwan': 'Taipei Taiwan skyline',
+    'japan': 'Tokyo Japan skyline',
+    'gaza': 'Gaza skyline',
+    'israel': 'Jerusalem Israel skyline',
+    'european union': 'European Union headquarters Brussels',
+    'united nations': 'United Nations headquarters New York',
+    'oil production': 'Oil pumpjack petroleum field',
+}
+
 def candidate_queries(row: dict) -> list[str]:
-    queries=build_image_queries(row)
-    # Clear subject/location matches first; broad news-title and publisher fragments last.
-    anchors=[]
-    title=(row.get('title') or '').lower()
-    for needle,query in ENTITY_MAP.items():
-        if re.search(r'\b'+re.escape(needle)+r'\b', title):
-            anchors.append(query)
-    fallback=CATEGORY_FALLBACKS.get(row.get('category'), [])
-    return list(dict.fromkeys([*anchors[:2],*fallback[:2],*queries]))[:4]
+    title=' '.join(str(row.get('title','')).lower().split())
+    # We don't turn "economy", "stock market" or publisher source into image queries.
+    result=[]
+    for phrase, query in SPECIFIC_IMAGE_SUBJECTS.items():
+        if re.search(r'\b'+re.escape(phrase)+r'\b',title):
+            if query not in result:
+                result.append(query)
+    return result[:2]
 
+def image_is_safe(image: dict, allowed_queries: list[str]) -> bool:
+    if not isinstance(image,dict) or not image.get('thumb_url') or not image.get('page_url'):
+        return False
+    if image.get('matched_query') not in allowed_queries:
+        return False
+    license_name=image.get('license','')
+    if image.get('source')=='Wikimedia Commons' and not license_allowed(license_name):
+        return False
+    if image.get('source')=='Pexels' and license_name!='Pexels License':
+        return False
+    if image.get('source') not in ('Wikimedia Commons','Pexels'):
+        return False
+    return True
 
-def match_image(item: dict, cache: dict, *, max_queries: int = 3) -> dict | None:
-    """Only retain license metadata and never describe imagery as actual event coverage."""
+def match_image(item: dict, cache: dict, *, max_queries: int = 2) -> dict | None:
+    """Use an explicit subject or no image at all; never imply this is an event photo."""
     for query in candidate_queries(item)[:max_queries]:
         if query not in cache:
-            images = search_pexels(query) if PEXELS_KEY else []
-            if not images:
-                images = search_commons(query)
-            cache[query] = images[0] if images else None
-        result=cache.get(query)
-        if result:
-            return {'thumb_url':result.get('thumb_url',''),
-                    'page_url':result.get('page_url',''),
-                    'source':result.get('source','Wikimedia Commons'),
-                    'creator':result.get('creator',''),
-                    'license':result.get('license',''),
-                    'description':result.get('description',''),
-                    'label':'Illustrative photo','matched_query':query}
+            images = search_commons(query)
+            if not images and PEXELS_KEY:
+                images = search_pexels(query)
+            cache[query] = images[:8]
+        for result in cache.get(query) or []:
+            if result and result.get('thumb_url') and result.get('page_url'):
+                return {'thumb_url':result['thumb_url'],'page_url':result['page_url'],
+                        'source':result.get('source','Wikimedia Commons'),
+                        'creator':result.get('creator',''),
+                        'license':result.get('license',''),
+                        'description':result.get('description',''),
+                        'label':'Illustrative photo','matched_query':query}
     return None
 
-
 def attach_images(items: list[dict], featured: list[dict], previous: list[dict] | None = None) -> tuple[list[dict], int]:
-    """Attach photos to DESK PICKS FIRST, then newest stories; reuse previous good matches."""
-    previous_by_url={row.get('url'):row.get('image') for row in (previous or []) if isinstance(row,dict) and row.get('image')}
-    by_id={row.get('id'): row for row in items}
-    targets=[]; seen=set()
+    """Validate old images, then match strong entities; never reuse one image across stories."""
+    for row in items:row.pop('image',None)
+    previous_by_url={row.get('url'):row.get('image') for row in (previous or [])
+                     if isinstance(row,dict) and row.get('image')}
+    by_id={row.get('id'):row for row in items}
+    targets=[];seen=set()
     for row in [*featured,*items]:
         key=row.get('id')
         if key in seen or key not in by_id:continue
         seen.add(key);targets.append(by_id[key])
         if len(targets)>=IMAGE_LIMIT:break
-    for row in items:
-        old=previous_by_url.get(row.get('url'))
-        if old and old.get('thumb_url') and old.get('page_url'):
-            row['image']=old
-    cache={};attached=0
-    unmatched=[]
+    # Image duplicates must favor the highest-ranked top stories.
+    taken=set()
     for row in targets:
-        if row.get('image'):
-            attached+=1
-        elif len(unmatched)<MAX_NEW_LOOKUPS:
-            unmatched.append(row)
-    # Parallel I/O avoids exceeding GitHub's 12-minute workflow timeout if Wikimedia is slow.
-    # The cache is only an optimization; concurrent misses can repeat a query safely.
+        allowed=candidate_queries(row)
+        old=previous_by_url.get(row.get('url'))
+        if image_is_safe(old,allowed):
+            key=old['page_url']
+            if key not in taken:
+                row['image']=old;taken.add(key)
+    needs=[row for row in targets if not row.get('image') and candidate_queries(row)][:MAX_NEW_LOOKUPS]
+    # Resolve the independent requests in parallel. Assign results serially for uniqueness.
+    cache={}
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        jobs={pool.submit(match_image,row,cache,max_queries=2):row for row in unmatched}
-        for future in concurrent.futures.as_completed(jobs):
-            try: image=future.result()
-            except Exception: image=None
-            if image:
-                jobs[future]['image']=image
-                attached+=1
-    return items,attached
+        jobs=[(row,pool.submit(match_image,row,{},max_queries=1)) for row in needs]
+        for row,future in jobs:
+            try:photo=future.result()
+            except Exception:photo=None
+            if photo and image_is_safe(photo,candidate_queries(row)) and photo['page_url'] not in taken:
+                row['image']=photo;taken.add(photo['page_url'])
+    # Do not preserve stale mismatched images from prior feed versions.
+    return items,sum(bool(row.get('image')) for row in targets)
 
 def main() -> int:
     previous=[]
@@ -527,10 +576,10 @@ def main() -> int:
     featured_ids={i['id'] for i in featured}
     items,image_count = attach_images(items, featured, previous)
     payload={'updated_at':now.isoformat(timespec='seconds'),
-             'method':'Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved',
+             'method':'Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved',
              'sources_checked':len(FEEDS),'sources_ok':ok,
              'featured_ids':[r['id'] for r in featured],
-             'image_policy':'Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.',
+             'image_policy':'Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.',
              'items':items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
