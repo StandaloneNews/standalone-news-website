@@ -81,10 +81,17 @@
  function followButton(source){const name=text(source);const followed=state.followed.includes(name);const b=el('button','follow-source'+(followed?' on':''),followed?'Following ✓':'+ Follow source');b.type='button';b.dataset.follow=name;b.setAttribute('aria-pressed',String(followed));b.setAttribute('aria-label',(followed?'Unfollow ':'Follow ')+name);return b;}
  function renderFollowing(){const n=$('following-list'),box=$('following-section'),notes=$('following-description');if(!n||!box)return;
    const relevant=state.news.filter(x=>state.prefs.includes(x.category)||state.followed.includes(x.source));
-   box.hidden=!(state.prefs.length||state.followed.length);
-   if(box.hidden)return;
-   const picked=deskPicks(relevant).slice(0,4);n.replaceChildren();if(!picked.length){empty(n,'No new stories match your followed topics and publishers yet.');}else picked.forEach(x=>n.append(storyCard(x)));
-   if(notes)notes.textContent=state.prefs.length+' followed topics · '+state.followed.length+' followed publishers · Preferences saved in this browser';
+   box.hidden=false;
+   const picked=deskPicks(relevant).slice(0,4);n.replaceChildren();
+   if(!state.prefs.length&&!state.followed.length){
+     const panel=el('div','follow-empty');
+     panel.append(el('div','follow-empty-mark','FOR YOU'));
+     panel.append(el('h3','', 'Make this desk your own.'));
+     panel.append(el('p','', 'Follow topics or news publishers to see a personalized selection here. Your choices stay on this device.'));
+     const btn=el('button','follow-empty-action','Choose interests →');btn.type='button';btn.addEventListener('click',()=>showModal('brief-overlay'));panel.append(btn);n.append(panel);
+   }else if(!picked.length){empty(n,'No new stories match your followed topics and publishers yet.');}
+   else picked.forEach(x=>n.append(storyCard(x)));
+   if(notes)notes.textContent=(state.prefs.length||state.followed.length)?state.prefs.length+' followed topics · '+state.followed.length+' followed publishers · Preferences saved on this device':'Your followed topics and publishers will appear here after you choose them';
  }
  function actionSave(item,cls='save-small'){const saved=state.saved.some(x=>x.key===item.key);const b=el('button',cls+(saved?' on':''),saved?'♥ Saved':'♡ Save');b.type='button';b.dataset.save=item.key;b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'Remove saved story: ':'Save story: ')+item.title);return b;}
  function toast(msg){const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.hidden=true,2600);}
@@ -130,8 +137,30 @@
    const items=state.searchScope==='saved'?state.saved:pool;
    return items.filter(x=>(state.filter==='All'||x.category===state.filter||state.filter==='Markets'&&x.category==='Economy')&&(!state.outlet||x.source===state.outlet)&&(!cutoff||new Date(x.published_at).getTime()>=cutoff)&&(!term||(x.title+' '+x.source+' '+x.category+' '+(x.summary||'')).toLowerCase().includes(term)));
  }
- function renderWire(){const n=$('wire-list');n.replaceChildren();const match=searchResults();$('wire-count').textContent=match.length+' matching '+(state.searchScope==='saved'?'saved stories':'headlines and explainers')+' · Search uses published titles and summaries, not full article text';const shown=match.slice(0,state.visible);if(!shown.length){empty(n,state.error?'Unable to retrieve recent headlines. Check the feed updater.':'No items match these filters.');}
-   else shown.forEach(item=>{const row=el('article','wire-story');row.append(el('span','topic-pill',item.type==='article'?'EXPLAINER':item.category.toUpperCase()));const main=el('div');if(item.image?.thumb_url)main.append(visual(item,true));const h=el('h3');h.append(link(item));main.append(h);if(sourceExcerpt(item))main.append(el('p','wire-excerpt',sourceExcerpt(item)));main.append(el('div','card-meta',shortMeta(item)));const photo=photoCredit(item);if(photo)main.append(photo);row.append(main);const actions=el('div','wire-actions');if(item.type==='news')actions.append(followButton(item.source));actions.append(actionSave(item));actions.append(link(item,'↗'));row.append(actions);n.append(row);});$('load-more').hidden=match.length<=state.visible;}
+ function renderWire(){
+   const n=$('wire-list');n.replaceChildren();const match=searchResults();
+   $('wire-count').textContent=match.length+' matching '+(state.searchScope==='saved'?'saved stories':'stories')+' · Source-linked coverage · Titles and summaries only';
+   const shown=match.slice(0,state.visible);
+   if(!shown.length){empty(n,state.error?'Unable to retrieve recent headlines. Check the feed updater.':'No items match these filters.');}
+   else shown.forEach(item=>{
+     const row=el('article','wire-story'),media=el('div','wire-media'),main=el('div','wire-content');
+     media.append(visual(item,true));row.append(media);
+     const meta=el('div','wire-entry-top');
+     meta.append(el('span','topic-pill',item.type==='article'?'EXPLAINER':item.category.toUpperCase()));
+     if(item.type==='news'&&item.bot_selected)meta.append(el('span','wire-curation','AUTO-RANKED'));
+     main.append(meta);
+     const h=el('h3','wire-headline');h.append(link(item));main.append(h);
+     const excerpt=sourceExcerpt(item);if(excerpt)main.append(el('p','wire-excerpt',excerpt));
+     main.append(el('div','card-meta wire-byline',shortMeta(item)));
+     const photo=photoCredit(item);if(photo)main.append(photo);
+     const actions=el('div','wire-actions');
+     if(item.type==='news')actions.append(followButton(item.source));
+     actions.append(actionSave(item));
+     const read=link(item,item.type==='article'?'Read explainer →':sourceLinkText(item));read.className='wire-read';actions.append(read);
+     main.append(actions);row.append(main);n.append(row);
+   });
+   $('load-more').hidden=match.length<=state.visible;
+ }
  function renderOutletOptions(){const n=$('wire-source'),outlets=[...new Set([...state.news,...state.articles,...state.saved].map(x=>x.source))].sort((a,b)=>a.localeCompare(b));if(state.outlet&&!outlets.includes(state.outlet))state.outlet='';n.replaceChildren();const all=el('option','',`All news outlets (${outlets.length})`);all.value='';n.append(all);outlets.forEach(name=>{const opt=el('option','',name);opt.value=name;n.append(opt);});n.value=state.outlet;}
  function renderSaved(){const n=$('saved-list');n.replaceChildren();$('saved-total').textContent=String(state.saved.length);if(!state.saved.length){n.append(el('p','placeholder','No stories saved yet. Tap ♡ Save beside any article.'));$('clear-saved').hidden=true;return;}$('clear-saved').hidden=false;state.saved.forEach(item=>{const row=el('div','saved-item'),body=el('div');body.append(link(item),el('div','card-meta',item.source+' · '+utc(item.published_at,true)));row.append(body);const b=el('button','', 'Remove');b.dataset.save=item.key;b.type='button';row.append(b);n.append(row);});}
  function render(){renderHero();renderLatest();renderTop();renderBrief();renderFollowing();renderCategories();renderExplainers();renderWire();renderSaved();}

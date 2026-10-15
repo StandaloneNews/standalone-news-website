@@ -1,21 +1,46 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11283f"><meta name="description" content="How reader accounts, saved stories, browser preferences and optional newsletter data are handled."><title>Privacy Policy | Standalone News</title><link rel="icon" href="./assets/favicon.png"><link rel="stylesheet" href="./legal.css?v=1"></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11283f"><meta name="description" content="What Standalone News stores, does not ask for, and what outside services may collect."><title>Privacy Policy | Standalone News</title><link rel="icon" href="./assets/favicon.png"><link rel="stylesheet" href="./legal.css?v=14"></head>
 <body><header class="mast"><div class="mast-inner"><a href="./" class="mast-name">STANDALONE NEWS</a><a href="./" class="back">← Back to the news</a></div></header>
-<main><span class="eyebrow">STANDALONE NEWS · SITE INFORMATION</span><h1>Privacy Policy</h1><p class="lede">How reader accounts, saved stories, browser preferences and optional newsletter data are handled.</p><p class="updated">Last updated: October 15, 2026</p>
-<section><h2>Information we process</h2>
-<p>You can read public headlines without creating an account. When you create a reader account, our authentication provider, Supabase, processes your email address and login information. When you save articles while signed in, the service stores the article links and related metadata so your reading list can sync between devices.</p>
-<p>Topic preferences, followed publishers, and some saved links are stored locally in your browser. Browser storage is used to remember those choices; clearing it may remove local preferences. We may receive ordinary web-server request logs, including IP addresses, browser information and request times, through our hosting infrastructure.</p>
-<p>If you choose to subscribe to the email briefing, the separate newsletter system collects your email address, opt-in choices, confirmation time, and delivery or unsubscribe status. It uses Supabase for subscriber records and Resend for email delivery when those services are configured. Newsletter enrollment requires confirmation. Reader accounts and newsletter subscriptions are separate.</p></section>
-<section><h2>How information is used</h2>
-<ul><li>Deliver public news pages, content links, and market widgets.</li><li>Authenticate optional reader accounts and synchronize saved article links.</li><li>Remember browser-local preferences and display relevant topics.</li><li>Send opted-in emails and maintain suppression records to respect unsubscribes, when newsletter delivery is enabled.</li><li>Diagnose reliability and security problems and respond to lawful requests.</li></ul></section>
-<section><h2>Outside services and outbound links</h2>
-<p>Our website uses or may use Supabase (authentication and saved links), Cloudflare (hosting and security), TradingView (embedded market data), Wikimedia Commons and licensed image sources, and Resend (opt-in newsletter delivery). Those providers have their own privacy practices. Clicking a linked publisher headline opens an outside site governed by that publisher's terms and privacy practices.</p><p>Third-party market widgets may process technical identifiers or set storage under their own policies. Review your browser settings if you wish to limit optional site storage or external embeds.</p></section>
-<section><h2>Retention and your choices</h2>
-<p>You can remove saved links and change topic or publisher follows in the website interface. You can unsubscribe from newsletter emails using the link included with each message; suppression records may remain to help prevent future sends. Account and newsletter records may also be kept as needed for operations, security and legal requirements. Specific provider retention periods can differ.</p>
-<p>For questions about access, correction, or deletion of personal information, contact us using the postal address below or the contact methods on our <a href="./contact.html">Contact &amp; corrections</a> page. Please don't post private account details publicly. Depending on your location, you may have additional rights under applicable privacy law.</p></section>
-<section><h2>Security, children and changes</h2>
-<p>We use hosted service providers and access controls intended to protect account and newsletter data, but no online service can guarantee absolute security. The site is a general-audience news service and is not intentionally designed to collect personal data from children under 13. We may update this notice when site features or providers change; updates will be reflected by the date above.</p></section>
-<section><h2>Contact address</h2><address>Standalone News<br>12544 Kirkham Ct, Ste 11<br>Poway, CA 92064, USA</address></section>
-<div class="notice">This notice reflects the known website implementation and optional email setup. Before publishing, the site operator should confirm all live analytics, cookies, service providers, data retention practices and legally required disclosures.</div>
-</main>
-<footer><span>© Standalone News</span><a href="./">Home</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a></footer></body></html>
+<main>
+<span class="eyebrow">STANDALONE NEWS · PRIVACY</span><h1>Privacy Policy</h1>
+<p class="lede">What this website stores, what it does not ask for, and what other services may process.</p>
+<p class="updated">Last updated: October 15, 2026</p>
+<section><h2>What Standalone News stores</h2>
+<ul>
+<li><strong>Without an account:</strong> You can read public news without signing in. If you save stories as a guest, the site stores saved links, titles, publisher names, categories, dates and available descriptions in your browser's local storage.</li>
+<li><strong>Reader accounts (optional):</strong> Supabase processes your email address and passwordless sign-in session. If you save stories while signed in, the saved links and their associated metadata are stored in Supabase so they can sync across devices.</li>
+<li><strong>Reading preferences:</strong> Followed publishers and topic choices are stored in this browser's local storage. The current implementation does not sync those preferences with your account.</li>
+<li><strong>Email newsletter (only if enabled and you opt in):</strong> The newsletter system stores your email address, whether you requested optional alerts, consent and confirmation timestamps, confirmation-token hashes, unsubscribe status and delivery records in Supabase. Resend processes addresses and messages to deliver emails. Newsletter subscriptions are separate from reader accounts.</li>
+</ul>
+</section>
+<section><h2>What the current website does not ask you to provide</h2>
+<ul>
+<li>No credit-card numbers, banking details or payment information for reading news, saving stories or subscribing to the newsletter.</li>
+<li>No account password in the website's passwordless email sign-in form.</li>
+<li>No precise GPS location, government identity document or contact list for these features.</li>
+<li>No newsletter signup from simply reading a headline; subscription requires you to enter an email address and confirm it.</li>
+</ul>
+<p>These are statements about the supplied Standalone News forms and application code. They do <strong>not</strong> mean that our hosting provider or third-party content providers collect no technical data.</p>
+</section>
+<section><h2>Other services and what they may process</h2>
+<div class="privacy-table-wrap"><table class="privacy-table"><thead><tr><th scope="col">Service</th><th scope="col">What it does on this site</th><th scope="col">Data it may receive or keep</th></tr></thead><tbody>
+<tr><th scope="row">Cloudflare</th><td>Hosts the website and the separate newsletter API; provides network and security infrastructure.</td><td>Request IP addresses, timestamps, browser or device details and security or request logs. Collection and retention depend on Cloudflare settings and policies.</td></tr>
+<tr><th scope="row">Supabase</th><td>Optional reader authentication, synchronized saved stories and newsletter subscriber database.</td><td>Email addresses, authentication and session data, saved-link records, optional subscription records and service/security logs.</td></tr>
+<tr><th scope="row">Resend</th><td>Optional newsletter confirmation and delivery, once the email system is active.</td><td>Email address, message content, and delivery or diagnostic information, subject to Resend's practices.</td></tr>
+<tr><th scope="row">TradingView</th><td>Embedded stock and market widgets.</td><td>Technical browser and network information; its embedded content may use cookies or other storage under its own privacy terms.</td></tr>
+<tr><th scope="row">Wikimedia Commons and other licensed image hosts</th><td>Display editorial photographs when available.</td><td>Your browser may contact the image host, sharing ordinary request information such as IP address, browser details and the requested image URL. The service's own policy applies.</td></tr>
+<tr><th scope="row">Outside news publishers and linked services</th><td>Provide original reporting when you choose an external article link.</td><td>If you open a publisher, Google News, X or another external link, that destination may process information under its own privacy policy.</td></tr>
+</tbody></table></div>
+<p>We have not independently audited every outside service's cookies, logs or retention periods. Those details may change without changes to the Standalone News website.</p>
+</section>
+<section><h2>Tracking, storage and your choices</h2>
+<p>The reviewed website scripts use browser local storage for guest bookmarks, followed publishers and topic preferences. The supplied homepage code does not implement an advertising tracker or a separate visitor-behavior analytics library. This is <strong>not</strong> a guarantee that Cloudflare, embedded widgets, browser extensions or other third parties do not log requests or use identifiers.</p>
+<p>You can clear browser-local data using your browser settings. Signed-in readers can remove saved stories in the site interface. Newsletter subscribers can unsubscribe through the link in each email; a suppression or delivery record may be retained to respect that choice. For other access or deletion questions, see <a href="./contact.html">Contact &amp; corrections</a>.</p>
+<p>We do not have confirmed retention periods for every provider or infrastructure log, so we do not promise that all data is deleted immediately or automatically after a fixed number of days.</p>
+</section>
+<section><h2>Data use, security and updates</h2>
+<p>In the reviewed website implementation, reader account information is used for authentication, saved-story records for synchronization, preferences for on-device personalization, and newsletter records for opt-in email delivery. The supplied code does not implement selling newsletter email addresses or saved-article histories to advertisers. This does not constitute an independent audit of every connected provider or administrative practice.</p>
+<p>Security measures include Supabase access controls and server-side secrets for the optional newsletter backend, but no online system can guarantee absolute security. This policy may be revised when features or providers change.</p></section>
+<section><h2>Contact</h2><address>Standalone News<br>12544 Kirkham Ct, Ste 11<br>Poway, CA 92064, USA</address><p>For privacy inquiries, use our <a href="./contact.html">contact page</a>.</p></section>
+<div class="notice">Accuracy note: This notice describes the V14 website code, supplied Supabase schema and optional newsletter backend. It does not certify live Cloudflare settings, third-party retention, or services configured outside the reviewed files. Review it against your production services before relying on it as a final legal notice.</div>
+</main><footer><span>© Standalone News</span><a href="./">Home</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a></footer></body></html>

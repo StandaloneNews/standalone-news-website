@@ -427,3 +427,74 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
 .footer .footer-bottom{padding-top:18px;padding-bottom:20px;align-items:center}
 @media(max-width:850px){.footer .footer-main{grid-template-columns:1fr;gap:24px;padding-top:32px}.footer .footer-nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}}
 @media(max-width:520px){.footer .footer-main{gap:24px;padding:30px 0 25px}.footer .footer-nav{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}.footer .footer-bottom{display:flex;flex-direction:column;gap:5px;align-items:start;padding-bottom:100px;font-size:10px;line-height:1.55}}
+
+/* Reader V14 — readable, scan-first Latest News Wire. */
+.wire-section .section-header{margin-bottom:15px}
+.wire-section .section-desc{max-width:560px}
+.wire-section .wire-tools{border:1px solid #e3e9ef;border-radius:12px;background:#f7f9fc;padding:16px;gap:12px}
+.wire-section .search-box{max-width:none;flex:2 1 260px;border-radius:9px;height:46px;background:#fff;border:1px solid #d7e1eb}
+.wire-section .search-box:focus-within{border-color:#648eae;box-shadow:0 0 0 3px #3f74941a}
+.wire-section .outlet-filter{border-radius:9px;min-height:46px}
+.wire-section .wire-filters{gap:7px}
+.wire-section .wire-filter{border-radius:999px;min-height:36px;padding:9px 14px;font-size:11px}
+.wire-section .wire-filter:hover{background:#edf3f7}
+.wire-section .wire-filter.active:hover{background:var(--deep)}
+.wire-section .wire-count{margin:13px 1px 16px;font-size:12px;font-weight:650}
+.wire-section .wire-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;align-items:stretch}
+.wire-section .wire-story{display:grid;grid-template-columns:100px minmax(0,1fr);gap:14px;min-width:0;padding:17px;border:1px solid #e0e6ec;border-radius:12px;background:#fff;box-shadow:0 3px 16px #13283f07;align-items:start;transition:box-shadow .18s ease,border-color .18s ease}
+.wire-section .wire-story:hover{border-color:#bdcbd8;box-shadow:0 8px 24px #13283f10}
+.wire-media{width:100%;min-width:0;overflow:hidden;border-radius:8px;background:#eaf0f4}
+.wire-section .wire-story .wire-media .list-thumb{width:100%;height:105px;min-height:105px;position:relative;display:block;border-radius:8px;margin:0;overflow:hidden}
+.wire-section .wire-story .list-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.wire-content{min-width:0;display:flex;flex-direction:column;gap:8px;align-self:stretch}
+.wire-entry-top{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.wire-section .topic-pill{display:inline-flex;align-items:center;padding:5px 8px;border-radius:4px;background:#ecf1f6;color:#405f7a;letter-spacing:.055em;font-size:9px;line-height:1.2}
+.wire-curation{font-size:9px;color:#7c90a2;letter-spacing:.06em;font-weight:750}
+.wire-section .wire-headline{font-size:clamp(15px,1.5vw,18px);line-height:1.34;letter-spacing:-.015em;font-weight:800;margin:0;overflow-wrap:break-word}
+.wire-section .wire-headline a{color:#152c46;text-decoration:none}
+.wire-section .wire-headline a:hover{color:#ab3049;text-decoration:underline;text-underline-offset:3px}
+.wire-section .wire-excerpt{font-size:12px;line-height:1.55;color:#61758a;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.wire-section .wire-byline{color:#64788a;font-size:10px;line-height:1.45;margin:0}
+.wire-section .wire-content .photo-credit{font-size:9px;color:#728596;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.wire-section .wire-actions{display:flex;justify-content:flex-start;flex-wrap:wrap;align-items:center;gap:7px;padding-top:10px;margin-top:auto;border-top:1px solid #edf1f4}
+.wire-section .wire-actions .follow-source{padding:7px 9px;min-height:33px;font-size:10px;margin:0;max-width:none;white-space:normal}
+.wire-section .wire-actions .save-small{min-height:33px;margin:0}
+.wire-section .wire-actions .wire-read{margin-left:auto;color:#ae2d47;font-weight:850;font-size:11px;text-decoration:none;line-height:1.3;white-space:nowrap}
+.wire-section .wire-actions .wire-read:hover{text-decoration:underline}
+.wire-section .load-more{border-radius:999px;padding:12px 24px;background:#fff}
+/* Personalization should have a useful entry point for new readers. */
+.follow-empty{grid-column:1/-1;width:100%;background:linear-gradient(120deg,#f4f8fb,#eaf1f6);border:1px solid #dae5ee;border-radius:12px;padding:22px 24px}
+.follow-empty-mark{color:#ad344b;font-size:10px;font-weight:900;letter-spacing:.15em}
+.follow-empty h3{font:800 23px/1.25 Georgia,serif;color:#17314d;margin:7px 0}
+.follow-empty p{font-size:13px;line-height:1.6;color:#4f6579;margin:0 0 12px}
+.follow-empty-action{display:inline-block;border:none;background:#162d47;color:#fff;font-size:12px;font-weight:800;padding:11px 17px;border-radius:6px;cursor:pointer}
+.follow-empty-action:hover{background:#2a4b6d}
+@media(max-width:1040px){
+ .wire-section .wire-list{grid-template-columns:1fr}
+ .wire-section .wire-story{grid-template-columns:122px minmax(0,1fr)}
+ .wire-section .wire-story .wire-media .list-thumb{height:116px;min-height:116px}
+}
+@media(max-width:580px){
+ .wire-section .wire-tools{padding:12px;gap:10px}
+ .wire-section .search-box{flex-basis:100%}
+ .wire-section .search-more-filters{width:100%}
+ .wire-section .wire-list{gap:10px}
+ .wire-section .wire-story{grid-template-columns:84px minmax(0,1fr);gap:11px;padding:12px;border-radius:10px}
+ .wire-section .wire-story .wire-media .list-thumb{height:89px;min-height:89px}
+ .wire-section .wire-headline{font-size:15px;line-height:1.36}
+ .wire-section .wire-content{gap:7px}
+ .wire-section .wire-excerpt{display:none}
+ .wire-section .wire-byline{font-size:10px}
+ .wire-section .wire-actions{grid-column:1/-1;gap:8px;padding-top:8px;margin-left:-95px}
+ .wire-section .wire-actions .follow-source{font-size:10px;padding:7px 8px}
+ .wire-section .wire-actions .wire-read{font-size:10px}
+ .wire-section .wire-count{font-size:11px}
+ .follow-empty{padding:18px}
+ .follow-empty h3{font-size:20px}
+}
+@media(max-width:365px){
+ .wire-section .wire-story{grid-template-columns:72px minmax(0,1fr)}
+ .wire-section .wire-story .wire-media .list-thumb{min-height:80px;height:80px}
+ .wire-section .wire-actions{margin-left:-83px}
+ .wire-section .wire-actions .wire-read{width:100%;margin-left:0}
+}

@@ -7,3 +7,13 @@ h1,h2{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.028em;color:#
 .notice{border-left:3px solid var(--red);background:#fff;padding:13px 16px;margin:25px 0;font-size:13px;color:#3c5369}address{font-style:normal;color:#2d4054}
 footer{border-top:1px solid var(--line);padding:23px 24px 40px;max-width:1000px;margin:0 auto;font-size:12px;color:#5d7185;display:flex;flex-wrap:wrap;gap:10px 22px}footer a{color:#384f65;text-decoration:none}footer a:hover{text-decoration:underline}
 @media(max-width:620px){main{padding:0 20px;margin:27px auto 40px}.mast-inner{padding:16px 20px}footer{padding:22px 20px 42px}}
+
+/* V14: legible privacy service/data disclosure table. */
+.privacy-table-wrap{max-width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:9px;background:#fff;margin:16px 0}
+.privacy-table{width:100%;border-collapse:collapse;min-width:530px;text-align:left;font-size:13px;line-height:1.55}
+.privacy-table th,.privacy-table td{padding:12px 14px;vertical-align:top;border-bottom:1px solid #e4ebf0}
+.privacy-table th{font-weight:800;color:#1b344d}
+.privacy-table thead{background:#eaf1f6}
+.privacy-table tr:last-child th,.privacy-table tr:last-child td{border-bottom:0}
+.privacy-table tbody tr:nth-child(even){background:#f8fafc}
+@media(max-width:620px){.privacy-table{min-width:520px}.privacy-table th,.privacy-table td{padding:11px}}
