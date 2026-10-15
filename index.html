@@ -10,9 +10,9 @@
  <link rel="icon" href="./assets/favicon.png"><link rel="apple-touch-icon" href="./assets/app-icon.png">
  <link rel="alternate" type="application/rss+xml" title="Standalone News headlines" href="./feed.xml">
  <link rel="alternate" type="application/rss+xml" title="Standalone News explainers" href="./articles/feed.xml">
- <link rel="stylesheet" href="./newsroom.css?v=shadow6">
- <script defer src="./newsroom.js?v=shadow6"></script>
- <script defer src="./market-isolator.js?v=shadow6"></script>
+ <link rel="stylesheet" href="./newsroom.css?v=photo7">
+ <script defer src="./newsroom.js?v=photo7"></script>
+ <script defer src="./markets-fix.js?v=photo7"></script>
  <script defer src="./account-config.js?v=mobile7"></script>
  <script type="module" src="./accounts.js?v=mobile7"></script>
  <title>Standalone News | The Daily Desk</title>
@@ -32,12 +32,7 @@
 </div></nav>
 <div class="market-strip" aria-label="Market prices"><div class="container strip-inner">
  <div class="strip-heading"><span class="strip-signal"></span><strong>MARKET WATCH</strong><small>Prices may be delayed</small></div>
- <div class="strip-quotes" id="market-strip-quotes">
-  <div class="tv-embed-shell tv-tape market-isolation-shell">
-    <div class="tape-placeholder" id="market-tape-fallback" aria-hidden="true"><span><b>SPY</b><small>S&amp;P 500 ETF</small></span><span><b>QQQ</b><small>Nasdaq ETF</small></span><span><b>NVDA</b><small>Nvidia</small></span><span><b>GLD</b><small>Gold ETF</small></span><span><b>USO</b><small>Oil ETF</small></span></div>
-    <div id="market-tape-frame-host" class="market-tape-host"></div>
-  </div>
-</div>
+ <div class="strip-quotes"><div class="tv-embed-shell tv-tape"><div class="tape-placeholder" aria-hidden="true"><span><b>SPY</b><small>S&amp;P 500 ETF</small></span><span><b>QQQ</b><small>Nasdaq ETF</small></span><span><b>NVDA</b><small>Nvidia</small></span><span><b>GLD</b><small>Gold ETF</small></span><span><b>USO</b><small>Oil ETF</small></span></div><div class="tradingview-widget-container" style="height:86px;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>{"symbols":[{"proName":"AMEX:SPY","title":"SPY · S&P 500 ETF"},{"proName":"NASDAQ:QQQ","title":"QQQ · Nasdaq ETF"},{"proName":"AMEX:DIA","title":"DIA · Dow ETF"},{"proName":"AMEX:IWM","title":"IWM · Russell 2000 ETF"},{"proName":"NASDAQ:NVDA","title":"Nvidia"},{"proName":"NASDAQ:AAPL","title":"Apple"},{"proName":"NASDAQ:MSFT","title":"Microsoft"},{"proName":"NASDAQ:TSLA","title":"Tesla"},{"proName":"AMEX:GLD","title":"GLD · Gold ETF"},{"proName":"AMEX:USO","title":"USO · Oil ETF"},{"proName":"NASDAQ:TLT","title":"TLT · Bond ETF"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"}],"showSymbolLogo":false,"colorTheme":"light","isTransparent":true,"displayMode":"adaptive","locale":"en"}</script></div><div class="tv-help">Quotes are external and can be delayed. <a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener noreferrer">View markets ↗</a></div></div></div>
  <a class="strip-more" href="#markets">ALL MARKETS <span>→</span></a>
 </div></div>
 <div class="container" aria-label="Jump to a news section"><nav class="reader-jumps" aria-label="Quick news sections"><a href="#top-stories">Desk picks</a><a href="#brief">5-story brief</a><a href="#explainers">Explainers</a><a href="#wire">Latest news</a></nav></div>
@@ -47,7 +42,7 @@
 <main id="main">
  <div class="above-fold-label"><div class="breaking-label"><span class="pulse-dot"></span><strong>THE DAILY DESK</strong><span class="mini-sep">/</span><span id="feed-status">CONNECTING TO SOURCES…</span></div><a href="#wire">SEE ALL HEADLINES <span>→</span></a></div>
  <section class="lead-grid" aria-label="Important headlines and latest updates">
-  <article class="lead-story" id="lead-story"><div class="lead-content"><div class="story-tags"><span class="red-label" id="lead-type">LEAD STORY</span><span class="soft-tag" id="lead-category">TOP NEWS</span></div><h1 id="lead-title">The stories shaping your day.</h1><p id="lead-summary">A calmer way to follow the news. Curated from attributed sources, with the original reporting one tap away.</p><div class="lead-bottom"><div class="meta-line"><span id="lead-source">Standalone News</span><span class="meta-dot">·</span><time id="lead-time">—</time></div><div class="lead-actions"><button class="bookmark-btn" id="lead-save" type="button" aria-label="Save featured story">♡ Save</button><a class="read-button" id="lead-link" href="#wire">Read original <span>↗</span></a></div></div></div><div class="hero-art art-world" id="hero-art"><div class="art-lines"></div><div class="globe-shape"><i></i><b>SN</b></div><a class="hero-image-caption" href="#top-stories" hidden>Illustrative photo</a></div></article>
+  <article class="lead-story" id="lead-story"><div class="lead-content"><div class="story-tags"><span class="red-label" id="lead-type">LEAD STORY</span><span class="soft-tag" id="lead-category">TOP NEWS</span></div><h1 id="lead-title">The stories shaping your day.</h1><p id="lead-summary">A calmer way to follow the news. Curated from attributed sources, with the original reporting one tap away.</p><div class="lead-bottom"><div class="meta-line"><span id="lead-source">Standalone News</span><span class="meta-dot">·</span><time id="lead-time">—</time></div><div class="lead-actions"><button class="bookmark-btn" id="lead-save" type="button" aria-label="Save featured story">♡ Save</button><a class="read-button" id="lead-link" href="#wire">Read original <span>↗</span></a></div><a id="lead-photo-credit" class="photo-credit hero-photo-credit" hidden target="_blank" rel="noopener noreferrer license"></a></div></div><div class="hero-art art-world" id="hero-art"><div class="art-lines"></div><div class="globe-shape"><i></i><b>SN</b></div><a class="hero-image-caption" href="#top-stories" hidden>Illustrative photo</a></div></article>
   <section class="latest-card" aria-labelledby="latest-heading"><div class="box-heading"><div><span class="eyebrow">FAST UPDATES</span><h2 id="latest-heading">The latest</h2></div><span class="live-pill"><i></i> LIVE FEED</span></div><div class="latest-items" id="latest-items"><p class="placeholder">Connecting to latest headlines…</p></div><a class="box-link" href="#wire">Browse the full news wire <span>→</span></a></section>
  </section>
  <section id="top-stories" class="section top-stories"><div class="section-header"><div><span class="section-eyebrow">DESK PRIORITY · AUTOMATICALLY RANKED · SOURCE-LINKED</span><h2>Desk picks<span class="red-period">.</span></h2><p class="section-desc">Automated picks based on importance, freshness and source variety. Open the original reporting in one tap.</p></div><a href="#wire" class="see-all">Browse all headlines <span>→</span></a></div><div class="story-grid" id="top-grid"><div class="empty-panel">Loading top stories…</div></div></section>
