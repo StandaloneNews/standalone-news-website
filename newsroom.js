@@ -51,8 +51,15 @@
  }
  function sourceExcerpt(item){
    if(item.type==='article')return item.summary||'Official-source explainer, AI-assisted and not human-reviewed.';
-   if(item.summary && item.summary.length>=35 && item.summary.toLowerCase()!==item.title.toLowerCase())return item.summary;
-   return '';
+   const summary=(item.summary||'').replace(/\s+/g,' ').trim();
+   if(summary.length<35)return '';
+   // RSS summaries sometimes just repeat the headline, optionally followed by the publisher.
+   // In those cases, don't fill the mobile lead with identical text.
+   const normalized=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+   const a=normalized(summary),b=normalized(item.title),source=normalized(item.source);
+   if(a===b||a===b+' '+source||a===source+' '+b)return '';
+   if(b.length>32&&a.startsWith(b)&&a.length-b.length<Math.max(22,source.length+8))return '';
+   return summary;
  }
  function shortMeta(item){return item.source+' · '+utc(item.published_at,true);}
  function sourceLinkText(item){return item.type==='news'&&item.url.includes('news.google.com/')?'Read coverage ↗':'Original source ↗';}

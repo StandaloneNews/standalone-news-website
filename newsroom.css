@@ -225,3 +225,46 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
 .market-strip .tv-tape{isolation:isolate;position:relative;overflow:hidden}
 .market-strip .tv-tape .tradingview-widget-container{position:relative;max-width:100%;overflow:hidden}
 @media(max-width:760px){.photo-credit{font-size:9px}.hero-photo-credit{font-size:9px}.story-card .photo-credit{margin-top:4px}}
+
+
+/* Reader V8 — mobile width and market-strip repair. Desktop V7 remains unchanged. */
+.mobile-market-shortcuts{display:none}
+@media(max-width:760px){
+  html{width:100%;min-width:0;max-width:100%;overflow-x:clip}
+  body{width:100%;min-width:0;max-width:100%;overflow-x:clip}
+  .utility,.masthead,.market-strip,.main-container,.footer{max-width:100%;min-width:0}
+  .container{width:calc(100% - 32px)!important;max-width:1180px;margin-left:auto;margin-right:auto;min-width:0}
+  .masthead-inner{gap:10px!important;min-width:0}
+  .brand,.brand-word{min-width:0}
+  .brand-word strong{overflow-wrap:normal;white-space:nowrap}
+  .masthead-tools{flex:none}
+
+  /* A 48px forced height crops the TradingView iframe and overlaps its data.
+     Phones instead get direct quote shortcuts; the functioning desktop tape and
+     complete TradingView widget in Markets are preserved. No stale prices shown. */
+  .market-strip{isolation:isolate;overflow:clip;z-index:0}
+  .market-strip .strip-inner{height:54px!important;min-height:54px!important;max-height:54px!important;display:flex!important;align-items:center;overflow:hidden;gap:0}
+  .market-strip .strip-heading,.market-strip .strip-quotes,.market-strip .strip-more{display:none!important}
+  .mobile-market-shortcuts{display:flex;align-items:center;gap:8px;width:100%;max-width:100%;min-width:0;height:54px;overflow-x:auto;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;white-space:nowrap;padding:0 1px}
+  .mobile-market-shortcuts::-webkit-scrollbar{display:none}
+  .mobile-market-heading{flex:none;font-size:10px;font-weight:900;letter-spacing:.08em;color:#405269;padding-right:5px}
+  .mobile-market-shortcuts a{display:inline-flex;align-items:center;justify-content:center;gap:5px;flex:none;border:1px solid #d8e1ea;background:#fff;color:#162c46;border-radius:999px;padding:0 12px;min-height:36px;font-size:12px;font-weight:850;line-height:1}
+  .mobile-market-shortcuts a span{font-size:12px;color:#b22e45}
+  .mobile-market-shortcuts .mobile-market-all{color:#ad2b41;background:#fff5f6;border-color:#f1d4da}
+  .reader-jumps{max-width:100%;scrollbar-width:none}
+  .lead-story,.latest-card{min-width:0}
+  .lead-content h1{overflow-wrap:break-word!important;word-break:normal!important}
+  .hero-photo-credit{overflow-wrap:break-word}
+}
+@media(max-width:540px){
+  .lead-content{padding:21px 18px 18px!important}
+  .lead-content h1{font-size:clamp(23px,6.0vw,28px)!important;line-height:1.24!important}
+  .lead-story .hero-art.has-photo{height:168px!important;min-height:168px!important}
+  .above-fold-label{gap:6px}
+  .above-fold-label .breaking-label{min-width:0}
+}
+@media(max-width:355px){
+  .mobile-market-shortcuts{gap:6px}
+  .mobile-market-heading{font-size:9px}
+  .mobile-market-shortcuts a{font-size:11px;padding:0 10px}
+}
