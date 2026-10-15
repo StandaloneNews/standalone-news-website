@@ -1,35 +1,220 @@
 {
-  "updated_at": "2026-10-15T03:20:21+00:00",
-  "method": "Automated desktop-bot rule-based importance scoring; not verified or manually approved",
+  "updated_at": "2026-10-15T03:39:30+00:00",
+  "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
-    "20a80e660d5384fd45df7b39",
-    "c487f97982d35f8d1cb18bd3",
-    "59a71f51ed8a91025356f6b3",
-    "f251f879b2c890ec3b42c604",
-    "45c3e595af59755e45830a37",
-    "62dfba292a2b777e2c69255c",
     "358ec50450d421f33a84839f",
-    "80e5ace2a92f85085c5e0b11",
-    "0e3c76f703003599c1eb68f8",
-    "637e36cdc72e6d2267de7542",
-    "a6065ae02c332c6028839fba",
-    "1d9d814de7faa1f2d7f1b9c6",
-    "a18bc2c952e9c2c9c4149127",
-    "658fb87024d5091d83078244",
-    "9c2e70ef035e5c9105ceefde",
-    "b6037507a65b5ab6449ecda5",
-    "d412f0f92353479b3694c240",
-    "797677cbf7fb09ea88763049",
-    "e5e1f3de31183b549a8d82da",
     "e08e0dcc35077df11a6139fa",
+    "9c2e70ef035e5c9105ceefde",
+    "f251f879b2c890ec3b42c604",
+    "797677cbf7fb09ea88763049",
+    "a6065ae02c332c6028839fba",
+    "e5e1f3de31183b549a8d82da",
     "96faa508b0e30813b50f2c74",
-    "cb3ee08c9640d4aeee73fa62",
+    "d412f0f92353479b3694c240",
+    "45c3e595af59755e45830a37",
+    "a18bc2c952e9c2c9c4149127",
+    "94b3e2a7948190fe7ff99e7c",
+    "637e36cdc72e6d2267de7542",
+    "20a80e660d5384fd45df7b39",
+    "59a71f51ed8a91025356f6b3",
+    "b6037507a65b5ab6449ecda5",
+    "658fb87024d5091d83078244",
+    "0e3c76f703003599c1eb68f8",
+    "1d9d814de7faa1f2d7f1b9c6",
     "e09cade4e96a80de6ff04a13",
-    "60221589358fde915ed3a34f"
+    "60221589358fde915ed3a34f",
+    "cb3ee08c9640d4aeee73fa62",
+    "c487f97982d35f8d1cb18bd3",
+    "62dfba292a2b777e2c69255c"
   ],
+  "image_policy": "Illustrative images from Wikimedia Commons with commercial-use-compatible licenses; attribution shown on the site.",
   "items": [
+    {
+      "id": "cfc366382975c0312bbd1d25",
+      "title": "Australian politics live: Wells says ‘manosphere’ podcasts and moon landing conspiracies allowed under Labor duty of care reform",
+      "summary": "Follow the day’s news live. Get our breaking news email , free app or daily news podcast Private health insurance changes ‘recalibrating precious taxpayer dollars’, says Wells The health minister, Mark Butler, yesterday promised to reintroduce a bill to reduce private health insurance rebates for over-65s, after it was thrown out of the Senate by the crossbench and Coalition. It’s really important we reintroduce it, because we need to raise the level of support and resourcing for aged care. I was the aged care minister before being the communications minister, we need to work urgently. There’s not enough beds being built for older Australians who need that support. It’s recalibrating precious taxpayer dollars. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:33:12+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Australian_House_of_Representatives_-_Parliament_of_Australia.jpg/1280px-Australian_House_of_Representatives_-_Parliament_of_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Australian_House_of_Representatives_-_Parliament_of_Australia.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+        "license": "CC BY-SA 3.0",
+        "description": "Australian House of Representatives, Parliament of Australia, Canberra, Australia.",
+        "label": "Illustrative photo",
+        "matched_query": "Australian"
+      }
+    },
+    {
+      "id": "0b7274ba05c98359d99b394f",
+      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:33:08+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fragment_of_an_Egyptian_Textile%2C_circa_700-1000_CE%2C_depicting_the_anthropic_figure_of_Anthousa%2C_a_rarely_depicted_divinity%2C_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum%2C_Cambridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Fragment_of_an_Egyptian_Textile,_circa_700-1000_CE,_depicting_the_anthropic_figure_of_Anthousa,_a_rarely_depicted_divinity,_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum,_Cambridge.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "SpeakingArch",
+        "license": "CC BY-SA 4.0",
+        "description": "Fragment of an Egyptian Textile, circa 700-1000 CE, depicting the anthropic figure of Anthousa, a rarely depicted divinity, considered to be the deity of blossoming plants. Fitzwilliam Museum, Cambridge.",
+        "label": "Illustrative photo",
+        "matched_query": "Anthropic"
+      }
+    },
+    {
+      "id": "60412c19255771c4a0d61742",
+      "title": "Brazil to shorten workweek in win for Lula ahead of runoff",
+      "summary": "Brazil's Senate approved cutting the workweek from 44 to 40 hours. The move could give President Luiz Inacio Lula da Silva an edge over his opponent, Flavio Bolsonaro, ahead of the October 25 runoff.",
+      "url": "https://www.dw.com/en/brazil-to-shorten-workweek-in-win-for-lula-ahead-of-runoff/a-79664991?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:29:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Brazil_Nordest_House_interior.jpg/1280px-Brazil_Nordest_House_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Brazil_Nordest_House_interior.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Wilfredor",
+        "license": "CC0",
+        "description": "Interior of a rural house of the Brazilian sertão, reconstructed in the Memorial Luiz Gonzaga at the Pátio de São Pedro, Recife, Pernambuco, Brazil.",
+        "label": "Illustrative photo",
+        "matched_query": "Brazil"
+      }
+    },
+    {
+      "id": "252b0b87e3f38df1fa4fbad3",
+      "title": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
+      "summary": "Saudi national Abdulrahman Alfozan was due to fly to Saudi Arabia on October 12, US prosecutors say in court filing.",
+      "url": "https://www.aljazeera.com/economy/2026/10/15/openai-bugging-suspect-allegedly-booked-one-way-trip-to-saudi-arabia?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:28:44+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/M%C3%BCnster%2C_LBS_--_2021_--_9803.jpg/1280px-M%C3%BCnster%2C_LBS_--_2021_--_9803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:M%C3%BCnster,_LBS_--_2021_--_9803.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "description": "Office building of the LBS in Münster , North Rhine-Westphalia , Germany",
+        "label": "Illustrative photo",
+        "matched_query": "OpenAI office"
+      }
+    },
+    {
+      "id": "ad1d546557b55a12edad59d2",
+      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
+      "summary": "\"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.",
+      "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:24:36+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Ввласенко",
+        "license": "CC BY-SA 3.0",
+        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
+        "label": "Illustrative photo",
+        "matched_query": "Ukraine Kyiv"
+      }
+    },
+    {
+      "id": "02f3c301d73c901d56038e1d",
+      "title": "North Korea tests two submarine-launched missiles, state media reports",
+      "summary": "The tests showcase North Korea's war deterrent capabilities in the region, KCNA says.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:23:49+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Hadan_Railway_Station%2C_Hadan%2C_North_Korea_%28DPRK%29.jpg/1280px-Hadan_Railway_Station%2C_Hadan%2C_North_Korea_%28DPRK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Hadan_Railway_Station,_Hadan,_North_Korea_(DPRK).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Ptrump16",
+        "license": "CC BY-SA 4.0",
+        "description": "Hadan Railway Station, Hadan, North Korea (DPRK)",
+        "label": "Illustrative photo",
+        "matched_query": "North Korea"
+      }
+    },
+    {
+      "id": "94b3e2a7948190fe7ff99e7c",
+      "title": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus - TradingView",
+      "summary": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeTJxZnBQNmlmT0dWRzFSdkVWN3VjQjNLSThUS3lxVG9LOHpHSHFtcTNYSDcxMzlNMkVFZXFHNkg1dmR1bjFGWGd6eHpqYzh0Vjl2d3k0MTZEcXBDYTZnaHBxelVxZUs4TG40VVVqZzdydDkyeXZPb2ZxU2w0NGk1cG81emlVLXYta0FuMVplWXdqa1ZPdGpYMU5RdEZockdubWFTQVBWakdIUzZxZVRqM1BsX082ZlgxcHhQZGdBYjVOVU1oRk9OYXNrUC1YSEJxOHRNQnhWcnNpMEIwaTBwbE0yYWJzYlhKaVUzYmEwYw?oc=5",
+      "source": "TradingView",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:16:00+00:00",
+      "desk_priority": 81,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/DOW_im_Fuhrpark_des_NWC.jpg/1280px-DOW_im_Fuhrpark_des_NWC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:DOW_im_Fuhrpark_des_NWC.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "GerritR",
+        "license": "CC BY-SA 4.0",
+        "description": "Doppler on Wheels (mobiles Doppler-Radar) im Fuhrpark des National Weather Center, Norman, Oklahoma",
+        "label": "Illustrative photo",
+        "matched_query": "Dow"
+      }
+    },
+    {
+      "id": "34c54cb6c6b1a82c043688d4",
+      "title": "Teenager dies as heavy rain floods Istanbul",
+      "summary": "Roads collapse and hospitals take in water as floods swamp Turkiye's largest city, shutting schools and halting traffic.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:12:02+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Child_teenager_--_Smart-Servier.jpg/1280px-Child_teenager_--_Smart-Servier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Child_teenager_--_Smart-Servier.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Laboratoires Servier",
+        "license": "CC BY-SA 3.0",
+        "description": "Skeleton and bones - Child teenager",
+        "label": "Illustrative photo",
+        "matched_query": "Teenager"
+      }
+    },
     {
       "id": "26cea8b4e03807bddca574f5",
       "title": "Senator Murray launches working group to shield US public health from political influence - KREM",
@@ -41,7 +226,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T03:11:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Newly_Elected_Senator_Linda_Murray_Nelson.jpg/1280px-Newly_Elected_Senator_Linda_Murray_Nelson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Newly_Elected_Senator_Linda_Murray_Nelson.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Houses of the Oireachtas",
+        "license": "CC BY 2.0",
+        "description": "The Newly Elected Senator signing the 27th Roll of Members Seanad Éireann in Leinster House, 5th February 2025.",
+        "label": "Illustrative photo",
+        "matched_query": "Senator Murray"
+      }
     },
     {
       "id": "96379a3786cc7251b3723e36",
@@ -54,7 +249,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T03:10:00+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Fall-sown_oat_production_%28IA_CAT87203993%29.pdf/page1-960px-Fall-sown_oat_production_%28IA_CAT87203993%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Fall-sown_oat_production_(IA_CAT87203993).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "Stanton, T. R. Coffman, Franklin A.",
+        "license": "Public domain",
+        "description": "Subjects: Oats",
+        "label": "Illustrative photo",
+        "matched_query": "Tech Futures Fall"
+      }
     },
     {
       "id": "6b7f691821498e6ffdb3ed7b",
@@ -67,7 +272,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T03:08:18+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Tyler Merbler from USA",
+        "license": "CC BY 2.0",
+        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
     },
     {
       "id": "f78e32c5de632de716d28e88",
@@ -80,20 +295,63 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T03:05:24+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bulguksa_temple_entrance_gate_stairs_flower_bed_and_blue_sky_in_Gyeongju_South_Korea.jpg/1280px-Bulguksa_temple_entrance_gate_stairs_flower_bed_and_blue_sky_in_Gyeongju_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Bulguksa_temple_entrance_gate_stairs_flower_bed_and_blue_sky_in_Gyeongju_South_Korea.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Basile Morin",
+        "license": "CC BY-SA 4.0",
+        "description": "Cheongungyo and Baegungyo Stairs at Bulguksa Buddhist temple entrance, flower bed and blue sky, in Gyeongju , South Korea .",
+        "label": "Illustrative photo",
+        "matched_query": "South Korea"
+      }
     },
     {
-      "id": "cfc366382975c0312bbd1d25",
-      "title": "Australian politics live: Wells rejects claims from Coalition that eSafety ‘sock puppets’ will spread disinformation",
-      "summary": "Follow the day’s news live. Get our breaking news email , free app or daily news podcast Private health insurance changes ‘recalibrating precious taxpayer dollars’, says Wells The health minister, Mark Butler, yesterday promised to reintroduce a bill to reduce private health insurance rebates for over-65s, after it was thrown out of the Senate by the crossbench and Coalition. It’s really important we reintroduce it, because we need to raise the level of support and resourcing for aged care. I was the aged care minister before being the communications minister, we need to work urgently. There’s not enough beds being built for older Australians who need that support. It’s recalibrating precious taxpayer dollars. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
+      "id": "4ed1aa2b2d85e0cfc8b8f4cc",
+      "title": "White House defends new press secretary amid questions about her legal credentials",
+      "summary": "Katie Zacharia does not appear to be registered to the legal bar in any state where she has lived.",
+      "url": "https://www.bbc.co.uk/news/articles/ckqxne2evqreo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T03:00:53+00:00",
+      "published_at": "2026-10-15T03:03:16+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
+        "label": "Illustrative photo",
+        "matched_query": "White House Washington DC"
+      }
+    },
+    {
+      "id": "f2a16424266970be3ff09f9c",
+      "title": "Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ",
+      "summary": "Investigators have subpoenaed relatives and examined immigration records, the newspaper reports.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/trump-administration-seeks-to-strip-ilhan-omar-of-us-citizenship-wsj?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:03:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Donald_Trump_by_Gage_Skidmore.jpg/1280px-Donald_Trump_by_Gage_Skidmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_by_Gage_Skidmore.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "description": "Donald Trump speaking at CPAC in Washington D.C. on February 10, 2011.",
+        "label": "Illustrative photo",
+        "matched_query": "Trump"
+      }
     },
     {
       "id": "9c2e70ef035e5c9105ceefde",
@@ -106,7 +364,40 @@
       "source_type": "Official direct",
       "published_at": "2026-10-15T02:55:00+00:00",
       "desk_priority": 58,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Bowman%2C_North_Dakota_-_1104309283.jpg/1280px-Bowman%2C_North_Dakota_-_1104309283.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Bowman,_North_Dakota_-_1104309283.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "In memoriam afiler",
+        "license": "CC BY-SA 2.0",
+        "description": "Bowman, North Dakota. From everydot.com.",
+        "label": "Illustrative photo",
+        "matched_query": "Bowman"
+      }
+    },
+    {
+      "id": "39604261fa9dabb63fc91f4c",
+      "title": "Trump plays Muslim Brotherhood card against Senate candidate El-Sayed",
+      "summary": "President Donald Trump says Michigan Senate candidate Abdul El-Sayed is a member of the Muslim Brotherhood.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/14-10-clip-trump-attacks-el-sayed-mb-us?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T02:54:31+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Tyler Merbler from USA",
+        "license": "CC BY 2.0",
+        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
     },
     {
       "id": "d7b6108648f5752ebcff51e1",
@@ -119,7 +410,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:45:49+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Arusha._Kenya._1964.jpg/1280px-Arusha._Kenya._1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Arusha._Kenya._1964.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Amarjit Chandan",
+        "license": "Public domain",
+        "description": "Arusha. Kenya. 1964",
+        "label": "Illustrative photo",
+        "matched_query": "Kenya"
+      }
     },
     {
       "id": "43ffee1ed695d91c615266bc",
@@ -132,7 +433,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:45:42+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Brazil_Nordest_House_interior.jpg/1280px-Brazil_Nordest_House_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Brazil_Nordest_House_interior.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Wilfredor",
+        "license": "CC0",
+        "description": "Interior of a rural house of the Brazilian sertão, reconstructed in the Memorial Luiz Gonzaga at the Pátio de São Pedro, Recife, Pernambuco, Brazil.",
+        "label": "Illustrative photo",
+        "matched_query": "Brazil"
+      }
     },
     {
       "id": "cc28e087f56d7192d367e1d3",
@@ -145,7 +456,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:42:21+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bird_photographer_in_El_Guenine_dam_%28Tunisia%29.jpg/1280px-Bird_photographer_in_El_Guenine_dam_%28Tunisia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Bird_photographer_in_El_Guenine_dam_(Tunisia).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "El Golli Mohamed",
+        "license": "CC BY-SA 4.0",
+        "description": "Bird photographer in El Guenine dam (Tunisia)",
+        "label": "Illustrative photo",
+        "matched_query": "Tunisia"
+      }
     },
     {
       "id": "aef5291f8723dc29520a96ba",
@@ -158,7 +479,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:39:06+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Victorian_naturalist_%28IA_VictorianNatura54Fiel%29.pdf/page1-500px-The_Victorian_naturalist_%28IA_VictorianNatura54Fiel%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:The_Victorian_naturalist_(IA_VictorianNatura54Fiel).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "Arthur Henry Shakespeare Lucas / Francis George Allman Barnard",
+        "license": "Public domain",
+        "description": "Editors: Jan. 1884-1892, A.H.S. Lucas.-Jan. 1893- F.G.A. Barnard. citation/reference: MLA international bibliography of books and articles on the modern languages and literatures (Complete edition), 0024-8215. citation/reference: GeoRef, 0197-7482. citation/reference: Bibliography of agriculture, 0006-1530. additional physical form: Available also in microfiche from IDC. Vol. 1 uses page numbers in lieu of issue numbers. Supplements accompany some issues. Vols. 1 (1884)-90 (1978) in v. 1978 Editors: Jan. 1884-1892, A.H.S. Lucas.-Jan. 1893- F.G.A. Barnard MLA international bibliography of books and articles on the modern languages and literatures (Complete edition) GeoRef Bibliography of agriculture Vol. 1 uses page numbers in lieu of issue numbers Supplements accompany some issues Subjects: Field Naturalists' Club of Victoria; Natural history; Natural history",
+        "label": "Illustrative photo",
+        "matched_query": "Senior Victorian"
+      }
     },
     {
       "id": "8c55985334d5552097cb1d69",
@@ -171,7 +502,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:33:45+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf/page1-960px-CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle,_(April_18,_2022).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "United States House Select Committee on the January 6 Attack",
+        "license": "Public domain",
+        "description": "Deposition of Kimberly Guilfoyle, (April 18, 2022) for the United States House Select Committee on the January 6 Attack.",
+        "label": "Illustrative photo",
+        "matched_query": "After Guilfoyle"
+      }
     },
     {
       "id": "99787b1b6ee0f82111a00405",
@@ -184,7 +525,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:32:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/America_Treasury_Department_Building_20240601.jpg/1280px-America_Treasury_Department_Building_20240601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:America_Treasury_Department_Building_20240601.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "颐园居",
+        "license": "CC BY-SA 4.0",
+        "description": "The Treasury Department Building South side",
+        "label": "Illustrative photo",
+        "matched_query": "United States Department of the Treasury building"
+      }
     },
     {
       "id": "9cf279bc2e70292e7a319fe9",
@@ -197,7 +548,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:30:21+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
+        "source": "Wikimedia Commons",
+        "creator": "FrontierEnviro",
+        "license": "CC BY-SA 3.0",
+        "description": "Animal tracking ; Garmin GPS 60",
+        "label": "Illustrative photo",
+        "matched_query": "Tracking"
+      }
     },
     {
       "id": "dff7690c6eaeed516308f0cc",
@@ -210,7 +571,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:26:07+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Joe_Russoniello_Retired_US_Attorney_Northern_California.jpg/1280px-Joe_Russoniello_Retired_US_Attorney_Northern_California.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Joe_Russoniello_Retired_US_Attorney_Northern_California.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "GrubletGrutKing",
+        "license": "CC0",
+        "description": "Joe Russoniello retired US Attorney Northern California",
+        "label": "Illustrative photo",
+        "matched_query": "Retired US"
+      }
     },
     {
       "id": "d9e9684d9bcff72e50f21731",
@@ -223,7 +594,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:25:00+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg/1280px-Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Raimond Spekking",
+        "license": "CC BY-SA 4.0",
+        "description": "Fujitsu Lifebook AH502 - motherboard DAFH5BMB6G0 Rev: G",
+        "label": "Illustrative photo",
+        "matched_query": "SK Hynix Down"
+      }
     },
     {
       "id": "714be84248e23469738ac0d4",
@@ -236,7 +617,40 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:17:50+00:00",
       "desk_priority": 31,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
+        "label": "Illustrative photo",
+        "matched_query": "White House Washington DC"
+      }
+    },
+    {
+      "id": "d9f5ad76859160112d583ecc",
+      "title": "X suspends 13,000 accounts linked to Iran, China and Russia 'targeting US politics' - Middle East Eye",
+      "summary": "X suspends 13,000 accounts linked to Iran, China and Russia 'targeting US politics' Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmc1X1ljQ1o3aGFkejN4V0RlQmVjRXJlVDdzUmstbHM0RXRmSWtIeC1yUk45VUtQbVJRVDZDNkcxZXh0Q2ZoUklrbXgwZGtLOFM0eFpTdVhIRW4yQmx1dzItbUNEd21MbGpDU1BGUENQNUFWZzZOR1B2TUEzMDQta2NGTnhrT2d6R0FzRFB5VFpQTGlCVk1Ca0FLNjU2Qy11Q2ZHYjl4TmNSdVcyTXllTFIzVUE1dGp6RGVUeFhpc20ydw?oc=5",
+      "source": "Middle East Eye",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:14:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Baptist_church_Golgotha_in_Moscow%2C_Russia_on_2021_March_20_%280068%29.jpg/1280px-Baptist_church_Golgotha_in_Moscow%2C_Russia_on_2021_March_20_%280068%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Baptist_church_Golgotha_in_Moscow,_Russia_on_2021_March_20_(0068).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Alexey V. Kurochkin",
+        "license": "CC BY-SA 4.0",
+        "description": "Baptist church Golgotha (Leskova Street 11, Moscow, Russia)",
+        "label": "Illustrative photo",
+        "matched_query": "Moscow Russia"
+      }
     },
     {
       "id": "05a82477161cf91b61996ed6",
@@ -249,7 +663,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T02:02:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Beijing_China_Beijing-National-Stadium-01.jpg/1280px-Beijing_China_Beijing-National-Stadium-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_China_Beijing-National-Stadium-01.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "CEphoto, Uwe Aranas",
+        "license": "CC BY-SA 3.0",
+        "description": "Beijing, China: National Stadium, also known als \"birds nest\"",
+        "label": "Illustrative photo",
+        "matched_query": "Beijing China"
+      }
     },
     {
       "id": "f8a011ad9d5935176f382fd3",
@@ -262,7 +686,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:00:00+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Banking_1952-04-_Vol_44_Iss_10_%28IA_sim_american-bankers-association-aba-banking-journal_1952-04_44_10%29.pdf/page1-960px-Banking_1952-04-_Vol_44_Iss_10_%28IA_sim_american-bankers-association-aba-banking-journal_1952-04_44_10%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Banking_1952-04-_Vol_44_Iss_10_(IA_sim_american-bankers-association-aba-banking-journal_1952-04_44_10).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "Unknown",
+        "license": "Public domain",
+        "description": "Banking 1952-04: Volume 44 , Issue 10. Digitized from IA1591531-07 . Previous issue: sim_american-bankers-association-aba-banking-journal_1952-03_44_9 . Next issue: sim_american-bankers-association-aba-banking-journal_1952-05_44_11 . Subjects: Business And Economics--Banking And Finance; Scholarly Journals; microfilm",
+        "label": "Illustrative photo",
+        "matched_query": "Swiss Banking Giant Thinks"
+      }
     },
     {
       "id": "f399454b8790435bf7ff7b81",
@@ -275,20 +709,40 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T01:56:53+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Mountain_View_%28CA%2C_USA%29%2C_Charleston_Road%2C_Google-Fahrr%C3%A4der_--_2022_--_2901.jpg/1280px-Mountain_View_%28CA%2C_USA%29%2C_Charleston_Road%2C_Google-Fahrr%C3%A4der_--_2022_--_2901.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Mountain_View_(CA,_USA),_Charleston_Road,_Google-Fahrr%C3%A4der_--_2022_--_2901.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "description": "Google bikes on Charleston Road, Mountain View , California , USA",
+        "label": "Illustrative photo",
+        "matched_query": "Google headquarters Mountain View"
+      }
     },
     {
-      "id": "0b7274ba05c98359d99b394f",
-      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
-      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
-      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T01:56:32+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
+      "id": "4c9b675c0f68e9b0db5bb0ae",
+      "title": "Markets - Bloomberg.com",
+      "summary": "Markets Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T01:54:50+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Markets_in_Sharm_el-Sheikh_04.jpg/1280px-Markets_in_Sharm_el-Sheikh_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Markets_in_Sharm_el-Sheikh_04.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Шухрат Саъдиев",
+        "license": "CC BY-SA 4.0",
+        "description": "Ассортимент товаров магазинов Шарм аль-Шейха. Египет",
+        "label": "Illustrative photo",
+        "matched_query": "Markets"
+      }
     },
     {
       "id": "940193172afa5e3120282c03",
@@ -301,7 +755,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T01:54:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Lucca_Comics_2010_-_Mauro_Talarico_01.jpg/1280px-Lucca_Comics_2010_-_Mauro_Talarico_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Lucca_Comics_2010_-_Mauro_Talarico_01.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Alessio Sbarbaro User_talk:Yoggysot",
+        "license": "CC BY-SA 3.0",
+        "description": "Lucca Comics&Games 2010 - Mauro Talarico, autore di Cuori Grassi",
+        "label": "Illustrative photo",
+        "matched_query": "Talarico"
+      }
     },
     {
       "id": "46711c985081f60550a34ff5",
@@ -314,7 +778,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T01:49:00+00:00",
       "desk_priority": 57,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/1884_T%241_Trade_Dollar_%28Judd-1732%29.jpg/1280px-1884_T%241_Trade_Dollar_%28Judd-1732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:1884_T$1_Trade_Dollar_(Judd-1732).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "United States Mint (coin),NNC (image)",
+        "license": "Public domain",
+        "description": "1884 T$1 Trade Dollar (Judd-1732)",
+        "label": "Illustrative photo",
+        "matched_query": "Dollar"
+      }
     },
     {
       "id": "6dc7a337a35f92dcc5a07747",
@@ -327,7 +801,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T01:35:40+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
+        "label": "Illustrative photo",
+        "matched_query": "White House Washington DC"
+      }
     },
     {
       "id": "abd0d3ef9e03227189056d42",
@@ -340,7 +824,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T01:34:41+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Donald_Trump_by_Gage_Skidmore.jpg/1280px-Donald_Trump_by_Gage_Skidmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Donald_Trump_by_Gage_Skidmore.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Gage Skidmore",
+        "license": "CC BY-SA 3.0",
+        "description": "Donald Trump speaking at CPAC in Washington D.C. on February 10, 2011.",
+        "label": "Illustrative photo",
+        "matched_query": "Trump"
+      }
     },
     {
       "id": "adef13968b327f1ccef3e657",
@@ -353,7 +847,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T01:32:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
+        "label": "Illustrative photo",
+        "matched_query": "White House Washington DC"
+      }
     },
     {
       "id": "59a71f51ed8a91025356f6b3",
@@ -804,6 +1308,19 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNC1laGllaDBTNGZsM3pfbkN5aUE0Nkc1eDNiTWZTZ2xOTGtleTFXU3BKVFp6X0pJRm9fNENRYzA1UGhFZW5DMk40LUxxTzZMczRnMWo2bmlkTDM0aXlMOVo1WXJNdUdxc2pGb2lDc0dLVjNJUVNjTGs4UzZWZmJWVVVLenZMT2o0Y09GLURrbGdESTNzUHgtT0kyQjBILUVwTlV5NU1Gd040WkxpNUtDTFVla19aZkV6Ty1ZTzA1MGJQQm9EZ29PR1VkWW1JZzRIeUZDSmZqaEw?oc=5",
       "source": "U.S. News & World Report",
       "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:42:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1ba759661cd58262a2f38ae0",
+      "title": "Watchdog group seeks to block Jared Kushner from serving in his volunteer envoy role - AP News",
+      "summary": "Watchdog group seeks to block Jared Kushner from serving in his volunteer envoy role AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTEdJdzItX2F3MUU5TlB4VWxvMURteV8taU1RNmdLWVQwTGRnR3ZURjBwYVNyWXViSTRtVlZwVmEzZWVtTjRrb00xYW9BQ1VxMVNfY2ZuWWNvTkVjSElKdk5QOEp1SnZrWDdNRzZDV1BSRlN5b2NSM0lScWZNUGxGbnFmRDBwOEtWQUdPTjlNM01YakNzODNZcDFKOVFiZHpzZC01ZWM1Z094QU0?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-14T23:42:00+00:00",
@@ -1617,6 +2134,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "b3c966d992b7e72d17a84e1e",
+      "title": "McKinney campaigning for US House, District 4 - The Wenatchee World",
+      "summary": "McKinney campaigning for US House, District 4 The Wenatchee World",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZzlERmVPMjFkY0pSQmFqcjJHSVhzaUd5YTNzLTA0dWVlX01weG1FUTZPcjh1eE1LdEhLTXRldW9jSTJjWnc5NUhvdUwyNVQ1YzZMeE5CZEdhMW5ib0p5dlByX3RDdVBTV3dnb0tYajlNWEF3ZmFuQTR1dFZ3bWJ0SFRWZ0dYY0pncWdpc2l3Mk1pdXpSb0NjbmlKSk5fZWk2S1F0RlhocklBV0JNMC0zNC1VY3UzOFJpMVpGLWR1QUh5TDRQb3BFM2hoRXBLVnZGTjVEQTF3?oc=5",
+      "source": "The Wenatchee World",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T21:31:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "c64ad844173458df3159de0b",
       "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
       "summary": "Langley’s comments come amid mounting scrutiny of Flock from privacy advocates, including the ACLU, and members of the public who are concerned about the misuse of its technology.",
@@ -2293,6 +2823,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "9b4b02011b4ec0611a444484",
+      "title": "S&P/TSX composite down nearly 400 points, U.S. markets also slide - Yahoo! Finance Canada",
+      "summary": "S&P/TSX composite down nearly 400 points, U.S. markets also slide Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoclhubWJaeDdsM0Zjb2VLRFQzdUwyU24zS201WGxXQWp6UmpyalF3eXdOY3JDYTJWOTFGTkRQb3dwbEtBS0VUWUwxWkxlV1BjY0xBNm96cmtwTHBkR0s3VlNWc3NxWWRxc2tBSUVyVDZkVlJZOTBVckhvbnRVeW8?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed_id": "yahoo_finance",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:19:57+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "75ccd8a55745caa857e15759",
       "title": "Dell stock plunges 11%, leading data center sell-off as fears mount about 'enterprise AI timing'",
       "summary": "Barclays downgraded Dell, HPE, and NetApp on concerns that enterprise AI adoption is lagging.",
@@ -2601,6 +3144,19 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-14T19:39:16+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "714aa00268c3ab0879d339d4",
+      "title": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer - AP News",
+      "summary": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlYyZHRRLXFYSlVLeXpTajNWNXRGSmRHWERoV0Q1VUNLLXFBcjFVVFNtZEh1Wjh3RnlYUXpYQkdjSFJUWGw3eDlNRzk1RUdVaVVUTndiV3hkTTI0Y2w3ajVYaHNPS3lBV2dYcFRxc3hBMHc0eUVOUXNUdUVLcVRLbHh2Q0hLMnlhRDZoelA3LUdDbjNPYkNhSDYtTktHaVhLenA2amRCMzVDcjQ?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:39:13+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -3109,6 +3665,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T18:06:04+00:00",
       "desk_priority": 66,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e5ae723edf50337c12bf82ee",
+      "title": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most. - MarketWatch",
+      "summary": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most. MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdmMzVFVUVFBiNGlSTVVPMHM1Q0ZGS09WLWt0U2k0aVFBUVhaWFNONUI4S1R0SWlreHBPc19PZlU4ZGJoeEh0dkF2Y1BjVUpLVXk3cDJCQ0VQSlZKNTdRaGx5SzhIeXdrbEJ3aWktVExUajNCeEl3VGlXOGVpVjQtUWN5MWdMR3ZnV21FWnpEUmtuNWpRSi1uN2lubEN0X1RSeTJXU2h1X2F1b3h3RGZLbk45UFVNZUtTb0VCRGNsT0lPcmUzLUcwbFJ4c2Jrc1JDUVp4cmZrVnlNZDBhRUxGTEtIUHlZSUNGLTNRMW5BNms5WjFSakltdEtBWUY?oc=5",
+      "source": "MarketWatch",
+      "feed_id": "marketwatch",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T18:06:00+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -3720,214 +4289,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T16:14:00+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e9d0df4ffb56a2120912c513",
-      "title": "Trump Can’t Reinstate White House Ban on CNN, Politico and MS NOW, Judge Rules",
-      "summary": "The decision extends a temporary block on the president’s move to restrict access for three news outlets while they challenge it in court.",
-      "url": "https://www.wsj.com/us-news/law/trump-cant-reinstate-white-house-ban-on-cnn-politico-and-ms-now-judge-rules-de4882c0?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c4ba5a929687d345fcfc58b5",
-      "title": "Stocks in play: Oncolytics Biotech Inc - Yahoo! Finance Canada",
-      "summary": "Stocks in play: Oncolytics Biotech Inc Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3hIdE43WEs1TWgxUTF4dXZqenVZdE55QlBMVWc1UU9UeXdHZDB6WDRaTFl5MTMtLTd3UTVTempuQ3IydGQ5N3pkQWdHdkRrWDB2S0tzRlhtRnpybDQ3dmw2ZEk5dnA3a1RMWm9UM2UzVU55UHlnb0xUQllHaTJuQWZ5NDZ3c01SMm5Z?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:12:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5eee1c362fc207eefcee2744",
-      "title": "Turkey: Government raids, takes over top news channel",
-      "summary": "Turkish authorities have raided the Istanbul offices of Halk TV, halting broadcasts, appointing a trustee and opening an investigation. It is the latest chapter of a decadeslong media capture by President Erdogan.",
-      "url": "https://www.dw.com/en/turkey-government-raids-takes-over-top-news-channel/a-79662749?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:07:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d477040a5105177b78a392b0",
-      "title": "Fox News predicts Democrats will win House in midterms for first time this cycle - The Hill",
-      "summary": "Fox News predicts Democrats will win House in midterms for first time this cycle The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSXRyT3Bkck91UWtRYmowV2E5bU15RlpqZi1HWE0wV0hLZXpXWXZsXzZhbENLM0oyc2JyRDhlVEFUa2l5aVFOSzFBR2JBdG1veUo4bTdkRkhHQXAyZGFJOXVXbUtvbnp6UmduanJLVUNockY1YTFFOEU1SjVnLTRFeGpQYXpRYTVEdVBB0gGQAUFVX3lxTE92aEdqc3FNelVvcmJ1VVNhZG9ybUdBLUZKV2g2NmtabDZpZDdqVldSSDd1ek5oeGlUcFRPa1ducVBWc1hLN1R0WUV3ZndIeVB0RFBuLTRQS0dHbmRBM0N1ekxGRENrdnQ3eWU5dDY1SlpOWW5NV191ZGNQVjhfSnRqWFhvZXVqNzVjaWZUNHp1dw?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:07:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e05066f4b0e3ce6f1ea88102",
-      "title": "Palantir and Sadiq Khan drop legal battle over Met contract",
-      "summary": "Dispute related to claims London mayor blocked US tech firm from £50m police deal because of concerns over its values Palantir and the London mayor, Sadiq Khan, have called off their legal fight over claims the Labour mayor was blocking the US tech company from signing a contract with the Metropolitan police because of its values and ethics. Palantir and the mayor’s office for policing and crime (Mopac) announced on Wednesday they had withdrawn allegations against each other, heading off a high court trial scheduled for January. Continue reading...",
-      "url": "https://www.theguardian.com/technology/2026/oct/14/palantir-and-sadiq-khan-drop-legal-battle-over-met-contract",
-      "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:05:22+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6baf1b122a265df1edc5ef77",
-      "title": "The first new sunscreen type in 25 years has arrived on US store shelves - AP News",
-      "summary": "The first new sunscreen type in 25 years has arrived on US store shelves AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWE5haThDMVNMbUdGZ1BlaC02anEtYUgtNFN3SEJsTXdsZFVLRXJYejk2Z1VpMENFX0lBbFZaWXFQZHRDRllnX0I2Z19JS2NjSl85Qi1uWGhfV2tKbEpURGRRYThJcmNsLURSUm1faFM5ekdYUGtuc284UTJuMUh2NkQ0SXpacG45Tk1qNmFjbjZLbFd5QXlFeV9MNG5WajVUSUh6OEMyUkh5Zw?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:05:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "db08ba38fc187d107cc472bd",
-      "title": "U.S. blasts \"embarrassing\" complaint filed against Lebanon's ambassador - CBS News",
-      "summary": "U.S. blasts \"embarrassing\" complaint filed against Lebanon's ambassador CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX3JzS3BVMlV6SV9NejZGTkl0TVl2Wk93SlhzMXZaRHZtdG5rc3VIRWtBcnYyWmdERnZpOF90R1RvSUs4N3B1dGUyMThHU1dRb1J4RzFHRDlDclQtRnFlOWJlVlFQeVZEeW1falM4c2lmV2Y5ZjNvYnJZZjg4OEZzRQ?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:04:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f6d1d8c197d92b2d58c051c7",
-      "title": "As Kimberly Guilfoyle leaves Athens post, Greece feels further from Trump orbit - AP News",
-      "summary": "As Kimberly Guilfoyle leaves Athens post, Greece feels further from Trump orbit AP News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmR3bUljZ05hQjVXWlNWUUZXRFB6T0hFLXA1TWNubHVxZjU5bHFEekNEMHdDU2Jxa3FRLVRsVEZCRmVOVHJ3cEE5OUdMczRBMzQwUlNMdDNnT19WUzFuZ2R6U1FvQjVCaFhtNVZLY2Mza1RhSXgyR2JuUWVibmpaVlVPX3lBNUhvVUhYOUZTWlBSUk02TTZrNk5NdmtReTF4eGc?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:03:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "42694153d63311b6b9956ff2",
-      "title": "Ex-fiance of US Rep. Nancy Mace and 2 others charged with sex crimes she detailed in a House speech - AP News",
-      "summary": "Ex-fiance of US Rep. Nancy Mace and 2 others charged with sex crimes she detailed in a House speech AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcWVkLXVNWFdtLVZseS1jUVNRU3RkQ2VXeGpzZjhmbV8zWlJoLXE2dHRiWXMzRUh3QV9tNmJoSWc0UUYzUjROUkNram5mN0QxVHJ2M2EyMUNsYmE3Tk9GOWlDZ0xYNzB4X2lLQ2dHamF0OWh0OFNrWjVMM1BTTmk1SVZGSUQyWUx3Z1pnYzMwdXJlUmVOVERnYmloM05jdGlfek01RFVndFE?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:01:28+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e249b15d6a138697d70f901b",
-      "title": "‘Try to eat really well, 80% of the time’: nutrition expert says healthy eating is easier than you think",
-      "summary": "Christopher Gardner, the author of Food Sense and director of nutrition studies at Stanford, says we have overcomplicated the question of what to eat Finally, some good news: eating well is more straightforward than you think. “There’s a lot of good science out there, and it mostly agrees,” says Stanford University’s director of nutrition studies and professor of medicine Christopher Gardner from his office in Palo Alto – beaming, bronzed and the picture of health. In the age of social media and wellness grift, we’ve overcomplicated the question of what to eat, he says. Continue reading...",
-      "url": "https://www.theguardian.com/wellness/2026/oct/14/christopher-gardner-food-sense-interview",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:00:06+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "67353a91d3b1bc6607ec8fc4",
-      "title": "Prismm helps banks keep inherited money in-house",
-      "summary": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
-      "url": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ab75b57d57dfc75838940837",
-      "title": "Statement from U.S. Secretary of the Treasury Scott Bessent for the World Bank Development Committee and IMF International Monetary and Financial Committee - U.S. Department of the Treasury (.gov)",
-      "summary": "Statement from U.S. Secretary of the Treasury Scott Bessent for the World Bank Development Committee and IMF International Monetary and Financial Committee U.S. Department of the Treasury (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BcTVPSmRRd0REazVCMzRpVTJZTGo5dXota3hCeHRBOHB2YmZjN05qSWx1U0d1N3pONHE4MjFsam8xb3htdEhqLV9XdHR5aHFFSnMxQ2tLcFFrWnEweDY4N25Kbw?oc=5",
-      "source": "U.S. Department of the Treasury (.gov)",
-      "feed_id": "treasury",
-      "category": "Treasury",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:00:00+00:00",
-      "desk_priority": 34,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e7c3af778fcfbca899b53da4",
-      "title": "Burnham says he wants to 'repair bridges' between Ukraine and US",
-      "summary": "It comes as the prime minister meets President Zelensky at Downing Street.",
-      "url": "https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T15:56:57+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4f01c56e3d18800d5bfc426b",
-      "title": "ILO calls for stronger labour protections in global fisheries - International Labour Organization",
-      "summary": "ILO calls for stronger labour protections in global fisheries International Labour Organization",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb09JRjRUdE5qOUF6Ti1RQWJVWExSY1BHX245NGhtbDRvaUtnaUJrS0xON0VkT3ByLWVzUF9CTmZaUVJ1RjFXZ2lYVEFwWm84SlVsVE1vOFAyZFBYUTdYaFE4WE40SExKeXhTYWNXVEJ0LXhHZ1JxdlE5VzNCSmFQT3dXN1RzU2pRN1RBSy1VM1pOQQ?oc=5",
-      "source": "International Labour Organization",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T15:56:30+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f72fa532500caca18a61e8eb",
-      "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
-      "summary": "Abdulrahman Alfozan had worked for the AI giant for more than a year before he was arrested by the FBI.",
-      "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T15:54:04+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ce3d573c8e1ba9ad2219e98f",
-      "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
-      "summary": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near AP News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T15:54:00+00:00",
-      "desk_priority": 52,
       "selection_type": "automatic"
     }
   ]
