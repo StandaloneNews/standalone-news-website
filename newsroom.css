@@ -307,3 +307,18 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
   /* Swiping the clipped quote row stays responsive on iOS; Full markets is the interactive link. */
   .mobile-market-inner iframe{pointer-events:none;}
 }
+
+/* V10 — iPhone ticker clipping fix.
+   V8's max-height:54px!important survived V9's height:auto override,
+   hiding the bottom ~70px of the functioning mobile TradingView embed.
+   Scope this correction to mobile; preserve the existing isolated ticker,
+   desktop TradingView, and V7 dark-overlay protections. */
+@media (max-width: 760px) {
+  .market-strip .strip-inner {
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    align-items: stretch !important;
+  }
+}
