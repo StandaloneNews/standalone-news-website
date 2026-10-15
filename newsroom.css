@@ -322,3 +322,32 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
     align-items: stretch !important;
   }
 }
+
+
+/* V11 — shrink the empty space under the live mobile quote row.
+   TradingView's ticker renders its price/change line near the top of an
+   82px iframe. Keep that 82px iframe intact so the vendor's layout doesn't
+   reflow, but show only the useful upper 50px in a horizontally swipeable
+   market window. This is NOT the V9 clipping bug: V10's outer height stays
+   uncapped, and only the excessive blank space inside the widget is hidden.
+   Desktop market embeds are unaffected. */
+@media (max-width: 760px) {
+  .market-strip .strip-inner {
+    padding-top: 5px !important;
+    padding-bottom: 4px !important;
+  }
+  .mobile-market-window {
+    height: 50px !important;
+    min-height: 50px !important;
+    max-height: 50px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  }
+  .mobile-market-inner,
+  .mobile-market-inner .mobile-tv-widget,
+  .mobile-market-inner .tradingview-widget-container__widget,
+  .mobile-market-inner iframe {
+    height: 82px !important;
+    min-height: 82px !important;
+  }
+}
