@@ -41,20 +41,43 @@ class DeskTests(unittest.TestCase):
         self.assertFalse(mod.license_allowed('All rights reserved'))
 
 
-    def test_featured_first_and_cache(self):
-        recent=[{'id':'new','url':'https://example.com/new'}, {'id':'feat','url':'https://example.com/feat'}]
-        with mock.patch.object(mod,'match_image',side_effect=lambda row, cache, **kwargs: {'thumb_url':'https://images.pexels.com/a.jpg','page_url':'https://www.pexels.com/photo/example/','license':'Pexels License'}):
-            items,count=mod.attach_images(recent,[{'id':'feat'}])
-        self.assertEqual(count,2)
-        self.assertEqual(items[1]['image']['license'],'Pexels License')
-    def test_preserve_previous_image(self):
-        photo={'thumb_url':'https://upload.wikimedia.org/wikipedia/commons/test.jpg','page_url':'https://commons.wikimedia.org/wiki/File:X'}
-        items,count=mod.attach_images([{'id':'a','url':'https://example.com/a'}], [{'id':'a'}], previous=[{'url':'https://example.com/a','image':photo}])
+    def test_repeated_photo_not_assigned_to_two_featured_headlines(self):
+        recent=[{'id':'a','url':'https://example.com/a','title':'Federal Reserve announces rates'},
+                {'id':'b','url':'https://example.com/b','title':'Federal Reserve meets this week'}]
+        photo={'thumb_url':'https://upload.wikimedia.org/a.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Federal',
+               'license':'CC BY 4.0','source':'Wikimedia Commons','matched_query':'Federal Reserve building Washington DC'}
+        with mock.patch.object(mod,'match_image',return_value=photo):
+            items,count=mod.attach_images(recent,recent)
+        self.assertEqual(count,1)
+        self.assertTrue(items[0].get('image'))
+        self.assertIsNone(items[1].get('image'))
+
+    def test_preserve_valid_previous_image(self):
+        photo={'thumb_url':'https://upload.wikimedia.org/wikipedia/commons/test.jpg',
+               'page_url':'https://commons.wikimedia.org/wiki/File:Federal',
+               'source':'Wikimedia Commons','license':'CC BY 4.0',
+               'matched_query':'Federal Reserve building Washington DC'}
+        items,count=mod.attach_images([{'id':'a','url':'https://example.com/a','title':'Federal Reserve makes statement'}],
+                                       [{'id':'a'}],previous=[{'url':'https://example.com/a','image':photo}])
         self.assertEqual(count,1)
         self.assertEqual(items[0]['image'],photo)
+
     def test_pexels_without_key_is_disabled(self):
         with mock.patch.object(mod,'PEXELS_KEY',''):
             self.assertEqual(mod.search_pexels('Federal Reserve'),[])
+
+class ImageQualityTests(unittest.TestCase):
+    def test_generic_headline_uses_artwork(self):
+        self.assertEqual(mod.candidate_queries({'title':'Stocks fall as inflation jumps - Reuters','category':'Markets','source':'Reuters'}),[])
+    def test_named_institution_gets_query(self):
+        self.assertIn('Federal Reserve building Washington DC',mod.candidate_queries({'title':'Federal Reserve announces rate decision','category':'Fed'}))
+    def test_reuse_requires_matching_specific_subject_and_license(self):
+        img={'thumb_url':'https://commons.wikimedia.org/img.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Fed',
+             'source':'Wikimedia Commons','license':'CC BY-SA 4.0','matched_query':'Federal Reserve building Washington DC'}
+        self.assertTrue(mod.image_is_safe(img,mod.candidate_queries({'title':'Federal Reserve releases report'})))
+        self.assertFalse(mod.image_is_safe(img,mod.candidate_queries({'title':'Nasdaq drops in afternoon trading'})))
+        img['license']='CC BY-NC 4.0'
+        self.assertFalse(mod.image_is_safe(img,['Federal Reserve building Washington DC']))
 
 if __name__=='__main__':
     unittest.main()
