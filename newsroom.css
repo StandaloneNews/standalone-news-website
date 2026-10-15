@@ -60,3 +60,40 @@
  /* Full Markets is in the main nav and bottom navigation, free its space for prices. */
  .market-strip .strip-more{display:none}
 }
+
+
+/* News Desk v5 — readability and real editorial hierarchy */
+.lead-content h1{font-size:clamp(23px,2vw,31px);line-height:1.26;letter-spacing:-.025em;overflow-wrap:anywhere;hyphens:auto}
+.lead-content p{font-size:15px;line-height:1.72;color:#394d62;max-width:68ch}
+.lead-bottom .meta-line{font-size:12px}
+.hero-art{height:196px}
+.hero-image-caption{font-size:10px}
+.story-visual{height:112px}
+.story-card-body h3{font-size:17px;line-height:1.38;letter-spacing:-.017em;margin-bottom:8px;overflow-wrap:anywhere}
+.desk-excerpt,.wire-excerpt{font-size:13px;line-height:1.62;color:#4b5b6a;margin:6px 0 11px;overflow-wrap:anywhere}
+.desk-excerpt{max-height:5.1em;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.wire-story{grid-template-columns:74px minmax(0,1fr) 94px;gap:14px;padding-block:19px}
+.wire-story h3{font-size:15.5px;line-height:1.47;font-weight:750;letter-spacing:-.01em;margin-bottom:7px;overflow-wrap:anywhere}
+.wire-story .card-meta,.story-card .card-meta{font-size:11.5px;line-height:1.55;color:#637589}
+.latest-row h3{font-size:14px;line-height:1.45}
+.brief-row a{font-size:14px;line-height:1.45}
+.list-article h3{font-size:14px;line-height:1.45}
+.wire-story a:focus-visible,.story-card a:focus-visible{outline:3px solid #be2b3b;outline-offset:3px}
+@media(max-width:860px){
+ .hero-art{height:175px}
+ .lead-content{padding:21px 21px 22px}
+ .lead-content h1{font-size:clamp(24px,5.3vw,32px);line-height:1.23}
+ .lead-content p{font-size:14.5px;line-height:1.7}
+ .story-visual{height:100px}
+ .wire-story{grid-template-columns:1fr auto;gap:7px 12px;padding:17px 15px}
+ .wire-story .topic-pill{grid-column:1/-1;width:max-content}
+ .wire-story h3{font-size:16px;line-height:1.42}
+ .wire-excerpt{font-size:13.5px;line-height:1.55}
+ .story-card-body h3{font-size:17px;line-height:1.4}
+}
+@media(max-width:420px){
+ .hero-art{height:150px}
+ .lead-content h1{font-size:25px}
+ .story-visual{height:85px}
+ .wire-story h3{font-size:15.5px}
+}
