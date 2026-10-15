@@ -1,5 +1,6 @@
 import importlib.util
 import unittest
+from unittest import mock
 from pathlib import Path
 
 p=Path(__file__).resolve().parents[1]/'scripts'/'publish_desk.py'
@@ -38,6 +39,22 @@ class DeskTests(unittest.TestCase):
         self.assertTrue(mod.license_allowed('Public domain'))
         self.assertFalse(mod.license_allowed('CC BY-NC 4.0'))
         self.assertFalse(mod.license_allowed('All rights reserved'))
+
+
+    def test_featured_first_and_cache(self):
+        recent=[{'id':'new','url':'https://example.com/new'}, {'id':'feat','url':'https://example.com/feat'}]
+        with mock.patch.object(mod,'match_image',side_effect=lambda row, cache, **kwargs: {'thumb_url':'https://images.pexels.com/a.jpg','page_url':'https://www.pexels.com/photo/example/','license':'Pexels License'}):
+            items,count=mod.attach_images(recent,[{'id':'feat'}])
+        self.assertEqual(count,2)
+        self.assertEqual(items[1]['image']['license'],'Pexels License')
+    def test_preserve_previous_image(self):
+        photo={'thumb_url':'https://upload.wikimedia.org/wikipedia/commons/test.jpg','page_url':'https://commons.wikimedia.org/wiki/File:X'}
+        items,count=mod.attach_images([{'id':'a','url':'https://example.com/a'}], [{'id':'a'}], previous=[{'url':'https://example.com/a','image':photo}])
+        self.assertEqual(count,1)
+        self.assertEqual(items[0]['image'],photo)
+    def test_pexels_without_key_is_disabled(self):
+        with mock.patch.object(mod,'PEXELS_KEY',''):
+            self.assertEqual(mod.search_pexels('Federal Reserve'),[])
 
 if __name__=='__main__':
     unittest.main()
