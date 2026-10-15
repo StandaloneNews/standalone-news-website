@@ -124,6 +124,40 @@ def valid_url(link: str):
     return parts.scheme in ('http','https') and bool(parts.netloc) and not parts.username
 
 
+
+# Adapted from the desktop bot's headline-priority rules. This is an automatic
+# editorial *sorting heuristic*, not a factual verification or human review.
+IMPACT_TERMS = (
+    (r'\b(fomc|fed chair|interest rate|rate cut|rate hike|monetary policy)\b', 23),
+    (r'\b(inflation|cpi|pce|jobs report|unemployment|payrolls|gdp)\b', 19),
+    (r'\b(war|ceasefire|invasion|election|supreme court|sanctions|tariff)\b', 16),
+    (r'\b(earnings|merger|acquisition|bankruptcy|profit warning|guidance)\b', 13),
+    (r'\b(s&p 500|nasdaq|dow jones|stocks|treasury yields|oil prices)\b', 11),
+)
+ROUTINE_TERMS = (
+    r'minutes of the board.s discount rate meetings',
+    r'approval of application by',
+    r'\bdecision and order\b',
+    r'\bnotice of proposed (rulemaking|collection)\b',
+    r'\brequest for comments\b',
+    r'\binformation collection\b',
+    r'\bcorrection to\b',
+)
+
+def desk_priority(title: str, category: str, source_type: str) -> int:
+    base = {'Markets':34, 'Fed':32, 'Economy':35, 'World':34,
+            'US News':32, 'Technology':30, 'Washington':31,
+            'Government':29, 'SEC':28, 'Treasury':29,
+            'FDA':27, 'DEA':27}.get(category, 28)
+    if source_type == 'Publisher RSS': base += 3
+    if source_type.startswith('Official'): base += 2
+    for pattern, points in IMPACT_TERMS:
+        if re.search(pattern, title, re.I): base += points
+    if any(re.search(p, title, re.I) for p in ROUTINE_TERMS): base -= 34
+    if len(title) > 150: base -= 8
+    return max(1, min(100, base))
+
+
 def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
     if b'<!DOCTYPE' in xml.upper() or b'<!ENTITY' in xml.upper():
         raise ValueError('Invalid external XML entity')
@@ -147,10 +181,18 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             elif ' - ' in title: title,source=title.rsplit(' - ',1)
         published=parse_date(child_text(node,'pubDate') or child_text(node,'published') or child_text(node,'updated'),now)
         if published>now+dt.timedelta(days=1) or published<now-dt.timedelta(days=7):continue
-        excerpt=plain(child_text(node,'description') or child_text(node,'summary'),180) if feed['kind'].startswith('Official') else ''
+        # Show short attributed excerpts when the original publisher provides them.
+        # Google News discovery descriptions can be nested lists of related stories,
+        # so do not turn those into an alleged summary of the linked article.
+        excerpt = ''
+        if feed['kind'] != 'Discovery':
+            excerpt = plain(child_text(node,'description') or child_text(node,'summary'), 200)
+            if excerpt.casefold() == title.casefold() or len(excerpt) < 35:
+                excerpt = ''
+        importance = desk_priority(title, feed['category'], feed['kind'])
         out.append({
             'title':title,'url':link,'source':source,'category':feed['category'],
-            'source_type':feed['kind'],'summary':excerpt,
+            'source_type':feed['kind'],'summary':excerpt, 'desk_priority': importance,
             'published_at':published.isoformat(timespec='seconds').replace('+00:00','Z'),
             'id':__import__('hashlib').sha256(link.encode('utf-8')).hexdigest()[:20]
         })
