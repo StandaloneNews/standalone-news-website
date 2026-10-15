@@ -155,3 +155,15 @@
   .lead-content h1{font-size:24px!important}
   .reader-jumps a{padding:0 12px}
 }
+
+/* Reader V3: responsive tap targets and reliable market ticker clipping. */
+@media(max-width:760px){
+  .lead-content h1,#lead-title{overflow-wrap:normal!important;word-break:normal!important;hyphens:none!important;}
+  .lead-actions>*{min-height:44px;}
+  .story-card h3,.wire-story h3{overflow-wrap:break-word;word-break:normal;}
+  .market-strip .strip-quotes{position:relative;min-width:0;overflow:hidden!important;}
+  .market-strip .tv-tape{height:50px!important;max-height:50px!important;overflow:hidden!important;}
+  .market-strip .tv-tape iframe{height:48px!important;max-height:48px!important;display:block!important;}
+  .market-strip .tv-tape:has(iframe) .tape-placeholder{display:none!important;}
+  .mobile-bottom{padding-bottom:max(7px,env(safe-area-inset-bottom));}
+}
