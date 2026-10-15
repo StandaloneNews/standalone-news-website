@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+html,body{padding:0;margin:0;background:#f8fafb;color:#506277;font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;height:100%;overflow:hidden}
+#w{height:100%;width:100%;position:relative;overflow:hidden}
+.tv{height:100%;width:100%}
+.tv iframe{max-width:100%!important;border:0}
+.note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:10px;z-index:0;font-size:12px;background:#f8fafb}
+.note a{color:#9a2639;font-weight:700}
+.tv{position:relative;z-index:1}
+</style></head><body><div id="w"><div class="note" id="fallback">Market quotes may be delayed. <a href="https://www.tradingview.com/markets/" rel="noreferrer" target="_blank">View markets ↗</a></div><div id="widget" class="tv"></div></div>
+<script>
+'use strict';
+const params=new URLSearchParams(location.search);
+const kind=params.get('kind')==='ticker'?'ticker':'quotes';
+const selected=['Indexes','Stocks','Futures','Oil & metals','Bond ETFs'].includes(params.get('tab'))?params.get('tab'):'Indexes';
+const groups={
+'Indexes':[{name:'Popular index ETFs (not index levels)',symbols:[{name:'AMEX:SPY',displayName:'SPY · S&P 500 ETF'},{name:'NASDAQ:QQQ',displayName:'QQQ · Nasdaq 100 ETF'},{name:'AMEX:DIA',displayName:'DIA · Dow 30 ETF'},{name:'AMEX:IWM',displayName:'IWM · Russell 2000 ETF'}]}],
+'Stocks':[{name:'Stocks',symbols:[{name:'NASDAQ:NVDA',displayName:'Nvidia'},{name:'NASDAQ:AAPL',displayName:'Apple'},{name:'NASDAQ:MSFT',displayName:'Microsoft'},{name:'NASDAQ:TSLA',displayName:'Tesla'},{name:'NASDAQ:AMZN',displayName:'Amazon'},{name:'NASDAQ:GOOGL',displayName:'Alphabet'},{name:'NASDAQ:META',displayName:'Meta'},{name:'NASDAQ:AMD',displayName:'AMD'},{name:'NASDAQ:PLTR',displayName:'Palantir'}]}],
+'Futures':[{name:'Index ETFs (NOT futures contracts)',symbols:[{name:'AMEX:SPY',displayName:'SPY ETF'},{name:'NASDAQ:QQQ',displayName:'QQQ ETF'},{name:'AMEX:DIA',displayName:'DIA ETF'},{name:'AMEX:IWM',displayName:'IWM ETF'}]}],
+'Oil & metals':[{name:'Commodity ETFs (NOT spot prices)',symbols:[{name:'AMEX:GLD',displayName:'GLD · Gold ETF'},{name:'AMEX:SLV',displayName:'SLV · Silver ETF'},{name:'AMEX:USO',displayName:'USO · Oil ETF'}]}],
+'Bond ETFs':[{name:'Bond ETFs (NOT Treasury yields)',symbols:[{name:'NASDAQ:TLT',displayName:'TLT'},{name:'NASDAQ:IEF',displayName:'IEF'},{name:'NASDAQ:SHY',displayName:'SHY'},{name:'NASDAQ:BND',displayName:'BND'}]}]
+};
+const ticker={"symbols":[{"proName":"AMEX:SPY","title":"SPY · S&P 500 ETF"},{"proName":"NASDAQ:QQQ","title":"QQQ · Nasdaq ETF"},{"proName":"AMEX:DIA","title":"DIA · Dow ETF"},{"proName":"NASDAQ:NVDA","title":"Nvidia"},{"proName":"NASDAQ:TSLA","title":"Tesla"},{"proName":"AMEX:GLD","title":"Gold ETF"},{"proName":"NASDAQ:TLT","title":"Bond ETF"}],"showSymbolLogo":false,"colorTheme":"light","isTransparent":true,"displayMode":"adaptive","locale":"en"};
+const quotes={locale:'en',colorTheme:'light',width:'100%',height:'400',showSymbolLogo:true,symbolsGroups:groups[selected]};
+const holder=document.getElementById('widget');
+const external=document.createElement('div');external.className='tradingview-widget-container';external.style.width='100%';external.style.height='100%';
+const inner=document.createElement('div');inner.className='tradingview-widget-container__widget';inner.style.width='100%';inner.style.height='100%';external.appendChild(inner);
+const script=document.createElement('script');script.async=true;script.type='text/javascript';script.src='https://s3.tradingview.com/external-embedding/embed-widget-'+(kind==='ticker'?'ticker-tape':'market-quotes')+'.js';script.textContent=JSON.stringify(kind==='ticker'?ticker:quotes);external.appendChild(script);holder.appendChild(external);
+const fallback=document.getElementById('fallback');
+new MutationObserver(()=>{if(holder.querySelector('iframe'))fallback.hidden=true;}).observe(holder,{childList:true,subtree:true});
+</script></body></html>

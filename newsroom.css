@@ -211,3 +211,17 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
 
 .hero-art.has-photo .hero-image-caption{display:block;color:#fff;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;pointer-events:auto}
 .hero-art .hero-image-caption[hidden]{display:none!important}
+
+
+/* Reader V6: isolate external TradingView scripts in sandboxed iframe viewports.
+   Protect the newsroom page from unintended overlays painted by market embeds. */
+.market-strip .strip-quotes{overflow:hidden;position:relative;contain:layout paint;isolation:isolate;}
+.market-strip .market-isolation-shell,.market-strip .market-tape-host{position:relative;width:100%;height:54px;max-height:54px;overflow:hidden;contain:paint;isolation:isolate}
+.market-strip .market-tape-host{z-index:3}
+.market-strip .sn-market-frame{display:block;width:100%;height:52px!important;max-height:52px!important;border:0;background:#f8fafb;overflow:hidden}
+.market-strip .tape-placeholder{display:none!important}
+.tv-lazy .sn-market-frame{display:block;width:100%;height:405px;max-height:405px;border:0;background:#f8fafb;overflow:hidden}
+.market-iframe-note{font-size:11px;line-height:1.6;color:#637486;margin:12px 0}
+.market-safe-fallback{margin:0;display:flex;align-items:center;justify-content:center;gap:10px;min-height:50px;font-size:12px;color:#42566a;text-align:center;flex-wrap:wrap}
+.market-safe-fallback a{color:#b5253b;font-weight:750;text-decoration:underline}
+@media(max-width:760px){.market-strip .market-tape-host,.market-strip .market-isolation-shell{height:50px;max-height:50px}.market-strip .sn-market-frame{height:48px!important;max-height:48px!important}}
