@@ -1,0 +1,55 @@
+name: Standalone News opt-in email briefing
+
+on:
+  schedule:
+    # Daily around 14:15 UTC; significant-story checks every 3 hours.
+    - cron: '15 14 * * *'
+    - cron: '15 0,3,6,9,12,15,18,21 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Email type (digest or alert)
+        required: false
+        default: digest
+        type: choice
+        options:
+          - digest
+          - alert
+
+permissions:
+  contents: read
+
+concurrency:
+  group: standalone-opt-in-email
+  cancel-in-progress: false
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Send opted-in readers only
+        shell: bash
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NEWSLETTER_FROM_EMAIL: ${{ secrets.NEWSLETTER_FROM_EMAIL }}
+          NEWSLETTER_SIGNING_SECRET: ${{ secrets.NEWSLETTER_SIGNING_SECRET }}
+          NEWSLETTER_POSTAL_ADDRESS: ${{ secrets.NEWSLETTER_POSTAL_ADDRESS }}
+          NEWSLETTER_BASE_URL: https://standalonenews.com
+          RUN_EVENT: ${{ github.event_name }}
+          SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
+          MANUAL_MODE: ${{ inputs.mode }}
+        run: |
+          MODE="alert"
+          if [[ "$RUN_EVENT" == 'workflow_dispatch' ]]; then
+            MODE="${MANUAL_MODE:-digest}"
+          elif [[ "$SCHEDULE_EXPRESSION" == '15 14 * * *' ]]; then
+            MODE="digest"
+          fi
+          python scripts/notify_readers.py --mode "$MODE"
