@@ -12,6 +12,7 @@ from email.utils import parsedate_to_datetime
 import hashlib
 import html
 import json
+import os
 from pathlib import Path
 import re
 import sys
@@ -27,7 +28,11 @@ MAX_ITEMS = 18
 MAX_AGE_HOURS = 72
 USER_AGENT = 'StandaloneNewsDesk/1.1 (+https://standalonenews.com)'
 COMMONS_API = 'https://commons.wikimedia.org/w/api.php'
-IMAGE_LIMIT = 36
+IMAGE_LIMIT = 18
+MAX_NEW_LOOKUPS = 14  # bounded image searches per run
+PEXELS_KEY = os.environ.get('PEXELS_API_KEY', '').strip()
+PEXELS_API = 'https://api.pexels.com/v1/search'
+
 
 BASE = {'Fed':48,'Markets':37,'Economy':38,'Washington':31,'World':29,'SEC':32,
         'US News':24,'Government':31,'DEA':31,'FDA':30,'Treasury':34,'Technology':26}
@@ -49,12 +54,16 @@ STOPWORDS = {
 }
 ENTITY_MAP = {
     'federal reserve':'Federal Reserve building Washington DC',
+    'fed':'Federal Reserve building Washington DC',
+    'fomc':'Federal Reserve building Washington DC',
+    'cpi':'United States economy shopping grocery store',
+    'inflation':'grocery shopping prices United States',
     'powell':'Federal Reserve building Washington DC',
     'white house':'White House Washington DC',
     'supreme court':'Supreme Court of the United States building',
     'congress':'United States Capitol building',
     'senate':'United States Capitol building',
-    'house':'United States Capitol building',
+    'house of representatives':'United States Capitol building',
     'treasury':'United States Department of the Treasury building',
     'sec':'Securities and Exchange Commission headquarters',
     'securities and exchange commission':'Securities and Exchange Commission headquarters',
@@ -321,13 +330,13 @@ def build_image_queries(item: dict) -> list[str]:
         q=clean(q)
         if q and q not in seen:
             seen.append(q)
-    return seen[:6]
+    return seen[:4]
 
 
 def commons_request(params: dict) -> dict:
     url = COMMONS_API + '?' + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept':'application/json'})
-    with urllib.request.urlopen(req, timeout=20) as response:
+    with urllib.request.urlopen(req, timeout=9) as response:
         raw = response.read(MAX_BYTES)
     return json.loads(raw.decode('utf-8'))
 
@@ -335,7 +344,7 @@ def commons_request(params: dict) -> dict:
 def score_candidate(page_title: str, mime: str, width: int, query: str) -> int:
     score = 0
     lowered=(page_title or '').lower()
-    qwords=set(tokens_for_query(query.lower()))
+    qwords={w.lower() for w in tokens_for_query(query)}
     pwords=set(re.findall(r'[a-z0-9]+', lowered))
     score += len(qwords & pwords) * 7
     if mime in ('image/jpeg','image/jpg','image/png'):
@@ -373,7 +382,7 @@ def search_commons(query: str) -> list[dict]:
             continue
         mime = ii.get('mime','')
         width = int(ii.get('width') or 0)
-        if width and width < 450:
+        if (mime not in ('image/jpeg','image/png','image/webp')) or (width and width < 800):
             continue
         artist = strip_meta((meta.get('Artist') or {}).get('value','')) or 'Unknown'
         credit = strip_meta((meta.get('Credit') or {}).get('value',''))
@@ -394,46 +403,104 @@ def search_commons(query: str) -> list[dict]:
             'query': query,
             'score': score_candidate(title, mime, width, query)
         })
-    return sorted(found, key=lambda x: x['score'], reverse=True)
+    return sorted([row for row in found if row['score'] >= 11], key=lambda x: x['score'], reverse=True)
 
 
-def match_image(item: dict, cache: dict[str, dict | None]) -> dict | None:
-    for query in build_image_queries(item):
+
+
+def search_pexels(query: str) -> list[dict]:
+    """Optional photo provider. API key stays in GitHub Secrets, never in public JS."""
+    if not PEXELS_KEY:
+        return []
+    endpoint = PEXELS_API + '?' + urllib.parse.urlencode({
+        'query': query, 'per_page': 8, 'orientation': 'landscape', 'size': 'medium'
+    })
+    req = urllib.request.Request(endpoint, headers={
+        'Authorization': PEXELS_KEY, 'User-Agent': USER_AGENT, 'Accept': 'application/json'
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read(MAX_BYTES))
+    except Exception:
+        return []
+    photos=[]
+    for photo in data.get('photos', []):
+        source=photo.get('src') or {}
+        img=source.get('large') or source.get('medium') or source.get('original') or ''
+        page=photo.get('url') or ''
+        if not (str(img).startswith('https://images.pexels.com/') and str(page).startswith('https://www.pexels.com/')):
+            continue
+        photos.append({'thumb_url':img,'page_url':page,'source':'Pexels',
+                       'creator':clean(photo.get('photographer') or ''),
+                       'license':'Pexels License','description':clean(photo.get('alt') or query),
+                       'query':query,'score':30})
+    return photos
+
+
+def candidate_queries(row: dict) -> list[str]:
+    queries=build_image_queries(row)
+    # Clear subject/location matches first; broad news-title and publisher fragments last.
+    anchors=[]
+    title=(row.get('title') or '').lower()
+    for needle,query in ENTITY_MAP.items():
+        if re.search(r'\b'+re.escape(needle)+r'\b', title):
+            anchors.append(query)
+    fallback=CATEGORY_FALLBACKS.get(row.get('category'), [])
+    return list(dict.fromkeys([*anchors[:2],*fallback[:2],*queries]))[:4]
+
+
+def match_image(item: dict, cache: dict, *, max_queries: int = 3) -> dict | None:
+    """Only retain license metadata and never describe imagery as actual event coverage."""
+    for query in candidate_queries(item)[:max_queries]:
         if query not in cache:
-            results = search_commons(query)
-            cache[query] = results[0] if results else None
-        result = cache.get(query)
+            images = search_pexels(query) if PEXELS_KEY else []
+            if not images:
+                images = search_commons(query)
+            cache[query] = images[0] if images else None
+        result=cache.get(query)
         if result:
-            label = 'Illustrative photo'
-            return {
-                'thumb_url': result['thumb_url'],
-                'page_url': result['page_url'],
-                'source': result['source'],
-                'creator': result['creator'],
-                'license': result['license'],
-                'description': result['description'] or result['title'],
-                'label': label,
-                'matched_query': query
-            }
+            return {'thumb_url':result.get('thumb_url',''),
+                    'page_url':result.get('page_url',''),
+                    'source':result.get('source','Wikimedia Commons'),
+                    'creator':result.get('creator',''),
+                    'license':result.get('license',''),
+                    'description':result.get('description',''),
+                    'label':'Illustrative photo','matched_query':query}
     return None
 
 
-def attach_images(items: list[dict], featured_ids: set[str]) -> tuple[list[dict], int]:
-    targets=[]
+def attach_images(items: list[dict], featured: list[dict], previous: list[dict] | None = None) -> tuple[list[dict], int]:
+    """Attach photos to DESK PICKS FIRST, then newest stories; reuse previous good matches."""
+    previous_by_url={row.get('url'):row.get('image') for row in (previous or []) if isinstance(row,dict) and row.get('image')}
+    by_id={row.get('id'): row for row in items}
+    targets=[]; seen=set()
+    for row in [*featured,*items]:
+        key=row.get('id')
+        if key in seen or key not in by_id:continue
+        seen.add(key);targets.append(by_id[key])
+        if len(targets)>=IMAGE_LIMIT:break
     for row in items:
-        if row.get('id') in featured_ids or len(targets) < IMAGE_LIMIT:
-            targets.append(row)
-        if len(targets) >= IMAGE_LIMIT:
-            break
-    cache={}
-    attached=0
+        old=previous_by_url.get(row.get('url'))
+        if old and old.get('thumb_url') and old.get('page_url'):
+            row['image']=old
+    cache={};attached=0
+    unmatched=[]
     for row in targets:
-        img = match_image(row, cache)
-        if img:
-            row['image'] = img
-            attached += 1
-    return items, attached
-
+        if row.get('image'):
+            attached+=1
+        elif len(unmatched)<MAX_NEW_LOOKUPS:
+            unmatched.append(row)
+    # Parallel I/O avoids exceeding GitHub's 12-minute workflow timeout if Wikimedia is slow.
+    # The cache is only an optimization; concurrent misses can repeat a query safely.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        jobs={pool.submit(match_image,row,cache,max_queries=2):row for row in unmatched}
+        for future in concurrent.futures.as_completed(jobs):
+            try: image=future.result()
+            except Exception: image=None
+            if image:
+                jobs[future]['image']=image
+                attached+=1
+    return items,attached
 
 def main() -> int:
     previous=[]
@@ -458,12 +525,12 @@ def main() -> int:
         print('All headlines were too old; keeping previous file',file=sys.stderr)
         return 0 if OUTPUT.exists() else 1
     featured_ids={i['id'] for i in featured}
-    items,image_count = attach_images(items, featured_ids)
+    items,image_count = attach_images(items, featured, previous)
     payload={'updated_at':now.isoformat(timespec='seconds'),
              'method':'Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved',
              'sources_checked':len(FEEDS),'sources_ok':ok,
-             'featured_ids':list(featured_ids),
-             'image_policy':'Illustrative images from Wikimedia Commons with commercial-use-compatible licenses; attribution shown on the site.',
+             'featured_ids':[r['id'] for r in featured],
+             'image_policy':'Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.',
              'items':items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
