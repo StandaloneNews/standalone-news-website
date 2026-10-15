@@ -26,7 +26,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect and rank public news
+      - name: Collect and rank public news with licensed photo matching
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python scripts/publish_desk.py
       - name: Commit desk feed only
         shell: bash
