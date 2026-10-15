@@ -29,5 +29,15 @@ class DeskTests(unittest.TestCase):
     def test_reject_entity_document(self):
         with self.assertRaises(ValueError):
             mod.parse(b'<!DOCTYPE a [<!ENTITY x SYSTEM "file:///etc/passwd">]><rss></rss>',mod.FEEDS[0])
+    def test_image_query_builder(self):
+        item={'title':'Fed announces interest rate decision','source':'Federal Reserve','category':'Fed'}
+        queries=mod.build_image_queries(item)
+        self.assertTrue(any('Federal Reserve' in q for q in queries))
+    def test_license_filter(self):
+        self.assertTrue(mod.license_allowed('CC BY-SA 4.0'))
+        self.assertTrue(mod.license_allowed('Public domain'))
+        self.assertFalse(mod.license_allowed('CC BY-NC 4.0'))
+        self.assertFalse(mod.license_allowed('All rights reserved'))
 
-if __name__=='__main__':unittest.main()
+if __name__=='__main__':
+    unittest.main()
