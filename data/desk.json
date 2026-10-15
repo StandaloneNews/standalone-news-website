@@ -1,36 +1,49 @@
 {
-  "updated_at": "2026-10-15T03:39:30+00:00",
+  "updated_at": "2026-10-15T03:53:57+00:00",
   "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
-    "358ec50450d421f33a84839f",
-    "e08e0dcc35077df11a6139fa",
-    "9c2e70ef035e5c9105ceefde",
-    "f251f879b2c890ec3b42c604",
-    "797677cbf7fb09ea88763049",
-    "a6065ae02c332c6028839fba",
-    "e5e1f3de31183b549a8d82da",
-    "96faa508b0e30813b50f2c74",
-    "d412f0f92353479b3694c240",
-    "45c3e595af59755e45830a37",
-    "a18bc2c952e9c2c9c4149127",
-    "94b3e2a7948190fe7ff99e7c",
-    "637e36cdc72e6d2267de7542",
     "20a80e660d5384fd45df7b39",
-    "59a71f51ed8a91025356f6b3",
-    "b6037507a65b5ab6449ecda5",
-    "658fb87024d5091d83078244",
-    "0e3c76f703003599c1eb68f8",
-    "1d9d814de7faa1f2d7f1b9c6",
-    "e09cade4e96a80de6ff04a13",
-    "60221589358fde915ed3a34f",
-    "cb3ee08c9640d4aeee73fa62",
+    "3033c5157a720fca249515ae",
     "c487f97982d35f8d1cb18bd3",
-    "62dfba292a2b777e2c69255c"
+    "94b3e2a7948190fe7ff99e7c",
+    "59a71f51ed8a91025356f6b3",
+    "f251f879b2c890ec3b42c604",
+    "45c3e595af59755e45830a37",
+    "62dfba292a2b777e2c69255c",
+    "358ec50450d421f33a84839f",
+    "0e3c76f703003599c1eb68f8",
+    "637e36cdc72e6d2267de7542",
+    "a6065ae02c332c6028839fba",
+    "1d9d814de7faa1f2d7f1b9c6",
+    "a18bc2c952e9c2c9c4149127",
+    "9c2e70ef035e5c9105ceefde",
+    "b6037507a65b5ab6449ecda5",
+    "d412f0f92353479b3694c240",
+    "797677cbf7fb09ea88763049",
+    "e5e1f3de31183b549a8d82da",
+    "e08e0dcc35077df11a6139fa",
+    "96faa508b0e30813b50f2c74",
+    "cb3ee08c9640d4aeee73fa62",
+    "e09cade4e96a80de6ff04a13",
+    "60221589358fde915ed3a34f"
   ],
-  "image_policy": "Illustrative images from Wikimedia Commons with commercial-use-compatible licenses; attribution shown on the site.",
+  "image_policy": "Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.",
   "items": [
+    {
+      "id": "35c422e411c04f95ed31893c",
+      "title": "Anthropic's third-quarter revenue is said to hit $16.8 billion ahead of IPO",
+      "summary": "Anthropic reports third-quarter stands at $16.8 billion ahead of its IPO.",
+      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:48:58+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
     {
       "id": "cfc366382975c0312bbd1d25",
       "title": "Australian politics live: Wells says ‘manosphere’ podcasts and moon landing conspiracies allowed under Labor duty of care reform",
@@ -40,7 +53,7 @@
       "feed_id": "guardian_world",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T03:33:12+00:00",
+      "published_at": "2026-10-15T03:44:50+00:00",
       "desk_priority": 29,
       "selection_type": "automatic",
       "image": {
@@ -53,6 +66,19 @@
         "label": "Illustrative photo",
         "matched_query": "Australian"
       }
+    },
+    {
+      "id": "7b6c1a02311ecf5914bcbbd5",
+      "title": "Democratic U.S. Sen. Ed Markey and Republican challenger John Deaton squared off Tuesday night in their first and only debate before Election Day, trading sharp attacks over party politics, the economy, and President Donald Trump. - Facebook",
+      "summary": "Democratic U.S. Sen. Ed Markey and Republican challenger John Deaton squared off Tuesday night in their first and only debate before Election Day, trading sharp attacks over party politics, the economy, and President Donald Trump. Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbXZUTzBEZWxobDNabUEyMlg5MVgxd0tFRTJCUkVHWU5wN0Rpa3NKdlpGLXVQajhLRG9wR2RheDRVS0h5aDh3dlBNMTF3RXZGd01IdVpoWmdFWWhoaFJaWEtTYUZodFJGQjVobE44cFBxaGJBUXFreFI2MGV0VUlxVlVmc21uOE1kbXRnUGY0WXFiZ3dLU0k5UGVDcjZVLTJ3Q2doY0N5ajhzSkhXU2tPMVo1YXFQdGxRSFJzQmMtbFNoa1p2TEtWMkZ2RmFqajhiM1VaSThWZnZuZw?oc=5",
+      "source": "Facebook",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:39:12+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "0b7274ba05c98359d99b394f",
@@ -76,6 +102,19 @@
         "label": "Illustrative photo",
         "matched_query": "Anthropic"
       }
+    },
+    {
+      "id": "f59a2132b53eca04f9378959",
+      "title": "Albanian Ministry of Justice on fire as education protesters riot",
+      "summary": "Hundreds of students joined anti-government protests in Tirana, demanding education reforms.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/15/albanian-ministry-of-justice-on-fire-as-education-protesters-riot?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T03:30:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
     },
     {
       "id": "60412c19255771c4a0d61742",
@@ -561,6 +600,19 @@
       }
     },
     {
+      "id": "d8f0d3374a97ab4aa5934964",
+      "title": "Republicans brace for three-way leader fight if they lose - Axios",
+      "summary": "Republicans brace for three-way leader fight if they lose Axios",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUGZTa2lrVENpTDRvYVNwRXloMUZvcUhibjllRmtCSC1wUEE3WXFxWGxvV0xVZTZxejRLU1BaR1JvSEZTZnVtNEhqMEMwR19MdGRZOXRtS0QwU3puWjBsUWZEQlJCbW4yUGpoQ18zbVBnVEoyVkJhdTBwa1dEYU5YSGRPdw?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:27:37+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "dff7690c6eaeed516308f0cc",
       "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream - BBC",
       "summary": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream BBC",
@@ -791,6 +843,19 @@
       }
     },
     {
+      "id": "5989ddaf36b7539d1d771659",
+      "title": "Extreme weather - The Guardian",
+      "summary": "Extreme weather The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
+      "source": "The Guardian",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T01:38:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6dc7a337a35f92dcc5a07747",
       "title": "White House spokesperson Katie Zacharia’s law career faces scrutiny",
       "summary": "Katie Zacharia has repeatedly claimed to be a lawyer, but critics question whether she was ever licensed.",
@@ -870,7 +935,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T01:31:04+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "b27204b70a43b9ca3e9bd8fe",
@@ -922,7 +997,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T01:07:30+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Corner_Store_Russ_Economy_Supperette.jpg/1280px-Corner_Store_Russ_Economy_Supperette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Corner_Store_Russ_Economy_Supperette.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Karen Apricot",
+        "license": "CC BY-SA 2.0",
+        "description": "Corner grocery store in New Orleans, vacant since Katrina. Frenchmen Street at N. Johnson.",
+        "label": "Illustrative photo",
+        "matched_query": "United States economy shopping grocery store"
+      }
     },
     {
       "id": "5893aaa1676e0692a92028e7",
@@ -1025,19 +1110,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T00:41:45+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5989ddaf36b7539d1d771659",
-      "title": "Extreme weather - The Guardian",
-      "summary": "Extreme weather The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
-      "source": "The Guardian",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T00:37:35+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -1156,7 +1228,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T00:07:00+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Corner_Store_Russ_Economy_Supperette.jpg/1280px-Corner_Store_Russ_Economy_Supperette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Corner_Store_Russ_Economy_Supperette.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Karen Apricot",
+        "license": "CC BY-SA 2.0",
+        "description": "Corner grocery store in New Orleans, vacant since Katrina. Frenchmen Street at N. Johnson.",
+        "label": "Illustrative photo",
+        "matched_query": "United States economy shopping grocery store"
+      }
     },
     {
       "id": "50e92af068f2b959a1b9b4b3",
@@ -1247,7 +1329,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T00:00:00+00:00",
       "desk_priority": 51,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Number 10",
+        "license": "CC BY 2.0",
+        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
+        "label": "Illustrative photo",
+        "matched_query": "world leaders summit"
+      }
     },
     {
       "id": "e92cc7fb106b45e6af78c686",
@@ -1286,7 +1378,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T23:48:45+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "232dd88965d840bf9e316df1",
@@ -1377,7 +1479,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T23:33:39+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "c05ce9b49ba5a2111520b6b9",
@@ -1546,7 +1658,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T22:56:00+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "a6065ae02c332c6028839fba",
@@ -1559,7 +1681,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T22:55:14+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "83a5116d106043980de999c2",
@@ -1601,6 +1733,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "4b1f299dc421c9375313fd44",
+      "title": "Ryan Fox Pushes PGA Tour To Elevate Global Events - Yahoo Sports",
+      "summary": "Ryan Fox Pushes PGA Tour To Elevate Global Events Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ndW5pS3dRNTlaeTlnQ2hUMWdjc1ZqWnV6UGszLUpxRGdqVXQyZ3F0RmFMNHdaNmRPRHNuUk5UeE9xcjE2Y3dBQUxNTzFkdUZ5TGtWRmE4Z2tHVl9BVlBIV1FZSENubTZJZlp0dVp0RW1Ub0s1NkpKbG5GdHNNUQ?oc=5",
+      "source": "Yahoo Sports",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T22:50:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1d9d814de7faa1f2d7f1b9c6",
       "title": "Inflation climbs to highest level in four months, squeezing budgets for NC families - ABC11 News",
       "summary": "Inflation climbs to highest level in four months, squeezing budgets for NC families ABC11 News",
@@ -1611,7 +1756,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T22:48:35+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "d9ffc3dc675a63801380f8d3",
@@ -1910,7 +2065,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T22:01:43+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
     },
     {
       "id": "162541f59fe12beba958e831",
@@ -2053,7 +2218,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T21:45:35+00:00",
       "desk_priority": 100,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
+        "label": "Illustrative photo",
+        "matched_query": "Federal Reserve building Washington DC"
+      }
     },
     {
       "id": "31e8245104e60a8ed28b07de",
@@ -2339,7 +2514,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T21:06:02+00:00",
       "desk_priority": 58,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
+        "label": "Illustrative photo",
+        "matched_query": "Federal Reserve building Washington DC"
+      }
     },
     {
       "id": "5c9ba133c8e952ed82733c98",
@@ -2378,7 +2563,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T21:01:12+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Corner_Store_Russ_Economy_Supperette.jpg/1280px-Corner_Store_Russ_Economy_Supperette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Corner_Store_Russ_Economy_Supperette.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Karen Apricot",
+        "license": "CC BY-SA 2.0",
+        "description": "Corner grocery store in New Orleans, vacant since Katrina. Frenchmen Street at N. Johnson.",
+        "label": "Illustrative photo",
+        "matched_query": "United States economy shopping grocery store"
+      }
     },
     {
       "id": "96ea52d21ea17d09b1588be3",
@@ -2849,6 +3044,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "886d648b15aead2a90bf656c",
+      "title": "How major US stock indexes fared Wednesday 10/14/2026 - AP News",
+      "summary": "How major US stock indexes fared Wednesday 10/14/2026 AP News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdWE4SmNWbEVCMk5XQkh0ZXFMMEdVUTFUcDVrUUVYOFY0Zk1wQk55VURXRWU5OVpqU2xMSV9MWlNTMjJQQXhNR2NmX3RNVkExTVRFWjJKaS1CNndocWFGWEplYVlKNmpHWHduSHVMWmhKUzhjSldrT1YwSGxmU0M2UTFDSDJBWExSOTNvWGI2cVU3WXc?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:19:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "84d1f4b511709c6aea5a5e86",
       "title": "Amid Ukraine uproar, Musk says decisions to restrict Starshield up to president - The Hill",
       "summary": "Amid Ukraine uproar, Musk says decisions to restrict Starshield up to president The Hill",
@@ -3107,6 +3315,29 @@
       "published_at": "2026-10-14T19:51:34+00:00",
       "desk_priority": 26,
       "selection_type": "automatic"
+    },
+    {
+      "id": "3033c5157a720fca249515ae",
+      "title": "Fed Interest Rate Hike Seems More Likely This Month After Alarming Inflation Data - Realtor.com",
+      "summary": "Fed Interest Rate Hike Seems More Likely This Month After Alarming Inflation Data Realtor.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnY1NnBJdWRVRXNEZHo3Nnc2NmpzN180UmhKcW9HeF9ocjBCNnN2bzlQOU1PWEU2RDBwLU5EMG9NdkFaQ1pnZXRQUlFEZ2JYcUMwOWtVeEsyLUk4dUgxa05OYVlqUm41SWNCU3EzT0RzRmY4eFVRZnJnM2FVTFozeEE5NFJUdkxlVUx2TS02WWJvU3dRWV9JeXloM0Y4YzZzWWF4Q0lB?oc=5",
+      "source": "Realtor.com",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:50:52+00:00",
+      "desk_priority": 100,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
+        "label": "Illustrative photo",
+        "matched_query": "Federal Reserve building Washington DC"
+      }
     },
     {
       "id": "9d44d70993c5d210fec3d898",
@@ -3405,6 +3636,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T19:00:00+00:00",
       "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0debc810c072599e6fce1385",
+      "title": "Bond trading weakens for US banks as interest rate volatility affects investors - Reuters",
+      "summary": "Bond trading weakens for US banks as interest rate volatility affects investors Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMWFUTlN0UFNuSDRsZWdHaEF5d21ybF9yWS1GWDUwV3J2VWxheFRtRGcyOTlaOXgxcW95M3Q5OV83cUdsWGpOdWxCN0xISlMtX1FZS2tpOWh2NW5qczVYMkREYXRNdGNxTXhfckFYQmx2NzJtTFllMW9jSnlqQ3ZUcEpueVZwX0x6ak5nVlZxLU1NemstczJCdElDV0dTV21HQ1p1c1ptNFBrVUpSajJwbnNuQ0J3VkdrV3NhYlRsaDJaTEE?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:00:00+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -4185,110 +4429,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T16:43:27+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "797677cbf7fb09ea88763049",
-      "title": "New inflation warning sign - Axios",
-      "summary": "New inflation warning sign Axios",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tdzlyQnRBa1lENEhRS2N2bXY5alhKUGVxTzFDSFcwRk42ZTQzTmNPOFNFQUVGb1R2dHBOTnM3ZGo3TEJWd2FQcHdrVFdqdTRXZURROWQ0dUNrd25FMGVVblZCR3gwRFpZQjE4?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:43:17+00:00",
-      "desk_priority": 59,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2bf6e69ab5b41fdb1a86b136",
-      "title": "13 races that will determine control of the Senate",
-      "summary": "Let's get into the map and math.",
-      "url": "https://www.pbs.org/newshour/politics/can-democrats-win-the-senate-here-are-some-pathways",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:40:31+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "353718754d757ccb50dd8041",
-      "title": "New dinosaur species, a T. rex cousin that \"would have chased us,\" identified from fossil found 100 years ago - CBS News",
-      "summary": "New dinosaur species, a T. rex cousin that \"would have chased us,\" identified from fossil found 100 years ago CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1dkc2hQU2VPVHhSSHJ3aTVHWnBoZXp5QVF1YXBxZ0ladGQ1bWxTUWdQeGFHR3BQMENpZTVfQ3c5ajVYWFJPRndUUnk2ME1LMGxRTlF4eUxzQUtmdFFPQUhuVjJYMWFKa0xfYnU4SURUX19feENmTnlQSUFqVEoxVXFuUGpHSHpHUEh4LTN6RFZ3d0JwSE9HTUNSOWs5ZGRERzVFWTFxSQ?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:35:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e333145b95234b6a91da807d",
-      "title": "The silent voter revolt that could upend Congress - The Hill",
-      "summary": "The silent voter revolt that could upend Congress The Hill",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ2VNaFUzSjdjekJfMjJiakNMcE5Rc3hEM2Q3eDAzd0o5RXN4bEVJb25NdnJ3MDVtendQRUtKc0xBdm9yQnctN0RvSWg0b1M5aVQxUjk0NHhVSEh5VmNxd0NtaWdIS2t5TDlZYm4tSjlVaEMzV015LWVaT2J5R3ZwNFVzTEkzN2xLOHFQUjJ0b1bSAZYBQVVfeXFMUDNMMndyaHFlbFl4elFuekZFRlJWZkR3azFNXzJUT0htMVhuR2VOQ255aFdMWFN1bXkwSkw5RmFKZGRnWWZ5VENhNDlVS3pmU2pkSGViVFhaUHJoTzhmd0NwZ2FrRTFJWUpGU1g1NzN0RXAwR3VJSnBsOU4zay0tRXJETTcwN196MGUtcmRlbFRwQXgyaVRR?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:30:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "dbc8201d700bab38fe5ed63d",
-      "title": "US lifts sanctions on head of Venezuela legislature - Reuters",
-      "summary": "US lifts sanctions on head of Venezuela legislature Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVXFnM3A0T3lJeVdPVnZrVlZHT3l6dlBUbjZkZGdmYTd4NTFkZEE1TkpOVkNxaXpoZVBiQUNSNWhrRGl4cXZxS2VWeHN5aVVfbEpSR2doM0xwR1JiZHA5VjdkLVhrVHhBMTlNQmQ1ZGNOSGd1bDhFOEFFQlpveFRpcG43MUZ1OEwwWGxqeXFrLUNwakUxOTU5R19rZEFTQQ?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:25:49+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "594f1b1047f5e864ff482932",
-      "title": "Capital International Exhibition & Convention Centre: Zaha Hadid Architects Redefines Beijing’s Event Landscape - Global Design News",
-      "summary": "Capital International Exhibition & Convention Centre: Zaha Hadid Architects Redefines Beijing’s Event Landscape Global Design News",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMG9WMnJjSUN1Y2hvTnR0ekJ2Q2dUc1BNTzZvQVByVTYzdkxxZ1M3dUdsb190NmRqSURKeEJFdllrR3pPTFFzMS05bElLaVZoUkMwcjNLWFVPSkNQSmZZYkJxeFRuMDBXcklYRGQ2OFNrdnBlMHRaM3prVUxac1V1SHY3eWkxSlJPckdRV0pqSkJ6b1RDdzRMOUFEdHZhU2ZNaWlsT2I3blFRZnpYalZtRVVzeGpOd0dudEpDZ3Y4d3BCNWJxTTBPT2xyblpPZGp5ck1j?oc=5",
-      "source": "Global Design News",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:20:27+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7762e9f087bc4810cf39b277",
-      "title": "Judge extends White House access for CNN, MS NOW, Politico - The Journal Record",
-      "summary": "Judge extends White House access for CNN, MS NOW, Politico The Journal Record",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmdQNTlFaTUwWWNCVk12VXZpdHNWekNXY2Nfc3VNS3NsYi1DR3R5MTJZRG16NVVqcFIxUkE0VjdvdmNnR3RtNFgzWHR6ZHNlVDhhUHNZRmJGUTRIUXZZd3ZCeDNvOU90bXpkb1FGVy13TFo1SFl0RkZ2cU1XeVRvMkVqU1JtQXQzejVvSmhscElrQQ?oc=5",
-      "source": "The Journal Record",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T16:17:09+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "37c22849cc503d46b11a1d9e",
-      "title": "The AI Boom Is Supercharging Wall Street’s Profits",
-      "summary": "Investment banking revenues are up, and wealth-management divisions are winning new AI millionaires as clients.",
-      "url": "https://www.wsj.com/finance/banking/the-ai-boom-is-supercharging-wall-streets-profits-2a2d9747?mod=rss_markets_main",
-      "source": "WSJ",
-      "feed_id": "wsj_markets",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "desk_priority": 37,
       "selection_type": "automatic"
     }
   ]
