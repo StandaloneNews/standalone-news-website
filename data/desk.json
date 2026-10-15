@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-10-15T23:05:20+00:00",
+  "updated_at": "2026-10-15T23:39:50+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
-    "d0c156a7e90e588f698ca121",
     "a4e70648f81a1378c861981a",
     "20a80e660d5384fd45df7b39",
     "a0baceaf1308a6157bb99b19",
     "ca1dee585c7087fe09aba80c",
     "930df11c195cd269f1fb8a09",
-    "22587c3f313a66b18d902fcd",
     "78a0b4185a5c66d92bd04162",
     "45c3e595af59755e45830a37",
+    "d0c156a7e90e588f698ca121",
     "36f0b960f0694c7340a8aff5",
     "00e71532e0ca13755e0ecf2a",
-    "bc5f52fd881b50f7b4703bbf",
     "b470bf213b1d42947d91606c",
     "24109b357ab3df183e55d0e4",
     "994a3c1122da221baca917e9",
-    "65e5ddf380879a367b705080",
+    "a1525e50a51796505d9f12c6",
     "976a002fc2910d65c1193b3c",
+    "73ca048580aa04aea504ded7",
+    "65e5ddf380879a367b705080",
     "bb92c371629fda3025cea503",
     "c6abbd2cccefdaa9ad73d1e2",
     "818521ed3ec8d17160cb850c",
@@ -32,6 +32,45 @@
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
     {
+      "id": "d52188897cfc6affe2c7444a",
+      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+      "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:38:46+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "62b2b337c3b32a8aa5d20552",
+      "title": "And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems",
+      "summary": "Intero Biosystems beat out 199 other Startup Battlefield companies to take home the $100,000 grand prize at TechCrunch Disrupt 2026.",
+      "url": "https://techcrunch.com/2026/10/15/and-the-winner-of-startup-battlefield-at-disrupt-2026-is-intero-biosystems/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:33:45+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e8c93f440224589ab96a9f47",
+      "title": "Three children and one adult reportedly killed in Oregon school shooting",
+      "summary": "Police say gunman dead after shooting at Silver Rail elementary in Bend as local officials and FBI investigate A gunman opened fire at an elementary school in Bend, Oregon, on Thursday, fatally shooting one adult and three children, law enforcement officials confirmed to news outlets. The gunman is also dead, authorities confirmed. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:33:26+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "bbb60d9fd15ce5938316c0e1",
       "title": "Suspicious materials sent to Schumer, other members of Congress, authorities say - The Washington Post",
       "summary": "Suspicious materials sent to Schumer, other members of Congress, authorities say The Washington Post",
@@ -40,7 +79,7 @@
       "feed_id": "washington",
       "category": "Washington",
       "source_type": "Google News",
-      "published_at": "2026-10-15T23:01:15+00:00",
+      "published_at": "2026-10-15T23:28:38+00:00",
       "desk_priority": 31,
       "selection_type": "automatic",
       "image": {
@@ -55,6 +94,94 @@
       }
     },
     {
+      "id": "b4e6b604d0b97688d3805761",
+      "title": "Steam can now show game achievements in separate ‘sets’",
+      "summary": "Valve is introducing a major new feature for Steam achievements called \"achievement sets\" that lets developers list different groups of achievements for a base game and DLCs. \"In games that support sets, you still unlock achievements by playing the game as usual,\" Valve says. \"But when you browse what you have unlocked afterward, Steam will […]",
+      "url": "https://www.theverge.com/games/1012541/valve-steam-achievement-sets",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:18:28+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "2554deac31f8536bae3567f8",
+      "title": "Living with a stink? Technology might help",
+      "summary": "Smells from rubbish dumps and industrial facilities are being more carefully monitored.",
+      "url": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:18:21+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a1525e50a51796505d9f12c6",
+      "title": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds As Traders Buy The Dip - FXEmpire",
+      "summary": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds As Traders Buy The Dip FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRFdwckVjckxNMG5yRGx5LUZ2YkdIY05vaG55My1uMDR6ekZHd2pGMTk1cFRIb0dRQkRkaXZ6UlUydWxPMHNmUlhmN3ZXNWU3YWhraVVKQ2szY0d5TkFETENKTV9fYkxMUlIzNXVkSmM4bU1WSUZPamQzc2lmVEhyMXUzZFNnbDNnaWJNWlF3bjFUZk13eFltYzZDOTNlXzdRN0VqUXBXRmdRdmw1bTdqaDNyN1V4ZkM0ZWZQUGwwU29xdEQyeWxoamlB?oc=5",
+      "source": "FXEmpire",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T23:17:30+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f13a56957564dd377090649a",
+      "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom",
+      "summary": "The escalation between the Saudis and the rebels in neighboring Yemen has exposed the kingdom's challenges in intercepting the attacks in the latest front in the Iran war, while further rattling global markets.",
+      "url": "https://www.pbs.org/newshour/world/saudi-diplomat-says-iran-is-encouraging-houthi-escalation-of-attacks-on-the-kingdom",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:16:23+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f85fd84baf5665c27c82623e",
+      "title": "I find it quite demoralising in store - why I do all my shopping online",
+      "summary": "After Primark announced plans for home delivery, we hear from women who never go into clothes stores.",
+      "url": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T23:16:12+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "976a002fc2910d65c1193b3c",
+      "title": "Ted Cruz and Mike Lee want the Supreme Court to hear John Eastman’s appeal - MS NOW",
+      "summary": "Ted Cruz and Mike Lee want the Supreme Court to hear John Eastman’s appeal MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVTRaTjRJeTk3SmZtdmdsa1REbG1VWDNvWTF3R2dqREVPMDFGYlhiY3dLdGZVRENPVzVVaXp3Yld3ek03Q2puTnAzdlJ2LXlZaERnZmJMTUpKQzBzTjVvWXg3ekRmZzdRZ0VGVnMyOXdDNER3ekhxLWZJYkFGZWtwclJPb0ozdFZOcmxNMnk1ZVVyT1VhcjZlQ2pMdjlBSFUzRjRXMElBWXVSNERjWVI1M2RKR09Edw?oc=5",
+      "source": "MS NOW",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T23:09:08+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Building_of_the_United_States_Supreme_Court.jpg/1280px-Building_of_the_United_States_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_United_States_Supreme_Court.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "颐园居",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Supreme Court Building",
+        "label": "Illustrative photo",
+        "matched_query": "Supreme Court of the United States building"
+      }
+    },
+    {
       "id": "afd1503e287bdf02772103e4",
       "title": "Netflix Chief Content Officer Bela Bajaria is leaving, will be replaced by Peter Rice",
       "summary": "Netflix announced Bela Bajaria will be replaced by former Disney exec Peter Rice as the company's chief content officer.",
@@ -63,8 +190,60 @@
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T22:59:10+00:00",
+      "published_at": "2026-10-15T23:08:05+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "49d49d03cb8fb7eb2015b9fb",
+      "title": "Analysis | Trump is losing a lot of court cases lately - The Washington Post",
+      "summary": "Analysis | Trump is losing a lot of court cases lately The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQkk0UnZhVlY5SEluMVh0a3NLTHljLXhJVzNlRF9vdTc0ZS13SlJLbG1JaTZlLUU1b1prcEY2RTAtWVp2Y3RnWDA3cDlpdW1LZkFNNjhTbTlpeTY1M0t5OXRBNG84cmtYWkFEeUEyNE9vS05nNUp0UnA5YVNqMFpYclYwWUhSZzUwdDF2aHZtVGszc3VV?oc=5",
+      "source": "The Washington Post",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T23:06:29+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "95ef15c2d897dee85c1842de",
+      "title": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media",
+      "summary": "Katie Zacharia tells Guardian her first, widely panned, press briefing followed six-day sprint to appoint her to key role Donald Trump’s new White House press secretary says it is “unknown” how much she will engage with the press, or hold briefings with reporters, as she faces mounting questions over her legal credentials. In a brief interview with the Guardian on Thursday, Katie Zacharia detailed the whirlwind sprint to replace her predecessor Karoline Leavitt as the US president’s chief spokesperson. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/15/katie-zacharia-trump-press-secretary-interview",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T22:58:02+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "73ca048580aa04aea504ded7",
+      "title": "US Stock Market: What to led to S&P 500, Nasdaq, Dow Jones, Russell 2000 rebound after historic low despit - The Economic Times",
+      "summary": "US Stock Market: What to led to S&P 500, Nasdaq, Dow Jones, Russell 2000 rebound after historic low despit The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQT1pTWXVKb2kxUzFyMW5oVjBCNE53UXBaRVkwMkZibFBLTWFrdTBZTEhWZ1NmU2l5WnRRLVRGRWZSWi1EOHBGY25aeGdJWW1TcUtlLW5BbjRCY3Bkc3E1cXNUWUhUclVuZzlMbXVsbnVPM0JXSHRwdVpfUlpjM25SYTB3TXo1eVBmOVhEWWFaSjlIa1d2TXlqVWEzN3luVWo2MVpPTzlsTlkxQmZxVlRPUGRDXzdUSXc4Umd4ZVpLRWNENUZnNl82X2EyemVrdUJZTFdZNzAyclU5MWtSM0xic0paTVo5NlpvUkluamUxX0VOYmFSNHhGcHVtemtkNzZrVGF6Wi1keUFZZXNkbTBIUEtERkNZY2hyMmJoRzNRTjhJaXZScjRReGN1UnlBeDZZQVVfVndaQdIBvAJBVV95cUxQMEtDalFxbGJmNGEyNi1WSkVnNGxaWGs0UHFWazZSN1VBSmd5RXQ5eXVodGQ5TTRzMWxsNElLQlJrWnBwcXhhN0RQLVZsR0lzNlEtbGpFVnh0bGRTT25oSmFOVEhoYkJxanJRakxLSkU1Vi1zd3g5ZjdmTHp2YklmdHFSWkdUZzFtU2d1UXdqd2tVR1VVeUZ3aVRsczBFWTMzZGNIN0RZc1pyelN0NFdKd2dDOERsVEF5eXF0bkJpUFI3TFNBUGZLeXFwNXNCYVdJT2t4WndseTVHTTlvLVpRMG1qbHRPY0E2dlR1RzlfQ0Jndl85ZTZEWHZiUUs0VkNaZ2VfU0lnY1FkVVdjOXI3bzZ0Y2k3Q1NWaWxLc0wzMjhJZXo5WnBqejd4elB1Y2h2R2s4ZDE1V2NaZzZf?oc=5",
+      "source": "The Economic Times",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T22:57:36+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "80727e7f66c08cd5b32909b0",
+      "title": "WATCH LIVE: Sullivan, Peltola face off in Alaska U.S. Senate debate - PBS",
+      "summary": "WATCH LIVE: Sullivan, Peltola face off in Alaska U.S. Senate debate PBS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkwwckNIQnY2eUg2Mmx4dEhVM3ByVmZkeTM4QmNGc0ZkLWQ1NjhuT3YzRGhycnNrUTVUM3dxODNneFN6eVRkcDZzdlpoWXJwUWNXUWhkbFZjSGVZUFdkTXJLaHNENG9NQVUySzY4WG1pMExPT2ZKY1dsa1RTTGxOUG4teDh2elJGd25lMmctV1IzcDkxZDluVm94QWwxNXVuT1dNUtIBqgFBVV95cUxPN0kyal9jeHFjWDkteElUdkM5MVk1SXRWdkJza2FnTExrVndEaHFsbUlEb0E3NDJYX2wtQ1cxR25GRU9zQUVFY0pPSUZNWkhpMnQ5ZXNPdnR1U01hTjhzMHNFdlRJVXY2cXdfSXFOdTVSS1RNUmFHcXhlX1ktUUpzUTRDYUtfMW9XR0d4V00xTTBZa2dJQWQ3NGwwWFJENWF4QWh0Umtrcy1iUQ?oc=5",
+      "source": "PBS",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T22:57:22+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -94,6 +273,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "842d982c80473dc761dfd8b8",
+      "title": "At least 4, including 3 children, killed in US elementary school shooting",
+      "summary": "Authorities have indicated that the shooter was killed by gunfire, though details remain scant about the attack.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T22:51:56+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "b40bb4eb1097014026137852",
       "title": "Ukraine less reliant on U.S. as Trump-Zelenskyy rift deepens, former ambassador says",
       "summary": "For perspective on the tensions between President Trump and Ukrainian President Zelenskyy, Amna Nawaz spoke with former U.S. Ambassador to Ukraine William Taylor. He's now a distinguished fellow at the Atlantic Council.",
@@ -117,17 +309,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T22:48:12+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
-        "label": "Illustrative photo",
-        "matched_query": "White House Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "b6036c97afbdca0cd4219623",
@@ -179,19 +361,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T22:43:23+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "49d49d03cb8fb7eb2015b9fb",
-      "title": "Analysis | Trump is losing a lot of court cases lately - The Washington Post",
-      "summary": "Analysis | Trump is losing a lot of court cases lately The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQkk0UnZhVlY5SEluMVh0a3NLTHljLXhJVzNlRF9vdTc0ZS13SlJLbG1JaTZlLUU1b1prcEY2RTAtWVp2Y3RnWDA3cDlpdW1LZkFNNjhTbTlpeTY1M0t5OXRBNG84cmtYWkFEeUEyNE9vS05nNUp0UnA5YVNqMFpYclYwWUhSZzUwdDF2aHZtVGszc3VV?oc=5",
-      "source": "The Washington Post",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T22:42:36+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -260,15 +429,15 @@
       "selection_type": "automatic"
     },
     {
-      "id": "e8c93f440224589ab96a9f47",
-      "title": "Multiple people, including children, injured in elementary school shooting in Oregon",
-      "summary": "Police say suspect dead and at least two people hospitalized after shooting at Silver Rail elementary school in Bend Multiple people, including children, were injured in a Thursday shooting at an elementary school in Bend, Oregon , police confirmed during a press conference. At least two have been hospitalized and the suspected gunman is dead, according to Bend police spokesperson Sheila Miller. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/15/oregon-elementary-school-shooting",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
+      "id": "24cec72781417c6d2dd928c6",
+      "title": "Inside Georgia's Senate race and Collins's uphill battle against Ossoff",
+      "summary": "President Trump will travel to Georgia on Friday to stump for Republican Senate candidate Mike Collins. Collins is in an uphill battle against incumbent Democratic Sen. Jon Ossoff. Liz Landers visited Georgia for a closer look at that race.",
+      "url": "https://www.pbs.org/newshour/show/inside-georgias-senate-race-and-collinss-uphill-battle-against-ossoff",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T22:34:19+00:00",
+      "published_at": "2026-10-15T22:30:58+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -299,6 +468,32 @@
       "selection_type": "automatic"
     },
     {
+      "id": "504789623ed8d1483ab2252b",
+      "title": "Why small colleges are closing and the toll on students and communities",
+      "summary": "Across the nation, scores of small private colleges and universities are either closing or under threat. As each school shutters, students, faculty, and the surrounding community struggle to find a way forward. Paul Solman reports on one such school and the effects of its demise. It's part of our higher education series, Rethinking College, and produced in collaboration with the Hechinger Report.",
+      "url": "https://www.pbs.org/newshour/show/why-small-colleges-are-closing-and-the-toll-on-students-and-communities",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T22:25:47+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ee38978c8be4ef4a228381c9",
+      "title": "David Byrne explores the art of rediscovery in 'Sleeping Beauties'",
+      "summary": "Why do great ideas and works of art sometimes get forgotten? And why do some get revived? These are among the questions explored by musician, writer and visual artist David Byrne in his new book, \"Sleeping Beauties.\" Senior arts correspondent Jeffrey Brown recently joined him in Brooklyn for our arts and culture series, CANVAS.",
+      "url": "https://www.pbs.org/newshour/show/david-byrne-explores-the-art-of-rediscovery-in-sleeping-beauties",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T22:20:59+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "053b85fd36809cf38cd4c097",
       "title": "Historians, Watchdog Head to Appeals Court to Defend Order Blocking Trump’s Evasion of Presidential Records Act - American Historical Association",
       "summary": "Historians, Watchdog Head to Appeals Court to Defend Order Blocking Trump’s Evasion of Presidential Records Act American Historical Association",
@@ -322,6 +517,32 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T22:12:23+00:00",
       "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "50e7d63de62f1b4d6fe7d187",
+      "title": "Asian Stocks Set for Gains as Tech Selloff Eases: Markets Wrap - Bloomberg.com",
+      "summary": "Asian Stocks Set for Gains as Tech Selloff Eases: Markets Wrap Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdENxVU1tLTc2TGl0ZVlldEVMcndIaURqT2p4RGQ2NGZmTjNOZDhSQzFaU2lhQVZYVmo2dGNPMUxrOHlFOXlpZzZmcUdicmxNTkFpODROSjNNbTJWb0l4NmlLZTZOb1lURHhzeG1XWl96SVR5Y3JGRVJXZ2txV1dVUWVOelpZM0lOUk5LSmlkOFdMS2RC?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T22:04:06+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7d4d8e8a5a3e47f9498c7e73",
+      "title": "2026 elections: US Representative Jesús 'Chuy' García reflects on four decades in Chicago politics as Congress retirement nears - ABC7 Chicago",
+      "summary": "2026 elections: US Representative Jesús 'Chuy' García reflects on four decades in Chicago politics as Congress retirement nears ABC7 Chicago",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONHB6U1VmbURJbUhjWV9GbEd1M1RvM0cxRkExT0w4cnc1dzE3NXNraW0zRHFCSzVvTllKRU1rZWZLaHFyQzFEQlFUaWpsc0tpdWJ6Z3U2TW5FaU9uNU1LVTBCZFlBQTY5WDB4QVdVSGZOWVBMZGowSjVQQmY3SlZ5MVBfT3pkSkdNV3RjZEJKMEtyRzhDYWtBUmNQWU9pNFdMQW92WVR3ZVNPRDJtZGpFaU8xNHNmcHJGa0dFWEQyNnFINHdFQ3hFaTYxbGJBUWlvMkRSWFIzb0FURTBjemk2R0dqa9IB6AFBVV95cUxNMmJsQW1SeTl1SXB0R0o0NzVDcTAzYWw5TDMwaHVMckdYMnhsVUxscUdHQml6bzFLUmZFdmZscEpPMGJLbmxKb2c0NVpBRzNpSFV3SkE3U0pvNFVwWmMwSVU3SzRLNnVobmJZMHZOMlJwbGdsRkNSWGthU3k5NEk0ZHVRcTVGUGF0UEFVVEZ6WTRGTHdjUWN0TXFXLThYRkM1ZWRqcF9rVHk1Y2YwRU41OGV6di1kOWhZcFhNd1NUc3o5bDFrOWJ3bWNjN0dCWUJnX2VqVk04LVRyOVhMMGd0YkVNMml6U0x3?oc=5",
+      "source": "ABC7 Chicago",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T22:04:04+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -469,15 +690,15 @@
     },
     {
       "id": "d0c156a7e90e588f698ca121",
-      "title": "Fed Officials Troubled by Hot Inflation Data as Rate Hike Looms - Investopedia",
-      "summary": "Fed Officials Troubled by Hot Inflation Data as Rate Hike Looms Investopedia",
+      "title": "Fed Officials Say They’re Troubled By Hot Inflation Data - Investopedia",
+      "summary": "Fed Officials Say They’re Troubled By Hot Inflation Data Investopedia",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFhTR3R1MjNEY0VkVldFRlFlWXVhUVhaMEMzYXkwYnZ2UGs1cXJCRVY1X0p5ckVmcVpwQlZGMEJCNHdJcEN3dmZzblR1QzQtUFlUeGRoTU5TT2ZFWVdTdG9EMmlmRllBZjIyMEgxMnRyOUlXaEdCc3VjWFYxQ2dlYWtEQmtqX3A5OERGZmNzVDBrZ3V5X1N1eDNR?oc=5",
       "source": "Investopedia",
       "feed_id": "economy",
       "category": "Economy",
       "source_type": "Google News",
       "published_at": "2026-10-15T21:42:37+00:00",
-      "desk_priority": 100,
+      "desk_priority": 66,
       "selection_type": "automatic"
     },
     {
@@ -529,6 +750,19 @@
       "category": "Government",
       "source_type": "Google News",
       "published_at": "2026-10-15T21:39:04+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "830c37803d113be547902fd2",
+      "title": "Gen Z and millennials are running for Congress in record numbers, but few reach November - Axios",
+      "summary": "Gen Z and millennials are running for Congress in record numbers, but few reach November Axios",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTRrYVBMVk9mLVEzb1AxZjhITDZ5QzdsQ1p1NDZJdGRBLWxuUWUzNThnQTAzSDktM01ua2FDa3hXUzJBei1tb3IxSjVYeWthQVFFUHM3S1Jna3hlR2tTNjhlMVpYNnN4a0daRHhhTDlkdnBqWXlsWEppdzlibDlPb1lVRDM?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T21:38:04+00:00",
       "desk_priority": 31,
       "selection_type": "automatic"
     },
@@ -585,6 +819,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T21:30:21+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "e12c61c2a1e60400941ee7df",
       "title": "Tesla plans next-generation Roadster reveal after almost a decade of delays",
       "summary": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
@@ -637,6 +884,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "db4bc7fa8b3829d5b7f04401",
+      "title": "Senate Republicans plan post-election blitz to confirm Trump's judicial nominees - Reuters",
+      "summary": "Senate Republicans plan post-election blitz to confirm Trump's judicial nominees Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQT1ZEd0kwQ3gyWjFUR0Q5eTVfRTdUV3RraTd0ak43dm5ESzZXZTZvblp0dzkyekFnNkJ2Zks3WXVwOFc2ZXZERTNqVkdHb2k0cTU0UWZ4WXpGT2dQb2hEMGZHWmRlX1dMT1VnRWxuYjNwUGFaNTBGa2RKcFZFRkdzeXJHc3NMMFNhR2hHZmE0TEt5V2FwclpGMkFLNXhUakFfSE9JYnZjOHF6bW8taHpIemVMQ1pwempUSkVVLVV0RWNxQ2xTamRDMw?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T21:22:55+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "d98034fa209645b4ddec3ebf",
       "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset. - MarketWatch",
       "summary": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset. MarketWatch",
@@ -648,29 +908,6 @@
       "published_at": "2026-10-15T21:21:00+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
-    },
-    {
-      "id": "976a002fc2910d65c1193b3c",
-      "title": "Ted Cruz and Mike Lee want the Supreme Court to hear John Eastman’s appeal - MS NOW",
-      "summary": "Ted Cruz and Mike Lee want the Supreme Court to hear John Eastman’s appeal MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVTRaTjRJeTk3SmZtdmdsa1REbG1VWDNvWTF3R2dqREVPMDFGYlhiY3dLdGZVRENPVzVVaXp3Yld3ek03Q2puTnAzdlJ2LXlZaERnZmJMTUpKQzBzTjVvWXg3ekRmZzdRZ0VGVnMyOXdDNER3ekhxLWZJYkFGZWtwclJPb0ozdFZOcmxNMnk1ZVVyT1VhcjZlQ2pMdjlBSFUzRjRXMElBWXVSNERjWVI1M2RKR09Edw?oc=5",
-      "source": "MS NOW",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T21:20:40+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Building_of_the_United_States_Supreme_Court.jpg/1280px-Building_of_the_United_States_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_United_States_Supreme_Court.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "颐园居",
-        "license": "CC BY-SA 4.0",
-        "description": "United States Supreme Court Building",
-        "label": "Illustrative photo",
-        "matched_query": "Supreme Court of the United States building"
-      }
     },
     {
       "id": "b9767beae33067ed5a368269",
@@ -764,6 +1001,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "aad30278ecbd3faa46c9f07a",
+      "title": "OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence - Reuters",
+      "summary": "OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdVBjUDY1NEtsWk4xYnphdUJQSjdScU5TNHdPUk9iN3FibFNId2xOWDA4c1RHY2FodFJYdVl1ZzIybjBLc21FZXJxOXRmbjNsbFk4SDNIYzhDeWw4dEt6RkJhN3NJeHJqYVlVTlc5YnVZOHRyeWJIalRfaE5ER2tKRnRieXN4MVN2WkxFSmFvSFVBbUF6b0FHV0FoVTA5emZtRThLUlQ5VXQ4TndPU3FPRFpKMjg?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T21:02:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "548078419c16311a368b78d5",
       "title": "ICE tactics spark debate before pivotal US midterm elections",
       "summary": "Polls have found that Trump's hardline immigration enforcement effort has divided voters before the 2026 midterm race.",
@@ -830,9 +1080,22 @@
     },
     {
       "id": "60b54ac6635cab4d11c7b39b",
+      "title": "Bend, Oregon school shooting: 3 children, 1 adult killed, source says. Shooter is also dead - CNN",
+      "summary": "Bend, Oregon school shooting: 3 children, 1 adult killed, source says. Shooter is also dead CNN",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ucy03Y1N5V2ctYVlsQ29jQTE5WWdHQ0dtYU5LWTBQS0tuQXh4ODFEM082WXNaUHk1OGFYcW1hLWN2M1pRTFY5MWNqWHVUMXNxYWM2WXZieWNnbEJ1VTByRThtX01GSGFhS21lV1VNcw?oc=5",
+      "source": "CNN",
+      "feed_id": "cnn",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T20:57:24+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8a314abbb7916a0e7e8fd2d1",
       "title": "4 killed, including 3 children, in shooting at Oregon elementary school, source says. Shooter is also dead - CNN",
       "summary": "4 killed, including 3 children, in shooting at Oregon elementary school, source says. Shooter is also dead CNN",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ucy03Y1N5V2ctYVlsQ29jQTE5WWdHQ0dtYU5LWTBQS0tuQXh4ODFEM082WXNaUHk1OGFYcW1hLWN2M1pRTFY5MWNqWHVUMXNxYWM2WXZieWNnbEJ1VTByRThtX01GSGFhS21lV1VNcw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5Y0hHN1d1LUI2c2lrdHdLNDZHU3V4SFlkMGZMNHgxTGw4dEhNNElQbFVsQUVyZS1iRFg5TDBTSjhoU0tCSDZEWHJzVzhYM2V4TDY0d3ZLSzJ5UWhYRkZkcE8xYVhRUXRLanhSQXYyTFVMbG1I?oc=5",
       "source": "CNN",
       "feed_id": "cnn",
       "category": "US News",
@@ -1193,6 +1456,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "6fd8cfed1f0b63f009b04f80",
+      "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race - ClickOnDetroit | WDIV Local 4",
+      "summary": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2staXVCRHNkc0s2ZHZCb3B6c3dMVWpLam4wX3h3RzA0dFhlbXJtOVQ2SFhGWEVuNm8xWFlLR1A4RDFfcFA0THJfSzJ1cy1QWVNuVFZQZ0Jqb1p2RjAyUTZIWUpON1c3NmRNRHVtWVBad0hIZmtjaXVwVjYtMTNUeHRlTy1sZV9fQzdzN2dpY0NNaHJSelNTdUZrUTNPNzNEWVpiWlNRTDBQNzNBMnM5ejVBN2lpNHVlRG96dlhhUjcyZlE3QXR2U1JEMHJ5VW8tOFlNcVRPbGNVUQ?oc=5",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T20:28:11+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3c48b65995bd22f5cc531e29",
       "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race - News4JAX",
       "summary": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race News4JAX",
@@ -1202,19 +1478,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-15T20:28:11+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1fe4f55dff94e5f1b948fd4e",
-      "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race - Audacy",
-      "summary": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race Audacy",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzlDRXVUOVRSWVRDMWEtSXhRbm1Qa0JMc0s4RDdOdkd6MHZMOWJrN1ZOY2xxazFDLVJSRXZQV0cyWVFHZWFOMDE5X2VRN0xhSC13QjBPempRUTJ5S2R6eFFSMmR3bmN1QTdpZ19jUXVZQ1VRdnZ5b2s1ZFllelVZS2xqbnV6bnNheHlfdjdBc1F0VEktbF9MVHQwUEZheGVQeDhNVVVyZF8xWDh4djZkOWo1THp2U0dYVzJpOA?oc=5",
-      "source": "Audacy",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T20:28:00+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1242,6 +1505,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T20:28:00+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1fe4f55dff94e5f1b948fd4e",
+      "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race - Audacy",
+      "summary": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race Audacy",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNzlDRXVUOVRSWVRDMWEtSXhRbm1Qa0JMc0s4RDdOdkd6MHZMOWJrN1ZOY2xxazFDLVJSRXZQV0cyWVFHZWFOMDE5X2VRN0xhSC13QjBPempRUTJ5S2R6eFFSMmR3bmN1QTdpZ19jUXVZQ1VRdnZ5b2s1ZFllelVZS2xqbnV6bnNheHlfdjdBc1F0VEktbF9MVHQwUEZheGVQeDhNVVVyZF8xWDh4djZkOWo1THp2U0dYVzJpOA?oc=5",
+      "source": "Audacy",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T20:28:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1523,11 +1799,11 @@
       "summary": "The Trump administration sued California election officials Thursday, asking a judge to bar the state from counting mail-in ballots for next month's midterm elections from people the federal government has identified as \"likely\" noncitizens until their status can be confirmed.",
       "url": "https://www.pbs.org/newshour/politics/trump-administration-sues-california-to-block-counting-of-alleged-noncitizen-mail-ballots",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T19:54:41+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -1648,19 +1924,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "a1525e50a51796505d9f12c6",
-      "title": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds As Traders Buy The Dip - FXEmpire",
-      "summary": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds As Traders Buy The Dip FXEmpire",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRFdwckVjckxNMG5yRGx5LUZ2YkdIY05vaG55My1uMDR6ekZHd2pGMTk1cFRIb0dRQkRkaXZ6UlUydWxPMHNmUlhmN3ZXNWU3YWhraVVKQ2szY0d5TkFETENKTV9fYkxMUlIzNXVkSmM4bU1WSUZPamQzc2lmVEhyMXUzZFNnbDNnaWJNWlF3bjFUZk13eFltYzZDOTNlXzdRN0VqUXBXRmdRdmw1bTdqaDNyN1V4ZkM0ZWZQUGwwU29xdEQyeWxoamlB?oc=5",
-      "source": "FXEmpire",
-      "feed_id": "markets",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T19:35:50+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
       "id": "9a33214e88b2b6b1fb24c078",
       "title": "Some 'classic' money advice is actually pretty new—and not all of it is worthwhile, says historian",
       "summary": "A historian explains why housing, investing and budgeting advice has changed over time — and what that can teach you about money today.",
@@ -1705,11 +1968,11 @@
       "summary": "The investigation resulted in a dramatic 2022 FBI search of Mar-a-Lago that recovered classified records and later produced an indictment in federal court in Florida charging then-former President Donald Trump with dozens of felony counts.",
       "url": "https://www.pbs.org/newshour/politics/fbi-agents-and-analysts-who-were-fired-for-working-on-trump-classified-files-probe-sue-to-get-their-jobs-back",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T19:26:01+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -1908,6 +2171,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "19565b2e386b7a4e2b61c5e5",
+      "title": "State Department Announces Feed the Future Innovation Labs to Support Agriculture Research - U.S. Department of State (.gov)",
+      "summary": "State Department Announces Feed the Future Innovation Labs to Support Agriculture Research U.S. Department of State (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbzFXWHN6a3ZQY2hMU0xrVXVTN29BZVVDRUpWNVBPMndka0xWdERyRFNfcy16SXFoSnN6RkdOWE5Mb1BJWE5oRGd6OVRzX0g4a2dsOUQ2d3pNVVpVbERod09vbzVLU0VnS2ZYZEo4RGJ3X2JTeXJMMndFakM2MUR0Z2tmVDJEcFdKaXVESDVYM21OdWZ4djV4ZHU4b2poQ1cwUmYxR0ZUYlQ4WUFCZlFBZWxfMWZmLXdsSF9iUnIweUNNZ3I2YnNhMUFxdzRWWHBzajd5c3BuRzhYSHBGYzZDRDdDaTFyZ014V3c?oc=5",
+      "source": "U.S. Department of State (.gov)",
+      "feed_id": "state",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:57:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "70eb8d3db75495311c3a94d9",
       "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
       "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
@@ -2061,19 +2337,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:35:25+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T18:30:21+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2368,11 +2631,11 @@
       "summary": "The party has struggled with fundraising during President Donald Trump's second term, lagging behind Republicans and carrying debt into this year's campaign season.",
       "url": "https://www.pbs.org/newshour/politics/democrats-see-voter-enthusiasm-in-fundraising-haul-from-small-dollar-donors-before-the-midterms",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:59:10+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -2714,19 +2977,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "03e04686947889a088bf21ab",
-      "title": "A Trump-backed Senate nominee is now backing Democrat Chris Pappas in New Hampshire - Axios",
-      "summary": "A Trump-backed Senate nominee is now backing Democrat Chris Pappas in New Hampshire Axios",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUmF0U1V5NmNCQnh3N2xIRDUyYWdBU0o4RTktNFBWR2RIaGVBcW5wRkQwRXpkN1hMMTNZOWVCRzVtczl5M1V2NE8yUVBaNmZza0FXeUFqYzBVdHFPZXZvSEZ4NU9ESnZETDFVN1BDN3gzT3Q3a3VCSE1yM0FyMEU0ekpRUWJqdUlBLXg3NzBvYmwzd00?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T17:35:28+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
       "id": "3e299b7174903d0be62eda33",
       "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
       "summary": "Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia that will extend beyond its battery electric vehicles.",
@@ -2859,11 +3109,11 @@
       "summary": "Open enrollment comes as inflation adds pressure on seniors whose healthcare costs have risen and as midterm elections are weeks away. Voters have consistently said cost-of-living is a major concern.",
       "url": "https://www.pbs.org/newshour/health/medicare-open-enrollment-starts-now-these-changes-will-arrive-in-2027",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:22:38+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -2929,19 +3179,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:19:49+00:00",
       "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d52188897cfc6affe2c7444a",
-      "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
-      "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T17:18:49+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -3059,6 +3296,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:08:21+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "03e04686947889a088bf21ab",
+      "title": "A Trump-backed Senate nominee is now backing Democrat Chris Pappas in New Hampshire - Axios",
+      "summary": "A Trump-backed Senate nominee is now backing Democrat Chris Pappas in New Hampshire Axios",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUmF0U1V5NmNCQnh3N2xIRDUyYWdBU0o4RTktNFBWR2RIaGVBcW5wRkQwRXpkN1hMMTNZOWVCRzVtczl5M1V2NE8yUVBaNmZza0FXeUFqYzBVdHFPZXZvSEZ4NU9ESnZETDFVN1BDN3gzT3Q3a3VCSE1yM0FyMEU0ekpRUWJqdUlBLXg3NzBvYmwzd00?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:07:03+00:00",
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -3709,266 +3959,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:15:44+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "83b1486e7508d464b3140a5f",
-      "title": "School headscarf ban sparks rare protests in Azerbaijan and row with Turkey",
-      "summary": "Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools.",
-      "url": "https://www.bbc.co.uk/news/articles/cwly0g2r4k3po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:15:06+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6978cdd8685d4b272b893e8f",
-      "title": "Treasury yields slide as investors flee to safety of bonds amid tech rout",
-      "summary": "Investors rotated into bonds amid a broader flight to safety.",
-      "url": "https://www.cnbc.com/2026/10/15/us-treasury-yields-investors-economic-data-.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:14:05+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5129069dd709b0479c14ddba",
-      "title": "JetBlue’s new domestic first class, BlueFirst, is now on sale",
-      "summary": "JetBlue announced that BlueFirst, its new domestic first class option, is available for booking on more than 30 routes. It launches December 8.",
-      "url": "https://www.cnbc.com/2026/10/15/jetblue-bluefirst-first-class.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:13:33+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2f79e4e349e0899e17d56d3c",
-      "title": "Bipartisan U.S. lawmakers criticize slowing of Starlink in Ukraine - Spectrum News",
-      "summary": "Bipartisan U.S. lawmakers criticize slowing of Starlink in Ukraine Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbXhUNC1laXNNOXlKOHBNLXVEenY5V0lyWTNhZEZza00tX21neWZ0ZUdXOTVWWTNlNVRMbFpZaFNNeEhGSHc1WE9heThQX2pMZzA4Z1VfYm5LR21uck1tWUNUT096cm5zVlk3WUhicGg0MnJMZnhQUU40MmFYbEQ4WEVBQmFfbE1FNHJCMlhyd1ZpUmQ5cm5mSWZiVQ?oc=5",
-      "source": "Spectrum News",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:12:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4605b4ea5dd3695a1a1f9cf7",
-      "title": "Binance.US Seeks $100 Million to Expand Its Crypto Business - Bloomberg.com",
-      "summary": "Binance.US Seeks $100 Million to Expand Its Crypto Business Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUo5d3BmdGlWS205VzhPZDhQZWhLaFgta1FWTWh6X0Nlanh4ekptcjBuOUJReE1Bbk5tSEdNbGluaVFoblFkVldjbVUtQjk3MXJPZjFGdkRhQnl5MFpKVTgwRDR2YWlrYm9LRjVuTktleTBMejk1VUxzNXAxVGYwYTNjd243TVVza3NaaFBPcmxXdklGVUFHdFFib2lVdGlucnE1Q3Jvd0NWVTNlZXc?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:11:10+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2c35195337daa776db178892",
-      "title": "Mark Walter Probe Dings a Guggenheim Funding Machine That Powers Wall Street",
-      "summary": "Customers are shying away from doing business with a unit in Mark Walter’s empire.",
-      "url": "https://www.wsj.com/finance/investing/mark-walter-probe-dings-a-guggenheim-funding-machine-that-powers-wall-street-f73f5f11?mod=rss_markets_main",
-      "source": "WSJ",
-      "feed_id": "wsj_markets",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:08:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "eff8bf7827199e132af13ae1",
-      "title": "Trans people should use hospital spaces according to biological sex, NHS England says",
-      "summary": "New guidance says trans patients should be cared for on single-sex hospital wards or bays that align with their biological sex.",
-      "url": "https://www.bbc.co.uk/news/articles/cry83dyddv6no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:07:26+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d6e29c1d7ae496300a6e024a",
-      "title": "Venezuela’s Maduro pleads not guilty to US conspiracy to torture charges",
-      "summary": "Maduro and wife appear in New York City court after new 'conspiracy to commit torture' charges.",
-      "url": "https://www.aljazeera.com/news/2026/10/15/venezuelas-maduro-pleads-not-guilty-to-us-conspiracy-to-torture-charges?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:04:58+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2bfdc3660e7dd1b3911ea37e",
-      "title": "Sexual assault reported at fraternity house near University of Chicago - NBC News",
-      "summary": "Sexual assault reported at fraternity house near University of Chicago NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWjdwTkM0NEJacmRhY1Q3N3ZSQmhTejNfQjh3Wml6VW8waU85dEo3SGtLb0ZQNHNtQmxHWTVnMk4xNUR3NG5lZHJxY3MyRkxWTkZ0b2xHNng4R1dfTzNieFdxSmlpMW5MMGc2VTE2Vm5CUkUxWUF6MUJwd2hqOTR2dGh4WEw4V1ppM3FpRTF5TV9aRWt4aFZWR0dyTldiaVctYndJNkpHWFNJQmc?oc=5",
-      "source": "NBC News",
-      "feed_id": "nbc",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:01:32+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d9b38b5fe4b8bc2e64447516",
-      "title": "‘A powerful act of imagination and self-affirmation’: experts on how to start writing a book",
-      "summary": "Thinking about writing a book and doing it are two very different things – so how to get started and follow through? At some point in their lives, many people are confronted with a big question: what if I wrote a book? Writing a memoir, murder mystery or steamy romance is an accomplishment. Like running a marathon or successfully filing your taxes, it speaks to grit, determination and hours of research and effort. How to start meditating How to start weightlifting How to start budgeting How to start running Continue reading...",
-      "url": "https://www.theguardian.com/wellness/2026/oct/15/how-to-start-writing-a-book",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:36+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "deded7df02731cdf0afd0cd2",
-      "title": "Street Fighter review – nostalgia only goes so far in junky fighting game movie",
-      "summary": "There are brief, simple pleasures in the inevitable new big screen take on the classic game but like the recent Mortal Kombat movies, it’s a largely incoherent mess We just had Resident Evil , Zach Cregger’s giddy, nasty, devilishly fun spin on Capcom’s popular zombie franchise. It gave us renewed hope (after Sonic the Hedgehog, The Last of Us and Fallout) that video game adaptations could be good, actually. But now here comes Street Fighter, a garish and incoherent mess that amuses in fits and starts but barely improves on the Mortal Kombat movies before it, crushing those hopes in its atomic suplex. Continue reading...",
-      "url": "https://www.theguardian.com/film/2026/oct/15/street-fighter-movie-review",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:35+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "02539440c4cb867c9a5ff12a",
-      "title": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter",
-      "summary": "Leader of CREC church – whose pastors have advocated death penalty – says he ‘prefers public executions to private’ Donald Trump announced on Thursday he was cancelling Pete Hegseth’s recently announced plans to livestream a military execution – because “many very good and well-meaning people would rather not watch him die”. But there were some fans of Hegseth’s now-scotched idea: the rightwing religious figures who have long backed his career. Hegseth announced last week that the US public would be able to see the execution of Nidal Hasan, which is set for 3 December at Fort Hood, Texas. Hasan, a former army major and psychiatrist, killed 13 people and wounded 32 at Fort Hood in 2009. A military court sentenced him to death in August 2013. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/15/pete-hegseth-crec-church-execution-livestream",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:35+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8c7038c3c89668d05993a065",
-      "title": "Man killed by tiger climbed two fences before suffering multiple injuries, inquest hears",
-      "summary": "William Chapman climbed two fences to enter a tiger's pen at Yorkshire Wildlife Park, an inquest hears.",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5y83v1eldo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:26+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1222d4e77fe2493e3e03285f",
-      "title": "E Ink upgraded the screen found in most color e-readers",
-      "summary": "E Ink announced the next generation of its Kaleido color e-paper screen technology today, delivering several welcome improvements. The company's existing Kaleido 3 displays can be found in e-readers and tablets from companies like Kobo, PocketBook, and Boox, while Amazon's Kindle Colorsoft uses a customized version to improve performance. The new Kaleido 4 technology addresses […]",
-      "url": "https://www.theverge.com/tech/1011384/e-ink-paper-color-kaleido-4-screen-upgrade-gamut-contrast-brightness",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0ca427e6baffb65ca903a58b",
-      "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
-      "summary": "Fourteen years ago this month, Microsoft released an Nvidia-powered Windows PC that would become one of the greatest tech flops in modern history. The original Microsoft Surface, which ran a stripped-down version of Windows on an Nvidia Tegra chip, bombed so hard that Microsoft had to write off $900 million in inventory. The problem was […]",
-      "url": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "81586779c3e3ad5cfe359d65",
-      "title": "Tech sell-off rolls on as hot inflation data stokes rate worries - Yahoo Finance Singapore",
-      "summary": "Tech sell-off rolls on as hot inflation data stokes rate worries Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01b0NaZDZIdjJ3RkVEelFpYjVEdUJIaFVydlpKOFhrcDY5MUlzNkRQbTlFbmI5ZXZyVHRpeWZIa0w1YnR3UnZMQy1kTXltVmJZOXNWSUZhOEROTkRGODhiaXE2Nm1pdEcyd0c2emJLWTAyRFlQS21WbjBjMDY?oc=5",
-      "source": "Yahoo Finance Singapore",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:58:16+00:00",
-      "desk_priority": 66,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d4e34a82239cf27bd45adc9e",
-      "title": "DOJ gave California a voter list, a 48-hour deadline — and a threat of court action - Axios",
-      "summary": "DOJ gave California a voter list, a 48-hour deadline — and a threat of court action Axios",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLXNFYjVhRTItaEJCcVhvT21hbk9zRWl6a3E1Ylp2ZS1sRlBlOVV5ekJ4OTdtTXdDbXloazZxNHh4eGpxdmw1TkdMbmxzMFQ3U0QtY0dXVlRZVlJVZFdRYTFIVWd1b1pMczFfc0dka05ZUVBfWGhmTGZhRUlRa0lJc2J3UDI?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:56:02+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "aa39d7e76bbabb1a81693e25",
-      "title": "How has Trump’s immigration agenda affected the US midterms? Send us your questions - The Guardian",
-      "summary": "How has Trump’s immigration agenda affected the US midterms? Send us your questions The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTmRxNmxIWFFqV2VncnlrQXgxU2hrS0l0Z3Z1V0UxYk1IX1ZVb0gzb2hZV0tERm1PRkFiT242bmh5Tk5kU1V2dnY2MWQ3aXNoVERpWWhVRVpRMm84QWlzUWVJaS02bm1ON3gyNFlucjREQm9iYURtaHZIbHdmRTZKYzFqQzMzdmdRMTIyNVN3?oc=5",
-      "source": "The Guardian",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:56:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "cf0abfb07f207bc17674dff2",
-      "title": "Former DUP leader Donaldson sentenced to 15 years in prison for child sex abuse",
-      "summary": "Jeffrey Donaldson was convicted of 18 counts of sex abuse, including one of rape, which he committed against two women when they were children.",
-      "url": "https://www.bbc.co.uk/news/articles/cwdr8grnykrlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T15:55:14+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3f986f5f19434021ae7828e9",
-      "title": "HSI Arrests Naturalized Citizen for Illegally Voting in New Jersey Prior to Naturalization - Homeland Security (.gov)",
-      "summary": "HSI Arrests Naturalized Citizen for Illegally Voting in New Jersey Prior to Naturalization Homeland Security (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZHZKM29aUzMyN3h4MGdWRHlvR0l4cGNYUVdmQXRzdHBTMTI1OXRZeEQ3bm51Q3JZeEl0YTBEa2xXNTdwVXBCYkRRN1NSeFBSYVpwRm8wOFdkclJ3UU1haWk5NzFuUmgzbVZuNzBmTVlCZUlpX1BMaVY1S1ptRWNYMWxEVnlSeUJNVFdwT0xzU1k1UFlWc0RMQzZmWmc3LXJrUFR1MWZPMUgyZGVadS1GVHJHY011MVk?oc=5",
-      "source": "Homeland Security (.gov)",
-      "feed_id": "dhs",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:55:03+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     }
   ]
