@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:54:18+00:00",
+  "updated_at": "2026-10-15T18:58:12+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -26,8 +26,8 @@
     "f03ed81c684966cb093f3a07",
     "9c2e70ef035e5c9105ceefde",
     "3661c6ae3e00ec6cb148ed38",
-    "156d17a44e993f679475d43f",
-    "9989d912a9fda694d6edcbc2"
+    "a274127726de32aa471c2a7e",
+    "156d17a44e993f679475d43f"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
@@ -40,8 +40,57 @@
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T18:53:47+00:00",
+      "published_at": "2026-10-15T18:57:08+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Coolcaesar",
+        "license": "CC BY-SA 4.0",
+        "description": "Nvidia headquarters in Santa Clara, California. Photographed by user Coolcaesar on August 4, 2018.",
+        "label": "Illustrative photo",
+        "matched_query": "Nvidia headquarters Santa Clara"
+      }
+    },
+    {
+      "id": "70eb8d3db75495311c3a94d9",
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:56:46+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b7d9f44ae1120d96d60abd5b",
+      "title": "HSI Investigation Leads to Arrest of Sex Offender Illegal Alien Released by Oregon Sanctuary Politicians - Homeland Security (.gov)",
+      "summary": "HSI Investigation Leads to Arrest of Sex Offender Illegal Alien Released by Oregon Sanctuary Politicians Homeland Security (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcHNTRjFWemJyTmlqT1gzTXNmdG04aG10ZlBTVFQ0TEtoNE02ZXV4cWl6cDZoVUxTaGNRU2l5andidTVwOTZPYlZFU19pa3Y4NVloOFAzNXBrRXU3Z3pKNWRjSzFNdWhpWk5yaVRoaHMyX3h2cURNWGpVVTJoT09KZndHRVdtTTJKSHFRRmpoQVlBOWJnSzJDX05rNTFYQUJFSHlTbGZnamc0cHBYaTIyelQ2OWNwdENjTTlv?oc=5",
+      "source": "Homeland Security (.gov)",
+      "feed_id": "dhs",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:56:18+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "48cc93dedbd7058c0c9a34f0",
+      "title": "Venezuela's Nicolas Maduro pleads not guilty to torture indictment",
+      "summary": "Maduro and his wife were charged with leading a state-sponsored repression campaign that tortured scores of victims during his presidency from 2013 to 2026.",
+      "url": "https://www.dw.com/en/venezuela-s-nicolas-maduro-pleads-not-guilty-to-torture-indictment/a-79673496?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:55:00+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -54,6 +103,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:52:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d4a58d5a2c1cce7f6e10d64e",
+      "title": "Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
+      "summary": "Eritrea denies troop movement inside northern Ethiopia as US calls for de-escalation.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:41:41+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -237,6 +299,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:01:27+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5e849771b15522c6346579b0",
+      "title": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA) - U.S. Department of State (.gov)",
+      "summary": "Sanctioning Cuban State-Owned Banco Internacional de Comercio, S.A. (BICSA) U.S. Department of State (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ3RESktnUU94ejljeFJhdHRSZnlKb0dzZ0FHZkhIWndLbmpob243NGFVTGlYVkRCRjI0WFJ0TFRYOWowMUFkQms1Q2J5clJGc0FrdlNVQ1BWZk1BQ1VySW5wN2JmSFRGaDc1SnJ0Q3JHQVBBRXdQbzVMajRPR3E1aDl3ZUJWb201VWFTZGxIa1FLNDRJZzdsU2lHeVR0a2NVdWxjQ0ViNktoZWxmRmZMNWF1VVRreU9sd01tand2NHUzeUlRQVVMRnYxQzFQSWF6?oc=5",
+      "source": "U.S. Department of State (.gov)",
+      "feed_id": "state",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:00:35+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -483,6 +558,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:43:01+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "005b14300d39e84d3766e1cf",
+      "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point - Reuters",
+      "summary": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:42:36+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -978,6 +1066,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "a274127726de32aa471c2a7e",
+      "title": "America's next war could reach US soil, top Army general warns - Fox News",
+      "summary": "America's next war could reach US soil, top Army general warns Fox News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWk1EOC1aZHYyZGswNjZxaUxoQUdsY3o4elBOTXBnbXNRbWc2SFA4czBjVFVVYzRUX29pNVpDOUZMY291bXNnZUFTdXhVc1ZCU1IySmdoZDd0bnM2UnQyYzlTMzFKWGt6Zkd6Q2x2eTNLSmtLcEZYRnA0V0tTSy0wRTc4eWxrT3B4alZLRWlDNWZzQUxKYmdVZtIBngFBVV95cUxPeGs3alYxWEJLR0VyLUFKVjB1OV9GUFl2S1MxdjNfb1VDS0ZGekdxdEVuUkJBTjktNGxHS0Y5NmFycDJTdjUzSVgxSmw1VmNCXzNCa1haeE0xX052VXpKM3lWdVBSQUFZcUFKblpUUUh6eWthdHlPby1ROURjczE3RU9CMXVhcGhaR1BnNzg1RldaZ0ZvMUhDOWk1WFR3UQ?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T16:59:51+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3621c9962efb7b784c7d3b09",
       "title": "Ilhan Omar: What we know about the criminal investigation into the US congresswoman - BBC",
       "summary": "Ilhan Omar: What we know about the criminal investigation into the US congresswoman BBC",
@@ -1222,6 +1323,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7016295ae91d527a3a1ef278",
+      "title": "NYC Comptroller Levine urges Anthropic to pause US IPO - Reuters",
+      "summary": "NYC Comptroller Levine urges Anthropic to pause US IPO Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcFUxMTU0b0NZUWhaNU9YNHdDZENmR05aeTQ2dGVSdlExRkpZX2dMWG1KOS1STXRhdHdWTG9MM0tCZzQtOTVXVUZRRjNlZ1F4X2NlNVBBM3NnRFI1a1VtRkUwQlpubjgzQkhaXzZDQ0M0NVdnbVR6ZklHX2lGQnhFVl9iWlY1NGt6UFNnYTNRUGJIVzB5dnJCU1Y1QVdPdFMwNURPRmhqQzVDb3BCYmc?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T16:41:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "5020fed2aaaa0eaf5ab6031c",
       "title": "AI Isn’t Coming for American Jobs Someday. The Fed Says It’s Already Happening. - 24/7 Wall St.",
       "summary": "AI Isn’t Coming for American Jobs Someday. The Fed Says It’s Already Happening. 24/7 Wall St.",
@@ -1232,19 +1346,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T16:41:00+00:00",
       "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "005b14300d39e84d3766e1cf",
-      "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point - Reuters",
-      "summary": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:40:27+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -1703,19 +1804,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "e1f6d1a6b74bf83d2e35120f",
-      "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump - AP News",
-      "summary": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanVvOXBrUl9qVzlNb3ljaFNMclJtU0JkcGMwOHg3WngxQnJhSUc4VzZGV0hvRDBBek9DejBaaTNwWVVSd0thaUt4dXJWZGVEVHdaeXNHQXVpV3pmZVJwN2o2ZDFrTXNGTVdaLTcwY1haLXBlWTRRNnpZSXFFSmllQ0xEdTZHLVRhREJCU3Q3WHlycGhCcEdTSXpjX0VDb1BXYXFiaGp5VjBXQQ?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:00:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "81586779c3e3ad5cfe359d65",
       "title": "Tech sell-off rolls on as hot inflation data stokes rate worries - Yahoo Finance Singapore",
       "summary": "Tech sell-off rolls on as hot inflation data stokes rate worries Yahoo Finance Singapore",
@@ -1726,6 +1814,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T15:58:16+00:00",
       "desk_priority": 66,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d4e34a82239cf27bd45adc9e",
+      "title": "DOJ gave California a voter list, a 48-hour deadline — and a threat of court action - Axios",
+      "summary": "DOJ gave California a voter list, a 48-hour deadline — and a threat of court action Axios",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLXNFYjVhRTItaEJCcVhvT21hbk9zRWl6a3E1Ylp2ZS1sRlBlOVV5ekJ4OTdtTXdDbXloazZxNHh4eGpxdmw1TkdMbmxzMFQ3U0QtY0dXVlRZVlJVZFdRYTFIVWd1b1pMczFfc0dka05ZUVBfWGhmTGZhRUlRa0lJc2J3UDI?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T15:56:02+00:00",
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -1895,19 +1996,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:46:00+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7016295ae91d527a3a1ef278",
-      "title": "NYC Comptroller Levine urges Anthropic to pause US IPO - Reuters",
-      "summary": "NYC Comptroller Levine urges Anthropic to pause US IPO Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcFUxMTU0b0NZUWhaNU9YNHdDZENmR05aeTQ2dGVSdlExRkpZX2dMWG1KOS1STXRhdHdWTG9MM0tCZzQtOTVXVUZRRjNlZ1F4X2NlNVBBM3NnRFI1a1VtRkUwQlpubjgzQkhaXzZDQ0M0NVdnbVR6ZklHX2lGQnhFVl9iWlY1NGt6UFNnYTNRUGJIVzB5dnJCU1Y1QVdPdFMwNURPRmhqQzVDb3BCYmc?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:44:10+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -2420,7 +2508,7 @@
     {
       "id": "7c2dbf4accab7839255566e9",
       "title": "Ukraine resumes attacks on Russian refineries as Zelenskyy says 'we're done'",
-      "summary": "Volodymyr Zelenskyy has announced that Ukraine is resuming attacks on Russian energy sites. It came after Moscow summarily ignored a claim by US President Donald Trump that an \"energy ceasefire\" had been agreed.",
+      "summary": "Volodymyr Zelenskyy has said Ukraine will again attack Russian energy sites, as Moscow has ignored a claim by US President Trump that an \"energy ceasefire\" had been agreed. Russia reported two attacks on refineries.",
       "url": "https://www.dw.com/en/ukraine-resumes-attacks-on-russian-refineries-as-zelenskyy-says-we-re-done/a-79667757?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -3882,94 +3970,6 @@
       "published_at": "2026-10-15T12:20:36+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
-    },
-    {
-      "id": "649e3c0e3ba4144d8d7bb89e",
-      "title": "Nvidia CEO Jensen Huang urges U.S.-China dialogue on 'potentially dangerous' AI",
-      "summary": "Huang told CNBC he has ongoing \"dialogs\" with researchers in China.",
-      "url": "https://www.cnbc.com/2026/10/15/jensen-huang-nvidia-china-ai.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:17:13+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "68db53d65a95fed85fedd3d9",
-      "title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
-      "summary": "Discover-Tech’s Controlium software lets clients mass-profile internet users then covertly hack targets, say researchers at University of Toronto An Israeli advertising agency has been serving millions of online adverts that allow “zero-click” spyware to be used against targets, researchers at a Canadian university have said . Citizen Lab, a digital investigations research unit at the University of Toronto, said it believed dozens of devices at the Qatari broadcaster Al Jazeera had been compromised by spyware delivered through ads run by Discover-Tech, which describes itself as a specialised digital advertising agency. Continue reading...",
-      "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
-      "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:15:22+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0d59862d1c055263cdfaa01d",
-      "title": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries",
-      "summary": "SK Hynix, Samsung and Micron have been some of the hardest-hit names in the latest tech sell-off.",
-      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:15:09+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "48618a4244f93994b81c2241",
-      "title": "Microsoft president warns green-card curbs could hurt US tech, Politico reports - Reuters",
-      "summary": "Microsoft president warns green-card curbs could hurt US tech, Politico reports Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzFwcHFCZGx1ZEo0NFZmaWdQQjZ1ZkVRVko0S0tiLW1QaXRMR0NCYmQ4cWxpTUJqU0lQM0hqWmxHM3ZBYlhYXy1FWGxCZ1l1TGhneUs5OFZZOVFSY2dYemlKOFFDVXhyNGpkNDZWMUMtLWRaaFdrUDJsTE5uV19xbU82bFF2b1F0eFFMMFRzMHY5aDVKYmxzUktUOVFuS0xHR25xaXUwMXFHWmRjbjRkNWNhaGNZV1hpajBJc09ZRFk?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:12:02+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d5022a149aebfd284713ade2",
-      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-      "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
-      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:11:15+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "96379a3786cc7251b3723e36",
-      "title": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong - Investor's Business Daily",
-      "summary": "Dow Jones Futures Rise, But AI Sell-Off Continues On Anthropic News; Taiwan Semiconductor Earnings Strong Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObkt6ekRhM01GYllSNng3cnhNQjJHZlBSVjZ0d2d3aElqTFpSd2hWOWxOdG54ZHhSa0wtSUFtX2JLSXcxRnF6TVNtcUV1ZXhlb2ZqdHZ6YzFlb3BVV0pmaEVlZzgyU1RXZDB5c3RFNEpmT3ZsZXI1NjBKcDVCQjRmUExrakhTWDFJODI2bHlfV29nZXlJYTdMcFlpLVhXbEFta0xMSlQyM2FiYlNDOXNWM2s4NVdCUWp0eUlJQkpoUVFEQ0FpM2JnUjlCTFVDMDVxLUtsUUZ3?oc=5",
-      "source": "Investor's Business Daily",
-      "feed_id": "markets",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:10:00+00:00",
-      "desk_priority": 71,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Snapshot_of_Taipei%2C_Taiwan_Skyline_2016.jpg/1280px-Snapshot_of_Taipei%2C_Taiwan_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Snapshot_of_Taipei,_Taiwan_Skyline_2016.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "bryan...",
-        "license": "CC BY-SA 2.0",
-        "description": "Snapshot of the Taipei, Taiwan Skyline photographed in 2016",
-        "label": "Illustrative photo",
-        "matched_query": "Taipei Taiwan skyline"
-      }
     }
   ]
 }
