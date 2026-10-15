@@ -62,3 +62,96 @@
  .wire-filters{gap:8px}.modal-window{width:100%;max-width:100%}.preference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pref-option{min-height:48px}
 }
 @media(max-width:355px){.brand-word>span{display:none}.account-pill{padding:0 8px}.brand-word strong{font-size:16px}}
+
+
+/* Standalone News – Reader V2 refinement, 2026-10. Keep account and publishing scripts unchanged. */
+:root { --ink:#142238; --muted:#5a6c81; --red:#bb3447; --deep:#101f35; --border:#e4eaf0; }
+:focus-visible{outline:3px solid #367ff1;outline-offset:3px}
+/* Ticker-tape embeds have a compact intrinsic row: never force 80–86px iframe height. */
+.market-strip .strip-inner{height:64px}
+.market-strip .strip-quotes{height:54px;max-height:54px;align-items:center;overflow:hidden}
+.market-strip .strip-quotes .tv-embed-shell,
+.market-strip .strip-quotes .tradingview-widget-container{height:52px!important;min-height:52px!important;max-height:52px!important}
+.market-strip .strip-quotes iframe{height:50px!important;max-height:50px!important;min-height:50px!important;width:100%!important;display:block!important;border:0!important}
+.market-strip .tv-tape:has(iframe) .tape-placeholder{display:none!important}
+.market-strip .tv-tape .tape-placeholder>span{padding:10px 12px}
+.market-strip .tv-tape .tape-placeholder small{overflow:hidden;text-overflow:ellipsis}
+.market-strip .tv-tape .tape-placeholder{pointer-events:none}
+/* Make homepage jump links explicit without showing another main-navigation bar. */
+.reader-jumps{display:none}
+/* Larger touch target and predictable wrapping on any screen. */
+.lead-content h1,.story-card h3,.wire-story h3,.latest-row h3{hyphens:none;word-break:normal;overflow-wrap:anywhere}
+.lead-actions .read-button,.lead-actions .bookmark-btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:46px}
+.latest-row h3 a,.story-card h3 a,.wire-story h3 a{text-decoration:none}
+@media(max-width:760px){
+  html{scroll-padding-top:18px}
+  .nav-wrap{display:none!important} /* Mobile bottom navigation already serves as the primary nav. */
+  .market-strip .strip-inner{height:58px!important;min-height:58px!important}
+  .market-strip .strip-quotes{height:52px!important}
+  .market-strip .strip-quotes .tv-embed-shell,.market-strip .strip-quotes .tradingview-widget-container{height:50px!important;min-height:50px!important;max-height:50px!important}
+  .market-strip .strip-quotes iframe{height:48px!important;max-height:48px!important}
+  .reader-jumps{display:flex;align-items:center;gap:8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:11px 0 12px;white-space:nowrap}
+  .reader-jumps::-webkit-scrollbar{display:none}
+  .reader-jumps a{display:inline-flex;flex:none;align-items:center;justify-content:center;min-height:38px;padding:0 15px;border:1px solid #dbe3ec;border-radius:999px;background:#fff;color:#34495e;font-size:12px;font-weight:770;text-decoration:none;letter-spacing:0}
+  .reader-jumps a:first-child{background:#11233a;border-color:#11233a;color:white}
+  .above-fold-label{min-height:45px;padding-top:3px;gap:10px}
+  .above-fold-label .breaking-label{font-size:11px;letter-spacing:.07em}
+  .above-fold-label>a{letter-spacing:0;font-size:11px}
+  .main-container{padding-top:0!important}
+  .lead-grid{gap:13px}
+  .lead-story{border-radius:14px;min-height:0;height:auto!important;display:block;box-shadow:0 2px 12px rgba(17,40,65,.035)}
+  .lead-content{min-height:0!important;padding:23px 20px 21px}
+  .lead-content h1{font-size:clamp(24px,5.8vw,30px)!important;line-height:1.21!important;letter-spacing:-.025em!important;margin:15px 0 12px!important;hyphens:none!important;overflow-wrap:break-word;word-break:normal}
+  .lead-content p{font-size:14px!important;line-height:1.6!important;color:#55677c!important;margin:0 0 16px!important}
+  .lead-bottom{margin-top:16px!important}
+  .lead-actions{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.55fr);gap:10px!important;margin-top:15px}
+  .lead-actions .read-button,.lead-actions .bookmark-btn{width:100%!important;min-width:0!important;max-width:none!important;margin:0!important;border-radius:9px;font-size:13px!important;min-height:47px!important;padding:10px!important}
+  .lead-story .hero-art{display:none!important}
+  .story-tags{gap:9px;flex-wrap:wrap}
+  .red-label,.soft-tag{font-size:10px!important;letter-spacing:.065em}
+  .meta-line{font-size:12px!important;line-height:1.45;gap:5px!important;flex-wrap:wrap}
+  .latest-card{border-radius:14px;padding-bottom:2px}
+  .latest-row{padding:13px 0!important}
+  .latest-row h3{font-size:15px!important;line-height:1.5!important}
+  .section{margin-top:31px!important}
+  .section-header{margin-bottom:16px!important;padding-bottom:13px!important}
+  .section-header h2{font-size:clamp(24px,6vw,29px)!important;line-height:1.19!important;letter-spacing:-.025em}
+  .section-desc{font-size:13px!important;line-height:1.55!important;margin-top:7px}
+  .story-grid{gap:0!important}
+  .story-card{grid-template-columns:78px minmax(0,1fr)!important;gap:14px!important;padding:16px 0!important;min-height:0!important}
+  .story-card-body{padding:0!important;min-width:0}
+  .story-card .story-visual{height:84px!important;min-height:84px!important;border-radius:8px}
+  .story-card h3{font-size:16px!important;line-height:1.42!important;margin-bottom:6px!important}
+  .story-card .desk-excerpt{font-size:13px!important;line-height:1.48!important;margin:3px 0 9px!important}
+  .card-actions{gap:12px!important;flex-wrap:wrap}
+  .story-card .card-meta,.wire-story .card-meta{font-size:11px!important;line-height:1.45!important}
+  .brief-section{padding:19px 17px!important;border-radius:14px!important}
+  .brief-stamp{display:none!important}
+  .brief-intro{display:block!important}
+  .brief-intro h2{font-size:26px!important;line-height:1.25!important}
+  .brief-prefs{margin-top:15px!important;min-height:44px}
+  .brief-row{gap:9px!important}
+  .brief-row>a{font-size:15px!important;line-height:1.47!important}
+  .wire-story{padding:16px 0!important}
+  .wire-story h3{font-size:16px!important;line-height:1.45!important}
+  .wire-story .wire-actions{margin-top:2px}
+  .wire-story .wire-excerpt{font-size:13px!important;line-height:1.55!important}
+  .mobile-bottom{box-shadow:0 -6px 30px rgba(15,27,47,.08)!important;border-top:1px solid #d9e2ec!important}
+  .mobile-link{font-weight:770!important;font-size:11px!important}
+  .mobile-link span{line-height:1!important}
+  .markets-inner,.explainer-section{border-radius:13px}
+  .market-topline{flex-wrap:wrap;gap:8px!important}
+  .market-topline strong{font-size:12px}
+  .market-topline p{font-size:11px;line-height:1.45}
+}
+@media(max-width:390px){
+  .masthead-inner{gap:7px}
+  .masthead-tools{gap:5px}
+  .brand-word strong{font-size:16px!important}
+  .brand-word>span{font-size:6px!important}
+  .brand>img{width:34px!important;height:34px!important}
+  .account-pill{font-size:12px!important;min-width:70px!important;padding:0 8px!important}
+  .round-action{width:42px!important;height:42px!important;min-width:42px!important}
+  .lead-content h1{font-size:24px!important}
+  .reader-jumps a{padding:0 12px}
+}
