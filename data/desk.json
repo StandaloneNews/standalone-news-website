@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T04:51:09+00:00",
+  "updated_at": "2026-10-15T05:44:41+00:00",
   "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -7,30 +7,56 @@
     "20a80e660d5384fd45df7b39",
     "3033c5157a720fca249515ae",
     "c487f97982d35f8d1cb18bd3",
-    "22587c3f313a66b18d902fcd",
+    "94b3e2a7948190fe7ff99e7c",
     "59a71f51ed8a91025356f6b3",
     "b332ecf33399be9df38318c7",
     "45c3e595af59755e45830a37",
     "62dfba292a2b777e2c69255c",
     "358ec50450d421f33a84839f",
+    "b2572d93f0ccd8e9fd512f90",
     "0e3c76f703003599c1eb68f8",
     "637e36cdc72e6d2267de7542",
     "a6065ae02c332c6028839fba",
     "1d9d814de7faa1f2d7f1b9c6",
-    "a18bc2c952e9c2c9c4149127",
     "9c2e70ef035e5c9105ceefde",
     "b6037507a65b5ab6449ecda5",
     "d412f0f92353479b3694c240",
     "797677cbf7fb09ea88763049",
+    "236bb3a5179a156b709a5838",
     "e08e0dcc35077df11a6139fa",
     "e5e1f3de31183b549a8d82da",
     "96faa508b0e30813b50f2c74",
     "cb3ee08c9640d4aeee73fa62",
-    "e09cade4e96a80de6ff04a13",
-    "60221589358fde915ed3a34f"
+    "e09cade4e96a80de6ff04a13"
   ],
   "image_policy": "Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.",
   "items": [
+    {
+      "id": "8a4e613d9bf3e2140d18af8f",
+      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+      "summary": "TSMC reported its third-quarter earnings on Thursday.",
+      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:37:31+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "371c4932cce4843340e51440",
+      "title": "Beau Lamarre-Condon allegedly asked celebrity chaser friend if he could post phone to her in WA to throw in water, court told",
+      "summary": "Woman contacted following alleged murders, years after meeting Lamarre-Condon in Sydney and bonding over scepticism of Covid vaccines Follow our Australia politics live blog for latest updates Get our new political email , free app or daily news podcast Beau Lamarre-Condon asked a friend in Western Australia if he could post her a phone to be thrown into a body of water, and told her he’d been “set up” over the disappearance of two men, a court has heard. Lamarre-Condon, 31, has been accused of fatally shooting Sydney couple Jesse Baird and Luke Davies with his police service weapon in Baird’s Paddington home on 19 February 2024. He has pleaded not guilty to two counts of murder and one charge of aggravated break and enter. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/15/beau-lamarre-condon-asked-friend-to-dispose-of-phone-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:29:35+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "cfc366382975c0312bbd1d25",
       "title": "Australian politics live: Shoebridge denies knowing about Steele-John allegations and says he’s entitled to fair process",
@@ -40,7 +66,7 @@
       "feed_id": "guardian_world",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T04:43:13+00:00",
+      "published_at": "2026-10-15T05:25:09+00:00",
       "desk_priority": 29,
       "selection_type": "automatic",
       "image": {
@@ -52,6 +78,163 @@
         "description": "Australian House of Representatives, Parliament of Australia, Canberra, Australia.",
         "label": "Illustrative photo",
         "matched_query": "Australian"
+      }
+    },
+    {
+      "id": "5893aaa1676e0692a92028e7",
+      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
+      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:19:09+00:00",
+      "desk_priority": 71,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "236bb3a5179a156b709a5838",
+      "title": "India news: Supreme Court likely to hear Rahul Gandhi's Election Commision plea",
+      "summary": "A petition filed by opposition leader Rahul Gandhi and others seeks an independent audit of India's sweeping voter deletions. DW has more.",
+      "url": "https://www.dw.com/en/india-news-supreme-court-likely-to-hear-rahul-gandhi-s-election-commision-plea/live-79665180?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:09:00+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Building_of_the_United_States_Supreme_Court.jpg/1280px-Building_of_the_United_States_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_United_States_Supreme_Court.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "颐园居",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Supreme Court Building",
+        "label": "Illustrative photo",
+        "matched_query": "Supreme Court of the United States building"
+      }
+    },
+    {
+      "id": "921ac389ebb4e517b7be9b52",
+      "title": "Hundreds of IDF investigations into killings without public outcome, BBC Verify finds",
+      "summary": "BBC Verify has identified 254 incidents from the past three years the Israeli military said it is reviewing after being accused of harm.",
+      "url": "https://www.bbc.co.uk/news/articles/c574e228vlygo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:00:23+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5d3c9cc9740eaf5381029cca",
+      "title": "Poland looks to economic heights in a country transformed since Soviet days",
+      "summary": "In the final part of our series on the country, Poles tell how wages have soared – along with the cost of living Above the rain-soaked streets of Warsaw, the observation deck of the Varso tower overlooks Joseph Stalin’s gift to Poland that has divided opinion for decades. For some, the Soviet-era Palace of Culture and Science is a drunk confectioner’s nightmare; standing as a relic of oppression that should have been demolished. For others, it is an icon on the skyline and a monumental warning from history. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/15/poland-economy-heights-transformed-regional-tech-hub",
+      "source": "The Guardian",
+      "feed_id": "guardian_tech",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T05:00:22+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T05:00:21+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
+        "source": "Wikimedia Commons",
+        "creator": "FrontierEnviro",
+        "license": "CC BY-SA 3.0",
+        "description": "Animal tracking ; Garmin GPS 60",
+        "label": "Illustrative photo",
+        "matched_query": "Tracking"
+      }
+    },
+    {
+      "id": "8c55985334d5552097cb1d69",
+      "title": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ - The Washington Post",
+      "summary": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdG1RTmwxOTA5VWVBajRaMTFsZG9Tcm9OLUxvY1dCS1hiaDZKS3dhTFUxMzVxRmlEeXYyY2FCQ3VFQWJMUWE4NkcteDZjTC1zdC1CQVNRYUU5c1l4YzF3NU5Bb2xRYURDZWplVy13M1lwTF9qdk8tZjdZWW5aenpBWW5CUUR4UjVDeFBac1doUF84LVQ3dHoyTEprQjZJdVBIdjVXdGt2VWVRYU5ZX1lqNXRvdGJ4ckJtUkthM2NhdEx3c1lwbkZJ?oc=5",
+      "source": "The Washington Post",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T05:00:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf/page1-960px-CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle,_(April_18,_2022).pdf",
+        "source": "Wikimedia Commons",
+        "creator": "United States House Select Committee on the January 6 Attack",
+        "license": "Public domain",
+        "description": "Deposition of Kimberly Guilfoyle, (April 18, 2022) for the United States House Select Committee on the January 6 Attack.",
+        "label": "Illustrative photo",
+        "matched_query": "After Guilfoyle"
+      }
+    },
+    {
+      "id": "9e6806e699cfb7bb7e72e290",
+      "title": "Israel has detained more than 2,000 Palestinian children since 2023: report",
+      "summary": "At least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T04:43:15+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a9f1cbd8cb153338c66fc29c",
+      "title": "What is Starshield, SpaceX’s military-grade Starlink system, and how will its restriction affect Ukraine?",
+      "summary": "Zelenskyy frames sudden shift as a betrayal by Trump, as spotlight turns on how Elon Musk’s SpaceX and the Pentagon control the crucial service Volodymyr Zelenskyy has accused SpaceX of restricting access to its military-grade Starlink service , in effect hobbling Ukrainian drone strike missions and crucial air defences with a flick of the switch. The development – and its dire consequences for Ukraine – has put the spotlight on Starlink -SpaceX’s commercial satellite internet service – and Starshield, a powerful military version developed by Elon Musk’s company for the Pentagon. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/15/starshield-starlink-ukraine-restriction-explained",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T04:43:04+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b2572d93f0ccd8e9fd512f90",
+      "title": "Dollar retreats from 18-month high despite hot CPI as Fed officials temper hike bets - CNBC",
+      "summary": "Dollar retreats from 18-month high despite hot CPI as Fed officials temper hike bets CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZXF4cHZ5b1N3TlJlQlVfUmQydG41M2VRNk9oQlFjUHpHdnpZMkdDUkNCeVNSTGV6THBSSGl3SUV5YkFwYjEweEEyY1M1SFNDX1REZUdydUVPYmdYTVFQUzY3RXpFREYwelNMQndGeGVfSkJyZWg5OFcxWnp6NzZ1WVF0NzFVZTFXM2E5UVNvaW5sZjk1N0JwQ2ZDdWxiUWVKYVlPZU1HeXlzQdIBrwFBVV95cUxNOFRfWnV4YUItU29iaF9MWFJqOUFmNnJTckRHRVBNZDRfNEk3SS1vTVJ6TG1zcmJzeWxWT1djaVQ3cm1jb1VHbnI5Q3ZZcDRGdU1yalducE5faEhOR0Jjc1FYNFBseEo3SkVpWElKX3hfcG5yQzJzVUNQQl9FakFsdjFZbTJpdDZjMC1xNENvbWdJQzAteGVraWhRREF4WTRXUUh3SXctcWlqNUMxdzdV?oc=5",
+      "source": "CNBC",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:33:27+00:00",
+      "desk_priority": 66,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "G. Edward Johnson",
+        "license": "CC BY 4.0",
+        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
+        "label": "Illustrative photo",
+        "matched_query": "Federal Reserve building Washington DC"
       }
     },
     {
@@ -107,6 +290,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "328a929ed66e1e45f1842805",
+      "title": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says - Reuters",
+      "summary": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:23:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0b7274ba05c98359d99b394f",
       "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
       "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
@@ -157,7 +353,7 @@
     },
     {
       "id": "99787b1b6ee0f82111a00405",
-      "title": "Won-Yen Divergence May Likely Be Due to Chip Demand Boom",
+      "title": "Won-Yen Divergence May Be Due to Chip Demand Boom",
       "summary": "The won’s divergence from the yen may be more due to the AI boom than rate differentials, according to the IMF.",
       "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-but-may-be-weighed-by-higher-prospects-of-fed-rate-hikes-31f584a1?mod=rss_markets_main",
       "source": "WSJ",
@@ -254,27 +450,17 @@
       "selection_type": "automatic"
     },
     {
-      "id": "8c55985334d5552097cb1d69",
-      "title": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ - The Washington Post",
-      "summary": "After Guilfoyle dismissal, Rubio reminds diplomats to ‘avoid conflicts of interest’ The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdG1RTmwxOTA5VWVBajRaMTFsZG9Tcm9OLUxvY1dCS1hiaDZKS3dhTFUxMzVxRmlEeXYyY2FCQ3VFQWJMUWE4NkcteDZjTC1zdC1CQVNRYUU5c1l4YzF3NU5Bb2xRYURDZWplVy13M1lwTF9qdk8tZjdZWW5aenpBWW5CUUR4UjVDeFBac1doUF84LVQ3dHoyTEprQjZJdVBIdjVXdGt2VWVRYU5ZX1lqNXRvdGJ4ckJtUkthM2NhdEx3c1lwbkZJ?oc=5",
-      "source": "The Washington Post",
-      "feed_id": "us",
+      "id": "4fdea01f56f06b69da73a0c2",
+      "title": "Exclusive: US considering using ‘mother of all bombs’ against Iran, sources say - CNN",
+      "summary": "Exclusive: US considering using ‘mother of all bombs’ against Iran, sources say CNN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSktNLUM1VEdiandOcDJVNzE4b2NuajZkcXAtem40MlJ4TWc3VEptSjJqQ1g0QjF5VTVXemNQUDBSdy1wYWM4eG44b05FT3ZLVi1sTUhGM3U1MEk0X3JvTzBFUlVNczJZZlZfUlcxN1NwVnQzc0ZuTEVxSkhLOE5wenBMZ2xqZw?oc=5",
+      "source": "CNN",
+      "feed_id": "cnn",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-15T04:03:45+00:00",
+      "published_at": "2026-10-15T04:01:44+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf/page1-960px-CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle%2C_%28April_18%2C_2022%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:CTRL0000062445_-_Transcribed_Interview_of_Kimberly_Guilfoyle,_(April_18,_2022).pdf",
-        "source": "Wikimedia Commons",
-        "creator": "United States House Select Committee on the January 6 Attack",
-        "license": "Public domain",
-        "description": "Deposition of Kimberly Guilfoyle, (April 18, 2022) for the United States House Select Committee on the January 6 Attack.",
-        "label": "Illustrative photo",
-        "matched_query": "After Guilfoyle"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "58c1d8549be5f3a0be07367e",
@@ -342,6 +528,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "5989ddaf36b7539d1d771659",
+      "title": "Extreme weather - The Guardian",
+      "summary": "Extreme weather The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
+      "source": "The Guardian",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:59:05+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "d84aa68a87d59ddc23c3d6b2",
       "title": "Argentina’s Milei backs Trump for US midterms, calls vote crucial for West",
       "summary": "The US President's ally says conservatives “cannot give an inch” in Latin America as he accepts an award in Washington.",
@@ -366,29 +565,6 @@
       "published_at": "2026-10-15T03:48:58+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
-    },
-    {
-      "id": "d9e9684d9bcff72e50f21731",
-      "title": "SK Hynix Down 57% From Peak as Chip Stocks Rout Intensifies - Bloomberg.com",
-      "summary": "SK Hynix Down 57% From Peak as Chip Stocks Rout Intensifies Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1ZmX19fclBFd1I3bEdCWVk5NEpfRmJGWE1VbjhDRThlVUFFeFBqYzYzTXpTR2wzeHNUcWtNN1VFV2ltaC1WNnc1S1ZsOFMxalVER01yS0otb2VjbTQ1cHJjZERsa05rMHNabDVyenp5MUlLNmpZQzdERzVzbElnTlgtQ0ljV1hsOGJNTEMwNEFPUmMtSXdjUzE3b0REWmR0ZDNfQzh0RU5UalY1dWg3b1pwVQ?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T03:41:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg/1280px-Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Raimond Spekking",
-        "license": "CC BY-SA 4.0",
-        "description": "Fujitsu Lifebook AH502 - motherboard DAFH5BMB6G0 Rev: G",
-        "label": "Illustrative photo",
-        "matched_query": "SK Hynix Down"
-      }
     },
     {
       "id": "739143146317ebde2a44c4a7",
@@ -428,29 +604,6 @@
       "published_at": "2026-10-15T03:30:42+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
-    },
-    {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "nbc",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T03:30:21+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
-        "source": "Wikimedia Commons",
-        "creator": "FrontierEnviro",
-        "license": "CC BY-SA 3.0",
-        "description": "Animal tracking ; Garmin GPS 60",
-        "label": "Illustrative photo",
-        "matched_query": "Tracking"
-      }
     },
     {
       "id": "60412c19255771c4a0d61742",
@@ -512,6 +665,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "565fcf0aa5b9b81e264862ec",
+      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems - CNBC",
+      "summary": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUldFQzNjNGFCb2x0YWdNdUFzYTNIMTM3bUQ1U1dyWUdBNExwTFI1TVBhN3FIY0ljZUtzQmhZdENybmxCUE5nNU5nTFI2QjRKZzR2TVN1TXFZZU54NGJsb3lZQzN3VkxBZE85NWlIeU1acW5OQmVRTGN2QnBFcGNxSlRaRXZfQ25LV2xvV2s0WdIBlAFBVV95cUxPNmFzMTN1ODd6dkY2TUxJWm4xRVBhek9RdGVaSzc0VTJSaU9nbWNiem5FYkFqYXphbDBNdDQ0WTVBMHliYmlfeG9PaUo5cE02OUFrOGNiaVdHYVlQZ0hhWjJhdndVaHI2bFZ2SE5PQ281Ym9oR1NfVmI3TUk5SEhFd1RyejFncXBaMzA5eE01YnRJRnRk?oc=5",
+      "source": "CNBC",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:24:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "02f3c301d73c901d56038e1d",
       "title": "North Korea tests two submarine-launched missiles, state media reports",
       "summary": "The tests showcase North Korea's war deterrent capabilities in the region, KCNA says.",
@@ -535,27 +701,17 @@
       }
     },
     {
-      "id": "22587c3f313a66b18d902fcd",
-      "title": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus - Yahoo Finance",
-      "summary": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjlGNUxDY2ozdVVQdmhpNWEtWGZNbWFlbjE3WnJpZF84cGluVFM1NkRXOF82VTlhMTFJVDJPNXlncnY5eGVDb1pEaGdoc2ZwTWt6bXV5ZFpROTVCXzFTbFBCTWgtSFQ2VGhtVVhfelVUczFXeEtkM0VnSUVPNFFnSFJ1R2g1WnlqNW4ybk9mYnpHRDQ?oc=5",
-      "source": "Yahoo Finance",
-      "feed_id": "markets",
-      "category": "Markets",
+      "id": "04c323e50883f4e9432985fa",
+      "title": "Gold rebounds from one-week low as dollar slips - Reuters",
+      "summary": "Gold rebounds from one-week low as dollar slips Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
       "source_type": "Google News",
-      "published_at": "2026-10-15T03:16:00+00:00",
-      "desk_priority": 81,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "published_at": "2026-10-15T03:18:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
     },
     {
       "id": "94b3e2a7948190fe7ff99e7c",
@@ -578,6 +734,29 @@
         "description": "Doppler on Wheels (mobiles Doppler-Radar) im Fuhrpark des National Weather Center, Norman, Oklahoma",
         "label": "Illustrative photo",
         "matched_query": "Dow"
+      }
+    },
+    {
+      "id": "22587c3f313a66b18d902fcd",
+      "title": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus - Yahoo Finance",
+      "summary": "Dow, S&P 500, Nasdaq Decline Amid Hot Inflation Data, AI Selloff: CRWV, NBIS, NVDA, IBRX Stocks In Focus Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWjlGNUxDY2ozdVVQdmhpNWEtWGZNbWFlbjE3WnJpZF84cGluVFM1NkRXOF82VTlhMTFJVDJPNXlncnY5eGVDb1pEaGdoc2ZwTWt6bXV5ZFpROTVCXzFTbFBCTWgtSFQ2VGhtVVhfelVUczFXeEtkM0VnSUVPNFFnSFJ1R2g1WnlqNW4ybk9mYnpHRDQ?oc=5",
+      "source": "Yahoo Finance",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T03:16:00+00:00",
+      "desk_priority": 81,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
       }
     },
     {
@@ -742,6 +921,32 @@
       }
     },
     {
+      "id": "48e79591e33b5b48a4df75ea",
+      "title": "North Korea and China open new bridge after 12-year delay",
+      "summary": "China is the North's largest trading partner and a lifeline against the sanctions Pyongyang faces.",
+      "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T02:59:30+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0d26e61b156493019e4b6640",
+      "title": "Taiwan Dollar, Won Slump as Chip Stock Selloff Hurts Sentiment - Bloomberg.com",
+      "summary": "Taiwan Dollar, Won Slump as Chip Stock Selloff Hurts Sentiment Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTU5yU2ZpaEZUd2lKZWZvWU5RdEdRTFRMaUM2NXplMnN3ak9CSTMwWTFTWXp1bnZla2VFTzlfeUxhNzNuTVV1Qmx6a1A0elpNekVGMndFUUl2Z2E4R2UtN3BDNU5JZVMzWWI3b1NURlEzQ0lsMVIwQ1NZT1JBRzh2U3ZqeGk4ZFdVVEE2UmNKUXhsRl9sU1ZGOTVOZzFHUU9fdFgwVEtuUTNpOTRGaWo2dUJB?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:57:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "9c2e70ef035e5c9105ceefde",
       "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
       "summary": "Speech At the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, Thailand",
@@ -880,19 +1085,6 @@
       }
     },
     {
-      "id": "5989ddaf36b7539d1d771659",
-      "title": "Extreme weather - The Guardian",
-      "summary": "Extreme weather The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
-      "source": "The Guardian",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T02:39:01+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "d8f0d3374a97ab4aa5934964",
       "title": "Republicans brace for three-way leader fight if they lose - Axios",
       "summary": "Republicans brace for three-way leader fight if they lose Axios",
@@ -911,7 +1103,7 @@
       "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
       "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T02:26:07+00:00",
@@ -940,6 +1132,19 @@
         "label": "Illustrative photo",
         "matched_query": "Retired US"
       }
+    },
+    {
+      "id": "33dfee8842ddc6476efc2afe",
+      "title": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says - Bloomberg.com",
+      "summary": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFyUkJxSGRvTnBWUmp0bElJNEZNczRJcjhNY3lPUE9RNldkQnk0NDR4RU16Q2NzOVVqbUJtNUpjUXVlZkgzaVFzMU1TSlN5cDc4UWVFMXlRR3RnT25Kd3kxaDRLbnc5RVVKQkVhR1Y5RV96WFEtM3lJbG9mTXNoc2p3ZjFBUE9rQUkzWEVCTUJDX3Q4SGFEWm8yU1lnMFVkbGJYNl9KdTBsODBIa3doQVFB?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:19:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
     },
     {
       "id": "714be84248e23469738ac0d4",
@@ -986,6 +1191,19 @@
         "label": "Illustrative photo",
         "matched_query": "Moscow Russia"
       }
+    },
+    {
+      "id": "06c0f1d45bfee918523f7fb2",
+      "title": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides - The New York Times",
+      "summary": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaak8zaGJxX0MxU3ZCLXRPUzNURUpHLUtHRDl0RmR6U2MtMDZYbGt5elVocnFzMFNORGpVQlZqcWxWNHMtblp1VXg4cEpZVllZaXNpRFhPS2p5eWpDM2V4bHFUZ1pkQVBFVjdzSTRLMDI2WWpuS0xIa3lSNWpWOTA?oc=5",
+      "source": "The New York Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:08:59+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "05a82477161cf91b61996ed6",
@@ -1117,15 +1335,15 @@
     },
     {
       "id": "46711c985081f60550a34ff5",
-      "title": "Dollar retreats from 18-month high despite hot CPI as Fed officials temper hike bets - Reuters",
-      "summary": "Dollar retreats from 18-month high despite hot CPI as Fed officials temper hike bets Reuters",
+      "title": "Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease - Reuters",
+      "summary": "Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbDE0ZWJRMm1PNWhpVzUwaDhHb2o1YkVXVExaeFVQWWFwcnJtemVfakY3WHV0aFFQWHR3dkR4eVN1OTZ3dXVqb0QzQ0ZuNkNhek1IbFRhVEtBXzNKcVpSQ1dHQm16ZGMxZHF1Z0txU2xHVUVsb0txUzhxLVljb0NXWWZzX2ZETk9QbHF1dm5XdmMybWFYRzl4d1VuS3J0NlU4enJvQVFuYTYydDNYUVVHM3pjandDUHdHbHhLT2otUU1HQk1PTVpReHpmTQ?oc=5",
       "source": "Reuters",
       "feed_id": "reuters",
       "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-15T01:49:00+00:00",
-      "desk_priority": 57,
+      "desk_priority": 45,
       "selection_type": "automatic",
       "image": {
         "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/1884_T%241_Trade_Dollar_%28Judd-1732%29.jpg/1280px-1884_T%241_Trade_Dollar_%28Judd-1732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1137,19 +1355,6 @@
         "label": "Illustrative photo",
         "matched_query": "Dollar"
       }
-    },
-    {
-      "id": "06c0f1d45bfee918523f7fb2",
-      "title": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides - The New York Times",
-      "summary": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaak8zaGJxX0MxU3ZCLXRPUzNURUpHLUtHRDl0RmR6U2MtMDZYbGt5elVocnFzMFNORGpVQlZqcWxWNHMtblp1VXg4cEpZVllZaXNpRFhPS2p5eWpDM2V4bHFUZ1pkQVBFVjdzSTRLMDI2WWpuS0xIa3lSNWpWOTA?oc=5",
-      "source": "The New York Times",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T01:38:35+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
     },
     {
       "id": "6dc7a337a35f92dcc5a07747",
@@ -1319,19 +1524,6 @@
       }
     },
     {
-      "id": "5893aaa1676e0692a92028e7",
-      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
-      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T01:07:01+00:00",
-      "desk_priority": 71,
-      "selection_type": "automatic"
-    },
-    {
       "id": "929521df6cb25843a1540541",
       "title": "Norway's wealth fund set to overhaul ethical rules after US scrutiny - Reuters",
       "summary": "Norway's wealth fund set to overhaul ethical rules after US scrutiny Reuters",
@@ -1372,8 +1564,8 @@
     },
     {
       "id": "238f5cf7d450448d5b9545c6",
-      "title": "Asian markets sell off as AI trades crumble after hot US CPI data - Reuters",
-      "summary": "Asian markets sell off as AI trades crumble after hot US CPI data Reuters",
+      "title": "Asian stocks sell off as AI trades crumble after hot US inflation data - Reuters",
+      "summary": "Asian stocks sell off as AI trades crumble after hot US inflation data Reuters",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
       "source": "Reuters",
       "feed_id": "economy",
@@ -1563,6 +1755,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "d9e9684d9bcff72e50f21731",
+      "title": "Korea Stocks Tumble 8% as Investors Rush to Unwind AI Exposure - Bloomberg.com",
+      "summary": "Korea Stocks Tumble 8% as Investors Rush to Unwind AI Exposure Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS1ZmX19fclBFd1I3bEdCWVk5NEpfRmJGWE1VbjhDRThlVUFFeFBqYzYzTXpTR2wzeHNUcWtNN1VFV2ltaC1WNnc1S1ZsOFMxalVER01yS0otb2VjbTQ1cHJjZERsa05rMHNabDVyenp5MUlLNmpZQzdERzVzbElnTlgtQ0ljV1hsOGJNTEMwNEFPUmMtSXdjUzE3b0REWmR0ZDNfQzh0RU5UalY1dWg3b1pwVQ?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T00:08:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg/1280px-Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Fujitsu_Lifebook_AH502_-_motherboard-2350.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Raimond Spekking",
+        "license": "CC BY-SA 4.0",
+        "description": "Fujitsu Lifebook AH502 - motherboard DAFH5BMB6G0 Rev: G",
+        "label": "Illustrative photo",
+        "matched_query": "SK Hynix Down"
+      }
+    },
+    {
       "id": "9d765379fb260a45910cd6d3",
       "title": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus - TradingView",
       "summary": "S&P 500, Nasdaq See Worst Day In Over Two Months As Chipmaker Rout Deepens, CPI Data Comes In Hot — AAPL, SPCX, DRAM, SOXX In Focus TradingView",
@@ -1677,6 +1892,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "e92cc7fb106b45e6af78c686",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
       "id": "cb3ee08c9640d4aeee73fa62",
       "title": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
       "summary": "Iran says it does not seek an endless war, but vows to fight until the US accepts its demands as ships sink in Hormuz.",
@@ -1698,19 +1926,6 @@
         "label": "Illustrative photo",
         "matched_query": "world leaders summit"
       }
-    },
-    {
-      "id": "e92cc7fb106b45e6af78c686",
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” […]",
-      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T00:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
     },
     {
       "id": "9a8a8b61300db62700126f03",
@@ -1814,6 +2029,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "5c08bd1ae26ddffac9baff79",
+      "title": "\"MAGA blood feud\": White House probes claims of missing Kennedy Center money - Axios",
+      "summary": "\"MAGA blood feud\": White House probes claims of missing Kennedy Center money Axios",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5DekdBM2g5a2s3QTJiZUl0NEFkNF9IZVdzMHo2RW9GYU1vaXRmNFdUb3VmMGNoTy1OSE5FejhFZ1FNcVJnOS1NbThIQ3IyTmRwRlFqd1FOMDl1M2VYMDBvbDNUd2xZazJVSDNCSkU2R2hvWUJsXzNiRnNNR3M?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:36:39+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "47ea5991f3c8b6085c308878",
       "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks - MarketWatch",
       "summary": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks MarketWatch",
@@ -1898,6 +2126,19 @@
       "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-14T23:23:25+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d9fd1072e242b746f2bb673b",
+      "title": "Global charity withholds report into its role in Syria's 'disappeared' children",
+      "summary": "SOS Children's Villages International has acknowledged that more than 140 children were taken to its facilities by Syrian security services.",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y89dpd4lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-14T23:20:57+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -3157,7 +3398,7 @@
       "summary": "Top U.S. banks dropped customers over political and religious views, regulator says CBS News",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93NVdhQTV1bzhIXzFMNzlseGJsMG5qbF95RXVkZUVvdERfNkNpTElsanFZOWV0OHNJdTBkQ2VqTFBPaDREblNEVDhnN1Z4dFN1d1oybEU3aFd0N21xd1EyZXNEOVhwRjdCemRzR0pRVks?oc=5",
       "source": "CBS News",
-      "feed_id": "us",
+      "feed_id": "cbs",
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-14T20:42:04+00:00",
@@ -3250,6 +3491,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T20:31:15+00:00",
       "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7a11395afa0faa1a94b904cd",
+      "title": "Fed's Goolsbee says September CPI data was discouraging - Yahoo Finance - Reuters",
+      "summary": "Fed's Goolsbee says September CPI data was discouraging - Yahoo Finance Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNXZVX0VsdE85NGlqRkdpZXRvdk1fdmM4R04xWW5mRW91aGhGMXpBSjBPa01sc2laemlFTklJeTNkS3gxdk5LNlptQll5YUh3VGVhNzlnSUtPdTlDRmNyekZEZ3NFbGQ4SFVWRlpmeE1ONm9HbDRhLUkwWlRPUVlLcHdxSDBpTy1xWnVFenlGcFd4OFFEd3cyMmU5UlZhUGxNYVAxM3dkODhNUFEyR28zRURCTWhNZw?oc=5",
+      "source": "Reuters",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:30:59+00:00",
+      "desk_priority": 66,
       "selection_type": "automatic"
     },
     {
@@ -3367,6 +3621,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T20:22:19+00:00",
       "desk_priority": 66,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e766ef36ecce5dccd3f63606",
+      "title": "Inflation jumps to 3.7% as gas and diesel prices squeeze consumers ahead of the midterms - NBC News",
+      "summary": "Inflation jumps to 3.7% as gas and diesel prices squeeze consumers ahead of the midterms NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSm5KMGt6cDh1MzYtYXZjTnYxMVcyUXl0VnlZNUtvSVNpZWR6NXRYZ1Eyc0E0X0t6dXVPUXVBX1Fzb1I4aE4zVUxNVGtpdlVZUXk0ZF9yWDl1OG5FWkFSSFItS3lLdlRDVHJodkFzakY1RGtZaGctR2c0aUVVWmRBdURha0hERGpCbkx0UWxDd0MyS1FtQVdQMlg4YnRtdXdQM1VGXzcxWWdoZ01zY3plRldhQU5Qa1k5bkRNWkN3?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:22:16+00:00",
+      "desk_priority": 52,
       "selection_type": "automatic"
     },
     {
@@ -3643,6 +3910,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "b214712a8e1e1e3d90a687cc",
+      "title": "IMF chief urges US and wealthy nations to rein in debt to ease global economic pressure - AP News",
+      "summary": "IMF chief urges US and wealthy nations to rein in debt to ease global economic pressure AP News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS2ZQM2RRaEctaVBHSUlMQTdYNVZSdjlJUUp3bUdLa0ZySHZFQnB4UmlhWC16d2FqcWJBTjFYY2FKUHdXdDEwVy0yRGh3ck5nb3NQS09fN2NRanhyMDBCRkdGeHVldVotZmJNSERwOEZCMHR1dktLWE9UbUtyS1BudEdfX1hYTzNCOEloUG1BX0JQTW13RGdDYw?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:54:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6dbdbd1096f471b83fd6dc53",
       "title": "Why is Starlink internet so important on the battlefield in Ukraine?",
       "summary": "It is the \"backbone of military communications in Ukraine\" that provides vital high-speed internet to forces across the country.",
@@ -3653,6 +3933,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T19:52:04+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "79a0c16db2f3f08ec18c63c0",
+      "title": "Cartels use drones to scout border agents and map smuggling routes, expert warns - Fox News",
+      "summary": "Cartels use drones to scout border agents and map smuggling routes, expert warns Fox News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ0dqNFF0M3NwRGk2MGxnWTV5YTdOWkpsTElXQWt0Y0MwQXFOdlNBWU9kYmNaMU5IdklERzh0SDNYaHdqQ1MxUW9NTEM3SEdDZF82Q181a3gzMFhSUG1rcDRJSUp5Y2VqZkk3UUdjVVFlSUpkRHJtSDNKU1pHN2w1RkZ1dldtRl9mcVhOZTZyMnZKMVFRZGtXRWFBTklrN3BLV01HZNIBqgFBVV95cUxQaWVRTWJNdV84S2Y4TjNobE5JYjFmNV9iSW1scVZqdGRLZHJZNzUxSXVpb0VFdldPa2JjS3Q3Z09vU05CU1pGMm9SVExDYkZYY0oyeTlSaV9RQnpET2gyZ1kwZzVqLV9ZNUtBVUdqNHdhZHdNV2dxdUdzTHUxeTFfbmg2Q0RORmNHX0YtZ29FVFdpNjNsY1pkQ184UVcyYUo5R284aGdBRXhBZw?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T19:51:45+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -4206,279 +4499,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T18:28:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e8ec266bce3b84d25fb162db",
-      "title": "Vance takes aim at soft-on-crime Dems as GOP faces uphill midterm battle: ‘lost their minds’ - Fox News",
-      "summary": "Vance takes aim at soft-on-crime Dems as GOP faces uphill midterm battle: ‘lost their minds’ Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFY1UTBlWGkyVzlZVTRsTUFCUklSbWhsVm9MMmJJdHgwNmNOQ0lsZVY3Ynozems4S3pfY045MXN3XzBhUzhwZkFJVTU1elNGR0VuN1VlNXRIRDlaUkhTbjdQRjZVbnY5MUtMY3ZaTkQxbG15ZnpveDl1UWlWQk9vMy1PR1dVSGFnV1Y5Rzl4T0tmZEdpZ2w3UGxXeVhtMEVZQnh3R3pldlpCYXRoYzV4TnltY9IBuAFBVV95cUxORm1RbWNLVFR1TF92dkFVOEQ2S2dTVnlRRjVsU2QwVHRHWVF3Zjd3VGNlZ0RkOHJ5ektpVkhtbV9oenhtOWFYU0ZEZEdjbTE1ajFuZ21QajJmYTVYLUwtaTBOcC1oRENyQ01TbnJ5UEg0TGFFLS1MU3J1emNBUDNGYk9oNHJHUzYwZnkySnNOU0dVQ2pIdHZkZV9lUDBiVHFwbEJjWVdnRk1PbFR2eG1IRGdkbThLR21m?oc=5",
-      "source": "Fox News",
-      "feed_id": "fox",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:27:25+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "cdf19de5c7bca559fab83a94",
-      "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma - MarketWatch",
-      "summary": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcTVtY21OXzJHcEpRTndrNTdUSVdFX24zcklZeGxHTWVDZEk1YkVYalVhYkRsLUk2cC00cVU4THJOQ3hicmd2dFo2ekxBZUxvczY3QWREQzJPQk9hOGZnQVBuM2dHdV9RLUtWZ1ZvZ2RMU1BhY1N2S01Ed1FnVjdiSjlpUUxZOUkwV3U3bXpNVVJkY1RzeTJ2Q2c5NGIzT3UtRmJxTER2d2U5MHN1aVN4dmxNUHBRRDRzOWE4UnZ5TkJlc2ptZHc?oc=5",
-      "source": "MarketWatch",
-      "feed_id": "marketwatch",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:27:00+00:00",
-      "desk_priority": 65,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "793fbd5a47317c3f1f8bf3c3",
-      "title": "Ukraine says Starlink partially restored after Zelensky warned ‘people will die’ from satellite slowdown - The Hill",
-      "summary": "Ukraine says Starlink partially restored after Zelensky warned ‘people will die’ from satellite slowdown The Hill",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUJ2SWZPNHZwZWZfSVdSb2o3TC1RX3JEZERPT2lJQW5meHRVdkNtQlRUN0l0aGVZUGpoalJCQjdZc2tYNnp5azVsaktzVU9ma1kweDg4bnNFM2NnN2NrTkNsZnFvbXF3UmxmdE15M1ozdTF5S3VWdkhtYW1SRGhfNm82SGtjeWgtTUFuaWxLcnlweEdW0gGaAUFVX3lxTE54T0FNNUhKSmVYVGoyNzdhWVFTMGtwa0ktbkhQcDAteUozZFpCbFdxNmhqMHFHQmtzYXJ5NnBtdlB2aFhQTWtPSjZIV0ZzSGIzYlZmOVVvUXpHTl9xT21VSHNralI4TkdwZW5sMFFVSFhPQVVJNGZkbmJpV3dDUEx2TzdGVkdMVUU4akxkeU9vWkxRSlduUnBOT3c?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:26:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f2a56b50bd832f0a2e0913fa",
-      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-      "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
-      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:23:46+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7a9def3c48c7ae7bc22e8870",
-      "title": "YouTube sticks new labels on AI-generated songs",
-      "summary": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it […]",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:22:56+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "016f90f8bc50651550f75e39",
-      "title": "How a 72-Year-Old Pastor Became America’s Favorite Campus Evangelist",
-      "summary": "Cliffe Knechtle and his son Stuart are drawing millions of young followers by answering questions on faith and morality at colleges across the country.",
-      "url": "https://www.wsj.com/us-news/how-a-72-year-old-pastor-became-americas-favorite-campus-evangelist-d950633b?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:21:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e6ed8f0b9fac3acf208caa3f",
-      "title": "Save up to 20 percent on gift cards for REI, Barnes & Noble, and more",
-      "summary": "While we cover a lot of deals on specific products, it’s rare that we find worthwhile savings on gift cards that let you save on essentially anything the store sells. However, until October 19th, you can save up to twenty percent on gift cards when you buy them through the Google Play store. There are […]",
-      "url": "https://www.theverge.com/gadgets/1010749/google-play-gift-card-deal-sale",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:20:55+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e2646c1d5df04790951883d7",
-      "title": "‘I think Alaska’s turning blue’: Republicans fret Sullivan’s path to reelection - Politico",
-      "summary": "‘I think Alaska’s turning blue’: Republicans fret Sullivan’s path to reelection Politico",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObU5TZHRldUcydUU2UUtnOG9XUC1CUlExdDl1OFVpYUQ3T2NSakMtMHFhS3VZQWgwcEx5RlNiM3FqZWdnYURDY0s1VkZ3bkFjQ1ZRdUFYVHRpU0Zza2l0aHduQ2ZsRDF2TUxidks1S0lwT0w2VHVMM25RaHo1UDNJV2RB?oc=5",
-      "source": "Politico",
-      "feed_id": "politico",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:18:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "affdeb6b138cfda411b56da5",
-      "title": "US consumer inflation hotter than expected as midterms loom - Yahoo Finance",
-      "summary": "US consumer inflation hotter than expected as midterms loom Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWVdBcWFNWlJkbEFCbHNDX29WRDJvTW9Ra0VVZVBMNHA2Y25URnBzVVhsN0VmeW43S1ltcjFqT3VWM200NWFWd2Vfc2E0bnhEY21WVS1zQkcxTVZGNjJHbU5EdHFEUDhPd0V1WHRJNlE0cHp1cm1EU21oZmFZX20xclJubXF0LXVWY29SWDhKN05sMmlmdWdob1lpZmNBUDZDZ1E?oc=5",
-      "source": "Yahoo Finance",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:06:04+00:00",
-      "desk_priority": 66,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e5ae723edf50337c12bf82ee",
-      "title": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most. - MarketWatch",
-      "summary": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most. MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdmMzVFVUVFBiNGlSTVVPMHM1Q0ZGS09WLWt0U2k0aVFBUVhaWFNONUI4S1R0SWlreHBPc19PZlU4ZGJoeEh0dkF2Y1BjVUpLVXk3cDJCQ0VQSlZKNTdRaGx5SzhIeXdrbEJ3aWktVExUajNCeEl3VGlXOGVpVjQtUWN5MWdMR3ZnV21FWnpEUmtuNWpRSi1uN2lubEN0X1RSeTJXU2h1X2F1b3h3RGZLbk45UFVNZUtTb0VCRGNsT0lPcmUzLUcwbFJ4c2Jrc1JDUVp4cmZrVnlNZDBhRUxGTEtIUHlZSUNGLTNRMW5BNms5WjFSakltdEtBWUY?oc=5",
-      "source": "MarketWatch",
-      "feed_id": "marketwatch",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T18:06:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "33504eede0fd50dba20cb924",
-      "title": "Nord Stream trial opens in Germany, defense seeks dismissal",
-      "summary": "Serhii Kuznietsov is accused of attacking civilian infrastructure in the 2022 sabotage of the Russian gas pipeline to Germany. His lawyers called Nord Stream a military target, and said their client is sworn to secrecy.",
-      "url": "https://www.dw.com/en/nord-stream-trial-opens-in-germany-defense-seeks-dismissal/a-79662942?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:00:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5a503e3d62a8f45c7dd932cf",
-      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-      "summary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
-      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T18:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8697519bde63e254e514f265",
-      "title": "See the world in vertical: Top photos by AP photojournalists - AP News",
-      "summary": "See the world in vertical: Top photos by AP photojournalists AP News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcXYyem52elluMkFFbzZPeHhqY0Z2NjFvV0stSXVrUjYwVkdaeWtRSXVkRzN1SS1JMGV2NjBZd0huQXZ1eUNfclREcnBuRF9zbVdZenBmeGZhVVNHU0J2TU1oQ0tYZWg2S0ZteWVfRGJyWDFWVTVvQnJtbUFTMU5rN2ZndEtNNzBPa3Y3MWF4bVl2ejB2UWw1cmhvTkFUZ1k1RU1WTTQ2Yy1fWTRTY0pFeTJCbEhOZw?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T17:56:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9038a5a2b3bc61db8396b6e8",
-      "title": "Russell Brand was a 'sexual predator', prosecution alleges as rape trial begins",
-      "summary": "The actor and comedian has pleaded not guilty to three counts of rape, three counts of sexual assault and one of indecent assault.",
-      "url": "https://www.bbc.co.uk/news/articles/c3qjn45pepx1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T17:55:53+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7cfdd5a0d526ee04b6da3767",
-      "title": "US Transportation Secretary meeting with Boeing, GE CEOs on aircraft certification reform efforts - Reuters",
-      "summary": "US Transportation Secretary meeting with Boeing, GE CEOs on aircraft certification reform efforts Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcUlaU0dCaVJHS2VSSFRqR0lTa3R0eVFXbVQwMDlwNTBYSC1BWXJfNnZQWGpzYllmcTRlLUZIVWFzS2NJaU5reTZiWTlmb25DQ0ZRbEZjTWdGM0pHMHk0WjctVU85QU1VcWI0T3ZLVDhHQnZKX0xrMzQ4SUpTNmhZQm9Od2FVMUxlY1owaFMyNndmS05oV1RVeTI2a0p5S0FJQ3gyeUpKay14NmhsSlI5RkE4UW5ZSDZGdVBZOHNtbHhWeW12NlpHTXdNV1F6dlh4YWdrckY3bF8?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T17:55:44+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b53f932478f0eb176e305431",
-      "title": "How Trump's diesel deal with Russia will impact the United States and Ukraine",
-      "summary": "US President Trump's diesel deal with Russia has alarmed Ukraine and its allies. What is he hoping to achieve at home, and what does the deal mean for Kyiv and Moscow?",
-      "url": "https://www.dw.com/en/how-trump-s-diesel-deal-with-russia-will-impact-the-united-states-and-ukraine/a-79658596?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T17:55:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c28cc804ac389f261f43f7e3",
-      "title": "DAZN Expands Titan World Series Deal With More Global Coverage, Gravel and a New Race in Andorra - TodoMountainBike",
-      "summary": "DAZN Expands Titan World Series Deal With More Global Coverage, Gravel and a New Race in Andorra TodoMountainBike",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcmpLQk0zOUhSeFdYZmU1UHB3VFlnc3R2aDhFQm95WXNRLThRanBkNk9HRFhibmJzYUM3YlFqOTlkY1Zwckctel8zamMtYWE2RjN6dTNrdnRWTDRNR1ZyZXlHYWpQaF9sTFJuU25sa2MxajQ2VEZDNXVEQkhPN1g0enpMeGpQMmd0WThtdHRDMnhtc2xCZ1I3UnZwX19TN2RWaE5BdlhlQl9PZ3h6d1Z2OTBkMkFfUHNK?oc=5",
-      "source": "TodoMountainBike",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T17:52:56+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "86a7bba742771d88fbd8eb95",
-      "title": "Iowa's water quality and cancer rates forced into forefront of state politics",
-      "summary": "Chemical fertilizers and animal waste contain nitrates and phosphorus that can get washed with rain or snowmelt into the state's rivers. That affects Iowa's more liberal urban centers which rely on rivers and lakes for drinking water.",
-      "url": "https://www.pbs.org/newshour/politics/iowas-water-quality-and-cancer-rates-forced-into-forefront-of-state-politics",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T17:48:43+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e8602edea19ee0dce7c4f25c",
-      "title": "Drop-off charges at UK airports to be reviewed after sharp increase",
-      "summary": "Confirming the review, the government said it was \"vital to ensure travel remains accessible and that passengers are treated fairly\".",
-      "url": "https://www.bbc.co.uk/news/articles/cwp8gynk13rro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T17:46:30+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ef87815ee955ad264437d600",
-      "title": "Federal judge blocks planned US farm agency reorganization - Reuters",
-      "summary": "Federal judge blocks planned US farm agency reorganization Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGFvZzZWdXNFLWpwSlc5NTYzdDZOR2ZzWHJWWWx3R0FIRFJGSG1JVlo2UUp6ZWtoNUlHSFA1ZV9EUE5vdXRRRkVQUDYyNUNxbnduQ3ZmMVQ3aGhpT1IzWjY0QWtUdjhOcFRCMmwwbTNDejRaOEJ5RXJ0MGdIZjdIZXJlMHRYUXRPWXdILXRNXzlFZ3JxN2tWWEtGS1ZPMGJFYjFaaDZteDNFcThlNldJMw?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T17:45:49+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "15f2c48bcd6e68b5c3a096f1",
-      "title": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\" - CBS News",
-      "summary": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\" CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0VJMWktUHNGdUQxWG1yTDBLRjluTUdpUVNvZ0MtQWp5RUFDYklZZEdic1FqSHdiWEhocWNrTkFPdldhSjRscTduRWpWZjFsSjd1Tlg5Wl9idnA0M0N2V1JYM0pPQ01mcFdmYzgwQjU4Q1lEcFhFdXR0MGJubkpjQk1GTFItZ3N6?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T17:44:53+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
