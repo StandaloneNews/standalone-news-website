@@ -1,0 +1,380 @@
+[
+  {
+    "id": "us",
+    "name": "U.S. headlines",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=%28US+news+OR+Washington+OR+US+politics%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "world",
+    "name": "World headlines",
+    "type": "Google News",
+    "category": "World",
+    "url": "https://news.google.com/rss/search?q=%28international+news+OR+world+politics+OR+global+events%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "markets",
+    "name": "Market headlines",
+    "type": "Google News",
+    "category": "Markets",
+    "url": "https://news.google.com/rss/search?q=%28Nasdaq+OR+S%26P+500+OR+Wall+Street+OR+Dow+Jones%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "economy",
+    "name": "U.S. economy",
+    "type": "Google News",
+    "category": "Economy",
+    "url": "https://news.google.com/rss/search?q=%28CPI+OR+inflation+OR+jobs+report+OR+GDP+OR+Federal+Reserve%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "washington",
+    "name": "Washington",
+    "type": "Google News",
+    "category": "Washington",
+    "url": "https://news.google.com/rss/search?q=%28White+House+OR+Supreme+Court+OR+Congress+OR+tariffs%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "bbc_top",
+    "name": "BBC News",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://feeds.bbci.co.uk/news/rss.xml"
+  },
+  {
+    "id": "bbc_world",
+    "name": "BBC News",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+    "id": "bbc_business",
+    "name": "BBC News",
+    "type": "Publisher RSS",
+    "category": "Economy",
+    "url": "https://feeds.bbci.co.uk/news/business/rss.xml"
+  },
+  {
+    "id": "pbs_top",
+    "name": "PBS News",
+    "type": "Publisher RSS",
+    "category": "US News",
+    "url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+  },
+  {
+    "id": "pbs_politics",
+    "name": "PBS News",
+    "type": "Publisher RSS",
+    "category": "Government",
+    "url": "https://www.pbs.org/newshour/feeds/rss/politics"
+  },
+  {
+    "id": "cnbc_top",
+    "name": "CNBC",
+    "type": "Publisher RSS",
+    "category": "Markets",
+    "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html"
+  },
+  {
+    "id": "cnbc_business",
+    "name": "CNBC",
+    "type": "Publisher RSS",
+    "category": "Economy",
+    "url": "https://www.cnbc.com/id/10001147/device/rss/rss.html"
+  },
+  {
+    "id": "guardian_world",
+    "name": "The Guardian",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://www.theguardian.com/world/rss"
+  },
+  {
+    "id": "guardian_us",
+    "name": "The Guardian",
+    "type": "Publisher RSS",
+    "category": "US News",
+    "url": "https://www.theguardian.com/us/rss"
+  },
+  {
+    "id": "guardian_business",
+    "name": "The Guardian",
+    "type": "Publisher RSS",
+    "category": "Markets",
+    "url": "https://www.theguardian.com/us/business/rss"
+  },
+  {
+    "id": "guardian_tech",
+    "name": "The Guardian",
+    "type": "Publisher RSS",
+    "category": "Technology",
+    "url": "https://www.theguardian.com/technology/rss"
+  },
+  {
+    "id": "aljazeera",
+    "name": "Al Jazeera English",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://www.aljazeera.com/xml/rss/all.xml"
+  },
+  {
+    "id": "dw_top",
+    "name": "Deutsche Welle",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://rss.dw.com/rdf/rss-en-top"
+  },
+  {
+    "id": "dw_business",
+    "name": "Deutsche Welle",
+    "type": "Publisher RSS",
+    "category": "Economy",
+    "url": "https://rss.dw.com/rdf/rss-en-bus"
+  },
+  {
+    "id": "npr_top",
+    "name": "NPR",
+    "type": "Publisher RSS",
+    "category": "US News",
+    "url": "https://feeds.npr.org/1001/rss.xml"
+  },
+  {
+    "id": "npr_world",
+    "name": "NPR",
+    "type": "Publisher RSS",
+    "category": "World",
+    "url": "https://feeds.npr.org/1004/rss.xml"
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch",
+    "type": "Publisher RSS",
+    "category": "Technology",
+    "url": "https://techcrunch.com/feed/"
+  },
+  {
+    "id": "verge",
+    "name": "The Verge",
+    "type": "Publisher RSS",
+    "category": "Technology",
+    "url": "https://www.theverge.com/rss/index.xml"
+  },
+  {
+    "id": "reuters",
+    "name": "Reuters discovery",
+    "type": "Google News",
+    "category": "World",
+    "url": "https://news.google.com/rss/search?q=site%3Areuters.com+%28world+OR+US+OR+politics+OR+markets%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "ap",
+    "name": "Associated Press discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+%28US+OR+world+OR+breaking%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "bloomberg",
+    "name": "Bloomberg discovery",
+    "type": "Google News",
+    "category": "Markets",
+    "url": "https://news.google.com/rss/search?q=site%3Abloomberg.com+%28markets+OR+business+OR+economy%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "cnn",
+    "name": "CNN discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Acnn.com+%28US+OR+world+OR+politics%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "cbs",
+    "name": "CBS News discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Acbsnews.com+%28US+OR+world+OR+breaking%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nbc",
+    "name": "NBC News discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Anbcnews.com+%28US+OR+world+OR+breaking%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "abc",
+    "name": "ABC News discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Aabcnews.go.com+%28US+OR+world+OR+breaking%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "fox",
+    "name": "Fox News discovery",
+    "type": "Google News",
+    "category": "US News",
+    "url": "https://news.google.com/rss/search?q=site%3Afoxnews.com+%28US+OR+world+OR+politics%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "politico",
+    "name": "POLITICO discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Apolitico.com+%28Congress+OR+politics+OR+policy%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "axios",
+    "name": "Axios discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Aaxios.com+%28politics+OR+policy+OR+economy%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "thehill",
+    "name": "The Hill discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Athehill.com+%28Congress+OR+government+OR+policy%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "marketwatch",
+    "name": "MarketWatch discovery",
+    "type": "Google News",
+    "category": "Markets",
+    "url": "https://news.google.com/rss/search?q=site%3Amarketwatch.com+%28stocks+OR+bonds+OR+Fed+OR+markets%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "yahoo_finance",
+    "name": "Yahoo Finance discovery",
+    "type": "Google News",
+    "category": "Markets",
+    "url": "https://news.google.com/rss/search?q=site%3Afinance.yahoo.com%2Fnews+%28stocks+OR+earnings+OR+markets%29+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "fed",
+    "name": "Federal Reserve",
+    "type": "Official direct",
+    "category": "Fed",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml"
+  },
+  {
+    "id": "bls",
+    "name": "Bureau of Labor Statistics",
+    "type": "Official direct",
+    "category": "Economy",
+    "url": "https://www.bls.gov/feed/bls_latest.rss"
+  },
+  {
+    "id": "dea",
+    "name": "Federal Register · DEA",
+    "type": "Official register",
+    "category": "DEA",
+    "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=drug-enforcement-administration"
+  },
+  {
+    "id": "doj",
+    "name": "Department of Justice",
+    "type": "Official direct",
+    "category": "Government",
+    "url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+  },
+  {
+    "id": "fda",
+    "name": "Food and Drug Administration",
+    "type": "Official direct",
+    "category": "FDA",
+    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml"
+  },
+  {
+    "id": "sec",
+    "name": "Securities and Exchange Commission",
+    "type": "Official direct",
+    "category": "SEC",
+    "url": "https://www.sec.gov/news/pressreleases.rss"
+  },
+  {
+    "id": "dea_news",
+    "name": "DEA newsroom discovery",
+    "type": "Google News",
+    "category": "DEA",
+    "url": "https://news.google.com/rss/search?q=site%3Adea.gov+%28drug+scheduling+OR+announcement+OR+enforcement%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "treasury",
+    "name": "Treasury discovery",
+    "type": "Google News",
+    "category": "Treasury",
+    "url": "https://news.google.com/rss/search?q=site%3Ahome.treasury.gov%2Fnews%2Fpress-releases+%28OFAC+OR+sanctions+OR+Treasury%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "whitehouse",
+    "name": "White House discovery",
+    "type": "Google News",
+    "category": "Washington",
+    "url": "https://news.google.com/rss/search?q=site%3Awhitehouse.gov+%28executive+order+OR+announcement%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "state",
+    "name": "State Department discovery",
+    "type": "Google News",
+    "category": "World",
+    "url": "https://news.google.com/rss/search?q=site%3Astate.gov+%28sanctions+OR+statement+OR+diplomacy%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "cftc",
+    "name": "CFTC discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Acftc.gov%2FPressRoom+%28regulation+OR+enforcement%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "ftc",
+    "name": "FTC discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Aftc.gov%2Fnews-events%2Fnews%2Fpress-releases+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "dhs",
+    "name": "DHS discovery",
+    "type": "Google News",
+    "category": "Government",
+    "url": "https://news.google.com/rss/search?q=site%3Adhs.gov%2Fnews+%28security+OR+border+OR+cyber%29+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "fomc",
+    "name": "Fed · Monetary policy",
+    "type": "Official direct",
+    "category": "Fed",
+    "url": "https://www.federalreserve.gov/feeds/press_monetary.xml"
+  },
+  {
+    "id": "speeches",
+    "name": "Fed · Speeches",
+    "type": "Official direct",
+    "category": "Fed",
+    "url": "https://www.federalreserve.gov/feeds/speeches.xml"
+  },
+  {
+    "id": "dol",
+    "name": "Department of Labor",
+    "type": "Official direct",
+    "category": "Economy",
+    "url": "https://www.dol.gov/rss/releases.xml"
+  },
+  {
+    "id": "wsj_markets",
+    "name": "WSJ · Markets",
+    "type": "Publisher RSS",
+    "category": "Markets",
+    "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain"
+  },
+  {
+    "id": "wsj_us",
+    "name": "WSJ · U.S. News",
+    "type": "Publisher RSS",
+    "category": "US News",
+    "url": "https://feeds.content.dowjones.io/public/rss/RSSUSnews"
+  }
+]
