@@ -56,8 +56,8 @@
  function shortMeta(item){return item.source+' · '+utc(item.published_at,true);}
 
  function link(item,label){const a=el('a','',label||item.title);a.href=item.url;if(item.type==='news'){a.target='_blank';a.rel='noopener noreferrer';a.title='Open the original source in a new tab';}return a;}
- function iconCategory(item){return ({Markets:'↗',Economy:'%',World:'◎',Government:'⌂',Regulation:'§','US News':'★'})[item.category]||'SN';}
- function visualClass(item){return({Markets:'visual-markets',Economy:'visual-economy',World:'visual-world',Government:'visual-government',Regulation:'visual-regulation','US News':'visual-us'})[item.category]||'visual-us';}
+ function iconCategory(item){return ({Markets:'↗',Economy:'%',World:'◎',Government:'§',Regulation:'⚖','US News':'◇',Technology:'⌘'})[item.category]||'◇';}
+ function visualClass(item){return({Markets:'visual-markets',Economy:'visual-economy',World:'visual-world',Government:'visual-government',Regulation:'visual-regulation',Technology:'visual-world','US News':'visual-us'})[item.category]||'visual-us';}
  function visual(item,small=false){const wrap=el('div',(small?'list-thumb ':'story-visual ')+visualClass(item));wrap.append(el('span','visual-icon',iconCategory(item)));if(!small)wrap.append(el('span','visual-mini','STANDALONE / NEWS'));return wrap;}
  function actionSave(item,cls='save-small'){const saved=state.saved.some(x=>x.key===item.key);const b=el('button',cls+(saved?' on':''),saved?'♥ Saved':'♡ Save');b.type='button';b.dataset.save=item.key;b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'Remove saved story: ':'Save story: ')+item.title);return b;}
  function toast(msg){const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.hidden=true,2600);}
@@ -69,7 +69,19 @@
  $('lead-source').textContent=item.type==='article'?'Standalone News · AI-assisted':'Via '+item.source;$('lead-time').textContent=utc(item.published_at,true);
  $('hero-art').className='hero-art '+(({Markets:'art-economy',Economy:'art-economy',Government:'art-government',Regulation:'art-regulation',World:'art-world'})[item.category]||'art-world');
  leadSave.hidden=false;leadSave.dataset.save=item.key;const saved=state.saved.some(x=>x.key===item.key);leadSave.className='bookmark-btn'+(saved?' on':'');leadSave.textContent=saved?'♥ Saved':'♡ Save';leadSave.setAttribute('aria-pressed',String(saved));cta.href=item.url;cta.textContent=item.type==='article'?'Read explainer →':'Open original ↗';if(item.type==='news'){cta.target='_blank';cta.rel='noopener noreferrer';}else{cta.removeAttribute('target');cta.removeAttribute('rel');}}
- function renderLatest(){const n=$('latest-items');n.replaceChildren();if(!state.news.length){n.append(el('p','placeholder',state.error?'Headlines could not be loaded.':'New source-linked headlines will appear here.'));return;}state.news.filter(x=>x.key!==(deskPicks(state.news)[0]||{}).key).slice(0,6).forEach((item,i)=>{const row=el('div','latest-row');row.append(el('span','latest-index',String(i+1).padStart(2,'0')));const cont=el('div');const h=el('h3');h.append(link(item));cont.append(h,el('div','small-meta',item.source+' · '+utc(item.published_at,true)));row.append(cont);n.append(row);});}
+ function renderLatest(){const n=$('latest-items');n.replaceChildren();if(!state.news.length){n.append(el('p','placeholder',state.error?'Headlines could not be loaded.':'New source-linked headlines will appear here.'));return;}
+ // The wire remains purely chronological; this compact homepage module mixes outlets
+ // so an agency publishing a burst of notices cannot occupy every visible row.
+ const lead=(deskPicks(state.news)[0]||{}).key, latest=[], count=new Map();let officialCount=0;
+ for(const item of state.news){
+  if(item.key===lead||latest.length>=4)continue;
+  if((count.get(item.source)||0)>=2)continue;
+  if(item.source_type.startsWith('Official')&&officialCount>=2)continue;
+  latest.push(item);count.set(item.source,(count.get(item.source)||0)+1);
+  if(item.source_type.startsWith('Official'))officialCount++;
+ }
+ for(const item of state.news){if(latest.length>=4)break;if(item.key!==lead&&!latest.some(s=>s.key===item.key))latest.push(item);}
+ latest.forEach((item,i)=>{const row=el('div','latest-row');row.append(el('span','latest-index',String(i+1).padStart(2,'0')));const cont=el('div');const h=el('h3');h.append(link(item));cont.append(h,el('div','small-meta',item.source+' · '+utc(item.published_at,true)));row.append(cont);n.append(row);});}
  function storyCard(item){const art=el('article','story-card');art.append(visual(item));const body=el('div','story-card-body'),h=el('h3');h.append(link(item));body.append(el('div','story-card-label',item.category.toUpperCase()),h);if(sourceExcerpt(item))body.append(el('p','desk-excerpt',sourceExcerpt(item)));body.append(el('div','card-meta',shortMeta(item)));const actions=el('div','card-actions');actions.append(link(item,item.type==='article'?'Read explainer →':'Original source ↗'),actionSave(item));actions.firstChild.className='story-link';body.append(actions);art.append(body);return art;}
  function renderTop(){const n=$('top-grid');n.replaceChildren();const lead=(deskPicks(state.news)[0]||{}).key;const pool=deskPicks(state.news).filter(x=>x.key!==lead);const chosen=[],sources=new Set(),cats=new Set();for(const item of pool){if(chosen.length>=4)break;if(!sources.has(item.source)&&(!cats.has(item.category)||chosen.length>=3)){chosen.push(item);sources.add(item.source);cats.add(item.category);}}for(const item of pool){if(chosen.length>=4)break;if(!chosen.some(x=>x.key===item.key))chosen.push(item);}if(!chosen.length){empty(n,'Top stories appear when the headline feed updates.');return;}chosen.forEach(x=>n.append(storyCard(x)));}
 
