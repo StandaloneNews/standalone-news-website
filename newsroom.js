@@ -129,7 +129,57 @@
  function renderPrefs(){const n=$('preference-grid');n.replaceChildren();TOPICS.forEach(c=>{const b=el('button','pref-option'+(state.prefs.includes(c)?' on':''),NAMES[c]);b.type='button';b.dataset.pref=c;b.setAttribute('aria-pressed',String(state.prefs.includes(c)));n.append(b);});}
  function setMarket(tab){document.querySelectorAll('[data-market]').forEach(b=>{const active=b.dataset.market===tab;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-market-panel]').forEach(n=>n.classList.toggle('active',n.dataset.marketPanel===tab));}
  function syncNav(){const h=location.hash.slice(1)||'home';document.querySelectorAll('[data-nav]').forEach(n=>n.classList.toggle('active',n.dataset.nav===h));document.querySelectorAll('[data-mobile-nav]').forEach(n=>n.classList.toggle('active',n.dataset.mobileNav===h));}
- function init(){const now=new Date();$('today-date').textContent=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(now);$('year').textContent=now.getUTCFullYear();const clock=()=>{$('utc-clock').textContent='UTC · '+new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:'UTC'}).format(new Date());};clock();setInterval(clock,30000);$('demo-warning').hidden=!demo;
+ // Mobile-only TradingView tape. It displays the vendor's actual price changes,
+ // not static directional arrows; desktop continues using the existing working widget.
+ function initMobileMarkets(){
+   const host=$('mobile-market-inner');if(!host)return;
+   const media=window.matchMedia('(max-width: 760px)');
+   let requested=false;
+   function mount(){
+     if(!media.matches||requested)return;
+     requested=true;
+     const wrap=document.createElement('div');wrap.className='tradingview-widget-container mobile-tv-widget';
+     wrap.style.width='1040px';wrap.style.height='82px';
+     const slot=document.createElement('div');slot.className='tradingview-widget-container__widget';
+     slot.style.width='100%';slot.style.height='100%';wrap.appendChild(slot);
+     const message=$('mobile-market-fallback');
+     const observer=new MutationObserver(()=>{
+       if(wrap.querySelector('iframe')){
+         if(message)message.hidden=true;
+         observer.disconnect();
+       }
+     });
+     observer.observe(wrap,{childList:true,subtree:true});
+     const script=document.createElement('script');
+     script.src='https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js';
+     script.type='text/javascript';script.async=true;
+     script.textContent=JSON.stringify({
+       symbols:[
+         {proName:'AMEX:SPY',title:'SPY'},
+         {proName:'NASDAQ:QQQ',title:'QQQ'},
+         {proName:'NASDAQ:NVDA',title:'NVDA'},
+         {proName:'NASDAQ:TSLA',title:'TSLA'},
+         {proName:'NASDAQ:AAPL',title:'AAPL'},
+         {proName:'NASDAQ:MSFT',title:'MSFT'}
+       ],
+       showSymbolLogo:false,colorTheme:'light',isTransparent:true,
+       displayMode:'regular',locale:'en'
+     });
+     script.onerror=()=>{if(message)message.textContent='TradingView quotes unavailable. Open Full markets →';};
+     host.appendChild(wrap);
+     wrap.appendChild(script);
+     window.setTimeout(()=>{
+       if(!wrap.querySelector('iframe')){
+         if(message)message.textContent='Prices unavailable. Open Full markets →';
+         observer.disconnect();
+       }
+     },14000);
+   }
+   mount();
+   if(media.addEventListener)media.addEventListener('change',mount);
+ }
+
+ function init(){initMobileMarkets();const now=new Date();$('today-date').textContent=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(now);$('year').textContent=now.getUTCFullYear();const clock=()=>{$('utc-clock').textContent='UTC · '+new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:'UTC'}).format(new Date());};clock();setInterval(clock,30000);$('demo-warning').hidden=!demo;
  document.body.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(b){e.preventDefault();flipSave(b.dataset.save);}});
  for(const id of ['open-saved','mobile-saved'])$(id).addEventListener('click',()=>showModal('saved-overlay'));
  for(const id of ['open-brief','open-brief-side','brief-personalize'])$(id).addEventListener('click',()=>showModal('brief-overlay'));

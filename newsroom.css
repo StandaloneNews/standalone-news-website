@@ -268,3 +268,42 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
   .mobile-market-heading{font-size:9px}
   .mobile-market-shortcuts a{font-size:11px;padding:0 10px}
 }
+
+/* V9: Never clip the lead-story buttons for unusually long breaking-news headlines. */
+@media(min-width:761px){
+  .lead-story{height:auto!important;min-height:435px!important;align-self:start;}
+  .lead-content{min-height:435px;box-sizing:border-box;padding-bottom:26px;justify-content:flex-start;}
+  .lead-bottom{margin-top:auto;padding-top:18px;flex-shrink:0;}
+  .lead-actions{flex-shrink:0;}
+  .lead-story .hero-art{height:100%;min-height:0;}
+}
+
+/* V9: A dedicated mobile TradingView quote window with native red/green changes.
+   Its 1040px inner width prevents the legacy widget switching to an unreadable compact mode.
+   Parent clipping prevents the embed from covering headlines or creating page overflow. */
+.mobile-market-live{display:none}
+@media(max-width:760px){
+  .market-strip .strip-inner{height:auto!important;min-height:0!important;display:block!important;padding:7px 0 10px!important;}
+  .market-strip .strip-heading,.market-strip .strip-quotes,.market-strip .strip-more,.mobile-market-shortcuts{display:none!important}
+  .mobile-market-live{display:block;max-width:100%;min-width:0;width:100%;position:relative;isolation:isolate}
+  .mobile-market-bar{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:25px;font-size:10px;color:#1e3852;font-weight:900;letter-spacing:.05em;}
+  .mobile-market-bar>span{display:flex;align-items:center;gap:6px;min-width:0;white-space:nowrap;}
+  .mobile-market-bar .strip-signal{display:inline-block;flex:0 0 6px;width:6px;height:6px;}
+  .mobile-market-bar small{color:#617287;font-weight:500;letter-spacing:normal;font-size:10px;}
+  .mobile-market-bar a{flex:none;color:#b22e45;text-decoration:none;white-space:nowrap;font-size:11px;letter-spacing:normal;}
+  .mobile-market-window{width:100%;max-width:100%;height:82px;box-sizing:border-box;position:relative;overflow-x:auto;overflow-y:hidden;contain:paint;isolation:isolate;border-top:1px solid #e7edf2;-webkit-overflow-scrolling:touch;scrollbar-width:thin;touch-action:pan-x;}
+  .mobile-market-inner{width:1040px!important;min-width:1040px;height:82px!important;position:relative;}
+  .mobile-market-inner .mobile-tv-widget{width:1040px!important;min-width:1040px!important;height:82px!important;}
+  .mobile-market-inner .tradingview-widget-container__widget{width:100%!important;height:82px!important;}
+  .mobile-market-inner iframe{display:block!important;width:1040px!important;min-width:1040px!important;height:82px!important;max-height:82px!important;border:0!important;}
+  .mobile-market-fallback{position:absolute;top:26px;left:10px;font-size:12px;color:#64748b;white-space:nowrap;}
+  .mobile-market-fallback[hidden]{display:none!important;}
+  .mobile-market-noscript{font-size:12px;color:#5b6c80;}
+  .lead-story{height:auto!important;min-height:0!important;}
+  .lead-content{min-height:0!important;}
+  .lead-bottom,.lead-actions{flex-shrink:0;}
+}
+@media(max-width:760px){
+  /* Swiping the clipped quote row stays responsive on iOS; Full markets is the interactive link. */
+  .mobile-market-inner iframe{pointer-events:none;}
+}
