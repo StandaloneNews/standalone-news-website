@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:07:46+00:00",
+  "updated_at": "2026-10-15T07:51:05+00:00",
   "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -21,16 +21,65 @@
     "9c2e70ef035e5c9105ceefde",
     "b6037507a65b5ab6449ecda5",
     "d412f0f92353479b3694c240",
+    "39599a09fa0a8b444382752f",
     "cb2ce8d71e7526504ef48939",
     "797677cbf7fb09ea88763049",
     "6ff722ab4c38b8c961b307c7",
     "e08e0dcc35077df11a6139fa",
     "e5e1f3de31183b549a8d82da",
-    "96faa508b0e30813b50f2c74",
-    "9a621e8e1fb0ab15f151b0a4"
+    "96faa508b0e30813b50f2c74"
   ],
   "image_policy": "Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.",
   "items": [
+    {
+      "id": "ad1d546557b55a12edad59d2",
+      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
+      "summary": "",
+      "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:49:35+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Ввласенко",
+        "license": "CC BY-SA 3.0",
+        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
+        "label": "Illustrative photo",
+        "matched_query": "Ukraine Kyiv"
+      }
+    },
+    {
+      "id": "1f7088d56feb4c6fc259037c",
+      "title": "UK economy sees surprise growth in August ahead of Healey's first Budget",
+      "summary": "The uptick helped the economy grow by 0.7% over the three months to August, official figures show.",
+      "url": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:40:27+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5893aaa1676e0692a92028e7",
+      "title": "Tech stocks plunge as Fed rate hike fears, AI funding worries mount; ASML, SK Hynix slump",
+      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:28:44+00:00",
+      "desk_priority": 71,
+      "selection_type": "automatic"
+    },
     {
       "id": "8a22c30be0dc847e804a1078",
       "title": "UK threatens to ban Eritreans over migrant return policy",
@@ -40,14 +89,138 @@
       "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T07:04:11+00:00",
+      "published_at": "2026-10-15T07:28:32+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8a4e613d9bf3e2140d18af8f",
+      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+      "summary": "TSMC reported its third-quarter earnings on Thursday.",
+      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:27:49+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b8933d64e87a6a1639812750",
+      "title": "Backlash in Kashmir over proposal for uniform Friday sermons across mosques",
+      "summary": "Political and religious critics accuse India's Modi government of curbing Kashmir's freedom of religion and expression.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/backlash-in-kashmir-over-proposal-for-uniform-friday-sermons-across-mosques?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:21:36+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0b7274ba05c98359d99b394f",
+      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
+      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
+      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:20:45+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fragment_of_an_Egyptian_Textile%2C_circa_700-1000_CE%2C_depicting_the_anthropic_figure_of_Anthousa%2C_a_rarely_depicted_divinity%2C_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum%2C_Cambridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Fragment_of_an_Egyptian_Textile,_circa_700-1000_CE,_depicting_the_anthropic_figure_of_Anthousa,_a_rarely_depicted_divinity,_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum,_Cambridge.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "SpeakingArch",
+        "license": "CC BY-SA 4.0",
+        "description": "Fragment of an Egyptian Textile, circa 700-1000 CE, depicting the anthropic figure of Anthousa, a rarely depicted divinity, considered to be the deity of blossoming plants. Fitzwilliam Museum, Cambridge.",
+        "label": "Illustrative photo",
+        "matched_query": "Anthropic"
+      }
+    },
+    {
+      "id": "39599a09fa0a8b444382752f",
+      "title": "India news: Supreme Court hears Rahul Gandhi's Election Commission plea",
+      "summary": "A petition filed by opposition leader Rahul Gandhi and others seeks an independent audit of India's sweeping voter deletions. DW has more.",
+      "url": "https://www.dw.com/en/india-news-supreme-court-hears-rahul-gandhi-s-election-commission-plea/live-79665180?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:20:00+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Building_of_the_United_States_Supreme_Court.jpg/1280px-Building_of_the_United_States_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_United_States_Supreme_Court.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "颐园居",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Supreme Court Building",
+        "label": "Illustrative photo",
+        "matched_query": "Supreme Court of the United States building"
+      }
+    },
+    {
+      "id": "1ce3d2508218d2f24a5dc609",
+      "title": "Clock ticking for leap second: Why timekeeping could change forever",
+      "summary": "Timekeepers add a leap second occasionally to keep our clocks and the Earth's rotation in tune. That could now change.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/clock-ticking-for-leap-second-why-timekeeping-could-change-forever?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:16:50+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a29f715fce1ce49d3c738adb",
+      "title": "UK economy grew 0.1% in August, beating expectations",
+      "summary": "The U.K. is grappling with a cost-of-living crisis sparked by sticky inflation and surging energy costs.",
+      "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:15:28+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f2e980ed86f1e27ffc424b11",
+      "title": "School roof collapse in Pakistan's Peshawar kills at least 17 students",
+      "summary": "Local authorities said at least 17 people were killed in the disaster and 12 injured. Roof collapses have become increasingly common in Pakistan.",
+      "url": "https://www.dw.com/en/school-roof-collapse-in-pakistan-s-peshawar-kills-at-least-17-students/a-79666091?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T07:11:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1523c4f4323ecdff950e235e",
+      "title": "Asian Stocks to Fall as Hot CPI Sparks US Selloff: Markets Wrap - Bloomberg.com",
+      "summary": "Asian Stocks to Fall as Hot CPI Sparks US Selloff: Markets Wrap Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVhucmhFR3lJaktOV202ZDNObUVrTmJpZzcxVi1zYjVFckhBNUtkeHdzb2p5cHZGRi10cDVCYUpJT1l3QmpkTmRGeWlLV3ExSzBnRllBQThjN1cxenVQWVg5MnN1WHdNbHBpZG1rQmg3bjhwUWI4c3lPV21hUzRWZkRWcXR2QnpkTWZKTFZEemFmVTh5?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T07:10:57+00:00",
+      "desk_priority": 65,
       "selection_type": "automatic"
     },
     {
       "id": "48c7fa9f9668b18103cf622e",
       "title": "ADF member ‘person of interest’ after video recorder found in HMAS Leeuwin women’s showers",
-      "summary": "Vice Admiral Buckley calls incident an ‘act of sexual violence’ and a ‘despicable betrayal of trust’ The defence department says a member of the Australian Defence Force is a “person of interest” in investigations after a video recording device was found in a bathroom on HMAS Leeuwin, in what the chief of Navy called a “despicable betrayal of trust”. A day after senator Jacqui Lambie told the Senate that a hidden camera had been found in a female shower facility onboard the naval ship, docked in Cairns, navy chief Matt Buckley confirmed a “video recording device” had been located in one of the ship’s bathrooms. Continue reading...",
+      "summary": "Vice Adm Buckley calls incident an ‘act of sexual violence’ and a ‘despicable betrayal of trust’ Get our breaking news email , free app or daily news podcast The defence department says a member of the Australian Defence Force is a “person of interest” in investigations after a video recording device was found in a bathroom on HMAS Leeuwin, in what the chief of navy called a “despicable betrayal of trust”. A day after senator Jacqui Lambie told the Senate that a hidden camera had been found in a female shower facility onboard the naval ship, docked in Cairns, navy chief Matt Buckley confirmed a “video recording device” had been located in one of the ship’s bathrooms. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/2026/oct/15/adf-person-of-interest-recording-device-hmas-leeuwin-womens-showers-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -82,8 +255,8 @@
     },
     {
       "id": "cfc366382975c0312bbd1d25",
-      "title": "Australian politics live: ADF member ‘person of interest’ after ‘despicable betrayal of trust’ on Navy ship where camera found in women’s shower",
-      "summary": "Follow the day’s news live. Get our breaking news email , free app or daily news podcast Private health insurance changes ‘recalibrating precious taxpayer dollars’, says Wells The health minister, Mark Butler, yesterday promised to reintroduce a bill to reduce private health insurance rebates for over-65s, after it was thrown out of the Senate by the crossbench and Coalition. It’s really important we reintroduce it, because we need to raise the level of support and resourcing for aged care. I was the aged care minister before being the communications minister, we need to work urgently. There’s not enough beds being built for older Australians who need that support. It’s recalibrating precious taxpayer dollars. Continue reading...",
+      "title": "ADF member ‘person of interest’ after ‘despicable betrayal of trust’ on Navy ship where camera found in women’s shower – as it happened",
+      "summary": "This blog is now closed Get our breaking news email , free app or daily news podcast Private health insurance changes ‘recalibrating precious taxpayer dollars’, says Wells The health minister, Mark Butler, yesterday promised to reintroduce a bill to reduce private health insurance rebates for over-65s, after it was thrown out of the Senate by the crossbench and Coalition. It’s really important we reintroduce it, because we need to raise the level of support and resourcing for aged care. I was the aged care minister before being the communications minister, we need to work urgently. There’s not enough beds being built for older Australians who need that support. It’s recalibrating precious taxpayer dollars. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/live/2026/oct/15/anthony-albanese-labor-pauline-hanson-monoculture-victorian-election-coalition-angus-taylor-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -117,6 +290,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "5989ddaf36b7539d1d771659",
+      "title": "Extreme weather - The Guardian",
+      "summary": "Extreme weather The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
+      "source": "The Guardian",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T06:43:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "a17e307568519ca29c17547b",
       "title": "EU summit to focus on China, Ukraine and bloc budget",
       "summary": "EU leaders meeting in Brussels will examine measures to curb the bloc's huge trade deficit with China. But they will also be looking to further agreement on the next EU budget ahead of some major elections next year.",
@@ -130,45 +316,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "5893aaa1676e0692a92028e7",
-      "title": "SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
-      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T06:42:57+00:00",
-      "desk_priority": 71,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1f7088d56feb4c6fc259037c",
-      "title": "Economy grew 0.1% in August ahead of chancellor's first Budget",
-      "summary": "The uptick helped the economy grow by 0.7% over the three months to August, official figures show.",
-      "url": "https://www.bbc.co.uk/news/articles/ck8dz1me439no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T06:42:13+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a29f715fce1ce49d3c738adb",
-      "title": "UK economy grew 0.1% in August, beating expectations",
-      "summary": "The U.K. is grappling with a cost-of-living crisis sparked by sticky inflation and surging energy costs.",
-      "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T06:37:10+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "510cc253211ca0d0282aa80e",
       "title": "Victoria to become first state to make abortions free as Coalition matches Labor election promise",
       "summary": "Exclusive: Out-of-pocket costs for abortion care to be covered regardless of who wins November election as Jess Wilson says Liberals and Nationals ‘will not allow Labor to play politics on this issue’ Follow our Australian politics live blog for latest updates Get our breaking news email , free app or daily news podcast Victoria will become the first state in Australia to make access to abortion care free, no matter who wins the November election, with the Coalition matching Labor’s promise just hours after it was announced as it attempts to neutralise the issue. The opposition leader, Jess Wilson, on Thursday afternoon told Guardian Australia a Liberal National Coalition government would match Labor’s commitment to cover out-of-pocket costs for abortion care up to 16 weeks’ gestation. This would include GP and specialist consultations, s",
@@ -179,6 +326,32 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T06:35:48+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ac14233716f6b159685fe9d7",
+      "title": "In Riyadh… A Global Dialogue on the Future of Connectivity and Space Sustainability - The Des Moines Register",
+      "summary": "In Riyadh… A Global Dialogue on the Future of Connectivity and Space Sustainability The Des Moines Register",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNczVhRXVFNlNFZFhMSzY3dUFvM2VORE5QblFhTkh3NGZ3U2hobjBWOWdhYUdiRXNPT1Y1d2lCVlQ5OXJjUkc4TUV2dm1yWEluXzFJeGE4WldvVzEwQW5kckFYM0trcU4xc2pNd2FzYUZnSVVOYTJlWlBUNDNjcHUtdzVhZTM0RXBFcndidUlBZmlKUnNlajYyQTdfUTIzU01pdGhudnY3NUhBdWZia3pRQktkU3Qwa2FjU3NLd2lyNWJRRHlCMXMwaHpDS1NBV0ZCZGkzbXQtc2xBQThW?oc=5",
+      "source": "The Des Moines Register",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T06:33:23+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c0f2b2da87362863c74f911d",
+      "title": "Teen accused of plotting mass shooting at Chicago-area Hindu temple - AP News",
+      "summary": "Teen accused of plotting mass shooting at Chicago-area Hindu temple AP News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOG5NMkp1aHFwWmtqUXJXUTZIeVZITWFMNkJDenpJeEYtWnRaT0ljOUdQVnVKNEpJUjNzLWJIRHRuYWZKNlB6ZnRNbU1vTjE5UnNHZ1RUZ2prRXg2Zzd6cVptSkd6RnRWRDRYeGxIMXR0S1VkSUp5NDB3aXlhY25GQ3pWdVp5VWEzY2l2cFVxOWUtQlVNRkpKLWV2NkVJWGlJVVVENzNaOA?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T06:24:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -227,6 +400,19 @@
       "category": "Markets",
       "source_type": "Google News",
       "published_at": "2026-10-15T06:16:08+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "bff80b325e612e3e534f64e7",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today? - TradingView",
+      "summary": "Stock Market: Will S&P 500 Open Up or Down Today? TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRENVT08tamxaUmlWR0RfOElQcUZzNndPMXd3WWFBS3kzNDVDRTd4U0t1VE9WNTF0SHRWbGc0WUxKS1NDQXlzZ3NfOFpzYjFPTDRpaVhYYjVXT0Rfd0ZpbmpPUnRvWVB5eFVJcTdneDRnaFBDc2NlVGVna0VtTE56OUkybDF0cVVkX1BXa3I5UDNrSkVGU2Nfa3F0Mm1oWFd5RDlVbU5feHRxUQ?oc=5",
+      "source": "TradingView",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T06:16:00+00:00",
       "desk_priority": 53,
       "selection_type": "automatic"
     },
@@ -280,19 +466,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T06:00:23+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8a4e613d9bf3e2140d18af8f",
-      "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
-      "summary": "TSMC reported its third-quarter earnings on Thursday.",
-      "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T05:59:57+00:00",
-      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -482,6 +655,19 @@
       }
     },
     {
+      "id": "cee782fd30dac6cb2d7ac1b8",
+      "title": "ZAWYA: Business events drive global connections, long-term growth - TradingView",
+      "summary": "ZAWYA: Business events drive global connections, long-term growth TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUFpZnNEXzB1d0dNMVhyNTBURjFlWmFSalMzbWhqVXczZG5PczVmX1FXbUliRFhwVFA0emgyT3JCcjE5VlcxVEE5al9FUHBFSHJvTGFmOUowZ3Nmc2NtLWs4b2ZqcVB1blFMUzdReUtLVXZjd1NDc1VkTjJ5ZUpRby1wckJrMFgzc3V6R0Q3blVhc0U1UWg3YlVoQlhBeG9SOE9oVzNKeUNXRzF3MXQybmZoWVQ3NF9SZTAyYjRBbXBOVFdmZHlOVC12N0dnS0lUWWxJc2tB?oc=5",
+      "source": "TradingView",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:56:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "9e6806e699cfb7bb7e72e290",
       "title": "Israel has detained more than 2,000 Palestinian children since 2023: report",
       "summary": "At least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons.",
@@ -505,19 +691,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T04:43:04+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5989ddaf36b7539d1d771659",
-      "title": "Extreme weather - The Guardian",
-      "summary": "Extreme weather The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfY3BzMWd5VVBRNzg3bXJ3WU82WmpkdzVKd0dCVWNKYWFEdmFhZVFucGgxNnU5Rzk5WDdDQ0pqUkVwdmpwREcyazFFa3B2NTUzRlEzOXRoNnFwcHEwZGc?oc=5",
-      "source": "The Guardian",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T04:40:34+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -583,6 +756,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "33dfee8842ddc6476efc2afe",
+      "title": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says - Bloomberg.com",
+      "summary": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFyUkJxSGRvTnBWUmp0bElJNEZNczRJcjhNY3lPUE9RNldkQnk0NDR4RU16Q2NzOVVqbUJtNUpjUXVlZkgzaVFzMU1TSlN5cDc4UWVFMXlRR3RnT25Kd3kxaDRLbnc5RVVKQkVhR1Y5RV96WFEtM3lJbG9mTXNoc2p3ZjFBUE9rQUkzWEVCTUJDX3Q4SGFEWm8yU1lnMFVkbGJYNl9KdTBsODBIa3doQVFB?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T04:26:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "fe3272f1aa49bf0965890a1e",
       "title": "Indonesia fights fire with dry ice as toxic haze spreads across region",
       "summary": "Having tried cloud seeding and water bombing, one pilot project will see dry ice dispersed by plane across the province of South Sumatra As fires ravage Indonesia, emitting a toxic smoke that has drawn the ire of regional neighbours, the government is testing an unusual new approach to tackle the haze: dry ice. Having tried cloud seeding, water bombing and sending in army personnel to fight the fires, Indonesia’s coordinating security minister said dry ice would be dropped on the province of South Sumatra on Thursday. Continue reading...",
@@ -620,29 +806,6 @@
       "published_at": "2026-10-15T04:23:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
-    },
-    {
-      "id": "0b7274ba05c98359d99b394f",
-      "title": "Anthropic flags revenue surge to investors ahead of stock market debut",
-      "summary": "It comes as some investors have become concerned about the amount of money being spent on AI infrastructure.",
-      "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T04:19:17+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Fragment_of_an_Egyptian_Textile%2C_circa_700-1000_CE%2C_depicting_the_anthropic_figure_of_Anthousa%2C_a_rarely_depicted_divinity%2C_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum%2C_Cambridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Fragment_of_an_Egyptian_Textile,_circa_700-1000_CE,_depicting_the_anthropic_figure_of_Anthousa,_a_rarely_depicted_divinity,_considered_to_be_the_deity_of_blossoming_plants._Fitzwilliam_Museum,_Cambridge.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "SpeakingArch",
-        "license": "CC BY-SA 4.0",
-        "description": "Fragment of an Egyptian Textile, circa 700-1000 CE, depicting the anthropic figure of Anthousa, a rarely depicted divinity, considered to be the deity of blossoming plants. Fitzwilliam Museum, Cambridge.",
-        "label": "Illustrative photo",
-        "matched_query": "Anthropic"
-      }
     },
     {
       "id": "4a8dce09874955fffb2f85b5",
@@ -705,29 +868,6 @@
       "published_at": "2026-10-15T04:15:55+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
-    },
-    {
-      "id": "ad1d546557b55a12edad59d2",
-      "title": "Elon Musk says Trump is 'ultimately' responsible for any curbs on Ukraine's Starshield systems",
-      "summary": "\"Any limits on speed or usage are decided by the US military and ultimately POTUS,\" Musk wrote.",
-      "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T04:11:52+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Ввласенко",
-        "license": "CC BY-SA 3.0",
-        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
-        "label": "Illustrative photo",
-        "matched_query": "Ukraine Kyiv"
-      }
     },
     {
       "id": "b93810a51212f183c21215d5",
@@ -1417,19 +1557,6 @@
       }
     },
     {
-      "id": "4b22ffd17b7b9ac625f3b1cb",
-      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
-      "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T02:26:07+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "dff7690c6eaeed516308f0cc",
       "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream - BBC",
       "summary": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream BBC",
@@ -1451,6 +1578,55 @@
         "label": "Illustrative photo",
         "matched_query": "Retired US"
       }
+    },
+    {
+      "id": "4b22ffd17b7b9ac625f3b1cb",
+      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
+      "summary": "Livestreaming the execution of Nidal Hasan \"will taint the honor of the military that employs it, and a nation that allows it,\" 72 former officers said in a letter.",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3gnngv3e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T02:26:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "59a71f51ed8a91025356f6b3",
+      "title": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Dives As Inflation Data Triggers A Sell-Off In The Tech Sector - FXEmpire",
+      "summary": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Dives As Inflation Data Triggers A Sell-Off In The Tech Sector FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR1RmTVR0eVVsLXdOak1qRTNWc2RQeEZUcnA5dEpTYUpsR2EtR0hJaTAxZVRIRTJISXBMOUN1dDM3VURNQmRlZUFPd0pNRHZLeHZ1Vk1xTzhtaWtoNmswUVpuTnFFTU95OG1MSzJBQzFoOUtSYm50cDhqcFpkSkpldTRZaURuLWFTVVlObVVyX3VzWXFLWWpLYUdBcmdCZDRXRU44SWJ5VnVhQVFqckk4UUt5SjJ6ZnE2djBENndnb3B6QXg0cDludUtUZDZ4VGRoQzBuOFNSYk4yWmU0WWpDTXdjMzdsR21DR3BIRVhaOVE?oc=5",
+      "source": "FXEmpire",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:26:00+00:00",
+      "desk_priority": 81,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "vofuth",
+        "license": "CC BY 2.0",
+        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
+        "label": "Illustrative photo",
+        "matched_query": "grocery shopping prices United States"
+      }
+    },
+    {
+      "id": "c7e85c65b312d6aca4660d85",
+      "title": "Gold Holds Loss as Hot Inflation Lifts October Rate-Hike Bets - Bloomberg.com",
+      "summary": "Gold Holds Loss as Hot Inflation Lifts October Rate-Hike Bets Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVE9HVWplZThoSGpmUFVlZi1vRkU4THhjYS1LRGF0SkhlVWhtNGJ6VkxCMlV0VWgwMVNyRHVSa29zWENNM0dYMFl0RFdNemszNUd6b3o2elpKbl9YcVJneW1UWm9kSWFPSG02RmRiaERpTXNpLTIxTEE5NjBPU2Z2UkdlWlBoRnpuX25xZUl2UjdTTnRhTldkV2Y3LXc5ejU4blhJWG9GM0Ribmo5dE9ZTDRB?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:24:00+00:00",
+      "desk_priority": 65,
+      "selection_type": "automatic"
     },
     {
       "id": "714be84248e23469738ac0d4",
@@ -1497,6 +1673,19 @@
         "label": "Illustrative photo",
         "matched_query": "Moscow Russia"
       }
+    },
+    {
+      "id": "a5e4f67d61024947791bfa42",
+      "title": "IMF warns of slowing Asian growth, spillover from rising yields - Reuters",
+      "summary": "IMF warns of slowing Asian growth, spillover from rising yields Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVzQtNy1yR0xkemd2ellCSWZBS1ZmVjBuZHAxTXZwZXFIb1preWk1d0hLNVN6V3REbUh1TkpNbFJqRzZvTXh5eGo4TkNsQzFkNzZDNzJsNWYtZ0pIZHR6NWFfX0hzY2ZkdldJTUFRLVRTcVAwV0hjVklONGVfOVMwZ2dQM1pFUURuSlhwV0JSYzVESVpEYkpIZmJ0VE9sNUhJdE9tUQ?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T02:04:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
     },
     {
       "id": "05a82477161cf91b61996ed6",
@@ -1732,29 +1921,6 @@
       }
     },
     {
-      "id": "59a71f51ed8a91025356f6b3",
-      "title": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Dives As Inflation Data Triggers A Sell-Off In The Tech Sector - FXEmpire",
-      "summary": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Dives As Inflation Data Triggers A Sell-Off In The Tech Sector FXEmpire",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR1RmTVR0eVVsLXdOak1qRTNWc2RQeEZUcnA5dEpTYUpsR2EtR0hJaTAxZVRIRTJISXBMOUN1dDM3VURNQmRlZUFPd0pNRHZLeHZ1Vk1xTzhtaWtoNmswUVpuTnFFTU95OG1MSzJBQzFoOUtSYm50cDhqcFpkSkpldTRZaURuLWFTVVlObVVyX3VzWXFLWWpLYUdBcmdCZDRXRU44SWJ5VnVhQVFqckk4UUt5SjJ6ZnE2djBENndnb3B6QXg0cDludUtUZDZ4VGRoQzBuOFNSYk4yWmU0WWpDTXdjMzdsR21DR3BIRVhaOVE?oc=5",
-      "source": "FXEmpire",
-      "feed_id": "markets",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T01:31:04+00:00",
-      "desk_priority": 81,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
-    },
-    {
       "id": "b27204b70a43b9ca3e9bd8fe",
       "title": "Istanbul in chaos, shut down by heaviest rainfall since 1985",
       "summary": "Torrential rain has triggered flash floods across Istanbul.",
@@ -1765,19 +1931,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T01:29:43+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c0f2b2da87362863c74f911d",
-      "title": "Teen accused of plotting mass shooting at Chicago-area Hindu temple - AP News",
-      "summary": "Teen accused of plotting mass shooting at Chicago-area Hindu temple AP News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOG5NMkp1aHFwWmtqUXJXUTZIeVZITWFMNkJDenpJeEYtWnRaT0ljOUdQVnVKNEpJUjNzLWJIRHRuYWZKNlB6ZnRNbU1vTjE5UnNHZ1RUZ2prRXg2Zzd6cVptSkd6RnRWRDRYeGxIMXR0S1VkSUp5NDB3aXlhY25GQ3pWdVp5VWEzY2l2cFVxOWUtQlVNRkpKLWV2NkVJWGlJVVVENzNaOA?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T01:29:00+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1856,19 +2009,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "33dfee8842ddc6476efc2afe",
-      "title": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says - Bloomberg.com",
-      "summary": "ECB May Not Have to Do as Much If Markets Tighten, Dolenc Says Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFyUkJxSGRvTnBWUmp0bElJNEZNczRJcjhNY3lPUE9RNldkQnk0NDR4RU16Q2NzOVVqbUJtNUpjUXVlZkgzaVFzMU1TSlN5cDc4UWVFMXlRR3RnT25Kd3kxaDRLbnc5RVVKQkVhR1Y5RV96WFEtM3lJbG9mTXNoc2p3ZjFBUE9rQUkzWEVCTUJDX3Q4SGFEWm8yU1lnMFVkbGJYNl9KdTBsODBIa3doQVFB?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T01:00:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "b7b98eba38c57e2a29660424",
       "title": "Watchdog group challenges legality of Kushner’s role in Trump administration - The Hill",
       "summary": "Watchdog group challenges legality of Kushner’s role in Trump administration The Hill",
@@ -1909,15 +2049,15 @@
     },
     {
       "id": "238f5cf7d450448d5b9545c6",
-      "title": "Asian stocks sell off as AI trades crumble after hot US inflation data - Reuters",
-      "summary": "Asian stocks sell off as AI trades crumble after hot US inflation data Reuters",
+      "title": "Tech stocks tumble as data centre debt worries hit AI trades - Reuters",
+      "summary": "Tech stocks tumble as data centre debt worries hit AI trades Reuters",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
       "source": "Reuters",
       "feed_id": "reuters",
       "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-15T00:51:00+00:00",
-      "desk_priority": 57,
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -2273,6 +2413,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "232dd88965d840bf9e316df1",
+      "title": "Lawyers for Federal Reserve’s Lisa Cook say White House hearing set up by Trump is ‘biased’ - The Standard-Speaker",
+      "summary": "Lawyers for Federal Reserve’s Lisa Cook say White House hearing set up by Trump is ‘biased’ The Standard-Speaker",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdXR1dE9Lb3BrY3RubTk3ZmtLTjdLOHZrVWJWczB3NEpoM2pVVy1oeHpnUnhlYU5wSGg4V1gtRy1UX0dfZmpwclcxMjBMcmtTZDVyalhPNXpyUVlVM3hnemNvUk1Md0dJdG5OYjR4NDY5THBvMnNKd3Y5TlM4aFhFWnVTOUtXQ1I0bm0yWEJrSQ?oc=5",
+      "source": "The Standard-Speaker",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:48:45+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "637e36cdc72e6d2267de7542",
       "title": "US stocks fall after hot inflation report as leading AI shares tumble - AFP.com",
       "summary": "US stocks fall after hot inflation report as leading AI shares tumble AFP.com",
@@ -2294,19 +2447,6 @@
         "label": "Illustrative photo",
         "matched_query": "grocery shopping prices United States"
       }
-    },
-    {
-      "id": "232dd88965d840bf9e316df1",
-      "title": "Lawyers for Federal Reserve’s Lisa Cook say White House hearing set up by Trump is ‘biased’ - The Standard-Speaker",
-      "summary": "Lawyers for Federal Reserve’s Lisa Cook say White House hearing set up by Trump is ‘biased’ The Standard-Speaker",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdXR1dE9Lb3BrY3RubTk3ZmtLTjdLOHZrVWJWczB3NEpoM2pVVy1oeHpnUnhlYU5wSGg4V1gtRy1UX0dfZmpwclcxMjBMcmtTZDVyalhPNXpyUVlVM3hnemNvUk1Md0dJdG5OYjR4NDY5THBvMnNKd3Y5TlM4aFhFWnVTOUtXQ1I0bm0yWEJrSQ?oc=5",
-      "source": "The Standard-Speaker",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T23:48:45+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
     },
     {
       "id": "dcb67c514dae39ff49d45404",
@@ -2488,6 +2628,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "00cf6b96095217ecd73adc67",
+      "title": "Student protests in Albania turn violent as demonstrators clash with police",
+      "summary": "Dozens of people detained after government building and two banks set on fire as tens of thousands march over education costs and corruption Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting alight a government building and two banks and hurling stones at police during a protest over rising education costs and ⁠corruption. Police responded with water ⁠cannon and teargas to disperse protesters who started a fire at the ministry of education building, overturned bins and smashed the fronts of local businesses. A branch of Raiffeisen Bank near the education ministry also caught fire. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-14T23:19:43+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "7e6a5c054eddba423e8ebdb6",
       "title": "WATCH LIVE: Rep. Begich faces challenger Hill in a debate for Alaska's at-large House seat",
       "summary": "Republican Rep. Nick Begich will face off in a debate Wednesday against independent challenger Bill Hill.",
@@ -2527,19 +2680,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "69549d9e6cb6fb377c7be58f",
-      "title": "How data centres became the sleeper issue that could decide the US midterms - BBC",
-      "summary": "How data centres became the sleeper issue that could decide the US midterms BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KS2xPd290U090TnJiOVNJSnYzU1ljTkpXakVGRExNczlwMHlYYThpcUstLVdhWDFHV0ctVjRHSzQ2U05jblowV1JnUnhpem1DWkFFMGtIVGNidw?oc=5",
-      "source": "BBC",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T23:02:57+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "0dea10406e1d83cc6768ba21",
       "title": "How backlash against data centres could shape the US midterm elections",
       "summary": "Democrats and Republicans alike are coming out against data centre development, amid growing backlash across the US.",
@@ -2550,6 +2690,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T23:02:57+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "69549d9e6cb6fb377c7be58f",
+      "title": "How data centres became the sleeper issue that could decide the US midterms - BBC",
+      "summary": "How data centres became the sleeper issue that could decide the US midterms BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KS2xPd290U090TnJiOVNJSnYzU1ljTkpXakVGRExNczlwMHlYYThpcUstLVdhWDFHV0ctVjRHSzQ2U05jblowV1JnUnhpem1DWkFFMGtIVGNidw?oc=5",
+      "source": "BBC",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:02:57+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2576,6 +2729,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-14T23:01:11+00:00",
       "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "714aa00268c3ab0879d339d4",
+      "title": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer - AP News",
+      "summary": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlYyZHRRLXFYSlVLeXpTajNWNXRGSmRHWERoV0Q1VUNLLXFBcjFVVFNtZEh1Wjh3RnlYUXpYQkdjSFJUWGw3eDlNRzk1RUdVaVVUTndiV3hkTTI0Y2w3ajVYaHNPS3lBV2dYcFRxc3hBMHc0eUVOUXNUdUVLcVRLbHh2Q0hLMnlhRDZoelA3LUdDbjNPYkNhSDYtTktHaVhLenA2amRCMzVDcjQ?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T23:01:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2973,6 +3139,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "9862a12b2dc178aba4fb36f9",
+      "title": "Mamdani gains key ally in push to raise taxes for universal child care - Politico",
+      "summary": "Mamdani gains key ally in push to raise taxes for universal child care Politico",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcEVJcE1IWHp5bFRsajRYMkYwdktsWTNKb3BKR1JwNi1nZHhLSmNUblJJOFcxdThFNlpiVGtodjREZXhxQ2VlMUtHcVJoYTV4WDZfQVU2SFNaUi0zcmRzNk04b1V2amxsQlpQNXJNa3dSTTN0S2RINzdFa3FHMGNCYnF1S1VQMGVYOTJobw?oc=5",
+      "source": "Politico",
+      "feed_id": "politico",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T22:11:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "42cb918f45b19f4b93091e05",
       "title": "Student journalist responds after congressman threatens to have her prosecuted - CNN",
       "summary": "Student journalist responds after congressman threatens to have her prosecuted CNN",
@@ -2999,16 +3178,16 @@
       "selection_type": "automatic"
     },
     {
-      "id": "1523c4f4323ecdff950e235e",
-      "title": "Asian Stocks to Fall as Hot CPI Sparks US Selloff: Markets Wrap - Bloomberg.com",
-      "summary": "Asian Stocks to Fall as Hot CPI Sparks US Selloff: Markets Wrap Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVhucmhFR3lJaktOV202ZDNObUVrTmJpZzcxVi1zYjVFckhBNUtkeHdzb2p5cHZGRi10cDVCYUpJT1l3QmpkTmRGeWlLV3ExSzBnRllBQThjN1cxenVQWVg5MnN1WHdNbHBpZG1rQmg3bjhwUWI4c3lPV21hUzRWZkRWcXR2QnpkTWZKTFZEemFmVTh5?oc=5",
+      "id": "f021f07aa530546523c4379f",
+      "title": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks - Bloomberg.com",
+      "summary": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb0NPWUlGNHA5MHJPQzczSEFzenVjOFVjX0NCUW5zNnhxNmRsSFVwdGZyaFdyZHhvWFU1NDVZY041TllRSjkxazNibUVVc0FTSEN2YmQtQVpzcnB3SE9HYWZTSDQzLWoyY3ZGQUZ5ejZxVEhGWE1ONkp4N0k0eXZsc2pCYTBoeEZjdFo3ZlJSOThNeUlYM1pqd1BISnUwWG9Cd2UzMmVtMGxmeDhDSE9xSVNWcHk4Zw?oc=5",
       "source": "Bloomberg.com",
       "feed_id": "bloomberg",
       "category": "Markets",
       "source_type": "Google News",
-      "published_at": "2026-10-14T22:04:59+00:00",
-      "desk_priority": 65,
+      "published_at": "2026-10-14T22:03:35+00:00",
+      "desk_priority": 53,
       "selection_type": "automatic"
     },
     {
@@ -3715,6 +3894,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "aa058b03541ef01c1bf293ea",
+      "title": "US stocks drop to their worst day since July as inflation worsens - Yahoo! Finance Canada",
+      "summary": "US stocks drop to their worst day since July as inflation worsens Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTmhBa0oxS0M0dk1SUEREUzNsTGdnVUp5WFF4MXk3ekhVTzlJdXR3elNBNGloUVJlS25RQXc4ZG5MdVhqM2F1YUFoWGlvMW8wTG1xZTRadjAxRTZtVGdqdjh5OWZZMzBEMkc2bGxLSi1NZlhJRUotMmpBTHNnSGVzam1R?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed_id": "yahoo_finance",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-14T20:46:59+00:00",
+      "desk_priority": 65,
+      "selection_type": "automatic"
+    },
+    {
       "id": "2d1bcdff5647aba0b9e85ecf",
       "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
       "summary": "Shares of CoreWeave sank 15%, while yields in its bonds blew out further.",
@@ -3769,7 +3961,7 @@
       "summary": "Top U.S. banks dropped customers over political and religious views, regulator says CBS News",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93NVdhQTV1bzhIXzFMNzlseGJsMG5qbF95RXVkZUVvdERfNkNpTElsanFZOWV0OHNJdTBkQ2VqTFBPaDREblNEVDhnN1Z4dFN1d1oybEU3aFd0N21xd1EyZXNEOVhwRjdCemRzR0pRVks?oc=5",
       "source": "CBS News",
-      "feed_id": "cbs",
+      "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-14T20:42:04+00:00",
@@ -3823,19 +4015,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-14T20:40:52+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f021f07aa530546523c4379f",
-      "title": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks - Bloomberg.com",
-      "summary": "S&P 500 Ends Longest Streak of Calm Since 2020 as AI Trade Sinks Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb0NPWUlGNHA5MHJPQzczSEFzenVjOFVjX0NCUW5zNnhxNmRsSFVwdGZyaFdyZHhvWFU1NDVZY041TllRSjkxazNibUVVc0FTSEN2YmQtQVpzcnB3SE9HYWZTSDQzLWoyY3ZGQUZ5ejZxVEhGWE1ONkp4N0k0eXZsc2pCYTBoeEZjdFo3ZlJSOThNeUlYM1pqd1BISnUwWG9Cd2UzMmVtMGxmeDhDSE9xSVNWcHk4Zw?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T20:36:21+00:00",
-      "desk_priority": 53,
       "selection_type": "automatic"
     },
     {
@@ -4339,185 +4518,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-14T19:51:45+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3bc6f63b3e89cdd5ffb749fc",
-      "title": "Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers",
-      "summary": "Startup Ambrosia Energy will build a massive factory to crank out batteries to augment solar panels, creating a round-the-clock clean power plant.",
-      "url": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T19:51:34+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3033c5157a720fca249515ae",
-      "title": "Fed Interest Rate Hike Seems More Likely This Month After Alarming Inflation Data - Realtor.com",
-      "summary": "Fed Interest Rate Hike Seems More Likely This Month After Alarming Inflation Data Realtor.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSnY1NnBJdWRVRXNEZHo3Nnc2NmpzN180UmhKcW9HeF9ocjBCNnN2bzlQOU1PWEU2RDBwLU5EMG9NdkFaQ1pnZXRQUlFEZ2JYcUMwOWtVeEsyLUk4dUgxa05OYVlqUm41SWNCU3EzT0RzRmY4eFVRZnJnM2FVTFozeEE5NFJUdkxlVUx2TS02WWJvU3dRWV9JeXloM0Y4YzZzWWF4Q0lB?oc=5",
-      "source": "Realtor.com",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:50:52+00:00",
-      "desk_priority": 100,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
-        "label": "Illustrative photo",
-        "matched_query": "Federal Reserve building Washington DC"
-      }
-    },
-    {
-      "id": "9d44d70993c5d210fec3d898",
-      "title": "Aboard an icebreaker, a writer got a closer look at the Arctic's 'Sea Change'",
-      "summary": "As polar ice melts in the Arctic, shipping lanes are opening up, making the region a new zone of superpower competition. Writer Rana Foroohar explains the stakes in Sea Change.",
-      "url": "https://www.npr.org/2026/10/14/nx-s1-6001592/arctic-sea-change-rana-foroohar",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T19:42:03+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a10a62a6914907ef62dab698",
-      "title": "ICE HSI Arrests Cuban Alien for Illegally Voting in Past Elections in Missouri - Homeland Security (.gov)",
-      "summary": "ICE HSI Arrests Cuban Alien for Illegally Voting in Past Elections in Missouri Homeland Security (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQnhrX2dPSWV1NE12c3EyX2ZPblNPc3VBU3lzT2xFLWpFUWtJRkplbGFLLUxGa1g4S1EzYjE0UXptVzhYaGtzSFhnMWZvSDVCc1dXUF8xb3dLQVJWRWhsT2lCX2MtS18yM1E1dnRmSV9hb0VvdHVXMFpTbGlRSU9VWWtXU19hY1JLLXRGdnV3Snd0bU9xemdwWFBPMExYYWZHb0RwcUxacw?oc=5",
-      "source": "Homeland Security (.gov)",
-      "feed_id": "dhs",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:39:48+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ef606812e7eec986639f06cc",
-      "title": "Exclusive: Judge limited Justice Department access to Rep. Ilhan Omar’s records in sprawling immigration fraud probe - CNN",
-      "summary": "Exclusive: Judge limited Justice Department access to Rep. Ilhan Omar’s records in sprawling immigration fraud probe CNN",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcjRfTGIxSkNQNTVSdU00U0k3MkxJUnBSVVlsM3pheTFXNlJSdzNiekR1MFJJM0dTRHBJN2VWSjJiTHAxLXRrWWdCUG9xUXdTbmxDV2o0LTJieVpXa0FKa2N0bUdocTZaVzhQWVRXMUVUQVFVSmdLcnhpSFlOX01rb0dVNTJESnZ3eDN5VWt5emJXNWlacVhzYy1hWThTN3NZcEkySEVLQ0YxNE5faEtEMkNUQW1oRkR2aU1Eeg?oc=5",
-      "source": "CNN",
-      "feed_id": "cnn",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:39:16+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "714aa00268c3ab0879d339d4",
-      "title": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer - AP News",
-      "summary": "Trump press secretary Katie Zacharia faces scrutiny over claims she’s a lawyer AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMlYyZHRRLXFYSlVLeXpTajNWNXRGSmRHWERoV0Q1VUNLLXFBcjFVVFNtZEh1Wjh3RnlYUXpYQkdjSFJUWGw3eDlNRzk1RUdVaVVUTndiV3hkTTI0Y2w3ajVYaHNPS3lBV2dYcFRxc3hBMHc0eUVOUXNUdUVLcVRLbHh2Q0hLMnlhRDZoelA3LUdDbjNPYkNhSDYtTktHaVhLenA2amRCMzVDcjQ?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:39:13+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "649f747afd067dedbc98b0df",
-      "title": "Federal judge indefinitely reverses White House ban on national news organizations in victory for press - MS NOW",
-      "summary": "Federal judge indefinitely reverses White House ban on national news organizations in victory for press MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTGlsVUZEWTlfMFJRUEh3X3V6bmdhYzUxcmFzdHBVejd0T3FmdTNVb0ZodWx1aHkydS1xemRpMFZYM2ZGWXlFTk55TG91SWRfMEcway00bkE1NHNJVWk3UTVna3ZTbkxMRUR5V2xPYWpTd3lZakRkbXpxTUJsbW9RWW8xdmZidG5wZmdmNA?oc=5",
-      "source": "MS NOW",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:28:36+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f10a3dc0d89700707ebf8329",
-      "title": "GOP Sen. Tillis asks Musk to explain Ukraine losing access to Starlink - The Hill",
-      "summary": "GOP Sen. Tillis asks Musk to explain Ukraine losing access to Starlink The Hill",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YMDAzRloybnp3V1Z0d2V5MmhvSkU2aTZhSm9IZ0ZySUVNVDQ0STBDbmNwR1ctdW42Uk1JMTJGd2ZBWjN0bkVnODJFUlRjZE44endJN0liTE5wR3ZxR3JxbmJMZ09NN3FtNVFqVVdUQ2t5dHhrbmwyZHZoZHEyZ9IBgwFBVV95cUxNZFdCY2tuSHlUUW9IcnVUWFRicmF4blVSOHd4REE0dWtjZjk1VGRGVVdtcUF4R3I5aUNWbUY2dTN3N1I0T1NBZ19teUJMdWVBUV9xU0M4Y3Z0Mm1ROTlPV2I5bjVGRDc1eUprTnVTRjQ0UXF6dkpBck91QWc2QnJFcV8zWQ?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:22:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3c3e92cd6139b74c4dd8c673",
-      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
-      "summary": "Iran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports.",
-      "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T19:22:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7658c47524cf179409fa740f",
-      "title": "Sleeper GOP candidate puts blue-leaning state in play as fraud scandal shadows Dems - Fox News",
-      "summary": "Sleeper GOP candidate puts blue-leaning state in play as fraud scandal shadows Dems Fox News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdWY5c3R3Snpmc3lUM09yMUtEeDYyenc3alh6QllKb09TY1FuNWxwMFRFX1Rabld1R2xRdTFwVDNuWkFZSnY2SExfRUtzQ3VSSEdQVXJERHpkekRwM0VZTE5hVGVpcW95R3VvZzd4LVh0QlJNMm0wWmRVaEgwNno4bUdCM3h0R1JHUGJOTVhXaHVaMzlfTThYWF81b2FWb0JJRlR5ZW9kaEpyOWNjQ0hR0gG0AUFVX3lxTE0xZjlmMDl5cUtWRk9TWENKSlJJb2NnUHpudXZWQ1BxeXZlZHdscVcyYVhsQzIwNlNMVzhhTVJKaVFqZ2FMVFk2Q3RpQ1VRRjI5OEZMT1RXREw0UjVpTDlYV2hZM0tuNGMzd3ZIaHdndUtBLWFaenFLSV9BaE9nTHE5WWpKdERlWWNaMWVIdno2ZXduSTZkS3Y4czM5NF9XMTR2MVBTYTR0a3lFOWcxbU9VY1BYYQ?oc=5",
-      "source": "Fox News",
-      "feed_id": "fox",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:20:05+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d54c4ec9e41cba95c0549002",
-      "title": "US halts prosecution of former CIA analyst accused of aiding South Korean intelligence - AP News",
-      "summary": "US halts prosecution of former CIA analyst accused of aiding South Korean intelligence AP News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ1lzVXVCc2lOVk1tNXItUGVmWWpsX1UtWTUydjJwYUlselU4YVlLeHRZVzBLbUlTZjAzZVNvM3dpVkJ0c2FJUGVvRmkyY3RacmJFbkFhYzNxX3hDUkRlR3FjNEhmZWpVNExVYnVtRU12WW15U0RzUWxvS05ZSVFkeGhKYXpNMmx4OFlpLWpMTVlxVFViSmtRSG9UNzFudVZCaXc?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-14T19:20:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "60254affa0783c7b28d84c1e",
-      "title": "Israel blocks construction of key Gaza base created by Trump peace board",
-      "summary": "Exclusive: Israel has not permitted US-led project to house 150 international troops to move forward Israel is refusing to allow a key military outpost project for Donald Trump’s Board of Peace to proceed in Gaza, the Guardian has learned. In early August, the Board of Peace, the international organization authorized in 2025 by the UN and chaired by the US president, issued its first construction contract for Gaza : Louisiana-based Arkel International would construct a military outpost for 150 international troops that would be the vanguard of an international stabilization force. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T19:19:52+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f1b5f328931e74ad8584e512",
-      "title": "Justice Department threatens California with legal action over claim of noncitizens on voter rolls",
-      "summary": "The U.S. Department of Justice has threatened California with possible legal action over what it says are noncitizens believed to have received mail ballots for next month's midterm elections.",
-      "url": "https://www.pbs.org/newshour/politics/justice-department-threatens-california-with-legal-action-over-claim-of-noncitizens-on-voter-rolls",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-14T19:19:33+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     }
