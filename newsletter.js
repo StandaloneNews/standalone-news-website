@@ -1,4 +1,4 @@
-/* Newsletter only activates when the Cloudflare Pages Functions and mail provider are configured. */
+/* Newsletter only activates when the separate api.standalonenews.com Worker is configured. */
 (()=>{'use strict';
 async function init(){const form=document.getElementById('newsletter-form'),wait=document.getElementById('newsletter-wait'),note=document.getElementById('newsletter-message');if(!form)return;
  try{const r=await fetch('https://api.standalonenews.com/api/newsletter/status',{cache:'no-store'});if(!r.ok)return;const data=await r.json();if(!data.enabled)return;form.hidden=false;wait.hidden=true;}catch{return;}
