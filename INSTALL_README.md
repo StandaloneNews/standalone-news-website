@@ -1,40 +1,34 @@
-# Standalone News — Reader-first homepage redesign
+# Standalone News — Mobile improvements + optional reader accounts
 
-## What it changes
+## Part A. Mobile improvements (can deploy right away)
 
-This is a **frontend-only homepage redesign** based on the current editorial News Desk version.
-
-It updates desktop and mobile layout, cuts the lead story to a readable height, organizes homepage headlines by priority and outlet variety, adds an offline-friendly market-ticker fallback (symbol labels, **not prices**), and keeps the 5-Story Brief, saved stories, AI explainers, and market panels.
-
-## Installation
-
-1. Back up the current GitHub repository main-branch versions of `index.html`, `newsroom.css`, `newsroom.js`, and `markets-fix.js` (or note a commit hash to revert).
-2. In the repository https://github.com/StandaloneNews/standalone-news-website, place the four files from this package in the repository **root directory**, replacing files of the same names.
-3. Commit to `main` and wait for Cloudflare to redeploy if the GitHub integration is connected.
-4. Hard-refresh https://standalonenews.com/ and inspect the mobile layout, source links, and TradingView quote embeds.
-5. To revert the design, restore the four files from the prior GitHub commit.
-
-## Do not replace
-
-Keep your existing `data/news.json`, `data/articles.json`, `articles/` pages, `scripts/update_news.py`, `scripts/auto_publish.py`, `.github/workflows/`, and `assets/` files unchanged.
-
-## Source and claims policy
-
-- The homepage uses the **existing** live JSON feeds. It does not generate new news claims.
-- All outside stories link to the originating publisher; any excerpts must come from that feed.
-- The feed's automatic scoring is a heuristic, not a human editorial judgment or verification.
-- AI-written explainers are separately labeled and not human-reviewed.
-- Market quotes are TradingView embeds; actual prices may be delayed or blocked. The fallback strip shows ticker names only, with **no fabricated prices**.
-- Official quotes/yields and futures contracts are not represented by ETF proxy prices; market panel disclosures remain intact.
-- All displayed times use 24-hour UTC.
-
-## Testing
-
-I ran isolated Chromium tests against demonstration data at 390px, 768px and 1440px widths, including source-feed rendering, navigation, save/read-list controls, briefing topic preferences, filtering/search, and market-panel tabs. No JavaScript page errors or page-level horizontal overflow were detected. TradingView live quotes were intentionally not loaded in these browser tests, and live GitHub/Cloudflare deployment remains unverified.
-
-## Files
+Upload these files at the GitHub repository ROOT, replacing the current versions:
 
 - `index.html`
 - `newsroom.css`
 - `newsroom.js`
-- `markets-fix.js`
+- `markets-fix.js` (included unchanged for matching compatibility)
+- `accounts.js` (new)
+- `account-config.js` (new, **intentionally blank**)
+
+They retain existing `data/news.json`, `data/articles.json`, article URLs, TradingView and automated publishing scripts. Only `index.html` and CSS/JS change. Account controls stay hidden until configured. Guest users can still save to their browser.
+
+## Part B. Activate *real* reader accounts and cross-device saving
+
+1. Create a project in https://supabase.com. Keep your dashboard login secure and turn on MFA for project administration.
+2. In **SQL Editor**, run `saved_articles.sql` (the complete SQL file). It enables Row Level Security and limits each reader to their own bookmarks.
+3. Under **Authentication → Providers → Email**, enable email authentication/magic links (passwordless email).
+4. Under **Authentication → URL Configuration**, set **Site URL** to `https://standalonenews.com/` and add `https://standalonenews.com/` as an allowed Redirect URL. If you use `www`, add that exact URL too. Use a proper branded SMTP/email provider for reliable production delivery; default email sending can have limits.
+5. Under **Project settings / API Keys**, copy **Project URL** and **Publishable / anon key**. Edit `account-config.js` and paste these two values only. **NEVER** put the service role, secret API key, database password, or SMTP credentials in a public GitHub file.
+6. Commit updated `account-config.js` to your GitHub repo and wait for Cloudflare to deploy. The **Sign in** button will now appear. Sign in by email and verify your bookmarks sync across devices.
+7. Before public launch of accounts, post an accurate privacy policy describing that reader emails and saved-story URLs are processed by Supabase, arrange a user data export/deletion procedure, and consider abuse protection, email sending limits, and accessibility testing.
+
+### What users can do
+
+- Guest mode: save links on this browser without registering.
+- Sign up / sign in: email magic link, no password.
+- Signed in: saved article links are private to their account and sync across phone/computer.
+- Import: option to import bookmarks saved in the current browser after signing in.
+- Sign out: cloud list is hidden and guest bookmarks return.
+
+**Limitations:** No offline full-article downloads, no copied publisher paywalled content, no full newspapers. Account deletion isn't automated in this starter package; it needs a secure admin workflow. The accounts backend won't activate until you create and connect your Supabase project. The client script depends on a CDN being reachable.

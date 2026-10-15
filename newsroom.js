@@ -18,7 +18,7 @@
  const normArticle=s=>{if(!s)return null;const url=articlePath(s.path),title=text(s.headline).trim();if(!url||!title)return null;return{type:'article',key:url,url,title,source:text(s.source||'Official agency'),category:cat(s.category),summary:text(s.summary),published_at:text(s.published_at)};};
  const prevSaved=get(SKEY,[]),prevPrefs=get(PKEY,[]);
  const state={news:[],articles:[],saved:Array.isArray(prevSaved)?prevSaved.filter(x=>x&&x.key&&x.title&&((x.type==='article'&&articlePath(x.url))||(x.type==='news'&&safeURL(x.url)))).slice(0,100):[],prefs:Array.isArray(prevPrefs)?prevPrefs.filter(x=>TOPICS.includes(x)):[],filter:'All',outlet:'',search:'',visible:12,feedUpdated:null,error:false};
- let toastTimer,prevFocus;
+ let toastTimer,prevFocus,cloudMode=false;
  const sort=arr=>arr.sort((a,b)=>(new Date(b.published_at).getTime()||0)-(new Date(a.published_at).getTime()||0));
 
  // Use the desktop bot's impact categories for the featured news desk, while
@@ -61,7 +61,7 @@
  function visual(item,small=false){const wrap=el('div',(small?'list-thumb ':'story-visual ')+visualClass(item));wrap.append(el('span','visual-icon',iconCategory(item)));if(!small)wrap.append(el('span','visual-mini','STANDALONE / NEWS'));return wrap;}
  function actionSave(item,cls='save-small'){const saved=state.saved.some(x=>x.key===item.key);const b=el('button',cls+(saved?' on':''),saved?'♥ Saved':'♡ Save');b.type='button';b.dataset.save=item.key;b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'Remove saved story: ':'Save story: ')+item.title);return b;}
  function toast(msg){const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.hidden=true,2600);}
- function flipSave(key){let item=[...state.news,...state.articles,...state.saved].find(x=>x.key===key);if(!item)return;const had=state.saved.some(x=>x.key===key);state.saved=had?state.saved.filter(x=>x.key!==key):[{type:item.type,key:item.key,url:item.url,title:item.title,source:item.source,category:item.category,published_at:item.published_at,summary:item.summary||''},...state.saved].slice(0,100);if(!store(SKEY,state.saved))toast('Your browser could not save this story');else toast(had?'Removed from Saved':'Added to Saved');render();}
+ function flipSave(key){let item=[...state.news,...state.articles,...state.saved].find(x=>x.key===key);if(!item)return;const had=state.saved.some(x=>x.key===key);state.saved=had?state.saved.filter(x=>x.key!==key):[{type:item.type,key:item.key,url:item.url,title:item.title,source:item.source,category:item.category,published_at:item.published_at,summary:item.summary||''},...state.saved].slice(0,100);if(!cloudMode&&!store(SKEY,state.saved))toast('Your browser could not save this story');else toast(had?'Removed from Saved':'Added to Saved');render();window.dispatchEvent(new CustomEvent('sn:bookmark-change',{detail:{key,added:!had,item:state.saved.find(x=>x.key===key)||item}}));}
  function empty(node,msg){node.replaceChildren(el('div','empty-panel',msg));}
  function renderHero(){const item=deskPicks(state.news)[0]||state.articles[0],leadSave=$('lead-save'),cta=$('lead-link');if(!item){$('lead-type').textContent='THE DAILY DESK';$('lead-title').textContent=state.error?'Unable to load recent headlines.':'What’s happening in your world, without the noise.';$('lead-summary').textContent='Your most recent verified source-linked stories and explainers will appear here.';$('lead-source').textContent='Standalone News';$('lead-time').textContent='—';$('lead-category').textContent='YOUR NEWS';leadSave.hidden=true;cta.href='#wire';cta.textContent='Explore the news wire →';cta.removeAttribute('target');cta.removeAttribute('rel');$('hero-art').className='hero-art art-world';return;}
  $('lead-type').textContent=item.type==='article'?'AI-ASSISTED EXPLAINER':'TOP STORY';$('lead-category').textContent=item.category.toUpperCase();$('lead-title').textContent=item.title;
@@ -102,7 +102,7 @@
  const seen=new Set();state.news=sort([...editorial,...payload.items].map(normNews).filter(x=>{if(!x||seen.has(x.key))return false;seen.add(x.key);return true;}));state.feedUpdated=payload.updated_at||null;state.error=false;}catch(e){state.error=true;state.news=[];state.feedUpdated=null;$('feed-error').textContent='The news feed could not be loaded. Please try refreshing or check the GitHub Actions updater.';$('feed-error').hidden=false;}
  try{const res=await fetchJSON(demo?'./data/demo-articles.json':'./data/articles.json');const seen=new Set();state.articles=sort((Array.isArray(res.items)?res.items:[]).map(normArticle).filter(x=>{if(!x||seen.has(x.key))return false;seen.add(x.key);return true;}));}catch{state.articles=[];}
  $('feed-status').textContent=state.error?'FEED UNAVAILABLE':(state.news.length+' HEADLINES · '+new Set(state.news.map(x=>x.source)).size+' OUTLETS & AGENCIES · '+(state.feedUpdated?'UPDATED '+utc(state.feedUpdated,true):'LATEST AVAILABLE'));btn.disabled=false;renderOutletOptions();render();}
- function showModal(id){prevFocus=document.activeElement;const node=$(id);node.hidden=false;document.body.style.overflow='hidden';if(id==='saved-overlay')renderSaved();else renderPrefs();node.querySelector('.modal-close').focus();}
+ function showModal(id){prevFocus=document.activeElement;const node=$(id);node.hidden=false;document.body.style.overflow='hidden';if(id==='saved-overlay')renderSaved();else if(id==='brief-overlay')renderPrefs();node.querySelector('.modal-close').focus();}
  function closeModal(id){const node=$(id);node.hidden=true;document.body.style.overflow='';if(prevFocus&&prevFocus.focus)prevFocus.focus();}
  function renderPrefs(){const n=$('preference-grid');n.replaceChildren();TOPICS.forEach(c=>{const b=el('button','pref-option'+(state.prefs.includes(c)?' on':''),NAMES[c]);b.type='button';b.dataset.pref=c;b.setAttribute('aria-pressed',String(state.prefs.includes(c)));n.append(b);});}
  function setMarket(tab){document.querySelectorAll('[data-market]').forEach(b=>{const active=b.dataset.market===tab;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-market-panel]').forEach(n=>n.classList.toggle('active',n.dataset.marketPanel===tab));}
@@ -118,11 +118,26 @@
  $('preference-grid').addEventListener('click',e=>{const b=e.target.closest('[data-pref]');if(!b)return;const c=b.dataset.pref;state.prefs=state.prefs.includes(c)?state.prefs.filter(x=>x!==c):[...state.prefs,c];renderPrefs();renderBrief();});
  $('save-prefs').addEventListener('click',()=>{store(PKEY,state.prefs);closeModal('brief-overlay');toast('Briefing preferences saved');});
  $('reset-prefs').addEventListener('click',()=>{state.prefs=[];store(PKEY,[]);renderPrefs();renderBrief();});
- $('clear-saved').addEventListener('click',()=>{if(!confirm('Remove all saved stories?'))return;state.saved=[];store(SKEY,[]);render();toast('Saved list cleared');});
+ $('clear-saved').addEventListener('click',()=>{if(!confirm('Remove all saved stories?'))return;state.saved=[];if(!cloudMode)store(SKEY,[]);render();toast('Saved list cleared');window.dispatchEvent(new CustomEvent('sn:bookmark-change',{detail:{clear:true}}));});
  document.querySelectorAll('[data-market]').forEach(b=>b.addEventListener('click',()=>setMarket(b.dataset.market)));
  $('wire-search').addEventListener('input',e=>{state.search=e.target.value.trim().toLowerCase();state.visible=12;renderWire();});$('wire-source').addEventListener('change',e=>{state.outlet=e.target.value;state.visible=12;renderWire();});
  document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.topic;state.visible=12;document.querySelectorAll('[data-topic]').forEach(c=>c.classList.toggle('active',b===c));renderWire();}));
  $('load-more').addEventListener('click',()=>{state.visible+=12;renderWire();});$('reload-news').addEventListener('click',()=>load().then(()=>toast(state.error?'Could not refresh':'News feed refreshed')));
  window.addEventListener('hashchange',syncNav);syncNav();load();}
+
+ // Separate guest browser bookmarks from signed-in cloud bookmarks.
+ // The external account module never receives a service-role credential.
+ window.SNDesk={
+   getSaved:()=>state.saved.map(x=>({...x})),
+   getGuestSaved:()=>{const v=get(SKEY,[]);return Array.isArray(v)?v.slice(0,100):[];},
+   setCloudSaved:(rows)=>{
+     cloudMode=true;
+     const clean=Array.isArray(rows)?rows.map(x=>({type:x.type,key:x.key,url:x.url,title:x.title,source:x.source,category:x.category,published_at:x.published_at,summary:x.summary||''})).filter(x=>x&&x.key&&x.title&&((x.type==='article'&&articlePath(x.url))||(x.type==='news'&&safeURL(x.url)))).slice(0,100):[];
+     state.saved=clean;render();
+   },
+   setGuestMode:()=>{cloudMode=false;state.saved=get(SKEY,[]);if(!Array.isArray(state.saved))state.saved=[];render();},
+   openModal:showModal,
+   closeModal:closeModal
+ };
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
