@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Standalone News — hosted breaking-news collector, modeled on the desktop bot.
+"""Standalone News — hosted breaking-news collector + image matcher.
 
-Public RSS only. Automatic importance scores are NOT verification or editorial approval.
+Public RSS only. Automatic importance scores and image matches are NOT verification or editorial approval.
 Produces data/desk.json without editing existing site feeds, articles, or reader accounts.
 Runs on GitHub Actions even when the local Standalone desktop bot is offline.
 """
@@ -12,10 +12,10 @@ from email.utils import parsedate_to_datetime
 import hashlib
 import html
 import json
-import os
 from pathlib import Path
 import re
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -25,9 +25,10 @@ OUTPUT = ROOT / 'data' / 'desk.json'
 MAX_BYTES = 2_000_000
 MAX_ITEMS = 18
 MAX_AGE_HOURS = 72
-USER_AGENT = 'StandaloneNewsDesk/1.0 (+https://standalonenews.com)'
+USER_AGENT = 'StandaloneNewsDesk/1.1 (+https://standalonenews.com)'
+COMMONS_API = 'https://commons.wikimedia.org/w/api.php'
+IMAGE_LIMIT = 36
 
-# Same baseline, phrases and bonuses as the desktop bot's engine.py.
 BASE = {'Fed':48,'Markets':37,'Economy':38,'Washington':31,'World':29,'SEC':32,
         'US News':24,'Government':31,'DEA':31,'FDA':30,'Treasury':34,'Technology':26}
 IMPACT = [(r'\b(fomc|rate cut|rate hike|interest rates|fed chair|powell)\b',34),
@@ -36,6 +37,70 @@ IMPACT = [(r'\b(fomc|rate cut|rate hike|interest rates|fed chair|powell)\b',34),
           (r'\b(earnings|profit warning|merger|acquisition|bankruptcy|guidance)\b',18),
           (r'\b(nasdaq|s&p 500|dow jones|bitcoin|oil prices|treasury yields)\b',16),
           (r'\b(breaking|urgent|just in)\b',3)]
+
+ALLOWED_LICENSES = ('cc0', 'public domain', 'cc by', 'cc-by', 'cc by-sa', 'cc-by-sa')
+BLOCKED_LICENSE_TERMS = ('noncommercial', 'nc', 'no derivatives', 'nd', 'fair use', 'all rights reserved')
+BLOCKED_IMAGE_WORDS = ('logo','map','locator','seal','flag','icon','diagram','chart','plot','svg','coat of arms','wordmark')
+STOPWORDS = {
+    'the','a','an','and','or','for','to','of','in','on','with','amid','after','before','over','under','into','from',
+    'as','by','at','is','are','be','new','latest','just','breaking','update','updates','report','reports','says','say',
+    'announces','announce','announced','faces','face','opens','open','wins','win','move','moves','moving','could','may',
+    'will','would','than','this','that','their','his','her','its','our','your','today','tomorrow'
+}
+ENTITY_MAP = {
+    'federal reserve':'Federal Reserve building Washington DC',
+    'powell':'Federal Reserve building Washington DC',
+    'white house':'White House Washington DC',
+    'supreme court':'Supreme Court of the United States building',
+    'congress':'United States Capitol building',
+    'senate':'United States Capitol building',
+    'house':'United States Capitol building',
+    'treasury':'United States Department of the Treasury building',
+    'sec':'Securities and Exchange Commission headquarters',
+    'securities and exchange commission':'Securities and Exchange Commission headquarters',
+    'dea':'Drug Enforcement Administration building',
+    'drug enforcement administration':'Drug Enforcement Administration building',
+    'fda':'Food and Drug Administration headquarters',
+    'food and drug administration':'Food and Drug Administration headquarters',
+    'doj':'United States Department of Justice building',
+    'department of justice':'United States Department of Justice building',
+    'nvidia':'Nvidia headquarters',
+    'apple':'Apple Park Cupertino',
+    'tesla':'Tesla factory or Tesla company',
+    'microsoft':'Microsoft headquarters Redmond',
+    'amazon':'Amazon headquarters Seattle',
+    'google':'Google headquarters Mountain View',
+    'alphabet':'Google headquarters Mountain View',
+    'meta':'Meta Platforms headquarters',
+    'openai':'OpenAI office',
+    'bitcoin':'Bitcoin illustration',
+    'ethereum':'Ethereum illustration',
+    'oil':'Oil pumpjack',
+    'gold':'Gold bars',
+    'ukraine':'Ukraine Kyiv',
+    'russia':'Moscow Russia',
+    'israel':'Jerusalem Israel',
+    'gaza':'Gaza skyline',
+    'china':'Beijing China',
+    'taiwan':'Taipei Taiwan',
+    'japan':'Tokyo Japan',
+    'european union':'European Union Brussels',
+    'europe':'Brussels Europe',
+}
+CATEGORY_FALLBACKS = {
+    'Markets': ['New York Stock Exchange trading floor', 'Wall Street New York', 'stock market trading screen'],
+    'Economy': ['United States economy New York financial district', 'Wall Street New York'],
+    'Government': ['United States Capitol building', 'White House Washington DC'],
+    'Washington': ['White House Washington DC', 'United States Capitol building'],
+    'US News': ['United States Capitol building', 'White House Washington DC'],
+    'Technology': ['technology office computers', 'semiconductor close-up'],
+    'World': ['world leaders summit', 'United Nations Headquarters'],
+    'Fed': ['Federal Reserve building Washington DC'],
+    'SEC': ['Securities and Exchange Commission headquarters'],
+    'DEA': ['Drug Enforcement Administration building'],
+    'FDA': ['Food and Drug Administration headquarters'],
+    'Treasury': ['United States Department of the Treasury building'],
+}
 
 
 def editorial_priority(title: str, category: str, source_type: str) -> int:
@@ -46,7 +111,8 @@ def editorial_priority(title: str, category: str, source_type: str) -> int:
 def similar_title(a: str, b: str) -> bool:
     toks = lambda s: re.findall(r'[a-z0-9]+', s.lower())
     x, y = set(toks(a)), set(toks(b))
-    if len(x) < 5 or len(y) < 5: return False
+    if len(x) < 5 or len(y) < 5:
+        return False
     if x.symmetric_difference(y) and any(re.search(r'\d', s) for s in x.symmetric_difference(y)):
         return False
     return len(x & y) / max(len(x), len(y)) >= .90
@@ -70,11 +136,15 @@ def child(node, name: str) -> str:
 
 
 def parsed_time(raw: str) -> str | None:
-    if not raw: return None
+    if not raw:
+        return None
     try:
-        try: dt = parsedate_to_datetime(raw)
-        except (ValueError, TypeError, IndexError): dt = datetime.fromisoformat(raw.replace('Z','+00:00'))
-        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
+        try:
+            dt = parsedate_to_datetime(raw)
+        except (ValueError, TypeError, IndexError):
+            dt = datetime.fromisoformat(raw.replace('Z','+00:00'))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc).isoformat(timespec='seconds')
     except (ValueError, TypeError, OverflowError):
         return None
@@ -83,26 +153,31 @@ def parsed_time(raw: str) -> str | None:
 def parse(xml: bytes, feed: dict) -> list[dict]:
     if b'<!DOCTYPE' in xml.upper() or b'<!ENTITY' in xml.upper():
         raise ValueError('XML entity declaration not allowed')
-    root=ET.fromstring(xml)
-    entries=[node for node in root.iter() if local_tag(node.tag) in ('item','entry')]
-    found=[]
+    root = ET.fromstring(xml)
+    entries = [node for node in root.iter() if local_tag(node.tag) in ('item','entry')]
+    found = []
     for node in entries[:MAX_ITEMS]:
-        title=clean(child(node,'title'))[:350]
-        summary=clean(child(node,'description') or child(node,'summary') or child(node,'content'))[:850]
-        url=child(node,'link')
+        title = clean(child(node,'title'))[:350]
+        summary = clean(child(node,'description') or child(node,'summary') or child(node,'content'))[:850]
+        url = child(node,'link')
         if not url:
             for e in node:
                 if local_tag(e.tag)=='link' and e.attrib.get('rel','alternate')=='alternate':
-                    url=e.attrib.get('href','').strip();break
-        if not url.startswith(('https://','http://')) or not title:continue
-        source=feed['name']
+                    url=e.attrib.get('href','').strip(); break
+        if not url.startswith(('https://','http://')) or not title:
+            continue
+        source = feed['name']
         if feed['type']=='Google News':
             hinted=child(node,'source')
-            if hinted: source=clean(hinted)[:90]
-            elif ' - ' in title: title,source=title.rsplit(' - ',1)
-        else: source=feed['name'].split(' · ')[0]
-        pub=parsed_time(child(node,'pubDate') or child(node,'published') or child(node,'updated') or child(node,'date'))
-        if not pub: continue # Do not label undated headlines as breaking news.
+            if hinted:
+                source = clean(hinted)[:90]
+            elif ' - ' in title:
+                title,source = title.rsplit(' - ',1)
+        else:
+            source = feed['name'].split(' · ')[0]
+        pub = parsed_time(child(node,'pubDate') or child(node,'published') or child(node,'updated') or child(node,'date'))
+        if not pub:
+            continue
         found.append({'id':hashlib.sha256(url.encode('utf-8')).hexdigest()[:24],
                       'title':title,'summary':summary,'url':url,'source':source,
                       'feed_id':feed['id'],'category':feed['category'],
@@ -118,61 +193,255 @@ def fetch(feed: dict) -> tuple[dict,list[dict],str]:
     try:
         with urllib.request.urlopen(req,timeout=15) as response:
             data=response.read(MAX_BYTES+1)
-        if len(data)>MAX_BYTES: raise ValueError('Feed exceeds 2 MB')
+        if len(data)>MAX_BYTES:
+            raise ValueError('Feed exceeds 2 MB')
         return feed,parse(data,feed),''
     except Exception as ex:
         return feed,[],str(ex)[:150]
 
 
-def normalize_old(row: dict) -> dict | None:
-    if not isinstance(row,dict) or not row.get('url') or not row.get('title') or not row.get('published_at'):return None
-    try:
-        dt=datetime.fromisoformat(row['published_at'].replace('Z','+00:00'))
-        if dt.tzinfo is None: dt=dt.replace(tzinfo=timezone.utc)
-    except (ValueError,TypeError):return None
-    if datetime.now(timezone.utc)-dt>timedelta(hours=MAX_AGE_HOURS):return None
-    return row
-
-
 def select(results: list[dict], previous: list[dict], now: datetime) -> tuple[list[dict],list[dict]]:
-    # Prefer fresh records and better source kinds when identical URL is encountered.
     cutoff=now-timedelta(hours=MAX_AGE_HOURS)
     unique={}
     for row in [*results,*previous]:
-        if not isinstance(row,dict): continue
+        if not isinstance(row,dict):
+            continue
         try:
             stamp=datetime.fromisoformat(str(row.get('published_at','')).replace('Z','+00:00'))
-            if stamp.tzinfo is None: stamp=stamp.replace(tzinfo=timezone.utc)
-        except (ValueError,TypeError):continue
-        if not cutoff<=stamp<=now+timedelta(hours=2):continue
-        if not str(row.get('url','')).startswith(('http://','https://')):continue
+            if stamp.tzinfo is None:
+                stamp=stamp.replace(tzinfo=timezone.utc)
+        except (ValueError,TypeError):
+            continue
+        if not cutoff<=stamp<=now+timedelta(hours=2):
+            continue
+        if not str(row.get('url','')).startswith(('http://','https://')):
+            continue
         key=row['url']
         if key not in unique or (row.get('source_type')=='Official direct' and unique[key].get('source_type')!='Official direct'):
             unique[key]=row
     chronological=sorted(unique.values(),key=lambda x:x['published_at'],reverse=True)
-    # Duplicate grouping follows the desktop bot: preserve originals in the wire,
-    # but do not select near-identical headlines for multiple featured positions.
     chosen=[];sources={};cats={}
     def score(x):
-        try: hours=max(0,(now-datetime.fromisoformat(x['published_at'].replace('Z','+00:00'))).total_seconds()/3600)
-        except (ValueError,TypeError):hours=99
+        try:
+            hours=max(0,(now-datetime.fromisoformat(x['published_at'].replace('Z','+00:00'))).total_seconds()/3600)
+        except (ValueError,TypeError):
+            hours=99
         return (int(x.get('desk_priority',0)) + max(-30, 20-.6*hours))
     ranked=sorted(chronological,key=lambda x:(score(x),x['published_at']),reverse=True)
     for row in ranked:
-        if len(chosen)>=24: break
-        if sources.get(row.get('source'),0)>=2 or cats.get(row.get('category'),0)>=7:continue
-        if any(similar_title(row['title'],z['title']) for z in chosen):continue
+        if len(chosen)>=24:
+            break
+        if sources.get(row.get('source'),0)>=2 or cats.get(row.get('category'),0)>=7:
+            continue
+        if any(similar_title(row['title'],z['title']) for z in chosen):
+            continue
         chosen.append(row)
         sources[row.get('source')]=sources.get(row.get('source'),0)+1
         cats[row.get('category')]=cats.get(row.get('category'),0)+1
     return chronological[:300], chosen
 
 
+def strip_meta(value: str) -> str:
+    return clean(re.sub(r'<[^>]+>', ' ', value or ''))
+
+
+def license_allowed(name: str) -> bool:
+    lowered = (name or '').strip().lower()
+    if not lowered:
+        return False
+    if any(term in lowered for term in BLOCKED_LICENSE_TERMS):
+        return False
+    return any(term in lowered for term in ALLOWED_LICENSES)
+
+
+def title_rejected(title: str) -> bool:
+    lowered=(title or '').lower()
+    return any(word in lowered for word in BLOCKED_IMAGE_WORDS)
+
+
+def cap_entities(title: str) -> list[str]:
+    phrases=[]
+    for phrase in re.findall(r'\b(?:[A-Z][a-z]+|[A-Z]{2,})(?:\s+(?:[A-Z][a-z]+|[A-Z]{2,})){0,3}', title):
+        p=phrase.strip(' -:;,.')
+        if len(p)<3:
+            continue
+        lp=p.lower()
+        if lp in STOPWORDS or lp in {'Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','Monday'}:
+            continue
+        phrases.append(p)
+    seen=[]
+    for p in phrases:
+        if p not in seen:
+            seen.append(p)
+    return seen[:5]
+
+
+def tokens_for_query(text_in: str) -> list[str]:
+    toks=[]
+    for tok in re.findall(r'[A-Za-z][A-Za-z0-9&.-]+', text_in):
+        t=tok.lower()
+        if t in STOPWORDS or len(t)<3:
+            continue
+        toks.append(tok)
+    # keep only a small number of meaningful words
+    out=[]
+    for tok in toks:
+        if tok not in out:
+            out.append(tok)
+    return out[:5]
+
+
+def build_image_queries(item: dict) -> list[str]:
+    title=item.get('title','')
+    source=item.get('source','')
+    category=item.get('category','')
+    lowered=' '.join([title,source,category]).lower()
+    queries=[]
+    # exact entity maps first
+    for key,val in ENTITY_MAP.items():
+        if re.search(r'\b'+re.escape(key)+r'\b', lowered):
+            queries.append(val)
+    # capitalized headline entities next
+    for phrase in cap_entities(title):
+        lp=phrase.lower()
+        if lp in ENTITY_MAP:
+            queries.append(ENTITY_MAP[lp])
+        else:
+            queries.append(phrase)
+    # keyword phrase from title
+    compact=' '.join(tokens_for_query(title))
+    if compact:
+        queries.append(compact)
+    queries.extend(CATEGORY_FALLBACKS.get(category, []))
+    # category + source fallback for official headlines
+    if category and source and source.lower() not in lowered:
+        queries.append(f'{source} {category}')
+    seen=[]
+    for q in queries:
+        q=clean(q)
+        if q and q not in seen:
+            seen.append(q)
+    return seen[:6]
+
+
+def commons_request(params: dict) -> dict:
+    url = COMMONS_API + '?' + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT, 'Accept':'application/json'})
+    with urllib.request.urlopen(req, timeout=20) as response:
+        raw = response.read(MAX_BYTES)
+    return json.loads(raw.decode('utf-8'))
+
+
+def score_candidate(page_title: str, mime: str, width: int, query: str) -> int:
+    score = 0
+    lowered=(page_title or '').lower()
+    qwords=set(tokens_for_query(query.lower()))
+    pwords=set(re.findall(r'[a-z0-9]+', lowered))
+    score += len(qwords & pwords) * 7
+    if mime in ('image/jpeg','image/jpg','image/png'):
+        score += 6
+    if width >= 1000:
+        score += 4
+    if width >= 1600:
+        score += 2
+    if title_rejected(page_title):
+        score -= 20
+    return score
+
+
+def search_commons(query: str) -> list[dict]:
+    params = {
+        'action':'query','format':'json','generator':'search','gsrnamespace':'6','gsrlimit':'8',
+        'gsrsearch': query,
+        'prop':'imageinfo|info',
+        'iiprop':'url|mime|size|extmetadata',
+        'iiurlwidth':'1280',
+        'inprop':'url'
+    }
+    try:
+        data = commons_request(params)
+    except Exception:
+        return []
+    pages = list((data.get('query') or {}).get('pages', {}).values())
+    found=[]
+    for page in pages:
+        ii = ((page.get('imageinfo') or [{}])[0])
+        meta = ii.get('extmetadata') or {}
+        title = clean(page.get('title','').replace('File:',''))
+        license_name = strip_meta((meta.get('LicenseShortName') or {}).get('value',''))
+        if not license_allowed(license_name) or title_rejected(title):
+            continue
+        mime = ii.get('mime','')
+        width = int(ii.get('width') or 0)
+        if width and width < 450:
+            continue
+        artist = strip_meta((meta.get('Artist') or {}).get('value','')) or 'Unknown'
+        credit = strip_meta((meta.get('Credit') or {}).get('value',''))
+        description = strip_meta((meta.get('ImageDescription') or {}).get('value',''))
+        url = ii.get('thumburl') or ii.get('url') or ''
+        if not str(url).startswith(('https://','http://')):
+            continue
+        description_url = ii.get('descriptionurl') or page.get('fullurl') or ''
+        found.append({
+            'title': title,
+            'thumb_url': url,
+            'page_url': description_url,
+            'source': 'Wikimedia Commons',
+            'creator': artist,
+            'credit': credit,
+            'license': license_name,
+            'description': description,
+            'query': query,
+            'score': score_candidate(title, mime, width, query)
+        })
+    return sorted(found, key=lambda x: x['score'], reverse=True)
+
+
+def match_image(item: dict, cache: dict[str, dict | None]) -> dict | None:
+    for query in build_image_queries(item):
+        if query not in cache:
+            results = search_commons(query)
+            cache[query] = results[0] if results else None
+        result = cache.get(query)
+        if result:
+            label = 'Illustrative photo'
+            return {
+                'thumb_url': result['thumb_url'],
+                'page_url': result['page_url'],
+                'source': result['source'],
+                'creator': result['creator'],
+                'license': result['license'],
+                'description': result['description'] or result['title'],
+                'label': label,
+                'matched_query': query
+            }
+    return None
+
+
+def attach_images(items: list[dict], featured_ids: set[str]) -> tuple[list[dict], int]:
+    targets=[]
+    for row in items:
+        if row.get('id') in featured_ids or len(targets) < IMAGE_LIMIT:
+            targets.append(row)
+        if len(targets) >= IMAGE_LIMIT:
+            break
+    cache={}
+    attached=0
+    for row in targets:
+        img = match_image(row, cache)
+        if img:
+            row['image'] = img
+            attached += 1
+    return items, attached
+
+
 def main() -> int:
     previous=[]
     if OUTPUT.exists():
-        try: previous=json.loads(OUTPUT.read_text(encoding='utf-8')).get('items',[])
-        except (ValueError,OSError):pass
+        try:
+            previous=json.loads(OUTPUT.read_text(encoding='utf-8')).get('items',[])
+        except (ValueError,OSError):
+            pass
     results=[];health=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for feed,items,error in pool.map(fetch,FEEDS):
@@ -188,14 +457,18 @@ def main() -> int:
     if not items:
         print('All headlines were too old; keeping previous file',file=sys.stderr)
         return 0 if OUTPUT.exists() else 1
+    featured_ids={i['id'] for i in featured}
+    items,image_count = attach_images(items, featured_ids)
     payload={'updated_at':now.isoformat(timespec='seconds'),
-             'method':'Automated desktop-bot rule-based importance scoring; not verified or manually approved',
+             'method':'Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved',
              'sources_checked':len(FEEDS),'sources_ok':ok,
-             'featured_ids':[i['id'] for i in featured],
+             'featured_ids':list(featured_ids),
+             'image_policy':'Illustrative images from Wikimedia Commons with commercial-use-compatible licenses; attribution shown on the site.',
              'items':items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Wrote {len(items)} recent headlines and {len(featured)} featured story IDs to {OUTPUT}')
+    print(f'Wrote {len(items)} recent headlines, {len(featured)} featured story IDs, and {image_count} matched images to {OUTPUT}')
     return 0
 
-if __name__=='__main__': raise SystemExit(main())
+if __name__=='__main__':
+    raise SystemExit(main())
