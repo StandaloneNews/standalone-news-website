@@ -351,3 +351,57 @@ body::before,body::after{background:none!important;box-shadow:none!important;poi
     min-height: 82px !important;
   }
 }
+
+/* Reader V12 — editorial clarity, topic following, newsletter and focused search. */
+[hidden]{display:none!important}
+#lead-summary[hidden]{display:none!important}
+.section{scroll-margin-top:22px}
+.latest-card .live-pill{background:transparent;color:#5a7186;border:none;letter-spacing:.045em;font-size:10px}
+.following-section{margin-top:42px}
+.follow-edit{border:1px solid #c9d3df;background:#fff;padding:10px 14px;border-radius:6px;color:#28485e;font-weight:700;cursor:pointer}
+.follow-source{background:#fff;border:1px solid #d5dee7;border-radius:4px;color:#51677a;font:700 11px/1.2 var(--sans, Arial,sans-serif);cursor:pointer;padding:7px 8px;margin:6px 0}
+.follow-source.on{color:#137058;border-color:#a6d3c6;background:#f2faf7}
+.publisher-prefs-title{margin:24px 0 6px;font-size:15px;color:#162b41}
+.publisher-prefs-help{color:#60738a;font-size:12px;line-height:1.6}
+.publisher-preference-grid{display:flex;flex-wrap:wrap;gap:7px;max-height:200px;overflow-y:auto;padding:10px 0 14px;border-bottom:1px solid #dce3ec}
+.publisher-option{font-size:11px;padding:8px 11px;border:1px solid #d1dbe4;color:#29435e;border-radius:99px;background:#fff;cursor:pointer}
+.publisher-option.on{border-color:#12476d;background:#eaf2f8;color:#163e60;font-weight:800}
+.search-more-filters{display:flex;flex-wrap:wrap;gap:10px;margin:9px 0 10px}
+.search-more-filters label{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:800;letter-spacing:.07em;color:#60758a}
+.search-more-filters select{border:1px solid #d2dce6;color:#263e51;border-radius:5px;min-height:38px;padding:6px;background:#fff;max-width:240px}
+.wire-story .follow-source{white-space:nowrap;max-width:150px}
+.newsletter-band{margin:44px 0 30px;border-radius:12px;background:#11283f;color:#fff;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.newsletter-band .section-eyebrow{color:#fa9dad}
+.newsletter-band h2{font:800 clamp(24px,2.8vw,32px)/1.18 Georgia,serif;color:#fff;margin:6px 0 10px}
+.newsletter-band p{font-size:13px;line-height:1.7;color:#dce6ed;max-width:500px}
+.newsletter-band form>label{display:block;color:#e9eff4;font-size:12px;margin-bottom:8px;font-weight:700}
+.newsletter-signup{display:flex;gap:7px;max-width:410px}
+.newsletter-signup input{padding:12px;border:1px solid #aebdcd;border-radius:5px;min-width:0;flex:1;font-size:14px;background:#fff;color:#17293c}
+.newsletter-signup button{background:#c03950;color:#fff;border:0;border-radius:5px;padding:11px 16px;font-weight:800;cursor:pointer}
+.newsletter-band .newsletter-choice{display:flex;align-items:flex-start;gap:8px;line-height:1.5;color:#dce5ef;font-size:11px;font-weight:400;margin:12px 0 0}
+.newsletter-choice input{accent-color:#d63c53;flex:0 0 auto;margin-top:2px}
+.newsletter-band .newsletter-message{font-size:12px;margin-top:10px}
+.newsletter-wait{border-left:2px solid #fff6;padding-left:14px}
+.honey{position:absolute!important;width:1px;height:1px;opacity:0;pointer-events:none}
+@media(max-width:900px){.newsletter-band{grid-template-columns:1fr}}
+@media(max-width:760px){
+ .reader-jumps{display:none!important} /* bottom mobile bar already navigates the same destinations */
+ .above-fold-label{margin-top:18px!important}
+ .story-grid{gap:10px!important}
+ .newsletter-band{padding:22px 17px;margin:32px 0 22px}
+ .newsletter-signup{flex-direction:column}.newsletter-signup button{min-height:44px}
+ .search-more-filters{gap:8px}.search-more-filters label{flex:1;display:block}
+ .search-more-filters select{display:block;width:100%;max-width:100%;margin-top:5px}
+ .wire-story .wire-actions{gap:7px;flex-wrap:wrap}
+ .following-section{margin-top:25px}
+ .publisher-preference-grid{max-height:180px}
+}
+
+.related-context{margin:10px 0 12px;padding:11px 13px;border-left:3px solid #bb3650;background:#f1f5f8}
+.related-context span{display:block;font-size:10px;color:#ac3048;font-weight:900;letter-spacing:.08em}
+.related-context p{font-size:12px;line-height:1.55;margin:7px 0 5px;color:#355069}
+.related-context a{color:#a52e46;font-size:11px;font-weight:800}
+
+.related-context summary{cursor:pointer;font-size:11px;font-weight:900;color:#a62c46;letter-spacing:.04em;list-style-position:inside;padding:3px 0}
+.related-context summary::marker{color:#a62c46}
+@media(max-width:760px){.related-context{padding:9px 11px;margin:6px 0 8px}.related-context:not([open]){background:#f1f5f8}}
