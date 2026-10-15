@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-15T18:12:02+00:00",
-  "method": "Automated desktop-bot rule-based importance scoring and Wikimedia Commons illustrative image matching; not verified or manually approved",
+  "updated_at": "2026-10-15T18:54:18+00:00",
+  "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
@@ -8,16 +8,16 @@
     "3e4de9495ab0310efff81a40",
     "a0baceaf1308a6157bb99b19",
     "ca1dee585c7087fe09aba80c",
-    "bbf3e0397f8e92cb7a10173d",
-    "7e7bbb1e7c834d8e02470148",
     "22587c3f313a66b18d902fcd",
     "45c3e595af59755e45830a37",
+    "96379a3786cc7251b3723e36",
     "00e71532e0ca13755e0ecf2a",
     "7ab657c5ee3a8fee4ad8571c",
     "b66b9f02407d79591f2056c3",
     "81586779c3e3ad5cfe359d65",
     "6bad45e071134cfe9f658b19",
     "1a893212246b23ad636fc47a",
+    "b470bf213b1d42947d91606c",
     "994a3c1122da221baca917e9",
     "bb92c371629fda3025cea503",
     "797677cbf7fb09ea88763049",
@@ -26,11 +26,180 @@
     "f03ed81c684966cb093f3a07",
     "9c2e70ef035e5c9105ceefde",
     "3661c6ae3e00ec6cb148ed38",
-    "39599a09fa0a8b444382752f",
-    "d412f0f92353479b3694c240"
+    "156d17a44e993f679475d43f",
+    "9989d912a9fda694d6edcbc2"
   ],
-  "image_policy": "Illustrative photos from Wikimedia Commons (commercial-compatible CC/Public Domain) and optional Pexels (Pexels License), with credits; original category illustrations otherwise.",
+  "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
+    {
+      "id": "5893aaa1676e0692a92028e7",
+      "title": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries",
+      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
+      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:53:47+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "08dae9356384b7498e705dd2",
+      "title": "Self-replicating AI: Is your fridge a cybersecurity risk?",
+      "summary": "Anthropic researchers warn that AI worms could soon target connected household devices and spread from one device to another. Cyberattacks on French supermarkets illustrate just how vulnerable such systems can be.",
+      "url": "https://www.dw.com/en/self-replicating-ai-is-your-fridge-a-cybersecurity-risk/a-79662958?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:52:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f1aedc63c799bda133d5a530",
+      "title": "America's historic preservation law is in peril, advocates say. Here's what's at stake",
+      "summary": "Congress and a federal agency are threatening to weaken the country's historic preservation law, fueling a backlash that critics say is as fiery as the one that led to the law's creation 60 years ago.",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6001504/section-106-historic-preservation-act-threats-anniversary",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:38:05+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "33dc2ebd2ca86caaded77e35",
+      "title": "Democrat Talarico says he raised record $64 million over summer in Texas Senate race",
+      "summary": "Democrats have not won statewide in Texas since 1994 or a U.S. Senate race there since 1988, but James Talarico is making the state competitive.",
+      "url": "https://www.cnbc.com/2026/10/15/james-talarico-texas-senate-fundraising-ken-paxton.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:35:25+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "68028941a2ba65544d95bdc5",
+      "title": "US justice department sues California over alleged noncitizen voting - The Guardian",
+      "summary": "US justice department sues California over alleged noncitizen voting The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQUZuM19HYzlFSDg4dTF2bjhaeDlJdnM1YlJfMFd6UllqSWs1TGJRZ1otRC1hLXVKak9UZDZod2pfQmNaYVB5M1I3cUhaaHZrS0VPdWRta19fdUl2QUZtRi00Y1lwOUFIRUQ1TFE1dXFaWVpsV21qdm9adU9SRmNoQVVmY1NDYTI5aWdRMG1QNV9DR2ZGY0E?oc=5",
+      "source": "The Guardian",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:31:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "85bb629c5ecaa6597d9b6c4b",
+      "title": "US justice department sues California over alleged noncitizen voting",
+      "summary": "DoJ had demanded that LA county confirm citizenship of people on list in thumb drive, but officials refused US politics live – latest updates The US Department of Justice sued California on Thursday, seeking a court order to prevent the state from tabulating certain ballots cast in the midterm elections . The suit came two days after the department made a specious demand to the state. On Tuesday, the department sent election officials in Los Angeles county a thumb drive with a handwritten password purporting to contain the names of noncitizens registered to vote. The department asked officials to confirm the citizenship of anyone on the list and set aside ballots from those whose status could not be confirmed. It gave the state 48 hours – an extremely narrow window – to take action. It did not provide details on how it came up with the na",
+      "url": "https://www.theguardian.com/us-news/2026/oct/15/justice-department-sues-california-midterms",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:29:50+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4a37e5d63c667e78288dc4d6",
+      "title": "GOP Rep. Fitzpatrick promises ‘consequences’ if US goes dark on Ukraine - The Hill",
+      "summary": "GOP Rep. Fitzpatrick promises ‘consequences’ if US goes dark on Ukraine The Hill",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcGNvMkxxRXloejAzRTRUM1IzZ09wNDB0ejZpTThyN0l6Y2Q2QXlrRVl0XzU2TThNVzFYNUJTbGs4TmFIRTVpcFNNcjNHcGJBLWVzcXo4OWhJN18tLU5RbzhfbVFvc1lvbEZqLVlmSDRZVGp3cXRVTDFUWUpXejFEdDI0VzdMTVlzRkhyTExUazPSAZYBQVVfeXFMT0RobEJ0VEEzeGlkUGtDbDgzYU12UlFCVTVOOTRFcDN0RzVudGpMYXltd183ZlBsQXFLcW5DWHhvTndDMnZnM2I1SjUtNDM4ZGV2V3U1cTFWOEVrdXZlYUY0RzN0S3ZIdW9EV1dJeF9QM1RvOU5jbk8zTU1NS2ZYUi0zT0g0Y3FmTFhaZG9YOVVlRnpteFp3?oc=5",
+      "source": "The Hill",
+      "feed_id": "thehill",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:28:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3874fe96f2cd14d34dcefef6",
+      "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
+      "summary": "Sen. Elizabeth Warren and Rep. Robert Garcia are leading new legislation to force banks and some executives to release records related to Jeffrey Epstein.",
+      "url": "https://www.cnbc.com/2026/10/15/banks-congress-jeffrey-epstein-oversight.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:26:51+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e12c61c2a1e60400941ee7df",
+      "title": "Tesla plans next-generation Roadster reveal after almost a decade of delays",
+      "summary": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
+      "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:19:35+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "180d76460bd854e0c002fc46",
+      "title": "Ahead of US midterms, voters are frustrated with Trump, want change: Poll",
+      "summary": "Widespread voter disillusionment and pocketbook anxieties set a volatile stage for the GOP weeks before election night.",
+      "url": "https://www.aljazeera.com/news/2026/10/15/ahead-of-us-midterms-voters-are-frustrated-with-trump-want-change-poll?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:17:57+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "65e5ddf380879a367b705080",
+      "title": "BNY stock pops on strong earnings — showing exactly why we like this bank in this market",
+      "summary": "Wall Street clearly liked what it heard on the post-earnings conference call because BNY stock went from flat to up more than 3% on the day.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/15/bny-stock-pops-on-strong-earnings-showing-exactly-why-we-like-this-bank-in-this-market.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:16:41+00:00",
+      "desk_priority": 55,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a4dc299544df68f2cb5ed32f",
+      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "summary": "Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\" Meta and Apple, […]",
+      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:15:36+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "968d0d322c381991a8678e38",
+      "title": "Market Calm Shatters as AI, Rate Fears Collide - Bloomberg.com",
+      "summary": "Market Calm Shatters as AI, Rate Fears Collide Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONlgta0RRakFuNGFHRU9mU3FJUGN1UnZCWUh3MUk0TFhXdEI3ZlNxUjZkNVhIbXpYTDE5UmpKZ0IyZFBCMF9ZbXdyQ2JyX1hRb3dSNDBnRUk0VktFZEd4Q3NNWHlKUGMtcDNydThJd2tJYVBtbEJ3V1ktd2w2YXJHc01kSTROYnBZNTJ2S2lHMzRKVVBiUVdUbTBYUWtnOXdu?oc=5",
+      "source": "Bloomberg.com",
+      "feed_id": "bloomberg",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:14:38+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
     {
       "id": "e1e60bbd119e869fd5ad0c2d",
       "title": "Equal-weight failed. Now tech stocks look shaky again. So what should you do about S&P 500 risk?",
@@ -42,22 +211,38 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:02:23+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c02ff473077cd04ca4762ac1",
+      "title": "Winter may bring snow and rain to some drought-stricken U.S. states, new forecast shows - CBS News",
+      "summary": "Winter may bring snow and rain to some drought-stricken U.S. states, new forecast shows CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRGc3TEtNRjBheFltLUF3SUw2OFUyY25ybzhEeUdLY3lkekJ6ckp0eDBzRi1TNzkwRXYxTi10Q192RXdzWVJ0V0JmS3FHLXM5T05MaURuLWNGTFEwa2JwNGxEY09UTFhScjkwRmZuQTZOOElhOUhBZ1NuYzdaRUlSNE45YmFOa3pQRml1Vw?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:02:05+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "356f1e90a24d8d053c42b359",
+      "title": "Russell Brand forced alleged rape victim to take photos of him half naked, trial told",
+      "summary": "Woman claims comedian ‘pranced around like an ostrich’ before forcing himself on her in hotel room attack Russell Brand transformed into a “monster” when he allegedly forced a woman to take half-naked photographs of him before raping her in a hotel room at the Labour party conference, a court has heard. The 51-year-old comedian has denied attacking the woman, who broke down in tears in the witness box at Southwark crown court as she told how she could not fight him off. Continue reading...",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/15/russell-brand-jury-alleged-rape-woman-1999-crown-court",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T18:01:27+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "bc8735bcdff3eb8f7296ffdd",
       "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-      "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit end on October 16. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
+      "summary": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest questions and make the day count for your business.",
       "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
       "source": "TechCrunch",
       "feed_id": "techcrunch",
@@ -65,17 +250,33 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:00:00+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/LM1117_Close_Up_%2850801308981%29.jpg/1280px-LM1117_Close_Up_%2850801308981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:LM1117_Close_Up_(50801308981).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Cole L",
-        "license": "CC BY-SA 2.0",
-        "description": "LM1117 Close Up",
-        "label": "Illustrative photo",
-        "matched_query": "semiconductor close-up"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7b814460d7dfe87c2bea4a6f",
+      "title": "‘I will never, ever, ever wear one of those orange lanyards’ - Politico",
+      "summary": "‘I will never, ever, ever wear one of those orange lanyards’ Politico",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdG5EcnhiZEc0ZjUxSTVDYkZLQzNha0NxM2xGWU1kcUpFN3JHWGkyalJMYzYyakRiZTRpSzlINk1oNnVLdWVJRk5pZVZydWN4Y2NKbWtkenU4bVhvdm1VUFd4YXNONE9XU1U3X1ptSmg1ZVYyNDVfSzhIY3pOQy1Pc2x0SU9wZ3V3T09XWTNRdEZKWGl3UUtPX3hnSGY2bkpXMEVCU1pkdTd4dw?oc=5",
+      "source": "Politico",
+      "feed_id": "politico",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:00:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9bb437827b7265eaec440748",
+      "title": "‘Our choice, not yours’: Palau President stares down China over Taiwan threats - Politico",
+      "summary": "‘Our choice, not yours’: Palau President stares down China over Taiwan threats Politico",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZzNma0ViZUJYZXIxNDRwZ3otTTJKWXJhYUo4UWtRRXNobk5rZnZsYXFLS0JKTlRxcmg2cTNsYWlVaThGVFRRaHhxZm5NcXdrVXE0bjRsLVZCMXNya3FIc0NBbGhtakNLQzFkYkxUWnJnZ0tjQ215TFVJUUxNLW9mUGFacmRJV09ZdHJjTUtyaVJzSXdfT0ZXYzA2aEVLbW5IYnI1LXMySHEwZG1qdWRRVERRUGZvaHlVZ1pEcWt2aUdadw?oc=5",
+      "source": "Politico",
+      "feed_id": "politico",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T18:00:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
     },
     {
       "id": "3726ceb3821466b1174673a4",
@@ -88,17 +289,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T18:00:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "8ea0fbc6bae9571f67cc0b0f",
@@ -111,17 +302,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:59:10+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "6116804f88128ec3c6cae701",
@@ -137,6 +318,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "734776260a19025f40c01f61",
+      "title": "DJIA | Dow Jones Industrial Average Overview - MarketWatch",
+      "summary": "DJIA | Dow Jones Industrial Average Overview MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mbTdlUjJpbkdOZTFxc2pHeE82Nm4yLWF2OXk2UXhyaWFTbkpKeldySlBpeVN1eFlaRjRGWGhVQ3BzSmw0NElpek5MNGwwNDVSUWFKZUFHYXNudWdU?oc=5",
+      "source": "MarketWatch",
+      "feed_id": "marketwatch",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:56:11+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
       "id": "881dc60f142c9ac0dbccc9bd",
       "title": "U.S. sues California in fight over checking citizenship of mail voters",
       "summary": "The lawsuit by the Trump administration comes less than a month before the midterm election that will determine which party controls both chambers of Congress.",
@@ -147,17 +341,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:55:19+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "defa69e0bd9b12946829844e",
@@ -209,29 +393,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:53:46+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
-    },
-    {
-      "id": "7d1f879d3ccf11827469dd5d",
-      "title": "Could Ilhan Omar be stripped of her citizenship? Here's what it takes - Axios",
-      "summary": "Could Ilhan Omar be stripped of her citizenship? Here's what it takes Axios",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pSTY3eTdHRWhPVHhlc1J1VmhndllUTkZEV1FfWlY2cUtjU0hxTEZnYk5HZWpjYzNKQmNlTHVWS0VfQ2o2YjN4MGFXMkp0WUNXN0RzZmEwYnpFVUp6ZXA2VGg3b29FdXRScDRYNUJEU24ycmdoOWJqYg?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T17:53:36+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -287,9 +448,22 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7d1f879d3ccf11827469dd5d",
+      "title": "Could Ilhan Omar be stripped of her citizenship? Here's what it takes - Axios",
+      "summary": "Could Ilhan Omar be stripped of her citizenship? Here's what it takes Axios",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pSTY3eTdHRWhPVHhlc1J1VmhndllUTkZEV1FfWlY2cUtjU0hxTEZnYk5HZWpjYzNKQmNlTHVWS0VfQ2o2YjN4MGFXMkp0WUNXN0RzZmEwYnpFVUp6ZXA2VGg3b29FdXRScDRYNUJEU24ycmdoOWJqYg?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:46:30+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "b3dfb95fabd5bc18b353ddb6",
       "title": "Middle East updates: Houthis target Yemen government palace in Aden",
-      "summary": "Houthi rebels said they targeted Saudi military assets in a rare attack on the interim seat of internationally-recognized Yemen's government. Meanwhile, vessels are again under fire near the Strait of Hormuz. More on DW.",
+      "summary": "Houthi rebels say they targeted Saudi military assets in a rare attack on the interim seat of Yemen's internationally recognized government. Meanwhile, vessels are again under fire near the Strait of Hormuz. More on DW.",
       "url": "https://www.dw.com/en/middle-east-updates-houthis-target-yemen-government-palace-in-aden/live-79672880?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -323,17 +497,20 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T17:39:38+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "bb2e7bed6b8910069de412f5",
+      "title": "FBI Agents and Analysts Fired for Roles in Trump Classified Files Probe Sue to Get Their Jobs Back - U.S. News & World Report",
+      "summary": "FBI Agents and Analysts Fired for Roles in Trump Classified Files Probe Sue to Get Their Jobs Back U.S. News & World Report",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWHN5SFpYUE4zZkxKcGFNd3VvN3d2aHF3Y2xRTmZrLXNhRFlFQmFVVmxaVklmbTh2TlZkVjNpSlE5UTByZFZQNlF4Ql9lMTZONklScjE4OWRvM2ZpTHhpYWFqM3dJMzdxa1FkYy1jSzg5dUxoSmtneVlWemFOUmptUE1rOUwwSUgzdWpkT3Jmd1B4Z2Z0c1Rqd2pRWEg4WmQtM2trLUdDc1pZYlloUlFkcjBwZDBWOUZ6SDNNRlk0cV94dEtjMDdBUm12RUdCbUU5NTM0OGZyZWd1MmlhMzVyZmFLWWZRako1dGVz?oc=5",
+      "source": "U.S. News & World Report",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:39:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "0d5de92bf080810b7bc13141",
@@ -346,17 +523,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T17:37:00+00:00",
       "desk_priority": 38,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
-        "label": "Illustrative photo",
-        "matched_query": "Federal Reserve building Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "3e299b7174903d0be62eda33",
@@ -369,17 +536,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:34:40+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Coolcaesar",
-        "license": "CC BY-SA 4.0",
-        "description": "Nvidia headquarters in Santa Clara, California. Photographed by user Coolcaesar on August 4, 2018.",
-        "label": "Illustrative photo",
-        "matched_query": "Nvidia headquarters"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "f03ed81c684966cb093f3a07",
@@ -394,14 +551,14 @@
       "desk_priority": 51,
       "selection_type": "automatic",
       "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Kyiv_skyline_%2815688086793%29.jpg/1280px-Kyiv_skyline_%2815688086793%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Kyiv_skyline_(15688086793).jpg",
         "source": "Wikimedia Commons",
-        "creator": "Ввласенко",
-        "license": "CC BY-SA 3.0",
-        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
+        "creator": "Sergey Galyonkin from Raleigh, USA",
+        "license": "CC BY-SA 2.0",
+        "description": "Kyiv skyline",
         "label": "Illustrative photo",
-        "matched_query": "Ukraine Kyiv"
+        "matched_query": "Kyiv Ukraine skyline"
       }
     },
     {
@@ -444,6 +601,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "3e89da04651bcdbc3d12a0c5",
+      "title": "US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales - Reuters",
+      "summary": "US producer prices post largest gain in 4-1/2 years; expensive gasoline boosts retail sales Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmQ2aEh5YkdMWGR6cGNVdU5TZ1k0NmpFX3BNcDRCM3B2cEJmX1BhYktBbkprQk12WDVGSXpKalhFTkVyS1hmWHNnVVJLYU80Q3dLcWVLVTN3YWVTS3BjVjZpTFM0SkloWUF0clFLbE5aR3dFR1ZVSWpxNjUwWUFyVjMta2E5X2YxRVhQTmpHSk5KRXRqT2UyTTlqdG1lOXFXUkVJTmxMLU1Kdw?oc=5",
+      "source": "Reuters",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:28:43+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1c74e03e05f05e00bc433072",
       "title": "Pope Leo resumes work in hospital while recovering from surgery",
       "summary": "Catholic leader met top Vatican aide, as doctors say recovery proceeding after lung surgery to remove cancerous growth.",
@@ -483,6 +653,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "e3454186fc33831983a33abe",
+      "title": "Comcast Donated $7.5 Million for Donald Trump’s Lavish New White House Ballroom - Variety",
+      "summary": "Comcast Donated $7.5 Million for Donald Trump’s Lavish New White House Ballroom Variety",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmdCV1NDRXdMN01OSDRSVFVYNnFDSFE1R2w0NkhGNnU2T1hZMXUyRkhENTdTLXExYVFGZnhpdEM0bTM0NWVwTnc1TE5CRUxYMkFjQURqcUpmNW16bWxLLVdjLVVpeEFudDA2aXl0bFp2M1cwWWYyb2VpWEpkaFhkeDRhMHNIaGgwMVRlYlJIT2Q?oc=5",
+      "source": "Variety",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:21:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "f272a265f3fa5c83a7ab6c7e",
       "title": "US consumers are muscling through higher prices, but for how long? - The Killeen Daily Herald",
       "summary": "US consumers are muscling through higher prices, but for how long? The Killeen Daily Herald",
@@ -519,6 +702,32 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:19:49+00:00",
       "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d52188897cfc6affe2c7444a",
+      "title": "Houthi missile attack on Yemeni presidential palace kills two, minister says",
+      "summary": "Yemen's information minister says the prime minister and other ministers were unhurt when ballistic missiles hit al-Maashiq Palace.",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T17:18:49+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "699d0834ff2ec2d3b60d0cec",
+      "title": "Trump administration sues California over alleged noncitizens on the state's voter rolls - News4JAX",
+      "summary": "Trump administration sues California over alleged noncitizens on the state's voter rolls News4JAX",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPU1ZrendlcXRWLVdqMW9GeWhDZnFUTnhfNl9IeXN5WGtlbjNZTnhaUjNkMklwSDhJUTQ3QjU1b2s0cWJPLWF3Q2NsSW56TGdDcnhsTXFsX0VDdVhrS3ZpLWk0c2VWdTNmNUJqWEVDQ2xwQ0tUZ2ctdlZMekFIeDB5NHlKc3BWR2ZEM2N6Tk0xcU5GbVAybE9EOXBnV0NFQ3VCVzRXUG44WWZQZElaSmoxQjA4eDhPNTBVRUJxTjh0VGRfTHBuZXF5RTNNV0o1bUQ2RnFlRA?oc=5",
+      "source": "News4JAX",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:15:38+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -597,17 +806,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T17:10:00+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "b74621ef51df2ceee64a2040",
@@ -672,17 +871,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T17:06:47+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "0fed216083791a483fe1b7f7",
@@ -724,6 +913,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "a31e824742d0233e575057f6",
+      "title": "Federal authorities investigate suspicious mailings sent to congressional and secretary of state offices - NBC News",
+      "summary": "Federal authorities investigate suspicious mailings sent to congressional and secretary of state offices NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONGZaYmtjbk13V2poME9FRUY2T0gwLVZ6XzcwNW43M05OdGdiVzYwa0JINnB2d0NoVE9iYVlWWDRsTnoyemNEbHhYOTc3aDhfMkRZUjhZVkExWm5aOTZVbkpEOVFoeDJDNWlEZ0dHM1hHZHYwUHZqQWtreURCUlJJLUZJUG1UNlV5VFRuLVUwNlhJMUdIeHp5QkVaZUk4MXdjc1pUeTRjd0NoQWN3TWR1elVJcnlmN0J3Yy1rcEEyYlQ?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:00:55+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "db6ce3959cc20b20f8d51d48",
       "title": "Dying in Detention",
       "summary": "Fault Lines investigates the soaring death rates in immigration detention centres following President Trump’s crackdown.",
@@ -737,10 +939,10 @@
       "selection_type": "automatic"
     },
     {
-      "id": "98c799c642aae48345bc263e",
+      "id": "26e7d51da6e08134dc411cda",
       "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks - U.S. Department of the Treasury (.gov)",
       "summary": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks U.S. Department of the Treasury (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92aDlmOWNER0ViaGdmcDBOczNwQWdPTnRPQVVMbF9rTE5iNG5ILXNyZmRKZDhyV0VjWVVVbzQxdHY4dThuOFNCRVFTMFdzbklHX0ZkMDdNd3Z2UVNfWFZvRUdlQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FMm9BZnJDdUFDV2tESlVJbVV3em5ZVmVHMjRweGtSUjB5YzF0YW12Tk5MMjFmZDUxa3o4akEzampDU08xd0JyUERiZlNoOVhROVlLbkE4RVphTUZvSnNXV2N3?oc=5",
       "source": "U.S. Department of the Treasury (.gov)",
       "feed_id": "treasury",
       "category": "Treasury",
@@ -763,6 +965,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "98c799c642aae48345bc263e",
+      "title": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks - U.S. Department of the Treasury (.gov)",
+      "summary": "Operation Economic Outcast Targets Iranian Regime’s Abuse of Religious Charity Networks U.S. Department of the Treasury (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92aDlmOWNER0ViaGdmcDBOczNwQWdPTnRPQVVMbF9rTE5iNG5ILXNyZmRKZDhyV0VjWVVVbzQxdHY4dThuOFNCRVFTMFdzbklHX0ZkMDdNd3Z2UVNfWFZvRUdlQQ?oc=5",
+      "source": "U.S. Department of the Treasury (.gov)",
+      "feed_id": "treasury",
+      "category": "Treasury",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T17:00:00+00:00",
+      "desk_priority": 34,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3621c9962efb7b784c7d3b09",
       "title": "Ilhan Omar: What we know about the criminal investigation into the US congresswoman - BBC",
       "summary": "Ilhan Omar: What we know about the criminal investigation into the US congresswoman BBC",
@@ -776,6 +991,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "4ff10b7d70f5be0c0ef8a641",
+      "title": "What we know about the criminal investigation into US Congresswoman Ilhan Omar",
+      "summary": "The nature of the investigation is unclear but comes after officials cast doubt on her US citizenship.",
+      "url": "https://www.bbc.co.uk/news/articles/cq98zpk30pd5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-15T16:59:31+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "994a3c1122da221baca917e9",
       "title": "Voters in Fox News poll list government corruption as top concern, beating inflation, healthcare - The Hill",
       "summary": "Voters in Fox News poll list government corruption as top concern, beating inflation, healthcare The Hill",
@@ -786,17 +1014,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T16:57:00+00:00",
       "desk_priority": 59,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "c5511f3c9ac2092bd074cd5c",
@@ -821,6 +1039,19 @@
       "category": "Markets",
       "source_type": "Google News",
       "published_at": "2026-10-15T16:55:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3cab64b6c4fba08f40059f24",
+      "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now. - MarketWatch",
+      "summary": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now. MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlNZWlpsWlp1MlFmSEgxNFh1Q1ZRX0lrYVFxM1E4TWd0Q19xeGVHdmhldDJUaS1tSjc0MnJ0TS1LcTFyUWVPLWZ5cElJdjJxbTFIRW01TjNuWTZZRFVxUkxTVHgzZE9SbFZVVEhqSWtkcjlJdGk2Y0I2VWw3Tm1MbnViZlc0SW1WaFJpQTdsMzN3WTdNdXlSb1ZKOUpmM0RsZGx3eVY1dDg0SE1RTjhoUWxUa01GOTdwWWhHUQ?oc=5",
+      "source": "MarketWatch",
+      "feed_id": "marketwatch",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T16:53:00+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
     },
@@ -913,19 +1144,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "6ff8666fb71d003ccfcace6e",
-      "title": "Feds investigating \"suspicious\" letters sent to election officials and congressional offices - CBS News",
-      "summary": "Feds investigating \"suspicious\" letters sent to election officials and congressional offices CBS News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmtYb1c5ckx0eG1XVU5vdEVlTEFGTENqNFItUWNva0puNXR3SUZsa0tEY0lkZE9nRTdoM1JUakJaSHN1cEVscW81YXhLV2VScTcwZnZVYzZKMHZxeWM4aUZ1QmRaZkV2d3Vna0xVdGlsQTFTeXlyX3VNX19iQVM0WlV5X0gtWXFRVGkxMzMwZGNlc1RJX2Rtc3RrMFljbmRlUTRwZS1xR2NXZmxYUGhIVg?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:47:25+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "17fd3dd7fa007f2f36d432d1",
       "title": "International Energy Agency to release more than 20 million barrels of diesel as soon as possible",
       "summary": "The Trump administration pushed Europe to release diesel stocks as prices in the U.S. surged to record highs in September.",
@@ -936,17 +1154,20 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:47:03+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6ff8666fb71d003ccfcace6e",
+      "title": "Feds investigating suspicious letters sent to election officials and congressional offices - CBS News",
+      "summary": "Feds investigating suspicious letters sent to election officials and congressional offices CBS News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmtYb1c5ckx0eG1XVU5vdEVlTEFGTENqNFItUWNva0puNXR3SUZsa0tEY0lkZE9nRTdoM1JUakJaSHN1cEVscW81YXhLV2VScTcwZnZVYzZKMHZxeWM4aUZ1QmRaZkV2d3Vna0xVdGlsQTFTeXlyX3VNX19iQVM0WlV5X0gtWXFRVGkxMzMwZGNlc1RJX2Rtc3RrMFljbmRlUTRwZS1xR2NXZmxYUGhIVg?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T16:47:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "016600db75d22afa6649d9b7",
@@ -959,17 +1180,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:45:37+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Beijing_China_Beijing-National-Stadium-01.jpg/1280px-Beijing_China_Beijing-National-Stadium-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_China_Beijing-National-Stadium-01.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "CEphoto, Uwe Aranas",
-        "license": "CC BY-SA 3.0",
-        "description": "Beijing, China: National Stadium, also known als \"birds nest\"",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "4f022f1bb495706ec93573a8",
@@ -983,29 +1194,6 @@
       "published_at": "2026-10-15T16:45:02+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
-    },
-    {
-      "id": "968d0d322c381991a8678e38",
-      "title": "Market Calm Shatters as AI, Rate Fears Collide - Bloomberg.com",
-      "summary": "Market Calm Shatters as AI, Rate Fears Collide Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONlgta0RRakFuNGFHRU9mU3FJUGN1UnZCWUh3MUk0TFhXdEI3ZlNxUjZkNVhIbXpYTDE5UmpKZ0IyZFBCMF9ZbXdyQ2JyX1hRb3dSNDBnRUk0VktFZEd4Q3NNWHlKUGMtcDNydThJd2tJYVBtbEJ3V1ktd2w2YXJHc01kSTROYnBZNTJ2S2lHMzRKVVBiUVdUbTBYUWtnOXdu?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:44:38+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
     },
     {
       "id": "eee2dd2745e51b2794dccae7",
@@ -1073,19 +1261,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "3874fe96f2cd14d34dcefef6",
-      "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
-      "summary": "Sen. Elizabeth Warren and Rep. Robert Garcia are leading new legislation to force banks and some executives to release records related to Jeffrey Epstein.",
-      "url": "https://www.cnbc.com/2026/10/15/banks-congress-jeffrey-epstein-oversight.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:39:04+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "9200b458d98c5697667d5720",
       "title": "Auto & Transport Roundup: Market Talk",
       "summary": "Find insight on DHL, Volkswagen, Yangzijiang Shipbuilding and more in the latest Market Talks covering Auto and Transport.",
@@ -1109,19 +1284,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:38:32+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a31e824742d0233e575057f6",
-      "title": "Federal authorities investigate suspicious mailings sent to congressional and secretary of state offices - NBC News",
-      "summary": "Federal authorities investigate suspicious mailings sent to congressional and secretary of state offices NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONGZaYmtjbk13V2poME9FRUY2T0gwLVZ6XzcwNW43M05OdGdiVzYwa0JINnB2d0NoVE9iYVlWWDRsTnoyemNEbHhYOTc3aDhfMkRZUjhZVkExWm5aOTZVbkpEOVFoeDJDNWlEZ0dHM1hHZHYwUHZqQWtreURCUlJJLUZJUG1UNlV5VFRuLVUwNlhJMUdIeHp5QkVaZUk4MXdjc1pUeTRjd0NoQWN3TWR1elVJcnlmN0J3Yy1rcEEyYlQ?oc=5",
-      "source": "NBC News",
-      "feed_id": "nbc",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T16:38:32+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1268,19 +1430,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "5893aaa1676e0692a92028e7",
-      "title": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries",
-      "summary": "A sell-off in global technology hardware stocks deepened Thursday.",
-      "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T16:19:09+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "96af43b86a04cc528a92266c",
       "title": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
       "summary": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
@@ -1356,17 +1505,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:15:44+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "83b1486e7508d464b3140a5f",
@@ -1392,17 +1531,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T16:14:05+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/America_Treasury_Department_Building_20240601.jpg/1280px-America_Treasury_Department_Building_20240601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:America_Treasury_Department_Building_20240601.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "颐园居",
-        "license": "CC BY-SA 4.0",
-        "description": "The Treasury Department Building South side",
-        "label": "Illustrative photo",
-        "matched_query": "United States Department of the Treasury building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "5129069dd709b0479c14ddba",
@@ -1597,17 +1726,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T15:58:16+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "aa39d7e76bbabb1a81693e25",
@@ -1646,17 +1765,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:55:10+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Number 10",
-        "license": "CC BY 2.0",
-        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
-        "label": "Illustrative photo",
-        "matched_query": "world leaders summit"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "3f986f5f19434021ae7828e9",
@@ -1724,6 +1833,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "38061dd284f26d0bad68595f",
+      "title": "At showdown FIFA meeting, Infantino apologizes for World Cup furor but leaves critics unhappy - AP News",
+      "summary": "At showdown FIFA meeting, Infantino apologizes for World Cup furor but leaves critics unhappy AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSHVYcTZsQnJZaFlxRnh0QzlBc2Z0Sjd1YzZmb1ZPN09vMmVwUDY3VC1nWUNLTEtUTlQ5cm9BcElNSDc3X01DOU13cFN0dGIxOGt4TlB5MUNNTTJzWmkyckduTkxUUV9PVHRGVXNOUjFkX25DSkc3WENBUHVVTmVpb3ctWUJUVG9Rbzh4UHlJcHcyM2phT2R4U3hXRnpkTUNodDhWYUUxUWxGUQ?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T15:50:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "a73ddcc32366deda9a0ecdb2",
       "title": "US Treasury pushes global partners to rename AI as 'super intelligence' - Reuters",
       "summary": "US Treasury pushes global partners to rename AI as 'super intelligence' Reuters",
@@ -1773,17 +1895,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:46:00+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Coolcaesar",
-        "license": "CC BY-SA 4.0",
-        "description": "Nvidia headquarters in Santa Clara, California. Photographed by user Coolcaesar on August 4, 2018.",
-        "label": "Illustrative photo",
-        "matched_query": "Nvidia headquarters"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "7016295ae91d527a3a1ef278",
@@ -1848,17 +1960,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T15:41:55+00:00",
       "desk_priority": 31,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
-        "label": "Illustrative photo",
-        "matched_query": "White House Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "6bad45e071134cfe9f658b19",
@@ -1871,17 +1973,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T15:37:59+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
-        "label": "Illustrative photo",
-        "matched_query": "Federal Reserve building Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "bc5f52fd881b50f7b4703bbf",
@@ -1907,17 +1999,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:36:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Number 10",
-        "license": "CC BY 2.0",
-        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
-        "label": "Illustrative photo",
-        "matched_query": "world leaders summit"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "f3e4665f9712f30bb06a967d",
@@ -1985,29 +2067,16 @@
       "selection_type": "automatic"
     },
     {
-      "id": "3e89da04651bcdbc3d12a0c5",
-      "title": "US producer prices post largest gain in 4-1/2 years; retail sales beat expectations - Reuters",
-      "summary": "US producer prices post largest gain in 4-1/2 years; retail sales beat expectations Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmQ2aEh5YkdMWGR6cGNVdU5TZ1k0NmpFX3BNcDRCM3B2cEJmX1BhYktBbkprQk12WDVGSXpKalhFTkVyS1hmWHNnVVJLYU80Q3dLcWVLVTN3YWVTS3BjVjZpTFM0SkloWUF0clFLbE5aR3dFR1ZVSWpxNjUwWUFyVjMta2E5X2YxRVhQTmpHSk5KRXRqT2UyTTlqdG1lOXFXUkVJTmxMLU1Kdw?oc=5",
-      "source": "Reuters",
-      "feed_id": "economy",
-      "category": "Economy",
+      "id": "48e2fbd2047f72c276d26966",
+      "title": "Authorities Investigate Letters With 'Suspicious Substances' Sent to Congressional, Election Offices - U.S. News & World Report",
+      "summary": "Authorities Investigate Letters With 'Suspicious Substances' Sent to Congressional, Election Offices U.S. News & World Report",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNR045X3VPQmpoQ0I2anl1T21ZWnZYUndwalNOc1k5SEpqdjVzSV9HVG42QnM3WHBIazJiZHo3Tld5Z18tZi1fUmgwYy1oSDlSVlVfQVdUNWo5RnVjQnZyQ2dIRnAxTTJBeGhYVkpzSnZlaElaTE8wbTM2NDBYZjVPM09TTkRubTBXWWxkQWR5LWdrQzJkZjhVWTNvZngwNkY0R0JhUERtTDZjOFRQbXU5bG1BQko0LTY5ek5NblhaTDhPU1BEWmd1YlBLV25TN3B5dDVlTndfMWVMU1RaR205cS1YM05UQnZqRFE?oc=5",
+      "source": "U.S. News & World Report",
+      "feed_id": "us",
+      "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-15T15:25:50+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3cab64b6c4fba08f40059f24",
-      "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now. - MarketWatch",
-      "summary": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now. MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQlNZWlpsWlp1MlFmSEgxNFh1Q1ZRX0lrYVFxM1E4TWd0Q19xeGVHdmhldDJUaS1tSjc0MnJ0TS1LcTFyUWVPLWZ5cElJdjJxbTFIRW01TjNuWTZZRFVxUkxTVHgzZE9SbFZVVEhqSWtkcjlJdGk2Y0I2VWw3Tm1MbnViZlc0SW1WaFJpQTdsMzN3WTdNdXlSb1ZKOUpmM0RsZGx3eVY1dDg0SE1RTjhoUWxUa01GOTdwWWhHUQ?oc=5",
-      "source": "MarketWatch",
-      "feed_id": "marketwatch",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T15:21:00+00:00",
-      "desk_priority": 37,
+      "published_at": "2026-10-15T15:25:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2128,6 +2197,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "15b325c4dc8306413e461e38",
+      "title": "Comcast Gave $7.5 Million To Help Fund Donald Trump’s White House Ballroom, New Report Reveals - Deadline",
+      "summary": "Comcast Gave $7.5 Million To Help Fund Donald Trump’s White House Ballroom, New Report Reveals Deadline",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTVNzN2NzQXVFM25qMHNLMlg0WGJGMEl4ZGxIa1dJNGg2NmhkWmdXekt5RTI0cWpEeDVoOS1JNG9RR25jS2dhUTdTZXRzODBGNmNDbXJaOHRzczFqdDI5VGp4VnRMbmtMQ3RDTjBqSE1hM1N4UVowWTAtdnNxaENkNFNLdGtoRF9Y?oc=5",
+      "source": "Deadline",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T15:04:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "72c9fb61eb837aea964be0c0",
       "title": "AI agents are coming to Rivian’s cars",
       "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
@@ -2156,7 +2238,7 @@
     {
       "id": "156d17a44e993f679475d43f",
       "title": "Russia and Ukraine trade strikes as Trump ‘energy ceasefire’ collapses",
-      "summary": "Moscow sends swarms of drones to attack infrastructure in central Ukraine as Zelenskyy says Kyiv will restart strikes on Russian oil refineries Europe live – latest updates The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries despite warnings from Donald Trump. Moscow accused Ukraine of launching a strike against a Russian oil refinery in the Ryazan region, its first since Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to. Continue reading...",
+      "summary": "Moscow sends swarms of drones to attack infrastructure in central Ukraine as Zelenskyy says Kyiv will restart strikes on Russian oil refineries The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries despite warnings from Donald Trump. Moscow accused Ukraine of launching a strike against a Russian oil refinery in the Ryazan region, its first since Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -2164,17 +2246,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:01:10+00:00",
       "desk_priority": 46,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg/1280px-March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv%2C_2021_106.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:March_Defenders_of_Ukraine_on_Independence_Day_in_Kyiv,_2021_106.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Ввласенко",
-        "license": "CC BY-SA 3.0",
-        "description": "March Defenders of Ukraine on Independence Day in Kyiv, 2020",
-        "label": "Illustrative photo",
-        "matched_query": "Ukraine Kyiv"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "2f06b8d9511a059b384642ae",
@@ -2199,6 +2271,19 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T15:00:23+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T15:00:21+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -2369,17 +2454,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T14:47:09+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/LM1117_Close_Up_%2850801308981%29.jpg/1280px-LM1117_Close_Up_%2850801308981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:LM1117_Close_Up_(50801308981).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Cole L",
-        "license": "CC BY-SA 2.0",
-        "description": "LM1117 Close Up",
-        "label": "Illustrative photo",
-        "matched_query": "semiconductor close-up"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "93afcd136b45af7b295cf30a",
@@ -2405,17 +2480,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T14:46:09+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Number 10",
-        "license": "CC BY 2.0",
-        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
-        "label": "Illustrative photo",
-        "matched_query": "world leaders summit"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "8921e59e1c5e0bd6e3a23105",
@@ -2610,17 +2675,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T14:33:12+00:00",
       "desk_priority": 57,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "ddb707fd1b52d0c2e41f604b",
@@ -2649,27 +2704,17 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "us",
-      "category": "US News",
+      "id": "5f68c167a1a27159069d37fb",
+      "title": "House Democrats plan for next Congress - The Hill",
+      "summary": "House Democrats plan for next Congress The Hill",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVGNwejE3UW8xNUhqZGdQNm5UQ2J1YjVOdmxrSE11MlFRbGRXRXpDc0FNUk1hRnJOX3J3b1c5MHZlb0VHXzRHbW9sYXdXdTNDQXZubHQyUVN5c3IyQ0hVSVZUZUFoUnNzcWpfTXEweXJtNDlUeGg5ZlRKQ1VkSW5KSGhkR0pFZEHSAYwBQVVfeXFMTkRsT1NmNlEwY3FxMjdTUGhfVVNwVkJWZjlqT3pzMmpUTk1teHNWOE5hLTNqenBSU1BFaFBTclZMQUZGTFd6QldqOTVOc1NMQWk5TEdBR29ndWh5R3o4ZHlZTDRQVUZwSHNud2ZOaUIzOFhQOVNOWGRIT19MUEpyeU5jc1NTVW1VSjdIVUk?oc=5",
+      "source": "The Hill",
+      "feed_id": "thehill",
+      "category": "Government",
       "source_type": "Google News",
-      "published_at": "2026-10-15T14:30:21+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Animal_tracking_in_fiji.JPG/1280px-Animal_tracking_in_fiji.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Animal_tracking_in_fiji.JPG",
-        "source": "Wikimedia Commons",
-        "creator": "FrontierEnviro",
-        "license": "CC BY-SA 3.0",
-        "description": "Animal tracking ; Garmin GPS 60",
-        "label": "Illustrative photo",
-        "matched_query": "Tracking"
-      }
+      "published_at": "2026-10-15T14:30:00+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
     },
     {
       "id": "b7e6e91e4028317e604e2503",
@@ -2786,6 +2831,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T14:20:29+00:00",
       "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9989d912a9fda694d6edcbc2",
+      "title": "Exclusive: Ukraine runs out of Patriot interceptor missiles as Zelensky and Trump clash over war - CNN",
+      "summary": "Exclusive: Ukraine runs out of Patriot interceptor missiles as Zelensky and Trump clash over war CNN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnpiZkpKZEEzREozeWVGcEpCVjgySWVCVkhSakZrdTRrLTRJMUFjX3pUWE5aWFMwVUplNEdEdXdzVzY5eFUwTkVEZV85U3VkZTY5SzdiRjZGNW8zcUROclN4SDNOZFNjeE9QZjVRZ21nZ3BFcjhtZWxWdXBXYk9hODZUYXQzdWRuRFlYTGhqNWUxSGNhajlsRnNB?oc=5",
+      "source": "CNN",
+      "feed_id": "cnn",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T14:18:57+00:00",
+      "desk_priority": 46,
       "selection_type": "automatic"
     },
     {
@@ -3033,42 +3091,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:54:36+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
-    },
-    {
-      "id": "356f1e90a24d8d053c42b359",
-      "title": "Russell Brand told woman ‘it’s just fun’ as he raped her, court hears",
-      "summary": "Southwark crown court jury is shown video of woman telling detectives about alleged attack in 1999 A woman has alleged Russell Brand told her “it’s just fun” as he raped her in a hotel room at the 1999 Labour party conference, a court has heard. The alleged victim told detectives the comedian made her feel sick and dirty as he assaulted her despite her pleading: “Get off me, please stop. It hurts.” Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/15/russell-brand-jury-alleged-rape-woman-1999-crown-court",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T13:52:37+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "38061dd284f26d0bad68595f",
-      "title": "At showdown FIFA meeting, Infantino apologizes for World Cup furor but leaves critics unhappy - AP News",
-      "summary": "At showdown FIFA meeting, Infantino apologizes for World Cup furor but leaves critics unhappy AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSHVYcTZsQnJZaFlxRnh0QzlBc2Z0Sjd1YzZmb1ZPN09vMmVwUDY3VC1nWUNLTEtUTlQ5cm9BcElNSDc3X01DOU13cFN0dGIxOGt4TlB5MUNNTTJzWmkyckduTkxUUV9PVHRGVXNOUjFkX25DSkc3WENBUHVVTmVpb3ctWUJUVG9Rbzh4UHlJcHcyM2phT2R4U3hXRnpkTUNodDhWYUUxUWxGUQ?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T13:52:00+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -3082,17 +3104,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:51:10+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "4fb4b90f1c866d1e5a8f6f25",
@@ -3105,17 +3117,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T13:50:14+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Number 10",
-        "license": "CC BY 2.0",
-        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
-        "label": "Illustrative photo",
-        "matched_query": "world leaders summit"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "4164d2d3d17ef8ac98b1f751",
@@ -3128,17 +3130,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T13:50:00+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg/1280px-Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Joe Mabel",
-        "license": "CC BY-SA 4.0",
-        "description": "Sign for Amazon.com headquarters Audible tour, South Lake Union, Seattle, Washington, U.S.",
-        "label": "Illustrative photo",
-        "matched_query": "Amazon headquarters Seattle"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "a9ff1651d6b1a02e9515da2a",
@@ -3151,17 +3143,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T13:49:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg/1280px-Justin_Trudeau_with_Catherine%2C_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Justin_Trudeau_with_Catherine,_Duchess_of_Cambridge_-_COP26_World_Leaders_Summit_Day_1_-_51648542069.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Number 10",
-        "license": "CC BY 2.0",
-        "description": "01/11/2021. Glasgow, United Kingdom. The Duchess of Cambridge speaks to Prime Minister of Canada Justin Trudeau as she joins the Prime Minister Boris Johnson at an evening Royal Reception at Kelvingrove Museum as part of the COP26 World Leaders Summit Day in Glasgow. Picture by Andrew Parsons / No 10 Downing Street",
-        "label": "Illustrative photo",
-        "matched_query": "world leaders summit"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "972ec0992ad77f584b309017",
@@ -3215,14 +3197,14 @@
       "desk_priority": 65,
       "selection_type": "automatic",
       "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Corner_Store_Russ_Economy_Supperette.jpg/1280px-Corner_Store_Russ_Economy_Supperette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Corner_Store_Russ_Economy_Supperette.jpg",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg/1280px-Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Skyline_Ueno_Tokyo_Japan_(214471153).jpeg",
         "source": "Wikimedia Commons",
-        "creator": "Karen Apricot",
-        "license": "CC BY-SA 2.0",
-        "description": "Corner grocery store in New Orleans, vacant since Katrina. Frenchmen Street at N. Johnson.",
+        "creator": "Andreas Bunen",
+        "license": "CC BY-SA 3.0",
+        "description": "500px provided description: Skyline Ueno Tokyo Japan [#sky ,#skyscraper ,#Tokyo ,#Sightseeing ,#Tokio ,#Sehnswurdigkeiten]",
         "label": "Illustrative photo",
-        "matched_query": "United States economy shopping grocery store"
+        "matched_query": "Tokyo Japan skyline"
       }
     },
     {
@@ -3236,17 +3218,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:41:04+00:00",
       "desk_priority": 69,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "7e8dc2574b29c9e7148faa3a",
@@ -3441,17 +3413,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T13:24:04+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "dd76ac797996e2bcae4d9477",
@@ -3490,17 +3452,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:22:44+00:00",
       "desk_priority": 66,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "02a98856127bb5679548ce78",
@@ -3526,17 +3478,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:19:30+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "5ec598f5fbc85e18180aa1fb",
@@ -3562,17 +3504,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T13:18:16+00:00",
       "desk_priority": 81,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "8c7894afbf12f365a4100d2d",
@@ -3702,17 +3634,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T12:54:30+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg/1280px-No_Known_Restrictions_Trading_Floor%2C_New_York_Stock_Exchange_%28Highsmith_LOC%29_%286718386525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Trading_Floor,_New_York_Stock_Exchange_(Highsmith_LOC)_(6718386525).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Carol M. Highsmith",
-        "license": "Public domain",
-        "description": "Believed to be in Public Domain From <a href=\" https://www.loc.gov/rr/print/catalog.html \" rel=\"nofollow\">Library of Congress, Prints and Photographs Collections</a>. More on copyright: <a href=\" https://www.loc.gov/rr/print/res/rights.html \" rel=\"nofollow\">www.loc.gov/rr/print/res/rights.html</a> ______________________ CREATIVE COMMONS For information from Creative Commons on proper licensing for images believed to already be in the public domain please-- <a href=\" https://creativecommons.org/licenses/publicdomain/v \" rel=\"nofollow\">click here</a>. By using this image from this site, you are acknowledging that you have read all the information in this description and accept responsibility for any use by you or your representatives. You are accepting responsibility for conducting any additional due diligence that may be necessary to ensure your proper use of this image. ________________ PUBLIC DOMAIN Based on information from the source, this image is believe to be in the public domain. It is up to the user to make their own determination. Additional information is provided below, usually the entire online file, to assist you in doing so. Public domain images SHOULD NOT BE ATTRIBUTED TO PINGNEWS. Please attribute the repository and the originator. If you can add \"via pingnews\" or a link back to this site it is appreciated. While it may appear with this image, the attribution license does not apply to pingnews in this instance as we are neither the creator of nor the archive for this work. _________________________ LIBRARY OF CONGRESS INFORMATION Trading Floor, New York Stock Exchange Title: Trading floor, New York Stock Exchange, New York, New York Creator(s): Highsmith, Carol M., 1946-, photographer Date Created/Published: [between 1980 and 2006] Medium: 1 transparency : color ; 4 x 5 in. or smaller. Reproduction Number: LC-DIG-highsm-11972 (digital file from original) LC-HS503-711 (color film transparency) Rights Advisory: No known restrictions on publication. Call Number: LC-HS503- 711 c-P&P(ONLINE) Repository: Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA <a href=\" http://hdl.loc.gov/loc.pnp/pp.print \" rel=\"nofollow\">hdl.loc.gov/loc.pnp/pp.print</a> Notes: Title, date, and keywords provided by the photographer. Credit line: Photographs in the Carol M. Highsmith Archive, Library of Congress, Prints and Photographs Division. Gift and purchase; Carol M. Highsmith; 2011; (DLC/PP-2011:124). Forms part of the Carol M. Highsmith Archive. Subjects: United States--New York (State)--New York. America. Format: Transparencies--Color--1980-2010. Collections: Highsmith (Carol M.) Archive Part of: Highsmith, Carol M., 1946- Carol M. Highsmith Archive. Bookmark This Record: <a href=\" https://www.loc.gov/pictures/item/2011630168/ \" rel=\"nofollow\">www.loc.gov/pictures/item/2011630168/</a> View the MARC Record for this item. Rights assessment is your responsibility.",
-        "label": "Illustrative photo",
-        "matched_query": "New York Stock Exchange trading floor"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "c000fd2097615c5f87a4e40f",
@@ -3764,17 +3686,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T12:49:35+00:00",
       "desk_priority": 46,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "c93649854dc2a81e5384ee03",
@@ -3800,17 +3712,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T12:47:29+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "875d34fba236043dc29d0edd",
@@ -3849,17 +3751,20 @@
       "source_type": "Google News",
       "published_at": "2026-10-15T12:38:55+00:00",
       "desk_priority": 52,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alaskan_grocery_store.jpg/1280px-Alaskan_grocery_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Alaskan_grocery_store.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "vofuth",
-        "license": "CC BY 2.0",
-        "description": "Refrigerated and frozen food coolers with no grills. \"This store in Homer, Alaska had reasonable prices compared to the one in Glenallen, Alaska ... but I wonder if their cost saving measures aren't shortsighted.\"",
-        "label": "Illustrative photo",
-        "matched_query": "grocery shopping prices United States"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1b8a704940547d7816f7252c",
+      "title": "The Latest: AP-NORC poll: Strong majority of voters believes Trump is failing at home and abroad - WSLS",
+      "summary": "The Latest: AP-NORC poll: Strong majority of voters believes Trump is failing at home and abroad WSLS",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPY1Y4V2NLQlFLbWlmdzJPdVZFUVVCc2Z3WE1SYWVMTFM3RHRMeHd6OW9ZLWg1WUxqcmd4dmlBYk4wU1Q1cS1pRVpqVmZRM0FFUW1PTkJTRGpzek5LaXhkWTlPREUzaFBsdWl0YTFTci1VX0RxYWRxSDdLZm1NZGh3MVFpZUlfUy1HMmNkaUNfUE1ZVlpyY2FUWFdaa0d2YkNOT25VVWZiWjlWTTZTcWFtdUs0Uml6ckp3djlEd2RkazBVakNRLS1TY1Y1YTdYU1owSTM2dUR4Snk?oc=5",
+      "source": "WSLS",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-15T12:38:35+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "a30e1c18b0a90927b5e88863",
@@ -4056,350 +3961,15 @@
       "desk_priority": 71,
       "selection_type": "automatic",
       "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Fall-sown_oat_production_%28IA_CAT87203993%29.pdf/page1-960px-Fall-sown_oat_production_%28IA_CAT87203993%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Fall-sown_oat_production_(IA_CAT87203993).pdf",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Snapshot_of_Taipei%2C_Taiwan_Skyline_2016.jpg/1280px-Snapshot_of_Taipei%2C_Taiwan_Skyline_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Snapshot_of_Taipei,_Taiwan_Skyline_2016.jpg",
         "source": "Wikimedia Commons",
-        "creator": "Stanton, T. R. Coffman, Franklin A.",
-        "license": "Public domain",
-        "description": "Subjects: Oats",
+        "creator": "bryan...",
+        "license": "CC BY-SA 2.0",
+        "description": "Snapshot of the Taipei, Taiwan Skyline photographed in 2016",
         "label": "Illustrative photo",
-        "matched_query": "Tech Futures Fall"
+        "matched_query": "Taipei Taiwan skyline"
       }
-    },
-    {
-      "id": "0bf2a2549eca46641619c27e",
-      "title": "There’s a ‘monstrous bull market’ developing under the surface of the S&P 500. This hedge-fund manager tells you where it’s at. - MarketWatch",
-      "summary": "There’s a ‘monstrous bull market’ developing under the surface of the S&P 500. This hedge-fund manager tells you where it’s at. MarketWatch",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOThvUE9ES3JtNksySS1QMkpCN2hzS3lHdzZkNDZFYlV2akZCbnJSYU8yX2xtRG9KSmo3aFJ6UVBZRVBGRjJBTmlQc1NBVGhmWmlmdzZza0VrQ1R4TEt2cUFNNWotWVYtSGozQjl6cDJ0V0MycFp2MTIzeDIwNGRrU1dDQmh1cVI1bmJTeTBKWU1lejlWX2JmbDFJMzhhaEd3aVZleTV3S1JfMmo2Vm15dS1UQ0xobUxjeXgxOGJlNUl0Q3hpNWQ2eFRKS3RkNTl5M2l6MUdwMG9MWmlLX2hUMXVNZ0R3OVZiTFkycGo5MmxNdWRacllJ?oc=5",
-      "source": "MarketWatch",
-      "feed_id": "marketwatch",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:08:00+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6bb819bcb8a95979209b2ed4",
-      "title": "Meghan makes first official public appearance since moving back to UK",
-      "summary": "The Duke and Duchess of Sussex are taking part in a series of events linked to their charitable work in Nottingham.",
-      "url": "https://www.bbc.co.uk/news/articles/c6gelgd1lxv2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:06:51+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "81d8e71e1726dd5c4480307e",
-      "title": "Hypersonic missiles highlight arms race on Korean Peninsula",
-      "summary": "Both South and North Korea have tested weapons feared by military planners for their speed and ability to maneuver in flight.",
-      "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:02:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8c34f137b64067c79e033deb",
-      "title": "Cboe to expand options trading hours for major stocks and ETFs",
-      "summary": "Cboe will offer trading on 24 of the most actively traded companies and five ETFs between 7:30 a.m. and 9:25 a.m. ET and 4:00 p.m. to 4:15 p.m. ET.",
-      "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:01:59+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ce8f6551d76dc53cb81383fc",
-      "title": "Lost piece of Jesus' world emerges after 2,000 years in extraordinary discovery - Fox News",
-      "summary": "Lost piece of Jesus' world emerges after 2,000 years in extraordinary discovery Fox News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTNua3lIQlBrNWFUaklMQy1IQ1hkVkhaSVhmLTFLM2tVRzZvSTlYaGhvdXlGMklXaTlIcDhEeFJobXBlbDIwRmNXaGVLdy04NFZvY2p4RXk5dm5RRDNCZUVobThyR18xMHZwd1ZSZVJ2emlvNUdKRzkxa2gza0Y5cm1kbGpqeGpGUVAyU19idzdJb3RBMUh4UWJreGvSAaIBQVVfeXFMT2JNc1lra2t5TlNqZXlfZl9sYmsyU09tRjh2QnJaMG9YaVp6QmVXLXVOY1FpTjVPSmJaYi0xcEdhQXJOSWRsQm81U2pRYjRreGtOaDdrWlVUWHlCeGFEUmpyTlZMQ3lpU1kwUnh5Z1FfOEJxRXowX05KMUZsZGJSNHVLWUV6YUVzdXhBS0p2enVJNjcyYVpLNUppMHZGdHB6eE1B?oc=5",
-      "source": "Fox News",
-      "feed_id": "fox",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:00:35+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b8b2405b945bf3b34e5772f3",
-      "title": "Chinese national accused of poisoning cancer researcher had laptops seized while fleeing U.S.: cops - Fox News",
-      "summary": "Chinese national accused of poisoning cancer researcher had laptops seized while fleeing U.S.: cops Fox News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOVg1b29lWTZUWTZyZHJRLXBlWENnUWxhSWp2SHBta0k5MWF5dFBhbDdXcGdGWDhUcnh0VlJzbURieXJ1aUdWTGwxcHpTazNCMHZBSzBFTkdFMllrZERhd2kyZUxHdUFyTXZoMUYtSTMxeG1rQkFrNXprQVlaQ0J3M1hiRDVQNTZaTkpVM3g4cjcxdTNYQUE2YUxTUnFva0VwbU5sZThJOG9ieFJMQkFN0gG0AUFVX3lxTE1DZ1JqbkM5N0ZUTXBpUUZqcnNSZ28tUmRZaFhvakZvZjl4d3A5bVFsWGVLb0tBNFVobUhrQ2pnQm9FLU9Ddkl6UVFjWFM1bmlLTEN2cXVuZ0l4VkhEbjEwb1JMV0x2MkpzVmt2LXl1dmhPZ1ZNZVdEY2xWbzhiVU5KYi00aXZ0LXhSM3BCazBrcTR5N0txakVWUEktWmNidVN2SmhEc2NEbWhSLWJ2ZlFjZFVibw?oc=5",
-      "source": "Fox News",
-      "feed_id": "fox",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:00:04+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e407e4438cc9c69dbc4659d9",
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
-      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "02cffdf06858f68e4973b5c6",
-      "title": "America’s China lesson is reshaping its India policy - The Hill",
-      "summary": "America’s China lesson is reshaping its India policy The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZks5RG1Qc0dGdUhPekg2QUdDeTV2RTVHazBYeHBKOG53UWV2Z2o0RWZyNm5PdU5rSVNKeDN2bTdhUVVCWE1KSnJDdlZZVHRLZjFKYVZvV2Q3QVBJLWxZaHhCVnppMzZhOVJVWDhWUV9LZVNYSlRscUU0LXllZmw0WNIBhgFBVV95cUxQZ2VOUExRR1VyamdQcHlsQ1NzeDBwYzI0N19UN2dPeFFFS3RlT2NkblNJVWtkY2gxR2FfU0kwTjdIUi02SVp3dXpjRlpoNk52ZlpNaUMzQnczV20ycU1JZG9MUlhCUGtJbkZlbHpSQ2J3Tkh4WDN3YTJDazdvNVhIMG45NEhDZw?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "89292c0f119b0869bbc0a4f1",
-      "title": "San Diego Man Pleads Guilty to Tax Evasion",
-      "summary": "A California man pleaded guilty yesterday to tax evasion.",
-      "url": "https://www.justice.gov/opa/pr/san-diego-man-pleads-guilty-tax-evasion",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 41,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "bbed3d884e77e45cd18b8732",
-      "title": "Owner of Health Care Software Company Sentenced to 19 Years in Prison for $1B Medicare Fraud",
-      "summary": "A Kansas CEO and owner of an internet platform was sentenced yesterday to 19 years in prison for his role in operating a platform that generated false doctors’ orders and prescriptions to defraud Medicare and other federal health care benefit programs out of more than $1 billion.",
-      "url": "https://www.justice.gov/opa/pr/owner-health-care-software-company-sentenced-19-years-prison-1b-medicare-fraud",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 41,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "12c9e0af788a59b7ac81da70",
-      "title": "Illegal Alien from Mexico Sentenced for International Conspiracy to Smuggle Aliens from Canada into United States",
-      "summary": "Edgar Sanchez-Solis, 27, an illegal alien from Mexico, was sentenced today to five years in prison for his role in an international human smuggling conspiracy that illegally brought aliens from Mexico and Central and South America across the northern border with Canada into the United States.",
-      "url": "https://www.justice.gov/opa/pr/illegal-alien-mexico-sentenced-international-conspiracy-smuggle-aliens-canada-united-states",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 41,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a5cfc5952e0d7b0f9199f3dd",
-      "title": "DOJ, ATF, Law Enforcement Partners Conclude Operation Show Me Justice",
-      "summary": "The Department of Justice, Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), U.S. Marshals Service (USMS), U.S. Attorney’s Office for the Eastern District of Missouri, and others today announced the conclusion of Operation Show Me Justice, an ATF-led high‑impact violent crime enforcement surge in St. Louis.",
-      "url": "https://www.justice.gov/opa/pr/doj-atf-law-enforcement-partners-conclude-operation-show-me-justice",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 41,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7007086d93da95f13cbe51bb",
-      "title": "Florida Man Pleads Guilty to Illegal Opioid Distribution Conspiracy",
-      "summary": "A Miami, Florida man pleaded guilty yesterday for his role in a conspiracy to distribute over 87,000 oxycodone 30mg pills.",
-      "url": "https://www.justice.gov/opa/pr/florida-man-pleads-guilty-illegal-opioid-distribution-conspiracy",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 41,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "323db7a47d30b1cfe359f84c",
-      "title": "Ledger’s new hardware wallet is an Android phone without the phone",
-      "summary": "Ledger has announced its latest crypto-centric hardware effort, the Android-based Atom, a device that resembles a phone but is instead designed to be used alongside one. It arrives at a tricky time for Ledger, which has been forced to cease sales of some of its hardware across southeast Asia following hardware tampering in its supply […]",
-      "url": "https://www.theverge.com/tech/1011133/ledger-atom-hardware-wallet-crypto-security-android",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c07a9af3c9fccff99bb26417",
-      "title": "Amazon’s always-listening Bee wearable can now help you buy stuff",
-      "summary": "Last year, Amazon bought Bee, a relatively unknown startup with a $50 always-listening AI wearable that summarized every conversation you had. Today, the e-commerce giant is announcing two new Bee devices - and a new subscription to go with them. First is the $74.99 Bee Frontier, an updated version of the original Bee device. And […]",
-      "url": "https://www.theverge.com/tech/1011475/amazon-bee-frontier-eclipse-price-specs",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T12:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a2b7902c0838379b7f6d1549",
-      "title": "Key US voters say economy is getting worse ahead of midterms, exclusive poll finds - The Guardian",
-      "summary": "Key US voters say economy is getting worse ahead of midterms, exclusive poll finds The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSzZUX3puSnV6Q1E5OGE0SGtObWtXcTE2XzFPRTNwQ3Q1X2NkTnRrWUZwVW5PRVk0MkxIblBRM3pKN0lWZWhEalFITlNTcmlOeUh3SFFieGZtNHdqVDdneElFSnFpV0h6b3MwaXBwYTJBcG54S1ZXSWwwaHFNR0wyTWtLeG9xMWtwZlZBa1FZY3hROUot?oc=5",
-      "source": "The Guardian",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:58:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c821f2dd9b870f04cb88eefd",
-      "title": "What to know about Starshield, SpaceX's military-focused Starlink service",
-      "summary": "Elon Musk distinguished Starshield from Starlink, which he said could not be used for offensive military operations.",
-      "url": "https://www.cnbc.com/2026/10/15/what-is-starshield-spacex-starlink-military.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T11:54:43+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "adef13968b327f1ccef3e657",
-      "title": "White House Press Secretary Katie Zacharia Didn’t Pass Bar Exam",
-      "summary": "Zacharia has previously referred to herself as a lawyer in public appearances.",
-      "url": "https://www.wsj.com/business/media/white-house-press-secretary-katie-zacharia-didnt-pass-bar-exam-714a484e?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T11:53:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg/1280px-2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2026-09-09_construction_at_the_White_House_Washington_DC_12-38-13.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "On the right is the ongoing construction of the White House Ballroom, which replaces the East Wing. Towards the back right, portions of the new building reach two stories above ground. Directly in front of the White House is construction of a new helipad to support the latest version of Marine One for the president. The White House is directly behind it. 1600 Pennsylvania Ave NW, Washington, DC 20500. September 9, 2026.",
-        "label": "Illustrative photo",
-        "matched_query": "White House Washington DC"
-      }
-    },
-    {
-      "id": "988254ec5465c7de30a0136c",
-      "title": "Musk denies SpaceX restricted Starlink in Ukraine, blames U.S. government - upi",
-      "summary": "Musk denies SpaceX restricted Starlink in Ukraine, blames U.S. government upi",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQzBZdVB4TlNBUjR0T0tySkhrQ3FoZzlCSFZyY2pfQjJGS1R6QjVMdWZjMVFkc3MwdGxNVk10UUpVX1ZESlljYnoxWFY4VlBNUTZDbDZINWR1WFlQcWprRXVyaGVKQi1FLUtHUW9HUDA4OXI5V3JHX2ZjQUs4R0ZiajBkWHFfZ3JKSE1rdWlMUllMeEdzM0x0eTBxM2xpUS02aTBEUmJn0gGrAUFVX3lxTE1qR1NIYUtOaEtCZUJHTnlRek5PS0Y0VmxhQnJUbGZOOXdOU1ZTVDZnT0lwbEYxNF9Qck1KMnZJT2psZ04wOWVwVHBXQkUyc0dJQ182VEtRaEZTZ2VwM3pUQm5VMXlmS2dROXRQdXRobGM2RDdza1Y3ZnF3bmJtb0RlVlhFUldJQzNQM0NUb3l1bmZuOGtEVi00TzJmVkJwU0w1aGRGRWFFbWZFTQ?oc=5",
-      "source": "upi",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:52:51+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "af72a01cdfba0cedd7b48d86",
-      "title": "Nasdaq futures fall 1.1% as AI spending worries weigh on tech - Quartz",
-      "summary": "Nasdaq futures fall 1.1% as AI spending worries weigh on tech Quartz",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE84Y1B1UXVTdGhScmNISjNwdmM4WkpkSmd2d1Yza0NqUGN1N0JoWS1lLVY1TDYwRU5PQlBTd3V6ZElmLUFCYVdGeVZVQk5KUlZGMXdMYzNidm9vdWFxb0YwZVpDWnd5Vm9ELTExRlZua1N6MXV5Q1E?oc=5",
-      "source": "Quartz",
-      "feed_id": "markets",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:51:08+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "fb7a0401e23e5a159d9cfd11",
-      "title": "India says first phase of US trade deal nearly done, insists on edge over rivals - Reuters",
-      "summary": "India says first phase of US trade deal nearly done, insists on edge over rivals Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUGlKY3pLbkFHTmp2cnFiNnRlWWRyRWcxeU5HUnRrU3dWLVFIOFhHeUNiSTBoVmpQenB2a3FIU004b0dGelpMUzJoNzR4QkdLdTVLRF9OdHRqdDlxSDZ4Tnd2bWZIWkl0SUtXajdtdjFWYmNHcmZneFFwN05LdWNMZWNMdUVjNVZnSG9pQUNJYXd1dU1vNjhrc3RR?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:48:31+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e03c90b940d99514ecd52aa2",
-      "title": "Ranbir Kapoor, Sai Pallavi, Yash to unveil Ramayana’s international trailer at Bengaluru event as makers kick-off global campaign - WION",
-      "summary": "Ranbir Kapoor, Sai Pallavi, Yash to unveil Ramayana’s international trailer at Bengaluru event as makers kick-off global campaign WION",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZWxnNmREV0NOS1VKYk1IUVZqTXEtaUFtZjI4SDJicW9lYy1KNGx6TlFNMFB2SWVkTllWSVM0a3JYQzE4SkdPMmhfWE8wYm5PeWhJUmJ2WGJGVkFyTlFBMHgtZkxQUUl0RGhSMEhwbUhFLXFTOERhOF90QkZzSDUwWDhWVUNBcTV3d3pxUHNycXc3UlZOeHJvWnBXZ0MxQzhyWmRmWmJlVy1hcmgtb3BSM0FwTmFwTk9LT3hPSEdEbUxyRGp5S2lvUGpoUUZia1ZpWGRlaVMzeURwbjRJRnlaT29ZOW1LazJzV0NpMVNpQ2pncWZxbkpkZm1MMnNwTFdfRldGLVR4aTg1VXk0UTU0c2NWcTA1YTEt0gGeAkFVX3lxTE5zWFVRVWJPQ0Z6Skc3ZVQydm1wNklPRFhjZjlzS004ZFdSb1hJN0xmUV9DV3NqZzkza3c5aHZ6THVkdDBBLXhjcUtCS2ZvYUpCSHk2a21ZTXNJLWxnT2VxTm10cHR0SU1wOEFNc0EtVzFLYk5DY1B3WDhydDJfUW44T0dZQ09OR1F0M0cwOV93OVhPalU3dklKQ1M3MzRlUjEyZXUtaUxNWG5nNHQ5MC1wbkNCemg5WTR3X1RmMTFxZ0I5NE42VHZqTERrSzBlaTE2ZGs5NmpFd1RiazdleUJYLVRkS3lSSVk3MGJQVmlwSU9MSjdrZFd5aUN3VG9NZUxwUEZ3dm9ZbWtrUDFhN21jek1nSDZaQVpVVzVReWc?oc=5",
-      "source": "WION",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:48:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2987ca287cb42acf55575dd8",
-      "title": "Ukrainians fear US intelligence cuts as Russian strikes intensify",
-      "summary": "Reduced missile warnings increase threat to civilians as Trump pushes an 'energy ceasefire' and peace negotiations.",
-      "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T11:45:39+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1ecc552f7e42420468ebaabb",
-      "title": "US-Iran stalemate: What are Trump’s next military options?",
-      "summary": "Trump has ruled out attacks before the midterms. Analysts weigh what he could do next, and at what cost.",
-      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T11:41:05+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7e361d8919f9ccf3e480a505",
-      "title": "Kimberly Guilfoyle steps down as US ambassador to Greece amid donor controversy - Scripps News",
-      "summary": "Kimberly Guilfoyle steps down as US ambassador to Greece amid donor controversy Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPejYxbmZ2cktub21jdGJNOWJ2bmxmOUdQdXJaMTAxVTFQVjkxYnJtc0RpQmVva3RQNjJBOC1XSFYzamZIbERORy1Scks1TjZYaVBldldxSUpfMGdVVmIxQXM0UlQ2Qk9KcmFnTUhaUjVub3JHTjdkOVh2cFBzcGtJNE1nSXluMnBaRDJPbmJ5ZjdZamxMV1ZxbnZ0LXJHeWFKWlZEQjE1Qm5sYUdFU3pWYkpzYUNEME96dklnZHg4empvUHNJSlJFbQ?oc=5",
-      "source": "Scripps News",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-15T11:37:58+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
     }
   ]
 }
