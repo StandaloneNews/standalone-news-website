@@ -22,6 +22,14 @@ TARGET = ROOT / "data" / "news.json"
 RSS_OUT = ROOT / "feed.xml"
 UTC = dt.timezone.utc
 
+# Keep a larger, still bounded headline archive for the public news wire.
+# More recent stories remain first, and publication/attribution checks are unchanged.
+MAX_PER_FEED = 20
+MAX_HEADLINES = 320
+MAX_PER_OUTLET = 14
+MAX_PER_CATEGORY = 85
+MAX_RSS_ITEMS = 100
+
 
 def google(query: str):
     return "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q":query,"hl":"en-US","gl":"US","ceid":"US:en"})
@@ -196,7 +204,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             'published_at':published.isoformat(timespec='seconds').replace('+00:00','Z'),
             'id':__import__('hashlib').sha256(link.encode('utf-8')).hexdigest()[:20]
         })
-        if len(out)>=12:break
+        if len(out)>=MAX_PER_FEED:break
     return out
 
 
@@ -216,7 +224,7 @@ def build_feed(items,updated):
       '<description>Attributed news headlines with links to their reporting sources</description>',
       '<language>en-us</language>',
       f'<lastBuildDate>{email.utils.format_datetime(updated)}</lastBuildDate>']
-    for a in items[:50]:
+    for a in items[:MAX_RSS_ITEMS]:
         pub=email.utils.format_datetime(dt.datetime.fromisoformat(a['published_at'].replace('Z','+00:00')))
         lines+=['<item>',f'<title>{u(a["title"])}</title>',f'<link>{u(a["url"])}</link>',
            f'<guid isPermaLink="false">{u(a["id"])}</guid>',f'<pubDate>{pub}</pubDate>',
@@ -256,7 +264,7 @@ def main():
     def add(story, reserve=False):
         if story['id'] in selected_ids:return False
         src=story['source'].strip().casefold()
-        if not reserve and (outlet_counts.get(src,0)>=9 or category_counts.get(story['category'],0)>=55):return False
+        if not reserve and (outlet_counts.get(src,0)>=MAX_PER_OUTLET or category_counts.get(story['category'],0)>=MAX_PER_CATEGORY):return False
         selected.append(story);selected_ids.add(story['id'])
         outlet_counts[src]=outlet_counts.get(src,0)+1
         category_counts[story['category']]=category_counts.get(story['category'],0)+1
@@ -272,12 +280,12 @@ def main():
     # First give each available publisher room to appear, even if many recent
     # stories came from the same category. Then fill by freshness up to quotas.
     for story in clean:
-        if len(selected)>=180:break
+        if len(selected)>=MAX_HEADLINES:break
         if outlet_counts.get(story['source'].strip().casefold(),0)<2:
             add(story,reserve=True)
 
     for story in clean:
-        if len(selected)>=180:break
+        if len(selected)>=MAX_HEADLINES:break
         add(story)
     selected.sort(key=lambda x:x['published_at'],reverse=True)
     payload={'site':'Standalone News','updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'), 'items':selected}
