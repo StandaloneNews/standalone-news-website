@@ -25,6 +25,8 @@ FEEDS = json.loads((ROOT / 'scripts' / 'desk_feeds.json').read_text(encoding='ut
 OUTPUT = ROOT / 'data' / 'desk.json'
 MAX_BYTES = 2_000_000
 MAX_ITEMS = 18
+# More historical headlines for search and Load More; feature selection stays curated.
+MAX_STORED_HEADLINES = 420
 MAX_AGE_HOURS = 72
 USER_AGENT = 'StandaloneNewsDesk/1.1 (+https://standalonenews.com)'
 COMMONS_API = 'https://commons.wikimedia.org/w/api.php'
@@ -247,7 +249,7 @@ def select(results: list[dict], previous: list[dict], now: datetime) -> tuple[li
         chosen.append(row)
         sources[row.get('source')]=sources.get(row.get('source'),0)+1
         cats[row.get('category')]=cats.get(row.get('category'),0)+1
-    return chronological[:300], chosen
+    return chronological[:MAX_STORED_HEADLINES], chosen
 
 
 def strip_meta(value: str) -> str:
