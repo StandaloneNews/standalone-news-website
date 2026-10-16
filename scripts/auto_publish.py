@@ -388,17 +388,19 @@ def render_html(article):
     when=esc(article['published_at']);published=esc(article['source_published_at'])
     jsonld={'@context':'https://schema.org','@type':'Article','headline':article['headline'],
       'description':article['summary'],'datePublished':article['published_at'],'dateModified':article['published_at'],
+      'inLanguage':'en-US','isAccessibleForFree':True,
       'author':{'@type':'Organization','name':'Standalone News Automated Desk'},
-      'publisher':{'@type':'Organization','name':'Standalone News','url':BASE},'mainEntityOfPage':url,
-      'citation':[article['source_url']]}
+      'publisher':{'@type':'Organization','name':'Standalone News','url':BASE,'logo':{'@type':'ImageObject','url':BASE+'/assets/sn-brand-logo.png'}},
+      'mainEntityOfPage':url,'citation':[article['source_url']]}
     structured=json.dumps(jsonld,ensure_ascii=False).replace('<','\\u003c')
     body='\n'.join(f'<p>{esc(p)}</p>' for p in article['paragraphs'])
+    visible_date=esc(article['published_at'][:16].replace('T',' ')+' UTC')
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0d2338"><title>{title} | Standalone News</title>
 <meta name="description" content="{dek}"><link rel="canonical" href="{esc(url)}">
 <meta property="og:type" content="article"><meta property="og:title" content="{title}"><meta property="og:description" content="{dek}">
-<meta property="og:url" content="{esc(url)}"><meta name="twitter:card" content="summary">
+<meta property="og:url" content="{esc(url)}"><meta property="og:site_name" content="Standalone News"><meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="../../styles.css"><link rel="icon" href="../../assets/favicon.png">
 <script type="application/ld+json">{structured}</script></head>
 <body><a class="skip-link" href="#article">Skip to article</a>
@@ -406,23 +408,43 @@ def render_html(article):
 <main id="article" class="container editorial-article">
 <p class="overline">OFFICIAL SOURCE / AUTOMATED EXPLAINER</p>
 <h1>{title}</h1><p class="editorial-dek">{dek}</p>
-<p class="editorial-byline">Standalone News Automated Desk · <time datetime="{when}">{when[:10]}</time></p>
+<p class="editorial-byline">Standalone News Automated Desk · <time datetime="{when}">{visible_date}</time></p>
 <div class="editorial-notice" role="note"><strong>AI-assisted article — not reviewed by a human.</strong> This explainer was generated automatically from an official agency publication. It is not independent reporting or legal, medical or financial advice. Verify important details using the original record linked below.</div>
 <section class="editorial-body" aria-label="What the official announcement says">{body}</section>
 <section class="editorial-sources" aria-labelledby="sources-heading"><h2 id="sources-heading">Original source</h2><p>{agency} · Official document published {published[:10]}</p><p><a href="{ref}" target="_blank" rel="noopener noreferrer">Read the full source document (opens in a new tab) ↗</a></p></section>
-<p class="editorial-corrections">See an error? <a href="/about.html">Read our editorial standards and contact information.</a></p></main>
+<p class="editorial-corrections">See an error? Read our <a href="/standards.html">editorial standards</a> or <a href="/contact.html">request a correction</a>.</p></main>
 <footer class="site-footer"><div class="container footer-bottom"><a href="/">Standalone News</a><a href="/accessibility.html">Accessibility</a><a href="/articles/">Explainers</a></div></footer></body></html>'''
 
 def write_listing(records):
     newest=sorted(records,key=lambda a:a['published_at'],reverse=True)
     tiles='\n'.join(f'<article class="editorial-tile"><p class="overline">{esc(a["category"])} · {esc(a["published_at"][:10])}</p><h2><a href="/{esc(a["path"])}">{esc(a["headline"])}</a></h2><p>{esc(a["summary"])}</p><p class="editorial-source-label">Source: {esc(a["source"])}</p></article>' for a in newest[:90])
-    body=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News Explainers | Standalone News</title><meta name="description" content="Original, clearly attributed AI-assisted explainers based on official U.S. government documents."><link rel="canonical" href="{BASE}/articles/"><link rel="stylesheet" href="../styles.css"><link rel="icon" href="../assets/favicon.png"></head><body><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="container header-main"><a class="site-brand" href="/"><img src="/assets/sn-brand-logo.png" alt="" width="52" height="52"><span class="brand-lockup"><strong>STANDALONE</strong><span>NEWS</span></span></a><a class="header-utility" href="/">Latest news ↗</a></div></header><main id="main" class="container inner-page"><p class="overline">OFFICIAL-SOURCE COVERAGE</p><h1>News <em>explainers.</em></h1><p>Short AI-assisted explainers based on official agency announcements. Each article identifies its source and discloses that it is automatically generated and not human-reviewed.</p><div class="editorial-grid">{tiles or '<p>Our first sourced explainers will appear here when they pass publication checks.</p>'}</div></main><footer class="site-footer"><div class="container footer-bottom">© Standalone News · <a href="/about.html">Editorial standards</a></div></footer></body></html>'''
+    body=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News Explainers | Standalone News</title><meta name="description" content="Original, clearly attributed AI-assisted explainers based on official U.S. government documents."><meta property="og:type" content="website"><meta property="og:title" content="News Explainers | Standalone News"><meta property="og:description" content="Source-linked, AI-assisted explainers of official government documents."><meta property="og:url" content="{BASE}/articles/"><meta property="og:image" content="{BASE}/assets/standalone-news-banner.png"><link rel="canonical" href="{BASE}/articles/"><link rel="stylesheet" href="../styles.css"><link rel="icon" href="../assets/favicon.png"></head><body><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="container header-main"><a class="site-brand" href="/"><img src="/assets/sn-brand-logo.png" alt="" width="52" height="52"><span class="brand-lockup"><strong>STANDALONE</strong><span>NEWS</span></span></a><a class="header-utility" href="/">Latest news ↗</a></div></header><main id="main" class="container inner-page"><p class="overline">OFFICIAL-SOURCE COVERAGE</p><h1>News <em>explainers.</em></h1><p>Short AI-assisted explainers based on official agency announcements. Each article identifies its source and discloses that it is automatically generated and not human-reviewed.</p><div class="editorial-grid">{tiles or '<p>Our first sourced explainers will appear here when they pass publication checks.</p>'}</div></main><footer class="site-footer"><div class="container footer-bottom">© Standalone News · <a href="/about.html">Editorial standards</a></div></footer></body></html>'''
     (ARTICLES/'index.html').write_text(body,encoding='utf-8')
 
 def write_sitemap(records):
     root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-    for path in ['','about.html','accessibility.html','articles/']+[r['path'] for r in records]:
-        url=ET.SubElement(root,'url');ET.SubElement(url,'loc').text=BASE+'/'+path
+    # Only canonical, indexable site pages and original on-site explainers.
+    # Never include third-party RSS links, email preference URLs or URL parameters.
+    public_pages=('', 'about.html', 'standards.html', 'contact.html',
+                  'accessibility.html', 'discuss.html', 'personalize.html',
+                  'articles/', 'privacy.html', 'terms.html')
+    for path in public_pages:
+        url=ET.SubElement(root,'url')
+        ET.SubElement(url,'loc').text=BASE+'/'+path
+    for article in records:
+        path=article.get('path','')
+        if not isinstance(path,str) or not re.fullmatch(r'articles/[a-z0-9][a-z0-9-]*\\.html',path):
+            continue
+        url=ET.SubElement(root,'url')
+        ET.SubElement(url,'loc').text=BASE+'/'+path
+        publication=article.get('published_at','')
+        if isinstance(publication,str):
+            try:
+                dt.date.fromisoformat(publication[:10])
+            except ValueError:
+                pass
+            else:
+                ET.SubElement(url,'lastmod').text=publication[:10]
     ET.indent(root)
     (ROOT/'sitemap.xml').write_bytes(b'<?xml version="1.0" encoding="utf-8"?>\n'+ET.tostring(root,encoding='utf-8'))
 
