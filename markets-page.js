@@ -231,10 +231,48 @@ function initEconomicCalendar(){
     observer.observe(host);
   }else render();
 }
+function initEarningsLookup(){
+  const form=$('earnings-search-form');
+  const input=$('earnings-ticker');
+  const frame=$('earnings-company-widget');
+  const symbolLabel=$('earnings-selected-symbol');
+  const credit=$('earnings-source-link');
+  const status=$('earnings-lookup-feedback');
+  if(!form||!input||!frame||!symbolLabel||!credit||!status)return;
+  const normalizeSymbol=value=>{
+    const symbol=String(value||'').trim().toUpperCase().replace(/^NASDAQ:|^NYSE:|^AMEX:/,'');
+    return /^[A-Z][A-Z0-9.-]{0,10}$/.test(symbol)?symbol:null;
+  };
+  const showSymbol=value=>{
+    const symbol=normalizeSymbol(value);
+    if(!symbol){
+      status.textContent='Enter an S&P 500 stock symbol, such as AAPL, NVDA, or MSFT.';
+      input.focus();
+      return;
+    }
+    status.textContent='';
+    input.value=symbol;symbolLabel.textContent=symbol;
+    // Provider-hosted, no scripting or user data is shared with the iframe.
+    frame.title=symbol+' next earnings and SEC filing history by Quant500';
+    frame.src='https://quant500.com/widget/resultados/'+encodeURIComponent(symbol)+'?lang=en';
+    credit.href='https://quant500.com/earnings-date/'+encodeURIComponent(symbol);
+    credit.textContent='Quant500 — '+symbol+' earnings dates ↗';
+    document.querySelectorAll('[data-earnings-symbol]').forEach(btn=>{
+      const selected=btn.dataset.earningsSymbol===symbol;
+      btn.classList.toggle('selected',selected);
+      btn.setAttribute('aria-pressed',String(selected));
+    });
+  };
+  form.addEventListener('submit',event=>{
+    event.preventDefault();showSymbol(input.value);
+  });
+  document.querySelectorAll('[data-earnings-symbol]').forEach(btn=>btn.addEventListener('click',()=>showSymbol(btn.dataset.earningsSymbol)));
+}
 function init(){
   const d=new Date();$('market-clock').textContent=new Intl.DateTimeFormat('en-US',{timeZone:'UTC',month:'short',day:'numeric',year:'numeric'}).format(d)+' · DATA VIA TRADINGVIEW';
   initCharts();
   initEconomicCalendar();
+  initEarningsLookup();
   document.querySelectorAll('[data-news]').forEach(button=>button.addEventListener('click',()=>{
     state.kind=button.dataset.news;state.visible=8;
     document.querySelectorAll('[data-news]').forEach(other=>{
