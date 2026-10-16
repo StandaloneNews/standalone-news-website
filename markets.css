@@ -189,13 +189,13 @@ button{cursor:pointer}button:disabled{cursor:default;opacity:.55}
 .agency-links a:hover{background:#f0f6fa;border-color:#9fbfd2}
 .agency-links strong{font-size:12px;font-weight:900;color:#243f58}
 .agency-links span{color:#678194;font-size:10px;line-height:1.5}
-.earnings-widget-scroller{width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;overscroll-behavior-x:contain;background:#fff;padding:12px}
-.earnings-widget-frame{width:1000px;min-width:1000px;height:825px;border:0;display:block;background:#fff}
-.calendar-mobile-hint{display:none;margin:0;padding:8px 20px;color:#677f91;background:#fff;font-size:11px}
-.earnings-direct-links{display:flex;gap:11px 15px;align-items:center;flex-wrap:wrap;padding:18px 21px 21px;border-top:1px solid #e3eaf0}
-.earnings-direct-links>span{margin:0;flex:1 1 185px}
-.earnings-direct-links a{display:inline-flex;text-decoration:none;font-size:11px;font-weight:850;color:#276087;border:1px solid #d7e2ea;border-radius:6px;background:#f5f8fb;padding:11px 13px;white-space:nowrap}
-.earnings-direct-links a:hover{background:#e8f1f7}
+
+
+
+
+
+
+
 @media(max-width:950px){
  .agency-links{grid-template-columns:repeat(3,minmax(0,1fr))}
  .calendar-card-header{gap:14px}
@@ -211,15 +211,55 @@ button{cursor:pointer}button:disabled{cursor:default;opacity:.55}
  .agency-links{grid-template-columns:repeat(2,minmax(0,1fr))}
  .calendar-card-bottom{display:block;padding:13px 15px}
  .calendar-card-bottom a{display:inline-block;margin-top:10px}
- .earnings-widget-scroller{padding:9px}
- .calendar-mobile-hint{display:block}
- .earnings-direct-links{padding:14px;align-items:stretch}
- .earnings-direct-links>span{flex-basis:100%;margin-bottom:3px}
+
+
+
+
 }
 @media(max-width:420px){
  .calendar-jump-links a{font-size:10px;flex:1;padding:11px 8px}
  .calendar-card-header h3{font-size:25px}
  .agency-links a{padding:12px 10px;min-height:95px}
  .agency-links span{font-size:10px}
- .earnings-direct-links a{white-space:normal}
+
 }
+
+/* Earnings tracker: native responsive layout, provider-hosted S&P 500 dates */
+.earnings-explorer{background:#fff}
+.earnings-explorer-top{padding:24px 25px 22px;background:#f8fafc;border-bottom:1px solid #e1e9ef}
+.earnings-lookup{display:flex;align-items:end;justify-content:space-between;gap:24px}
+.earnings-lookup label{font-size:12px;font-weight:900;color:#223e55;line-height:1.5}
+.earnings-search-row{display:flex;max-width:460px;flex:1 1 390px}
+.earnings-search-row input{min-width:0;flex:1;width:100%;background:#fff;border:1px solid #c6d6e1;border-radius:7px 0 0 7px;padding:13px 15px;font-size:13px;color:#18334b;text-transform:uppercase}
+.earnings-search-row input::placeholder{text-transform:none;color:#8a9ba8}
+.earnings-search-row button{background:#ab2d48;border:1px solid #ab2d48;color:#fff;padding:13px 19px;white-space:nowrap;font-size:11px;font-weight:850;border-radius:0 7px 7px 0}
+.earnings-search-row button:hover{background:#8e203a}
+.earnings-shortcuts{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:19px}
+.earnings-shortcuts>span{font-size:10px;font-weight:900;letter-spacing:.12em;color:#73899b;margin-right:8px}
+.earnings-shortcut{background:#fff;border:1px solid #d4e0e9;border-radius:6px;padding:9px 12px;font-size:11px;font-weight:850;color:#385a76}
+.earnings-shortcut:hover{background:#edf4f9}
+.earnings-shortcut.selected{background:#17334e;border-color:#17334e;color:#fff}
+.earnings-lookup-feedback{font-size:12px;color:#9f2842;margin:0;padding:0 25px}
+.earnings-lookup-feedback:not(:empty){padding:14px 25px}
+.earnings-content{display:grid;grid-template-columns:minmax(0,.98fr) minmax(0,1fr);gap:23px;padding:26px 25px 28px;align-items:stretch}
+.earnings-selected-card{border:1px solid #dce5ec;border-radius:9px;min-width:0;background:#fff;overflow:hidden}
+.earnings-selected-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:19px 19px 11px}
+.earnings-card-eyebrow{font-size:9px;letter-spacing:.13em;color:#a62d47;font-weight:900}
+.earnings-selected-heading h4{font:700 25px/1.2 Georgia,serif;letter-spacing:-.025em;margin:7px 0 0;color:#173049}
+.earnings-source-badge{font-size:10px;font-weight:850;border:1px solid #d6e4ec;color:#486c83;background:#f4f8fb;padding:7px 10px;border-radius:16px;white-space:nowrap}
+.earnings-company-widget{width:100%;height:277px;display:block;border:0;background:#fff}
+.earnings-provider-credit{font-size:11px;color:#72899c;padding:13px 18px 16px;border-top:1px solid #e5edf2}
+.earnings-provider-credit a{color:#245d83;font-weight:850;text-decoration:none}
+.earnings-provider-credit a:hover{text-decoration:underline}
+.earnings-help{min-width:0;background:#f4f8fb;border:1px solid #dbe7ee;border-radius:9px;padding:23px 24px;display:flex;flex-direction:column}
+.earnings-help h4{font:700 24px/1.22 Georgia,serif;letter-spacing:-.03em;margin:12px 0 10px}
+.earnings-help p{font-size:12px;line-height:1.7;color:#5d788b;margin:0 0 15px}
+.earnings-week-link{display:flex;justify-content:space-between;gap:12px;align-items:center;background:#193b55;color:#fff;border-radius:7px;padding:15px 17px;text-decoration:none;font-size:12px;font-weight:850}
+.earnings-week-link:hover{background:#284f6e}
+.earnings-help-divider{height:1px;background:#dbe6ee;margin:23px 0}
+.earnings-wide-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.earnings-wide-links a{border:1px solid #cadce7;background:#fff;padding:11px 13px;border-radius:6px;font-size:11px;font-weight:850;color:#2d5a79;text-decoration:none}
+.earnings-wide-links a:hover{background:#e9f2f7}
+@media(max-width:850px){.earnings-lookup{display:block}.earnings-search-row{margin-top:12px;max-width:none}.earnings-content{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:720px){.earnings-explorer-top{padding:19px 15px}.earnings-shortcuts{gap:6px}.earnings-shortcuts>span{flex-basis:100%;margin-bottom:3px}.earnings-shortcut{padding:10px}.earnings-content{padding:15px;gap:15px}.earnings-selected-heading{padding:16px 14px 11px}.earnings-selected-heading h4{font-size:22px}.earnings-help{padding:21px 17px}.earnings-help h4{font-size:22px}.earnings-company-widget{height:290px}.earnings-lookup-feedback:not(:empty){padding:11px 15px}}
+@media(max-width:420px){.earnings-search-row button{padding:11px;font-size:10px}.earnings-search-row input{padding:12px 10px}.earnings-source-badge{font-size:9px;padding:6px}.earnings-selected-heading h4{font-size:20px}.earnings-company-widget{height:300px}}
