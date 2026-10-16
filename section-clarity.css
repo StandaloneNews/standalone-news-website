@@ -1,0 +1,266 @@
+/* Standalone News · Section Clarity edition · 2026-10-16
+   Homepage presentation only. Keeps the existing News Wire, market widgets,
+   discussions, account controls, and third-party scripts unchanged.
+   Design intent: blue-tinted reading surfaces, restrained warm contrast,
+   distinct white cards, comfortable mobile spacing and accessible contrast. */
+
+:root{
+  --clarity-ink:#172d44;
+  --clarity-muted:#506779;
+  --clarity-border:#d0dfea;
+  --clarity-blue:#ecf3f9;
+  --clarity-blue-light:#f3f7fa;
+  --clarity-blue-deep:#e6eff6;
+  --clarity-warm:#f7f3ec;
+  --clarity-shadow:0 9px 26px rgba(18,47,73,.065);
+}
+
+/* First read: give the main story and the latest rail their own defined edges. */
+.main-container .lead-story{
+  background:#f5f9fc;
+  border-color:#cfdee9;
+  box-shadow:0 8px 23px rgba(17,48,78,.052);
+  border-radius:13px;
+}
+.main-container .latest-card{
+  background:#fff;
+  border-color:#d5e1ea;
+  box-shadow:0 8px 23px rgba(17,48,78,.058);
+  border-radius:13px;
+}
+.main-container .latest-card .box-heading{
+  background:#f1f6fa;
+  border-bottom:1px solid #deE8f0;
+  border-radius:12px 12px 0 0;
+}
+.main-container .lead-content h1{color:#12283d}
+.main-container .latest-row h3 a{color:#19334a}
+
+/* Section headings across the page share a predictable rhythm. */
+.main-container .section-header{
+  align-items:end;
+  padding-bottom:17px;
+  border-bottom-color:#cbdae7;
+}
+.main-container .section-header h2{
+  color:var(--clarity-ink);
+  letter-spacing:-.028em;
+}
+.main-container .section-header .section-desc{
+  color:var(--clarity-muted);
+  line-height:1.7;
+  max-width:750px;
+}
+.main-container .section-header .section-eyebrow{
+  font-weight:900;
+  letter-spacing:.14em;
+}
+.main-container .section-header .see-all{
+  color:#1e587c;
+  font-weight:850;
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:4px;
+}
+.main-container .section-header .see-all:hover{color:#ac2d46}
+
+/* Editorial picks: softly tinted blue framing, with clean separate story cards. */
+#top-stories.section{
+  background:linear-gradient(150deg,#f1f7fb 0%,#eaf2f8 75%,#edf5fa 100%);
+  border:1px solid #d1e0eb;
+  border-radius:18px;
+  padding:clamp(20px,2.8vw,33px);
+  box-shadow:var(--clarity-shadow);
+}
+#top-stories .story-grid{gap:15px}
+#top-stories .story-card{
+  background:#fff;
+  border:1px solid #d7e3ec;
+  border-radius:10px;
+  box-shadow:0 3px 10px rgba(18,47,73,.045);
+}
+#top-stories .story-card:hover{
+  border-color:#b9cfdf;
+  box-shadow:0 9px 22px rgba(18,47,73,.095);
+}
+#top-stories .story-card h3{
+  color:#172e44;
+  line-height:1.43;
+}
+#top-stories .story-card .card-meta{
+  color:#566f83;
+}
+
+/* The Latest News Wire's existing blue shell is the design reference.
+   Preserve its carefully tuned filter controls, colors, and card layout. */
+#wire.wire-section{
+  box-shadow:0 12px 32px rgba(18,47,73,.09);
+  border-color:#cbdde9;
+}
+#wire .wire-story{
+  box-shadow:0 3px 12px rgba(18,47,73,.04);
+}
+
+/* Community invitation stays dark to create a clear chapter break. */
+#wire-discuss-cta{
+  box-shadow:0 13px 28px rgba(13,35,58,.13);
+}
+
+/* The market watchlist gets a blue surround; embeds themselves stay white. */
+#markets.markets-section{
+  background:linear-gradient(155deg,#f0f6fa,#eaf2f8);
+  border:1px solid #d0e0eb;
+  border-radius:18px;
+  padding:clamp(19px,2.8vw,32px);
+  box-shadow:var(--clarity-shadow);
+}
+#markets .markets-inner{
+  background:#fff;
+  border-color:#d0dfea;
+  box-shadow:0 5px 18px rgba(17,48,78,.055);
+}
+#markets .market-panel{background:#fff}
+#markets .market-note{
+  color:#496378;
+  line-height:1.65;
+}
+
+/* Two news desks: alternate blue and warm neutrals so they never blend. */
+.main-container .two-section-grid{
+  gap:18px;
+  align-items:stretch;
+  margin-top:21px;
+}
+.two-section-grid > #economy.section,
+.two-section-grid > #government.section{
+  min-width:0;
+  border-radius:17px;
+  padding:clamp(19px,2.3vw,28px);
+  box-shadow:var(--clarity-shadow);
+}
+.two-section-grid > #economy.section{
+  background:var(--clarity-blue-deep);
+  border:1px solid #cbdde9;
+}
+.two-section-grid > #government.section{
+  background:var(--clarity-warm);
+  border:1px solid #e3d9c9;
+}
+#economy .section-header{border-bottom-color:#bdcfdd}
+#government .section-header{border-bottom-color:#e0d2bf}
+#economy .category-list,
+#government .category-list{
+  background:#fff;
+  border:1px solid #d9e3eb;
+  border-radius:11px;
+  padding:3px 16px;
+  min-height:150px;
+}
+#government .category-list{border-color:#e6ddd0}
+#economy .list-article,
+#government .list-article{border-bottom-color:#e4eaf0}
+#economy .list-article:last-child,
+#government .list-article:last-child{border-bottom:0}
+#economy .list-article h3,
+#government .list-article h3{line-height:1.48}
+
+/* Original explainers: restful blue with crisp independent cards. */
+#explainers.explainer-section{
+  background:linear-gradient(135deg,#eaf2f8,#f0f6fa);
+  border:1px solid #ccdeeb;
+  border-radius:18px;
+  padding:clamp(21px,2.8vw,32px);
+  box-shadow:var(--clarity-shadow);
+}
+#explainers .explainer-card{
+  background:#fff;
+  border:1px solid #d3e1eb;
+  border-radius:11px;
+  box-shadow:0 3px 12px rgba(17,48,78,.045);
+}
+#explainers .explainer-card h3{line-height:1.42}
+
+/* Two context panels each have a clear role, not two identical white blocks. */
+.main-container .insight-grid{gap:17px;margin-top:26px}
+.main-container .insight-copy{
+  background:#f5f0e8;
+  border:1px solid #e4d7c5;
+  border-radius:15px;
+  box-shadow:0 5px 17px rgba(83,61,39,.04);
+}
+.main-container .side-explainer{
+  background:#eaf3f9;
+  border:1px solid #cedfeb;
+  border-radius:15px;
+  box-shadow:var(--clarity-shadow);
+}
+
+/* Keep the dark five-story brief and newsletter; distinguish the shapes. */
+#brief.brief-section{
+  border:1px solid #304d68;
+  border-radius:17px;
+  box-shadow:0 14px 34px rgba(12,33,54,.16);
+}
+#brief .brief-intro h2{color:#fff}
+#brief .brief-intro p{color:#d9e7f0}
+#newsletter.newsletter-band{
+  background:linear-gradient(120deg,#17354e,#0e2942 80%);
+  border:1px solid #395a75;
+  border-radius:17px;
+  box-shadow:0 12px 28px rgba(15,43,66,.12);
+}
+#newsletter h2{color:#fff}
+#newsletter p{color:#dbe7f0}
+#newsletter .newsletter-choice{color:#edf4fa}
+
+/* Closing section: quiet but distinct from the page background. */
+.main-container .about-band{
+  background:#eff5f9;
+  border:1px solid #d3e1eb;
+  border-radius:15px;
+  box-shadow:0 5px 16px rgba(18,47,73,.04);
+}
+.main-container .about-band h2{color:#182f45}
+.main-container .about-band p{color:#4d6679;line-height:1.7}
+
+/* Keep cards comfortable and every block visible on smaller screens. */
+@media(max-width:760px){
+  #top-stories.section,
+  #markets.markets-section,
+  #explainers.explainer-section{
+    padding:20px 16px;
+    border-radius:14px;
+  }
+  .two-section-grid > #economy.section,
+  .two-section-grid > #government.section{
+    padding:19px 16px;
+    border-radius:14px;
+  }
+  .main-container .two-section-grid{gap:14px}
+  #economy .category-list,#government .category-list{padding:3px 12px;min-height:0}
+  #top-stories .story-grid{gap:11px}
+  #top-stories .story-card{border:1px solid #d7e3ec;border-radius:10px;padding:12px;margin-bottom:9px}
+  #top-stories .story-card:last-child{margin-bottom:0}
+  #explainers .explainer-card{border-radius:10px}
+  #brief.brief-section,#newsletter.newsletter-band{border-radius:14px}
+  .main-container .insight-copy,.main-container .side-explainer{border-radius:13px}
+  .main-container .section-header .section-desc{font-size:13px;line-height:1.65}
+}
+@media(max-width:540px){
+  #top-stories.section,
+  #markets.markets-section,
+  #explainers.explainer-section{padding:17px 13px;border-radius:13px}
+  .two-section-grid > #economy.section,
+  .two-section-grid > #government.section{padding:17px 13px;border-radius:13px}
+  .main-container .section-header{padding-bottom:13px}
+  .main-container .section-header h2{line-height:1.18}
+  .main-container .latest-card .box-heading{border-radius:11px 11px 0 0}
+  #top-stories .story-card{padding:10px;margin-bottom:8px}
+  #top-stories .story-card h3{font-size:15px;line-height:1.44}
+  #economy .category-list,#government .category-list{padding:3px 11px}
+  #brief .brief-intro p{line-height:1.65}
+  .main-container .about-band{border-radius:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  #top-stories .story-card{transition:none}
+}
