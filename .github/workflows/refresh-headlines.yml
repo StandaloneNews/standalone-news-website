@@ -35,6 +35,7 @@ jobs:
           test -f data/articles.json || { echo 'Missing data/articles.json (it must not be at the repository root)'; exit 1; }
 
       - name: Refresh public RSS headlines
+        id: headline_refresh
         run: python scripts/update_news.py
 
       - name: Publish strictly sourced AI explainers (if enabled)
@@ -45,6 +46,9 @@ jobs:
         run: python scripts/auto_publish.py
 
       - name: Commit news and article data
+        # Keep successfully refreshed RSS headlines even if the optional AI step fails.
+        # Preserve a failed job status for non-transient AI/configuration failures.
+        if: ${{ !cancelled() && steps.headline_refresh.outcome == 'success' }}
         run: |
           git config user.name 'Standalone News Feed Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
