@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10263d">
+  <meta name="description" content="Track popular stocks and ETFs with interactive TradingView charts, search tickers, and browse the latest attributed market and economic news.">
+  <title>Markets: Interactive Stock Charts &amp; Financial News | Standalone News</title>
+  <link rel="canonical" href="https://standalonenews.com/markets.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Standalone News">
+  <meta property="og:title" content="Markets, Interactive Stock Charts &amp; Financial News | Standalone News">
+  <meta property="og:description" content="Search stock symbols, explore interactive market charts, and read source-linked financial headlines.">
+  <meta property="og:url" content="https://standalonenews.com/markets.html">
+  <meta property="og:image" content="https://standalonenews.com/assets/standalone-news-banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/favicon.png">
+  <link rel="apple-touch-icon" href="./assets/app-icon.png">
+  <link rel="stylesheet" href="./markets.css?v=1">
+  <link rel="alternate" type="application/rss+xml" title="Standalone News headlines" href="./feed.xml">
+  <script defer src="./markets-page.js?v=1"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to market charts and news</a>
+  <div class="utility"><div class="wrap utility-inner"><span><span class="signal" aria-hidden="true"></span> STANDALONE NEWS / MARKETS</span><span id="market-clock">DATA FROM TRADINGVIEW · TIMES IN UTC</span></div></div>
+  <header class="masthead"><div class="wrap masthead-inner">
+    <a class="brand" href="./index.html" aria-label="Standalone News home"><img src="./assets/sn-brand-logo.png" alt="" width="45" height="45"><span><strong>STANDALONE</strong><small>NEWS &nbsp; / &nbsp; THE MARKET DESK</small></span></a>
+    <a class="home-link" href="./index.html">← Today's headlines</a>
+  </div></header>
+  <nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-items">
+    <a href="./index.html">Home</a><a href="./index.html#wire">Latest news</a>
+    <a class="current" aria-current="page" href="./markets.html">Markets</a>
+    <a href="./articles/">Explainers</a><a href="./discuss.html?room=markets">Discuss markets</a><a href="./personalize.html">For you</a>
+  </div></nav>
+
+  <div class="tape-row"><div class="wrap"><div id="market-tape" class="tape-widget" aria-label="Selected market quotes"><div class="widget-loading">Loading market quotes…</div></div></div></div>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="page-title">
+      <div><p class="kicker">THE STANDALONE MARKET DESK</p><h1 id="page-title">Follow the market.<br><em>Understand the move.</em></h1><p class="hero-deck">Interactive charts and source-linked reporting, side by side. Search widely traded stocks, explore ETFs, and track the latest market and economic headlines.</p></div>
+      <div class="hero-side"><span class="hero-side-label">MARKETS IN FOCUS</span><strong>Charts.<br>Context.<br>Sources.</strong><span class="hero-side-small">Quotes can be delayed and depend on exchange coverage.</span></div>
+    </section>
+
+    <section class="chart-section" aria-labelledby="chart-title">
+      <div class="section-heading"><div><span class="eyebrow">INTERACTIVE PRICE CHART</span><h2 id="chart-title">Find your ticker<span class="accent">.</span></h2><p>Use a ticker below, or use TradingView's symbol search inside the chart to find companies by name and exchange.</p></div><span class="status-label"><span class="status-dot" aria-hidden="true"></span> TradingView chart</span></div>
+      <div class="chart-shell">
+        <div class="chart-controls">
+          <form id="ticker-form" role="search">
+            <label for="ticker-input">Stock / ETF ticker</label>
+            <div class="ticker-input-wrap"><input id="ticker-input" name="ticker" placeholder="AAPL or NASDAQ:NVDA" maxlength="35" autocomplete="off" spellcheck="false" aria-describedby="ticker-help" required><button type="submit">Show chart <span aria-hidden="true">↗</span></button></div>
+          </form>
+          <p class="input-note" id="ticker-help">Ticker symbols only. For company-name lookup, use the search field within the TradingView chart.</p>
+          <div class="quick-symbols" aria-label="Popular ticker shortcuts"><span>POPULAR</span>
+            <button type="button" data-symbol="NASDAQ:AAPL">AAPL</button><button type="button" data-symbol="NASDAQ:NVDA">NVDA</button><button type="button" data-symbol="NASDAQ:TSLA">TSLA</button><button type="button" data-symbol="NASDAQ:MSFT">MSFT</button><button type="button" data-symbol="AMEX:SPY">SPY</button><button type="button" data-symbol="NASDAQ:QQQ">QQQ</button><button type="button" data-symbol="AMEX:GLD">GLD</button><button type="button" data-symbol="NASDAQ:TLT">TLT</button>
+          </div>
+          <p class="ticker-feedback" id="ticker-feedback" role="status" aria-live="polite"></p>
+        </div>
+        <div id="advanced-chart" class="advanced-chart" aria-label="Interactive TradingView stock chart"><div class="widget-loading">Loading interactive chart…</div></div>
+        <div class="chart-credit"><span>Use the chart toolbar for timeframes, indicators and symbol search.</span><a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer nofollow">Charts powered by TradingView ↗</a></div>
+      </div>
+    </section>
+
+    <section class="overview-section" aria-labelledby="watch-title">
+      <div class="section-heading"><div><span class="eyebrow">MARKET WATCHLIST</span><h2 id="watch-title">A closer look<span class="accent">.</span></h2><p>Browse selected shares and funds. Tap a symbol in the watchlist, then use the main chart above to investigate its price history.</p></div><a class="subtle-action" href="https://www.tradingview.com/markets/" target="_blank" rel="noopener noreferrer">All markets on TradingView ↗</a></div>
+      <div class="watch-card">
+        <div class="watch-tabs" role="group" aria-label="Market watchlist groups">
+          <button type="button" class="watch-tab active" data-watch="stocks" aria-pressed="true">Stocks</button>
+          <button type="button" class="watch-tab" data-watch="indexes" aria-pressed="false">Index ETFs</button>
+          <button type="button" class="watch-tab" data-watch="commodities" aria-pressed="false">Commodity ETFs</button>
+          <button type="button" class="watch-tab" data-watch="bonds" aria-pressed="false">Bond ETFs</button>
+        </div>
+        <div id="watch-widget" class="watch-widget" aria-label="TradingView market watchlist"><div class="widget-loading">Loading watchlist…</div></div>
+        <div class="watch-footer"><span>ETF prices are not index values, futures quotes, spot commodity prices or Treasury yields.</span><span>Quotes may be delayed.</span></div>
+      </div>
+      <div class="official-links"><a href="https://www.tradingview.com/markets/futures/" target="_blank" rel="noopener noreferrer">Futures contracts ↗</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?type=daily_treasury_yield_curve" target="_blank" rel="noopener noreferrer">Official Treasury yields ↗</a><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" target="_blank" rel="noopener noreferrer">U.S. top gainers ↗</a></div>
+    </section>
+
+    <section class="news-section" aria-labelledby="news-title" id="market-news">
+      <div class="section-heading"><div><span class="eyebrow">FROM THE STANDALONE NEWS WIRE</span><h2 id="news-title">The markets in the news<span class="accent">.</span></h2><p>Recent source-linked headlines on stocks, the economy, the Federal Reserve and financial policy. Headlines link to their original publishers.</p></div><a class="subtle-action" href="./index.html#wire">Full news wire ↗</a></div>
+      <div class="news-toolbar"><div class="news-tabs" role="group" aria-label="Filter market news"><button class="news-filter selected" type="button" data-news="all" aria-pressed="true">All market news</button><button class="news-filter" type="button" data-news="markets" aria-pressed="false">Stocks &amp; markets</button><button class="news-filter" type="button" data-news="economy" aria-pressed="false">Economy</button><button class="news-filter" type="button" data-news="policy" aria-pressed="false">Fed &amp; policy</button></div><span id="news-updated">Loading headlines…</span></div>
+      <div id="market-news-list" class="news-grid" aria-live="polite"><p class="news-empty">Fetching current financial headlines…</p></div>
+      <div class="news-bottom"><span id="news-count">Source-linked news · No article text republished</span><button type="button" id="news-more" hidden>Load more headlines ↓</button></div>
+    </section>
+
+    <section class="context-band" aria-labelledby="context-title"><div><span class="eyebrow">MORE CONTEXT, LESS NOISE</span><h2 id="context-title">Headlines aren't the whole story.</h2><p>Find officially sourced explainers from the Standalone News automated desk, or discuss market developments with other readers.</p></div><div class="context-actions"><a href="./articles/">Read explainers ↗</a><a href="./discuss.html?room=markets">Discuss markets ↗</a></div></section>
+    <p class="market-disclaimer">Financial data displayed through third-party TradingView widgets; availability, market status and delay depend on the market and provider. Headlines are automatically gathered from attributed sources and are not independently fact-checked. This page is informational and not investment advice.</p>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="./index.html">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./about.html">About</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a></nav><span>© Standalone News · Market information may be delayed</span></div></footer>
+</body>
+</html>

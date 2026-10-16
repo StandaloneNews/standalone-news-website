@@ -1,0 +1,25 @@
+/* Compact homepage market desk upgrade. Existing TradingView quote tabs remain intact. */
+#markets .markets-inner{border-radius:14px;overflow:hidden;border:1px solid #d7e1e9;box-shadow:0 14px 34px rgba(20,44,66,.075);background:#fff}
+#markets .market-topline{background:linear-gradient(115deg,#112a42,#244865);color:#fff;padding:20px 25px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+#markets .market-topline strong{font-size:13px;letter-spacing:.12em}
+#markets .market-topline p{color:#d2e1ec;margin:6px 0 0}
+#markets .quotes-status{border:1px solid #658196;color:#eef4f8;border-radius:50px;padding:8px 12px;font-size:10px}
+.market-desk-invite{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:13px 20px;align-items:center;padding:24px 25px;background:#f2f6fa;border-bottom:1px solid #dce5ed}
+.market-desk-invite-copy{min-width:0}
+.market-desk-invite-copy>span{display:block;color:#b22f4b;font-size:9px;font-weight:900;letter-spacing:.13em;margin-bottom:7px}
+.market-desk-invite-copy>strong{display:block;color:#142e47;font:700 clamp(21px,2.5vw,28px)/1.18 Georgia,serif}
+.market-desk-invite-copy p{margin:8px 0 0;color:#586e80;font-size:12px;line-height:1.6;max-width:650px}
+.market-desk-invite-links{display:flex;gap:7px;align-items:center;flex-wrap:wrap;grid-column:1}
+.market-desk-invite-links a{font-size:11px;font-weight:850;padding:9px 11px;color:#294c6a;border:1px solid #c8d8e4;border-radius:5px;background:white;text-decoration:none}
+.market-desk-invite-links a:hover{color:#ad2945;border-color:#cf7284}
+.market-desk-invite-action{grid-column:2;grid-row:1/3;display:inline-flex;align-items:center;justify-content:center;gap:17px;padding:15px 20px;border-radius:7px;background:#ad2e4a;border:1px solid #ad2e4a;color:#fff;font-size:12px;font-weight:850;text-decoration:none;white-space:nowrap;min-height:48px}
+.market-desk-invite-action:hover{background:#8d1e35;color:#fff}
+#markets .market-tabs{padding:16px 18px 6px;gap:8px;border-bottom:0}
+#markets .market-filter{border:1px solid #d1dce6;background:#fff;color:#395774;border-radius:7px;padding:11px 13px;font-size:11px;font-weight:850}
+#markets .market-filter:hover{border-color:#a74760}
+#markets .market-filter.active{background:#122d47;color:#fff;border-color:#122d47}
+#markets .market-panel{background:#fff}
+#markets .tv-lazy{border-radius:8px;overflow:hidden}
+#markets .market-note{border-top:1px solid #e0e8ef;background:#f8fafc}
+@media(max-width:740px){.market-desk-invite{grid-template-columns:1fr;gap:14px;padding:19px 17px}.market-desk-invite-links,.market-desk-invite-action{grid-column:1;grid-row:auto}.market-desk-invite-action{justify-self:start}.market-desk-invite-copy>strong{font-size:24px}}
+@media(max-width:540px){#markets .market-topline{padding:17px 18px}.market-desk-invite{padding:18px 14px}.market-desk-invite-copy p{font-size:12px}.market-desk-invite-links{gap:6px}.market-desk-invite-links a{font-size:10px;padding:9px}.market-desk-invite-action{display:flex;width:100%;justify-self:stretch}#markets .market-tabs{padding:12px 11px 5px;display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}#markets .market-filter{flex:none;padding:11px 10px;font-size:10px}#markets .market-panel{padding:12px 10px}}
