@@ -433,7 +433,7 @@ def write_sitemap(records):
         ET.SubElement(url,'loc').text=BASE+'/'+path
     for article in records:
         path=article.get('path','')
-        if not isinstance(path,str) or not re.fullmatch(r'articles/[a-z0-9][a-z0-9-]*\\.html',path):
+        if not isinstance(path,str) or not re.fullmatch(r'articles/[a-z0-9][a-z0-9-]*\.html',path):
             continue
         url=ET.SubElement(root,'url')
         ET.SubElement(url,'loc').text=BASE+'/'+path
