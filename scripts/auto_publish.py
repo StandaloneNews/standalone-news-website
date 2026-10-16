@@ -15,6 +15,7 @@ import os
 from pathlib import Path
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,6 +38,13 @@ FREE_MODEL_PREFERENCES = (
 )
 class GeminiConfigurationError(RuntimeError):
     pass
+
+class GeminiTemporaryError(GeminiConfigurationError):
+    """Retryable Gemini outage; never block a successful headline refresh."""
+    pass
+
+TRANSIENT_GEMINI_STATUS = frozenset((500, 502, 503, 504))
+GEMINI_RETRY_DELAYS = (10, 30)
 
 ALLOWED_HOSTS={
     'www.federalreserve.gov','federalreserve.gov','www.bls.gov','bls.gov',
@@ -271,7 +279,10 @@ def list_usable_gemini_models(key):
         with urllib.request.urlopen(req, timeout=25) as resp:
             payload=json.load(resp)
     except urllib.error.HTTPError as e:
-        raise GeminiConfigurationError(_gemini_error(e, key, 'models/list')) from e
+        message = _gemini_error(e, key, 'models/list')
+        if e.code in TRANSIENT_GEMINI_STATUS:
+            raise GeminiTemporaryError(message) from e
+        raise GeminiConfigurationError(message) from e
     except (TimeoutError, urllib.error.URLError, ValueError, json.JSONDecodeError) as e:
         raise GeminiConfigurationError('Cannot list Gemini models: '+type(e).__name__) from e
     all_models=set()
@@ -295,25 +306,50 @@ def list_usable_gemini_models(key):
 
 
 def request_gemini(payload, key, models):
-    # If a listed model later returns a 404, try another listed model; do not
-    # retry on quota / permission / billing errors.
+    """Retry temporary overloads and try one other listed free-tier model.
+
+    Do not retry permission, quota, billing, or other non-transient errors.
+    A recurring Gemini outage must not prevent publishing refreshed RSS.
+    """
+    temporary_errors = []
+    overloaded_models = 0
     for model in models:
         encoded = urllib.parse.quote(model, safe='-_.')
-        req=urllib.request.Request(
+        req = urllib.request.Request(
             f'https://generativelanguage.googleapis.com/v1beta/models/{encoded}:generateContent',
-            data=json.dumps(payload).encode(),method='POST',
-            headers={'Content-Type':'application/json','x-goog-api-key':key}
+            data=json.dumps(payload).encode(), method='POST',
+            headers={'Content-Type': 'application/json', 'x-goog-api-key': key}
         )
-        try:
-            with urllib.request.urlopen(req, timeout=45) as resp:
-                return json.load(resp), model
-        except urllib.error.HTTPError as e:
-            message=_gemini_error(e,key,model)
-            if e.code == 404:
-                print(message+'; trying next listed model.', flush=True)
-                continue
-            raise GeminiConfigurationError(message) from e
-    raise GeminiConfigurationError('All listed Gemini models returned HTTP 404. Check API model access in Google AI Studio.')
+        for attempt in range(len(GEMINI_RETRY_DELAYS) + 1):
+            try:
+                with urllib.request.urlopen(req, timeout=45) as resp:
+                    return json.load(resp), model
+            except urllib.error.HTTPError as e:
+                message = _gemini_error(e, key, model)
+                if e.code == 404:
+                    print(message + '; trying next listed model.', flush=True)
+                    break
+                if e.code in TRANSIENT_GEMINI_STATUS:
+                    temporary_errors.append(message)
+                    if attempt < len(GEMINI_RETRY_DELAYS):
+                        delay = GEMINI_RETRY_DELAYS[attempt]
+                        print(f'{message}; retrying in {delay}s (attempt {attempt + 2}).', flush=True)
+                        time.sleep(delay)
+                        continue
+                    overloaded_models += 1
+                    print(message + '; trying another listed free-tier model if available.', flush=True)
+                    break
+                raise GeminiConfigurationError(message) from e
+        # Keep the workflow well inside its 15-minute limit during an outage.
+        if overloaded_models >= 2:
+            break
+    if temporary_errors:
+        raise GeminiTemporaryError(
+            'Gemini remained temporarily unavailable after retries: ' + temporary_errors[-1]
+        )
+    raise GeminiConfigurationError(
+        'All listed Gemini models returned HTTP 404. Check API model access in Google AI Studio.'
+    )
 
 def generate_ai(story,source_text,key,models):
     prompt=(
@@ -446,6 +482,9 @@ def main():
     print(f'Checking up to {len(selected)} candidates across {len(per_source)} sources')
     try:
         gemini_models = list_usable_gemini_models(key)
+    except GeminiTemporaryError as error:
+        print('::warning::Gemini temporarily unavailable during model lookup; RSS headlines will still publish. '+str(error),file=sys.stderr,flush=True)
+        return 0
     except GeminiConfigurationError as error:
         print('AI SETUP ERROR: '+str(error), file=sys.stderr, flush=True)
         return 1
@@ -469,6 +508,9 @@ def main():
             INDEX.write_text(json.dumps({'items':records},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
             write_listing(records);write_sitemap(records);write_articles_feed(records)
             print('Published: '+rel);return 0
+        except GeminiTemporaryError as e:
+            print('::warning::Gemini temporarily unavailable; skipping AI explainer so refreshed RSS headlines can publish. '+str(e),file=sys.stderr,flush=True)
+            return 0
         except GeminiConfigurationError as e:
             print('AI MODEL ERROR: '+str(e), file=sys.stderr, flush=True)
             return 1
