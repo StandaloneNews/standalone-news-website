@@ -56,7 +56,7 @@ function mountTradingView(host,type,config,description){
 }
 function cleanSymbol(raw){
   const value=String(raw||'').trim().toUpperCase();
-  if(!value||value.length>35||!^[A-Z0-9._^!:]+$/.test(value))return null;
+  if(!value||value.length>35||!/^[A-Z0-9._^!:]+$/.test(value))return null;
   if((value.match(/:/g)||[]).length>1||value.startsWith(':')||value.endsWith(':'))return null;
   if(/^[0-9.]+$/.test(value))return null;
   return value;
