@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#10263d">
-  <meta name="description" content="Track popular stocks and ETFs with interactive TradingView charts, search tickers, and browse the latest attributed market and economic news.">
+  <meta name="description" content="Explore interactive stock charts, U.S. economic releases, Fed meeting schedules, upcoming earnings dates, and source-linked financial news.">
   <title>Markets: Interactive Stock Charts &amp; Financial News | Standalone News</title>
   <link rel="canonical" href="https://standalonenews.com/markets.html">
   <meta property="og:type" content="website">
@@ -16,9 +16,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="./assets/favicon.png">
   <link rel="apple-touch-icon" href="./assets/app-icon.png">
-  <link rel="stylesheet" href="./markets.css?v=1">
+  <link rel="stylesheet" href="./markets.css?v=2">
   <link rel="alternate" type="application/rss+xml" title="Standalone News headlines" href="./feed.xml">
-  <script defer src="./markets-page.js?v=1"></script>
+  <script defer src="./markets-page.js?v=2"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to market charts and news</a>
@@ -30,6 +30,7 @@
   <nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-items">
     <a href="./index.html">Home</a><a href="./index.html#wire">Latest news</a>
     <a class="current" aria-current="page" href="./markets.html">Markets</a>
+    <a href="#market-calendar">Calendars</a>
     <a href="./articles/">Explainers</a><a href="./discuss.html?room=markets">Discuss markets</a><a href="./personalize.html">For you</a>
   </div></nav>
 
@@ -73,6 +74,71 @@
         <div class="watch-footer"><span>ETF prices are not index values, futures quotes, spot commodity prices or Treasury yields.</span><span>Quotes may be delayed.</span></div>
       </div>
       <div class="official-links"><a href="https://www.tradingview.com/markets/futures/" target="_blank" rel="noopener noreferrer">Futures contracts ↗</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?type=daily_treasury_yield_curve" target="_blank" rel="noopener noreferrer">Official Treasury yields ↗</a><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" target="_blank" rel="noopener noreferrer">U.S. top gainers ↗</a></div>
+    </section>
+
+    <section class="calendar-section" aria-labelledby="calendar-heading" id="market-calendar">
+      <div class="section-heading">
+        <div><span class="eyebrow">THE MARKET-MOVING SCHEDULE</span><h2 id="calendar-heading">Economic releases &amp; earnings<span class="accent">.</span></h2>
+          <p>See the announcements that can move equities, bonds and currencies, plus upcoming company results. Dates can change; check official announcements before trading.</p></div>
+        <a class="subtle-action" href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">All economic events ↗</a>
+      </div>
+      <nav class="calendar-jump-links" aria-label="Jump between market calendars">
+        <a href="#economic-events">Government &amp; economic calendar ↓</a>
+        <a href="#earnings-events">Company earnings dates ↓</a>
+      </nav>
+
+      <div class="calendar-card" id="economic-events">
+        <div class="calendar-card-header">
+          <div><span class="calendar-overline"><span class="calendar-pulse" aria-hidden="true"></span> U.S. ECONOMIC RELEASES</span>
+            <h3>Government &amp; Fed calendar</h3>
+            <p>Upcoming releases and announcements including Fed decisions, CPI, employment, GDP, and other market-moving indicators. U.S. events are prioritized; calendar timestamps come from TradingView.</p>
+          </div>
+          <a href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">Full economic calendar ↗</a>
+        </div>
+        <div class="economic-widget" id="economic-calendar" aria-label="TradingView United States economic calendar">
+          <div class="widget-loading">Loading U.S. economic calendar…</div>
+        </div>
+        <div class="calendar-card-bottom">
+          <p>Updates from TradingView. Impact indicators are estimates, and some releases or times may change. Always verify with the publishing agency.</p>
+          <a href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">Check event details ↗</a>
+        </div>
+        <div class="agency-section">
+          <span class="agency-title">VERIFY WITH OFFICIAL U.S. RELEASE CALENDARS</span>
+          <div class="agency-links">
+            <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer"><strong>Federal Reserve</strong><span>FOMC meetings &amp; policy decisions ↗</span></a>
+            <a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noopener noreferrer"><strong>BLS · CPI</strong><span>Consumer inflation release dates ↗</span></a>
+            <a href="https://www.bls.gov/schedule/news_release/empSit.htm" target="_blank" rel="noopener noreferrer"><strong>BLS · Jobs</strong><span>Employment situation releases ↗</span></a>
+            <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer"><strong>BEA</strong><span>GDP, PCE &amp; personal income ↗</span></a>
+            <a href="https://www.census.gov/economic-indicators/" target="_blank" rel="noopener noreferrer"><strong>Census Bureau</strong><span>Retail sales &amp; economic indicators ↗</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="calendar-card earnings-card" id="earnings-events">
+        <div class="calendar-card-header">
+          <div><span class="calendar-overline"><span class="calendar-pulse" aria-hidden="true"></span> CORPORATE REPORTING SCHEDULE</span>
+            <h3>Upcoming earnings dates</h3>
+            <p>Browse company reporting dates, search for tickers, and check reported versus estimated results when available. The calendar is updated by Market Chameleon, not manually entered by Standalone News.</p>
+          </div>
+          <a href="https://www.tradingview.com/earnings-calendar/" target="_blank" rel="noopener noreferrer">Full earnings calendar ↗</a>
+        </div>
+        <div class="earnings-widget-scroller" role="region" tabindex="0" aria-label="Scrollable company earnings calendar">
+          <iframe id="earnings-calendar-frame" class="earnings-widget-frame" title="Live company earnings calendar supplied by Market Chameleon"
+            src="https://marketchameleon.com/Widget/Show?wtype=ecfull" loading="lazy"
+            sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
+            referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="calendar-card-bottom">
+          <p>Earnings dates may be <strong>estimated rather than company-confirmed</strong>, and reporting times can change. This third-party calendar is isolated from your reader account.</p>
+          <a href="https://marketchameleon.com/Calendar/Earnings" target="_blank" rel="noopener noreferrer">View earnings source ↗</a>
+        </div>
+        <p class="calendar-mobile-hint">On a phone, swipe horizontally inside the earnings calendar, or open the full calendar above.</p>
+        <div class="earnings-direct-links">
+          <span>VERIFY EARNINGS DATES</span>
+          <a href="https://www.tradingview.com/earnings-calendar/" target="_blank" rel="noopener noreferrer">TradingView earnings calendar ↗</a>
+          <a href="https://www.nasdaq.com/market-activity/earnings" target="_blank" rel="noopener noreferrer">Nasdaq earnings calendar ↗</a>
+        </div>
+      </div>
     </section>
 
     <section class="news-section" aria-labelledby="news-title" id="market-news">

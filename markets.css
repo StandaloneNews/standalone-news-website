@@ -159,3 +159,67 @@ button{cursor:pointer}button:disabled{cursor:default;opacity:.55}
   .news-bottom{display:block}.news-bottom button{margin-top:12px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* U.S. economic releases and company earnings calendars */
+.calendar-section{margin:0 0 62px;scroll-margin-top:28px}
+.calendar-jump-links{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 21px}
+.calendar-jump-links a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:11px 16px;border:1px solid #d8e3ec;background:#f4f8fb;color:#355b77;text-decoration:none;font-size:11px;font-weight:850;border-radius:7px}
+.calendar-jump-links a:hover{background:#e9f1f7;border-color:#b6ccd9}
+.calendar-card{background:#fff;border:1px solid #dbe5ed;border-radius:12px;box-shadow:0 9px 28px #1738520a;overflow:hidden;margin-bottom:24px;scroll-margin-top:25px}
+.calendar-card-header{display:flex;justify-content:space-between;align-items:start;gap:25px;background:linear-gradient(110deg,#f6f9fb,#fff);border-bottom:1px solid #e2eaf0;padding:24px 25px 21px}
+.calendar-card-header>div{max-width:770px;min-width:0}
+.calendar-overline{color:#a8324c;font-size:10px;font-weight:900;letter-spacing:.13em}
+.calendar-pulse{display:inline-block;width:8px;height:8px;margin-right:7px;background:#b63250;border-radius:50%}
+.calendar-card-header h3{font:700 clamp(24px,2.7vw,31px)/1.16 var(--serif);letter-spacing:-.02em;color:#142e46;margin:9px 0 8px}
+.calendar-card-header p{color:#60788a;font-size:12px;line-height:1.7;margin:0}
+.calendar-card-header>a{font-size:11px;font-weight:850;color:#23618b;text-decoration:none;white-space:nowrap;margin-top:4px}
+.calendar-card-header>a:hover{text-decoration:underline}
+.economic-widget{min-height:610px;height:610px;position:relative;background:#fff}
+.economic-widget .tradingview-widget-container{height:100%;width:100%;min-height:610px}
+.economic-widget .tradingview-widget-container__widget{height:calc(100% - 30px)}
+.economic-widget .widget-loading{min-height:610px}
+.calendar-card-bottom{border-top:1px solid #e0e8ee;background:#f8fafc;padding:14px 21px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.calendar-card-bottom p{margin:0;font-size:11px;line-height:1.65;color:#657d8d;max-width:850px}
+.calendar-card-bottom a{font-size:11px;color:#1f638d;font-weight:850;white-space:nowrap;text-decoration:none}
+.calendar-card-bottom a:hover{text-decoration:underline}
+.agency-section{border-top:1px solid #dfe9f0;padding:18px 21px 22px}
+.agency-title,.earnings-direct-links>span{display:block;font-size:10px;letter-spacing:.12em;font-weight:900;color:#738899;margin-bottom:13px}
+.agency-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.agency-links a{display:flex;flex-direction:column;gap:6px;min-height:86px;border:1px solid #dce6ee;border-radius:7px;background:#fafcfd;padding:13px 12px;text-decoration:none}
+.agency-links a:hover{background:#f0f6fa;border-color:#9fbfd2}
+.agency-links strong{font-size:12px;font-weight:900;color:#243f58}
+.agency-links span{color:#678194;font-size:10px;line-height:1.5}
+.earnings-widget-scroller{width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;overscroll-behavior-x:contain;background:#fff;padding:12px}
+.earnings-widget-frame{width:1000px;min-width:1000px;height:765px;border:0;display:block;background:#fff}
+.calendar-mobile-hint{display:none;margin:0;padding:8px 20px;color:#677f91;background:#fff;font-size:11px}
+.earnings-direct-links{display:flex;gap:11px 15px;align-items:center;flex-wrap:wrap;padding:18px 21px 21px;border-top:1px solid #e3eaf0}
+.earnings-direct-links>span{margin:0;flex:1 1 185px}
+.earnings-direct-links a{display:inline-flex;text-decoration:none;font-size:11px;font-weight:850;color:#276087;border:1px solid #d7e2ea;border-radius:6px;background:#f5f8fb;padding:11px 13px;white-space:nowrap}
+.earnings-direct-links a:hover{background:#e8f1f7}
+@media(max-width:950px){
+ .agency-links{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .calendar-card-header{gap:14px}
+}
+@media(max-width:720px){
+ .calendar-section{margin-bottom:48px}
+ .calendar-card-header{display:block;padding:19px 16px 17px}
+ .calendar-card-header>a{display:inline-block;margin-top:13px}
+ .calendar-card-header h3{font-size:26px}
+ .calendar-card-header p{font-size:12px}
+ .economic-widget,.economic-widget .tradingview-widget-container,.economic-widget .widget-loading{height:565px;min-height:565px}
+ .agency-section{padding:18px 14px}
+ .agency-links{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .calendar-card-bottom{display:block;padding:13px 15px}
+ .calendar-card-bottom a{display:inline-block;margin-top:10px}
+ .earnings-widget-scroller{padding:9px}
+ .calendar-mobile-hint{display:block}
+ .earnings-direct-links{padding:14px;align-items:stretch}
+ .earnings-direct-links>span{flex-basis:100%;margin-bottom:3px}
+}
+@media(max-width:420px){
+ .calendar-jump-links a{font-size:10px;flex:1;padding:11px 8px}
+ .calendar-card-header h3{font-size:25px}
+ .agency-links a{padding:12px 10px;min-height:95px}
+ .agency-links span{font-size:10px}
+ .earnings-direct-links a{white-space:normal}
+}

@@ -206,9 +206,35 @@ async function loadNews(){
   }
   renderNews();
 }
+function initEconomicCalendar(){
+  const host=$('economic-calendar');
+  if(!host)return;
+  const render=()=>{
+    mountTradingView(host,'events',{
+      colorTheme:'light',
+      isTransparent:false,
+      locale:'en',
+      countryFilter:'us',
+      importanceFilter:'0,1',
+      width:'100%',
+      height:590
+    },'U.S. economic calendar');
+  };
+  // Keep external embeds from delaying the stock chart or headline updates.
+  if('IntersectionObserver' in window){
+    const observer=new IntersectionObserver(entries=>{
+      if(entries.some(entry=>entry.isIntersecting)){
+        observer.disconnect();
+        render();
+      }
+    },{rootMargin:'350px'});
+    observer.observe(host);
+  }else render();
+}
 function init(){
   const d=new Date();$('market-clock').textContent=new Intl.DateTimeFormat('en-US',{timeZone:'UTC',month:'short',day:'numeric',year:'numeric'}).format(d)+' · DATA VIA TRADINGVIEW';
   initCharts();
+  initEconomicCalendar();
   document.querySelectorAll('[data-news]').forEach(button=>button.addEventListener('click',()=>{
     state.kind=button.dataset.news;state.visible=8;
     document.querySelectorAll('[data-news]').forEach(other=>{
