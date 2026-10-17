@@ -1,0 +1,165 @@
+/* Standalone News · Mobile Breathing Room · 2026-10-16
+   Home-only refinements; does not change saved stories, account auth, news logic,
+   TradingView's data, or the bottom navigation behavior. */
+@media(max-width:760px){
+  /* Consistent outer margins between each editorial chapter. */
+  .main-container{min-width:0}
+  .main-container .section{
+    scroll-margin-top:18px;
+    margin-top:24px!important;
+  }
+  .main-container #top-stories,.main-container #markets,
+  .main-container #explainers,.main-container #wire{
+    margin-top:24px!important;
+  }
+  .main-container .lead-grid{gap:17px}
+  .main-container .lead-story,.main-container .latest-card{
+    border-radius:13px;
+    box-shadow:0 6px 18px #16364f0c;
+  }
+  #top-stories .section-header,#markets .section-header,
+  #explainers .section-header,#wire .section-header{margin-bottom:16px!important}
+  #top-stories .section-desc,#markets .section-desc,
+  #explainers .section-desc,#wire .section-desc{
+    line-height:1.65!important;
+  }
+  /* Fix top-story cards: columns remain inside the viewport, and action
+     controls flow together instead of leaving a huge blank row. */
+  #top-stories .story-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:13px}
+  #top-stories .story-card{
+    display:grid;
+    grid-template-columns:82px minmax(0,1fr);
+    align-items:start;
+    min-width:0;min-height:0;
+    gap:13px;
+    padding:16px 13px!important;
+    margin:0!important;
+    border:1px solid #d3e1ec;
+    background:#fff;
+    border-radius:11px;
+    box-shadow:0 3px 11px #18344b0d;
+  }
+  #top-stories .story-visual{
+    width:82px;height:88px;min-height:88px;
+    border-radius:8px;align-self:start;
+  }
+  #top-stories .story-card-body{
+    min-width:0;max-width:100%;
+    display:flex;flex-direction:column;
+    padding:0!important;gap:0;
+  }
+  #top-stories .story-card-label{
+    margin-bottom:7px;
+    font-size:10px;line-height:1.3;
+  }
+  #top-stories .story-card h3{
+    font-size:16px;line-height:1.42;
+    margin:0 0 8px;
+    overflow-wrap:break-word;word-break:normal;
+  }
+  #top-stories .story-card h3 a{overflow-wrap:break-word}
+  #top-stories .story-card .desk-excerpt{
+    font-size:12px;line-height:1.55;margin:0 0 10px;
+    -webkit-line-clamp:3;
+  }
+  #top-stories .story-card .card-meta{
+    margin:0 0 7px;
+    color:#587086;
+    font-size:11px;line-height:1.5;
+  }
+  #top-stories .story-card .follow-source{
+    display:inline-flex;justify-content:center;align-items:center;
+    align-self:flex-start;
+    width:auto;max-width:100%;min-height:39px;
+    margin:5px 0 11px;
+    padding:8px 12px;
+    color:#31536e;
+    background:#f8fafc;
+    font-size:11px;
+    border:1px solid #cbdce8;border-radius:7px;
+    white-space:normal;
+  }
+  #top-stories .story-card .card-actions{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    justify-content:initial;
+    gap:8px;
+    margin:0;
+    padding:12px 0 0;
+    border-top:1px solid #e6edf3;
+    width:100%;
+  }
+  #top-stories .story-card .story-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:flex-start;
+    min-height:44px;
+    font-size:12px;line-height:1.35;
+    font-weight:850;color:#a82b45;
+    min-width:0;
+    white-space:normal;
+  }
+  #top-stories .story-card .save-small{
+    min-height:44px;min-width:69px;
+    padding:10px 13px;
+    font-size:11px;
+    border-radius:7px;
+    white-space:nowrap;
+    justify-self:end;
+  }
+
+  /* Even when the top-story card has no excerpt, keep the actions
+     adjacent to the source line; no forced giant minimum-height. */
+  #top-stories .story-card-body>*{max-width:100%}
+
+  /* Keep the two category desks separated from one another on a phone. */
+  .main-container .two-section-grid{gap:16px;margin-top:23px}
+  .main-container .two-section-grid>.section{margin:0!important}
+  #economy .list-article,#government .list-article{gap:12px;padding:16px 0}
+  #economy .list-article h3,#government .list-article h3{line-height:1.48}
+
+  /* A swipe hint and a true horizontal scrolling area for TradingView's
+     desktop-sized column set, instead of cutting off daily changes. */
+  #markets .market-swipe-hint{
+    display:flex;align-items:center;
+    margin:0;padding:10px 16px 2px;
+    color:#46677f;font-size:11px;line-height:1.4;
+  }
+  #markets .market-panel.active{
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    scrollbar-width:thin;
+  }
+  #markets .market-panel .tv-lazy{
+    min-width:590px;
+    width:590px;
+  }
+  #markets .market-panel .tv-lazy .tradingview-widget-container{
+    width:100%!important;
+  }
+  #markets .market-tabs{scroll-padding-left:12px}
+  #markets .market-filter{min-height:43px}
+  #markets .market-desk-invite{gap:13px}
+  #markets .market-desk-invite-action{min-height:49px}
+  #markets .market-note{padding:14px 15px;line-height:1.6}
+
+  /* Rebalance footer / newsletter and keep bottom nav clear of controls. */
+  #explainers .explainer-card{padding:18px 15px}
+  .main-container .insight-grid{gap:16px;margin-top:23px}
+  .main-container .about-band{margin-top:25px}
+  .main-container #newsletter{margin-top:25px}
+  .main-container{padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+}
+@media(max-width:390px){
+  #top-stories .story-card{grid-template-columns:69px minmax(0,1fr);gap:10px;padding:13px 10px!important}
+  #top-stories .story-visual{width:69px;height:76px;min-height:76px}
+  #top-stories .story-card h3{font-size:15px}
+  #top-stories .story-card .story-link{font-size:11px}
+  #top-stories .story-card .save-small{min-width:62px;padding:9px 10px}
+  #markets .market-panel .tv-lazy{min-width:560px;width:560px}
+}
+@media(min-width:761px){#markets .market-swipe-hint{display:none}}
+@media(prefers-reduced-motion:reduce){#markets .market-panel.active{scroll-behavior:auto}}
