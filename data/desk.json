@@ -1,17 +1,18 @@
 {
-  "updated_at": "2026-10-17T23:01:03+00:00",
+  "updated_at": "2026-10-17T23:34:51+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
-    "ed816b952e05192ca949a378",
+    "b99bf818f0c429a9fa3a2460",
     "2be149a948d5c083b019a658",
     "891ee89885e73103292e9f43",
     "1149b469007b6d9c6ec3e995",
+    "94601d1e80ff093ee999f69a",
     "a9b2317de904a1c258d5d48e",
-    "47e05b46acb52dd11d8610d2",
     "652f99621c1ab29ad0f3c30d",
     "ce912e9ef0108a454aa55854",
+    "55983b22869560580b553385",
     "13085a3b6524965c32a03e20",
     "d83db5e5b43f99ee4477ffa3",
     "8a87b4ee2d92811bf65cb139",
@@ -20,7 +21,6 @@
     "462ce749719355b36322712d",
     "b34ccfdd8eee11f4536b90c8",
     "73efd7b3a3ef0551b3a142d7",
-    "b2183dc6f1c80dcd89dacc8d",
     "b677fdedabaf44798b79a308",
     "3b23c776a1bd2140b4abd845",
     "99b770c4ae14648b6c267b22",
@@ -32,6 +32,19 @@
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
     {
+      "id": "f2abb7d0735ec7b501fcae62",
+      "title": "Two people, including child, killed after person drives through soccer game in Kansas",
+      "summary": "The driver of the vehicle is in custody, and two juveniles were in the vehicle, according to Wichita police department Two people, including a child, were killed during a soccer game in Wichita, Kansas, when a person drove a vehicle through the field at Stryker soccer complex, police have confirmed. Multiple other people were injured. The driver of the vehicle is in custody, Aaron Moses of the Wichita police department said Saturday in a news conference . There were two juveniles in the vehicle, he said. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/17/kansas-soccer-game-killings",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T23:22:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "2fb85207a090347c52f037f1",
       "title": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
       "summary": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage The Washington Post",
@@ -40,8 +53,47 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-17T22:58:22+00:00",
+      "published_at": "2026-10-17T23:22:02+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "24fc5221334c7eb6faa54766",
+      "title": "Manifest: From reality TV to Wembley Arena in one turbulent year",
+      "summary": "Turkish girl group manifest on taking their music to a global audience, as they prepare for their first UK concert.",
+      "url": "https://www.bbc.co.uk/news/articles/cqrky2rkd5n1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T23:07:57+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8e149e8dec20ccea3911c45a",
+      "title": "The playground murder: Trauma, loss and a love that endured",
+      "summary": "Diane Watson's best friend Pauline recalls a shocking school murder and its lasting legacy.",
+      "url": "https://www.bbc.co.uk/news/articles/cvj64l74e48po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T23:04:50+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fa60f0ac52b611e5dacfc1d2",
+      "title": "The High-Stakes Job of Trump’s White House Physician",
+      "summary": "Dr. Sean Barbabella is tasked with staying no more than three minutes away from the oldest president ever elected.",
+      "url": "https://www.wsj.com/politics/trump-white-house-physician-sean-barbabella-8debfed1?mod=rss_usnews",
+      "source": "WSJ",
+      "feed_id": "wsj_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T23:00:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -84,6 +136,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "0186b68a3eac616bd265184a",
+      "title": "Dubois destroys Wardley in two rounds to retain title",
+      "summary": "WBO champion Daniel Dubois underlines his status as Britain's leading heavyweight with a devastating second-round stoppage of Fabio Wardley.",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6gelq3zdy8wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T22:27:49+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "5344519ebb2546e23947d357",
       "title": "Trump-Zelenskiy rift threatens vital support for Kyiv - Reuters",
       "summary": "Trump-Zelenskiy rift threatens vital support for Kyiv Reuters",
@@ -94,6 +159,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T22:27:19+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "da5746e04c646f7219920be1",
+      "title": "At least 2 killed after vehicle drives onto soccer field during game in Wichita, Kansas - CBS News",
+      "summary": "At least 2 killed after vehicle drives onto soccer field during game in Wichita, Kansas CBS News",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rdmVJRXVkY19pbkc0TFp3dTY4dnVEcHQ1ODFnYWFWdlhPS0pHR1FMbERKYXFPTnI1NXZFMmM4ODd3bGJHR01EazlZV21IVEZ6WDdzaHlZMHBhYXo2aWd6WHpKSmE2RFJyZDM0c01aeDk2UQ?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:27:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -128,24 +206,11 @@
       "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
       "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_world",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T22:09:50+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7cd07161e2cfff168532e78d",
-      "title": "U.S. Senator Rand Paul discusses political positions at campus forum - The Louisville Cardinal",
-      "summary": "U.S. Senator Rand Paul discusses political positions at campus forum The Louisville Cardinal",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVGNNZlRoblFxLWtLRFRNdU5DSWthdXdjbGtNMjkzdFpiRldaTE1uTGwxM0VpcXBIbnhlSVgyeVZuWllCcmZ3TmRjVVZFN0pHZ0RZejVyVnpKblRzWmFsRXQ4aDh4dzdMMnhFOUtaY29NdW1MMk1UTXlYLWk3YWFfeFVscm00VXkzc1M4TVlYb1Mxckh0UWl0bHhUOVBKZnBQUHJBREJHaTM4aldZMFJQbg?oc=5",
-      "source": "The Louisville Cardinal",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T22:03:19+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -237,6 +302,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T21:18:50+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9c4fcee975efd064476e05ec",
+      "title": "Who is Katie Zacharia, Trump’s ill-fated press secretary? - The Times",
+      "summary": "Who is Katie Zacharia, Trump’s ill-fated press secretary? The Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDlRbHNXWmxMNmY2Z0VuT2VFTUttZHBJazVoSFBaUzR3Q0NkNlBLWU1vVDhJb2RyOU00emFwdjdSakJ0a0NVamlzd012V2NiUEFHVW9BaDBqLXU1NHl0amhkYlBhNXlKYUNFVmY1Qmc4b3QtUkZNLW9hQmNIdmdtTG1Ua2lGeXdUT1VVYkE3U2tmbGdKMDZxVkRNWWYzT18zV0VPYmpLMlMxaEhUT2lZX0daR0NSd0E?oc=5",
+      "source": "The Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T21:18:09+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -617,6 +695,32 @@
       "selection_type": "automatic"
     },
     {
+      "id": "9a47cf6c3c9b415dd051764a",
+      "title": "Ilhan Omar: The US Democrat targeted by Donald Trump - DW.com",
+      "summary": "Ilhan Omar: The US Democrat targeted by Donald Trump DW.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmlyUGVoR0RBNVpnR0EybGFKNjNVSTlFYkpEWkJ0RHhiWkFtd1p3LUZLN2FNU2U4QW1HaVl1a2dfQVc3ckh3VkFYM2o1d0JuUWVrbXNZT1I4OVdURERKTmhTTy10am5wMkV5TkxIb1B6RzI2MXVPblFLV1BINUVpZXV0QnRpOVAxSWlCNtIBjAFBVV95cUxPejd3OHdCb0dHbTVucy1kODFCYWU3dk56RTBBWWt3VmJ3SFJnbDQzUGdVaXkxYnMyR3lKVXUzSDQ5SS1rdlA1QWZfb0E4ZkxUMmlIbzE1OFAzX052NzdZUElBelZTa0tKdTA1eGlRVW9hVFFlZm1lQWdvdWdWQ1QzMlY0cjhGVmxjUGMyVw?oc=5",
+      "source": "DW.com",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:25:52+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a0c11b53e54c85c897bfcbb8",
+      "title": "Hill leaders brace for miserable 2027 - Axios",
+      "summary": "Hill leaders brace for miserable 2027 Axios",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOekM2dG9qbmkxNlU0Q0VXWXh6cWhJdVlmWTBWbjNXcWxMYldZUWRoZkZlQ3JjSFpiVUlpUThfTGpxdHhSOXpGQTd6SEp4MjZBWGdTMFlUYnFfRVR5OVFOclctNXkxbWVqNFMzR0JKUkRwV282UTVpb3d1NGZMdHdyZWVIY2VYV2ozQlNINDBR?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:24:49+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "b677fdedabaf44798b79a308",
       "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
       "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
@@ -653,19 +757,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9a47cf6c3c9b415dd051764a",
-      "title": "Ilhan Omar: The US Democrat targeted by Donald Trump - DW.com",
-      "summary": "Ilhan Omar: The US Democrat targeted by Donald Trump DW.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmlyUGVoR0RBNVpnR0EybGFKNjNVSTlFYkpEWkJ0RHhiWkFtd1p3LUZLN2FNU2U4QW1HaVl1a2dfQVc3ckh3VkFYM2o1d0JuUWVrbXNZT1I4OVdURERKTmhTTy10am5wMkV5TkxIb1B6RzI2MXVPblFLV1BINUVpZXV0QnRpOVAxSWlCNtIBjAFBVV95cUxPejd3OHdCb0dHbTVucy1kODFCYWU3dk56RTBBWWt3VmJ3SFJnbDQzUGdVaXkxYnMyR3lKVXUzSDQ5SS1rdlA1QWZfb0E4ZkxUMmlIbzE1OFAzX052NzdZUElBelZTa0tKdTA1eGlRVW9hVFFlZm1lQWdvdWdWQ1QzMlY0cjhGVmxjUGMyVw?oc=5",
-      "source": "DW.com",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T19:18:45+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "df3f0f6ddce2d336baed8842",
       "title": "Ilhan Omar: The US Democrat targeted by Donald Trump",
       "summary": "Donald Trump has described her as \"garbage\" and a \"criminal\" who does nothing but \"bitch.\" Congress member Ilhan Omar has long been the target of angry verbal attacks from the US president. But why her?",
@@ -689,6 +780,45 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T19:15:03+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "641b379366805ee9a34f5f98",
+      "title": "$137 Million in A.I.-Generated Ads Flood the Midterms - The New York Times",
+      "summary": "$137 Million in A.I.-Generated Ads Flood the Midterms The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYVEtX3pON0QtaEJ1RThfMzhTMEVSbVA2WVJhYXNXTm5fRV94Wm54aUhjbi1tWEdDaVZHbWVPUzY0eEczTWFRUkYzVGx6U3E2MFFSY3dheTlLenVqaVpYdlpQLUp0bm5NaEpRWUpHNEFNcW5tay03MWVmUXpVSFFRYjNfNWdmTEp0aGlSS25SZw?oc=5",
+      "source": "The New York Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:13:36+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ec5efeb6eff1296d74c48c72",
+      "title": "ICE shooting leads to rare Jeffries-Mamdani collaboration - Axios",
+      "summary": "ICE shooting leads to rare Jeffries-Mamdani collaboration Axios",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2lId2ZLUnF6bkV2c0tMS0lBUGlvREFzTTdPMExfVTFJa3dLX1U3Q19obnRrZ1dLODJoYlhBcTkyZWNUU0I0SXVnRlY5UkZZdmViak9wTnFtcE0tai03OVFid1JRMlJwWnZJM1VRV1IzRXRyQzhFVExPem1jNVZFVEVPNEZqQQ?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:10:53+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "79d81415901ffb6ef8ac9c64",
+      "title": "The 60-day War Powers deadline falls on Friday. What could happen next? - ABC News - Breaking News, Latest News and Videos",
+      "summary": "The 60-day War Powers deadline falls on Friday. What could happen next? ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTkdDMVo0RFZ3Z0RfTXUtbzhnOGlTSXVEaFRIcWpHcWFwb2R3SU03bDIydVFjSks5WTlKSG1UdzdBbWUyTUtUTGZMdXBQQkU0VHZKejhLTlZVN3c0X05rSk5ram9mNHFZYVpjMm1Jdk1iZTFCUjE3SjhLS1ROa2htQUw1cDhFMXkzdnBQcENFcjVJbnplRTJ5ZC1n0gGfAUFVX3lxTE0xRHBkNGdJT1E0dk5Jb1dodlR5YnhMMDV3VWNVeEFDaFNfaU54SDVYUFVfQ0otVkxFOXZYQk5WWjhKYktQbEpqaEt1Q3hyV0ZfMU9kanVUY2pOLXpWODRpb3pEdl9LQ3I1eWFYQVpvYmtVbHU4VndKNlQzVV9acEVVVktCZDdPUXgyQnRoZU5DOVJOTGJacGJpdW5HWGJMYw?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:09:44+00:00",
+      "desk_priority": 56,
       "selection_type": "automatic"
     },
     {
@@ -806,19 +936,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9c4fcee975efd064476e05ec",
-      "title": "Who is Katie Zacharia, Trump’s ill-fated press secretary? - The Times",
-      "summary": "Who is Katie Zacharia, Trump’s ill-fated press secretary? The Times",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDlRbHNXWmxMNmY2Z0VuT2VFTUttZHBJazVoSFBaUzR3Q0NkNlBLWU1vVDhJb2RyOU00emFwdjdSakJ0a0NVamlzd012V2NiUEFHVW9BaDBqLXU1NHl0amhkYlBhNXlKYUNFVmY1Qmc4b3QtUkZNLW9hQmNIdmdtTG1Ua2lGeXdUT1VVYkE3U2tmbGdKMDZxVkRNWWYzT18zV0VPYmpLMlMxaEhUT2lZX0daR0NSd0E?oc=5",
-      "source": "The Times",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T18:51:56+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "65bca5d15ed3f8842f6b962c",
       "title": "Black voters test the socialist left's ceiling - Axios",
       "summary": "Black voters test the socialist left's ceiling Axios",
@@ -833,8 +950,8 @@
     },
     {
       "id": "538abef601a28571683d9f87",
-      "title": "Dubai World Trade Centre at heart of emirate’s evolving exhibitions, events economy - www.wam.ae",
-      "summary": "Dubai World Trade Centre at heart of emirate’s evolving exhibitions, events economy www.wam.ae",
+      "title": "Dubai World Trade Centre at heart of emirate’s evolving exhibitions, events economy | Emirates News Agency - www.wam.ae",
+      "summary": "Dubai World Trade Centre at heart of emirate’s evolving exhibitions, events economy | Emirates News Agency www.wam.ae",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMm9BMV9nVkZwRS0wZTNFYXpReUtiSXNWdE5IeFI4SnhHR09tcVhDUjNlMnVuWVlvdTdZd2ZkZG52T2VfOGZVTXdRMzZCNF9ZS0M5MDhYbENEOUVCUWkxNUowS2l2RG9KbmxPcnBSTmpSdzNrM0p1cVA5SnpFUWJQWHpxVHpMRVVUVmdtc2l5dDBUWjVHTkRqeA?oc=5",
       "source": "www.wam.ae",
       "feed_id": "world",
@@ -984,19 +1101,6 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T18:26:29+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "641b379366805ee9a34f5f98",
-      "title": "$137 Million in A.I.-Generated Ads Flood the Midterms - The New York Times",
-      "summary": "$137 Million in A.I.-Generated Ads Flood the Midterms The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYVEtX3pON0QtaEJ1RThfMzhTMEVSbVA2WVJhYXNXTm5fRV94Wm54aUhjbi1tWEdDaVZHbWVPUzY0eEczTWFRUkYzVGx6U3E2MFFSY3dheTlLenVqaVpYdlpQLUp0bm5NaEpRWUpHNEFNcW5tay03MWVmUXpVSFFRYjNfNWdmTEp0aGlSS25SZw?oc=5",
-      "source": "The New York Times",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T18:24:00+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1261,6 +1365,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7cd07161e2cfff168532e78d",
+      "title": "U.S. Senator Rand Paul discusses political positions at campus forum - The Louisville Cardinal",
+      "summary": "U.S. Senator Rand Paul discusses political positions at campus forum The Louisville Cardinal",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVGNNZlRoblFxLWtLRFRNdU5DSWthdXdjbGtNMjkzdFpiRldaTE1uTGwxM0VpcXBIbnhlSVgyeVZuWllCcmZ3TmRjVVZFN0pHZ0RZejVyVnpKblRzWmFsRXQ4aDh4dzdMMnhFOUtaY29NdW1MMk1UTXlYLWk3YWFfeFVscm00VXkzc1M4TVlYb1Mxckh0UWl0bHhUOVBKZnBQUHJBREJHaTM4aldZMFJQbg?oc=5",
+      "source": "The Louisville Cardinal",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T17:29:27+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6f4cddea20c3f2e9d64b4a3f",
       "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold - Baltimore Sun",
       "summary": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold Baltimore Sun",
@@ -1296,6 +1413,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T17:18:50+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8203099759f0510fb9f2437d",
+      "title": "Tens of thousands march in Lisbon over housing and living costs - Reuters",
+      "summary": "Tens of thousands march in Lisbon over housing and living costs Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3NQRHI0VTRqeGpNXzZSN0hkTU1aOTh3M3BKdHBQVGc1b1pGdmRRVWJ4WTdSbnVaNlJXQXNJeklhMEJlYkhocVVwRGtzcjlISk43UW9tU2RYWXNQR09Wd3k4a2xCQm9Ua1Z4bkY2UlI3NFpzMXZKcHNGTy1PdlJBMkV6YTN0Y210eHJWN0xtbVByX0o1RlV6V2lOVQ?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T17:11:29+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -1534,19 +1664,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "a0c11b53e54c85c897bfcbb8",
-      "title": "Hill leaders brace for miserable 2027 - Axios",
-      "summary": "Hill leaders brace for miserable 2027 Axios",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOekM2dG9qbmkxNlU0Q0VXWXh6cWhJdVlmWTBWbjNXcWxMYldZUWRoZkZlQ3JjSFpiVUlpUThfTGpxdHhSOXpGQTd6SEp4MjZBWGdTMFlUYnFfRVR5OVFOclctNXkxbWVqNFMzR0JKUkRwV282UTVpb3d1NGZMdHdyZWVIY2VYV2ozQlNINDBR?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T16:24:04+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
       "id": "4a00036d392056302f7a270b",
       "title": "CBS News | Breaking News, Top Stories & Exclusive Coverage - CBS News",
       "summary": "CBS News | Breaking News, Top Stories & Exclusive Coverage CBS News",
@@ -1583,19 +1700,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T16:17:08+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ec5efeb6eff1296d74c48c72",
-      "title": "ICE shooting leads to rare Jeffries-Mamdani collaboration - Axios",
-      "summary": "ICE shooting leads to rare Jeffries-Mamdani collaboration Axios",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2lId2ZLUnF6bkV2c0tMS0lBUGlvREFzTTdPMExfVTFJa3dLX1U3Q19obnRrZ1dLODJoYlhBcTkyZWNUU0I0SXVnRlY5UkZZdmViak9wTnFtcE0tai03OVFid1JRMlJwWnZJM1VRV1IzRXRyQzhFVExPem1jNVZFVEVPNEZqQQ?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T16:09:41+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -1814,19 +1918,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T15:31:56+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5a12a5db2f1e4d57c2eae403",
-      "title": "Almost every refugee Trump admitted in 2026 came from one country - Axios",
-      "summary": "Almost every refugee Trump admitted in 2026 came from one country Axios",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWkJ4R0RmN0NWMGlmcnZINmxFTldYbE5lTzFuUFV2RGsyQXlIOUhYVHQ5NXpoc2pTZ3cwa1Q0QjBCbmdmM1NBWUtUbUVHT0JDTlYzVHViLXJZbkFwRzRJSnAzdGswS180YVYzTDFlT3BpRFBvS2MtRkdzZHRtUlF3dC1OOU9NSm1fV2o4?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T15:31:44+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -2365,11 +2456,11 @@
       "summary": "Trump faults aides as Republican midterm prospects dim Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYTNjQm5xUlNLTTVIZHJ5eXBnMUZlY211OWQzdjJSLWFqMDRrMVZlaXFjUmUtVDFkVXYyVUwzajB4TXNQNE1NblU4RFhGeDNyak4tX1FsZXZtTXpYamZValBXUHc0RXNhc2J6Vk4wZEFNV2FxNHBlYmNvOFVEdThjakZ5Q0g3UXpySk9maHZhYTFXSzVMeXdxMXZ5c1M?oc=5",
       "source": "Reuters",
-      "feed_id": "washington",
-      "category": "Washington",
+      "feed_id": "reuters",
+      "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-17T13:58:21+00:00",
-      "desk_priority": 31,
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -3189,6 +3280,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "94601d1e80ff093ee999f69a",
+      "title": "Federal Reserve raises interest rates for the 1st time since 2023 - ABC News - Breaking News, Latest News and Videos",
+      "summary": "Federal Reserve raises interest rates for the 1st time since 2023 ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYktxZlJxRVNrdUZFRWViQjVMLUh3OGJwNGhrVFpJY2E5QTAyajNfcnFSb09rZUVkSnVMUHd4WkpsYktvZGczX05nRzVhSTdKNWtfU2hWb09IYnNQQ01tTlMwMV95YzJkbWVDMklwZ19XMC1RNmVsckpGS3FpNUpiRlUxZkVtNXk5NE5YRnpBSTI4eEhVOWxaUlBzZDlxb3p1ZVBFeHFR0gGrAUFVX3lxTFBrZzU3UXhjRlBBblFYNzJZZ3dINVFwMnpIOFQwRlJ1NmRTa3JNUGlkamJyS08wRjM5UlFuMkRJcHAtUEQxYjF3b2Yyc2E2V1hOOEhQRHRPckpidllEOHpLRG9VUTFxSUwyaE95SzNNZ0pkemQwQkNBYkZPbTBpN0ZMYTBWU25nT3FrUVNNal9Eb0lCNnJwZTVFUVVhM0dDRlMzQ1pQTF8xRTV6bw?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T11:40:58+00:00",
+      "desk_priority": 75,
+      "selection_type": "automatic"
+    },
+    {
       "id": "b34ccfdd8eee11f4536b90c8",
       "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers - Reuters",
       "summary": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers Reuters",
@@ -3316,6 +3420,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T11:14:00+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "55983b22869560580b553385",
+      "title": "Gold Price Slides on Hot Inflation, but Schiff Says It’s a Gift - BeInCrypto",
+      "summary": "Gold Price Slides on Hot Inflation, but Schiff Says It’s a Gift BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02MGk3U0cwZGtLRXRHSGhNT2gyOHlpd19TMGd5alZFUHFPMmpBTEhrVENxZFpFN0NXS1RjMXNPaFYtem1jRTl4RmR0aHU0ZVBFbzJYVGU4ME9kcXpqbF93c2ZKSGY4Z2xvclF5cTVn?oc=5",
+      "source": "BeInCrypto",
+      "feed_id": "economy",
+      "category": "Economy",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T11:13:00+00:00",
+      "desk_priority": 66,
       "selection_type": "automatic"
     },
     {
@@ -3667,6 +3784,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T10:00:17+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7679f548a67c2ff2e4d689b5",
+      "title": "Health insurance is the sleeper midterms issue: Why premiums are spiking - The Hill",
+      "summary": "Health insurance is the sleeper midterms issue: Why premiums are spiking The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcExic25BSC1oSF96RGlDcEJlR3NjZlJGeXRJSlRnczF3aGpwMGllSHVqcklseFYyNFN6SnRRdll5WElYSDB4Tk5aY3B3N2xlUEZxdVNsYlZlOHZwZFFXSHZvS3EtV2FGRnpMWHh6U2NRWGpQazh1V1BJY2tkbVlXN1F3?oc=5",
+      "source": "The Hill",
+      "feed_id": "thehill",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T10:00:00+00:00",
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -4127,7 +4257,7 @@
     {
       "id": "58ce05794a2e5d6d8220e774",
       "title": "France: Protesters clash with police in nationwide protests, amid rising social polarization",
-      "summary": "Unrest broke out in parts of France as students, trade unionists and Yellow Vest activists took to the streets to protest high prices and inequality. Police arrested hundreds amid chaotic scenes in French cities.",
+      "summary": "Unrest broke out in parts of France as students, trade unionists and Yellow Vest activists took to the streets to protest high prices and inequality. Police arrested over 1,000 people amid chaotic scenes.",
       "url": "https://www.dw.com/en/france-protesters-clash-with-police-in-nationwide-protests-amid-rising-social-polarization/a-79685584?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -5166,8 +5296,8 @@
     },
     {
       "id": "fb49c946ae03305d6d0ea0b5",
-      "title": "Trump waives Russia-related sanctions before they even kick in as Ukraine ties worsen - CNN",
-      "summary": "Trump waives Russia-related sanctions before they even kick in as Ukraine ties worsen CNN",
+      "title": "Trump waives Russia-related sanctions before they kick in, prompting backlash from Ukraine and US lawmakers - CNN",
+      "summary": "Trump waives Russia-related sanctions before they kick in, prompting backlash from Ukraine and US lawmakers CNN",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qaWtBMTJUektROUliNk4wT3NfUkp1ZTZSekQ3QVBEeUMxbXR6LVNIdlFLWldRQWdHVDl2dTFMdWtUVnRETklEMFZvckRRUWNmVXV6LVNtUlpoaUduRXlidm9VZFRiZ0VjbGR2d0trTzU3cXl1SXVnZ3BhbzdvaVE?oc=5",
       "source": "CNN",
       "feed_id": "cnn",
@@ -5408,136 +5538,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T01:45:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ce890f8cd666d81ff595a868",
-      "title": "What we know about the Bend, Oregon, elementary school shooting - NBC News",
-      "summary": "What we know about the Bend, Oregon, elementary school shooting NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdnhzZFlRZ0pCUEZuZ2h3RExENUNESDR3X1pMTlAtM2ItbUdtY0wtQ0Npek5ZWU5IRlg5V0lidmdjSVZqZm1ESFFzT1lvXzRuM2o4dGZ6SHgzSUlYbzZ6cng5cjV0UWRFdnllN2JVLUlGSkVMODFsV1AzNkRTNFpFMnA5SVh0cEZNZWYwWTlwNENLakxSYUotWVJsV3lXeEpsdEFEV3hNWFNacmlSLS1jcy1RMzNFak9JNVE?oc=5",
-      "source": "NBC News",
-      "feed_id": "nbc",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:43:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "771bdcf1fb455dd6a6c15097",
-      "title": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records - The New York Times",
-      "summary": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2ZrNi1zYklUTXNyMFlEaWdZQ2wwR3A2eU93VnNybXBaRGJyanBGSUNlQk5mNkxzbDdYZkZIeV9KbU9OQ0VKbWRVemdONUhuWWx3azY2ZTZkR0gwY05sMDZYVzB3akpEbW52eUJ2Zkp6SnZpZ0k0aXNHeTA3SDFFX056MVZVN3ZHRE5ZWDEyYThkYVlFclZJ?oc=5",
-      "source": "The New York Times",
-      "feed_id": "washington",
-      "category": "Washington",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:42:34+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "43c728701d1a5aff3c0c9d21",
-      "title": "Trump puts new Russia sanctions passed by Congress on hold, saying waiver is in US national interest - Yahoo",
-      "summary": "Trump puts new Russia sanctions passed by Congress on hold, saying waiver is in US national interest Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMjgxWC11b3psTGtRbEs4d0pzM1RJVXdYMnVQMWo5LWVRanBwMDBOU29SYWlsaXB0WUMtcmRCVFJaeUppMnJfTUxBSDlWM01HQktCcEN5OG5LT0lJMnFuTDlYY0UyZU5qRy00WmZBVEhlRTIzQVN3cmdUR1dad3FseXhnU1BBbHNXVGFwZEVEcVBzV3lrc2xtR0JR?oc=5",
-      "source": "Yahoo",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:42:00+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c5c9c289530198538c610b06",
-      "title": "Trump Puts New Russia Sanctions Passed by Congress on Hold, Saying Waiver Is in US National Interest - U.S. News & World Report",
-      "summary": "Trump Puts New Russia Sanctions Passed by Congress on Hold, Saying Waiver Is in US National Interest U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONjMxYnZiOEROY3RLUXhMbm92cEUwTHZUaVhlNkZjQlZpMURxWEI4TEJOUmRiclN3OGRlWHQ5a2tJeFlMX3REekFUWGJ6bHBkWlB1ZEpDeHZsU3NRODVXWEd5bk45N21uMnZyR0drZ09tRjNWX3drTG9vM3ZCU24xSTFhX1J2MEpBbm5WV3ZRcTZNTUM4ZDJuU3Vha0RvWnFqTmJGNEU0UlE3cXludkMySDNfUUROYnhqQTA0OFZBdG1UQXhrU2V1XzV1T19zWC1wQVhLUWpoanBrSks1RHJuVHN2YUJpQjBDanV5Ng?oc=5",
-      "source": "U.S. News & World Report",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:42:00+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b38384fdeb62eb6ca71c6f67",
-      "title": "Healthcare crisis escalating in Yemen’s besieged Taiz",
-      "summary": "Fighting between Yemen’s Houthis and the internationally recognised government is deepening the humanitarian crisis.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/healthcare-crisis-escalating-in-yemens-besieged-taiz?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:37:07+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6c2b5fd8af9c0c34c5731189",
-      "title": "Miranda's tears, joy and dance moves steal show as deadly boredom sets in on The Celebrity Traitors",
-      "summary": "Miranda Hart became emotional and spoke about her health problems as more action unfolded on Friday.",
-      "url": "https://www.bbc.co.uk/news/articles/cq70pre80gwko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:34:52+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4a951ac5de3263c6fb809305",
-      "title": "Trump’s appearance at Georgia rally disrupted by anti-ICE protesters – US politics live",
-      "summary": "The unpopular president is rallying to support Republican nominees ahead of midterms Sign up for the Breaking News US email In Maine, Troy Jackson , the Democratic nominee for US Senate, and Susan Collins , the five-term Republican incumbent traded barbs on Thursday in their final debate ahead of the November midterms. This was the fourth showdown between the pair. Collins has tried to cast Jackson as an inexperienced state lawmaker, and attempted to yoke him to the former nominee, Graham Platner , who dropped out of the race earlier this year following allegations of rape and sexual assault (which he still denies). Meanwhile, Jackson accused his opponent of corruption, and castigated her for her “moderate” persona in Congress. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:34:04+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "42d4f65ffc75de664e9dc0ee",
-      "title": "US coastguard rescues 16 after boat sinks off Mexico’s Baja coast",
-      "summary": "Eleven people are believed to be still missing, with rescue operations under way.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/us-coastguard-rescues-16-after-boat-sinks-off-mexicos-baja-coast?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:33:37+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4d86622ae335fa23779b15fe",
-      "title": "As Trump chaos builds ahead of the midterms, Albanese must tread carefully | Tom McIlroy - The Guardian",
-      "summary": "As Trump chaos builds ahead of the midterms, Albanese must tread carefully | Tom McIlroy The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWWxoNEFzNk45YU1URGFKSUpaX09zUUxUZ1pIajhSZTZTZi1KZWQ0akFuRVRhNkttYWhEc3VPeE9TdzVBRmJqRk5yZmRlSDV0T21mRXYwSk9RRGQ2RnJ0TWpkdHJ1SlhjbEdPOTVzSzQxeHltVDR4by1TSVE3QjVYZjBmcEtKZWJHYUE0T0pOanhoWTVkOWl6N3ZrazRkZFdrdXV3WDV6RlJHakFHV0lRTXQyTzdVSzA5Tkt5OHpTQQ?oc=5",
-      "source": "The Guardian",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:27:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ec114295390c0639cfa7cebc",
-      "title": "Trump administration threatens California officials if noncitizens vote in midterms",
-      "summary": "Justice department warns election officials of prosecution if they ‘knowingly tabulate ballots’ cast by noncitizens The Trump administration is escalating its fight with California ahead of next month’s midterm elections , warning that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution. The letter on Friday from senior justice department officials and obtained first by the Associated Press is the latest salvo in an ongoing tussle with heavily Democratic California, coming just a day after the Trump administration sued the state to prevent it from counting mail-in ballots from people the federal government has identified as “likely” noncitizens until their immigration status can be confirmed. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/16/trump-administration-california-election-officials-noncitizen-voters",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:24:56+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     }
