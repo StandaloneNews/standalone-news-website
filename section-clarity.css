@@ -264,3 +264,34 @@
 @media(prefers-reduced-motion:reduce){
   #top-stories .story-card{transition:none}
 }
+
+/* Alternating editorial sections: two restrained tones, consistently spaced.
+   White story cards and the established dark utility sections stay unchanged. */
+:root {
+  --clarity-warm:#f7f3ec;
+  --clarity-warm-border:#e4dacc;
+  --clarity-blue-deep:#e8f1f8;
+}
+#top-stories.section {
+  background:var(--clarity-warm);
+  border-color:var(--clarity-warm-border);
+}
+#top-stories .section-header { border-bottom-color:#ded1c0; }
+#markets.markets-section {
+  background:var(--clarity-warm);
+  border-color:var(--clarity-warm-border);
+}
+#markets .section-header { border-bottom-color:#dfd3c5; }
+#markets .markets-inner { border-color:#ddd8cf; }
+#explainers.explainer-section {
+  background:var(--clarity-blue-deep);
+  border-color:#ccdeeb;
+}
+.main-container .about-band {
+  background:var(--clarity-warm);
+  border-color:var(--clarity-warm-border);
+}
+/* Deliberate page rhythm:
+   Top Stories warm → News Wire blue → Community navy → Markets warm →
+   Economy blue / Government warm → Explainers blue → Context warm/blue →
+   Daily Brief navy → Newsletter navy → About warm. */
