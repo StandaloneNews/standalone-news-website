@@ -235,3 +235,60 @@ body.theme-article .editorial-sources{background:#eef5fa;border-color:#d5e3ed}
   body.theme-article .editorial-tile{padding:17px 14px}
   body.theme-article .editorial-body{padding:16px 14px;line-height:1.77}
 }
+
+/* Alternating interior surfaces — preserve white cards, legibility, and layout. */
+:root {
+  --page-alt-blue:#e8f2f9;
+  --page-alt-warm:#f7f3ec;
+  --page-alt-warm-border:#e4dbce;
+}
+body.theme-market .hero {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+body.theme-market .chart-section {
+  background:var(--page-alt-blue);
+  border-color:#ccdeea;
+}
+body.theme-market .overview-section {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+body.theme-market .calendar-section {
+  background:var(--page-alt-blue);
+  border-color:#cddfea;
+}
+body.theme-market .news-section {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+body.theme-market .overview-section .section-heading,
+body.theme-market .news-section .section-heading {
+  border-bottom-color:#ddd4c7;
+}
+body.theme-community .room-strip {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+body.theme-community .discussion-shell {
+  background:var(--page-alt-blue);
+  border-color:#cfdfec;
+}
+body.theme-personal .personal-hero {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+body.theme-personal .personal-results {
+  background:var(--page-alt-blue);
+  border-color:#cfdfea;
+}
+body.theme-legal main>section:nth-of-type(even) {
+  background:var(--page-alt-warm);
+}
+body.theme-editorial .policy-grid:nth-of-type(even),
+body.theme-standards main section:nth-of-type(even) {
+  background:var(--page-alt-warm);
+  border-color:var(--page-alt-warm-border);
+}
+/* Never recolor TradingView/third-party content, text inputs, or the
+   Supabase-powered chat / reader account controls. */
