@@ -196,3 +196,42 @@ body.theme-newsletter main p{color:#344e62;line-height:1.78}
   body.theme-personal .personal-story{padding:16px}
 }
 @media(prefers-reduced-motion:reduce){body[class*="theme-"] *{scroll-behavior:auto}}
+
+/* ARTICLE ARCHIVE & GENERATED EXPLAINERS — future articles reuse this theme. */
+body.theme-article .inner-page,body.theme-article .editorial-article{
+  background:#fff;
+  border:1px solid #cfdfea;
+  border-radius:17px;
+  box-shadow:var(--page-shadow);
+  margin-top:28px;
+  margin-bottom:45px;
+  padding:clamp(24px,4vw,48px);
+}
+body.theme-article .editorial-grid{
+  background:#eaf3f9;
+  border:1px solid #d6e3ec;
+  border-radius:13px;
+  padding:clamp(13px,2.4vw,21px);
+}
+body.theme-article .editorial-tile{
+  background:#fff;border-color:#d5e1ec;border-radius:10px;
+  box-shadow:0 3px 12px #14334c0d;
+}
+body.theme-article .editorial-dek{color:#4c6579}
+body.theme-article .editorial-body{
+  color:#263f54;line-height:1.88;
+  background:#f2f7fb;border:1px solid #dce7ef;
+  border-radius:11px;padding:clamp(15px,2.6vw,27px);
+  margin:22px 0;
+}
+body.theme-article .editorial-sources{background:#eef5fa;border-color:#d5e3ed}
+@media(max-width:760px){
+  body.theme-article .inner-page,body.theme-article .editorial-article{
+    width:calc(100% - 26px);
+    padding:21px 15px;
+    margin-top:21px;margin-bottom:30px;border-radius:13px;
+  }
+  body.theme-article .editorial-grid{padding:13px;gap:12px}
+  body.theme-article .editorial-tile{padding:17px 14px}
+  body.theme-article .editorial-body{padding:16px 14px;line-height:1.77}
+}
