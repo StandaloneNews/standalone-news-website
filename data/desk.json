@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T04:46:52+00:00",
+  "updated_at": "2026-10-17T05:42:23+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -17,31 +17,96 @@
     "9e9dc597f39f9fa2ede88189",
     "1149b469007b6d9c6ec3e995",
     "06686f7fe0b5ef2ab760a6a1",
+    "b677fdedabaf44798b79a308",
+    "d45b26dbb3fbd4a8baf432b9",
+    "8eafef662a0761fd664c68f7",
     "bc67f4a6ce5ee4c1af9e8a25",
     "20b0f4afac9400d0fcb8b583",
-    "b677fdedabaf44798b79a308",
     "e2834c74f4065e96c922c178",
     "5fb8f5be58e41d5dfc76a110",
     "d5022a149aebfd284713ade2",
     "b697a16ac737d53b14469371",
-    "8097ffa7eb1b9c1fdc27dfaf",
     "65f88036df4732e1059149a7",
-    "b58b2701debea718a7268021",
-    "3c6ba6be875cede7460a3bc5"
+    "b58b2701debea718a7268021"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
     {
-      "id": "6d037f9d52f2d4ab18425e33",
-      "title": "Albania’s PM blames ‘foreign hands’ for protests",
-      "summary": "Albanian PM Edi Rama claimed ‘foreign hands’ are driving protests that have rocked the country for months.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/albanias-pm-blames-foreign-hands-for-protests?traffic_source=rss",
+      "id": "94eab1f0bb1f57a53a3917bb",
+      "title": "Katie Zacharia leaving White House role less than five days into job",
+      "summary": "Her public debut as press secretary ended with a flurry of media criticism about her credentials and preparedness.",
+      "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T05:20:40+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "184f4f197590d7e223fffb05",
+      "title": "Russian attacks in Ukraine kill at least 8, cut power to 1 million",
+      "summary": "Russia strikes Kharkiv, Kramatorsk, Volyn and Rivne as Moscow presses its campaign against Ukraine's power grid.",
+      "url": "https://www.aljazeera.com/news/2026/10/17/russian-attacks-in-ukraine-kill-at-least-8-cut-power-to-1-million?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T04:21:18+00:00",
+      "published_at": "2026-10-17T05:19:19+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b677fdedabaf44798b79a308",
+      "title": "Trump waives several Russia sanctions as new US law takes effect",
+      "summary": "Trump says parts of a new law that aims to punish Moscow for its war against Ukraine are against US national interests.",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T05:02:50+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0b7cb70c876dd2a0d7f73061",
+      "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers",
+      "summary": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
+      "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T05:01:14+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fe9476d3ed72bbfc7a6e1eb8",
+      "title": "The Israeli politicians seeking to replace Netanyahu",
+      "summary": "A look at Israel's main opposition leaders, their parties and their largely shared positions on Gaza and other wars.",
+      "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T05:00:58+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d45b26dbb3fbd4a8baf432b9",
+      "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
+      "summary": "US President Donald Trump has waived more sanctions on Russia in a bid to ease energy prices.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T04:58:32+00:00",
+      "desk_priority": 51,
       "selection_type": "automatic"
     },
     {
@@ -53,8 +118,34 @@
       "feed_id": "bloomberg",
       "category": "Markets",
       "source_type": "Google News",
-      "published_at": "2026-10-17T04:15:42+00:00",
+      "published_at": "2026-10-17T04:49:44+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8eafef662a0761fd664c68f7",
+      "title": "Trump puts on hold new Russia sanctions he signed into law",
+      "summary": "US president's executive order comes two days before sanctions deadline and a week after diesel deal with Putin.",
+      "url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T04:45:03+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6d037f9d52f2d4ab18425e33",
+      "title": "Albania’s PM blames ‘foreign hands’ for protests",
+      "summary": "Albanian PM Edi Rama claimed ‘foreign hands’ are driving protests that have rocked the country for months.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/albanias-pm-blames-foreign-hands-for-protests?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T04:21:18+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -97,6 +188,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "596ce81630f0aa383718cf81",
+      "title": "GOP Sens. Ted Cruz, Susan Collins join growing list of targets of suspicious ‘white powder’ mailings - New York Post",
+      "summary": "GOP Sens. Ted Cruz, Susan Collins join growing list of targets of suspicious ‘white powder’ mailings New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0dXYU9xVm50RmtrM2dJWnZRLTFBVjBGZ1JtY2NmYlp0RWZjb1JxMUxWUGRpdHVVaXpFcXV3cHJuMTdmUzIxeE9JZndhdXE4Ykh3ZzNqQ0Y5TjVKZVNLS0tuUG5CQ2NfSExhWE5WYnJMdmdlZ3F6TmxvZFlZSGFyOGd1cVJEZTRFeGprTnlOSWtIVmtkb1k5d09TWFZMSDQyREt3cFVTWDlIcHpOTllFYXdPYldMLWhLdUFVbW1RRi05ODVWX25WendiU2hCLUVK?oc=5",
+      "source": "New York Post",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T03:41:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "dfdd7bf4e912dc61929a7617",
       "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
       "summary": "The fast-spreading Norte Fire in Orange County is fuelled by intense warm winds and unseasonably high temperatures.",
@@ -107,6 +211,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T03:30:36+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T03:30:21+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -123,19 +240,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "d01c12cb23477bd8e9c59411",
-      "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest - AP News",
-      "summary": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZnJQRmxjVThxTzVHd0pFZ1kwcWtlM0Z1SWUxNVBnRDFFNzBsZmp0TmNFYkEwai0xSW8xcDNvbXpMRU5rU2hoZk1DZ2FuemtfdGVYTlpXN3QwZjV5emVoQlhZa0tDQ0tXM2d1emJRNjJvSHFJYTkwc0pBc1NYc2VyaVVrb2tEb0VEUW9Ka0dhRjM1WER1?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:18:00+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
       "id": "a666c3055a7fb3d235186ce3",
       "title": "Congress members condemn Israeli settler attack on Washington Post photographer - The Washington Post",
       "summary": "Congress members condemn Israeli settler attack on Washington Post photographer The Washington Post",
@@ -146,6 +250,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T03:18:00+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d01c12cb23477bd8e9c59411",
+      "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest - AP News",
+      "summary": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZnJQRmxjVThxTzVHd0pFZ1kwcWtlM0Z1SWUxNVBnRDFFNzBsZmp0TmNFYkEwai0xSW8xcDNvbXpMRU5rU2hoZk1DZ2FuemtfdGVYTlpXN3QwZjV5emVoQlhZa0tDQ0tXM2d1emJRNjJvSHFJYTkwc0pBc1NYc2VyaVVrb2tEb0VEUW9Ka0dhRjM1WER1?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T03:18:00+00:00",
+      "desk_priority": 46,
       "selection_type": "automatic"
     },
     {
@@ -289,19 +406,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "b677fdedabaf44798b79a308",
-      "title": "Trump waives several Russia sanctions as new US law takes effect",
-      "summary": "Trump says parts of a new law that aims to punish Moscow for its war against Ukraine are against US national interests.",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:48:36+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
       "id": "23bf0a98653887e7bc0e43a1",
       "title": "Trump waives new Russia sanctions passed by Congress, citing ‘national interests’ - NBC News",
       "summary": "Trump waives new Russia sanctions passed by Congress, citing ‘national interests’ NBC News",
@@ -341,19 +445,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T02:30:21+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "305fd8ec7a4d893b3db443e2",
       "title": "How major US stock indexes fared Friday 10/16/2026 - ABC News - Breaking News, Latest News and Videos",
       "summary": "How major US stock indexes fared Friday 10/16/2026 ABC News - Breaking News, Latest News and Videos",
@@ -364,6 +455,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T02:27:01+00:00",
       "desk_priority": 40,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "2041d2aba4e6fb51757df422",
+      "title": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers - Reuters",
+      "summary": "Three sentenced to 158 years in Mexico for murder of Australian, US surfers Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2J4RHIwY0c5ZmwzaGg4VmNYbG5kYWNwckU4d3dYSWxyUUVKMDk0U01jcm5fSllLMk91NEFDcDhraTlTS2Foa0dfbkZUQ0Jpa3NHZEp3NkpORkk4bHdzWTJPWlEtTHF5YlQ3SkpwZWYtbm4zb2U2dHBOT3c0ZWs3dEtEY0dvSmxMNGlvYlVDX254N1IyQTNhN2xLWTFncnozWTVsSEJ3dm5JOXhlWjFkMGl2WmpqMmRyRldqNg?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T02:26:00+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -784,6 +888,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T00:25:22+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4d86622ae335fa23779b15fe",
+      "title": "As Trump chaos builds ahead of the midterms, Albanese must tread carefully | Tom McIlroy - The Guardian",
+      "summary": "As Trump chaos builds ahead of the midterms, Albanese must tread carefully | Tom McIlroy The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWWxoNEFzNk45YU1URGFKSUpaX09zUUxUZ1pIajhSZTZTZi1KZWQ0akFuRVRhNkttYWhEc3VPeE9TdzVBRmJqRk5yZmRlSDV0T21mRXYwSk9RRGQ2RnJ0TWpkdHJ1SlhjbEdPOTVzSzQxeHltVDR4by1TSVE3QjVYZjBmcEtKZWJHYUE0T0pOanhoWTVkOWl6N3ZrazRkZFdrdXV3WDV6RlJHakFHV0lRTXQyTzdVSzA5Tkt5OHpTQQ?oc=5",
+      "source": "The Guardian",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T00:24:38+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1970,6 +2087,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "4e45d602bba73015ee133616",
+      "title": "That Y2K feeling: Why today's economy resembles 2000 - Axios",
+      "summary": "That Y2K feeling: Why today's economy resembles 2000 Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblBCWDlmR0I2a0txcDRGRGJVVDlzNXlhbUU4STNsNDhud1hLUjdkNjlnWjd3Z0taYUl6SzNqU3NzLWJxbnF3aTllWnZlSzJ0eFMtemVNaFdMYzlKWWZBUFU3NFE4MU02SXR4anplWS1Za2FaLUVmazFUYnA2Y1R1c1ZZZmMtRlQ0aEo4?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-16T21:11:07+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "eb481085249a0d333538c086",
       "title": "Katie Zacharia Out of the Job as Trump’s Press Secretary",
       "summary": "Plus, immigration enforcement snarls home-building and Russia continues testing NATO.",
@@ -2032,19 +2162,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T21:05:20+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "94eab1f0bb1f57a53a3917bb",
-      "title": "Katie Zacharia leaving her White House role less than five days on the job",
-      "summary": "Her public debut as White House press secretary on Tuesday ended with a flurry of media criticism about her credentials and preparedness.",
-      "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T21:05:05+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -2123,6 +2240,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-16T20:54:55+00:00",
       "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "70da64340156664ec9c36028",
+      "title": "Stocks struggle to bounce back from AI angst-fueled rout - Yahoo Finance UK",
+      "summary": "Stocks struggle to bounce back from AI angst-fueled rout Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObDhnNGlTbm8zUWtTMWdjTFE3Zk45dll1c3dmX1l0ZzlwQ2NlWmpOQnFQb1BZSDBPcS04eHBMN1Y1MThBNHB0X2lIQVhzVHBqdS05SEVKMmxYTkNkNkRxT3JiLTRRclI1aHJkQzBORkUtTGlTWmt1elFWUE1IN2REYUNKdHpwdw?oc=5",
+      "source": "Yahoo Finance UK",
+      "feed_id": "yahoo_finance",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-16T20:53:15+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -3842,6 +3972,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "461aa42711e6acb997fa8d07",
+      "title": "New York City college student dead after being drugged with fentanyl and raped in her dorm room, prosecutors say - NBC News",
+      "summary": "New York City college student dead after being drugged with fentanyl and raped in her dorm room, prosecutors say NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZVQ1aXBHYzRoWFo4aDV0enVlU3RseVNkbU4yM1Y5UFNNRTUxUDhGWXl6VjkyR1REOTlWMVFjaDNTY3gycVpSMm1zbndjY2tqRjdIU3VHcWVqLU1PTHZqdmJxLTBBS3NBSWdBV2VkWmF3cEFjSkRYRnN3YnZWQV84SXZENEswM2VKQ1gweWtESWpOS3l2VktyOWRfa1RLVlhubEdhVlkyeEpOQVBFUWU5cENERVc3WmdMeEE?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-16T17:33:38+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "c6dfd1d7c1b55281b9cb8c15",
       "title": "Trump Announces Sweeping US Grab for Control of Venezuela’s Vast Oil Reserves - EnergyNow.com",
       "summary": "Trump Announces Sweeping US Grab for Control of Venezuela’s Vast Oil Reserves EnergyNow.com",
@@ -4278,19 +4421,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-16T16:51:58+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4e45d602bba73015ee133616",
-      "title": "That Y2K feeling: Why today's economy resembles 2000 - Axios",
-      "summary": "That Y2K feeling: Why today's economy resembles 2000 Axios",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQblBCWDlmR0I2a0txcDRGRGJVVDlzNXlhbUU4STNsNDhud1hLUjdkNjlnWjd3Z0taYUl6SzNqU3NzLWJxbnF3aTllWnZlSzJ0eFMtemVNaFdMYzlKWWZBUFU3NFE4MU02SXR4anplWS1Za2FaLUVmazFUYnA2Y1R1c1ZZZmMtRlQ0aEo4?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T16:51:21+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5334,19 +5464,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "05ab10154a49227ede688bd1",
-      "title": "US voters want more action on global heating. Why are Democrats and Republicans staying silent? - The Guardian",
-      "summary": "US voters want more action on global heating. Why are Democrats and Republicans staying silent? The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV2hySzdOVlJkOHpyYUlwbmdWcUt1Um5jMWUteGgtV2tkbnlEMnlPLW03Y0RRTGdJYTlUU1g3aU5aYl9INm1vLUZrdFNYUkFBWW1NZkVjWk1EMEM4OTVCVVZTSGQ4ckpQaFlLNG9xX3A1Q3BvaTBvMGNBUlRIS2JmSERocEhyWDJoYU9zc1I0U0k0VEk?oc=5",
-      "source": "The Guardian",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T15:00:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "54ebdfe79863725a246639b5",
       "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
       "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia […]",
@@ -5370,6 +5487,19 @@
       "source_type": "Official direct",
       "published_at": "2026-10-16T15:00:00+00:00",
       "desk_priority": 58,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "05ab10154a49227ede688bd1",
+      "title": "US voters want more action on global heating. Why are Democrats and Republicans staying silent? - The Guardian",
+      "summary": "US voters want more action on global heating. Why are Democrats and Republicans staying silent? The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOV2hySzdOVlJkOHpyYUlwbmdWcUt1Um5jMWUteGgtV2tkbnlEMnlPLW03Y0RRTGdJYTlUU1g3aU5aYl9INm1vLUZrdFNYUkFBWW1NZkVjWk1EMEM4OTVCVVZTSGQ4ckpQaFlLNG9xX3A1Q3BvaTBvMGNBUlRIS2JmSERocEhyWDJoYU9zc1I0U0k0VEk?oc=5",
+      "source": "The Guardian",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-16T15:00:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -5409,136 +5539,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-16T14:51:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "fef2bb7c0378762313626d38",
-      "title": "Word on Wall Street: Healthy Economic Readings but Inflation Remains Stubbornly High | Wyncote Wealth Management Group - MoreThanTheCurve",
-      "summary": "Word on Wall Street: Healthy Economic Readings but Inflation Remains Stubbornly High | Wyncote Wealth Management Group MoreThanTheCurve",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNajhIZUFTanZXNTQxVjlDNlI0aGlpbjlvRWJpYXJCQk1BX2tIRTBobUlwWmhVaklXRy01dWFLWUlpUDAtcHdtajM4cE05Q0FlR2xtWVIyTE44dEpaSFdlaFI3UkJwRXRBLWM1Y2tfTWFUaTBtbzVfa2Q5UXlxNHVSNlJwOWdWeXNvUEVhMlVLN3o0T2hDQVNHS2NERnM4aVZuR0xpbERZYzY3S01QN2FCNnFpTG80Nk9QZS1WLTFyaURmMTYyWWRtWnkxQVVlalJqbGlyVEItZHZBSFNPSVE?oc=5",
-      "source": "MoreThanTheCurve",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T14:47:47+00:00",
-      "desk_priority": 66,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a1e539304f5e2b4514b28b12",
-      "title": "Talarico compares his campaign to David and Goliath after GOP invests over $158M against him",
-      "summary": "The Democrat faces more than $158 million in outside spending by Republican leadership and the world's richest man, Elon Musk.",
-      "url": "https://www.pbs.org/newshour/politics/talarico-compares-his-campaign-to-david-and-goliath-after-gop-invests-over-158m-against-him",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T14:44:21+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "383ee68d069505be6a8e4fd2",
-      "title": "German colonialism on agenda in Bundestag debate on Namibia genocide",
-      "summary": "Opposition parties have forced a debate in the Bundestag on the early-20th-century genocide Germany carried out in Namibia. Will this finally spur progress in addressing colonial crimes?",
-      "url": "https://www.dw.com/en/german-colonialism-on-agenda-in-bundestag-debate-on-namibia-genocide/a-79682388?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T14:42:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b66d0b5425f323be1cea0cc5",
-      "title": "Stocks in play: Future Mineral Resources Inc. - Yahoo! Finance Canada",
-      "summary": "Stocks in play: Future Mineral Resources Inc. Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR0FnT05HS2VpaGg5eFNxUXNwdWlWOHFxaXdsRktjZk1kOXhpOFBka2NmRi1uWVhFNUlsektRRTVoZndQSE9fdkd4bmxtNUZ0VlRoZFRXdnRkTEhTX1RBQlZWUVZuZzFnV05ZTTV0NXBXUUNhekxMM1lJX0hNRUJrZkNtQTBONGFKS29PTTB3?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T14:42:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "062609a11715134f78656357",
-      "title": "German colonialism: Why hasn't there been a reckoning?",
-      "summary": "Germany's opposition parties have forced a debate in the Bundestag on the genocide against the Ovaherero and Nama. But will this finally spur progress in addressing colonial crimes?",
-      "url": "https://www.dw.com/en/german-colonialism-why-hasn-t-there-been-a-reckoning/a-79682388?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T14:42:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "bca03f41c2db3a61839ba3a6",
-      "title": "Decisive Moments of Climate Diplomacy: Global Energy Prize International Award Committee Chairman Rae Kwon Chung presents his book - The Global Energy Association",
-      "summary": "Decisive Moments of Climate Diplomacy: Global Energy Prize International Award Committee Chairman Rae Kwon Chung presents his book The Global Energy Association",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaVJPakZ6V2NOQmlLX2p5OHFHOEJKeVVXamNTYm9rZ2JWQ2FrQUN4RVdMTUU4M1M1QXc1S29KR2V6UnFkY1VQOVlWVG52ZkNuaGN0bmJ0bHNsc3R0UXVRazJLalFoMGdiX0tnZ0hUWnBXeTF3a01mcjEtZE9yX3Rqa09USVFlaGN60gGQAUFVX3lxTFBlcm51ZGdjUVl0ZEF0LURobmVsTGVoaElhb1llMk9RQndDWUlvRllpdkhvTlhHMUZaOWxBT2l2NWJnZjJ5T3BLS1d2UGpGZkVCMDZqdVVucXk0S2ZZdDFXdXdXZlR3YVZmelRabEZPV3ZlRGFYSjhXYkZOX2dMTUIxcmZxRDFDRWd2OWRjQS1UWA?oc=5",
-      "source": "The Global Energy Association",
-      "feed_id": "world",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T14:38:52+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9d07a78042ee4781b8388ea7",
-      "title": "THINK Ahead: The AI-inflation tug of war that’s driving markets crazy - ing think",
-      "summary": "THINK Ahead: The AI-inflation tug of war that’s driving markets crazy ing think",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uTWxpQmRTdmU4WWtsX21fM25MUGtDVFFCRlFXNWtzdmUxZWktd2VqaENidkNEZWNkZG93RElMdVFZSjAzY3hjay1vMUpBeTBPMUU0LVMwTFFFRndvMWc1UzY2TWRyaWJFT0R0WTFOdzRSYWxPS1E?oc=5",
-      "source": "ing think",
-      "feed_id": "economy",
-      "category": "Economy",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T14:37:57+00:00",
-      "desk_priority": 88,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ec66b512482a533b697f6cf0",
-      "title": "Burnham invites Swinney to work together on 'deeper Scottish devolution'",
-      "summary": "On his first substantive trip to Scotland since becoming PM, he says politicians should focus on solutions \"right now\" and move beyond the issue of Scottish independence.",
-      "url": "https://www.bbc.co.uk/news/articles/cmlykv9pey7go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T14:36:27+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a30ebc44667a477c488aaa3f",
-      "title": "TSX Opens Higher as Energy Shares Lead Gains - Yahoo! Finance Canada",
-      "summary": "TSX Opens Higher as Energy Shares Lead Gains Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMmNSOTJ1Q3NvMXpoVFFRRnlZUVZScVF5b0dXck9MN01UcnU1a29MaU1sWGdqZ3F4WW5NVHpjS1VfQVI0UTA4THZvY3M1YjRDSUJKNHVTeFVoWkJlVFlzejlYZWQ3dmJNTFo0ZDNXd2M2LUp4Z1d2MVRXSGtZMjBSQjBxOGl1QQ?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-16T14:36:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "32c85ad8ce5dd7759535ee93",
-      "title": "Drone strikes in the Black Sea raise fears of Russian escalation to test NATO's response",
-      "summary": "The attacks in the two countries' exclusive economic zones threaten a global shipping route and have left two people dead, with at least 25 still missing. They also run the risk of drawing other countries directly into the war for Ukraine.",
-      "url": "https://www.pbs.org/newshour/world/drone-strikes-in-the-black-sea-raise-fears-of-russian-escalation-to-test-natos-response",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T14:35:52+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
