@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T22:39:00+00:00",
+  "updated_at": "2026-10-17T23:01:03+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -12,8 +12,8 @@
     "47e05b46acb52dd11d8610d2",
     "652f99621c1ab29ad0f3c30d",
     "ce912e9ef0108a454aa55854",
+    "13085a3b6524965c32a03e20",
     "d83db5e5b43f99ee4477ffa3",
-    "fd367e62fd2b1af48767148d",
     "8a87b4ee2d92811bf65cb139",
     "59fd2decfdd413d573f05f85",
     "2db5a89324f0f3d713f2f93f",
@@ -40,8 +40,60 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-17T22:28:55+00:00",
+      "published_at": "2026-10-17T22:58:22+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5409a67faeebe4c6d60a4a65",
+      "title": "New York City police seek suspect in fatal subway station shooting",
+      "summary": "Suspect shot a man in his 30s on the E train platform of the 53rd Street-7th Avenue subway station, according to NYPD A man was shot and killed in a New York City subway station Saturday afternoon, and the New York police department is searching for the suspect. The suspect fatally shot a man in his 30s on the E train platform of the 53rd Street-7th Avenue subway station, according to a statement from the NYPD . Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/17/new-york-city-subway-station-shooting",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T22:45:48+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1be8e97651263e5ac20404dc",
+      "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
+      "summary": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon.",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6005814/oregon-governor-tina-kotek-reacts-to-silver-rail-elementary-school-shooting",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T22:45:25+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "24d06cfa55f76ba100e5d5e6",
+      "title": "Oregon school shooting victims include 5-year-old whose family is ‘broken and lost’ - NBC News",
+      "summary": "Oregon school shooting victims include 5-year-old whose family is ‘broken and lost’ NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZEd2a1FvRUJPLTdiNzRLUC1jM2VONFNaUEVHZ192UkFjMndWbi1KV0pOWjkxLXBDU3hQeERuZmhRYUJlNFRtbUxRYjd0V1M5MzJFRmxWZ2lGTEoyNl9QeEZrbmttbDlxdEMxWldaM2tfQVc2T2Y3b0pWUjFMZjBSRXdQUERnWWxsRUswRzJoVEpoLVBxSThPZHVuMElfVUJQbjFfamZ1SUhlbkRJa0xGblBWTGtHaXdONnc?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:31:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5344519ebb2546e23947d357",
+      "title": "Trump-Zelenskiy rift threatens vital support for Kyiv - Reuters",
+      "summary": "Trump-Zelenskiy rift threatens vital support for Kyiv Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOS1zSXlGaS1sbWV1RHJiN2s1S1o5WWQxY01nZmh0ZVA2ZHo3cEZ0NUhERFZFT2kzT0FPQXgxVmFqNzhlNUNtNFB1WkFENHZEU2xKdWRuYmt5ZUhTcUJrY1ktbXEtSU1mOGUyZkxYOVF6Y1hqYkFZSGJuZ2s4MWZ1NmRZY09kQThIZXlndE1GRFlIVkNvTWFzbUxhaDJaNEE?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:27:19+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -58,6 +110,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "8bab8c34210058aae9042375",
+      "title": "2,000+ voter events sweep the U.S. as both parties send armies of lawyers to the polls - Latin Times",
+      "summary": "2,000+ voter events sweep the U.S. as both parties send armies of lawyers to the polls Latin Times",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHpUVHZsRDNaZndFSklsT0FSWmhTR1hxT1padmJKcWh5RFgzS0NwYk81dUZFUVJ6NEc5NmI1ajNBdmh3cVNRUmh2RkdBemc1Rjd3TXFxdmJ1YmtEVFJYbGtGZGwzMW1OU1M1eERIWDNXRTNobTZ2VFlScTVCalEwanZPNVltVjlJUnRmTXI0MFhwNFNBOGZDbFl0cXBlRzZfaW90Qm5veS1KNWlUZkRv?oc=5",
+      "source": "Latin Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:11:24+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "15dda46e4ddf753818fdf50f",
       "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
       "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
@@ -68,6 +133,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T22:09:50+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7cd07161e2cfff168532e78d",
+      "title": "U.S. Senator Rand Paul discusses political positions at campus forum - The Louisville Cardinal",
+      "summary": "U.S. Senator Rand Paul discusses political positions at campus forum The Louisville Cardinal",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVGNNZlRoblFxLWtLRFRNdU5DSWthdXdjbGtNMjkzdFpiRldaTE1uTGwxM0VpcXBIbnhlSVgyeVZuWllCcmZ3TmRjVVZFN0pHZ0RZejVyVnpKblRzWmFsRXQ4aDh4dzdMMnhFOUtaY29NdW1MMk1UTXlYLWk3YWFfeFVscm00VXkzc1M4TVlYb1Mxckh0UWl0bHhUOVBKZnBQUHJBREJHaTM4aldZMFJQbg?oc=5",
+      "source": "The Louisville Cardinal",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:03:19+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -162,19 +240,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9c4fcee975efd064476e05ec",
-      "title": "Who is Katie Zacharia, Trump’s ill-fated press secretary? - The Times",
-      "summary": "Who is Katie Zacharia, Trump’s ill-fated press secretary? The Times",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDlRbHNXWmxMNmY2Z0VuT2VFTUttZHBJazVoSFBaUzR3Q0NkNlBLWU1vVDhJb2RyOU00emFwdjdSakJ0a0NVamlzd012V2NiUEFHVW9BaDBqLXU1NHl0amhkYlBhNXlKYUNFVmY1Qmc4b3QtUkZNLW9hQmNIdmdtTG1Ua2lGeXdUT1VVYkE3U2tmbGdKMDZxVkRNWWYzT18zV0VPYmpLMlMxaEhUT2lZX0daR0NSd0E?oc=5",
-      "source": "The Times",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T21:18:09+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "ef86c003fc8e07d7fcd80c88",
       "title": "California officials who process ballots from suspected noncitizens risk prosecution, US warns - AP News",
       "summary": "California officials who process ballots from suspected noncitizens risk prosecution, US warns AP News",
@@ -211,19 +276,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T21:08:00+00:00",
       "desk_priority": 71,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "72aacc52a0d3ba8f1bee4d9a",
-      "title": "Ukraine still unable to intercept Russian drones due to Starlink restrictions, Zelenskyy says - CBS News",
-      "summary": "Ukraine still unable to intercept Russian drones due to Starlink restrictions, Zelenskyy says CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN3VUUE5BbS1CRjF4ZHhJSVB4dHlxQ2NWM3VOZU05RHFYWU9UYTE3UDluUDAyQUVxTGR0d0dnNmNnam1QTDZ2cjRxcHVvN1hfV05waGdLYm5TZkdCNjFLX1hHWWNDanl0ZFp5QnA3TmU0WUMzS2VwNVQ4SUd3VFNrclZFb3FSc0k?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T21:06:14+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -474,19 +526,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "5344519ebb2546e23947d357",
-      "title": "Trump-Zelenskiy rift threatens vital support for Kyiv - Reuters",
-      "summary": "Trump-Zelenskiy rift threatens vital support for Kyiv Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOS1zSXlGaS1sbWV1RHJiN2s1S1o5WWQxY01nZmh0ZVA2ZHo3cEZ0NUhERFZFT2kzT0FPQXgxVmFqNzhlNUNtNFB1WkFENHZEU2xKdWRuYmt5ZUhTcUJrY1ktbXEtSU1mOGUyZkxYOVF6Y1hqYkFZSGJuZ2s4MWZ1NmRZY09kQThIZXlndE1GRFlIVkNvTWFzbUxhaDJaNEE?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T19:58:33+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "fa9bb763c4b088e85ff924d8",
       "title": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - AP News",
       "summary": "No Kings rallies across US urge voters to cast ballots early ahead of midterms AP News",
@@ -716,7 +755,7 @@
     },
     {
       "id": "038451c825bfda01a6ea9626",
-      "title": "Plover, not a fighter: masked lapwing nesting on Tasmanian cricket ground indifferent as play continues",
+      "title": "Plover, not a fighter: protected bird 12th man on Tasmanian cricket ground as staff mow around nest",
       "summary": "While masked lapwings have a reputation for swooping during nesting season, Windsor Park oval’s resident plover just wants a good innings At Windsor Park in Riverside, just outside Launceston in northern Tasmania, a masked lapwing has claimed prime real estate in the middle of a community sports ground, showing complete indifference to the weekend cricket matches taking place around it. Warming a nest of eggs, the bird has been affectionately dubbed “Faf Swoop Plessis” by locals – a play on former South African cricket captain Faf du Plessis. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/2026/oct/18/plover-not-a-fighter-masked-lapwing-nesting-on-tasmanian-cricket-ground-indifferent-as-play-continues",
       "source": "The Guardian",
@@ -741,16 +780,42 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7872aa95c13a73e64eda83ab",
+      "title": "Israeli settlers attack European diplomats in West Bank",
+      "summary": "French mayor and archbishop also attacked during violent attempt to stop Palestinians harvesting olives Israeli settler militants have attacked European diplomats, a French mayor and the archbishop of Cambrai in Taybeh, in the occupied West Bank, injuring three people and damaging a car, in the latest violent attempt to prevent Palestinians from harvesting olives on their own land. Bernard Baudoux, mayor of Aulnoye-Aymeries, was wearing his red, white and blue sash of office and attempting to enter a vehicle with diplomatic plates when he was assaulted and knocked to the ground on Saturday. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/17/israeli-settlers-attack-european-diplomats-in-west-bank",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T18:57:56+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "23bf0a98653887e7bc0e43a1",
       "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress - NBC News",
       "summary": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress NBC News",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5",
       "source": "NBC News",
-      "feed_id": "us",
+      "feed_id": "nbc",
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T18:54:00+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9c4fcee975efd064476e05ec",
+      "title": "Who is Katie Zacharia, Trump’s ill-fated press secretary? - The Times",
+      "summary": "Who is Katie Zacharia, Trump’s ill-fated press secretary? The Times",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDlRbHNXWmxMNmY2Z0VuT2VFTUttZHBJazVoSFBaUzR3Q0NkNlBLWU1vVDhJb2RyOU00emFwdjdSakJ0a0NVamlzd012V2NiUEFHVW9BaDBqLXU1NHl0amhkYlBhNXlKYUNFVmY1Qmc4b3QtUkZNLW9hQmNIdmdtTG1Ua2lGeXdUT1VVYkE3U2tmbGdKMDZxVkRNWWYzT18zV0VPYmpLMlMxaEhUT2lZX0daR0NSd0E?oc=5",
+      "source": "The Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T18:51:56+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1002,8 +1067,8 @@
     },
     {
       "id": "5b109f24ed38df035e12dd0d",
-      "title": "U.S. Floats Another Lifeline to Russia: Allowing It to Sell More Gas to Europe - The New York Times",
-      "summary": "U.S. Floats Another Lifeline to Russia: Allowing It to Sell More Gas to Europe The New York Times",
+      "title": "U.S. Floats Lifeline to Russia: Allowing More Gas Sales to Europe - The New York Times",
+      "summary": "U.S. Floats Lifeline to Russia: Allowing More Gas Sales to Europe The New York Times",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IQ29DeWFfbUJIOEEzNlVuMzJUOXZKZ1l5bDBpUWsyQjV6SmpKYlNVczVEeHBWUWZYTFJNa2ZXWFhuRVlNZndWaHVsdWxXSEJnLXk3NmNMQkszdDhQcXJlT2lzekhpNmFEdjg0R1MzR2pnZ21VUU80?oc=5",
       "source": "The New York Times",
       "feed_id": "us",
@@ -1066,6 +1131,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "49108bf54aa16e75e7f1fd9c",
+      "title": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms - ClickOnDetroit | WDIV Local 4",
+      "summary": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1ViWmwxLWxMaWpXMW53M1VjeTFFcGFleG5tN0VsMVIzaVdiZlNBX3pLY0hPV0JVWnZoVERtRk8zWm44MGk1OUhXY1FjODM3ZF9zV21mTS1NaXRXWkJldE5sZzB1N0FxRFFMeXJob1pNdWhKZUdoQkFoSXQ2bWU2amx2TkNlbmdYVkY5bW1QQzlIN2JKUUtLV0dheWQ0cXVTUnNjZzVjZXBaRTJuWXZ5eVhlUFZrSmJNUDY3SkdwSXJFVW1FRU90amZDVVktZUoz?oc=5",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T17:45:49+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1e6de25356c75793f5fae874",
       "title": "No Kings rallies across US urge voters to cast ballots early ahead of midterms - Click2Houston",
       "summary": "No Kings rallies across US urge voters to cast ballots early ahead of midterms Click2Houston",
@@ -1084,19 +1162,6 @@
       "summary": "No Kings rallies across US urge voters to cast ballots early ahead of midterms KSAT",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSDRjbEJGWnZQZmw1LWttbVlzYk5hUkd5b0FJV1locXpuWThuUl83Q1JSc2tWWVRmNGJ5U1BHZGxzczY5bmFnMGpzWmtKanpIR1libEpQWTZBa3c5Qmgyc3pUQzlTcFhhMmkzUWEtNXBSUGtrTHNKVUN5TDlFbk9FWk1LWjY0Zm1CdHppSUNmV18tMWt5c2FlaXc1cVNIOGtfUHFseDI1OEE0SWpaZW80ckV1eFBrRjNzcU5hMzFCRzd3X0E?oc=5",
       "source": "KSAT",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T17:45:49+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "49108bf54aa16e75e7f1fd9c",
-      "title": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms - ClickOnDetroit | WDIV Local 4",
-      "summary": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1ViWmwxLWxMaWpXMW53M1VjeTFFcGFleG5tN0VsMVIzaVdiZlNBX3pLY0hPV0JVWnZoVERtRk8zWm44MGk1OUhXY1FjODM3ZF9zV21mTS1NaXRXWkJldE5sZzB1N0FxRFFMeXJob1pNdWhKZUdoQkFoSXQ2bWU2amx2TkNlbmdYVkY5bW1QQzlIN2JKUUtLV0dheWQ0cXVTUnNjZzVjZXBaRTJuWXZ5eVhlUFZrSmJNUDY3SkdwSXJFVW1FRU90amZDVVktZUoz?oc=5",
-      "source": "ClickOnDetroit | WDIV Local 4",
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
@@ -1128,6 +1193,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T17:42:01+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0e4d5cfd827d00d84f5f18b7",
+      "title": "Three men get 158 years each for murdering American and Australian surfers, dumping bodies in Mexican well - Fox News",
+      "summary": "Three men get 158 years each for murdering American and Australian surfers, dumping bodies in Mexican well Fox News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdUVacFBUYmtWRkxOZk1VYkNJel9fbzhTR2pqY1JWUFo1cGdVcXI1T2FkLWh0bnMyWUw3YThDaF8zWl9wVEtjQ0ptM0JrWmkxcFQyMEJvV3AyU3V4c0FWN1BnRmgtSi1LRktEaEVjRV9fdWhjVVBEWnlHZFdJVVllTTB4ZDFFOG9vd0xENDhxUWJzRXNYTnRpNWxLb2xsMnJSUDlrYUlpTU9PanNGSno2TTJWcnJuZ9IBuwFBVV95cUxPOEY0TlhQZU51ZDVqdHk0ZldiTF9PRUpqV2xyY2R5dEU5S2w4NjJDNDJxd3pPLWdqY19iQm1FLTFWdFZYWDR0c0RBY09aYlJTZHI2ZnczM0t3dUIya1VZSHgwV1BLV05YQzQtaTRKUFVlZHJlempMZ0ZCY25XemdJTjBhRmdkd3pSX1Z3cmljbUhwbDNqbzN0b3NvT1pyRnExcGoxS1lXOWt2a1hZQ3k0WmJEYmxTSDVET2F3?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T17:38:52+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1179,19 +1257,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T17:31:01+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7cd07161e2cfff168532e78d",
-      "title": "U.S. Senator Rand Paul discusses political positions at campus forum - The Louisville Cardinal",
-      "summary": "U.S. Senator Rand Paul discusses political positions at campus forum The Louisville Cardinal",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVGNNZlRoblFxLWtLRFRNdU5DSWthdXdjbGtNMjkzdFpiRldaTE1uTGwxM0VpcXBIbnhlSVgyeVZuWllCcmZ3TmRjVVZFN0pHZ0RZejVyVnpKblRzWmFsRXQ4aDh4dzdMMnhFOUtaY29NdW1MMk1UTXlYLWk3YWFfeFVscm00VXkzc1M4TVlYb1Mxckh0UWl0bHhUOVBKZnBQUHJBREJHaTM4aldZMFJQbg?oc=5",
-      "source": "The Louisville Cardinal",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T17:29:27+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1469,6 +1534,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "a0c11b53e54c85c897bfcbb8",
+      "title": "Hill leaders brace for miserable 2027 - Axios",
+      "summary": "Hill leaders brace for miserable 2027 Axios",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOekM2dG9qbmkxNlU0Q0VXWXh6cWhJdVlmWTBWbjNXcWxMYldZUWRoZkZlQ3JjSFpiVUlpUThfTGpxdHhSOXpGQTd6SEp4MjZBWGdTMFlUYnFfRVR5OVFOclctNXkxbWVqNFMzR0JKUkRwV282UTVpb3d1NGZMdHdyZWVIY2VYV2ozQlNINDBR?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T16:24:04+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "4a00036d392056302f7a270b",
       "title": "CBS News | Breaking News, Top Stories & Exclusive Coverage - CBS News",
       "summary": "CBS News | Breaking News, Top Stories & Exclusive Coverage CBS News",
@@ -1739,6 +1817,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "5a12a5db2f1e4d57c2eae403",
+      "title": "Almost every refugee Trump admitted in 2026 came from one country - Axios",
+      "summary": "Almost every refugee Trump admitted in 2026 came from one country Axios",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWkJ4R0RmN0NWMGlmcnZINmxFTldYbE5lTzFuUFV2RGsyQXlIOUhYVHQ5NXpoc2pTZ3cwa1Q0QjBCbmdmM1NBWUtUbUVHT0JDTlYzVHViLXJZbkFwRzRJSnAzdGswS180YVYzTDFlT3BpRFBvS2MtRkdzZHRtUlF3dC1OOU9NSm1fV2o4?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T15:31:44+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3fb0cae727cba44cc8e8a382",
       "title": "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus - AP News",
       "summary": "US senator accuses Turkey of ‘thuggish behavior’ toward Greece and Cyprus AP News",
@@ -1840,6 +1931,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T15:19:28+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "72aacc52a0d3ba8f1bee4d9a",
+      "title": "Ukraine still unable to intercept Russian drones due to Starlink restrictions, Zelenskyy says - CBS News",
+      "summary": "Ukraine still unable to intercept Russian drones due to Starlink restrictions, Zelenskyy says CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN3VUUE5BbS1CRjF4ZHhJSVB4dHlxQ2NWM3VOZU05RHFYWU9UYTE3UDluUDAyQUVxTGR0d0dnNmNnam1QTDZ2cjRxcHVvN1hfV05waGdLYm5TZkdCNjFLX1hHWWNDanl0ZFp5QnA3TmU0WUMzS2VwNVQ4SUd3VFNrclZFb3FSc0k?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T15:14:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2477,6 +2581,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "66bec5b1c23e6bf6fcadf722",
+      "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
+      "summary": "Trump Signs Order Exempting Russia From Sanctions Law The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
+      "source": "The New York Times",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T13:30:00+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
       "id": "7888611a7d0aac652aedba41",
       "title": "GOP lawmakers bash Trump’s decision to waive Russia sanctions: ‘Beyond irresponsible’ - The Hill",
       "summary": "GOP lawmakers bash Trump’s decision to waive Russia sanctions: ‘Beyond irresponsible’ The Hill",
@@ -2574,6 +2691,19 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T13:00:31+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7c14d2821145ed9dc59a52b6",
+      "title": "Ilhan Omar should be jailed, deported if citizenship fraud proven, Top House Republican says - Fox News",
+      "summary": "Ilhan Omar should be jailed, deported if citizenship fraud proven, Top House Republican says Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaVl0aXNoZFVZTnU2MlpCdGZhSjhfaU5tZlM0M0g2R05xM0d1TXF3MGNvOWVPRlY4a3VLRkNCYmVPWkZMUm54ODdQWTU3QUlZN3gtQnBIWW9YV0E3V1IxcWVtbGJJb3NMcG5IZ1ZCQU1EbzJfM1dJalF3SmxuSUNua09PVFlVZnhoUm1DcDZQMHNUenR1cm1nU0NEWE1nNzFhTlFtbXFLaWtZR1RodlRLN2o5WFllSjg40gG-AUFVX3lxTE5vZkVfUURBbTR3NjBnLTVVVDVVMEl0T0ZSS0xBUXYzZ2diVWI5cWVYckVSeDNrU0locHBsZ3pjZEl3TjlNVzV1Q0JMOFZIQXNqRDNFcjhoTEowOV9RYXBKNlN2ZjZzTnVRVHd1YWlaTTk5TmxDYWpvYXcyVF84VXdrX25DazRQRFZyekthYzZkTXhFZFBRZXQzSW50Y3p5cUZBV3B5dWw5ZjdtLXVKb1N2YmJjaWRHNWFaS2lzSWc?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T13:00:13+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -3826,19 +3956,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "65d6407e26b1af2bf9deeb2a",
-      "title": "No Kings turns its focus to voting this weekend. Here's what we know",
-      "summary": "The coalition behind nationwide anti-Trump protests is shifting its strategies this weekend to focus on voter turnout. Organizers say Saturday's events are a nonpartisan effort to get people to the polls.",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6004887/no-kings-voting-trump",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T09:00:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "94e314220aa98e73ad4b3def",
       "title": "Charting the Global Economy: Inflationary Pressures Mount in US - Bloomberg.com",
       "summary": "Charting the Global Economy: Inflationary Pressures Mount in US Bloomberg.com",
@@ -3849,6 +3966,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T09:00:00+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "65d6407e26b1af2bf9deeb2a",
+      "title": "No Kings turns its focus to voting this weekend. Here's what we know",
+      "summary": "The coalition behind nationwide anti-Trump protests is shifting its strategies this weekend to focus on voter turnout. Organizers say Saturday's events are a nonpartisan effort to get people to the polls.",
+      "url": "https://www.npr.org/2026/10/17/nx-s1-6004887/no-kings-voting-trump",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T09:00:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -4070,19 +4200,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T08:00:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "66bec5b1c23e6bf6fcadf722",
-      "title": "Trump Signs Order Exempting Russia From Sanctions Law - The New York Times",
-      "summary": "Trump Signs Order Exempting Russia From Sanctions Law The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjBtZHJzaWs1Q0M1VEQ3LVg3VTRvdkdwTFNKY2xwbG82X0ZYZGR1X3ZYZk1uOGRqWFdhcl90YUNTVlQ5dWNjV0Y1bmpYcWo4TENqdnhTMy1VQVV6MEtpM2ZlQXRuN2o3TS11UUNrR0F3Vnp4T0NqNHBiTndVY1ZGMU1sT2Nka2c?oc=5",
-      "source": "The New York Times",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T07:57:36+00:00",
-      "desk_priority": 46,
       "selection_type": "automatic"
     },
     {
@@ -5256,6 +5373,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "13085a3b6524965c32a03e20",
+      "title": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus - Stocktwits",
+      "summary": "S&P 500, Nasdaq 100, Dow End Week Higher With Traders Eyeing Earnings Season — MSFT, NFLX, SPCX, ASTS In Focus Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSTU4WkhLT2hxZjdNaEZnZ1RWZEhEcTY2dGFpNGV5MGt4MlNzNWV2OFRhNmlqWVc5N3V0T2pQOTdsX3RqZWcxVFo1bEE3UFZ0NXFPOFItNk9OSlE2NURFVGl0ZnpqN056SmNiUHh4RXp5Z1Q0NENwX3ZZUExNcE9aNmZhNUJZalhMTXlvbk1nNWg0UzJGQmdraEI2QjVna01KYUZ5MTZMa0dwMHdzM1B6b3pvTXB4bGZpUWt2Y3dpcjB0RUtEaWFTenZMUW9KNGp4aTltZENIY0RiQQ?oc=5",
+      "source": "Stocktwits",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T01:49:42+00:00",
+      "desk_priority": 71,
+      "selection_type": "automatic"
+    },
+    {
       "id": "4d2797c44b0f3f5cc9724044",
       "title": "Mimicking populists will not ease cost of living or boost productivity, Mathias Cormann warns",
       "summary": "Former minister and OECD head urges Australia not to adopt migration caps, with research showing migrants boost employment Get our breaking news email , free app or daily news podcast Australia’s mainstream political parties are being warned not to adopt populist policies such as migration caps to address voters’ grievances over the cost of living. Instead, Australia’s longest-serving finance minister, Mathias Cormann, is urging politicians to deliver housing, real wage growth and lower energy costs by boosting productivity. Continue reading...",
@@ -5292,6 +5422,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T01:43:00+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "771bdcf1fb455dd6a6c15097",
+      "title": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records - The New York Times",
+      "summary": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2ZrNi1zYklUTXNyMFlEaWdZQ2wwR3A2eU93VnNybXBaRGJyanBGSUNlQk5mNkxzbDdYZkZIeV9KbU9OQ0VKbWRVemdONUhuWWx3azY2ZTZkR0gwY05sMDZYVzB3akpEbW52eUJ2Zkp6SnZpZ0k0aXNHeTA3SDFFX056MVZVN3ZHRE5ZWDEyYThkYVlFclZJ?oc=5",
+      "source": "The New York Times",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T01:42:34+00:00",
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5395,149 +5538,6 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T01:24:56+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "10446dd7b3ec4a8144fc2bbe",
-      "title": "Rep. Ilhan Omar's Attorneys Demand Return of Property Seized in Federal Search of Her Home - U.S. News & World Report",
-      "summary": "Rep. Ilhan Omar's Attorneys Demand Return of Property Seized in Federal Search of Her Home U.S. News & World Report",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRklXRnB6UVhqTzRzeUt5d1hNU3VnbmJVUGU1eThEOEkyaHp5SE9ONVM2NlZrRzgwdlZGQk1CTEY5WVZwb0xLaW1iX0FFcW9xMi1TZDZmMDFEQTJRX3lqSGRRd3Vob1hScVBJeEQ2UzVUMTNWc3VZUGVoTDl2dUVKZkdTMkU4Wm96SzBPZ25nclhRNVdZeHd4X29hN3c4M2FKUXVaOUJKdWxFa2dZUE1iYjZxZkRwM0pGaVNxQWE2d2Q0aWY4dkFQMUpfdnlLaWZsMVFrc21oV3dBd3luV1E?oc=5",
-      "source": "U.S. News & World Report",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:23:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "06ef4b64eb389ec8fc38b6ba",
-      "title": "Phoenix man learns fate for defrauding U.S. government of COVID relief - Modesto Bee",
-      "summary": "Phoenix man learns fate for defrauding U.S. government of COVID relief Modesto Bee",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zaDF4RUlmYlpqWC1Jemd2UmMxWUFPc2V3TGQ4VF9TdTBUa294ZGxFY2pUWGM3aHp5VExDNnZPb1hRN2o3NzlMNnJUaWJJSXd1ci1Tb1JvU3JoaHJmZ1BkbXJTTUNobjFLeVc3RzNfSUxWRzh6Qi1aU0VlWQ?oc=5",
-      "source": "Modesto Bee",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:22:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0ca66ade887d625d149ccd6b",
-      "title": "DEA New Orleans Warns Northshore Communities of Lethal Synthetic Opioids Following Overdose Spike - DEA (.gov)",
-      "summary": "DEA New Orleans Warns Northshore Communities of Lethal Synthetic Opioids Following Overdose Spike DEA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMVI5OXU3dk5CQUVVblNKN1R6Y211NGQ4TjZnUl8xU1FLOXBRT1A1VGlKWHE2SzN4dVBjMnZwQnpaNTJFaGFOZVRGNHRJaFJ0WkFIOEg5X2dua1drV2oxZUdFNXlVU2pUMkhLZUk2bERvNm56LWJPLU0xT1AxZnhVNjlJX2RsQkh4TjRoVlNEU2dmekJRMGlCOXNlMnF5ZVBJMHozZVY3bWhmSWxXc0d1bXJOOTl3cEplRlMwbTc0NXZ0YThTTFVaOElMNlBleGZKS2VwQy1FWUFuWVE1Yko2LVBqN0tYcGdXYjhJ?oc=5",
-      "source": "DEA (.gov)",
-      "feed_id": "dea_news",
-      "category": "DEA",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:21:56+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3e07dbc83723b1ab92ee6f97",
-      "title": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law - Yahoo! Finance Canada",
-      "summary": "Trump waives many Russia-related sanctions, tariffs before they were to take effect under new law Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzUxNHBfdkUwX3dBZHBQbWxWUXZobmM4Znc0MTNPeDZ1dmNtTDFlbjAyZEMzMmhvMlN4al9pcHE4X3VBc1QyUUM3RmZQMmI5RC1vZ0RyVjYwdmxhR2kxYnYwcWRNLWk0QktKeVBnbDZYTjZsMXoySVdYVTRqcnpMMlc0UUdfdFNs?oc=5",
-      "source": "Yahoo! Finance Canada",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:19:00+00:00",
-      "desk_priority": 59,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "880a0eaff04e0931abe97941",
-      "title": "The uncertain future of Canada's 30 rescued belugas",
-      "summary": "An international rescue operation for the last 30 captive whales in Canada made headlines. Then five of them died.",
-      "url": "https://www.bbc.co.uk/news/articles/c623dnn3xvpko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:18:08+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b697a16ac737d53b14469371",
-      "title": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' - Reuters",
-      "summary": "Zelenskiy criticizes Trump's waiver of sanctions on Russia as 'wrong' Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUWRsWXNvbUVMb01QdTFTbEhpSGhZLVZYVXZramJkQjg2RXUzbXRaZjZlcnY1QTNoeU1zQzhhOEhwOFZVSkRySFFZNWI3RjZtUHJLaDhybEhWVzFBTF9uVlZjWlNSQk5aX25iZ0EySjRQYjR5aVRiM1VERjVFWmpTOTR0Y1ZhNUtaTHpTaWdZZVRPUmppTUJtYl9IZlhGQnM3WkVSNmRreVBjaDF5anFfSHhqN1ZUc2p3cjRoU0pyUzRkZjlBM05B?oc=5",
-      "source": "Reuters",
-      "feed_id": "reuters",
-      "category": "World",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:17:00+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "74269f066f66fd92b732f425",
-      "title": "Press Releases - Federal Trade Commission (.gov)",
-      "summary": "Press Releases Federal Trade Commission (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLOXdyNTJwXzdGT3plY1ltVGtIb0o4UE9VdDRjMGRsZXllTmIwU2dMdHIxSk1URzBzY0VnYmpDVklmRzh3a19rUUpSZTV3X2h3Nk0yb0I2LWFYMlRxQnpEYk9ndjR4TWNubUtPWg?oc=5",
-      "source": "Federal Trade Commission (.gov)",
-      "feed_id": "ftc",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:10:48+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5d2efb8a06324bd7eab0c150",
-      "title": "Trump in Georgia falsely claims election of Jon Ossoff was illegitimate - The Guardian",
-      "summary": "Trump in Georgia falsely claims election of Jon Ossoff was illegitimate The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQelE3eGRzSWs4ZXZMOFhWcVhOYlg1T1JrcWk5Vks1VjFhVGhmbl9tVlBHbndKRlRDNmFfN25WTFZOOFdid3A1VU1HQlBkWndDVkhubEtFcUFLTEY1MXhlX2Z4UUVsakJ1RV9VM2Fqbm5JUVlzeVJnQWc2a3RoZjJ2VVlhVTU?oc=5",
-      "source": "The Guardian",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:06:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d331b0f534e457503067dc64",
-      "title": "The best Aussie city where first home buyers can find discounts: 'Not red flags' - Yahoo Finance Australia",
-      "summary": "The best Aussie city where first home buyers can find discounts: 'Not red flags' Yahoo Finance Australia",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmQwOV9PRno3T1BrLTEzWnl0ek8yQ3pPMm52R3ZtdWFfc0V0bFEwUktoMm9LRUt6OXZENDd2dDlVX3hjLVQ2Z2JmYVpqYXhJYy1vbmh6NnhaY1hkXzZTQXdlTmlKY3MwdGpRbVhaUzk3ZjE2dGFrU3FVSjRrYlFxZ3pwWmdTem9SVkpNVXNwbjYwazd1OE1oTURzaXhrb2QtSEJaTUNLWTVjT0RsSVBTOHpYOVJLQjd3VjU4RWN2OHlURGdS?oc=5",
-      "source": "Yahoo Finance Australia",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T01:00:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ef3148ea7b03116e2334d6e6",
-      "title": "Who Gets the Bulk of Grandma’s Estate? Here’s How to Solve the ‘Cousin Problem’",
-      "summary": "Passing assets to later generations often triggers conflict, but proactive bonding, fair ownership structures and open communication can safeguard your legacy.",
-      "url": "https://www.wsj.com/personal-finance/cousin-problem-family-estate-assets-266b30e4?mod=rss_markets_main",
-      "source": "WSJ",
-      "feed_id": "wsj_markets",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T01:00:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4cc2a26d193d13de6dc39b46",
-      "title": "In New Letter, Ilhan Omar Fights Back Against Home Search",
-      "summary": "Lawyers for the Minnesota congresswoman asked federal prosecutors to return items seized this week from her Washington residence.",
-      "url": "https://www.wsj.com/us-news/law/in-new-letter-ilhan-omar-fights-back-against-home-search-47c64ee1?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T00:56:00+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     }
