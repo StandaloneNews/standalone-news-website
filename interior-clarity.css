@@ -1,0 +1,198 @@
+/* Standalone News · Shared Interior Edition · 2026-10-16
+   Loaded AFTER existing page styles. Only alters presentation.
+   Every override is scoped to the page's body theme class. */
+:root{
+  --page-wash:#edf4f9;
+  --page-wash-deep:#e6f0f7;
+  --page-card:#fff;
+  --page-stroke:#cedfeb;
+  --page-text:#162e46;
+  --page-muted:#4b6377;
+  --page-shadow:0 9px 26px rgba(19,48,75,.065);
+}
+html{overflow-x:clip}
+body[class*="theme-"]{background:linear-gradient(180deg,#eff6fb 0,#f5f8fb 540px,#edf3f8 100%);color:var(--page-text)}
+body[class*="theme-"] main{min-width:0}
+body[class*="theme-"] h1,body[class*="theme-"] h2,body[class*="theme-"] h3{overflow-wrap:break-word}
+body[class*="theme-"] a:focus-visible,body[class*="theme-"] button:focus-visible{outline:3px solid #327db0;outline-offset:3px}
+
+/* MARKET DESK — blue reading areas around intact TradingView widgets. */
+body.theme-market .hero{
+  background:linear-gradient(125deg,#e8f2fa,#f5f9fc);
+  border:1px solid #cfdfeb;border-radius:17px;
+  padding:clamp(20px,3vw,34px);
+  box-shadow:var(--page-shadow);
+}
+body.theme-market .hero .hero-side{box-shadow:0 7px 17px #15314d13}
+body.theme-market .chart-section,
+body.theme-market .overview-section,
+body.theme-market .calendar-section,
+body.theme-market .news-section{
+  padding:clamp(18px,2.7vw,32px);
+  background:linear-gradient(155deg,#eaf3f9,#f1f7fb);
+  border:1px solid #cddfeb;border-radius:18px;
+  box-shadow:var(--page-shadow);
+}
+body.theme-market .overview-section{background:#edf5fa}
+body.theme-market .calendar-section{background:#e6f0f7}
+body.theme-market .news-section{background:#f1f6fa}
+body.theme-market .chart-shell,body.theme-market .watch-card,
+body.theme-market .calendar-card{border-color:#cbdce8;box-shadow:0 4px 14px #18344c0a}
+body.theme-market .section-heading{padding-bottom:16px;border-bottom:1px solid #c6d9e7}
+body.theme-market .section-heading p{color:#4b657a;line-height:1.7}
+body.theme-market .news-card{padding:21px 0 23px}
+body.theme-market .news-card h3{line-height:1.42}
+body.theme-market .context-band{box-shadow:0 12px 26px #112c4b19}
+body.theme-market .market-disclaimer{color:#455f73}
+
+/* DISCUSS — make the room list, discussion panels and sidebar distinct. */
+body.theme-community .page-head{margin-bottom:24px}
+body.theme-community .room-strip{
+  background:#e7f1f8;border:1px solid #cbdfea;border-radius:14px;
+  padding:16px;box-shadow:var(--page-shadow);
+}
+body.theme-community .discussion-shell{
+  background:#f0f6fa;border:1px solid #d1e0ea;
+  border-radius:15px;box-shadow:var(--page-shadow);
+}
+body.theme-community .side-card{
+  background:#fff;border:1px solid #d3e0e9;
+  border-radius:13px;box-shadow:0 4px 15px #1738520d;
+}
+body.theme-community .community-sidebar{gap:16px}
+body.theme-community .thread-detail{background:#fff}
+body.theme-community .main{padding-bottom:60px}
+
+/* PERSONALIZE — coherent blue shell with white selectable cards. */
+body.theme-personal .personal-hero{
+  max-width:none;background:linear-gradient(140deg,#e6f0f8,#eff6fb);
+  border:1px solid #cddfeb;border-radius:17px;padding:clamp(20px,3vw,33px);
+  box-shadow:var(--page-shadow);
+}
+body.theme-personal .personal-box{
+  background:#fff;border:1px solid #cddfea;border-radius:13px;
+  box-shadow:var(--page-shadow);
+}
+body.theme-personal .personal-results{
+  background:#e8f2f9;border:1px solid #cfdfea;border-radius:14px;
+  padding:clamp(17px,2.4vw,24px);box-shadow:var(--page-shadow);
+}
+body.theme-personal .personal-story{
+  background:#fff;border-color:#d3e1e9;box-shadow:0 3px 11px #132f4910;
+}
+body.theme-personal .personal-story h3{line-height:1.45}
+
+/* ABOUT, ACCESSIBILITY — editorial readability without breaking policy grids. */
+body.theme-editorial .inner-page{
+  background:#fff;border:1px solid #d1dfe9;
+  border-radius:18px;box-shadow:var(--page-shadow);
+  margin-top:30px;margin-bottom:40px;
+  padding:clamp(24px,4.5vw,56px);
+}
+body.theme-editorial .inner-heading{margin-bottom:25px}
+body.theme-editorial .policy-grid{
+  background:#f2f7fb;border:1px solid #dae7ee;border-radius:12px;
+  margin:14px 0;padding:22px 24px;gap:24px;
+}
+body.theme-editorial .policy-grid:nth-of-type(even){background:#f8f5f0;border-color:#e9dfd1}
+body.theme-editorial .inner-heading h1{color:#142d43}
+
+/* CONTACT, PRIVACY, TERMS — centered high-contrast reading surface. */
+body.theme-legal main{
+  max-width:920px;margin:32px auto 44px;padding:clamp(24px,3.5vw,44px);
+  background:#fff;border:1px solid #d1e0eb;border-radius:17px;
+  box-shadow:var(--page-shadow);
+}
+body.theme-legal main>section{
+  border-bottom:1px solid #dae6ee;
+  padding:13px 17px 17px;margin:12px -17px 0;border-radius:9px;
+}
+body.theme-legal main>section:nth-of-type(even){background:#f2f7fb}
+body.theme-legal main>section:last-of-type{border-bottom:0}
+body.theme-legal main p,body.theme-legal main li{color:#334c60;line-height:1.8}
+body.theme-legal .notice{background:#f0f6fa;border-radius:0 8px 8px 0}
+
+/* STANDARDS — same source-first, separated chapter layout. */
+body.theme-standards main{
+  background:#fff;border:1px solid #d1dfeb;border-radius:17px;
+  box-shadow:var(--page-shadow);
+  padding:clamp(23px,4vw,43px);
+  margin:29px auto 48px;
+}
+body.theme-standards main section{
+  background:#f2f7fb;border:1px solid #dce8ef;
+  border-radius:11px;padding:15px 20px;margin:17px 0;
+}
+body.theme-standards main section:nth-of-type(even){
+  background:#f8f5ef;border-color:#e6dcd0;
+}
+body.theme-standards main section:last-child{border-bottom:1px solid #dce8ef}
+body.theme-standards main p,body.theme-standards main li{color:#3d5669}
+
+/* SMALL EMAIL PAGES — match the same palette without changing forms or URLs. */
+body.theme-newsletter main{
+  background:#fff;border:1px solid #d0dfeb;border-radius:16px;
+  box-shadow:var(--page-shadow);
+  margin:clamp(26px,6vh,56px) auto 55px;
+  padding:clamp(22px,4vw,39px);
+}
+body.theme-newsletter main h2{
+  background:#edf5fa;border-left:3px solid #b02e49;
+  padding:10px 14px;border-radius:0 8px 8px 0;
+}
+body.theme-newsletter main p{color:#344e62;line-height:1.78}
+
+/* Phone width: comfortable gutters, no squeezed columns or unexpected clipping. */
+@media(max-width:760px){
+  body.theme-market .wrap{width:calc(100% - 26px);max-width:100%}
+  body.theme-market .hero{margin:22px 0 30px;padding:22px 17px;border-radius:13px}
+  body.theme-market .chart-section,
+  body.theme-market .overview-section,
+  body.theme-market .calendar-section,
+  body.theme-market .news-section{
+    padding:18px 13px;margin-bottom:24px;border-radius:14px;
+  }
+  body.theme-market .section-heading{margin-bottom:17px}
+  body.theme-market .section-heading h2{line-height:1.18}
+  body.theme-market .section-heading p{font-size:13px}
+  body.theme-market .watch-tabs{gap:7px}
+  body.theme-market .watch-widget{overflow-x:auto;overscroll-behavior-x:contain}
+  body.theme-market .watch-widget>.tradingview-widget-container{min-width:590px}
+  body.theme-market .chart-credit{overflow-wrap:break-word}
+  body.theme-market .calendar-card-header{padding:19px 15px 18px}
+  body.theme-market .news-card{padding:19px 0 20px}
+  body.theme-market .official-links a{min-height:43px;display:flex;align-items:center}
+  body.theme-community .room-strip{padding:12px;border-radius:12px}
+  body.theme-community .discussion-shell{border-radius:12px}
+  body.theme-community .main{padding-bottom:48px}
+  body.theme-personal .personal-page{padding:19px 0 48px}
+  body.theme-personal .personal-hero{padding:22px 17px;margin-bottom:21px;border-radius:13px}
+  body.theme-personal .personal-layout{gap:17px}
+  body.theme-personal .personal-results{padding:16px 13px}
+  body.theme-personal .personal-box{padding:17px 15px}
+  body.theme-editorial .inner-page{
+    width:calc(100% - 26px);padding:23px 17px;margin-top:20px;border-radius:13px;
+  }
+  body.theme-editorial .policy-grid{
+    display:block;padding:15px 16px;margin:12px 0;
+  }
+  body.theme-legal main{
+    margin:20px 13px 32px;padding:21px 17px;border-radius:13px;
+  }
+  body.theme-legal main>section{margin:10px -5px 0;padding:13px 5px 16px}
+  body.theme-standards main{
+    margin:20px 13px 35px;padding:23px 16px;border-radius:13px;
+  }
+  body.theme-standards main section{padding:13px 14px;margin:13px 0}
+  body.theme-newsletter main{margin:24px 13px 34px;padding:22px 17px;border-radius:13px}
+}
+@media(max-width:420px){
+  body.theme-market .chart-section,
+  body.theme-market .overview-section,
+  body.theme-market .calendar-section,
+  body.theme-market .news-section{padding:15px 11px}
+  body.theme-market .earnings-shortcut{min-height:42px}
+  body.theme-community .container{width:calc(100% - 24px)}
+  body.theme-personal .personal-story{padding:16px}
+}
+@media(prefers-reduced-motion:reduce){body[class*="theme-"] *{scroll-behavior:auto}}
