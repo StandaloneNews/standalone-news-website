@@ -195,7 +195,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
         excerpt = ''
         if feed['kind'] != 'Discovery':
             excerpt = plain(child_text(node,'description') or child_text(node,'summary'), 200)
-            if excerpt.casefold() == title.casefold() or len(excerpt) < 35:
+            if excerpt.casefold() == title.casefold() or len(excerpt) < 12:
                 excerpt = ''
         importance = desk_priority(title, feed['category'], feed['kind'])
         out.append({

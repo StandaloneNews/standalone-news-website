@@ -1,190 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#10263d">
-  <meta name="description" content="Explore interactive stock charts, U.S. economic releases, Fed meeting schedules, upcoming earnings dates, and source-linked financial news.">
-  <title>Markets: Interactive Stock Charts &amp; Financial News | Standalone News</title>
-  <link rel="canonical" href="https://standalonenews.com/markets.html">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Standalone News">
-  <meta property="og:title" content="Markets, Interactive Stock Charts &amp; Financial News | Standalone News">
-  <meta property="og:description" content="Search stock symbols, explore interactive market charts, and read source-linked financial headlines.">
-  <meta property="og:url" content="https://standalonenews.com/markets.html">
-  <meta property="og:image" content="https://standalonenews.com/assets/standalone-news-banner.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="./assets/favicon.png">
-  <link rel="apple-touch-icon" href="./assets/app-icon.png">
-  <link rel="stylesheet" href="./markets.css?v=3">
-  <link rel="alternate" type="application/rss+xml" title="Standalone News headlines" href="./feed.xml">
-  <script defer src="./markets-page.js?v=3"></script>
-<link rel="stylesheet" href="./interior-clarity.css?v=2">
-</head>
-<body class="theme-market">
-  <a class="skip" href="#main">Skip to market charts and news</a>
-  <div class="utility"><div class="wrap utility-inner"><span><span class="signal" aria-hidden="true"></span> STANDALONE NEWS / MARKETS</span><span id="market-clock">DATA FROM TRADINGVIEW · TIMES IN UTC</span></div></div>
-  <header class="masthead"><div class="wrap masthead-inner">
-    <a class="brand" href="./index.html" aria-label="Standalone News home"><img src="./assets/sn-brand-logo.png" alt="" width="45" height="45"><span><strong>STANDALONE</strong><small>NEWS &nbsp; / &nbsp; THE MARKET DESK</small></span></a>
-    <a class="home-link" href="./index.html">← Today's headlines</a>
-  </div></header>
-  <nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-items">
-    <a href="./index.html">Home</a><a href="./index.html#wire">Latest news</a>
-    <a class="current" aria-current="page" href="./markets.html">Markets</a>
-    <a href="./research.html">Company research</a>
-    <a href="#market-calendar">Calendars</a>
-    <a href="./articles/">Explainers</a><a href="./discuss.html?room=markets">Discuss markets</a><a href="./personalize.html">For you</a>
-  </div></nav>
-
-  <div class="tape-row"><div class="wrap"><div id="market-tape" class="tape-widget" aria-label="Selected market quotes"><div class="widget-loading">Loading market quotes…</div></div></div></div>
-
-  <main id="main" class="wrap">
-    <section class="hero" aria-labelledby="page-title">
-      <div><p class="kicker">THE STANDALONE MARKET DESK</p><h1 id="page-title">Follow the market.<br><em>Understand the move.</em></h1><p class="hero-deck">Interactive charts and source-linked reporting, side by side. Search widely traded stocks, explore ETFs, and track the latest market and economic headlines.</p></div>
-      <div class="hero-side"><span class="hero-side-label">MARKETS IN FOCUS</span><strong>Charts.<br>Context.<br>Sources.</strong><span class="hero-side-small">Quotes can be delayed and depend on exchange coverage.</span></div>
-    </section>
-
-    <section class="chart-section" aria-labelledby="chart-title">
-      <div class="section-heading"><div><span class="eyebrow">INTERACTIVE PRICE CHART</span><h2 id="chart-title">Find your ticker<span class="accent">.</span></h2><p>Use a ticker below, or use TradingView's symbol search inside the chart to find companies by name and exchange.</p></div><span class="status-label"><span class="status-dot" aria-hidden="true"></span> TradingView chart</span></div>
-      <div class="chart-shell">
-        <div class="chart-controls">
-          <form id="ticker-form" role="search">
-            <label for="ticker-input">Stock / ETF ticker</label>
-            <div class="ticker-input-wrap"><input id="ticker-input" name="ticker" placeholder="AAPL or NASDAQ:NVDA" maxlength="35" autocomplete="off" spellcheck="false" aria-describedby="ticker-help" required><button type="submit">Show chart <span aria-hidden="true">↗</span></button></div>
-          </form>
-          <p class="input-note" id="ticker-help">Ticker symbols only. For company-name lookup, use the search field within the TradingView chart.</p>
-          <div class="quick-symbols" aria-label="Popular ticker shortcuts"><span>POPULAR</span>
-            <button type="button" data-symbol="NASDAQ:AAPL">AAPL</button><button type="button" data-symbol="NASDAQ:NVDA">NVDA</button><button type="button" data-symbol="NASDAQ:TSLA">TSLA</button><button type="button" data-symbol="NASDAQ:MSFT">MSFT</button><button type="button" data-symbol="AMEX:SPY">SPY</button><button type="button" data-symbol="NASDAQ:QQQ">QQQ</button><button type="button" data-symbol="AMEX:GLD">GLD</button><button type="button" data-symbol="NASDAQ:TLT">TLT</button>
-          </div>
-          <p class="ticker-feedback" id="ticker-feedback" role="status" aria-live="polite"></p>
-        </div>
-        <div id="advanced-chart" class="advanced-chart" aria-label="Interactive TradingView stock chart"><div class="widget-loading">Loading interactive chart…</div></div>
-        <div class="chart-credit"><span>Use the chart toolbar for timeframes, indicators and symbol search.</span><a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer nofollow">Charts powered by TradingView ↗</a></div>
-      </div>
-    </section>
-
-    <section class="overview-section" aria-labelledby="watch-title">
-      <div class="section-heading"><div><span class="eyebrow">MARKET WATCHLIST</span><h2 id="watch-title">A closer look<span class="accent">.</span></h2><p>Browse selected shares and funds. Tap a symbol in the watchlist, then use the main chart above to investigate its price history.</p></div><a class="subtle-action" href="https://www.tradingview.com/markets/" target="_blank" rel="noopener noreferrer">All markets on TradingView ↗</a></div>
-      <div class="watch-card">
-        <div class="watch-tabs" role="group" aria-label="Market watchlist groups">
-          <button type="button" class="watch-tab active" data-watch="stocks" aria-pressed="true">Stocks</button>
-          <button type="button" class="watch-tab" data-watch="indexes" aria-pressed="false">Index ETFs</button>
-          <button type="button" class="watch-tab" data-watch="commodities" aria-pressed="false">Commodity ETFs</button>
-          <button type="button" class="watch-tab" data-watch="bonds" aria-pressed="false">Bond ETFs</button>
-        </div>
-        <div id="watch-widget" class="watch-widget" aria-label="TradingView market watchlist"><div class="widget-loading">Loading watchlist…</div></div>
-        <div class="watch-footer"><span>ETF prices are not index values, futures quotes, spot commodity prices or Treasury yields.</span><span>Quotes may be delayed.</span></div>
-      </div>
-      <div class="official-links"><a href="https://www.tradingview.com/markets/futures/" target="_blank" rel="noopener noreferrer">Futures contracts ↗</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?type=daily_treasury_yield_curve" target="_blank" rel="noopener noreferrer">Official Treasury yields ↗</a><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" target="_blank" rel="noopener noreferrer">U.S. top gainers ↗</a></div>
-    </section>
-
-    <section class="calendar-section" aria-labelledby="calendar-heading" id="market-calendar">
-      <div class="section-heading">
-        <div><span class="eyebrow">THE MARKET-MOVING SCHEDULE</span><h2 id="calendar-heading">Economic releases &amp; earnings<span class="accent">.</span></h2>
-          <p>See the announcements that can move equities, bonds and currencies, plus upcoming company results. Dates can change; check official announcements before trading.</p></div>
-        <a class="subtle-action" href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">All economic events ↗</a>
-      </div>
-      <nav class="calendar-jump-links" aria-label="Jump between market calendars">
-        <a href="#economic-events">Government &amp; economic calendar ↓</a>
-        <a href="#earnings-events">Company earnings dates ↓</a>
-      </nav>
-
-      <div class="calendar-card" id="economic-events">
-        <div class="calendar-card-header">
-          <div><span class="calendar-overline"><span class="calendar-pulse" aria-hidden="true"></span> U.S. ECONOMIC RELEASES</span>
-            <h3>Government &amp; Fed calendar</h3>
-            <p>Upcoming releases and announcements including Fed decisions, CPI, employment, GDP, and other market-moving indicators. U.S. events are prioritized; calendar timestamps come from TradingView.</p>
-          </div>
-          <a href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">Full economic calendar ↗</a>
-        </div>
-        <div class="economic-widget" id="economic-calendar" aria-label="TradingView United States economic calendar">
-          <div class="widget-loading">Loading U.S. economic calendar…</div>
-        </div>
-        <div class="calendar-card-bottom">
-          <p>Updates from TradingView. Impact indicators are estimates, and some releases or times may change. Always verify with the publishing agency.</p>
-          <a href="https://www.tradingview.com/economic-calendar/" target="_blank" rel="noopener noreferrer">Check event details ↗</a>
-        </div>
-        <div class="agency-section">
-          <span class="agency-title">VERIFY WITH OFFICIAL U.S. RELEASE CALENDARS</span>
-          <div class="agency-links">
-            <a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer"><strong>Federal Reserve</strong><span>FOMC meetings &amp; policy decisions ↗</span></a>
-            <a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noopener noreferrer"><strong>BLS · CPI</strong><span>Consumer inflation release dates ↗</span></a>
-            <a href="https://www.bls.gov/schedule/news_release/empSit.htm" target="_blank" rel="noopener noreferrer"><strong>BLS · Jobs</strong><span>Employment situation releases ↗</span></a>
-            <a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer"><strong>BEA</strong><span>GDP, PCE &amp; personal income ↗</span></a>
-            <a href="https://www.census.gov/economic-indicators/" target="_blank" rel="noopener noreferrer"><strong>Census Bureau</strong><span>Retail sales &amp; economic indicators ↗</span></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="calendar-card earnings-card" id="earnings-events">
-        <div class="calendar-card-header">
-          <div>
-            <span class="calendar-overline"><span class="calendar-pulse" aria-hidden="true"></span> CORPORATE REPORTING SCHEDULE</span>
-            <h3>Upcoming earnings dates</h3>
-            <p>Look up an S&amp;P 500 company to see its next announced earnings date and past SEC earnings filings. Choose a popular stock below or enter a ticker to switch the display.</p>
-          </div>
-          <a href="https://quant500.com/earnings-this-week" target="_blank" rel="noopener noreferrer">This week's earnings ↗</a>
-        </div>
-        <div class="earnings-explorer">
-          <div class="earnings-explorer-top">
-            <form id="earnings-search-form" class="earnings-lookup" role="search">
-              <label for="earnings-ticker">Find an S&amp;P 500 company's earnings</label>
-              <div class="earnings-search-row">
-                <input id="earnings-ticker" name="symbol" autocomplete="off" autocapitalize="characters" maxlength="12" spellcheck="false" placeholder="NVDA, AAPL, MSFT…" value="NVDA" required>
-                <button type="submit">Find earnings ↗</button>
-              </div>
-            </form>
-            <div class="earnings-shortcuts" aria-label="Popular earnings ticker shortcuts">
-              <span>POPULAR STOCKS</span>
-              <button class="earnings-shortcut selected" type="button" data-earnings-symbol="NVDA" aria-pressed="true">NVDA</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="AAPL" aria-pressed="false">AAPL</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="MSFT" aria-pressed="false">MSFT</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="AMZN" aria-pressed="false">AMZN</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="GOOGL" aria-pressed="false">GOOGL</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="TSLA" aria-pressed="false">TSLA</button>
-              <button class="earnings-shortcut" type="button" data-earnings-symbol="JPM" aria-pressed="false">JPM</button>
-            </div>
-          </div>
-          <div class="earnings-lookup-feedback" id="earnings-lookup-feedback" role="status" aria-live="polite"></div>
-          <div class="earnings-content">
-            <div class="earnings-selected-card">
-              <div class="earnings-selected-heading"><div><span class="earnings-card-eyebrow">NEXT EARNINGS &amp; SEC FILING HISTORY</span><h4><span id="earnings-selected-symbol">NVDA</span> earnings tracker</h4></div><span class="earnings-source-badge">S&amp;P 500</span></div>
-              <iframe id="earnings-company-widget" class="earnings-company-widget" title="NVDA next earnings date and historical earnings filings, powered by Quant500" src="https://quant500.com/widget/resultados/NVDA?lang=en"
-                loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-              <div class="earnings-provider-credit">Earnings information: <a id="earnings-source-link" href="https://quant500.com/earnings-date/NVDA" target="_blank" rel="noopener noreferrer">Quant500 — NVDA earnings dates ↗</a></div>
-            </div>
-            <aside class="earnings-help">
-              <span class="earnings-card-eyebrow">REPORTING THIS WEEK</span>
-              <h4>See the full company schedule.</h4>
-              <p>Browse earnings organized by day, including reporting sessions and estimates when the data provider supplies them.</p>
-              <a class="earnings-week-link" href="https://quant500.com/earnings-this-week" target="_blank" rel="noopener noreferrer">This week's S&amp;P 500 reports <span aria-hidden="true">↗</span></a>
-              <div class="earnings-help-divider"></div>
-              <span class="earnings-card-eyebrow">MORE LISTED COMPANIES</span>
-              <p>Want companies outside the S&amp;P 500? Use the larger Nasdaq or TradingView earnings schedules.</p>
-              <div class="earnings-wide-links">
-                <a href="https://www.nasdaq.com/market-activity/earnings" target="_blank" rel="noopener noreferrer">Nasdaq earnings calendar ↗</a>
-                <a href="https://www.tradingview.com/earnings-calendar/" target="_blank" rel="noopener noreferrer">TradingView earnings calendar ↗</a>
-              </div>
-            </aside>
-          </div>
-        </div>
-        <div class="calendar-card-bottom">
-          <p><strong>Source:</strong> Quant500's embeddable earnings tracker. Dates reflect the provider's latest published information and can change. Some companies may have no announced date; historical SEC 8-K filing times are not forecasts. The ticker widget is not a complete market-wide calendar.</p>
-          <a href="https://quant500.com/embed" target="_blank" rel="noopener noreferrer">Data provider ↗</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="news-section" aria-labelledby="news-title" id="market-news">
-      <div class="section-heading"><div><span class="eyebrow">FROM THE STANDALONE NEWS WIRE</span><h2 id="news-title">The markets in the news<span class="accent">.</span></h2><p>Recent source-linked headlines on stocks, the economy, the Federal Reserve and financial policy. Headlines link to their original publishers.</p></div><a class="subtle-action" href="./index.html#wire">Full news wire ↗</a></div>
-      <div class="news-toolbar"><div class="news-tabs" role="group" aria-label="Filter market news"><button class="news-filter selected" type="button" data-news="all" aria-pressed="true">All market news</button><button class="news-filter" type="button" data-news="markets" aria-pressed="false">Stocks &amp; markets</button><button class="news-filter" type="button" data-news="economy" aria-pressed="false">Economy</button><button class="news-filter" type="button" data-news="policy" aria-pressed="false">Fed &amp; policy</button></div><span id="news-updated">Loading headlines…</span></div>
-      <div id="market-news-list" class="news-grid" aria-live="polite"><p class="news-empty">Fetching current financial headlines…</p></div>
-      <div class="news-bottom"><span id="news-count">Source-linked news · No article text republished</span><button type="button" id="news-more" hidden>Load more headlines ↓</button></div>
-    </section>
-
-    <section class="context-band" aria-labelledby="context-title"><div><span class="eyebrow">MORE CONTEXT, LESS NOISE</span><h2 id="context-title">Headlines aren't the whole story.</h2><p>Find officially sourced explainers from the Standalone News automated desk, or discuss market developments with other readers.</p></div><div class="context-actions"><a href="./articles/">Read explainers ↗</a><a href="./discuss.html?room=markets">Discuss markets ↗</a></div></section>
-    <p class="market-disclaimer">Financial data displayed through third-party TradingView widgets; availability, market status and delay depend on the market and provider. Headlines are automatically gathered from attributed sources and are not independently fact-checked. This page is informational and not investment advice.</p>
-  </main>
-  <footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="./index.html">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./about.html">About</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer" aria-label="Follow Standalone News on X (opens in a new tab)">Follow on X ↗</a></nav><span>© Standalone News · Market information may be delayed</span></div></footer>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#10263d" name="theme-color"/>
+<meta content="Explore interactive stock charts, U.S. economic releases, Fed meeting schedules, upcoming earnings dates, and source-linked financial news." name="description"/>
+<title>Markets: Interactive Stock Charts &amp; Financial News | Standalone News</title>
+<link href="https://standalonenews.com/markets.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Standalone News" property="og:site_name"/>
+<meta content="Markets, Interactive Stock Charts &amp; Financial News | Standalone News" property="og:title"/>
+<meta content="Search stock symbols, explore interactive market charts, and read source-linked financial headlines." property="og:description"/>
+<meta content="https://standalonenews.com/markets.html" property="og:url"/>
+<meta content="https://standalonenews.com/assets/standalone-news-banner.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="./assets/favicon.png" rel="icon"/>
+<link href="./assets/app-icon.png" rel="apple-touch-icon"/>
+<link href="./markets.css?v=3" rel="stylesheet"/>
+<link href="./feed.xml" rel="alternate" title="Standalone News headlines" type="application/rss+xml"/>
+<script defer="" src="./markets-page.js?v=3"></script>
+<link href="./interior-clarity.css?v=2" rel="stylesheet"/>
+<link href="./refresh-interior.css?v=1" rel="stylesheet"/></head>
+<body class="theme-market theme-refresh">
+<a class="skip" href="#main">Skip to market charts and news</a>
+<div class="utility"><div class="wrap utility-inner"><span><span aria-hidden="true" class="signal"></span> STANDALONE NEWS / MARKETS</span><span id="market-clock">DATA FROM TRADINGVIEW · TIMES IN UTC</span></div></div>
+<header class="masthead"><div class="wrap masthead-inner">
+<a aria-label="Standalone News home" class="brand" href="./index.html"><img alt="" height="45" src="./assets/sn-brand-logo.png" width="45"/><span><strong>STANDALONE</strong><small>NEWS   /   THE MARKET DESK</small></span></a>
+<a class="home-link" href="./index.html">← Today's headlines</a>
+</div></header>
+<nav aria-label="Main navigation" class="site-nav"><div class="wrap nav-items">
+<a href="./index.html">Home</a><a href="./index.html#wire">Latest news</a>
+<a aria-current="page" class="current" href="./markets.html">Markets</a>
+<a href="#market-calendar">Calendars</a>
+<a href="./articles/">Explainers</a><a href="./discuss.html?room=markets">Discuss markets</a><a href="./personalize.html">For you</a>
+</div></nav>
+<div class="tape-row"><div class="wrap"><div aria-label="Selected market quotes" class="tape-widget" id="market-tape"><div class="widget-loading">Loading market quotes…</div></div></div></div>
+<main class="wrap" id="main">
+<section aria-labelledby="page-title" class="hero">
+<div><p class="kicker">THE STANDALONE MARKET DESK</p><h1 id="page-title">Follow the market.<br/><em>Understand the move.</em></h1><p class="hero-deck">Interactive charts and source-linked reporting, side by side. Search widely traded stocks, explore ETFs, and track the latest market and economic headlines.</p></div>
+<div class="hero-side"><span class="hero-side-label">MARKETS IN FOCUS</span><strong>Charts.<br/>Context.<br/>Sources.</strong><span class="hero-side-small">Quotes can be delayed and depend on exchange coverage.</span></div>
+</section>
+<section aria-labelledby="chart-title" class="chart-section">
+<div class="section-heading"><div><span class="eyebrow">INTERACTIVE PRICE CHART</span><h2 id="chart-title">Find your ticker<span class="accent">.</span></h2><p>Use a ticker below, or use TradingView's symbol search inside the chart to find companies by name and exchange.</p></div><span class="status-label"><span aria-hidden="true" class="status-dot"></span> TradingView chart</span></div>
+<div class="chart-shell">
+<div class="chart-controls">
+<form id="ticker-form" role="search">
+<label for="ticker-input">Stock / ETF ticker</label>
+<div class="ticker-input-wrap"><input aria-describedby="ticker-help" autocomplete="off" id="ticker-input" maxlength="35" name="ticker" placeholder="AAPL or NASDAQ:NVDA" required="" spellcheck="false"/><button type="submit">Show chart <span aria-hidden="true">↗</span></button></div>
+</form>
+<p class="input-note" id="ticker-help">Ticker symbols only. For company-name lookup, use the search field within the TradingView chart.</p>
+<div aria-label="Popular ticker shortcuts" class="quick-symbols"><span>POPULAR</span>
+<button data-symbol="NASDAQ:AAPL" type="button">AAPL</button><button data-symbol="NASDAQ:NVDA" type="button">NVDA</button><button data-symbol="NASDAQ:TSLA" type="button">TSLA</button><button data-symbol="NASDAQ:MSFT" type="button">MSFT</button><button data-symbol="AMEX:SPY" type="button">SPY</button><button data-symbol="NASDAQ:QQQ" type="button">QQQ</button><button data-symbol="AMEX:GLD" type="button">GLD</button><button data-symbol="NASDAQ:TLT" type="button">TLT</button>
+</div>
+<p aria-live="polite" class="ticker-feedback" id="ticker-feedback" role="status"></p>
+</div>
+<div aria-label="Interactive TradingView stock chart" class="advanced-chart" id="advanced-chart"><div class="widget-loading">Loading interactive chart…</div></div>
+<div class="chart-credit"><span>Use the chart toolbar for timeframes, indicators and symbol search.</span><a href="https://www.tradingview.com/" rel="noopener noreferrer nofollow" target="_blank">Charts powered by TradingView ↗</a></div>
+</div>
+</section>
+<section aria-labelledby="watch-title" class="overview-section">
+<div class="section-heading"><div><span class="eyebrow">MARKET WATCHLIST</span><h2 id="watch-title">A closer look<span class="accent">.</span></h2><p>Browse selected shares and funds. Tap a symbol in the watchlist, then use the main chart above to investigate its price history.</p></div><a class="subtle-action" href="https://www.tradingview.com/markets/" rel="noopener noreferrer" target="_blank">All markets on TradingView ↗</a></div>
+<div class="watch-card">
+<div aria-label="Market watchlist groups" class="watch-tabs" role="group">
+<button aria-pressed="true" class="watch-tab active" data-watch="stocks" type="button">Stocks</button>
+<button aria-pressed="false" class="watch-tab" data-watch="indexes" type="button">Index ETFs</button>
+<button aria-pressed="false" class="watch-tab" data-watch="commodities" type="button">Commodity ETFs</button>
+<button aria-pressed="false" class="watch-tab" data-watch="bonds" type="button">Bond ETFs</button>
+</div>
+<div aria-label="TradingView market watchlist" class="watch-widget" id="watch-widget"><div class="widget-loading">Loading watchlist…</div></div>
+<div class="watch-footer"><span>ETF prices are not index values, futures quotes, spot commodity prices or Treasury yields.</span><span>Quotes may be delayed.</span></div>
+</div>
+<div class="official-links"><a href="https://www.tradingview.com/markets/futures/" rel="noopener noreferrer" target="_blank">Futures contracts ↗</a><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?type=daily_treasury_yield_curve" rel="noopener noreferrer" target="_blank">Official Treasury yields ↗</a><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" rel="noopener noreferrer" target="_blank">U.S. top gainers ↗</a></div>
+</section>
+<section aria-labelledby="calendar-heading" class="calendar-section" id="market-calendar">
+<div class="section-heading">
+<div><span class="eyebrow">THE MARKET-MOVING SCHEDULE</span><h2 id="calendar-heading">Economic releases &amp; earnings<span class="accent">.</span></h2>
+<p>See the announcements that can move equities, bonds and currencies, plus upcoming company results. Dates can change; check official announcements before trading.</p></div>
+<a class="subtle-action" href="https://www.tradingview.com/economic-calendar/" rel="noopener noreferrer" target="_blank">All economic events ↗</a>
+</div>
+<nav aria-label="Jump between market calendars" class="calendar-jump-links">
+<a href="#economic-events">Government &amp; economic calendar ↓</a>
+<a href="#earnings-events">Company earnings dates ↓</a>
+</nav>
+<div class="calendar-card" id="economic-events">
+<div class="calendar-card-header">
+<div><span class="calendar-overline"><span aria-hidden="true" class="calendar-pulse"></span> U.S. ECONOMIC RELEASES</span>
+<h3>Government &amp; Fed calendar</h3>
+<p>Upcoming releases and announcements including Fed decisions, CPI, employment, GDP, and other market-moving indicators. U.S. events are prioritized; calendar timestamps come from TradingView.</p>
+</div>
+<a href="https://www.tradingview.com/economic-calendar/" rel="noopener noreferrer" target="_blank">Full economic calendar ↗</a>
+</div>
+<div aria-label="TradingView United States economic calendar" class="economic-widget" id="economic-calendar">
+<div class="widget-loading">Loading U.S. economic calendar…</div>
+</div>
+<div class="calendar-card-bottom">
+<p>Updates from TradingView. Impact indicators are estimates, and some releases or times may change. Always verify with the publishing agency.</p>
+<a href="https://www.tradingview.com/economic-calendar/" rel="noopener noreferrer" target="_blank">Check event details ↗</a>
+</div>
+<div class="agency-section">
+<span class="agency-title">VERIFY WITH OFFICIAL U.S. RELEASE CALENDARS</span>
+<div class="agency-links">
+<a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" rel="noopener noreferrer" target="_blank"><strong>Federal Reserve</strong><span>FOMC meetings &amp; policy decisions ↗</span></a>
+<a href="https://www.bls.gov/schedule/news_release/cpi.htm" rel="noopener noreferrer" target="_blank"><strong>BLS · CPI</strong><span>Consumer inflation release dates ↗</span></a>
+<a href="https://www.bls.gov/schedule/news_release/empSit.htm" rel="noopener noreferrer" target="_blank"><strong>BLS · Jobs</strong><span>Employment situation releases ↗</span></a>
+<a href="https://www.bea.gov/news/schedule" rel="noopener noreferrer" target="_blank"><strong>BEA</strong><span>GDP, PCE &amp; personal income ↗</span></a>
+<a href="https://www.census.gov/economic-indicators/" rel="noopener noreferrer" target="_blank"><strong>Census Bureau</strong><span>Retail sales &amp; economic indicators ↗</span></a>
+</div>
+</div>
+</div>
+<div class="calendar-card earnings-card" id="earnings-events">
+<div class="calendar-card-header">
+<div>
+<span class="calendar-overline"><span aria-hidden="true" class="calendar-pulse"></span> CORPORATE REPORTING SCHEDULE</span>
+<h3>Upcoming earnings dates</h3>
+<p>Look up an S&amp;P 500 company to see its next announced earnings date and past SEC earnings filings. Choose a popular stock below or enter a ticker to switch the display.</p>
+</div>
+<a href="https://quant500.com/earnings-this-week" rel="noopener noreferrer" target="_blank">This week's earnings ↗</a>
+</div>
+<div class="earnings-explorer">
+<div class="earnings-explorer-top">
+<form class="earnings-lookup" id="earnings-search-form" role="search">
+<label for="earnings-ticker">Find an S&amp;P 500 company's earnings</label>
+<div class="earnings-search-row">
+<input autocapitalize="characters" autocomplete="off" id="earnings-ticker" maxlength="12" name="symbol" placeholder="NVDA, AAPL, MSFT…" required="" spellcheck="false" value="NVDA"/>
+<button type="submit">Find earnings ↗</button>
+</div>
+</form>
+<div aria-label="Popular earnings ticker shortcuts" class="earnings-shortcuts">
+<span>POPULAR STOCKS</span>
+<button aria-pressed="true" class="earnings-shortcut selected" data-earnings-symbol="NVDA" type="button">NVDA</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="AAPL" type="button">AAPL</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="MSFT" type="button">MSFT</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="AMZN" type="button">AMZN</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="GOOGL" type="button">GOOGL</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="TSLA" type="button">TSLA</button>
+<button aria-pressed="false" class="earnings-shortcut" data-earnings-symbol="JPM" type="button">JPM</button>
+</div>
+</div>
+<div aria-live="polite" class="earnings-lookup-feedback" id="earnings-lookup-feedback" role="status"></div>
+<div class="earnings-content">
+<div class="earnings-selected-card">
+<div class="earnings-selected-heading"><div><span class="earnings-card-eyebrow">NEXT EARNINGS &amp; SEC FILING HISTORY</span><h4><span id="earnings-selected-symbol">NVDA</span> earnings tracker</h4></div><span class="earnings-source-badge">S&amp;P 500</span></div>
+<iframe class="earnings-company-widget" id="earnings-company-widget" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://quant500.com/widget/resultados/NVDA?lang=en" title="NVDA next earnings date and historical earnings filings, powered by Quant500"></iframe>
+<div class="earnings-provider-credit">Earnings information: <a href="https://quant500.com/earnings-date/NVDA" id="earnings-source-link" rel="noopener noreferrer" target="_blank">Quant500 — NVDA earnings dates ↗</a></div>
+</div>
+<aside class="earnings-help">
+<span class="earnings-card-eyebrow">REPORTING THIS WEEK</span>
+<h4>See the full company schedule.</h4>
+<p>Browse earnings organized by day, including reporting sessions and estimates when the data provider supplies them.</p>
+<a class="earnings-week-link" href="https://quant500.com/earnings-this-week" rel="noopener noreferrer" target="_blank">This week's S&amp;P 500 reports <span aria-hidden="true">↗</span></a>
+<div class="earnings-help-divider"></div>
+<span class="earnings-card-eyebrow">MORE LISTED COMPANIES</span>
+<p>Want companies outside the S&amp;P 500? Use the larger Nasdaq or TradingView earnings schedules.</p>
+<div class="earnings-wide-links">
+<a href="https://www.nasdaq.com/market-activity/earnings" rel="noopener noreferrer" target="_blank">Nasdaq earnings calendar ↗</a>
+<a href="https://www.tradingview.com/earnings-calendar/" rel="noopener noreferrer" target="_blank">TradingView earnings calendar ↗</a>
+</div>
+</aside>
+</div>
+</div>
+<div class="calendar-card-bottom">
+<p><strong>Source:</strong> Quant500's embeddable earnings tracker. Dates reflect the provider's latest published information and can change. Some companies may have no announced date; historical SEC 8-K filing times are not forecasts. The ticker widget is not a complete market-wide calendar.</p>
+<a href="https://quant500.com/embed" rel="noopener noreferrer" target="_blank">Data provider ↗</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="news-title" class="news-section" id="market-news">
+<div class="section-heading"><div><span class="eyebrow">FROM THE STANDALONE NEWS WIRE</span><h2 id="news-title">The markets in the news<span class="accent">.</span></h2><p>Recent source-linked headlines on stocks, the economy, the Federal Reserve and financial policy. Headlines link to their original publishers.</p></div><a class="subtle-action" href="./index.html#wire">Full news wire ↗</a></div>
+<div class="news-toolbar"><div aria-label="Filter market news" class="news-tabs" role="group"><button aria-pressed="true" class="news-filter selected" data-news="all" type="button">All market news</button><button aria-pressed="false" class="news-filter" data-news="markets" type="button">Stocks &amp; markets</button><button aria-pressed="false" class="news-filter" data-news="economy" type="button">Economy</button><button aria-pressed="false" class="news-filter" data-news="policy" type="button">Fed &amp; policy</button></div><span id="news-updated">Loading headlines…</span></div>
+<div aria-live="polite" class="news-grid" id="market-news-list"><p class="news-empty">Fetching current financial headlines…</p></div>
+<div class="news-bottom"><span id="news-count">Source-linked news · No article text republished</span><button hidden="" id="news-more" type="button">Load more headlines ↓</button></div>
+</section>
+<section aria-labelledby="context-title" class="context-band"><div><span class="eyebrow">MORE CONTEXT, LESS NOISE</span><h2 id="context-title">Headlines aren't the whole story.</h2><p>Find officially sourced explainers from the Standalone News automated desk, or discuss market developments with other readers.</p></div><div class="context-actions"><a href="./articles/">Read explainers ↗</a><a href="./discuss.html?room=markets">Discuss markets ↗</a></div></section>
+<p class="market-disclaimer">Financial data displayed through third-party TradingView widgets; availability, market status and delay depend on the market and provider. Headlines are automatically gathered from attributed sources and are not independently fact-checked. This page is informational and not investment advice.</p>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="./index.html">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./about.html">About</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a></nav><span>© Standalone News · Market information may be delayed</span></div></footer>
 </body>
 </html>
