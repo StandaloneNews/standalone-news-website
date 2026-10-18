@@ -180,3 +180,79 @@ body.theme-broadsheet.home-broadsheet .latest-card .latest-row :is(h3,a) {overfl
 body.theme-broadsheet.home-broadsheet .above-fold-label {display:flex!important;justify-content:flex-end!important;min-height:35px!important;padding:10px 0 0!important;}
 body.theme-broadsheet.home-broadsheet .above-fold-label .welcome-copy {display:none!important;}
 body.theme-broadsheet.home-broadsheet .above-fold-label .feed-label {text-align:right;}
+
+/* WCAG 2.2 AA contrast and interaction fixes — Independent Edition, October 2026.
+   Apply at the end of the broadsheet theme: the global dark-ink headline rules must
+   not override headings inside navy panels. These adjustments are scoped to the
+   current theme and do not alter feeds, widgets or account functionality. */
+body.theme-broadsheet.theme-market .context-band :is(h1,h2,h3,h4),
+body.theme-broadsheet.theme-community .panel-heading :is(h1,h2,h3,h4),
+body.theme-broadsheet .footer :is(h1,h2,h3,h4),
+body.theme-broadsheet .site-footer :is(h1,h2,h3,h4) {
+  color:#ffffff!important;
+}
+body.theme-broadsheet.theme-market .context-band :is(.eyebrow,.kicker),
+body.theme-broadsheet.theme-community .panel-heading :is(.eyebrow,.kicker) {
+  color:#ffc9d3!important;
+}
+body.theme-broadsheet.theme-market .context-band p,
+body.theme-broadsheet.theme-community .panel-heading p {
+  color:#dce8ed!important;
+}
+/* This legacy component used white text on a light gray background. */
+body.theme-broadsheet.home-broadsheet #markets .market-topline {
+  background:#122c3d!important;
+  color:#f6f8f5!important;
+}
+body.theme-broadsheet.home-broadsheet #markets .market-topline :is(strong,h2,h3,p,span) {
+  color:#f3f7f7!important;
+}
+body.theme-broadsheet.home-broadsheet #markets .market-topline a {
+  color:#ffffff!important;
+}
+body.theme-broadsheet .footer :is(.footer-smallnote,.footer-identity p,.footer-bottom,.footer-inner>span) {
+  color:#d2e0e4!important;
+}
+/* Small source and disclaimer text needs normal-text contrast, not decorative gray. */
+body.theme-broadsheet.theme-market :is(#news-count,.market-disclaimer),
+body.theme-broadsheet :is(.status-label,.small-note,.state-note,.input-note) {
+  color:#465c67;
+}
+/* Perceivable focus on pale and navy surfaces, regardless of control shape. */
+body.theme-broadsheet :is(a,button,input,select,textarea,[tabindex]):focus-visible {
+  outline:3px solid #17618b!important;
+  outline-offset:3px!important;
+}
+body.theme-broadsheet :is(.context-band,.panel-heading,.hero-side,.brief-section,#wire-discuss-cta,.footer,.site-footer,.utility,.utility-bar) :is(a,button,input,select,textarea,[tabindex]):focus-visible,
+body.theme-broadsheet.home-broadsheet #markets .market-topline :is(a,button,[tabindex]):focus-visible {
+  outline-color:#ffe09b!important;
+}
+body.theme-broadsheet :is(input,textarea,select) {
+  border-color:#798791;
+}
+body.theme-broadsheet :is(input,textarea,select)::placeholder {
+  color:#526470;
+  opacity:1;
+}
+@media (prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto!important;}
+  body.theme-broadsheet *,body.theme-broadsheet *::before,body.theme-broadsheet *::after {
+    animation-duration:.01ms!important;
+    transition-duration:.01ms!important;
+  }
+}
+/* High-priority issue discovered in the five-story brief: red-on-navy labels. */
+body.theme-broadsheet.home-broadsheet .brief-section :is(.section-eyebrow,.eyebrow,.brief-topic,.brief-source) {
+  color:#ffd0d9!important;
+}
+body.theme-broadsheet.home-broadsheet .brief-section .section-eyebrow,
+body.theme-broadsheet.theme-market .context-band .eyebrow,
+body.theme-broadsheet.theme-community .panel-heading .eyebrow {
+  font-size:12px!important;
+  line-height:1.45!important;
+}
+body.theme-broadsheet .footer :is(.footer-smallnote,.footer-inner>span,.footer-bottom),
+body.theme-broadsheet.theme-market .market-disclaimer {
+  font-size:12px;
+  line-height:1.6;
+}
