@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T02:43:44+00:00",
+  "updated_at": "2026-10-18T03:11:00+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -27,7 +27,7 @@
     "3b23c776a1bd2140b4abd845",
     "8155c8c6662e1bce539fac7a",
     "2fb85207a090347c52f037f1",
-    "ac376344bea41e849634eabb"
+    "7d999832d97a9799a6070b60"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
@@ -40,8 +40,86 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-18T02:36:53+00:00",
+      "published_at": "2026-10-18T03:07:24+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fe1da706fb4d295faaaff0e7",
+      "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
+      "summary": "Incident at CFB Wainwright base in Alberta caused a ‘major fire’ that is spreading to the nearby town because of strong winds People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” defence minister David McGuinty said at a press conference on Saturday night. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T02:50:29+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7d999832d97a9799a6070b60",
+      "title": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News",
+      "summary": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T02:49:27+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "54730380f6a4719cdfe724f7",
+      "title": "Oregon school shooter identified, used shotgun bought by mother, sources say - CBS News",
+      "summary": "Oregon school shooter identified, used shotgun bought by mother, sources say CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzNWZTVjSGdjd1FZSnRTMW5QR1N0cXAteFc1bDVOSy1DaEdDaHlfcHV0bjJLUVNRQjJzVF8yQUMta00yRHRxS3pmYzZzU3JLU3pyMG5nTTlIaHl6Z3dOSGZsQUdvQ0ZIX2NONlZ1WkRPSVBKdl80UEppZl82YmN3ZG8xVkhTMDVVYk4wamFR?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T02:44:44+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4ba4c96b55ef4a89c932c667",
+      "title": "Search continues for 11 missing after boat sank off Mexico’s Baja coast",
+      "summary": "Some of 16 survivors treated for suspected shark bites, US coastguard says.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/search-continues-for-11-missing-after-boat-sank-off-mexicos-baja-coast?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T02:33:14+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fc8bd389db6ea29687c667bd",
+      "title": "Top takeaways from JD Vance town hall: Costly gas, DC corruption, immigration hot takes and the war - Fox News",
+      "summary": "Top takeaways from JD Vance town hall: Costly gas, DC corruption, immigration hot takes and the war Fox News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmh1Sno0Yl9HdUZIQVFkUER0TnZkb0xlQl9qc1BTeVNKNlpzdWZ6TzVZU1VIOW1TX1BCV1RHUE4tajN4TjZERU96WGprTGo5NzdxRnRKdUFvNkUxUjRpVF9sVUFvdW83MEpjN2o3NWFmRHJrcmpHRG9scU5ieDFNTkpVaHdnVDkwTmRkeUQ5SFRvMzhIMkJaS1VxQ3hKZ3ZuOFhPeWNmN0tESnAxWE5NWE9Wc3lPQ3FVMG9uMWJ30gHDAUFVX3lxTE53bEV2czJKTGstVzVzVjVUUkZNVlExRVBwTjBpUWVyN2dLelNoUFR2VjgtMGxReHpTYVY1RUt4NlRUZmR1MmM0Nno4MzdlOC1aZlZlOGtCakVNTVAzQ2ZCcnJJY3JqU1pNbVNMMDdReEJtMGlCay02VE1WTGRhUEhBa1VWUWFpcTBGMXhEcGp4clFUV21rUDdNdThfaFJ3R0pQYnU2c2RCeFZBcXIzY0VSbzI1Z3dESzU0X3pFbG9Xcm5Vaw?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T02:32:15+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3c5983d9b27fa18b1cdc8fb0",
+      "title": "Fears grow in DRC as former President Joseph Kabila joins rebellion",
+      "summary": "Kabila’s move raises new questions about the war in eastern Congo and prospects for peace.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/fears-grow-in-drc-as-former-president-joseph-kabila-joins-rebellion?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T02:21:48+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -81,6 +159,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-18T01:53:09+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ecfc50e647ddf9f6dab89823",
+      "title": "CDC sends a ‘disease detective’ to Pennsylvania amid measles outbreak - The Hill",
+      "summary": "CDC sends a ‘disease detective’ to Pennsylvania amid measles outbreak The Hill",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUDZaS2RYWTFoTFd5cUJRbmdJLVhCWE5RNVA5U2tYMmxLSDVKRGx0NlBNM0F5OUR6RHRxYlZJeEdzd1FIWVJXakJGeUxXZzBZRElrU1BaWG9oZi11a194MFg3b1VEZEEyWjZrQUxpUnJrWVo4Z0FxNGF3WWpZM2ZZckw1UWtrYUNXVnJSUEpfaHFyZ9IBlwFBVV95cUxOcmdYODZJekYxeUtfbF9uV1JpNzBSSTNiNTdBOTJBbkloMGJ1eDJGNUNpR2pqYlFkVlpRRWU3RkJWeHpnRG5KZ3k3YlFjbFduY2dEVEZ6cnpsenJkU3hKeU9vamdrRWkzbkNzMGZQSVQ5U2ZCdVBzcUNlaFV0V1NQMHVWeHFPQktFU0xWU3hkVjBsT0tfbnY4?oc=5",
+      "source": "The Hill",
+      "feed_id": "thehill",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T01:46:00+00:00",
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -181,6 +272,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T00:49:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "bfe90082eaf23da614368eeb",
+      "title": "Crisis • Resilience • Evolution -- Building a Tourism Economy for a Shared Future: The 12th Global Tourism Economy Forum • Macao 2026 Grandly Commences - StreetInsider",
+      "summary": "Crisis • Resilience • Evolution -- Building a Tourism Economy for a Shared Future: The 12th Global Tourism Economy Forum • Macao 2026 Grandly Commences StreetInsider",
+      "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPNlVHM2dlcW40c2VyaWZOUzN4NkFQWHZleXRHTHZKR2tuVkpkR2xzenZrcFUtdXlqZy0tUHBEOWpoTm5WUFpIYzg3MzU0NmxRZkYtYUMtUDBLVHJXWTBqWThEM2Jvb2VIUnROT0dwX3o1aDN3RWROeDA2OHpKWnh6Wk1aWlkyUFFPY3NDU2xyU3RYSmJXbXN3c3Z2OTVReWZWOVR1Z0Z1Vi1QaEQxNnlJRGt3bG93VE9Xei1qYTNFdjgwNXNtWFk5U2VJZ082Y2MwVjNnTDBweUEza1lwV2tqY1hJcUpfSzRUSk9XQm54QWpUT0prNlBfRDE3U0R6ZnhVSHlSbGo5Nm5WZE1acUk0aEppbkZPdDdwN3V4NHgyLTJwMDNSUmFpSURzT1ZHNHp4NWh0aC1yek5VQzEtVjI3SU9pZDJKRzB3d3EzZlBnTXM1VVpmTks4?oc=5",
+      "source": "StreetInsider",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:44:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -403,6 +507,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "332dcb0527c92393f0645101",
+      "title": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says - Reuters",
+      "summary": "US wants Israel to 'crack down' on settler violence in West Bank, Rubio says Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX2RPSkdZZ0xrcm1MRkYySnVIVFRmRFN0UXBfV21jVlcxZ2xrUDloZlFYWE1Za0JnRXNHVXdRbWkzSVljckpwSmpUSzFsWHpCcV9YM2RTSGZZNEprQlNkSmFPQlgtYUZCejI3a3BuS2RmUEgwS3JmUUNIbkxvSzJoNUg3ckdsRUxvVE9BdTFBX0NUR3pYcThTQjBUb05tQ1V2QzlUR3JneGU5ZTB2Z0xPTGdUM2lSemFsQmc?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T23:49:37+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1149b469007b6d9c6ec3e995",
       "title": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? - Investor's Business Daily",
       "summary": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? Investor's Business Daily",
@@ -598,6 +715,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "29e62db13035dafc5aae86eb",
+      "title": "Daily life around the world, in photos - AP News",
+      "summary": "Daily life around the world, in photos AP News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2UyZHkyUzYxbS1IdlBMVVhJdTUySVVGbUtkVTc2ak4yTWEzX21GX3FOUWtmMS1GRXlhaGJsVkdSME8ydGxHTEFTLW9jQXJhLTdHTE5IU210MjM2Y0tkLWMxM3h1ZjJGX2RVemxRLVRnUTZ1eW9nTmFSZ2tscC15VDlKSGY3TTBEU2pQSWNDYklDc2M4b2tUUGRlTmY?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:45:45+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1be8e97651263e5ac20404dc",
       "title": "Oregon governor Tina Kotek reacts to Silver Rail Elementary school shooting",
       "summary": "NPR's Joel Rose talks with Oregon Governor Tina Kotek about the shooting at Silver Rail Elementary in Bend, Oregon.",
@@ -741,19 +871,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "29e62db13035dafc5aae86eb",
-      "title": "Daily life around the world, in photos - AP News",
-      "summary": "Daily life around the world, in photos AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2UyZHkyUzYxbS1IdlBMVVhJdTUySVVGbUtkVTc2ak4yTWEzX21GX3FOUWtmMS1GRXlhaGJsVkdSME8ydGxHTEFTLW9jQXJhLTdHTE5IU210MjM2Y0tkLWMxM3h1ZjJGX2RVemxRLVRnUTZ1eW9nTmFSZ2tscC15VDlKSGY3TTBEU2pQSWNDYklDc2M4b2tUUGRlTmY?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T21:56:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "7c3f18694b8b3fb3908351e2",
       "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 1 – live updates",
       "summary": "Valkyries host Dream in opener of best-of-seven series Guardian writers’ predictions: Golden State or Atlanta? Reach out to Bryan on Bluesky or by email Atlanta trailed 14-11 after Chen’s three-pointer with 2:48 remaining, but Golden State failed to score again. Reese took over, scoring nine of Atlanta’s final 11 points. She converted two layups to put the Dream ahead 15-14, added another inside, split a pair of free throws and finished with a driving finger-roll layup with 13.8 seconds left. Gray contributed two free throws as Golden State missed their final five shots. Continue reading...",
@@ -886,7 +1003,7 @@
     {
       "id": "1f5d991297e8d6de2161560c",
       "title": "Cost of living protests hit Belgium, Italy, Portugal and France",
-      "summary": "Hundreds of thousands took to the streets for separate demonstrations, putting pressure on governments across the EU.",
+      "summary": "Hundreds of thousands take to the streets for separate demonstrations, putting pressure on governments across the EU.",
       "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
@@ -1287,6 +1404,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "9a47cf6c3c9b415dd051764a",
+      "title": "Ilhan Omar: The US Democrat targeted by Donald Trump - DW.com",
+      "summary": "Ilhan Omar: The US Democrat targeted by Donald Trump DW.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmlyUGVoR0RBNVpnR0EybGFKNjNVSTlFYkpEWkJ0RHhiWkFtd1p3LUZLN2FNU2U4QW1HaVl1a2dfQVc3ckh3VkFYM2o1d0JuUWVrbXNZT1I4OVdURERKTmhTTy10am5wMkV5TkxIb1B6RzI2MXVPblFLV1BINUVpZXV0QnRpOVAxSWlCNtIBjAFBVV95cUxPejd3OHdCb0dHbTVucy1kODFCYWU3dk56RTBBWWt3VmJ3SFJnbDQzUGdVaXkxYnMyR3lKVXUzSDQ5SS1rdlA1QWZfb0E4ZkxUMmlIbzE1OFAzX052NzdZUElBelZTa0tKdTA1eGlRVW9hVFFlZm1lQWdvdWdWQ1QzMlY0cjhGVmxjUGMyVw?oc=5",
+      "source": "DW.com",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:25:52+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6d09bb2727e7ee9f9c4eeb90",
       "title": "At least 17 dead in crush at Hindu festival event in India",
       "summary": "Many more have been injured at an event in the Indian city of Kolkata to mark a Hindu festival.",
@@ -1322,19 +1452,6 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T19:15:03+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9a47cf6c3c9b415dd051764a",
-      "title": "Ilhan Omar: The US Democrat targeted by Donald Trump - DW.com",
-      "summary": "Ilhan Omar: The US Democrat targeted by Donald Trump DW.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmlyUGVoR0RBNVpnR0EybGFKNjNVSTlFYkpEWkJ0RHhiWkFtd1p3LUZLN2FNU2U4QW1HaVl1a2dfQVc3ckh3VkFYM2o1d0JuUWVrbXNZT1I4OVdURERKTmhTTy10am5wMkV5TkxIb1B6RzI2MXVPblFLV1BINUVpZXV0QnRpOVAxSWlCNtIBjAFBVV95cUxPejd3OHdCb0dHbTVucy1kODFCYWU3dk56RTBBWWt3VmJ3SFJnbDQzUGdVaXkxYnMyR3lKVXUzSDQ5SS1rdlA1QWZfb0E4ZkxUMmlIbzE1OFAzX052NzdZUElBelZTa0tKdTA1eGlRVW9hVFFlZm1lQWdvdWdWQ1QzMlY0cjhGVmxjUGMyVw?oc=5",
-      "source": "DW.com",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T19:12:13+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1444,8 +1561,8 @@
     },
     {
       "id": "23bf0a98653887e7bc0e43a1",
-      "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress - NBC News",
-      "summary": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress NBC News",
+      "title": "Trump doubles down after waiving new Russia sanctions, calling it a ‘very good decision’ - NBC News",
+      "summary": "Trump doubles down after waiving new Russia sanctions, calling it a ‘very good decision’ NBC News",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5",
       "source": "NBC News",
       "feed_id": "nbc",
@@ -5422,123 +5539,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T05:00:58+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7d761a263018c7ba6f805e56",
-      "title": "How the US-Iran war upended two critical global trade routes - CNN",
-      "summary": "How the US-Iran war upended two critical global trade routes CNN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWkhLc0FrR3BPSms3TDdwX1QxN2tFaUpMM2t5eHQyWWFyYUxqN3JNUkdfU2hERzltNkZJY09kc0RMVGF5cWNURjlkNndGUmpkMmFINk5za1AxOWZzSklYcHR6d09OYWR3TzM5LXd1bDItb0oxaGYzNmNwUUwwLW5xa18tRW5qYm0tVWQ3aFNteVZMa2pVX0pISEY3OUV4Vi1ZZUxCOA?oc=5",
-      "source": "CNN",
-      "feed_id": "cnn",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T05:00:45+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "14456928f6694c25cfc1b6b0",
-      "title": "Russell Brand’s trial: what we’ve heard and seen so far",
-      "summary": "Accused of assaulting six women, the former comedian and presenter denies all charges Russell Brand’s trial at Southwark crown court began this week, with widespread media coverage. The former comedian and presenter is accused of assaulting six women. He denies all charges. Here are five things we have learned so far: Continue reading...",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/17/russell-brands-trial-what-weve-heard-and-seen-so-far",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:00:24+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d73920ea4d1c6abcb7132317",
-      "title": "Blind date: ‘Most awkward moment? When I accidentally called her Melissa’",
-      "summary": "James, 34, a researcher, meets Michelle, 30, a radio presenter What were you hoping for? An unforgettable evening. Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/blind-date-michelle-james",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:00:23+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c9d98f5e001e5f8352184118",
-      "title": "Muscles, metrosexuals and male tears: the 39 pictures that changed the way we see men (for good and for bad)",
-      "summary": "From a body-building Arnie to a weeping Frenchman, these 39 groundbreaking images have upended assumptions about how men behave, dress and project power. Introduction by Luke Kennard I have an image of myself in 2011, pushing my newborn son in a big red buggy because he would only nap when in motion. As I traversed the streets of suburban Birmingham, I felt observed, glanced at, commented on in a manner that ranged from pity to reproach to disproportionate admiration. Daft that it should be a remarkable sight, I thought, but there we go. Probably I’d have felt less self-conscious if I’d followed David Bowie’s example and – as in one of the images showcased here – worn what looks like a dress. On depictions of men and women in art history, John Berger famously stated that “men act, women appear”. Men were portrayed demonstrating their phys",
-      "url": "https://www.theguardian.com/society/2026/oct/17/39-pictures-that-changed-the-way-we-see-men-for-good-and-for-bad",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:00:22+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "08b7957b707498f5d4d79a6d",
-      "title": "Some companies give AI to everyone. This CEO is doing the opposite",
-      "summary": "Paysend CEO Ben Chisell limits AI tools to top performers as other U.K. companies push broader workplace rollouts.",
-      "url": "https://www.cnbc.com/2026/10/17/ai-workplace-tokenmaxxing-paysend.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:00:01+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d45b26dbb3fbd4a8baf432b9",
-      "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
-      "summary": "US President Donald Trump has waived more sanctions on Russia in a bid to ease energy prices.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T04:58:32+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e39410d01d5f2ac8b9f946f9",
-      "title": "Fairfax’s Watsa Bets On IDBI Payoff As India Booms, Report Says - Bloomberg.com",
-      "summary": "Fairfax’s Watsa Bets On IDBI Payoff As India Booms, Report Says Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVEgzRTVod0VfcGNLem1xeTlpRjNUelJwRTM2blUzTFJVbmQ1aHBKeHRhYVFrbUZoOW5GeXQtWDQ5aXlTalR3M1NlQWNHNTdVT05NYmt1RWo2Ymx3ZFpsUURlV0t2Sy04VXlZNXRST25XQWJCbmxKVWxFOHd4RFNmMHl0NVFUbHNJZFZObjFjY2ZJZkVCWlJETzh0UE5xZ2szUDBkMkg4enlMLVZ2R0hYNjVXOA?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T04:55:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8eafef662a0761fd664c68f7",
-      "title": "Trump puts on hold new Russia sanctions he signed into law",
-      "summary": "US president's executive order comes two days before sanctions deadline and a week after diesel deal with Putin.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T04:45:03+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3d2e9f8131d77b050336c05e",
-      "title": "Nearly 12,000 California residents bought EVs using state rebate program - Yahoo Finance",
-      "summary": "Nearly 12,000 California residents bought EVs using state rebate program Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckRYRXBDTkw2UWw4Zy1qenBxODJaRXUwWDlTUXlxWnpXSkxzcWtUcWNjQjl6Y1prM2I3QTAyOHBMcGhyNVo2Q2lXQzhpRWFaNG04OWw5cm9mVzV1UjJEWUJMN1ZlUDBwUVRDbC01elA3RDc5TUNaeDJ3SDc4T1NKeHpScEJ4NVU?oc=5",
-      "source": "Yahoo Finance",
-      "feed_id": "yahoo_finance",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T04:44:00+00:00",
-      "desk_priority": 37,
       "selection_type": "automatic"
     }
   ]
