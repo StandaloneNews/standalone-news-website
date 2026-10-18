@@ -1,6 +1,12 @@
 name: Standalone News desk feed
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/publish_desk.py'
+      - 'tests/test_publish_desk.py'
+      - '.github/workflows/publish-desk.yml'
   schedule:
     # Staggered 15 minutes away from the existing :00/:30 RSS refresh.
     - cron: '15,45 * * * *'
@@ -26,6 +32,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Test photo matching and feed logic
+        run: python -m unittest discover -s tests -p 'test_publish_desk.py'
       - name: Collect and rank public news with licensed photo matching
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
