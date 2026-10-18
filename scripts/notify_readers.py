@@ -56,7 +56,7 @@ def unsubscribe_link(subscriber):
     sid=subscriber['id']
     secret=os.environ['NEWSLETTER_SIGNING_SECRET'].encode()
     sig=hmac.new(secret,sid.encode(),'sha256').hexdigest()
-    return SITE+'/api/newsletter/unsubscribe?token='+urllib.parse.quote(sid+'.'+sig)
+    return 'https://api.standalonenews.com/api/newsletter/unsubscribe?token='+urllib.parse.quote(sid+'.'+sig)
 
 
 def load_stories(mode, now=None):
