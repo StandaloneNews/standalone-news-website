@@ -1,8 +1,8 @@
 /* Standalone News community. Uses the EXISTING public Supabase URL and publishable key.
    All writes are guarded by server-side Supabase RLS and database triggers. */
 const $ = id => document.getElementById(id);
-const ROOMS = {general:['General conversation',"Open conversation about today's news"],politics:['Politics & policy','Discuss the decisions that shape public life'],markets:['Markets & economy','Share analysis, context, and investing perspectives'],world:['World affairs','Discuss global news and international developments'],technology:['Technology & AI','Talk about science, technology, and business']};
-const state={db:null,user:null,profile:null,moderator:false,room:'general',view:'chat',messages:[],threads:[],replies:[],activeThread:null,channel:null,waiting:false,refreshTimer:null,reportTarget:null,profileMap:new Map(),sessionReady:false,restriction:null};
+const ROOMS = {general:['General conversation',"Open conversation about today's news"],politics:['Politics & policy','Discuss the decisions that shape public life'],markets:['Markets & economy','Share analysis, context, and investing perspectives'],sports:['Sports discussion','Talk about NBA, NFL, worldwide soccer, UFC, matchups, and results'],world:['World affairs','Discuss global news and international developments'],technology:['Technology & AI','Talk about science, technology, and business']};
+const state={sportsRoomAvailable:false,db:null,user:null,profile:null,moderator:false,room:'general',view:'chat',messages:[],threads:[],replies:[],activeThread:null,channel:null,waiting:false,refreshTimer:null,reportTarget:null,profileMap:new Map(),sessionReady:false,restriction:null};
 const dateText=iso=>{try{return new Intl.DateTimeFormat('en-US',{timeZone:'UTC',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(iso))+' UTC';}catch{return 'UTC';}};
 const dom=(tag,cls,text)=>{const node=document.createElement(tag);if(cls)node.className=cls;if(text!==undefined)node.textContent=String(text);return node;};
 const label=(userId)=>state.profileMap.get(userId)||'Reader';
@@ -51,7 +51,7 @@ function renderMessages(){const viewport=$('chat-messages'),nearBottom=viewport.
 }
 async function loadMessages(){if(!state.db)return;const room=state.room;const {data,error}=await state.db.from('community_messages').select('id,room_slug,author_id,body,created_at,removed_at').eq('room_slug',room).is('removed_at',null).order('id',{ascending:false}).limit(60);
  if(room!==state.room)return;if(error){showIssue('Community messages are unavailable. Run the included community.sql in your Supabase SQL Editor and verify access: '+errorInfo(error));return;}clearIssue();state.messages=(data||[]).reverse();await getProfiles(state.messages);renderMessages();}
-function roomText(room){return ({general:'General',politics:'Politics',markets:'Markets',world:'World',technology:'Technology'})[room]||room;}
+function roomText(room){return ({general:'General',politics:'Politics',markets:'Markets',world:'World',technology:'Technology',sports:'Sports'})[room]||room;}
 function renderThreads(){const n=$('thread-list');n.replaceChildren();if(!state.threads.length){n.append(dom('div','empty-message','No discussions in this topic yet. Start one with a question worth exploring.'));return;}
  for(const thread of state.threads){const c=dom('article','thread-card');const head=dom('div','thread-head');head.append(dom('span','thread-category',roomText(thread.room_slug)),dom('span','thread-author','@'+label(thread.author_id)+' · '+dateText(thread.created_at)));if(thread.locked)head.append(dom('span','thread-category','Locked'));c.append(head);
  const title=dom('button','thread-title',thread.title);title.type='button';title.addEventListener('click',()=>openThread(thread));c.append(title,dom('p','thread-excerpt',thread.body));const meta=dom('div','thread-meta');appendSmallButton(meta,'Read discussion →',()=>openThread(thread));reportButton(meta,'thread',thread);c.append(meta);n.append(c);}
@@ -68,7 +68,7 @@ async function openThread(thread){state.activeThread=thread;$('thread-detail').h
  const actions=dom('div','message-actions');reportButton(actions,'thread',thread);body.append(actions);$('reply-form').hidden=!canPost()||thread.locked;$('reply-requires-login').hidden=canPost()||thread.locked;await loadReplies();setTimeout(()=>$('thread-detail').scrollIntoView({behavior:'smooth',block:'start'}),30);
 }
 function closeThread(){state.activeThread=null;state.replies=[];$('thread-detail').hidden=true;$('thread-list').hidden=false;$('thread-toolbar').hidden=false;}
-function switchRoom(room){if(!ROOMS[room]||room===state.room)return;state.room=room;for(const b of document.querySelectorAll('[data-room]')){const active=b.dataset.room===room;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}const [name,desc]=ROOMS[room];$('active-room-kicker').textContent='# '+room.toUpperCase();$('room-heading').textContent=name;$('room-description').textContent=desc;closeThread();const url=new URL(location.href);url.searchParams.set('room',room);history.replaceState(null,'',url);loadMessages();loadThreads();subscribeLive();}
+function switchRoom(room){if(!ROOMS[room]||room===state.room||room==='sports'&&!state.sportsRoomAvailable)return;state.room=room;for(const b of document.querySelectorAll('[data-room]')){const active=b.dataset.room===room;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}const [name,desc]=ROOMS[room];$('active-room-kicker').textContent='# '+room.toUpperCase();$('room-heading').textContent=name;$('room-description').textContent=desc;closeThread();const url=new URL(location.href);url.searchParams.set('room',room);history.replaceState(null,'',url);loadMessages();loadThreads();subscribeLive();}
 function switchView(view){if(!['chat','threads','moderation'].includes(view)||view==='moderation'&&!state.moderator)return;state.view=view;for(const b of document.querySelectorAll('[data-view]')){const active=b.dataset.view===view;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));}for(const [v,id] of [['chat','chat-view'],['threads','threads-view'],['moderation','moderation-view']])$(id).hidden=v!==view;if(view==='moderation')loadReports();}
 function scheduleRefresh(){if(state.refreshTimer)return;state.refreshTimer=setTimeout(async()=>{state.refreshTimer=null;await Promise.all([loadMessages(),loadThreads(),state.activeThread?loadReplies():Promise.resolve()]);if(state.view==='moderation')await loadReports();},650);}
 function subscribeLive(){if(!state.db)return;if(state.channel)state.db.removeChannel(state.channel);setConnection('connecting');const name='sn-community-'+state.room;
@@ -91,10 +91,24 @@ async function loadReports(){if(!state.moderator)return;const n=$('moderator-lis
  card.append(actions);n.append(card);
  }
 }
+// Only enable Sports when the database row exists. community_messages and
+// community_threads each have a foreign key to public.community_rooms(slug).
+// Showing a nonexistent room would otherwise make posting fail.
+async function checkSportsRoom(){
+  const tab=document.querySelector('[data-room="sports"]');
+  if(!state.db||!tab)return false;
+  try{
+    const {data,error}=await state.db.from('community_rooms').select('slug').eq('slug','sports').maybeSingle();
+    state.sportsRoomAvailable=!error&&data?.slug==='sports';
+  }catch{state.sportsRoomAvailable=false;}
+  tab.hidden=!state.sportsRoomAvailable;
+  return state.sportsRoomAvailable;
+}
 async function boot(){const time=()=>{$('utc-now').textContent=new Date().toISOString().slice(11,16)+' UTC';};time();setInterval(time,60000);
  const cfg=window.SN_ACCOUNT_CONFIG||{};if(!/^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/i.test(cfg.url||'')||!cfg.publishableKey){showIssue('The reader account connection is not configured. Keep the existing account-config.js from your live website.');setConnection('polling');return;}
  try{const {createClient}=await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');state.db=createClient(cfg.url.replace(/\/$/,''),cfg.publishableKey,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});}catch(err){showIssue('The sign-in service could not load. Check your connection or browser security settings.');setConnection('polling');return;}
- const initialRoom=new URLSearchParams(location.search).get('room');if(initialRoom&&ROOMS[initialRoom]){state.room='general';switchRoom(initialRoom);}else{loadMessages();loadThreads();subscribeLive();}
+ await checkSportsRoom();
+ const initialRoom=new URLSearchParams(location.search).get('room');if(initialRoom&&ROOMS[initialRoom]&&(initialRoom!=='sports'||state.sportsRoomAvailable)){state.room='general';switchRoom(initialRoom);}else{if(initialRoom==='sports'&&!state.sportsRoomAvailable)showIssue('The Sports discussion room is awaiting database activation. Other rooms remain available.');loadMessages();loadThreads();subscribeLive();}
  await refreshAccount();state.db.auth.onAuthStateChange((event,session)=>{if(['SIGNED_IN','SIGNED_OUT','USER_UPDATED','TOKEN_REFRESHED'].includes(event))setTimeout(async()=>{await refreshAccount();scheduleRefresh();},0);});
  // Periodic refresh if Realtime is unavailable; also catches moderation changes.
  setInterval(()=>{if(document.visibilityState==='visible')scheduleRefresh();},30000);

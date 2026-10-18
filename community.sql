@@ -14,6 +14,7 @@ INSERT INTO public.community_rooms (slug,title,description,sort_order) VALUES
  ('general','General','Open conversation about today’s news',1),
  ('politics','Politics & policy','Debate policy and civic issues without personal attacks',2),
  ('markets','Markets','Stocks, the economy, and investing perspectives',3),
+ ('sports','Sports','NBA, NFL, worldwide soccer, UFC, matchups and results',6),
  ('world','World','Global events and international coverage',4),
  ('technology','Technology','AI, business, science, and technology',5)
 ON CONFLICT (slug) DO NOTHING;
