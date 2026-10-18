@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T18:06:10Z",
+  "updated_at": "2026-10-18T18:51:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1100,19 +1100,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482200",
+      "id": "sportsdb-2482207",
       "league": "seriea",
-      "name": "Juventus vs Lazio",
-      "date": "2026-10-18T18:45:00Z",
+      "name": "Monza vs Cagliari",
+      "date": "2026-10-19T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Juventus",
+          "name": "Monza",
           "score": ""
         },
         {
-          "name": "Lazio",
+          "name": "Cagliari",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
           "score": ""
         }
       ],
@@ -1121,10 +1140,73 @@
   ],
   "stories": [
     {
+      "title": "'Maybe we became arrogant' - Sunderland struggles continue",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6073pmddk0ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:49:00Z",
+      "league": "all"
+    },
+    {
       "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T17:56:47Z",
+      "date": "2026-10-18T18:43:10Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Monaco miss chance to go top; Bayer Leverkusen find form",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
+      "date": "2026-10-18T18:36:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Shades of Barca and Beckham - Brighton aim to maintain superb start",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyd05wj00do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:33:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Northampton break England’s duck in Champions Cup with victory over Cardiff",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/northampton-cardiff-champions-cup-rugby-union-match-report",
+      "date": "2026-10-18T18:31:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal substitutes change game - Arteta",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqwyrkyyglzjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:31:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Northampton beat Cardiff for only English win of Champions Cup openers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw62ynq8jz2no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:23:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Hearts roll out red carpet ... and Celtic walk all over it",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62kezneyq8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:22:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Selby out but Lisowski advances in NI Open defence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/c9e8l765gdmyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:12:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Long-range goals from further and further out",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6jdmy04ryjgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:09:13Z",
       "league": "all"
     },
     {
@@ -1198,18 +1280,11 @@
       "league": "all"
     },
     {
-      "title": "Man Utd showed 'unity' in draw with Leeds - Carrick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmlyl8yyzryeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T15:46:07Z",
-      "league": "all"
-    },
-    {
       "title": "My one feeling is shame - Sage on bruising Palace defeat",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T15:41:16Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Evanilson swivels his hips to seal Bournemouth win against 10-man Sunderland",
@@ -1244,13 +1319,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T14:56:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Late tries give Pau bonus-point win over Leicester",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckgelq18418eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T14:04:52Z",
       "league": "all"
     },
     {
@@ -1331,13 +1399,6 @@
       "league": "soccer"
     },
     {
-      "title": "'It's so close' - Finucane has to settle for keirin bronze",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/videos/c6vgxp7npk2wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T08:50:59Z",
-      "league": "all"
-    },
-    {
       "title": "'Devastating & dramatic' - Dubois stops Wardley to retain title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/videos/cr1exjnlgv29o?at_medium=RSS&at_campaign=rss",
@@ -1345,23 +1406,16 @@
       "league": "all"
     },
     {
-      "title": "'What a finish!' - Gillespie wins gold for Ireland",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/videos/cjy56pk5wg54o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T07:09:20Z",
+      "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
+      "date": "2026-10-18T07:00:55Z",
       "league": "all"
     },
     {
       "title": "Meaty Montpellier leave Bath reeling and offer Prem French lessons",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
-      "date": "2026-10-18T07:00:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
       "date": "2026-10-18T07:00:55Z",
       "league": "all"
     },
@@ -1399,41 +1453,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/18/kagiso-rabada-plays-down-2018-clash-steve-smith-australia-south-africa",
       "date": "2026-10-17T23:50:32Z",
       "league": "all"
-    },
-    {
-      "title": "How 'dangerous' Man City maintained 100 per cent record",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpl5qd008o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T23:00:53Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Why Liverpool are still 'too easy' to play against",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c65ynpkjydemo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T23:00:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Jalen Hurts placed on injured reserve after Eagles quarterback diagnosed with blood clot",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/17/jalen-hurts-eagles-injured-reserve-blood-clot-calf",
-      "date": "2026-10-17T22:33:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/17/daniel-dubois-devastating-second-round-stoppage-of-fabio-wardley-retain-wbo-title-boxing",
-      "date": "2026-10-17T22:30:18Z",
-      "league": "all"
-    },
-    {
-      "title": "Rangers 'pop balloon' as Neil gift wastes chance to go top",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3nl91gg2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T22:29:15Z",
-      "league": "soccer"
     }
   ]
 }
