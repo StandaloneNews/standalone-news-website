@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T00:56:11+00:00",
+  "updated_at": "2026-10-18T01:41:59+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -7,8 +7,8 @@
     "ed816b952e05192ca949a378",
     "7e0234c9b93f01b818878ee2",
     "2be149a948d5c083b019a658",
-    "891ee89885e73103292e9f43",
     "1149b469007b6d9c6ec3e995",
+    "891ee89885e73103292e9f43",
     "94601d1e80ff093ee999f69a",
     "a9b2317de904a1c258d5d48e",
     "652f99621c1ab29ad0f3c30d",
@@ -16,17 +16,17 @@
     "13085a3b6524965c32a03e20",
     "55983b22869560580b553385",
     "59fd2decfdd413d573f05f85",
+    "7d48dd74e0a6592bb545d69c",
+    "b677fdedabaf44798b79a308",
     "2db5a89324f0f3d713f2f93f",
     "5143079001a2ff1f4ac5f3cc",
     "462ce749719355b36322712d",
     "b34ccfdd8eee11f4536b90c8",
     "73efd7b3a3ef0551b3a142d7",
     "b2183dc6f1c80dcd89dacc8d",
-    "b677fdedabaf44798b79a308",
     "3b23c776a1bd2140b4abd845",
     "8155c8c6662e1bce539fac7a",
     "ac376344bea41e849634eabb",
-    "7888611a7d0aac652aedba41",
     "2fb85207a090347c52f037f1"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
@@ -40,8 +40,57 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-18T00:51:44+00:00",
+      "published_at": "2026-10-18T01:38:06+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b333134da3df486fefcbedf5",
+      "title": "Musk back in the spotlight, but politics dims the awe - Yahoo",
+      "summary": "Musk back in the spotlight, but politics dims the awe Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVlVpczdxRHVINzVva24ycC1wVURrcG1UTVV0SzFuQ0daZUdTTkM0TDNEMTNQYUhKbV9WYVE3dmR3WkZ4bjk3eHJrQmhoT29EYjAyMndkTGRhcUhWVkVwYUx5ZmtZRERxeGREUXNGNjVlUXp6X1QyN1pNdkVXdGt6LVA5dEtqSC1TMDI3U3FFOXdQRXo1QU9WZA?oc=5",
+      "source": "Yahoo",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T01:22:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b677fdedabaf44798b79a308",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T01:10:25+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_03.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Retired electrician",
+        "license": "CC0",
+        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
+        "label": "Illustrative photo",
+        "matched_query": "Moscow Russia skyline"
+      }
+    },
+    {
+      "id": "89b730c4018441c17de2e0cd",
+      "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+      "summary": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T01:02:37+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -54,6 +103,58 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T00:51:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a9c87bdeeeff63d16f8e3a8b",
+      "title": "Watch: Moment historic French town hall spire collapses in flames amid protests",
+      "summary": "An historic town hall in the southern French city of Limoges was set ablaze during national protests.",
+      "url": "https://www.bbc.co.uk/news/videos/c6e3xjw37wn7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T00:49:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e9d7e082cbecce78e5c491c6",
+      "title": "Man whose wife died in Iranian strike presses Vance on \"fundamental failures\" - CBS News",
+      "summary": "Man whose wife died in Iranian strike presses Vance on \"fundamental failures\" CBS News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ucU1sMUw5U0dRcGhMcDhITUhsLS13SjNLbzhJWUIwTDgzdzZuYzZRdlA2SmtzQ0pScV9qMkZhN2JyTzNRRUJ1dHNTWUpkSjJNU2FYTEp6SlRBNWZXSGFuOGdWck5BaFFoaDBUcXdhVGFrZFU?oc=5",
+      "source": "CBS News",
+      "feed_id": "cbs",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:46:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "21ac61b544b5d5f56aaebd50",
+      "title": "Three takeaways from Elon Musk's latest political donations - BBC",
+      "summary": "Three takeaways from Elon Musk's latest political donations BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tQW1xWUtwQlN2Sy1wMnlkcm0wd181Y0VtSF94Z1JKUmpBUGpOYWh4OVhuQ0pGMkFSUTJPbGowcEg0Qk02bzFsalpCeV9pZGNveEszeXBoc2R1ZHM?oc=5",
+      "source": "BBC",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:41:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f7d0814c267cec3665e0346e",
+      "title": "Three takeaways from Elon Musk's latest political donations",
+      "summary": "New filings show the world's richest person spent this summer again trying to help Republicans win office, with most of his focus on one candidate.",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2dgq8jljjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T00:41:06+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -84,6 +185,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7d48dd74e0a6592bb545d69c",
+      "title": "Sen. Graham on Trump waiving Russia sanctions: ‘I look forward to talking to him’ - The Hill",
+      "summary": "Sen. Graham on Trump waiving Russia sanctions: ‘I look forward to talking to him’ The Hill",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnA5ejQwSUVIWkVtS0JEaThKQ2hZbnVDWlV2TDR2b0NMSjlFclNDdnh4dnBKdUQwcmg5WUFNWXM3UDlCYzdKQTVLRncySndEQmJVWkMtWjVYVlljd0RtS2dVcmg4QmFNRjZBMnBvbHZhdkZoXzAxMDg3SHdPMEt4Q1B5di1xd1doV0xiYXZZQXPSAZYBQVVfeXFMT1gxMWgzN3Q5RVZ1MDFwSlBJenJUR3R1X2hjbDlNWWVfcHBmZnNwcDk1RXVZdUpScjgyZG5yTGVGTDVSRG5ReXMzUWppdG1mdmhMb21Kd0R2MlVDU19KQzlkMGRKdHdmeWpqV2N4WUVyNGJsTlVzbWd6aEFTUGxIb1ZJb3hmYTRCejh0Zmt0SjBrb19GMURR?oc=5",
+      "source": "The Hill",
+      "feed_id": "thehill",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:18:00+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_02.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Retired electrician",
+        "license": "CC0",
+        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
+        "label": "Illustrative photo",
+        "matched_query": "Moscow Russia skyline"
+      }
+    },
+    {
       "id": "11a8195024bd6c6caadbadf6",
       "title": "There's a crackdown on sports piracy - but is it already out of control?",
       "summary": "The sports industry's lucrative business model is being undermined by dodgy TV sticks and illegal streaming links, writes Theo Leggett.",
@@ -98,8 +222,8 @@
     },
     {
       "id": "f2812b481753c8de36ccf1fb",
-      "title": "Child, adult killed after vehicle drives through soccer game in Wichita, Kansas - NBC News",
-      "summary": "Child, adult killed after vehicle drives through soccer game in Wichita, Kansas NBC News",
+      "title": "Boy and man killed, 10 injured after woman drives through youth soccer game in Wichita, Kansas - NBC News",
+      "summary": "Boy and man killed, 10 injured after woman drives through youth soccer game in Wichita, Kansas NBC News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZlBhSnIwQ0pGeWxqR29oT0Jya1hhS3pfWFg0RDdTcHUxVVptYXVsMlBRRUJnaWw1OUtlMXdicFVqVzJqTlctNE1IaGVmUHBNQXZvVFF5VjBlWnpOSUZQSmlydUFrYUNsYkpMOUN3cnpxYVFLWUR4Yl8xNlNuemg5NnZoQ1JveGNtNUdNaHZVN1NIcDA?oc=5",
       "source": "NBC News",
       "feed_id": "nbc",
@@ -136,21 +260,8 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-18T00:00:21+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "5143079001a2ff1f4ac5f3cc",
-      "title": "Iran war live: Tankers hit in Hormuz; Israeli settlers attack EU diplomats",
+      "title": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
       "summary": "Fires reported on three tankers, as masked settlers attack European politicians in the occupied West Bank.",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
       "source": "Al Jazeera English",
@@ -211,6 +322,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T23:50:00+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1149b469007b6d9c6ec3e995",
+      "title": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? - Investor's Business Daily",
+      "summary": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
+      "source": "Investor's Business Daily",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T23:47:00+00:00",
+      "desk_priority": 71,
       "selection_type": "automatic"
     },
     {
@@ -327,6 +451,19 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T23:00:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a4301f3a7fde9bd34c42ec03",
+      "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest - Fox News",
+      "summary": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZU5GMUJ0MnNEanZ4SWN6TmlDSWJ5VUttanhFSW1YT1hkcU9INTNDWlkxMVMydkpPa1NUN1RhUnZncWY5YzdjbDZETWZwejlTMGIxMFJ4T2t0dUNWS01pYUxwWkl0MU9CcG5lTGxzSkhYcHplM1VOdUM3b1NwRkliTTdMYVlLZWloRVlGVjZ0TzNWOTBsUl95eHExcUdfVVRpdmVBUEdJcjl2RlVndjJxNzkyU0lBZFpzNXVwZjZoNUxic1ZqcTQ4Mw?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:56:37+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -487,6 +624,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "dffdcb49abe130329957666c",
+      "title": "Some Republican lawmakers skewer Trump's beef imports, slam Canada trade war - ABC News - Breaking News, Latest News and Videos",
+      "summary": "Some Republican lawmakers skewer Trump's beef imports, slam Canada trade war ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeUYyS05relNIU1VLMUdYajFkcHROQTh3Q3hudTF6S0VNeDJ6bGpqRWxlckpPYmRVUXQtVC1GaEdUOWItZk9XY0ZkbFQyZm9LbklPaXh0U2hYb0xCa3hVNFYtbE5jYUIwX3M1dEpEd2ZVYllIekw3eGFrR3Z5ZnZGOU1zV3FLS09IbC11YUdjUG15UXhobkR6Nm12c19tMjd2aHF3WXpMVXBReGvSAbABQVVfeXFMUDRCRU5IcDVoTU9UMm1sTmNwZnd1cTdYQ2I3V1hiLW1pUDZTUDY1djFpU1ExeHF3TjlGMUVlMlhTRjdQXzhQU25HcUpDN0VEdHRYblQxZ042OTVpaWV6UkVXT2tWaDh3QWRPZDRLZTN1Wk9oOGdyRURRN1ZVOHg2cld4X003TC1ZZnlROVNEeU1NbkZUZjNyZzNBNUppZUd6bi1MUUI0STlfVVltUVpUMWk?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T21:58:03+00:00",
+      "desk_priority": 56,
+      "selection_type": "automatic"
+    },
+    {
       "id": "7c3f18694b8b3fb3908351e2",
       "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 1 – live updates",
       "summary": "Valkyries host Dream in opener of best-of-seven series Guardian writers’ predictions: Golden State or Atlanta? Reach out to Bryan on Bluesky or by email Atlanta trailed 14-11 after Chen’s three-pointer with 2:48 remaining, but Golden State failed to score again. Reese took over, scoring nine of Atlanta’s final 11 points. She converted two layups to put the Dream ahead 15-14, added another inside, split a pair of free throws and finished with a driving finger-roll layup with 13.8 seconds left. Gray contributed two free throws as Golden State missed their final five shots. Continue reading...",
@@ -601,19 +751,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T21:08:10+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1149b469007b6d9c6ec3e995",
-      "title": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? - Investor's Business Daily",
-      "summary": "Dow Jones Futures: What To Do After S&P 500, Nasdaq Break Support; Will Meta Earnings Save AI? Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
-      "source": "Investor's Business Daily",
-      "feed_id": "markets",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T21:08:00+00:00",
-      "desk_priority": 71,
       "selection_type": "automatic"
     },
     {
@@ -770,6 +907,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T20:40:38+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "2eb75b7d548060cbdae31543",
+      "title": "Alleged White House correspondents' dinner suspect took photo before attack: Feds - ABC News - Breaking News, Latest News and Videos",
+      "summary": "Alleged White House correspondents' dinner suspect took photo before attack: Feds ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHlLMmlTWFFaN2ZvTTlvaUZ4Y2xwNDZpck5MUVlDbHRTQ2lEbXp1X0ZXN0xYZWUxekRuWFBiMy1OUnlMbU9hVUVSY0dqSHhqNVMwUm8zeWxfbXhjOGJZRW4wb201N0JmRG5kUDdxWEtmTE5CMGdJZTU4SExranNYR3gtc2RfZ0FZYnhpaTh4VWJLRVFSUzF0ZE16ZTVkOC1BNlZ0OWl3dkd0cm4xc1M00gG0AUFVX3lxTE93d2dNX3A0MU1Lb1ZiV0RDb05YUXJjX05UWWdLcHlfaGYwUmZ2bE5PNkZXbHBwYkktRUdXTjdYM2pwakFMY2kyX2YxclhKTnVCcWdnUlpnaE9NZ3NabTgtcW94MlFpV1ZTSVF1QWgwVzhQYzlWdk5kc3VYcWl5R3RpUFpCOUFVRGZvV1hRY3NhVXJGSS1aNHdTSzJuWTFaY3NmQkl6MWNwTHFVZTZUdzBaYm9QSA?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "feed_id": "washington",
+      "category": "Washington",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T20:37:18+00:00",
+      "desk_priority": 34,
       "selection_type": "automatic"
     },
     {
@@ -979,29 +1129,6 @@
       "published_at": "2026-10-17T19:25:52+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
-    },
-    {
-      "id": "b677fdedabaf44798b79a308",
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T19:19:19+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_03.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Retired electrician",
-        "license": "CC0",
-        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
-        "label": "Illustrative photo",
-        "matched_query": "Moscow Russia skyline"
-      }
     },
     {
       "id": "6d09bb2727e7ee9f9c4eeb90",
@@ -1303,19 +1430,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "c525ac18566144da29cea4ef",
-      "title": "A welcome recovery milestone for Pope Leo after cancer surgery - Axios",
-      "summary": "A welcome recovery milestone for Pope Leo after cancer surgery Axios",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT0N3a2hINy1vOGszTVhDV3hldnlXYTJCbGxfRUh0Q25SUG1GbWdfbENkcWV1TlpVR042VE92akduRXhNQzlJMGZWaHY1QmVkR1FLMUVZaGdLR3I5VWtqbDQwejRfZmQ3ZTJZUk1hdmZhT3RQUTM3aG1fTWMxVVhYeFAwdkNLa1djV09CVHB6OA?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T18:16:49+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
       "id": "b098484954e80b25bb162cfc",
       "title": "Swinney's emotional explanation for his commitment to independence",
       "summary": "BBC Scotland's political editor Glenn Campbell reflects on John Swinney's SNP conference speech.",
@@ -1377,6 +1491,19 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T18:00:45+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T18:00:21+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -2431,6 +2558,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "c525ac18566144da29cea4ef",
+      "title": "A welcome recovery milestone for Pope Leo after cancer surgery - Axios",
+      "summary": "A welcome recovery milestone for Pope Leo after cancer surgery Axios",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPT0N3a2hINy1vOGszTVhDV3hldnlXYTJCbGxfRUh0Q25SUG1GbWdfbENkcWV1TlpVR042VE92akduRXhNQzlJMGZWaHY1QmVkR1FLMUVZaGdLR3I5VWtqbDQwejRfZmQ3ZTJZUk1hdmZhT3RQUTM3aG1fTWMxVVhYeFAwdkNLa1djV09CVHB6OA?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T14:37:27+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "dca6e894654e4c697dea8bcd",
       "title": "Why adults are going back to summer camp",
       "summary": "Loneliness and burnout are sending adults around the world back to bunk beds and bonfires.",
@@ -2688,6 +2828,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "74d6c4efea0baebedd485066",
+      "title": "Trump ratchets up the chaos in an October barrage - Axios",
+      "summary": "Trump ratchets up the chaos in an October barrage Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrVUFkdVBSYUVBdDFuWjNZQjEwbVdZdFpqTk1NcFpaQnJRSU5OWU5PeFpPal94bVltYjdZUUI4cWY1WUZRWm14ZHFxUzctYU9wRzRaR1JMSEJ3d2pqdjhhazV1MmpBOHAwSFVGYnQ3V2V2TnhCOHc?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T13:57:41+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0c9dd6e66c9aeac2acc0968f",
       "title": "WATCH: What happens if Democrats take back control of Congress? - Washington Times",
       "summary": "WATCH: What happens if Democrats take back control of Congress? Washington Times",
@@ -2750,19 +2903,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T13:44:42+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "74d6c4efea0baebedd485066",
-      "title": "Trump ratchets up the chaos in an October barrage - Axios",
-      "summary": "Trump ratchets up the chaos in an October barrage Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrVUFkdVBSYUVBdDFuWjNZQjEwbVdZdFpqTk1NcFpaQnJRSU5OWU5PeFpPal94bVltYjdZUUI4cWY1WUZRWm14ZHFxUzctYU9wRzRaR1JMSEJ3d2pqdjhhazV1MmpBOHAwSFVGYnQ3V2V2TnhCOHc?oc=5",
-      "source": "Axios",
-      "feed_id": "axios",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T13:42:46+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -2919,17 +3059,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T13:23:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_02.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Retired electrician",
-        "license": "CC0",
-        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
-        "label": "Illustrative photo",
-        "matched_query": "Moscow Russia skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "26845ca637aa9d37e5bc2139",
@@ -3038,7 +3168,7 @@
     {
       "id": "caf354fa79b9af53f7322394",
       "title": "India news: CJP founder released a day after detention",
-      "summary": "India's \"Cockroach\" movement founder, Abhijeet Dipke, was released after agreeing to certain conditions, according to the CJP's head of legal affairs. DW has more.",
+      "summary": "India's \"Cockroach\" movement founder, Abhijeet Dipke, was released after agreeing to certain conditions, according to the CJP's head of legal affairs.",
       "url": "https://www.dw.com/en/india-news-cjp-founder-released-a-day-after-detention/live-79685143?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -4986,6 +5116,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "e83bcf6d5e743817994915a6",
+      "title": "How S&P 500, Dow, Nasdaq Futures Are Moving Amid Rising Bond Yields, Trump-Xi Summit - Stocktwits",
+      "summary": "How S&P 500, Dow, Nasdaq Futures Are Moving Amid Rising Bond Yields, Trump-Xi Summit Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObVpiQ1FnYU9GQ3pvMXhRa0I0YmxKdkFOUWZQT01aMFBIaU5ocUktZ2U5Z01xUWgwVlJET1dZbGU5QThycEE5dUlUTmJ1WjFIT0V0YWhGUTh5V1dkSWxaWmZ4MzRkOTd2XzUtMHFFS1hrcW45c2FFZzJ6bG1fdGh0bmJ6TTJPRHZYRlF1bHF5U3Y4SVk3ZzNUYlFEbEhVVXdTcWl4UWxjb04yak4xNktNRFpNbXliWTF5Sy1zTDI0d0lBM1FRdlVGa0JScndoRk5QQkc1UkFpam5zeFNHOWR6R0RjTzY0SFQ3OVdxRDdDelBvNU5jVTJlZFAwUjQ?oc=5",
+      "source": "Stocktwits",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T05:14:59+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
       "id": "1a8c492963c479254125a8b5",
       "title": "Students Debate U.S. Foreign Policy Pivots with Pardee Distinguished Fellow and Professors - Boston University",
       "summary": "Students Debate U.S. Foreign Policy Pivots with Pardee Distinguished Fellow and Professors Boston University",
@@ -5363,19 +5506,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "d01c12cb23477bd8e9c59411",
-      "title": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest - AP News",
-      "summary": "Trump puts new Russia sanctions that he recently signed into law on hold, citing national interest AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZnJQRmxjVThxTzVHd0pFZ1kwcWtlM0Z1SWUxNVBnRDFFNzBsZmp0TmNFYkEwai0xSW8xcDNvbXpMRU5rU2hoZk1DZ2FuemtfdGVYTlpXN3QwZjV5emVoQlhZa0tDQ0tXM2d1emJRNjJvSHFJYTkwc0pBc1NYc2VyaVVrb2tEb0VEUW9Ka0dhRjM1WER1?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:18:00+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
       "id": "a666c3055a7fb3d235186ce3",
       "title": "Congress members condemn Israeli settler attack on Washington Post photographer - The Washington Post",
       "summary": "Congress members condemn Israeli settler attack on Washington Post photographer The Washington Post",
@@ -5399,136 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T03:14:28+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "244ffc3b821d4ad760d149a5",
-      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-      "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
-      "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T03:11:10+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d54ad05240432a60f22c5cbb",
-      "title": "Child sex abuse charges against actor Timothy Busfield dismissed by judge",
-      "summary": "Prosecution did not act in fair and impartial way in grand jury proceedings, judge rules, after West Wing actor charged with groping young boy on TV set A state court ⁠judge in New Mexico has dismissed charges of child sexual abuse against West Wing actor and director Timothy Busfield, saying the prosecution did not act in a ⁠fair and impartial manner during grand jury proceedings. Judge Joseph Montano said prosecutors could pursue new charges against Busfield. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/17/child-sex-abuse-charges-against-actor-timothy-busfield-dismissed-by-judge",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T03:06:54+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "98d03aa385ce43730ac8cc1a",
-      "title": "Vietnam Prime Minister Targets 2027 GDP Growth of at Least 10% - Bloomberg.com",
-      "summary": "Vietnam Prime Minister Targets 2027 GDP Growth of at Least 10% Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTWI3b2V1QTZ3X0Fqc3FJVkExMTZJQVRibGdJVHRNNmhJNDRNTFZJTzVvTU1wMTJYMkRIOFJhQmZaTkpQUGpnU1QyeVVYU1JVSGYyOUZXdEoxR0d5U1hEeU10ZEJldVY0MjhCV0JnYnRhTXFFbU1QMG5xQjR3YTJtQzZGaXJPTmE5U0FMWmQ1dUtkTVlhS2Z0U2V6S2hLc3dTSHBRXzdZZTZnQ3RuYUZ4WEJB?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:03:00+00:00",
-      "desk_priority": 65,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "03a027cd4fd8e962dffbd220",
-      "title": "3 men sentenced to more than 158 years for the killings of Australian, US surfers in Mexico - AP News",
-      "summary": "3 men sentenced to more than 158 years for the killings of Australian, US surfers in Mexico AP News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSDI3bHJKTklNMWRDcE9wR1dPSWpBenE3OHFkQzNndFhGSlYtVWVONzVGVEhRNWRvTFJxTk5fbkZmdXlJc01mSVVrekhtVmxWLWVSUTlDUWdfY09JNXRMS19IUlIyZDVCSDctcDk5a2JTcXdheGVWMzB0RzVHS3FibE5Ka015bjNXamxtZUNoN3NfV2IwT1FIM0M1cw?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:01:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "06686f7fe0b5ef2ab760a6a1",
-      "title": "Trump issues order to bypass Russian sanctions in bill named for late Lindsey Graham - Politico",
-      "summary": "Trump issues order to bypass Russian sanctions in bill named for late Lindsey Graham Politico",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNb2tsZ2VhNUJDSGh1RHJ3WUdIZUliTUJhWDhQazUwSzJWcFdjYXdtQzZLbjRpaFQ4bEFZbDBEQmRfcmxydEJEeF96YUVKNUlONnlrUlR1TzROY05fNmZUYVQ0N1g1VmtNV3dKYk1NOG9FUEc4UTQwNzR0dkUwR2hVNUpqZG8tQndVR1hJd0tkb19zOWZ0cE13cE12LW5ld0s1blphZEJIeVBFbXhFMGppMzhIR0w1Tk55Nkk5ZkNWZ1YwNGRIUVJ2MjBLOEZrSFk?oc=5",
-      "source": "Politico",
-      "feed_id": "politico",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T02:54:00+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d6e6b407514a611c72ddbbba",
-      "title": "Trump pauses new Russia sanctions passed by Congress amid deepening row with Ukraine",
-      "summary": "President signed the legislation championed by late senator Lindsey Graham last month but has waived the restrictions as they were due to come into effect Donald Trump has put on hold a sweeping new sanctions package targeting the Russian economy, telling Congress the pause on the legislation passed by both chambers was in the national interest. In an executive order on Friday, the US president said he was waiving many ⁠sanctions, restrictions and duties ⁠on Russia, in a move that comes as he has been publicly criticising ⁠Ukrainian president Volodymyr Zelenskyy, including suggesting that Ukraine needs a ​new leader. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-puts-new-russia-sanctions-passed-by-congress-on-hold-amid-deepening-row-with-ukraine",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:53:38+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b54bd9f5ed1630796df751b4",
-      "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-      "summary": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email , free app or daily news podcast A Mexican ⁠judge ⁠has sentenced ​three men to 158 years ⁠and nine months in prison each for ⁠the murder of ​two Australian ‌brothers ‌and their American friend during ‌a 2024 surf trip to the state of Baja California. The ‌defendants were declared guilty a week ​ago of homicide, aggravated robbery, robbery with violence and vehicle theft ⁠with violence, crimes committed against ​Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend ​Carter Rhoad. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:52:59+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b793bc2d60c87cbe59e85cae",
-      "title": "Brazil’s Amazon deforestation hits lowest level on record",
-      "summary": "Data show a 42 percent drop in forest clearance from a year earlier, giving Lula a boost before the election run-off.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:49:21+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b10355c429204fa217b0d340",
-      "title": "Trump waives Russian sanctions outlined in Graham Act before they take effect - The Hill",
-      "summary": "Trump waives Russian sanctions outlined in Graham Act before they take effect The Hill",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOWgtMEZLNG53YlhZaEp3OVlkZjZEZXNtWEd3SExaU1JXdWg5Zmwyb1o4cDV3dmhMdnRpOVJrSEI5YzVpMEFOZEJzMWdFLVN3RWZ5MjQ4b2FYY1RCUmRXaGdxZjBrTllRMi1uajZWdDI4elhjNlBkZng2Vmh1Sm9haWZZMWNjMmFvUzBTTGlYOVFQTF8wWjhLYnByTdIBoAFBVV95cUxQdTJGWjd2d0hONVdkNFBqSWx4WWI4dkpkT2dCWWtKWGZSY3pycTg3QWdNcUsxWkR0NGdrZk1kdzdIaFJBRkZRYVFPdUdhcDlzZlIzYW1KU2hHQlNKR0w4Q01VNThubFcycmEzOU51R25xNlczaGdEa1NMWTNmUlRYc1p6Q1hBZFpiUUNUVmd6SnpsYURpOU5xRFpnZjBHRzlf?oc=5",
-      "source": "The Hill",
-      "feed_id": "thehill",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T02:46:00+00:00",
-      "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7d999832d97a9799a6070b60",
-      "title": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News",
-      "summary": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T02:38:00+00:00",
-      "desk_priority": 46,
       "selection_type": "automatic"
     }
   ]
