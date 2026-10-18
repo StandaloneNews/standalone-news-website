@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T11:45:31Z",
+  "updated_at": "2026-10-18T12:07:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1062,19 +1062,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506258",
+      "id": "sportsdb-2506252",
       "league": "laliga",
-      "name": "Osasuna vs Racing de Santander",
-      "date": "2026-10-18T12:00:00Z",
+      "name": "Celta Vigo vs Deportivo Alavés",
+      "date": "2026-10-18T14:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Osasuna",
+          "name": "Celta Vigo",
           "score": ""
         },
         {
-          "name": "Racing de Santander",
+          "name": "Deportivo Alavés",
           "score": ""
         }
       ],
@@ -1117,28 +1117,66 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489516",
+      "league": "ligue1",
+      "name": "Angers vs Marseille",
+      "date": "2026-10-18T13:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Angers",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Chelsea v Tottenham: Women’s Super League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
-      "date": "2026-10-18T11:38:42Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester United travel to Leeds; Szoboszlai out for ‘some time’; Emi Martínez thanks fans after surgery – matchday live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T11:33:28Z",
-      "league": "soccer"
-    },
-    {
       "title": "South Africa v Australia: second men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T11:32:48Z",
+      "date": "2026-10-18T11:54:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
+      "date": "2026-10-18T11:54:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea v Tottenham: Women’s Super League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
+      "date": "2026-10-18T11:47:04Z",
       "league": "all"
     },
     {
@@ -1254,7 +1292,7 @@
       "league": "all"
     },
     {
-      "title": "Boland strikes as South Africa bat against Australia - scorecard",
+      "title": "Rain returns after Australia's Boland dents South Africa - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T00:00:00Z",
@@ -1387,13 +1425,6 @@
       "league": "all"
     },
     {
-      "title": "Tributes to Andrews before Champions Cup matches",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq5ynl4nvv5vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:08:14Z",
-      "league": "all"
-    },
-    {
       "title": "Europe is a blast – but more a curse than a blessing if you are not a Premier League super-club I Jonathan Wilson",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/17/europe-is-a-blast-but-more-a-curse-than-a-blessing-if-you-are-not-a-super-club",
@@ -1433,6 +1464,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T18:02:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Tonga stun England in World Cup opener",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm70prd68l5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T17:59:48Z",
       "league": "all"
     }
   ]
