@@ -6,7 +6,7 @@ const dt=v=>{const x=new Date(v);return Number.isFinite(+x)?new Intl.DateTimeFor
 const valid=u=>{try{const x=new URL(u);return x.protocol==='https:'?x.href:''}catch{return''}};
 function line(row){const item=el('div','st-item');item.append(el('p','st-game-name',row.name));const names=(row.participants||[]).slice(0,2).filter(x=>x.name);
 if(names.length>1 && row.state==='final')item.append(el('p','st-detail',names.map(x=>x.name+(x.score!==''?' '+x.score:'')).join(' · ')));
-item.append(el('p','st-detail',(row.league||'').toUpperCase()+' · '+(row.state==='final'?'Final · ':'')+dt(row.date)));
+item.append(el('p','st-detail',(row.league||'').toUpperCase()+' · '+(row.state==='final'?'Final · ':'')+(row.date_only?new Intl.DateTimeFormat(undefined,{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(row.date))+' · Time TBD':dt(row.date))));
 return item}
 function clear(id){const root=$(id);if(root)root.replaceChildren();return root;}
 function empty(root,text){root.append(el('p','st-detail',text))}
