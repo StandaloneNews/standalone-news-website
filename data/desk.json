@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T18:44:03+00:00",
+  "updated_at": "2026-10-18T19:08:32+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -15,22 +15,84 @@
     "7ce76d9833babb6d603ef30b",
     "3feab6bcb38e343dac86f19b",
     "ce4a0405c2132eb0a66d888b",
+    "655505fd00667f5dbc00dd16",
     "fe1da706fb4d295faaaff0e7",
     "7ae1cb9cb634e220a5ac05a0",
-    "3a7ec78b542cea7c7268fdcf",
     "e2834c74f4065e96c922c178",
+    "27050e4fcd162602f5b0fcd4",
+    "3cf4d945cff63c953202fa1a",
     "35cd62faf12b8e71eb0b92fd",
     "feaf69e12ce5e3bb0a04300e",
-    "1e22e9d984020bf18c6cd16a",
     "56f1d9ff338dc0f3bcfd0059",
     "0cd07f576454a43860dced9a",
-    "3a7eaf979be555684af58d7c",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
     "8613d36e39e97e35c500b46a"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "655505fd00667f5dbc00dd16",
+      "title": "Israel: Trump endorses Netanyahu ahead of elections",
+      "summary": "The US president said he supports Israel's current prime minister in the country's elections on October 27. But polls say Netanyahu and his far-right partners currently lack the majority to secure a new term.",
+      "url": "https://www.dw.com/en/israel-trump-endorses-netanyahu-ahead-of-elections/a-79693698?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T19:06:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Kyle Taylor from London, 84 Countries",
+        "license": "CC BY 2.0",
+        "description": "Israel - Jerusalem - Old City",
+        "label": "Illustrative photo",
+        "matched_query": "Jerusalem Israel skyline"
+      }
+    },
+    {
+      "id": "27050e4fcd162602f5b0fcd4",
+      "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’",
+      "summary": "\"You Can See Everything\" is having the second biggest opening weekend ever for a documentary film.",
+      "url": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T19:03:38+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4329dc121bdc4054e15a427b",
+      "title": "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
+      "summary": "\"Those who looted will have to pay back for the damage, and those who sought to bring down the Republic will be held accountable,\" Macron said in a televised address to the nation.",
+      "url": "https://www.pbs.org/newshour/world/frances-macron-vows-to-hold-accountable-those-who-sought-to-bring-down-the-republic",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T19:00:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6a4bbd3ba6624f1e66f72ed8",
+      "title": "GCC condemns Houthi attacks on Saudi Arabia as Yemen fighting intensifies",
+      "summary": "Gulf ministers urge action against Houthis as fighting displaces more than 233,000 people across Yemen.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/gcc-condemns-houthi-attacks-on-saudi-arabia-as-yemen-fighting-intensifies?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:44:30+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "56f1d9ff338dc0f3bcfd0059",
       "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
@@ -42,6 +104,32 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T18:38:49+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c2f635d3082d614e25aa1e2a",
+      "title": "Gaza bodybuilders find solace in strongman competition among the ruins",
+      "summary": "Bodybuilders in Gaza are finding solace in testing their strength during a competition surrounded by rubble.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/gaza-bodybuilders-find-solace-in-strongman-competition-among-the-ruins?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:36:02+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3cf4d945cff63c953202fa1a",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:28:10+00:00",
+      "desk_priority": 26,
       "selection_type": "automatic"
     },
     {
@@ -250,17 +338,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T17:02:13+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Kyle Taylor from London, 84 Countries",
-        "license": "CC BY 2.0",
-        "description": "Israel - Jerusalem - Old City",
-        "label": "Illustrative photo",
-        "matched_query": "Jerusalem Israel skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "b94d8c15e4a13aa77809d2fc",
@@ -382,7 +460,7 @@
     {
       "id": "35cd62faf12b8e71eb0b92fd",
       "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney. Character.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to acquire some of its assets for $20 million. A legal […]",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
       "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "source": "TechCrunch",
       "feed_id": "techcrunch",
@@ -574,7 +652,7 @@
     {
       "id": "9e235dbe784a1b6ca5b5a92b",
       "title": "French government in crisis talks after ‘colossal failure of the state’",
-      "summary": "Ministers, officials and police under pressure over response to days of violent unrest in cities across France The French government was in crisis talks on Sunday after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted, and more than 2,000 people arrested in cities across the country . Politicians on the left and right called for the resignation of the interior minister, Laurent Nuñez, after the government appeared to have been caught by surprise by the scale of violence as state buildings were stormed and torched, bus stops smashed, roads barricaded and shops broken into and destroyed. Continue reading...",
+      "summary": "Ministers, officials and police under pressure over response to days of violent unrest in cities across France The French president, Emmanuel Macron, has criticised “unbridled violence” after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted and more than 2,000 people arrested in cities across the country . “Watching these images, we have all asked ourselves how could French people do this to France?” he said in a televised address. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -2183,7 +2261,7 @@
     {
       "id": "fdd64a56124cdb6a25a8e02b",
       "title": "India news: Kolkata stampede dampens Durga Puja festivities",
-      "summary": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention. DW has more.",
+      "summary": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention.",
       "url": "https://www.dw.com/en/india-news-kolkata-stampede-dampens-durga-puja-festivities/live-79685143?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -3508,7 +3586,7 @@
     },
     {
       "id": "bc0a3e3e3becf0957b4025ef",
-      "title": "French police arrest 1,800 after violent clashes and looting mar protests",
+      "title": "France's Macron vows to hold accountable those who 'sought to bring down the Republic'",
       "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
       "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
       "source": "NPR",
@@ -5441,84 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T22:31:26+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "95835086e5240acc92ba95de",
-      "title": "Capehart and Continetti on the White House press secretary's quick exit",
-      "summary": "Jonathan Capehart of MS NOW and Wall Street Journal opinion columnist Matthew Continetti join Geoff Bennett to discuss the week in politics, the White House press secretary's exit after five days on the job, President Trump's renewed feud with Ukraine's president and new reporting on who is paying for the White House ballroom project.",
-      "url": "https://www.pbs.org/newshour/show/capehart-and-continetti-on-the-white-house-press-secretarys-quick-exit",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T22:30:21+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "569556260da7fff0d79730f9",
-      "title": "Brazil: Amazon deforestation lowest in nearly 40 years",
-      "summary": "The latest figures show that 3,335 square kilometers of the Amazon rainforest were cleared in the year ending in July, the lowest level since 1988. The drop has been described as an \"historic achievement.\"",
-      "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T22:30:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0d69f63df2be72b614b8b1fe",
-      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
-      "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
-      "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T21:49:13+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "cedc410fc9b57b571f01f8f2",
-      "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector",
-      "summary": "U.S. stocks fell as fears mounted that artificial-intelligence profits would not come soon enough to meet increasingly expensive credit obligations for CoreWeave and other aspiring hyperscalers.",
-      "url": "https://www.wsj.com/finance/investing/u-s-stocks-fall-as-credit-fears-haunt-tech-sector-db50c887?mod=rss_markets_main",
-      "source": "WSJ",
-      "feed_id": "wsj_markets",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T21:39:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3f8c2273213ecd2e56661c8d",
-      "title": "Democrats say Trump increased investments in drugmakers that were given Medicare exemptions",
-      "summary": "The report from congressional Democrats found that Trump's pharmaceutical stock holdings grew from a maximum reported value of $1.7 million in 2024 to as much as $56.2 million at the end of 2025.",
-      "url": "https://www.pbs.org/newshour/politics/democrats-say-trump-increased-investments-in-drugmakers-that-were-given-medicare-exemptions",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T21:32:09+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "eb481085249a0d333538c086",
-      "title": "Katie Zacharia Out of the Job as Trump’s Press Secretary",
-      "summary": "Plus, immigration enforcement snarls home-building and Russia continues testing NATO.",
-      "url": "https://www.wsj.com/politics/whats-news-newsletter-10-16-2026-ed8fba72?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T21:11:00+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
