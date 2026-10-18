@@ -147,6 +147,7 @@
 <script src="./accounts.js?v=mobile7" type="module"></script>
 <title>Standalone News | Latest Headlines, Markets &amp; Source-Linked Coverage</title>
 <link href="./refresh-2026.css?v=1" rel="stylesheet"/><link rel="stylesheet" href="./broadsheet.css?v=1">
+<link rel="stylesheet" href="./mobile-six.css?v=1">
 </head>
 <body class="theme-refresh theme-broadsheet home-broadsheet">
 <a class="skip" href="#main">Skip to main content</a>
@@ -256,7 +257,14 @@
 </div>
 <div class="container footer-bottom"><span>© <span id="year"></span> Standalone News · All rights reserved.</span><span>Market prices may be delayed · All timestamps in 24-hour UTC</span></div>
 </footer>
-<nav aria-label="Mobile shortcuts" class="mobile-bottom"><a class="mobile-link active" data-mobile-nav="home" href="#home"><span>⌂</span>Today</a><a class="mobile-link" data-mobile-nav="wire" href="#wire"><span>≡</span>News</a><a class="mobile-link" href="./markets.html"><span>⌁</span>Markets</a><button class="mobile-link" id="mobile-saved" type="button"><span>♡</span>Saved</button><a class="mobile-link" href="./discuss.html"><span>◎</span>Discuss</a></nav>
+<nav class="sn-six-bottom" aria-label="Mobile shortcuts">
+<a class="sn-six-tab active" href="#home" data-mobile-nav="home"><span class="sn-six-icon" aria-hidden="true">⌂</span><span class="sn-six-label">Today</span></a>
+<a class="sn-six-tab" href="#wire" data-mobile-nav="wire"><span class="sn-six-icon" aria-hidden="true">≡</span><span class="sn-six-label">News</span></a>
+<a class="sn-six-tab" href="./markets.html"><span class="sn-six-icon" aria-hidden="true">⌁</span><span class="sn-six-label">Markets</span></a>
+<a class="sn-six-tab" href="./sports.html"><span class="sn-six-icon" aria-hidden="true">🏆</span><span class="sn-six-label">Sports</span></a>
+<button class="sn-six-tab" id="mobile-saved" type="button" aria-label="Open saved articles"><span class="sn-six-icon" aria-hidden="true">♡</span><span class="sn-six-label">Saved</span></button>
+<a class="sn-six-tab" href="./discuss.html"><span class="sn-six-icon" aria-hidden="true">◎</span><span class="sn-six-label">Discuss</span></a>
+</nav>
 <div class="modal-overlay" hidden="" id="saved-overlay"><section aria-labelledby="saved-title" aria-modal="true" class="modal-window saved-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR READING LIST</span><h2 id="saved-title">Saved stories</h2></div><button aria-label="Close saved" class="modal-close" data-close="saved-overlay" type="button">×</button></div><p class="modal-intro" id="saved-context">Your saved stories stay on this browser. No account needed.</p><button class="saved-account-link" hidden="" id="saved-account-link" type="button">Sign in to sync your reading list →</button><div class="saved-list" id="saved-list"></div><button class="clear-btn" id="clear-saved" type="button">Remove all saved stories</button></section></div>
 <div class="modal-overlay" hidden="" id="brief-overlay"><section aria-labelledby="prefs-title" aria-modal="true" class="modal-window brief-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR DAILY BRIEF</span><h2 id="prefs-title">Pick your interests</h2></div><button aria-label="Close preferences" class="modal-close" data-close="brief-overlay" type="button">×</button></div><p class="modal-intro">Choose topics to prioritize. We'll still aim to include a variety of original sources.</p><div class="preference-grid" id="preference-grid"></div><h3 class="publisher-prefs-title">Follow publishers</h3><p class="publisher-prefs-help">Prioritize your favorite outlets in the brief and your reading desk. Preferences are saved on this device.</p><div class="publisher-preference-grid" id="publisher-preference-grid"></div><div class="prefs-buttons"><button class="clear-btn" id="reset-prefs" type="button">Reset topics</button><button class="read-button" id="save-prefs" type="button">Save preferences →</button></div></section></div>
 <div class="modal-overlay" hidden="" id="account-overlay"><section aria-labelledby="account-title" aria-modal="true" class="modal-window account-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR STANDALONE NEWS</span><h2 id="account-title">Reader account</h2></div><button aria-label="Close account" class="modal-close" data-close="account-overlay" type="button">×</button></div>

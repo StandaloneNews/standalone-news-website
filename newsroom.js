@@ -258,6 +258,8 @@
  function init(){initMobileMarkets();const now=new Date();$('today-date').textContent=new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(now);$('year').textContent=now.getUTCFullYear();const clock=()=>{$('utc-clock').textContent='UTC · '+new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',hourCycle:'h23',timeZone:'UTC'}).format(new Date());};clock();setInterval(clock,30000);$('demo-warning').hidden=!demo;
  document.body.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(b){e.preventDefault();flipSave(b.dataset.save);}const f=e.target.closest('[data-follow]');if(f){e.preventDefault();const name=f.dataset.follow;state.followed=state.followed.includes(name)?state.followed.filter(x=>x!==name):[...state.followed,name].slice(0,30);store(FKEY,state.followed);render();renderPrefs();toast(state.followed.includes(name)?'Publisher followed':'Publisher unfollowed');}});
  for(const id of ['open-saved','mobile-saved'])$(id).addEventListener('click',()=>showModal('saved-overlay'));
+ // Open the same Saved dialog when a reader follows the mobile shortcut from another page.
+ if(new URLSearchParams(location.search).get('saved')==='1')showModal('saved-overlay');
  for(const id of ['open-brief','open-brief-side','brief-personalize'])$(id).addEventListener('click',()=>showModal('brief-overlay'));
  $('search-toggle').addEventListener('click',()=>{location.hash='#wire';$('wire-search').focus();});
  document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeModal(b.dataset.close)));
