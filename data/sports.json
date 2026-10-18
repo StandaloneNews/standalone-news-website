@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T08:50:33Z",
+  "updated_at": "2026-10-18T09:10:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,6 +1117,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489516",
+      "league": "ligue1",
+      "name": "Angers vs Marseille",
+      "date": "2026-10-18T13:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Angers",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1124,14 +1143,21 @@
       "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after surgery – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T08:36:43Z",
+      "date": "2026-10-18T09:05:05Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one delayed by rain – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T08:35:10Z",
+      "date": "2026-10-18T09:03:51Z",
+      "league": "all"
+    },
+    {
+      "title": "'It's so close' - Finucane has to settle for keirin bronze",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/videos/c6vgxp7npk2wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T08:50:59Z",
       "league": "all"
     },
     {
@@ -1398,13 +1424,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T18:02:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Tonga stun England in World Cup opener",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm70prd68l5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T17:59:48Z",
       "league": "all"
     },
     {
