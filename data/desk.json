@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-18T03:11:00+00:00",
+  "updated_at": "2026-10-18T03:45:59+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
+    "b9762cfb69af84bfa091901a",
     "ed816b952e05192ca949a378",
     "7e0234c9b93f01b818878ee2",
     "2be149a948d5c083b019a658",
     "1149b469007b6d9c6ec3e995",
     "891ee89885e73103292e9f43",
     "94601d1e80ff093ee999f69a",
-    "099666066005f9dab62094be",
     "a9b2317de904a1c258d5d48e",
     "652f99621c1ab29ad0f3c30d",
     "ce912e9ef0108a454aa55854",
@@ -24,9 +24,9 @@
     "b34ccfdd8eee11f4536b90c8",
     "73efd7b3a3ef0551b3a142d7",
     "b2183dc6f1c80dcd89dacc8d",
+    "2fb85207a090347c52f037f1",
     "3b23c776a1bd2140b4abd845",
     "8155c8c6662e1bce539fac7a",
-    "2fb85207a090347c52f037f1",
     "7d999832d97a9799a6070b60"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
@@ -40,8 +40,21 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-18T03:07:24+00:00",
+      "published_at": "2026-10-18T03:38:40+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6bd483fb49bef24adff26cac",
+      "title": "Deadly fire breaks out at Canada military base",
+      "summary": "Defence Minister David McGuinty says there are casualties in what the prime minister called a \"serious incident\".",
+      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T03:23:08+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -68,19 +81,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-18T02:49:27+00:00",
       "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "54730380f6a4719cdfe724f7",
-      "title": "Oregon school shooter identified, used shotgun bought by mother, sources say - CBS News",
-      "summary": "Oregon school shooter identified, used shotgun bought by mother, sources say CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzNWZTVjSGdjd1FZSnRTMW5QR1N0cXAteFc1bDVOSy1DaEdDaHlfcHV0bjJLUVNRQjJzVF8yQUMta00yRHRxS3pmYzZzU3JLU3pyMG5nTTlIaHl6Z3dOSGZsQUdvQ0ZIX2NONlZ1WkRPSVBKdl80UEppZl82YmN3ZG8xVkhTMDVVYk4wamFR?oc=5",
-      "source": "CBS News",
-      "feed_id": "cbs",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-18T02:44:44+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2314,6 +2314,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "76ee9a978d0c757dfecf24d0",
+      "title": "Global Citizen Returns to Western Australia With Global Citizen Nights: Perth, Headlined by The Teskey Brothers, Featuring South Summit and Ruby Rodgers - Global Citizen",
+      "summary": "Global Citizen Returns to Western Australia With Global Citizen Nights: Perth, Headlined by The Teskey Brothers, Featuring South Summit and Ruby Rodgers Global Citizen",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZktmTE55ZGxrNEZYQy1ja1BSY2NaWDRibjRGQUtlZE55TjA1Nld1bE9EaVJXMUlXZE1VR1o2ai1JVVJJZ1c3MWFZaU5oRTlENDdGYlFSWWhvb0U1d1p5NkxjakVHNTA2VDI1YXhRQ25DRzdmRDV5WGUtanF2WjM1ZDYzNGxXMzB6M2NjSzhiRi1fNUNORnlfakprU1J2cVk?oc=5",
+      "source": "Global Citizen",
+      "feed_id": "world",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T16:17:49+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "4cfe8c710beb9f3485f46cb6",
       "title": "House Speaker Mike Johnson draws on faith as he fights to hold the Republican majority",
       "summary": "Ever the optimist, Speaker Mike Johnson said he believes Republicans will hold on to their U.S. House majority, defying a surge of Democratic momentum in the final stretch of the midterm elections that will determine control of Congress.",
@@ -2464,6 +2477,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T15:57:10+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b9762cfb69af84bfa091901a",
+      "title": "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus - Stocktwits",
+      "summary": "S&P 500, Nasdaq, Dow End Week Higher As Weak Jobs Report Cools Rate Hike Bets — NVDA, BA, SPCX, RIVN, APLD In Focus Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVVMwa3NVNFA0UUwxeks2OGtoTkl3UmFfX1czT0ZIRFhiSEx5UjBHc0V4MWZQMGxLb3lpVE42cnpYVXJxLUlRY1JjYjZvdlFhLXBhUVZDd2N4T0owQ0MzcDdXRGdNS3JRbk5FQnRXajQzZl9HU0ltNkZYOGlIQ1BXckwyWnczT0VqRjlhSzRsT3UzNEI3VG5WcFcwRVdyd1dYbjVmUFJxQlhjOE5pTWVGYmxoX0ZXNVNkQ3dCV2N0S0F2Um1KTjlVcHc5LW9nb2JSZng0OHBXaTZLdkxkbi1GbGpVWFVJekQwblpuUTVmbHZIM0ZOS1J0UmVuX0kzVWtwN3ppc0x3?oc=5",
+      "source": "Stocktwits",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T15:54:09+00:00",
+      "desk_priority": 100,
       "selection_type": "automatic"
     },
     {
@@ -2750,17 +2776,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T15:08:07+00:00",
       "desk_priority": 71,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Coolcaesar",
-        "license": "CC BY-SA 4.0",
-        "description": "Nvidia headquarters in Santa Clara, California. Photographed by user Coolcaesar on August 4, 2018.",
-        "label": "Illustrative photo",
-        "matched_query": "Nvidia headquarters Santa Clara"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "0b81a58f5b3fe1314623827b",
@@ -2838,6 +2854,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T15:00:00+00:00",
       "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e98db3dc54ddda3bdba4efa9",
+      "title": "If democrats win the house: investigations or legislation? - CNN",
+      "summary": "If democrats win the house: investigations or legislation? CNN",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbW5sZ05SWjFjRjBYbl9VS2FaWjQzWUkxS0xDaWgwUG1jM1pFQkdrdjVvZXRKMGlRSjJfeFZYUGZBSWZlRTFiQ0ctZzVQMmk4SlJ2WXI3ZWxJTFdNLWtFU2lSS2FHZ2Ria3BZdGNVYm1abTIyMUV2aF9DQWZCWUZEUWYwSzZubnZvODhOVER4R1JOTVM4a3UwcVFsdDFOZw?oc=5",
+      "source": "CNN",
+      "feed_id": "cnn",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T14:57:58+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -3220,7 +3249,7 @@
       "summary": "The pontiff will give the traditional Angelus prayer and blessing in St Peter's Square on Sunday.",
       "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T13:51:36+00:00",
@@ -3639,7 +3668,7 @@
       "feed_id": "axios",
       "category": "Government",
       "source_type": "Google News",
-      "published_at": "2026-10-17T12:41:32+00:00",
+      "published_at": "2026-10-17T12:42:01+00:00",
       "desk_priority": 31,
       "selection_type": "automatic"
     },
@@ -3836,6 +3865,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T12:00:30+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8c4d1bb0ea2df618286c5c5a",
+      "title": "Alberta referendum expected to bring finality, but also more questions on separation - Yahoo! Finance Canada",
+      "summary": "Alberta referendum expected to bring finality, but also more questions on separation Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObTVGVEhiZXhOa2hCV213UlVyZXEzTVVpUmZpN3dPV3ZIb0JlWDJOSHhGaFllbWV5bkkxM2RoeUdsTHBKVHh0VDBKNEw5bVA4MlJHWXUzOTdJTkVja0xiQkw0aFJ1a2cteTN5UVFFcFNpY0dKWFIxcFpTQTlnY2tpRXYtbTg1NXk5VURoQUtrQy1ZV2RlelE?oc=5",
+      "source": "Yahoo! Finance Canada",
+      "feed_id": "yahoo_finance",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T12:00:14+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -5486,58 +5528,6 @@
       "category": "World",
       "source_type": "Google News",
       "published_at": "2026-10-17T05:09:06+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7d17f90d45cebab0dc473ced",
-      "title": "Pope's health should not be taken 'for granted', says top Vatican diplomat",
-      "summary": "Archbishop Paul Gallagher tells the BBC there was no sign of the Pope's ill health prior to his operation this week.",
-      "url": "https://www.bbc.co.uk/news/articles/c6kg53zrexdeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:01:40+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0b7cb70c876dd2a0d7f73061",
-      "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers",
-      "summary": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:01:14+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4baa56a8b0e2ae0d64a3f2e0",
-      "title": "US Coast Guard rescues 16 people and searches for more after mayday call off Mexico's Baja coast - AP News",
-      "summary": "US Coast Guard rescues 16 people and searches for more after mayday call off Mexico's Baja coast AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa0E3aUtVd3dkb3BCQWQ5OUpfMG44cnZVUlJiYUE3aW5UWGtacGhydVBxMWlpMzY0UlV2NTA3bVhNX1cwRS1GZ2p4MXdDVjNJZDI2SEQwdjkweDZTeGllUVpTWWc1dUFKNU9UeUdKUWhzUzhqWEVpMEFYLXRfVkFDWGJRdjJsV3JqQzE0R2NKZGkyWHo1YXl2Zm53?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T05:01:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "fe9476d3ed72bbfc7a6e1eb8",
-      "title": "The Israeli politicians seeking to replace Netanyahu",
-      "summary": "A look at Israel's main opposition leaders, their parties and their largely shared positions on Gaza and other wars.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T05:00:58+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
