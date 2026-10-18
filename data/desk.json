@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T04:44:27+00:00",
+  "updated_at": "2026-10-18T05:07:24+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -17,20 +17,59 @@
     "55983b22869560580b553385",
     "8c82824ca5b5f265a7268004",
     "59fd2decfdd413d573f05f85",
+    "83b81545a5f10a337e62851e",
     "7d48dd74e0a6592bb545d69c",
     "b677fdedabaf44798b79a308",
     "2db5a89324f0f3d713f2f93f",
     "5143079001a2ff1f4ac5f3cc",
     "462ce749719355b36322712d",
     "b34ccfdd8eee11f4536b90c8",
-    "73efd7b3a3ef0551b3a142d7",
     "2fb85207a090347c52f037f1",
+    "73efd7b3a3ef0551b3a142d7",
     "3b23c776a1bd2140b4abd845",
-    "8155c8c6662e1bce539fac7a",
-    "fc8bd389db6ea29687c667bd"
+    "8155c8c6662e1bce539fac7a"
   ],
-  "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
+  "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "18ad45f4140f56cb97a216d2",
+      "title": "St Petersburg under attack from Ukrainian drone swarm",
+      "summary": "Video posted on social media shows multiple explosions in St Petersburg, Russia after a suspected Ukrainian drone swarm.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T04:51:01+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c8de1d976c1346f3fb4bf180",
+      "title": "UK police rule out probe into Palestine Action post by PM adviser’s wife",
+      "summary": "Met Police determine X post by Sarah Helm, seen to endorse Palestine Action, does 'not meet the criminal threshold'.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/uk-police-rule-out-probe-into-palestine-action-post-by-pm-advisers-wife?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T04:46:17+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fdd64a56124cdb6a25a8e02b",
+      "title": "India news: Kolkata stampede dampens Durga Puja festivities",
+      "summary": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention. DW has more.",
+      "url": "https://www.dw.com/en/india-news-kolkata-stampede-dampens-durga-puja-festivities/live-79685143?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T04:45:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "af3aaa0a5a5509133cfa9168",
       "title": "At least 19 dead in stampede at Kolkata Hindu festival",
@@ -98,8 +137,8 @@
     },
     {
       "id": "6bd483fb49bef24adff26cac",
-      "title": "Deadly fire breaks out at Canada military base",
-      "summary": "Defence Minister David McGuinty says there are casualties in what the prime minister called a \"serious incident\".",
+      "title": "Deaths confirmed in major fire at Canada military base",
+      "summary": "Number of casualties unknown in \"very, very active and delicate\" situation in Alberta, says defence minister.",
       "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -146,6 +185,42 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T03:44:25+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "83b81545a5f10a337e62851e",
+      "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions - Reuters",
+      "summary": "Rubio says Trump to take up to 60 days to weigh Russia sanctions Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T03:38:00+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Panorama_of_Moscow_Kremlin.jpg/1280px-Panorama_of_Moscow_Kremlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_Moscow_Kremlin.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Минеева Ю. (Julmin)",
+        "license": "CC BY-SA 1.0",
+        "description": "Panorama of Moscow Kremlin from Bolshoi Kamenny bridge",
+        "label": "Illustrative photo",
+        "matched_query": "Moscow Russia skyline"
+      }
+    },
+    {
+      "id": "13d646b7933eeb34a1ba9725",
+      "title": "No Kings rallies across U.S. urge voters to cast ballots early in the midterms - NBC News",
+      "summary": "No Kings rallies across U.S. urge voters to cast ballots early in the midterms NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbEJtc2dOblV3aWU5LWhJSmEzU2tNWS1kNEZ2NFpLRTFVcWZzRTM2OUhqd2tENXBiWTFYV0lBdjZGdlpOWlF5aGhFdlV1TUhTWmtiVWUtdlN6bEVzbDNmY2VvV0pGWGZvYnZfNzNYMlVhOTFmNlNTMVJxX29wZzJxMkIyQjhaUjl4VmxMYXVJYmxNNEhxeTRMaGxGbmE4YjBnUzJ0RWhBalJhbWw3Zm9GUVlUalcyMzla?oc=5",
+      "source": "NBC News",
+      "feed_id": "nbc",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T03:27:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -328,17 +403,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T01:10:25+00:00",
       "desk_priority": 51,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_03.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Retired electrician",
-        "license": "CC0",
-        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
-        "label": "Illustrative photo",
-        "matched_query": "Moscow Russia skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "89b730c4018441c17de2e0cd",
@@ -507,17 +572,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-18T00:18:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg/1280px-Moscow%2C_blue_Nissan_Skyline%2C_July_2025_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline,_July_2025_02.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Retired electrician",
-        "license": "CC0",
-        "description": "Великолепный голубой Nissan Skyline где-то в Москве",
-        "label": "Illustrative photo",
-        "matched_query": "Moscow Russia skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "11a8195024bd6c6caadbadf6",
@@ -1050,7 +1105,17 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T21:19:22+00:00",
       "desk_priority": 100,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/1280px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "AgnosticPreachersKid",
+        "license": "CC BY-SA 3.0",
+        "description": "The Marriner S. Eccles Federal Reserve Board Building (commonly known as the Eccles Building or Federal Reserve Building) located at 20th Street & Constitution Avenue NW in the Foggy Bottom neighborhood of Washington, D.C. Designed by architect Paul Philippe Cret in 1935, construction of the Art Deco building was completed in 1937.",
+        "label": "Illustrative photo",
+        "matched_query": "Federal Reserve building Washington DC"
+      }
     },
     {
       "id": "2f4caafffabf5ad13d9478c7",
@@ -1088,19 +1153,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T21:18:09+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ef86c003fc8e07d7fcd80c88",
-      "title": "California officials who process ballots from suspected noncitizens risk prosecution, US warns - AP News",
-      "summary": "California officials who process ballots from suspected noncitizens risk prosecution, US warns AP News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVHhuR0o4cWF2OHJ2SEV3YWs5bk9tTzg1MWx5c28xVl82eHF0clJDN0ZoZnFQUEwzU2pwc2J4dUxBcmxZYXJEc09sUXdWLVFoUENTQUJsdU5BU2x1d0pQMHJ4aUwwS21GMkotbmJsRURtYlh4VWRnLU9CeTNNVVNUQ0VjLXBQZVRTRmtfbjdJRUlzalNDVzZmMFU0ZXEwNXNTRE9wVGxQa2ZyT2Ex?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T21:16:41+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1149,11 +1201,11 @@
       "summary": "Blame game erupts in court of King Trump after press chief’s sacking The Times",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObGRTbDNldFdCMGhaZkIzSGNJaEZrQW1tOWVlNnRFNFpfdko0SHM4NTZpT1pYTXhKdnRDVFdvUWhzcWdJcHFmdnF4WUZaRVZ4aHd6WjV1RVltdkY4cDVwMG1CVUVVOWQ5d2M2MG93YWlqMkFUWU84TU82cW1aMkExZkhNeVhIdndJSVNSX2FDTkJ6Ukt5TnNvUFpn?oc=5",
       "source": "The Times",
-      "feed_id": "us",
-      "category": "US News",
+      "feed_id": "washington",
+      "category": "Washington",
       "source_type": "Google News",
       "published_at": "2026-10-17T21:00:00+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -1547,6 +1599,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "debd2fd1a4769b74eeecc778",
+      "title": "Trump's Russia waiver draws instant bipartisan backlash - Axios",
+      "summary": "Trump's Russia waiver draws instant bipartisan backlash Axios",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbWVTdHdKeEJ1UF9uS09wSTdzT0RtVkJUTWpGTWc1RnV6eFR6VHhHNDlPREhaS0ljWlE2T3Z0bm1VM1VnRnEtNGR1anA2bm1RaS02eUY0eFgzLUlpc2JtWkloS2hvRllNSERpOWh0QllEMklURzcySlJYNkFRc182RF96WXdScEk?oc=5",
+      "source": "Axios",
+      "feed_id": "axios",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:31:52+00:00",
+      "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3b2e63ea776540059588daee",
       "title": "Albanian police fire rubber bullets as protests against Rama escalate",
       "summary": "Five days of clashes rock Tirana as students join a wider movement demanding Prime Minister Edi Rama's resignation.",
@@ -1921,19 +1986,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T18:10:26+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "73efd7b3a3ef0551b3a142d7",
-      "title": "Retiring Republicans bash Trump’s sanctions pullback - Politico",
-      "summary": "Retiring Republicans bash Trump’s sanctions pullback Politico",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmMtQ055cHV6NjVpNG0wOEhBQWtuZjlqUk85TTJJM0hQUUpXNjVjSFVqQU53Q2ZqdlNhMk1DNGU2RVpHVmFyaDFkb1o0bk5RSXduaFoyZVg2U3U5N19VZENQQnVmY3JHamMweGdaemRwbDljTnN5M2h5cFFMREdqT0dtdm9WaW5JV0lDXzV1MnJyV3VldGdjV0h3?oc=5",
-      "source": "Politico",
-      "feed_id": "politico",
-      "category": "Government",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T18:09:00+00:00",
-      "desk_priority": 53,
       "selection_type": "automatic"
     },
     {
@@ -2496,6 +2548,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "73efd7b3a3ef0551b3a142d7",
+      "title": "Retiring Republicans bash Trump’s sanctions pullback - Politico",
+      "summary": "Retiring Republicans bash Trump’s sanctions pullback Politico",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVmMtQ055cHV6NjVpNG0wOEhBQWtuZjlqUk85TTJJM0hQUUpXNjVjSFVqQU53Q2ZqdlNhMk1DNGU2RVpHVmFyaDFkb1o0bk5RSXduaFoyZVg2U3U5N19VZENQQnVmY3JHamMweGdaemRwbDljTnN5M2h5cFFMREdqT0dtdm9WaW5JV0lDXzV1MnJyV3VldGdjV0h3?oc=5",
+      "source": "Politico",
+      "feed_id": "politico",
+      "category": "Government",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T16:20:00+00:00",
+      "desk_priority": 53,
+      "selection_type": "automatic"
+    },
+    {
       "id": "76ee9a978d0c757dfecf24d0",
       "title": "Global Citizen Returns to Western Australia With Global Citizen Nights: Perth, Headlined by The Teskey Brothers, Featuring South Summit and Ruby Rodgers - Global Citizen",
       "summary": "Global Citizen Returns to Western Australia With Global Citizen Nights: Perth, Headlined by The Teskey Brothers, Featuring South Summit and Ruby Rodgers Global Citizen",
@@ -2638,12 +2703,12 @@
       "desk_priority": 53,
       "selection_type": "automatic",
       "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg/1280px-2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_(50820534063)_(retouched).jpg",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
         "source": "Wikimedia Commons",
-        "creator": "Tyler Merbler from USA",
-        "license": "CC BY 2.0",
-        "description": "Outside during the US Capitol during the January 6, 2021 attack on the building",
+        "creator": "EEBS27",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Capitol building from the east side (front)",
         "label": "Illustrative photo",
         "matched_query": "United States Capitol building"
       }
@@ -3322,17 +3387,7 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T14:06:00+00:00",
       "desk_priority": 71,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg/1280px-2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:2025_construction_Eccles_Federal_Reserve_Building_Washington_DC_2025-02-10_12-05-42.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "G. Edward Johnson",
-        "license": "CC BY 4.0",
-        "description": "Ongoing construction at the Marriner S. Eccles Federal Reserve headquarters building. This 2.5 billion dollar renovation has been the subject of criticism by President Trump and other government officials. 2051 Constitution Avenue NW, Washington, DC 20418.",
-        "label": "Illustrative photo",
-        "matched_query": "Federal Reserve building Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "3f927d0bf01560641cdccb99",
@@ -3735,19 +3790,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T13:00:01+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "fdd64a56124cdb6a25a8e02b",
-      "title": "India news: Kolkata stampede dampens Durga Puja festivities",
-      "summary": "Authorities have detained several people over a deadly stampede in India's eastern city of Kolkata, after the state vowed strict action. Meanwhile, 'Cockroach' leader Dipke is out of detention.",
-      "url": "https://www.dw.com/en/india-news-kolkata-stampede-dampens-durga-puja-festivities/live-79685143?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T13:00:00+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -5476,58 +5518,6 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T07:24:34+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f88cafab59d9e78ae17bee87",
-      "title": "Retail price impacts from the Iran war are uneven but add up for US households before midterms - AP News",
-      "summary": "Retail price impacts from the Iran war are uneven but add up for US households before midterms AP News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeVJwT2FENWtpTDhQR25fTE1iTll2eExSWUd4OFNkdHAwVnJRWEIzcXdLa05tZXJobGJPM0xpZ1ItQWl5YnNXR0xCZGdMem9BNHFZc3U4cXJnUzBRcnVQcEt2ZHFFSDluQ21wX3k1bTV0Vm5rOTdGbzNPMGdGaDRzOHBodTVJR0E0N2ZldGltYTNxZVFmNG5mYjU2Sy0xV0U2OVlpa3VfUF9wNzR2eE5JLVFNTGlvekFmZ0E?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T07:24:00+00:00",
-      "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "dee8947fc10446537bae82cc",
-      "title": "Israeli raids and arrests in southern Syria push population to the brink",
-      "summary": "Survivors recount brutal prison conditions, enduring beatings, restraints and psychological abuse by Israeli soldiers.",
-      "url": "https://www.aljazeera.com/features/2026/10/17/israeli-raids-and-arrests-in-southern-syria-push-population-to-the-brink?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T07:17:06+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c2722954fc5c88e1dfd31984",
-      "title": "What we know about the 16-year-old who opened fire at his former elementary school, killing 4 in a special needs classroom - CNN",
-      "summary": "What we know about the 16-year-old who opened fire at his former elementary school, killing 4 in a special needs classroom CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeG4xN0FyczRIRWx3X252enZTaU9vek15YzNpM3VDNy1ubDJQTE0wSnRwUUJYUXJMTnpWdUhGcjZLZ3lEdHFFSFU3NGY3YXZXTkhveE1BOUxacHlDQTZOcjcxVkd5d2M3YjdVc3g0MjlDV3ZHTGtpWkg1VjdzczJMZA?oc=5",
-      "source": "CNN",
-      "feed_id": "cnn",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T07:00:44+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9635569aedf81c6999b9c2b2",
-      "title": "‘I cannot carry all of this alone’: the couples kept apart by the war in Gaza",
-      "summary": "Families have been scattered, fathers separated from their children, and couples unable to reunite and marry Wijdan Abu Matar, 43, was forced to leave Gaza in November 2023 with her eight children for medical treatment, while her injured husband, Hatem, remained behind. Wijdan and her family were living in the Nuseirat refugee camp when the Gaza war began with the 7 October 2023 Hamas attack on Israel. Ten days later, on 17 October that year, an Israeli strike hit the al-Muhandseen tower, near their home, injuring Wijdan and every member of her family. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/17/couples-families-separated-war-in-gaza",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T07:00:24+00:00",
       "desk_priority": 46,
       "selection_type": "automatic"
     }
