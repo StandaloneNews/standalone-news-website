@@ -151,7 +151,7 @@ def get_scoreboard(job: tuple[str,str], now: datetime) -> tuple[str,list[dict],s
         events=[x for raw in parsed['events'] if isinstance(raw,dict) if (x:=parse_event(raw,slug,now))]
         return slug,events,''
     except (ValueError,KeyError,urllib.error.URLError,TimeoutError,OSError) as e:
-        return slug,[],type(e).__name__
+        return slug,[],type(e).__name__+': '+str(e)[:140]
 
 
 def rss_text(node: ET.Element, *keys: str) -> str:
@@ -219,6 +219,7 @@ def build(now: datetime) -> dict | None:
                 old=groups[slug].get(item['id'])
                 if not old or (len(item.get('fights',[]))>len(old.get('fights',[]))):groups[slug][item['id']]=item
     if not successes:
+        print('Sports provider errors (sample): '+repr(errors[:5]),file=sys.stderr)
         print('No sports providers answered: preserving the last successful feed.',file=sys.stderr)
         return None
     events=[]
