@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T08:09:54Z",
+  "updated_at": "2026-10-18T08:50:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,40 +1117,21 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
-      "date": "2026-10-18T13:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day one – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T08:07:38Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after surgery – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T07:53:42Z",
+      "date": "2026-10-18T08:36:43Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day one delayed by rain – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-18T08:35:10Z",
       "league": "all"
     },
     {
@@ -1228,6 +1209,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/ck3r59ywz99ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T05:39:47Z",
+      "league": "all"
+    },
+    {
+      "title": "There's a crackdown on sports piracy - but is it already out of control?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T00:11:09Z",
       "league": "all"
     },
     {
@@ -1309,10 +1297,10 @@
     },
     {
       "title": "Villa's Manzambi shows Newcastle what they missed out on",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T21:18:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bath loss rounds off tough day for Prem clubs in Champions Cup",
@@ -1404,13 +1392,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cq146nz03k16o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T19:00:03Z",
       "league": "all"
-    },
-    {
-      "title": "Wrexham had to block outside noise - Parkinson",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c38xzv091v5go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:41:33Z",
-      "league": "soccer"
     },
     {
       "title": "Boos and bananas on day of defiance at Man City",
