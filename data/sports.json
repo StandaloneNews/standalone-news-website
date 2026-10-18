@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T10:48:01Z",
+  "updated_at": "2026-10-18T11:08:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,28 +1117,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489516",
+      "league": "ligue1",
+      "name": "Angers vs Marseille",
+      "date": "2026-10-18T13:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Angers",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after jaw surgery – matchday live",
+      "title": "Chelsea v Tottenham: Women’s Super League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
+      "date": "2026-10-18T11:00:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United feel heat as they travel to Leeds; Szoboszlai sidelined for ‘some time’ – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T10:39:27Z",
+      "date": "2026-10-18T10:59:53Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T10:38:56Z",
+      "date": "2026-10-18T10:59:30Z",
       "league": "all"
     },
     {
-      "title": "Chelsea v Tottenham: Women’s Super League – live",
+      "title": "Netball enters brave new world as New Zealand stun Australia",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
-      "date": "2026-10-18T10:37:35Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/netball-constellation-cup-new-zealand-silver-ferns-stun-australia-diamonds",
+      "date": "2026-10-18T10:41:01Z",
       "league": "all"
     },
     {
@@ -1427,13 +1453,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cr5ynge8jnnyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T17:47:22Z",
       "league": "soccer"
-    },
-    {
-      "title": "Arsenal held at home by Birmingham",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c680zp4djprgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T17:46:41Z",
-      "league": "all"
     }
   ]
 }
