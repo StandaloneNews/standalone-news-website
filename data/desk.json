@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T01:41:59+00:00",
+  "updated_at": "2026-10-18T02:10:23+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -10,10 +10,10 @@
     "1149b469007b6d9c6ec3e995",
     "891ee89885e73103292e9f43",
     "94601d1e80ff093ee999f69a",
+    "099666066005f9dab62094be",
     "a9b2317de904a1c258d5d48e",
     "652f99621c1ab29ad0f3c30d",
     "ce912e9ef0108a454aa55854",
-    "13085a3b6524965c32a03e20",
     "55983b22869560580b553385",
     "59fd2decfdd413d573f05f85",
     "7d48dd74e0a6592bb545d69c",
@@ -26,11 +26,24 @@
     "b2183dc6f1c80dcd89dacc8d",
     "3b23c776a1bd2140b4abd845",
     "8155c8c6662e1bce539fac7a",
-    "ac376344bea41e849634eabb",
-    "2fb85207a090347c52f037f1"
+    "2fb85207a090347c52f037f1",
+    "ac376344bea41e849634eabb"
   ],
   "image_policy": "Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.",
   "items": [
+    {
+      "id": "ae16f27153701eb67e2e6fc6",
+      "title": "Canada: Major fire reported at military base in Alberta",
+      "summary": "Canadian Prime Minister Mark Carney has said a \"serious incident\" sparked a major fire at a military base in Alberta. He did not provide details on the cause of the fire or whether anyone was injured.",
+      "url": "https://www.dw.com/en/canada-major-fire-reported-at-military-base-in-alberta/a-79690515?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T02:08:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "2fb85207a090347c52f037f1",
       "title": "Trump’s waiver of sanctions on Russia stirs bipartisan outrage - The Washington Post",
@@ -40,8 +53,21 @@
       "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-18T01:38:06+00:00",
+      "published_at": "2026-10-18T02:06:32+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5249da5612fa51a21ac92910",
+      "title": "Buildings burn as French protests go into the night",
+      "summary": "Witnesses say masked protesters set fire to Limoges town hall, which officials say is now ‘largely lost’.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/buildings-burn-as-french-protests-go-into-the-night?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T01:30:46+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -55,6 +81,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-18T01:22:00+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a090ff87924d0402c5cdeeaf",
+      "title": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
+      "summary": "Saudi-led forces say they’ve struck multiple positions around the Yemeni city of Taiz to break the Houthi siege.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T01:12:44+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -128,7 +167,7 @@
       "feed_id": "cbs",
       "category": "US News",
       "source_type": "Google News",
-      "published_at": "2026-10-18T00:46:06+00:00",
+      "published_at": "2026-10-18T00:46:00+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -169,6 +208,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T00:29:58+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f978f522103043220187b2ed",
+      "title": "It might be too late to remove religion from politics - PressReader",
+      "summary": "It might be too late to remove religion from politics PressReader",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQN3dUN20wWlNuaDNGR1NUTnpqN3ZrOG9xU0cxQWZmQWoxOFpGVU5iWXhVWU8waVljUmp6T1Q5ZU9kaXNhM2Vtc0NWMnI0U1dFcnFfNi1nSkhMSHUxbVVHVmFYNmRiLWxQV01Gc2dkMjFUT1JnSHhaWF9PNFFRTmNUdA?oc=5",
+      "source": "PressReader",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:23:31+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -257,6 +309,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-18T00:06:00+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9cf279bc2e70292e7a319fe9",
+      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
+      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
+      "source": "NBC News",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-18T00:00:21+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -455,6 +520,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "8d838feca63531bbe59a63cf",
+      "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest - Fox News",
+      "summary": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZU5GMUJ0MnNEanZ4SWN6TmlDSWJ5VUttanhFSW1YT1hkcU9INTNDWlkxMVMydkpPa1NUN1RhUnZncWY5YzdjbDZETWZwejlTMGIxMFJ4T2t0dUNWS01pYUxwWkl0MU9CcG5lTGxzSkhYcHplM1VOdUM3b1NwRkliTTdMYVlLZWloRVlGVjZ0TzNWOTBsUl95eHExcUdfVVRpdmVBUEdJcjl2RlVndjJxNzkyU0lBZFpzNXVwZjZoNUxic1ZqcTQ4M9IBzgFBVV95cUxNMG9LUWZwT3BxWEM1UVVrVEdmX0xtMkd0LW9LMHU4R3dJcDhkQVZkWmhDeE96RTFBX0ZiLTRfMFVHZjNwYjdUOXYwTnBCYTlfSDdpa3FqZVNLVWpBckR0SHdmOGgzY3BpU3plY09rQnJuTXhvUU1QMHpEYmJwY3FDX0J1SkcxM081UWcxTjd4UjVDa2tGLVpWTnl0eU4tLUpManJCT1EtNXBsSFp1UmRvR2VfVE1oZmEwRW5MTmVjOUpWRm1LNUV2Sy1udDdWdw?oc=5",
+      "source": "Fox News",
+      "feed_id": "fox",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:56:37+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "a4301f3a7fde9bd34c42ec03",
       "title": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest - Fox News",
       "summary": "Limoges Town Hall 'largely lost' after far-left rioters set historic building on fire amid French unrest Fox News",
@@ -465,6 +543,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T22:56:37+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "840a7cd98ce8a2f829517f5e",
+      "title": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says - Reuters",
+      "summary": "Venezuela expects nearly $76 billion in oil investment over five years, acting president says Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjRrMjhGV0NJUjVPZmZUdm1Da3JxcUFDaW9PTTVhVjZqSUszdzlLMGIwdjk4MFc0UXlUU0ZSZ1h4aGNTMmE1V3ZfdGJNcFVIUVIzbGFwTFdjd2xMVWtLWlBlV21QNlNxY0ZBcXVWTS05Z0c5UnY5d0tIWVFXOEdnLUZUTk84UXB1ektOV3A3OHhXSmxVYnhMZktTMl9PZUFaRGdpUkF4VXlGMlBoWVdhclhOa2p0bFExTTljdWtRZGs1bXM?oc=5",
+      "source": "Reuters",
+      "feed_id": "reuters",
+      "category": "World",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T22:53:43+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -598,19 +689,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "29e62db13035dafc5aae86eb",
-      "title": "Daily life around the world, in photos - AP News",
-      "summary": "Daily life around the world, in photos AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2UyZHkyUzYxbS1IdlBMVVhJdTUySVVGbUtkVTc2ak4yTWEzX21GX3FOUWtmMS1GRXlhaGJsVkdSME8ydGxHTEFTLW9jQXJhLTdHTE5IU210MjM2Y0tkLWMxM3h1ZjJGX2RVemxRLVRnUTZ1eW9nTmFSZ2tscC15VDlKSGY3TTBEU2pQSWNDYklDc2M4b2tUUGRlTmY?oc=5",
-      "source": "AP News",
-      "feed_id": "ap",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T22:01:37+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "f302910b6af560ace4e08ef8",
       "title": "Oregon school shooter was 16-year-old whose mother purchased the gun he used, sources say - NBC News",
       "summary": "Oregon school shooter was 16-year-old whose mother purchased the gun he used, sources say NBC News",
@@ -634,6 +712,19 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T21:58:03+00:00",
       "desk_priority": 56,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "29e62db13035dafc5aae86eb",
+      "title": "Daily life around the world, in photos - AP News",
+      "summary": "Daily life around the world, in photos AP News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY2UyZHkyUzYxbS1IdlBMVVhJdTUySVVGbUtkVTc2ak4yTWEzX21GX3FOUWtmMS1GRXlhaGJsVkdSME8ydGxHTEFTLW9jQXJhLTdHTE5IU210MjM2Y0tkLWMxM3h1ZjJGX2RVemxRLVRnUTZ1eW9nTmFSZ2tscC15VDlKSGY3TTBEU2pQSWNDYklDc2M4b2tUUGRlTmY?oc=5",
+      "source": "AP News",
+      "feed_id": "ap",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T21:56:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -993,7 +1084,7 @@
       "summary": "Feds investigating suspicious letters sent to election officials and congressional offices CBS News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYmtYb1c5ckx0eG1XVU5vdEVlTEFGTENqNFItUWNva0puNXR3SUZsa0tEY0lkZE9nRTdoM1JUakJaSHN1cEVscW81YXhLV2VScTcwZnZVYzZKMHZxeWM4aUZ1QmRaZkV2d3Vna0xVdGlsQTFTeXlyX3VNX19iQVM0WlV5X0gtWXFRVGkxMzMwZGNlc1RJX2Rtc3RrMFljbmRlUTRwZS1xR2NXZmxYUGhIVg?oc=5",
       "source": "CBS News",
-      "feed_id": "cbs",
+      "feed_id": "us",
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T20:19:28+00:00",
@@ -1048,7 +1139,7 @@
       "feed_id": "markets",
       "category": "Markets",
       "source_type": "Google News",
-      "published_at": "2026-10-17T19:49:44+00:00",
+      "published_at": "2026-10-17T19:49:22+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
     },
@@ -1066,6 +1157,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "ce1d2deb6fa3be02d29f6789",
+      "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections - KSAT",
+      "summary": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections KSAT",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeG5zQlA4QXRIWkRzQjRpakc2b0F6LUxROEc1bkYwYU10bHdWS1lFRGl4UmV3TkVpOExfb0ZGenpSNVVSVDZ3YV9wb214NTFFVWozU1lWc293MWdCTjE1bEhNejREZHBYWGk4amtjLVRodFg4VWNHajdWalMzQmJHbi1QbkVhZ1VvN2xfNkNjeWo4Mm84OTUzRTU4cjhlZFR3MXkwSjFKUlFWbmZ4MTAzaElfM01vNTJ1dGdxYy13dlI2eWI1UXFGWEdTMmk?oc=5",
+      "source": "KSAT",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:44:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "d3ef31903a9342bea530b031",
       "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections - News4JAX",
       "summary": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections News4JAX",
@@ -1075,6 +1179,19 @@
       "category": "US News",
       "source_type": "Google News",
       "published_at": "2026-10-17T19:44:06+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "00879b80aef65d065b300c8e",
+      "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections - Audacy",
+      "summary": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections Audacy",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWwtMjMwbmdJNlZmZXJ3RTBuWDliQXFreFFpTGxjbTlHbXhiMFNORTZsczc3OVk4UUJVNTBzX0JGZl96bVZvcE1uX3dCWUZ3anc3dlh2dG42Rm84LVJ2STcySkZIRWpLYjZVTVVsV0xMZUU1Z05LTjB2NjJPLW1DQ2o5NlUwSkFmSWxDbGN1WmdPRjVBQUN3aU9JTnFqR2NoRnJaUWhjeU5jdlFxZWo0UXZn?oc=5",
+      "source": "Audacy",
+      "feed_id": "us",
+      "category": "US News",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T19:44:00+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -1495,16 +1612,16 @@
       "selection_type": "automatic"
     },
     {
-      "id": "9cf279bc2e70292e7a319fe9",
-      "title": "Tracking the 2026 Early Vote: Midterm Elections - NBC News",
-      "summary": "Tracking the 2026 Early Vote: Midterm Elections NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CNDhGdFFLbHU0dnFMZGZ5T2Z4LVNzYk5Mb0lHNXZhQW56U09sX1RmWmRLZmlvRnQtOHNHUlZlS3NZckF2WHF0LXVZOHROTTBCMnQzbkM2X1JCYkY5RGpwamRubEc4M3lPaFE?oc=5",
-      "source": "NBC News",
-      "feed_id": "us",
-      "category": "US News",
+      "id": "ef2262873188e38a1c9fcc4b",
+      "title": "$1.2 million mortgage leaves Aussie couple with just $1,000 free cash a month, making having kids 'impossible' - Yahoo Finance Australia",
+      "summary": "$1.2 million mortgage leaves Aussie couple with just $1,000 free cash a month, making having kids 'impossible' Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZlFwZng0aHV4eDIyQ2JyOUlKalF5ZFRsNjgwOWdyZE4wZDBZTmI2NGNpYW45Z0c2SGwzRHNkVHdMQmVEc3hXWEllR2ltTENBQkJwMnN1V0hNUVFSR2VDTXByMmozc3Nhd0ZHZzRqMEZSRnFQZXRkeU1XV0hXcjg2VzJkQkVzeG1mNkNLemNWd2k3cENEejFTcllVZVVDNW1PS2dLcHpLUUpGM1ptY3I4OVpTanN5Z3hNX3FOWmdENmpfekVPZ1I3WHhSb3BBQV9HYTlYdGYwREIyb01WeXBoTUF6cGpGNzg?oc=5",
+      "source": "Yahoo Finance Australia",
+      "feed_id": "yahoo_finance",
+      "category": "Markets",
       "source_type": "Google News",
-      "published_at": "2026-10-17T18:00:21+00:00",
-      "desk_priority": 24,
+      "published_at": "2026-10-17T18:00:00+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -2441,6 +2558,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "099666066005f9dab62094be",
+      "title": "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week — AVGO, INTC, BE, NVDA, PSKY In Focus - Stocktwits",
+      "summary": "S&P 500, Nasdaq End Lower On Chipmaker Weakness, While Traders Position For Nvidia Earnings This Week — AVGO, INTC, BE, NVDA, PSKY In Focus Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONGZGaFNEeGVjOFlkd2Q0NFhCQU5pcGZySHRmSWo2bkFLZXN5dGUwU0Z3M1E4bmlkYmlsTWQyNzFINWJsU2F0MjVLWm5RU0VwVkhieXgxVjVKZWEtQmFBYUl2MndjLUJDME44bW40MTFRaVFidHJsblJ1bGxqcUszc05LLV9NOHlndzJwaUtrSVl5YzhzQ3owU2NXakYwOFd6VVVmT2hqN2ZnVXk1a08yQk9JOUI?oc=5",
+      "source": "Stocktwits",
+      "feed_id": "markets",
+      "category": "Markets",
+      "source_type": "Google News",
+      "published_at": "2026-10-17T15:08:07+00:00",
+      "desk_priority": 71,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Coolcaesar",
+        "license": "CC BY-SA 4.0",
+        "description": "Nvidia headquarters in Santa Clara, California. Photographed by user Coolcaesar on August 4, 2018.",
+        "label": "Illustrative photo",
+        "matched_query": "Nvidia headquarters Santa Clara"
+      }
+    },
+    {
       "id": "0b81a58f5b3fe1314623827b",
       "title": "Meta removes language that may have allowed it to scrape news sites",
       "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
@@ -2820,11 +2960,11 @@
       "summary": "Trump faults aides as Republican midterm prospects dim Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYTNjQm5xUlNLTTVIZHJ5eXBnMUZlY211OWQzdjJSLWFqMDRrMVZlaXFjUmUtVDFkVXYyVUwzajB4TXNQNE1NblU4RFhGeDNyak4tX1FsZXZtTXpYamZValBXUHc0RXNhc2J6Vk4wZEFNV2FxNHBlYmNvOFVEdThjakZ5Q0g3UXpySk9maHZhYTFXSzVMeXdxMXZ5c1M?oc=5",
       "source": "Reuters",
-      "feed_id": "us",
-      "category": "US News",
+      "feed_id": "washington",
+      "category": "Washington",
       "source_type": "Google News",
       "published_at": "2026-10-17T13:58:21+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5399,136 +5539,6 @@
       "source_type": "Google News",
       "published_at": "2026-10-17T04:05:00+00:00",
       "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5b94142149ba8ec1d1679d38",
-      "title": "Katie Zacharia out as White House press secretary - The Washington Post",
-      "summary": "Katie Zacharia out as White House press secretary The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON3RMay1TVUY1VkpZVkRVNDVkb0VXSzJ1Uld6MmVJNlREYTBSZ25pdXpFUDVibkVQa2U4b1Q4bjBFMC04WUlaLTdSRll5ejNMQ1RuWk56cmROLUFrTnU0SFRjWWhwWE4xcHBoTGdydVRGa0k0WmxvbzJsbGpBLU84SDd5UmZtMlV4M1A4UGFYSmVXOXhrNWFTNV9hR01DaWVxZ1J4UVBjLVAwTGo0NlJmcmdfZE1zU19scWNwWQ?oc=5",
-      "source": "The Washington Post",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T04:02:24+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0528448e47088146ad129af2",
-      "title": "French schoolchildren have been treated like enemies to be crushed – for telling the truth | Rokhaya Diallo",
-      "summary": "To protest against shameful conditions in schools is entirely legitimate. The government’s response is not As a secondary school pupil in 1994, I took part in protests against a reform that would have allowed French employers to pay young people below the minimum wage. Our campaign was successful, but if we had had to face the terrifying police response unleashed on student protesters in France over recent weeks, I would have stayed at home. A 14-year-old boy, Eden, suffered a fractured jaw and had teeth knocked out after a police teargas grenade struck him in the face. Sixteen-year-old Maël lost the sight in one eye allegedly after being struck by a shot from an LBD, a form of rubber-bullet launcher. Evan, 15, had his hand blown off in an explosion involving a police stun grenade. And in Dunkirk, a police SUV is alleged to have driven re",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/17/french-schoolchildren-treated-like-violent-criminals-shameful-conditions-schools",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T04:00:20+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a7c07b667e14a1ee3c52c21d",
-      "title": "Not cool: who hacked France’s supermarket fridges?",
-      "summary": "Whether it was youngsters proving their skills or state sabotage, Europe’s most hacked country was left with a mountain of waste after food began cooking in freezers Shortly before midnight last Sunday, the digital thermostats controlling hundreds of supermarket cold aisles across France began to flicker and rise. In a “bizarre and unprecedented” cyber-attack, hackers had remotely overridden the temperature settings on thousands of freezers, fridges and chiller cabinets pushing them from as low as -27C (-16.6F) to well over 50C (122F). Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
-      "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T04:00:20+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d573eb1805cab5c46b16a2a1",
-      "title": "Third runway at Heathrow Airport would drive growth, Healey says",
-      "summary": "It comes after the prime minister refused to say whether he backed expansion.",
-      "url": "https://www.bbc.co.uk/news/articles/cw0k07d2nj43o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T03:57:16+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3e636b61fef5eaf4bf30c396",
-      "title": "Stephen A. Smith on his dinner with Trump: ‘He didn’t run from any questions’ - CNN",
-      "summary": "Stephen A. Smith on his dinner with Trump: ‘He didn’t run from any questions’ CNN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd3pJbzhSSzdZUlBIeEdZa3hFQXp0b0ZTYzlZTmtSZldaRDFTUEo0Y2VNNVpadFJIUVV3Sm1kMDlBaWx2Yy1odklibGdqNlZxeVFGVjBEM3M3RXM3UU1KZmpNN2ZQUGV3bFhUOVVfWVJUTUxlaXAzVlRqTlhVNkNNc0ZsV3g1MFJFSTg0cTFiRGp0T09lcVd6TU4ta1hyWW5laFFGMi1BM0Y0MHM4QzJ2ZXRvbUZhQ3hUOTc3YVRHRQ?oc=5",
-      "source": "CNN",
-      "feed_id": "cnn",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:43:02+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "596ce81630f0aa383718cf81",
-      "title": "GOP Sens. Ted Cruz, Susan Collins join growing list of targets of suspicious ‘white powder’ mailings - New York Post",
-      "summary": "GOP Sens. Ted Cruz, Susan Collins join growing list of targets of suspicious ‘white powder’ mailings New York Post",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0dXYU9xVm50RmtrM2dJWnZRLTFBVjBGZ1JtY2NmYlp0RWZjb1JxMUxWUGRpdHVVaXpFcXV3cHJuMTdmUzIxeE9JZndhdXE4Ykh3ZzNqQ0Y5TjVKZVNLS0tuUG5CQ2NfSExhWE5WYnJMdmdlZ3F6TmxvZFlZSGFyOGd1cVJEZTRFeGprTnlOSWtIVmtkb1k5d09TWFZMSDQyREt3cFVTWDlIcHpOTllFYXdPYldMLWhLdUFVbW1RRi05ODVWX25WendiU2hCLUVK?oc=5",
-      "source": "New York Post",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:41:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "dfdd7bf4e912dc61929a7617",
-      "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
-      "summary": "The fast-spreading Norte Fire in Orange County is fuelled by intense warm winds and unseasonably high temperatures.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T03:30:36+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c526bc9e44cdf88cad0fb8c5",
-      "title": "Indonesia Unveils $117 Million in Fines After MSCI Warning - Bloomberg.com",
-      "summary": "Indonesia Unveils $117 Million in Fines After MSCI Warning Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdWk3dl8wak9INHItbTJrN3l2bER4R2UtbE9hTUtkLTV6YzJWcDhMelVvZWRuc2lCSUlYNDltamVKTjFwLTNIRmNuYW52UHVOcl9YUTZOek5UNFNqRkFVLXF4d2VKYUIyZTV0ZnJZMUlBRUVNeGlDTktwQWR0UFFGZS03R3E2a2dTOFhqUk9wNE0wRGlYZEpsWVVUaHNZSWx5eERORlAyMU1vc3FD?oc=5",
-      "source": "Bloomberg.com",
-      "feed_id": "bloomberg",
-      "category": "Markets",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:23:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a666c3055a7fb3d235186ce3",
-      "title": "Congress members condemn Israeli settler attack on Washington Post photographer - The Washington Post",
-      "summary": "Congress members condemn Israeli settler attack on Washington Post photographer The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNamxaaU9iamxYdlFCSmVzOHctQ1l1R1JKNm0zWjhkV3hGMmlsaFBDNkRtZmU5VXdyazgzUTdOb3ZLa1dMenpzZDVpT2cwSFVxY1RFT0I3TGxiQjZPNy1wY0V5NnFiZXR4QXJGYUFMcDQta3lrRVRROG93QU8yVzdzOEc0ZGx0SnA0VEZXYWVSSW9RMXZIWUIyZjRGNWVIRFRlNW1DTXNyaW9jUVl4RFhJRXRCNzYyQ1o5YkE?oc=5",
-      "source": "The Washington Post",
-      "feed_id": "us",
-      "category": "US News",
-      "source_type": "Google News",
-      "published_at": "2026-10-17T03:18:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "dd46b0a4ca6664f9ee7616f5",
-      "title": "Cameroonians await government reshuffle after Biya’s return",
-      "summary": "After 10 weeks abroad, Biya returned to Cameroon but has yet to appoint a new government or vice president.",
-      "url": "https://www.aljazeera.com/news/2026/10/17/cameroonians-await-government-reshuffle-after-biyas-return?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T03:14:28+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
