@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T07:26:13Z",
+  "updated_at": "2026-10-18T07:48:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,9 +1117,49 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489516",
+      "league": "ligue1",
+      "name": "Angers vs Marseille",
+      "date": "2026-10-18T13:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Angers",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "New Zealand avoid World Cup shock against Fiji",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmx2q94rppe9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T07:38:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United feel heat as they travel to Leeds; Martínez thanks fans after surgery – matchday live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
+      "date": "2026-10-18T07:37:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day one – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-18T07:28:12Z",
+      "league": "all"
+    },
     {
       "title": "Martinez 'back in a few weeks' after operation",
       "source": "BBC Sport",
@@ -1135,17 +1175,31 @@
       "league": "all"
     },
     {
-      "title": "Manchester United feeling the heat as they travel to Leeds – matchday live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T07:04:17Z",
-      "league": "soccer"
+      "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
+      "date": "2026-10-18T07:00:55Z",
+      "league": "all"
     },
     {
-      "title": "New Zealand avoid World Cup shock against Fiji",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmx2q94rppe9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T06:24:16Z",
+      "title": "Meaty Montpellier leave Bath reeling and offer Prem French lessons",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
+      "date": "2026-10-18T07:00:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Wigan pine for FA Cup glory as not even victory can lift them off foot of League One",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/wigan-pine-for-fa-cup-glory-as-not-even-victory-can-lift-them-off-foot-of-league-one",
+      "date": "2026-10-18T07:00:54Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I suffer a lot’: Villarreal owner Fernando Roig on not enjoying games and the prospect of Liverpool",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/fernando-roig-villarreal-liverpool-champions-league",
+      "date": "2026-10-18T07:00:53Z",
       "league": "all"
     },
     {
@@ -1212,6 +1266,13 @@
       "league": "all"
     },
     {
+      "title": "Rangers 'pop balloon' as Neil gift wastes chance to go top",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3nl91gg2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T22:29:15Z",
+      "league": "all"
+    },
+    {
       "title": "Can Hearts prove credentials at scene of title heartbreak?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o?at_medium=RSS&at_campaign=rss",
@@ -1233,11 +1294,11 @@
       "league": "all"
     },
     {
-      "title": "Champions Cup roundup: La Rochelle beat Lions after emotional tribute to Andrews",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/17/champions-cup-rugby-union-sale-glasgow-clermont-leinster-lions-la-rochelle-bath-munster",
-      "date": "2026-10-17T21:33:26Z",
-      "league": "all"
+      "title": "European football: Barcelona thrash Real Betis to maintain 100% record",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
+      "date": "2026-10-17T21:33:46Z",
+      "league": "soccer"
     },
     {
       "title": "Villa's Manzambi shows Newcastle what they missed out on",
@@ -1345,20 +1406,6 @@
       "league": "soccer"
     },
     {
-      "title": "Manzambi maintains Aston Villa progress with win to seal dismal week for Newcastle",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/17/newcastle-aston-villa-premier-league-match-report",
-      "date": "2026-10-17T18:38:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Seven-try Connacht beat Saracens in Champions Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr86zgpyz464o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:33:05Z",
-      "league": "all"
-    },
-    {
       "title": "Boos and bananas on day of defiance at Man City",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
@@ -1405,34 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/17/brentford-liverpool-premier-league-match-report",
       "date": "2026-10-17T16:21:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/17/manchester-city-ipswich-premier-league-match-report",
-      "date": "2026-10-17T16:08:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Pressure on Arbeloa lifted after Alex Iwobi sinks Hull for Fulham’s first win",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/17/fulham-hull-premier-league-match-report",
-      "date": "2026-10-17T16:08:39Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ombudsman shines in Champion Stakes for Gosden team at Ascot: Champions Day – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/17/british-champions-day-at-ascot-champion-stakes-queen-elizabeth-ii-stakes-and-more-live",
-      "date": "2026-10-17T16:00:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Boos at Arsenal as draw with Birmingham extends winless WSL run",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report",
-      "date": "2026-10-17T15:44:19Z",
       "league": "all"
     }
   ]
