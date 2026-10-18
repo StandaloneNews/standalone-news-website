@@ -54,8 +54,8 @@ ALLOWED_HOSTS={
 }
 # High-stakes or ambiguous news is better served as a link to the original source.
 SENSITIVE=re.compile(r'\b(election|ballot|vote counting|candidate|assassination|shooting|\bdeath\b|\bdead\b|\bkilled\b|\bwar\b|military strike|terroris\w*|warfare|hostage|genocide|\btrial\b|\bindict\w*|criminal charg\w*|arrest|suspect|investigation|allegation|lawsuit|enforcement action|sanction\w*|emergency|disaster|recall\w*|vaccine|cancer|drug approval|scheduling|reschedul\w*|controlled substance|schedule i|schedule ii|schedule iii)\b',re.I)
-MAX_DAY=2
-MIN_INTERVAL_HOURS=5
+MAX_DAY=4
+MIN_INTERVAL_HOURS=3
 
 # Public agencies use several page layouts: <main>, <article>, #content,
 # .main-content, and sometimes only body paragraphs. Prefer article containers

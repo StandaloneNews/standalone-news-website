@@ -190,7 +190,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             if hint: source=hint
             elif ' - ' in title: title,source=title.rsplit(' - ',1)
         published=parse_date(child_text(node,'pubDate') or child_text(node,'published') or child_text(node,'updated'),now)
-        if published is None or published>now+dt.timedelta(days=1) or published<now-dt.timedelta(days=7):continue
+        if published is None or published>now+dt.timedelta(minutes=5) or published<now-dt.timedelta(days=7):continue
         # Show short attributed excerpts when the original publisher provides them.
         # Google News discovery descriptions can be nested lists of related stories,
         # so do not turn those into an alleged summary of the linked article.
