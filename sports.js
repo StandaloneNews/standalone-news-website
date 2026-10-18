@@ -27,6 +27,15 @@ function storyCard(story){const a=e('article','sports-news-card');const label=st
 function render(){if(!state.data)return;const items=listItems('upcoming'),scores=listItems('final');$('upcoming-count').textContent=items.length+' scheduled';$('results-count').textContent=scores.length+' recent';
  fill('upcoming-list',items,gameCard,'No upcoming games found for this sport in the current date window.');fill('results-list',scores,gameCard,'No completed games found for this sport in the current date window.');
  $('upcoming-summary').textContent=items.length?items.length+' upcoming fixtures currently listed for '+(state.league==='all'?'the covered leagues':state.league.toUpperCase())+'.':'No upcoming fixtures are available in this feed.';
+ const hasUfcEvents=state.data.events.some(x=>x.league==='ufc');
+ const hasUfcNews=state.data.stories.some(x=>x.league==='ufc');
+ $('ufc-cards').hidden=!hasUfcEvents;
+ const ufcFilter=$('sports-filters').querySelector('[data-league="ufc"]');
+ if(ufcFilter)ufcFilter.hidden=!(hasUfcEvents||hasUfcNews);
+ if(!hasUfcEvents&&!hasUfcNews&&state.league==='ufc'){
+   state.league='all';
+   $('sports-filters').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.league==='all')));
+ }
  const ufc=(state.data.events||[]).filter(x=>x.league==='ufc').sort((a,b)=>{const f=a.state==='final'?1:0,g=b.state==='final'?1:0;return f-g||(f===1?Date.parse(b.date)-Date.parse(a.date):Date.parse(a.date)-Date.parse(b.date))}).slice(0,4);
  fill('ufc-list',ufc,ufcCard,'No UFC fight cards are currently available from the provider.');
  const allStories=(state.data.stories||[]).filter(x=>state.league==='all'||state.league==='ufc'&&x.league==='ufc'||(state.league==='soccer'||SOCCER.has(state.league))&&x.league==='soccer'||!['ufc','soccer'].includes(state.league)&&!SOCCER.has(state.league)&&x.league==='all').slice(0,20);$('sports-news-count').textContent=allStories.length+' headlines';fill('sports-news-list',allStories,storyCard,'No verified, recent sports headlines are available in this update.');

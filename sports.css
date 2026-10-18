@@ -25,7 +25,7 @@ body.sports-page{background:var(--sd-cream)!important;color:var(--sd-ink);font-f
 .sports-league-filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;scrollbar-width:thin}.sports-league-filters button{flex:0 0 auto;border:1px solid #8c9aa4;background:transparent;color:var(--sd-ink);border-radius:2px;padding:10px 15px;font:700 13px Arial,Helvetica,sans-serif;min-height:44px}
 .sports-league-filters button[aria-pressed="true"]{background:var(--sd-ink);color:#fff;border-color:var(--sd-ink)}.sports-league-filters button:hover{border-color:var(--sd-red)}
 .sports-status{font:14px/1.4 Arial,Helvetica,sans-serif;color:var(--sd-muted);min-height:20px;margin:15px 0 28px}.sports-status[data-error="true"]{color:#892239}
-.sports-feature-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 0 48px}.sports-summary{padding:26px 30px 27px;background:#edf0ee;border-top:4px solid var(--sd-ink);min-height:214px}.sports-summary-ufc{background:var(--sd-deep);border-top-color:#c5546a}
+.sports-feature-row{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;padding:0 0 48px}.sports-summary{padding:26px 30px 27px;background:#edf0ee;border-top:4px solid var(--sd-ink);min-height:214px}.sports-summary-ufc{background:var(--sd-deep);border-top-color:#c5546a}
 .sports-summary h2{font-size:clamp(26px,3vw,38px)!important;font-weight:400;margin:0 0 15px}.sports-summary p{color:#526674;line-height:1.45;margin:0 0 18px}.sports-summary a{font:700 13px Arial,Helvetica,sans-serif;text-decoration:none;border-bottom:1px solid currentColor}
 .sports-summary-ufc h2,.sports-summary-ufc p,.sports-summary-ufc a{color:#f7f8f6!important}.sports-summary-ufc .sports-eyebrow{color:#ffbbc5!important}
 .sports-section{padding:28px 0 48px;border-top:2px solid var(--sd-ink);scroll-margin-top:20px}
@@ -57,3 +57,7 @@ body.sports-page{background:var(--sd-cream)!important;color:var(--sd-ink);font-f
 .sports-league-detail button[aria-pressed="true"]{background:#1c374b;color:white}
 .sports-league-detail button:focus-visible{outline:3px solid #17618b;outline-offset:2px}
 .sports-ufc-sources{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+
+/* Keep unsupported UFC modules out of the visual and keyboard navigation. */
+.sports-page [hidden]{display:none!important}
+.sports-feature-row .sports-summary{max-width:100%;}
