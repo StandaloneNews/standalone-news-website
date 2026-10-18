@@ -24,6 +24,8 @@ const finished=matches.filter(x=>x.state==='final').sort((a,b)=>Date.parse(b.dat
 const selected=[...forthcoming.slice(0,2),...finished.slice(0,forthcoming.length?0:2)];
 if(selected.length)for(const match of selected){const item=line(match);const label=item.querySelector('.st-detail');if(label)label.textContent=(LABELS[match.league]||match.league)+' · '+dt(match.date)+(match.state==='final'?' · Final':'');soccer.append(item)}
 else empty(soccer,'International fixtures are not available in the latest provider response.');
+const hasUfc=data.events.some(x=>x.league==='ufc')||(data.stories||[]).some(x=>x.league==='ufc');
+const ufcPanel=$('st-ufc-panel');if(ufcPanel)ufcPanel.hidden=!hasUfc;
 const ufc=data.events.filter(x=>x.league==='ufc').sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
 if(ufc.length)ufc.slice(0,2).forEach(x=>c.append(line(x)));
 else empty(c,'UFC cards are currently unavailable from the free scores provider.');

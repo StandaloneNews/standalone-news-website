@@ -5,7 +5,7 @@
 #sports-today .st-kicker{font:700 11px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.11em;text-transform:uppercase;color:#913145}
 #sports-today h2{font:400 clamp(30px,4vw,40px)/1.12 Georgia,"Times New Roman",serif;color:#182e43!important;letter-spacing:-.02em;margin:6px 0 0}
 #sports-today .st-all{font:700 12px/1.4 Arial,Helvetica,sans-serif;color:#133b5a;text-decoration:underline;text-underline-offset:4px;min-height:40px;display:inline-flex;align-items:center}
-#sports-today .st-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:2px solid #253949;border-bottom:1px solid #c4cbd0;background:#fffdf7}
+#sports-today .st-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid #253949;border-bottom:1px solid #c4cbd0;background:#fffdf7}
 #sports-today .st-box{min-width:0;padding:19px 20px 21px;border-right:1px solid #c4cbd0}
 #sports-today .st-box:last-child{border-right:0}
 #sports-today .st-box h3{font:700 12px/1.45 Arial,Helvetica,sans-serif;letter-spacing:.07em;text-transform:uppercase;margin:0 0 14px;color:#233b50}
@@ -21,3 +21,8 @@
 #sports-today a:focus-visible{outline:3px solid #17618b!important;outline-offset:3px!important}
 @media(max-width:900px){#sports-today .st-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#sports-today .st-box:nth-child(2){border-right:0}#sports-today .st-box:nth-child(n+3){border-top:1px solid #c4cbd0}}
 @media(max-width:540px){#sports-today{margin-top:38px;padding-top:22px}#sports-today .st-heading{align-items:start}#sports-today .st-grid{grid-template-columns:1fr}#sports-today .st-box{border-right:0;border-bottom:1px solid #c4cbd0;padding:18px 16px}#sports-today .st-box:nth-child(3){grid-column:auto;border-top:0}#sports-today .st-box:nth-child(4){border-bottom:0;border-top:0}#sports-today .st-grid .st-box:nth-child(2){border-bottom:1px solid #c4cbd0}#sports-today .st-game-name{font-size:17px}}
+
+#sports-today #st-ufc-panel[hidden]{display:none!important}
+#sports-today .st-grid:has(#st-ufc-panel:not([hidden])){grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:900px){#sports-today .st-grid:has(#st-ufc-panel:not([hidden])){grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){#sports-today .st-grid:has(#st-ufc-panel:not([hidden])){grid-template-columns:1fr}}
