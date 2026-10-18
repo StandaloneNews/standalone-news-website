@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T18:02:21+00:00",
+  "updated_at": "2026-10-18T18:44:03+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -11,10 +11,10 @@
     "8838bd1b48411f9dbe5b542a",
     "b677fdedabaf44798b79a308",
     "4dacd487f56fc7846a41b6c2",
+    "88a7f0e55fd07da20ec448d9",
     "7ce76d9833babb6d603ef30b",
     "3feab6bcb38e343dac86f19b",
     "ce4a0405c2132eb0a66d888b",
-    "88a7f0e55fd07da20ec448d9",
     "fe1da706fb4d295faaaff0e7",
     "7ae1cb9cb634e220a5ac05a0",
     "3a7ec78b542cea7c7268fdcf",
@@ -22,9 +22,9 @@
     "35cd62faf12b8e71eb0b92fd",
     "feaf69e12ce5e3bb0a04300e",
     "1e22e9d984020bf18c6cd16a",
+    "56f1d9ff338dc0f3bcfd0059",
+    "0cd07f576454a43860dced9a",
     "3a7eaf979be555684af58d7c",
-    "384a1da9f27a80d8e7c7a319",
-    "096a7b8d06624333a212f776",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
     "8613d36e39e97e35c500b46a"
@@ -32,16 +32,55 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "56f1d9ff338dc0f3bcfd0059",
+      "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+      "summary": "Ukrainian President Volodymyr Zelenskyy has said he believes the U.S. government is behind his military's loss of normal access to the key satellite communications service used by the Ukrainian military.",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:38:49+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0cd07f576454a43860dced9a",
+      "title": "Six-year-old among two dead after Kansas woman drives through soccer game, with 11 more injured",
+      "summary": "Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer game The two people killed on Saturday when a woman in a truck drove through a youth soccer game in north-east Wichita, Kansas , were a six-year-old boy and a 35-year-old man, according to authorities. Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:24:40+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ba4952b9c26c3ab6502ff22b",
+      "title": "Why the US is holding secret talks with Myanmar’s military ruler",
+      "summary": "Why is the Trump administration holding secret talks with Myanmar's military ruler, accused of genocide?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/why-the-us-is-holding-secret-talks-with-myanmars-military-ruler?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T18:22:11+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "ae2d332dac8ada96b09f5887",
       "title": "Jackson doesn't regret telling Collins to 'shut up' after protester interrupted Maine Senate debate",
       "summary": "\"She said that it was a Troy supporter. She accused me of setting that up. I had no idea who it was,\" Jackson said.",
       "url": "https://www.pbs.org/newshour/politics/jackson-doesnt-regret-telling-collins-to-shut-up-after-protester-interrupted-maine-senate-debate",
       "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
+      "feed_id": "pbs_top",
+      "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T18:01:07+00:00",
-      "desk_priority": 31,
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -164,7 +203,7 @@
     {
       "id": "497a7ac9a5f75b73c51abeb8",
       "title": "Trump Presses Ahead With Plans to Remake Washington Golf Course",
-      "summary": "The president said work would begin in mid-November.",
+      "summary": "The president said work would begin in mid-November on the project, which is the subject of a legal battle.",
       "url": "https://www.wsj.com/us-news/trump-presses-ahead-with-plans-to-remake-washington-golf-course-27a26ba9?mod=rss_usnews",
       "source": "WSJ",
       "feed_id": "wsj_us",
@@ -582,19 +621,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T15:00:00+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0cd07f576454a43860dced9a",
-      "title": "Six-year-old among two dead after Kansas woman drives through soccer game, with 11 more injured",
-      "summary": "Wichita police say 34-year-old truck driver from Garden City was taken into custody amid case at youth soccer game The two people killed on Saturday when a truck drove through a youth soccer game in north-east Wichita, Kansas , were a six-year-old boy and a 35-year-old man, according to authorities. Eleven other people between the ages of five and 68 were injured in a case whose possible motivations remained unclear early on Sunday, when it was still capturing widespread attention across the US. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T14:58:27+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1462,6 +1488,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T10:28:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4a5aec26e9d734738491bc8c",
+      "title": "France reports almost 2,400 arrests after riots, looting and arson during cost-of-living protests",
+      "summary": "Rioters torched public buildings and looted shops across France, destroying Limoges' historic town hall. The violence erupted during nationwide cost-of-living protests.",
+      "url": "https://www.dw.com/en/france-reports-almost-2-400-arrests-after-riots-looting-and-arson-during-cost-of-living-protests/a-79692322?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T10:26:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -3772,11 +3811,11 @@
       "summary": "Zelenskyy described the move as unfortunate, adding it would encourage Russia to continue its assault. Trump told Congress that the pause was in the national interest but gave no further details.",
       "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
       "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
+      "feed_id": "npr_world",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T14:25:10+00:00",
-      "desk_priority": 46,
+      "desk_priority": 51,
       "selection_type": "automatic"
     },
     {
@@ -5480,45 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T21:11:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9c1e8c35d84c021ee4edb2ff",
-      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "summary": "U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.",
-      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T20:02:21+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "212b8b51c51d2748928ccd83",
-      "title": "LA fire survivors set to lose case managers as California and FEMA's standoff drags on",
-      "summary": "The program's early termination is the latest setback for Los Angeles communities in the middle of recovery and awaiting billions of additional federal dollars.",
-      "url": "https://www.pbs.org/newshour/politics/la-fire-survivors-set-to-lose-case-managers-as-california-and-femas-standoff-drags-on",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T19:43:10+00:00",
-      "desk_priority": 31,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "00bf2016198fbcc72b3c387d",
-      "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
-      "summary": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
-      "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T19:40:00+00:00",
-      "desk_priority": 38,
       "selection_type": "automatic"
     }
   ]
