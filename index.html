@@ -148,6 +148,8 @@
 <title>Standalone News | Latest Headlines, Markets &amp; Source-Linked Coverage</title>
 <link href="./refresh-2026.css?v=1" rel="stylesheet"/><link rel="stylesheet" href="./broadsheet.css?v=1">
 <link rel="stylesheet" href="./mobile-six.css?v=1">
+<link rel="stylesheet" href="./home-sports.css?v=1">
+<script defer src="./home-sports.js?v=1"></script>
 </head>
 <body class="theme-refresh theme-broadsheet home-broadsheet">
 <a class="skip" href="#main">Skip to main content</a>
@@ -186,6 +188,16 @@
 <aside class="broadsheet-desk" aria-label="Explore the independent news desk"><span class="folio-label">THE READER'S INDEX</span><h2>Inside this edition.</h2><p>Every story begins with a source. Follow the subjects that matter to you.</p><nav class="desk-menu" aria-label="Sections in this edition"><a href="#wire"><strong>Latest dispatches ↗</strong><span>BREAKING · VERIFIED SOURCE LINKS</span></a><a href="#brief"><strong>Your five-story brief ↗</strong><span>A FASTER WAY TO CATCH UP</span></a><a href="./markets.html"><strong>The market desk ↗</strong><span>STOCKS · ECONOMY · POLICY</span></a><a href="./sports.html"><strong>The sports desk ↗</strong><span>UFC · GAMES · SCORES</span></a><a href="./research.html"><strong>Company research ↗</strong><span>SEC DOCUMENTS & INSIDER FILINGS</span></a><a href="./discuss.html"><strong>The discussion ↗</strong><span>COMMUNITY & READER VIEWS</span></a></nav><div class="desk-note"><strong>FROM THE EDITOR'S DESK</strong><p>Independent, automated news discovery with visible attribution and human-verifiable original sources.</p><a href="./standards.html">How we work ↗</a></div></aside>
 </section>
 <section class="section top-stories" id="top-stories"><div class="section-header"><div><span class="section-eyebrow">DESK PRIORITY · AUTOMATICALLY RANKED · SOURCE-LINKED</span><h2>Featured reporting<span class="red-period">.</span></h2><p class="section-desc">Four important stories selected for impact and source variety. Automatic ranking is not fact-checking.</p></div><a class="see-all" href="#wire">Browse all headlines <span>→</span></a></div><div class="story-grid" id="top-grid"><div class="empty-panel">Loading top stories…</div></div></section>
+<section class="section" id="sports-today" aria-labelledby="sports-today-title">
+  <div class="st-heading"><div><span class="st-kicker">THE SPORTS DESK · WORLD FOOTBALL · UFC</span><h2 id="sports-today-title">Sports Today<span class="red-period">.</span></h2></div><a class="st-all" href="./sports.html">All sports, schedules &amp; scores ↗</a></div>
+  <div class="st-grid">
+    <section class="st-box" aria-labelledby="st-upcoming-title"><h3 id="st-upcoming-title">Coming up</h3><div class="st-list" id="st-upcoming"><p class="st-detail">Loading actual schedules…</p></div></section>
+    <section class="st-box" aria-labelledby="st-results-title"><h3 id="st-results-title">Latest final scores</h3><div class="st-list" id="st-results"><p class="st-detail">Checking published results…</p></div></section>
+    <section class="st-box" aria-labelledby="st-soccer-title"><h3 id="st-soccer-title">Worldwide soccer</h3><div class="st-list" id="st-soccer"><p class="st-detail">Checking international football fixtures…</p></div><a class="st-country-link" href="./sports.html#sports-filters">All soccer leagues ↗</a></section>
+    <section class="st-box" aria-labelledby="st-ufc-title"><h3 id="st-ufc-title">UFC &amp; MMA</h3><div class="st-list" id="st-ufc"><p class="st-detail">Checking fight cards…</p></div></section>
+  </div>
+  <p class="st-footnote" id="st-status" role="status" aria-live="polite">Loading source-linked sports information…</p>
+</section>
 <section class="section wire-section" id="wire"><div class="section-header"><div><span class="section-eyebrow">SOURCE-LINKED COVERAGE</span><h2>The live news wire<span class="red-period">.</span></h2><p class="section-desc">Scan recent coverage by topic and source. Use filters to find headlines, explainers or your saved stories.</p></div><button class="refresh-button" id="reload-news" type="button">↻ Refresh</button></div><div aria-label="Search and filter news" class="wire-tools">
 <label class="search-box"><span aria-hidden="true" class="wire-search-icon">⌕</span><input aria-label="Search headlines, explainers, or saved stories" autocomplete="off" id="wire-search" placeholder="Search stories or publishers" type="search"/><span aria-hidden="true" class="search-shortcut">SEARCH</span></label>
 <div class="wire-quickbar">

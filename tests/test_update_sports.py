@@ -64,3 +64,24 @@ class SportsTests(unittest.TestCase):
         self.assertFalse(sports.safe_url('javascript:alert(1)'))
         self.assertEqual(sports.safe_url('https://www.espn.com/ufc'),'https://www.espn.com/ufc')
 if __name__=='__main__':unittest.main()
+
+class InternationalSoccerCoverageTests(unittest.TestCase):
+    def test_multiple_countries_and_international_competition(self):
+        rows=dict((x[0],x[1]) for x in sports.LEAGUES)
+        for slug in ['epl','laliga','bundesliga','seriea','ligue1','ucl','brasileirao','argentina','ligamx','j1','aleague','primeira','mls']:
+            self.assertIn(slug,rows)
+            self.assertIn(slug,sports.SPORTSDB_LEAGUE_IDS)
+        self.assertEqual(len({sports.SPORTSDB_LEAGUE_IDS[x] for x in sports.SPORTSDB_LEAGUE_IDS}),len(sports.SPORTSDB_LEAGUE_IDS))
+    def test_international_football_result(self):
+        row={'idEvent':'8888','strEvent':'Barcelona vs Real Madrid','strTimestamp':'2026-10-17T21:00:00Z',
+             'strHomeTeam':'Barcelona','strAwayTeam':'Real Madrid','strStatus':'Final',
+             'intHomeScore':'2','intAwayScore':'1'}
+        match=sports.sportsdb_event(row,'laliga',NOW)
+        self.assertEqual(match['league'],'laliga')
+        self.assertEqual(match['participants'][0]['score'],'2')
+    def test_football_rss_is_classified_soccer(self):
+        data=b'<rss><channel><item><title>Barcelona prepares for derby</title><link>https://example.com/story</link><pubDate>Fri, 16 Oct 2026 23:00:00 GMT</pubDate></item></channel></rss>'
+        self.assertEqual(sports.parse_sports_rss(data,'BBC Football',NOW)[0]['league'],'soccer')
+    def test_mma_rss_is_ufc_section(self):
+        data=b'<rss><channel><item><title>UFC fight news</title><link>https://example.com/story2</link><pubDate>Fri, 16 Oct 2026 23:00:00 GMT</pubDate></item></channel></rss>'
+        self.assertEqual(sports.parse_sports_rss(data,'MMA Fighting',NOW)[0]['league'],'ufc')

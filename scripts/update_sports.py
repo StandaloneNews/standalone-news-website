@@ -33,12 +33,26 @@ LEAGUES = (
     ('ncaaf', 'College Football', 'football/college-football'),
     ('ncaab', 'College Basketball', 'basketball/mens-college-basketball'),
     ('epl', 'Premier League', 'soccer/eng.1'),
+    ('laliga', 'Spanish La Liga', 'soccer/esp.1'),
+    ('bundesliga', 'German Bundesliga', 'soccer/ger.1'),
+    ('seriea', 'Italian Serie A', 'soccer/ita.1'),
+    ('ligue1', 'French Ligue 1', 'soccer/fra.1'),
+    ('ucl', 'UEFA Champions League', 'soccer/uefa.champions'),
+    ('brasileirao', 'Brazilian Série A', 'soccer/bra.1'),
+    ('argentina', 'Argentinian Primera División', 'soccer/arg.1'),
+    ('ligamx', 'Mexican Liga MX', 'soccer/mex.1'),
+    ('j1', 'Japanese J1 League', 'soccer/jpn.1'),
+    ('aleague', 'Australian A-League', 'soccer/aus.1'),
+    ('primeira', 'Portuguese Primeira Liga', 'soccer/por.1'),
     ('mls', 'MLS', 'soccer/usa.1'),
 )
 NEWS_FEEDS = (
     ('BBC Sport', 'https://feeds.bbci.co.uk/sport/rss.xml'),
     ('The Guardian Sport', 'https://www.theguardian.com/uk/sport/rss'),
     ('BBC MMA', 'https://feeds.bbci.co.uk/sport/mixed-martial-arts/rss.xml'),
+    ('BBC Football', 'https://feeds.bbci.co.uk/sport/football/rss.xml'),
+    ('The Guardian Football', 'https://www.theguardian.com/football/rss'),
+    ('MMA Fighting', 'https://www.mmafighting.com/rss/index.xml'),
 )
 
 
@@ -178,7 +192,7 @@ def parse_sports_rss(xml: bytes, publisher: str, now: datetime) -> list[dict]:
             except (ValueError, TypeError, OverflowError):date=moment(raw_date)
         if not title or not url or not date or not now-timedelta(days=5)<=date<=now+timedelta(hours=1):continue
         out.append({'title':title,'source':publisher,'url':url,'date':date.isoformat(timespec='seconds').replace('+00:00','Z'),
-                    'league':'ufc' if publisher=='BBC MMA' or re.search(r'\b(ufc|mma|octagon|jon jones)\b',title,re.I) else 'all'})
+                    'league':'ufc' if publisher in ('BBC MMA','MMA Fighting') or re.search(r'\b(ufc|mma|octagon|jon jones)\b',title,re.I) else 'soccer' if publisher in ('BBC Football','The Guardian Football') else 'all'})
         if len(out)>=24:break
     return out
 
@@ -216,7 +230,7 @@ def fetch_sports_news(now:datetime) -> list[dict]:
 SPORTSDB_BASE = 'https://www.thesportsdb.com/api/v1/json/123/'
 SPORTSDB_LEAGUE_IDS = {
     'ufc':'4463', 'nfl':'4391','nba':'4387','mlb':'4424','nhl':'4380',
-    'ncaaf':'4479','epl':'4328','mls':'4346'
+    'ncaaf':'4479','epl':'4328','laliga':'4335','bundesliga':'4331','seriea':'4332','ligue1':'4334','ucl':'4480','brasileirao':'4351','argentina':'4406','ligamx':'4350','j1':'4633','aleague':'4356','primeira':'4344','mls':'4346'
 }
 
 def sportsdb_event(raw: dict, league: str, now: datetime) -> dict | None:
@@ -310,7 +324,7 @@ def build(now: datetime) -> dict | None:
         events.extend(recent+upcoming)
     return {'updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),
             'source':provider+' and attributed sport publishers',
-            'provider_note':'Scores and fixtures may be delayed or incomplete. TheSportsDB free tier can return only one next and one previous game per league. Times are start times.',
+            'provider_note':'Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.',
             'sources_ok':successes,'sources_attempted':attempted,
             'leagues':[{'id':slug,'name':name,'events':len(groups[slug])} for slug,name,_ in LEAGUES],
             'events':events,'stories':fetch_sports_news(now)}

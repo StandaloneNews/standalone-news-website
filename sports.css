@@ -49,3 +49,11 @@ body.sports-page{background:var(--sd-cream)!important;color:var(--sd-ink);font-f
 @media(max-width:900px){.sports-game-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sports-intro{grid-template-columns:1fr}.sports-update{max-width:480px}.sports-ufc-list{grid-template-columns:1fr}}
 @media(max-width:620px){.sports-container{width:calc(100% - 32px)}.sports-head-row{min-height:64px}.sports-edition{display:none}.sports-intro{padding:34px 0 28px;gap:20px}.sports-intro h1{font-size:clamp(39px,9vw,55px)!important}.sports-deck{font-size:17px}.sports-feature-row{grid-template-columns:1fr;gap:12px;padding-bottom:28px}.sports-summary{min-height:0;padding:22px}.sports-game-grid,.sports-news-list{grid-template-columns:1fr}.sports-game{padding:17px}.sports-section{padding:26px 0 38px}.sports-news-card h3{font-size:21px!important}.sports-section-heading{align-items:start}.sports-original{font-size:12px}.sports-footer .sports-container{display:block}.sports-footer nav{margin:20px 0}.sports-ufc-card{padding:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* International soccer league quick filters */
+.sports-league-detail{display:flex;align-items:center;gap:7px;overflow-x:auto;padding:8px 0 14px;scrollbar-width:thin;min-width:0}
+.sports-league-detail span{white-space:nowrap;font:700 10px/1.2 Arial,Helvetica,sans-serif;letter-spacing:.08em;color:#465969;padding-right:5px}
+.sports-league-detail button{flex:none;min-height:44px;padding:8px 12px;border:1px solid #a5b0b5;background:#fffdf7;color:#263d4c;border-radius:2px;font:700 12px/1.2 Arial,Helvetica,sans-serif;cursor:pointer}
+.sports-league-detail button[aria-pressed="true"]{background:#1c374b;color:white}
+.sports-league-detail button:focus-visible{outline:3px solid #17618b;outline-offset:2px}
+.sports-ufc-sources{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
