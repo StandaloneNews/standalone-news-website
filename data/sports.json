@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-18T07:21:48Z",
-  "source": "TheSportsDB v1 documented free API and attributed sport publishers",
+  "updated_at": "2026-10-18T07:26:13Z",
+  "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 0
+      "events": 6
     },
     {
       "id": "nfl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -107,6 +107,846 @@
     }
   ],
   "events": [
+    {
+      "id": "mma-20261024-ufc-333-volkanovski-vs-evloev",
+      "league": "ufc",
+      "name": "UFC 333: Volkanovski vs. Evloev",
+      "date": "2026-10-24T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Alexander Volkanovski",
+              "score": ""
+            },
+            {
+              "name": "Movsar Evloev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Petr Yan",
+              "score": ""
+            },
+            {
+              "name": "Merab Dvalishvili 3",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Lone’er Kavanagh",
+              "score": ""
+            },
+            {
+              "name": "Ramazan Temirov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Alexander Volkov",
+              "score": ""
+            },
+            {
+              "name": "Rizvan Kuniev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Aaron Pico",
+              "score": ""
+            },
+            {
+              "name": "Losene Keita",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Dominick Reyes",
+              "score": ""
+            },
+            {
+              "name": "Azamat Murzakanov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Nikita Krylov",
+              "score": ""
+            },
+            {
+              "name": "Abdul Rakhman Yakhyaev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Abus Magomedov",
+              "score": ""
+            },
+            {
+              "name": "Cam Rowston",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Grant Dawson",
+              "score": ""
+            },
+            {
+              "name": "Nurullo Aliev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Colby Thicknesse",
+              "score": ""
+            },
+            {
+              "name": "Asaf Chopurov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
+      "id": "mma-20261031-ufc-vegas-123-moicano-vs-nolan",
+      "league": "ufc",
+      "name": "UFC Vegas 123: Moicano vs. Nolan",
+      "date": "2026-10-31T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Renato Moicano",
+              "score": ""
+            },
+            {
+              "name": "Tom Nolan",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Lucia Szabova",
+              "score": ""
+            },
+            {
+              "name": "Tainara Lisboa",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Nick Klein",
+              "score": ""
+            },
+            {
+              "name": "Joseph Kropschot",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Yana Santos",
+              "score": ""
+            },
+            {
+              "name": "Luana Santos",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Talita Alencar",
+              "score": ""
+            },
+            {
+              "name": "Piera Rodriguez",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Rodrigo Sezinando",
+              "score": ""
+            },
+            {
+              "name": "Theodor Berggren",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jean-Paul Lebosnoyani",
+              "score": ""
+            },
+            {
+              "name": "Farman Hasanov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Azamat Bekoev",
+              "score": ""
+            },
+            {
+              "name": "Andre Petroski",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Julian Erosa",
+              "score": ""
+            },
+            {
+              "name": "Jeong Yeong Lee",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
+      "id": "mma-20261107-ufc-vegas-124-bonfim-vs-brady",
+      "league": "ufc",
+      "name": "UFC Vegas 124: Bonfim vs. Brady",
+      "date": "2026-11-07T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Gabriel Bonfim",
+              "score": ""
+            },
+            {
+              "name": "Sean Brady",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Tatiana Suarez",
+              "score": ""
+            },
+            {
+              "name": "Virna Jandiroba",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Mantas Kondratavicius",
+              "score": ""
+            },
+            {
+              "name": "Wes Schultz",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Billy Elekana",
+              "score": ""
+            },
+            {
+              "name": "Lucas Fernando",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Austin Bashi",
+              "score": ""
+            },
+            {
+              "name": "Lucas Brennan",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Karine Silva",
+              "score": ""
+            },
+            {
+              "name": "Gabriella Fernandes",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Priscila Cachoeira",
+              "score": ""
+            },
+            {
+              "name": "Nina Milosevic",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Keiichiro Nakamura",
+              "score": ""
+            },
+            {
+              "name": "Ollie Schmid",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Seokhyon Ko",
+              "score": ""
+            },
+            {
+              "name": "Wellington Turman",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jonny Parsons",
+              "score": ""
+            },
+            {
+              "name": "Jose Souza",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
+      "id": "mma-20261114-ufc-334-gane-vs-hokit",
+      "league": "ufc",
+      "name": "UFC 334: Gane vs. Hokit",
+      "date": "2026-11-14T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Ciryl Gane",
+              "score": ""
+            },
+            {
+              "name": "Josh Hokit",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Kayla Harrison",
+              "score": ""
+            },
+            {
+              "name": "Amanda Nunes",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Caio Borralho",
+              "score": ""
+            },
+            {
+              "name": "Yousri Belgaroui",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Uros Medic",
+              "score": ""
+            },
+            {
+              "name": "Kevin Holland",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Bilal Hasan",
+              "score": ""
+            },
+            {
+              "name": "Luis Gurule",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Drew Dober",
+              "score": ""
+            },
+            {
+              "name": "Chris Duncan",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Stephen Thompson",
+              "score": ""
+            },
+            {
+              "name": "Charles Radtke",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Donte Johnson",
+              "score": ""
+            },
+            {
+              "name": "Cesar Almeida",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jim Miller",
+              "score": ""
+            },
+            {
+              "name": "Terrance McKinney",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Bia Mesquita",
+              "score": ""
+            },
+            {
+              "name": "Macy Chiasson",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
+      "id": "mma-20261121-ufc-qatar-prochazka-vs-stirling",
+      "league": "ufc",
+      "name": "UFC Qatar: Prochazka vs. Stirling",
+      "date": "2026-11-21T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Jiri Prochazka",
+              "score": ""
+            },
+            {
+              "name": "Navajo Stirling",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Aljamain Sterling",
+              "score": ""
+            },
+            {
+              "name": "Kevin Vallejos",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Dan Hooker",
+              "score": ""
+            },
+            {
+              "name": "Brian Ortega",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Asu Almabayev",
+              "score": ""
+            },
+            {
+              "name": "Kyoji Horiguchi",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jared Cannonier",
+              "score": ""
+            },
+            {
+              "name": "Ikram Aliskerov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Aleksandre Topuria",
+              "score": ""
+            },
+            {
+              "name": "Santiago Luna",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Shamil Gaziev",
+              "score": ""
+            },
+            {
+              "name": "Tallison Teixeira",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jake Matthews",
+              "score": ""
+            },
+            {
+              "name": "Tahir Abdullayev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Amir Albazi",
+              "score": ""
+            },
+            {
+              "name": "Alessandro Costa 2",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
+      "id": "mma-20261212-ufc-335-oliveira-vs-lopes",
+      "league": "ufc",
+      "name": "UFC 335: Oliveira vs. Lopes",
+      "date": "2026-12-12T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Charles Oliveira",
+              "score": ""
+            },
+            {
+              "name": "Diego Lopes",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Sergei Pavlovich",
+              "score": ""
+            },
+            {
+              "name": "Alex Pereira",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Joe Pyfer",
+              "score": ""
+            },
+            {
+              "name": "Bo Nickal",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Brandon Moreno",
+              "score": ""
+            },
+            {
+              "name": "Charles Johnson",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Maycee Barber",
+              "score": ""
+            },
+            {
+              "name": "Carli Judice",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Quentin Pasley",
+              "score": ""
+            },
+            {
+              "name": "Junior Tafa",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
     {
       "id": "sportsdb-2475454",
       "league": "nfl",
@@ -277,59 +1117,21 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
-      "date": "2026-10-18T13:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Martinez 'back in a few weeks' after operation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T07:25:23Z",
+      "league": "all"
+    },
     {
       "title": "'What a finish!' - Gillespie wins gold for Ireland",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cycling/videos/cjy56pk5wg54o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T07:09:20Z",
-      "league": "all"
-    },
-    {
-      "title": "Martinez 'back in a few weeks' after operation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T07:08:08Z",
       "league": "all"
     },
     {
@@ -429,13 +1231,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/17/scottish-premiership-kilmarnock-rangers-dundee-celtic-hearts",
       "date": "2026-10-17T21:33:58Z",
       "league": "all"
-    },
-    {
-      "title": "European football: Barcelona thrash Real Betis to maintain 100% record",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
-      "date": "2026-10-17T21:33:46Z",
-      "league": "soccer"
     },
     {
       "title": "Champions Cup roundup: La Rochelle beat Lions after emotional tribute to Andrews",
@@ -631,6 +1426,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/17/british-champions-day-at-ascot-champion-stakes-queen-elizabeth-ii-stakes-and-more-live",
       "date": "2026-10-17T16:00:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Boos at Arsenal as draw with Birmingham extends winless WSL run",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report",
+      "date": "2026-10-17T15:44:19Z",
       "league": "all"
     }
   ]
