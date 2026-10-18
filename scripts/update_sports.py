@@ -214,7 +214,7 @@ def build(now: datetime) -> dict | None:
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for slug,rows,error in pool.map(lambda task:get_scoreboard(task,now),jobs):
             if not error:successes+=1
-            else:errors.append(slug)
+            else:errors.append((slug,error))
             for item in rows:
                 old=groups[slug].get(item['id'])
                 if not old or (len(item.get('fights',[]))>len(old.get('fights',[]))):groups[slug][item['id']]=item
