@@ -44,7 +44,7 @@ class DeskTests(unittest.TestCase):
     def test_repeated_photo_not_assigned_to_two_featured_headlines(self):
         recent=[{'id':'a','url':'https://example.com/a','title':'Federal Reserve announces rates'},
                 {'id':'b','url':'https://example.com/b','title':'Federal Reserve meets this week'}]
-        photo={'thumb_url':'https://upload.wikimedia.org/a.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Federal',
+        photo={'thumb_url':'https://upload.wikimedia.org/a.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg',
                'license':'CC BY 4.0','source':'Wikimedia Commons','matched_query':'Federal Reserve building Washington DC'}
         with mock.patch.object(mod,'match_image',return_value=photo):
             items,count=mod.attach_images(recent,recent)
@@ -54,7 +54,7 @@ class DeskTests(unittest.TestCase):
 
     def test_preserve_valid_previous_image(self):
         photo={'thumb_url':'https://upload.wikimedia.org/wikipedia/commons/test.jpg',
-               'page_url':'https://commons.wikimedia.org/wiki/File:Federal',
+               'page_url':'https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg',
                'source':'Wikimedia Commons','license':'CC BY 4.0',
                'matched_query':'Federal Reserve building Washington DC'}
         items,count=mod.attach_images([{'id':'a','url':'https://example.com/a','title':'Federal Reserve makes statement'}],
@@ -72,7 +72,7 @@ class ImageQualityTests(unittest.TestCase):
     def test_named_institution_gets_query(self):
         self.assertIn('Federal Reserve building Washington DC',mod.candidate_queries({'title':'Federal Reserve announces rate decision','category':'Fed'}))
     def test_reuse_requires_matching_specific_subject_and_license(self):
-        img={'thumb_url':'https://commons.wikimedia.org/img.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Fed',
+        img={'thumb_url':'https://commons.wikimedia.org/img.jpg','page_url':'https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg',
              'source':'Wikimedia Commons','license':'CC BY-SA 4.0','matched_query':'Federal Reserve building Washington DC'}
         self.assertTrue(mod.image_is_safe(img,mod.candidate_queries({'title':'Federal Reserve releases report'})))
         self.assertFalse(mod.image_is_safe(img,mod.candidate_queries({'title':'Nasdaq drops in afternoon trading'})))
@@ -81,3 +81,44 @@ class ImageQualityTests(unittest.TestCase):
 
 if __name__=='__main__':
     unittest.main()
+
+
+class MoreImageQualityTests(unittest.TestCase):
+    def test_fed_keyword_matches_lead_story(self):
+        self.assertIn('Federal Reserve building Washington DC',mod.candidate_queries(
+            {'title':'Fed holds interest rates steady after energy shock'}))
+
+    def test_city_skyline_does_not_match_a_car(self):
+        self.assertFalse(mod.subject_matches('Moscow Russia skyline',
+                         'Moscow, blue Nissan Skyline, July 2025 03.jpg'))
+
+    def test_capitol_does_not_match_protest_photo(self):
+        self.assertFalse(mod.subject_matches('United States Capitol building',
+                         '2021 storming of the United States Capitol DSC09254.jpg'))
+
+    def test_approved_federal_reserve_subject(self):
+        self.assertTrue(mod.subject_matches('Federal Reserve building Washington DC',
+                        'Marriner S. Eccles Federal Reserve Board Building.jpg'))
+
+    def test_generic_headline_does_not_get_arbitrary_photo(self):
+        self.assertEqual([],mod.candidate_queries({'title':'Stocks fall as markets weigh inflation'}))
+
+    def test_old_wrong_commons_image_rejected(self):
+        img={'thumb_url':'https://thumb.wikimedia.org/car.jpg',
+             'page_url':'https://commons.wikimedia.org/wiki/File:Moscow,_blue_Nissan_Skyline.jpg',
+             'source':'Wikimedia Commons','license':'CC0','matched_query':'Moscow Russia skyline'}
+        self.assertFalse(mod.image_is_safe(img,mod.candidate_queries({'title':'New sanctions on Russia'})))
+
+    def test_curated_photo_metadata_license_checked(self):
+        photo={'query':{'pages':{'11':{
+            'title':'File:Marriner S. Eccles Federal Reserve Board Building.jpg',
+            'imageinfo':[{'mime':'image/jpeg','width':1900,
+            'thumburl':'https://upload.wikimedia.org/fed.jpg',
+            'descriptionurl':'https://commons.wikimedia.org/wiki/File:Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg',
+            'extmetadata':{'Artist':{'value':'Photographer'},'LicenseShortName':{'value':'CC BY-SA 3.0'}}}]
+        }}}}
+        with mock.patch.object(mod,'commons_request',return_value=photo):
+            found=mod.search_commons('Federal Reserve building Washington DC')
+        self.assertEqual(len(found),1)
+        self.assertEqual(found[0]['source'],'Wikimedia Commons')
+        self.assertTrue(mod.license_allowed(found[0]['license']))

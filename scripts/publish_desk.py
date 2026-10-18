@@ -30,8 +30,8 @@ MAX_STORED_HEADLINES = 420
 MAX_AGE_HOURS = 72
 USER_AGENT = 'StandaloneNewsDesk/1.1 (+https://standalonenews.com)'
 COMMONS_API = 'https://commons.wikimedia.org/w/api.php'
-IMAGE_LIMIT = 18
-MAX_NEW_LOOKUPS = 14  # bounded image searches per run
+IMAGE_LIMIT = 36
+MAX_NEW_LOOKUPS = 24  # bounded source lookups; priority to featured stories
 PEXELS_KEY = os.environ.get('PEXELS_API_KEY', '').strip()
 PEXELS_API = 'https://api.pexels.com/v1/search'
 
@@ -360,7 +360,69 @@ def score_candidate(page_title: str, mime: str, width: int, query: str) -> int:
     return score
 
 
+# Carefully selected subjects, not photographs of the events reported in headlines.
+# Metadata and license are checked afresh from Wikimedia on each match.
+CURATED_COMMONS_FILES = {
+    'Federal Reserve building Washington DC': 'File:Marriner S. Eccles Federal Reserve Board Building.jpg',
+    'United States Capitol building': 'File:United States Capitol Building, East Front.jpg',
+    'White House Washington DC': 'File:White House from North.jpg',
+    'Moscow Russia skyline': 'File:Panorama of Moscow Kremlin.jpg',
+    'Kyiv Ukraine skyline': 'File:Kyiv panoramic.jpg',
+}
+
+def subject_matches(query: str, title: str, description: str = '') -> bool:
+    """Reject unrelated matches such as a Nissan Skyline for the Moscow skyline."""
+    name=title.lower().replace('_',' ')
+    q=query.lower()
+    if re.search(r'\b(nissan|sedan|automobile|car|truck|vehicle|race car|motorcycle|storming|riot|protest|demonstration|january 6|jan 6|insurrection|arrest|bombing|explosion|terror attack|firefight|cartoon)\b',name):
+        return False
+    if 'federal reserve' in q:
+        return bool(re.search(r'\b(federal reserve|eccles building|eccles federal reserve)\b',name))
+    if 'capitol' in q:
+        return 'capitol' in name and bool(re.search(r'\b(building|east|west|front|dome|facade|exterior|view)\b',name))
+    if 'white house' in q:
+        return 'white house' in name or 'whitehouse' in name
+    if 'moscow' in q:
+        return 'moscow' in name and bool(re.search(r'\b(kremlin|panorama|skyline|cityscape|city view)\b',name))
+    if 'kyiv' in q:
+        return ('kyiv' in name or 'kiev' in name) and bool(re.search(r'\b(panoramic|panorama|skyline|cityscape|view|centre)\b',name))
+    terms={w.lower() for w in tokens_for_query(query)}
+    matched={w.lower() for w in tokens_for_query(name)} & terms
+    return len(matched)>=2
+
+def search_curated_commons(query: str) -> list[dict]:
+    """Exact-file lookup; always validate live license and file type."""
+    filename=CURATED_COMMONS_FILES.get(query)
+    if not filename:return []
+    try:
+        data=commons_request({
+            'action':'query','format':'json','titles':filename,
+            'prop':'imageinfo','iiprop':'url|mime|size|extmetadata','iiurlwidth':'1280'})
+    except Exception:
+        return []
+    for page in (data.get('query') or {}).get('pages', {}).values():
+        if page.get('missing') is not None:continue
+        ii=(page.get('imageinfo') or [{}])[0]
+        meta=ii.get('extmetadata') or {}
+        license_name=strip_meta((meta.get('LicenseShortName') or {}).get('value',''))
+        if not license_allowed(license_name) or ii.get('mime') not in ('image/jpeg','image/png','image/webp'):
+            continue
+        if int(ii.get('width') or 0)<800:continue
+        url=ii.get('thumburl') or ii.get('url') or ''
+        page_url=ii.get('descriptionurl') or ''
+        title=page.get('title','')
+        if not str(url).startswith('https://') or not str(page_url).startswith('https://commons.wikimedia.org/'):
+            continue
+        if not subject_matches(query,title):continue
+        return [{'title':title,'thumb_url':url,'page_url':page_url,
+                 'source':'Wikimedia Commons','creator':strip_meta((meta.get('Artist') or {}).get('value','')) or 'Unknown',
+                 'license':license_name,'description':strip_meta((meta.get('ImageDescription') or {}).get('value','')),
+                 'query':query,'score':100}]
+    return []
+
 def search_commons(query: str) -> list[dict]:
+    curated=search_curated_commons(query)
+    if curated:return curated
     params = {
         'action':'query','format':'json','generator':'search','gsrnamespace':'6','gsrlimit':'8',
         'gsrsearch': query,
@@ -380,7 +442,7 @@ def search_commons(query: str) -> list[dict]:
         meta = ii.get('extmetadata') or {}
         title = clean(page.get('title','').replace('File:',''))
         license_name = strip_meta((meta.get('LicenseShortName') or {}).get('value',''))
-        if not license_allowed(license_name) or title_rejected(title):
+        if not license_allowed(license_name) or title_rejected(title) or not subject_matches(query,title):
             continue
         mime = ii.get('mime','')
         width = int(ii.get('width') or 0)
@@ -432,6 +494,9 @@ def search_pexels(query: str) -> list[dict]:
         page=photo.get('url') or ''
         if not (str(img).startswith('https://images.pexels.com/') and str(page).startswith('https://www.pexels.com/')):
             continue
+        # Search results are not proof that a photo depicts a named place or person.
+        if not subject_matches(query,clean(photo.get('alt') or '')):
+            continue
         photos.append({'thumb_url':img,'page_url':page,'source':'Pexels',
                        'creator':clean(photo.get('photographer') or ''),
                        'license':'Pexels License','description':clean(photo.get('alt') or query),
@@ -443,6 +508,8 @@ def search_pexels(query: str) -> list[dict]:
 # in the actual headline. Do not turn broad concepts like "markets", "inflation",
 # "stocks", "CPI", or a publisher's brand into a random street or store photo.
 SPECIFIC_IMAGE_SUBJECTS = {
+    'fed': 'Federal Reserve building Washington DC',
+    'federal open market committee': 'Federal Reserve building Washington DC',
     'federal reserve': 'Federal Reserve building Washington DC',
     'fed chair': 'Federal Reserve building Washington DC',
     'jerome powell': 'Federal Reserve building Washington DC',
@@ -493,8 +560,12 @@ def image_is_safe(image: dict, allowed_queries: list[str]) -> bool:
     if image.get('matched_query') not in allowed_queries:
         return False
     license_name=image.get('license','')
-    if image.get('source')=='Wikimedia Commons' and not license_allowed(license_name):
-        return False
+    if image.get('source')=='Wikimedia Commons':
+        if not license_allowed(license_name):return False
+        name=urllib.parse.unquote(image['page_url']).split('File:')[-1]
+        preferred=CURATED_COMMONS_FILES.get(image['matched_query'])
+        if preferred and name.replace('_',' ').lower()!=preferred.replace('File:','').lower():return False
+        if not subject_matches(image['matched_query'],name,image.get('description','')):return False
     if image.get('source')=='Pexels' and license_name!='Pexels License':
         return False
     if image.get('source') not in ('Wikimedia Commons','Pexels'):
@@ -510,7 +581,7 @@ def match_image(item: dict, cache: dict, *, max_queries: int = 2) -> dict | None
                 images = search_pexels(query)
             cache[query] = images[:8]
         for result in cache.get(query) or []:
-            if result and result.get('thumb_url') and result.get('page_url'):
+            if result and result.get('thumb_url') and result.get('page_url') and (result.get('source')=='Pexels' or subject_matches(query,result.get('title',''))):
                 return {'thumb_url':result['thumb_url'],'page_url':result['page_url'],
                         'source':result.get('source','Wikimedia Commons'),
                         'creator':result.get('creator',''),
@@ -577,11 +648,12 @@ def main() -> int:
         return 0 if OUTPUT.exists() else 1
     featured_ids={i['id'] for i in featured}
     items,image_count = attach_images(items, featured, previous)
+    print('Image provider: Wikimedia Commons'+(' and Pexels' if PEXELS_KEY else ' (Pexels API key not configured)'))
     payload={'updated_at':now.isoformat(timespec='seconds'),
              'method':'Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved',
              'sources_checked':len(FEEDS),'sources_ok':ok,
              'featured_ids':[r['id'] for r in featured],
-             'image_policy':'Only headline-specific subjects receive illustrative CC/Public Domain photos with attribution. No generic stock-photo filler.',
+             'image_policy':'Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.',
              'items':items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

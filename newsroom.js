@@ -65,7 +65,7 @@
  }
  function shortMeta(item){return item.source+' · '+utc(item.published_at,true);}
  function sourceLinkText(item){return item.type==='news'&&item.url.includes('news.google.com/')?'Read coverage ↗':'Original source ↗';}
- function creditLine(item){if(!item.image)return '';const bits=[];if(item.image.creator)bits.push('Photo: '+item.image.creator);bits.push(item.image.source||'Wikimedia Commons');if(item.image.license)bits.push(item.image.license);bits.push('cropped to fit');return bits.join(' · ');}
+ function creditLine(item){if(!item.image)return '';const bits=['Illustrative photo'];if(item.image.creator)bits.push('Photo: '+item.image.creator);bits.push(item.image.source||'Wikimedia Commons');if(item.image.license)bits.push(item.image.license);bits.push('cropped to fit');return bits.join(' · ');}
 
  function link(item,label){const a=el('a','',label||item.title);a.href=item.url;if(item.type==='news'){a.target='_blank';a.rel='noopener noreferrer';a.title='Open the original source in a new tab';}return a;}
  function iconCategory(item){return ({Markets:'↗',Economy:'%',World:'◎',Government:'§',Regulation:'⚖','US News':'◇',Technology:'⌘'})[item.category]||'◇';}
