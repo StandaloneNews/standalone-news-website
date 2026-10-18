@@ -208,19 +208,94 @@ def fetch_sports_news(now:datetime) -> list[dict]:
     return result[:45]
 
 
+
+# Documented TheSportsDB v1 free API fallback. Free endpoints return at most one
+# next / past event per league. Attribute the source and never extrapolate.
+SPORTSDB_BASE = 'https://www.thesportsdb.com/api/v1/json/123/'
+SPORTSDB_LEAGUE_IDS = {
+    'ufc':'4463', 'nfl':'4391','nba':'4387','mlb':'4424','nhl':'4380',
+    'ncaaf':'4479','epl':'4328','mls':'4346'
+}
+
+def sportsdb_event(raw: dict, league: str, now: datetime) -> dict | None:
+    if not isinstance(raw,dict):return None
+    when = moment(raw.get('strTimestamp'))
+    if not when:
+        date = clean(raw.get('dateEvent'),12)
+        clock = clean(raw.get('strTime'),15)
+        when = moment(date+'T'+(clock or '00:00:00')+'Z')
+    if not when or when<now-timedelta(days=8) or when>now+timedelta(days=65):return None
+    home=clean(raw.get('strHomeTeam'),70)
+    away=clean(raw.get('strAwayTeam'),70)
+    home_score=raw.get('intHomeScore')
+    away_score=raw.get('intAwayScore')
+    raw_status=clean(raw.get('strStatus') or '',35)
+    final_mark=bool(re.search(r'(?i)finished|final|full.?time|ft|after extra time',raw_status))
+    live_mark=bool(re.search(r'(?i)live|in progress|half.time|1st half|2nd half',raw_status))
+    if final_mark:state='final'
+    elif live_mark:state='live'
+    elif when<=now-timedelta(hours=5) and home_score is not None and away_score is not None:state='final'
+    else:state='upcoming'
+    parts=[]
+    for name,score in ((home,home_score),(away,away_score)):
+        if not name:continue
+        p={'name':name,'score':clean(score,12) if score is not None and state!='upcoming' else ''}
+        parts.append(p)
+    if state=='final' and len(parts)==2 and all(p['score'].isdigit() for p in parts):
+        values=[int(p['score']) for p in parts]
+        if values[0]!=values[1]:parts[values.index(max(values))]['winner']=True
+    title=clean(raw.get('strEvent') or raw.get('strEventAlternate'),110)
+    if not title:title=(' vs '.join([p['name'] for p in parts]) or 'Scheduled event')
+    return {'id':'sportsdb-'+clean(raw.get('idEvent') or title+'-'+when.isoformat(),130),
+            'league':league,'name':title,
+            'date':when.isoformat(timespec='seconds').replace('+00:00','Z'),
+            'state':state,'status':raw_status or ('Final' if state=='final' else 'Scheduled'),
+            'participants':parts,'url':'',
+            **({'fights':[{'fighters':parts,'state':state,'detail':raw_status}] if len(parts)==2 else []} if league=='ufc' else {})}
+
+def sportsdb_fallback(now: datetime) -> tuple[list[dict],int]:
+    jobs=[(slug,method) for slug in SPORTSDB_LEAGUE_IDS
+          for method in ('eventsnextleague.php','eventspastleague.php')]
+    def read(job):
+        slug,method=job
+        url=SPORTSDB_BASE+method+'?id='+SPORTSDB_LEAGUE_IDS[slug]
+        try:
+            data=json.loads(fetch_bytes(url).decode('utf-8'))
+            if not isinstance(data,dict):return slug,[],False
+            rows=data.get('events') or data.get('results') or []
+            if not isinstance(rows,list):return slug,[],False
+            return slug,[x for raw in rows if (x:=sportsdb_event(raw,slug,now))],True
+        except (ValueError,urllib.error.URLError,TimeoutError,OSError) as error:
+            print('TheSportsDB '+slug+' '+method+': '+type(error).__name__+' '+str(error)[:95],file=sys.stderr)
+            return slug,[],False
+    results=[];ok=0
+    # Limit throughput; free API allows up to 30 requests per minute.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+        for slug,events,success in pool.map(read,jobs):
+            if success:ok+=1
+            results+=events
+    return results,ok
+
 def build(now: datetime) -> dict | None:
     jobs=[j for league in LEAGUES for j in requests_for_league(league,now)]
     successes=0;groups={slug:{} for slug,_,_ in LEAGUES};errors=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for slug,rows,error in pool.map(lambda task:get_scoreboard(task,now),jobs):
             if not error:successes+=1
-            else:errors.append((slug,error))
+            else:errors.append(slug)
             for item in rows:
                 old=groups[slug].get(item['id'])
                 if not old or (len(item.get('fights',[]))>len(old.get('fights',[]))):groups[slug][item['id']]=item
+    provider='ESPN public scoreboards'
     if not successes:
-        print('Sports provider errors (sample): '+repr(errors[:5]),file=sys.stderr)
-        print('No sports providers answered: preserving the last successful feed.',file=sys.stderr)
+        print('ESPN provider errors (sample): '+repr(errors[:2]),file=sys.stderr)
+        alt,ok=sportsdb_fallback(now)
+        successes=ok
+        if alt:
+            for row in alt:groups[row['league']][row['id']]=row
+        provider='TheSportsDB v1 documented free API'
+    if not successes or not any(groups.values()):
+        print('No usable sports events returned: preserving previous feed.',file=sys.stderr)
         return None
     events=[]
     for slug,_,_ in LEAGUES:
@@ -229,8 +304,8 @@ def build(now: datetime) -> dict | None:
         upcoming=sorted((x for x in rows if x['state']!='final'),key=lambda x:x['date'])[:24]
         events.extend(recent+upcoming)
     return {'updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),
-            'source':'ESPN public scoreboards and attributed sport publishers',
-            'provider_note':'Scoreboard data can be delayed; public provider endpoints can change. Times are event start times.',
+            'source':provider+' and attributed sport publishers',
+            'provider_note':'Scores and fixtures may be delayed or incomplete. TheSportsDB free tier can return only one next and one previous game per league. Times are start times.',
             'sources_ok':successes,'sources_attempted':len(jobs),
             'leagues':[{'id':slug,'name':name,'events':len(groups[slug])} for slug,name,_ in LEAGUES],
             'events':events,'stories':fetch_sports_news(now)}

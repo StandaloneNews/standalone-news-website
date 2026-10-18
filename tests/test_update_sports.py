@@ -44,7 +44,22 @@ class SportsTests(unittest.TestCase):
         self.assertEqual(sports.parse_sports_rss(rss,'Publisher',NOW),[])
     def test_no_provider_data_does_not_overwrite(self):
         with mock.patch.object(sports,'get_scoreboard',return_value=('nfl',[],'ProviderError')):
-            self.assertIsNone(sports.build(NOW))
+            with mock.patch.object(sports,'sportsdb_fallback',return_value=([],0)):
+                self.assertIsNone(sports.build(NOW))
+    def test_thesportsdb_ufc_fight_card_normalized(self):
+        row={'idEvent':'42','strEvent':'UFC: Alpha vs Bravo','dateEvent':'2026-10-18',
+             'strTime':'03:00:00','strHomeTeam':'Alpha','strAwayTeam':'Bravo',
+             'intHomeScore':None,'intAwayScore':None}
+        out=sports.sportsdb_event(row,'ufc',NOW)
+        self.assertEqual(out['state'],'upcoming')
+        self.assertEqual(out['fights'][0]['fighters'][0]['name'],'Alpha')
+    def test_thesportsdb_game_results_only_if_provided(self):
+        row={'idEvent':'44','strEvent':'A vs B','strTimestamp':'2026-10-17T08:00:00Z',
+             'strHomeTeam':'A','strAwayTeam':'B','intHomeScore':'25','intAwayScore':'16','strStatus':'Final'}
+        out=sports.sportsdb_event(row,'nfl',NOW)
+        self.assertEqual(out['state'],'final')
+        self.assertEqual(out['participants'][0]['score'],'25')
+        self.assertTrue(out['participants'][0]['winner'])
     def test_url_safety(self):
         self.assertFalse(sports.safe_url('javascript:alert(1)'))
         self.assertEqual(sports.safe_url('https://www.espn.com/ufc'),'https://www.espn.com/ufc')
