@@ -1,0 +1,57 @@
+name: Refresh Standalone News Sports Desk
+
+on:
+  schedule:
+    - cron: '27,57 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_sports.py'
+      - 'tests/test_update_sports.py'
+      - '.github/workflows/update-sports.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: standalone-sports-main-write
+  cancel-in-progress: false
+
+jobs:
+  sports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test sports feed and scoreboard normalization
+        run: python -m unittest discover -s tests -p test_update_sports.py
+      - name: Fetch schedules, results, UFC cards and sports headlines
+        run: python scripts/update_sports.py
+      - name: Save source-derived sports data
+        shell: bash
+        run: |
+          git config user.name 'Standalone News Sports Desk Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/sports.json
+          if git diff --cached --quiet; then
+            echo 'Sports feed unchanged'
+            exit 0
+          fi
+          git commit -m 'Refresh sports schedules and results'
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo 'Published sports data to main'
+              exit 0
+            fi
+            sleep 6
+          done
+          echo 'Sports feed push failed after retries' >&2
+          exit 1
