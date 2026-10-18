@@ -10,7 +10,8 @@ const formatTime=value=>{const d=new Date(value);return Number.isNaN(+d)?'—':n
 const e=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;};
 function link(url,label){const a=e('a','sports-original',label);if(allowed(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}else a.hidden=true;return a;}
 function filtered(event){if(state.league==='all')return true;if(state.league==='college')return ['ncaaf','ncaab'].includes(event.league);if(state.league==='soccer')return SOCCER.has(event.league);return event.league===state.league;}
-function listItems(type){if(!state.data)return [];const rows=(state.data.events||[]).filter(x=>filtered(x) && (type==='upcoming'?x.state!=='final':x.state==='final'));
+function hasVerifiedFinalScore(row){const parts=Array.isArray(row.participants)?row.participants:[];return row.league!=='ufc'&&row.state==='final'&&parts.length>=2&&parts.slice(0,2).every(p=>p&&p.score!==null&&p.score!==undefined&&String(p.score).trim()!==''&&Number.isFinite(Number(p.score)));}
+function listItems(type){if(!state.data)return [];const rows=(state.data.events||[]).filter(x=>filtered(x) && (type==='upcoming'?x.state!=='final':hasVerifiedFinalScore(x)));
  rows.sort((a,b)=>type==='upcoming'?Date.parse(a.date)-Date.parse(b.date):Date.parse(b.date)-Date.parse(a.date));return rows.slice(0,type==='upcoming'?24:18);}
 function gameCard(item){const card=e('article','sports-game');const head=e('div','sports-game-header');head.append(e('span','',LEAGUES[item.league]||item.league));const status=e('span','sports-game-state'+(item.state==='live'?' live':''),item.state==='live'?'In progress':item.state==='final'?'Final':'Upcoming');head.append(status);card.append(head);
  const title=e('h3','',item.name);card.append(title);
@@ -24,21 +25,46 @@ function ufcCard(item){const card=e('article','sports-ufc-card');card.append(e('
  if(bouts.length){const ul=e('ul','sports-fight-card');for(const fight of bouts){const li=e('li');const names=(fight.fighters||[]).map(p=>p.name||'').filter(Boolean).join(' vs ');li.append(e('span','',names));let detail=fight.detail||((fight.state==='final')?'Final':'Scheduled');const win=(fight.fighters||[]).find(p=>p.winner);if(win&&fight.state==='final')detail='Winner: '+win.name;li.append(e('small','',detail));ul.append(li);}card.append(ul)}else card.append(e('p','',"Fight matchups aren't available from the current provider snapshot."));
  card.append(link(item.url,'Event details ↗'));return card;}
 function storyCard(story){const a=e('article','sports-news-card');const label=story.league==='ufc'?'UFC / MMA':story.league==='soccer'?'WORLD FOOTBALL':'SPORTS';a.append(e('div','sports-story-meta',label+' · '+(story.source||'Publisher')));const h=e('h3');const l=link(story.url,story.title||'Read article');l.className='';h.append(l);a.append(h);const time=e('time','',formatDate(story.date));time.dateTime=story.date;a.append(time);return a;}
-function render(){if(!state.data)return;const items=listItems('upcoming'),scores=listItems('final');$('upcoming-count').textContent=items.length+' scheduled';$('results-count').textContent=scores.length+' recent';
- fill('upcoming-list',items,gameCard,'No upcoming games found for this sport in the current date window.');fill('results-list',scores,gameCard,'No completed games found for this sport in the current date window.');
- $('upcoming-summary').textContent=items.length?items.length+' upcoming fixtures currently listed for '+(state.league==='all'?'the covered leagues':state.league.toUpperCase())+'.':'No upcoming fixtures are available in this feed.';
- const hasUfcEvents=state.data.events.some(x=>x.league==='ufc');
- const hasUfcNews=state.data.stories.some(x=>x.league==='ufc');
- $('ufc-cards').hidden=!hasUfcEvents;
+function render(){
+ if(!state.data)return;
+ const data=state.data;
+ const hasUfcEvents=data.events.some(x=>x.league==='ufc');
+ const hasUfcNews=data.stories.some(x=>x.league==='ufc');
  const ufcFilter=$('sports-filters').querySelector('[data-league="ufc"]');
  if(ufcFilter)ufcFilter.hidden=!(hasUfcEvents||hasUfcNews);
  if(!hasUfcEvents&&!hasUfcNews&&state.league==='ufc'){
    state.league='all';
    $('sports-filters').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.league==='all')));
  }
- const ufc=(state.data.events||[]).filter(x=>x.league==='ufc').sort((a,b)=>{const f=a.state==='final'?1:0,g=b.state==='final'?1:0;return f-g||(f===1?Date.parse(b.date)-Date.parse(a.date):Date.parse(a.date)-Date.parse(b.date))}).slice(0,4);
- fill('ufc-list',ufc,ufcCard,'No UFC fight cards are currently available from the provider.');
- const allStories=(state.data.stories||[]).filter(x=>state.league==='all'||state.league==='ufc'&&x.league==='ufc'||(state.league==='soccer'||SOCCER.has(state.league))&&x.league==='soccer'||!['ufc','soccer'].includes(state.league)&&!SOCCER.has(state.league)&&x.league==='all').slice(0,20);$('sports-news-count').textContent=allStories.length+' headlines';fill('sports-news-list',allStories,storyCard,'No verified, recent sports headlines are available in this update.');
+ const items=listItems('upcoming'),scores=listItems('final');
+ $('upcoming-count').textContent=items.length+' scheduled';
+ fill('upcoming-list',items,gameCard,'No upcoming games found for this sport in the current date window.');
+ $('results').hidden=scores.length===0;
+ $('results-count').textContent=scores.length+' recent';
+ if(scores.length)fill('results-list',scores,gameCard,'');
+ else $('results-list').replaceChildren();
+ $('upcoming-summary').textContent=items.length?items.length+' upcoming fixtures currently listed for '+(state.league==='all'?'the covered leagues':state.league.toUpperCase())+'.':'No upcoming fixtures are available in this feed.';
+ // UFC is its own sub-section. Do not show it for NBA, NFL, soccer, etc.
+ const showUfc=hasUfcEvents&&(state.league==='all'||state.league==='ufc');
+ $('ufc-cards').hidden=!showUfc;
+ if(showUfc){
+   const ufc=data.events.filter(x=>x.league==='ufc').sort((a,b)=>{
+     const f=a.state==='final'?1:0,g=b.state==='final'?1:0;
+     return f-g||(f===1?Date.parse(b.date)-Date.parse(a.date):Date.parse(a.date)-Date.parse(b.date));
+   }).slice(0,4);
+   fill('ufc-list',ufc,ufcCard,'No UFC fight cards are currently available from the provider.');
+ } else $('ufc-list').replaceChildren();
+ // Show only related article categories under a chosen filter.
+ const relevant=data.stories.filter(x=>{
+   if(state.league==='all')return true;
+   if(state.league==='soccer'||SOCCER.has(state.league))return x.league==='soccer';
+   if(state.league==='college')return ['ncaaf','ncaab','college'].includes(x.league);
+   return x.league===state.league;
+ }).slice(0,20);
+ $('sports-news').hidden=state.league!=='all'&&relevant.length===0;
+ $('sports-news-count').textContent=relevant.length+' headlines';
+ if(relevant.length||state.league==='all')fill('sports-news-list',relevant,storyCard,'No verified, recent sports headlines are available in this update.');
+ else $('sports-news-list').replaceChildren();
 }
 async function reload(){if(state.busy)return;state.busy=true;state.lastFetch=Date.now();try{const response=await fetch('./data/sports.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data.events)||!Array.isArray(data.stories)||!data.updated_at)throw Error('Missing sports data');state.data=data;
  const date=new Date(data.updated_at);const elapsed=Date.now()-Date.parse(data.updated_at);const old=Number.isFinite(elapsed)&&elapsed>3*3600*1000;
