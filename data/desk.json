@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T21:41:30+00:00",
+  "updated_at": "2026-10-18T22:05:24+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -15,9 +15,9 @@
     "4dacd487f56fc7846a41b6c2",
     "88a7f0e55fd07da20ec448d9",
     "7ce76d9833babb6d603ef30b",
+    "b7a3809b91cb40904fa54f9a",
     "ee86d917ab191175a19552e8",
     "94cb51be0b7079e0bbe9ccd9",
-    "27547e20af3314d6b72b8ee9",
     "9c99b0abc066eb4add2f69bf",
     "16eddc2105cf8883d0ab644d",
     "e2834c74f4065e96c922c178",
@@ -26,11 +26,47 @@
     "78cbf27c29cfeab62fc9548e",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
-    "41b5908d26fdb23c9f04763d",
-    "8613d36e39e97e35c500b46a"
+    "8613d36e39e97e35c500b46a",
+    "16c1ae4410612f7a22199a7c"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "b7a3809b91cb40904fa54f9a",
+      "title": "Ebola: Kenya cases rise to 8, spreads to 8th Congo province",
+      "summary": "A senior health official in Kenya said there have now been 8 Ebola infections in the country, while in DR Congo the disease has spread to an eighth province.",
+      "url": "https://www.dw.com/en/ebola-kenya-cases-rise-to-8-spreads-to-8th-congo-province/a-79694614?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T22:04:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "22a1f537b638663e04f34d04",
+      "title": "Criminal networks threaten the Amazon. Indigenous leaders want the UN to act",
+      "summary": "More than a dozen Indigenous representatives from Peru, Brazil, Colombia and Ecuador are participating in the Oct. 19-23 U.N. conference on transnational organized crime, known as COP13.",
+      "url": "https://www.pbs.org/newshour/world/criminal-networks-threaten-the-amazon-indigenous-leaders-want-the-un-to-act",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T21:40:14+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg/1280px-Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Joe Mabel",
+        "license": "CC BY-SA 4.0",
+        "description": "Sign for Amazon.com headquarters Audible tour, South Lake Union, Seattle, Washington, U.S.",
+        "label": "Illustrative photo",
+        "matched_query": "Amazon headquarters Seattle"
+      }
+    },
     {
       "id": "670c82a8c980467678e0e8e8",
       "title": "What we know so far about deadly fire at Canadian military base",
@@ -456,8 +492,8 @@
     },
     {
       "id": "9e235dbe784a1b6ca5b5a92b",
-      "title": "Macron criticises ‘unbridled violence’ after days of unrest and 2,000 arrests across France",
-      "summary": "Ministers, officials and police under pressure over response to protests as government holds crisis talks amid ‘colossal failure of the state’ The French president, Emmanuel Macron, has criticised “unbridled violence” after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted and more than 2,000 people arrested in cities across the country . “Watching these images, we have all asked ourselves how could French people do this to France?” he said in a televised address. Continue reading...",
+      "title": "Macron criticises ‘unbridled violence’ after days of unrest and 2,400 arrests across France",
+      "summary": "Ministers, officials and police under pressure over response to protests as government holds crisis talks amid ‘colossal failure of the state’ The French president, Emmanuel Macron, has criticised “unbridled violence” after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted and at least 2,400 people arrested in cities across the country . “Watching these images, we have all asked ourselves how could French people do this to France?” he said in a televised address. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -964,7 +1000,7 @@
     {
       "id": "f9be8e08ba5be488cc0d7eed",
       "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-      "summary": "Fire crews scrambled late into the night as fierce winds whipped flames beyond Canadian Forces Base Wainwright and into the surrounding rural area.",
+      "summary": "Fire crews scrambled late Saturday as fierce winds whipped flames beyond Canadian Forces Base Wainwright and into the surrounding rural area.",
       "url": "https://www.pbs.org/newshour/world/major-fire-breaks-out-in-alberta-after-deadly-incident-at-canadian-military-base",
       "source": "PBS News",
       "feed_id": "pbs_top",
@@ -2697,6 +2733,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T02:21:48+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6260906d6b21eaf689b31e03",
+      "title": "Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition",
+      "summary": "Canadian Prime Minister Mark Carney says a \"serious incident\" sparked a major fire at on Alberta military base. Four people have died, 39 are in hospital and at least 19 are in critical condition.",
+      "url": "https://www.dw.com/en/canada-fire-at-alberta-military-base-kills-four-leaves-19-in-critical-condition/a-79690515?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T02:08:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -5490,45 +5539,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T02:53:38+00:00",
       "desk_priority": 46,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b54bd9f5ed1630796df751b4",
-      "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
-      "summary": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024 Get our breaking news email , free app or daily news podcast A Mexican ⁠judge ⁠has sentenced ​three men to 158 years ⁠and nine months in prison each for ⁠the murder of ​two Australian ‌brothers ‌and their American friend during ‌a 2024 surf trip to the state of Baja California. The ‌defendants were declared guilty a week ​ago of homicide, aggravated robbery, robbery with violence and vehicle theft ⁠with violence, crimes committed against ​Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend ​Carter Rhoad. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:52:59+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "65d6194a8b19b362085c560a",
-      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
-      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
-      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:36:18+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a1365c50f71f1cd7c301b03d",
-      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T02:33:09+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
