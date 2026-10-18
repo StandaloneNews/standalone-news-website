@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T10:09:45Z",
+  "updated_at": "2026-10-18T10:48:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1100,57 +1100,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482199",
+      "id": "sportsdb-2482203",
       "league": "seriea",
-      "name": "Udinese vs Lecce",
-      "date": "2026-10-18T10:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Udinese",
-          "score": ""
-        },
-        {
-          "name": "Lecce",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
+      "name": "Fiorentina vs Como",
       "date": "2026-10-18T13:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Angers",
+          "name": "Fiorentina",
           "score": ""
         },
         {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
+          "name": "Como",
           "score": ""
         }
       ],
@@ -1159,17 +1121,24 @@
   ],
   "stories": [
     {
-      "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after surgery – matchday live",
+      "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after jaw surgery – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T10:07:55Z",
+      "date": "2026-10-18T10:39:27Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T10:07:50Z",
+      "date": "2026-10-18T10:38:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea v Tottenham: Women’s Super League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
+      "date": "2026-10-18T10:37:35Z",
       "league": "all"
     },
     {
@@ -1278,7 +1247,7 @@
       "league": "all"
     },
     {
-      "title": "South Africa bat against Australia after rain - second Test scorecard",
+      "title": "Rain returns as South Africa bat against Australia - second Test scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T00:00:00Z",
@@ -1327,7 +1296,7 @@
       "league": "soccer"
     },
     {
-      "title": "Can Hearts prove credentials at scene of title heartbreak?",
+      "title": "Will Hearts prove credentials at scene of title heartbreak?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T21:55:44Z",
@@ -1342,10 +1311,10 @@
     },
     {
       "title": "Scottish Premiership: Rangers miss chance to go top after pulsating draw with Dundee",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/17/scottish-premiership-kilmarnock-rangers-dundee-celtic-hearts",
       "date": "2026-10-17T21:33:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "European football: Barcelona thrash Real Betis to maintain 100% record",
@@ -1465,13 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/c680zp4djprgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T17:46:41Z",
       "league": "all"
-    },
-    {
-      "title": "Liverpool players in 'delicate' situation with 'demanding' schedule - Iraola",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckgelqlz37w3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T16:56:12Z",
-      "league": "soccer"
     }
   ]
 }
