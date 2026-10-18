@@ -85,3 +85,21 @@ class InternationalSoccerCoverageTests(unittest.TestCase):
     def test_mma_rss_is_ufc_section(self):
         data=b'<rss><channel><item><title>UFC fight news</title><link>https://example.com/story2</link><pubDate>Fri, 16 Oct 2026 23:00:00 GMT</pubDate></item></channel></rss>'
         self.assertEqual(sports.parse_sports_rss(data,'MMA Fighting',NOW)[0]['league'],'ufc')
+
+class UFCFightCalendarTests(unittest.TestCase):
+    def test_attributed_events_and_matchups(self):
+        content=b'''<html><h1>Fight Schedule</h1><h2>October 24, 2026</h2>
+        <a>UFC 333: Volkanovski vs. Evloev</a>
+        <a>Alexander Volkanovski vs Movsar Evloev</a>
+        <a>Petr Yan vs Merab Dvalishvili 3</a>
+        <h2>October 31, 2026</h2><a>UFC Vegas 123: Moicano vs. Nolan</a>
+        <a>Renato Moicano vs Tom Nolan</a><h2>Pagination</h2></html>'''
+        cards=sports.parse_ufc_calendar(content,datetime(2026,10,18,5,0,tzinfo=timezone.utc))
+        self.assertEqual(len(cards),2)
+        self.assertTrue(cards[0]['date_only'])
+        self.assertEqual(cards[0]['fights'][0]['fighters'][0]['name'],'Alexander Volkanovski')
+        self.assertNotIn('winner',cards[0]['fights'][0]['fighters'][0])
+        self.assertEqual(cards[0]['url'],sports.MMA_CALENDAR)
+    def test_old_fight_card_never_resurfaced(self):
+        text=b'<h1>Fight Schedule</h1><h2>March 18, 2026</h2><a>UFC 100: Old vs. Old</a>'
+        self.assertEqual(sports.parse_ufc_calendar(text,datetime(2026,10,18,5,0,tzinfo=timezone.utc)),[])
