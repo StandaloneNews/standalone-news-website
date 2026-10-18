@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T19:09:47Z",
+  "updated_at": "2026-10-18T19:43:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -967,26 +967,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601664",
-      "league": "nba",
-      "name": "Los Angeles Lakers vs Denver Nuggets",
-      "date": "2026-10-17T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Lakers",
-          "score": "106"
-        },
-        {
-          "name": "Denver Nuggets",
-          "score": "121",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601665",
       "league": "nba",
       "name": "Detroit Pistons vs Boston Celtics",
@@ -1137,44 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1182,7 +1124,14 @@
       "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T19:08:44Z",
+      "date": "2026-10-18T19:39:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Another unremarkable win shows Arsenal’s strength is in depth rather than creativity | Jonathan Wilson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/arsenal-strength-in-depth-nottingham-forest-premier-league",
+      "date": "2026-10-18T19:20:38Z",
       "league": "all"
     },
     {
@@ -1483,13 +1432,6 @@
       "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
-      "date": "2026-10-18T07:00:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Meaty Montpellier leave Bath reeling and offer Prem French lessons",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
       "date": "2026-10-18T07:00:55Z",
       "league": "all"
     }
