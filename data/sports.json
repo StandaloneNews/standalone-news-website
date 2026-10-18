@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T16:49:53Z",
+  "updated_at": "2026-10-18T17:10:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -948,19 +948,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475455",
+      "id": "sportsdb-2475462",
       "league": "nfl",
-      "name": "Atlanta Falcons vs Chicago Bears",
-      "date": "2026-10-18T17:00:00Z",
+      "name": "Los Angeles Rams vs Arizona Cardinals",
+      "date": "2026-10-18T20:05:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Falcons",
+          "name": "Los Angeles Rams",
           "score": ""
         },
         {
-          "name": "Chicago Bears",
+          "name": "Arizona Cardinals",
           "score": ""
         }
       ],
@@ -1136,21 +1136,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Nottingham Forest v Arsenal: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-      "date": "2026-10-18T16:44:52Z",
-      "league": "soccer"
+      "title": "Kartal reflects on becoming British number one",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/videos/c68jzpr8jvz9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T17:06:21Z",
+      "league": "all"
     },
     {
-      "title": "Texans v Jaguars at Wembley: NFL week six – live",
+      "title": "Nottingham Forest v Arsenal: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
+      "date": "2026-10-18T17:04:31Z",
+      "league": "all"
+    },
+    {
+      "title": "James scores brilliant double as Chelsea put six past Spurs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c962yd2ykejmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T17:02:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T16:35:39Z",
+      "date": "2026-10-18T16:58:44Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Like a fresh start’: Michael Carrick relieved by Manchester United’s draw at Leeds",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-draw-leeds-fresh-start",
+      "date": "2026-10-18T16:50:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia’s Boland damages South Africa in brief respite from rain",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain",
+      "date": "2026-10-18T16:45:55Z",
       "league": "all"
     },
     {
@@ -1336,16 +1383,16 @@
       "league": "all"
     },
     {
-      "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
+      "title": "Meaty Montpellier leave Bath reeling and offer Prem French lessons",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
       "date": "2026-10-18T07:00:55Z",
       "league": "all"
     },
     {
-      "title": "Meaty Montpellier leave Bath reeling and offer Prem French lessons",
+      "title": "Brook and Jacks lead resurgent England into tri-series with World Cup in sight",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/brook-jacks-england-tri-series-cricket",
       "date": "2026-10-18T07:00:55Z",
       "league": "all"
     },
@@ -1393,10 +1440,10 @@
     },
     {
       "title": "How 'dangerous' Man City maintained 100 per cent record",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpl5qd008o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T23:00:53Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Why Liverpool are still 'too easy' to play against",
@@ -1425,34 +1472,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3nl91gg2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T22:29:15Z",
       "league": "soccer"
-    },
-    {
-      "title": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1e15g76jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T21:37:38Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Villa's Manzambi shows Newcastle what they missed out on",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T21:18:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Diaz hat-trick fires Bayern to win in Kane's 100th Bundesliga game",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmj47e479xg5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:55:25Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:37:25Z",
-      "league": "all"
     }
   ]
 }
