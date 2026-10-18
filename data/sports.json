@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T20:46:22Z",
+  "updated_at": "2026-10-18T21:08:13Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -986,19 +986,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2618466",
+      "id": "sportsdb-2619051",
       "league": "mlb",
-      "name": "Cleveland Guardians vs Tampa Bay Rays",
-      "date": "2026-10-18T21:00:00Z",
+      "name": "Tampa Bay Rays vs Cleveland Guardians",
+      "date": "2026-10-19T21:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Cleveland Guardians",
+          "name": "Tampa Bay Rays",
           "score": ""
         },
         {
-          "name": "Tampa Bay Rays",
+          "name": "Cleveland Guardians",
           "score": ""
         }
       ],
@@ -1121,11 +1121,18 @@
   ],
   "stories": [
     {
-      "title": "Texans beat Jaguars at the last; Bears 31-23 Falcons, Ravens 10-13 Browns and more: NFL week six – live",
+      "title": "NFL roundup: Panthers pile pain on slumping Eagles; Williams shines on Bears return",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T20:40:42Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/nfl-roundup-sunday-football-scores",
+      "date": "2026-10-18T20:57:47Z",
       "league": "all"
+    },
+    {
+      "title": "'Four points is nothing' - O'Neill stays cool after statement win",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw0k0zn0lkjgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T20:50:09Z",
+      "league": "soccer"
     },
     {
       "title": "Ramos could make La Liga return - Monday's gossip",
@@ -1427,13 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T09:42:10Z",
       "league": "soccer"
-    },
-    {
-      "title": "'Devastating & dramatic' - Dubois stops Wardley to retain title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/videos/cr1exjnlgv29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T07:11:58Z",
-      "league": "all"
     }
   ]
 }
