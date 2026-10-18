@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T12:56:52Z",
+  "updated_at": "2026-10-18T13:21:09Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1043,19 +1043,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494061",
+      "id": "sportsdb-2494069",
       "league": "epl",
-      "name": "Bournemouth vs Sunderland",
-      "date": "2026-10-18T13:00:00Z",
+      "name": "Nottingham Forest vs Arsenal",
+      "date": "2026-10-18T15:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bournemouth",
+          "name": "Nottingham Forest",
           "score": ""
         },
         {
-          "name": "Sunderland",
+          "name": "Arsenal",
           "score": ""
         }
       ],
@@ -1100,38 +1100,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482203",
+      "id": "sportsdb-2482198",
       "league": "seriea",
-      "name": "Fiorentina vs Como",
-      "date": "2026-10-18T13:00:00Z",
+      "name": "AC Milan vs Atalanta",
+      "date": "2026-10-18T16:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Fiorentina",
+          "name": "AC Milan",
           "score": ""
         },
         {
-          "name": "Como",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
-      "date": "2026-10-18T13:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
+          "name": "Atalanta",
           "score": ""
         }
       ],
@@ -1140,24 +1121,31 @@
   ],
   "stories": [
     {
-      "title": "Chelsea v Tottenham: Women’s Super League – live",
+      "title": "South Africa v Australia: second men’s cricket Test, day one rain delay – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
-      "date": "2026-10-18T12:48:39Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-18T13:20:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Texans v Jaguars: NFL week six – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "date": "2026-10-18T13:20:09Z",
       "league": "all"
     },
     {
       "title": "Leeds United v Manchester United: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
-      "date": "2026-10-18T12:46:37Z",
+      "date": "2026-10-18T13:19:48Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day one rain delay – live",
+      "title": "James and Carpenter lead Chelsea surge as sorry Spurs hit for six in WSL again",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T12:29:20Z",
+      "url": "https://www.theguardian.com/football/2026/oct/18/chelsea-tottenham-wsl-match-report",
+      "date": "2026-10-18T13:13:45Z",
       "league": "all"
     },
     {
@@ -1260,10 +1248,10 @@
     },
     {
       "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T05:49:25Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1330,10 +1318,10 @@
     },
     {
       "title": "Will Hearts prove credentials at scene of title heartbreak?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T21:55:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Sick feeling in stomach' - are Reedijk's Hibs in relegation fight?",
@@ -1445,13 +1433,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq146nz03k16o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T19:00:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Boos and bananas on day of defiance at Man City",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T18:02:39Z",
       "league": "all"
     }
   ]
