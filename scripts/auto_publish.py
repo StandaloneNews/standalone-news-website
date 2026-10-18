@@ -427,7 +427,7 @@ def write_sitemap(records):
     # Never include third-party RSS links, email preference URLs or URL parameters.
     public_pages=('', 'about.html', 'standards.html', 'contact.html',
                   'accessibility.html', 'discuss.html', 'personalize.html',
-                  'markets.html', 'articles/', 'privacy.html', 'terms.html')
+                  'markets.html', 'research.html', 'articles/', 'privacy.html', 'terms.html')
     for path in public_pages:
         url=ET.SubElement(root,'url')
         ET.SubElement(url,'loc').text=BASE+'/'+path
