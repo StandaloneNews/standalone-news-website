@@ -6,6 +6,7 @@
  const CATMAP={Fed:'Markets',SEC:'Markets',CFTC:'Markets',Markets:'Markets',Economy:'Economy',Treasury:'Government',DOJ:'Government',FDA:'Government',DEA:'Regulation',Washington:'Government',Government:'Government',World:'World','US News':'US News',Politics:'Government',Business:'Markets',Technology:'Technology'};
  const SKEY='standaloneNewsAppSavedV1',PKEY='standaloneNewsAppPrefsV1',FKEY='snFollowedPublishersV12';
  const demo=new URLSearchParams(location.search).get('demo')==='1';
+ let lastAutomaticCheck=Date.now();
  const safeURL=x=>{try{const u=new URL(x);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}};
  const articlePath=x=>typeof x==='string'&&/^articles\/[a-z0-9_.-]+\.html$/.test(x)?'./'+x:null;
  const cat=x=>CATMAP[String(x||'')]||'US News';
@@ -176,7 +177,8 @@
  }
  const featuredIds=new Set(desk?.featured_ids||[]),raw=[...editorial,...(desk?.items||[]).map(x=>({...x,bot_selected:true,desk_featured:featuredIds.has(x.id)})),...(payload?.items||[])];
  const byUrl=new Map();for(const entry of raw){const item=normNews(entry);if(!item)continue;const prior=byUrl.get(item.key);if(!prior){byUrl.set(item.key,item);}else if(item.desk_priority>prior.desk_priority){if(!item.image)item.image=prior.image;byUrl.set(item.key,item);}else if(!prior.image&&item.image){prior.image=item.image;}}
- state.news=sort([...byUrl.values()]);state.feedUpdated=desk?.updated_at||payload?.updated_at||null;state.error=!state.news.length;
+ state.news=sort([...byUrl.values()]);const feedTimes=[desk?.updated_at,payload?.updated_at].filter(Boolean).map(t=>Date.parse(t)).filter(Number.isFinite);
+ state.feedUpdated=feedTimes.length?new Date(Math.max(...feedTimes)).toISOString():null;state.error=!state.news.length;
  if(state.error){$('feed-error').textContent='The news feed could not be loaded. Please try refreshing or check GitHub Actions.';$('feed-error').hidden=false;}
  try{const res=await fetchJSON(demo?'./data/demo-articles.json':'./data/articles.json');const seen=new Set();state.articles=sort((Array.isArray(res.items)?res.items:[]).map(normArticle).filter(x=>{if(!x||seen.has(x.key))return false;seen.add(x.key);return true;}));}catch{state.articles=[];}
  $('feed-status').textContent=state.error?'FEED UNAVAILABLE':(state.news.length+' HEADLINES · '+new Set(state.news.map(x=>x.source)).size+' OUTLETS & AGENCIES · '+(state.feedUpdated?'UPDATED '+utc(state.feedUpdated,true):'LATEST AVAILABLE'));
@@ -277,7 +279,7 @@
  $('search-scope')?.addEventListener('change',e=>{state.searchScope=e.target.value;state.visible=6;renderWire();});$('search-period')?.addEventListener('change',e=>{state.searchPeriod=e.target.value;state.visible=6;renderWire();});
  $('wire-search').addEventListener('input',e=>{state.search=e.target.value.trim().toLowerCase();state.visible=6;renderWire();});$('wire-source').addEventListener('change',e=>{state.outlet=e.target.value;state.visible=6;renderWire();});
  document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.topic;state.visible=6;document.querySelectorAll('[data-topic]').forEach(c=>c.classList.toggle('active',b===c));renderWire();}));
- $('load-more').addEventListener('click',()=>{state.visible+=6;renderWire();});$('reload-news').addEventListener('click',()=>load().then(()=>toast(state.error?'Could not refresh':'News feed refreshed')));
+ $('load-more').addEventListener('click',()=>{state.visible+=6;renderWire();});$('reload-news').addEventListener('click',()=>{lastAutomaticCheck=Date.now();load().then(()=>toast(state.error?'Could not refresh':'News feed refreshed'));});
  window.addEventListener('hashchange',syncNav);syncNav();
  const entryHash=location.hash;
  let navigationInterrupted=false;
@@ -286,6 +288,16 @@
  const interruptNavigation=()=>{navigationInterrupted=true;stopTracking();};
  if(entryHash)interactionEvents.forEach(name=>window.addEventListener(name,interruptNavigation,{passive:true}));
  load().then(()=>restoreDeepLinkAfterFeed(entryHash,()=>navigationInterrupted,stopTracking),stopTracking);
+ // Check again without a manual reload: scheduled GitHub Actions can run late,
+ // and long-lived browser tabs otherwise continue to show their first snapshot.
+ const refreshIfVisible=()=>{
+   if(demo||document.hidden||Date.now()-lastAutomaticCheck<5*60*1000)return;
+   if(document.querySelector('.modal-overlay:not([hidden])'))return;
+   lastAutomaticCheck=Date.now();
+   load().catch(()=>{});
+ };
+ window.setInterval(refreshIfVisible,60*1000);
+ document.addEventListener('visibilitychange',refreshIfVisible);
 }
 
  // Separate guest browser bookmarks from signed-in cloud bookmarks.
