@@ -186,6 +186,23 @@
  function renderPrefs(){const n=$('preference-grid');n.replaceChildren();TOPICS.forEach(c=>{const b=el('button','pref-option'+(state.prefs.includes(c)?' on':''),NAMES[c]);b.type='button';b.dataset.pref=c;b.setAttribute('aria-pressed',String(state.prefs.includes(c)));n.append(b);});const sources=$('publisher-preference-grid');if(sources){sources.replaceChildren();const outlets=[...new Set(state.news.map(x=>x.source))].sort().slice(0,85);for(const name of [...new Set([...state.followed,...outlets])]){const b=el('button','publisher-option'+(state.followed.includes(name)?' on':''),name);b.type='button';b.dataset.follow=name;b.setAttribute('aria-pressed',String(state.followed.includes(name)));sources.append(b);}}}
  function setMarket(tab){document.querySelectorAll('[data-market]').forEach(b=>{const active=b.dataset.market===tab;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-market-panel]').forEach(n=>n.classList.toggle('active',n.dataset.marketPanel===tab));}
  function syncNav(){const h=location.hash.slice(1)||'home';document.querySelectorAll('[data-nav]').forEach(n=>n.classList.toggle('active',n.dataset.nav===h));document.querySelectorAll('[data-mobile-nav]').forEach(n=>n.classList.toggle('active',n.dataset.mobileNav===h));}
+ // A deep link from Markets, Company Research, or Community can be positioned
+ // before the asynchronous news feed expands the sections above its target.
+ // Correct that one initial jump after the feed renders, unless the reader
+ // has already started navigating or scrolling manually.
+ function restoreDeepLinkAfterFeed(entryHash,wasInterrupted,finish){
+   if(!entryHash||wasInterrupted()||location.hash!==entryHash){finish();return;}
+   let id;
+   try{id=decodeURIComponent(entryHash.slice(1));}catch{finish();return;}
+   const target=document.getElementById(id);
+   if(!target){finish();return;}
+   requestAnimationFrame(()=>requestAnimationFrame(()=>{
+     if(!wasInterrupted()&&location.hash===entryHash){
+       target.scrollIntoView({block:'start',behavior:'instant'});
+     }
+     finish();
+   }));
+ }
  // Mobile-only TradingView tape. It displays the vendor's actual price changes,
  // not static directional arrows; desktop continues using the existing working widget.
  function initMobileMarkets(){
@@ -261,7 +278,15 @@
  $('wire-search').addEventListener('input',e=>{state.search=e.target.value.trim().toLowerCase();state.visible=6;renderWire();});$('wire-source').addEventListener('change',e=>{state.outlet=e.target.value;state.visible=6;renderWire();});
  document.querySelectorAll('[data-topic]').forEach(b=>b.addEventListener('click',()=>{state.filter=b.dataset.topic;state.visible=6;document.querySelectorAll('[data-topic]').forEach(c=>c.classList.toggle('active',b===c));renderWire();}));
  $('load-more').addEventListener('click',()=>{state.visible+=6;renderWire();});$('reload-news').addEventListener('click',()=>load().then(()=>toast(state.error?'Could not refresh':'News feed refreshed')));
- window.addEventListener('hashchange',syncNav);syncNav();load();}
+ window.addEventListener('hashchange',syncNav);syncNav();
+ const entryHash=location.hash;
+ let navigationInterrupted=false;
+ const interactionEvents=['wheel','touchstart','pointerdown','keydown'];
+ const stopTracking=()=>interactionEvents.forEach(name=>window.removeEventListener(name,interruptNavigation));
+ const interruptNavigation=()=>{navigationInterrupted=true;stopTracking();};
+ if(entryHash)interactionEvents.forEach(name=>window.addEventListener(name,interruptNavigation,{passive:true}));
+ load().then(()=>restoreDeepLinkAfterFeed(entryHash,()=>navigationInterrupted,stopTracking),stopTracking);
+}
 
  // Separate guest browser bookmarks from signed-in cloud bookmarks.
  // The external account module never receives a service-role credential.
