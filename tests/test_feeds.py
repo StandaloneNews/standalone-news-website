@@ -32,6 +32,20 @@ class FeedTests(unittest.TestCase):
         xml=b'<rss><channel><item><title>Real date</title><link>https://example.gov/real</link><pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate></item></channel></rss>'
         story=update_news.parse_rss(xml,{'name':'Agency','kind':'Official direct','category':'Government'},self.now)[0]
         self.assertEqual(story['published_at'],'2026-10-12T08:00:00Z')
+    def test_future_dated_official_notice_is_not_current(self):
+        xml=b'<rss><channel><item><title>Future notice</title><link>https://example.gov/future</link><pubDate>Mon, 19 Oct 2026 04:00:00 GMT</pubDate></item></channel></rss>'
+        self.assertEqual(update_news.parse_rss(xml,{'name':'Agency','kind':'Official register','category':'Regulation'},self.now),[])
+
+    def test_allow_minor_publisher_clock_skew(self):
+        now=dt.datetime(2026,10,18,20,0,tzinfo=dt.timezone.utc)
+        xml=b'<rss><channel><item><title>Statement now</title><link>https://example.gov/now</link><pubDate>Sun, 18 Oct 2026 20:03:00 GMT</pubDate></item></channel></rss>'
+        items=update_news.parse_rss(xml,{'name':'Agency','kind':'Official direct','category':'Government'},now)
+        self.assertEqual(len(items),1)
+
+    def test_explainer_publishing_remains_bounded(self):
+        import auto_publish
+        self.assertEqual(auto_publish.MAX_DAY,4)
+        self.assertGreaterEqual(auto_publish.MIN_INTERVAL_HOURS,3)
     def test_reject_xml_entity(self):
         with self.assertRaises(ValueError):update_news.parse_rss(b'<!DOCTYPE html><rss></rss>',{'name':'Agency','kind':'Official direct','category':'Government'},self.now)
     def test_reject_unsafe_urls(self):

@@ -15,7 +15,10 @@
  const el=(tag,cls,content)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(content!==undefined)n.textContent=content;return n;};
  const store=(k,value)=>{try{localStorage.setItem(k,JSON.stringify(value));return true;}catch{return false;}};
  const get=(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k));return v===null?d:v;}catch{return d;}};
- const normNews=s=>{if(!s||s.source_type==='Google News'||s.source_type==='Discovery')return null;const url=safeURL(s.url),title=text(s.title).trim(),source=text(s.source).trim();if(!url||!title||!source)return null;const img=s&&s.image&&safeURL(s.image.thumb_url)?{thumb_url:safeURL(s.image.thumb_url),page_url:safeURL(s.image.page_url),source:text(s.image.source||'Wikimedia Commons'),creator:text(s.image.creator||''),license:text(s.image.license||''),description:text(s.image.description||''),label:text(s.image.label||'Illustrative photo')}:null;return{type:'news',key:url,url,title,source,category:cat(s.category),summary:text(s.summary).trim().slice(0,240),published_at:text(s.published_at),source_type:text(s.source_type),desk_priority:Number(s.desk_priority)||0,bot_selected:Boolean(s.bot_selected),desk_featured:Boolean(s.desk_featured),image:img};};
+ const normNews=s=>{if(!s||s.source_type==='Google News'||s.source_type==='Discovery')return null;
+ // Scheduled agency publications may have a future date; do not label them breaking news.
+ const published=Date.parse(s.published_at);if(!Number.isFinite(published)||published>Date.now()+5*60*1000)return null;
+ const url=safeURL(s.url),title=text(s.title).trim(),source=text(s.source).trim();if(!url||!title||!source)return null;const img=s&&s.image&&safeURL(s.image.thumb_url)?{thumb_url:safeURL(s.image.thumb_url),page_url:safeURL(s.image.page_url),source:text(s.image.source||'Wikimedia Commons'),creator:text(s.image.creator||''),license:text(s.image.license||''),description:text(s.image.description||''),label:text(s.image.label||'Illustrative photo')}:null;return{type:'news',key:url,url,title,source,category:cat(s.category),summary:text(s.summary).trim().slice(0,240),published_at:text(s.published_at),source_type:text(s.source_type),desk_priority:Number(s.desk_priority)||0,bot_selected:Boolean(s.bot_selected),desk_featured:Boolean(s.desk_featured),image:img};};
  const normArticle=s=>{if(!s)return null;const url=articlePath(s.path),title=text(s.headline).trim();if(!url||!title)return null;return{type:'article',key:url,url,title,source:text(s.source||'Official agency'),category:cat(s.category),summary:text(s.summary),published_at:text(s.published_at)};};
  const prevSaved=get(SKEY,[]),prevPrefs=get(PKEY,[]),prevSources=get(FKEY,[]);
  const state={news:[],articles:[],saved:Array.isArray(prevSaved)?prevSaved.filter(x=>x&&x.key&&x.title&&((x.type==='article'&&articlePath(x.url))||(x.type==='news'&&safeURL(x.url)))).slice(0,100):[],prefs:Array.isArray(prevPrefs)?prevPrefs.filter(x=>TOPICS.includes(x)):[],followed:Array.isArray(prevSources)?prevSources.filter(x=>typeof x==='string').slice(0,30):[],filter:'All',outlet:'',search:'',searchScope:'all',searchPeriod:'all',visible:6,feedUpdated:null,error:false};
@@ -41,7 +44,16 @@
    return score;
  };
  function deskPicks(items){
-   const ranked=[...items].sort((a,b)=>newsRank(b)-newsRank(a)||new Date(b.published_at)-new Date(a.published_at));
+   // Rank impact only *within fresh news*, otherwise yesterday's top-scoring
+   // headline can remain the lead story while today's stories keep arriving.
+   const now=Date.now();
+   const recent=hours=>items.filter(x=>{
+     const stamp=Date.parse(x.published_at);
+     return Number.isFinite(stamp)&&stamp<=now+5*60*1000&&stamp>=now-hours*3600000;
+   });
+   const today=recent(12),yesterday=recent(24);
+   const pool=today.length>=3?today:yesterday.length>=3?yesterday:items;
+   const ranked=[...pool].sort((a,b)=>newsRank(b)-newsRank(a)||new Date(b.published_at)-new Date(a.published_at));
    const chosen=[],sources=new Map(),categories=new Map();
    for(const s of ranked){
      if(chosen.length>=24)break;
