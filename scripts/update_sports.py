@@ -10,6 +10,7 @@ import concurrent.futures
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import html
+from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
@@ -294,6 +295,61 @@ def sportsdb_fallback(now: datetime) -> tuple[list[dict],int]:
         results+=events
     return results,ok
 
+
+MMA_CALENDAR = 'https://www.mmafighting.com/schedule'
+class _TextOnly(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True);self.lines=[];self.skip=0
+    def handle_starttag(self,t,a):
+        if t in ('script','style','noscript'):self.skip+=1
+        elif not self.skip and t in ('div','article','section','p','h1','h2','h3','h4','li','a','br'):self.lines.append('\n')
+    def handle_endtag(self,t):
+        if t in ('script','style','noscript'):self.skip=max(self.skip-1,0)
+        elif not self.skip and t in ('div','article','section','p','h1','h2','h3','h4','li','a'):self.lines.append('\n')
+    def handle_data(self,t):
+        if not self.skip:self.lines.append(t)
+
+def parse_ufc_calendar(raw:bytes,now:datetime)->list[dict]:
+    extractor=_TextOnly();extractor.feed(raw.decode('utf-8','replace'))
+    lines=[clean(x,190) for x in ''.join(extractor.lines).splitlines()]
+    pattern=re.compile(r'^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+20\d{2}$',re.I)
+    events=[];date=None;current=None;seen=set();active=False
+    for line in lines:
+        if line=='Fight Schedule':active=True;continue
+        if not active:continue
+        if line in ('Pagination','Page 1 of 1'):break
+        if pattern.fullmatch(line):
+            try:date=datetime.strptime(line,'%B %d, %Y').replace(tzinfo=timezone.utc)
+            except ValueError:date=None
+            current=None
+        elif date and line.startswith('UFC ') and len(line)>9:
+            key=(date.date(),line.casefold());current=None
+            if key in seen or not now-timedelta(days=1)<=date<=now+timedelta(days=65):continue
+            seen.add(key)
+            current={'id':'mma-'+date.strftime('%Y%m%d')+'-'+re.sub(r'[^a-z0-9]+','-',line.lower())[:70],
+                     'league':'ufc','name':line,'date':date.isoformat(timespec='seconds').replace('+00:00','Z'),
+                     'date_only':True,'state':'upcoming','status':'Event date confirmed · Start time TBD',
+                     'participants':[],'fights':[],'url':MMA_CALENDAR,'source':'MMA Fighting event schedule'}
+            events.append(current)
+        elif current and re.search(r'\s+vs\.?\s+',line,re.I) and len(current['fights'])<10:
+            names=re.split(r'\s+vs\.?\s+',line,1,flags=re.I)
+            if len(names)==2 and all(2<len(name)<75 for name in names):
+                current['fights'].append({'fighters':[{'name':clean(name,75),'score':''} for name in names],
+                                          'state':'upcoming','detail':'Scheduled'})
+    return events[:12]
+
+def backup_ufc_calendar(now:datetime)->list[dict]:
+    try:
+        req=urllib.request.Request(MMA_CALENDAR,headers={'User-Agent':'Mozilla/5.0 (compatible; StandaloneNews/1.0)','Accept':'text/html'})
+        with urllib.request.urlopen(req,timeout=12) as response:raw=response.read(2_500_001)
+        if len(raw)>2_500_000:raise ValueError('Oversized MMA calendar')
+        events=parse_ufc_calendar(raw,now)
+        print('Additional UFC calendar cards: '+str(len(events)))
+        return events
+    except (ValueError,urllib.error.URLError,TimeoutError,OSError) as error:
+        print('UFC calendar source unavailable: '+type(error).__name__+' '+str(error)[:110],file=sys.stderr)
+        return []
+
 def build(now: datetime) -> dict | None:
     jobs=[j for league in LEAGUES for j in requests_for_league(league,now)]
     successes=0;groups={slug:{} for slug,_,_ in LEAGUES};errors=[];attempted=len(jobs)
@@ -313,6 +369,8 @@ def build(now: datetime) -> dict | None:
         if alt:
             for row in alt:groups[row['league']][row['id']]=row
         provider='TheSportsDB v1 documented free API'
+    if not groups['ufc']:
+        for card in backup_ufc_calendar(now):groups['ufc'][card['id']]=card
     if not successes or not any(groups.values()):
         print('No usable sports events returned: preserving previous feed.',file=sys.stderr)
         return None
@@ -323,7 +381,7 @@ def build(now: datetime) -> dict | None:
         upcoming=sorted((x for x in rows if x['state']!='final'),key=lambda x:x['date'])[:24]
         events.extend(recent+upcoming)
     return {'updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),
-            'source':provider+' and attributed sport publishers',
+            'source':provider+' plus optional sourced UFC fight cards and sport publishers',
             'provider_note':'Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.',
             'sources_ok':successes,'sources_attempted':attempted,
             'leagues':[{'id':slug,'name':name,'events':len(groups[slug])} for slug,name,_ in LEAGUES],
