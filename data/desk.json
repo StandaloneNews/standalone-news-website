@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T16:43:03+00:00",
+  "updated_at": "2026-10-18T17:08:18+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -27,10 +27,23 @@
     "096a7b8d06624333a212f776",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
-    "8613d36e39e97e35c500b46a"
+    "41b5908d26fdb23c9f04763d"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "b94d8c15e4a13aa77809d2fc",
+      "title": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+      "summary": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T17:00:42+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "0cd0b2037a3742b1e461ffb3",
       "title": "Nottingham Forest v Arsenal: Premier League – live",
@@ -40,8 +53,60 @@
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T16:36:47+00:00",
+      "published_at": "2026-10-18T16:56:29+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8c148b985c92ee2117d10865",
+      "title": "Trump says he will close historic D.C. golf course for 15 months of renovations",
+      "summary": "A judge last week, however, ordered a halt to his redevelopment plans until at least Oct. 26 after scolding the government for starting a large-scale tree removal at the course over a holiday weekend while providing little notice to the court or the plaintiffs trying to stop the makeover.",
+      "url": "https://www.pbs.org/newshour/politics/trump-says-he-will-close-historic-d-c-golf-course-for-15-months-of-renovations",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:46:41+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c88b68f3d65a85cd53843815",
+      "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
+      "summary": "Starlink, high-speed satellite internet provided by Elon Musk's SpaceX, is critical to Ukraine's defense.",
+      "url": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:44:10+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "45420893bf1ca6b670a43c1f",
+      "title": "Zelenskyy thanks Trump for resumed intelligence sharing after US Starlink ‘message’",
+      "summary": "Two people killed and at least 17 injured as Russia and Ukraine continue to trade strikes on power infrastructure Volodymyr Zelenskyy on Sunday thanked the Trump administration for resuming intelligence sharing between the two countries, but maintained the US had intentionally throttled its Starlink satellite internet access so that Donald Trump could send a “message” in his ongoing feud with the Ukrainian president. In an interview on NBC, Zelenskyy said the US had “unblocked” intelligence on impending Russian ballistic missile strikes, which have pounded the country’s energy infrastructure as winter draws in. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:37:52+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9842804e4ed6abe7e3e24354",
+      "title": "Trump endorses Netanyahu in Israeli legislative elections",
+      "summary": "In a social media post ahead of the October 27 election, Trump calls Netanyahu a 'Strong, Brave, and Brilliant' leader.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/trump-endorses-netanyahu-in-israeli-legislative-elections?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:36:26+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -120,16 +185,39 @@
       }
     },
     {
-      "id": "c88b68f3d65a85cd53843815",
-      "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
-      "summary": "Starlink, high-speed satellite internet provided by Elon Musk's SpaceX, is critical to Ukraine's defense.",
-      "url": "https://www.cnbc.com/2026/10/18/bessent-zelenskyy-starlink-ukarine-war.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
+      "id": "00c9b0587d50ae00807b7b04",
+      "title": "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
+      "summary": "China is ramping up its presence around Taiwan, in a pattern that Taipei said is designed to 'alter the status quo'.",
+      "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T16:20:10+00:00",
-      "desk_priority": 37,
+      "published_at": "2026-10-18T16:25:52+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/20260204_Taipei%2C_Taiwan_Skyline.jpg/1280px-20260204_Taipei%2C_Taiwan_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:20260204_Taipei,_Taiwan_Skyline.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Heeheemalu",
+        "license": "CC BY-SA 4.0",
+        "description": "Taipei, Taiwan Skyline viewed from Mount Elephant 20260204",
+        "label": "Illustrative photo",
+        "matched_query": "Taipei Taiwan skyline"
+      }
+    },
+    {
+      "id": "67578c7b89824cb1519cfc57",
+      "title": "French mayor attacked by settlers during occupied West Bank olive harvest",
+      "summary": "Bernard Baudoux, Mayor of the French town of Aulnoye-Aymeries, says masked settlers attacked him in occupied West Bank.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/18-10-sv-mayor-of-france-assaulted-by-settlers-ps?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:25:43+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -168,19 +256,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T16:02:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b94d8c15e4a13aa77809d2fc",
-      "title": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-      "summary": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
-      "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T15:59:29+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -300,7 +375,7 @@
     },
     {
       "id": "f9be8e08ba5be488cc0d7eed",
-      "title": "Major fire breaks out in Alberta after deadly incident at Canadian military base",
+      "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
       "summary": "Fire crews scrambled late into the night as fierce winds whipped flames beyond Canadian Forces Base Wainwright and into the surrounding rural area.",
       "url": "https://www.pbs.org/newshour/world/major-fire-breaks-out-in-alberta-after-deadly-incident-at-canadian-military-base",
       "source": "PBS News",
@@ -426,19 +501,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T14:42:01+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "45420893bf1ca6b670a43c1f",
-      "title": "Two killed and at least 17 injured as Russia and Ukraine trade blows on power infrastructure",
-      "summary": "Ukraine used more than 1,000 drones to target Russian oil depots, logistics facilities and datacentres Two people have been killed and at least 17 injured as Russia and Ukraine continue to trade strikes on each other’s power infrastructure, after the breakdown of Donald Trump’s short-lived and unilaterally declared “energy ceasefire”. One person was killed and 15 wounded overnight after Ukraine used more than 1,000 drones to target Russian oil depots, logistics facilities and datacentres in one of its largest ever aerial bombardments. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/18/killed-injured-russia-ukraine-strikes-power-infrastructure",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T14:31:30+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1142,8 +1204,8 @@
     },
     {
       "id": "380e6375b674839c7a75dd0d",
-      "title": "NHS data breaches a disgrace, says health secretary",
-      "summary": "A total of 15 NHS staff are sacked for accessing records of the Nottingham attacks victims.",
+      "title": "NHS data breaches a disgrace, health secretary says",
+      "summary": "A total of 15 NHS staff have been sacked for accessing records of the Nottingham attacks victims.",
       "url": "https://www.bbc.co.uk/news/articles/cq2e9nw82ljdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -4747,11 +4809,11 @@
       "summary": "Whether it was youngsters proving their skills or state sabotage, Europe’s most hacked country was left with a mountain of waste after food began cooking in freezers Shortly before midnight last Sunday, the digital thermostats controlling hundreds of supermarket cold aisles across France began to flicker and rise. In a “bizarre and unprecedented” cyber-attack, hackers had remotely overridden the temperature settings on thousands of freezers, fridges and chiller cabinets pushing them from as low as -27C (-16.6F) to well over 50C (122F). Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
       "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
+      "feed_id": "guardian_business",
+      "category": "Markets",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T04:00:20+00:00",
-      "desk_priority": 26,
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -5033,11 +5095,11 @@
       "summary": "The Trump administration is escalating its fight with California ahead of next month's midterm election, warning that local officials who process and tabulate ballots submitted by suspected noncitizen voters are putting themselves at risk of criminal investigation and potential prosecution.",
       "url": "https://www.pbs.org/newshour/politics/doj-says-california-officials-who-process-ballots-from-suspected-noncitizens-risk-prosecution",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T23:30:20+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5466,58 +5528,6 @@
       "category": "Technology",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T16:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1ba806082a0ea24526079864",
-      "title": "In ‘You Can See Everything,’ Elizabeth Holmes meets her equal in comedian Nathan Fielder",
-      "summary": "Nathan Fielder's documentary about disgraced Theranos CEO Elizabeth Holmes has created a constellation of colliding personas that interrogate the very nature of authenticity.",
-      "url": "https://techcrunch.com/2026/10/16/in-you-can-see-everything-elizabeth-holmes-meets-her-equal-in-comedian-nathan-fielder/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T16:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8b69f39273552a281c84f745",
-      "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
-      "summary": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post .",
-      "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
-      "source": "NPR",
-      "feed_id": "npr_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T15:57:27+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e12c61c2a1e60400941ee7df",
-      "title": "Tesla unveils long-delayed Roadster developed with SpaceX, fueling merger speculation",
-      "summary": "Elon Musk first debuted the Roadster refresh concept in 2017 but Tesla has since missed every targeted delivery date.",
-      "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T15:52:41+00:00",
-      "desk_priority": 55,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7ff2fab56ea772a237d9cee8",
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T15:33:49+00:00",
       "desk_priority": 26,
       "selection_type": "automatic"
     }
