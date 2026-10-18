@@ -1,0 +1,529 @@
+{
+  "updated_at": "2026-10-18T06:49:06Z",
+  "source": "TheSportsDB v1 documented free API and attributed sport publishers",
+  "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier can return only one next and one previous game per league. Times are start times.",
+  "sources_ok": 10,
+  "sources_attempted": 35,
+  "leagues": [
+    {
+      "id": "ufc",
+      "name": "UFC",
+      "events": 0
+    },
+    {
+      "id": "nfl",
+      "name": "NFL",
+      "events": 2
+    },
+    {
+      "id": "nba",
+      "name": "NBA",
+      "events": 2
+    },
+    {
+      "id": "mlb",
+      "name": "MLB",
+      "events": 2
+    },
+    {
+      "id": "nhl",
+      "name": "NHL",
+      "events": 2
+    },
+    {
+      "id": "ncaaf",
+      "name": "College Football",
+      "events": 0
+    },
+    {
+      "id": "ncaab",
+      "name": "College Basketball",
+      "events": 0
+    },
+    {
+      "id": "epl",
+      "name": "Premier League",
+      "events": 0
+    },
+    {
+      "id": "mls",
+      "name": "MLS",
+      "events": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "sportsdb-2475453",
+      "league": "nfl",
+      "name": "Denver Broncos vs Seattle Seahawks",
+      "date": "2026-10-16T00:15:00Z",
+      "state": "final",
+      "status": "AOT",
+      "participants": [
+        {
+          "name": "Denver Broncos",
+          "score": "17",
+          "winner": true
+        },
+        {
+          "name": "Seattle Seahawks",
+          "score": "14"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2475454",
+      "league": "nfl",
+      "name": "Jacksonville Jaguars vs Houston Texans",
+      "date": "2026-10-18T13:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Jacksonville Jaguars",
+          "score": ""
+        },
+        {
+          "name": "Houston Texans",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601664",
+      "league": "nba",
+      "name": "Los Angeles Lakers vs Denver Nuggets",
+      "date": "2026-10-17T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles Lakers",
+          "score": "106"
+        },
+        {
+          "name": "Denver Nuggets",
+          "score": "121",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601665",
+      "league": "nba",
+      "name": "Detroit Pistons vs Boston Celtics",
+      "date": "2026-10-20T19:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Detroit Pistons",
+          "score": ""
+        },
+        {
+          "name": "Boston Celtics",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2616984",
+      "league": "mlb",
+      "name": "Cleveland Guardians vs Tampa Bay Rays",
+      "date": "2026-10-18T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Cleveland Guardians",
+          "score": "3"
+        },
+        {
+          "name": "Tampa Bay Rays",
+          "score": "7",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2618466",
+      "league": "mlb",
+      "name": "Cleveland Guardians vs Tampa Bay Rays",
+      "date": "2026-10-18T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cleveland Guardians",
+          "score": ""
+        },
+        {
+          "name": "Tampa Bay Rays",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591618",
+      "league": "nhl",
+      "name": "Utah Mammoth vs Edmonton Oilers",
+      "date": "2026-10-18T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Utah Mammoth",
+          "score": "2"
+        },
+        {
+          "name": "Edmonton Oilers",
+          "score": "6",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591619",
+      "league": "nhl",
+      "name": "Minnesota Wild vs Columbus Blue Jackets",
+      "date": "2026-10-18T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Minnesota Wild",
+          "score": ""
+        },
+        {
+          "name": "Columbus Blue Jackets",
+          "score": ""
+        }
+      ],
+      "url": ""
+    }
+  ],
+  "stories": [
+    {
+      "title": "New Zealand avoid World Cup shock against Fiji",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmx2q94rppe9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T06:24:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Kirby 'stressed' by abrupt Vidosic exit from Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T05:49:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwn8dzjp41d1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T05:46:16Z",
+      "league": "all"
+    },
+    {
+      "title": "After Dubois' dominant win, what's next for heavyweight boxing?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/ck3r59ywz99ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T05:39:47Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Testosterone to burn’: Kagiso Rabada plays down 2018 clash with Australia’s Steve Smith",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/kagiso-rabada-plays-down-2018-clash-steve-smith-australia-south-africa",
+      "date": "2026-10-17T23:50:32Z",
+      "league": "all"
+    },
+    {
+      "title": "How 'dangerous' Man City maintained 100 per cent record",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpl5qd008o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T23:00:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Why Liverpool are still 'too easy' to play against",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c65ynpkjydemo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T23:00:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Jalen Hurts placed on injured reserve after Eagles quarterback diagnosed with blood clot",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/jalen-hurts-eagles-injured-reserve-blood-clot-calf",
+      "date": "2026-10-17T22:33:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/daniel-dubois-devastating-second-round-stoppage-of-fabio-wardley-retain-wbo-title-boxing",
+      "date": "2026-10-17T22:30:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Can Hearts prove credentials at scene of title heartbreak?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y93xw91dv3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T21:55:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish Premiership: Rangers miss chance to go top after pulsating draw with Dundee",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/scottish-premiership-kilmarnock-rangers-dundee-celtic-hearts",
+      "date": "2026-10-17T21:33:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Champions Cup roundup: La Rochelle beat Lions after emotional tribute to Andrews",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/champions-cup-rugby-union-sale-glasgow-clermont-leinster-lions-la-rochelle-bath-munster",
+      "date": "2026-10-17T21:33:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Villa's Manzambi shows Newcastle what they missed out on",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T21:18:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Bath loss rounds off tough day for Prem clubs in Champions Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c370pxwklgwjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T21:02:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T20:37:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Wirtz delivers but remains Liverpool's conundrum",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T20:07:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Manzambi heads Villa to victory at Newcastle",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cwdd897vvl8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:12:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Tributes to Andrews before Champions Cup matches",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq5ynl4nvv5vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:08:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Europe is a blast – but more a curse than a blessing if you are not a Premier League super-club I Jonathan Wilson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/europe-is-a-blast-but-more-a-curse-than-a-blessing-if-you-are-not-a-super-club",
+      "date": "2026-10-17T19:00:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool come from behind to beat nine-man Brentford",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c65yn28p859wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:00:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Haaland nets double as Man City go six points clear at the top",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6pwgx89djn2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:00:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Iwobi delivers Fulham's first win of season",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6rmy7w1kdgeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:00:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Neto scores twice as Chelsea win at Everton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq146nz03k16o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T19:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Manzambi maintains Aston Villa progress with win to seal dismal week for Newcastle",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/newcastle-aston-villa-premier-league-match-report",
+      "date": "2026-10-17T18:38:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Seven-try Connacht beat Saracens in Champions Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr86zgpyz464o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T18:33:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Boos and bananas on day of defiance at Man City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T18:02:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Tonga stun England in World Cup opener",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm70prd68l5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T17:59:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal held at home by Birmingham",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c680zp4djprgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T17:46:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Isak completes Liverpool’s comeback win as Brentford finish with nine",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/brentford-liverpool-premier-league-match-report",
+      "date": "2026-10-17T16:21:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/manchester-city-ipswich-premier-league-match-report",
+      "date": "2026-10-17T16:08:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T16:02:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Ombudsman shines in Champion Stakes for Gosden team at Ascot: Champions Day – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/17/british-champions-day-at-ascot-champion-stakes-queen-elizabeth-ii-stakes-and-more-live",
+      "date": "2026-10-17T16:00:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Boos for Arsenal as draw with Birmingham extends winless WSL run",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/arsenal-birmingham-wsl-match-report",
+      "date": "2026-10-17T15:44:19Z",
+      "league": "all"
+    },
+    {
+      "title": "McDermott seeks fix as England fight to save their World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crwyqgjg5y8wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T14:12:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Kartal battles past Ostapenko in Wuhan to secure spot in first WTA 1000 final",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/sonay-kartal-wuhan-final-jelena-ostapenko-tennis-british-no-1",
+      "date": "2026-10-17T12:26:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Morris completes golden hat-trick alongside Boothman in madison",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/videos/c3pwgqel0er4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T11:43:07Z",
+      "league": "all"
+    },
+    {
+      "title": "England stunned as Tonga tonking leaves Rugby League World Cup hopes in shreds",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/england-tonga-rugby-league-world-cup-match-report",
+      "date": "2026-10-17T11:35:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Doomsday for Wallabies and Les Kiss as clinical All Blacks expose fault lines | Angus Fontaine",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/wallabies-all-blacks-australia-new-zealand-bledisloe-cup-analysis",
+      "date": "2026-10-17T10:10:00Z",
+      "league": "all"
+    },
+    {
+      "title": "The ESPN producer who quit over gambling – and the stories she says went untold",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/espn-producer-nicole-noren-sports-betting-gambling-investigations",
+      "date": "2026-10-17T08:00:25Z",
+      "league": "all"
+    },
+    {
+      "title": "‘We had won a World Cup for heaven’s sake’: Chris Woakes on the curfew that killed England’s party",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/chris-woakes-england-cricket-world-cup-win-2019-the-wizard",
+      "date": "2026-10-17T07:00:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/houthi-conflict-casts-shadow-as-saudi-arabia-scales-back-sporting-pipe-dreams",
+      "date": "2026-10-17T07:00:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Savaged by Simon Jordan – and thanks to the algorithm I want to be savaged again | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/savaged-by-simon-jordan-and-thanks-to-the-algorithm-i-want-to-be-savaged-again",
+      "date": "2026-10-17T07:00:23Z",
+      "league": "all"
+    },
+    {
+      "title": "James McClean: ‘Wearing the poppy was just never going to happen’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/james-mcclean-wearing-the-poppy-was-just-never-going-to-happen",
+      "date": "2026-10-17T05:00:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Red Roses’ four-year unbeaten streak ends in a thriller as Canada claim late win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/canada-england-red-roses-wxv-rugby-union-match-report",
+      "date": "2026-10-17T01:36:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Gloucester upset odds to hold champions Bordeaux to draw in Champions Cup epic",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/16/gloucester-bordeaux-european-champions-cup-rugby-match-report",
+      "date": "2026-10-16T21:05:57Z",
+      "league": "all"
+    }
+  ]
+}
