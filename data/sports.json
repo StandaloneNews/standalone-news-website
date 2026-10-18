@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T14:08:40Z",
+  "updated_at": "2026-10-18T14:47:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -1062,19 +1062,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506252",
+      "id": "sportsdb-2506251",
       "league": "laliga",
-      "name": "Celta Vigo vs Deportivo Alavés",
-      "date": "2026-10-18T14:15:00Z",
+      "name": "Málaga vs Real Sociedad",
+      "date": "2026-10-18T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Celta Vigo",
+          "name": "Málaga",
           "score": ""
         },
         {
-          "name": "Deportivo Alavés",
+          "name": "Real Sociedad",
           "score": ""
         }
       ],
@@ -1141,9 +1141,37 @@
   "stories": [
     {
       "title": "Leeds United v Manchester United: Premier League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
-      "date": "2026-10-18T14:05:22Z",
+      "date": "2026-10-18T14:43:44Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Nottingham Forest v Arsenal: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
+      "date": "2026-10-18T14:39:48Z",
+      "league": "soccer"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day one abandoned – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-18T14:32:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Texans v Jaguars at Wembley: NFL week six – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "date": "2026-10-18T14:30:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Struggling Quins pick up welcome Challenge Cup win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck79plq5n08po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T14:21:25Z",
       "league": "all"
     },
     {
@@ -1154,17 +1182,10 @@
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day one rain delay – live",
+      "title": "Air Force officer killed in rappelling accident before UTSA’s game against Navy",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T14:02:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Texans v Jaguars at Wembley: NFL week six – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T14:00:52Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/air-force-officer-killed-in-rappelling-accident-before-utsas-game-against-navy",
+      "date": "2026-10-18T14:03:54Z",
       "league": "all"
     },
     {
@@ -1294,7 +1315,7 @@
       "league": "all"
     },
     {
-      "title": "‘I suffer a lot’: Villarreal owner Fernando Roig on not enjoying games and the prospect of Liverpool",
+      "title": "‘I suffer a lot’: Villarreal owner Fernando Roig on not enjoying games and the prospect of Liverpool | Sid Lowe",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/18/fernando-roig-villarreal-liverpool-champions-league",
       "date": "2026-10-18T07:00:53Z",
@@ -1316,10 +1337,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwn8dzjp41d1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T05:46:16Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "There's a crackdown on sports piracy - but is it already out of control?",
@@ -1329,7 +1350,7 @@
       "league": "all"
     },
     {
-      "title": "Rain returns after Australia's Boland dents South Africa - scorecard",
+      "title": "South Africa 20-2 after rain spoils day one v Australia - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T00:00:00Z",
@@ -1431,27 +1452,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:37:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Wirtz delivers but remains Liverpool's conundrum",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:07:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgelq3gxx49o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:43:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manzambi heads Villa to victory at Newcastle",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwdd897vvl8vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:12:02Z",
       "league": "all"
     }
   ]
