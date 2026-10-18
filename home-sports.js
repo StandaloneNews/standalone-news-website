@@ -13,6 +13,7 @@ function empty(root,text){root.append(el('p','st-detail',text))}
 function hasVerifiedFinalScore(row){const parts=Array.isArray(row.participants)?row.participants:[];return row.league!=='ufc'&&row.state==='final'&&parts.length>=2&&parts.slice(0,2).every(p=>p&&p.score!==null&&p.score!==undefined&&String(p.score).trim()!==''&&Number.isFinite(Number(p.score)));}
 const SOCCER=new Set(["epl","laliga","bundesliga","seriea","ligue1","ucl","brasileirao","argentina","ligamx","j1","aleague","mls","primeira"]);
 const LABELS={epl:'Premier League',laliga:'La Liga',bundesliga:'Bundesliga',seriea:'Serie A',ligue1:'Ligue 1',ucl:'Champions League',brasileirao:'Brazil Série A',argentina:'Argentina Primera',ligamx:'Liga MX',j1:'Japan J1',aleague:'Australia A-League',mls:'MLS',primeira:'Portugal Primeira'};
+function hasDetailedUfcEvent(row){return row?.league==='ufc'&&Array.isArray(row.fights)&&row.fights.some(f=>Array.isArray(f.fighters)&&f.fighters.filter(p=>p&&p.name).length>=2);}
 function populate(data){if(!Array.isArray(data.events))throw Error('No sports events');
 const now=Date.now();const next=data.events.filter(x=>x.league!=='ufc'&&x.state!=='final'&&Number.isFinite(Date.parse(x.date))&&Date.parse(x.date)>=now-45*60*1000).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
 const results=data.events.filter(hasVerifiedFinalScore).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date));
@@ -26,10 +27,10 @@ const finished=matches.filter(x=>x.state==='final').sort((a,b)=>Date.parse(b.dat
 const selected=[...forthcoming.slice(0,2),...finished.slice(0,forthcoming.length?0:2)];
 if(selected.length)for(const match of selected){const item=line(match);const label=item.querySelector('.st-detail');if(label)label.textContent=(LABELS[match.league]||match.league)+' · '+dt(match.date)+(match.state==='final'?' · Final':'');soccer.append(item)}
 else empty(soccer,'International fixtures are not available in the latest provider response.');
-const hasUfc=data.events.some(x=>x.league==='ufc')||(data.stories||[]).some(x=>x.league==='ufc');
+const hasUfc=data.events.some(hasDetailedUfcEvent)||(data.stories||[]).some(x=>x.league==='ufc'&&x.title&&valid(x.url));
 const ufcPanel=$('st-ufc-panel');if(ufcPanel)ufcPanel.hidden=!hasUfc;
 const grid=$('st-sports-grid');if(grid)grid.style.setProperty('--st-columns',String(2+Number(results.length>0)+Number(hasUfc)));
-const ufc=data.events.filter(x=>x.league==='ufc').sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
+const ufc=data.events.filter(hasDetailedUfcEvent).sort((a,b)=>Date.parse(a.date)-Date.parse(b.date));
 if(ufc.length)ufc.slice(0,2).forEach(x=>c.append(line(x)));
 else empty(c,'UFC cards are currently unavailable from the free scores provider.');
 const schedule=el('a','', 'UFC fight-card schedule ↗');schedule.href='https://www.mmafighting.com/schedule';schedule.rel='noopener noreferrer';schedule.target='_blank';c.append(schedule);
