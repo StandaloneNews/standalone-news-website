@@ -10,8 +10,9 @@ const formatTime=value=>{const d=new Date(value);return Number.isNaN(+d)?'—':n
 const e=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;};
 function link(url,label){const a=e('a','sports-original',label);if(allowed(url)){a.href=url;a.target='_blank';a.rel='noopener noreferrer';}else a.hidden=true;return a;}
 function filtered(event){if(state.league==='all')return true;if(state.league==='college')return ['ncaaf','ncaab'].includes(event.league);if(state.league==='soccer')return SOCCER.has(event.league);return event.league===state.league;}
+function hasDetailedUfcEvent(row){return row?.league==='ufc'&&Array.isArray(row.fights)&&row.fights.some(f=>Array.isArray(f.fighters)&&f.fighters.filter(p=>p&&p.name).length>=2);}
 function hasVerifiedFinalScore(row){const parts=Array.isArray(row.participants)?row.participants:[];return row.league!=='ufc'&&row.state==='final'&&parts.length>=2&&parts.slice(0,2).every(p=>p&&p.score!==null&&p.score!==undefined&&String(p.score).trim()!==''&&Number.isFinite(Number(p.score)));}
-function listItems(type){if(!state.data)return [];const rows=(state.data.events||[]).filter(x=>filtered(x) && (type==='upcoming'?x.state!=='final':hasVerifiedFinalScore(x)));
+function listItems(type){if(!state.data)return [];const rows=(state.data.events||[]).filter(x=>x.league!=='ufc' && filtered(x) && (type==='upcoming'?x.state!=='final':hasVerifiedFinalScore(x)));
  rows.sort((a,b)=>type==='upcoming'?Date.parse(a.date)-Date.parse(b.date):Date.parse(b.date)-Date.parse(a.date));return rows.slice(0,type==='upcoming'?24:18);}
 function gameCard(item){const card=e('article','sports-game');const head=e('div','sports-game-header');head.append(e('span','',LEAGUES[item.league]||item.league));const status=e('span','sports-game-state'+(item.state==='live'?' live':''),item.state==='live'?'In progress':item.state==='final'?'Final':'Upcoming');head.append(status);card.append(head);
  const title=e('h3','',item.name);card.append(title);
@@ -28,8 +29,8 @@ function storyCard(story){const a=e('article','sports-news-card');const label=st
 function render(){
  if(!state.data)return;
  const data=state.data;
- const hasUfcEvents=data.events.some(x=>x.league==='ufc');
- const hasUfcNews=data.stories.some(x=>x.league==='ufc');
+ const hasUfcEvents=data.events.some(hasDetailedUfcEvent);
+ const hasUfcNews=data.stories.some(x=>x.league==='ufc'&&x.title&&allowed(x.url));
  const ufcFilter=$('sports-filters').querySelector('[data-league="ufc"]');
  if(ufcFilter)ufcFilter.hidden=!(hasUfcEvents||hasUfcNews);
  if(!hasUfcEvents&&!hasUfcNews&&state.league==='ufc'){
@@ -48,7 +49,7 @@ function render(){
  const showUfc=hasUfcEvents&&(state.league==='all'||state.league==='ufc');
  $('ufc-cards').hidden=!showUfc;
  if(showUfc){
-   const ufc=data.events.filter(x=>x.league==='ufc').sort((a,b)=>{
+   const ufc=data.events.filter(hasDetailedUfcEvent).sort((a,b)=>{
      const f=a.state==='final'?1:0,g=b.state==='final'?1:0;
      return f-g||(f===1?Date.parse(b.date)-Date.parse(a.date):Date.parse(a.date)-Date.parse(b.date));
    }).slice(0,4);
