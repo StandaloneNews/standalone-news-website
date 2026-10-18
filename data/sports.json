@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T15:09:13Z",
+  "updated_at": "2026-10-18T15:46:50Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1043,19 +1043,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494069",
+      "id": "sportsdb-2494064",
       "league": "epl",
-      "name": "Nottingham Forest vs Arsenal",
-      "date": "2026-10-18T15:30:00Z",
+      "name": "Tottenham Hotspur vs Coventry City",
+      "date": "2026-10-19T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nottingham Forest",
+          "name": "Tottenham Hotspur",
           "score": ""
         },
         {
-          "name": "Arsenal",
+          "name": "Coventry City",
           "score": ""
         }
       ],
@@ -1081,19 +1081,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508380",
+      "id": "sportsdb-2508392",
       "league": "bundesliga",
-      "name": "Borussia Mönchengladbach vs Hoffenheim",
-      "date": "2026-10-18T15:30:00Z",
+      "name": "Stuttgart vs Borussia Mönchengladbach",
+      "date": "2026-10-23T18:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Borussia Mönchengladbach",
+          "name": "Stuttgart",
           "score": ""
         },
         {
-          "name": "Hoffenheim",
+          "name": "Borussia Mönchengladbach",
           "score": ""
         }
       ],
@@ -1117,32 +1117,98 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Leeds United 1-1 Manchester United: Premier League – live reaction",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
-      "date": "2026-10-18T15:01:43Z",
+      "title": "Man Utd showed 'unity' in draw with Leeds - Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmlyl8yyzryeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T15:46:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Nottingham Forest v Arsenal: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
+      "date": "2026-10-18T15:44:21Z",
+      "league": "soccer"
+    },
+    {
+      "title": "My one feeling is shame - Sage on bruising Palace defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq3dj1ddn83xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T15:41:16Z",
       "league": "all"
     },
     {
       "title": "Texans v Jaguars at Wembley: NFL week six – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T15:00:45Z",
+      "date": "2026-10-18T15:29:11Z",
       "league": "all"
     },
     {
-      "title": "Nottingham Forest v Arsenal: Premier League – live",
+      "title": "Evanilson seals Bournemouth’s win against Sunderland after Danso sees red",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/18/bournemouth-sunderland-premier-league-match-report",
+      "date": "2026-10-18T15:19:30Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester United held as Calvert-Lewin’s Leeds leveller keeps pressure on Carrick",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-      "date": "2026-10-18T14:58:12Z",
+      "url": "https://www.theguardian.com/football/2026/oct/18/leeds-manchester-united-premier-league-match-report",
+      "date": "2026-10-18T15:08:48Z",
       "league": "all"
     },
     {
-      "title": "Calvert-Lewin denies Man Utd - who rated highest?",
+      "title": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report",
+      "date": "2026-10-18T15:06:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Everything a struggle for Fernandes - Leeds v Man Utd ratings",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T14:56:01Z",
@@ -1310,6 +1376,13 @@
       "league": "soccer"
     },
     {
+      "title": "There's a crackdown on sports piracy - but is it already out of control?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T00:11:09Z",
+      "league": "all"
+    },
+    {
       "title": "South Africa 20-2 after rain spoils day one v Australia - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
@@ -1373,13 +1446,6 @@
       "league": "soccer"
     },
     {
-      "title": "European football: Barcelona thrash Real Betis to maintain 100% record",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/17/european-football-bayern-munich-barcelona-psg-inter",
-      "date": "2026-10-17T21:33:46Z",
-      "league": "soccer"
-    },
-    {
       "title": "Villa's Manzambi shows Newcastle what they missed out on",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
@@ -1388,24 +1454,17 @@
     },
     {
       "title": "Diaz hat-trick fires Bayern to win in Kane's 100th Bundesliga game",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmj47e479xg5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:55:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Lamine Yamal opens scoring as Barcelona beat Real Betis",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmewe0wq0wj1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:49:36Z",
       "league": "soccer"
     },
     {
       "title": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:37:25Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Wirtz delivers but remains Liverpool's conundrum",
@@ -1413,27 +1472,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:07:40Z",
       "league": "soccer"
-    },
-    {
-      "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgelq3gxx49o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:43:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manzambi heads Villa to victory at Newcastle",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwdd897vvl8vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:12:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Europe is a blast – but more a curse than a blessing if you are not a Premier League super-club I Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/17/europe-is-a-blast-but-more-a-curse-than-a-blessing-if-you-are-not-a-super-club",
-      "date": "2026-10-17T19:00:38Z",
-      "league": "all"
     }
   ]
 }
