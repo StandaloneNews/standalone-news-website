@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T09:10:55Z",
+  "updated_at": "2026-10-18T09:49:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,40 +1117,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
-      "date": "2026-10-18T13:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Martinez breaks jaw in Chelsea win at Everton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T09:42:10Z",
+      "league": "all"
+    },
+    {
       "title": "Manchester United feel heat as they travel to Leeds; Emi Martínez thanks fans after surgery – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T09:05:05Z",
+      "date": "2026-10-18T09:34:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Finucane will 'come back fighting' after missing gold",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/cm0rl7504204o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T09:24:40Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one delayed by rain – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T09:03:51Z",
+      "date": "2026-10-18T09:22:47Z",
       "league": "all"
     },
     {
@@ -1165,13 +1160,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmx2q94rppe9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T07:38:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Martinez 'back in a few weeks' after operation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T07:25:23Z",
       "league": "all"
     },
     {
@@ -1245,7 +1233,7 @@
       "league": "all"
     },
     {
-      "title": "South Africa bat first in second Test against Australia - scorecard",
+      "title": "Rain delays start to South Africa-Australia second Test - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T00:00:00Z",
@@ -1288,10 +1276,10 @@
     },
     {
       "title": "Rangers 'pop balloon' as Neil gift wastes chance to go top",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3nl91gg2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T22:29:15Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Can Hearts prove credentials at scene of title heartbreak?",
@@ -1445,13 +1433,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckgelqlz37w3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T16:56:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Championship roundup: West Ham go second; Norwich beaten again",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/17/championship-roundup-middlesbrough-watford-millwall-swansea-west-ham",
-      "date": "2026-10-17T16:29:23Z",
       "league": "soccer"
     }
   ]
