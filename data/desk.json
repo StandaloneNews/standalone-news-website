@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T07:42:06+00:00",
+  "updated_at": "2026-10-18T08:07:08+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -15,22 +15,74 @@
     "930df11c195cd269f1fb8a09",
     "e2834c74f4065e96c922c178",
     "5fb8f5be58e41d5dfc76a110",
+    "6bd483fb49bef24adff26cac",
     "80151a537980dcb7a1244c86",
     "d6e6b407514a611c72ddbbba",
-    "6bd483fb49bef24adff26cac",
     "6e94d59f870cd71815d451bd",
     "46c5c79eddfcc1ea7d7eef31",
     "8afb4183ebc351bd69d2189c",
+    "f94315dbe024672b91d8c631",
     "24109b357ab3df183e55d0e4",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
     "7dd27ee4e856d38c005b577b",
     "86cccf36b9f1be5aff2d5b1f",
-    "e41822633f704ba720543e48",
-    "1be8e97651263e5ac20404dc"
+    "e41822633f704ba720543e48"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "6bd483fb49bef24adff26cac",
+      "title": "Several dead or injured in major fire at Canada military base",
+      "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
+      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:05:49+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c80152c98b3c12b934943cae",
+      "title": "Police officer shot in foot in Nottingham city centre",
+      "summary": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say.",
+      "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:00:26+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f94315dbe024672b91d8c631",
+      "title": "Major fire breaks out in Alberta after deadly incident at military base",
+      "summary": "Canada's defense minister said Saturday that people were killed and injured in an incident at a military base in Alberta that caused a major fire.",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T07:56:08+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "16c440d7c6796176db579923",
+      "title": "Why Iran-US negotiations keep failing",
+      "summary": "Relations between the two countries are dominated by policy complexes shaped by a history of hostility.",
+      "url": "https://www.aljazeera.com/opinions/2026/10/18/why-iran-us-negotiations-keep-failing?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T07:32:59+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "0890b79502e74ecd858e932c",
       "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
@@ -54,19 +106,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T07:15:53+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6bd483fb49bef24adff26cac",
-      "title": "Several dead or injured in major fire at Canada military base",
-      "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
-      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T07:09:23+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -186,7 +225,7 @@
     },
     {
       "id": "a2a6b621103cfd0a44df0a76",
-      "title": "Violent clashes, looting and buildings ablaze in France as over 1,200 arrested after protests",
+      "title": "Violent clashes, looting and buildings ablaze in France as more than 1,200 arrested after protests",
       "summary": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
       "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -264,8 +303,8 @@
     },
     {
       "id": "3cb31b1c209d5825dccf4e85",
-      "title": "Deaths, injuries after fire at Alberta military base: Canada minister",
-      "summary": "Defence Minister David McGuinty says people were killed and injured, but provides no figures or cause of fire.",
+      "title": "‘Serious incident’ at Canada military base causes deaths, injuries",
+      "summary": "Defence Minister David McGuinty says people were killed and injured after an incident caused a major fire in Alberta.",
       "url": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
@@ -476,7 +515,7 @@
       "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
       "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T01:10:25+00:00",
@@ -2701,6 +2740,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "c00f653b1bc768151295d6a2",
+      "title": "Germany news: Police probe security incident at Leipzig/Halle airport",
+      "summary": "A fence breach at the Leipzig/Halle airport has triggered a major police operation. Christian Social Union leader Markus Söder is to address a gathering of the conservative youth wing. Follow DW for more.",
+      "url": "https://www.dw.com/en/germany-news-police-probe-security-incident-at-leipzig-halle-airport/live-79686913?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-17T10:34:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "695afe68a459af8caab84e31",
       "title": "Germany news: Berlin's leftist parties move step closer to forming government",
       "summary": "Berlin's left-leaning parties have successfully concluded exploratory talks, and formal coalition negotiations could begin next month if party members approve. Follow DW for more.",
@@ -4905,19 +4957,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-15T08:45:00+00:00",
       "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e93b074ca9083cba37d5565d",
-      "title": "LGBTQ+ people go into hiding in Senegal as hundreds are arrested",
-      "summary": "At least 320 people detained for ‘acts against nature’ after law criminalising homosexuality toughened, HRW reports Mass arrests, forced HIV testing and barriers to legal representation are part of an escalating crackdown against LGBTQ+ people in Senegal, according to a new report . More than 320 individuals have been arrested and detained on allegations of “acts against nature” since February, according to HIV Justice Network , an organisation quoted in the Human Rights Watch (HRW) report. Among these, at least 84 were charged with “voluntary HIV transmission”, solely on the basis of their HIV status. Continue reading...",
-      "url": "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-15T08:00:25+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
