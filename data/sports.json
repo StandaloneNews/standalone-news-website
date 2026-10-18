@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T11:08:55Z",
+  "updated_at": "2026-10-18T11:45:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,47 +1117,28 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489516",
-      "league": "ligue1",
-      "name": "Angers vs Marseille",
-      "date": "2026-10-18T13:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Chelsea v Tottenham: Women’s Super League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
-      "date": "2026-10-18T11:00:47Z",
-      "league": "all"
+      "date": "2026-10-18T11:38:42Z",
+      "league": "soccer"
     },
     {
-      "title": "Manchester United feel heat as they travel to Leeds; Szoboszlai sidelined for ‘some time’ – matchday live",
-      "source": "The Guardian Sport",
+      "title": "Manchester United travel to Leeds; Szoboszlai out for ‘some time’; Emi Martínez thanks fans after surgery – matchday live",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T10:59:53Z",
-      "league": "all"
+      "date": "2026-10-18T11:33:28Z",
+      "league": "soccer"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T10:59:30Z",
+      "date": "2026-10-18T11:32:48Z",
       "league": "all"
     },
     {
@@ -1273,7 +1254,7 @@
       "league": "all"
     },
     {
-      "title": "Rain returns as South Africa bat against Australia - second Test scorecard",
+      "title": "Boland strikes as South Africa bat against Australia - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T00:00:00Z",
@@ -1357,6 +1338,13 @@
       "league": "soccer"
     },
     {
+      "title": "Bath loss rounds off tough day for Prem clubs in Champions Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c370pxwklgwjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-17T21:02:25Z",
+      "league": "all"
+    },
+    {
       "title": "Diaz hat-trick fires Bayern to win in Kane's 100th Bundesliga game",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmj47e479xg5o?at_medium=RSS&at_campaign=rss",
@@ -1379,10 +1367,10 @@
     },
     {
       "title": "Wirtz delivers but remains Liverpool's conundrum",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:07:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "West Ham unstoppable, Norwich in trouble - Aaron McLean's EFL takeaways",
@@ -1446,13 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T18:02:39Z",
       "league": "all"
-    },
-    {
-      "title": "Swansea must use West Ham defeat as fuel - Matos",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr5ynge8jnnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T17:47:22Z",
-      "league": "soccer"
     }
   ]
 }
