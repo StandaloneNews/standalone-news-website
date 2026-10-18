@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T16:08:21Z",
+  "updated_at": "2026-10-18T16:49:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1062,19 +1062,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506251",
+      "id": "sportsdb-2506254",
       "league": "laliga",
-      "name": "Málaga vs Real Sociedad",
-      "date": "2026-10-18T16:30:00Z",
+      "name": "Real Madrid vs Sevilla",
+      "date": "2026-10-18T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Málaga",
+          "name": "Real Madrid",
           "score": ""
         },
         {
-          "name": "Real Sociedad",
+          "name": "Sevilla",
           "score": ""
         }
       ],
@@ -1117,6 +1117,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1124,14 +1143,35 @@
       "title": "Nottingham Forest v Arsenal: Premier League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/nottingham-forest-v-arsenal-premier-league-live",
-      "date": "2026-10-18T15:59:18Z",
+      "date": "2026-10-18T16:44:52Z",
       "league": "soccer"
     },
     {
       "title": "Texans v Jaguars at Wembley: NFL week six – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T15:54:58Z",
+      "date": "2026-10-18T16:35:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Slade misses last-gasp kick as Toulouse deny Exeter famous win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvglwz05j6l4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T16:27:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish Premiership: Osmand and Nygren at the double as Celtic thrash Hearts 7-1",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/17/scottish-premiership-kilmarnock-rangers-dundee-celtic-hearts",
+      "date": "2026-10-18T16:15:36Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Man City remain unbeaten as Shaw scores twice against Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqrly0ly7j59o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T16:13:45Z",
       "league": "all"
     },
     {
@@ -1181,6 +1221,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T14:56:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Struggling Quins pick up welcome Challenge Cup win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck79plq5n08po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T14:21:25Z",
       "league": "all"
     },
     {
@@ -1275,13 +1322,6 @@
       "league": "all"
     },
     {
-      "title": "New Zealand avoid World Cup shock against Fiji",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmx2q94rppe9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T07:38:11Z",
-      "league": "all"
-    },
-    {
       "title": "'Devastating & dramatic' - Dubois stops Wardley to retain title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/videos/cr1exjnlgv29o?at_medium=RSS&at_campaign=rss",
@@ -1345,13 +1385,6 @@
       "league": "soccer"
     },
     {
-      "title": "South Africa 20-2 after rain spoils day one v Australia - scorecard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T00:00:00Z",
-      "league": "all"
-    },
-    {
       "title": "‘Testosterone to burn’: Kagiso Rabada plays down 2018 clash with Australia’s Steve Smith",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/kagiso-rabada-plays-down-2018-clash-steve-smith-australia-south-africa",
@@ -1401,13 +1434,6 @@
       "league": "soccer"
     },
     {
-      "title": "Scottish Premiership: Rangers miss chance to go top after pulsating draw with Dundee",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/17/scottish-premiership-kilmarnock-rangers-dundee-celtic-hearts",
-      "date": "2026-10-17T21:33:58Z",
-      "league": "soccer"
-    },
-    {
       "title": "Villa's Manzambi shows Newcastle what they missed out on",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss",
@@ -1423,17 +1449,10 @@
     },
     {
       "title": "Gyokeres pushing for Arsenal exit - Sunday's gossip",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9gkv34kezdko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T20:37:25Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wirtz delivers but remains Liverpool's conundrum",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T20:07:40Z",
-      "league": "soccer"
+      "league": "all"
     }
   ]
 }
