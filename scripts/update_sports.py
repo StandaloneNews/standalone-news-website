@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -37,6 +38,7 @@ LEAGUES = (
 NEWS_FEEDS = (
     ('BBC Sport', 'https://feeds.bbci.co.uk/sport/rss.xml'),
     ('The Guardian Sport', 'https://www.theguardian.com/uk/sport/rss'),
+    ('BBC MMA', 'https://feeds.bbci.co.uk/sport/mixed-martial-arts/rss.xml'),
 )
 
 
@@ -176,7 +178,7 @@ def parse_sports_rss(xml: bytes, publisher: str, now: datetime) -> list[dict]:
             except (ValueError, TypeError, OverflowError):date=moment(raw_date)
         if not title or not url or not date or not now-timedelta(days=5)<=date<=now+timedelta(hours=1):continue
         out.append({'title':title,'source':publisher,'url':url,'date':date.isoformat(timespec='seconds').replace('+00:00','Z'),
-                    'league':'ufc' if re.search(r'\b(ufc|mma|octagon|jon jones)\b',title,re.I) else 'all'})
+                    'league':'ufc' if publisher=='BBC MMA' or re.search(r'\b(ufc|mma|octagon|jon jones)\b',title,re.I) else 'all'})
         if len(out)>=24:break
     return out
 
@@ -254,8 +256,8 @@ def sportsdb_event(raw: dict, league: str, now: datetime) -> dict | None:
             **({'fights':[{'fighters':parts,'state':state,'detail':raw_status}] if len(parts)==2 else []} if league=='ufc' else {})}
 
 def sportsdb_fallback(now: datetime) -> tuple[list[dict],int]:
-    jobs=[(slug,method) for slug in SPORTSDB_LEAGUE_IDS
-          for method in ('eventsnextleague.php','eventspastleague.php')]
+    jobs=[(slug,method) for method in ('eventsnextleague.php','eventspastleague.php')
+          for slug in SPORTSDB_LEAGUE_IDS]
     def read(job):
         slug,method=job
         url=SPORTSDB_BASE+method+'?id='+SPORTSDB_LEAGUE_IDS[slug]
@@ -270,15 +272,17 @@ def sportsdb_fallback(now: datetime) -> tuple[list[dict],int]:
             return slug,[],False
     results=[];ok=0
     # Limit throughput; free API allows up to 30 requests per minute.
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        for slug,events,success in pool.map(read,jobs):
-            if success:ok+=1
-            results+=events
+    # Shared free API keys can trip aggregate rate limits; serialize requests.
+    for index, job in enumerate(jobs):
+        if index:time.sleep(2.1)
+        slug,events,success=read(job)
+        if success:ok+=1
+        results+=events
     return results,ok
 
 def build(now: datetime) -> dict | None:
     jobs=[j for league in LEAGUES for j in requests_for_league(league,now)]
-    successes=0;groups={slug:{} for slug,_,_ in LEAGUES};errors=[]
+    successes=0;groups={slug:{} for slug,_,_ in LEAGUES};errors=[];attempted=len(jobs)
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for slug,rows,error in pool.map(lambda task:get_scoreboard(task,now),jobs):
             if not error:successes+=1
@@ -291,6 +295,7 @@ def build(now: datetime) -> dict | None:
         print('ESPN provider errors (sample): '+repr(errors[:2]),file=sys.stderr)
         alt,ok=sportsdb_fallback(now)
         successes=ok
+        attempted=len(SPORTSDB_LEAGUE_IDS)*2
         if alt:
             for row in alt:groups[row['league']][row['id']]=row
         provider='TheSportsDB v1 documented free API'
@@ -306,7 +311,7 @@ def build(now: datetime) -> dict | None:
     return {'updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),
             'source':provider+' and attributed sport publishers',
             'provider_note':'Scores and fixtures may be delayed or incomplete. TheSportsDB free tier can return only one next and one previous game per league. Times are start times.',
-            'sources_ok':successes,'sources_attempted':len(jobs),
+            'sources_ok':successes,'sources_attempted':attempted,
             'leagues':[{'id':slug,'name':name,'events':len(groups[slug])} for slug,name,_ in LEAGUES],
             'events':events,'stories':fetch_sports_news(now)}
 
