@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T08:07:08+00:00",
+  "updated_at": "2026-10-18T08:43:54+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -15,7 +15,7 @@
     "930df11c195cd269f1fb8a09",
     "e2834c74f4065e96c922c178",
     "5fb8f5be58e41d5dfc76a110",
-    "6bd483fb49bef24adff26cac",
+    "c80152c98b3c12b934943cae",
     "80151a537980dcb7a1244c86",
     "d6e6b407514a611c72ddbbba",
     "6e94d59f870cd71815d451bd",
@@ -32,6 +32,68 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "c80152c98b3c12b934943cae",
+      "title": "Police officer in hospital after being shot in Nottingham",
+      "summary": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say.",
+      "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:38:46+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "a5d365ed01c0515bb72d733d",
+      "title": "There is no split in MAGA",
+      "summary": "But there is an attempt to redefine who the movement includes and what it stands for.",
+      "url": "https://www.aljazeera.com/opinions/2026/10/18/there-is-no-split-in-maga?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:14:05+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "cc92798eba888b22e599af6b",
+      "title": "Japan to launch world-first mission to collect samples from Martian moon",
+      "summary": "Japanese space agency leading five-year mission to Phobos, one of ‘most important unclimbed mountains in the solar system’ Japan is to launch a spacecraft on the world’s first mission to bring back samples from Phobos, one of the two small, potato-shaped moons orbiting Mars. Scientists hope the mission, which is expected to take five years, will provide clues to how Phobos and its smaller sibling Deimos formed, and hopefully even shed light on the origins of life in the solar system. Continue reading...",
+      "url": "https://www.theguardian.com/science/2026/oct/18/japan-mission-mars-moon-phobos-samples",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:11:55+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg/1280px-Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Skyline_Ueno_Tokyo_Japan_(214471153).jpeg",
+        "source": "Wikimedia Commons",
+        "creator": "Andreas Bunen",
+        "license": "CC BY-SA 3.0",
+        "description": "500px provided description: Skyline Ueno Tokyo Japan [#sky ,#skyscraper ,#Tokyo ,#Sightseeing ,#Tokio ,#Sehnswurdigkeiten]",
+        "label": "Illustrative photo",
+        "matched_query": "Tokyo Japan skyline"
+      }
+    },
+    {
+      "id": "8e149e8dec20ccea3911c45a",
+      "title": "The playground murder: Trauma, loss and a love that endured",
+      "summary": "Diane Watson's best friend Pauline recalls a shocking school murder and its lasting legacy.",
+      "url": "https://www.bbc.co.uk/news/articles/cvj64l74e48po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T08:11:45+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "6bd483fb49bef24adff26cac",
       "title": "Several dead or injured in major fire at Canada military base",
       "summary": "Officials have not given a cause or death toll, citing the \"very active and delicate\" situation at Canadian Forces Base Wainwright.",
@@ -41,19 +103,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T08:05:49+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c80152c98b3c12b934943cae",
-      "title": "Police officer shot in foot in Nottingham city centre",
-      "summary": "A firearm has been recovered by officers after a man and a woman fled the scene, detectives say.",
-      "url": "https://www.bbc.co.uk/news/articles/c63elzvjpgn2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T08:00:26+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -263,6 +312,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "f7b3b05c59a1e38c02ba9b49",
+      "title": "Watch: Police hunting for synthetic drugs in Chicago jail",
+      "summary": "BBC News hears from users, dealers, prison and recovery workers as America battles with a deadly new drug epidemic.",
+      "url": "https://www.bbc.co.uk/news/videos/cq8ez4jz1z04o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T05:30:16+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0f0aff23c056876b02a5a9ff",
       "title": "Why Marco Rubio’s visit to Mumbai has ruffled feathers in India",
       "summary": "US secretary of state is skipping New Delhi, and opposition leaders complain his arrangements are humiliating.",
@@ -377,6 +439,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T04:14:42+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7aa231234c5d84a8cbbd9fa3",
+      "title": "‘I felt disgusted’: MEP speaks out over nude deepfakes and urges EU action",
+      "summary": "Lena Schilling of Austrian Greens says images are ‘digital violence against women’ and a threat to democracy An Austrian MEP has spoken out about her experience of being “stripped naked” online without her consent and has urged the EU to take action, as a report found that one in six female MEPs had been targeted by sexualised AI-generated content. Lena Schilling of the Green party said she had learned last month about nude deepfakes of herself circulating online. When she opened the links, she found herself staring at images from one of her first ever press conferences – but the images had been digitally altered to remove her clothing. Continue reading...",
+      "url": "https://www.theguardian.com/society/2026/oct/18/mep-lena-schilling-nude-deepfakes-eu-action",
+      "source": "The Guardian",
+      "feed_id": "guardian_tech",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T04:00:50+00:00",
+      "desk_priority": 26,
       "selection_type": "automatic"
     },
     {
@@ -753,19 +828,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T23:07:57+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8e149e8dec20ccea3911c45a",
-      "title": "The playground murder: Trauma, loss and a love that endured",
-      "summary": "Diane Watson's best friend Pauline recalls a shocking school murder and its lasting legacy.",
-      "url": "https://www.bbc.co.uk/news/articles/cvj64l74e48po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T23:04:50+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
