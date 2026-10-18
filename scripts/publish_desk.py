@@ -494,6 +494,9 @@ def search_pexels(query: str) -> list[dict]:
         page=photo.get('url') or ''
         if not (str(img).startswith('https://images.pexels.com/') and str(page).startswith('https://www.pexels.com/')):
             continue
+        # Search results are not proof that a photo depicts a named place or person.
+        if not subject_matches(query,clean(photo.get('alt') or '')):
+            continue
         photos.append({'thumb_url':img,'page_url':page,'source':'Pexels',
                        'creator':clean(photo.get('photographer') or ''),
                        'license':'Pexels License','description':clean(photo.get('alt') or query),
