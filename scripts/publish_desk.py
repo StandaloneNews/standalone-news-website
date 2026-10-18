@@ -217,6 +217,11 @@ def select(results: list[dict], previous: list[dict], now: datetime) -> tuple[li
     for row in [*results,*previous]:
         if not isinstance(row,dict):
             continue
+        # Google News dates may describe discovery or resurfacing, not the
+        # original publisher's date. Do not treat them as breaking news.
+        # Filter cached items too, so old discoveries cannot linger.
+        if row.get('source_type')=='Google News':
+            continue
         try:
             stamp=datetime.fromisoformat(str(row.get('published_at','')).replace('Z','+00:00'))
             if stamp.tzinfo is None:

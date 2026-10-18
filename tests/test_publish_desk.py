@@ -122,3 +122,29 @@ class MoreImageQualityTests(unittest.TestCase):
         self.assertEqual(len(found),1)
         self.assertEqual(found[0]['source'],'Wikimedia Commons')
         self.assertTrue(mod.license_allowed(found[0]['license']))
+
+class OriginalPublicationDateTests(unittest.TestCase):
+    def test_recircled_march_story_not_treated_as_october_breaking_news(self):
+        from datetime import datetime, timezone
+        now=datetime(2026,10,18,5,0,tzinfo=timezone.utc)
+        stale={'id':'recycled','title':'Fed holds interest rates steady in 1st move since Iran war spiked oil prices',
+               'url':'https://news.google.com/rss/articles/old-story','source':'ABC News',
+               'source_type':'Google News','published_at':'2026-10-17T21:19:22+00:00',
+               'category':'Economy','desk_priority':100}
+        fresh={'id':'fresh','title':'New publisher headline',
+               'url':'https://example.com/new','source':'BBC News',
+               'source_type':'Publisher RSS','published_at':'2026-10-18T04:48:00+00:00',
+               'category':'Markets','desk_priority':31}
+        items,featured=mod.select([stale,fresh],[stale],now)
+        self.assertEqual([x['id'] for x in items],['fresh'])
+        self.assertEqual([x['id'] for x in featured],['fresh'])
+    def test_direct_publisher_article_must_still_be_recent(self):
+        from datetime import datetime, timezone
+        now=datetime(2026,10,18,5,0,tzinfo=timezone.utc)
+        old={'id':'old','title':'An old story','url':'https://example.com/old',
+             'source':'BBC News','source_type':'Publisher RSS',
+             'published_at':'2026-03-18T20:00:00+00:00','category':'Economy'}
+        recent=dict(old,id='recent',url='https://example.com/recent',
+                    published_at='2026-10-18T04:45:00+00:00')
+        items,_=mod.select([old,recent],[],now)
+        self.assertEqual([x['id'] for x in items],['recent'])

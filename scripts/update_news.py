@@ -106,7 +106,7 @@ def local(tag: str):
 
 def child_text(node, name):
     for item in node:
-        if local(item.tag) == name:
+        if local(item.tag) == name.lower():
             return ''.join(item.itertext()).strip()
     return ''
 
@@ -116,13 +116,15 @@ def plain(value: str, limit: int=240):
 
 
 def parse_date(raw: str, fallback: dt.datetime):
+    # Missing publication dates must never become collection timestamps.
+    if not raw:return None
     try:
         t = email.utils.parsedate_to_datetime(raw)
     except (TypeError, ValueError):
         try:
             t = dt.datetime.fromisoformat(raw.replace('Z','+00:00'))
         except (ValueError, AttributeError):
-            return fallback
+            return None
     if t.tzinfo is None: t=t.replace(tzinfo=UTC)
     return t.astimezone(UTC)
 
@@ -188,7 +190,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             if hint: source=hint
             elif ' - ' in title: title,source=title.rsplit(' - ',1)
         published=parse_date(child_text(node,'pubDate') or child_text(node,'published') or child_text(node,'updated'),now)
-        if published>now+dt.timedelta(days=1) or published<now-dt.timedelta(days=7):continue
+        if published is None or published>now+dt.timedelta(days=1) or published<now-dt.timedelta(days=7):continue
         # Show short attributed excerpts when the original publisher provides them.
         # Google News discovery descriptions can be nested lists of related stories,
         # so do not turn those into an alleged summary of the linked article.
@@ -236,8 +238,11 @@ def build_feed(items,updated):
 def main():
     now=dt.datetime.now(UTC)
     stories=[]
+    # Google News discovery timestamps are not independently verified
+    # publisher dates. Show direct and official feeds as current news.
+    eligible_feeds=[feed for feed in SOURCES if feed.get('kind')!='Discovery']
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        future_to_feed={pool.submit(fetch,feed,now):feed for feed in SOURCES}
+        future_to_feed={pool.submit(fetch,feed,now):feed for feed in eligible_feeds}
         success=0
         for f in concurrent.futures.as_completed(future_to_feed):
             feed=future_to_feed[f]
@@ -291,7 +296,7 @@ def main():
     payload={'site':'Standalone News','updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'), 'items':selected}
     TARGET.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     build_feed(selected,now)
-    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlet_counts)} named sources; {success}/{len(SOURCES)} feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
+    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlet_counts)} named sources; {success}/{len(eligible_feeds)} date-bearing direct feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
     return 0
 
 if __name__=='__main__': sys.exit(main())
