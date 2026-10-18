@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T12:07:46Z",
+  "updated_at": "2026-10-18T12:56:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1136,48 +1136,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day one – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-18T11:54:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Lisandro Martínez starts for Manchester United; Szoboszlai out for ‘some time’; Emi Martínez has jaw surgery – matchday live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T11:54:00Z",
-      "league": "all"
-    },
-    {
       "title": "Chelsea v Tottenham: Women’s Super League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/18/chelsea-v-tottenham-womens-super-league-live",
-      "date": "2026-10-18T11:47:04Z",
+      "date": "2026-10-18T12:48:39Z",
       "league": "all"
+    },
+    {
+      "title": "Leeds United v Manchester United: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
+      "date": "2026-10-18T12:46:37Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day one rain delay – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-18T12:29:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Martínez back ‘in a few weeks’ after jaw surgery; Liverpool lose Szoboszlai for ‘some time’ – matchday live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
+      "date": "2026-10-18T12:06:17Z",
+      "league": "soccer"
     },
     {
       "title": "Netball enters brave new world as New Zealand stun Australia",
@@ -1464,13 +1452,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T18:02:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Tonga stun England in World Cup opener",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm70prd68l5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T17:59:48Z",
       "league": "all"
     }
   ]
