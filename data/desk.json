@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:40:58+00:00",
+  "updated_at": "2026-10-18T16:05:17+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -10,18 +10,18 @@
     "50f2f545fcf26b4e9f32ba1a",
     "8838bd1b48411f9dbe5b542a",
     "b677fdedabaf44798b79a308",
+    "4dacd487f56fc7846a41b6c2",
     "7ce76d9833babb6d603ef30b",
     "3feab6bcb38e343dac86f19b",
     "ce4a0405c2132eb0a66d888b",
     "88a7f0e55fd07da20ec448d9",
+    "3a7ec78b542cea7c7268fdcf",
+    "fe1da706fb4d295faaaff0e7",
     "e2834c74f4065e96c922c178",
     "5fb8f5be58e41d5dfc76a110",
-    "c5b97a946180c293c2b06ca8",
     "3a7eaf979be555684af58d7c",
     "cb129b240f7aff0a9f5c84a6",
-    "427bd94667dcb0e2d7abbd04",
     "cea7651d1685c8deef4789fc",
-    "b842b6f387197bf1a2f66310",
     "fef6846e0e5cb4119a414332",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
@@ -32,6 +32,19 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "3a7ec78b542cea7c7268fdcf",
+      "title": "Meloni backs police after cost-of-living protests turn violent in Italian cities",
+      "summary": "Anger over living costs and low wages has brought Italians onto the streets. A major union has called a general strike for November 20.",
+      "url": "https://www.dw.com/en/meloni-backs-police-after-cost-of-living-protests-turn-violent-in-italian-cities/a-79692755?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T16:02:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "c88b68f3d65a85cd53843815",
       "title": "Bessent warns Zelenskyy to 'be very careful' about claims U.S. is throttling Starlink",
       "summary": "Starlink, high-speed satellite internet provided by Elon Musk's SpaceX, is critical to Ukraine's defense.",
@@ -40,8 +53,21 @@
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T15:40:40+00:00",
+      "published_at": "2026-10-18T16:01:44+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b94d8c15e4a13aa77809d2fc",
+      "title": "Man, 80, who died in light aircraft crash near Loch Lomond named",
+      "summary": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
+      "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:59:29+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -53,8 +79,83 @@
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T15:37:52+00:00",
+      "published_at": "2026-10-18T15:50:26+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4dacd487f56fc7846a41b6c2",
+      "title": "The Playboy Who Inherited an Empire of Gunfighters and Gold Smugglers",
+      "summary": "Plus, investors show they are alive to one of the big risks in AI, and Zelensky decides to take a risk and publicly confront Trump.",
+      "url": "https://www.wsj.com/articles/the-playboy-who-inherited-an-empire-of-gunfighters-and-gold-smugglers-c3564b4a?mod=rss_markets_main",
+      "source": "WSJ",
+      "feed_id": "wsj_markets",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:48:00+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "cae4297ec407ec6afa34e2ab",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
+      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:46:10+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "76f17176b623ef2c5ecca8d4",
+      "title": "US ambassador to Israel denounces West Bank settler attack on US photojournalist",
+      "summary": "Mike Huckabee calls for arrest and prosecution of those responsible as Heidi Levine, 63, recovers in hospital in Israel The US ambassador to Israel, Mike Huckabee, has denounced the settler attack that left the Washington Post photojournalist Heidi Levine badly beaten and needing surgery as a “despicable act of terror” and called for the arrest and prosecution of those responsible. Levine, an award-winning journalist who lives in Israel, was set upon last Friday by masked Israeli settlers who used clubs and other weapons to attack Palestinian people attempting to harvest their olives in occupied West Bank towns. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:33:38+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Kyle Taylor from London, 84 Countries",
+        "license": "CC BY 2.0",
+        "description": "Israel - Jerusalem - Old City",
+        "label": "Illustrative photo",
+        "matched_query": "Jerusalem Israel skyline"
+      }
+    },
+    {
+      "id": "fe1da706fb4d295faaaff0e7",
+      "title": "Multiple people killed as Canadian authorities tackle active blaze at Alberta military base",
+      "summary": "Hospitals receive injured patients as doctor describes scale of emergency in Wainwright as a ‘disaster’ Multiple people have been killed and others injured after a deadly blaze tore through one of Canada’s busiest military training bases in Alberta, Canada’s defence minister said on Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” said David McGuinty. The defence minister described the situation at CFB Wainwright as “active and delicate” with the fire being monitored very closely, telling reporters that high winds had worsened the fire. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:31:33+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "03b46aa9ddcd58a512907302",
+      "title": "Photos: Antigovernment protesters clash with police in Albania’s capital",
+      "summary": "Police crack down on sixth day of student-led demonstrations calling for Prime Minister Rama to resign.",
+      "url": "https://www.aljazeera.com/gallery/2026/10/18/photos-antigovernment-protesters-clash-with-police-in-albanias-capital?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:30:44+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -81,6 +182,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T15:25:44+00:00",
       "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "099c7ec9e2c659731a9e4cb7",
+      "title": "Here are the 3 big things we're watching in the stock market this week",
+      "summary": "Meta and Capital One are set to report earnings. We'll also hear from plenty of important companies outside the Club portfolio.",
+      "url": "https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T15:24:37+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -809,19 +923,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "cae4297ec407ec6afa34e2ab",
-      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-      "summary": "At least one person was killed in the strikes, which also hit a data centre used by Russia's equivalent of Facebook.",
-      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T11:57:49+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "c429de5728ada2ad4f302cfa",
       "title": "Pope pledges gradual return to duties in first Vatican event since cancer surgery",
       "summary": "Leo thanks people for their prayers and says ‘delicate phase has passed’ as he recovers from operation on his lung Pope Leo told a crowd gathered in St Peter’s Square on Sunday that he would “gradually resume” his activities, at his first appearance before the faithful since undergoing an operation to remove a cancerous tumour from his lung. The Catholic leader, 71, was greeted with applause as he appeared unaided at the window of the Vatican’s Apostolic Palace to deliver his Sunday angelus. It was his first public appearance since making the shock announcement at the previous Sunday’s address that a small nodule had been found on his lung. Continue reading...",
@@ -832,19 +933,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T11:40:25+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b94d8c15e4a13aa77809d2fc",
-      "title": "Man, 80, who died in light aircraft crash near Loch Lomond named",
-      "summary": "The flying instructor has been described as \"a gentleman and an experienced aviator\" by former students.",
-      "url": "https://www.bbc.co.uk/news/articles/cmx23p5w7123o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T11:26:35+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -1396,7 +1484,7 @@
     {
       "id": "c00f653b1bc768151295d6a2",
       "title": "Germany news: Police probe security incident at Leipzig/Halle airport",
-      "summary": "A fence breach at the Leipzig/Halle airport has triggered a major police operation. Christian Social Union leader Markus Söder is to address a gathering of the conservative youth wing. Follow DW for more.",
+      "summary": "A fence breach at the Leipzig/Halle airport has triggered a major police operation. And, Christian Social Union leader Markus Söder calls for a \"firewall\" against leftists at a conservative youth conference. Follow DW.",
       "url": "https://www.dw.com/en/germany-news-police-probe-security-incident-at-leipzig-halle-airport/live-79686913?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -1819,19 +1907,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T03:44:25+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "fe1da706fb4d295faaaff0e7",
-      "title": "‘Serious incident’ at Alberta military base causes deaths and injuries, Canada officials say",
-      "summary": "Patients being taken to hospitals in Edmonton as Wainwright ‘completely overwhelmed’ by number of injuries, local doctor says People have been killed and injured after an incident at one of Canada’s busiest military training bases in Alberta caused a large fire, Canada’s defence minister said Saturday. “I’m saddened to share that there have been both fatalities and injuries as a result of an incident on the base,” defence minister David McGuinty said at a press conference on Saturday night. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/18/serious-incident-alberta-military-base-deaths-injuries-canada-carney-cfb-wainwright",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T02:50:29+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -5444,71 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-16T13:00:11+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "660063e865d4620d3bbd096c",
-      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
-      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-      "source": "TechCrunch",
-      "feed_id": "techcrunch",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T12:55:09+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "528ff2fd500f7c20806100dc",
-      "title": "Watch: Did Tesla really just unveil a flying car?",
-      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
-      "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T12:32:31+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "42a555c90e3be1ee65fdb50c",
-      "title": "Major Economic Indicators Latest Numbers",
-      "summary": "Consumer Price Index (CPI): +0.6% in Sep 2026 News Release Historical Data Unemployment Rate: 4.2% in Sep 2026 News Release Historical Data Payroll Employment: +29,000(p) in Sep 2026 News Release Historical Data Average Hourly Earnings: +$0.05(p) in Sep 2026 News Release Historical Data Producer Price Index - Final Demand: +1.3%(p) in Sep 2026 News Release Historical Data Employment Cost Index (ECI): +0.9% in 2nd Qtr of 2026 News Release Historical Data Productivity: +1.4% in 2nd Qtr of 2026 News Release Historical Data U.S. Import Price Index: +1.1% in Sep 2026 News Release Historical Data U.S. Export Price Index: +2.2% in Sep 2026 News Release Historical Data p - preliminary",
-      "url": "https://www.bls.gov/bls/",
-      "source": "Bureau of Labor Statistics",
-      "feed_id": "bls",
-      "category": "Economy",
-      "source_type": "Official direct",
-      "published_at": "2026-10-16T12:31:15+00:00",
-      "desk_priority": 48,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3f84c52880100d5100464575",
-      "title": "How to dress a tech oligarch: The Social Reckoning’s costume designer on Zuckerberg’s style evolution",
-      "summary": "Susan Lyall worked with actor Jeremy Strong to research the Meta CEO’s favorite Nikes and luxury sweaters The first Aaron Sorkin Facebook movie, 2010’s The Social Network, helped cement the early aughts image of Mark Zuckerberg rebelling against corporate norms in rumpled hoodies and T-shirts. The follow-up, The Social Reckoning, is carbon-dated from 2019 to 2021. This is “post-hoodie”, as the movie’s costume designer, Susan Lyall, describes it, “post-thumbing his nose” to formality. It is also peak robot. Zuckerberg’s reserved wardrobe of suits or interchangeable long-sleeved shirts echo his chilling composure throughout, even as fury simmers under the surface. Continue reading...",
-      "url": "https://www.theguardian.com/fashion/2026/oct/16/social-reckoning-zuckerberg-fashion-costume-design",
-      "source": "The Guardian",
-      "feed_id": "guardian_tech",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-16T12:00:10+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8613d36e39e97e35c500b46a",
-      "title": "Three People Charged in Conspiracy to Commit Sex Trafficking of Minors and Related Charges",
-      "summary": "An indictment was unsealed today in the District of Delaware charging Jamar Geeter, 39, of San Francisco, California, Kalvin Carter Jr., 44, of Waldorf, Maryland, and Jada Hasty, 29, of Coatesville, Pennsylvania, with conspiracy to commit sex trafficking of a minor and by force, fraud, and coercion, sex trafficking, and coercion and enticement of a minor.",
-      "url": "https://www.justice.gov/opa/pr/three-people-charged-conspiracy-commit-sex-trafficking-minors-and-related-charges",
-      "source": "Department of Justice",
-      "feed_id": "doj",
-      "category": "Government",
-      "source_type": "Official direct",
-      "published_at": "2026-10-16T12:00:00+00:00",
-      "desk_priority": 41,
       "selection_type": "automatic"
     }
   ]
