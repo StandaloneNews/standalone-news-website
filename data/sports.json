@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T13:21:09Z",
+  "updated_at": "2026-10-18T13:47:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -948,19 +948,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475454",
+      "id": "sportsdb-2475455",
       "league": "nfl",
-      "name": "Jacksonville Jaguars vs Houston Texans",
-      "date": "2026-10-18T13:30:00Z",
+      "name": "Atlanta Falcons vs Chicago Bears",
+      "date": "2026-10-18T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Jacksonville Jaguars",
+          "name": "Atlanta Falcons",
           "score": ""
         },
         {
-          "name": "Houston Texans",
+          "name": "Chicago Bears",
           "score": ""
         }
       ],
@@ -1081,19 +1081,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508381",
+      "id": "sportsdb-2508380",
       "league": "bundesliga",
-      "name": "Bayer Leverkusen vs Freiburg",
-      "date": "2026-10-18T13:30:00Z",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bayer Leverkusen",
+          "name": "Borussia Mönchengladbach",
           "score": ""
         },
         {
-          "name": "Freiburg",
+          "name": "Hoffenheim",
           "score": ""
         }
       ],
@@ -1117,28 +1117,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489520",
+      "league": "ligue1",
+      "name": "Lorient vs Monaco",
+      "date": "2026-10-18T15:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Monaco",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Leeds United v Manchester United: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
+      "date": "2026-10-18T13:44:25Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Britain's Kartal misses out on biggest title of her career",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T13:39:24Z",
+      "league": "all"
+    },
+    {
+      "title": "What awaits Everton hero Ferguson in shock Glens role?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwdd832e7gqmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T13:36:49Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Texans v Jaguars at Wembley: NFL week six – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "date": "2026-10-18T13:35:14Z",
+      "league": "all"
+    },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day one rain delay – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/18/south-africa-v-australia-second-test-day-one-cricket-st-georges-park-gqeberha-live-updates",
       "date": "2026-10-18T13:20:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Texans v Jaguars: NFL week six – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T13:20:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Leeds United v Manchester United: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/leeds-v-manchester-united-premier-league-live",
-      "date": "2026-10-18T13:19:48Z",
       "league": "all"
     },
     {
@@ -1419,20 +1452,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6pwgx89djn2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-17T19:00:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Iwobi delivers Fulham's first win of season",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6rmy7w1kdgeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:00:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Neto scores twice as Chelsea win at Everton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq146nz03k16o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-17T19:00:03Z",
       "league": "all"
     }
   ]
