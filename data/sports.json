@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T18:51:40Z",
+  "updated_at": "2026-10-18T19:09:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -967,6 +967,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601664",
+      "league": "nba",
+      "name": "Los Angeles Lakers vs Denver Nuggets",
+      "date": "2026-10-17T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles Lakers",
+          "score": "106"
+        },
+        {
+          "name": "Denver Nuggets",
+          "score": "121",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601665",
       "league": "nba",
       "name": "Detroit Pistons vs Boston Celtics",
@@ -1062,19 +1082,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506254",
+      "id": "sportsdb-2506257",
       "league": "laliga",
-      "name": "Real Madrid vs Sevilla",
-      "date": "2026-10-18T19:00:00Z",
+      "name": "Getafe vs Rayo Vallecano",
+      "date": "2026-10-19T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Real Madrid",
+          "name": "Getafe",
           "score": ""
         },
         {
-          "name": "Sevilla",
+          "name": "Rayo Vallecano",
           "score": ""
         }
       ],
@@ -1136,21 +1156,75 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
+      "date": "2026-10-18T19:08:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Impressive London City extend winning run against Everton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cjx23n23wd05o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Bournemouth pick up first league victory with win over Sunderland",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cme8rz8x6pw8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Leeds extend Man Utd's winless run to six games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cw4g1dgr2v93o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Madueke's strike enough as Arsenal pick up narrow win over Forest",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm70px0l7p7no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Gomez scores extraordinary goal as Brighton put five past Palace",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckm23z2qem45o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-18T18:59:02Z",
+      "league": "all"
+    },
     {
       "title": "'Maybe we became arrogant' - Sunderland struggles continue",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6073pmddk0ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T18:49:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Texans beat Jaguars at the last; Bears v Falcons, Ravens v Browns and more: NFL week six – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/18/texans-v-jaguars-nfl-week-six-live",
-      "date": "2026-10-18T18:43:10Z",
       "league": "all"
     },
     {
@@ -1417,41 +1491,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/meaty-montpellier-leave-bath-reeling-and-offer-prem-french-lessons",
       "date": "2026-10-18T07:00:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Wigan pine for FA Cup glory as not even victory can lift them off foot of League One",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/18/wigan-pine-for-fa-cup-glory-as-not-even-victory-can-lift-them-off-foot-of-league-one",
-      "date": "2026-10-18T07:00:54Z",
-      "league": "all"
-    },
-    {
-      "title": "‘I suffer a lot’: Villarreal owner Fernando Roig on not enjoying games and the prospect of Liverpool | Sid Lowe",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/18/fernando-roig-villarreal-liverpool-champions-league",
-      "date": "2026-10-18T07:00:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Guess WSL star No 8",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3065w9y7po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T06:18:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwn8dzjp41d1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T05:46:16Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘Testosterone to burn’: Kagiso Rabada plays down 2018 clash with Australia’s Steve Smith",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/kagiso-rabada-plays-down-2018-clash-steve-smith-australia-south-africa",
-      "date": "2026-10-17T23:50:32Z",
       "league": "all"
     }
   ]
