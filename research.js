@@ -77,8 +77,15 @@ async function init(){
  const results=await Promise.allSettled([load('./data/research-companies.json'),load('./data/research-snapshots.json')]);
  if(results[0].status==='fulfilled'&&Array.isArray(results[0].value.companies))state.directory=results[0].value.companies.filter(x=>tkr(x.ticker)&&Number.isInteger(x.cik)&&x.cik>0&&typeof x.name==='string').map(x=>({ticker:tkr(x.ticker),name:x.name.slice(0,140),cik:x.cik,exchange:String(x.exchange||'').replace(/[^A-Za-z0-9]/g,'').slice(0,18)})).slice(0,8500);
  if(results[1].status==='fulfilled'&&results[1].value.companies)state.snapshots=results[1].value.companies;
- const suggestions=$('company-suggestions');
- for(const entry of (state.directory.length?state.directory:POP)){const opt=document.createElement('option');opt.value=entry.ticker+' — '+entry.name;suggestions.append(opt);}
+ const suggestions=$('company-suggestions'),search=$('company-input');
+ function showSuggestions(){
+   const raw=search.value.trim().toLowerCase(),all=state.directory.length?state.directory:POP;
+   suggestions.replaceChildren();
+   const matches=raw?all.filter(x=>x.ticker.toLowerCase().startsWith(raw)||x.name.toLowerCase().includes(raw)).slice(0,20):POP;
+   for(const entry of matches){const opt=document.createElement('option');opt.value=entry.ticker+' — '+entry.name;suggestions.append(opt);}
+ }
+ search.addEventListener('input',showSuggestions);
+ showSuggestions();
  $('directory-status').textContent=state.directory.length?state.directory.length.toLocaleString()+' SEC ticker associations':'Popular tickers · Full SEC directory pending';
  choose(new URL(location.href).searchParams.get('ticker')||'AAPL');
  news().catch(()=>message('company-news-list','News feed temporarily unavailable. Try the latest news wire.'));
