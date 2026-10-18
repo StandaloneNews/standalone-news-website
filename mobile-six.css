@@ -1,0 +1,85 @@
+/* Standalone News six-action mobile rail — shared across the main desks.
+   Uses the existing navy, cream paper, and oxblood palette. */
+nav.sn-six-bottom{display:none!important;}
+@media(max-width:600px){
+  body{padding-bottom:calc(84px + env(safe-area-inset-bottom))!important;}
+  nav.sn-six-bottom{
+    position:fixed!important;
+    z-index:120!important;
+    bottom:0;left:0;right:0;
+    display:grid!important;
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    height:calc(70px + env(safe-area-inset-bottom));
+    padding:5px max(5px,env(safe-area-inset-right)) calc(5px + env(safe-area-inset-bottom)) max(5px,env(safe-area-inset-left));
+    border-top:1px solid #cfd9df;
+    background:#fffdf8;
+    box-shadow:none!important;
+    align-items:stretch;
+    gap:0;
+    font-family:Arial,"Helvetica Neue",sans-serif;
+  }
+  nav.sn-six-bottom .sn-six-tab{
+    appearance:none;
+    -webkit-appearance:none;
+    display:flex!important;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-width:0;
+    min-height:54px;
+    padding:4px 0;
+    margin:0;
+    gap:3px;
+    background:transparent;
+    border:0;
+    border-radius:0;
+    color:#475a68;
+    text-align:center;
+    text-decoration:none;
+    font-size:10px;
+    font-weight:750;
+    line-height:1.15;
+    letter-spacing:-.12px;
+    touch-action:manipulation;
+    position:relative;
+  }
+  nav.sn-six-bottom .sn-six-icon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:23px;
+    min-height:23px;
+    line-height:1;
+    font-size:21px;
+    font-weight:500;
+    color:inherit;
+    white-space:nowrap;
+  }
+  nav.sn-six-bottom .sn-six-label{
+    display:block;
+    font-size:10px;
+    line-height:1.2;
+    font-weight:750;
+    overflow:visible;
+    white-space:nowrap;
+    color:inherit;
+  }
+  nav.sn-six-bottom .sn-six-tab:is(.active,[aria-current="page"]){
+    background:#edf2f5;
+    color:#18394d;
+  }
+  nav.sn-six-bottom .sn-six-tab:is(.active,[aria-current="page"])::before{
+    content:"";
+    position:absolute;
+    top:0;left:24%;right:24%;
+    height:3px;
+    background:#a93045;
+  }
+  nav.sn-six-bottom .sn-six-tab:focus-visible{
+    outline:3px solid #1b658b!important;
+    outline-offset:-4px!important;
+    background:#eaf2f6;
+    color:#152f42;
+  }
+  nav.sn-six-bottom .sn-six-tab:hover{color:#18394d;}
+}
