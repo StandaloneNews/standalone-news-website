@@ -25,7 +25,7 @@ STARTERS=("AAPL","NVDA","MSFT","TSLA","AMZN","GOOGL","META","JPM","AMD","GOOG","
 FORMS=frozenset(("10-K","10-K/A","10-Q","10-Q/A","8-K","8-K/A","4","4/A","13F-HR","13F-HR/A"))
 CONTACT=os.getenv("SEC_USER_AGENT","").strip()
 CLEAN_TICKER=re.compile(r"^[A-Z][A-Z0-9.\-]{0,9}$")
-CLEAN_FILE=re.compile(r"^[A-Za-z0-9_.-]+$")
+CLEAN_FILE=re.compile(r"^[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+){0,3}$")
 def download(url,agent):
     req=urllib.request.Request(url,headers={"User-Agent":agent,"Accept":"application/json","Accept-Encoding":"identity"})
     with urllib.request.urlopen(req,timeout=26) as response:
@@ -70,16 +70,18 @@ def company_index(raw):
 
 def accession_link(cik,accession,document):
     if not re.fullmatch(r"\d{10}-\d{2}-\d{6}",str(accession)):return None
-    if not CLEAN_FILE.fullmatch(str(document)):return None
+    if not CLEAN_FILE.fullmatch(str(document)) or any(part in (".","..") for part in str(document).split("/")):return None
     return ("https://www.sec.gov/Archives/edgar/data/"+str(int(cik))+"/"
-            +str(accession).replace("-","")+"/"+urllib.parse.quote(str(document)))
+            +str(accession).replace("-","")+"/"+urllib.parse.quote(str(document),safe="/"))
 
 def filings_from_submissions(raw,cik):
     recent=raw.get("filings",{}).get("recent",{})
     forms=recent.get("form",[])
     result=[]
+    caps={"4":24,"4/A":6,"8-K":16,"8-K/A":5,"10-K":7,"10-K/A":2,"10-Q":12,"10-Q/A":3,"13F-HR":7,"13F-HR/A":2}
+    counts={}
     for i,form in enumerate(forms):
-        if form not in FORMS:continue
+        if form not in FORMS or counts.get(form,0)>=caps.get(form,5):continue
         try:
             filed=recent.get("filingDate",[])[i]
             accession=recent.get("accessionNumber",[])[i]
@@ -89,6 +91,7 @@ def filings_from_submissions(raw,cik):
         link=accession_link(cik,accession,doc)
         if not link or not re.fullmatch(r"\d{4}-\d{2}-\d{2}",str(filed)):continue
         result.append({"form":form,"filed":filed,"description":str(description or form)[:140],"url":link})
+        counts[form]=counts.get(form,0)+1
         if len(result)>=80:break
     return result
 
@@ -98,6 +101,7 @@ def self_test():
     assert len(company_index(sample))==501
     assert accession_link(320193,"0000320193-26-000001","form10k.htm").startswith("https://www.sec.gov/Archives/")
     assert accession_link(320193,"0000320193-26-000001","../bad") is None
+    assert "/xslF345X05/form4.xml" in accession_link(320193,"0000320193-26-000001","xslF345X05/form4.xml")
     data={"filings":{"recent":{"form":["4","10-K"],"filingDate":["2026-10-17","2026-10-16"],"accessionNumber":["0000320193-26-000001"]*2,"primaryDocument":["x4.xml","x10.htm"]}}}
     assert len(filings_from_submissions(data,320193))==2
     print("SEC research parser self-tests passed.")
