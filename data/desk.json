@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-18T23:36:56+00:00",
+  "updated_at": "2026-10-19T00:01:02+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
-    "2064d808e1e7e059218c5c91",
     "891ee89885e73103292e9f43",
     "fd367e62fd2b1af48767148d",
+    "2064d808e1e7e059218c5c91",
     "96a1d05f6574f4f54ed7eba4",
     "452ae7a2ce32b3655f9b943a",
     "ce912e9ef0108a454aa55854",
@@ -15,22 +15,48 @@
     "4d40cf7ccf4f2ea49f97c2c4",
     "ddd0f710846fa2197471c51e",
     "88a7f0e55fd07da20ec448d9",
+    "6260906d6b21eaf689b31e03",
     "aedafe535ac63bf5bb36cf52",
-    "283dd0ba00822b1de18ebdfe",
-    "b7a3809b91cb40904fa54f9a",
     "4615586fa44617cff144dda6",
     "9c99b0abc066eb4add2f69bf",
     "16eddc2105cf8883d0ab644d",
     "e2834c74f4065e96c922c178",
+    "d56b0cfda0680c5d0d32c6ef",
     "f8740cf8c54e30f29a49104f",
     "56f1d9ff338dc0f3bcfd0059",
     "42a555c90e3be1ee65fdb50c",
     "09f70fc3b112016dc3579d12",
-    "8613d36e39e97e35c500b46a",
-    "16c1ae4410612f7a22199a7c"
+    "41b5908d26fdb23c9f04763d",
+    "8613d36e39e97e35c500b46a"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "0078f42acdf070a6ea78c6d3",
+      "title": "'Neets crisis is moral failure' and 'Credit crunch'",
+      "summary": "PM brands Neets \"crisis\" a \"moral failure\" and cereal prices could rise in healthy food crackdown lead Monday's papers.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy56p9elwd1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T23:52:38+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6260906d6b21eaf689b31e03",
+      "title": "Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition",
+      "summary": "Canadian Prime Minister Mark Carney says a \"serious incident\" sparked a major fire at on Alberta military base. Four people have died, 39 are in hospital and at least 19 are in critical condition.",
+      "url": "https://www.dw.com/en/canada-fire-at-alberta-military-base-kills-four-leaves-19-in-critical-condition/a-79690515?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T23:43:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "685ccc26500249b0bddd53ef",
       "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
@@ -45,16 +71,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "d56b0cfda0680c5d0d32c6ef",
+      "title": "Times’s investigation adds more intrigue to infamous OJ Simpson case",
+      "summary": "Report reveals that a shady mobser-turned-informant may have been involved in helping cover up murder An in-depth investigation by the New York Times is raising further questions about the high-profile OJ Simpson case, in which the former football player was accused in the 1990s of killing his ex-wife – and whether a shady mobser-turned-informant may have been involved in helping cover up the murder. The Times’s investigation revealed that California prosecutors were unable to fully investigate whether Simpson, who was accused but not convicted of his ex-wife’s murder, may have had an accomplice at the scene of the crime. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/18/oj-simpson-case-times-report",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T23:35:07+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "2064d808e1e7e059218c5c91",
       "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
       "summary": "The boss of one of Ukraine's biggest steel companies says the country has been \"bundled together\" in measures aimed at curbing cheap imports.",
       "url": "https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
+      "feed_id": "bbc_world",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T23:28:45+00:00",
-      "desk_priority": 60,
+      "desk_priority": 51,
       "selection_type": "automatic"
     },
     {
@@ -133,6 +172,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T23:06:16+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "115c065386b51e945d56d5d6",
+      "title": "Elizabeth Holmes documentary You Can See Everything debuts with huge $15m opening weekend",
+      "summary": "Nathan Fielder and Lance Oppenheim’s buzzy film was shown on only 855 screens in the biggest documentary opening in North America since Fahrenheit 9/11 in 2004 Nathan Fielder’s nearly three-hour Elizabeth Holmes documentary, You Can See Everything , has opened to an extraordinary $15m domestic box office, the biggest opening weekend for a documentary in North America in more than 20 years. You Can See Everything, directed by Nathan Fielder and Lance Oppenheim, made $15m (A$21.5m, £11.2m) from only 855 screens, and had more than 2,000 sold-out screenings at the weekend, according to the production company A24. It is the biggest opening for a film playing on fewer than 1,000 screens since Borat opened to $26.5m in 2006. Continue reading...",
+      "url": "https://www.theguardian.com/film/2026/oct/19/elizabeth-holmes-documentary-debuts-with-huge-opening-weekend",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T23:06:10+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -266,6 +318,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "6ef5628df05faefd5854f435",
+      "title": "'Very upsetting': Residents in shock after historic French town hall set alight",
+      "summary": "A historic town hall in the French city of Limoges has been damaged in an apparent arson attack following a day of nationwide protests",
+      "url": "https://www.bbc.co.uk/news/videos/c9dr8kem27zeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-18T22:22:51+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "4615586fa44617cff144dda6",
       "title": "A Savannah police officer gave her Flock login to her ICE agent husband",
       "summary": "Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the department's security protocols. While he […]",
@@ -315,17 +380,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-18T21:40:14+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg/1280px-Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Seattle_-_sign_for_Amazon_HQ_Audible_tour.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Joe Mabel",
-        "license": "CC BY-SA 4.0",
-        "description": "Sign for Amazon.com headquarters Audible tour, South Lake Union, Seattle, Washington, U.S.",
-        "label": "Illustrative photo",
-        "matched_query": "Amazon headquarters Seattle"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "670c82a8c980467678e0e8e8",
@@ -2974,19 +3029,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "6260906d6b21eaf689b31e03",
-      "title": "Canada: Fire at Alberta military Base kills four, leaves 19 in critical condition",
-      "summary": "Canadian Prime Minister Mark Carney says a \"serious incident\" sparked a major fire at on Alberta military base. Four people have died, 39 are in hospital and at least 19 are in critical condition.",
-      "url": "https://www.dw.com/en/canada-fire-at-alberta-military-base-kills-four-leaves-19-in-critical-condition/a-79690515?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-18T02:08:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "51f4257fd69550518d5e45a5",
       "title": "Canada: Fire at military base in Alberta leaves four dead",
       "summary": "Canadian Prime Minister Mark Carney said a \"serious incident\" sparked a major fire at a military base in Alberta.",
@@ -5477,58 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T08:20:00+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "868b5cce556835c5f9a8e470",
-      "title": "Mexico sentences killers of US, Australian surfers to 158 years each in prison",
-      "summary": "Three Mexican men were found guilty last week of murdering foreign surfers in 2024. The case had drawn global condemnation, particularly in Australia, where two of the victims were from.",
-      "url": "https://www.dw.com/en/mexico-sentences-killers-of-us-australian-surfers-to-158-years-each-in-prison/a-79685975?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T08:19:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "20573d6c6ae36623093d2286",
-      "title": "The Digger disaster: what an epic movie flop means for Tom Cruise and Hollywood",
-      "summary": "Unprecedented folly of misjudgment, bad timing and spectacular hubris is predicted to lose $245m. How did this happen? The fanfare at Digger’s world premiere in London four weeks ago was literal. As the Prince and Princess of Wales took to the stage, their arrival was heralded by the band of the Irish guards’ fanfare team – bugles gleaming, epaulets shining, bearskin bonnets rippling under the lights. Given the occasion, the band were not overdressed. Joining William (velvet tux) and Kate (chiffon gown, the late Diana’s earrings) to introduce the film was cinema’s longest-reigning monarch, Tom Cruise (Armani), along with a retinue including director Alejandro González Iñárritu and co-stars Sandra Hüller, Riz Ahmed, John Goodman, Jesse Plemons and Michael Stuhlbarg. Loyal courtiers filled the front rows: Salma Hayek, Hannah Waddingham and ",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/17/the-digger-disaster-what-an-epic-movie-flop-means-for-tom-cruise-and-hollywood",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T08:12:20+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "71f9b67803df134e023b0047",
-      "title": "Oregon school shooter was former special-needs student, police say",
-      "summary": "Oregon school shooter was former special-needs student, police say",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T08:04:35+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "131b1f0cf30c0dc5a9d3f03d",
-      "title": "Wildfire prompts thousands of evacuation orders in Orange County",
-      "summary": "Firefighters are battling fast-moving wildfires in Orange County as Santa Ana winds fan the flames.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/wildfire-prompts-thousands-of-evacuation-orders-in-orange-county?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T08:03:26+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
