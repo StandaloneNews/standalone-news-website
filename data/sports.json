@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T15:54:04Z",
+  "updated_at": "2026-10-19T16:18:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -1117,9 +1117,81 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407157",
+      "league": "mls",
+      "name": "FC Cincinnati vs Columbus Crew",
+      "date": "2026-10-18T21:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "0"
+        },
+        {
+          "name": "Columbus Crew",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "South Africa v Australia: play starts on day two of second men’s cricket Test after rain delays – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-19T16:06:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Uefa gives Infantino two-week deadline to release key documents",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq398rkpjljlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:06:07Z",
+      "league": "all"
+    },
     {
       "title": "Bradley Wiggins' son Ben signs first pro contract",
       "source": "BBC Sport",
@@ -1133,20 +1205,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c820vzrq695xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T15:43:31Z",
       "league": "soccer"
-    },
-    {
-      "title": "Uefa gives Infantino two-week deadline to release key documents",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq398rkpjljlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T15:40:21Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa v Australia: play starts on day two of second men’s cricket Test after rain delays – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-19T15:36:29Z",
-      "league": "all"
     },
     {
       "title": "I'll give Glentoran everything, vows new boss Ferguson",
