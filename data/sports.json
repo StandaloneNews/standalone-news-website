@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T09:01:38Z",
+  "updated_at": "2026-10-19T09:59:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,25 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1143,7 +1124,28 @@
       "title": "South Africa v Australia: second men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-19T08:52:27Z",
+      "date": "2026-10-19T09:52:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Watch: Best of the weekend's SPFL action",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cw77p6z7enlko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T09:10:36Z",
+      "league": "all"
+    },
+    {
+      "title": "At Strasbourg, Gio Reyna is starting to gain what had been elusive: momentum",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/19/gio-reyna-strasbourg-usmnt-psg-goal",
+      "date": "2026-10-19T09:00:25Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Kawhi Leonard: a hero’s complicated return to the Toronto Raptors",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/19/kawhi-leonard-toronto-raptors-nba-basketball",
+      "date": "2026-10-19T09:00:24Z",
       "league": "all"
     },
     {
@@ -1350,13 +1352,6 @@
       "league": "soccer"
     },
     {
-      "title": "European football: 10-man Lyon hold off Nice to move top of Ligue 1",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/18/european-football-monaco-rennes-ligue-1-bayer-leverkusen-freiburg-bundesliga-como-fiorentina-seria-a-real-madrid-sevilla-la-liga",
-      "date": "2026-10-18T18:36:15Z",
-      "league": "soccer"
-    },
-    {
       "title": "Shades of Barca and Beckham - Brighton aim to maintain superb start",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyd05wj00do?at_medium=RSS&at_campaign=rss",
@@ -1438,20 +1433,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report",
       "date": "2026-10-18T15:06:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Everything a struggle for Fernandes - Leeds v Man Utd ratings",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T14:56:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Air Force officer killed in rappelling accident before UTSA’s game against Navy",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/air-force-officer-killed-in-rappelling-accident-before-utsas-game-against-navy",
-      "date": "2026-10-18T14:03:54Z",
       "league": "all"
     }
   ]
