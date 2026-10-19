@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T16:18:47Z",
+  "updated_at": "2026-10-19T16:58:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -1100,78 +1100,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482207",
+      "id": "sportsdb-2482206",
       "league": "seriea",
-      "name": "Monza vs Cagliari",
-      "date": "2026-10-19T16:30:00Z",
+      "name": "Parma vs Torino",
+      "date": "2026-10-19T18:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Monza",
+          "name": "Parma",
           "score": ""
         },
         {
-          "name": "Cagliari",
+          "name": "Torino",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407157",
-      "league": "mls",
-      "name": "FC Cincinnati vs Columbus Crew",
-      "date": "2026-10-18T21:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": "0"
-        },
-        {
-          "name": "Columbus Crew",
-          "score": "2",
-          "winner": true
         }
       ],
       "url": ""
@@ -1179,17 +1121,59 @@
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: play starts on day two of second men’s cricket Test after rain delays – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-19T16:06:40Z",
-      "league": "all"
-    },
-    {
       "title": "Uefa gives Infantino two-week deadline to release key documents",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq398rkpjljlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T16:06:07Z",
+      "date": "2026-10-19T16:56:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Boland exposes South Africa's frailties to give Robinson blueprint",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6rmy4mzl4wyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:55:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Guehi among players not to take knee - is it time to 'move campaign along'?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:41:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Cheltenham jumps into action after fixing its troublesome hole",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/19/cheltenham-jumps-into-action-after-fixing-its-troublesome-hole",
+      "date": "2026-10-19T16:41:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Araujo the stopgap solution fixing Liverpool's problems",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:29:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Brentford contact police after rugby ball kicked into stadium",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T16:26:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Houdini act in Venice leaves Massimiliano Allegri searching for an escape at Napoli | Nicky Bandini",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/19/massimiliano-allegri-napoli-davide-nicola-venezia-serie-a",
+      "date": "2026-10-19T16:25:22Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa close on 97-5 against Australia on day two of second men’s cricket Test after rain delays – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-19T16:17:07Z",
       "league": "all"
     },
     {
@@ -1340,13 +1324,6 @@
       "league": "all"
     },
     {
-      "title": "Northampton 'security incident' believed to be a hoax",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck87zezvln97o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T11:39:13Z",
-      "league": "all"
-    },
-    {
       "title": "‘Actions speak louder than words’: England’s white-ball captain Harry Brook relishes responsibility",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/england-white-ball-captain-harry-brook-cricket",
@@ -1446,51 +1423,16 @@
     },
     {
       "title": "'Not in our DNA' - will 3v3 change the future of English football?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3elveky53eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T05:38:47Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "How one rule change is altering the face of one-day cricket",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T05:27:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Inside British number one Kartal's remarkable comeback",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c68xz5lvnz0ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T05:20:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Rays on verge of World Series return after Rasmussen dazzles in win over Guardians",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/rays-on-verge-of-world-series-return-after-rasmussen-dazzles-in-win-over-guardians",
-      "date": "2026-10-19T00:26:50Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL roundup: Panthers pile pain on slumping Eagles; Cardinals shock Rams",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/nfl-roundup-sunday-football-scores",
-      "date": "2026-10-18T20:57:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Ramos could make La Liga return - Monday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T20:21:54Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-omar-berrada-leeds-premier-league",
-      "date": "2026-10-18T19:56:30Z",
       "league": "all"
     }
   ]
