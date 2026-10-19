@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T23:13:55Z",
+  "updated_at": "2026-10-19T23:50:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1005,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591623",
+      "id": "sportsdb-2591624",
       "league": "nhl",
-      "name": "Toronto Maple Leafs vs San Jose Sharks",
-      "date": "2026-10-19T23:30:00Z",
+      "name": "Utah Mammoth vs Pittsburgh Penguins",
+      "date": "2026-10-20T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Toronto Maple Leafs",
+          "name": "Utah Mammoth",
           "score": ""
         },
         {
-          "name": "San Jose Sharks",
+          "name": "Pittsburgh Penguins",
           "score": ""
         }
       ],
@@ -1136,9 +1136,42 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "England coach should be English, suggests Fleming",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq398r1gxw02o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T23:29:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Who has made Troy's Premier League team of the week?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T23:22:24Z",
+      "league": "all"
+    },
     {
       "title": "Maddison's magic moment for Spurs - 18 months in the making",
       "source": "BBC Sport",
@@ -1302,10 +1335,10 @@
     },
     {
       "title": "Guehi among players not to take knee - is it time to 'move campaign along'?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T16:41:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Cheltenham jumps into action after fixing its troublesome hole",
@@ -1322,11 +1355,11 @@
       "league": "all"
     },
     {
-      "title": "Brentford contact police after rugby ball kicked into stadium",
-      "source": "BBC Sport",
+      "title": "Brentford contact police after rugby ball kicked into stadium during game",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T16:26:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Houdini act in Venice leaves Massimiliano Allegri searching for an escape at Napoli | Nicky Bandini",
@@ -1439,20 +1472,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/19/bayern-munich-luis-diaz-arsenal-revenge-mission-leipzig-bundesliga",
       "date": "2026-10-19T11:49:33Z",
       "league": "soccer"
-    },
-    {
-      "title": "‘Actions speak louder than words’: England’s white-ball captain Harry Brook relishes responsibility",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/19/england-white-ball-captain-harry-brook-cricket",
-      "date": "2026-10-19T11:17:10Z",
-      "league": "all"
-    },
-    {
-      "title": "The Rams have managed to transform themselves from a superteam to a midteam",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/19/los-angeles-rams-superteam-struggles-nfl-football",
-      "date": "2026-10-19T11:11:00Z",
-      "league": "all"
     }
   ]
 }
