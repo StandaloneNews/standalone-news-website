@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T14:04:31Z",
+  "updated_at": "2026-10-19T14:59:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 16,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
@@ -83,7 +83,7 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -1062,6 +1062,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506254",
+      "league": "laliga",
+      "name": "Real Madrid vs Sevilla",
+      "date": "2026-10-18T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Real Madrid",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Sevilla",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506257",
       "league": "laliga",
       "name": "Getafe vs Rayo Vallecano",
@@ -1117,21 +1137,165 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398499",
+      "league": "brasileirao",
+      "name": "Remo vs Bragantino",
+      "date": "2026-10-18T22:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Remo",
+          "score": "1"
+        },
+        {
+          "name": "Bragantino",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": ""
+        },
+        {
+          "name": "Vitória",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487562",
+      "league": "ligamx",
+      "name": "CD Guadalajara vs Necaxa",
+      "date": "2026-10-21T00:07:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "CD Guadalajara",
+          "score": ""
+        },
+        {
+          "name": "Necaxa",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "GB stars aim for Olympic spots at World Championships - live on BBC",
+      "title": "Are free-scoring Brighton genuine title contenders?",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c5pvgjp2ml7vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T14:04:13Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwn8d48je057o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:52:01Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: play starts on day two of second men’s cricket Test after rain delays – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-19T13:47:24Z",
+      "date": "2026-10-19T14:51:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Haaland a doubt, Semenyo out - what are Man City's options?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5djv21rkekwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:36:36Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/19/england-charlie-cresswell-ligue-1-england-france-leeds-juventus-europa-league",
+      "date": "2026-10-19T14:30:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Ex-Scotland captain Ritchie finally set for Glasgow debut",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqg7xj7kj4mzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:24:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Svitolina says emotional toll of Ukraine war led to Monfils separation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/ckd7qy12j148o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:20:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Top throws and 'incredible' grabs - NFL best plays",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/cwly34yxvrezo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:11:04Z",
+      "league": "all"
+    },
+    {
+      "title": "GB stars aim for Olympic spots at World Championships - live on BBC",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c5pvgjp2ml7vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T14:10:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich",
+      "date": "2026-10-19T14:00:59Z",
       "league": "all"
     },
     {
@@ -1147,13 +1311,6 @@
       "url": "https://www.theguardian.com/football/video/2026/oct/19/brighton-peck-palace-and-will-a-point-silence-the-noise-around-carrick-football-weekly-video",
       "date": "2026-10-19T13:32:31Z",
       "league": "soccer"
-    },
-    {
-      "title": "Haaland a doubt, Semenyo out - what are Man City's options?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5djv21rkekwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T13:11:12Z",
-      "league": "all"
     },
     {
       "title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
@@ -1181,13 +1338,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cr0qklk232w3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T12:17:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Wales great Evans to leave role as Lions chair",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwnv074l4nvyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T12:04:39Z",
       "league": "all"
     },
     {
@@ -1261,13 +1411,6 @@
       "league": "all"
     },
     {
-      "title": "At Strasbourg, Gio Reyna is starting to gain what had been elusive: momentum",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/gio-reyna-strasbourg-usmnt-psg-goal",
-      "date": "2026-10-19T09:00:25Z",
-      "league": "soccer"
-    },
-    {
       "title": "Kawhi Leonard: a hero’s complicated return to the Toronto Raptors",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/kawhi-leonard-toronto-raptors-nba-basketball",
@@ -1311,10 +1454,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwkg57jpj3yyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T05:47:12Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Not in our DNA' - will 3v3 change the future of English football?",
@@ -1349,13 +1492,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/rays-on-verge-of-world-series-return-after-rasmussen-dazzles-in-win-over-guardians",
       "date": "2026-10-19T00:26:50Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa-Australia Test finally resumes after rain - scorecard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T00:00:00Z",
       "league": "all"
     },
     {
@@ -1413,27 +1549,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cw4g1dgr2v93o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T18:59:10Z",
       "league": "all"
-    },
-    {
-      "title": "Madueke's strike enough as Arsenal pick up narrow win over Forest",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm70px0l7p7no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T18:59:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Gomez scores extraordinary goal as Brighton put five past Palace",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckm23z2qem45o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T18:59:02Z",
-      "league": "all"
-    },
-    {
-      "title": "'Maybe we became arrogant' - Sunderland struggles continue",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6073pmddk0ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T18:49:00Z",
-      "league": "soccer"
     }
   ]
 }
