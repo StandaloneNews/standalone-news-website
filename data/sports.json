@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T20:18:29Z",
+  "updated_at": "2026-10-19T20:54:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 26,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -948,26 +948,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475465",
-      "league": "nfl",
-      "name": "Green Bay Packers vs Dallas Cowboys",
-      "date": "2026-10-19T00:20:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Green Bay Packers",
-          "score": "23",
-          "winner": true
-        },
-        {
-          "name": "Dallas Cowboys",
-          "score": "13"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475466",
       "league": "nfl",
       "name": "San Francisco 49ers vs Washington Commanders",
@@ -1020,26 +1000,6 @@
         {
           "name": "Cleveland Guardians",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591620",
-      "league": "nhl",
-      "name": "Calgary Flames vs Carolina Hurricanes",
-      "date": "2026-10-19T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Calgary Flames",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Carolina Hurricanes",
-          "score": "2"
         }
       ],
       "url": ""
@@ -1140,25 +1100,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482206",
-      "league": "seriea",
-      "name": "Parma vs Torino",
-      "date": "2026-10-19T18:45:00Z",
-      "state": "upcoming",
-      "status": "2H",
-      "participants": [
-        {
-          "name": "Parma",
-          "score": ""
-        },
-        {
-          "name": "Torino",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482214",
       "league": "seriea",
       "name": "Torino vs Monza",
@@ -1214,228 +1155,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2398495",
-      "league": "brasileirao",
-      "name": "Corinthians vs Vitória",
-      "date": "2026-10-19T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": ""
-        },
-        {
-          "name": "Vitória",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398133",
-      "league": "argentina",
-      "name": "Belgrano vs River Plate",
-      "date": "2026-10-18T23:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Belgrano",
-          "score": "0"
-        },
-        {
-          "name": "River Plate",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398141",
-      "league": "argentina",
-      "name": "Newell's Old Boys vs Central Córdoba de Santiago del Estero",
-      "date": "2026-10-19T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Newell's Old Boys",
-          "score": ""
-        },
-        {
-          "name": "Central Córdoba de Santiago del Estero",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487562",
-      "league": "ligamx",
-      "name": "CD Guadalajara vs Necaxa",
-      "date": "2026-10-21T00:07:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CD Guadalajara",
-          "score": ""
-        },
-        {
-          "name": "Necaxa",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492874",
-      "league": "j1",
-      "name": "Machida Zelvia vs Avispa Fukuoka",
-      "date": "2026-10-18T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Machida Zelvia",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Avispa Fukuoka",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492880",
-      "league": "j1",
-      "name": "Avispa Fukuoka vs Gamba Osaka",
-      "date": "2026-10-21T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Avispa Fukuoka",
-          "score": ""
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540110",
-      "league": "aleague",
-      "name": "Wellington Phoenix vs Melbourne Victory",
-      "date": "2026-10-18T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Wellington Phoenix",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Melbourne Victory",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T20:15:48Z",
-      "league": "soccer"
-    },
-    {
       "title": "Tottenham v Coventry: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/19/tottenham-v-coventry-premier-league-live",
-      "date": "2026-10-19T20:15:41Z",
+      "date": "2026-10-19T20:47:34Z",
       "league": "all"
-    },
-    {
-      "title": "Liverpool and Man Utd eye Nmecha - Tuesday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crjwe6wyjeqwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T20:15:18Z",
-      "league": "soccer"
     },
     {
       "title": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T19:45:32Z",
+      "date": "2026-10-19T20:35:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Cristiano Ronaldo receives 30-day suspension and £215 fine over Portugal walkout",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/19/cristiano-ronaldo-30-day-suspension-and-215-fine-portugal-walkout",
+      "date": "2026-10-19T20:34:05Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T20:15:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool and Man Utd eye Nmecha - Tuesday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crjwe6wyjeqwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T20:15:18Z",
       "league": "all"
     },
     {
@@ -1479,13 +1234,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ckwyqdvedj32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T18:13:52Z",
       "league": "all"
-    },
-    {
-      "title": "Cristiano Ronaldo receives 30-day suspension and £215 fine over Portugal walkout",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/cristiano-ronaldo-30-day-suspension-and-215-fine-portugal-walkout",
-      "date": "2026-10-19T18:07:45Z",
-      "league": "soccer"
     },
     {
       "title": "Scott Boland shines against South Africa but rain dominates again",
@@ -1663,13 +1411,6 @@
       "league": "soccer"
     },
     {
-      "title": "Brook says he has 'learned a lot' from off-field issues",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm3elzgj5glzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T12:00:54Z",
-      "league": "all"
-    },
-    {
       "title": "Bayern and Luis Díaz warm up for Arsenal revenge mission with furious rout of Leipzig | Andy Brassell",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/19/bayern-munich-luis-diaz-arsenal-revenge-mission-leipzig-bundesliga",
@@ -1699,10 +1440,10 @@
     },
     {
       "title": "England manager Wiegman signs contract extension",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T10:08:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Everton legend Ferguson returns to management in Irish League",
@@ -1724,6 +1465,13 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cw77p6z7enlko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T09:10:36Z",
       "league": "all"
+    },
+    {
+      "title": "Hearts humiliated - but would Vrancken do anything differently?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6ev32zvzv01o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T08:30:31Z",
+      "league": "soccer"
     }
   ]
 }
