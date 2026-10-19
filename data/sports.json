@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T04:57:58Z",
+  "updated_at": "2026-10-19T05:54:16Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,28 +1117,58 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwkg57jpj3yyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:47:12Z",
+      "league": "all"
+    },
+    {
+      "title": "'Not in our DNA' - will 3v3 change the future of English football?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3elveky53eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:38:47Z",
+      "league": "all"
+    },
+    {
+      "title": "How one rule change is altering the face of one-day cricket",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6eweg47wv11o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:27:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Inside British number one Kartal's remarkable comeback",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c68xz5lvnz0ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:20:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Euro Leagues",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0ph7nfj?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T05:00:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The Welshman seeking NBA title with Timberwolves",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/cm3wjz3d1p66o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T04:10:35Z",
+      "league": "all"
+    },
+    {
+      "title": "The players that staked late claims for Wales spots",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4g1dylle2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T03:30:23Z",
+      "league": "all"
+    },
     {
       "title": "Ben Simmons’ NBA comeback derailed after tearing achilles tendon in practice",
       "source": "The Guardian Sport",
@@ -1154,7 +1184,7 @@
       "league": "all"
     },
     {
-      "title": "Football Daily",
+      "title": "Free-scoring Brighton & Man Utd settle for a point",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sounds/play/p0phbswc?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T22:26:00Z",
@@ -1280,17 +1310,10 @@
       "league": "all"
     },
     {
-      "title": "Hearts roll out red carpet ... and Celtic walk all over it",
+      "title": "Hearts roll out red carpet... and Celtic walk all over it",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c62kezneyq8vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T18:22:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Selby out but Lisowski advances in NI Open defence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/c9e8l765gdmyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T18:12:49Z",
       "league": "all"
     },
     {
@@ -1309,10 +1332,10 @@
     },
     {
       "title": "Madueke strikes late but who missed his big chance? - Forest v Arsenal ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn33jgx84o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T17:35:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Mbeumo offers Carrick solace as Man Utd winless run goes on",
@@ -1364,13 +1387,6 @@
       "league": "all"
     },
     {
-      "title": "Chacarra wins in India to take Race to Dubai lead",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cw98zlldrpj0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T15:11:51Z",
-      "league": "all"
-    },
-    {
       "title": "Gómez halfway-line wondergoal sparks Brighton’s 5-0 thrashing of sorry Crystal Palace",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/18/brighton-crystal-palace-premier-league-match-report",
@@ -1379,10 +1395,10 @@
     },
     {
       "title": "Everything a struggle for Fernandes - Leeds v Man Utd ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckvg7v43x1xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T14:56:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Air Force officer killed in rappelling accident before UTSA’s game against Navy",
@@ -1406,13 +1422,6 @@
       "league": "all"
     },
     {
-      "title": "Britain's Kartal misses out on biggest title of her career",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqm2411vp3dgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T13:39:24Z",
-      "league": "all"
-    },
-    {
       "title": "What awaits Everton hero Ferguson in shock Glens role?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwdd832e7gqmo?at_medium=RSS&at_campaign=rss",
@@ -1425,34 +1434,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/18/chelsea-tottenham-wsl-match-report",
       "date": "2026-10-18T13:13:45Z",
       "league": "all"
-    },
-    {
-      "title": "Martínez back ‘in a few weeks’ after jaw surgery; Liverpool lose Szoboszlai for ‘some time’ – matchday live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/18/manchester-united-feeling-the-heat-as-they-travel-to-leeds-matchday-live",
-      "date": "2026-10-18T12:06:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Netball enters brave new world as New Zealand stun Australia",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/netball-constellation-cup-new-zealand-silver-ferns-stun-australia-diamonds",
-      "date": "2026-10-18T10:41:01Z",
-      "league": "all"
-    },
-    {
-      "title": "After Dubois' dominant win, what's next for heavyweight boxing?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/ck3r59ywz99ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T09:55:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Martinez breaks jaw in Chelsea win at Everton",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3vl198eyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T09:42:10Z",
-      "league": "soccer"
     }
   ]
 }
