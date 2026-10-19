@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T02:14:48+00:00",
+  "updated_at": "2026-10-19T02:52:02+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
-  "sources_ok": 29,
+  "sources_ok": 54,
   "featured_ids": [
     "fd367e62fd2b1af48767148d",
     "9ce28cff667207c7f53d8937",
@@ -18,8 +18,8 @@
     "bcf8a469636bfe218437ba0c",
     "bc533da0db08e73ea89b69d3",
     "88a7f0e55fd07da20ec448d9",
-    "23b3532b638de15e2f4545f4",
-    "7304f55dd5da7eb8d45fff68",
+    "836fe0f518b023e4865a77cf",
+    "44ae4df210628d8a93c2b0fc",
     "4615586fa44617cff144dda6",
     "9c99b0abc066eb4add2f69bf",
     "16eddc2105cf8883d0ab644d",
@@ -175,15 +175,28 @@
       "selection_type": "automatic"
     },
     {
+      "id": "b93423fcf928cc5ec33d294d",
+      "title": "Anthropic says it will commit 5% of its shares to 'public benefit fund'",
+      "summary": "The announcement comes as Anthropic lays the ground for a blockbuster stock market listing.",
+      "url": "https://www.bbc.co.uk/news/articles/cm2kez327gdko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-19T02:41:41+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
       "id": "99cac3b66f8723cadb1ae7e1",
       "title": "China's third-quarter economic growth quickens to 4.5% as exports surge, beating estimates",
-      "summary": "",
+      "summary": "China's economic growth accelerated in the third quarter, as foreign demand for the country's technological goods largely offset sluggish consumer demand.",
       "url": "https://www.cnbc.com/2026/10/19/chinas-economic-growth-quickens-to-4point6percent-as-exports-surge-stimulus-rolls-out.html",
       "source": "CNBC",
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-19T02:12:15+00:00",
+      "published_at": "2026-10-19T02:29:11+00:00",
       "desk_priority": 37,
       "selection_type": "automatic",
       "image": {
@@ -198,6 +211,58 @@
       }
     },
     {
+      "id": "836fe0f518b023e4865a77cf",
+      "title": "Former Labor attorney general turned judge Robert McClelland named new anti-corruption boss",
+      "summary": "McClelland, who served in the Rudd government, named as boss of National Anti-Corruption Commission after Paul Brereton quit in May Former Labor attorney general and federal court judge Robert McClelland has been named as the new boss of the National Anti-Corruption Commission. McClelland was the country’s top law officer in the Rudd government, serving from 2007 until 2011. He has served as the deputy chief justice of the federal circuit and family court of Australia since 2018, and was appointed to the court by the Coalition in 2015. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/19/former-labor-attorney-general-robert-mcclelland-named-new-nacc-boss",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-19T02:27:37+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e5cad304e22ba05947df1834",
+      "title": "China's growth accelerates as AI export boom outweighs domestic weakness",
+      "summary": "Exports have helped offset weak spending at home, but trade tensions and AI doubts cloud its outlook.",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-19T02:22:42+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "283dd0ba00822b1de18ebdfe",
+      "title": "Jacqui Lambie condemns One Nation cartoon mocking her struggle with vaginal prolapse",
+      "summary": "Independent MP Monique Ryan throws her support behind fellow crossbencher after Pauline Hanson’s Please Explain episode Get our breaking news email , free app or daily news podcast Jacqui Lambie has condemned a One Nation cartoon mocking her health struggle with vaginal prolapse, as Labor and crossbenchers expressed their support for the Tasmanian senator. The latest cartoon, part of Pauline Hanson’s Please Explain series, took aim at the Albanese government’s Digital Duty of Care legislation, which targets online safety. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/19/jacqui-lambie-one-nation-pauline-hanson-please-explain-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-19T02:09:55+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "44ae4df210628d8a93c2b0fc",
+      "title": "Trump to close and renovate D.C. golf course, despite legal battle",
+      "summary": "President Trump continues his efforts to remake Washington, D.C. He wants to turn an area used by the public into a world-class golf course.",
+      "url": "https://www.npr.org/2026/10/18/nx-s1-6007384/trump-to-close-and-renovate-d-c-golf-course-despite-legal-battle",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-19T02:09:43+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "f48124722084331260547c1f",
       "title": "France hit by worst unrest in years as attempts to rein in government spending meet citizen ire",
       "summary": "France’s worst unrest in years saw thousands arrested, prompting President Macron to vow an “uncompromising” response ahead of a critical budget vote.",
@@ -208,19 +273,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-19T02:06:45+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e5cad304e22ba05947df1834",
-      "title": "China's economic growth picks up as AI boom boosts exports",
-      "summary": "Exports have helped offset weak domestic spending, but trade tensions and AI doubts weigh on the outlook.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yn098xz8lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-19T02:03:04+00:00",
-      "desk_priority": 38,
       "selection_type": "automatic"
     },
     {
@@ -260,17 +312,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-19T01:41:24+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/White_House_from_North.jpg/1280px-White_House_from_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:White_House_from_North.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "BenAveling",
-        "license": "CC BY-SA 3.0",
-        "description": "White House from across the North lawn",
-        "label": "Illustrative photo",
-        "matched_query": "White House Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "a136a16e20411bfd090797ff",
@@ -312,19 +354,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "283dd0ba00822b1de18ebdfe",
-      "title": "Jacqui Lambie condemns One Nation cartoon mocking her struggle with vaginal prolapse",
-      "summary": "Independent MP Monique Ryan throws her support behind fellow crossbencher after Pauline Hanson’s Please Explain episode Get our breaking news email , free app or daily news podcast Jacqui Lambie has condemned a One Nation cartoon mocking her health struggle with vaginal prolapse, as Labor and crossbenchers expressed their support for the Tasmanian senator. The latest cartoon, part of Pauline Hanson’s Please Explain series, took aim at the Albanese government’s Digital Duty of Care legislation, which targets online safety. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/19/jacqui-lambie-one-nation-pauline-hanson-please-explain-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-19T01:31:30+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "e4567a5ce90bf178e9828560",
       "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
       "summary": "Kenyan health authorities say latest patient was likely exposed to the country's first Ebola case.",
@@ -352,7 +381,7 @@
     },
     {
       "id": "46f4589b7928c85d63c44bbd",
-      "title": "What to Know About the Obscure Private Trust Looming Over Anthropic’s IPO",
+      "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
       "summary": "The AI company has shared few details on the dynamics of the five-person trust empowered to shape its board and block major moves.",
       "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?mod=rss_markets_main",
       "source": "WSJ",
@@ -521,7 +550,7 @@
     },
     {
       "id": "0078f42acdf070a6ea78c6d3",
-      "title": "'Neets crisis is moral failure' and 'Credit crunch'",
+      "title": "The Papers: 'Neets crisis is moral failure' and 'Credit crunch'",
       "summary": "PM brands Neets \"crisis\" a \"moral failure\" and cereal prices could rise in healthy food crackdown lead Monday's papers.",
       "url": "https://www.bbc.co.uk/news/articles/cmy56p9elwd1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -4705,11 +4734,11 @@
       "summary": "Police arrested at least 1,800 people across France after violent groups clashed with officers and looted shops during nationwide demonstrations that drew hundreds of thousands of people.",
       "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
       "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
+      "feed_id": "npr_world",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T15:57:40+00:00",
-      "desk_priority": 24,
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -5499,45 +5528,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-17T11:57:19+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "57f6586c9bfc3810e4d9cbd2",
-      "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-      "summary": "The major party candidates for Minnesota's U.S. Senate seat faced off in an hourlong debate Friday on MPR News with fraud, affordability and fallout from the Trump administration's policies as key points of friction.",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T11:43:14+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7636853a3767ba4de10574f5",
-      "title": "Dozens of critically endangered orangutans rescued from Indonesian wildfires",
-      "summary": "Rescuers in Indonesia have saved dozens of orangutans from wildfires. The critically endangered species is fighting for their lives and habitats during this deadly wildfire season.",
-      "url": "https://www.npr.org/2026/10/17/nx-s1-6004881/dozens-of-critically-endangered-orangutans-rescued-from-indonesian-wildfires",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T11:43:13+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "593c010dda33d8f28d2fe39c",
-      "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
-      "summary": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US president's waiver of new sanctions on Moscow a boost for Vladimir Putin.",
-      "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-17T11:34:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
