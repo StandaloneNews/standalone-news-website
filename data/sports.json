@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T06:19:14Z",
+  "updated_at": "2026-10-19T07:16:25Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 8,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,17 +13,17 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -948,63 +948,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475466",
-      "league": "nfl",
-      "name": "San Francisco 49ers vs Washington Commanders",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "San Francisco 49ers",
-          "score": ""
-        },
-        {
-          "name": "Washington Commanders",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2601665",
-      "league": "nba",
-      "name": "Detroit Pistons vs Boston Celtics",
-      "date": "2026-10-20T19:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Detroit Pistons",
-          "score": ""
-        },
-        {
-          "name": "Boston Celtics",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591621",
       "league": "nhl",
       "name": "New York Rangers vs Anaheim Ducks",
@@ -1117,9 +1060,75 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Premier League: 10 talking points from the weekend’s action",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/19/premier-league-10-talking-points-from-the-weekends-action",
+      "date": "2026-10-19T07:00:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Smith v Puello - all you need to know",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cmd7qxp27144o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T06:31:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Beer & Blackpool beach was how British players bonded - Pulis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjr4yndrz1kro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T06:23:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Best images of F1 in the US through the years",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqm24nezmy23o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T06:17:28Z",
+      "league": "all"
+    },
     {
       "title": "Cardinals upset Rams as Eagles lose - five things from NFL week six",
       "source": "BBC Sport",
@@ -1163,13 +1172,6 @@
       "league": "soccer"
     },
     {
-      "title": "The Welshman seeking NBA title with Timberwolves",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/cm3wjz3d1p66o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T04:10:35Z",
-      "league": "all"
-    },
-    {
       "title": "The players that staked late claims for Wales spots",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4g1dylle2eo?at_medium=RSS&at_campaign=rss",
@@ -1181,6 +1183,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/ben-simmons-nba-comeback-derailed-after-tearing-achilles-tendon-in-practice",
       "date": "2026-10-19T00:33:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Rays on verge of World Series return after Rasmussen dazzles in win over Guardians",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/18/rays-on-verge-of-world-series-return-after-rasmussen-dazzles-in-win-over-guardians",
+      "date": "2026-10-19T00:26:50Z",
       "league": "all"
     },
     {
@@ -1220,10 +1229,10 @@
     },
     {
       "title": "Ramos could make La Liga return - Monday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckjrw11dv5xjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-18T20:21:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
@@ -1324,13 +1333,6 @@
       "league": "all"
     },
     {
-      "title": "Madueke breaks Nottingham Forest’s resistance as dogged Arsenal edge to victory",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/18/nottingham-forest-arsenal-premier-league-match-report",
-      "date": "2026-10-18T17:39:57Z",
-      "league": "all"
-    },
-    {
       "title": "Madueke strikes late but who missed his big chance? - Forest v Arsenal ratings",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn33jgx84o?at_medium=RSS&at_campaign=rss",
@@ -1346,23 +1348,16 @@
     },
     {
       "title": "‘Like a fresh start’: Michael Carrick relieved by Manchester United’s draw at Leeds",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/18/manchester-united-michael-carrick-draw-leeds-fresh-start",
       "date": "2026-10-18T16:50:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Australia’s Boland damages South Africa in brief respite from rain",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/australias-boland-damages-south-africa-in-brief-respite-from-rain",
       "date": "2026-10-18T16:45:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Slade misses last-gasp kick as Toulouse deny Exeter famous win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvglwz05j6l4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T16:27:51Z",
       "league": "all"
     },
     {
@@ -1419,20 +1414,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/kartal-denied-biggest-win-of-career-after-chwalinska-fightback-in-wuhan-open-final",
       "date": "2026-10-18T13:51:13Z",
-      "league": "all"
-    },
-    {
-      "title": "What awaits Everton hero Ferguson in shock Glens role?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwdd832e7gqmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-18T13:36:49Z",
-      "league": "soccer"
-    },
-    {
-      "title": "James and Carpenter lead Chelsea surge as sorry Spurs hit for six in WSL again",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/18/chelsea-tottenham-wsl-match-report",
-      "date": "2026-10-18T13:13:45Z",
       "league": "all"
     }
   ]
