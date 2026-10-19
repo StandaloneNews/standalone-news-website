@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T08:07:04Z",
+  "updated_at": "2026-10-19T09:01:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 17,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 2
+      "events": 0
     },
     {
       "id": "mls",
@@ -967,26 +967,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601664",
-      "league": "nba",
-      "name": "Los Angeles Lakers vs Denver Nuggets",
-      "date": "2026-10-17T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Lakers",
-          "score": "106"
-        },
-        {
-          "name": "Denver Nuggets",
-          "score": "121",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601665",
       "league": "nba",
       "name": "Detroit Pistons vs Boston Celtics",
@@ -1058,26 +1038,6 @@
         {
           "name": "Middle Tennessee",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494069",
-      "league": "epl",
-      "name": "Nottingham Forest vs Arsenal",
-      "date": "2026-10-18T15:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Nottingham Forest",
-          "score": "0"
-        },
-        {
-          "name": "Arsenal",
-          "score": "1",
-          "winner": true
         }
       ],
       "url": ""
@@ -1176,84 +1136,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398133",
-      "league": "argentina",
-      "name": "Belgrano vs River Plate",
-      "date": "2026-10-18T23:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Belgrano",
-          "score": "0"
-        },
-        {
-          "name": "River Plate",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514004",
-      "league": "primeira",
-      "name": "Famalicao vs Alverca",
-      "date": "2026-10-12T19:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Famalicao",
-          "score": "1"
-        },
-        {
-          "name": "Alverca",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2513943",
-      "league": "primeira",
-      "name": "Braga vs Gil Vicente",
-      "date": "2026-10-19T19:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Braga",
-          "score": ""
-        },
-        {
-          "name": "Gil Vicente",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1261,8 +1143,15 @@
       "title": "South Africa v Australia: second men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/19/south-africa-v-australia-second-test-day-two-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-19T07:53:43Z",
+      "date": "2026-10-19T08:52:27Z",
       "league": "all"
+    },
+    {
+      "title": "Hearts humiliated - but would Vrancken do anything differently?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6ev32zvzv01o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T08:30:31Z",
+      "league": "soccer"
     },
     {
       "title": "Premier League: 10 talking points from the weekend’s action",
@@ -1563,13 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/18/air-force-officer-killed-in-rappelling-accident-before-utsas-game-against-navy",
       "date": "2026-10-18T14:03:54Z",
-      "league": "all"
-    },
-    {
-      "title": "‘My time, my era’: Dubois sends out warning to rivals with Wardley demolition",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/18/daniel-dubois-fabio-wardley-wbo-heavyweight-title-rematch-boxing",
-      "date": "2026-10-18T13:53:32Z",
       "league": "all"
     }
   ]
