@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T21:15:50Z",
+  "updated_at": "2026-10-19T21:51:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1136,28 +1136,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Lampard 'proud' of Coventry performance in defeat to Spurs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c32l4x1k28ero?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:41:21Z",
+      "league": "all"
+    },
+    {
+      "title": "How have Canada closed gap to world champions England?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw1l38g6lz88o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:38:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:34:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Spurs beat Coventry to earn first league win of the season",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9x28pyg05vyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-19T21:33:07Z",
+      "league": "all"
+    },
     {
       "title": "Davies ensures Spurs off the bottom after first win of season against Coventry",
       "source": "The Guardian Sport",
@@ -1187,18 +1196,11 @@
       "league": "all"
     },
     {
-      "title": "Ronaldo given 30-day suspension and £215 fine by Portuguese FA",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck9qznlywy8no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T20:35:44Z",
-      "league": "all"
-    },
-    {
       "title": "Cristiano Ronaldo receives 30-day suspension and £215 fine over Portugal walkout",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/19/cristiano-ronaldo-30-day-suspension-and-215-fine-portugal-walkout",
       "date": "2026-10-19T20:34:05Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
@@ -1233,13 +1235,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/eagles-qb-jalen-hurts-to-miss-rest-of-season-after-blood-clots-travel-to-his-lungs",
       "date": "2026-10-19T18:40:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Cardinals upset Rams as Eagles lose Hurts - five things from NFL week six",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/crq5n8px34pwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T18:37:18Z",
       "league": "all"
     },
     {
@@ -1320,6 +1315,13 @@
       "league": "all"
     },
     {
+      "title": "Houdini act in Venice leaves Massimiliano Allegri searching for an escape at Napoli | Nicky Bandini",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/19/massimiliano-allegri-napoli-davide-nicola-venezia-serie-a",
+      "date": "2026-10-19T16:25:22Z",
+      "league": "all"
+    },
+    {
       "title": "Bradley Wiggins' son Ben signs first pro contract",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cycling/articles/crje5d2l0geyo?at_medium=RSS&at_campaign=rss",
@@ -1342,10 +1344,10 @@
     },
     {
       "title": "Crystal Palace to give Sage more time but manager under serious scrutiny",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/19/crystal-palace-pierre-sage-future-steve-parish-brighton-loss",
       "date": "2026-10-19T15:00:18Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Are free-scoring Brighton genuine title contenders?",
@@ -1384,10 +1386,10 @@
     },
     {
       "title": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich",
       "date": "2026-10-19T14:00:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "All the goals from the Women's Super League - matchweek six",
@@ -1450,27 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/what-the-war-has-done-to-me-inside-ukraines-svitolina-announces-separation-from-monfils",
       "date": "2026-10-19T10:24:41Z",
-      "league": "all"
-    },
-    {
-      "title": "England manager Wiegman signs contract extension",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c679plpvellgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T10:08:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Everton legend Ferguson returns to management in Irish League",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq62yd157rjeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T10:06:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Sarina Wiegman signs contract extension to stay as England women head coach until 2029",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/19/sarina-wiegman-signs-contract-extension-england-women-euro-2029",
-      "date": "2026-10-19T10:00:04Z",
       "league": "all"
     }
   ]
