@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T08:57:34Z",
+  "updated_at": "2026-10-20T09:54:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -986,6 +986,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619527",
+      "league": "mlb",
+      "name": "Milwaukee Brewers vs Tampa Bay Rays",
+      "date": "2026-10-24T00:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Milwaukee Brewers",
+          "score": ""
+        },
+        {
+          "name": "Tampa Bay Rays",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591625",
       "league": "nhl",
       "name": "New York Islanders vs Anaheim Ducks",
@@ -1098,28 +1117,87 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "PSG v Barcelona - Europe's most exciting match-up?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c820vw7velvro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T08:52:56Z",
+      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-20T09:44:30Z",
       "league": "all"
     },
     {
       "title": "Pakistan v England: men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T08:43:31Z",
+      "date": "2026-10-20T09:42:42Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "title": "Boulter produces emphatic win at Japan Open",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c9vgrnnnz014o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T09:24:43Z",
+      "league": "all"
+    },
+    {
+      "title": "We were not underprepared for World Cup, says England's O'Neill",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T09:15:53Z",
+      "league": "all"
+    },
+    {
+      "title": "NBA 2026-27 season predictions: A Knicks repeat and LeBron’s villain arc",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T08:43:15Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/nba-2026-27-season-predictions-a-knicks-repeat-and-lebrons-villain-arc",
+      "date": "2026-10-20T09:00:22Z",
+      "league": "all"
+    },
+    {
+      "title": "PSG v Barcelona - Europe's most exciting match-up?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c820vw7velvro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T08:52:56Z",
       "league": "all"
     },
     {
@@ -1162,13 +1240,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/basketball/articles/cqe9lr3zr4k1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T06:24:13Z",
-      "league": "all"
-    },
-    {
-      "title": "England unchanged to face France after Tonga defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T06:18:34Z",
       "league": "all"
     },
     {
@@ -1225,13 +1296,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/angel-reese-double-double-dream-valkyries-wnba-finals-game-2",
       "date": "2026-10-20T02:44:12Z",
-      "league": "all"
-    },
-    {
-      "title": "England coach should be English, suggests Fleming",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq398r1gxw02o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T23:29:19Z",
       "league": "all"
     },
     {
@@ -1323,13 +1387,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq2d6npjy9xlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T19:32:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Uefa demands Fifa releases documents relating to World Cup sell-off scheme",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/19/uefa-demands-fifa-releases-documents-relating-to-world-cup-sell-off-scheme",
-      "date": "2026-10-19T18:52:05Z",
       "league": "all"
     },
     {
