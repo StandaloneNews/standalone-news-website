@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T03:18:01Z",
+  "updated_at": "2026-10-20T03:55:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1098,9 +1098,42 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Brock Purdy becomes highest-rated passer in NFL history as 49ers stay perfect",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/19/washington-commanders-san-francisco-49ers-nfl-monday-night-football",
+      "date": "2026-10-20T03:42:23Z",
+      "league": "all"
+    },
+    {
+      "title": "World Series will have first-time champion as Rays set up showdown with Brewers",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs",
+      "date": "2026-10-20T03:13:00Z",
+      "league": "all"
+    },
     {
       "title": "Angel Reese’s superb 30-point double-double helps Dream even WNBA finals",
       "source": "The Guardian Sport",
@@ -1232,13 +1265,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/19/uefa-demands-fifa-releases-documents-relating-to-world-cup-sell-off-scheme",
       "date": "2026-10-19T18:52:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Eagles QB Hurts reportedly played after not sleeping for 36 hours amid blood clot diagnosis",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/19/eagles-qb-jalen-hurts-to-miss-rest-of-season-after-blood-clots-travel-to-his-lungs",
-      "date": "2026-10-19T18:40:04Z",
       "league": "all"
     },
     {
@@ -1407,13 +1433,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyzgre7neo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T12:51:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Morgan Gibbs-White fined after his car ran red light",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/c6wyr3rrxnrxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T12:49:39Z",
       "league": "soccer"
     }
   ]
