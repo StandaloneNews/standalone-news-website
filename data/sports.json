@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T15:55:38Z",
+  "updated_at": "2026-10-20T16:22:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 27,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,12 +23,12 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 2
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -986,26 +986,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "7",
-          "winner": true
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": "3"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2619527",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1020,26 +1000,6 @@
         {
           "name": "Tampa Bay Rays",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591624",
-      "league": "nhl",
-      "name": "Utah Mammoth vs Pittsburgh Penguins",
-      "date": "2026-10-20T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Utah Mammoth",
-          "score": "5",
-          "winner": true
-        },
-        {
-          "name": "Pittsburgh Penguins",
-          "score": "4"
         }
       ],
       "url": ""
@@ -1157,280 +1117,30 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489518",
-      "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Nice",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594659",
-      "league": "ucl",
-      "name": "Slovan Bratislava vs Stuttgart",
-      "date": "2026-10-14T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Slovan Bratislava",
-          "score": "0"
-        },
-        {
-          "name": "Stuttgart",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487562",
-      "league": "ligamx",
-      "name": "CD Guadalajara vs Necaxa",
-      "date": "2026-10-21T00:07:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CD Guadalajara",
-          "score": ""
-        },
-        {
-          "name": "Necaxa",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492880",
-      "league": "j1",
-      "name": "Avispa Fukuoka vs Gamba Osaka",
-      "date": "2026-10-21T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Avispa Fukuoka",
-          "score": ""
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540110",
-      "league": "aleague",
-      "name": "Wellington Phoenix vs Melbourne Victory",
-      "date": "2026-10-18T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Wellington Phoenix",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Melbourne Victory",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2513943",
-      "league": "primeira",
-      "name": "Braga vs Gil Vicente",
-      "date": "2026-10-19T19:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Braga",
-          "score": "1"
-        },
-        {
-          "name": "Gil Vicente",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407157",
-      "league": "mls",
-      "name": "FC Cincinnati vs Columbus Crew",
-      "date": "2026-10-18T21:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": "0"
-        },
-        {
-          "name": "Columbus Crew",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Sloppy England start winter with Pakistan defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c962ylv3l334o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T16:13:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Arafat rips through England as Brook’s men wilt against Pakistan in tri-series opener",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/cricket-pakistan-england-one-day-international-odi-match-report",
+      "date": "2026-10-20T16:07:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Allen considers retirement after NI Open exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmn8w3zl0z4po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T15:55:57Z",
+      "league": "all"
+    },
     {
       "title": "Stembridge named England coach for 2027 Netball World Cup",
       "source": "BBC Sport",
@@ -1439,25 +1149,18 @@
       "league": "all"
     },
     {
-      "title": "England collapse to 87-run defeat by Pakistan in men’s tri-series cricket ODI – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T15:53:38Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "title": "Australia limp to 3-1 after South Africa post 425-9 on day three of men’s second Test – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
       "date": "2026-10-20T15:51:59Z",
       "league": "all"
     },
     {
-      "title": "Sloppy England start winter with Pakistan defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c962ylv3l334o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T15:43:23Z",
-      "league": "all"
+      "title": "What is the longest a team has gone without winning a league game at home?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjkgeqxgz5d5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T15:49:56Z",
+      "league": "soccer"
     },
     {
       "title": "Vincent Kompany to miss Bayern’s clash with Arsenal due to legs-affecting virus",
@@ -1471,13 +1174,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/uswnt-u-17-samoa-world-cup",
       "date": "2026-10-20T15:15:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Allen exits NI Open with Brown loss on return",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/ck3r5v7l5xy2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T15:11:55Z",
       "league": "all"
     },
     {
@@ -1587,10 +1283,10 @@
     },
     {
       "title": "Erik ten Hag accuses Cristiano Ronaldo of ‘letting down’ Manchester United",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united",
       "date": "2026-10-20T10:43:00Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Uncapped Dragons get Wales Nations Championship call",
@@ -1716,13 +1412,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs",
       "date": "2026-10-20T03:13:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Angel Reese’s superb 30-point double-double helps Dream even WNBA finals",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/19/angel-reese-double-double-dream-valkyries-wnba-finals-game-2",
-      "date": "2026-10-20T02:44:12Z",
       "league": "all"
     },
     {
