@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T21:53:48Z",
+  "updated_at": "2026-10-20T22:15:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,47 +1117,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Champions League roundup: McTominay double leads Napoli past Bodø/Glimt",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/20/champions-league-roundup-mctominay-scores-twice-on-return-from-heart-surgery",
+      "date": "2026-10-20T21:55:04Z",
+      "league": "soccer"
+    },
     {
       "title": "Sutcliffe makes first Scotland start against Australia",
       "source": "BBC Sport",
@@ -1187,7 +1156,7 @@
       "league": "all"
     },
     {
-      "title": "Mac Allister double sparks Liverpool’s thrilling comeback win against Villarreal",
+      "title": "Mac Allister double sparks Liverpool’s thrilling comeback win over Villarreal",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-champions-league-match-report",
       "date": "2026-10-20T21:04:02Z",
@@ -1237,9 +1206,16 @@
     },
     {
       "title": "Turkish FA bans 147 officials for breaching betting rules",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqdr86m4r36po?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T18:39:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Saracens owner backs CEO and rejects chaos claims",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq4g15dr8jzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T17:44:14Z",
       "league": "all"
     },
     {
@@ -1453,24 +1429,10 @@
       "league": "all"
     },
     {
-      "title": "Lowry joins McIlroy in first ever TGL Trade",
+      "title": "Wales make four changes to face Samoa at World Cup",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cr93z192e211o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T07:52:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/20/dwight-yorke-interview-manager-ghana-trinidad-and-tobago",
-      "date": "2026-10-20T07:00:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Will Lindblad and Lawson be retained by Racing Bulls? F1 Q&A",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx30ez4ge3z7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T06:59:17Z",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq1kdwzlxm91o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T07:57:23Z",
       "league": "all"
     }
   ]
