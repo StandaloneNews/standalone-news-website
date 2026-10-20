@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T13:08:44Z",
+  "updated_at": "2026-10-20T13:59:59Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1136,25 +1136,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1162,14 +1143,35 @@
       "title": "England chasing 303 to beat Pakistan in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T13:01:39Z",
+      "date": "2026-10-20T13:50:14Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day three – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T12:59:37Z",
+      "date": "2026-10-20T13:46:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Why O'Sullivan faces battle to stay in world's top 16",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/c6rey5xxy3vqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T13:45:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Golden bat or ball: does cricket need an equivalent to the Ballon d’Or? | Taha Hashim",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/golden-bat-or-ball-does-cricket-need-an-equivalent-to-the-ballon-dor",
+      "date": "2026-10-20T13:00:35Z",
+      "league": "all"
+    },
+    {
+      "title": "How Brazil’s election result could shape women’s football in the country",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/20/how-brazils-election-result-could-shape-womens-football-in-the-country",
+      "date": "2026-10-20T12:28:54Z",
       "league": "all"
     },
     {
@@ -1425,13 +1427,6 @@
       "league": "all"
     },
     {
-      "title": "Ultra-endurance athlete completes 900-mile swim along entire California coast",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/oct/19/catherine-breed-ultra-endurance-swim-california-coast",
-      "date": "2026-10-19T20:39:22Z",
-      "league": "all"
-    },
-    {
       "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
@@ -1440,10 +1435,17 @@
     },
     {
       "title": "Palace manager Sage facing fight to keep his job",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq2d6npjy9xlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T19:32:56Z",
-      "league": "all"
+      "league": "soccer"
+    },
+    {
+      "title": "Uefa demands Fifa releases documents relating to World Cup sell-off scheme",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/19/uefa-demands-fifa-releases-documents-relating-to-world-cup-sell-off-scheme",
+      "date": "2026-10-19T18:52:05Z",
+      "league": "soccer"
     },
     {
       "title": "Uefa gives Infantino two-week deadline to release key documents",
@@ -1451,27 +1453,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq398rkpjljlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T18:20:39Z",
       "league": "soccer"
-    },
-    {
-      "title": "Leicester to visit Oxford City in FA Cup first round - full draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckwyqdvedj32o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T18:13:52Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Will that do? Lamine Yamal conjures another magical spell as Barça pass first test | Sid Lowe",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/19/lamine-yamal-wonder-goal-barcelona-real-betis-la-liga",
-      "date": "2026-10-19T17:29:16Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Money and medals over safety’: Nassar judge warns gymnasts are still being failed",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/19/larry-nassar-judge-gymnastics-still-being-failed-team-usa",
-      "date": "2026-10-19T17:22:38Z",
-      "league": "all"
     }
   ]
 }
