@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T01:07:12Z",
+  "updated_at": "2026-10-20T01:53:23Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 20,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -63,27 +63,27 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
@@ -98,12 +98,12 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -986,25 +986,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "upcoming",
-      "status": "IN3",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591625",
       "league": "nhl",
       "name": "New York Islanders vs Anaheim Ducks",
@@ -1019,26 +1000,6 @@
         {
           "name": "Anaheim Ducks",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499045",
-      "league": "ncaaf",
-      "name": "Oregon vs Nebraska",
-      "date": "2026-10-18T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Oregon",
-          "score": "17",
-          "winner": true
-        },
-        {
-          "name": "Nebraska",
-          "score": "14"
         }
       ],
       "url": ""
@@ -1133,140 +1094,6 @@
         },
         {
           "name": "Monza",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487562",
-      "league": "ligamx",
-      "name": "CD Guadalajara vs Necaxa",
-      "date": "2026-10-21T00:07:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CD Guadalajara",
-          "score": ""
-        },
-        {
-          "name": "Necaxa",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2513943",
-      "league": "primeira",
-      "name": "Braga vs Gil Vicente",
-      "date": "2026-10-19T19:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Braga",
-          "score": "1"
-        },
-        {
-          "name": "Gil Vicente",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
           "score": ""
         }
       ],
