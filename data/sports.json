@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T11:16:35Z",
+  "updated_at": "2026-10-20T11:53:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1117,21 +1117,66 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594654",
+      "league": "ucl",
+      "name": "Fenerbahçe vs Slavia Prague",
+      "date": "2026-10-20T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Fenerbahçe",
+          "score": ""
+        },
+        {
+          "name": "Slavia Prague",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T11:13:39Z",
-      "league": "all"
-    },
-    {
       "title": "Pakistan v England: men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T11:12:09Z",
+      "date": "2026-10-20T11:48:34Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-20T11:44:23Z",
+      "league": "all"
+    },
+    {
+      "title": "What does Celtic's demolition of Hearts mean for Hogh?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx23n4qvnzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T11:23:57Z",
       "league": "all"
     },
     {
@@ -1143,10 +1188,10 @@
     },
     {
       "title": "The 'Teenage Dirtbags' sponsored by US rock band",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/c6j9kwmkd7gwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T10:54:03Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "SPFL invites bids for new Scottish Premiership TV deal",
@@ -1427,13 +1472,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/19/cheltenham-jumps-into-action-after-fixing-its-troublesome-hole",
       "date": "2026-10-19T16:41:47Z",
       "league": "all"
-    },
-    {
-      "title": "Araujo the stopgap solution fixing Liverpool's problems",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T16:29:34Z",
-      "league": "soccer"
     }
   ]
 }
