@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T06:15:58Z",
+  "updated_at": "2026-10-20T07:09:16Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1098,40 +1098,49 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Stevenson 'granted' Zuffa release without fighting",
+      "title": "Dwight Yorke: ‘I’m not a kid trying to get into management – I’m a manager’",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/20/dwight-yorke-interview-manager-ghana-trinidad-and-tobago",
+      "date": "2026-10-20T07:00:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Villarreal’s Iñigo Pérez ready to meet Iraola again in test of old bond",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-inigo-perez-iraola-test-of-old-bond",
+      "date": "2026-10-20T07:00:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Will Lindblad and Lawson be retained by Racing Bulls? F1 Q&A",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5ynv7ze0dxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T06:04:15Z",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx30ez4ge3z7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T06:59:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Reese stars as Dream win first WNBA Finals match",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/cqe9lr3zr4k1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T06:24:13Z",
       "league": "all"
     },
     {
       "title": "England unchanged to face France after Tonga defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T05:57:51Z",
+      "date": "2026-10-20T06:18:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Stevenson 'granted' Zuffa release without fighting",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5ynv7ze0dxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T06:04:15Z",
       "league": "all"
     },
     {
@@ -1198,6 +1207,13 @@
       "league": "all"
     },
     {
+      "title": "‘Like a family’: De Zerbi credits players’ talk and bonding trip for improving Tottenham",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/19/players-meeting-and-bonding-trip-have-boosted-tottenham-says-de-zerbi",
+      "date": "2026-10-19T22:14:44Z",
+      "league": "soccer"
+    },
+    {
       "title": "Liverpool and Man Utd eye Nmecha - Tuesday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crjwe6wyjeqwo?at_medium=RSS&at_campaign=rss",
@@ -1216,13 +1232,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c32l4x1k28ero?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T21:41:21Z",
-      "league": "all"
-    },
-    {
-      "title": "How have Canada closed gap to world champions England?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw1l38g6lz88o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T21:38:25Z",
       "league": "all"
     },
     {
@@ -1331,13 +1340,6 @@
       "league": "all"
     },
     {
-      "title": "Boland exposes South Africa's frailties to give Robinson blueprint",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6rmy4mzl4wyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T16:55:57Z",
-      "league": "all"
-    },
-    {
       "title": "Guehi among players not to take knee - is it time to 'move campaign along'?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrndz49v7o?at_medium=RSS&at_campaign=rss",
@@ -1412,27 +1414,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5djv21rkekwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T14:36:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/19/england-charlie-cresswell-ligue-1-england-france-leeds-juventus-europa-league",
-      "date": "2026-10-19T14:30:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Top throws and 'incredible' grabs - NFL best plays",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cwly34yxvrezo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T14:11:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Konsa bullish about Arsenal’s Champions League hopes as Bayern clash looms",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/ezri-konsa-arsenal-champions-league-bayern-munich",
-      "date": "2026-10-19T14:00:59Z",
       "league": "soccer"
     }
   ]
