@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T00:10:11Z",
+  "updated_at": "2026-10-20T01:07:12Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,12 +73,12 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -88,17 +88,17 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -948,19 +948,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475466",
+      "id": "sportsdb-2475467",
       "league": "nfl",
-      "name": "San Francisco 49ers vs Washington Commanders",
-      "date": "2026-10-20T00:15:00Z",
+      "name": "Chicago Bears vs New England Patriots",
+      "date": "2026-10-23T00:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Francisco 49ers",
+          "name": "Chicago Bears",
           "score": ""
         },
         {
-          "name": "Washington Commanders",
+          "name": "New England Patriots",
           "score": ""
         }
       ],
@@ -991,7 +991,7 @@
       "name": "Tampa Bay Rays vs Cleveland Guardians",
       "date": "2026-10-20T00:00:00Z",
       "state": "upcoming",
-      "status": "NS",
+      "status": "IN3",
       "participants": [
         {
           "name": "Tampa Bay Rays",
@@ -1005,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591624",
+      "id": "sportsdb-2591625",
       "league": "nhl",
-      "name": "Utah Mammoth vs Pittsburgh Penguins",
-      "date": "2026-10-20T01:00:00Z",
+      "name": "New York Islanders vs Anaheim Ducks",
+      "date": "2026-10-20T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Utah Mammoth",
+          "name": "New York Islanders",
           "score": ""
         },
         {
-          "name": "Pittsburgh Penguins",
+          "name": "Anaheim Ducks",
           "score": ""
         }
       ],
@@ -1058,26 +1058,6 @@
         {
           "name": "Middle Tennessee",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494064",
-      "league": "epl",
-      "name": "Tottenham Hotspur vs Coventry City",
-      "date": "2026-10-19T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tottenham Hotspur",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Coventry City",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1159,26 +1139,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489518",
-      "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Nice",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2489530",
       "league": "ligue1",
       "name": "Brest vs Nice",
@@ -1217,25 +1177,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398495",
-      "league": "brasileirao",
-      "name": "Corinthians vs Vitória",
-      "date": "2026-10-19T23:00:00Z",
-      "state": "upcoming",
-      "status": "2H",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": ""
-        },
-        {
-          "name": "Vitória",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2398503",
       "league": "brasileirao",
       "name": "Cruzeiro vs Remo",
@@ -1255,38 +1196,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398144",
+      "id": "sportsdb-2398152",
       "league": "argentina",
-      "name": "Sarmiento vs Barracas Central",
-      "date": "2026-10-19T22:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sarmiento",
-          "score": "1"
-        },
-        {
-          "name": "Barracas Central",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398136",
-      "league": "argentina",
-      "name": "Deportivo Riestra vs Unión",
-      "date": "2026-10-20T00:15:00Z",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Deportivo Riestra",
+          "name": "Gimnasia y Esgrima de Mendoza",
           "score": ""
         },
         {
-          "name": "Unión",
+          "name": "Platense",
           "score": ""
         }
       ],
@@ -1312,39 +1234,21 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492880",
-      "league": "j1",
-      "name": "Avispa Fukuoka vs Gamba Osaka",
-      "date": "2026-10-21T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2513943",
+      "league": "primeira",
+      "name": "Braga vs Gil Vicente",
+      "date": "2026-10-19T19:15:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Avispa Fukuoka",
-          "score": ""
+          "name": "Braga",
+          "score": "1"
         },
         {
-          "name": "Gamba Osaka",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
+          "name": "Gil Vicente",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
