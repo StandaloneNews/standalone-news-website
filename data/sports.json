@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T17:52:45Z",
+  "updated_at": "2026-10-20T18:15:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 23,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -53,12 +53,12 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -1005,26 +1005,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591624",
-      "league": "nhl",
-      "name": "Utah Mammoth vs Pittsburgh Penguins",
-      "date": "2026-10-20T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Utah Mammoth",
-          "score": "5",
-          "winner": true
-        },
-        {
-          "name": "Pittsburgh Penguins",
-          "score": "4"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591625",
       "league": "nhl",
       "name": "New York Islanders vs Anaheim Ducks",
@@ -1101,26 +1081,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508380",
-      "league": "bundesliga",
-      "name": "Borussia Mönchengladbach vs Hoffenheim",
-      "date": "2026-10-18T15:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Borussia Mönchengladbach",
-          "score": "1"
-        },
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1135,26 +1095,6 @@
         {
           "name": "Borussia Mönchengladbach",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482206",
-      "league": "seriea",
-      "name": "Parma vs Torino",
-      "date": "2026-10-19T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Parma",
-          "score": "0"
-        },
-        {
-          "name": "Torino",
-          "score": "3",
-          "winner": true
         }
       ],
       "url": ""
@@ -1215,173 +1155,28 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398136",
-      "league": "argentina",
-      "name": "Deportivo Riestra vs Unión",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Deportivo Riestra",
-          "score": "1"
-        },
-        {
-          "name": "Unión",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487562",
-      "league": "ligamx",
-      "name": "CD Guadalajara vs Necaxa",
-      "date": "2026-10-21T00:07:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CD Guadalajara",
-          "score": ""
-        },
-        {
-          "name": "Necaxa",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492880",
-      "league": "j1",
-      "name": "Avispa Fukuoka vs Gamba Osaka",
-      "date": "2026-10-21T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Avispa Fukuoka",
-          "score": ""
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
-      "date": "2026-10-20T17:30:41Z",
-      "league": "all"
-    },
-    {
       "title": "Liverpool v Villarreal: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/20/liverpool-v-villarreal-champions-league-live",
-      "date": "2026-10-20T17:30:41Z",
+      "date": "2026-10-20T18:13:33Z",
+      "league": "all"
+    },
+    {
+      "title": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
+      "date": "2026-10-20T18:07:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Saracens owner backs CEO and rejects chaos claims",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq4g15dr8jzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T17:44:14Z",
       "league": "all"
     },
     {
@@ -1676,13 +1471,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1er9vdvyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T05:32:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/football-australia-chair-anter-isaac-dismisses-recent-fifa-complaints",
-      "date": "2026-10-20T04:40:49Z",
       "league": "soccer"
     }
   ]
