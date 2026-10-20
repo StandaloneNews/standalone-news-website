@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T16:55:55Z",
+  "updated_at": "2026-10-20T17:24:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1062,6 +1062,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506257",
+      "league": "laliga",
+      "name": "Getafe vs Rayo Vallecano",
+      "date": "2026-10-19T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Getafe",
+          "score": "1"
+        },
+        {
+          "name": "Rayo Vallecano",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506222",
       "league": "laliga",
       "name": "Levante vs Athletic Bilbao",
@@ -1119,19 +1138,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
+      "id": "sportsdb-2594675",
+      "league": "ucl",
+      "name": "Sabah Baku vs Borussia Dortmund",
+      "date": "2026-10-20T16:45:00Z",
       "state": "upcoming",
-      "status": "NS",
+      "status": "1H",
       "participants": [
         {
-          "name": "Brest",
+          "name": "Sabah Baku",
           "score": ""
         },
         {
-          "name": "Nice",
+          "name": "Borussia Dortmund",
           "score": ""
         }
       ],
@@ -1139,6 +1158,20 @@
     }
   ],
   "stories": [
+    {
+      "title": "Wales great Faletau still has drive for fourth World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c62l4xggpnv4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T17:00:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Webb backs VAR over Botman challenge on Jackson",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T16:56:53Z",
+      "league": "all"
+    },
     {
       "title": "Bavuma epic drags SA back into Test - do they have time to beat Australia?",
       "source": "BBC Sport",
@@ -1151,6 +1184,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c6r7y0jjvvm0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T16:24:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia on the back foot as Bavuma plays captain’s innings for South Africa",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/australia-on-the-back-foot-as-bavuma-plays-captains-innings-for-south-africa",
+      "date": "2026-10-20T16:21:38Z",
       "league": "all"
     },
     {
@@ -1196,7 +1236,7 @@
       "league": "soccer"
     },
     {
-      "title": "Vincent Kompany to miss Bayern’s clash with Arsenal due to legs-affecting virus",
+      "title": "Vincent Kompany may miss Bayern’s clash with Arsenal due to legs-affecting virus",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/bayern-munich-arsenal-champions-league",
       "date": "2026-10-20T15:37:55Z",
@@ -1316,17 +1356,10 @@
     },
     {
       "title": "Erik ten Hag accuses Cristiano Ronaldo of ‘letting down’ Manchester United",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united",
       "date": "2026-10-20T10:43:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Uncapped Dragons get Wales Nations Championship call",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cjn5vqq974epo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T10:13:30Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "David Squires on … Manchester City sailing into unknown Premier League waters",
@@ -1365,10 +1398,10 @@
     },
     {
       "title": "PSG v Barcelona - Europe's most exciting match-up?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c820vw7velvro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T08:52:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Wales make four changes to face Samoa at World Cup",
@@ -1406,13 +1439,6 @@
       "league": "all"
     },
     {
-      "title": "Stevenson 'granted' Zuffa release without fighting",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5ynv7ze0dxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T06:04:15Z",
-      "league": "all"
-    },
-    {
       "title": "Race, illness, injury, repeat - REDs and why men are suffering in silence",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/ck054n5nqlv5o?at_medium=RSS&at_campaign=rss",
@@ -1446,13 +1472,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs",
       "date": "2026-10-20T03:13:00Z",
       "league": "all"
-    },
-    {
-      "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqgm0zy4d23po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T23:22:24Z",
-      "league": "soccer"
     }
   ]
 }
