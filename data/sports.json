@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T13:59:59Z",
+  "updated_at": "2026-10-20T14:57:14Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -1081,6 +1081,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1136,6 +1156,26 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2492874",
+      "league": "j1",
+      "name": "Machida Zelvia vs Avispa Fukuoka",
+      "date": "2026-10-18T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Avispa Fukuoka",
+          "score": "0"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1143,15 +1183,43 @@
       "title": "England chasing 303 to beat Pakistan in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T13:50:14Z",
+      "date": "2026-10-20T14:51:22Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day three – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T13:46:38Z",
+      "date": "2026-10-20T14:49:58Z",
       "league": "all"
+    },
+    {
+      "title": "Jalen Hurts played through a blood clot. Are NFL players cattle?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/jalen-hurts-blood-clots-eagles-nfl",
+      "date": "2026-10-20T14:15:51Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I feel like I’m 21’: Joe Ingles on the NBA, life in Australia and 1,500 days without drinking",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/joe-ingles-nba-nbl-basketball-melbourne-united-australia",
+      "date": "2026-10-20T14:00:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Former world champion Cordina cleared of assault after petrol station punch",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/c3rryje5wy28o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T13:59:41Z",
+      "league": "all"
+    },
+    {
+      "title": "What are the yellow card suspension rules in Champions League?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c54g1vpypgw3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T13:57:53Z",
+      "league": "soccer"
     },
     {
       "title": "Why O'Sullivan faces battle to stay in world's top 16",
@@ -1337,10 +1405,10 @@
     },
     {
       "title": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/sport/2026/oct/20/football-australia-chair-anter-isaac-dismisses-recent-fifa-complaints",
       "date": "2026-10-20T04:40:49Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Brock Purdy becomes highest-rated passer in NFL history as 49ers stay perfect",
@@ -1421,37 +1489,9 @@
     },
     {
       "title": "Maddison shines on return - Tottenham v Coventry ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crx23ndd337wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T21:05:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Building Lionesses 2.0 - Wiegman's new challenge awaits",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4w57746yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T20:15:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Palace manager Sage facing fight to keep his job",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq2d6npjy9xlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T19:32:56Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Uefa demands Fifa releases documents relating to World Cup sell-off scheme",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/uefa-demands-fifa-releases-documents-relating-to-world-cup-sell-off-scheme",
-      "date": "2026-10-19T18:52:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Uefa gives Infantino two-week deadline to release key documents",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq398rkpjljlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T18:20:39Z",
       "league": "soccer"
     }
   ]
