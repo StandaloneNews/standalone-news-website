@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T10:53:41Z",
+  "updated_at": "2026-10-20T11:16:35Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,59 +1117,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "The 'Teenage Dirtbags' sponsored by US rock band",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/c6j9kwmkd7gwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T10:54:03Z",
+      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-20T11:13:39Z",
       "league": "all"
     },
     {
       "title": "Pakistan v England: men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T10:46:40Z",
+      "date": "2026-10-20T11:12:09Z",
+      "league": "all"
+    },
+    {
+      "title": "We were not underprepared for World Cup, says England's O'Neill",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T11:00:25Z",
+      "league": "all"
+    },
+    {
+      "title": "The 'Teenage Dirtbags' sponsored by US rock band",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9kwmkd7gwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T10:54:03Z",
       "league": "all"
     },
     {
@@ -1181,23 +1157,16 @@
     },
     {
       "title": "Erik ten Hag accuses Cristiano Ronaldo of ‘letting down’ Manchester United",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united",
       "date": "2026-10-20T10:43:00Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Uncapped Dragons get Wales Nations Championship call",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cjn5vqq974epo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T10:13:30Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T10:09:18Z",
       "league": "all"
     },
     {
@@ -1215,17 +1184,17 @@
       "league": "all"
     },
     {
+      "title": "The Breakdown | ‘Freer’ Red Roses resolve to come back stronger after Canada end epic run",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/england-women-red-roses-canada-end-epic-winning-run-rugby-union",
+      "date": "2026-10-20T10:00:57Z",
+      "league": "all"
+    },
+    {
       "title": "Boulter produces emphatic win at Japan Open",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c9vgrnnnz014o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T09:24:43Z",
-      "league": "all"
-    },
-    {
-      "title": "We were not underprepared for World Cup, says England's O'Neill",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T09:15:53Z",
       "league": "all"
     },
     {
@@ -1307,10 +1276,10 @@
     },
     {
       "title": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/sport/2026/oct/20/football-australia-chair-anter-isaac-dismisses-recent-fifa-complaints",
       "date": "2026-10-20T04:40:49Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Brock Purdy becomes highest-rated passer in NFL history as 49ers stay perfect",
@@ -1464,13 +1433,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T16:29:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Brentford contact police after rugby ball kicked into stadium during game",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T16:26:44Z",
       "league": "soccer"
     }
   ]
