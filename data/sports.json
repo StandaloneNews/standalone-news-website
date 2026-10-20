@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T22:15:29Z",
+  "updated_at": "2026-10-20T22:51:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 23,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -48,12 +48,12 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
@@ -88,12 +88,12 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "primeira",
@@ -948,6 +948,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475466",
+      "league": "nfl",
+      "name": "San Francisco 49ers vs Washington Commanders",
+      "date": "2026-10-20T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Francisco 49ers",
+          "score": "23",
+          "winner": true
+        },
+        {
+          "name": "Washington Commanders",
+          "score": "17"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475467",
       "league": "nfl",
       "name": "Chicago Bears vs New England Patriots",
@@ -1024,6 +1044,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499045",
+      "league": "ncaaf",
+      "name": "Oregon vs Nebraska",
+      "date": "2026-10-18T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Oregon",
+          "score": "17",
+          "winner": true
+        },
+        {
+          "name": "Nebraska",
+          "score": "14"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499069",
       "league": "ncaaf",
       "name": "FIU vs Middle Tennessee",
@@ -1062,6 +1102,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506257",
+      "league": "laliga",
+      "name": "Getafe vs Rayo Vallecano",
+      "date": "2026-10-19T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Getafe",
+          "score": "1"
+        },
+        {
+          "name": "Rayo Vallecano",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506222",
       "league": "laliga",
       "name": "Levante vs Athletic Bilbao",
@@ -1076,6 +1135,26 @@
         {
           "name": "Athletic Bilbao",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
@@ -1117,15 +1196,191 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Nice",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594557",
+      "league": "ucl",
+      "name": "Lille vs Galatasaray",
+      "date": "2026-10-21T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lille",
+          "score": ""
+        },
+        {
+          "name": "Galatasaray",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": "1"
+        },
+        {
+          "name": "Vitória",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492874",
+      "league": "j1",
+      "name": "Machida Zelvia vs Avispa Fukuoka",
+      "date": "2026-10-18T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Avispa Fukuoka",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540110",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Melbourne Victory",
+      "date": "2026-10-18T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Melbourne Victory",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Perth Glory",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T22:35:32Z",
+      "league": "all"
+    },
+    {
+      "title": "GB men take fourth and must wait for LA28 Olympic spot",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/cj040qydgw6no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T22:31:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool, Man City & PSG win on record-breaking night",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T22:14:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "Champions League roundup: McTominay double leads Napoli past Bodø/Glimt",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/champions-league-roundup-mctominay-scores-twice-on-return-from-heart-surgery",
       "date": "2026-10-20T21:55:04Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Sutcliffe makes first Scotland start against Australia",
@@ -1212,13 +1467,6 @@
       "league": "soccer"
     },
     {
-      "title": "Saracens owner backs CEO and rejects chaos claims",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq4g15dr8jzeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T17:44:14Z",
-      "league": "all"
-    },
-    {
       "title": "British Cycling’s best world championships since 2012 overshadowed by off-track issues",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/british-cycling-world-championship-toxic-culture-matt-richardson",
@@ -1282,13 +1530,6 @@
       "league": "all"
     },
     {
-      "title": "Australia limp to 3-1 after South Africa post 425-9 on day three of men’s second Test – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T15:51:59Z",
-      "league": "all"
-    },
-    {
       "title": "What is the longest a team has gone without winning a league game at home?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjkgeqxgz5d5o?at_medium=RSS&at_campaign=rss",
@@ -1331,13 +1572,6 @@
       "league": "all"
     },
     {
-      "title": "What are the yellow card suspension rules in Champions League?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c54g1vpypgw3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T13:57:53Z",
-      "league": "soccer"
-    },
-    {
       "title": "Why O'Sullivan faces battle to stay in world's top 16",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/snooker/articles/c6rey5xxy3vqo?at_medium=RSS&at_campaign=rss",
@@ -1367,10 +1601,10 @@
     },
     {
       "title": "Animal rights group urges Crystal Palace to retire bald eagle mascot",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/amimal-rights-group-peta-urges-crystal-palace-retire-bald-eagle-mascot-phoenix-selhurst-park",
       "date": "2026-10-20T12:00:35Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "What does Celtic's demolition of Hearts mean for Hogh?",
@@ -1429,10 +1663,10 @@
       "league": "all"
     },
     {
-      "title": "Wales make four changes to face Samoa at World Cup",
+      "title": "Lowry joins McIlroy in first ever TGL Trade",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq1kdwzlxm91o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T07:57:23Z",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cr93z192e211o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T07:52:15Z",
       "league": "all"
     }
   ]
