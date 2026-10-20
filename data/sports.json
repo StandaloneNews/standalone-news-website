@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T05:17:34Z",
+  "updated_at": "2026-10-20T05:53:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1098,9 +1098,49 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Race, illness, injury, repeat - REDs and why men are suffering in silence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/ck054n5nqlv5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T05:45:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1er9vdvyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T05:32:59Z",
+      "league": "all"
+    },
+    {
+      "title": "England unchanged to face France after Tonga defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmd6d3gj2znxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T05:29:02Z",
+      "league": "all"
+    },
     {
       "title": "Football Australia chair Anter Isaac dismisses recent Fifa ructions as ‘growing pains’",
       "source": "The Guardian Sport",
@@ -1155,13 +1195,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crjwe6wyjeqwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T22:01:39Z",
-      "league": "all"
-    },
-    {
-      "title": "O'Sullivan & Trump lose in NI Open as big names continue to fall",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/cm87ze97eq2wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T22:00:27Z",
       "league": "all"
     },
     {
@@ -1369,10 +1402,10 @@
     },
     {
       "title": "Haaland a doubt, Semenyo out - what are Man City's options?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5djv21rkekwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T14:36:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘Leaving England is scary but I’m here to win’: Charlie Cresswell on Ligue 1 life and his international dream",
@@ -1401,20 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/c5y43049v0zzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T13:36:31Z",
       "league": "all"
-    },
-    {
-      "title": "Brighton peck Palace and will a point silence the noise around Carrick? | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/oct/19/brighton-peck-palace-and-will-a-point-silence-the-noise-around-carrick-football-weekly-video",
-      "date": "2026-10-19T13:32:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Semenyo’s eight-week injury absence leaves Manchester City short on cover for Haaland",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/antoine-semenyo-eight-week-knee-injury-absence-manchester-city-short-cover-erling-haaland",
-      "date": "2026-10-19T13:03:00Z",
-      "league": "soccer"
     }
   ]
 }
