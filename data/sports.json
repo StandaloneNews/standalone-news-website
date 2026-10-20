@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T20:13:15Z",
+  "updated_at": "2026-10-20T20:54:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -986,26 +986,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "7",
-          "winner": true
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": "3"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2619527",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1137,44 +1117,46 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Liverpool v Villarreal: Champions League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/20/liverpool-v-villarreal-champions-league-live",
-      "date": "2026-10-20T20:04:39Z",
-      "league": "soccer"
-    },
-    {
       "title": "PSG v Barcelona, Manchester City v AEK Athens, and more: Champions League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/20/psg-v-barcelona-manchester-city-v-aek-athens-and-more-champions-league-live",
-      "date": "2026-10-20T20:04:27Z",
-      "league": "soccer"
+      "date": "2026-10-20T20:50:56Z",
+      "league": "all"
     },
     {
-      "title": "Raya does not care if Arsenal are deemed ‘boring’ as Arteta defends style of play",
+      "title": "Liverpool v Villarreal: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/20/liverpool-v-villarreal-champions-league-live",
+      "date": "2026-10-20T20:50:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal criticism from very small minority - Arteta",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm8xzrwv5zpko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T20:33:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd revisit deal for Hall - Wednesday gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T20:17:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick insists Manchester United board back him after Ten Hag points to ‘toxic culture’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united",
+      "date": "2026-10-20T20:13:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal’s David Raya hits back at ‘boring’ label as Arteta defends side’s style of play",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/bayern-munich-arsenal-champions-league",
       "date": "2026-10-20T20:00:37Z",
@@ -1286,13 +1268,6 @@
       "league": "soccer"
     },
     {
-      "title": "Former world champion Cordina cleared of assault after petrol station punch",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/c3rryje5wy28o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T15:18:14Z",
-      "league": "all"
-    },
-    {
       "title": "US under-17 women beat Samoa 17-0 for biggest win in World Cup history",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/uswnt-u-17-samoa-world-cup",
@@ -1391,24 +1366,10 @@
       "league": "all"
     },
     {
-      "title": "Why Teenage Dirtbag rockers sponsor U13 boys' team",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/c6j9kwmkd7gwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T10:54:03Z",
-      "league": "soccer"
-    },
-    {
       "title": "SPFL invites bids for new Scottish Premiership TV deal",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0x939leo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T10:44:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Erik ten Hag accuses Cristiano Ronaldo of ‘letting down’ Manchester United",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united",
-      "date": "2026-10-20T10:43:00Z",
       "league": "soccer"
     },
     {
@@ -1454,13 +1415,6 @@
       "league": "soccer"
     },
     {
-      "title": "Wales make four changes to face Samoa at World Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq1kdwzlxm91o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T07:57:23Z",
-      "league": "all"
-    },
-    {
       "title": "Lowry joins McIlroy in first ever TGL Trade",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/cr93z192e211o?at_medium=RSS&at_campaign=rss",
@@ -1472,6 +1426,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/dwight-yorke-interview-manager-ghana-trinidad-and-tobago",
       "date": "2026-10-20T07:00:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Will Lindblad and Lawson be retained by Racing Bulls? F1 Q&A",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx30ez4ge3z7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T06:59:17Z",
       "league": "all"
     }
   ]
