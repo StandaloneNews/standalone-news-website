@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T09:54:47Z",
+  "updated_at": "2026-10-20T10:16:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,59 +1117,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594654",
-      "league": "ucl",
-      "name": "Fenerbahçe vs Slavia Prague",
-      "date": "2026-10-20T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Fenerbahçe",
-          "score": ""
-        },
-        {
-          "name": "Slavia Prague",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-20T09:44:30Z",
-      "league": "all"
-    },
-    {
       "title": "Pakistan v England: men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/20/pakistan-v-england-mens-tri-series-cricket-odi-live",
-      "date": "2026-10-20T09:42:42Z",
+      "date": "2026-10-20T10:10:29Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day three – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/20/south-africa-v-australia-second-test-day-three-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-20T10:09:18Z",
+      "league": "all"
+    },
+    {
+      "title": "David Squires on … Manchester City sailing into unknown Premier League waters",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
+      "date": "2026-10-20T10:04:53Z",
+      "league": "all"
+    },
+    {
+      "title": "49ers maintain 100 per cent record with win against Commanders",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6lyl00ly4qro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T10:04:45Z",
       "league": "all"
     },
     {
@@ -1457,20 +1433,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c820vzrq695xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-19T15:43:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Crystal Palace to give Sage more time but manager under serious scrutiny",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/19/crystal-palace-pierre-sage-future-steve-parish-brighton-loss",
-      "date": "2026-10-19T15:00:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Are free-scoring Brighton genuine title contenders?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwn8d48je057o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-19T14:52:01Z",
       "league": "soccer"
     }
   ]
