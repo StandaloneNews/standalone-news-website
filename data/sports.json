@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T15:58:31Z",
+  "updated_at": "2026-10-21T16:56:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 17,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "brasileirao",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -986,6 +986,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619051",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Cleveland Guardians",
+      "date": "2026-10-20T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "name": "Cleveland Guardians",
+          "score": "3"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2619527",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1019,6 +1039,26 @@
         {
           "name": "Philadelphia Flyers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499071",
+      "league": "ncaaf",
+      "name": "Marshall vs South Alabama",
+      "date": "2026-10-20T23:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Marshall",
+          "score": "20",
+          "winner": true
+        },
+        {
+          "name": "South Alabama",
+          "score": "13"
         }
       ],
       "url": ""
@@ -1117,14 +1157,145 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594667",
+      "league": "ucl",
+      "name": "Como vs Manchester United",
+      "date": "2026-10-21T16:45:00Z",
+      "state": "upcoming",
+      "status": "1H",
+      "participants": [
+        {
+          "name": "Como",
+          "score": ""
+        },
+        {
+          "name": "Manchester United",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594554",
+      "league": "ucl",
+      "name": "Aston Villa vs Viking",
+      "date": "2026-10-21T19:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Aston Villa",
+          "score": ""
+        },
+        {
+          "name": "Viking",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398152",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": ""
+        },
+        {
+          "name": "Platense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492887",
+      "league": "j1",
+      "name": "Urawa Red Diamonds vs JEF United Chiba",
+      "date": "2026-10-21T10:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Urawa Red Diamonds",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "JEF United Chiba",
+          "score": "2"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Australia heading for second Test defeat in South Africa after being forced to follow on – live",
+      "title": "Como v Manchester United: Champions League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
+      "date": "2026-10-21T16:54:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'Playing for their careers' - Australia reeling after extraordinary day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckzd6r577qvdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T16:52:25Z",
+      "league": "all"
+    },
+    {
+      "title": "72+: The EFL Podcast",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T16:07:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Georgia and Dundee legend Nemsadze dies aged 54",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crpdg2x7v1l2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T16:00:32Z",
+      "league": "soccer"
+    },
+    {
+      "title": "No sour grapes: Venter on vintage form as he lays out Saracens vision",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/rugby-union-brendan-venter-saracens-vision",
+      "date": "2026-10-21T16:00:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia bowled out for 99 and trail by 170 runs at 156-4 having been forced to follow on by South Africa in men’s second Test – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T15:54:16Z",
+      "date": "2026-10-21T15:57:04Z",
       "league": "all"
     },
     {
@@ -1132,13 +1303,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cx4g17l00qmjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T15:53:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Como v Manchester United: Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
-      "date": "2026-10-21T15:51:06Z",
       "league": "all"
     },
     {
@@ -1240,6 +1404,13 @@
       "league": "all"
     },
     {
+      "title": "The keeper doing 'Premier League' things for EFL's last unbeaten side",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T12:46:12Z",
+      "league": "soccer"
+    },
+    {
       "title": "Red Roses drop Kildunne to bench for Canada rematch as Mitchell seeks England reset",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/red-roses-drop-ellie-kildunne-bench-canada-rematch-as-mitchell-seeks-england-reset",
@@ -1266,13 +1437,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqe9ldzp9n73o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T12:21:59Z",
       "league": "ufc"
-    },
-    {
-      "title": "Third time this century - how Australia's stark collapse unfolded",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckzd6r577qvdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T12:21:12Z",
-      "league": "all"
     },
     {
       "title": "What are the EFL rules on homegrown players?",
@@ -1380,13 +1544,6 @@
       "league": "all"
     },
     {
-      "title": "Alvechurch and Stafford set up tasty FA Cup ties",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crq5n0d8g2l4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T08:39:42Z",
-      "league": "soccer"
-    },
-    {
       "title": "Crawley Town sack head coach Kazim-Richards",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq22j81lo?at_medium=RSS&at_campaign=rss",
@@ -1413,27 +1570,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/21/the-overlap-gary-neville-podcast-empire-knows-no-bounds",
       "date": "2026-10-21T07:00:03Z",
       "league": "all"
-    },
-    {
-      "title": "Mikel Arteta has mastered the art of making substitutions at Arsenal",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/mikel-arteta-art-making-substitutions-arsenal-nottingham-forest-sunderland-leeds",
-      "date": "2026-10-21T07:00:03Z",
-      "league": "soccer"
-    },
-    {
-      "title": "LeBron James' 76ers beat Knicks on NBA opening night",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/c6vgj4g913wyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T06:34:15Z",
-      "league": "all"
-    },
-    {
-      "title": "How England hopeful Acheampong is giving Chelsea a big decision to make",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4g10n56jzqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T06:26:58Z",
-      "league": "soccer"
     }
   ]
 }
