@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T18:15:49Z",
+  "updated_at": "2026-10-21T19:04:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -43,12 +43,12 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -58,12 +58,12 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
@@ -93,12 +93,12 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -948,26 +948,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475466",
-      "league": "nfl",
-      "name": "San Francisco 49ers vs Washington Commanders",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Francisco 49ers",
-          "score": "23",
-          "winner": true
-        },
-        {
-          "name": "Washington Commanders",
-          "score": "17"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475467",
       "league": "nfl",
       "name": "Chicago Bears vs New England Patriots",
@@ -1001,26 +981,6 @@
         {
           "name": "Atlanta Hawks",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "7",
-          "winner": true
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": "3"
         }
       ],
       "url": ""
@@ -1064,6 +1024,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499071",
+      "league": "ncaaf",
+      "name": "Marshall vs South Alabama",
+      "date": "2026-10-20T23:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Marshall",
+          "score": "20",
+          "winner": true
+        },
+        {
+          "name": "South Alabama",
+          "score": "13"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499072",
       "league": "ncaaf",
       "name": "Sam Houston State vs New Mexico State",
@@ -1083,26 +1063,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494064",
-      "league": "epl",
-      "name": "Tottenham Hotspur vs Coventry City",
-      "date": "2026-10-19T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tottenham Hotspur",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Coventry City",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2494075",
       "league": "epl",
       "name": "Ipswich Town vs Nottingham Forest",
@@ -1116,25 +1076,6 @@
         },
         {
           "name": "Nottingham Forest",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506222",
-      "league": "laliga",
-      "name": "Levante vs Athletic Bilbao",
-      "date": "2026-10-21T18:00:00Z",
-      "state": "upcoming",
-      "status": "1H",
-      "participants": [
-        {
-          "name": "Levante",
-          "score": ""
-        },
-        {
-          "name": "Athletic Bilbao",
           "score": ""
         }
       ],
@@ -1179,6 +1120,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482206",
+      "league": "seriea",
+      "name": "Parma vs Torino",
+      "date": "2026-10-19T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Parma",
+          "score": "0"
+        },
+        {
+          "name": "Torino",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482214",
       "league": "seriea",
       "name": "Torino vs Monza",
@@ -1193,6 +1154,26 @@
         {
           "name": "Monza",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Nice",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1217,19 +1198,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594554",
+      "id": "sportsdb-2594635",
       "league": "ucl",
-      "name": "Aston Villa vs Viking",
-      "date": "2026-10-21T19:00:00Z",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Aston Villa",
+          "name": "Shakhtar Donetsk",
           "score": ""
         },
         {
-          "name": "Viking",
+          "name": "Sporting CP",
           "score": ""
         }
       ],
@@ -1293,58 +1274,21 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492896",
+      "id": "sportsdb-2492887",
       "league": "j1",
-      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
-      "date": "2026-10-24T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Urawa Red Diamonds vs JEF United Chiba",
+      "date": "2026-10-21T10:30:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Sanfrecce Hiroshima",
-          "score": ""
+          "name": "Urawa Red Diamonds",
+          "score": "3",
+          "winner": true
         },
         {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
+          "name": "JEF United Chiba",
+          "score": "2"
         }
       ],
       "url": ""
@@ -1371,25 +1315,39 @@
   ],
   "stories": [
     {
-      "title": "Como v Manchester United: Champions League – live",
+      "title": "Aston Villa v Viking, Real Madrid v RB Leipzig and more: Champions League – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
-      "date": "2026-10-21T18:15:40Z",
+      "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
+      "date": "2026-10-21T19:01:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Titans coach defends Jordan Elliott, says gun incident was not ‘criminal act’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/titans-reportedly-released-jordan-elliott-after-he-fetched-gun-following-scuffle-in-practice",
+      "date": "2026-10-21T19:01:14Z",
       "league": "all"
     },
     {
       "title": "Bayern Munich v Arsenal: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-      "date": "2026-10-21T18:15:38Z",
+      "date": "2026-10-21T19:00:56Z",
       "league": "all"
     },
     {
-      "title": "Aston Villa v Viking, Real Madrid v RB Leipzig and more: Champions League – live",
+      "title": "Como 4-1 Manchester United: Champions League – live reaction",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
-      "date": "2026-10-21T18:11:46Z",
+      "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
+      "date": "2026-10-21T19:00:47Z",
       "league": "all"
+    },
+    {
+      "title": "Azaz confirms he will continue playing for Republic of Ireland",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckq6nzyr9qdgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T18:13:39Z",
+      "league": "soccer"
     },
     {
       "title": "Jimmy Anderson set to retire from cricket as Lancashire opt against renewing contract",
@@ -1466,13 +1424,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/ck62y977vm33o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T15:18:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Titans reportedly released Jordan Elliott after he fetched gun following scuffle in practice",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/titans-reportedly-released-jordan-elliott-after-he-fetched-gun-following-scuffle-in-practice",
-      "date": "2026-10-21T14:59:45Z",
       "league": "all"
     },
     {
@@ -1617,10 +1568,10 @@
     },
     {
       "title": "‘We can go all the way’: Jonas Eidevall on life at San Diego Wave and lessons learned from Arsenal",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/jonas-eidevall-interview-san-diego-wave-nwsl-arsenal",
       "date": "2026-10-21T11:36:17Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Saracens in talks over Itoje extension",
@@ -1676,13 +1627,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/the-spin-cricket-book-chris-woakes-nicest-man-in-cricket",
       "date": "2026-10-21T09:20:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Gabby Thomas, Melissa Jefferson-Wooden and the doping tensions dividing sprinting",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/gabby-thomas-melissa-jefferson-wooden-dennis-mitchell-doping-sprinting",
-      "date": "2026-10-21T09:00:04Z",
       "league": "all"
     }
   ]
