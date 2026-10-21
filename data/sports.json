@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T03:56:46Z",
+  "updated_at": "2026-10-21T04:22:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,44 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1187,7 +1149,7 @@
       "league": "all"
     },
     {
-      "title": "LeBron James and Sixers spoil Knicks’ title party as Pistons stun Celtics in NBA openers",
+      "title": "LeBron James and new-look Sixers spoil Knicks’ title party as Pistons stun Celtics in NBA openers",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
       "date": "2026-10-20T22:35:58Z",
@@ -1261,13 +1223,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T20:56:53Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL will not discipline Eagles over handling of Jalen Hurts’ blood clots",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/nfl-philadelphia-eagles-jalen-hurts-blood-clots-no-discipline",
-      "date": "2026-10-20T20:51:38Z",
       "league": "all"
     },
     {
@@ -1433,10 +1388,10 @@
     },
     {
       "title": "Animal rights group urges Crystal Palace to retire bald eagle mascot",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/amimal-rights-group-peta-urges-crystal-palace-retire-bald-eagle-mascot-phoenix-selhurst-park",
       "date": "2026-10-20T12:00:35Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "What does Celtic's demolition of Hearts mean for Hogh?",
@@ -1472,6 +1427,13 @@
       "url": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
       "date": "2026-10-20T10:04:53Z",
       "league": "soccer"
+    },
+    {
+      "title": "49ers maintain 100% record with win against Commanders",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6lyl00ly4qro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T10:04:45Z",
+      "league": "all"
     }
   ]
 }
