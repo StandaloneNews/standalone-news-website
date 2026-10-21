@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T20:13:29Z",
+  "updated_at": "2026-10-21T20:54:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 26,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 2
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -967,6 +967,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601667",
+      "league": "nba",
+      "name": "San Antonio Spurs vs Oklahoma City Thunder",
+      "date": "2026-10-21T01:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Antonio Spurs",
+          "score": "104"
+        },
+        {
+          "name": "Oklahoma City Thunder",
+          "score": "116",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601668",
       "league": "nba",
       "name": "Orlando Magic vs Atlanta Hawks",
@@ -1062,6 +1082,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506222",
+      "league": "laliga",
+      "name": "Levante vs Athletic Bilbao",
+      "date": "2026-10-21T18:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Levante",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Athletic Bilbao",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506265",
       "league": "laliga",
       "name": "Deportivo Alavés vs Málaga",
@@ -1117,35 +1157,305 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": "1"
+        },
+        {
+          "name": "Vitória",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398136",
+      "league": "argentina",
+      "name": "Deportivo Riestra vs Unión",
+      "date": "2026-10-20T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Deportivo Riestra",
+          "score": "1"
+        },
+        {
+          "name": "Unión",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398152",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": ""
+        },
+        {
+          "name": "Platense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487564",
+      "league": "ligamx",
+      "name": "Toluca vs Tijuana",
+      "date": "2026-10-22T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toluca",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540110",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Melbourne Victory",
+      "date": "2026-10-18T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Melbourne Victory",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Perth Glory",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2513943",
+      "league": "primeira",
+      "name": "Braga vs Gil Vicente",
+      "date": "2026-10-19T19:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": "1"
+        },
+        {
+          "name": "Gil Vicente",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514006",
+      "league": "primeira",
+      "name": "Vitória de Guimarães vs Marítimo",
+      "date": "2026-10-23T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vitória de Guimarães",
+          "score": ""
+        },
+        {
+          "name": "Marítimo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        },
+        {
+          "name": "DC United",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Bayern Munich v Arsenal: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
+      "date": "2026-10-21T20:49:30Z",
+      "league": "all"
+    },
+    {
       "title": "Aston Villa v Viking, Real Madrid v RB Leipzig and more: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
-      "date": "2026-10-21T20:03:49Z",
+      "date": "2026-10-21T20:48:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Paz, Fabregas and Como teach Man Utd a lesson",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrly2d6jnp7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T20:46:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea eye Brighton's Ayari - Thursday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cme3xk2jkyv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T20:17:45Z",
+      "league": "all"
+    },
+    {
+      "title": "‘He was a great kid’: Chiefs mourn death of former player Allen Bailey at age of 37",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/he-was-a-great-kid-chiefs-mourn-death-of-former-player-allen-bailey-at-age-of-37",
+      "date": "2026-10-21T20:06:01Z",
       "league": "all"
     },
     {
       "title": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T20:02:23Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Fernandes rounds on Carrick after Man Utd humiliation",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq74pjn80x4wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T19:59:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Bayern Munich v Arsenal: Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-      "date": "2026-10-21T19:57:06Z",
       "league": "all"
     },
     {
@@ -1226,13 +1536,6 @@
       "league": "all"
     },
     {
-      "title": "Boulter wins in under an hour to reach quarters",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cx4g17l00qmjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T15:53:35Z",
-      "league": "all"
-    },
-    {
       "title": "Anderson, 44, not offered new Lancashire contract",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmy0ek8vnxzko?at_medium=RSS&at_campaign=rss",
@@ -1296,18 +1599,11 @@
       "league": "all"
     },
     {
-      "title": "Cancer campaigner Goodburn to deliver rugby match ball",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cqn49jxjg19eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T13:45:55Z",
-      "league": "all"
-    },
-    {
       "title": "Barca condemn PSG tifo inciting 'violence and hatred'",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1jwp9827o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T13:12:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "PSG beat Barça, Rio’s grand for Liverpool and Ronaldo’s CV | Football Weekly – video",
@@ -1322,13 +1618,6 @@
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3ewe42q4jqzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T12:47:48Z",
       "league": "all"
-    },
-    {
-      "title": "The keeper doing 'Premier League' things for EFL's last unbeaten side",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98rz0d0l40vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T12:46:12Z",
-      "league": "soccer"
     },
     {
       "title": "Red Roses drop Kildunne to bench for Canada rematch as Mitchell seeks England reset",
@@ -1350,13 +1639,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqe9ldzp9n73o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T12:21:59Z",
       "league": "ufc"
-    },
-    {
-      "title": "What are the EFL rules on homegrown players?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck7vp83l215yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T12:16:11Z",
-      "league": "soccer"
     },
     {
       "title": "Why has Lord's dug up its pitch and what comes next?",
@@ -1394,13 +1676,6 @@
       "league": "all"
     },
     {
-      "title": "Saracens in talks over Itoje extension",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg6vdggxvvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T11:02:40Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-fifa-rules-grassroots-philipp-lahm",
@@ -1429,10 +1704,24 @@
       "league": "all"
     },
     {
-      "title": "Why Eze is struggling to find his form at Arsenal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqgm0ze7vepmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T09:22:07Z",
+      "title": "Coach banned until 2048 for training children in DR Congo while suspended for sexual abuse",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/coach-banned-dr-congo-training-kids-sexual-abuse-2048",
+      "date": "2026-10-21T09:20:42Z",
+      "league": "all"
+    },
+    {
+      "title": "The Spin | Writing a book with Chris Woakes showed the inner steel of the nicest man in cricket",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/the-spin-cricket-book-chris-woakes-nicest-man-in-cricket",
+      "date": "2026-10-21T09:20:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Gabby Thomas, Melissa Jefferson-Wooden and the doping tensions dividing sprinting",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/gabby-thomas-melissa-jefferson-wooden-dennis-mitchell-doping-sprinting",
+      "date": "2026-10-21T09:00:04Z",
       "league": "all"
     }
   ]
