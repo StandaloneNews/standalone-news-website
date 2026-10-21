@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T21:17:26Z",
+  "updated_at": "2026-10-21T21:55:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,21 +1117,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Real Madrid dominate Leipzig for third straight win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c3qjnerzngkqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T21:38:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Isco the difference as Betis continue winning start against Feyenoord",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T21:23:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Villa maintain perfect Champions League start with Viking victory",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T21:19:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Declan Rice strikes late for Arsenal to deny Bayern Munich in blockbuster",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
+      "date": "2026-10-21T21:14:31Z",
+      "league": "all"
+    },
     {
       "title": "Ruthless Roma put four past toothless Slovan Bratislava",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6eq325d29dqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:13:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Bayern Munich 2-2 Arsenal: Champions League – live reaction",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-      "date": "2026-10-21T21:13:15Z",
       "league": "soccer"
     },
     {
@@ -1150,16 +1190,9 @@
     },
     {
       "title": "Barkley and Buendía on target as Aston Villa maintain perfect start against Viking",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/aston-villa-viking-champions-league-match-report",
       "date": "2026-10-21T21:07:48Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Aston Villa 3-1 Viking, Real Madrid 4-1 RB Leipzig and more: Champions League – live reaction",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
-      "date": "2026-10-21T21:06:41Z",
       "league": "all"
     },
     {
@@ -1199,10 +1232,10 @@
     },
     {
       "title": "Paris Saint-Germain sparkle on the pitch while the city of light burns around them | Barney Ronay",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/paris-saint-germain-psg-barcelona-champions-league-violence-in-city",
       "date": "2026-10-21T21:00:00Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Man Utd humbled by four-goal Como to pile pressure on Carrick",
@@ -1338,13 +1371,6 @@
       "league": "all"
     },
     {
-      "title": "Former Open champion Oosthuizen quits LIV Golf",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/ck62y977vm33o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T15:18:40Z",
-      "league": "all"
-    },
-    {
       "title": "Andrews died of tear in artery around heart - autopsy",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx234p2xwpzo?at_medium=RSS&at_campaign=rss",
@@ -1426,13 +1452,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c69wzvr14xlxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T11:41:56Z",
-      "league": "all"
-    },
-    {
-      "title": "‘We can go all the way’: Jonas Eidevall on life at San Diego Wave and lessons learned from Arsenal",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/21/jonas-eidevall-interview-san-diego-wave-nwsl-arsenal",
-      "date": "2026-10-21T11:36:17Z",
       "league": "all"
     }
   ]
