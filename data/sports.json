@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T11:20:20Z",
+  "updated_at": "2026-10-21T11:55:19Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -1117,14 +1117,69 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2540110",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Melbourne Victory",
+      "date": "2026-10-18T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Melbourne Victory",
+          "score": "1"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Why has Lord's dug up its pitch and what comes next?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cxvgd73rg97qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T11:48:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Overton would consider Ashes return if Root asks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cj62y0l5ed1vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T11:46:17Z",
+      "league": "all"
+    },
+    {
       "title": "South Africa v Australia: second men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T11:09:07Z",
+      "date": "2026-10-21T11:45:21Z",
+      "league": "all"
+    },
+    {
+      "title": "PSG's Kvaratskhelia to have surgery on ruptured ACL",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxnv0ed5pz23o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T11:45:03Z",
+      "league": "all"
+    },
+    {
+      "title": "F1 races to return to standard distance in 2028",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c69wzvr14xlxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T11:41:56Z",
+      "league": "all"
+    },
+    {
+      "title": "‘We can go all the way’: Jonas Eidevall on life at San Diego Wave and lessons learned from Arsenal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/jonas-eidevall-interview-san-diego-wave-nwsl-arsenal",
+      "date": "2026-10-21T11:36:17Z",
       "league": "all"
     },
     {
@@ -1153,13 +1208,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/snooker/articles/c3ewe41dd0g5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T10:56:37Z",
-      "league": "all"
-    },
-    {
-      "title": "PSG's Kvaratskhelia to have surgery on ruptured ACL",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxnv0ed5pz23o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T09:49:23Z",
       "league": "all"
     },
     {
@@ -1317,13 +1365,6 @@
       "league": "all"
     },
     {
-      "title": "PNG Chiefs unveil logo and jersey for first NRL season amid naming dispute with rival code",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/png-chiefs-unveil-logo-and-jersey-for-first-nrl-season",
-      "date": "2026-10-21T01:33:22Z",
-      "league": "all"
-    },
-    {
       "title": "No jeopardy but loads of fun - is new Champions League format a success?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
@@ -1413,27 +1454,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T20:17:15Z",
       "league": "all"
-    },
-    {
-      "title": "‘I’m in a bad place’: Mark Allen says his snooker career may be over after defeat",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/mark-allen-snooker-northern-ireland-open-interview",
-      "date": "2026-10-20T18:54:07Z",
-      "league": "all"
-    },
-    {
-      "title": "British Cycling’s best world championships since 2012 overshadowed by off-track issues",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/british-cycling-world-championship-toxic-culture-matt-richardson",
-      "date": "2026-10-20T17:15:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Webb backs VAR over Botman challenge on Jackson",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T16:56:53Z",
-      "league": "soccer"
     }
   ]
 }
