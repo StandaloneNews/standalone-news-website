@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T19:52:52Z",
+  "updated_at": "2026-10-21T20:13:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,25 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1143,14 +1124,28 @@
       "title": "Aston Villa v Viking, Real Madrid v RB Leipzig and more: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
-      "date": "2026-10-21T19:48:58Z",
+      "date": "2026-10-21T20:03:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T20:02:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fernandes rounds on Carrick after Man Utd humiliation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq74pjn80x4wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T19:59:30Z",
       "league": "all"
     },
     {
       "title": "Bayern Munich v Arsenal: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-      "date": "2026-10-21T19:47:47Z",
+      "date": "2026-10-21T19:57:06Z",
       "league": "all"
     },
     {
@@ -1438,20 +1433,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqgm0ze7vepmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T09:22:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Coach banned until 2048 for training children in DR Congo while suspended for sexual abuse",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/21/coach-banned-dr-congo-training-kids-sexual-abuse-2048",
-      "date": "2026-10-21T09:20:42Z",
-      "league": "all"
-    },
-    {
-      "title": "The Spin | Writing a book with Chris Woakes showed the inner steel of the nicest man in cricket",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/the-spin-cricket-book-chris-woakes-nicest-man-in-cricket",
-      "date": "2026-10-21T09:20:21Z",
       "league": "all"
     }
   ]
