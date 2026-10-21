@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T23:12:03Z",
+  "updated_at": "2026-10-21T23:49:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -967,19 +967,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601670",
+      "id": "sportsdb-2601673",
       "league": "nba",
-      "name": "Brooklyn Nets vs Charlotte Hornets",
-      "date": "2026-10-21T23:30:00Z",
+      "name": "New Orleans Pelicans vs Indiana Pacers",
+      "date": "2026-10-22T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Brooklyn Nets",
+          "name": "New Orleans Pelicans",
           "score": ""
         },
         {
-          "name": "Charlotte Hornets",
+          "name": "Indiana Pacers",
           "score": ""
         }
       ],
@@ -1005,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591636",
+      "id": "sportsdb-2591638",
       "league": "nhl",
-      "name": "Buffalo Sabres vs Philadelphia Flyers",
-      "date": "2026-10-21T23:30:00Z",
+      "name": "Toronto Maple Leafs vs New York Rangers",
+      "date": "2026-10-22T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Sabres",
+          "name": "Toronto Maple Leafs",
           "score": ""
         },
         {
-          "name": "Philadelphia Flyers",
+          "name": "New York Rangers",
           "score": ""
         }
       ],
@@ -1117,9 +1117,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T23:11:06Z",
+      "league": "all"
+    },
     {
       "title": "Former Australia sprint champion Jake Doran charged with alleged child abuse",
       "source": "The Guardian Sport",
@@ -1427,13 +1472,6 @@
       "url": "https://www.theguardian.com/football/video/2026/oct/21/psg-beat-barca-rios-grand-for-liverpool-and-ronaldos-cv-football-weekly-video",
       "date": "2026-10-21T13:02:43Z",
       "league": "soccer"
-    },
-    {
-      "title": "Kildunne drops to bench as England ring changes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3ewe42q4jqzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T12:47:48Z",
-      "league": "all"
     }
   ]
 }
