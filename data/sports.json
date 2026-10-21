@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T23:46:54Z",
+  "updated_at": "2026-10-21T00:09:17Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,12 +18,12 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
@@ -48,12 +48,12 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -68,32 +68,32 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 2
     }
   ],
   "events": [
@@ -967,6 +967,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601666",
+      "league": "nba",
+      "name": "New York Knicks vs Philadelphia 76ers",
+      "date": "2026-10-20T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "New York Knicks",
+          "score": ""
+        },
+        {
+          "name": "Philadelphia 76ers",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601667",
       "league": "nba",
       "name": "San Antonio Spurs vs Oklahoma City Thunder",
@@ -981,6 +1000,26 @@
         {
           "name": "Oklahoma City Thunder",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2619051",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Cleveland Guardians",
+      "date": "2026-10-20T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "name": "Cleveland Guardians",
+          "score": "3"
         }
       ],
       "url": ""
@@ -1005,19 +1044,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591630",
+      "id": "sportsdb-2591632",
       "league": "nhl",
-      "name": "Dallas Stars vs Boston Bruins",
-      "date": "2026-10-21T00:00:00Z",
+      "name": "Edmonton Oilers vs Minnesota Wild",
+      "date": "2026-10-21T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Stars",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Boston Bruins",
+          "name": "Minnesota Wild",
           "score": ""
         }
       ],
@@ -1062,6 +1101,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506257",
+      "league": "laliga",
+      "name": "Getafe vs Rayo Vallecano",
+      "date": "2026-10-19T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Getafe",
+          "score": "1"
+        },
+        {
+          "name": "Rayo Vallecano",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506222",
       "league": "laliga",
       "name": "Levante vs Athletic Bilbao",
@@ -1076,6 +1134,26 @@
         {
           "name": "Athletic Bilbao",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
@@ -1136,15 +1214,168 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594557",
+      "league": "ucl",
+      "name": "Lille vs Galatasaray",
+      "date": "2026-10-21T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lille",
+          "score": ""
+        },
+        {
+          "name": "Galatasaray",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398152",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": ""
+        },
+        {
+          "name": "Platense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487560",
+      "league": "ligamx",
+      "name": "Juárez vs Atlante",
+      "date": "2026-10-21T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Juárez",
+          "score": ""
+        },
+        {
+          "name": "Atlante",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492880",
+      "league": "j1",
+      "name": "Avispa Fukuoka vs Gamba Osaka",
+      "date": "2026-10-21T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Avispa Fukuoka",
+          "score": ""
+        },
+        {
+          "name": "Gamba Osaka",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Perth Glory",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407157",
+      "league": "mls",
+      "name": "FC Cincinnati vs Columbus Crew",
+      "date": "2026-10-18T21:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "0"
+        },
+        {
+          "name": "Columbus Crew",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        },
+        {
+          "name": "DC United",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
       "date": "2026-10-20T23:34:37Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "No jeopardy but loads of fun - Champions League sets new goals record",
@@ -1158,6 +1389,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T22:56:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Robinson sparks 23-0 run as Pistons stun Celtics in NBA season opener",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
+      "date": "2026-10-20T22:35:58Z",
       "league": "all"
     },
     {
@@ -1183,10 +1421,10 @@
     },
     {
       "title": "Champions League roundup: McTominay double leads Napoli past Bodø/Glimt",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/champions-league-roundup-mctominay-scores-twice-on-return-from-heart-surgery",
       "date": "2026-10-20T21:55:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Carrick wants more clean sheets to turn season around",
@@ -1228,6 +1466,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T20:56:53Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL will not discipline Eagles over handling of Jalen Hurts’ blood clots",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/20/nfl-philadelphia-eagles-jalen-hurts-blood-clots-no-discipline",
+      "date": "2026-10-20T20:51:38Z",
       "league": "all"
     },
     {
@@ -1357,13 +1602,6 @@
       "league": "soccer"
     },
     {
-      "title": "Jalen Hurts played through a blood clot. Are NFL players cattle?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/jalen-hurts-blood-clots-eagles-nfl",
-      "date": "2026-10-20T14:15:51Z",
-      "league": "all"
-    },
-    {
       "title": "‘I feel like I’m 21’: Joe Ingles on the NBA, life in Australia and 1,500 days without drinking",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/joe-ingles-nba-nbl-basketball-melbourne-united-australia",
@@ -1445,13 +1683,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/videos/c6lyl00ly4qro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T10:04:45Z",
-      "league": "all"
-    },
-    {
-      "title": "The Breakdown | ‘Freer’ Red Roses resolve to come back stronger after Canada end epic run",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/england-women-red-roses-canada-end-epic-winning-run-rugby-union",
-      "date": "2026-10-20T10:00:57Z",
       "league": "all"
     }
   ]
