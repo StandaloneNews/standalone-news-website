@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T07:11:20Z",
+  "updated_at": "2026-10-21T08:01:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,9 +1117,77 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day four – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-21T07:53:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace urged to retire bald eagle mascot",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx2302r04r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T07:24:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Crawley Town sack head coach Kazim-Richards",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq22j81lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T07:24:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Key questions as Farrell set to name Ireland squad",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg0n2v512ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T07:08:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Does anyone feature on more than two clubs' all-time top-10 scoring charts? | The Knowledge",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/anyone-more-than-two-clubs-all-time-top-10-goal-scoring-charts-the-knowledge",
+      "date": "2026-10-21T07:00:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Too much Overlap? Gary Neville’s podcast empire knows no bounds",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/the-overlap-gary-neville-podcast-empire-knows-no-bounds",
+      "date": "2026-10-21T07:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Mikel Arteta has mastered the art of making substitutions at Arsenal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/mikel-arteta-art-making-substitutions-arsenal-nottingham-forest-sunderland-leeds",
+      "date": "2026-10-21T07:00:03Z",
+      "league": "all"
+    },
     {
       "title": "LeBron James' 76ers beat Knicks on NBA opening night",
       "source": "BBC Sport",
@@ -1146,13 +1214,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqrky2rpkrz2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T05:35:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Tandy on copping flak and his tough Wales calls",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c8y5607px4z7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T05:29:50Z",
       "league": "all"
     },
     {
@@ -1202,13 +1263,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T22:35:32Z",
-      "league": "all"
-    },
-    {
-      "title": "GB men take fourth and must wait for LA28 Olympic spot",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/cj040qydgw6no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T22:31:41Z",
       "league": "all"
     },
     {
@@ -1282,25 +1336,11 @@
       "league": "all"
     },
     {
-      "title": "Arsenal’s David Raya hits back at ‘boring’ label as Arteta defends side’s style of play",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/20/bayern-munich-arsenal-champions-league",
-      "date": "2026-10-20T20:00:37Z",
-      "league": "all"
-    },
-    {
       "title": "‘I’m in a bad place’: Mark Allen says his snooker career may be over after defeat",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/mark-allen-snooker-northern-ireland-open-interview",
       "date": "2026-10-20T18:54:07Z",
       "league": "all"
-    },
-    {
-      "title": "Turkish FA bans 147 officials for breaching betting rules",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr86m4r36po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T18:39:43Z",
-      "league": "soccer"
     },
     {
       "title": "British Cycling’s best world championships since 2012 overshadowed by off-track issues",
@@ -1315,13 +1355,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T16:56:53Z",
       "league": "soccer"
-    },
-    {
-      "title": "Bavuma epic drags SA back into Test - do they have time to beat Australia?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/crx2d3y6gd80o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T16:27:39Z",
-      "league": "all"
     },
     {
       "title": "Why Swiatek is ending her 'most demanding' season now",
@@ -1409,30 +1442,16 @@
     },
     {
       "title": "Ronaldo let Manchester United down - Ten Hag",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8dx32rn297wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T12:12:51Z",
-      "league": "all"
-    },
-    {
-      "title": "Animal rights group urges Crystal Palace to retire bald eagle mascot",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/20/amimal-rights-group-peta-urges-crystal-palace-retire-bald-eagle-mascot-phoenix-selhurst-park",
-      "date": "2026-10-20T12:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "What does Celtic's demolition of Hearts mean for Hogh?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmx23n4qvnzeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T11:23:57Z",
       "league": "soccer"
     },
     {
-      "title": "David Squires on … Manchester City sailing into unknown Premier League waters",
+      "title": "Animal rights group urges Crystal Palace to retire bald eagle mascot",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/picture/2026/oct/20/david-squires-on-manchester-city-sailing-into-unknown-premier-league-waters",
-      "date": "2026-10-20T10:04:53Z",
+      "url": "https://www.theguardian.com/football/2026/oct/20/amimal-rights-group-peta-urges-crystal-palace-retire-bald-eagle-mascot-phoenix-selhurst-park",
+      "date": "2026-10-20T12:00:35Z",
       "league": "soccer"
     }
   ]
