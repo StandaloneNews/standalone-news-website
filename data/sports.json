@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T10:55:48Z",
+  "updated_at": "2026-10-21T11:20:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,44 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1162,7 +1124,35 @@
       "title": "South Africa v Australia: second men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T10:08:36Z",
+      "date": "2026-10-21T11:09:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Saracens in talks over Itoje extension",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg6vdggxvvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T11:02:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Football must not be detached from its roots as was the case with Manchester City | Philipp Lahm",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-fifa-rules-grassroots-philipp-lahm",
+      "date": "2026-10-21T11:00:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Austin GP is about much more than potential for Antonelli’s first F1 world title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/austin-gp-about-much-more-than-potential-kimi-antonelli-first-f1-world-title",
+      "date": "2026-10-21T11:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Allen reveals mental health clinic stay before return",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/c3ewe41dd0g5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T10:56:37Z",
       "league": "all"
     },
     {
@@ -1279,10 +1269,10 @@
     },
     {
       "title": "Mikel Arteta has mastered the art of making substitutions at Arsenal",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/mikel-arteta-art-making-substitutions-arsenal-nottingham-forest-sunderland-leeds",
       "date": "2026-10-21T07:00:03Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "LeBron James' 76ers beat Knicks on NBA opening night",
@@ -1300,10 +1290,10 @@
     },
     {
       "title": "'I've waited 34 years for this' - Viking's 'special' story",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cv0ldne84eeyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T05:49:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1331,13 +1321,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/png-chiefs-unveil-logo-and-jersey-for-first-nrl-season",
       "date": "2026-10-21T01:33:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Football regulator has ‘absolute power’ to force Manchester City sale if verdict upheld",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-david-kogan-independent-football-regulator",
-      "date": "2026-10-20T23:34:37Z",
       "league": "all"
     },
     {
@@ -1398,17 +1381,17 @@
     },
     {
       "title": "Mac Allister double sparks Liverpool’s thrilling comeback win over Villarreal",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-champions-league-match-report",
       "date": "2026-10-20T21:04:02Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Foden hat-trick helps Manchester City cut through noise and crush AEK Athens",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/manchester-city-aek-athens-champions-league-match-report",
       "date": "2026-10-20T21:00:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Audit regulator looking into Manchester City accounting",
@@ -1451,27 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T16:56:53Z",
       "league": "soccer"
-    },
-    {
-      "title": "Sloppy England start winter with Pakistan defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c962ylv3l334o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T16:13:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Minhas rips through England as Brook’s men wilt against Pakistan in tri-series opener",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/cricket-pakistan-england-one-day-international-odi-match-report",
-      "date": "2026-10-20T16:07:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Allen considers retirement after NI Open exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmn8w3zl0z4po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T15:55:57Z",
-      "league": "all"
     }
   ]
 }
