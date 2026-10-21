@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T09:55:59Z",
+  "updated_at": "2026-10-21T10:21:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,9 +1117,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "South Africa v Australia: second men’s cricket Test, day four – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-21T10:08:36Z",
+      "league": "all"
+    },
     {
       "title": "PSG's Kvaratskhelia to have surgery on ruptured ACL",
       "source": "BBC Sport",
@@ -1128,18 +1154,11 @@
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day four – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T09:44:13Z",
-      "league": "all"
-    },
-    {
       "title": "Khvicha Kvaratskhelia sustains ACL rupture in most serious of three PSG injuries",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/khvicha-kvaratskhelia-acl-injury-psg-ousmane-dembele-marquinhos",
       "date": "2026-10-21T09:42:09Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "England forward Strange ruled out of World Cup",
@@ -1160,6 +1179,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/coach-banned-dr-congo-training-kids-sexual-abuse-2048",
       "date": "2026-10-21T09:20:42Z",
+      "league": "all"
+    },
+    {
+      "title": "The Spin | Writing a book with Chris Woakes showed the inner steel of the nicest man in cricket",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/the-spin-cricket-book-chris-woakes-nicest-man-in-cricket",
+      "date": "2026-10-21T09:20:21Z",
       "league": "all"
     },
     {
@@ -1353,10 +1379,10 @@
     },
     {
       "title": "Doué and Vitinha burn bright as brittle Barcelona come unstuck against PSG",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/paris-saint-germain-psg-barcelona-champions-league-match-report",
       "date": "2026-10-20T21:08:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Mac Allister double sparks Liverpool’s thrilling comeback win over Villarreal",
@@ -1426,13 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/cricket-pakistan-england-one-day-international-odi-match-report",
       "date": "2026-10-20T16:07:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Allen considers retirement after NI Open exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmn8w3zl0z4po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T15:55:57Z",
       "league": "all"
     }
   ]
