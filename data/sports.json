@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T04:55:37Z",
+  "updated_at": "2026-10-21T05:19:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,25 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1168,7 +1149,7 @@
       "league": "all"
     },
     {
-      "title": "LeBron James and new-look Sixers spoil Knicks’ title party as Pistons stun Celtics in NBA openers",
+      "title": "LeBron James and Sixers spoil Knicks’ title party as Thunder and Pistons win NBA openers",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
       "date": "2026-10-20T22:35:58Z",
