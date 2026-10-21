@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T08:01:39Z",
+  "updated_at": "2026-10-21T08:59:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,25 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1143,7 +1124,21 @@
       "title": "South Africa v Australia: second men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T07:53:28Z",
+      "date": "2026-10-21T08:55:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Boulter wins in under an hour to reach quarters",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cx4g17l00qmjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T08:18:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Crawley Town sack head coach Kazim-Richards",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq22j81lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T08:06:43Z",
       "league": "all"
     },
     {
@@ -1151,13 +1146,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmx2302r04r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T07:24:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Crawley Town sack head coach Kazim-Richards",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq22j81lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T07:24:12Z",
       "league": "all"
     },
     {
@@ -1217,6 +1205,13 @@
       "league": "all"
     },
     {
+      "title": "Tandy on copping flak and his tough Wales calls",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c8y5607px4z7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T05:29:50Z",
+      "league": "all"
+    },
+    {
       "title": "Fabregas and Como prepare for historic Man Utd tie",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmpwg17ev9xxo?at_medium=RSS&at_campaign=rss",
@@ -1238,10 +1233,17 @@
       "league": "all"
     },
     {
-      "title": "No jeopardy but loads of fun - Champions League sets new goals record",
+      "title": "No jeopardy but loads of fun - is new Champions League format a success?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckg5je34l0q5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T23:03:11Z",
+      "league": "all"
+    },
+    {
+      "title": "The highs and lows of GB's fourth-place finish at the World Championships",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c60qk7vlvvwvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T22:59:45Z",
       "league": "all"
     },
     {
@@ -1343,6 +1345,13 @@
       "league": "all"
     },
     {
+      "title": "Turkish FA bans 147 officials for breaching betting rules",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr86m4r36po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T18:39:43Z",
+      "league": "soccer"
+    },
+    {
       "title": "British Cycling’s best world championships since 2012 overshadowed by off-track issues",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/british-cycling-world-championship-toxic-culture-matt-richardson",
@@ -1355,13 +1364,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3vqz1de9lro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T16:56:53Z",
       "league": "soccer"
-    },
-    {
-      "title": "Why Swiatek is ending her 'most demanding' season now",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6r7y0jjvvm0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T16:24:03Z",
-      "league": "all"
     },
     {
       "title": "Australia on the back foot as Bavuma plays captain’s innings for South Africa",
@@ -1413,6 +1415,13 @@
       "league": "soccer"
     },
     {
+      "title": "Former Norwich and Celtic striker Pukki to retire",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg0vjde20mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T14:37:41Z",
+      "league": "soccer"
+    },
+    {
       "title": "‘I feel like I’m 21’: Joe Ingles on the NBA, life in Australia and 1,500 days without drinking",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/joe-ingles-nba-nbl-basketball-melbourne-united-australia",
@@ -1425,34 +1434,6 @@
       "url": "https://www.bbc.co.uk/sport/snooker/articles/c6rey5xxy3vqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T13:45:51Z",
       "league": "all"
-    },
-    {
-      "title": "Golden bat or ball: does cricket need an equivalent to the Ballon d’Or? | Taha Hashim",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/20/golden-bat-or-ball-does-cricket-need-an-equivalent-to-the-ballon-dor",
-      "date": "2026-10-20T13:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "How Brazil’s election result could shape women’s football in the country",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/20/how-brazils-election-result-could-shape-womens-football-in-the-country",
-      "date": "2026-10-20T12:28:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Ronaldo let Manchester United down - Ten Hag",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8dx32rn297wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T12:12:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Animal rights group urges Crystal Palace to retire bald eagle mascot",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/20/amimal-rights-group-peta-urges-crystal-palace-retire-bald-eagle-mascot-phoenix-selhurst-park",
-      "date": "2026-10-20T12:00:35Z",
-      "league": "soccer"
     }
   ]
 }
