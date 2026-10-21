@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T00:09:17Z",
+  "updated_at": "2026-10-21T01:06:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,12 +18,12 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
@@ -48,12 +48,12 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -68,32 +68,32 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -967,25 +967,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601666",
-      "league": "nba",
-      "name": "New York Knicks vs Philadelphia 76ers",
-      "date": "2026-10-20T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "New York Knicks",
-          "score": ""
-        },
-        {
-          "name": "Philadelphia 76ers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601667",
       "league": "nba",
       "name": "San Antonio Spurs vs Oklahoma City Thunder",
@@ -1000,26 +981,6 @@
         {
           "name": "Oklahoma City Thunder",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "7",
-          "winner": true
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": "3"
         }
       ],
       "url": ""
@@ -1044,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591632",
+      "id": "sportsdb-2591633",
       "league": "nhl",
-      "name": "Edmonton Oilers vs Minnesota Wild",
-      "date": "2026-10-21T01:00:00Z",
+      "name": "Seattle Kraken vs Detroit Red Wings",
+      "date": "2026-10-21T01:40:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Edmonton Oilers",
+          "name": "Seattle Kraken",
           "score": ""
         },
         {
-          "name": "Minnesota Wild",
+          "name": "Detroit Red Wings",
           "score": ""
         }
       ],
@@ -1101,25 +1062,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506257",
-      "league": "laliga",
-      "name": "Getafe vs Rayo Vallecano",
-      "date": "2026-10-19T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Getafe",
-          "score": "1"
-        },
-        {
-          "name": "Rayo Vallecano",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2506222",
       "league": "laliga",
       "name": "Levante vs Athletic Bilbao",
@@ -1134,26 +1076,6 @@
         {
           "name": "Athletic Bilbao",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2508380",
-      "league": "bundesliga",
-      "name": "Borussia Mönchengladbach vs Hoffenheim",
-      "date": "2026-10-18T15:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Borussia Mönchengladbach",
-          "score": "1"
-        },
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
         }
       ],
       "url": ""
@@ -1210,159 +1132,6 @@
         },
         {
           "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487560",
-      "league": "ligamx",
-      "name": "Juárez vs Atlante",
-      "date": "2026-10-21T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Juárez",
-          "score": ""
-        },
-        {
-          "name": "Atlante",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492880",
-      "league": "j1",
-      "name": "Avispa Fukuoka vs Gamba Osaka",
-      "date": "2026-10-21T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Avispa Fukuoka",
-          "score": ""
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407157",
-      "league": "mls",
-      "name": "FC Cincinnati vs Columbus Crew",
-      "date": "2026-10-18T21:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": "0"
-        },
-        {
-          "name": "Columbus Crew",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
           "score": ""
         }
       ],
