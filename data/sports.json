@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T22:17:54Z",
+  "updated_at": "2026-10-21T22:52:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -1081,26 +1081,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508380",
-      "league": "bundesliga",
-      "name": "Borussia Mönchengladbach vs Hoffenheim",
-      "date": "2026-10-18T15:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Borussia Mönchengladbach",
-          "score": "1"
-        },
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1137,47 +1117,30 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Saka injury 'does not look good' - how will Arsenal cope?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T22:51:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T22:41:53Z",
+      "league": "all"
+    },
+    {
+      "title": "'Simply not good enough - Warnock on Man Utd's Como display",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8040gdrdlwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T22:36:23Z",
+      "league": "all"
+    },
     {
       "title": "Club Brugge ease to comfortable win over Lens",
       "source": "BBC Football",
@@ -1212,13 +1175,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
       "date": "2026-10-21T21:14:31Z",
       "league": "all"
-    },
-    {
-      "title": "Ruthless Roma put four past toothless Slovan Bratislava",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6eq325d29dqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:13:36Z",
-      "league": "soccer"
     },
     {
       "title": "Guirassy double helps Dortmund past Sabah",
@@ -1313,10 +1269,10 @@
     },
     {
       "title": "Ex-England defender Bertrand eyes £87m AFC Wimbledon deal",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwdr8zxp884mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T20:02:23Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fernandes rounds on Carrick after Man Utd humiliation",
@@ -1410,6 +1366,13 @@
       "league": "all"
     },
     {
+      "title": "Former Open champion Oosthuizen quits LIV Golf",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/ck62y977vm33o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T15:18:40Z",
+      "league": "all"
+    },
+    {
       "title": "Andrews died of tear in artery around heart - autopsy",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx234p2xwpzo?at_medium=RSS&at_campaign=rss",
@@ -1470,27 +1433,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/red-roses-drop-ellie-kildunne-bench-canada-rematch-as-mitchell-seeks-england-reset",
       "date": "2026-10-21T12:45:18Z",
-      "league": "all"
-    },
-    {
-      "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
-      "date": "2026-10-21T12:40:41Z",
-      "league": "soccer"
-    },
-    {
-      "title": "MVP urges MMA fighters to form union over pay",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqe9ldzp9n73o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T12:21:59Z",
-      "league": "ufc"
-    },
-    {
-      "title": "F1 races to return to standard distance in 2028",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c69wzvr14xlxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T11:41:56Z",
       "league": "all"
     }
   ]
