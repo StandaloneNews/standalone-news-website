@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T10:21:55Z",
+  "updated_at": "2026-10-21T10:55:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1136,6 +1136,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594557",
+      "league": "ucl",
+      "name": "Lille vs Galatasaray",
+      "date": "2026-10-21T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lille",
+          "score": ""
+        },
+        {
+          "name": "Galatasaray",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1378,13 +1397,6 @@
       "league": "all"
     },
     {
-      "title": "Doué and Vitinha burn bright as brittle Barcelona come unstuck against PSG",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/20/paris-saint-germain-psg-barcelona-champions-league-match-report",
-      "date": "2026-10-20T21:08:45Z",
-      "league": "soccer"
-    },
-    {
       "title": "Mac Allister double sparks Liverpool’s thrilling comeback win over Villarreal",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-champions-league-match-report",
@@ -1452,6 +1464,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/cricket-pakistan-england-one-day-international-odi-match-report",
       "date": "2026-10-20T16:07:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Allen considers retirement after NI Open exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmn8w3zl0z4po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-20T15:55:57Z",
       "league": "all"
     }
   ]
