@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T21:55:51Z",
+  "updated_at": "2026-10-21T22:17:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -1081,6 +1081,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1136,9 +1156,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2514006",
+      "league": "primeira",
+      "name": "Vitória de Guimarães vs Marítimo",
+      "date": "2026-10-23T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vitória de Guimarães",
+          "score": ""
+        },
+        {
+          "name": "Marítimo",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Club Brugge ease to comfortable win over Lens",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c50me40n871zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T22:03:46Z",
+      "league": "soccer"
+    },
     {
       "title": "Real Madrid dominate Leipzig for third straight win",
       "source": "BBC Sport",
@@ -1161,7 +1207,7 @@
       "league": "all"
     },
     {
-      "title": "Declan Rice strikes late for Arsenal to deny Bayern Munich in blockbuster",
+      "title": "Arsenal’s Declan Rice strikes late to deny Bayern Munich after Harry Kane penalty",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
       "date": "2026-10-21T21:14:31Z",
@@ -1347,13 +1393,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T16:07:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Georgia and Dundee legend Nemsadze dies aged 54",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crpdg2x7v1l2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T16:00:32Z",
       "league": "soccer"
     },
     {
