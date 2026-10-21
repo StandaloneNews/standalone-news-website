@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T19:04:38Z",
+  "updated_at": "2026-10-21T19:52:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 21,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -58,37 +58,37 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -1024,26 +1024,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499071",
-      "league": "ncaaf",
-      "name": "Marshall vs South Alabama",
-      "date": "2026-10-20T23:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Marshall",
-          "score": "20",
-          "winner": true
-        },
-        {
-          "name": "South Alabama",
-          "score": "13"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499072",
       "league": "ncaaf",
       "name": "Sam Houston State vs New Mexico State",
@@ -1120,26 +1100,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482206",
-      "league": "seriea",
-      "name": "Parma vs Torino",
-      "date": "2026-10-19T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Parma",
-          "score": "0"
-        },
-        {
-          "name": "Torino",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482214",
       "league": "seriea",
       "name": "Torino vs Monza",
@@ -1154,26 +1114,6 @@
         {
           "name": "Monza",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489518",
-      "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Nice",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1196,121 +1136,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487564",
-      "league": "ligamx",
-      "name": "Toluca vs Tijuana",
-      "date": "2026-10-22T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toluca",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492887",
-      "league": "j1",
-      "name": "Urawa Red Diamonds vs JEF United Chiba",
-      "date": "2026-10-21T10:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Urawa Red Diamonds",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "JEF United Chiba",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        },
-        {
-          "name": "DC United",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1318,28 +1143,35 @@
       "title": "Aston Villa v Viking, Real Madrid v RB Leipzig and more: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live",
-      "date": "2026-10-21T19:01:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Titans coach defends Jordan Elliott, says gun incident was not ‘criminal act’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/titans-reportedly-released-jordan-elliott-after-he-fetched-gun-following-scuffle-in-practice",
-      "date": "2026-10-21T19:01:14Z",
+      "date": "2026-10-21T19:48:58Z",
       "league": "all"
     },
     {
       "title": "Bayern Munich v Arsenal: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live",
-      "date": "2026-10-21T19:00:56Z",
+      "date": "2026-10-21T19:47:47Z",
       "league": "all"
     },
     {
-      "title": "Como 4-1 Manchester United: Champions League – live reaction",
+      "title": "'Playing for their careers' - Australia reeling after extraordinary day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckzd6r577qvdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T19:46:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Titans coach says Jordan Elliott pulling gun in team parking lot was not ‘criminal act’",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
-      "date": "2026-10-21T19:00:47Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/titans-reportedly-released-jordan-elliott-after-he-fetched-gun-following-scuffle-in-practice",
+      "date": "2026-10-21T19:01:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Como demolish dismal Manchester United to pile more pressure on Carrick",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
+      "date": "2026-10-21T18:55:28Z",
       "league": "all"
     },
     {
@@ -1361,13 +1193,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/maro-itoje-england-saracens-new-deal-rugby",
       "date": "2026-10-21T17:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "'Playing for their careers' - Australia reeling after extraordinary day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckzd6r577qvdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T16:52:25Z",
       "league": "all"
     },
     {
