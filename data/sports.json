@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T16:56:21Z",
+  "updated_at": "2026-10-21T17:20:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 17,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -986,26 +986,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619051",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Cleveland Guardians",
-      "date": "2026-10-20T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "7",
-          "winner": true
-        },
-        {
-          "name": "Cleveland Guardians",
-          "score": "3"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2619527",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1039,26 +1019,6 @@
         {
           "name": "Philadelphia Flyers",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499071",
-      "league": "ncaaf",
-      "name": "Marshall vs South Alabama",
-      "date": "2026-10-20T23:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Marshall",
-          "score": "20",
-          "winner": true
-        },
-        {
-          "name": "South Alabama",
-          "score": "13"
         }
       ],
       "url": ""
@@ -1176,98 +1136,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594667",
-      "league": "ucl",
-      "name": "Como vs Manchester United",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "1H",
-      "participants": [
-        {
-          "name": "Como",
-          "score": ""
-        },
-        {
-          "name": "Manchester United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594554",
-      "league": "ucl",
-      "name": "Aston Villa vs Viking",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Aston Villa",
-          "score": ""
-        },
-        {
-          "name": "Viking",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398152",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
-      "date": "2026-10-23T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": ""
-        },
-        {
-          "name": "Platense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492887",
-      "league": "j1",
-      "name": "Urawa Red Diamonds vs JEF United Chiba",
-      "date": "2026-10-21T10:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Urawa Red Diamonds",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "JEF United Chiba",
-          "score": "2"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Como v Manchester United: Champions League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/21/como-v-manchester-united-champions-league-live",
-      "date": "2026-10-21T16:54:56Z",
-      "league": "soccer"
+      "date": "2026-10-21T17:13:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Maro Itoje seals England future by agreeing new deal with Saracens",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/maro-itoje-england-saracens-new-deal-rugby",
+      "date": "2026-10-21T17:00:52Z",
+      "league": "all"
     },
     {
       "title": "'Playing for their careers' - Australia reeling after extraordinary day",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/ckzd6r577qvdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T16:52:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket",
+      "date": "2026-10-21T16:49:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Ex-tennis pro Megan Rose appointed to lead 2031 men’s Rugby World Cup in US",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
+      "date": "2026-10-21T16:30:51Z",
       "league": "all"
     },
     {
@@ -1289,13 +1193,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/rugby-union-brendan-venter-saracens-vision",
       "date": "2026-10-21T16:00:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia bowled out for 99 and trail by 170 runs at 156-4 having been forced to follow on by South Africa in men’s second Test – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T15:57:04Z",
       "league": "all"
     },
     {
@@ -1425,13 +1322,6 @@
       "league": "all"
     },
     {
-      "title": "‘Invasive and extreme’: doctors fight anti-trans measure requiring genital exams for student athletes",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/oct/21/washington-anti-trans-sports-genital-exams",
-      "date": "2026-10-21T12:30:18Z",
-      "league": "all"
-    },
-    {
       "title": "MVP urges MMA fighters to form union over pay",
       "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqe9ldzp9n73o?at_medium=RSS&at_campaign=rss",
@@ -1481,18 +1371,11 @@
       "league": "all"
     },
     {
-      "title": "Saracens in talks over Itoje extension",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg6vdggxvvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T11:02:40Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-fifa-rules-grassroots-philipp-lahm",
       "date": "2026-10-21T11:00:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Austin GP is about much more than potential for Antonelli’s first F1 world title",
@@ -1544,6 +1427,13 @@
       "league": "all"
     },
     {
+      "title": "Troy Aikman and Joe Buck: what next for the NFL’s $165m TV power couple as they head for a split?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/troy-aikman-joe-buck-nfl-espn",
+      "date": "2026-10-21T09:00:01Z",
+      "league": "all"
+    },
+    {
       "title": "Crawley Town sack head coach Kazim-Richards",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq22j81lo?at_medium=RSS&at_campaign=rss",
@@ -1562,13 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/anyone-more-than-two-clubs-all-time-top-10-goal-scoring-charts-the-knowledge",
       "date": "2026-10-21T07:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Too much Overlap? Gary Neville’s podcast empire knows no bounds",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/21/the-overlap-gary-neville-podcast-empire-knows-no-bounds",
-      "date": "2026-10-21T07:00:03Z",
       "league": "all"
     }
   ]
