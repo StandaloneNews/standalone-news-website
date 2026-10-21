@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T12:20:37Z",
+  "updated_at": "2026-10-21T13:10:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,12 +13,12 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -948,6 +948,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475466",
+      "league": "nfl",
+      "name": "San Francisco 49ers vs Washington Commanders",
+      "date": "2026-10-20T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Francisco 49ers",
+          "score": "23",
+          "winner": true
+        },
+        {
+          "name": "Washington Commanders",
+          "score": "17"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475467",
       "league": "nfl",
       "name": "Chicago Bears vs New England Patriots",
@@ -962,6 +982,26 @@
         {
           "name": "New England Patriots",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601667",
+      "league": "nba",
+      "name": "San Antonio Spurs vs Oklahoma City Thunder",
+      "date": "2026-10-21T01:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Antonio Spurs",
+          "score": "104"
+        },
+        {
+          "name": "Oklahoma City Thunder",
+          "score": "116",
+          "winner": true
         }
       ],
       "url": ""
@@ -1005,6 +1045,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2591635",
+      "league": "nhl",
+      "name": "Vegas Golden Knights vs Tampa Bay Lightning",
+      "date": "2026-10-21T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Vegas Golden Knights",
+          "score": "2"
+        },
+        {
+          "name": "Tampa Bay Lightning",
+          "score": "6",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591636",
       "league": "nhl",
       "name": "Buffalo Sabres vs Philadelphia Flyers",
@@ -1019,6 +1079,26 @@
         {
           "name": "Philadelphia Flyers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499071",
+      "league": "ncaaf",
+      "name": "Marshall vs South Alabama",
+      "date": "2026-10-20T23:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Marshall",
+          "score": "20",
+          "winner": true
+        },
+        {
+          "name": "South Alabama",
+          "score": "13"
         }
       ],
       "url": ""
@@ -1117,15 +1197,235 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594557",
+      "league": "ucl",
+      "name": "Lille vs Galatasaray",
+      "date": "2026-10-21T16:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lille",
+          "score": ""
+        },
+        {
+          "name": "Galatasaray",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398152",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": ""
+        },
+        {
+          "name": "Platense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487564",
+      "league": "ligamx",
+      "name": "Toluca vs Tijuana",
+      "date": "2026-10-22T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toluca",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Perth Glory",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514006",
+      "league": "primeira",
+      "name": "Vitória de Guimarães vs Marítimo",
+      "date": "2026-10-23T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vitória de Guimarães",
+          "score": ""
+        },
+        {
+          "name": "Marítimo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        },
+        {
+          "name": "DC United",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "PSG beat Barça, Rio’s grand for Liverpool and Ronaldo’s CV | Football Weekly – video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/oct/21/psg-beat-barca-rios-grand-for-liverpool-and-ronaldos-cv-football-weekly-video",
+      "date": "2026-10-21T13:02:43Z",
+      "league": "soccer"
+    },
+    {
       "title": "South Africa v Australia: second men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/21/south-africa-v-australia-second-test-day-four-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-21T12:18:20Z",
+      "date": "2026-10-21T12:59:05Z",
       "league": "all"
+    },
+    {
+      "title": "Kildunne drops to bench as England ring changes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3ewe42q4jqzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T12:47:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Red Roses drop Kildunne to bench for Canada rematch as Mitchell seeks England reset",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/red-roses-drop-ellie-kildunne-bench-canada-rematch-as-mitchell-seeks-england-reset",
+      "date": "2026-10-21T12:45:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Cristiano Ronaldo asked for punishment ‘without mitigation’, then fought to cut it",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/21/cristiano-ronaldo-punishment-portugal-walkout-without-mitigation-fought-to-cut-it",
+      "date": "2026-10-21T12:40:41Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Invasive and extreme’: doctors fight anti-trans measure requiring genital exams for student athletes",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/us-news/2026/oct/21/washington-anti-trans-sports-genital-exams",
+      "date": "2026-10-21T12:30:18Z",
+      "league": "all"
+    },
+    {
+      "title": "MVP urges MMA fighters to form union over pay",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqe9ldzp9n73o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T12:21:59Z",
+      "league": "ufc"
+    },
+    {
+      "title": "What are the EFL rules on homegrown players?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck7vp83l215yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T12:16:11Z",
+      "league": "soccer"
     },
     {
       "title": "Why has Lord's dug up its pitch and what comes next?",
@@ -1170,7 +1470,7 @@
       "league": "all"
     },
     {
-      "title": "Football must not be detached from its roots as was the case with Manchester City | Philipp Lahm",
+      "title": "Manchester City have been a joy to watch but they became detached from their roots | Philipp Lahm",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/manchester-city-fifa-rules-grassroots-philipp-lahm",
       "date": "2026-10-21T11:00:04Z",
@@ -1191,7 +1491,7 @@
       "league": "all"
     },
     {
-      "title": "Khvicha Kvaratskhelia sustains ACL rupture in most serious of three PSG injuries",
+      "title": "Kvaratskhelia asks ‘why me?’ after ACL rupture in most serious of three PSG injuries",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/khvicha-kvaratskhelia-acl-injury-psg-ousmane-dembele-marquinhos",
       "date": "2026-10-21T09:42:09Z",
@@ -1226,24 +1526,10 @@
       "league": "all"
     },
     {
-      "title": "Australia hoodoo continues as New Zealand pile on pain in Constellation Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/netball-constellation-cup-new-zealand-silver-ferns-australia-diamonds-game-two-report",
-      "date": "2026-10-21T09:05:14Z",
-      "league": "all"
-    },
-    {
       "title": "Gabby Thomas, Melissa Jefferson-Wooden and the doping tensions dividing sprinting",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/gabby-thomas-melissa-jefferson-wooden-dennis-mitchell-doping-sprinting",
       "date": "2026-10-21T09:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Troy Aikman and Joe Buck: what next for the NFL’s $165m TV power couple as they head for a split?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/troy-aikman-joe-buck-nfl-espn",
-      "date": "2026-10-21T09:00:01Z",
       "league": "all"
     },
     {
@@ -1353,10 +1639,10 @@
     },
     {
       "title": "The night 'ruthless' Ngumoha came of age for Liverpool",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T22:56:55Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "LeBron James and Sixers spoil Knicks’ title party as Thunder and Pistons win NBA openers",
@@ -1367,16 +1653,9 @@
     },
     {
       "title": "No Haaland, no problem - can Foden be Man City's alternative goalscorer?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx2vjdnwkyyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T22:35:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool, Man City & PSG win on record-breaking night",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phqcz5?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T22:14:00Z",
       "league": "soccer"
     },
     {
@@ -1405,34 +1684,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/20/liverpool-villarreal-champions-league-match-report",
       "date": "2026-10-20T21:04:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Foden hat-trick helps Manchester City cut through noise and crush AEK Athens",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/20/manchester-city-aek-athens-champions-league-match-report",
-      "date": "2026-10-20T21:00:58Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Audit regulator looking into Manchester City accounting",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cm93z1xlgqxqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T20:56:53Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Arsenal criticism comes from very small minority - Arteta",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm8xzrwv5zpko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T20:33:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Man Utd revisit deal for Hall - Wednesday gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yq0rd0vvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T20:17:15Z",
       "league": "all"
     }
   ]
