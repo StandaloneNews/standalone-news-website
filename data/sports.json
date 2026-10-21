@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T02:17:22Z",
+  "updated_at": "2026-10-21T02:54:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1005,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591635",
+      "id": "sportsdb-2591636",
       "league": "nhl",
-      "name": "Vegas Golden Knights vs Tampa Bay Lightning",
-      "date": "2026-10-21T02:30:00Z",
+      "name": "Buffalo Sabres vs Philadelphia Flyers",
+      "date": "2026-10-21T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Vegas Golden Knights",
+          "name": "Buffalo Sabres",
           "score": ""
         },
         {
-          "name": "Tampa Bay Lightning",
+          "name": "Philadelphia Flyers",
           "score": ""
         }
       ],
@@ -1117,6 +1117,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1142,7 +1161,7 @@
       "league": "all"
     },
     {
-      "title": "Robinson sparks 23-0 run as Pistons stun Celtics in NBA season opener",
+      "title": "LeBron James and Sixers spoil Knicks’ title party as Pistons stun Celtics in NBA openers",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/nba-opening-night-2026-results-pistons-celtics-sixers-knicks-spurs-thunder",
       "date": "2026-10-20T22:35:58Z",
