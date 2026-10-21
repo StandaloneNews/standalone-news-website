@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T06:16:43Z",
+  "updated_at": "2026-10-21T07:11:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,47 +1117,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594557",
-      "league": "ucl",
-      "name": "Lille vs Galatasaray",
-      "date": "2026-10-21T16:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lille",
-          "score": ""
-        },
-        {
-          "name": "Galatasaray",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "LeBron James' 76ers beat Knicks on NBA opening night",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/c6vgj4g913wyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T06:34:15Z",
+      "league": "all"
+    },
+    {
+      "title": "How England hopeful Acheampong is giving Chelsea a big decision to make",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck4g10n56jzqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-21T06:26:58Z",
+      "league": "all"
+    },
     {
       "title": "'I've waited 34 years for this' - Viking's 'special' story",
       "source": "BBC Sport",
@@ -1292,11 +1268,11 @@
       "league": "all"
     },
     {
-      "title": "Arsenal criticism from very small minority - Arteta",
-      "source": "BBC Sport",
+      "title": "Arsenal criticism comes from very small minority - Arteta",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm8xzrwv5zpko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-20T20:33:27Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Man Utd revisit deal for Hall - Wednesday gossip",
@@ -1331,13 +1307,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/20/british-cycling-world-championship-toxic-culture-matt-richardson",
       "date": "2026-10-20T17:15:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Wales great Faletau still has drive for fourth World Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c62l4xggpnv4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T17:00:07Z",
       "league": "all"
     },
     {
@@ -1408,13 +1377,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/20/tottenham-hotspur-win-football-daily-newsletter",
       "date": "2026-10-20T14:39:16Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Former Norwich and Celtic striker Pukki to retire",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg0vjde20mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-20T14:37:41Z",
       "league": "soccer"
     },
     {
