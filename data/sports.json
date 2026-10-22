@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T20:17:07Z",
+  "updated_at": "2026-10-22T20:54:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1117,14 +1117,66 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Bournemouth v Milan, Celtic v Celta Vigo, and more: Europa League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
-      "date": "2026-10-22T20:10:28Z",
+      "date": "2026-10-22T20:48:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Man Utd chief keen on Howe - Friday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T20:38:37Z",
+      "league": "all"
+    },
+    {
+      "title": "GB's Fraser wins world bronze in all-around final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9kgjzjjnlzyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T20:28:43Z",
       "league": "all"
     },
     {
@@ -1191,13 +1243,6 @@
       "league": "all"
     },
     {
-      "title": "Sri Lanka make 430 to beat England after Brook's 202",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq99z35zpgzmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T17:31:42Z",
-      "league": "all"
-    },
-    {
       "title": "What next for Australia after chastening defeat by South Africa?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss",
@@ -1216,13 +1261,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/haiti-usa-concacaf-nations-league-miami-home-game-gang-violence",
       "date": "2026-10-22T17:04:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Rugby's data revolution - can Moneyball be oval?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6kg7kejxvw5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:47:46Z",
       "league": "all"
     },
     {
