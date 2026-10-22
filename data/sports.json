@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T18:13:17Z",
+  "updated_at": "2026-10-22T19:04:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 28,
+  "sources_ok": 33,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,12 +48,12 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "argentina",
@@ -98,12 +98,12 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 2
     }
   ],
   "events": [
@@ -1182,6 +1182,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506222",
+      "league": "laliga",
+      "name": "Levante vs Athletic Bilbao",
+      "date": "2026-10-21T18:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Levante",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Athletic Bilbao",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506265",
       "league": "laliga",
       "name": "Deportivo Alavés vs Málaga",
@@ -1196,6 +1216,26 @@
         {
           "name": "Málaga",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
@@ -1259,6 +1299,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Nice",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2489530",
       "league": "ligue1",
       "name": "Brest vs Nice",
@@ -1278,26 +1338,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594645",
-      "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Lens",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2594635",
       "league": "ucl",
       "name": "Shakhtar Donetsk vs Sporting CP",
@@ -1312,6 +1352,25 @@
         {
           "name": "Sporting CP",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": "1"
+        },
+        {
+          "name": "Vitória",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1412,6 +1471,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2513943",
+      "league": "primeira",
+      "name": "Braga vs Gil Vicente",
+      "date": "2026-10-19T19:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": "1"
+        },
+        {
+          "name": "Gil Vicente",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2514006",
       "league": "primeira",
       "name": "Vitória de Guimarães vs Marítimo",
@@ -1426,6 +1505,26 @@
         {
           "name": "Marítimo",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "DC United",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1452,10 +1551,24 @@
   ],
   "stories": [
     {
-      "title": "Lech Poznan v Sunderland, Juventus v Rennes, and more: Europa League – live",
+      "title": "Bournemouth v Milan, Celtic v Celta Vigo, and more: Europa League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
-      "date": "2026-10-22T18:07:31Z",
+      "date": "2026-10-22T18:57:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Next in line? Main contenders for the Manchester United hot seat",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
+      "date": "2026-10-22T18:32:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Aga banned for fake prescription from family member",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/ckm23eqy595zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T18:25:41Z",
       "league": "all"
     },
     {
@@ -1466,6 +1579,13 @@
       "league": "all"
     },
     {
+      "title": "Cordina agrees terms to fight Pacquiao, 47, on Fury-Joshua card",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c34g1wenzg9jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T18:04:02Z",
+      "league": "all"
+    },
+    {
       "title": "Tour de France UK stages in detail - where can you watch?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cycling/articles/cq1kd0z33r8ro?at_medium=RSS&at_campaign=rss",
@@ -1473,11 +1593,18 @@
       "league": "all"
     },
     {
-      "title": "US to host first Women's Club World Cup in 2028",
+      "title": "Brook underlines status as world's best all-format batter in run-fest",
       "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T17:52:45Z",
+      "league": "all"
+    },
+    {
+      "title": "US to host first Women's Club World Cup in 2028",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T17:49:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fifa increases preparation money for Women’s World Cup to match men’s teams",
@@ -1494,7 +1621,7 @@
       "league": "all"
     },
     {
-      "title": "What next for Australia after chastening defeat by South Africa?",
+      "title": "'Something will change' - questions for Australia after South Africa defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T17:25:22Z",
@@ -1502,10 +1629,10 @@
     },
     {
       "title": "Bruno’s betrayal? ‘Toxic’ Fernandes is symptom of United’s culture of entitlement | Jamie Jackson",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/bruno-fernandes-betrayal-manchester-united-michael-carrick-culture-of-entitlement",
       "date": "2026-10-22T17:15:50Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Haiti move Nations League home clash with USA to Miami amid gang violence crisis",
@@ -1620,13 +1747,6 @@
       "league": "soccer"
     },
     {
-      "title": "Humphries withdraws from European Championship",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/ck240lypjqvno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T14:16:12Z",
-      "league": "all"
-    },
-    {
       "title": "Carrick carrying on but senior Man Utd figures concerned by performances",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1wvl5524rno?at_medium=RSS&at_campaign=rss",
@@ -1663,10 +1783,10 @@
     },
     {
       "title": "Breaking down Man Utd's tactics after Fernandes' criticism",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3elpw7yd25o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T12:44:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McDermott blames Rugby League World Cup format as England face exit",
@@ -1711,13 +1831,6 @@
       "league": "all"
     },
     {
-      "title": "'Ten years of hate and abuse' - Schoeman on viral victory over Brownlees",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/triathlon/articles/cmx23dvewq9po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T11:01:04Z",
-      "league": "all"
-    },
-    {
       "title": "Cathinka Tandberg: ‘Spurs fans hate Arsenal. That’s how it is’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/cathinka-tandberg-interview-tottenham-arsenal-rivalry-moving-the-goalposts-you-now",
@@ -1751,20 +1864,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/22/nfl-unbeaten-teams-49ers-chiefs-vikings-bills",
       "date": "2026-10-22T08:30:10Z",
       "league": "all"
-    },
-    {
-      "title": "Shola Ameobi: ‘I thought: how can I be most useful to Newcastle? Then the cog started turning’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/shola-ameobi-interview-newcastle-united-derby-hero",
-      "date": "2026-10-22T07:00:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Is Leicester boss Martin turning the Foxes' fortunes?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq073zrgv8vvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T06:01:48Z",
-      "league": "soccer"
     }
   ]
 }
