@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T13:10:38Z",
+  "updated_at": "2026-10-22T14:00:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 25,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -43,22 +43,22 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -1005,6 +1005,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2591637",
+      "league": "nhl",
+      "name": "Ottawa Senators vs Florida Panthers",
+      "date": "2026-10-21T23:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Ottawa Senators",
+          "score": "5",
+          "winner": true
+        },
+        {
+          "name": "Florida Panthers",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591638",
       "league": "nhl",
       "name": "Toronto Maple Leafs vs New York Rangers",
@@ -1019,6 +1039,26 @@
         {
           "name": "New York Rangers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499072",
+      "league": "ncaaf",
+      "name": "Sam Houston State vs New Mexico State",
+      "date": "2026-10-22T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sam Houston State",
+          "score": "24"
+        },
+        {
+          "name": "New Mexico State",
+          "score": "30",
+          "winner": true
         }
       ],
       "url": ""
@@ -1043,6 +1083,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2494064",
+      "league": "epl",
+      "name": "Tottenham Hotspur vs Coventry City",
+      "date": "2026-10-19T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tottenham Hotspur",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Coventry City",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2494075",
       "league": "epl",
       "name": "Ipswich Town vs Nottingham Forest",
@@ -1057,6 +1117,26 @@
         {
           "name": "Nottingham Forest",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2506222",
+      "league": "laliga",
+      "name": "Levante vs Athletic Bilbao",
+      "date": "2026-10-21T18:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Levante",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Athletic Bilbao",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1081,6 +1161,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1095,6 +1195,26 @@
         {
           "name": "Borussia Mönchengladbach",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2482206",
+      "league": "seriea",
+      "name": "Parma vs Torino",
+      "date": "2026-10-19T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Parma",
+          "score": "0"
+        },
+        {
+          "name": "Torino",
+          "score": "3",
+          "winner": true
         }
       ],
       "url": ""
@@ -1119,20 +1239,179 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489530",
+      "id": "sportsdb-2489518",
       "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Brest",
-          "score": ""
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
         },
         {
           "name": "Nice",
-          "score": ""
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594645",
+      "league": "ucl",
+      "name": "Club Brugge vs Lens",
+      "date": "2026-10-21T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Club Brugge",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Lens",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": "1"
+        },
+        {
+          "name": "Vitória",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398136",
+      "league": "argentina",
+      "name": "Deportivo Riestra vs Unión",
+      "date": "2026-10-20T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Deportivo Riestra",
+          "score": "1"
+        },
+        {
+          "name": "Unión",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487568",
+      "league": "ligamx",
+      "name": "Pachuca vs Cruz Azul",
+      "date": "2026-10-22T03:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Pachuca",
+          "score": "1"
+        },
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492887",
+      "league": "j1",
+      "name": "Urawa Red Diamonds vs JEF United Chiba",
+      "date": "2026-10-21T10:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Urawa Red Diamonds",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "JEF United Chiba",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540110",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Melbourne Victory",
+      "date": "2026-10-18T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Melbourne Victory",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2513943",
+      "league": "primeira",
+      "name": "Braga vs Gil Vicente",
+      "date": "2026-10-19T19:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": "1"
+        },
+        {
+          "name": "Gil Vicente",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "DC United",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1143,15 +1422,29 @@
       "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T12:57:12Z",
+      "date": "2026-10-22T13:45:58Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T12:55:56Z",
+      "date": "2026-10-22T13:44:12Z",
       "league": "all"
+    },
+    {
+      "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
+      "date": "2026-10-22T13:42:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester United bin-fire keeps blazing and Arsenal draw at Bayern | Football Weekly Extra – video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/oct/22/manchester-united-bin-fire-keeps-blazing-and-arsenal-draw-at-bayern-football-weekly-extra-video",
+      "date": "2026-10-22T13:24:40Z",
+      "league": "soccer"
     },
     {
       "title": "England's travel schedule like Steve Martin comedy - McDermott",
@@ -1189,7 +1482,7 @@
       "league": "all"
     },
     {
-      "title": "Brilliant Brook hits England's first 200 in an ODI",
+      "title": "The numbers behind Brook's record-breaking 202 for England",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cq99z35zpgzmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T12:15:29Z",
@@ -1343,14 +1636,7 @@
       "league": "all"
     },
     {
-      "title": "History comes home as St Louis City top Columbus Crew to win US Open Cup",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/history-comes-home-as-st-louis-city-top-columbus-crew-to-win-us-open-cup",
-      "date": "2026-10-22T03:38:58Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Boland's resistance broken as South Africa close in - scorecard",
+      "title": "South Africa beat Australia to level Test series - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T00:00:00Z",
@@ -1445,13 +1731,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq99zg052g38o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:01:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "PSG come out on top in six-goal thriller against Barcelona",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm74p9jd5zkko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:01:03Z",
       "league": "soccer"
     }
   ]
