@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T12:21:08Z",
+  "updated_at": "2026-10-22T13:10:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,21 +1117,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Sri Lanka chasing 430 to beat England in men’s tri-series cricket one-day international – live",
+      "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T12:13:39Z",
+      "date": "2026-10-22T12:57:12Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T12:13:09Z",
+      "date": "2026-10-22T12:55:56Z",
+      "league": "all"
+    },
+    {
+      "title": "England's travel schedule like Steve Martin comedy - McDermott",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmq5n0pezgg5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:48:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick carrying on as normal as Man Utd eye possible replacements",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1wvl5524rno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:48:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Breaking down Man Utd's tactics after Fernandes' criticism",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3elpw7yd25o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:44:08Z",
+      "league": "all"
+    },
+    {
+      "title": "McDermott blames ‘harsh’ Rugby League World Cup format as exit looms",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/brian-mcdermott-blames-harsh-rugby-league-world-cup-format-england",
+      "date": "2026-10-22T12:41:38Z",
+      "league": "all"
+    },
+    {
+      "title": "French teenage rugby player dies after on-field injury",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crly0lpgd659o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:30:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Brilliant Brook hits England's first 200 in an ODI",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq99z35zpgzmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:15:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Six-year ban for top marathon runner who submitted fake prescription",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/six-year-doping-ban-marathon-runner-ruti-aga-fake-prescription-athletics",
+      "date": "2026-10-22T12:13:23Z",
       "league": "all"
     },
     {
@@ -1240,13 +1308,6 @@
       "league": "all"
     },
     {
-      "title": "Wales milestone for Callender as Metcalfe sisters start",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crn4e0ywddxlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T07:00:21Z",
-      "league": "all"
-    },
-    {
       "title": "Shola Ameobi: ‘I thought: how can I be most useful to Newcastle? Then the cog started turning’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/shola-ameobi-interview-newcastle-united-derby-hero",
@@ -1289,23 +1350,9 @@
       "league": "soccer"
     },
     {
-      "title": "Anthony Edwards scores 45 as Timberwolves spoil Giannis Antetokounmpo’s Heat debut",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/anthony-edwards-giannis-antetokounmpo-miami-heat-debut-minnesota-timberwolves",
-      "date": "2026-10-22T03:30:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Smith & Head out as South Africa close on win over Australia - scorecard",
+      "title": "Boland's resistance broken as South Africa close in - scorecard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T00:00:00Z",
-      "league": "all"
-    },
-    {
-      "title": "New Zealand v India - first T20 scorecard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-242108?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T00:00:00Z",
       "league": "all"
     },
@@ -1332,16 +1379,9 @@
     },
     {
       "title": "Saka injury 'does not look good' - how will Arsenal cope?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T22:51:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Is it 'phenomenal' Kane's year to lift the Ballon d'Or?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/crpdg21y070jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T22:41:53Z",
       "league": "soccer"
     },
     {
@@ -1364,13 +1404,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/c3qjnerzngkqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:38:23Z",
       "league": "all"
-    },
-    {
-      "title": "Isco the difference as Betis continue winning start against Feyenoord",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:23:47Z",
-      "league": "soccer"
     },
     {
       "title": "Villa maintain perfect Champions League start with Viking victory",
@@ -1416,24 +1449,10 @@
     },
     {
       "title": "PSG come out on top in six-goal thriller against Barcelona",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm74p9jd5zkko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:01:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Foden nets hat-trick as Man City beat AEK Athens",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmrly5r1jp41o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:00:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Mac Allister scores twice as Liverpool fight back to beat Villarreal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmvg6qxp6lj7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:00:28Z",
-      "league": "all"
+      "league": "soccer"
     }
   ]
 }
