@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T04:56:27Z",
+  "updated_at": "2026-10-22T05:21:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1117,9 +1117,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Vickery's journey from World Cup winner to bodybuilder at 50",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckdd8re793zdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T05:14:22Z",
+      "league": "all"
+    },
     {
       "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
       "source": "BBC Sport",
@@ -1384,13 +1429,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmy0ek8vnxzko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T15:35:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Former Open champion Oosthuizen quits LIV Golf",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/ck62y977vm33o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T15:18:40Z",
       "league": "all"
     },
     {
