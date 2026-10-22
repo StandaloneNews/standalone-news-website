@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T14:00:08Z",
+  "updated_at": "2026-10-22T14:57:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 25,
+  "sources_ok": 18,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -43,17 +43,17 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -88,12 +88,12 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -967,6 +967,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601678",
+      "league": "nba",
+      "name": "Los Angeles Clippers vs Sacramento Kings",
+      "date": "2026-10-22T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles Clippers",
+          "score": "121",
+          "winner": true
+        },
+        {
+          "name": "Sacramento Kings",
+          "score": "96"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601679",
       "league": "nba",
       "name": "Philadelphia 76ers vs Cleveland Cavaliers",
@@ -1044,26 +1064,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499072",
-      "league": "ncaaf",
-      "name": "Sam Houston State vs New Mexico State",
-      "date": "2026-10-22T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sam Houston State",
-          "score": "24"
-        },
-        {
-          "name": "New Mexico State",
-          "score": "30",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499073",
       "league": "ncaaf",
       "name": "Appalachian State vs James Madison",
@@ -1078,26 +1078,6 @@
         {
           "name": "James Madison",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494064",
-      "league": "epl",
-      "name": "Tottenham Hotspur vs Coventry City",
-      "date": "2026-10-19T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tottenham Hotspur",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Coventry City",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1122,26 +1102,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506222",
-      "league": "laliga",
-      "name": "Levante vs Athletic Bilbao",
-      "date": "2026-10-21T18:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Levante",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Athletic Bilbao",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2506265",
       "league": "laliga",
       "name": "Deportivo Alavés vs Málaga",
@@ -1156,26 +1116,6 @@
         {
           "name": "Málaga",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2508380",
-      "league": "bundesliga",
-      "name": "Borussia Mönchengladbach vs Hoffenheim",
-      "date": "2026-10-18T15:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Borussia Mönchengladbach",
-          "score": "1"
-        },
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
         }
       ],
       "url": ""
@@ -1239,79 +1179,58 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489518",
+      "id": "sportsdb-2489530",
       "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
+          "name": "Brest",
+          "score": ""
         },
         {
           "name": "Nice",
-          "score": "1"
+          "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2594645",
+      "id": "sportsdb-2594635",
       "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
+          "name": "Shakhtar Donetsk",
+          "score": ""
         },
         {
-          "name": "Lens",
-          "score": "0"
+          "name": "Sporting CP",
+          "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2398495",
-      "league": "brasileirao",
-      "name": "Corinthians vs Vitória",
-      "date": "2026-10-19T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": "1"
-        },
-        {
-          "name": "Vitória",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398136",
+      "id": "sportsdb-2398151",
       "league": "argentina",
-      "name": "Deportivo Riestra vs Unión",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Gimnasia y Esgrima de La Plata vs Sarmiento",
+      "date": "2026-10-23T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Deportivo Riestra",
-          "score": "1"
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
         },
         {
-          "name": "Unión",
-          "score": "1"
+          "name": "Sarmiento",
+          "score": ""
         }
       ],
       "url": ""
@@ -1337,81 +1256,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492887",
-      "league": "j1",
-      "name": "Urawa Red Diamonds vs JEF United Chiba",
-      "date": "2026-10-21T10:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Urawa Red Diamonds",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "JEF United Chiba",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540110",
-      "league": "aleague",
-      "name": "Wellington Phoenix vs Melbourne Victory",
-      "date": "2026-10-18T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Wellington Phoenix",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Melbourne Victory",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2513943",
+      "id": "sportsdb-2514006",
       "league": "primeira",
-      "name": "Braga vs Gil Vicente",
-      "date": "2026-10-19T19:15:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Vitória de Guimarães vs Marítimo",
+      "date": "2026-10-23T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Braga",
-          "score": "1"
+          "name": "Vitória de Guimarães",
+          "score": ""
         },
         {
-          "name": "Gil Vicente",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "DC United",
-          "score": "1"
+          "name": "Marítimo",
+          "score": ""
         }
       ],
       "url": ""
@@ -1419,25 +1277,67 @@
   ],
   "stories": [
     {
-      "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
+      "title": "South Africa beat Australia by innings and 31 runs: second men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T13:45:58Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-22T14:50:24Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: second men’s cricket Test, day five – live",
+      "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T13:44:12Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
+      "date": "2026-10-22T14:45:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick joins Wilcox under the bus after Manchester United’s latest night in crisis | Max Rushden",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/michael-carrick-bruno-fernandes-jason-wilcox-manchester-united-como-crisis",
+      "date": "2026-10-22T14:39:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Humphries withdraws from European Championship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/ck240lypjqvno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T14:16:12Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa complete famous win over Australia",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T14:13:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick carrying on but senior Man Utd figures concerned by performances",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1wvl5524rno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T14:04:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Surfing faces a cultural reckoning as women’s voices grow louder over sexual abuse allegations | Lucy Small",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/surfing-sexual-abuse-allegations-ntwnfb",
+      "date": "2026-10-22T14:00:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Bruno Guimarães had sleepless nights before Newcastle exit but hopes for same ‘love’ at Arsenal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/bruno-guimaraes-had-sleepless-nights-before-newcastle-exit-but-hopes-for-same-love-at-arsenal",
+      "date": "2026-10-22T14:00:32Z",
       "league": "all"
     },
     {
       "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
       "date": "2026-10-22T13:42:43Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Manchester United bin-fire keeps blazing and Arsenal draw at Bayern | Football Weekly Extra – video",
@@ -1451,13 +1351,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmq5n0pezgg5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T12:48:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick carrying on as normal as Man Utd eye possible replacements",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm1wvl5524rno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T12:48:12Z",
       "league": "all"
     },
     {
@@ -1504,10 +1397,10 @@
     },
     {
       "title": "Enzo Maresca says honest talks have revitalised Foden’s Manchester City form",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/enzo-maresca-phil-foden-manchester-city-form",
       "date": "2026-10-22T11:36:29Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "I'm serious about getting England call - Hendy",
@@ -1616,10 +1509,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq80zk12krmlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T05:45:30Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "From Bury to AC Milan: Bournemouth's journey to 'dreamland'",
@@ -1633,13 +1526,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckdd8re793zdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T05:14:22Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa beat Australia to level Test series - scorecard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236998?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T00:00:00Z",
       "league": "all"
     },
     {
@@ -1699,38 +1585,10 @@
       "league": "all"
     },
     {
-      "title": "‘Angry’ Carrick on the brink as Fernandes hits out at Manchester United tactics",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/21/michael-carrick-bruno-fernandes-manchester-united-como-champions-league",
-      "date": "2026-10-21T21:15:23Z",
-      "league": "all"
-    },
-    {
       "title": "Arsenal’s Declan Rice strikes late to deny Bayern Munich after Harry Kane penalty",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
       "date": "2026-10-21T21:14:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Rice strikes to earn Arsenal draw at Bayern",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/crx23nx0vp8jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:09:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Barkley and Buendía on target as Aston Villa sink Viking to maintain perfect start",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/aston-villa-viking-champions-league-match-report",
-      "date": "2026-10-21T21:07:48Z",
-      "league": "soccer"
-    },
-    {
-      "title": "McTominay scores twice as Napoli beat Bodo/Glimt",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq99zg052g38o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:01:18Z",
       "league": "soccer"
     }
   ]
