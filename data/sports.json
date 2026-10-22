@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T08:03:20Z",
+  "updated_at": "2026-10-22T09:00:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,6 +1117,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1124,14 +1143,21 @@
       "title": "England v Sri Lanka: men’s tri-series cricket one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T08:02:27Z",
+      "date": "2026-10-22T08:49:29Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T07:56:52Z",
+      "date": "2026-10-22T08:46:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Super Bowl contenders: are the NFL’s unbeaten teams as perfect as they seem?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/nfl-unbeaten-teams-49ers-chiefs-vikings-bills",
+      "date": "2026-10-22T08:30:10Z",
       "league": "all"
     },
     {
@@ -1283,10 +1309,10 @@
     },
     {
       "title": "Isco the difference as Betis continue winning start against Feyenoord",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckp8gjl3epr7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:23:47Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Villa maintain perfect Champions League start with Viking victory",
@@ -1325,10 +1351,10 @@
     },
     {
       "title": "Barkley and Buendía on target as Aston Villa sink Viking to maintain perfect start",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/aston-villa-viking-champions-league-match-report",
       "date": "2026-10-21T21:07:48Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McTominay scores twice as Napoli beat Bodo/Glimt",
@@ -1426,13 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/jimmy-anderson-set-to-retire-from-cricket-lancashire-contract",
       "date": "2026-10-21T17:27:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Maro Itoje seals England future by agreeing new deal with Saracens",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/maro-itoje-england-saracens-new-deal-rugby",
-      "date": "2026-10-21T17:00:52Z",
       "league": "all"
     }
   ]
