@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T19:04:08Z",
+  "updated_at": "2026-10-22T19:54:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 33,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -58,12 +58,12 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "argentina",
@@ -93,17 +93,17 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 2
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -948,26 +948,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475466",
-      "league": "nfl",
-      "name": "San Francisco 49ers vs Washington Commanders",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Francisco 49ers",
-          "score": "23",
-          "winner": true
-        },
-        {
-          "name": "Washington Commanders",
-          "score": "17"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475467",
       "league": "nfl",
       "name": "Chicago Bears vs New England Patriots",
@@ -1260,26 +1240,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482206",
-      "league": "seriea",
-      "name": "Parma vs Torino",
-      "date": "2026-10-19T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Parma",
-          "score": "0"
-        },
-        {
-          "name": "Torino",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482214",
       "league": "seriea",
       "name": "Torino vs Monza",
@@ -1294,26 +1254,6 @@
         {
           "name": "Monza",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489518",
-      "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Nice",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1352,25 +1292,6 @@
         {
           "name": "Sporting CP",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398495",
-      "league": "brasileirao",
-      "name": "Corinthians vs Vitória",
-      "date": "2026-10-19T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": "1"
-        },
-        {
-          "name": "Vitória",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1450,112 +1371,22 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2513943",
-      "league": "primeira",
-      "name": "Braga vs Gil Vicente",
-      "date": "2026-10-19T19:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Braga",
-          "score": "1"
-        },
-        {
-          "name": "Gil Vicente",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407041",
-      "league": "mls",
-      "name": "FC Cincinnati vs DC United",
-      "date": "2026-10-21T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "FC Cincinnati",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "DC United",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407171",
-      "league": "mls",
-      "name": "CF Montréal vs Nashville SC",
-      "date": "2026-10-24T17:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CF Montréal",
-          "score": ""
-        },
-        {
-          "name": "Nashville SC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Bournemouth v Milan, Celtic v Celta Vigo, and more: Europa League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
-      "date": "2026-10-22T18:57:33Z",
-      "league": "all"
+      "date": "2026-10-22T19:50:11Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Europa League: Sunderland held in Poznan as Juventus denied comeback win",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/22/europa-league-sunderland-held-in-poznan-as-juventus-denied-comeback-win",
+      "date": "2026-10-22T19:14:48Z",
+      "league": "soccer"
     },
     {
       "title": "Next in line? Main contenders for the Manchester United hot seat",
@@ -1593,7 +1424,7 @@
       "league": "all"
     },
     {
-      "title": "Brook underlines status as world's best all-format batter in run-fest",
+      "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T17:52:45Z",
@@ -1621,7 +1452,7 @@
       "league": "all"
     },
     {
-      "title": "'Something will change' - questions for Australia after South Africa defeat",
+      "title": "What next for Australia after chastening defeat by South Africa?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T17:25:22Z",
@@ -1629,10 +1460,10 @@
     },
     {
       "title": "Bruno’s betrayal? ‘Toxic’ Fernandes is symptom of United’s culture of entitlement | Jamie Jackson",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/bruno-fernandes-betrayal-manchester-united-michael-carrick-culture-of-entitlement",
       "date": "2026-10-22T17:15:50Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Haiti move Nations League home clash with USA to Miami amid gang violence crisis",
@@ -1845,7 +1676,7 @@
       "league": "soccer"
     },
     {
-      "title": "Harry Kane admits wait to learn if he has won Ballon d’Or is ‘very stressful’ for family",
+      "title": "Harry Kane says wait to learn if he has won Ballon d’Or is stressful for family",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/harry-kane-ballon-dor-wait-very-stressful-family",
       "date": "2026-10-22T09:13:10Z",
@@ -1856,13 +1687,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-dream-golden-state-valkyries-wnba-finals-game-three-home-court-advantage",
       "date": "2026-10-22T09:00:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Super Bowl contenders: are the NFL’s unbeaten teams as perfect as they seem?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/nfl-unbeaten-teams-49ers-chiefs-vikings-bills",
-      "date": "2026-10-22T08:30:10Z",
       "league": "all"
     }
   ]
