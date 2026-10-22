@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T21:53:19Z",
+  "updated_at": "2026-10-22T22:15:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1117,14 +1117,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Superman at Como & is Conte right for Man Utd?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pj4zqk?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T21:58:00Z",
+      "league": "soccer"
+    },
     {
       "title": "Man Utd chief keen on Howe - Friday's gossip",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:53:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
+      "date": "2026-10-22T21:53:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Counties interested in Anderson after Lancashire exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm8xz10571lro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T21:47:51Z",
       "league": "all"
     },
     {
@@ -1198,13 +1238,6 @@
       "league": "all"
     },
     {
-      "title": "Tour de France UK stages in detail - where can you watch?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/articles/cq1kd0z33r8ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T17:56:48Z",
-      "league": "all"
-    },
-    {
       "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss",
@@ -1241,10 +1274,10 @@
     },
     {
       "title": "Haiti move Nations League home clash with USA to Miami amid gang violence crisis",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/haiti-usa-concacaf-nations-league-miami-home-game-gang-violence",
       "date": "2026-10-22T17:04:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Sherrock one of 24 'amateurs' taking on Littler",
@@ -1259,6 +1292,13 @@
       "url": "https://www.theguardian.com/sport/2026/oct/22/sri-lanka-england-odi-match-report-brook-202",
       "date": "2026-10-22T16:37:40Z",
       "league": "all"
+    },
+    {
+      "title": "BBC to show Cray Wanderers v Stockport & Altrincham v Notts County",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked364q8jxjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T16:31:24Z",
+      "league": "soccer"
     },
     {
       "title": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
@@ -1412,27 +1452,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/cathinka-tandberg-interview-tottenham-arsenal-rivalry-moving-the-goalposts-you-now",
       "date": "2026-10-22T10:44:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Harry Kane says wait to learn if he has won Ballon d’Or is stressful for family",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/harry-kane-ballon-dor-wait-very-stressful-family",
-      "date": "2026-10-22T09:13:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Welcome to the trap: swaggering Atlanta Dream turn WNBA finals into a hometown spectacle | Andrew Lawrence",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-dream-golden-state-valkyries-wnba-finals-game-three-home-court-advantage",
-      "date": "2026-10-22T09:00:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Super Bowl contenders: are the NFL’s unbeaten teams as perfect as they seem?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/nfl-unbeaten-teams-49ers-chiefs-vikings-bills",
-      "date": "2026-10-22T08:30:10Z",
       "league": "all"
     }
   ]
