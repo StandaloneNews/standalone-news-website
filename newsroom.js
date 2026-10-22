@@ -91,7 +91,7 @@
    illustration();return wrap;
  }
  function photoCredit(item){if(!item.image?.page_url)return null;const a=el('a','photo-credit',creditLine(item));a.href=item.image.page_url;a.target='_blank';a.rel='noopener noreferrer license';a.title='Illustrative image attribution and original license';return a;}
- function followButton(source){const name=text(source);const followed=state.followed.includes(name);const b=el('button','follow-source'+(followed?' on':''),followed?'Following ✓':'+ Follow source');b.type='button';b.dataset.follow=name;b.setAttribute('aria-pressed',String(followed));b.setAttribute('aria-label',(followed?'Unfollow ':'Follow ')+name);return b;}
+ function followButton(source){const name=text(source);const followed=state.followed.includes(name);const b=el('button','follow-source'+(followed?' on':''),followed?'Following ✓':'+ Follow source');b.type='button';b.dataset.follow=name;b.setAttribute('aria-pressed',String(followed));b.setAttribute('aria-label',(followed?'Following ✓ · ':'+ Follow source · ')+name);return b;}
  function renderFollowing(){const n=$('following-list'),box=$('following-section'),notes=$('following-description');if(!n||!box)return;
    const relevant=state.news.filter(x=>state.prefs.includes(x.category)||state.followed.includes(x.source));
    box.hidden=false;
@@ -106,7 +106,7 @@
    else picked.forEach(x=>n.append(storyCard(x)));
    if(notes)notes.textContent=(state.prefs.length||state.followed.length)?state.prefs.length+' followed topics · '+state.followed.length+' followed publishers · Preferences saved on this device':'Your followed topics and publishers will appear here after you choose them';
  }
- function actionSave(item,cls='save-small'){const saved=state.saved.some(x=>x.key===item.key);const b=el('button',cls+(saved?' on':''),saved?'♥ Saved':'♡ Save');b.type='button';b.dataset.save=item.key;b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'Remove saved story: ':'Save story: ')+item.title);return b;}
+ function actionSave(item,cls='save-small'){const saved=state.saved.some(x=>x.key===item.key);const b=el('button',cls+(saved?' on':''),saved?'♥ Saved':'♡ Save');b.type='button';b.dataset.save=item.key;b.setAttribute('aria-pressed',String(saved));b.setAttribute('aria-label',(saved?'♥ Saved · ':'♡ Save · ')+item.title);return b;}
  function toast(msg){const t=$('toast');t.textContent=msg;t.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.hidden=true,2600);}
  function flipSave(key){let item=[...state.news,...state.articles,...state.saved].find(x=>x.key===key);if(!item)return;const had=state.saved.some(x=>x.key===key);state.saved=had?state.saved.filter(x=>x.key!==key):[{type:item.type,key:item.key,url:item.url,title:item.title,source:item.source,category:item.category,published_at:item.published_at,summary:item.summary||''},...state.saved].slice(0,100);if(!cloudMode&&!store(SKEY,state.saved))toast('Your browser could not save this story');else toast(had?'Removed from Saved':'Added to Saved');render();window.dispatchEvent(new CustomEvent('sn:bookmark-change',{detail:{key,added:!had,item:state.saved.find(x=>x.key===key)||item}}));}
  function empty(node,msg){node.replaceChildren(el('div','empty-panel',msg));}
