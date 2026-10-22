@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T00:09:00Z",
+  "updated_at": "2026-10-22T01:05:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -967,19 +967,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601675",
+      "id": "sportsdb-2601676",
       "league": "nba",
-      "name": "Houston Rockets vs Dallas Mavericks",
-      "date": "2026-10-22T00:30:00Z",
+      "name": "Los Angeles Lakers vs Golden State Warriors",
+      "date": "2026-10-22T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Houston Rockets",
+          "name": "Los Angeles Lakers",
           "score": ""
         },
         {
-          "name": "Dallas Mavericks",
+          "name": "Golden State Warriors",
           "score": ""
         }
       ],
@@ -1113,6 +1113,44 @@
         },
         {
           "name": "Monza",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
