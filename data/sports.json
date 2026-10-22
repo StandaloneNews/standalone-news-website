@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-21T23:49:46Z",
+  "updated_at": "2026-10-22T00:09:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -967,19 +967,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601673",
+      "id": "sportsdb-2601675",
       "league": "nba",
-      "name": "New Orleans Pelicans vs Indiana Pacers",
-      "date": "2026-10-22T00:00:00Z",
+      "name": "Houston Rockets vs Dallas Mavericks",
+      "date": "2026-10-22T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New Orleans Pelicans",
+          "name": "Houston Rockets",
           "score": ""
         },
         {
-          "name": "Indiana Pacers",
+          "name": "Dallas Mavericks",
           "score": ""
         }
       ],
@@ -1024,19 +1024,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499072",
+      "id": "sportsdb-2499073",
       "league": "ncaaf",
-      "name": "Sam Houston State vs New Mexico State",
-      "date": "2026-10-22T00:00:00Z",
+      "name": "Appalachian State vs James Madison",
+      "date": "2026-10-22T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sam Houston State",
+          "name": "Appalachian State",
           "score": ""
         },
         {
-          "name": "New Mexico State",
+          "name": "James Madison",
           "score": ""
         }
       ],
@@ -1113,44 +1113,6 @@
         },
         {
           "name": "Monza",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
           "score": ""
         }
       ],
