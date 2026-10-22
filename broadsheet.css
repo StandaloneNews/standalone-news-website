@@ -256,3 +256,33 @@ body.theme-broadsheet.theme-market .market-disclaimer {
   font-size:12px;
   line-height:1.6;
 }
+
+
+/* Contrast audit (WCAG 2.2 AA) — typography on warm paper.
+   Keep dark masthead/footer colors intact. Standard small text must meet 4.5:1.
+   #435864 on #f9f8f3 = 7.01:1; on white = 7.45:1. */
+:root { --bs-muted: #435864; }
+body.theme-broadsheet .edition-note > span {
+  color: #435864 !important;
+}
+body.theme-broadsheet :is(.masthead,.mast,.site-header) :is(.edition-note span,.brand-word > span,.brand-lockup > span) {
+  color: #435864 !important;
+}
+/* These printed-captions sit on ivory/white, not the dark callout panels. */
+body.theme-broadsheet.home-broadsheet :is(
+  .latest-card .small-meta,
+  .lead-story .meta-line,
+  .wire-section .card-meta,
+  .story-card .card-meta,
+  .broadsheet-desk .desk-menu a span,
+  .broadsheet-edition .broadsheet-folio,
+  .market-strip .strip-heading small,
+  .section-desc,
+  .placeholder
+) {color:#435864!important;}
+/* A11y names and control indications must remain legible on the paper ground. */
+body.theme-broadsheet :is(.masthead,.mast,.site-header,.lead-story,.wire-section,.latest-card)
+  :is(button,a,input,select,textarea):focus-visible {
+  outline:3px solid #17618b!important;
+  outline-offset:3px!important;
+}
