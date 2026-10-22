@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T05:21:47Z",
+  "updated_at": "2026-10-22T05:53:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,52 +1117,56 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq80zk12krmlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T05:45:30Z",
+      "league": "all"
+    },
+    {
+      "title": "From Bury to AC Milan: Bournemouth's journey to 'dreamland'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2v8x7ry17o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T05:37:17Z",
+      "league": "all"
+    },
     {
       "title": "Vickery's journey from World Cup winner to bodybuilder at 50",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckdd8re793zdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T05:14:22Z",
+      "league": "all"
+    },
+    {
+      "title": "History comes home as St Louis City top Columbus Crew to win US Open Cup",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/21/history-comes-home-as-st-louis-city-top-columbus-crew-to-win-us-open-cup",
+      "date": "2026-10-22T03:38:58Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Anthony Edwards scores 45 as Timberwolves spoil Giannis Antetokounmpo’s Heat debut",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/anthony-edwards-giannis-antetokounmpo-miami-heat-debut-minnesota-timberwolves",
+      "date": "2026-10-22T03:30:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Enes Kanter Freedom claims he was ejected from WNBA finals game in Atlanta",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/enes-kanter-freedom-ejected-wnba-finals-atlanta-dream",
+      "date": "2026-10-22T02:38:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Angel Reese stars again as Atlanta Dream thrash Valkyries to seize WNBA finals lead",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/21/angel-reese-atlanta-dream-golden-state-valkyries-wnba-finals",
+      "date": "2026-10-22T02:30:37Z",
       "league": "all"
     },
     {
@@ -1362,32 +1366,11 @@
       "league": "all"
     },
     {
-      "title": "Could Frawley earn Ireland fly-half starting spot?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c60qkp121xg1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T19:21:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Titans coach says Jordan Elliott pulling gun in team parking lot was not ‘criminal act’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/titans-reportedly-released-jordan-elliott-after-he-fetched-gun-following-scuffle-in-practice",
-      "date": "2026-10-21T19:01:14Z",
-      "league": "all"
-    },
-    {
       "title": "Como demolish dismal Manchester United to pile more pressure on Carrick",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
       "date": "2026-10-21T18:55:28Z",
       "league": "all"
-    },
-    {
-      "title": "Azaz confirms he will continue playing for Republic of Ireland",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckq6nzyr9qdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T18:13:39Z",
-      "league": "soccer"
     },
     {
       "title": "Jimmy Anderson set to retire from cricket as Lancashire opt against renewing contract",
@@ -1409,13 +1392,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/21/ex-tennis-pro-megan-rose-appointed-to-lead-2031-mens-rugby-world-cup-in-us",
       "date": "2026-10-21T16:30:51Z",
       "league": "all"
-    },
-    {
-      "title": "72+: The EFL Podcast",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phvgy3?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T16:07:00Z",
-      "league": "soccer"
     },
     {
       "title": "No sour grapes: Venter on vintage form as he lays out Saracens vision",
@@ -1458,20 +1434,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/21/snooker-mark-allen-northern-ireland-open-mental-health",
       "date": "2026-10-21T13:52:04Z",
       "league": "all"
-    },
-    {
-      "title": "Barca condemn PSG tifo inciting 'violence and hatred'",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1jwp9827o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T13:12:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "PSG beat Barça, Rio’s grand for Liverpool and Ronaldo’s CV | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/oct/21/psg-beat-barca-rios-grand-for-liverpool-and-ronaldos-cv-football-weekly-video",
-      "date": "2026-10-21T13:02:43Z",
-      "league": "soccer"
     }
   ]
 }
