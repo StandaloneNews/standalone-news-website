@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T22:12:28+00:00",
+  "updated_at": "2026-10-22T22:47:29+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -7,6 +7,7 @@
     "0ee827c5ff4681a907e6caf4",
     "78a16e2dcae2aaa7f03cb638",
     "205ee234a05f0b94f82ae481",
+    "8b22303475fae0daf98ec31d",
     "44187513a910d6027327fd9e",
     "e6dc47c77304d1a4b0bdc38e",
     "f813c90bc511d8a4b0a0bb4b",
@@ -23,18 +24,118 @@
     "6ff348e15ea0432b0e48370a",
     "52e3e42ce256d204667e3fff",
     "653f52e4b176461621aeed3f",
+    "6bc314a45816c39dc4eb3758",
     "0e6b7b9249b2f756123357b0",
-    "e12cae2a65e1231037d030e0",
-    "32b3170e24109d9a6879a006",
-    "4f300c857e7266c78b2116aa",
-    "a7f900173fcd37dae448155b"
+    "5eee804247a435ab2dffe426",
+    "908c7432130d43379b12dbf4"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "908c7432130d43379b12dbf4",
+      "title": "What Maine voters are saying about the Collins-Jackson Senate race",
+      "summary": "One of the most closely watched Senate races in the country is unfolding in Maine, where five-term Republican Susan Collins faces a tough challenge from Democrat Troy Jackson, a former logger and state legislator. The race is rated a toss-up, with both parties fighting for a seat that could determine control of the Senate. Lisa Desjardins reports from Maine.",
+      "url": "https://www.pbs.org/newshour/show/what-maine-voters-are-saying-about-the-collins-jackson-senate-race",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:45:13+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "EEBS27",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Capitol building from the east side (front)",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
+    },
+    {
+      "id": "6bc314a45816c39dc4eb3758",
+      "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
+      "summary": "The digital asset unit, helmed by Chris Dixon, broadens its scope.",
+      "url": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:34:54+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d36b74aa246a7f9f73c2da66",
+      "title": "Raye wins the Mercury Prize with This Music May Contain Hope",
+      "summary": "The pop star beat artists like Paul McCartney, Suede and Jade Thirlwall to lift the £25,000 prize.",
+      "url": "https://www.bbc.co.uk/news/articles/cw073mj02v72o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:33:52+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "13aad57027af9d6d39cdef6d",
+      "title": "US-sanctioned ICC wins Sakharov Prize, EU’s top human rights award",
+      "summary": "The prize comes less than two weeks after US President Donald Trump announced sanctions against the court.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:25:14+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "98aecefaa9754f10c0fa915a",
+      "title": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
+      "summary": "With less than two weeks before the midterm elections, Meta made clear that Mark Zuckerberg is staying in California if the wealth tax passes.",
+      "url": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:21:08+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8b22303475fae0daf98ec31d",
+      "title": "What we know about war plans that Trump and Netanyahu are drawing up",
+      "summary": "Could the U.S. and Israel be on the verge of launching a new attack on Iran? President Trump and Prime Minister Benjamin Netanyahu have been suggesting that's on the table.",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6012306/what-we-know-about-war-plans-that-trump-and-netanyahu-are-drawing-up",
+      "source": "NPR",
+      "feed_id": "npr_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:17:04+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0c759b059ee27111b8089eb6",
+      "title": "Ecuador opposition leader Luisa Gonzalez arrested in campaign finance probe",
+      "summary": "Gonzalez’s Citizen Revolution Movement has denounced the arrest as politically motivated, calling for her release.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/ecuador-opposition-leader-luisa-gonzalez-arrested-in-campaign-finance-probe?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T22:09:38+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0e6b7b9249b2f756123357b0",
       "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the mostly highly valued private company ever.",
+      "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "source": "TechCrunch",
       "feed_id": "techcrunch",
@@ -83,7 +184,7 @@
     {
       "id": "7988e9c89e799d654591850a",
       "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
-      "summary": "41-year-old set on ‘dream to be able to race in Africa’ Rwanda to host despite criticism of human rights record Lewis Hamilton has said he hopes to remain racing in Formula One until he can take part in the African Grand Prix which is set to take place in Rwanda in the 2030s , with the seven-time world champion also stating he believes it is right that F1 is to hold a race there despite criticism of the country’s human rights record. Last week F1 confirmed Rwanda was to host the African Grand Prix having concluded a 10-year agreement for the meeting on a purpose-built circuit, with the first race set for the early 2030s. It is lined up to be held on a circuit in Bugesera, 25 miles south of the capital, Kigali, which has yet to be constructed and marks a return to the African continent for the first time since it last held a race at Kyalam",
+      "summary": "41-year-old set on ‘dream to be able to race in Africa’ Rwanda to host despite criticism of human rights record Lewis Hamilton has said he hopes to remain racing in Formula One until he can take part in the African Grand Prix which is set to take place in Rwanda in the 2030s . The seven-time world champion believes it is right that F1 is to hold a race there despite criticism of the country’s human rights record. Last week F1 confirmed Rwanda was to host the African Grand Prix having concluded a 10-year agreement for the meeting on a purpose-built circuit, with the first race set for the early 2030s. It is lined up to be held on a circuit in Bugesera, 25 miles south of the capital, Kigali, which has yet to be constructed and marks a return to the African continent for the first time since it last held a race at Kyalami, South Africa in 19",
       "url": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -143,6 +244,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T21:51:41+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5eee804247a435ab2dffe426",
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T21:51:25+00:00",
+      "desk_priority": 26,
       "selection_type": "automatic"
     },
     {
@@ -224,6 +338,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "c2e4b9e500abf8ef6384a60b",
+      "title": "PC shipments dropped over 20 percent in Q3 due to RAM price hikes",
+      "summary": "Demand for new PCs took a hit after months of price hikes, with Counterpoint Research reporting global PC shipments fell 21 percent year-over-year in Q3 2026. That's in line with earlier reports from IDC and Omdia. It's not just PCs, either - that same quarter, smartphone shipments also hit a 14-year low. Counterpoint linked the […]",
+      "url": "https://www.theverge.com/gadgets/1017144/global-pc-shipments-dropped-q3-2026-ram",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T21:30:39+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
       "id": "c40a74a2a2b7beb2717ca4e7",
       "title": "Prepare for supply chain disruption from cyber or climate emergencies, Streeting warns public",
       "summary": "The defence secretary says the UK needs to be ready for scenarios including impact to essential supply chains.",
@@ -273,17 +400,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T21:23:01+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "49a37e68c602f29f53a83ba3",
@@ -478,19 +595,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T20:51:26+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "98aecefaa9754f10c0fa915a",
-      "title": "Meta’s deal to keep Zuckerberg in California adds fuel to wealth tax debate ahead of election",
-      "summary": "With less than two weeks before the midterm elections, Meta made clear that Mark Zuckerberg is staying in California if the wealth tax passes.",
-      "url": "https://www.cnbc.com/2026/10/22/meta-mark-zuckerberg-california-billionaire-tax.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T20:47:59+00:00",
-      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -850,11 +954,11 @@
       "summary": "David Ellison's father, billionaire and Oracle co-founder Larry Ellison, has a history with Musk.",
       "url": "https://www.cnbc.com/2026/10/22/elon-musk-skydance-investment.html",
       "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
+      "feed_id": "cnbc_business",
+      "category": "Economy",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T19:34:46+00:00",
-      "desk_priority": 37,
+      "desk_priority": 38,
       "selection_type": "automatic"
     },
     {
@@ -4638,19 +4742,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "4092b1be34aefbaea9f65770",
-      "title": "Trump merchandise stores are closing: 'He has peaked'",
-      "summary": "At least four Trump merchandise stores have closed this year. Store owners say with Trump in his final term, there isn't as much to fire up his consumer fan base and sales have softened.",
-      "url": "https://www.npr.org/2026/10/22/nx-s1-6002970/trump-merchandise-stores-closing-maga-midterms",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T09:00:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "bb76303e4df46b75244f86c2",
       "title": "A GOP congressman voted to cut Medicaid. It covers 62% of his district. Can he win?",
       "summary": "Republican U.S. Rep. David Valadao is fighting for reelection in central California. 6 in 10 residents of his district are covered by Medicaid, which he voted to cut last year.",
@@ -4668,6 +4759,19 @@
       "title": "Trump's redistricting gave Republicans a head start, now it goes to the voters",
       "summary": "President Trump, seeking to reshape the voting map, prompted a rare wave of mid-decade redistricting that gave Republicans a boost for holding the House. But the voters will determine if it works.",
       "url": "https://www.npr.org/2026/10/22/nx-s1-6004891/trump-redistricting-advantage-midterms",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T09:00:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4092b1be34aefbaea9f65770",
+      "title": "Trump merchandise stores are closing: 'He has peaked'",
+      "summary": "At least four Trump merchandise stores have closed this year. Store owners say with Trump in his final term, there isn't as much to fire up his consumer fan base and sales have softened.",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6002970/trump-merchandise-stores-closing-maga-midterms",
       "source": "NPR",
       "feed_id": "npr_top",
       "category": "US News",
@@ -5415,120 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T04:00:06+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4557780ee98f1148fd5757b1",
-      "title": "Elizabeth Holmes is back in the spotlight: why can’t we look away? – podcast",
-      "summary": "You Can See Everything, a documentary about the disgraced biotech company founder Elizabeth Holmes, has enjoyed a record-breaking opening in the US. It is a testament to how fascinated we remain by the convicted fraudster, but what is behind the enduring appeal? US technology editor Blake Montgomery tells Madeleine Finlay why Holmes continues to fascinate us, and reflects on whether the Theranos scandal has had a permanent impact on Silicon Valley Clip: You Can See Everything, A24 ‘You can’t make this stuff up’: why we remain fascinated by Elizabeth Holmes Continue reading...",
-      "url": "https://www.theguardian.com/science/audio/2026/oct/22/elizabeth-holmes-you-can-see-everything-podcast",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T04:00:06+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "bde68c601a43bc398a8527ef",
-      "title": "Tied up and tortured: Israel using US-made electroshock weapons on Palestinian detainees",
-      "summary": "Investigation suggests American company Axon still supplies Israel with Taser weapons despite evidence they have been used to torture prisoners The soldiers drag the man into a section of the prison known as Hell’s Wing, a metaphor for its notoriety for acts of brutality. Shoving him violently into a corner, they take a step back before one of them draws his weapon and fires two rubber bullets at his body. The man, a double amputee, collapses to the floor. After tying him up tightly, the soldiers continue their assault until one of them pulls a stun gun from its holster. The soldier approaches the man, brandishing the gun, before applying it to his body, engulfing him in an electric shock. Continue reading...",
-      "url": "https://www.theguardian.com/global-development/2026/oct/22/israel-us-made-electroshock-weapons-palestinian-detainees-axon-taser",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T04:00:05+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "74066bef2f96757f74bd8729",
-      "title": "North Korea prepares to restart propaganda loudspeakers as ties sour with South",
-      "summary": "Kim Yo-jong, sister of Kim Jong-un, issues warning after inspecting border fortifications against backdrop of rising tensions Propaganda loudspeakers aimed at South Korea will be ready to restart within days along the entire border, Kim Yo-jong, the powerful sister of North Korean leader Kim Jong-un, has said amid a worsening of ties between the two countries. The statement, carried by the state news agency KCNA on Thursday, came a day after she said the loudspeakers would be in operation along the whole border from some time in October. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T03:56:46+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4b3ae4ff3a2f663f59078393",
-      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
-      "summary": "US federal judge blocked wall's construction on Texas-Mexico border amid an ongoing legal battle.",
-      "url": "https://www.aljazeera.com/news/2026/10/22/trump-administration-seeks-supreme-court-approval-to-build-big-bend-wall?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T03:19:38+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Building_of_the_United_States_Supreme_Court.jpg/1280px-Building_of_the_United_States_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Building_of_the_United_States_Supreme_Court.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "颐园居",
-        "license": "CC BY-SA 4.0",
-        "description": "United States Supreme Court Building",
-        "label": "Illustrative photo",
-        "matched_query": "Supreme Court of the United States building"
-      }
-    },
-    {
-      "id": "448b6891182aa35d19bfb3f5",
-      "title": "‘Almost looks fake’: two Sydney beaches closed after whale carcass washes up",
-      "summary": "Swimming banned at Maroubra and Coogee while council prioritises ‘culturally respectful’ approach to remains Get our breaking news email , free app or daily news podcast A whale carcass has forced the closure of two busy swimming and surfing spots after washing up between Coogee and Maroubra beaches in Sydney – but there are no plans to remove it. The whale’s heavily decomposed body was found on Thursday morning at Lurline Bay, a rocky cove surrounded by cliffs in Sydney’s eastern suburbs. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/22/coogee-maroubra-beaches-closed-whale-carcass",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T03:15:41+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f05e4c7cada193695732f878",
-      "title": "Bukang-i is back: shark returns to canal in South Korea hours after being coaxed out to sea",
-      "summary": "Animal attracted 1.6m visitors after getting trapped in September, now a new attempt to free it is under way A shark that became a viral sensation after getting stuck in a South Korean canal for a month has returned just hours after being coaxed out to sea. Nicknamed Bukang-i by fans, the 3-metre-long (9.8-foot) female dusky shark was first spotted in the waterway on 18 September. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/22/bukangi-shark-returns-to-south-korea-canal-busan",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T03:12:54+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ffeeec16638c56861d6c7960",
-      "title": "US embassy accuses Canada of election meddling ahead of midterms",
-      "summary": "Prime Minister Mark Carney dismissed the claim, noting that US initiated trade actions against Canada.",
-      "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T03:05:28+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0f9f60cda1b45bd7eccc5902",
-      "title": "Austrian, Swiss women kidnapped in Niger are freed — report",
-      "summary": "An Austrian woman and a Swiss woman kidnapped in Niger have been freed after 18 months in captivity, local reports say.",
-      "url": "https://www.dw.com/en/austrian-swiss-women-kidnapped-in-niger-are-freed-report/a-79727419?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T02:54:00+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
