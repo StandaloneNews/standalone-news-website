@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T15:25:39Z",
+  "updated_at": "2026-10-22T15:58:19Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 27,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -58,52 +58,52 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 2
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -1024,26 +1024,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499072",
-      "league": "ncaaf",
-      "name": "Sam Houston State vs New Mexico State",
-      "date": "2026-10-22T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sam Houston State",
-          "score": "24"
-        },
-        {
-          "name": "New Mexico State",
-          "score": "30",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499073",
       "league": "ncaaf",
       "name": "Appalachian State vs James Madison",
@@ -1120,26 +1100,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482206",
-      "league": "seriea",
-      "name": "Parma vs Torino",
-      "date": "2026-10-19T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Parma",
-          "score": "0"
-        },
-        {
-          "name": "Torino",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482214",
       "league": "seriea",
       "name": "Torino vs Monza",
@@ -1157,295 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489518",
-      "league": "ligue1",
-      "name": "Lyon vs Nice",
-      "date": "2026-10-18T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Nice",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594645",
-      "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Lens",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398495",
-      "league": "brasileirao",
-      "name": "Corinthians vs Vitória",
-      "date": "2026-10-19T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": "1"
-        },
-        {
-          "name": "Vitória",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398136",
-      "league": "argentina",
-      "name": "Deportivo Riestra vs Unión",
-      "date": "2026-10-20T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Deportivo Riestra",
-          "score": "1"
-        },
-        {
-          "name": "Unión",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398151",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de La Plata vs Sarmiento",
-      "date": "2026-10-23T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        },
-        {
-          "name": "Sarmiento",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487568",
-      "league": "ligamx",
-      "name": "Pachuca vs Cruz Azul",
-      "date": "2026-10-22T03:10:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Pachuca",
-          "score": "1"
-        },
-        {
-          "name": "Cruz Azul",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487569",
-      "league": "ligamx",
-      "name": "Necaxa vs Juárez",
-      "date": "2026-10-24T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Necaxa",
-          "score": ""
-        },
-        {
-          "name": "Juárez",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492887",
-      "league": "j1",
-      "name": "Urawa Red Diamonds vs JEF United Chiba",
-      "date": "2026-10-21T10:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Urawa Red Diamonds",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "JEF United Chiba",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492896",
-      "league": "j1",
-      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
-      "date": "2026-10-24T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Sanfrecce Hiroshima",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Perth Glory",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514006",
-      "league": "primeira",
-      "name": "Vitória de Guimarães vs Marítimo",
-      "date": "2026-10-23T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        },
-        {
-          "name": "Marítimo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407171",
-      "league": "mls",
-      "name": "CF Montréal vs Nashville SC",
-      "date": "2026-10-24T17:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CF Montréal",
-          "score": ""
-        },
-        {
-          "name": "Nashville SC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1453,8 +1124,22 @@
       "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T15:21:20Z",
+      "date": "2026-10-22T15:49:22Z",
       "league": "all"
+    },
+    {
+      "title": "What are Real's attacking options during Vinicius Jr ban?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq70pj7p0ep6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T15:33:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Trump’s Fifa peace prize was a sham. A reimagined award can still have meaning | Leander Schaerlaeckens",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/22/fifa-peace-prize-infantino",
+      "date": "2026-10-22T15:30:43Z",
+      "league": "soccer"
     },
     {
       "title": "Lech Poznan v Sunderland, Juventus v Rennes, and more: Europa League – live",
@@ -1717,10 +1402,10 @@
     },
     {
       "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck79p7qq1q9ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T23:11:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Former Australia sprint champion Jake Doran charged with alleged child abuse",
@@ -1748,20 +1433,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8040gdrdlwwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T22:36:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Champions League: Silva sparks Real Madrid’s demolition of Leipzig as Lask stun Sporting",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/champions-league-roundup-real-madrid-leipzig-inter-shakhtar-sporting-lask-brugge-lens-betis-feyenoord",
-      "date": "2026-10-21T22:25:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Real Madrid dominate Leipzig for third straight win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c3qjnerzngkqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:38:23Z",
       "league": "all"
     }
   ]
