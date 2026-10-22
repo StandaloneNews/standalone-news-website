@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T20:54:45Z",
+  "updated_at": "2026-10-22T21:19:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1117,53 +1117,29 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Bournemouth v Milan, Celtic v Celta Vigo, and more: Europa League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
-      "date": "2026-10-22T20:48:27Z",
-      "league": "soccer"
+      "title": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/bournemouth-milan-europa-league-match-report",
+      "date": "2026-10-22T21:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "GB's Fraser wins all-around bronze at Worlds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/cqm24l5nnvzro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T20:57:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli to 'just have fun' as he aims for title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjr4y3y9zy2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T20:55:40Z",
+      "league": "all"
     },
     {
       "title": "Man Utd chief keen on Howe - Friday's gossip",
@@ -1191,13 +1167,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
       "date": "2026-10-22T18:32:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Aga banned for fake prescription from family member",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/ckm23eqy595zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T18:25:41Z",
       "league": "all"
     },
     {
@@ -1264,6 +1233,13 @@
       "league": "all"
     },
     {
+      "title": "Rugby's data revolution - can Moneyball be oval?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6kg7kejxvw5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T16:47:46Z",
+      "league": "all"
+    },
+    {
       "title": "Sherrock one of 24 'amateurs' taking on Littler",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/darts/articles/c95ynp3dp8pvo?at_medium=RSS&at_campaign=rss",
@@ -1276,13 +1252,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/22/sri-lanka-england-odi-match-report-brook-202",
       "date": "2026-10-22T16:37:40Z",
       "league": "all"
-    },
-    {
-      "title": "BBC to show Cray Wanderers v Stockport & Altrincham v Notts County",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked364q8jxjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:31:24Z",
-      "league": "soccer"
     },
     {
       "title": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
@@ -1310,13 +1279,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqe8rglz8p90o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T16:19:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Titans release Elliott for pulling gun in car park",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cmwy71d2yzz4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:09:03Z",
       "league": "all"
     },
     {
@@ -1453,13 +1415,6 @@
       "league": "all"
     },
     {
-      "title": "Third-longest serving manager in top 92 clubs Woodman leaves Bromley",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck0541dzqe04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T10:28:21Z",
-      "league": "soccer"
-    },
-    {
       "title": "Harry Kane says wait to learn if he has won Ballon d’Or is stressful for family",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/harry-kane-ballon-dor-wait-very-stressful-family",
@@ -1471,6 +1426,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-dream-golden-state-valkyries-wnba-finals-game-three-home-court-advantage",
       "date": "2026-10-22T09:00:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Super Bowl contenders: are the NFL’s unbeaten teams as perfect as they seem?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/nfl-unbeaten-teams-49ers-chiefs-vikings-bills",
+      "date": "2026-10-22T08:30:10Z",
       "league": "all"
     }
   ]
