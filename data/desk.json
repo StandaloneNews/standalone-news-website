@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T05:44:30+00:00",
+  "updated_at": "2026-10-22T06:16:35+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -40,7 +40,33 @@
       "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T05:37:53+00:00",
+      "published_at": "2026-10-22T06:05:03+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "603eb4195104418022d64b3a",
+      "title": "Man charged after allegedly making threats at Hannah Beazley’s electorate office while armed with nunchucks",
+      "summary": "Perth man charged with ‘being armed in a way that may cause fear’ – days after Helen Haines was allegedly attacked with 4WD outside her Victorian office Get our breaking news email , free app or daily news podcast A man has been charged after allegedly threatening staff and wielding nunchucks at the electoral office of the Western Australian local government minister, Hannah Beazley. The Perth incident came days after the federal independent MP Helen Haines was hospitalised with severe injuries following an alleged attack outside her electorate office in Wangaratta in Victoria on Monday. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/22/man-with-nunchucks-arrested-wa-mp-hannah-beazley-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T05:42:35+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e9a52e7cd6e7e90b28daa0fb",
+      "title": "El Salvador’s Bukele threatens Haitian gangs over abducted soldiers",
+      "summary": "President Nayib Bukele says he has initiated military operation to rescue four Salvadoran soldiers abducted in Haiti.",
+      "url": "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-22T05:36:33+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -96,7 +122,7 @@
     {
       "id": "5ca66e39a407c4a2fbac1990",
       "title": "Airbnb guests freed from chores involving ‘significant effort’ under new global rules",
-      "summary": "Accommodation platform acts after long-standing guest complaints over doing dishes, taking out rubbish and stripping beds Airbnb hosts will no longer be able to ask guests to strip beds or wash dishes under the accommodation platform’s new rules. The changes, which apply to Airbnb reservations covered by the platform’s global policy, including bookings in Australia, will come into effect on 20 November and limit chores imposed on guests. Continue reading...",
+      "summary": "Accommodation platform acts after long-standing guest complaints over doing dishes, taking out rubbish and stripping beds Airbnb hosts will no longer be able to ask guests to strip beds or wash dishes under the accommodation platform’s new rules. The changes, which apply to Airbnb reservations covered by the platform’s global policy, including bookings in Australia , will come into effect on 20 November and limit chores imposed on guests. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/2026/oct/22/airbnb-guests-freed-from-chores-involving-significant-effort-under-new-global-rules",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -270,17 +296,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T04:02:29+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "c89f69d954a22a401fc8e914",
@@ -500,19 +516,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-22T02:16:25+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "603eb4195104418022d64b3a",
-      "title": "Man charged after allegedly making threats at Hannah Beazley’s electorate office while armed with nunchucks",
-      "summary": "Perth man charged with ‘being armed in a way that may cause fear’ – days after Helen Haines was allegedly attacked with 4WD outside her Victorian office Get our breaking news email , free app or daily news podcast A man has been charged after allegedly threatening staff and wielding nunchucks at the electoral office of the Western Australian local government minister, Hannah Beazley. The Perth incident came days after the federal independent MP Helen Haines was hospitalised with severe injuries following an alleged attack outside her electorate office in Wangaratta in Victoria on Monday. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/22/man-with-nunchucks-arrested-wa-mp-hannah-beazley-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-22T02:11:41+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -2079,7 +2082,7 @@
       "summary": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
       "url": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_world",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-21T20:09:10+00:00",
@@ -2794,7 +2797,7 @@
       "summary": "Locals describe the MP, who had to have both legs amputated, as a genuinely kind person who fought for the community.",
       "url": "https://www.bbc.co.uk/news/articles/cmgr8q88r5eqo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-21T18:10:42+00:00",
@@ -5525,19 +5528,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-21T08:42:10+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "06199d4aa8cae372fdbf1f75",
-      "title": "Saudi Arabia cancels 'Davos in the Desert' due to Yemen's Houthi strikes",
-      "summary": "Britain offers military support as Saudi cancels renowned 'Davos in desert\" investor meeting due to strikes from Houthi forces in Yemen.",
-      "url": "https://www.npr.org/2026/10/21/nx-s1-6009545/saudi-arabia-cancels-davos-in-the-desert-due-to-air-strikes",
-      "source": "NPR",
-      "feed_id": "npr_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-21T08:40:51+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
