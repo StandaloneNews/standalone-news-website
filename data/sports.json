@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T14:57:00Z",
+  "updated_at": "2026-10-22T15:25:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 27,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -63,37 +63,37 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 2
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -967,26 +967,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601678",
-      "league": "nba",
-      "name": "Los Angeles Clippers vs Sacramento Kings",
-      "date": "2026-10-22T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Clippers",
-          "score": "121",
-          "winner": true
-        },
-        {
-          "name": "Sacramento Kings",
-          "score": "96"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601679",
       "league": "nba",
       "name": "Philadelphia 76ers vs Cleveland Cavaliers",
@@ -1025,26 +1005,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591637",
-      "league": "nhl",
-      "name": "Ottawa Senators vs Florida Panthers",
-      "date": "2026-10-21T23:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Ottawa Senators",
-          "score": "5",
-          "winner": true
-        },
-        {
-          "name": "Florida Panthers",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591638",
       "league": "nhl",
       "name": "Toronto Maple Leafs vs New York Rangers",
@@ -1059,6 +1019,26 @@
         {
           "name": "New York Rangers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499072",
+      "league": "ncaaf",
+      "name": "Sam Houston State vs New Mexico State",
+      "date": "2026-10-22T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sam Houston State",
+          "score": "24"
+        },
+        {
+          "name": "New Mexico State",
+          "score": "30",
+          "winner": true
         }
       ],
       "url": ""
@@ -1179,6 +1159,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2489518",
+      "league": "ligue1",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Nice",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2489530",
       "league": "ligue1",
       "name": "Brest vs Nice",
@@ -1198,6 +1198,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2594645",
+      "league": "ucl",
+      "name": "Club Brugge vs Lens",
+      "date": "2026-10-21T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Club Brugge",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Lens",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2594635",
       "league": "ucl",
       "name": "Shakhtar Donetsk vs Sporting CP",
@@ -1212,6 +1232,63 @@
         {
           "name": "Sporting CP",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398495",
+      "league": "brasileirao",
+      "name": "Corinthians vs Vitória",
+      "date": "2026-10-19T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": "1"
+        },
+        {
+          "name": "Vitória",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398136",
+      "league": "argentina",
+      "name": "Deportivo Riestra vs Unión",
+      "date": "2026-10-20T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Deportivo Riestra",
+          "score": "1"
+        },
+        {
+          "name": "Unión",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1256,6 +1333,83 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2487569",
+      "league": "ligamx",
+      "name": "Necaxa vs Juárez",
+      "date": "2026-10-24T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Juárez",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492887",
+      "league": "j1",
+      "name": "Urawa Red Diamonds vs JEF United Chiba",
+      "date": "2026-10-21T10:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Urawa Red Diamonds",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "JEF United Chiba",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Perth Glory",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2514006",
       "league": "primeira",
       "name": "Vitória de Guimarães vs Marítimo",
@@ -1273,21 +1427,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2407171",
+      "league": "mls",
+      "name": "CF Montréal vs Nashville SC",
+      "date": "2026-10-24T17:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "CF Montréal",
+          "score": ""
+        },
+        {
+          "name": "Nashville SC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa beat Australia by innings and 31 runs: second men’s cricket Test, day five – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T14:50:24Z",
-      "league": "all"
-    },
-    {
       "title": "England v Sri Lanka: Brook makes history in men’s tri-series cricket ODI – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T14:45:43Z",
+      "date": "2026-10-22T15:21:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Lech Poznan v Sunderland, Juventus v Rennes, and more: Europa League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/22/lech-poznan-sunderland-juventus-rennes-bournemouth-milan-crystal-palace-celtic-europa-league-live",
+      "date": "2026-10-22T15:15:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Briton Slater, 18, to make practice debut in Mexico",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqr7ymxn5ezyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T15:00:16Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa beat Australia by innings and 31 runs: second men’s cricket Test, day five – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
+      "date": "2026-10-22T14:53:33Z",
       "league": "all"
     },
     {
@@ -1361,7 +1548,7 @@
       "league": "all"
     },
     {
-      "title": "McDermott blames ‘harsh’ Rugby League World Cup format as exit looms",
+      "title": "McDermott blames Rugby League World Cup format as England face exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/brian-mcdermott-blames-harsh-rugby-league-world-cup-format-england",
       "date": "2026-10-22T12:41:38Z",
@@ -1411,10 +1598,10 @@
     },
     {
       "title": "Nottingham Forest’s false start places early focus on Glasner and Delap",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/nottingham-forest-oliver-glasner-time-evangelos-marinakis",
       "date": "2026-10-22T11:20:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Tour de France UK stages in detail - where can you watch?",
@@ -1576,20 +1763,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/c3qjnerzngkqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-21T21:38:23Z",
       "league": "all"
-    },
-    {
-      "title": "Villa maintain perfect Champions League start with Viking victory",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T21:19:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal’s Declan Rice strikes late to deny Bayern Munich after Harry Kane penalty",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report",
-      "date": "2026-10-21T21:14:31Z",
-      "league": "soccer"
     }
   ]
 }
