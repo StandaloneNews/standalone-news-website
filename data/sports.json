@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T22:15:39Z",
+  "updated_at": "2026-10-22T22:52:07Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,28 +1117,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Austin track bumps out of control - Verstappen",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c8r4y3gpwkl2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T22:28:55Z",
+      "league": "all"
+    },
     {
       "title": "Superman at Como & is Conte right for Man Utd?",
       "source": "BBC Football",
@@ -1218,10 +1206,10 @@
     },
     {
       "title": "Next in line? Main contenders for the Manchester United hot seat",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
       "date": "2026-10-22T18:32:32Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fernandes has home burgled while in Italy with Man Utd",
@@ -1357,6 +1345,13 @@
       "league": "soccer"
     },
     {
+      "title": "Emery and Nagelsmann are top targets if Manchester United sack Carrick",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/unai-emery-julian-nagelsmann-manchester-united-michael-carrick",
+      "date": "2026-10-22T15:06:26Z",
+      "league": "all"
+    },
+    {
       "title": "Carrick joins Wilcox under the bus after Manchester United’s latest night in crisis | Max Rushden",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/22/michael-carrick-bruno-fernandes-jason-wilcox-manchester-united-como-crisis",
@@ -1399,6 +1394,13 @@
       "league": "soccer"
     },
     {
+      "title": "Ex-Scotland and Harlequins player Visser to go on trial charged with rape",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cxvgd7z3y89po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T12:50:05Z",
+      "league": "all"
+    },
+    {
       "title": "Breaking down Man Utd's tactics after Fernandes' criticism",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3elpw7yd25o?at_medium=RSS&at_campaign=rss",
@@ -1432,27 +1434,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/22/enzo-maresca-phil-foden-manchester-city-form",
       "date": "2026-10-22T11:36:29Z",
       "league": "soccer"
-    },
-    {
-      "title": "Nottingham Forest’s false start places early focus on Glasner and Delap",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/nottingham-forest-oliver-glasner-time-evangelos-marinakis",
-      "date": "2026-10-22T11:20:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Tour de France 2027 routes revealed with British stages, time trials and a volcano",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/tour-de-france-2027-routes-revealed",
-      "date": "2026-10-22T11:11:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Cathinka Tandberg: ‘Spurs fans hate Arsenal. That’s how it is’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/cathinka-tandberg-interview-tottenham-arsenal-rivalry-moving-the-goalposts-you-now",
-      "date": "2026-10-22T10:44:48Z",
-      "league": "all"
     }
   ]
 }
