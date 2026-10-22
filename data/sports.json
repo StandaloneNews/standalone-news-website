@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T09:00:57Z",
+  "updated_at": "2026-10-22T09:58:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1117,25 +1117,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1143,14 +1124,35 @@
       "title": "England v Sri Lanka: men’s tri-series cricket one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/sri-lanka-v-england-tri-series-cricket-one-day-international-live",
-      "date": "2026-10-22T08:49:29Z",
+      "date": "2026-10-22T09:51:25Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: second men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/22/south-africa-v-australia-second-test-day-five-cricket-st-georges-park-gqeberha-live-updates",
-      "date": "2026-10-22T08:46:14Z",
+      "date": "2026-10-22T09:40:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Harry Kane admits wait to learn if he has won Ballon d’Or is ‘very stressful’ for family",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/22/harry-kane-ballon-dor-wait-very-stressful-family",
+      "date": "2026-10-22T09:13:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Sheff Wed forward Lowe racially abused on social media",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw23d18jry02o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T09:09:07Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Welcome to the trap: swaggering Atlanta Dream turn WNBA finals into a hometown spectacle | Andrew Lawrence",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-dream-golden-state-valkyries-wnba-finals-game-three-home-court-advantage",
+      "date": "2026-10-22T09:00:59Z",
       "league": "all"
     },
     {
@@ -1217,13 +1219,6 @@
       "league": "all"
     },
     {
-      "title": "Enes Kanter Freedom claims he was denied entry to WNBA finals game in Atlanta",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/enes-kanter-freedom-ejected-wnba-finals-atlanta-dream",
-      "date": "2026-10-22T02:38:04Z",
-      "league": "all"
-    },
-    {
       "title": "Angel Reese stars again as Atlanta Dream thrash Valkyries to seize WNBA finals lead",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/21/angel-reese-atlanta-dream-golden-state-valkyries-wnba-finals",
@@ -1236,13 +1231,6 @@
       "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-242108?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T00:00:00Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0phxkv1?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-21T23:25:00Z",
-      "league": "soccer"
     },
     {
       "title": "Goal, assist... goal-kick - Kane underlines Ballon d'Or credentials",
@@ -1442,17 +1430,10 @@
     },
     {
       "title": "Como demolish dismal Manchester United to pile more pressure on Carrick",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
       "date": "2026-10-21T18:55:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Jimmy Anderson set to retire from cricket as Lancashire opt against renewing contract",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/21/jimmy-anderson-set-to-retire-from-cricket-lancashire-contract",
-      "date": "2026-10-21T17:27:54Z",
-      "league": "all"
+      "league": "soccer"
     }
   ]
 }
