@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T22:51:21Z",
+  "updated_at": "2026-10-23T23:12:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -981,19 +981,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601681",
+      "id": "sportsdb-2601686",
       "league": "nba",
-      "name": "Washington Wizards vs Toronto Raptors",
-      "date": "2026-10-23T23:00:00Z",
+      "name": "Miami Heat vs Detroit Pistons",
+      "date": "2026-10-24T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington Wizards",
+          "name": "Miami Heat",
           "score": ""
         },
         {
-          "name": "Toronto Raptors",
+          "name": "Detroit Pistons",
           "score": ""
         }
       ],
@@ -1038,19 +1038,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499076",
+      "id": "sportsdb-2499105",
       "league": "ncaaf",
-      "name": "UConn vs UMass",
-      "date": "2026-10-23T23:00:00Z",
+      "name": "Northern Illinois vs Hawaii",
+      "date": "2026-10-24T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "UConn",
+          "name": "Northern Illinois",
           "score": ""
         },
         {
-          "name": "UMass",
+          "name": "Hawaii",
           "score": ""
         }
       ],
@@ -1127,6 +1127,25 @@
         },
         {
           "name": "Bologna",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398159",
+      "league": "argentina",
+      "name": "Tigre vs Atlético Tucumán",
+      "date": "2026-10-24T00:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Tigre",
+          "score": ""
+        },
+        {
+          "name": "Atlético Tucumán",
           "score": ""
         }
       ],
