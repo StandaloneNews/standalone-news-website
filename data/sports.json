@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T17:21:00Z",
+  "updated_at": "2026-10-23T17:51:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1131,9 +1131,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Superb Samoa run riot to inflict heavy defeat on woeful Wales",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm2d1v0jr48o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T17:43:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Chess: Bodhana Sivanandan, 11, breaks Judit Polgar’s longstanding world age record",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/chess-bodhana-sivanandan-11-can-break-another-world-age-record-on-friday",
+      "date": "2026-10-23T17:32:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Ipswich v Nottingham Forest: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
+      "date": "2026-10-23T17:30:09Z",
+      "league": "all"
+    },
     {
       "title": "Vincent Kompany taken to hospital after collapsing at Bayern training",
       "source": "The Guardian Sport",
@@ -1149,7 +1208,7 @@
       "league": "all"
     },
     {
-      "title": "Connor Hellebuyck traded to Devils as Winnipeg Jets end bitter standoff with US Olympic hero",
+      "title": "Connor Hellebuyck traded to New Jersey as Winnipeg Jets end bitter standoff with US Olympic hero",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/connor-hellebuyck-new-jersey-devils-winnipeg-jets-trade-nhl",
       "date": "2026-10-23T16:47:15Z",
@@ -1170,7 +1229,7 @@
       "league": "all"
     },
     {
-      "title": "Bavuma’s nine-hour masterpiece was art we risk losing in South Africa’s Test purge | Barney Ronay",
+      "title": "Bavuma’s nine-hour masterpiece was art we risk losing in Test cricket’s great purge | Barney Ronay",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/temba-bavuma-masterpiece-risk-losing-south-africa-test-cricket-purge",
       "date": "2026-10-23T16:00:08Z",
@@ -1192,10 +1251,10 @@
     },
     {
       "title": "Carrick delivers 5min 27sec monologue and says he will hold brolly to keep everyone dry",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/23/michael-carrick-monologue-manchester-united-umbrella-bruno-fernandes",
       "date": "2026-10-23T14:58:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Dvalishvili gains 19lb in five hours before title fight",
@@ -1303,13 +1362,6 @@
       "league": "all"
     },
     {
-      "title": "Bellingham holds positive talks over new Real deal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6zjx0np7y10o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:23:15Z",
-      "league": "all"
-    },
-    {
       "title": "Cost of football regulator double initial estimate",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6lylk1zyqd7o?at_medium=RSS&at_campaign=rss",
@@ -1336,6 +1388,13 @@
       "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-women-renee-slegers-tottenham-north-london-derby-womens-super-league",
       "date": "2026-10-23T11:58:27Z",
       "league": "all"
+    },
+    {
+      "title": "All you need to know about the 2026 Ballon d'Or",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T11:55:45Z",
+      "league": "soccer"
     },
     {
       "title": "Emery's Villa 2.0 reboot restores optimism before Man City meeting",
@@ -1394,13 +1453,6 @@
       "league": "soccer"
     },
     {
-      "title": "Forest's start raises questions - but belief in Glasner remains",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw3djpg15045o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T08:14:50Z",
-      "league": "soccer"
-    },
-    {
       "title": "World Series 2026 predictions: will the Rays or Brewers claim their first title?",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/world-series-2026-predictions-will-the-rays-or-brewers-claim-their-first-title",
@@ -1433,20 +1485,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/23/chaotic-football-brazil-politics-election-flavio-bolsonaro-lula",
       "date": "2026-10-23T07:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Chess: Bodhana Sivanandan, 11, can break another world age record on Friday",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/chess-bodhana-sivanandan-11-can-break-another-world-age-record-on-friday",
-      "date": "2026-10-23T07:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Sports quiz of the week: eagles, ultra-endurance feats and assist records",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/sports-quiz-of-the-week-eagles-ultra-endurance-feats-and-assist-records",
-      "date": "2026-10-23T07:00:03Z",
       "league": "all"
     }
   ]
