@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T17:51:46Z",
+  "updated_at": "2026-10-23T18:12:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 12,
@@ -68,12 +68,12 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -1152,19 +1152,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Shakhtar Donetsk",
+          "name": "Cruzeiro",
           "score": ""
         },
         {
-          "name": "Sporting CP",
+          "name": "Remo",
           "score": ""
         }
       ],
@@ -1172,6 +1172,13 @@
     }
   ],
   "stories": [
+    {
+      "title": "Ipswich v Nottingham Forest: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
+      "date": "2026-10-23T18:04:26Z",
+      "league": "all"
+    },
     {
       "title": "Superb Samoa run riot to inflict heavy defeat on woeful Wales",
       "source": "BBC Sport",
@@ -1187,10 +1194,10 @@
       "league": "all"
     },
     {
-      "title": "Ipswich v Nottingham Forest: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
-      "date": "2026-10-23T17:30:09Z",
+      "title": "Spygate put me in difficult position - Southampton technical chief",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmjrwjl1j27do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T17:23:21Z",
       "league": "all"
     },
     {
@@ -1363,10 +1370,10 @@
     },
     {
       "title": "Cost of football regulator double initial estimate",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6lylk1zyqd7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T12:19:33Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Conte plays down 'unfounded' Man Utd speculation",
@@ -1388,13 +1395,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-women-renee-slegers-tottenham-north-london-derby-womens-super-league",
       "date": "2026-10-23T11:58:27Z",
       "league": "all"
-    },
-    {
-      "title": "All you need to know about the 2026 Ballon d'Or",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw0541g4qzgeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T11:55:45Z",
-      "league": "soccer"
     },
     {
       "title": "Emery's Villa 2.0 reboot restores optimism before Man City meeting",
