@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T14:00:12Z",
+  "updated_at": "2026-10-23T14:59:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 16,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
@@ -83,17 +83,17 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 2
     }
   ],
   "events": [
@@ -1000,6 +1000,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619051",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Cleveland Guardians",
+      "date": "2026-10-20T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "name": "Cleveland Guardians",
+          "score": "3"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2619527",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1131,9 +1151,171 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2487568",
+      "league": "ligamx",
+      "name": "Pachuca vs Cruz Azul",
+      "date": "2026-10-22T03:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Pachuca",
+          "score": "1"
+        },
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492887",
+      "league": "j1",
+      "name": "Urawa Red Diamonds vs JEF United Chiba",
+      "date": "2026-10-21T10:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Urawa Red Diamonds",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "JEF United Chiba",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540112",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Perth Glory",
+      "date": "2026-10-23T09:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Perth Glory",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "DC United",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407171",
+      "league": "mls",
+      "name": "CF Montréal vs Nashville SC",
+      "date": "2026-10-24T17:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "CF Montréal",
+          "score": ""
+        },
+        {
+          "name": "Nashville SC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Dvalishvili gains 19lb in five hours before title fight",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cry4x7k0nkk4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:57:51Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Derby day - When Chelsea and Spurs meet, is chaos guaranteed?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c50mex301jjno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:49:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick delivers near six-minute monologue defending United; Dortmund take on the influencers: football – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
+      "date": "2026-10-23T14:46:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Mamdani loves Arsenal. He should challenge them to cut ties with the UAE over Sudan | Sasha Lezhnev and John Prendergast",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/zohran-mamdani-arsenal-emirates-uae-sudan-sponsorship",
+      "date": "2026-10-23T14:30:09Z",
+      "league": "all"
+    },
+    {
+      "title": "PSG v Lyon moved as Paris prepares for more protests",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:18:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Raskin happy at Rangers but unsure about January",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8dezr0345o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:11:42Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Arsenal fear Saka could be out for two months",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyql6v5q82o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T14:09:36Z",
+      "league": "all"
+    },
+    {
+      "title": "A-Leagues look past Manchester City distraction to ‘showpiece’ Melbourne derby",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/a-leagues-showpiece-melbourne-derby",
+      "date": "2026-10-23T14:00:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Smith partnership & Saracens spice - Furbank on life at Quins",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckzd6gy3q1z2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T13:57:12Z",
+      "league": "all"
+    },
     {
       "title": "Carrick refuses to rule out dropping Fernandes in emotional address",
       "source": "BBC Sport",
@@ -1149,13 +1331,6 @@
       "league": "all"
     },
     {
-      "title": "Carrick ‘100%’ sure he can lead United forward; Dortmund take on the influencers: football – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T13:45:23Z",
-      "league": "all"
-    },
-    {
       "title": "Crystal Palace and Newcastle face off with both in search of season kickstart",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/23/crystal-palace-and-newcastle-face-off-with-both-in-search-of-season-kickstart",
@@ -1167,13 +1342,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/rugby-union-england-steve-borthwick-selection-autumn-nations-championship",
       "date": "2026-10-23T12:56:07Z",
-      "league": "all"
-    },
-    {
-      "title": "London Irish target 2027 return after takeover",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw99z7nzj0x8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:51:32Z",
       "league": "all"
     },
     {
@@ -1268,13 +1436,6 @@
       "league": "all"
     },
     {
-      "title": "Failure on the field, unrest in stands - Burnley's horror 12 months",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6qxnzyx77vqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T09:24:10Z",
-      "league": "soccer"
-    },
-    {
       "title": "How world champion Smith can become a mainstream star",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/c8y56qlzqq96o?at_medium=RSS&at_campaign=rss",
@@ -1352,13 +1513,6 @@
       "league": "all"
     },
     {
-      "title": "Boos to cheers - James records biggest career comeback win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/cqn73kr2k284o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T06:50:32Z",
-      "league": "all"
-    },
-    {
       "title": "Infantino re-election hopes boosted by Asia support after u-turn",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wpyg18j7o?at_medium=RSS&at_campaign=rss",
@@ -1412,41 +1566,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/australia-wallabies-squad-rugby-nations-championship-teddy-wilson",
       "date": "2026-10-23T05:52:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cre3x9e7gyq7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T05:32:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "What is the World Treadmill Championship and how to compete",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/videos/cqj9k7dzwxm0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T05:14:26Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Slow news day at the office’: LeBron James shrugs off Trump’s national anthem attack",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/lebron-james-donald-trump-national-anthem-76ers",
-      "date": "2026-10-23T04:29:50Z",
-      "league": "all"
-    },
-    {
-      "title": "‘The Bird Reich’: Atlanta Falcons roasted over throwback logo with Nazi resemblance",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-falcons-throwback-logo-nazi-germany-comparisons-memes",
-      "date": "2026-10-23T00:49:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Premier League: 10 things to look out for this weekend",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/23/premier-league-10-things-to-look-out-for-this-weekend",
-      "date": "2026-10-22T23:01:52Z",
       "league": "all"
     }
   ]
