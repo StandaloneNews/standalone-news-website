@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T10:21:13Z",
+  "updated_at": "2026-10-23T10:53:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1131,6 +1131,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1138,7 +1176,42 @@
       "title": "Wilcox wants Howe if Manchester United sack Carrick, European reaction and more: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T10:09:38Z",
+      "date": "2026-10-23T10:38:28Z",
+      "league": "all"
+    },
+    {
+      "title": "F1 crown in reach for Kimi Antonelli at bumpy Austin circuit drivers insist is ‘unacceptable’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/formula-one-kimi-antonelli-mercedes-title-austin-us-grand-prix-texas",
+      "date": "2026-10-23T10:34:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Ex-Arsenal director of football Edu to advise Northampton",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrky7n63l6po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T10:27:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Boulter into Japan semi-finals and back as British No 1",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6ly35rzdgxyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T10:22:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Burden & Williams star as Bears hold off Patriots",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/cw30ejmvq7q7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T10:20:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia call up Teddy Wilson - son of World Cup winner David",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmewejkdkk99o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T09:59:59Z",
       "league": "all"
     },
     {
@@ -1233,14 +1306,14 @@
       "league": "soccer"
     },
     {
-      "title": "James enjoys dream home debut in 76ers comeback win",
+      "title": "Boos to cheers - James records biggest career comeback win",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/basketball/articles/cqn73kr2k284o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T06:50:32Z",
       "league": "all"
     },
     {
-      "title": "Infantino re-election hopes boosted by Asia support",
+      "title": "Infantino re-election hopes boosted by Asia support after u-turn",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wpyg18j7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T06:48:46Z",
@@ -1338,25 +1411,11 @@
       "league": "soccer"
     },
     {
-      "title": "Austin track bumps out of control - Verstappen",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c8r4y3gpwkl2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T22:28:55Z",
-      "league": "all"
-    },
-    {
       "title": "Man Utd chief keen on Howe - Friday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:53:52Z",
       "league": "soccer"
-    },
-    {
-      "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
-      "date": "2026-10-22T21:53:28Z",
-      "league": "all"
     },
     {
       "title": "Europa League: Celtic lose to Celta after leading, Mateta returns in Palace draw",
@@ -1394,13 +1453,6 @@
       "league": "soccer"
     },
     {
-      "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T17:52:45Z",
-      "league": "all"
-    },
-    {
       "title": "US to host first Women's Club World Cup in 2028",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r7wgp9q0o?at_medium=RSS&at_campaign=rss",
@@ -1434,20 +1486,6 @@
       "url": "https://www.bbc.co.uk/sport/darts/articles/c95ynp3dp8pvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T16:45:14Z",
       "league": "all"
-    },
-    {
-      "title": "Sri Lanka stun England with second-highest ODI chase despite Brook’s 202",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/sri-lanka-england-odi-match-report-brook-202",
-      "date": "2026-10-22T16:37:40Z",
-      "league": "all"
-    },
-    {
-      "title": "BBC to show Cray Wanderers v Stockport & Altrincham v Notts County",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked364q8jxjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:31:24Z",
-      "league": "soccer"
     }
   ]
 }
