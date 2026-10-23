@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T07:10:48Z",
+  "updated_at": "2026-10-23T07:59:56Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1150,28 +1150,58 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "New Victor Moses? How Alonso has transformed Neto",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T07:57:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester United latest, European reaction and more: football news – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
+      "date": "2026-10-23T07:52:21Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Asian Football Confederation backs Gianni Infantino in U-turn on Fifa presidency",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/asian-football-confederation-backs-gianni-infantino-u-turn-fifa-president",
+      "date": "2026-10-23T07:37:56Z",
+      "league": "all"
+    },
+    {
+      "title": "EFL preview: 'Sleepless nights' for under pressure bosses",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6r7ymev78edo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T07:15:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Chaotic state of football in Brazil epitomises a nation where greed has conquered glory | Jonathan Liew",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/chaotic-football-brazil-politics-election-flavio-bolsonaro-lula",
+      "date": "2026-10-23T07:00:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Chess: Bodhana Sivanandan, 11, can break another world age record on Friday",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/chess-bodhana-sivanandan-11-can-break-another-world-age-record-on-friday",
+      "date": "2026-10-23T07:00:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Sports quiz of the week: eagles, ultra-endurance feats and assist records",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/sports-quiz-of-the-week-eagles-ultra-endurance-feats-and-assist-records",
+      "date": "2026-10-23T07:00:03Z",
+      "league": "all"
+    },
     {
       "title": "Haaland captaincy headache - stick or twist? FPL gameweek eight dilemmas",
       "source": "BBC Football",
@@ -1229,6 +1259,13 @@
       "league": "all"
     },
     {
+      "title": "Son of Wallabies great named in spring tour squad as Les Kiss turns to new faces",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/australia-wallabies-squad-rugby-nations-championship-teddy-wilson",
+      "date": "2026-10-23T05:52:06Z",
+      "league": "all"
+    },
+    {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cre3x9e7gyq7o?at_medium=RSS&at_campaign=rss",
@@ -1236,10 +1273,10 @@
       "league": "all"
     },
     {
-      "title": "Caleb Williams outduels friend and rival Drake Maye as Bears beat Patriots",
+      "title": "‘Slow news day at the office’: LeBron James shrugs off Trump’s national anthem attack",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/caleb-williams-outduels-friend-and-rival-drake-maye-as-bears-beat-patriots",
-      "date": "2026-10-23T03:53:26Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/lebron-james-donald-trump-national-anthem-76ers",
+      "date": "2026-10-23T04:29:50Z",
       "league": "all"
     },
     {
@@ -1404,13 +1441,6 @@
       "league": "all"
     },
     {
-      "title": "Rookie Lendeborg jaws at ‘weak ass’ Dončić and admits he didn’t watch much NBA",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/rookie-lendeborg-jaws-at-weak-ass-doncic-and-admits-he-didnt-watch-much-nba",
-      "date": "2026-10-22T16:28:59Z",
-      "league": "all"
-    },
-    {
       "title": "The rising French star whose dad won Rugby World Cup with England",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
@@ -1436,55 +1466,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/south-africa-australia-second-test-day-five-report",
       "date": "2026-10-22T15:53:38Z",
-      "league": "all"
-    },
-    {
-      "title": "What are Real's attacking options during Vinicius Jr ban?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq70pj7p0ep6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T15:33:29Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Trump’s Fifa peace prize was a sham. A reimagined award can still have meaning | Leander Schaerlaeckens",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/fifa-peace-prize-infantino",
-      "date": "2026-10-22T15:30:43Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/m0033tlq?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T15:16:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Emery and Nagelsmann are top targets if Manchester United sack Carrick",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/unai-emery-julian-nagelsmann-manchester-united-michael-carrick",
-      "date": "2026-10-22T15:06:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick joins Wilcox under the bus after Manchester United’s latest night in crisis | Max Rushden",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/michael-carrick-bruno-fernandes-jason-wilcox-manchester-united-como-crisis",
-      "date": "2026-10-22T14:39:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carrick carrying on but senior Man Utd figures concerned by performances",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm1wvl5524rno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T14:04:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Surfing faces a cultural reckoning as women’s voices grow louder over sexual abuse allegations | Lucy Small",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/surfing-sexual-abuse-allegations-ntwnfb",
-      "date": "2026-10-22T14:00:35Z",
       "league": "all"
     }
   ]
