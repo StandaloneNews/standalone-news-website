@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T09:55:58Z",
+  "updated_at": "2026-10-23T10:21:13Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1131,25 +1131,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1157,7 +1138,7 @@
       "title": "Wilcox wants Howe if Manchester United sack Carrick, European reaction and more: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T09:50:49Z",
+      "date": "2026-10-23T10:09:38Z",
       "league": "all"
     },
     {
@@ -1413,13 +1394,6 @@
       "league": "soccer"
     },
     {
-      "title": "Fernandes' home burgled while in Italy with Man Utd",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq9vz19p41x8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T18:04:21Z",
-      "league": "soccer"
-    },
-    {
       "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss",
@@ -1467,6 +1441,13 @@
       "url": "https://www.theguardian.com/sport/2026/oct/22/sri-lanka-england-odi-match-report-brook-202",
       "date": "2026-10-22T16:37:40Z",
       "league": "all"
+    },
+    {
+      "title": "BBC to show Cray Wanderers v Stockport & Altrincham v Notts County",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked364q8jxjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T16:31:24Z",
+      "league": "soccer"
     }
   ]
 }
