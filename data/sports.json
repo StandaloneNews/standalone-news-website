@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T23:48:23Z",
+  "updated_at": "2026-10-23T00:09:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1005,19 +1005,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591644",
+      "id": "sportsdb-2591646",
       "league": "nhl",
-      "name": "Dallas Stars vs Winnipeg Jets",
-      "date": "2026-10-23T00:00:00Z",
+      "name": "Calgary Flames vs Minnesota Wild",
+      "date": "2026-10-23T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Stars",
+          "name": "Calgary Flames",
           "score": ""
         },
         {
-          "name": "Winnipeg Jets",
+          "name": "Minnesota Wild",
           "score": ""
         }
       ],
@@ -1113,6 +1113,25 @@
         },
         {
           "name": "Monza",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
           "score": ""
         }
       ],
