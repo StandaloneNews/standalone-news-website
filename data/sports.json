@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:12:00Z",
+  "updated_at": "2026-10-23T23:47:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -1133,19 +1133,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398159",
-      "league": "argentina",
-      "name": "Tigre vs Atlético Tucumán",
-      "date": "2026-10-24T00:15:00Z",
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Tigre",
+          "name": "Lens",
           "score": ""
         },
         {
-          "name": "Atlético Tucumán",
+          "name": "Paris FC",
           "score": ""
         }
       ],
@@ -1153,6 +1153,13 @@
     }
   ],
   "stories": [
+    {
+      "title": "Leclerc fastest from Antonelli in US GP practice",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T23:40:33Z",
+      "league": "all"
+    },
     {
       "title": "Dallas Cowboys cheerleaders unionize after years of fighting for fair pay",
       "source": "The Guardian Sport",
@@ -1186,13 +1193,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8ly03l6klzpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T22:15:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Leclerc fastest from Antonelli in US GP practice",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T22:10:13Z",
       "league": "all"
     },
     {
