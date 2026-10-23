@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T11:55:06Z",
+  "updated_at": "2026-10-23T12:15:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1131,9 +1131,49 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Wilcox wants Howe if Carrick sacked; Hürzeler has ‘no time’ for United rumours; Dortmund fight the influencers: football – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
+      "date": "2026-10-23T12:02:40Z",
+      "league": "all"
+    },
+    {
+      "title": "World champion Jepchirchir fails drugs test",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/cwz0vn1yk235o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:01:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Slegers and misfiring Arsenal badly need a result in WSL north London derby",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-women-renee-slegers-tottenham-north-london-derby-womens-super-league",
+      "date": "2026-10-23T11:58:27Z",
+      "league": "all"
+    },
     {
       "title": "England balancing points chase and discipline at World Cup",
       "source": "BBC Sport",
@@ -1142,18 +1182,11 @@
       "league": "all"
     },
     {
-      "title": "Wilcox wants Howe if Manchester United sack Carrick; Dortmund fight back against influencers: football news – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T11:27:56Z",
-      "league": "all"
-    },
-    {
       "title": "Emery's Villa 2.0 reboot restores optimism before Man City meeting",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xvz8e8dpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T11:23:37Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Former Man United chief Murtough joins Birmingham",
@@ -1318,10 +1351,10 @@
     },
     {
       "title": "Flat-track bullies Celtic continue descent into European irrelevance",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crp3gde84j4zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T06:26:23Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "What happens in Vegas, stays in Vegas for England",
@@ -1416,10 +1449,10 @@
     },
     {
       "title": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:30:31Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
@@ -1433,20 +1466,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9kgjzjjnlzyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T20:28:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Next in line? Main contenders for the Manchester United hot seat",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/contenders-manchester-united-next-manager-michael-carrick",
-      "date": "2026-10-22T18:32:32Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Fifa increases preparation money for Women’s World Cup to match men’s teams",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/fifa-increase-funds-2027-womens-world-cup-teams",
-      "date": "2026-10-22T17:35:41Z",
       "league": "all"
     }
   ]
