@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T20:53:39Z",
+  "updated_at": "2026-10-23T21:16:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,17 +13,17 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -962,6 +962,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475467",
+      "league": "nfl",
+      "name": "Chicago Bears vs New England Patriots",
+      "date": "2026-10-23T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Chicago Bears",
+          "score": "30",
+          "winner": true
+        },
+        {
+          "name": "New England Patriots",
+          "score": "24"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475468",
       "league": "nfl",
       "name": "New Orleans Saints vs Pittsburgh Steelers",
@@ -975,6 +995,25 @@
         },
         {
           "name": "Pittsburgh Steelers",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601687",
+      "league": "nba",
+      "name": "Milwaukee Bucks vs Chicago Bulls",
+      "date": "2026-10-23T20:00:00Z",
+      "state": "upcoming",
+      "status": "HT",
+      "participants": [
+        {
+          "name": "Milwaukee Bucks",
+          "score": ""
+        },
+        {
+          "name": "Chicago Bulls",
           "score": ""
         }
       ],
@@ -995,6 +1034,26 @@
         {
           "name": "Toronto Raptors",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2619051",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Cleveland Guardians",
+      "date": "2026-10-20T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "7",
+          "winner": true
+        },
+        {
+          "name": "Cleveland Guardians",
+          "score": "3"
         }
       ],
       "url": ""
@@ -1043,7 +1102,7 @@
       "name": "Delaware State vs North Carolina Central",
       "date": "2026-10-23T21:00:00Z",
       "state": "upcoming",
-      "status": "NS",
+      "status": "Q1",
       "participants": [
         {
           "name": "Delaware State",
@@ -1051,6 +1110,25 @@
         },
         {
           "name": "North Carolina Central",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499076",
+      "league": "ncaaf",
+      "name": "UConn vs UMass",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "UConn",
+          "score": ""
+        },
+        {
+          "name": "UMass",
           "score": ""
         }
       ],
@@ -1150,22 +1228,188 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398152",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de Mendoza vs Platense",
+      "date": "2026-10-23T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": ""
+        },
+        {
+          "name": "Platense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487569",
+      "league": "ligamx",
+      "name": "Necaxa vs Juárez",
+      "date": "2026-10-24T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Juárez",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540113",
+      "league": "aleague",
+      "name": "Newcastle Jets vs Macarthur FC",
+      "date": "2026-10-24T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Newcastle Jets",
+          "score": ""
+        },
+        {
+          "name": "Macarthur FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514014",
+      "league": "primeira",
+      "name": "Estrela Amadora vs Casa Pia",
+      "date": "2026-10-24T14:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estrela Amadora",
+          "score": ""
+        },
+        {
+          "name": "Casa Pia",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407171",
+      "league": "mls",
+      "name": "CF Montréal vs Nashville SC",
+      "date": "2026-10-24T17:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "CF Montréal",
+          "score": ""
+        },
+        {
+          "name": "Nashville SC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Wade equals Prem record as Newcastle beat Sale",
+      "title": "Wade equals Prem try-scoring record as Newcastle beat Sale",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy7e08jlxpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T20:50:22Z",
+      "date": "2026-10-23T21:09:01Z",
       "league": "all"
     },
     {
-      "title": "Ipswich v Nottingham Forest: Premier League – live",
+      "title": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report",
+      "date": "2026-10-23T21:07:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Ipswich 1-1 Nottingham Forest: Premier League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
-      "date": "2026-10-23T20:44:50Z",
+      "date": "2026-10-23T21:04:32Z",
       "league": "soccer"
+    },
+    {
+      "title": "Impressive Gloucester beat rivals Bath in Prem",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9l3krgjvro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T20:59:10Z",
+      "league": "all"
     },
     {
       "title": "Kinsella nails floor routine in all-around final",
@@ -1453,20 +1697,6 @@
       "url": "https://www.bbc.co.uk/sport/american-football/videos/cw30ejmvq7q7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T10:20:56Z",
       "league": "all"
-    },
-    {
-      "title": "Is el clásico still the world’s biggest match? Three questions before Barcelona v Real Madrid",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/23/el-clasico-real-madrid-barcelona-lamine-yamal-kylian-mbappe",
-      "date": "2026-10-23T09:00:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Should Man Utd boss Carrick drop captain Fernandes?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3x8452pdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T08:28:21Z",
-      "league": "soccer"
     }
   ]
 }
