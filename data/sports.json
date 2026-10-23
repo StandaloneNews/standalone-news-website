@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T12:15:41Z",
+  "updated_at": "2026-10-23T13:06:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 18,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -83,7 +83,7 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 2
     },
     {
       "id": "j1",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -1019,6 +1019,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2591649",
+      "league": "nhl",
+      "name": "Vancouver Canucks vs Detroit Red Wings",
+      "date": "2026-10-23T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Vancouver Canucks",
+          "score": "2"
+        },
+        {
+          "name": "Detroit Red Wings",
+          "score": "5",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591650",
       "league": "nhl",
       "name": "Chicago Blackhawks vs Montreal Canadiens",
@@ -1052,6 +1072,26 @@
         {
           "name": "North Carolina Central",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494064",
+      "league": "epl",
+      "name": "Tottenham Hotspur vs Coventry City",
+      "date": "2026-10-19T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tottenham Hotspur",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Coventry City",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1095,6 +1135,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508380",
+      "league": "bundesliga",
+      "name": "Borussia Mönchengladbach vs Hoffenheim",
+      "date": "2026-10-18T15:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "score": "1"
+        },
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508392",
       "league": "bundesliga",
       "name": "Stuttgart vs Borussia Mönchengladbach",
@@ -1133,20 +1193,99 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489530",
+      "id": "sportsdb-2489518",
       "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
+      "name": "Lyon vs Nice",
+      "date": "2026-10-18T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lyon",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Nice",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Brest",
+          "name": "Shakhtar Donetsk",
           "score": ""
         },
         {
-          "name": "Nice",
+          "name": "Sporting CP",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487568",
+      "league": "ligamx",
+      "name": "Pachuca vs Cruz Azul",
+      "date": "2026-10-22T03:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Pachuca",
+          "score": "1"
+        },
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487569",
+      "league": "ligamx",
+      "name": "Necaxa vs Juárez",
+      "date": "2026-10-24T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Juárez",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407041",
+      "league": "mls",
+      "name": "FC Cincinnati vs DC United",
+      "date": "2026-10-21T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "FC Cincinnati",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "DC United",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1154,10 +1293,52 @@
   ],
   "stories": [
     {
-      "title": "Wilcox wants Howe if Carrick sacked; Hürzeler has ‘no time’ for United rumours; Dortmund fight the influencers: football – live",
+      "title": "Will Borthwick’s autumn England squad embrace Prem chaos or prioritise prudence? | Gerard Meagher",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/rugby-union-england-steve-borthwick-selection-autumn-nations-championship",
+      "date": "2026-10-23T12:56:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick ‘100%’ sure he can lead United forward; Dortmund take on the influencers: football – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T12:02:40Z",
+      "date": "2026-10-23T12:55:10Z",
+      "league": "all"
+    },
+    {
+      "title": "World and Olympic marathon champion Jepchirchir suspended after positive doping test",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/world-olympic-marathon-champion-peres-jepchirchir-suspended-positive-doping-test-athletics",
+      "date": "2026-10-23T12:31:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Bellingham holds positive talks over new Real deal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6zjx0np7y10o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:23:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Penicuik v Clyde in Scottish Cup postponed",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwzd6g3g3lemo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:22:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Cost of football regulator double initial estimate",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6lylk1zyqd7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:19:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Conte plays down 'unfounded' Man Utd speculation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T12:15:53Z",
       "league": "all"
     },
     {
@@ -1187,13 +1368,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xvz8e8dpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T11:23:37Z",
       "league": "all"
-    },
-    {
-      "title": "Former Man United chief Murtough joins Birmingham",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9zrdkv775r1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T11:20:20Z",
-      "league": "soccer"
     },
     {
       "title": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
@@ -1231,18 +1405,11 @@
       "league": "all"
     },
     {
-      "title": "Australia call up Teddy Wilson - son of World Cup winner David",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmewejkdkk99o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T09:59:59Z",
-      "league": "all"
-    },
-    {
       "title": "Failure on the field, unrest in stands - Burnley's horror 12 months",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6qxnzyx77vqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T09:24:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "How world champion Smith can become a mainstream star",
@@ -1278,6 +1445,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cw3djpg15045o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T08:14:50Z",
       "league": "soccer"
+    },
+    {
+      "title": "World Series 2026 predictions: will the Rays or Brewers claim their first title?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/world-series-2026-predictions-will-the-rays-or-brewers-claim-their-first-title",
+      "date": "2026-10-23T08:00:04Z",
+      "league": "all"
     },
     {
       "title": "New Victor Moses? How Alonso has transformed Neto",
@@ -1427,46 +1601,11 @@
       "league": "all"
     },
     {
-      "title": "O'Neill bemoans marginal moments but are Celtic just not good enough?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx287ekvvvpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T22:52:52Z",
-      "league": "soccer"
-    },
-    {
       "title": "Man Utd chief keen on Howe - Friday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:53:52Z",
       "league": "soccer"
-    },
-    {
-      "title": "Europa League: Celtic lose to Celta after leading, Mateta returns in Palace draw",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/22/europa-league-sunderland-held-in-poznan-as-juventus-denied-comeback-win",
-      "date": "2026-10-22T21:41:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T21:30:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/bournemouth-milan-europa-league-match-report",
-      "date": "2026-10-22T21:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "GB's Fraser wins world bronze in all-around final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9kgjzjjnlzyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T20:28:43Z",
-      "league": "all"
     }
   ]
 }
