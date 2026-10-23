@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T05:54:29Z",
+  "updated_at": "2026-10-23T06:18:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1131,9 +1131,49 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Pride, prestige, profile - the great Ballon d'Or campaign",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c65yng4x302jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:06:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The World Treadmill Championship - pitching elite runners against amateurs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/cmgel5vd5gqno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T05:58:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Have Man Utd become the unmanageable club?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y0ek284pdgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T05:56:04Z",
+      "league": "all"
+    },
     {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
@@ -1219,24 +1259,10 @@
       "league": "all"
     },
     {
-      "title": "England boss McDermott calls for Super League to accept NRL investment",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c574pjyv2ly7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T21:22:33Z",
-      "league": "all"
-    },
-    {
       "title": "Bournemouth enjoy night to remember as 10-man Milan fail to weather storm",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/bournemouth-milan-europa-league-match-report",
       "date": "2026-10-22T21:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli to 'just have fun' as he aims for title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjr4y3y9zy2zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T20:55:40Z",
       "league": "all"
     },
     {
@@ -1310,6 +1336,13 @@
       "league": "soccer"
     },
     {
+      "title": "Rugby's data revolution - can Moneyball be oval?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6kg7kejxvw5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-22T16:47:46Z",
+      "league": "all"
+    },
+    {
       "title": "Sherrock one of 24 'amateurs' taking on Littler",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/darts/articles/c95ynp3dp8pvo?at_medium=RSS&at_campaign=rss",
@@ -1353,10 +1386,10 @@
     },
     {
       "title": "Fernandes to stay captain as Rooney calls Man Utd players babies",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqe8rglz8p90o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T16:19:30Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Treadmill World Champs - What are they and how to compete",
@@ -1433,20 +1466,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
       "date": "2026-10-22T13:42:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United bin-fire keeps blazing and Arsenal draw at Bayern | Football Weekly Extra – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/oct/22/manchester-united-bin-fire-keeps-blazing-and-arsenal-draw-at-bayern-football-weekly-extra-video",
-      "date": "2026-10-22T13:24:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ex-Scotland and Harlequins player Visser to go on trial charged with rape",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cxvgd7z3y89po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T12:50:05Z",
       "league": "all"
     }
   ]
