@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T06:18:57Z",
+  "updated_at": "2026-10-23T07:10:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1150,15 +1150,69 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Pride, prestige, profile - the great Ballon d'Or campaign",
+      "title": "Haaland captaincy headache - stick or twist? FPL gameweek eight dilemmas",
       "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1m43jee9z5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:56:15Z",
+      "league": "soccer"
+    },
+    {
+      "title": "James enjoys dream home debut in 76ers comeback win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/cqn73kr2k284o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:50:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Infantino re-election hopes boosted by Asia support",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wpyg18j7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:48:46Z",
+      "league": "all"
+    },
+    {
+      "title": "What is going on at 'chaotic' Newcastle?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c60qkpe0e54qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:37:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Flat-track bullies Celtic continue descent into European irrelevance",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crp3gde84j4zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:26:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Pride, prestige, profile - the great Ballon d'Or campaign",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65yng4x302jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T06:06:38Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "The World Treadmill Championship - pitching elite runners against amateurs",
@@ -1204,10 +1258,10 @@
     },
     {
       "title": "O'Neill bemoans marginal moments but are Celtic just not good enough?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx287ekvvvpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T22:52:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Approach African GP with humility, says Hamilton",
@@ -1280,17 +1334,10 @@
       "league": "soccer"
     },
     {
-      "title": "Fernandes has home burgled while in Italy with Man Utd",
+      "title": "Fernandes' home burgled while in Italy with Man Utd",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq9vz19p41x8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T18:04:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Cordina agrees terms to fight Pacquiao, 47, on Fury-Joshua card",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c34g1wenzg9jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T18:04:02Z",
       "league": "all"
     },
     {
@@ -1315,13 +1362,6 @@
       "league": "all"
     },
     {
-      "title": "What next for Australia after chastening defeat by South Africa?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T17:25:22Z",
-      "league": "all"
-    },
-    {
       "title": "Bruno’s betrayal? ‘Toxic’ Fernandes is symptom of United’s culture of entitlement | Jamie Jackson",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/22/bruno-fernandes-betrayal-manchester-united-michael-carrick-culture-of-entitlement",
@@ -1334,13 +1374,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/22/haiti-usa-concacaf-nations-league-miami-home-game-gang-violence",
       "date": "2026-10-22T17:04:21Z",
       "league": "soccer"
-    },
-    {
-      "title": "Rugby's data revolution - can Moneyball be oval?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6kg7kejxvw5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:47:46Z",
-      "league": "all"
     },
     {
       "title": "Sherrock one of 24 'amateurs' taking on Littler",
@@ -1452,20 +1485,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/surfing-sexual-abuse-allegations-ntwnfb",
       "date": "2026-10-22T14:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Bruno Guimarães had sleepless nights before Newcastle exit but hopes for same ‘love’ at Arsenal",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/bruno-guimaraes-had-sleepless-nights-before-newcastle-exit-but-hopes-for-same-love-at-arsenal",
-      "date": "2026-10-22T14:00:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool",
-      "date": "2026-10-22T13:42:43Z",
       "league": "all"
     }
   ]
