@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T19:02:46Z",
+  "updated_at": "2026-10-23T19:50:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "primeira",
@@ -1019,26 +1019,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591649",
-      "league": "nhl",
-      "name": "Vancouver Canucks vs Detroit Red Wings",
-      "date": "2026-10-23T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Vancouver Canucks",
-          "score": "2"
-        },
-        {
-          "name": "Detroit Red Wings",
-          "score": "5",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591650",
       "league": "nhl",
       "name": "Chicago Blackhawks vs Montreal Canadiens",
@@ -1151,122 +1131,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594645",
-      "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Lens",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        },
-        {
-          "name": "Remo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540112",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Perth Glory",
-      "date": "2026-10-23T09:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Perth Glory",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540113",
-      "league": "aleague",
-      "name": "Newcastle Jets vs Macarthur FC",
-      "date": "2026-10-24T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Newcastle Jets",
-          "score": ""
-        },
-        {
-          "name": "Macarthur FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1274,8 +1138,29 @@
       "title": "Ipswich v Nottingham Forest: Premier League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
-      "date": "2026-10-23T18:59:05Z",
+      "date": "2026-10-23T19:43:28Z",
       "league": "soccer"
+    },
+    {
+      "title": "Cheltenham’s long awaited return proves romance lives on in jumps racing",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/cheltenhams-long-awaited-return-proves-romance-lives-on-in-jumps-racing",
+      "date": "2026-10-23T19:32:55Z",
+      "league": "all"
+    },
+    {
+      "title": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/nwsl-rodman-rule-hip-rule-changes",
+      "date": "2026-10-23T19:25:20Z",
+      "league": "all"
+    },
+    {
+      "title": "‘A different kid’: from karting to F1 champion-elect, Antonelli’s ability has always stood out",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/kimi-antonelli-f1-champion-elect",
+      "date": "2026-10-23T19:00:12Z",
+      "league": "all"
     },
     {
       "title": "Leclerc sets Austin practice pace from Verstappen",
@@ -1523,13 +1408,6 @@
       "league": "all"
     },
     {
-      "title": "F1 crown in reach for Kimi Antonelli at bumpy Austin circuit drivers insist is ‘unacceptable’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/formula-one-kimi-antonelli-mercedes-title-austin-us-grand-prix-texas",
-      "date": "2026-10-23T10:34:55Z",
-      "league": "all"
-    },
-    {
       "title": "Boulter into Japan semi-finals and back as British No 1",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c6ly35rzdgxyo?at_medium=RSS&at_campaign=rss",
@@ -1566,24 +1444,10 @@
     },
     {
       "title": "Asian Football Confederation backs Gianni Infantino in U-turn on Fifa presidency",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/23/asian-football-confederation-backs-gianni-infantino-u-turn-fifa-president",
       "date": "2026-10-23T07:37:56Z",
-      "league": "all"
-    },
-    {
-      "title": "EFL preview: 'Sleepless nights' for under pressure bosses",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6r7ymev78edo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T07:15:27Z",
       "league": "soccer"
-    },
-    {
-      "title": "Chaotic state of football in Brazil epitomises a nation where greed has conquered glory | Jonathan Liew",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/23/chaotic-football-brazil-politics-election-flavio-bolsonaro-lula",
-      "date": "2026-10-23T07:00:04Z",
-      "league": "all"
     }
   ]
 }
