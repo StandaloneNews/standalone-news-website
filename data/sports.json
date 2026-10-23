@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T20:11:17Z",
+  "updated_at": "2026-10-23T20:53:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1131,15 +1131,55 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Wade equals Prem record as Newcastle beat Sale",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy7e08jlxpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T20:50:22Z",
+      "league": "all"
+    },
+    {
       "title": "Ipswich v Nottingham Forest: Premier League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/ipswich-v-nottingham-forest-premier-league-live",
-      "date": "2026-10-23T20:04:38Z",
+      "date": "2026-10-23T20:44:50Z",
       "league": "soccer"
+    },
+    {
+      "title": "Kinsella nails floor routine in all-around final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9146vp0jddro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T20:20:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Skye Blakely caps remarkable injury comeback with world gymnastics all-around title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/skye-blakely-caps-remarkable-injury-comeback-with-world-gymnastics-all-around-title",
+      "date": "2026-10-23T20:14:29Z",
+      "league": "all"
     },
     {
       "title": "Aaron Rodgers says NFL’s Paris game is safe despite PSG cancellation amid unrest",
@@ -1170,24 +1210,10 @@
       "league": "all"
     },
     {
-      "title": "Leclerc sets Austin practice pace from Verstappen",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T18:41:21Z",
-      "league": "all"
-    },
-    {
       "title": "Superb Samoa run riot to inflict heavy defeat on woeful Wales",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm2d1v0jr48o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T17:43:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Chess: Bodhana Sivanandan, 11, breaks Judit Polgar’s longstanding world age record",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/chess-bodhana-sivanandan-11-can-break-another-world-age-record-on-friday",
-      "date": "2026-10-23T17:32:03Z",
       "league": "all"
     },
     {
@@ -1441,13 +1467,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3x8452pdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T08:28:21Z",
       "league": "soccer"
-    },
-    {
-      "title": "World Series 2026 predictions: will the Rays or Brewers claim their first title?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/world-series-2026-predictions-will-the-rays-or-brewers-claim-their-first-title",
-      "date": "2026-10-23T08:00:04Z",
-      "league": "all"
     }
   ]
 }
