@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T21:53:33Z",
+  "updated_at": "2026-10-23T22:15:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1131,9 +1131,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "'It doesn't make sense' - Glasner confused after Diop avoids red card",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8ly03l6klzpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T22:15:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Leclerc fastest from Antonelli in US GP practice",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm5ynle2n082o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T22:10:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Impressive Gloucester beat rivals Bath in Prem",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9l3krgjvro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T22:00:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Wade equals Prem try-scoring record as Newcastle beat Sale",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy7e08jlxpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T21:55:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Forest left frustrated as winless run goes on after draw at Ipswich",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9ly0dgy2r2eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T21:54:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Littler through as Van Gerwen suffers early Euros exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/c977p3zn6185o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T21:51:18Z",
+      "league": "all"
+    },
     {
       "title": "Borussia M'gladbach finally get first win after five-goal thriller",
       "source": "BBC Sport",
@@ -1167,20 +1247,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/dallas-cowboys-cheerleaders-unionize",
       "date": "2026-10-23T21:29:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Impressive Gloucester beat rivals Bath in Prem",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqe9l3krgjvro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T21:22:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Wade equals Prem try-scoring record as Newcastle beat Sale",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwy7e08jlxpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T21:09:01Z",
       "league": "all"
     },
     {
@@ -1311,10 +1377,10 @@
     },
     {
       "title": "Derby day - when Chelsea and Spurs meet, is chaos guaranteed?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c50mex301jjno?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T14:49:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Poulter & Hatton leave LIV as exodus continues",
@@ -1415,38 +1481,10 @@
       "league": "all"
     },
     {
-      "title": "World champion Jepchirchir fails drugs test",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/cwz0vn1yk235o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:01:20Z",
-      "league": "all"
-    },
-    {
       "title": "Slegers and misfiring Arsenal badly need a result in WSL north London derby",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-women-renee-slegers-tottenham-north-london-derby-womens-super-league",
       "date": "2026-10-23T11:58:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Emery's Villa 2.0 reboot restores optimism before Man City meeting",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xvz8e8dpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T11:23:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Pascal Gross: the obsessive runner keeping Brighton ‘one step ahead’ after fast start",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/23/fabian-gross-obsessive-runner-brighton-one-step-ahead",
-      "date": "2026-10-23T11:11:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Boulter into Japan semi-finals and back as British No 1",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6ly35rzdgxyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T10:22:32Z",
       "league": "all"
     }
   ]
