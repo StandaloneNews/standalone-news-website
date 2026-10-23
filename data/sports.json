@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T07:59:56Z",
+  "updated_at": "2026-10-23T08:57:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1131,41 +1131,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "New Victor Moses? How Alonso has transformed Neto",
+      "title": "Wilcox wants Howe if Manchester United sack Carrick, European reaction and more: football news – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
+      "date": "2026-10-23T08:42:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Should Man Utd boss Carrick drop captain Fernandes?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked3x8452pdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T08:28:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Forest's start raises questions - but belief in Glasner remains",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T07:57:27Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw3djpg15045o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T08:14:50Z",
       "league": "soccer"
     },
     {
-      "title": "Manchester United latest, European reaction and more: football news – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T07:52:21Z",
-      "league": "soccer"
+      "title": "New Victor Moses? How Alonso has transformed Neto",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T07:57:27Z",
+      "league": "all"
     },
     {
       "title": "Asian Football Confederation backs Gianni Infantino in U-turn on Fifa presidency",
@@ -1238,6 +1233,13 @@
       "league": "all"
     },
     {
+      "title": "What happens in Vegas, stays in Vegas for England",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cv1j3zn9yjn2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T06:21:59Z",
+      "league": "all"
+    },
+    {
       "title": "Pride, prestige, profile - the great Ballon d'Or campaign",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65yng4x302jo?at_medium=RSS&at_campaign=rss",
@@ -1267,9 +1269,16 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cre3x9e7gyq7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T05:32:12Z",
+      "league": "soccer"
+    },
+    {
+      "title": "What are World Treadmill Championship and how to compete",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/videos/cqj9k7dzwxm0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T05:14:26Z",
       "league": "all"
     },
     {
@@ -1299,13 +1308,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx287ekvvvpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T22:52:52Z",
       "league": "soccer"
-    },
-    {
-      "title": "Approach African GP with humility, says Hamilton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6vgxd2xyv7do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T22:47:30Z",
-      "league": "all"
     },
     {
       "title": "Austin track bumps out of control - Verstappen",
@@ -1372,10 +1374,10 @@
     },
     {
       "title": "Fernandes' home burgled while in Italy with Man Utd",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq9vz19p41x8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T18:04:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
@@ -1445,27 +1447,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T16:21:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Fernandes to stay captain as Rooney calls Man Utd players babies",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqe8rglz8p90o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:19:30Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Treadmill World Champs - What are they and how to compete",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/programmes/p0pj2cln?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:03:38Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa beat Boland and weather to force series decider against Australia",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/22/south-africa-australia-second-test-day-five-report",
-      "date": "2026-10-22T15:53:38Z",
       "league": "all"
     }
   ]
