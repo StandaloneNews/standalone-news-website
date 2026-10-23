@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T02:19:55Z",
+  "updated_at": "2026-10-23T02:56:13Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -288,25 +288,11 @@
         {
           "fighters": [
             {
-              "name": "Lucia Szabova",
+              "name": "Randy Brown",
               "score": ""
             },
             {
-              "name": "Tainara Lisboa",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Nick Klein",
-              "score": ""
-            },
-            {
-              "name": "Joseph Kropschot",
+              "name": "Jacobe Smith",
               "score": ""
             }
           ],
@@ -321,34 +307,6 @@
             },
             {
               "name": "Luana Santos",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Talita Alencar",
-              "score": ""
-            },
-            {
-              "name": "Piera Rodriguez",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Rodrigo Sezinando",
-              "score": ""
-            },
-            {
-              "name": "Theodor Berggren",
               "score": ""
             }
           ],
@@ -386,11 +344,67 @@
         {
           "fighters": [
             {
+              "name": "Rodrigo Sezinando",
+              "score": ""
+            },
+            {
+              "name": "Theodor Berggren",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
               "name": "Julian Erosa",
               "score": ""
             },
             {
               "name": "Jeong Yeong Lee",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Nick Klein",
+              "score": ""
+            },
+            {
+              "name": "Joseph Kropschot",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Talita Alencar",
+              "score": ""
+            },
+            {
+              "name": "Piera Rodriguez",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Lucia Szabova",
+              "score": ""
+            },
+            {
+              "name": "Tainara Lisboa",
               "score": ""
             }
           ],
@@ -1113,25 +1127,6 @@
         },
         {
           "name": "Monza",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489530",
-      "league": "ligue1",
-      "name": "Brest vs Nice",
-      "date": "2026-10-23T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Nice",
           "score": ""
         }
       ],
