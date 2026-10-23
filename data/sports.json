@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T22:15:45Z",
+  "updated_at": "2026-10-23T22:51:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1131,47 +1131,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Dallas Cowboys cheerleaders unionize after years of fighting for fair pay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/dallas-cowboys-cheerleaders-unionize",
+      "date": "2026-10-23T22:40:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Molly Picklum claims lead in WSL title race with ‘dream’ win in Portugal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/surfing-molly-picklum-wins-wsl-portugal-pro-colapinto",
+      "date": "2026-10-23T22:31:11Z",
+      "league": "all"
+    },
+    {
+      "title": "'We had to scrap' - O'Neil praises Ipswich resilience after Forest draw",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckrey3ndyyw0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T22:21:51Z",
+      "league": "all"
+    },
+    {
+      "title": "'That's what I do' - Wade scores again to equal Prem try-scoring record",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3j47y0yy5e1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T22:18:13Z",
+      "league": "all"
+    },
     {
       "title": "'It doesn't make sense' - Glasner confused after Diop avoids red card",
       "source": "BBC Sport",
@@ -1240,13 +1230,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/23/premier-league-news-spurs-nine-injuries-normal-says-de-zerbi-emotional-control-keeps-blues-red-free",
       "date": "2026-10-23T21:30:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Dallas Cowboys cheerleaders unionize after years of fighting for fair pay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/dallas-cowboys-cheerleaders-unionize",
-      "date": "2026-10-23T21:29:15Z",
       "league": "all"
     },
     {
@@ -1327,13 +1310,6 @@
       "league": "soccer"
     },
     {
-      "title": "Wallaroos complete Scotland sweep as retiring Smith gets standing ovation despite red",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/wallaroos-scotland-sweep-retiring-cecilia-smith-emily-chancellor-women-rugby-union",
-      "date": "2026-10-23T16:49:27Z",
-      "league": "all"
-    },
-    {
       "title": "Kompany taken to hospital after collapsing at training",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck3r5792en7go?at_medium=RSS&at_campaign=rss",
@@ -1377,10 +1353,10 @@
     },
     {
       "title": "Derby day - when Chelsea and Spurs meet, is chaos guaranteed?",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c50mex301jjno?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T14:49:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Poulter & Hatton leave LIV as exodus continues",
@@ -1423,13 +1399,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/24/a-leagues-showpiece-melbourne-derby",
       "date": "2026-10-23T14:00:29Z",
       "league": "soccer"
-    },
-    {
-      "title": "Smith partnership & Saracens spice - Furbank on life at Quins",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckzd6gy3q1z2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T13:57:12Z",
-      "league": "all"
     },
     {
       "title": "Carrick refuses to rule out dropping Fernandes in emotional address",
@@ -1478,13 +1447,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T12:15:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Slegers and misfiring Arsenal badly need a result in WSL north London derby",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-women-renee-slegers-tottenham-north-london-derby-womens-super-league",
-      "date": "2026-10-23T11:58:27Z",
       "league": "all"
     }
   ]
