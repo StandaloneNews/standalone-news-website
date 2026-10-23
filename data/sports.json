@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T08:57:34Z",
+  "updated_at": "2026-10-23T09:55:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1131,6 +1131,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489530",
+      "league": "ligue1",
+      "name": "Brest vs Nice",
+      "date": "2026-10-23T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Nice",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1138,11 +1157,39 @@
       "title": "Wilcox wants Howe if Manchester United sack Carrick, European reaction and more: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/23/manchester-united-latest-european-reaction-and-more-football-news-live",
-      "date": "2026-10-23T08:42:02Z",
+      "date": "2026-10-23T09:50:49Z",
       "league": "all"
     },
     {
-      "title": "Should Man Utd boss Carrick drop captain Fernandes?",
+      "title": "Failure on the field, unrest in stands - Burnley's horror 12 months",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6qxnzyx77vqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T09:24:10Z",
+      "league": "all"
+    },
+    {
+      "title": "How world champion Smith can become a mainstream star",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c8y56qlzqq96o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T09:20:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Is El Clásico still the world’s biggest match? Three questions before Barcelona v Real Madrid",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/23/el-clasico-real-madrid-barcelona-lamine-yamal-kylian-mbappe",
+      "date": "2026-10-23T09:00:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Samoa run in 14 tries to thrash Wales at World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cwz0vnlpze2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-23T08:44:32Z",
+      "league": "all"
+    },
+    {
+      "title": "'No more Mr Nice Guy' - should Carrick drop Fernandes?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3x8452pdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T08:28:21Z",
@@ -1157,10 +1204,10 @@
     },
     {
       "title": "New Victor Moses? How Alonso has transformed Neto",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9gkvrkkjv0lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T07:57:27Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Asian Football Confederation backs Gianni Infantino in U-turn on Fifa presidency",
@@ -1275,7 +1322,7 @@
       "league": "soccer"
     },
     {
-      "title": "What are World Treadmill Championship and how to compete",
+      "title": "What is the World Treadmill Championship and how to compete",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/athletics/videos/cqj9k7dzwxm0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T05:14:26Z",
@@ -1318,23 +1365,16 @@
     },
     {
       "title": "Man Utd chief keen on Howe - Friday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63elp2kz4exo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-22T21:53:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Lewis Hamilton aims to extend career till early 2030s so he can race in African Grand Prix",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
       "date": "2026-10-22T21:53:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Counties interested in Anderson after Lancashire exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm8xz10571lro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T21:47:51Z",
       "league": "all"
     },
     {
@@ -1426,27 +1466,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/22/sri-lanka-england-odi-match-report-brook-202",
       "date": "2026-10-22T16:37:40Z",
-      "league": "all"
-    },
-    {
-      "title": "BBC to show Cray Wanderers v Stockport & Altrincham v Notts County",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked364q8jxjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:31:24Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Sutton's predictions v Waffle the Wonder Dog and his owner, Simon",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3y0eqkneze4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:30:41Z",
-      "league": "all"
-    },
-    {
-      "title": "The rising French star whose dad won Rugby World Cup with England",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqe9ldmdpxzzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-22T16:21:57Z",
       "league": "all"
     }
   ]
