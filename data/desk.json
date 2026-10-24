@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:46:04+00:00",
+  "updated_at": "2026-10-24T04:44:00+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -9,12 +9,12 @@
     "fd32ce4d6894cdde5b55e030",
     "915e0f9c258a537bfdfb19b3",
     "0ee827c5ff4681a907e6caf4",
+    "cb9e130b00a2c49e457d6a78",
     "d824cd6e4750097a85f4cedc",
     "3f608aa0fdc831940fd4ffb4",
     "9a84e512118d6a33bd05cfc9",
     "30d099cfe4352aee8d2dc677",
     "d2f08bc4bcc7ea7f197cb149",
-    "1c6553f04b2d9abad2b76cf2",
     "c9ac25a6124bc2703b6408fe",
     "4e39a62d1827bfc57d49c3d1",
     "c921e5a3357873ad79dd37c7",
@@ -31,6 +31,94 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "a16392919788b46ac05cd4a0",
+      "title": "France prepares for day of protest a week after nationwide riots",
+      "summary": "More than 70,000 police officers are to be deployed over fears protesters will defy restrictions on demonstrations.",
+      "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T04:03:46+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "cb9e130b00a2c49e457d6a78",
+      "title": "Argentina identifies dozens of victims killed in its ‘Dirty War’",
+      "summary": "Forensic anthropologists have identified the remains of at least 38 victims of Argentina’s last military dictatorship.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T03:51:58+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b63a73bec91ba1d8c61a18de",
+      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
+      "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T03:51:25+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "23c756cf69c230cbb65c8985",
+      "title": "Marco Rubio urges Cubans to collaborate with CIA to topple gov’t",
+      "summary": "Secretary of State Marco Rubio has urged Cubans to secretly work with the CIA to topple their government.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/10-24-rubi0-cuba-cia?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T03:50:32+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b2a5370cf0e1c99447f07dd0",
+      "title": "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
+      "summary": "Israeli military raid targets at least 15 towns in the northern West Bank, including Nablus and Jenin.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T03:47:14+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Kyle Taylor from London, 84 Countries",
+        "license": "CC BY 2.0",
+        "description": "Israel - Jerusalem - Old City",
+        "label": "Illustrative photo",
+        "matched_query": "Jerusalem Israel skyline"
+      }
+    },
+    {
+      "id": "bf6b582e3eb9fe7502dfd303",
+      "title": "Pentagon designates Confucius Institutes a national security threat",
+      "summary": "Pete Hegseth says the Pentagon dismantled 80 ‘propaganda cells’ operating under new names at 30 universities.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/pentagon-designates-confucius-institutes-a-national-security-threat?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T03:38:20+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "d97041663f772319a734d58f",
       "title": "Met investigates reports of letter detailing claims about Meghan's father",
@@ -133,7 +221,17 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T02:22:32+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
+        "label": "Illustrative photo",
+        "matched_query": "Beijing China skyline"
+      }
     },
     {
       "id": "7d01346c271554ee79aa3974",
@@ -185,17 +283,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T01:21:26+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "a3f249e467626eadba008528",
@@ -234,17 +322,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T00:50:05+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Kyle Taylor from London, 84 Countries",
-        "license": "CC BY 2.0",
-        "description": "Israel - Jerusalem - Old City",
-        "label": "Illustrative photo",
-        "matched_query": "Jerusalem Israel skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "b1ce173818dfcae13c83c777",
@@ -344,6 +422,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T00:05:45+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "fc2568292034cd4579957b15",
+      "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+      "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T00:05:43+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -881,6 +972,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "1d927d16606e8114161a99a7",
+      "title": "Why is John Travolta's old luxury jet in a small Australian town?",
+      "summary": "The BBC goes on board Travolta’s old Boeing 707 which is being reassembled in a small coastal town.",
+      "url": "https://www.bbc.co.uk/news/videos/cmze483zj1zlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-23T21:19:17+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "03477900d89d2e9fc64a8fb0",
       "title": "Oregon father who killed school shooter says he regrets there were children he didn't save",
       "summary": "Kaylub Giamanco, whose two daughters attend Silver Rail Elementary, where the Oct. 15 attack occurred, said he was the children's \"last line of defense\" and that he regrets not arriving soon enough to save them all.",
@@ -921,7 +1025,7 @@
     },
     {
       "id": "c0c08d8f62d28e013cc89758",
-      "title": "Stocks, Pulled in Two Directions, Fall to End Volatile Week",
+      "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
       "summary": "Inflation and jitters over artificial intelligence are fighting for investors’ attention.",
       "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8?mod=rss_markets_main",
       "source": "WSJ",
@@ -1315,7 +1419,7 @@
       "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
       "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T19:42:08+00:00",
@@ -5425,110 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T03:59:41+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "326b7705f0b86fa3f8c9687f",
-      "title": "Yen Strengthens on French Debt Woes, Hits One-Year High Against Euro",
-      "summary": "The yen strengthened to its highest level in a year against the euro as investors sought the relative safety of the Japanese currency amid concerns over French debt.",
-      "url": "https://www.wsj.com/finance/currencies/yen-strengthens-on-french-debt-woes-hits-one-year-high-against-euro-07e5a920?mod=rss_markets_main",
-      "source": "WSJ",
-      "feed_id": "wsj_markets",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T03:33:00+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8dc7ed7ef77a01c753cd801b",
-      "title": "Mother sought advice from Alan Jones after broadcaster’s alleged indecent assault of her son, court hears",
-      "summary": "Jones, 85, has pleaded not guilty to 21 charges of indecent assault and sexual touching Listen to the podcast Alan Jones on Trial The mother of the youngest alleged victim of Alan Jones continued to seek advice from the broadcaster after the teenager was allegedly indecently assaulted at Jones’s Fitzroy Falls farm, a Sydney court has heard. The divorced mother told the Downing Centre court she had developed a pattern of not trusting herself and she continued her correspondence with Jones because: “I knew he knew about everything; he had an opinion about everything. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/23/alan-jones-trial-mother-of-alleged-victim-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T03:24:01+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f206a303760f826a6a2bb65f",
-      "title": "Serbia: Tens of thousands rally ahead of elections",
-      "summary": "After two years of student-led protests, Serbia will soon vote in what observers describe as a referendum-like snap election pitting strongman Aleksandar Vucic against the student movement.",
-      "url": "https://www.dw.com/en/serbia-tens-of-thousands-rally-ahead-of-elections/a-79738420?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T03:15:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "30e43a7fe486d1e1f20433ac",
-      "title": "US tech stocks tumble as investors fret over AI spending",
-      "summary": "Tech-heavy Nasdaq falls 2.6 percent as debate rages over whether AI is a bubble.",
-      "url": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T03:13:13+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e4804e9718c972dcca57cbe5",
-      "title": "Venezuelans demand elections in first national protest in nearly two years",
-      "summary": "No date has been set to decide on a successor for Nicolas Maduro after the former president was captured by US forces.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T03:12:12+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "8f446f7e55da479bebf15b02",
-      "title": "Indian developer turns ‘Cockroach’ protests into video game",
-      "summary": "A 27-year-old Indian developer has created a satirical video game inspired by the Cockroach Party-led protests.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/indian-developer-turns-cockroach-protests-into-video-game?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T02:44:35+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1050c5933fb82249490dbfee",
-      "title": "Trump backs Ramaswamy ad featuring rival Amy Acton’s estranged mother",
-      "summary": "Trump advises the Republican gubernatorial candidate to keep running the controversial advertisement.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/trump-backs-ramaswamy-ad-featuring-rival-amy-actons-estranged-mother?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T02:22:24+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "509e1e6a5d79b0a795b92626",
-      "title": "Trump, Musk, Zelenskyy: who is blaming who in the Ukraine-Starlink row?",
-      "summary": "A war of words has erupted over who is responsible for the restrictions on Starshield access in Ukraine A war of words has erupted between the Trump administration, officials in Kyiv and Elon Musk over who is to blame for limiting Ukraine’s access to Space X’s military-grade version of Starlink. The restrictions to Starshield have rendered many of the drones used by Kyiv to strike behind the frontlines inoperable and hampered air defence systems that stop Russian attacks, according to Ukrainian officials . Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/23/trump-musk-zelenskyy-who-is-blaming-who-in-ukraine-starlink-row",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T02:16:26+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
