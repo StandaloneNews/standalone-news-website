@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T16:11:39Z",
+  "updated_at": "2026-10-24T16:51:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 28,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,27 +13,27 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -808,26 +808,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475467",
-      "league": "nfl",
-      "name": "Chicago Bears vs New England Patriots",
-      "date": "2026-10-23T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Chicago Bears",
-          "score": "30",
-          "winner": true
-        },
-        {
-          "name": "New England Patriots",
-          "score": "24"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475468",
       "league": "nfl",
       "name": "New Orleans Saints vs Pittsburgh Steelers",
@@ -842,26 +822,6 @@
         {
           "name": "Pittsburgh Steelers",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2601692",
-      "league": "nba",
-      "name": "Sacramento Kings vs Portland Trail Blazers",
-      "date": "2026-10-24T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sacramento Kings",
-          "score": "120"
-        },
-        {
-          "name": "Portland Trail Blazers",
-          "score": "128",
-          "winner": true
         }
       ],
       "url": ""
@@ -886,26 +846,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619527",
-      "league": "mlb",
-      "name": "Milwaukee Brewers vs Tampa Bay Rays",
-      "date": "2026-10-24T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Milwaukee Brewers",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Tampa Bay Rays",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2619528",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -925,26 +865,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591651",
-      "league": "nhl",
-      "name": "Colorado Avalanche vs Tampa Bay Lightning",
-      "date": "2026-10-24T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Colorado Avalanche",
-          "score": "6",
-          "winner": true
-        },
-        {
-          "name": "Tampa Bay Lightning",
-          "score": "3"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591652",
       "league": "nhl",
       "name": "Philadelphia Flyers vs Anaheim Ducks",
@@ -958,25 +878,6 @@
         },
         {
           "name": "Anaheim Ducks",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2598790",
-      "league": "ncaaf",
-      "name": "Marist vs Saint Thomas (MN)",
-      "date": "2026-10-24T16:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marist",
-          "score": ""
-        },
-        {
-          "name": "Saint Thomas (MN)",
           "score": ""
         }
       ],
@@ -1002,96 +903,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494079",
+      "id": "sportsdb-2494070",
       "league": "epl",
-      "name": "Coventry City vs Fulham",
-      "date": "2026-10-24T14:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Coventry City",
-          "score": "0"
-        },
-        {
-          "name": "Fulham",
-          "score": "1",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494073",
-      "league": "epl",
-      "name": "Chelsea vs Tottenham Hotspur",
-      "date": "2026-10-24T16:30:00Z",
+      "name": "Manchester United vs Bournemouth",
+      "date": "2026-10-25T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chelsea",
+          "name": "Manchester United",
           "score": ""
         },
         {
-          "name": "Tottenham Hotspur",
+          "name": "Bournemouth",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2506262",
+      "id": "sportsdb-2506260",
       "league": "laliga",
-      "name": "Valencia vs Villarreal",
-      "date": "2026-10-24T16:30:00Z",
+      "name": "Atlético Madrid vs Deportivo de A Coruña",
+      "date": "2026-10-24T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Valencia",
+          "name": "Atlético Madrid",
           "score": ""
         },
         {
-          "name": "Villarreal",
+          "name": "Deportivo de A Coruña",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2508395",
+      "id": "sportsdb-2508390",
       "league": "bundesliga",
-      "name": "Köln vs Schalke 04",
-      "date": "2026-10-24T13:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Köln",
-          "score": "0"
-        },
-        {
-          "name": "Schalke 04",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2508389",
-      "league": "bundesliga",
-      "name": "Borussia Dortmund vs Eintracht Frankfurt",
-      "date": "2026-10-24T16:30:00Z",
+      "name": "Hoffenheim vs Bayer Leverkusen",
+      "date": "2026-10-25T14:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Borussia Dortmund",
+          "name": "Hoffenheim",
           "score": ""
         },
         {
-          "name": "Eintracht Frankfurt",
+          "name": "Bayer Leverkusen",
           "score": ""
         }
       ],
@@ -1134,193 +996,63 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398503",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Remo",
-      "date": "2026-10-23T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "name": "Remo",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398505",
-      "league": "brasileirao",
-      "name": "Internacional vs Botafogo",
-      "date": "2026-10-24T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Internacional",
-          "score": ""
-        },
-        {
-          "name": "Botafogo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398148",
-      "league": "argentina",
-      "name": "Banfield vs Lanús",
-      "date": "2026-10-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Banfield",
-          "score": ""
-        },
-        {
-          "name": "Lanús",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487571",
-      "league": "ligamx",
-      "name": "León vs Toluca",
-      "date": "2026-10-24T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "León",
-          "score": ""
-        },
-        {
-          "name": "Toluca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492895",
-      "league": "j1",
-      "name": "Nagoya Grampus vs Yokohama F Marinos",
-      "date": "2026-10-25T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nagoya Grampus",
-          "score": ""
-        },
-        {
-          "name": "Yokohama F Marinos",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540116",
-      "league": "aleague",
-      "name": "Wellington Phoenix vs Central Coast Mariners",
-      "date": "2026-10-25T02:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Wellington Phoenix",
-          "score": ""
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514013",
-      "league": "primeira",
-      "name": "Alverca vs Arouca",
-      "date": "2026-10-24T17:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Alverca",
-          "score": ""
-        },
-        {
-          "name": "Arouca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407171",
-      "league": "mls",
-      "name": "CF Montréal vs Nashville SC",
-      "date": "2026-10-24T17:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "CF Montréal",
-          "score": ""
-        },
-        {
-          "name": "Nashville SC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Arsenal 2-0 Everton, Coventry 0-1 Fulham, EFL, and more – football clockwatch live",
+      "title": "Chelsea v Tottenham: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
+      "date": "2026-10-24T16:45:07Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
-      "date": "2026-10-24T16:06:52Z",
+      "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
+      "date": "2026-10-24T16:36:57Z",
       "league": "all"
     },
     {
-      "title": "Chelsea v Tottenham: Premier League – live",
+      "title": "Glasgow recover 17-point deficit to beat Benetton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm3vq1g7zrwno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:31:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Spurs boss Ho wants 'more support and training' for WSL referees",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7q47dd0e7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:27:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Tigers turn on the style in second half as Steward caps mauling of Northampton",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T16:02:37Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/leicester-northampton-prem-rugby-union-match-report",
+      "date": "2026-10-24T16:27:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report",
+      "date": "2026-10-24T16:11:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Resurgent Tigers overpower Saints in derby downpour",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwj0ly57n62ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:07:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report",
+      "date": "2026-10-24T16:03:49Z",
       "league": "all"
     },
     {
@@ -1380,13 +1112,6 @@
       "league": "all"
     },
     {
-      "title": "Championship roundup: Portsmouth ride luck to beat Millwall; Norwich back to winning ways",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
-      "date": "2026-10-24T14:30:54Z",
-      "league": "soccer"
-    },
-    {
       "title": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
@@ -1401,7 +1126,7 @@
       "league": "all"
     },
     {
-      "title": "Rising US star Fred Richard wins first world gymnastics title with floor gold",
+      "title": "Rising US star Fred Richard wins first world gymnastics title as Skye Blakely adds two more medals",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/frederick-richard-floor-gold-world-gymnastics-championships-rotterdam",
       "date": "2026-10-24T14:06:48Z",
@@ -1464,38 +1189,10 @@
       "league": "all"
     },
     {
-      "title": "Wales grind out frustrating WXV win against Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg6j9je3w4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T11:34:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Barnsley legend Barry 'Spud' Murphy dies",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqljyyg1lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T11:27:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ferguson's first game as Glentoran boss postponed",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/articles/cmy4x7zvv28ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T11:14:04Z",
-      "league": "soccer"
-    },
-    {
       "title": "Australia crush England in women’s Rugby League World Cup statement win",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
       "date": "2026-10-24T10:59:10Z",
-      "league": "all"
-    },
-    {
-      "title": "New British number one Boulter loses Japan semi-final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/ck4g15ql8gr8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T10:54:58Z",
       "league": "all"
     },
     {
@@ -1511,6 +1208,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm2l4vq9k84yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T10:03:59Z",
       "league": "soccer"
+    },
+    {
+      "title": "‘It was so magical’: the 33-year-old who made history swimming the length of California",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/us-news/2026/oct/24/catherine-breed-interview-swim-california-coastline",
+      "date": "2026-10-24T10:00:31Z",
+      "league": "all"
     },
     {
       "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
@@ -1539,13 +1243,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyl1gp4leo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T07:51:35Z",
       "league": "soccer"
-    },
-    {
-      "title": "Fastest pitch in World Series history as Brewers win opener",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/baseball/articles/cwe8lnp78jgko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T07:27:31Z",
-      "league": "all"
     },
     {
       "title": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
@@ -1580,13 +1277,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/sexual-assault-scandal-rocked-gymnastics-larry-nassar-sport-change-slow",
       "date": "2026-10-24T05:00:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Daniel Stewart, former Port Adelaide AFL player, dies aged 37",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/daniel-stewart-port-adelaide-power-afl-player-death-age-37",
-      "date": "2026-10-24T04:29:50Z",
       "league": "all"
     },
     {
