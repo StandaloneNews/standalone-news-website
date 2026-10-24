@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T16:51:54Z",
+  "updated_at": "2026-10-24T17:12:17Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -865,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591652",
+      "id": "sportsdb-2591653",
       "league": "nhl",
-      "name": "Philadelphia Flyers vs Anaheim Ducks",
-      "date": "2026-10-24T17:00:00Z",
+      "name": "New Jersey Devils vs Los Angeles Kings",
+      "date": "2026-10-24T19:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia Flyers",
+          "name": "New Jersey Devils",
           "score": ""
         },
         {
-          "name": "Anaheim Ducks",
+          "name": "Los Angeles Kings",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499084",
+      "id": "sportsdb-2594129",
       "league": "ncaaf",
-      "name": "Kansas vs Baylor",
-      "date": "2026-10-24T17:00:00Z",
+      "name": "Columbia vs Dartmouth",
+      "date": "2026-10-24T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Kansas",
+          "name": "Columbia",
           "score": ""
         },
         {
-          "name": "Baylor",
+          "name": "Dartmouth",
           "score": ""
         }
       ],
@@ -977,25 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1003,7 +984,28 @@
       "title": "Chelsea v Tottenham: Premier League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T16:45:07Z",
+      "date": "2026-10-24T17:04:05Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Arteta 'delighted' with Arsenal win after 'tough week'",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck05486e1l53o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:00:15Z",
+      "league": "soccer"
+    },
+    {
+      "title": "From Chelsea reject to Watkins 'upgrade' - Jackson makes fast Villa start",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6p9gkdzzpnro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:58:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish Premiership: Kelsy fires Rangers to emphatic win; Dundee United pip Aberdeen",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/scottish-premiership-rangers-dundee-celtic-hearts",
+      "date": "2026-10-24T16:52:06Z",
       "league": "soccer"
     },
     {
@@ -1063,13 +1065,6 @@
       "league": "all"
     },
     {
-      "title": "Plan for Northern Olympics to get £7m in Healey's Budget",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cv98z92ekg9zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:45:46Z",
-      "league": "all"
-    },
-    {
       "title": "Arsenal relieve pressure with Spurs win - can they kick on now?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&at_campaign=rss",
@@ -1091,7 +1086,7 @@
       "league": "all"
     },
     {
-      "title": "Man City's leaky defence highlights Donnarumma & Guehi struggles",
+      "title": "Donnarumma & Guehi highlight Man City issues as solid Arsenal move level",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kg7z700k7jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:05:45Z",
@@ -1299,20 +1294,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
       "date": "2026-10-24T01:27:21Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pj7y5v?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T00:00:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Best team in the Championship' - Boro lay down marker",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c65ynq95xdw5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T23:14:00Z",
-      "league": "soccer"
     }
   ]
 }
