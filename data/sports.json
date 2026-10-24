@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T01:13:06Z",
+  "updated_at": "2026-10-24T01:56:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -981,19 +981,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601688",
+      "id": "sportsdb-2601690",
       "league": "nba",
-      "name": "San Antonio Spurs vs Houston Rockets",
-      "date": "2026-10-24T01:30:00Z",
+      "name": "Golden State Warriors vs Memphis Grizzlies",
+      "date": "2026-10-24T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Antonio Spurs",
+          "name": "Golden State Warriors",
           "score": ""
         },
         {
-          "name": "Houston Rockets",
+          "name": "Memphis Grizzlies",
           "score": ""
         }
       ],
@@ -1134,6 +1134,13 @@
     }
   ],
   "stories": [
+    {
+      "title": "Red Roses suffer back-to-back defeats for first time in a decade as Canada make statement",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
+      "date": "2026-10-24T01:27:21Z",
+      "league": "all"
+    },
     {
       "title": "Leclerc fastest from Antonelli in US GP practice",
       "source": "BBC Sport",
@@ -1441,13 +1448,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6lylk1zyqd7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T12:19:33Z",
       "league": "soccer"
-    },
-    {
-      "title": "Conte plays down 'unfounded' Man Utd speculation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg6j8jezn7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:15:53Z",
-      "league": "all"
     }
   ]
 }
