@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T17:12:17Z",
+  "updated_at": "2026-10-24T17:46:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594129",
+      "id": "sportsdb-2594132",
       "league": "ncaaf",
-      "name": "Columbia vs Dartmouth",
-      "date": "2026-10-24T17:30:00Z",
+      "name": "Bryant vs Stony Brook",
+      "date": "2026-10-24T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Columbia",
+          "name": "Bryant",
           "score": ""
         },
         {
-          "name": "Dartmouth",
+          "name": "Stony Brook",
           "score": ""
         }
       ],
@@ -977,15 +977,62 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Chelsea v Tottenham: Premier League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T17:04:05Z",
+      "date": "2026-10-24T17:43:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Why winning ugly is just as important for Wales",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq62y3yr374yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:25:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Matos rues QPR display as Swansea suffer Yeo blow",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6g7xvk35p94o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:25:18Z",
       "league": "soccer"
+    },
+    {
+      "title": "Jarman wins historic men's floor silver at worlds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/cmly0dy8p370o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:20:44Z",
+      "league": "all"
+    },
+    {
+      "title": "England thrashed 78-0 in World Cup defeat by Australia",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cwg7xvlnx7g4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:15:51Z",
+      "league": "all"
     },
     {
       "title": "Arteta 'delighted' with Arsenal win after 'tough week'",
@@ -1003,24 +1050,17 @@
     },
     {
       "title": "Scottish Premiership: Kelsy fires Rangers to emphatic win; Dundee United pip Aberdeen",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/scottish-premiership-rangers-dundee-celtic-hearts",
       "date": "2026-10-24T16:52:06Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
       "date": "2026-10-24T16:36:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Glasgow recover 17-point deficit to beat Benetton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm3vq1g7zrwno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T16:31:41Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Spurs boss Ho wants 'more support and training' for WSL referees",
@@ -1030,7 +1070,7 @@
       "league": "all"
     },
     {
-      "title": "Tigers turn on the style in second half as Steward caps mauling of Northampton",
+      "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/leicester-northampton-prem-rugby-union-match-report",
       "date": "2026-10-24T16:27:41Z",
@@ -1055,13 +1095,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report",
       "date": "2026-10-24T16:03:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Monfils defends Svitolina after 'venomous' criticism",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckz7xn4xep1go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:47:19Z",
       "league": "all"
     },
     {
@@ -1233,13 +1266,6 @@
       "league": "all"
     },
     {
-      "title": "Latte Lath's journey from street games and Carrick to new start in Germany",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyl1gp4leo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T07:51:35Z",
-      "league": "soccer"
-    },
-    {
       "title": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho",
@@ -1286,13 +1312,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmx235877eexo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T01:53:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Red Roses suffer back-to-back defeats for first time in 10 years as Canada make statement",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
-      "date": "2026-10-24T01:27:21Z",
       "league": "all"
     }
   ]
