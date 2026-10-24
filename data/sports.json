@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T04:17:43Z",
+  "updated_at": "2026-10-24T04:52:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1150,28 +1150,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Daniel Stewart, former Port Adelaide AFL player, dies aged 37",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/daniel-stewart-port-adelaide-power-afl-player-death-age-37",
+      "date": "2026-10-24T04:29:50Z",
+      "league": "all"
+    },
     {
       "title": "England suffer back-to-back losses to Canada",
       "source": "BBC Sport",
@@ -1478,13 +1466,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/rugby-union-england-steve-borthwick-selection-autumn-nations-championship",
       "date": "2026-10-23T12:56:07Z",
-      "league": "all"
-    },
-    {
-      "title": "World and Olympic marathon champion Jepchirchir suspended after positive doping test",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/world-olympic-marathon-champion-peres-jepchirchir-suspended-positive-doping-test-athletics",
-      "date": "2026-10-23T12:31:29Z",
       "league": "all"
     }
   ]
