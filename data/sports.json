@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T19:15:20Z",
+  "updated_at": "2026-10-24T19:44:50Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -865,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591653",
+      "id": "sportsdb-2591654",
       "league": "nhl",
-      "name": "New Jersey Devils vs Los Angeles Kings",
-      "date": "2026-10-24T19:30:00Z",
+      "name": "Boston Bruins vs San Jose Sharks",
+      "date": "2026-10-24T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New Jersey Devils",
+          "name": "Boston Bruins",
           "score": ""
         },
         {
-          "name": "Los Angeles Kings",
+          "name": "San Jose Sharks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499078",
+      "id": "sportsdb-2499111",
       "league": "ncaaf",
-      "name": "Alabama vs Texas A and M",
-      "date": "2026-10-24T19:30:00Z",
+      "name": "Ohio vs Eastern Michigan",
+      "date": "2026-10-24T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Alabama",
+          "name": "Ohio",
           "score": ""
         },
         {
-          "name": "Texas A and M",
+          "name": "Eastern Michigan",
           "score": ""
         }
       ],
@@ -977,9 +977,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489527",
+      "league": "ligue1",
+      "name": "Monaco vs Lille",
+      "date": "2026-10-25T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Monaco",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "European football: Roma snatch late draw in 3-3 thriller as Como win again",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
+      "date": "2026-10-24T19:27:13Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'We could have played better' - Alonso disappointed after defeat",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckvg6j1p51xdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:25:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Spurs pick up rare Stamford Bridge win as Palmer sent off",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:17:06Z",
+      "league": "all"
+    },
     {
       "title": "'Best performance since I arrived' - De Zerbi praises Spurs after win",
       "source": "BBC Sport",
@@ -992,6 +1051,27 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T19:01:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Winds of change are coming for Australia as selection storm brews in South Africa",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
+      "date": "2026-10-24T19:00:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
+      "date": "2026-10-24T19:00:41Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+      "date": "2026-10-24T19:00:40Z",
       "league": "all"
     },
     {
@@ -1107,6 +1187,13 @@
       "league": "all"
     },
     {
+      "title": "Resurgent Tigers overpower Saints in derby downpour",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwj0ly57n62ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:07:44Z",
+      "league": "all"
+    },
+    {
       "title": "Clinical Arsenal earn precious win against Everton thanks to Konsa and Gabriel",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/arsenal-everton-premier-league-match-report",
@@ -1119,6 +1206,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:40:01Z",
       "league": "all"
+    },
+    {
+      "title": "Maresca ‘not worried’ by Guéhi’s gaffes as Aston Villa end City’s flawless start",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/maresca-guehi-errors-aston-villa-manchester-city-premier-league",
+      "date": "2026-10-24T15:16:45Z",
+      "league": "soccer"
     },
     {
       "title": "Jarman makes British gymnastics history with World floor silver",
@@ -1238,62 +1332,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T10:30:08Z",
       "league": "soccer"
-    },
-    {
-      "title": "Kompany recovery will take 'weeks' as tests continue",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm2l4vq9k84yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T10:03:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘It was so magical’: the 33-year-old who made history swimming the length of California",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/oct/24/catherine-breed-interview-swim-california-coastline",
-      "date": "2026-10-24T10:00:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football",
-      "date": "2026-10-24T09:40:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "No panic for England but Mitchell issues PWR warning",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv0ld9y3g426o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T09:22:07Z",
-      "league": "all"
-    },
-    {
-      "title": "England crush France by 82 points to keep Rugby League World Cup hopes alive",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/england-france-rugby-league-world-cup-match-report",
-      "date": "2026-10-24T08:54:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Older, calmer, but still playing the hits: Mourinho and Madrid primed for clásico",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/la-liga-clasico-barcelona-real-madrid-jose-mourinho",
-      "date": "2026-10-24T07:00:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Volkanovski nears featherweight immortality as record beckons",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq5ynjgkn68vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T06:52:41Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Smith v Puello world title fight predictions",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cwe9ldpmeljyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T06:35:17Z",
-      "league": "all"
     }
   ]
 }
