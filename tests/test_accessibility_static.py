@@ -43,7 +43,7 @@ class StaticAccessibilityRegressionTests(unittest.TestCase):
     def test_market_and_utility_regions_have_landmarks(self):
         html = read("index.html")
         self.assertIn('class="utility" role="region" aria-label="Edition information and social links"', html)
-        self.assertIn('aria-label="Market prices" role="region" class="market-strip"', html)
+        self.assertIn('<section aria-label="Market prices" class="market-strip">', html)
         for path in ("markets.html", "research.html", "discuss.html", "personalize.html"):
             with self.subTest(page=path):
                 self.assertIn('<div class="utility" role="region" aria-label="Edition information">', read(path))
@@ -58,12 +58,12 @@ class StaticAccessibilityRegressionTests(unittest.TestCase):
         self.assertNotIn('aria-label="Reader account"', html)
         self.assertIn('aria-describedby="lead-title" class="bookmark-btn"', html)
         self.assertNotRegex(html, r'id="mobile-saved"[^>]*aria-label=')
-        self.assertIn('class="brand" href="./index.html"', html)
+        self.assertIn('class="brand" href="./index.html" aria-label="Standalone News"', html)
 
     def test_dynamic_save_follow_names_start_with_visible_words(self):
         js = read("newsroom.js")
-        self.assertIn("(followed?'Following ✓ · ':'+ Follow source · ')+name", js)
-        self.assertIn("(saved?'♥ Saved · ':'♡ Save · ')+item.title", js)
+        self.assertIn("(followed?'Following ':'Follow source ') + name", js)
+        self.assertIn("(saved?'Saved ':'Save ')+item.title", js)
         self.assertIn("b.setAttribute('aria-pressed',String(followed))", js)
         self.assertIn("b.setAttribute('aria-pressed',String(saved))", js)
 
