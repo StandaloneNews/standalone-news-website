@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T21:49:11Z",
+  "updated_at": "2026-10-24T22:09:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601693",
+      "id": "sportsdb-2601694",
       "league": "nba",
-      "name": "Charlotte Hornets vs Miami Heat",
-      "date": "2026-10-24T22:00:00Z",
+      "name": "Cleveland Cavaliers vs Brooklyn Nets",
+      "date": "2026-10-24T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Charlotte Hornets",
+          "name": "Cleveland Cavaliers",
           "score": ""
         },
         {
-          "name": "Miami Heat",
+          "name": "Brooklyn Nets",
           "score": ""
         }
       ],
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499122",
+      "id": "sportsdb-2499124",
       "league": "ncaaf",
-      "name": "Washington State vs Boise State",
-      "date": "2026-10-24T22:00:00Z",
+      "name": "Colorado State vs San Diego State",
+      "date": "2026-10-24T22:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington State",
+          "name": "Colorado State",
           "score": ""
         },
         {
-          "name": "Boise State",
+          "name": "San Diego State",
           "score": ""
         }
       ],
@@ -977,21 +977,59 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489527",
+      "league": "ligue1",
+      "name": "Monaco vs Lille",
+      "date": "2026-10-25T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Monaco",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Smith retains title with split-decision win over Puello",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T21:44:12Z",
+      "title": "United States Grand Prix: Kimi Antonelli takes pole – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
+      "date": "2026-10-24T22:08:26Z",
       "league": "all"
     },
     {
-      "title": "United States Grand Prix: Formula One qualifying – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
-      "date": "2026-10-24T21:36:30Z",
+      "title": "Britain's Smith retains title in split-decision win over Puello",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T21:44:12Z",
       "league": "all"
     },
     {
