@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T11:11:24Z",
+  "updated_at": "2026-10-24T11:51:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -1057,19 +1057,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494077",
+      "id": "sportsdb-2494072",
       "league": "epl",
-      "name": "Aston Villa vs Manchester City",
-      "date": "2026-10-24T11:30:00Z",
+      "name": "Arsenal vs Everton",
+      "date": "2026-10-24T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Aston Villa",
+          "name": "Arsenal",
           "score": ""
         },
         {
-          "name": "Manchester City",
+          "name": "Everton",
           "score": ""
         }
       ],
@@ -1135,6 +1135,41 @@
   ],
   "stories": [
     {
+      "title": "Aston Villa v Manchester City: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live",
+      "date": "2026-10-24T11:46:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Tottenham host Arsenal in WSL, Premier League, EFL and more – football clockwatch live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
+      "date": "2026-10-24T11:44:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales grind out frustrating WXV win against Japan",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg6j9je3w4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:34:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Barnsley legend Barry 'Spud' Murphy dies",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqljyyg1lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:27:40Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Ferguson's first game as Glentoran boss postponed",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cmy4x7zvv28ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:14:04Z",
+      "league": "all"
+    },
+    {
       "title": "Poor England suffer another Australia humiliation",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y43x20y0wjo?at_medium=RSS&at_campaign=rss",
@@ -1142,17 +1177,17 @@
       "league": "all"
     },
     {
+      "title": "Plan for Northern Olympics to get £7m in Healey's Budget",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cv98z92ekg9zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:00:48Z",
+      "league": "all"
+    },
+    {
       "title": "Australia crush England in women’s Rugby League World Cup statement win",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
       "date": "2026-10-24T10:59:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Aston Villa v Manchester City: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live",
-      "date": "2026-10-24T10:57:03Z",
       "league": "all"
     },
     {
@@ -1181,13 +1216,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cr93zwx9pzv9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T10:01:42Z",
-      "league": "all"
-    },
-    {
-      "title": "‘It was so magical’: the 33-year-old who made history swimming the length of California",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/oct/24/catherine-breed-interview-swim-california-coastline",
-      "date": "2026-10-24T10:00:31Z",
       "league": "all"
     },
     {
@@ -1255,17 +1283,17 @@
     },
     {
       "title": "Why Tottenham v Arsenal could define their seasons - live on BBC One",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck240l3n774zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T06:02:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cknv01g9n27do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T05:41:29Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "The sexual assault scandal rocked gymnastics – but has pace of change in the sport been too slow?",
@@ -1318,10 +1346,10 @@
     },
     {
       "title": "'Best team in the Championship' - Boro lay down marker",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65ynq95xdw5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T23:14:00Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Dallas Cowboys cheerleaders unionize after years of fighting for fair pay",
@@ -1419,34 +1447,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/23/change-captain-play-the-kids-how-to-solve-the-problems-at-manchester-united",
       "date": "2026-10-23T19:00:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Superb Samoa run riot to inflict heavy defeat on woeful Wales",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm2d1v0jr48o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T17:43:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Spygate put me in difficult position - Southampton technical director",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmjrwjl1j27do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T17:23:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Premier League, Antonelli goes for F1 title, plus WSL and clásico action – follow with us",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
-      "date": "2026-10-23T16:10:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Bavuma’s nine-hour masterpiece was art we risk losing in Test cricket’s great purge | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/temba-bavuma-masterpiece-risk-losing-south-africa-test-cricket-purge",
-      "date": "2026-10-23T16:00:08Z",
       "league": "all"
     }
   ]
