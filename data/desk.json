@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T19:38:29+00:00",
+  "updated_at": "2026-10-24T20:01:50+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -32,16 +32,65 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
-      "id": "63ce756214018c0ed7603aef",
-      "title": "Ukraine: Starlink satellite speeds restored to normal",
-      "summary": "The announcement comes after Starlink and Starshield restrictions had disrupted military operations in Ukraine and sparked tensions with the US.",
-      "url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
+      "id": "0986f4f7680e057da9c72772",
+      "title": "Amber warnings kick in as Storm Boelo brings 70mph wind gusts to parts of UK",
+      "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
+      "url": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T19:33:00+00:00",
+      "published_at": "2026-10-24T20:01:23+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0dfeec45c0f12860204fb067",
+      "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+      "summary": "Lawsuits filed by candidate Mary Peltola and a voters' rights group challenge Trump's preemptive efforts to block a Democratic Senate victory in Alaska.",
+      "url": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T19:57:24+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "EEBS27",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Capitol building from the east side (front)",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
+    },
+    {
+      "id": "8ef3479ff7eb2d75b9fd9877",
+      "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+      "summary": "The demonstration in Milan remained peaceful, but there were brief clashes with police in both Rome and Turin.",
+      "url": "https://www.pbs.org/newshour/world/soldiers-guard-center-of-milan-as-thousands-of-protesters-march-in-cities-across-europe",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T19:50:31+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d4f305f0f7f002cdb557fc39",
+      "title": "Six Flags to reopen Goliath rollercoaster – but now with seatbelts after recent rider death",
+      "summary": "Hassan Jihad Ibn Kariem fell from ride earlier this month, spurring amusement park to temporarily shut it down Six Flags will install seatbelts on its Goliath rollercoaster in Georgia , after a rider plummeted to his death earlier this month. Hassan Jihad Ibn Kariem, a 42-year-old father and educator, was thrown from his seat on the Goliath, a coaster that plunges riders down 165ft, before a second drop of 180ft. On his way down, he collided with the ride’s other cars. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/24/six-flags-goliath-rollercoaster-seatbelts",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T19:44:36+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -53,8 +102,34 @@
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T19:25:45+00:00",
+      "published_at": "2026-10-24T19:40:13+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d58590effe1c443fb536bca4",
+      "title": "Watch: Fireworks and tear gas as protesters and riot police clash in Paris",
+      "summary": "Europe correspondent Nick Beake reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
+      "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T19:37:35+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "63ce756214018c0ed7603aef",
+      "title": "Ukraine: Starlink satellite speeds restored to normal",
+      "summary": "The announcement comes after Starlink and Starshield restrictions had disrupted military operations in Ukraine and sparked tensions with the US.",
+      "url": "https://www.dw.com/en/ukraine-starlink-satellite-speeds-restored-to-normal/a-79752155?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T19:33:00+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -133,19 +208,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T19:00:00+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0986f4f7680e057da9c72772",
-      "title": "UK braces for worst of Storm Boelo as amber warnings due to come into force",
-      "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T18:56:46+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -303,7 +365,7 @@
     },
     {
       "id": "3fcd6f10560124f915c94c5a",
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
       "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
       "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -1269,7 +1331,7 @@
       "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
       "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T12:12:40+00:00",
@@ -3294,11 +3356,11 @@
       "summary": "Jonathan Capehart of MS NOW and National Review editor Ramesh Ponnuru join Geoff Bennett to discuss the week in politics, including the Trump administration's legal fight over a closely watched Senate race in Alaska, reports that Elon Musk restricted Ukraine's access to Starlink and Vivek Ramaswamy's personal ad attacking his opponent in the Ohio governor's race.",
       "url": "https://www.pbs.org/newshour/show/capehart-and-ponnuru-on-trumps-threat-to-block-alaska-election-results",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T22:40:57+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5467,58 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T14:25:24+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2d6dbaaf42673d27790c560c",
-      "title": "Romania blames Russia for ship attack in the Black Sea",
-      "summary": "Russian strikes against ships attempting to export Ukrainian grain and cargo through the western Black Sea have sharply increased this month.",
-      "url": "https://www.dw.com/en/romania-blames-russia-for-ship-attack-in-the-black-sea/a-79743425?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:25:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "324aa7093b855cfb2d2f25e0",
-      "title": "Ukraine tries to shut Moscow's airports with drone strikes on Russia",
-      "summary": "Repeated Ukrainian drone attacks are increasingly disrupting operations at Moscow's airports. The pounding is part of Ukraine's plan to shut down Russia's airpace.",
-      "url": "https://www.dw.com/en/ukraine-tries-to-shut-moscow-s-airports-with-drone-strikes-on-russia/a-79737469?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:23:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2737691fb5ee46c61e1cb52e",
-      "title": "Jordan: Karak church shooting leaves 6 dead, dozens injured",
-      "summary": "A shooting at a Greek Orthodox church in southern Jordan happened during a funeral, according to local authorities. Two unidentified men opened fire on the procession.",
-      "url": "https://www.dw.com/en/jordan-karak-church-shooting-leaves-6-dead-dozens-injured/a-79743535?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:22:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e96bbf92ded75d1f9e7f5d36",
-      "title": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House – Europe live",
-      "summary": "Residents in Oleshky have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources The French prime minister Sébastien Lecornu has just issued a statement on a shooting in a town west of Paris this morning where one person was killed and four others injured. Police said a gunman had opened fire in Trappes, in the Yvelines, and neighbouring La Verriere. The gunman was later arrested in nearby Coignieres. Continue reading...",
-      "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:21:39+00:00",
-      "desk_priority": 46,
       "selection_type": "automatic"
     }
   ]
