@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T00:08:56Z",
+  "updated_at": "2026-10-24T01:13:06Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 14,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -1019,58 +1019,39 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591651",
+      "id": "sportsdb-2591652",
       "league": "nhl",
-      "name": "Colorado Avalanche vs Tampa Bay Lightning",
-      "date": "2026-10-24T01:00:00Z",
+      "name": "Philadelphia Flyers vs Anaheim Ducks",
+      "date": "2026-10-24T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado Avalanche",
+          "name": "Philadelphia Flyers",
           "score": ""
         },
         {
-          "name": "Tampa Bay Lightning",
+          "name": "Anaheim Ducks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499118",
+      "id": "sportsdb-2499120",
       "league": "ncaaf",
-      "name": "Tulsa vs Army",
-      "date": "2026-10-24T00:30:00Z",
+      "name": "Stanford vs NC State",
+      "date": "2026-10-24T02:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Tulsa",
+          "name": "Stanford",
           "score": ""
         },
         {
-          "name": "Army",
+          "name": "NC State",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494075",
-      "league": "epl",
-      "name": "Ipswich Town vs Nottingham Forest",
-      "date": "2026-10-23T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Ipswich Town",
-          "score": "1"
-        },
-        {
-          "name": "Nottingham Forest",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1146,63 +1127,6 @@
         },
         {
           "name": "Bologna",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492896",
-      "league": "j1",
-      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
-      "date": "2026-10-24T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Sanfrecce Hiroshima",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
