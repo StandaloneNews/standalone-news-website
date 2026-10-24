@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T01:56:15Z",
+  "updated_at": "2026-10-24T02:18:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -981,19 +981,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601690",
+      "id": "sportsdb-2601693",
       "league": "nba",
-      "name": "Golden State Warriors vs Memphis Grizzlies",
-      "date": "2026-10-24T02:00:00Z",
+      "name": "Charlotte Hornets vs Miami Heat",
+      "date": "2026-10-24T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Golden State Warriors",
+          "name": "Charlotte Hornets",
           "score": ""
         },
         {
-          "name": "Memphis Grizzlies",
+          "name": "Miami Heat",
           "score": ""
         }
       ],
@@ -1131,9 +1131,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "England suffer back-to-back losses to Canada",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmx235877eexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T01:53:24Z",
+      "league": "all"
+    },
     {
       "title": "Red Roses suffer back-to-back defeats for first time in a decade as Canada make statement",
       "source": "The Guardian Sport",
@@ -1441,13 +1486,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/23/world-olympic-marathon-champion-peres-jepchirchir-suspended-positive-doping-test-athletics",
       "date": "2026-10-23T12:31:29Z",
       "league": "all"
-    },
-    {
-      "title": "Cost of football regulator double initial estimate",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6lylk1zyqd7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T12:19:33Z",
-      "league": "soccer"
     }
   ]
 }
