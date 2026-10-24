@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-24T13:42:13+00:00",
+  "updated_at": "2026-10-24T14:07:51+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
+    "513a7ebd8728edf4036d0899",
     "d72f8bdd63510eb1efb4c43b",
+    "2580e8ace053b205c779ca96",
     "fd32ce4d6894cdde5b55e030",
-    "915e0f9c258a537bfdfb19b3",
     "0ee827c5ff4681a907e6caf4",
     "cb9e130b00a2c49e457d6a78",
     "97c227bfaa08472768aae88e",
-    "d824cd6e4750097a85f4cedc",
     "3f608aa0fdc831940fd4ffb4",
     "9a84e512118d6a33bd05cfc9",
     "30d099cfe4352aee8d2dc677",
@@ -22,26 +22,101 @@
     "c607acd134ae7bf2ae26c174",
     "7585d6c3d9a14f239d46ecde",
     "01e32f5bb0541a073e69fd48",
+    "ba1e969f5ed16b52b1196083",
+    "79912674b2ceb12330c39dea",
     "46c87946e1cd014d7928e918",
     "f2e322fa437ac2c5ad049651",
     "1a7ddd20c143c34d1a371603",
-    "d7892e3bcefec72b9e941c36",
-    "229bf54074483e7727ef425b",
-    "c82d4c2fb894a357575d2327"
+    "229bf54074483e7727ef425b"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
       "id": "7c2eaa95742e889dfcc1a80e",
-      "title": "Thousands march in Paris as protests take place across Europe – Europe live",
+      "title": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
       "summary": "French police have made 135 arrests, while Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading...",
       "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
       "source": "The Guardian",
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T13:25:45+00:00",
+      "published_at": "2026-10-24T14:03:18+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ba1e969f5ed16b52b1196083",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T14:00:00+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "79912674b2ceb12330c39dea",
+      "title": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+      "summary": "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this is a lot of what I want from a touchscreen MacBook. Like the Apple silicon in modern MacBook Pros, RTX Spark is […]",
+      "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T14:00:00+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "dd97a3b73a37cc20c3a74d55",
+      "title": "Who was behind the deadly church shooting in Jordan?",
+      "summary": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T13:39:26+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "4d5e52cf2ccc8bf7c61a368e",
+      "title": "Kim Jong-un crosses newly opened bridge into China",
+      "summary": "North Korean leader travels over New Yalu River Bridge to meet senior Communist party member Kim Jong-un has visited China, inaugurating a bridge that connects the two countries and saying he hopes to expand cooperation with his neighbour. The North Korean leader arrived in the Chinese border city of Dandong on Saturday after crossing the New Yalu River Bridge, according to South Korea’s unification ministry, which handles affairs related to North Korea, and China’s official Xinhua news agency. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T13:34:56+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
+        "label": "Illustrative photo",
+        "matched_query": "Beijing China skyline"
+      }
+    },
+    {
+      "id": "2580e8ace053b205c779ca96",
+      "title": "Netanyahu floats Crypto to bypass sanctions",
+      "summary": "Netanyahu floats Crypto to bypass sanctions",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T13:27:11+00:00",
+      "desk_priority": 51,
       "selection_type": "automatic"
     },
     {
@@ -55,6 +130,32 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T13:17:13+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "305d4953415f3861db1f1a69",
+      "title": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
+      "summary": "A Palestinian man is facing Israeli settler attacks and a demolition order from Israeli forces in Umm Safa village.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T13:16:23+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "2b05c2266898a2e79b43061e",
+      "title": "FIFA’s Infantino touts global re-election support amid resignation questions",
+      "summary": "Support from Asian federation bolsters FIFA's Gianni Infantino as he seeks re-election as president for a fourth term.",
+      "url": "https://www.aljazeera.com/sports/2026/10/24/fifas-infantino-touts-global-re-election-support-amid-resignation-questions?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T13:12:03+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -149,29 +250,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "4d5e52cf2ccc8bf7c61a368e",
-      "title": "Kim Jong-un crosses newly opened bridge into China",
-      "summary": "North Korean leader travels over New Yalu River Bridge to meet senior Communist party member Kim Jong-un has visited China, inaugurating a bridge that connects the two countries and saying he hopes to expand cooperation with his neighbour. The North Korean leader arrived in the Chinese border city of Dandong on Saturday after crossing the New Yalu River Bridge, according to South Korea’s unification ministry, which handles affairs related to North Korea, and China’s official Xinhua news agency. Continue reading...",
-      "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T12:54:33+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
-    },
-    {
       "id": "b8133e4e69d10730660781ba",
       "title": "Is Iran planning attacks on Americans; why is the US on alert?",
       "summary": "US intelligence memo warns that Iranian plots against US citizens in the Middle East 'have reached advanced stages'.",
@@ -208,17 +286,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T12:30:42+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Kyle Taylor from London, 84 Countries",
-        "license": "CC BY 2.0",
-        "description": "Israel - Jerusalem - Old City",
-        "label": "Illustrative photo",
-        "matched_query": "Jerusalem Israel skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "1a7ddd20c143c34d1a371603",
@@ -533,6 +601,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "513a7ebd8728edf4036d0899",
+      "title": "America by the numbers: How voters feel about the economy, inflation, AI and Trump",
+      "summary": "With the U.S. midterm elections looming, Americans are nearly as gloomy about the economy as they were when the nation was emerging from the pandemic.",
+      "url": "https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T10:58:30+00:00",
+      "desk_priority": 65,
+      "selection_type": "automatic"
+    },
+    {
       "id": "8cdc437fc7a2230b9efe2658",
       "title": "Deadly ‘racist’ attack in France: Are hate crimes rising in Europe?",
       "summary": "Monitoring group reports more Muslims in Europe face racial discrimination as 'terrorist' attack kills one in France.",
@@ -612,7 +693,7 @@
     },
     {
       "id": "fe9a0c0581a9061805c695cc",
-      "title": "France braces for another day of mass protests as security on high alert",
+      "title": "France security on high alert as another day of mass protests kicks off",
       "summary": "Several planned marches in major cities in France have been banned by authorities, provoking an uproar by rights groups.",
       "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
       "source": "Al Jazeera English",
@@ -780,6 +861,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "d14f1415a00f6f282482545a",
+      "title": "Three released without charge after fatal arson attack in Ireland",
+      "summary": "Three people - two women and one man - have been released, and one person remains in custody, gardaí say.",
+      "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T09:38:28+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "a16392919788b46ac05cd4a0",
       "title": "France prepares for day of protest a week after nationwide riots",
       "summary": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.",
@@ -855,6 +949,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T09:14:40+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b9b2ee89209694fc4f2dfe7a",
+      "title": "‘Unlike anything we’ve experienced’: fans swarm San Francisco for BTS star’s art exhibition",
+      "summary": "K-pop star RM gave a boost to the previously struggling SFMOMA with an exhibition of over 100 pieces from his collection Two years ago, RM of the wildly popular K-pop boyband BTS was serving as a soldier in the South Korean military when he received an offer from América Castillo, a museum curator in San Francisco: would he consider an exhibition of his private art collection? “I loved it,” said RM (real name: Kim Namjoon) at the media preview of RM x SFMOMA: Between You and Me , a new exhibition that opened in San Francisco earlier this month and is co-curated by SFMOMA’s Castillo and Hyoeun Kim. “There aren’t many things that show a person more honestly than a collection they’ve built over a long period of time.” Continue reading...",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/24/rm-bts-sfmoma-exhibition",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T09:00:29+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -1193,6 +1300,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T06:41:14+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b8657df96fed5bc28ae795e6",
+      "title": "Live: Fresh protests hit France amid heightened security",
+      "summary": "Police and elite security forces are out in force in French cities as thousands participate in a new round of protests. The protest location was changed last minute in Paris. Follow DW.",
+      "url": "https://www.dw.com/en/live-fresh-protests-hit-france-amid-heightened-security/live-79748223?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T06:34:00+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -1982,6 +2102,19 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T23:10:42+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8ab033ab0116758382d0247a",
+      "title": "North Korea has opened up bridges to Russia and China – in which direction will it go?",
+      "summary": "Kim Jong-un has opened the borders to both his key allies in Xi Jinping and Vladimir Putin, but for different reasons For more than a decade, local Chinese residents pilloried it as nothing more than an empty bridge that led to a North Korean vegetable patch on the other side. Fast forward 12 years and dozens of trucks are now traversing the bridge linking China to North Korea, boosting trade for the reclusive regime. But it has also triggered concern that it could intensify a struggle for influence over the North between Beijing and the region’s other major power, Russia. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/24/north-korea-new-yalu-river-bridge-russia-china",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-23T23:10:16+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -5386,149 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T11:30:32+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2b62f0b988efa07980d7ce62",
-      "title": "The young Americans choosing Y2K cars over shiny new SUVs: ‘I get so much crap from people’",
-      "summary": "People under 35 are hunting for no-frills rides they can pay for in cash and fix themselves – defying expectations to take on steep loans Jack Price joined the marines in fall 2021 knowing he would need a car to get around base and that he couldn’t afford a new one. A joyless, month-long search through dealer classifieds and Facebook Marketplace listings ended when his mother spotted a 2010 Volkswagen Jetta posted on her office listserv by a co-worker moving abroad. With just 60,000 miles (96,560km) on the meter, the car (a manual!) was mechanically sound, and the air conditioning, sunroof and Bluetooth radio worked too. At $6,000, it was a steal. Price paid in cash. Five years on, the Jetta, which he called the Pewter Pebble, is still carting him from A to B in unassuming style. “I’ve completely driven it into the ground,” says the 30-ye",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/y2k-used-cars-gen-z",
-      "source": "The Guardian",
-      "feed_id": "guardian_business",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:30:24+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b435b17c21edf8f3686a1b73",
-      "title": "‘Pink blooms from among the rubble’: Battling breast cancer in Gaza",
-      "summary": "Health workers in Gaza are participating in a breast cancer campaign called ‘pink blooms from among the rubble’.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/pink-blooms-from-among-the-rubble-battling-breast-cancer-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:27:35+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5d8e2068efc11becf40261e8",
-      "title": "The Maga governor candidate in the Maga state who is not talking about Trump",
-      "summary": "Byron Donalds removed mentions of the president from his website and has barely uttered his name – will his ploy prove successful in a tight governor’s race? It took Byron Donalds, addressing a wildly supportive crowd at a rally in Florida’s bluest county, some time to list those he blamed for any “affordability” issues they might be experiencing. Joe Biden, and the radical policies of the Democrats, were at fault, the Republican nominee for Florida governor insisted in his stump speech at Broward county’s Green Glades West ranch, even though neither has wielded power in Washington for almost two years. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/byron-donalds-florida-trump",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:22:38+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4fc8d01d3c44b1b3afab6afe",
-      "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
-      "summary": "Military reinforcements are heading to the Middle East and some personnel have left the region, pointing to a potential attack on Iran. And, millions of Americans have already voted in the midterms.",
-      "url": "https://www.npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
-      "source": "NPR",
-      "feed_id": "npr_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:22:25+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "38786a2db879ba00134272a9",
-      "title": "France: 1 killed, 4 wounded after shooting near Paris",
-      "summary": "French police arrested a suspect after gunshots were fired on the outskirts of Paris in what President Macron described as a racist and terrorist attack.",
-      "url": "https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:22:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2224d3d3995abba392e43a3e",
-      "title": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
-      "summary": "Both Putin and Zelenskyy said Thursday they were open for peace negotiations, even as they continued strikes overnight.",
-      "url": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:16:30+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1c0b537cad1f49749d37ee6e",
-      "title": "France is flashing euro crisis signals. This time, the fault lines are different",
-      "summary": "French borrowing costs have surged as debt and political risks mount, raising questions over whether the stress could spread across the euro zone.",
-      "url": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:12:38+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "46309e4a80cb57cbd57f294b",
-      "title": "Leaked trove reveals extent of far-right AfD’s efforts to court Trump and Maga allies",
-      "summary": "Exclusive: Documents show German party’s scramble to request support after president’s 2016 election win and co-leader’s pursuit of Steve Bannon A data leak from Germany’s far-right German Alternative für Deutschland (AfD) has revealed the extent of efforts by the party to court Donald Trump and other leading figures in the Maga movement, stretching back more than a decade. The trove reveals the pains the AfD took in wooing the president, whom they saw from the beginning as a potential ally, with senior party officials agonising over the wording of an obsequious congratulatory telegram when he was elected in 2016, which included the wish that his “hopes as a person be fulfilled”. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/trump-afd-maga-allies",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:07:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "537f243f9bfbf9e3c09d2022",
-      "title": "France tightens security in anticipation of weekend protests",
-      "summary": "Gatherings banned and curfews extended as cities lock down in an effort to avert further unrest.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/france-tightens-security-in-anticipation-of-weekend-protests?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:05:13+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ed8742a34c4ce7796746f735",
-      "title": "What’s up with Trump’s unhinged fixation on male candidates’ bodies?",
-      "summary": "Trump’s latest tactic to champion Republicans at midterm rallies? Assessing men’s bodies in meticulous detail Speaking at a rally in Youngstown, Ohio, earlier this month, to support the Republican senator Jon Husted, Donald Trump broke from his prepared remarks. Trump said he had recently learned that Husted played football at university. The president, 80, said this had prompted him to conduct a physical assessment of Husted. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/trump-midterm-rallies-male-bodies",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:00:32+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "bc7312aeed271808a900a290",
-      "title": "‘They wanted to make a scene’: the 72-year-old paraded in dramatic arrest for ‘voter fraud’",
-      "summary": "Omar Muñoz, one of 28 people charged in California, speaks out about being dragged from his home in front of cameras as DoJ accused of ‘disgusting’ PR campaign Omar Muñoz was getting ready to have his morning coffee just after 5am on Monday when he heard a loud bang at the front door of his Los Angeles home. “Open up or else we’ll break down the door, and it’ll be bad for you,” the man on the other side yelled, Muñoz, 72, recalled. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/california-voter-fraud-arrest",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T11:00:31+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
