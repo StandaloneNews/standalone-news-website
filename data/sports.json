@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T03:16:27Z",
+  "updated_at": "2026-10-24T03:55:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -1131,6 +1131,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1142,7 +1180,7 @@
       "league": "all"
     },
     {
-      "title": "Red Roses suffer back-to-back defeats for first time in a decade as Canada make statement",
+      "title": "Red Roses suffer back-to-back defeats for first time in 10 years as Canada make statement",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/canada-england-red-roses-wxv-rugby-union-match-report",
       "date": "2026-10-24T01:27:21Z",
@@ -1409,10 +1447,10 @@
     },
     {
       "title": "A-Leagues look past Manchester City distraction to ‘showpiece’ Melbourne derby",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/a-leagues-showpiece-melbourne-derby",
       "date": "2026-10-23T14:00:29Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Carrick refuses to rule out dropping Fernandes in emotional address",
