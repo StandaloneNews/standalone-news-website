@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T14:10:12Z",
+  "updated_at": "2026-10-24T14:49:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -1076,19 +1076,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506268",
+      "id": "sportsdb-2506262",
       "league": "laliga",
-      "name": "Racing de Santander vs Espanyol",
-      "date": "2026-10-24T14:15:00Z",
+      "name": "Valencia vs Villarreal",
+      "date": "2026-10-24T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Racing de Santander",
+          "name": "Valencia",
           "score": ""
         },
         {
-          "name": "Espanyol",
+          "name": "Villarreal",
           "score": ""
         }
       ],
@@ -1131,14 +1131,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489532",
+      "league": "ligue1",
+      "name": "Lens vs Paris FC",
+      "date": "2026-10-24T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Arsenal v Everton, Coventry v Fulham, EFL, and more – football clockwatch live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
-      "date": "2026-10-24T14:07:25Z",
+      "date": "2026-10-24T14:45:16Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Championship roundup: Portsmouth ride luck to beat Millwall; Norwich back to winning ways",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
+      "date": "2026-10-24T14:30:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T14:20:04Z",
+      "league": "all"
+    },
+    {
+      "title": "England crush France 82-0 to stay in World Cup contention",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T14:19:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Rising US star Fred Richard wins first world gymnastics title with floor gold",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/frederick-richard-floor-gold-world-gymnastics-championships-rotterdam",
+      "date": "2026-10-24T14:06:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Ulster still without URC win after defeat by Bulls",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crz9848xv2xko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T14:04:19Z",
       "league": "all"
     },
     {
@@ -1146,6 +1200,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cv5yn9nw17d0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T14:02:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Relief for Slegers as Russo rescues Arsenal against Tottenham in WSL",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
+      "date": "2026-10-24T13:59:27Z",
       "league": "all"
     },
     {
@@ -1248,10 +1309,10 @@
     },
     {
       "title": "Vincent Kompany to miss ‘weeks, not days’ with virus treatment, say Bayern Munich",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/vincent-kompany-recovery-virus-bayern-munich-bundesliga-football",
       "date": "2026-10-24T09:40:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "No panic for England but Mitchell issues PWR warning",
@@ -1297,10 +1358,10 @@
     },
     {
       "title": "Volkanovski nears featherweight immortality as record beckons",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq5ynjgkn68vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T06:52:41Z",
-      "league": "all"
+      "league": "ufc"
     },
     {
       "title": "Smith v Puello world title fight predictions",
@@ -1405,48 +1466,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/23/arsenal-arteta-concerned-saka-durability-six-week-absence",
       "date": "2026-10-23T21:33:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Villa could reconsider Garnacho deal - Saturday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwn73kzzr8veo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T21:32:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Premier League news: Spurs’ nine injuries ‘normal’, says De Zerbi; ‘emotional control’ keeps Blues red-free",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/23/premier-league-news-spurs-nine-injuries-normal-says-de-zerbi-emotional-control-keeps-blues-red-free",
-      "date": "2026-10-23T21:30:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Enciso rescues point in storm for Ipswich to deny Nottingham Forest",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/23/ipswich-nottingham-forest-premier-league-match-report",
-      "date": "2026-10-23T21:07:50Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Kinsella nails floor routine in all-around final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c9146vp0jddro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T20:20:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Cheltenham’s racing return provides romance over jumps and 20-1 shock",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/cheltenhams-long-awaited-return-proves-romance-lives-on-in-jumps-racing",
-      "date": "2026-10-23T19:32:55Z",
-      "league": "all"
-    },
-    {
-      "title": "NWSL drops controversial criteria around ‘Rodman Rule’ in settlement with NWSLPA",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/23/nwsl-rodman-rule-hip-rule-changes",
-      "date": "2026-10-23T19:25:20Z",
       "league": "soccer"
     }
   ]
