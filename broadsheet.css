@@ -314,3 +314,26 @@ body.theme-broadsheet.home-broadsheet :is(
   font-size:11px!important;
   line-height:1.55!important;
 }
+
+/* Accessibility refinements: WCAG AA contrast on newsprint.
+   Homepage latest sequence numbers: #304653 on #f9f8f3 > 9:1.
+   Style must outrank legacy mobile/light-gray utility declarations. */
+body.theme-broadsheet.home-broadsheet .latest-card .latest-items .latest-row .latest-index,
+body.theme-broadsheet.home-broadsheet .latest-row > .latest-index,
+body.theme-broadsheet.home-broadsheet .latest-items .latest-index {
+  color:#304653!important;
+  opacity:1!important;
+  -webkit-text-fill-color:#304653!important;
+  font-size:13px!important;
+  font-weight:700!important;
+}
+body.theme-broadsheet.home-broadsheet .edition-note > span,
+body.theme-broadsheet.home-broadsheet .edition-note strong,
+body.theme-broadsheet.home-broadsheet .latest-card .small-meta{
+  color:#304653!important;
+  opacity:1!important;
+}
+body.theme-broadsheet .edition-flag{margin:0}
+body.theme-broadsheet.home-broadsheet .edition-flag{color:#eff5f5!important}
+body.theme-broadsheet.home-broadsheet .utility-right,
+body.theme-broadsheet.home-broadsheet .utility-right a{color:#eff5f5!important}
