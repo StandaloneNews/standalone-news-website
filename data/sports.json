@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T19:44:50Z",
+  "updated_at": "2026-10-24T20:06:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499111",
+      "id": "sportsdb-2499107",
       "league": "ncaaf",
-      "name": "Ohio vs Eastern Michigan",
-      "date": "2026-10-24T20:00:00Z",
+      "name": "Nevada vs San Jose State",
+      "date": "2026-10-24T21:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Ohio",
+          "name": "Nevada",
           "score": ""
         },
         {
-          "name": "Eastern Michigan",
+          "name": "San Jose State",
           "score": ""
         }
       ],
@@ -996,34 +996,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Strikers finding form as Rangers bounce back",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6g7xy80e7m7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:54:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Huddersfield on top, but difficult days for Derby - Sam Parkin's EFL takeaways",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmglw82kz4njo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:35:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Valkyries hold off Dream comeback to win Game 4 and level WNBA finals at 2-2",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/golden-state-valkyries-atlanta-dream-game-four-wnba-finals",
+      "date": "2026-10-24T19:35:03Z",
+      "league": "all"
+    },
+    {
       "title": "European football: Roma snatch late draw in 3-3 thriller as Como win again",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
       "date": "2026-10-24T19:27:13Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "'We could have played better' - Alonso disappointed after defeat",
@@ -1033,7 +1035,7 @@
       "league": "soccer"
     },
     {
-      "title": "Spurs pick up rare Stamford Bridge win as Palmer sent off",
+      "title": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T19:17:06Z",
@@ -1132,10 +1134,10 @@
     },
     {
       "title": "Burnley sack Nicky Hayen after Lincoln rout leaves them in bottom three",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/burnley-sack-nicky-hayen-lincoln-rout-championship",
       "date": "2026-10-24T18:05:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'A massive storage of images': Arteta has technical area receipts",
@@ -1209,10 +1211,10 @@
     },
     {
       "title": "Maresca ‘not worried’ by Guéhi’s gaffes as Aston Villa end City’s flawless start",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/maresca-guehi-errors-aston-villa-manchester-city-premier-league",
       "date": "2026-10-24T15:16:45Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Jarman makes British gymnastics history with World floor silver",
@@ -1257,13 +1259,6 @@
       "league": "all"
     },
     {
-      "title": "Rising US star Fred Richard wins first world gymnastics title as Skye Blakely adds two more medals",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/frederick-richard-floor-gold-world-gymnastics-championships-rotterdam",
-      "date": "2026-10-24T14:06:48Z",
-      "league": "all"
-    },
-    {
       "title": "'We had to change after Vegas' - but England suffer another humbling",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cv5yn9nw17d0o?at_medium=RSS&at_campaign=rss",
@@ -1282,13 +1277,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c3n04k4vnn51o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T13:38:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Nicolas Jackson double sees Aston Villa end Manchester City’s perfect start",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/aston-villa-manchester-city-premier-league-match-report",
-      "date": "2026-10-24T13:33:01Z",
       "league": "all"
     },
     {
@@ -1325,13 +1313,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
       "date": "2026-10-24T10:59:10Z",
       "league": "all"
-    },
-    {
-      "title": "Infantino says he is backed by 'vast majority'",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T10:30:08Z",
-      "league": "soccer"
     }
   ]
 }
