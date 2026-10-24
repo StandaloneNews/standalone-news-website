@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T22:09:48Z",
+  "updated_at": "2026-10-24T22:47:09Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -73,27 +73,27 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -827,6 +827,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601693",
+      "league": "nba",
+      "name": "Charlotte Hornets vs Miami Heat",
+      "date": "2026-10-24T22:00:00Z",
+      "state": "upcoming",
+      "status": "Q1",
+      "participants": [
+        {
+          "name": "Charlotte Hornets",
+          "score": ""
+        },
+        {
+          "name": "Miami Heat",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601694",
       "league": "nba",
       "name": "Cleveland Cavaliers vs Brooklyn Nets",
@@ -884,19 +903,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499124",
+      "id": "sportsdb-2499086",
       "league": "ncaaf",
-      "name": "Colorado State vs San Diego State",
-      "date": "2026-10-24T22:30:00Z",
+      "name": "Oklahoma State vs Colorado",
+      "date": "2026-10-24T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado State",
+          "name": "Oklahoma State",
           "score": ""
         },
         {
-          "name": "San Diego State",
+          "name": "Colorado",
           "score": ""
         }
       ],
@@ -1015,14 +1034,156 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2398508",
+      "league": "brasileirao",
+      "name": "Santos vs Bahia",
+      "date": "2026-10-25T00:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Santos",
+          "score": ""
+        },
+        {
+          "name": "Bahia",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398156",
+      "league": "argentina",
+      "name": "Rosario Central vs Huracán",
+      "date": "2026-10-25T00:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Rosario Central",
+          "score": ""
+        },
+        {
+          "name": "Huracán",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487571",
+      "league": "ligamx",
+      "name": "León vs Toluca",
+      "date": "2026-10-24T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "León",
+          "score": ""
+        },
+        {
+          "name": "Toluca",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492895",
+      "league": "j1",
+      "name": "Nagoya Grampus vs Yokohama F Marinos",
+      "date": "2026-10-25T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nagoya Grampus",
+          "score": ""
+        },
+        {
+          "name": "Yokohama F Marinos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540116",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Central Coast Mariners",
+      "date": "2026-10-25T02:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407160",
+      "league": "mls",
+      "name": "Orlando City vs New York City FC",
+      "date": "2026-10-24T23:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Orlando City",
+          "score": ""
+        },
+        {
+          "name": "New York City FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Watch Match of the Day on iPlayer",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:40:55Z",
+      "league": "all"
+    },
+    {
       "title": "United States Grand Prix: Kimi Antonelli takes pole – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
-      "date": "2026-10-24T22:08:26Z",
+      "date": "2026-10-24T22:30:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Volkanovski stops Evloev for record ninth title win",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckvg7j2p471lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:30:45Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Symonds scores screamer as Brighton beat West Ham",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmjrwjlx5q3wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:23:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli takes US pole on weekend he can win title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:15:34Z",
       "league": "all"
     },
     {
@@ -1124,7 +1285,7 @@
       "league": "all"
     },
     {
-      "title": "Winds of change are coming for Australia as selection storm brews in South Africa",
+      "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
       "date": "2026-10-24T19:00:41Z",
@@ -1222,6 +1383,13 @@
       "league": "soccer"
     },
     {
+      "title": "Spurs boss Ho wants 'more support and training' for WSL referees",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7q47dd0e7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T16:27:59Z",
+      "league": "soccer"
+    },
+    {
       "title": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report",
@@ -1285,13 +1453,6 @@
       "league": "all"
     },
     {
-      "title": "England crush France 82-0 to stay in World Cup contention",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6vg0r05ypyeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T14:19:54Z",
-      "league": "all"
-    },
-    {
       "title": "'We had to change after Vegas' - but England suffer another humbling",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cv5yn9nw17d0o?at_medium=RSS&at_campaign=rss",
@@ -1303,34 +1464,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
       "date": "2026-10-24T13:59:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Jackson stars with two goals - player ratings for Aston Villa v Man City",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4g14j85y9xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T13:25:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "68-point swing and a Tonga win - how England avoid World Cup exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6wyvpz0epywo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T13:12:45Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
-      "date": "2026-10-24T13:07:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia crush England in women’s Rugby League World Cup statement win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
-      "date": "2026-10-24T10:59:10Z",
       "league": "all"
     }
   ]
