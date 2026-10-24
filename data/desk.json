@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T22:41:33+00:00",
+  "updated_at": "2026-10-24T23:06:08+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -16,10 +16,10 @@
     "9a84e512118d6a33bd05cfc9",
     "30d099cfe4352aee8d2dc677",
     "d2f08bc4bcc7ea7f197cb149",
-    "c9ac25a6124bc2703b6408fe",
     "4e39a62d1827bfc57d49c3d1",
     "c921e5a3357873ad79dd37c7",
     "4a2197c94357d90d6400ada9",
+    "f4af9502ab1fb0cd83c80a9d",
     "26afb774eaa43bf8b27e19c7",
     "c607acd134ae7bf2ae26c174",
     "36111d6bc6b4991f37ea245b",
@@ -32,16 +32,81 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "3fcd6f10560124f915c94c5a",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T23:02:06+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ce445ac607913223b55d2f06",
+      "title": "Romance Scammers Turned a Texas Man Into an Unwitting Money Mule",
+      "summary": "He fell for a beautiful woman online then found himself laundering cash for an international crime ring. “It wasn’t love toward the end.”",
+      "url": "https://www.wsj.com/us-news/romance-scammers-turned-a-texas-man-into-an-unwitting-money-mule-b440be36?mod=rss_usnews",
+      "source": "WSJ",
+      "feed_id": "wsj_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T23:00:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "f7bb82acf8de5dd0cacc1bc3",
-      "title": "Abdul El-Sayed takes stage in Michigan before Barack Obama rallies for progressive candidate – US politics live",
+      "title": "‘Change is in the air’: Barack Obama rallies for Abdul El-Sayed in Michigan – US politics live",
       "summary": "The former Democratic president is showing major support in Detroit for the progressive Michigan candidate in final days before US midterm elections Sign up for Breaking News US email Donald Trump voted in West Palm Beach, Florida today, telling reporters at the polls that he voted straight Republican on his ballot. Trump has historically mailed-in his ballot rather than voting in-person. Speaking from the polling site, Trump defended an ad from Ohio gubernatorial candidate Vivek Ramaswamy, his administration’s lawsuit seeking to block certification of the Alaska Senate race if Repubican senator Dan Sullivan loses his race and the war in Iran. Continue reading...",
       "url": "https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates",
       "source": "The Guardian",
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T22:35:52+00:00",
+      "published_at": "2026-10-24T22:52:36+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1f6258bca171e5fea12a3f24",
+      "title": "Archdiocese of New York agrees to $800 million settlement over sexual abuse claims",
+      "summary": "The 1,300 survivors of sexual abuse by clergy members and lay workers have all agreed to the settlement, according to an attorney for some of the plaintiffs.",
+      "url": "https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T22:47:58+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0986f4f7680e057da9c72772",
+      "title": "Storm Boelo amber warnings kick in as parts of UK brace for 80mph gusts",
+      "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
+      "url": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T22:44:36+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "605943d1806b7d3baa4680a1",
+      "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+      "summary": "Nigerian police say a large group carried out the attack on Binnari village in Taraba State.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T22:35:45+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -393,19 +458,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "0986f4f7680e057da9c72772",
-      "title": "Storm Boelo amber warnings kick in as parts of UK brace for 80mph gusts",
-      "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T20:30:43+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "d3798ec9a0ad0aebf7daa191",
       "title": "Will AI expose the rickety infrastructure of the internet?",
       "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
@@ -714,19 +766,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T17:25:46+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3fcd6f10560124f915c94c5a",
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
-      "summary": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
-      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T17:21:42+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -5470,45 +5509,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T15:59:36+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1e2aba2eb2307462a6ed2beb",
-      "title": "Tinned mackerel, hand-crank radios and bags for poo: crisis-prepping guides around the world",
-      "summary": "UK allies have long urged people to stockpile supplies for a crisis. How are people from France to Australia being advised to prepare? The UK has told people to fill their pantries with food for three days in case of catastrophe, joining a host of countries urging citizens to ready themselves for core systems failing. Such advice, once dismissed as the preserve of preppers , has become more common in government circles as climate breakdown worsens weather extremes and geopolitical tensions turn cyber-attacks and sabotage into a regular occurrence. Continue reading...",
-      "url": "https://www.theguardian.com/society/2026/oct/23/tinned-mackerel-hand-crank-radios-and-bags-for-poo-crisis-prepping-guides-around-the-world",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T15:52:29+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0aad64c51cf8068e925b23f5",
-      "title": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
-      "summary": "Democrats are framing the conflict as an affordability issue to criticise Republican candidates backed by Trump.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T15:51:29+00:00",
-      "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6b36c0e7b8d21f48c76f06bf",
-      "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
-      "summary": "Republicans have long accused the FBI of mishandling the laptop and the investigations into the younger Biden.",
-      "url": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T15:51:04+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
