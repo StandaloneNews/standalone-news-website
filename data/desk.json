@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T20:40:44+00:00",
+  "updated_at": "2026-10-24T21:05:50+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -20,8 +20,8 @@
     "c921e5a3357873ad79dd37c7",
     "4a2197c94357d90d6400ada9",
     "c607acd134ae7bf2ae26c174",
+    "87bb975b7408391e696c42fc",
     "d3798ec9a0ad0aebf7daa191",
-    "43fa73ddaf377eb53f4ddcb6",
     "c7aa9b7dfeaf83bd70a0235d",
     "7585d6c3d9a14f239d46ecde",
     "01e32f5bb0541a073e69fd48",
@@ -31,6 +31,58 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "aba0ba17c15dbef6d9f7f677",
+      "title": "Severe hunger stalks people in Gaza as bakeries close down",
+      "summary": "Bakeries across Gaza are struggling to find flour to make bread for people desperate for food.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/severe-hunger-stalks-people-in-gaza-as-bakeries-close-down?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:52:55+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f7bb82acf8de5dd0cacc1bc3",
+      "title": "Barack Obama to rally for Abdul El-Sayed in Michigan before key US Senate race – US politics live",
+      "summary": "The former Democratic president is showing major support in Detroit for the progressive Michigan candidate in final days before US midterm elections Sign up for Breaking News US email Barack Obama made his first appearance of the 2024 midterms campaign season today at an earlier event in Cleveland. There, the former president stumped for the Democratic Senate nominee, Sherrod Brown , and gubernatorial candidate Amy Acton . In Cleveland, Obama sharply criticized Donald Trump, and a recent ad the state’s Republican gubernatorial candidate Vivek Ramaswamy released in recent days. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:47:52+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "87bb975b7408391e696c42fc",
+      "title": "Starlink seems to be working normally again in Ukraine",
+      "summary": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
+      "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:46:34+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c0a0ccf8c248421b74d84a78",
+      "title": "Violent clashes as Albanian government cracks down on protests",
+      "summary": "Protesters in Albania have fought running battles with police, on a 12th day of anti-government protests.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:39:08+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "a54473dd33610ad21b5a52c8",
       "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
@@ -45,6 +97,29 @@
       "selection_type": "automatic"
     },
     {
+      "id": "75158c1834e1c18ed588fa82",
+      "title": "Could Israel’s military crackdown influence Tuesday’s election?",
+      "summary": "Israel preparing a full lockdown of occupied West Bank after Hebron gunfight.",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/24/could-israels-military-crackdown-influence-tuesdays-election?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:37:02+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Kyle Taylor from London, 84 Countries",
+        "license": "CC BY 2.0",
+        "description": "Israel - Jerusalem - Old City",
+        "label": "Illustrative photo",
+        "matched_query": "Jerusalem Israel skyline"
+      }
+    },
+    {
       "id": "0986f4f7680e057da9c72772",
       "title": "Storm Boelo amber warnings kick in as parts of UK brace for 80mph gusts",
       "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
@@ -55,19 +130,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T20:30:43+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f7bb82acf8de5dd0cacc1bc3",
-      "title": "Barack Obama to rally for Abdul El-Sayed in Michigan before key US Senate race – US politics live",
-      "summary": "The former Democratic president is showing major support in Detroit for the progressive Michigan candidate in final days before US midterm elections Sign up for Breaking News US email Abdul El-Sayed, a doctor and former Wayne county health director, ran on Medicare for All and a refusal to take corporate Pac money, and was backed by Bernie Sanders and Alexandria Ocasio-Cortez. He made opposition to US military aid to Israel and criticism of its conduct in Gaza central to his campaign , and has described Israel’s actions there as genocide. Aipac and its allies as a result spent a record-breaking $30m trying to stop him, according to AdImpact . Continue reading...",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T20:28:45+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -343,7 +405,7 @@
     {
       "id": "9a6a573f975948182403b1bc",
       "title": "Hundreds of thousands march across France in protests over schools and policing",
-      "summary": "Government estimates at least 400,000 people took part, but trade unions say the number is double that Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. In Paris, at least 110,000 people marched along the eastern edge of the city, according to government estimates. They supported high schoolers but also complained of the high cost of living and the government’s heavy policing, saying riot police had been sent to target school protesters over the past month, instead of the government offering political solutions. Continue reading...",
+      "summary": "Almost 1,000 arrested as police charge crowd in Paris and teargas used to stop protesters reaching other city centres Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. In Paris, at least 110,000 people marched along the eastern edge of the city, according to government estimates. They supported high schoolers but also complained of the high cost of living and the government’s heavy policing, saying riot police had been sent to target school protesters over the past month, instead of the government offering political solutions. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -658,11 +720,11 @@
       "summary": "Airlines are reporting fewer people flew in the third quarter as airfare surged on fuel costs, but executives say travelers are mostly swallowing higher fares.",
       "url": "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html",
       "source": "CNBC",
-      "feed_id": "cnbc_business",
-      "category": "Economy",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T15:53:30+00:00",
-      "desk_priority": 38,
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -771,7 +833,7 @@
     },
     {
       "id": "e445bb162dbf96d890c8c21d",
-      "title": "Hundreds of soldiers deploy as thousands protest in Italy’s Milan",
+      "title": "Hundreds of Italian soldiers deployed as thousands protest in Milan",
       "summary": "The Italian government sent hundreds of soldiers to the country's fashion and financial hub ahead of anticipated unrest.",
       "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
       "source": "Al Jazeera English",
@@ -5467,58 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T15:00:09+00:00",
       "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e6868bcf2fb59d4bd25ba3f7",
-      "title": "US justice department investigating Corey Lewandowski over DHS role",
-      "summary": "Trump's former campaign manager is reportedly being investigated for allegedly using his role at the Department of Homeland for financial gain.",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly0dg453v8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:58:19+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "811523ec6b3c0155ec9b6586",
-      "title": "I thought I was dying but it was health anxiety - here's how to recognise the signs",
-      "summary": "Hollie Sharman shares her experience of health anxiety and a doctor advises on how to manage symptoms.",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yez87qwvdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:57:30+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0972bf7597942c7649f5c8d7",
-      "title": "What to know as Brazil prepares for tense presidential run-off",
-      "summary": "Polls show leftist incumbent Lula closing gap on right-wing rival Flavio Bolsonaro ahead of second round of voting.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:56:05+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9bdfc7461bf8206eabb99fe4",
-      "title": "Afghan women could lose one of their last paths to a higher education",
-      "summary": "The US has defunded one of the last universities giving Afghan women the chance to receive an education after the Taliban takeover in 2021. DW spoke with a student who says she's lost hope of ever earning a degree.",
-      "url": "https://www.dw.com/en/afghan-women-could-lose-one-of-their-last-paths-to-a-higher-education/a-79745173?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:54:00+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
