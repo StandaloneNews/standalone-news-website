@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T22:47:09Z",
+  "updated_at": "2026-10-24T23:08:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 20,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -68,32 +68,32 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -827,25 +827,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601693",
-      "league": "nba",
-      "name": "Charlotte Hornets vs Miami Heat",
-      "date": "2026-10-24T22:00:00Z",
-      "state": "upcoming",
-      "status": "Q1",
-      "participants": [
-        {
-          "name": "Charlotte Hornets",
-          "score": ""
-        },
-        {
-          "name": "Miami Heat",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601694",
       "league": "nba",
       "name": "Cleveland Cavaliers vs Brooklyn Nets",
@@ -884,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591654",
+      "id": "sportsdb-2591661",
       "league": "nhl",
-      "name": "Boston Bruins vs San Jose Sharks",
-      "date": "2026-10-24T23:00:00Z",
+      "name": "Utah Mammoth vs Tampa Bay Lightning",
+      "date": "2026-10-25T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boston Bruins",
+          "name": "Utah Mammoth",
           "score": ""
         },
         {
-          "name": "San Jose Sharks",
+          "name": "Tampa Bay Lightning",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499086",
+      "id": "sportsdb-2499080",
       "league": "ncaaf",
-      "name": "Oklahoma State vs Colorado",
-      "date": "2026-10-24T23:00:00Z",
+      "name": "Kentucky vs Vanderbilt",
+      "date": "2026-10-24T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Oklahoma State",
+          "name": "Kentucky",
           "score": ""
         },
         {
-          "name": "Colorado",
+          "name": "Vanderbilt",
           "score": ""
         }
       ],
@@ -1015,142 +996,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398508",
-      "league": "brasileirao",
-      "name": "Santos vs Bahia",
-      "date": "2026-10-25T00:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Santos",
-          "score": ""
-        },
-        {
-          "name": "Bahia",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398156",
-      "league": "argentina",
-      "name": "Rosario Central vs Huracán",
-      "date": "2026-10-25T00:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Rosario Central",
-          "score": ""
-        },
-        {
-          "name": "Huracán",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487571",
-      "league": "ligamx",
-      "name": "León vs Toluca",
-      "date": "2026-10-24T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "León",
-          "score": ""
-        },
-        {
-          "name": "Toluca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492895",
-      "league": "j1",
-      "name": "Nagoya Grampus vs Yokohama F Marinos",
-      "date": "2026-10-25T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nagoya Grampus",
-          "score": ""
-        },
-        {
-          "name": "Yokohama F Marinos",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540116",
-      "league": "aleague",
-      "name": "Wellington Phoenix vs Central Coast Mariners",
-      "date": "2026-10-25T02:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Wellington Phoenix",
-          "score": ""
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407160",
-      "league": "mls",
-      "name": "Orlando City vs New York City FC",
-      "date": "2026-10-24T23:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
-        },
-        {
-          "name": "New York City FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Kimi Antonelli seizes F1 US GP pole and chance to seal first world title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/kimi-antonelli-seizes-f1-us-gp-pole-and-chance-to-seal-first-world-title",
+      "date": "2026-10-24T22:52:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli takes US pole on weekend he can win title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:51:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Should Palmer have been sent off earlier than he was?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:43:33Z",
+      "league": "all"
+    },
+    {
+      "title": "How 'special talent' Jackson inspired Villa to victory over Man City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmzxj1r8j7p2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T22:43:17Z",
+      "league": "all"
+    },
     {
       "title": "Watch Match of the Day on iPlayer",
       "source": "BBC Sport",
@@ -1159,32 +1035,11 @@
       "league": "all"
     },
     {
-      "title": "United States Grand Prix: Kimi Antonelli takes pole – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
-      "date": "2026-10-24T22:30:57Z",
-      "league": "all"
-    },
-    {
       "title": "Volkanovski stops Evloev for record ninth title win",
       "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckvg7j2p471lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T22:30:45Z",
       "league": "ufc"
-    },
-    {
-      "title": "Symonds scores screamer as Brighton beat West Ham",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmjrwjlx5q3wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T22:23:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli takes US pole on weekend he can win title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqy7lvp7n57lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T22:15:34Z",
-      "league": "all"
     },
     {
       "title": "Britain's Smith retains title in split-decision win over Puello",
@@ -1355,18 +1210,11 @@
       "league": "soccer"
     },
     {
-      "title": "'A massive storage of images': Arteta has technical area receipts",
+      "title": "'A massive storage of images' - Arteta has technical area receipts",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwgkv8yx4dg8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T17:59:48Z",
       "league": "all"
-    },
-    {
-      "title": "Arteta 'delighted' with Arsenal win after 'tough week'",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck05486e1l53o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T17:00:15Z",
-      "league": "soccer"
     },
     {
       "title": "From Chelsea reject to Watkins 'upgrade' - Jackson makes fast Villa start",
@@ -1432,13 +1280,6 @@
       "league": "all"
     },
     {
-      "title": "'It's harsh' - was Arsenal's winning penalty a controversial decision?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cw62ylp68m4po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:03:37Z",
-      "league": "all"
-    },
-    {
       "title": "The World Series of the have-nots is here. But baseball’s money problem isn’t going away | Tom Dart",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/brewers-rays-world-series-game-one-baseball-payroll-salary-cap",
@@ -1464,6 +1305,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
       "date": "2026-10-24T13:59:27Z",
+      "league": "all"
+    },
+    {
+      "title": "68-point swing and a Tonga win - how England avoid World Cup exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6wyvpz0epywo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T13:12:45Z",
       "league": "all"
     }
   ]
