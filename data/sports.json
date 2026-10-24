@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T20:06:38Z",
+  "updated_at": "2026-10-24T20:47:03Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,28 +977,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489527",
-      "league": "ligue1",
-      "name": "Monaco vs Lille",
-      "date": "2026-10-25T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Monaco",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "United States Grand Prix: Formula One qualifying – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
+      "date": "2026-10-24T20:35:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T20:20:30Z",
+      "league": "all"
+    },
     {
       "title": "Strikers finding form as Rangers bounce back",
       "source": "BBC Sport",
@@ -1096,13 +1091,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpmrzr04do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T18:59:22Z",
       "league": "all"
-    },
-    {
-      "title": "Barnet condemn racial abuse of Noel-Williams",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqm2dx312d98o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T18:58:25Z",
-      "league": "soccer"
     },
     {
       "title": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
@@ -1273,13 +1261,6 @@
       "league": "all"
     },
     {
-      "title": "Highlights: Japan 0-17 Wales",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c3n04k4vnn51o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T13:38:58Z",
-      "league": "all"
-    },
-    {
       "title": "Jackson stars with two goals - player ratings for Aston Villa v Man City",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck4g14j85y9xo?at_medium=RSS&at_campaign=rss",
@@ -1301,17 +1282,17 @@
       "league": "all"
     },
     {
-      "title": "Attention LaMelo Ball: only losers boast about avoiding diaper duty | Arwa Mahdawi",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/24/lamelo-ball-avoiding-diaper-duty",
-      "date": "2026-10-24T12:00:32Z",
-      "league": "all"
-    },
-    {
       "title": "Australia crush England in women’s Rugby League World Cup statement win",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
       "date": "2026-10-24T10:59:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Infantino says he is backed by 'vast majority'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T10:30:08Z",
       "league": "all"
     }
   ]
