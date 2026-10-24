@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T17:46:55Z",
+  "updated_at": "2026-10-24T18:08:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594132",
+      "id": "sportsdb-2594140",
       "league": "ncaaf",
-      "name": "Bryant vs Stony Brook",
-      "date": "2026-10-24T18:00:00Z",
+      "name": "Western Carolina vs Chattanooga",
+      "date": "2026-10-24T18:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bryant",
+          "name": "Western Carolina",
           "score": ""
         },
         {
-          "name": "Stony Brook",
+          "name": "Chattanooga",
           "score": ""
         }
       ],
@@ -977,33 +977,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Chelsea v Tottenham: Premier League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T17:43:49Z",
+      "date": "2026-10-24T18:06:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Burnley sack Nicky Hayen after Lincoln rout leaves them in bottom three",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/burnley-sack-nicky-hayen-lincoln-rout-championship",
+      "date": "2026-10-24T18:05:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Leaving the technical area? Arteta has the receipts",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwgkv8yx4dg8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:59:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Hayen sacked by Burnley after just 14 games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T17:52:22Z",
       "league": "all"
     },
     {
@@ -1019,13 +1021,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6g7xvk35p94o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T17:25:18Z",
       "league": "soccer"
-    },
-    {
-      "title": "Jarman wins historic men's floor silver at worlds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/cmly0dy8p370o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T17:20:44Z",
-      "league": "all"
     },
     {
       "title": "England thrashed 78-0 in World Cup defeat by Australia",
@@ -1064,10 +1059,10 @@
     },
     {
       "title": "Spurs boss Ho wants 'more support and training' for WSL referees",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd7q47dd0e7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T16:27:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
@@ -1298,20 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/sexual-assault-scandal-rocked-gymnastics-larry-nassar-sport-change-slow",
       "date": "2026-10-24T05:00:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Brewers survive chaotic ninth-inning replay drama to beat Rays in World Series opener",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/brewers-rays-world-series-game-one-christian-yelich",
-      "date": "2026-10-24T03:40:41Z",
-      "league": "all"
-    },
-    {
-      "title": "England suffer back-to-back losses to Canada",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmx235877eexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T01:53:24Z",
       "league": "all"
     }
   ]
