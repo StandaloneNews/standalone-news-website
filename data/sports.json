@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T18:54:26Z",
+  "updated_at": "2026-10-24T19:15:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499097",
+      "id": "sportsdb-2499078",
       "league": "ncaaf",
-      "name": "Illinois vs Oregon",
-      "date": "2026-10-24T19:00:00Z",
+      "name": "Alabama vs Texas A and M",
+      "date": "2026-10-24T19:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Illinois",
+          "name": "Alabama",
           "score": ""
         },
         {
-          "name": "Oregon",
+          "name": "Texas A and M",
           "score": ""
         }
       ],
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506260",
+      "id": "sportsdb-2506261",
       "league": "laliga",
-      "name": "Atlético Madrid vs Deportivo de A Coruña",
-      "date": "2026-10-24T19:00:00Z",
+      "name": "Athletic Bilbao vs Getafe",
+      "date": "2026-10-25T13:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlético Madrid",
+          "name": "Athletic Bilbao",
           "score": ""
         },
         {
-          "name": "Deportivo de A Coruña",
+          "name": "Getafe",
           "score": ""
         }
       ],
@@ -981,6 +981,48 @@
   ],
   "stories": [
     {
+      "title": "'Best performance since I arrived' - De Zerbi praises Spurs after win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqkg5m3lnr5zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:12:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Hayen sacked by Burnley after just 14 games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T19:01:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal beat Everton to go level on points with leaders Man City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T18:59:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Jackson scores twice as Aston Villa end Man City's perfect start",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6j47qe970x7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T18:59:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Bobb's late strike secures Fulham win at Coventry",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cx7vpmrzr04do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T18:59:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Barnet condemn racial abuse of Noel-Williams",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqm2dx312d98o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T18:58:25Z",
+      "league": "soccer"
+    },
+    {
       "title": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-match-report",
@@ -1016,32 +1058,11 @@
       "league": "all"
     },
     {
-      "title": "Leaving the technical area? Arteta has the receipts",
+      "title": "'A massive storage of images': Arteta has technical area receipts",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwgkv8yx4dg8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T17:59:48Z",
       "league": "all"
-    },
-    {
-      "title": "Hayen sacked by Burnley after just 14 games",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T17:52:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Why winning ugly is just as important for Wales",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq62y3yr374yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T17:25:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Matos rues QPR display as Swansea suffer Yeo blow",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6g7xvk35p94o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T17:25:18Z",
-      "league": "soccer"
     },
     {
       "title": "England thrashed 78-0 in World Cup defeat by Australia",
@@ -1083,13 +1104,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/coventry-fulham-premier-league-match-report",
       "date": "2026-10-24T16:11:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Resurgent Tigers overpower Saints in derby downpour",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwj0ly57n62ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T16:07:44Z",
       "league": "all"
     },
     {
@@ -1185,10 +1199,10 @@
     },
     {
       "title": "Jackson stars with two goals - player ratings for Aston Villa v Man City",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck4g14j85y9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T13:25:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "68-point swing and a Tonga win - how England avoid World Cup exit",
@@ -1220,10 +1234,10 @@
     },
     {
       "title": "Infantino says he is backed by 'vast majority'",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T10:30:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Kompany recovery will take 'weeks' as tests continue",
@@ -1279,20 +1293,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cwe9ldpmeljyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T06:35:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cknv01g9n27do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T05:41:29Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The sexual assault scandal rocked gymnastics – but has pace of change in the sport been too slow?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/sexual-assault-scandal-rocked-gymnastics-larry-nassar-sport-change-slow",
-      "date": "2026-10-24T05:00:25Z",
       "league": "all"
     }
   ]
