@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T18:08:33Z",
+  "updated_at": "2026-10-24T18:54:26Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -884,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594140",
+      "id": "sportsdb-2499097",
       "league": "ncaaf",
-      "name": "Western Carolina vs Chattanooga",
-      "date": "2026-10-24T18:30:00Z",
+      "name": "Illinois vs Oregon",
+      "date": "2026-10-24T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Western Carolina",
+          "name": "Illinois",
           "score": ""
         },
         {
-          "name": "Chattanooga",
+          "name": "Oregon",
           "score": ""
         }
       ],
@@ -960,19 +960,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482208",
+      "id": "sportsdb-2482215",
       "league": "seriea",
-      "name": "Lazio vs Parma",
-      "date": "2026-10-24T18:45:00Z",
+      "name": "Inter Milan vs Fiorentina",
+      "date": "2026-10-25T11:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Lazio",
+          "name": "Inter Milan",
           "score": ""
         },
         {
-          "name": "Parma",
+          "name": "Fiorentina",
           "score": ""
         }
       ],
@@ -981,18 +981,39 @@
   ],
   "stories": [
     {
-      "title": "Chelsea v Tottenham: Premier League – live",
+      "title": "Tottenham stun Chelsea for second league win in a week as Cole Palmer is sent off",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-match-report",
+      "date": "2026-10-24T18:32:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Penders error & Palmer sees red - player ratings for Chelsea v Spurs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqwy7x6e672eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T18:26:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/leicester-northampton-prem-rugby-union-match-report",
+      "date": "2026-10-24T18:13:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T18:06:23Z",
+      "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
+      "date": "2026-10-24T18:11:23Z",
       "league": "soccer"
     },
     {
       "title": "Burnley sack Nicky Hayen after Lincoln rout leaves them in bottom three",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/burnley-sack-nicky-hayen-lincoln-rout-championship",
       "date": "2026-10-24T18:05:08Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Leaving the technical area? Arteta has the receipts",
@@ -1045,16 +1066,9 @@
     },
     {
       "title": "Scottish Premiership: Kelsy fires Rangers to emphatic win; Dundee United pip Aberdeen",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/scottish-premiership-rangers-dundee-celtic-hearts",
       "date": "2026-10-24T16:52:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Championship roundup: Southampton beat West Ham; QPR put five past Swansea",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
-      "date": "2026-10-24T16:36:57Z",
       "league": "soccer"
     },
     {
@@ -1063,13 +1077,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd7q47dd0e7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T16:27:59Z",
       "league": "soccer"
-    },
-    {
-      "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/leicester-northampton-prem-rugby-union-match-report",
-      "date": "2026-10-24T16:27:41Z",
-      "league": "all"
     },
     {
       "title": "Fulham climb out of drop zone after Oscar Bobb’s late show sinks Coventry",
@@ -1107,14 +1114,7 @@
       "league": "all"
     },
     {
-      "title": "Six-try Ireland beat South Africa in Cape Town",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6ly353442neo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:06:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Donnarumma & Guehi highlight Man City issues as solid Arsenal move level",
+      "title": "Man City's leaky defence highlights Donnarumma & Guehi struggles",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kg7z700k7jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:05:45Z",
@@ -1198,7 +1198,7 @@
       "league": "all"
     },
     {
-      "title": "‘It feels like a fairy tale’: American Paula Moltzan wins first World Cup race by 0.01sec",
+      "title": "‘Like a fairy tale’: USA’s Paula Moltzan becomes oldest first-time World Cup winner by 0.01sec",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
       "date": "2026-10-24T13:07:03Z",
