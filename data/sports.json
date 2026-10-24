@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T04:52:54Z",
+  "updated_at": "2026-10-24T05:14:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -1131,28 +1131,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "The sexual assault scandal rocked gymnastics – but has pace of change in the sport been too slow?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/sexual-assault-scandal-rocked-gymnastics-larry-nassar-sport-change-slow",
+      "date": "2026-10-24T05:00:25Z",
+      "league": "all"
+    },
     {
       "title": "Daniel Stewart, former Port Adelaide AFL player, dies aged 37",
       "source": "The Guardian Sport",
@@ -1460,13 +1448,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/23/crystal-palace-and-newcastle-face-off-with-both-in-search-of-season-kickstart",
       "date": "2026-10-23T13:36:21Z",
       "league": "soccer"
-    },
-    {
-      "title": "Will Borthwick’s autumn England squad embrace Prem chaos or prioritise prudence? | Gerard Meagher",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/23/rugby-union-england-steve-borthwick-selection-autumn-nations-championship",
-      "date": "2026-10-23T12:56:07Z",
-      "league": "all"
     }
   ]
 }
