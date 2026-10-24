@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T01:02:48+00:00",
+  "updated_at": "2026-10-24T01:50:20+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -31,6 +31,42 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "1c8e6e831fd9bb9989d47a0e",
+      "title": "Pentagon designates China-backed campus cultural centers a threat to US national security",
+      "summary": "Defense secretary Pete Hegseth alleges Confucius Institutes operating in disguise on US university campuses The ⁠US defense department has designated Chinese-funded cultural centers on university campuses ⁠known as Confucius ⁠Institutes ​as a threat to US national security, defense secretary Pete ⁠Hegseth said on Friday. Washington has long accused Confucius Institutes of being Chinese propaganda ⁠tools and has taken steps to ​crack down on them. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/pentagon-china-hegseth",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T01:21:26+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
+        "label": "Illustrative photo",
+        "matched_query": "Beijing China skyline"
+      }
+    },
+    {
+      "id": "a3f249e467626eadba008528",
+      "title": "Argentinian judge drops fraud investigation into Milei over crypto scandal",
+      "summary": "President Javier Milei’s role in cryptocurrency launch does not translate into a fraudulent scheme, judge says.",
+      "url": "https://www.aljazeera.com/news/2026/10/24/argentinian-judge-drops-fraud-investigation-into-milei-over-crypto-scandal?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T01:21:18+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "ef486b88d6eb6260c0c012c8",
       "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
@@ -257,17 +293,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T23:19:32+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "9cfe8a504962d1304cc6e512",
@@ -4297,10 +4323,10 @@
       "selection_type": "automatic"
     },
     {
-      "id": "8a0786108da1cbbc1bc842fc",
-      "title": "After nearly 6 years, ex-Myanmar leader Aung San Suu Kyi's son hears her voice",
-      "summary": "Kim Aris tells NPR his mother sounds strong but is in pain. He says she is held at a residence in the capital.",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6012784/aung-san-suu-kyi-son-phone-call-myanmar",
+      "id": "4abf31e7a221406f44686fd9",
+      "title": "Brazil's runoff: Lula's legacy vs. Bolsonaro's dynasty",
+      "summary": "Brazil's tight presidential runoff pits a political giant against a Bolsonaro heir in a battle over the country's political future.",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6004277/brazil-vote-runoff-lula-bolsonaro",
       "source": "NPR",
       "feed_id": "npr_world",
       "category": "World",
@@ -4310,10 +4336,10 @@
       "selection_type": "automatic"
     },
     {
-      "id": "4abf31e7a221406f44686fd9",
-      "title": "Brazil's runoff: Lula's legacy vs. Bolsonaro's dynasty",
-      "summary": "Brazil's tight presidential runoff pits a political giant against a Bolsonaro heir in a battle over the country's political future.",
-      "url": "https://www.npr.org/2026/10/23/nx-s1-6004277/brazil-vote-runoff-lula-bolsonaro",
+      "id": "8a0786108da1cbbc1bc842fc",
+      "title": "After nearly 6 years, ex-Myanmar leader Aung San Suu Kyi's son hears her voice",
+      "summary": "Kim Aris tells NPR his mother sounds strong but is in pain. He says she is held at a residence in the capital.",
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6012784/aung-san-suu-kyi-son-phone-call-myanmar",
       "source": "NPR",
       "feed_id": "npr_world",
       "category": "World",
@@ -5502,32 +5528,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T01:22:45+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "0f9cc947591c28f63c2d4548",
-      "title": "Department of Justice opens criminal investigation into Corey Lewandowski",
-      "summary": "Ex-Trump adviser and former top aide for homeland security alleged to have profited off government role Corey Lewandowski, a former political adviser to Donald Trump and ⁠top aide at the Department ⁠of Homeland Security, ​is under criminal investigation over allegations he profited off his role in the US government, three US officials and a fourth person familiar with the matter told Reuters ⁠on Thursday. The investigation began with a criminal referral to the justice department from the internal watchdog at DHS, according to the four people. The DHS inspector general’s office has been investigating ⁠Lewandowski’s involvement in the handling of certain government contracts, according to one of the people, a DHS official. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/22/corey-lewandowski-trump-criminal-investigation",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T00:55:02+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4a813c5cec4bb5636d64ec47",
-      "title": "Thousands protest across Poland for access to free and legal abortions",
-      "summary": "Demonstrators gathered on the sixth anniversary of a near-total abortion ban imposed by Poland's highest court.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T00:54:51+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
