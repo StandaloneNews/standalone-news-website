@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T10:50:52Z",
+  "updated_at": "2026-10-24T11:11:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -1131,67 +1131,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489532",
-      "league": "ligue1",
-      "name": "Lens vs Paris FC",
-      "date": "2026-10-24T18:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Australia v England: women’s Rugby League World Cup – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/24/australia-vs-england-womens-rugby-league-world-cup-live-updates",
-      "date": "2026-10-24T10:42:04Z",
+      "title": "Poor England suffer another Australia humiliation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y43x20y0wjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T11:09:57Z",
       "league": "all"
     },
     {
-      "title": "Mourinho labels Madrid-Barça comparison ‘unfair’, Kompany to miss ‘weeks’ say Bayern, and more",
+      "title": "Australia crush England in women’s Rugby League World Cup statement win",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-buildup-premier-league-news-wsl-and-more-matchday-live",
-      "date": "2026-10-24T10:40:11Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
+      "date": "2026-10-24T10:59:10Z",
       "league": "all"
     },
     {
       "title": "Aston Villa v Manchester City: Premier League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/aston-villa-v-manchester-city-premier-league-live",
-      "date": "2026-10-24T10:38:24Z",
-      "league": "soccer"
+      "date": "2026-10-24T10:57:03Z",
+      "league": "all"
+    },
+    {
+      "title": "New British number one Boulter loses Japan semi-final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ck4g15ql8gr8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T10:54:58Z",
+      "league": "all"
     },
     {
       "title": "Infantino says he is backed by 'vast majority'",
@@ -1278,24 +1247,10 @@
       "league": "all"
     },
     {
-      "title": "Canada inflict back-to-back losses on England",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm79p7x79wl9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T06:46:23Z",
-      "league": "all"
-    },
-    {
       "title": "Smith v Puello world title fight predictions",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cwe9ldpmeljyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T06:35:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Malacia has 'no regrets' over Man Utd - despite having to train with kids",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjx23d4p2v3go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T06:19:26Z",
       "league": "all"
     },
     {
@@ -1485,6 +1440,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/23/premier-league-antonelli-goes-for-f1-title-plus-wsl-and-clasico-action-follow-with-us",
       "date": "2026-10-23T16:10:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Bavuma’s nine-hour masterpiece was art we risk losing in Test cricket’s great purge | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/23/temba-bavuma-masterpiece-risk-losing-south-africa-test-cricket-purge",
+      "date": "2026-10-23T16:00:08Z",
       "league": "all"
     }
   ]
