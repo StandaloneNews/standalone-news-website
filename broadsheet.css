@@ -286,3 +286,31 @@ body.theme-broadsheet :is(.masthead,.mast,.site-header,.lead-story,.wire-section
   outline:3px solid #17618b!important;
   outline-offset:3px!important;
 }
+
+/* WCAG 2.2 AA: newspaper captions and numbering on cream/white paper.
+   Prevent older newsroom/mobile rules from reintroducing light gray text.
+   #435864 is 7.01:1 on #f9f8f3 and 7.45:1 on white. */
+body.theme-broadsheet.home-broadsheet :is(
+  .latest-card .latest-index,
+  .latest-card .small-meta,
+  .lead-story .hero-photo-credit,
+  .wire-section .wire-byline,
+  .wire-section .wire-content .photo-credit,
+  .story-card .photo-credit,
+  .list-article .photo-credit
+) {
+  color:#435864!important;
+}
+body.theme-broadsheet.home-broadsheet .latest-card .latest-index {
+  font-size:12px!important;
+  line-height:1.5!important;
+}
+body.theme-broadsheet.home-broadsheet :is(
+  .lead-story .hero-photo-credit,
+  .wire-section .wire-content .photo-credit,
+  .story-card .photo-credit,
+  .list-article .photo-credit
+) {
+  font-size:11px!important;
+  line-height:1.55!important;
+}
