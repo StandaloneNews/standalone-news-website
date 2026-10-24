@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-10-24T15:50:56Z",
+  "updated_at": "2026-10-24T16:11:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 28,
   "sources_attempted": 38,
   "leagues": [
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 6
+      "events": 5
     },
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -68,199 +68,45 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
-    {
-      "id": "mma-20261024-ufc-333-volkanovski-vs-evloev",
-      "league": "ufc",
-      "name": "UFC 333: Volkanovski vs. Evloev",
-      "date": "2026-10-24T00:00:00Z",
-      "date_only": true,
-      "state": "upcoming",
-      "status": "Event date confirmed · Start time TBD",
-      "participants": [],
-      "fights": [
-        {
-          "fighters": [
-            {
-              "name": "Alexander Volkanovski",
-              "score": ""
-            },
-            {
-              "name": "Movsar Evloev",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Petr Yan",
-              "score": ""
-            },
-            {
-              "name": "Merab Dvalishvili 3",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Lone’er Kavanagh",
-              "score": ""
-            },
-            {
-              "name": "Ramazan Temirov",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Alexander Volkov",
-              "score": ""
-            },
-            {
-              "name": "Rizvan Kuniev",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Aaron Pico",
-              "score": ""
-            },
-            {
-              "name": "Losene Keita",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Azamat Murzakanov",
-              "score": ""
-            },
-            {
-              "name": "Dominick Reyes",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Nikita Krylov",
-              "score": ""
-            },
-            {
-              "name": "Abdul Rakhman Yakhyaev",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Abus Magomedov",
-              "score": ""
-            },
-            {
-              "name": "Cam Rowston",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Grant Dawson",
-              "score": ""
-            },
-            {
-              "name": "Nurullo Aliev",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Colby Thicknesse",
-              "score": ""
-            },
-            {
-              "name": "Asaf Chopurov",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        }
-      ],
-      "url": "https://www.mmafighting.com/schedule",
-      "source": "MMA Fighting event schedule"
-    },
     {
       "id": "mma-20261031-ufc-vegas-123-moicano-vs-nolan",
       "league": "ufc",
@@ -962,6 +808,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475467",
+      "league": "nfl",
+      "name": "Chicago Bears vs New England Patriots",
+      "date": "2026-10-23T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Chicago Bears",
+          "score": "30",
+          "winner": true
+        },
+        {
+          "name": "New England Patriots",
+          "score": "24"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475468",
       "league": "nfl",
       "name": "New Orleans Saints vs Pittsburgh Steelers",
@@ -976,6 +842,26 @@
         {
           "name": "Pittsburgh Steelers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601692",
+      "league": "nba",
+      "name": "Sacramento Kings vs Portland Trail Blazers",
+      "date": "2026-10-24T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sacramento Kings",
+          "score": "120"
+        },
+        {
+          "name": "Portland Trail Blazers",
+          "score": "128",
+          "winner": true
         }
       ],
       "url": ""
@@ -1000,6 +886,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619527",
+      "league": "mlb",
+      "name": "Milwaukee Brewers vs Tampa Bay Rays",
+      "date": "2026-10-24T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Milwaukee Brewers",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Tampa Bay Rays",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2619528",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -1014,6 +920,26 @@
         {
           "name": "Tampa Bay Rays",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591651",
+      "league": "nhl",
+      "name": "Colorado Avalanche vs Tampa Bay Lightning",
+      "date": "2026-10-24T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Colorado Avalanche",
+          "score": "6",
+          "winner": true
+        },
+        {
+          "name": "Tampa Bay Lightning",
+          "score": "3"
         }
       ],
       "url": ""
@@ -1038,20 +964,59 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499079",
+      "id": "sportsdb-2598790",
       "league": "ncaaf",
-      "name": "Auburn vs LSU",
+      "name": "Marist vs Saint Thomas (MN)",
       "date": "2026-10-24T16:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Auburn",
+          "name": "Marist",
           "score": ""
         },
         {
-          "name": "LSU",
+          "name": "Saint Thomas (MN)",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499084",
+      "league": "ncaaf",
+      "name": "Kansas vs Baylor",
+      "date": "2026-10-24T17:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kansas",
+          "score": ""
+        },
+        {
+          "name": "Baylor",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494079",
+      "league": "epl",
+      "name": "Coventry City vs Fulham",
+      "date": "2026-10-24T14:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Coventry City",
+          "score": "0"
+        },
+        {
+          "name": "Fulham",
+          "score": "1",
+          "winner": true
         }
       ],
       "url": ""
@@ -1095,6 +1060,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508395",
+      "league": "bundesliga",
+      "name": "Köln vs Schalke 04",
+      "date": "2026-10-24T13:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Köln",
+          "score": "0"
+        },
+        {
+          "name": "Schalke 04",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508389",
       "league": "bundesliga",
       "name": "Borussia Dortmund vs Eintracht Frankfurt",
@@ -1114,19 +1098,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482210",
+      "id": "sportsdb-2482208",
       "league": "seriea",
-      "name": "Napoli vs Roma",
-      "date": "2026-10-24T16:00:00Z",
+      "name": "Lazio vs Parma",
+      "date": "2026-10-24T18:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Napoli",
+          "name": "Lazio",
           "score": ""
         },
         {
-          "name": "Roma",
+          "name": "Parma",
           "score": ""
         }
       ],
@@ -1150,15 +1134,201 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398503",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Remo",
+      "date": "2026-10-23T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Cruzeiro",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "name": "Remo",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398505",
+      "league": "brasileirao",
+      "name": "Internacional vs Botafogo",
+      "date": "2026-10-24T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Internacional",
+          "score": ""
+        },
+        {
+          "name": "Botafogo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398148",
+      "league": "argentina",
+      "name": "Banfield vs Lanús",
+      "date": "2026-10-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Banfield",
+          "score": ""
+        },
+        {
+          "name": "Lanús",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487571",
+      "league": "ligamx",
+      "name": "León vs Toluca",
+      "date": "2026-10-24T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "León",
+          "score": ""
+        },
+        {
+          "name": "Toluca",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492895",
+      "league": "j1",
+      "name": "Nagoya Grampus vs Yokohama F Marinos",
+      "date": "2026-10-25T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nagoya Grampus",
+          "score": ""
+        },
+        {
+          "name": "Yokohama F Marinos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540116",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Central Coast Mariners",
+      "date": "2026-10-25T02:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514013",
+      "league": "primeira",
+      "name": "Alverca vs Arouca",
+      "date": "2026-10-24T17:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Alverca",
+          "score": ""
+        },
+        {
+          "name": "Arouca",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407171",
+      "league": "mls",
+      "name": "CF Montréal vs Nashville SC",
+      "date": "2026-10-24T17:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "CF Montréal",
+          "score": ""
+        },
+        {
+          "name": "Nashville SC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Arsenal v Everton, Coventry v Fulham, EFL, and more – football clockwatch live",
-      "source": "The Guardian Football",
+      "title": "Arsenal 2-0 Everton, Coventry 0-1 Fulham, EFL, and more – football clockwatch live",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/24/tottenham-arsenal-wsl-premier-league-efl-football-clockwatch-live",
-      "date": "2026-10-24T15:50:04Z",
-      "league": "soccer"
+      "date": "2026-10-24T16:06:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea v Tottenham: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
+      "date": "2026-10-24T16:02:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Monfils defends Svitolina after 'venomous' criticism",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckz7xn4xep1go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T15:47:19Z",
+      "league": "all"
     },
     {
       "title": "Plan for Northern Olympics to get £7m in Healey's Budget",
@@ -1172,13 +1342,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:40:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea v Tottenham: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/24/chelsea-v-tottenham-premier-league-live",
-      "date": "2026-10-24T15:29:12Z",
       "league": "all"
     },
     {
@@ -1242,13 +1405,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/frederick-richard-floor-gold-world-gymnastics-championships-rotterdam",
       "date": "2026-10-24T14:06:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Ulster still without URC win after defeat by Bulls",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crz9848xv2xko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T14:04:19Z",
       "league": "all"
     },
     {
@@ -1455,18 +1611,18 @@
       "league": "all"
     },
     {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pj7y5v?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-24T00:00:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "'Best team in the Championship' - Boro lay down marker",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65ynq95xdw5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-23T23:14:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "'We had to scrap' - O'Neil praises Ipswich resilience after Forest draw",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckrey3ndyyw0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-23T22:21:51Z",
-      "league": "all"
     }
   ]
 }
