@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T20:01:50+00:00",
+  "updated_at": "2026-10-24T20:40:44+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -20,11 +20,11 @@
     "c921e5a3357873ad79dd37c7",
     "4a2197c94357d90d6400ada9",
     "c607acd134ae7bf2ae26c174",
+    "d3798ec9a0ad0aebf7daa191",
     "43fa73ddaf377eb53f4ddcb6",
     "c7aa9b7dfeaf83bd70a0235d",
     "7585d6c3d9a14f239d46ecde",
     "01e32f5bb0541a073e69fd48",
-    "93f8cf567fdc5cc8cb164f78",
     "e802392f2f096dfec92dfd41",
     "34577aaac7d0a60937df02b3",
     "46c87946e1cd014d7928e918"
@@ -32,15 +32,67 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "a54473dd33610ad21b5a52c8",
+      "title": "After SpaceX restores high-speed service, Musk claims Ukraine violated Starlink agreement",
+      "summary": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
+      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:38:30+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0986f4f7680e057da9c72772",
-      "title": "Amber warnings kick in as Storm Boelo brings 70mph wind gusts to parts of UK",
+      "title": "Storm Boelo amber warnings kick in as parts of UK brace for 80mph gusts",
       "summary": "Scotland, parts of northern England and Northern Ireland are forecast to be hit with the strongest winds from the country's second storm in as many days.",
       "url": "https://www.bbc.co.uk/news/articles/cmr4ydglq9r3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T20:01:23+00:00",
+      "published_at": "2026-10-24T20:30:43+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "f7bb82acf8de5dd0cacc1bc3",
+      "title": "Barack Obama to rally for Abdul El-Sayed in Michigan before key US Senate race – US politics live",
+      "summary": "The former Democratic president is showing major support in Detroit for the progressive Michigan candidate in final days before US midterm elections Sign up for Breaking News US email Abdul El-Sayed, a doctor and former Wayne county health director, ran on Medicare for All and a refusal to take corporate Pac money, and was backed by Bernie Sanders and Alexandria Ocasio-Cortez. He made opposition to US military aid to Israel and criticism of its conduct in Gaza central to his campaign , and has described Israel’s actions there as genocide. Aipac and its allies as a result spent a record-breaking $30m trying to stop him, according to AdImpact . Continue reading...",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:28:45+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d3798ec9a0ad0aebf7daa191",
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "summary": "The moment you realize the internet is \"held together by glue and dreams.\"",
+      "url": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "source": "TechCrunch",
+      "feed_id": "techcrunch",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:15:33+00:00",
+      "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6a7b3fd69ceb0551ff4a4945",
+      "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
+      "summary": "Gunners capitalise on City's first loss of the season, while Spurs get second league win at Stamford Bridge in 36 years.",
+      "url": "https://www.aljazeera.com/sports/2026/10/24/arsenal-join-man-city-at-premier-league-summit-spurs-shock-chelsea-2-0?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T20:03:29+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -108,7 +160,7 @@
     },
     {
       "id": "d58590effe1c443fb536bca4",
-      "title": "Watch: Fireworks and tear gas as protesters and riot police clash in Paris",
+      "title": "Watch: BBC in Paris as police charge protesters and use tear gas during unrest",
       "summary": "Europe correspondent Nick Beake reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
       "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -286,17 +338,20 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T18:00:20+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Beijing_CBD_Skyline_%2820190104160952%29.jpg/1280px-Beijing_CBD_Skyline_%2820190104160952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Beijing_CBD_Skyline_(20190104160952).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "N509FZ",
-        "license": "CC BY-SA 4.0",
-        "description": "China Beijing Dabeiyao - this is what some people call CBD. Taken 45 minutes before bidding farewell to the last T31.",
-        "label": "Illustrative photo",
-        "matched_query": "Beijing China skyline"
-      }
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9a6a573f975948182403b1bc",
+      "title": "Hundreds of thousands march across France in protests over schools and policing",
+      "summary": "Government estimates at least 400,000 people took part, but trade unions say the number is double that Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. In Paris, at least 110,000 people marched along the eastern edge of the city, according to government estimates. They supported high schoolers but also complained of the high cost of living and the government’s heavy policing, saying riot police had been sent to target school protesters over the past month, instead of the government offering political solutions. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T17:54:41+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
     },
     {
       "id": "34577aaac7d0a60937df02b3",
@@ -716,8 +771,8 @@
     },
     {
       "id": "e445bb162dbf96d890c8c21d",
-      "title": "Hundreds of soldiers deploy as protesters rally in Italy’s Milan",
-      "summary": "The Italian government has sent hundreds of soldiers to the country's financial hub ahead of anticipated unrest.",
+      "title": "Hundreds of soldiers deploy as thousands protest in Italy’s Milan",
+      "summary": "The Italian government sent hundreds of soldiers to the country's fashion and financial hub ahead of anticipated unrest.",
       "url": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
@@ -1193,19 +1248,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T13:02:51+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a54473dd33610ad21b5a52c8",
-      "title": "Ukraine says Starlink and Starshield high speed restrictions have been lifted",
-      "summary": "Ukraine says restrictions on Starlink and Starshield have been lifted, restoring connectivity to fast-moving military systems after disruptions.",
-      "url": "https://www.cnbc.com/2026/10/24/ukraine-starlink-starshield-service-restored.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T13:00:35+00:00",
-      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -1924,6 +1966,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "7d9766a3bb38ba9b9e33a9a0",
+      "title": "‘Israel should go as far right as possible’: how national security is defining the election - video",
+      "summary": "Israel is heading to the polls for the first time since the 7 October attacks and concerns about national security are dominating the campaign. Benjamin Netanyahu is facing a significant challenge from the former IDF chief Gadi Eisenkot as voters weigh up who is best placed to protect the country. In Tel Aviv, the Guardian's Will Christou discovers a deepening generational divide, with many younger voters saying that Netanyahu has not gone far enough in Gaza. Continue reading...",
+      "url": "https://www.theguardian.com/news/video/2026/oct/24/israel-should-go-as-far-right-as-possible-how-national-security-is-defining-the-election-video",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T09:08:54+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
       "id": "b9b2ee89209694fc4f2dfe7a",
       "title": "‘Unlike anything we’ve experienced’: fans swarm San Francisco for BTS star’s art exhibition",
       "summary": "K-pop star RM gave a boost to the previously struggling SFMOMA with an exhibition of over 100 pieces from his collection Two years ago, RM of the wildly popular K-pop boyband BTS was serving as a soldier in the South Korean military when he received an offer from América Castillo, a museum curator in San Francisco: would he consider an exhibition of his private art collection? “I loved it,” said RM (real name: Kim Namjoon) at the media preview of RM x SFMOMA: Between You and Me , a new exhibition that opened in San Francisco earlier this month and is co-curated by SFMOMA’s Castillo and Hyoeun Kim. “There aren’t many things that show a person more honestly than a collection they’ve built over a long period of time.” Continue reading...",
@@ -2574,19 +2629,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "1334f6710d601d8026286635",
-      "title": "As a divided Israel prepares to go to the polls, can Netanyahu pull off his greatest political trick yet?",
-      "summary": "The prime minister has defined and dominated his country’s politics for three decades and is putting his rivals on the defensive before Tuesday’s general election They chant his name, they cheer and clap – and yet he is not the most dominant person in the room. Looming over the crowd that has gathered to hear Gadi Eisenkot, the former general who is the lead opposition challenger in Tuesday’s Israeli election, is a man who is not there. It is the man Eisenkot seeks to replace as prime minister, the man who first served in that role three decades ago and who has held it, on and off, for 19 of the past 30 years. It is Benjamin Netanyahu. Naturally, the warm-up speakers at this evening rally in the modest city of Modi’in, halfway between Tel Aviv and Jerusalem, stress the virtues of Eisenkot, a son of working-class Moroccan Jews who rose thr",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/24/divided-israel-election-benjamin-netanyahu",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-24T05:00:24+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "900659a2b19d688ec547dcb6",
       "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
       "summary": "Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and prosperity against the risks in the accelerating global technology arms race. As he prepares for his debut budget, the chancellor said that Andy Burnham’s government would commit hundreds of millions of pounds to develop a “distinctively British” approach to AI that would capitalise on the benefits of the frontier technology. Continue reading...",
@@ -2597,6 +2639,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T05:00:24+00:00",
       "desk_priority": 26,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1334f6710d601d8026286635",
+      "title": "As a divided Israel prepares to go to the polls, can Netanyahu pull off his greatest political trick yet?",
+      "summary": "The prime minister has defined and dominated his country’s politics for three decades and is putting his rivals on the defensive before Tuesday’s general election They chant his name, they cheer and clap – and yet he is not the most dominant person in the room. Looming over the crowd that has gathered to hear Gadi Eisenkot, the former general who is the lead opposition challenger in Tuesday’s Israeli election, is a man who is not there. It is the man Eisenkot seeks to replace as prime minister, the man who first served in that role three decades ago and who has held it, on and off, for 19 of the past 30 years. It is Benjamin Netanyahu. Naturally, the warm-up speakers at this evening rally in the modest city of Modi’in, halfway between Tel Aviv and Jerusalem, stress the virtues of Eisenkot, a son of working-class Moroccan Jews who rose thr",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/24/divided-israel-election-benjamin-netanyahu",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-24T05:00:24+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -2913,7 +2968,7 @@
     },
     {
       "id": "286ae822823c45e3e587aa98",
-      "title": "Severe flooding hits Four Corners region, more expected through the weekend",
+      "title": "Flooding in Four Corners region displaces residents, as storms move southeast",
       "summary": "Intense rainfall slammed the Four Corners region late this week. As rivers flooded, towns declared evacuations and emergencies and made rescues.",
       "url": "https://www.npr.org/2026/10/23/nx-s1-6014742/flooding-weather-four-corners",
       "source": "NPR",
@@ -5464,71 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T14:54:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7aa6acbd35f79e1aa638a646",
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:47:41+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "374a21eda7a60ae88fd54fda",
-      "title": "The Sigma FP2 brings significant upgrades to the ‘world’s smallest’ full-frame camera",
-      "summary": "Seven years after Sigma claimed its original fp was the world's smallest and lightest full-frame mirrorless camera, the company has announced a similarly compact follow-up with several welcome upgrades, including an improved sensor, an articulating LCD display, and longer battery life. But this time around, Sigma is only claiming its new FP2 is the \"world's […]",
-      "url": "https://www.theverge.com/tech/1017410/sigma-fp2-mirrorless-full-frame-modular-camera-upgrade",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:42:46+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2c64d3748fe8918f7a76893c",
-      "title": "Moderna shares plunge after cancer vaccine data leaks — despite positive results",
-      "summary": "Moderna released full data on its closely watched cancer vaccine developed with Merck.",
-      "url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:36:34+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b1772e0105855778332e12dd",
-      "title": "We asked real people what they’re wearing this fall – burgundy, secretly comfy pants and fierce boots",
-      "summary": "I chased down people on weekdays, interrupting their brisk walks and lunch breaks to ask them to share details of their fall outfits ‘Is nonstick cookware safe?’ Send us your food safety questions It’s October and New Yorkers have finally retired the breezy pants and linen button-downs required to brave stuffy subway stations. Like much of the US, we’re now tasked with expertly layering for autumn’s up-and-down weather while still looking put together for the workday. You might also be staring down your closet’s sea of denim and bulky coats, wondering what to wear. Instead of consulting the runways or analyzing the latest fashion trends, I wandered through Manhattan’s financial district, which boasts millions of square feet in office space, to ask people about their outfits. Blazer Scarf Shoes Continue reading...",
-      "url": "https://www.theguardian.com/thefilter-us/2026/oct/23/new-york-fall-fashion-style",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:35:36+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3123c7d2584f0a1a2caba62b",
-      "title": "Rescuers search for survivors after deadly earthquake in China's Tibet region",
-      "summary": "Rescuers combed through a remote area in the Chinese region of Tibet on Friday after a magnitude 7 earthquake that killed at least 16 people, injuring 54 and collapsing hundreds of homes, according to Chinese state media.",
-      "url": "https://www.pbs.org/newshour/world/rescuers-search-for-survivors-after-deadly-earthquake-in-chinas-tibet-region",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T14:25:24+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
