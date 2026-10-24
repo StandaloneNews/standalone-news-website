@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-24T20:47:03Z",
+  "updated_at": "2026-10-24T21:08:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 22,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -23,12 +23,12 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -808,6 +808,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475467",
+      "league": "nfl",
+      "name": "Chicago Bears vs New England Patriots",
+      "date": "2026-10-23T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Chicago Bears",
+          "score": "30",
+          "winner": true
+        },
+        {
+          "name": "New England Patriots",
+          "score": "24"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475468",
       "league": "nfl",
       "name": "New Orleans Saints vs Pittsburgh Steelers",
@@ -846,6 +866,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619527",
+      "league": "mlb",
+      "name": "Milwaukee Brewers vs Tampa Bay Rays",
+      "date": "2026-10-24T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Milwaukee Brewers",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Tampa Bay Rays",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2619528",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
@@ -859,6 +899,25 @@
         },
         {
           "name": "Tampa Bay Rays",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591653",
+      "league": "nhl",
+      "name": "New Jersey Devils vs Los Angeles Kings",
+      "date": "2026-10-24T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "New Jersey Devils",
+          "score": ""
+        },
+        {
+          "name": "Los Angeles Kings",
           "score": ""
         }
       ],
@@ -884,19 +943,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499107",
+      "id": "sportsdb-2499122",
       "league": "ncaaf",
-      "name": "Nevada vs San Jose State",
-      "date": "2026-10-24T21:00:00Z",
+      "name": "Washington State vs Boise State",
+      "date": "2026-10-24T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nevada",
+          "name": "Washington State",
           "score": ""
         },
         {
-          "name": "San Jose State",
+          "name": "Boise State",
           "score": ""
         }
       ],
@@ -977,14 +1036,192 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489527",
+      "league": "ligue1",
+      "name": "Monaco vs Lille",
+      "date": "2026-10-25T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Monaco",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398507",
+      "league": "brasileirao",
+      "name": "Palmeiras vs Bragantino",
+      "date": "2026-10-24T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Palmeiras",
+          "score": ""
+        },
+        {
+          "name": "Bragantino",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398157",
+      "league": "argentina",
+      "name": "San Lorenzo vs Newell's Old Boys",
+      "date": "2026-10-24T22:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "San Lorenzo",
+          "score": ""
+        },
+        {
+          "name": "Newell's Old Boys",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487571",
+      "league": "ligamx",
+      "name": "León vs Toluca",
+      "date": "2026-10-24T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "León",
+          "score": ""
+        },
+        {
+          "name": "Toluca",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492895",
+      "league": "j1",
+      "name": "Nagoya Grampus vs Yokohama F Marinos",
+      "date": "2026-10-25T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nagoya Grampus",
+          "score": ""
+        },
+        {
+          "name": "Yokohama F Marinos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540116",
+      "league": "aleague",
+      "name": "Wellington Phoenix vs Central Coast Mariners",
+      "date": "2026-10-25T02:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514011",
+      "league": "primeira",
+      "name": "Estoril Praia vs Moreirense",
+      "date": "2026-10-25T15:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estoril Praia",
+          "score": ""
+        },
+        {
+          "name": "Moreirense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407159",
+      "league": "mls",
+      "name": "New York Red Bulls vs Inter Miami",
+      "date": "2026-10-24T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "New York Red Bulls",
+          "score": ""
+        },
+        {
+          "name": "Inter Miami",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Glitch in Chelsea’s coding costs MacPhee and Penders as Spurs win set-piece battle | Barney Ronay",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-austin-macphee-mike-penders-roberto-de-zerbi",
+      "date": "2026-10-24T20:59:57Z",
+      "league": "soccer"
+    },
+    {
       "title": "United States Grand Prix: Formula One qualifying – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/24/united-states-grand-prix-formula-one-qualifying-live",
-      "date": "2026-10-24T20:35:41Z",
+      "date": "2026-10-24T20:59:53Z",
       "league": "all"
     },
     {
@@ -993,6 +1230,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T20:20:30Z",
       "league": "all"
+    },
+    {
+      "title": "Alonso urges Cole Palmer ‘to learn’ from red card in Chelsea’s defeat to Spurs",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/xabia-alonso-urges-cole-palmer-to-learn-from-red-card-in-chelseas-defeat-to-tottenham",
+      "date": "2026-10-24T20:19:17Z",
+      "league": "soccer"
     },
     {
       "title": "Strikers finding form as Rangers bounce back",
@@ -1279,20 +1523,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/paula-moltzan-first-world-cup-win-solden-giant-slalom",
       "date": "2026-10-24T13:07:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia crush England in women’s Rugby League World Cup statement win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/australia-england-womens-rugby-league-world-cup-match-report",
-      "date": "2026-10-24T10:59:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Infantino says he is backed by 'vast majority'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6q8nd9g9n72o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T10:30:08Z",
       "league": "all"
     }
   ]
