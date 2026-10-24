@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T23:47:53Z",
+  "updated_at": "2026-10-24T00:08:56Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -981,29 +981,29 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601686",
+      "id": "sportsdb-2601688",
       "league": "nba",
-      "name": "Miami Heat vs Detroit Pistons",
-      "date": "2026-10-24T00:00:00Z",
+      "name": "San Antonio Spurs vs Houston Rockets",
+      "date": "2026-10-24T01:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Miami Heat",
+          "name": "San Antonio Spurs",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Houston Rockets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2619527",
+      "id": "sportsdb-2619528",
       "league": "mlb",
       "name": "Milwaukee Brewers vs Tampa Bay Rays",
-      "date": "2026-10-24T00:00:00Z",
+      "date": "2026-10-25T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
@@ -1019,39 +1019,58 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591650",
+      "id": "sportsdb-2591651",
       "league": "nhl",
-      "name": "Chicago Blackhawks vs Montreal Canadiens",
-      "date": "2026-10-24T00:00:00Z",
+      "name": "Colorado Avalanche vs Tampa Bay Lightning",
+      "date": "2026-10-24T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chicago Blackhawks",
+          "name": "Colorado Avalanche",
           "score": ""
         },
         {
-          "name": "Montreal Canadiens",
+          "name": "Tampa Bay Lightning",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499105",
+      "id": "sportsdb-2499118",
       "league": "ncaaf",
-      "name": "Northern Illinois vs Hawaii",
-      "date": "2026-10-24T00:00:00Z",
+      "name": "Tulsa vs Army",
+      "date": "2026-10-24T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Northern Illinois",
+          "name": "Tulsa",
           "score": ""
         },
         {
-          "name": "Hawaii",
+          "name": "Army",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494075",
+      "league": "epl",
+      "name": "Ipswich Town vs Nottingham Forest",
+      "date": "2026-10-23T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Ipswich Town",
+          "score": "1"
+        },
+        {
+          "name": "Nottingham Forest",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1146,6 +1165,44 @@
         },
         {
           "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492896",
+      "league": "j1",
+      "name": "Sanfrecce Hiroshima vs Shimizu S-Pulse",
+      "date": "2026-10-24T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
