@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:10:20+00:00",
+  "updated_at": "2026-10-25T11:43:09+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -17,10 +17,10 @@
     "e339cc318bc1b4cc385c2d4c",
     "0ee827c5ff4681a907e6caf4",
     "97c227bfaa08472768aae88e",
-    "f7b82d8863e4bfc9dc0bc414",
+    "23a6cc82424e6c355a2be935",
     "4a2197c94357d90d6400ada9",
     "f4af9502ab1fb0cd83c80a9d",
-    "517d1048cb110599df40a54f",
+    "c603104c41fb0a58865039e2",
     "c607acd134ae7bf2ae26c174",
     "36111d6bc6b4991f37ea245b",
     "87bb975b7408391e696c42fc",
@@ -32,6 +32,32 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "c603104c41fb0a58865039e2",
+      "title": "The College of Magic turns ordinary kids into confident, top-hat wearing magicians",
+      "summary": "The students, many from marginalized communities, learn to conjure up candy, do card tricks — and face the world with a confident, creative and resilient mindset.",
+      "url": "https://www.npr.org/2026/10/25/g-s1-149089/magic-magicians-south-africa-school-students",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T11:24:58+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "23a6cc82424e6c355a2be935",
+      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
+      "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
+      "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T11:16:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "ee273e8d6d2effa2e3171640",
       "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
       "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
@@ -42,6 +68,32 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T11:00:26+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b7e04f9be95fc98c2fe4db30",
+      "title": "Trump administration has pushed off 13% of Americans enrolled in food stamps",
+      "summary": "Stakeholders concerned more people at risk of food insecurity after One Big Beautiful Act took effect Enrollment in the Supplemental Nutrition Assistance Program (Snap) has decreased significantly over the past year in the US following restrictions imposed by the Trump administration, which has forced more people to seek help from food banks or go hungry, stakeholders say. The number of people who receive food stamps has dropped from 41.6 million in July 2025, before the One Big Beautiful Act took effect, to 36.5 million in June 2026, a 13% decrease, according to the latest data from the US Department of Agriculture , which administers the program. Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/25/trump-food-stamp-cuts",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T11:00:02+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "762ce20814ba756438cf92b5",
+      "title": "‘Brilliant James’ helped return Trump to the White House. Can he conquer the midterms?",
+      "summary": "James Blair’s data-driven approach delivered victory in 2024 but president’s unpopularity and idiosyncratic style do not bode well this time They are both young, bald and fathers of four. They are also the brains behind Donald Trump. But while Stephen Miller is infamous as the US president’s ideological enforcer, James Blair could, in the words of Time magazine , “be the most important person in Donald Trump’s Washington you’ve never heard of”. That imbalance is deceptive, however. Blair has sufficiently impressed Trump to earn the nickname “Brilliant James”. And a well-positioned source told the Guardian: “I would say that James is probably twice, five times, 10 times more effective than Stephen Miller .” Continue reading...",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/25/james-blair-trump-strategist-midterms-republicans",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T11:00:02+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -67,6 +119,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T10:55:33+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "60bb059496d97895b02af175",
+      "title": "India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally",
+      "summary": "India's opposition leader Rahul Gandhi has accused the ruling BJP of \"vote theft\" and urged people to join a rally in Delhi on November 1. The call comes amid protests over revision of electoral rolls. DW has more.",
+      "url": "https://www.dw.com/en/india-news-rahul-gandhi-urges-protest-against-voter-deletions-announces-november-1-rally/live-79748098?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T10:52:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -201,12 +266,12 @@
       "selection_type": "automatic"
     },
     {
-      "id": "e9e348da52220beb428ad80c",
-      "title": "‘I’d rather live through something publicly than escape it privately’: Jack Antonoff on survivor’s guilt, songwriting and his shock breakup",
-      "summary": "Whether he’s playing the role of soul-baring artist or starry producer, the Bleachers frontman strives to keep his integrity intact. He weighs in on Ed Sheeran, his love of working on ‘high-stakes’ albums and and why he’ll never stop singing about the end of his marriage Sitting in the restaurant of a Denver hotel, in the middle of a US tour with his band Bleachers, Jack Antonoff shrugs. “There’s this intense need to figure me out,” he frowns, “and I don’t really know where it comes from, because I keep explaining all of it. ” He has a point. For the last 12 years, Bleachers have released a succession of albums packed with Antonoff’s strikingly personal and frank songs. Being strikingly personal and frank was the whole point. Antonoff had previously been guitarist in Fun, a pop-rock band who went supernova with their 2011 single We Are Yo",
-      "url": "https://www.theguardian.com/music/2026/oct/25/jack-antonoff-bleachers-interview-producer-kendrick-springsteen-taylor-swift",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
+      "id": "517d1048cb110599df40a54f",
+      "title": "When a teen posts a selfie, how much filter is 'too much' filter?",
+      "summary": "The recent Meta settlement includes a clause banning \"cosmetic procedure filters\" for teens. But defining what constitutes an extreme makeover isn't easy.",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6011190/meta-facebook-settlement-beauty-filters-ai",
+      "source": "NPR",
+      "feed_id": "npr_top",
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T10:00:00+00:00",
@@ -214,12 +279,12 @@
       "selection_type": "automatic"
     },
     {
-      "id": "517d1048cb110599df40a54f",
-      "title": "When a teen posts a selfie, how much filter is 'too much' filter?",
-      "summary": "The recent Meta settlement includes a clause banning \"cosmetic procedure filters\" for teens. But defining what constitutes an extreme makeover isn't easy.",
-      "url": "https://www.npr.org/2026/10/25/nx-s1-6011190/meta-facebook-settlement-beauty-filters-ai",
-      "source": "NPR",
-      "feed_id": "npr_top",
+      "id": "e9e348da52220beb428ad80c",
+      "title": "‘I’d rather live through something publicly than escape it privately’: Jack Antonoff on survivor’s guilt, songwriting and his shock breakup",
+      "summary": "Whether he’s playing the role of soul-baring artist or starry producer, the Bleachers frontman strives to keep his integrity intact. He weighs in on Ed Sheeran, his love of working on ‘high-stakes’ albums and and why he’ll never stop singing about the end of his marriage Sitting in the restaurant of a Denver hotel, in the middle of a US tour with his band Bleachers, Jack Antonoff shrugs. “There’s this intense need to figure me out,” he frowns, “and I don’t really know where it comes from, because I keep explaining all of it. ” He has a point. For the last 12 years, Bleachers have released a succession of albums packed with Antonoff’s strikingly personal and frank songs. Being strikingly personal and frank was the whole point. Antonoff had previously been guitarist in Fun, a pop-rock band who went supernova with their 2011 single We Are Yo",
+      "url": "https://www.theguardian.com/music/2026/oct/25/jack-antonoff-bleachers-interview-producer-kendrick-springsteen-taylor-swift",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T10:00:00+00:00",
@@ -249,19 +314,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T09:57:40+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "23a6cc82424e6c355a2be935",
-      "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
-      "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
-      "url": "https://www.dw.com/en/brazil-votes-in-tight-runoff-between-leftist-lula-and-right-wing-flavio-bolsonaro/a-79753924?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-25T09:34:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -471,19 +523,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T08:44:17+00:00",
       "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "60bb059496d97895b02af175",
-      "title": "India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally",
-      "summary": "India's opposition leader Rahul Gandhi has accused the ruling BJP of \"vote theft\" and urged people to join a rally in Delhi on November 1. The call comes amid protests over revision of electoral rolls. DW has more.",
-      "url": "https://www.dw.com/en/india-news-rahul-gandhi-urges-protest-against-voter-deletions-announces-november-1-rally/live-79748098?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-25T08:29:00+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -1330,7 +1369,7 @@
     },
     {
       "id": "a88b3d03ee9856d2bd56a75a",
-      "title": "Moment of jeopardy as King embarks on Caribbean tour",
+      "title": "Why the King's Caribbean tour could be 'biggest risk of his reign'",
       "summary": "The meticulously-planned visit takes in three countries in nine days - but is not without jeopardy.",
       "url": "https://www.bbc.co.uk/news/articles/ckzd6gvg1r2jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -1347,7 +1386,7 @@
       "summary": "For Bu and Tyapa, the five-year journey from Russia to the Irish countryside was anything but straightforward.",
       "url": "https://www.bbc.co.uk/news/articles/cx62y9j1zyjvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_world",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T23:02:51+00:00",
@@ -1997,11 +2036,11 @@
       "summary": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions.",
       "url": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
       "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
+      "feed_id": "npr_world",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T17:54:25+00:00",
-      "desk_priority": 24,
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -5470,45 +5509,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T20:26:17+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "eef9748d960727ad7a22d0af",
-      "title": "Why experts are pushing RFK Jr. to release a federal definition of ultraprocessed foods",
-      "summary": "More than 100 science, medical and nutrition experts signed and sent an open letter Friday to the Office of Management and Budget, urging the administration to release the first-ever government definition of ultraprocessed foods.",
-      "url": "https://www.pbs.org/newshour/health/why-experts-are-pushing-rfk-jr-to-release-a-federal-definition-of-ultraprocessed-foods",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T20:24:23+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f1d27758b96ee238e52f2012",
-      "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
-      "summary": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them.",
-      "url": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T20:20:41+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2e8ec6f79a38cb014e082a8b",
-      "title": "Indiana police officer arrested for using Flock cameras to search wife’s details",
-      "summary": "Justin Craig charged with official misconduct and fraud, after searching plates of wife and ‘previous acquaintance’ An Indiana police officer has been arrested on allegations that he misused Flock cameras hundreds of times in a case involving his wife and a previous acquaintance of hers. Justin Craig of Georgetown police department, was charged with official misconduct and two counts of fraud. Documents show that he searched his wife’s license plate more than 80 times and that of a “previous acquaintance” of hers nearly 250 times, the news outlet WLKY reported. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/indiana-police-arrest-flock-wife",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T20:19:56+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
