@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T22:08:42Z",
+  "updated_at": "2026-10-25T22:45:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -996,55 +996,50 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Barcelona 1-2 Real Madrid: El Clásico – live reaction",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T22:02:17Z",
+      "title": "Smith holds on to beat Schindler in Euros final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/cv5yn4w8x378o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T22:44:47Z",
       "league": "all"
     },
     {
-      "title": "Kimi Antonelli edges closer to title after winning United States Grand Prix: Formula One – as it happened",
+      "title": "Kimi Antonelli storms to US F1 GP victory but is made to wait for title glory",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T22:00:07Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/kimi-antonelli-storms-to-us-f1-gp-victory-but-is-made-to-wait-for-title-glory",
+      "date": "2026-10-25T22:21:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Who has made Troy's Premier League team of the week?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T22:16:14Z",
       "league": "all"
     },
     {
       "title": "Antonelli wins in US but has to wait to secure title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T22:00:05Z",
+      "date": "2026-10-25T22:13:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
+      "date": "2026-10-25T22:12:20Z",
       "league": "all"
     },
     {
       "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T21:38:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
@@ -1131,11 +1126,11 @@
       "league": "all"
     },
     {
-      "title": "Weir would swap Ballon d'Or nods for World Cup",
-      "source": "BBC Sport",
+      "title": "Weir would swap Ballon d'Or nominations for World Cup",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T19:34:15Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Dunfermline meet Queen of the South in Scottish Cup",
@@ -1171,6 +1166,13 @@
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmq5nyywq8n1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:35:13Z",
       "league": "all"
+    },
+    {
+      "title": "Pierre Sage regrets ‘missed 15 minutes’ as defeat increases heat on Crystal Palace manager",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/25/pierre-sage-regrets-missed-15-minutes-as-defeat-increases-heat-on-crystal-palace-manager",
+      "date": "2026-10-25T18:17:10Z",
+      "league": "soccer"
     },
     {
       "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
@@ -1212,13 +1214,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/harlequins-saracens-prem-rugby-union-match-report",
       "date": "2026-10-25T17:30:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Smith stars as Quins beat Saracens for first win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crjwe6j90p9lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T17:18:38Z",
       "league": "all"
     },
     {
@@ -1278,13 +1273,6 @@
       "league": "soccer"
     },
     {
-      "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T15:58:26Z",
-      "league": "all"
-    },
-    {
       "title": "Jarman wins historic second Worlds silver in vault final",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c574pv1nk0jgo?at_medium=RSS&at_campaign=rss",
@@ -1324,13 +1312,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c3qjng48exxwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T12:03:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Jokić says booing fans ‘not welcome’ after Nuggets rally from 23 points down to beat Pelicans",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/jokic-says-booing-fans-not-welcome-after-nuggets-rally-from-23-points-down-to-beat-pelicans",
-      "date": "2026-10-25T11:48:49Z",
       "league": "all"
     }
   ]
