@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T19:45:58Z",
+  "updated_at": "2026-10-25T20:06:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -808,19 +808,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475476",
+      "id": "sportsdb-2475477",
       "league": "nfl",
-      "name": "Arizona Cardinals vs Denver Broncos",
-      "date": "2026-10-25T20:05:00Z",
+      "name": "Detroit Lions vs Green Bay Packers",
+      "date": "2026-10-25T20:25:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Arizona Cardinals",
+          "name": "Detroit Lions",
           "score": ""
         },
         {
-          "name": "Denver Broncos",
+          "name": "Green Bay Packers",
           "score": ""
         }
       ],
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506259",
+      "id": "sportsdb-2506263",
       "league": "laliga",
-      "name": "Barcelona vs Real Madrid",
-      "date": "2026-10-25T20:00:00Z",
+      "name": "Sevilla vs Osasuna",
+      "date": "2026-10-26T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Barcelona",
+          "name": "Sevilla",
           "score": ""
         },
         {
-          "name": "Real Madrid",
+          "name": "Osasuna",
           "score": ""
         }
       ],
@@ -996,14 +996,103 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Barcelona v Real Madrid: El Clásico – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+      "date": "2026-10-25T20:06:50Z",
+      "league": "all"
+    },
+    {
       "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T19:35:26Z",
+      "date": "2026-10-25T20:06:15Z",
+      "league": "all"
+    },
+    {
+      "title": "United States Grand Prix: Formula One – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
+      "date": "2026-10-25T20:00:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Pressure intensifies on Carrick as Man Utd lose to Bournemouth",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq0mepm1d774o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T20:00:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool earn first league win at Anfield with victory over Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm3vq1vpv6zno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T20:00:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Sage continues to struggle as Palace lose at home to Newcastle",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9gkvellmxg1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:59:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Hull draw third consecutive home game after being held by Brentford",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmlylkydwl78o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:59:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Sunderland stay bottom after goalless draw with Leeds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cj75pv5zp95po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:59:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Birmingham get first win of the season after edging past Charlton",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqy8lj00k1m7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:55:12Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Late own goal gives Liverpool point against London City Lionesses",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmp3g9ee4e1lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:54:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Vangsgaard scores twice as Villa hang on to beat Everton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckvgd122njp0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:54:10Z",
       "league": "all"
     },
     {
@@ -1012,20 +1101,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T19:34:15Z",
       "league": "soccer"
-    },
-    {
-      "title": "United States Grand Prix: Formula One – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T19:32:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Barcelona v Real Madrid: El Clásico – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T19:32:20Z",
-      "league": "all"
     },
     {
       "title": "Dunfermline meet Queen of the South in Scottish Cup",
@@ -1039,13 +1114,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-board-crisis-talks-michael-carrick-eddie-howe-bournemouth-premier-league",
       "date": "2026-10-25T19:24:06Z",
-      "league": "all"
-    },
-    {
-      "title": "The Football Hub: Reaction to Sunday's action",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/l00590b3?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:46:19Z",
       "league": "all"
     },
     {
@@ -1189,13 +1257,6 @@
       "league": "all"
     },
     {
-      "title": "Australia survive scare to beat Fiji and reach World Cup semi-finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cmy0e9kqplx8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T15:53:11Z",
-      "league": "all"
-    },
-    {
       "title": "Jarman wins historic second Worlds silver in vault final",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c574pv1nk0jgo?at_medium=RSS&at_campaign=rss",
@@ -1231,6 +1292,13 @@
       "league": "all"
     },
     {
+      "title": "England win cerebral palsy World Cup for first time",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T12:13:40Z",
+      "league": "soccer"
+    },
+    {
       "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
@@ -1252,13 +1320,6 @@
       "league": "all"
     },
     {
-      "title": "Australia reach World Cup semis & New Zealand get back on track",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c60mekrgx4zvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T11:21:50Z",
-      "league": "all"
-    },
-    {
       "title": "Australia survive almighty Fiji scare to stay unbeaten at Rugby League World Cup",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
@@ -1266,52 +1327,10 @@
       "league": "all"
     },
     {
-      "title": "Watch Match of the Day on iPlayer",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T09:00:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "Ballon d’Or ceremony returns to England in nod to ‘revolutionary’ Stanley Matthews",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/ballon-dor-ceremony-returns-to-england-in-nod-to-revolutionary-stanley-matthews",
       "date": "2026-10-25T08:00:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Ian Holloway’s circus: why the manager’s antics are no laughing matter for fans",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/ian-holloway-circus-swindon-outbursts-no-laughing-matter-fans",
-      "date": "2026-10-25T08:00:56Z",
-      "league": "all"
-    },
-    {
-      "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crgqwzqz8zgwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T07:55:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "What Man Utd need now is stability, not more changes - Pulis",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck78p37y5508o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T06:34:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "When is Premier League 'sacking season' - and who should be worried?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy83vg66zngo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T06:17:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Inglorious end as rain cancels final MotoGP race at Phillip Island in setback for Márquez",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/final-motogp-race-phillip-island-rain-cancellation-marc-marquez",
-      "date": "2026-10-25T05:45:35Z",
       "league": "all"
     }
   ]
