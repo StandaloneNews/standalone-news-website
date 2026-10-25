@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T15:11:11Z",
+  "updated_at": "2026-10-25T15:51:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506264",
+      "id": "sportsdb-2506266",
       "league": "laliga",
-      "name": "Celta Vigo vs Real Betis",
-      "date": "2026-10-25T15:15:00Z",
+      "name": "Real Sociedad vs Levante",
+      "date": "2026-10-25T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Celta Vigo",
+          "name": "Real Sociedad",
           "score": ""
         },
         {
-          "name": "Real Betis",
+          "name": "Levante",
           "score": ""
         }
       ],
@@ -982,23 +982,30 @@
   "stories": [
     {
       "title": "Manchester United v Bournemouth, Liverpool v Brighton and more: clockwatch – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
-      "date": "2026-10-25T15:08:52Z",
-      "league": "all"
+      "date": "2026-10-25T15:45:03Z",
+      "league": "soccer"
     },
     {
-      "title": "England all out for 241 against Pakistan despite Duckett’s 105: tri-series one day international cricket – live",
+      "title": "England one wicket from win but Pakistan rally chasing 241: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T15:08:38Z",
+      "date": "2026-10-25T15:41:35Z",
       "league": "all"
     },
     {
       "title": "Sunderland v Leeds: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T15:00:04Z",
+      "date": "2026-10-25T15:36:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Jarman wins historic second Worlds silver in vault final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c574pv1nk0jgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T15:25:16Z",
       "league": "all"
     },
     {
@@ -1287,13 +1294,6 @@
       "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
       "date": "2026-10-24T19:00:41Z",
       "league": "all"
-    },
-    {
-      "title": "Arsenal beat Everton to go level on points with leaders Man City",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm79pxqdlwelo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T18:59:30Z",
-      "league": "soccer"
     }
   ]
 }
