@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T20:48:10Z",
+  "updated_at": "2026-10-25T21:10:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 17,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,22 +63,22 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601701",
+      "id": "sportsdb-2601702",
       "league": "nba",
-      "name": "Utah Jazz vs Los Angeles Lakers",
-      "date": "2026-10-25T21:00:00Z",
+      "name": "Brooklyn Nets vs Indiana Pacers",
+      "date": "2026-10-25T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Utah Jazz",
+          "name": "Brooklyn Nets",
           "score": ""
         },
         {
-          "name": "Los Angeles Lakers",
+          "name": "Indiana Pacers",
           "score": ""
         }
       ],
@@ -977,28 +977,168 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489531",
+      "league": "ligue1",
+      "name": "Auxerre vs Le Mans",
+      "date": "2026-10-25T16:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": "1"
+        },
+        {
+          "name": "Le Mans",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398502",
+      "league": "brasileirao",
+      "name": "Coritiba vs Grêmio",
+      "date": "2026-10-26T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Coritiba",
+          "score": ""
+        },
+        {
+          "name": "Grêmio",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398153",
+      "league": "argentina",
+      "name": "Independiente vs Boca Juniors",
+      "date": "2026-10-25T20:00:00Z",
+      "state": "upcoming",
+      "status": "2H",
+      "participants": [
+        {
+          "name": "Independiente",
+          "score": ""
+        },
+        {
+          "name": "Boca Juniors",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398155",
+      "league": "argentina",
+      "name": "River Plate vs Racing Club",
+      "date": "2026-10-25T22:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "River Plate",
+          "score": ""
+        },
+        {
+          "name": "Racing Club",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540118",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Auckland FC",
+      "date": "2026-10-30T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Auckland FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Barcelona v Real Madrid: El Clásico – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T20:36:24Z",
-      "league": "all"
-    },
-    {
       "title": "United States Grand Prix: Formula One – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T20:35:03Z",
+      "date": "2026-10-25T21:05:30Z",
       "league": "all"
     },
     {
-      "title": "NFL week seven: Falcons stun 49ers, Vikings stay perfect and Bengals beat Ravens – as it happened",
+      "title": "Barcelona v Real Madrid: El Clásico – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T20:22:41Z",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+      "date": "2026-10-25T21:05:26Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL roundup: Falcons spoil Niners’ undefeated start; Steelers win in Paris",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/nfl-roundup-sunday-football-scores",
+      "date": "2026-10-25T20:48:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Terland strikes late as United end Manchester City’s winning start in WSL",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report",
+      "date": "2026-10-25T20:38:20Z",
       "league": "all"
     },
     {
@@ -1178,10 +1318,10 @@
     },
     {
       "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
       "date": "2026-10-25T16:40:07Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England lose to Pakistan after improbable last-wicket stand",
@@ -1286,13 +1426,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/ballon-dor-ceremony-returns-to-england-in-nod-to-revolutionary-stanley-matthews",
       "date": "2026-10-25T08:00:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Ian Holloway’s circus: why the manager’s antics are no laughing matter for fans",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/ian-holloway-circus-swindon-outbursts-no-laughing-matter-fans",
-      "date": "2026-10-25T08:00:56Z",
       "league": "all"
     }
   ]
