@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T20:06:43Z",
+  "updated_at": "2026-10-25T20:48:10Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -808,19 +808,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475477",
+      "id": "sportsdb-2475479",
       "league": "nfl",
-      "name": "Detroit Lions vs Green Bay Packers",
-      "date": "2026-10-25T20:25:00Z",
+      "name": "Seattle Seahawks vs Kansas City Chiefs",
+      "date": "2026-10-26T00:20:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Detroit Lions",
+          "name": "Seattle Seahawks",
           "score": ""
         },
         {
-          "name": "Green Bay Packers",
+          "name": "Kansas City Chiefs",
           "score": ""
         }
       ],
@@ -977,44 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1022,21 +984,21 @@
       "title": "Barcelona v Real Madrid: El Clásico – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T20:06:50Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T20:06:15Z",
+      "date": "2026-10-25T20:36:24Z",
       "league": "all"
     },
     {
       "title": "United States Grand Prix: Formula One – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T20:00:54Z",
+      "date": "2026-10-25T20:35:03Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL week seven: Falcons stun 49ers, Vikings stay perfect and Bengals beat Ravens – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
+      "date": "2026-10-25T20:22:41Z",
       "league": "all"
     },
     {
@@ -1096,11 +1058,11 @@
       "league": "all"
     },
     {
-      "title": "Weir would swap Ballon d'Or nominations for World Cup",
-      "source": "BBC Football",
+      "title": "Weir would swap Ballon d'Or nods for World Cup",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T19:34:15Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Dunfermline meet Queen of the South in Scottish Cup",
@@ -1264,13 +1226,6 @@
       "league": "all"
     },
     {
-      "title": "Russia to host first Olympic federation world event since Ukraine invasion",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T14:34:33Z",
-      "league": "all"
-    },
-    {
       "title": "Sheffield Wednesday sack Pedersen after 15 months",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq4g15392p4ro?at_medium=RSS&at_campaign=rss",
@@ -1331,6 +1286,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/ballon-dor-ceremony-returns-to-england-in-nod-to-revolutionary-stanley-matthews",
       "date": "2026-10-25T08:00:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Ian Holloway’s circus: why the manager’s antics are no laughing matter for fans",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/ian-holloway-circus-swindon-outbursts-no-laughing-matter-fans",
+      "date": "2026-10-25T08:00:56Z",
       "league": "all"
     }
   ]
