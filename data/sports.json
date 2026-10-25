@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T08:11:33Z",
+  "updated_at": "2026-10-25T08:52:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -977,6 +977,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489527",
+      "league": "ligue1",
+      "name": "Monaco vs Lille",
+      "date": "2026-10-25T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Monaco",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -984,22 +1003,50 @@
       "title": "Pakistan v England: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T07:59:38Z",
+      "date": "2026-10-25T08:41:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick denies Manchester United are ‘unmanageable’, clásico buildup and more – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/buildup-liverpool-brighton-manchester-united-bournemouth-matchday-live",
+      "date": "2026-10-25T08:40:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia v Fiji: men’s Rugby League World Cup – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/australia-vs-fiji-mens-rugby-league-world-cup-live-updates",
+      "date": "2026-10-25T08:38:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Ballon d’Or ceremony returns to England in nod to ‘revolutionary’ Stanley Matthews",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/ballon-dor-ceremony-returns-to-england-in-nod-to-revolutionary-stanley-matthews",
+      "date": "2026-10-25T08:00:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Ian Holloway’s circus: why the manager’s outbursts are no laughing matter for fans",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/ian-holloway-circus-swindon-outbursts-no-laughing-matter-fans",
+      "date": "2026-10-25T08:00:56Z",
       "league": "all"
     },
     {
       "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T07:58:04Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgqwzqz8zgwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T07:55:05Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1034,13 +1081,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy83vg66zngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T06:17:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Inglorious end as rain cancels final MotoGP race at Phillip Island in setback for Márquez",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/final-motogp-race-phillip-island-rain-cancellation-marc-marquez",
-      "date": "2026-10-25T05:45:35Z",
       "league": "all"
     },
     {
@@ -1100,13 +1140,6 @@
       "league": "soccer"
     },
     {
-      "title": "European football: Lazio beat Parma to top Serie A; Dortmund lead Bundesliga",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/european-football-napoli-roma-borussia-dortmund-atletico-madrid-paris-fc",
-      "date": "2026-10-24T21:21:11Z",
-      "league": "all"
-    },
-    {
       "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss",
@@ -1133,13 +1166,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T20:20:30Z",
       "league": "soccer"
-    },
-    {
-      "title": "Alonso urges Cole Palmer ‘to learn’ from red card in Chelsea’s defeat to Spurs",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/xabia-alonso-urges-cole-palmer-to-learn-from-red-card-in-chelseas-defeat-to-tottenham",
-      "date": "2026-10-24T20:19:17Z",
-      "league": "all"
     },
     {
       "title": "Strikers finding form as Rangers bounce back",
@@ -1177,18 +1203,18 @@
       "league": "soccer"
     },
     {
-      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
-      "date": "2026-10-24T19:00:41Z",
-      "league": "all"
-    },
-    {
       "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
       "date": "2026-10-24T19:00:41Z",
       "league": "all"
+    },
+    {
+      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
+      "date": "2026-10-24T19:00:41Z",
+      "league": "soccer"
     },
     {
       "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
@@ -1255,10 +1281,10 @@
     },
     {
       "title": "From Chelsea reject to Watkins 'upgrade' - Jackson makes fast Villa start",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6p9gkdzzpnro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T16:58:27Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Scottish Premiership: Kelsy fires Rangers to emphatic win; Dundee United pip Aberdeen",
@@ -1283,17 +1309,10 @@
     },
     {
       "title": "Arsenal relieve pressure with Spurs win - can they kick on now?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93zw44d33do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:40:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Maresca ‘not worried’ by Guéhi’s gaffes as Aston Villa end City’s flawless start",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/maresca-guehi-errors-aston-villa-manchester-city-premier-league",
-      "date": "2026-10-24T15:16:45Z",
-      "league": "all"
+      "league": "soccer"
     }
   ]
 }
