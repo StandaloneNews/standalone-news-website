@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T01:51:15Z",
+  "updated_at": "2026-10-25T02:15:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -827,20 +827,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601699",
+      "id": "sportsdb-2601701",
       "league": "nba",
-      "name": "Denver Nuggets vs New Orleans Pelicans",
-      "date": "2026-10-25T02:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Utah Jazz vs Los Angeles Lakers",
+      "date": "2026-10-25T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Denver Nuggets",
-          "score": "0"
+          "name": "Utah Jazz",
+          "score": ""
         },
         {
-          "name": "New Orleans Pelicans",
-          "score": "0"
+          "name": "Los Angeles Lakers",
+          "score": ""
         }
       ],
       "url": ""
@@ -865,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591662",
+      "id": "sportsdb-2591664",
       "league": "nhl",
-      "name": "Calgary Flames vs Detroit Red Wings",
-      "date": "2026-10-25T02:00:00Z",
+      "name": "Chicago Blackhawks vs Florida Panthers",
+      "date": "2026-10-25T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Calgary Flames",
+          "name": "Chicago Blackhawks",
           "score": ""
         },
         {
-          "name": "Detroit Red Wings",
+          "name": "Florida Panthers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499106",
+      "id": "sportsdb-2499125",
       "league": "ncaaf",
-      "name": "New Mexico vs North Dakota State",
-      "date": "2026-10-25T02:00:00Z",
+      "name": "Western Kentucky vs Delaware",
+      "date": "2026-10-27T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New Mexico",
+          "name": "Western Kentucky",
           "score": ""
         },
         {
-          "name": "North Dakota State",
+          "name": "Delaware",
           "score": ""
         }
       ],
