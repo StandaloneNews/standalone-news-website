@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T23:08:49Z",
+  "updated_at": "2026-10-25T23:43:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601706",
+      "id": "sportsdb-2601707",
       "league": "nba",
-      "name": "Philadelphia 76ers vs Detroit Pistons",
-      "date": "2026-10-25T23:30:00Z",
+      "name": "Sacramento Kings vs Memphis Grizzlies",
+      "date": "2026-10-26T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia 76ers",
+          "name": "Sacramento Kings",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Memphis Grizzlies",
           "score": ""
         }
       ],
@@ -996,35 +996,9 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
-    {
-      "title": "Watch: Match of the Day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T23:46:55Z",
-      "league": "all"
-    },
     {
       "title": "Smith holds on to beat Schindler in Euros final",
       "source": "BBC Sport",
@@ -1181,10 +1155,10 @@
     },
     {
       "title": "Roefs and Trafford stand firm as Sunderland and Leeds battle for point",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/25/sunderland-leeds-premier-league-match-report",
       "date": "2026-10-25T18:46:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Pressure grows on Sage as fans turn on Palace boss",
@@ -1208,10 +1182,24 @@
       "league": "soccer"
     },
     {
+      "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:14:53Z",
+      "league": "all"
+    },
+    {
       "title": "Isak finally living up to price tag as Liverpool patience rewarded",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:13:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Joe Marchant recalled to England training squad for Nations Championship",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/joe-marchant-recalled-to-england-training-squad-for-nations-championship",
+      "date": "2026-10-25T17:57:43Z",
       "league": "all"
     },
     {
@@ -1265,10 +1253,10 @@
     },
     {
       "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
       "date": "2026-10-25T16:40:07Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "England lose to Pakistan after improbable last-wicket stand",
@@ -1324,13 +1312,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
       "date": "2026-10-25T12:48:44Z",
-      "league": "all"
-    },
-    {
-      "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
-      "date": "2026-10-25T12:04:15Z",
       "league": "all"
     }
   ]
