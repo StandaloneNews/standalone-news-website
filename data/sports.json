@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T12:10:23Z",
+  "updated_at": "2026-10-25T13:01:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -148,6 +148,20 @@
         {
           "fighters": [
             {
+              "name": "Ode Osbourne",
+              "score": ""
+            },
+            {
+              "name": "Cody Durden",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
               "name": "Yana Santos",
               "score": ""
             },
@@ -237,20 +251,6 @@
             },
             {
               "name": "Piera Rodriguez",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Lucia Szabova",
-              "score": ""
-            },
-            {
-              "name": "Tainara Lisboa",
               "score": ""
             }
           ],
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506261",
+      "id": "sportsdb-2506264",
       "league": "laliga",
-      "name": "Athletic Bilbao vs Getafe",
-      "date": "2026-10-25T13:00:00Z",
+      "name": "Celta Vigo vs Real Betis",
+      "date": "2026-10-25T15:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Athletic Bilbao",
+          "name": "Celta Vigo",
           "score": ""
         },
         {
-          "name": "Getafe",
+          "name": "Real Betis",
           "score": ""
         }
       ],
@@ -981,10 +981,45 @@
   ],
   "stories": [
     {
+      "title": "Fernandes dropped by Manchester United, Liverpool v Brighton and more: clockwatch – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
+      "date": "2026-10-25T12:59:42Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fernandes dropped to bench by Man Utd boss Carrick",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T12:58:18Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Osaka 'not far off' her best but often ponders future",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T12:54:11Z",
+      "league": "all"
+    },
+    {
       "title": "England all out for 241 against Pakistan despite Duckett’s 105: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T12:09:43Z",
+      "date": "2026-10-25T12:48:45Z",
+      "league": "all"
+    },
+    {
+      "title": "England win cerebral palsy World Cup for first time",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T12:13:40Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Munster's Coombes backed after making groin grab allegation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvlyd576g55xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T12:11:03Z",
       "league": "all"
     },
     {
@@ -999,13 +1034,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c3qjng48exxwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T12:03:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick denies Manchester United are ‘unmanageable’, clásico buildup and more – matchday live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/buildup-liverpool-brighton-manchester-united-bournemouth-matchday-live",
-      "date": "2026-10-25T12:02:09Z",
       "league": "all"
     },
     {
@@ -1027,13 +1055,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
       "date": "2026-10-25T10:59:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Osaka 'not far off' her best but often ponders future",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T10:35:26Z",
       "league": "all"
     },
     {
@@ -1156,13 +1177,6 @@
       "league": "all"
     },
     {
-      "title": "Man Utd not an unmanageable club - Carrick",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9ly0dxxgp7lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T21:34:19Z",
-      "league": "soccer"
-    },
-    {
       "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss",
@@ -1268,13 +1282,6 @@
       "league": "all"
     },
     {
-      "title": "Penders error & Palmer sees red - player ratings for Chelsea v Spurs",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqwy7x6e672eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T18:26:29Z",
-      "league": "soccer"
-    },
-    {
       "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/24/leicester-northampton-prem-rugby-union-match-report",
@@ -1286,13 +1293,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/championship-roundup-sheffield-united-derby-west-ham-swansea",
       "date": "2026-10-24T18:11:23Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Burnley sack Nicky Hayen after Lincoln rout leaves them in bottom three",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/burnley-sack-nicky-hayen-lincoln-rout-championship",
-      "date": "2026-10-24T18:05:08Z",
       "league": "soccer"
     }
   ]
