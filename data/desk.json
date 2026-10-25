@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T02:13:21+00:00",
+  "updated_at": "2026-10-25T02:51:21+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -8,6 +8,7 @@
     "9c7ec65e76628519dd1c1878",
     "fcc15f0e001ca52f5347dc70",
     "34a74e5845756f13fb70f040",
+    "8568239444f04aaa30113e76",
     "077396b23a98de6698373513",
     "fd32ce4d6894cdde5b55e030",
     "915e0f9c258a537bfdfb19b3",
@@ -17,7 +18,6 @@
     "9a84e512118d6a33bd05cfc9",
     "d2f08bc4bcc7ea7f197cb149",
     "4e39a62d1827bfc57d49c3d1",
-    "c921e5a3357873ad79dd37c7",
     "4a2197c94357d90d6400ada9",
     "f4af9502ab1fb0cd83c80a9d",
     "26afb774eaa43bf8b27e19c7",
@@ -32,6 +32,45 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "8568239444f04aaa30113e76",
+      "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
+      "summary": "Crimea strikes cause water and power cuts; war game designed to show how Nato countries could be defended amid fears of Russian aggression. What we know on day 1,705 A Ukrainian attack led to water and power cuts in occupied Crimea on Saturday, as a barrage of drones in several regions inside Russia left several dead, according to Russian authorities. Sergei Aksyonov, the Moscow-installed head of the Crimean peninsula, wrote on Telegram that due to the drone attack on local power grids “restrictions on the supply of electricity and water have been put in place”. He did not specify how many households had been affected in Crimea, which is home to more than 2.5 million people. The peninsula, which was seized from Ukraine by Russia in 2014, is a regular target for Ukrainian attacks. A separate Ukrainian strike in part of the north-eastern Kh",
+      "url": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:37:44+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "2ac5d225560f70aa9efb31de",
+      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
+      "summary": "\"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama said.",
+      "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:27:15+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "83a1ffacabe7c1272dc6457f",
+      "title": "Mass rally against Netanyahu ahead of pivotal Israeli election",
+      "summary": "Thousands of Israelis rallied against PM Benjamin Netanyahu ahead of elections on Tuesday.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/mass-rally-against-netanyahu-ahead-of-pivotal-israeli-election?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:07:29+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "fcd7b0a143b2dbde77500c79",
       "title": "New York Archdiocese to pay $800 million to sex abuse survivors",
       "summary": "Around 1,300 survivors agreed to the $800 million payout from the Catholic Church, marking one of the largest clergy abuse settlements in the US.",
@@ -42,6 +81,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T02:07:00+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5e5c2822a097a5604c4e4f1b",
+      "title": "Myanmar’s Aung San Suu Kyi ‘sounds strong’ but is isolated, son says",
+      "summary": "Kim Aris tells the Guardian chance to speak with detained Nobel laureate was ‘public relations’ move from military leaders Myanmar’s former democratic leader Aung San Suu Kyi appears to be in good physical and mental health but is living in near-complete isolation, her son has said after the first call with his 81-year-old mother in more than five years. “She still sounds certainly all there mentally, and physically she sounds strong,” Kim Aris said. “I don’t think she has anybody outside of the military or the police around her, so essentially she’s been held in solitary confinement from what I gather.” Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/oct/25/myanmar-aung-san-suu-kyi-speaks-son-pr-move",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:00:49+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -93,19 +145,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T01:32:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2ac5d225560f70aa9efb31de",
-      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-      "summary": "\"This election is our last best chance to at least rein in some of the foolishness of this administration,\" Obama said.",
-      "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-25T01:16:33+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -289,17 +328,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-24T23:03:21+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Kyle Taylor from London, 84 Countries",
-        "license": "CC BY 2.0",
-        "description": "Israel - Jerusalem - Old City",
-        "label": "Illustrative photo",
-        "matched_query": "Jerusalem Israel skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "a88b3d03ee9856d2bd56a75a",
@@ -2382,10 +2411,10 @@
       "selection_type": "automatic"
     },
     {
-      "id": "62e6eaf3fc0a4417395f4e2a",
-      "title": "Verse from Qu’ran inspired US man to leap on runaway school bus and halt it",
-      "summary": "Ebro Ahmed, who acted after driver’s medical emergency, said he hopes incident will show Eritreans ‘in a good way’ A man who hopped on to a school bus full of terrified children that was careering down a Minnesota street after its driver had a medical emergency and manually halted it says he was motivated to act by a Qu’ran verse about how saving one life is equivalent to saving all of humanity. “I’m a numbers guy, and those numbers make sense to me,” Ebro Ahmed, 27, said on Friday during an interview about his actions four days earlier in front of his family’s convenience store in Saint Paul, Minnesota. “I didn’t do it for me. It was selflessness in the name of God.” Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
+      "id": "57b9f48ba20288e539017e3e",
+      "title": "Tom Kean had everything going for him. Then the Republican New Jersey congressman disappeared",
+      "summary": "Even with a multimillion-dollar war chest, the US representative faces a stiff fight for his seat from Democrat Rebecca Bennett The stars above New Jersey seemed aligned for Tom Kean Jr. The Republican congressman had a war chest of more than $2.4m in February, an endorsement from Donald Trump and a district whose lines were redrawn in 2022 to benefit his party. He was an established political figure with widespread name recognition, thanks to his father’s stint as a well-regarded governor of New Jersey . Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/24/tom-kean-new-jersey-rebecca-bennett",
       "source": "The Guardian",
       "feed_id": "guardian_us",
       "category": "US News",
@@ -2395,10 +2424,10 @@
       "selection_type": "automatic"
     },
     {
-      "id": "57b9f48ba20288e539017e3e",
-      "title": "Tom Kean had everything going for him. Then the Republican New Jersey congressman disappeared",
-      "summary": "Even with a multimillion-dollar war chest, the US representative faces a stiff fight for his seat from Democrat Rebecca Bennett The stars above New Jersey seemed aligned for Tom Kean Jr. The Republican congressman had a war chest of more than $2.4m in February, an endorsement from Donald Trump and a district whose lines were redrawn in 2022 to benefit his party. He was an established political figure with widespread name recognition, thanks to his father’s stint as a well-regarded governor of New Jersey . Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/24/tom-kean-new-jersey-rebecca-bennett",
+      "id": "62e6eaf3fc0a4417395f4e2a",
+      "title": "Verse from Qu’ran inspired US man to leap on runaway school bus and halt it",
+      "summary": "Ebro Ahmed, who acted after driver’s medical emergency, said he hopes incident will show Eritreans ‘in a good way’ A man who hopped on to a school bus full of terrified children that was careering down a Minnesota street after its driver had a medical emergency and manually halted it says he was motivated to act by a Qu’ran verse about how saving one life is equivalent to saving all of humanity. “I’m a numbers guy, and those numbers make sense to me,” Ebro Ahmed, 27, said on Friday during an interview about his actions four days earlier in front of his family’s convenience store in Saint Paul, Minnesota. “I didn’t do it for me. It was selflessness in the name of God.” Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
       "source": "The Guardian",
       "feed_id": "guardian_us",
       "category": "US News",
@@ -5470,45 +5499,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T17:01:05+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "821a7d4bee53c6ef525a931c",
-      "title": "Indonesia seizes more than a tonne of ketamine from tanker",
-      "summary": "Indonesian authorities seized 1.16 tonnes of ketamine from a Malaysian vessel in the Strait of Malacca.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/aje-onl-nf_indonesia-seizes-more-than-a-tonne-of-ketamine-231026?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T17:00:22+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1bb40ddffcb6c2abe17fed4e",
-      "title": "The iPhone Duo should have been an iPad",
-      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
-      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T17:00:18+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "81bb3142370f3992c42489c5",
-      "title": "As midterms loom, Trump and his allies try to change the subject",
-      "summary": "Despite distraction and distortion, voters know what issues will be informing their votes in this election This was originally published in The Stakes 2026, a newsletter about the midterm elections. Sign up to get it in your inbox Elections too often get pigeonholed. The hot take, or simplistic analysis, would have it that just one issue – often the issue the source so happens to be most animated about – will decide the entire result. Tens of millions of Americans will go to the polls next month. Will they be galvanized by affordability? Maybe it’s Iran. Or healthcare? Taxes, perhaps. Or crime. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/22/midterm-elections-trump-changes-subject",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T17:00:09+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
