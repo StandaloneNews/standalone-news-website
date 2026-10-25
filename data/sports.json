@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T21:48:34Z",
+  "updated_at": "2026-10-25T22:08:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601702",
+      "id": "sportsdb-2601703",
       "league": "nba",
-      "name": "Brooklyn Nets vs Indiana Pacers",
-      "date": "2026-10-25T22:00:00Z",
+      "name": "Oklahoma City Thunder vs Los Angeles Clippers",
+      "date": "2026-10-25T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Brooklyn Nets",
+          "name": "Oklahoma City Thunder",
           "score": ""
         },
         {
-          "name": "Indiana Pacers",
+          "name": "Los Angeles Clippers",
           "score": ""
         }
       ],
@@ -865,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591665",
+      "id": "sportsdb-2591666",
       "league": "nhl",
-      "name": "Dallas Stars vs New York Islanders",
-      "date": "2026-10-25T22:00:00Z",
+      "name": "Winnipeg Jets vs Montreal Canadiens",
+      "date": "2026-10-25T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Stars",
+          "name": "Winnipeg Jets",
           "score": ""
         },
         {
-          "name": "New York Islanders",
+          "name": "Montreal Canadiens",
           "score": ""
         }
       ],
@@ -977,29 +977,74 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Barcelona 1-2 Real Madrid: El Clásico – live reaction",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+      "date": "2026-10-25T22:02:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Kimi Antonelli edges closer to title after winning United States Grand Prix: Formula One – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
+      "date": "2026-10-25T22:00:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli wins in US but has to wait to secure title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T22:00:05Z",
+      "league": "all"
+    },
     {
       "title": "What have Man Utd changed to turn around WSL form?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T21:38:59Z",
       "league": "soccer"
-    },
-    {
-      "title": "Barcelona v Real Madrid: El Clásico – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T21:36:13Z",
-      "league": "all"
-    },
-    {
-      "title": "United States Grand Prix: Formula One – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T21:35:57Z",
-      "league": "all"
     },
     {
       "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
@@ -1094,10 +1139,10 @@
     },
     {
       "title": "Dunfermline meet Queen of the South in Scottish Cup",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr5ynv4pyw95o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T19:24:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Manchester United board hold crisis talks over Carrick’s future and Howe approach",
@@ -1286,13 +1331,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/jokic-says-booing-fans-not-welcome-after-nuggets-rally-from-23-points-down-to-beat-pelicans",
       "date": "2026-10-25T11:48:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia survive almighty Fiji scare to stay unbeaten at Rugby League World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
-      "date": "2026-10-25T10:59:55Z",
       "league": "all"
     }
   ]
