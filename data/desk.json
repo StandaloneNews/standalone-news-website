@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-25T02:51:21+00:00",
+  "updated_at": "2026-10-25T03:46:30+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
     "513a7ebd8728edf4036d0899",
     "9c7ec65e76628519dd1c1878",
+    "774e9fc1f4419ee269fc435f",
     "fcc15f0e001ca52f5347dc70",
-    "34a74e5845756f13fb70f040",
     "8568239444f04aaa30113e76",
     "077396b23a98de6698373513",
     "fd32ce4d6894cdde5b55e030",
@@ -31,6 +31,32 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "859e9cf18ee4c2046a9ff553",
+      "title": "Budget to include £1bn for social and affordable housing",
+      "summary": "The move will take funding for the 10-year programme to more than £40bn.",
+      "url": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:57:30+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "774e9fc1f4419ee269fc435f",
+      "title": "Bulgarians vote for president in shadow of Russia’s war in Ukraine",
+      "summary": "The two leading candidates condemn recent deadly Black Sea drone strikes, but differ on the Ukraine war more broadly.",
+      "url": "https://www.aljazeera.com/news/2026/10/25/bulgarians-vote-for-president-in-shadow-of-russias-war-in-ukraine?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T02:45:43+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
     {
       "id": "8568239444f04aaa30113e76",
       "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
@@ -5472,32 +5498,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T17:14:16+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b38a46c87a3b5fdf3d901fb6",
-      "title": "Glasgow museums remove mummified remains from public view over ethical concerns",
-      "summary": "Kelvingrove Museum and The Hunterian say they have removed human remains from display because of ethical concerns.",
-      "url": "https://www.bbc.co.uk/news/articles/c862yv953x04o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T17:01:26+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6facbbfe7120b88530382b48",
-      "title": "Many feared trapped after Kenya building collapse",
-      "summary": "Many people are feared trapped after a multi-storey building collapsed in the Kenyan capital of Nairobi.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/many-feared-trapped-after-kenya-building-collapse?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T17:01:05+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
