@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T08:52:58Z",
+  "updated_at": "2026-10-25T09:13:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,47 +977,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489527",
-      "league": "ligue1",
-      "name": "Monaco vs Lille",
-      "date": "2026-10-25T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Monaco",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Pakistan v England: tri-series one day international cricket – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T08:41:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick denies Manchester United are ‘unmanageable’, clásico buildup and more – matchday live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/buildup-liverpool-brighton-manchester-united-bournemouth-matchday-live",
-      "date": "2026-10-25T08:40:48Z",
+      "title": "Watch Match of the Day on iPlayer",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T09:00:00Z",
       "league": "all"
     },
     {
       "title": "Australia v Fiji: men’s Rugby League World Cup – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/australia-vs-fiji-mens-rugby-league-world-cup-live-updates",
-      "date": "2026-10-25T08:38:11Z",
+      "date": "2026-10-25T08:57:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Pakistan v England: tri-series one day international cricket – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
+      "date": "2026-10-25T08:54:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick denies Manchester United are ‘unmanageable’, clásico buildup and more – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/buildup-liverpool-brighton-manchester-united-bournemouth-matchday-live",
+      "date": "2026-10-25T08:49:43Z",
       "league": "all"
     },
     {
@@ -1109,13 +1097,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmzxj1r8j7p2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T22:43:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Watch Match of the Day on iPlayer",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T22:40:55Z",
       "league": "all"
     },
     {
