@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T05:51:45Z",
+  "updated_at": "2026-10-25T06:13:16Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -977,47 +977,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489527",
-      "league": "ligue1",
-      "name": "Monaco vs Lille",
-      "date": "2026-10-25T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Monaco",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Inglorious end as rain cancels final MotoGP race at Phillip Island in setback for Márquez",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/final-motogp-race-phillip-island-rain-cancellation-marc-marquez",
+      "date": "2026-10-25T05:45:35Z",
+      "league": "all"
+    },
     {
       "title": "Antonelli stands on brink of history in Austin",
       "source": "BBC Sport",
@@ -1324,13 +1293,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cv5yn9nw17d0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T14:02:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Relief for Slegers as Russo rescues Arsenal against Tottenham in WSL",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
-      "date": "2026-10-24T13:59:27Z",
       "league": "all"
     }
   ]
