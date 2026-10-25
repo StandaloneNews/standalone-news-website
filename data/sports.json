@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T16:52:04Z",
+  "updated_at": "2026-10-25T17:12:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -808,19 +808,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475469",
+      "id": "sportsdb-2475476",
       "league": "nfl",
-      "name": "Atlanta Falcons vs San Francisco 49ers",
-      "date": "2026-10-25T17:00:00Z",
+      "name": "Arizona Cardinals vs Denver Broncos",
+      "date": "2026-10-25T20:05:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Falcons",
+          "name": "Arizona Cardinals",
           "score": ""
         },
         {
-          "name": "San Francisco 49ers",
+          "name": "Denver Broncos",
           "score": ""
         }
       ],
@@ -960,19 +960,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482216",
+      "id": "sportsdb-2482211",
       "league": "seriea",
-      "name": "Lecce vs Juventus",
-      "date": "2026-10-25T17:00:00Z",
+      "name": "Udinese vs AC Milan",
+      "date": "2026-10-25T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Lecce",
+          "name": "Udinese",
           "score": ""
         },
         {
-          "name": "Juventus",
+          "name": "AC Milan",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
           "score": ""
         }
       ],
@@ -981,6 +1019,27 @@
   ],
   "stories": [
     {
+      "title": "Carrick 'saddened' by Man Utd situation after Bournemouth loss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynqy55l68o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T17:02:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Sunderland v Leeds: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
+      "date": "2026-10-25T17:00:27Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
+      "date": "2026-10-25T16:56:34Z",
+      "league": "all"
+    },
+    {
       "title": "Carrick future under major threat - can he survive?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgj9wnpd1lvo?at_medium=RSS&at_campaign=rss",
@@ -988,24 +1047,10 @@
       "league": "all"
     },
     {
-      "title": "Sunderland v Leeds: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T16:44:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pakistan beat England in thriller after 89-run last-wicket stand: tri-series one day international cricket – live",
+      "title": "England stunned after Shadab Khan’s miraculous century delivers one-wicket win for Pakistan",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T16:43:45Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T16:42:53Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/england-pakistan-odi-match-report-cricket-shadab-khan",
+      "date": "2026-10-25T16:49:49Z",
       "league": "all"
     },
     {
@@ -1273,13 +1318,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckvg7j2p471lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T22:30:45Z",
       "league": "ufc"
-    },
-    {
-      "title": "Britain's Smith retains title in split-decision win over Puello",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn73k05xjx6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T21:44:12Z",
-      "league": "all"
     },
     {
       "title": "Nashville SC seal first MLS Supporters’ Shield with 2-0 win over CF Montreal",
