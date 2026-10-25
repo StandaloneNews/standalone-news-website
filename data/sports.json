@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T19:17:09Z",
+  "updated_at": "2026-10-25T19:45:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -960,19 +960,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482211",
+      "id": "sportsdb-2482218",
       "league": "seriea",
-      "name": "Udinese vs AC Milan",
-      "date": "2026-10-25T19:45:00Z",
+      "name": "Sassuolo vs Lazio",
+      "date": "2026-10-27T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Udinese",
+          "name": "Sassuolo",
           "score": ""
         },
         {
-          "name": "AC Milan",
+          "name": "Lazio",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
           "score": ""
         }
       ],
@@ -984,25 +1003,46 @@
       "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T19:12:29Z",
+      "date": "2026-10-25T19:35:26Z",
       "league": "all"
+    },
+    {
+      "title": "Weir would swap Ballon d'Or nominations for World Cup",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:34:15Z",
+      "league": "soccer"
     },
     {
       "title": "United States Grand Prix: Formula One – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T19:11:20Z",
+      "date": "2026-10-25T19:32:49Z",
       "league": "all"
     },
     {
       "title": "Barcelona v Real Madrid: El Clásico – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T18:59:55Z",
+      "date": "2026-10-25T19:32:20Z",
       "league": "all"
     },
     {
-      "title": "Premier League",
+      "title": "Dunfermline meet Queen of the South in Scottish Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr5ynv4pyw95o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T19:24:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United board hold crisis talks over Carrick’s future and Howe approach",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-board-crisis-talks-michael-carrick-eddie-howe-bournemouth-premier-league",
+      "date": "2026-10-25T19:24:06Z",
+      "league": "all"
+    },
+    {
+      "title": "The Football Hub: Reaction to Sunday's action",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/iplayer/episode/l00590b3?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:46:19Z",
@@ -1128,13 +1168,6 @@
       "league": "all"
     },
     {
-      "title": "Michael Carrick on the brink after Manchester United are humiliated by Bournemouth",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-bournemouth-premier-league-match-report-michael-carrick",
-      "date": "2026-10-25T16:19:03Z",
-      "league": "all"
-    },
-    {
       "title": "Isak applies finishing touch as Liverpool bring Brighton’s winning run to an end",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/liverpool-brighton-premier-league-match-report",
@@ -1196,13 +1229,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
       "date": "2026-10-25T12:48:44Z",
       "league": "all"
-    },
-    {
-      "title": "England win cerebral palsy World Cup for first time",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T12:13:40Z",
-      "league": "soccer"
     },
     {
       "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
@@ -1286,13 +1312,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/final-motogp-race-phillip-island-rain-cancellation-marc-marquez",
       "date": "2026-10-25T05:45:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli stands on brink of history in Austin",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvlyd5k776yyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T00:40:56Z",
       "league": "all"
     }
   ]
