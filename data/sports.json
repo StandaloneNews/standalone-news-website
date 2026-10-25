@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T17:12:51Z",
+  "updated_at": "2026-10-25T17:47:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506266",
+      "id": "sportsdb-2506259",
       "league": "laliga",
-      "name": "Real Sociedad vs Levante",
-      "date": "2026-10-25T17:30:00Z",
+      "name": "Barcelona vs Real Madrid",
+      "date": "2026-10-25T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Real Sociedad",
+          "name": "Barcelona",
           "score": ""
         },
         {
-          "name": "Levante",
+          "name": "Real Madrid",
           "score": ""
         }
       ],
@@ -996,47 +996,49 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Carrick 'saddened' by Man Utd situation after Bournemouth loss",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynqy55l68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T17:02:59Z",
-      "league": "all"
-    },
-    {
       "title": "Sunderland v Leeds: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T17:00:27Z",
+      "date": "2026-10-25T17:43:22Z",
       "league": "all"
     },
     {
       "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T16:56:34Z",
+      "date": "2026-10-25T17:42:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Marcus Smith produces timely reminder of his class as Harlequins sink Saracens",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/harlequins-saracens-prem-rugby-union-match-report",
+      "date": "2026-10-25T17:30:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Smith stars as Quins beat Saracens for first win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crjwe6j90p9lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T17:18:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Jarman claims historic second silver at Worlds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/cmz7xynx81lwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T17:17:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick 'saddened' by Man Utd situation after Bournemouth loss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynqy55l68o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T17:02:59Z",
       "league": "all"
     },
     {
@@ -1117,13 +1119,6 @@
       "league": "all"
     },
     {
-      "title": "Late own goal earns Liverpool draw against London City",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T14:53:29Z",
-      "league": "all"
-    },
-    {
       "title": "Russia to host first Olympic federation world event since Ukraine invasion",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
@@ -1132,10 +1127,10 @@
     },
     {
       "title": "Scottish Premiership: Durán caps Celtic’s comeback win over Hibernian",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/scottish-premiership-rangers-dundee-celtic-hearts",
       "date": "2026-10-25T14:20:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Sheffield Wednesday sack Pedersen after 15 months",
@@ -1167,10 +1162,10 @@
     },
     {
       "title": "England win cerebral palsy World Cup for first time",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T12:13:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Munster's Coombes backed after making groin grab allegation",
@@ -1318,20 +1313,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckvg7j2p471lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T22:30:45Z",
       "league": "ufc"
-    },
-    {
-      "title": "Nashville SC seal first MLS Supporters’ Shield with 2-0 win over CF Montreal",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/nashville-sc-supporters-shield-mls-cf-montreal-surridge-mukhtar",
-      "date": "2026-10-24T21:07:15Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Glitch in Chelsea’s coding costs Alonso while resurgent Spurs are all systems go | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-austin-macphee-mike-penders-roberto-de-zerbi",
-      "date": "2026-10-24T20:59:57Z",
-      "league": "all"
     }
   ]
 }
