@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T16:12:23Z",
+  "updated_at": "2026-10-25T16:52:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -903,19 +903,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494078",
+      "id": "sportsdb-2494084",
       "league": "epl",
-      "name": "Sunderland vs Leeds United",
-      "date": "2026-10-25T16:30:00Z",
+      "name": "Chelsea vs Manchester United",
+      "date": "2026-10-31T12:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sunderland",
+          "name": "Chelsea",
           "score": ""
         },
         {
-          "name": "Leeds United",
+          "name": "Manchester United",
           "score": ""
         }
       ],
@@ -941,19 +941,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508387",
+      "id": "sportsdb-2508404",
       "league": "bundesliga",
-      "name": "Freiburg vs Bayern Munich",
-      "date": "2026-10-25T16:30:00Z",
+      "name": "Elversberg vs Mainz",
+      "date": "2026-10-30T19:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Freiburg",
+          "name": "Elversberg",
           "score": ""
         },
         {
-          "name": "Bayern Munich",
+          "name": "Mainz",
           "score": ""
         }
       ],
@@ -981,24 +981,66 @@
   ],
   "stories": [
     {
-      "title": "Manchester United 0-3 Bournemouth, Liverpool 2-0 Brighton and more: clockwatch – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
-      "date": "2026-10-25T16:11:45Z",
+      "title": "Carrick future under major threat - can he survive?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crgj9wnpd1lvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T16:51:48Z",
       "league": "all"
+    },
+    {
+      "title": "Sunderland v Leeds: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
+      "date": "2026-10-25T16:44:36Z",
+      "league": "soccer"
     },
     {
       "title": "Pakistan beat England in thriller after 89-run last-wicket stand: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T16:08:50Z",
+      "date": "2026-10-25T16:43:45Z",
       "league": "all"
     },
     {
-      "title": "Sunderland v Leeds: Premier League – live",
+      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T16:08:22Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
+      "date": "2026-10-25T16:42:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
+      "date": "2026-10-25T16:40:07Z",
+      "league": "all"
+    },
+    {
+      "title": "England lose to Pakistan after improbable last-wicket stand",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq0mek4de4xno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T16:34:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Osula and Barnes’ second-half burst sees Newcastle pile pressure on lacklustre Palace",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/crystal-palace-newcastle-premier-league-match-report",
+      "date": "2026-10-25T16:29:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Michael Carrick on the brink after Manchester United are humiliated by Bournemouth",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-bournemouth-premier-league-match-report-michael-carrick",
+      "date": "2026-10-25T16:19:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Isak applies finishing touch as Liverpool bring Brighton’s winning run to an end",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/liverpool-brighton-premier-league-match-report",
+      "date": "2026-10-25T16:12:57Z",
       "league": "all"
     },
     {
@@ -1164,10 +1206,17 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933x18044epo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T07:21:42Z",
-      "league": "all"
+      "league": "soccer"
+    },
+    {
+      "title": "The non-football fan who snapped the game beautifully",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/cq1m4znk3m9eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T07:11:34Z",
+      "league": "soccer"
     },
     {
       "title": "What Man Utd need now is stability, not more changes - Pulis",
@@ -1233,13 +1282,6 @@
       "league": "all"
     },
     {
-      "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T21:14:42Z",
-      "league": "soccer"
-    },
-    {
       "title": "Nashville SC seal first MLS Supporters’ Shield with 2-0 win over CF Montreal",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/24/nashville-sc-supporters-shield-mls-cf-montreal-surridge-mukhtar",
@@ -1251,48 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/chelsea-tottenham-premier-league-austin-macphee-mike-penders-roberto-de-zerbi",
       "date": "2026-10-24T20:59:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool among clubs keen on Vuskovic - Sunday's gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvgr87py7zvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T20:20:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Valkyries hold off Dream comeback to win Game 4 and level WNBA finals at 2-2",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/golden-state-valkyries-atlanta-dream-game-four-wnba-finals",
-      "date": "2026-10-24T19:35:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T19:17:06Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Best performance since I arrived' - De Zerbi praises Spurs after win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqkg5m3lnr5zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T19:12:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
-      "date": "2026-10-24T19:00:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
-      "date": "2026-10-24T19:00:41Z",
       "league": "all"
     }
   ]
