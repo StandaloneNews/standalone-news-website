@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T07:53:43Z",
+  "updated_at": "2026-10-25T08:11:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -977,44 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489527",
-      "league": "ligue1",
-      "name": "Monaco vs Lille",
-      "date": "2026-10-25T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Monaco",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1022,8 +984,22 @@
       "title": "Pakistan v England: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T07:33:10Z",
+      "date": "2026-10-25T07:59:38Z",
       "league": "all"
+    },
+    {
+      "title": "What have Man Utd changed to turn around WSL form?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T07:58:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crgqwzqz8zgwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T07:55:05Z",
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1317,20 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/maresca-guehi-errors-aston-villa-manchester-city-premier-league",
       "date": "2026-10-24T15:16:45Z",
-      "league": "all"
-    },
-    {
-      "title": "Jarman makes British gymnastics history with World floor silver",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c6zxjpv95ey8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:14:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Man City's leaky defence highlights Donnarumma & Guehi struggles",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg7z700k7jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T15:05:45Z",
       "league": "all"
     }
   ]
