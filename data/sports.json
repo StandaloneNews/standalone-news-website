@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T18:55:44Z",
+  "updated_at": "2026-10-25T19:17:09Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -865,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591664",
+      "id": "sportsdb-2591665",
       "league": "nhl",
-      "name": "Chicago Blackhawks vs Florida Panthers",
-      "date": "2026-10-25T19:00:00Z",
+      "name": "Dallas Stars vs New York Islanders",
+      "date": "2026-10-25T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chicago Blackhawks",
+          "name": "Dallas Stars",
           "score": ""
         },
         {
-          "name": "Florida Panthers",
+          "name": "New York Islanders",
           "score": ""
         }
       ],
@@ -977,66 +977,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Barcelona v Real Madrid: El Clásico – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T18:43:29Z",
-      "league": "all"
-    },
-    {
       "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T18:43:12Z",
+      "date": "2026-10-25T19:12:29Z",
       "league": "all"
     },
     {
-      "title": "Sunderland 0-0 Leeds: Premier League – as it happened",
+      "title": "United States Grand Prix: Formula One – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T18:39:02Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
+      "date": "2026-10-25T19:11:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Barcelona v Real Madrid: El Clásico – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+      "date": "2026-10-25T18:59:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/l00590b3?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:46:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Roefs and Trafford stand firm as Sunderland and Leeds battle for point",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/25/sunderland-leeds-premier-league-match-report",
+      "date": "2026-10-25T18:46:08Z",
       "league": "all"
     },
     {
@@ -1065,13 +1041,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:13:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Joe Marchant recalled to England training squad for Nations Championship",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/joe-marchant-recalled-to-england-training-squad-for-nations-championship",
-      "date": "2026-10-25T17:57:43Z",
       "league": "all"
     },
     {
@@ -1139,10 +1108,10 @@
     },
     {
       "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
       "date": "2026-10-25T16:40:07Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "England lose to Pakistan after improbable last-wicket stand",
@@ -1152,7 +1121,7 @@
       "league": "all"
     },
     {
-      "title": "Osula and Barnes’ second-half burst sees Newcastle pile pressure on lacklustre Palace",
+      "title": "Osula and Barnes strike as Newcastle pile pressure on lacklustre Palace",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/crystal-palace-newcastle-premier-league-match-report",
       "date": "2026-10-25T16:29:02Z",
@@ -1209,10 +1178,10 @@
     },
     {
       "title": "Sheffield Wednesday sack Pedersen after 15 months",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq4g15392p4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T14:00:15Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fernandes left on bench for Man Utd defeat - a failed gamble?",
@@ -1290,13 +1259,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/25/ian-holloway-circus-swindon-outbursts-no-laughing-matter-fans",
       "date": "2026-10-25T08:00:56Z",
       "league": "all"
-    },
-    {
-      "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T07:58:04Z",
-      "league": "soccer"
     },
     {
       "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
