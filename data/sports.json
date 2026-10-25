@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T15:51:20Z",
+  "updated_at": "2026-10-25T16:12:23Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -190,20 +190,6 @@
         {
           "fighters": [
             {
-              "name": "Azamat Bekoev",
-              "score": ""
-            },
-            {
-              "name": "Andre Petroski",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
               "name": "Rodrigo Sezinando",
               "score": ""
             },
@@ -251,6 +237,20 @@
             },
             {
               "name": "Piera Rodriguez",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Lucia Szabova",
+              "score": ""
+            },
+            {
+              "name": "Tainara Lisboa",
               "score": ""
             }
           ],
@@ -981,24 +981,45 @@
   ],
   "stories": [
     {
-      "title": "Manchester United v Bournemouth, Liverpool v Brighton and more: clockwatch – live",
-      "source": "The Guardian Football",
+      "title": "Manchester United 0-3 Bournemouth, Liverpool 2-0 Brighton and more: clockwatch – live",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/manchester-united-v-bournemouth-liverpool-v-brighton-and-more-premier-league-live",
-      "date": "2026-10-25T15:45:03Z",
-      "league": "soccer"
+      "date": "2026-10-25T16:11:45Z",
+      "league": "all"
     },
     {
-      "title": "England one wicket from win but Pakistan rally chasing 241: tri-series one day international cricket – live",
+      "title": "Pakistan beat England in thriller after 89-run last-wicket stand: tri-series one day international cricket – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
-      "date": "2026-10-25T15:41:35Z",
+      "date": "2026-10-25T16:08:50Z",
       "league": "all"
     },
     {
       "title": "Sunderland v Leeds: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T15:36:20Z",
+      "date": "2026-10-25T16:08:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Fernandes left out - Man Utd hammered, Bournemouth brilliant - how they rated",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9ly0mz745dno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T16:04:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T15:58:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia survive scare to beat Fiji and reach World Cup semi-finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cmy0e9kqplx8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T15:53:11Z",
       "league": "all"
     },
     {
@@ -1006,6 +1027,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c574pv1nk0jgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T15:25:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Late own goal earns Liverpool draw against London City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T14:53:29Z",
       "league": "all"
     },
     {
@@ -1030,7 +1058,7 @@
       "league": "all"
     },
     {
-      "title": "Fernandes dropped to Man Utd bench - was Carrick right?",
+      "title": "Fernandes left on bench for Man Utd defeat - a failed gamble?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T13:26:13Z",
@@ -1122,10 +1150,10 @@
     },
     {
       "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T07:58:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
@@ -1142,32 +1170,18 @@
       "league": "all"
     },
     {
-      "title": "Weather causes cancellation of MotoGP in Australia",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/motorsport/articles/cxyvr5mm28qvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T07:00:01Z",
-      "league": "all"
-    },
-    {
       "title": "What Man Utd need now is stability, not more changes - Pulis",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck78p37y5508o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T06:34:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Why are Liverpool struggling for Premier League goals?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T06:26:00Z",
       "league": "soccer"
     },
     {
       "title": "When is Premier League 'sacking season' - and who should be worried?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy83vg66zngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T06:17:46Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Inglorious end as rain cancels final MotoGP race at Phillip Island in setback for Márquez",
@@ -1220,10 +1234,10 @@
     },
     {
       "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqev38dz34vxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T21:14:42Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Nashville SC seal first MLS Supporters’ Shield with 2-0 win over CF Montreal",
@@ -1254,13 +1268,6 @@
       "league": "all"
     },
     {
-      "title": "'We could have played better' - Alonso disappointed after defeat",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckvg6j1p51xdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T19:25:04Z",
-      "league": "soccer"
-    },
-    {
       "title": "Spurs clinch rare Stamford Bridge win as Palmer sent off",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckly0dnqz0r7o?at_medium=RSS&at_campaign=rss",
@@ -1273,13 +1280,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cqkg5m3lnr5zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T19:12:19Z",
       "league": "all"
-    },
-    {
-      "title": "Hayen sacked by Burnley after just 14 games",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T19:01:03Z",
-      "league": "soccer"
     },
     {
       "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
