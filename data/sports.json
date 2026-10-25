@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T22:45:57Z",
+  "updated_at": "2026-10-25T23:08:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601703",
+      "id": "sportsdb-2601706",
       "league": "nba",
-      "name": "Oklahoma City Thunder vs Los Angeles Clippers",
-      "date": "2026-10-25T23:00:00Z",
+      "name": "Philadelphia 76ers vs Detroit Pistons",
+      "date": "2026-10-25T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Oklahoma City Thunder",
+          "name": "Philadelphia 76ers",
           "score": ""
         },
         {
-          "name": "Los Angeles Clippers",
+          "name": "Detroit Pistons",
           "score": ""
         }
       ],
@@ -865,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591666",
+      "id": "sportsdb-2591667",
       "league": "nhl",
-      "name": "Winnipeg Jets vs Montreal Canadiens",
-      "date": "2026-10-25T23:00:00Z",
+      "name": "Nashville Predators vs Colorado Avalanche",
+      "date": "2026-10-26T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Winnipeg Jets",
+          "name": "Nashville Predators",
           "score": ""
         },
         {
-          "name": "Montreal Canadiens",
+          "name": "Colorado Avalanche",
           "score": ""
         }
       ],
@@ -996,14 +996,47 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Watch: Match of the Day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T23:46:55Z",
+      "league": "all"
+    },
     {
       "title": "Smith holds on to beat Schindler in Euros final",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/darts/articles/cv5yn4w8x378o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T22:44:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia’s Rebecca Henderson claims historic race walk world record",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/australian-rebecca-henderson-breaks-athletics-world-record-race-walk-marathon-japan",
+      "date": "2026-10-25T22:44:29Z",
       "league": "all"
     },
     {
@@ -1042,7 +1075,7 @@
       "league": "all"
     },
     {
-      "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
+      "title": "End approaching for Carrick but Man Utd fans make clear who they blame",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T21:24:21Z",
@@ -1175,13 +1208,6 @@
       "league": "soccer"
     },
     {
-      "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:14:53Z",
-      "league": "all"
-    },
-    {
       "title": "Isak finally living up to price tag as Liverpool patience rewarded",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
@@ -1305,13 +1331,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
       "date": "2026-10-25T12:04:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Anderson stops short of retiring after Lancashire exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c3qjng48exxwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T12:03:17Z",
       "league": "all"
     }
   ]
