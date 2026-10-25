@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T18:09:35Z",
+  "updated_at": "2026-10-25T18:55:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 9,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -922,6 +922,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506259",
+      "league": "laliga",
+      "name": "Barcelona vs Real Madrid",
+      "date": "2026-10-25T20:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Barcelona",
+          "score": ""
+        },
+        {
+          "name": "Real Madrid",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508404",
       "league": "bundesliga",
       "name": "Elversberg vs Mainz",
@@ -958,15 +977,102 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Sunderland v Leeds: Premier League – live",
-      "source": "The Guardian Football",
+      "title": "Barcelona v Real Madrid: El Clásico – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
+      "date": "2026-10-25T18:43:29Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
+      "date": "2026-10-25T18:43:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Sunderland 0-0 Leeds: Premier League – as it happened",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/sunderland-v-leeds-premier-league-live",
-      "date": "2026-10-25T18:02:05Z",
-      "league": "soccer"
+      "date": "2026-10-25T18:39:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Pressure grows on Sage as fans turn on Palace boss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg5jmrzd2jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:36:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Marchant recalled by Borthwick for England training camp",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmq5nyywq8n1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:35:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:14:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Isak finally living up to price tag as Liverpool patience rewarded",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T18:13:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Joe Marchant recalled to England training squad for Nations Championship",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/joe-marchant-recalled-to-england-training-squad-for-nations-championship",
+      "date": "2026-10-25T17:57:43Z",
+      "league": "all"
     },
     {
       "title": "Malard stars as Chelsea beat Palace to extend unbeaten start",
@@ -976,17 +1082,10 @@
       "league": "all"
     },
     {
-      "title": "Fernandes gamble leaves Carrick to carry the can for United’s institutional failures",
-      "source": "The Guardian Football",
+      "title": "Fernandes gamble leaves Carrick to carry the can for United’s institutional failures | Will Unwin",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-michael-carrick-bruno-fernandes-jim-ratcliffe-institutional-failures",
       "date": "2026-10-25T17:56:06Z",
-      "league": "soccer"
-    },
-    {
-      "title": "NFL week seven: 49ers v Falcons, Colts v Vikings, Bengals v Ravens and more – updates",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/nfl-week-seven-jets-v-dolphins-vikings-v-colts-and-more",
-      "date": "2026-10-25T17:56:04Z",
       "league": "all"
     },
     {
@@ -1040,10 +1139,10 @@
     },
     {
       "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
       "date": "2026-10-25T16:40:07Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England lose to Pakistan after improbable last-wicket stand",
@@ -1123,13 +1222,6 @@
       "league": "all"
     },
     {
-      "title": "Osaka 'not far off' her best but often ponders future",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwg7xy5x3590o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T12:54:11Z",
-      "league": "all"
-    },
-    {
       "title": "The WNBA finals are a basketball wonderland – unless you’re part of the Maga machine",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
@@ -1142,13 +1234,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T12:13:40Z",
       "league": "soccer"
-    },
-    {
-      "title": "Munster's Coombes backed after making groin grab allegation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvlyd576g55xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T12:11:03Z",
-      "league": "all"
     },
     {
       "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
@@ -1215,23 +1300,9 @@
     },
     {
       "title": "'This is the only Clasico' - Mourinho's Real trying to stop Barca's shot at history",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgqwzqz8zgwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T07:55:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c933x18044epo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T07:21:42Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The non-football fan who snapped the game beautifully",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cq1m4znk3m9eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T07:11:34Z",
       "league": "soccer"
     },
     {
@@ -1260,20 +1331,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cvlyd5k776yyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T00:40:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Kimi Antonelli seizes F1 US GP pole and chance to seal first world title",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/kimi-antonelli-seizes-f1-us-gp-pole-and-chance-to-seal-first-world-title",
-      "date": "2026-10-24T22:52:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Should Palmer have been sent off earlier than he was?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmd93enq4z20o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T22:43:33Z",
       "league": "all"
     }
   ]
