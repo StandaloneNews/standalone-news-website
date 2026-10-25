@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T10:10:29+00:00",
+  "updated_at": "2026-10-25T10:44:18+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -14,10 +14,10 @@
     "fd32ce4d6894cdde5b55e030",
     "915e0f9c258a537bfdfb19b3",
     "45bbcbbfd305ac41610127d1",
+    "e339cc318bc1b4cc385c2d4c",
     "0ee827c5ff4681a907e6caf4",
     "97c227bfaa08472768aae88e",
-    "859e9cf18ee4c2046a9ff553",
-    "23a6cc82424e6c355a2be935",
+    "f7b82d8863e4bfc9dc0bc414",
     "4a2197c94357d90d6400ada9",
     "f4af9502ab1fb0cd83c80a9d",
     "517d1048cb110599df40a54f",
@@ -31,6 +31,45 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "f7b82d8863e4bfc9dc0bc414",
+      "title": "Serbia votes in closely fought election as student-led opposition challenges Aleksandar Vucic's grip on power",
+      "summary": "Nearly two years after a deadly railway station collapse sparked mass anti-corruption protests, Serbians are voting in a closely fought election that could end Aleksandar Vucic's grip on power.",
+      "url": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucic-s-grip-on-power/a-79753482?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T10:42:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "431f5566a31b29b49c93579a",
+      "title": "More than 1,300 arrested as clashes follow another day of mass protests across France",
+      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T10:38:15+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5c0dc03bac101a3251ed35ee",
+      "title": "Germany news: Fire flares up at Hitler's Eagle's Nest retreat",
+      "summary": "Fire broke out again overnight at a former mountain retreat used by Nazi dictator Adolf Hitler. Meanwhile, a survey shows most people in Germany feel the days of the governing coalition are numbered. DW has more.",
+      "url": "https://www.dw.com/en/germany-news-fire-flares-up-at-hitler-s-eagle-s-nest-retreat/live-79749353?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T10:36:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "859e9cf18ee4c2046a9ff553",
       "title": "Budget to include £1bn for social and affordable housing",
@@ -58,6 +97,32 @@
       "selection_type": "automatic"
     },
     {
+      "id": "8ba6fac6cde0d8698f901b51",
+      "title": "The penguins are noisy, the people fantastic - what it takes to be an Antarctic postmaster",
+      "summary": "George Clarke from Bristol will run the post office at Port Lockroy in Antarctica from October to March.",
+      "url": "https://www.bbc.co.uk/news/articles/c6dxwklr409eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T09:59:50+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0747f4615b93967f2301b568",
+      "title": "Qatar official calls for peace and security to boost trade, investment",
+      "summary": "The Qatari minister of state for trade says peace and security are essential for prosperity in trade and investment.",
+      "url": "https://www.aljazeera.com/news/2026/10/25/qatar-official-calls-for-peace-and-security-to-boost-trade-investment?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T09:57:40+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "23a6cc82424e6c355a2be935",
       "title": "Brazil votes in tight runoff between leftist Lula and right-wing Flavio Bolsonaro",
       "summary": "The high stakes election will decide whether Brazil will move toward the right or retain a leftist government.",
@@ -80,19 +145,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T09:33:05+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "431f5566a31b29b49c93579a",
-      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-25T09:32:59+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -292,6 +344,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "60bb059496d97895b02af175",
+      "title": "India news: Rahul Gandhi urges protest against voter deletions, announces November 1 rally",
+      "summary": "India's opposition leader Rahul Gandhi has accused the ruling BJP of \"vote theft\" and urged people to join a rally in Delhi on November 1. The call comes amid protests over revision of electoral rolls. DW has more.",
+      "url": "https://www.dw.com/en/india-news-rahul-gandhi-urges-protest-against-voter-deletions-announces-november-1-rally/live-79748098?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T08:29:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "3928f35d494c31023d5de11d",
       "title": "India news: Andhra, Odisha brace for severe storm",
       "summary": "The weather department warned that a depression over the Bay of Bengal could escalate into a very severe cyclonic storm before crossing the Andhra Pradesh coast, with winds reaching 140 km/h. DW has more.",
@@ -474,6 +539,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "e339cc318bc1b4cc385c2d4c",
+      "title": "Will a new code end 'rip-off parking charges'?",
+      "summary": "The prime minister says a new code will end \"rip-off parking charges\" - but will it work?",
+      "url": "https://www.bbc.co.uk/news/articles/ckjwe90z56ewo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-25T07:05:30+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
       "id": "ccdf90043977cbb7b017bfc7",
       "title": "Carving out a greener future: how the Swiss ski resort of Laax is meeting the climate crisis head on",
       "summary": "Gondolas on demand, electric piste-grooming and chemical-free snow cannons – how Laax is ‘greenstyling’ its future It’s the worst ski resort nightmare: hillsides of shaggy yellow grass streaked with slush under a leaden sky that’s coughing up sleet. Parts of Europe – places previously accustomed to crisp snow fields and pristine blue skies – are now facing this calamity, something meteorologists might describe as a British winter. Not everywhere, of course. Only lower altitudes are seeing such disasters. Higher up, normal service continues. I’m in the Swiss resort of Laax, where most of the slopes are at about 2,000 metres, lofty enough to be snow-secure, for now. The halfpipe is busy with dudes in baggy trousers and headphones nonchalantly practising their double corks. On the traditional pistes there are four-year-olds who could probabl",
@@ -644,7 +722,7 @@
     },
     {
       "id": "aaa731da7deaa2d7e7c4bc0c",
-      "title": "Ukraine depends on Starlink - can Europe plug the gap?",
+      "title": "Why is Ukraine so reliant on Starlink and can Europe plug the gap?",
       "summary": "Ukraine needs another satellite internet service, but a decent alternative to Elon Musk's network doesn't exist - yet.",
       "url": "https://www.bbc.co.uk/news/articles/c65yn97xe7ypo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -678,19 +756,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-25T05:33:10+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f7b82d8863e4bfc9dc0bc414",
-      "title": "Serbia votes in closely fought election as student-led opposition challenges Aleksandar Vucic's grip on power",
-      "summary": "Nearly two years after a deadly railway station collapse sparked mass anti-corruption protests, Serbians are voting in a closely fought election that could end Aleksandar Vucic's 14-year grip on power.",
-      "url": "https://www.dw.com/en/serbia-votes-in-closely-fought-election-as-student-led-opposition-challenges-aleksandar-vucic-s-grip-on-power/a-79753482?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-25T05:32:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -1123,7 +1188,7 @@
     {
       "id": "2b595cd49e8ab6e68cb7829a",
       "title": "Why the charts are full of old songs - and so are your playlists",
-      "summary": "The chart is full is full of old music and classic songs are dominating streaming services. But why?",
+      "summary": "The chart is full of old music and classic songs are dominating streaming services. But why?",
       "url": "https://www.bbc.co.uk/news/articles/c6kg50nnj0x4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -5444,71 +5509,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-23T20:01:21+00:00",
       "desk_priority": 51,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ea0875c795886756bf7b3cd9",
-      "title": "Tigray rebels urged to disarm as commander vows to fight Ethiopia’s gov’t",
-      "summary": "Rebel commander pledged to continue fighting government-allied forces who seized Ethiopia's Tigray capital.",
-      "url": "https://www.aljazeera.com/news/2026/10/23/tigray-official-urges-rebels-to-disarm?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T19:55:44+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f65d32af5b67928c9d517d3f",
-      "title": "Police officer who shot and killed 1-year-old boy in Mississippi has resigned, mayor says",
-      "summary": "Sgt. Hunter Foster, 33, had been cleared of criminal wrongdoing by the Mississippi Attorney General's office earlier this week after its monthslong probe concluded his use of force had been justified.",
-      "url": "https://www.pbs.org/newshour/nation/police-officer-who-shot-and-killed-1-year-old-boy-in-mississippi-has-resigned-mayor-says",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T19:55:02+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2097bd8254c146aecc5e0a97",
-      "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
-      "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
-      "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T19:50:26+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "a02e8056ff53dd8f2b4dca11",
-      "title": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification",
-      "summary": "Trump justice department claims there could be ‘confusion’ about two Republicans on the ballot named Dan Sullivan Donald Trump said he ordered the justice department to file a lawsuit to block the certification of Alaska’s US Senate results if the Republican incumbent loses, a move that voting rights experts called an “unprecedented intervention” by the federal government with control of Congress in the balance. “I’m the one that said do it,” the president told reporters as he landed in Florida for a campaign rally on Friday. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/trump-doj-lawsuit-alaska-senate-dan-sullivan",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T19:46:51+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "9e87192325b43147eec287e8",
-      "title": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-      "summary": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way.",
-      "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-23T19:46:30+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
