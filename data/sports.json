@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T07:07:27Z",
+  "updated_at": "2026-10-25T07:53:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -977,9 +977,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489527",
+      "league": "ligue1",
+      "name": "Monaco vs Lille",
+      "date": "2026-10-25T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Monaco",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Pakistan v England: tri-series one day international cricket – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/pakistan-v-england-tri-series-one-day-international-cricket-live",
+      "date": "2026-10-25T07:33:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c933x18044epo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T07:21:42Z",
+      "league": "all"
+    },
     {
       "title": "Weather causes cancellation of MotoGP in Australia",
       "source": "BBC Sport",
@@ -1046,7 +1098,7 @@
     {
       "title": "Watch Match of the Day on iPlayer",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m0033jlx?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T22:40:55Z",
       "league": "all"
     },
@@ -1149,16 +1201,16 @@
       "league": "soccer"
     },
     {
-      "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
+      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
+      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
       "date": "2026-10-24T19:00:41Z",
       "league": "all"
     },
     {
-      "title": "Why Stanley Matthews’ Ballon d’Or triumph echoes down the years for Harry Kane | Jonathan Wilson",
+      "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/24/why-stanley-matthews-ballon-dor-triumph-echoes-for-harry-kane",
+      "url": "https://www.theguardian.com/sport/blog/2026/oct/24/australia-cricket-team-third-test-selection-dilemmas",
       "date": "2026-10-24T19:00:41Z",
       "league": "all"
     },
@@ -1192,10 +1244,10 @@
     },
     {
       "title": "Penders error & Palmer sees red - player ratings for Chelsea v Spurs",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqwy7x6e672eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T18:26:29Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Leicester turn up the hostility as Steward caps old-time beating of Northampton",
@@ -1279,20 +1331,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kg7z700k7jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T15:05:45Z",
-      "league": "all"
-    },
-    {
-      "title": "The World Series of the have-nots is here. But baseball’s money problem isn’t going away | Tom Dart",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/24/brewers-rays-world-series-game-one-baseball-payroll-salary-cap",
-      "date": "2026-10-24T15:01:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal fight back to beat Tottenham and ease pressure on Slegers",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmy0r7epegd4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T14:20:04Z",
       "league": "all"
     }
   ]
