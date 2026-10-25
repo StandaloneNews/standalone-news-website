@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T00:05:24Z",
+  "updated_at": "2026-10-25T01:02:11Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,20 +827,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601696",
+      "id": "sportsdb-2601699",
       "league": "nba",
-      "name": "Atlanta Hawks vs Houston Rockets",
-      "date": "2026-10-25T00:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Denver Nuggets vs New Orleans Pelicans",
+      "date": "2026-10-25T02:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Atlanta Hawks",
-          "score": ""
+          "name": "Denver Nuggets",
+          "score": "0"
         },
         {
-          "name": "Houston Rockets",
-          "score": ""
+          "name": "New Orleans Pelicans",
+          "score": "0"
         }
       ],
       "url": ""
@@ -941,6 +941,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508389",
+      "league": "bundesliga",
+      "name": "Borussia Dortmund vs Eintracht Frankfurt",
+      "date": "2026-10-24T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Borussia Dortmund",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "name": "Eintracht Frankfurt",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508390",
       "league": "bundesliga",
       "name": "Hoffenheim vs Bayer Leverkusen",
@@ -977,9 +997,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Antonelli stands on brink of history in Austin",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvlyd5k776yyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T00:40:56Z",
+      "league": "all"
+    },
     {
       "title": "Kimi Antonelli seizes F1 US GP pole and chance to seal first world title",
       "source": "The Guardian Sport",
@@ -1115,10 +1161,10 @@
     },
     {
       "title": "Hayen sacked by Burnley after just 14 games",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4gv830j73do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-24T19:01:03Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Winds of change are coming for Australia as selection storm brews in South Africa | Martin Pegan",
@@ -1286,13 +1332,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/24/tottenham-arsenal-wsl-match-report",
       "date": "2026-10-24T13:59:27Z",
-      "league": "all"
-    },
-    {
-      "title": "68-point swing and a Tonga win - how England avoid World Cup exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6wyvpz0epywo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-24T13:12:45Z",
       "league": "all"
     }
   ]
