@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T21:10:18Z",
+  "updated_at": "2026-10-25T21:48:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 17,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,22 +63,22 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -977,154 +977,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489531",
-      "league": "ligue1",
-      "name": "Auxerre vs Le Mans",
-      "date": "2026-10-25T16:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Auxerre",
-          "score": "1"
-        },
-        {
-          "name": "Le Mans",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398502",
-      "league": "brasileirao",
-      "name": "Coritiba vs Grêmio",
-      "date": "2026-10-26T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Coritiba",
-          "score": ""
-        },
-        {
-          "name": "Grêmio",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398153",
-      "league": "argentina",
-      "name": "Independiente vs Boca Juniors",
-      "date": "2026-10-25T20:00:00Z",
-      "state": "upcoming",
-      "status": "2H",
-      "participants": [
-        {
-          "name": "Independiente",
-          "score": ""
-        },
-        {
-          "name": "Boca Juniors",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398155",
-      "league": "argentina",
-      "name": "River Plate vs Racing Club",
-      "date": "2026-10-25T22:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "River Plate",
-          "score": ""
-        },
-        {
-          "name": "Racing Club",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Auckland FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "United States Grand Prix: Formula One – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
-      "date": "2026-10-25T21:05:30Z",
-      "league": "all"
+      "title": "What have Man Utd changed to turn around WSL form?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T21:38:59Z",
+      "league": "soccer"
     },
     {
       "title": "Barcelona v Real Madrid: El Clásico – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/25/barcelona-v-real-madrid-el-clasico-live",
-      "date": "2026-10-25T21:05:26Z",
+      "date": "2026-10-25T21:36:13Z",
+      "league": "all"
+    },
+    {
+      "title": "United States Grand Prix: Formula One – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/25/united-states-grand-prix-formula-one-live",
+      "date": "2026-10-25T21:35:57Z",
+      "league": "all"
+    },
+    {
+      "title": "End approaching for Carrick but Man Utd owners' problems far bigger",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T21:24:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Howe open to Man Utd talks - Monday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1j3e889rg8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T21:09:37Z",
       "league": "all"
     },
     {
@@ -1289,13 +1177,6 @@
       "league": "all"
     },
     {
-      "title": "Jarman claims historic second silver at Worlds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/cmz7xynx81lwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T17:17:04Z",
-      "league": "all"
-    },
-    {
       "title": "Carrick 'saddened' by Man Utd situation after Bournemouth loss",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynqy55l68o?at_medium=RSS&at_campaign=rss",
@@ -1303,7 +1184,7 @@
       "league": "all"
     },
     {
-      "title": "Carrick future under major threat - can he survive?",
+      "title": "'It wasn't a farewell from me' - but horror start leaves Carrick on brink",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgj9wnpd1lvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T16:51:48Z",
@@ -1346,10 +1227,10 @@
     },
     {
       "title": "Fernandes left out - Man Utd hammered, Bournemouth brilliant - how they rated",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9ly0mz745dno?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T16:04:13Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
@@ -1387,13 +1268,6 @@
       "league": "all"
     },
     {
-      "title": "England win cerebral palsy World Cup for first time",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5yn2e0wpq9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T12:13:40Z",
-      "league": "soccer"
-    },
-    {
       "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
@@ -1419,13 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/australia-fiji-mens-rugby-league-world-cup-match-report",
       "date": "2026-10-25T10:59:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Ballon d’Or ceremony returns to England in nod to ‘revolutionary’ Stanley Matthews",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/ballon-dor-ceremony-returns-to-england-in-nod-to-revolutionary-stanley-matthews",
-      "date": "2026-10-25T08:00:58Z",
       "league": "all"
     }
   ]
