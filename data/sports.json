@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T13:39:45Z",
+  "updated_at": "2026-10-26T15:24:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -977,49 +977,53 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Liam Dawson reveals England squad ‘gutted’ after ODI series setback against Pakistan",
+      "title": "Olid, Cuthbert and Weir on Scottish awards shortlist",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T15:09:42Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The horse that ushered in Manchester United’s tragic arc | Jonathan Wilson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/the-horse-that-brought-down-manchester-united",
+      "date": "2026-10-26T14:43:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Ireland prop Furlong cited over alleged groin grab",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwg5jn7845jdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T14:22:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Batty leaves Surrey to join Chennai Super Kings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cj5ynk9v0x5eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T13:56:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Racecourse fined after jockey taken to A&E in horsebox",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c6lykg4l72xlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T13:50:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
+      "date": "2026-10-26T13:27:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Liam Dawson reveals England are ‘gutted’ after ODI series setback against Pakistan",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/liam-dawson-reveals-england-cricket-squad-gutted-after-second-odi-series-catastrophe",
       "date": "2026-10-26T13:15:49Z",
@@ -1173,13 +1177,6 @@
       "league": "all"
     },
     {
-      "title": "Knighting Sinfield 'easiest decision anyone's had to make,' says Prince William",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/c65ynjkrjq4wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T06:00:04Z",
-      "league": "all"
-    },
-    {
       "title": "‘Even my best friend didn’t know’: Usman Khawaja reveals why he kept his rheumatoid arthritis a secret",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/usman-khawaja-reveals-why-he-kept-rheumatoid-arthritis-secret",
@@ -1201,7 +1198,7 @@
       "league": "soccer"
     },
     {
-      "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+      "title": "A late goal and a knee slide - how Mourinho returned to haunt Barca",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T00:07:16Z",
@@ -1297,41 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kg5jmrzd2jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:36:12Z",
       "league": "soccer"
-    },
-    {
-      "title": "Pierre Sage regrets ‘missed 15 minutes’ as defeat increases heat on Crystal Palace manager",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/25/pierre-sage-regrets-missed-15-minutes-as-defeat-increases-heat-on-crystal-palace-manager",
-      "date": "2026-10-25T18:17:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Isak finally living up to price tag as Liverpool patience rewarded",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:13:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Fernandes gamble leaves Carrick to carry the can for United’s institutional failures | Will Unwin",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-michael-carrick-bruno-fernandes-jim-ratcliffe-institutional-failures",
-      "date": "2026-10-25T17:56:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Scottish Premiership: Durán caps Celtic’s comeback win over Hibernian",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/24/scottish-premiership-rangers-dundee-celtic-hearts",
-      "date": "2026-10-25T17:53:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Marcus Smith produces timely reminder of his class as Harlequins sink Saracens",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/harlequins-saracens-prem-rugby-union-match-report",
-      "date": "2026-10-25T17:30:59Z",
-      "league": "all"
     }
   ]
 }
