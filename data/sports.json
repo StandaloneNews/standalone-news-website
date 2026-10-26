@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T00:06:49Z",
+  "updated_at": "2026-10-26T01:17:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 15,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -83,12 +83,12 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -808,38 +808,38 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475479",
+      "id": "sportsdb-2475480",
       "league": "nfl",
-      "name": "Seattle Seahawks vs Kansas City Chiefs",
-      "date": "2026-10-26T00:20:00Z",
+      "name": "Philadelphia Eagles vs Dallas Cowboys",
+      "date": "2026-10-27T00:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Seattle Seahawks",
+          "name": "Philadelphia Eagles",
           "score": ""
         },
         {
-          "name": "Kansas City Chiefs",
+          "name": "Dallas Cowboys",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601707",
+      "id": "sportsdb-2601708",
       "league": "nba",
-      "name": "Sacramento Kings vs Memphis Grizzlies",
-      "date": "2026-10-26T01:00:00Z",
+      "name": "Charlotte Hornets vs Washington Wizards",
+      "date": "2026-10-26T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sacramento Kings",
+          "name": "Charlotte Hornets",
           "score": ""
         },
         {
-          "name": "Memphis Grizzlies",
+          "name": "Washington Wizards",
           "score": ""
         }
       ],
@@ -977,106 +977,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487574",
-      "league": "ligamx",
-      "name": "Atlas vs Puebla",
-      "date": "2026-10-25T23:00:00Z",
-      "state": "upcoming",
-      "status": "HT",
-      "participants": [
-        {
-          "name": "Atlas",
-          "score": ""
-        },
-        {
-          "name": "Puebla",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492894",
-      "league": "j1",
-      "name": "Kawasaki Frontale vs Fagiano Okayama",
-      "date": "2026-10-25T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Kawasaki Frontale",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Fagiano Okayama",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514010",
-      "league": "primeira",
-      "name": "Sporting CP vs Académico de Viseu",
-      "date": "2026-10-25T20:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sporting CP",
-          "score": "1"
-        },
-        {
-          "name": "Académico de Viseu",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T00:07:16Z",
+      "league": "all"
+    },
     {
       "title": "Man City's perfect start over after draw at rivals Man Utd",
       "source": "BBC Sport",
@@ -1373,23 +1283,16 @@
     },
     {
       "title": "Fernandes left on bench for Man Utd defeat - a failed gamble?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T13:26:13Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "The WNBA finals are a basketball wonderland – unless you’re part of the Maga machine",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
       "date": "2026-10-25T12:48:44Z",
-      "league": "all"
-    },
-    {
-      "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
-      "date": "2026-10-25T12:04:15Z",
       "league": "all"
     }
   ]
