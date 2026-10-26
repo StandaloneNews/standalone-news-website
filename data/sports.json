@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T22:56:36Z",
+  "updated_at": "2026-10-26T23:19:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601708",
+      "id": "sportsdb-2601710",
       "league": "nba",
-      "name": "Charlotte Hornets vs Washington Wizards",
-      "date": "2026-10-26T23:00:00Z",
+      "name": "Boston Celtics vs Chicago Bulls",
+      "date": "2026-10-26T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Charlotte Hornets",
+          "name": "Boston Celtics",
           "score": ""
         },
         {
-          "name": "Washington Wizards",
+          "name": "Chicago Bulls",
           "score": ""
         }
       ],
@@ -865,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591669",
+      "id": "sportsdb-2591670",
       "league": "nhl",
-      "name": "New York Rangers vs Los Angeles Kings",
-      "date": "2026-10-26T23:00:00Z",
+      "name": "Calgary Flames vs Toronto Maple Leafs",
+      "date": "2026-10-27T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Rangers",
+          "name": "Calgary Flames",
           "score": ""
         },
         {
-          "name": "Los Angeles Kings",
+          "name": "Toronto Maple Leafs",
           "score": ""
         }
       ],
@@ -977,48 +977,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594645",
-      "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Lens",
-          "score": "0"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T22:53:50Z",
-      "league": "all"
-    },
-    {
       "title": "London City's Putellas wins record-equalling third Ballon d'Or",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T22:47:08Z",
+      "date": "2026-10-26T23:14:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T23:10:59Z",
       "league": "all"
     },
     {
       "title": "Ballon d’Or 2026: Updates from awards ceremony in London – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-      "date": "2026-10-26T22:40:35Z",
+      "date": "2026-10-26T23:09:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Lancashire consider Anderson farewell amid fan unrest",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cme8rw2gkd9go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T22:58:14Z",
       "league": "all"
     },
     {
@@ -1036,7 +1023,7 @@
       "league": "soccer"
     },
     {
-      "title": "Ballon d'Or winner? Kane's best Bundesliga goals",
+      "title": "Ballon d'Or winner Kane's best Bundesliga goals",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T19:29:35Z",
@@ -1306,13 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/usman-khawaja-reveals-why-he-kept-rheumatoid-arthritis-secret",
       "date": "2026-10-26T04:54:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T01:24:51Z",
       "league": "all"
     }
   ]
