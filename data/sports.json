@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T23:19:08Z",
+  "updated_at": "2026-10-26T23:50:50Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601710",
+      "id": "sportsdb-2601712",
       "league": "nba",
-      "name": "Boston Celtics vs Chicago Bulls",
-      "date": "2026-10-26T23:30:00Z",
+      "name": "Milwaukee Bucks vs Indiana Pacers",
+      "date": "2026-10-27T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boston Celtics",
+          "name": "Milwaukee Bucks",
           "score": ""
         },
         {
-          "name": "Chicago Bulls",
+          "name": "Indiana Pacers",
           "score": ""
         }
       ],
@@ -977,9 +977,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T23:35:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Ballon d’Or 2026: Updates from awards ceremony in London – as it happened",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
+      "date": "2026-10-26T23:26:00Z",
+      "league": "soccer"
+    },
     {
       "title": "London City's Putellas wins record-equalling third Ballon d'Or",
       "source": "BBC Sport",
@@ -988,17 +1040,17 @@
       "league": "all"
     },
     {
+      "title": "Harry Kane claims men’s Ballon d’Or to end England’s 25-year wait for winner",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/harry-kane-ends-englands-25-year-wait-for-a-mens-ballon-dor",
+      "date": "2026-10-26T23:11:22Z",
+      "league": "all"
+    },
+    {
       "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T23:10:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Ballon d’Or 2026: Updates from awards ceremony in London – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-      "date": "2026-10-26T23:09:44Z",
       "league": "all"
     },
     {
@@ -1069,13 +1121,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T18:17:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T18:10:26Z",
       "league": "all"
     },
     {
@@ -1286,13 +1331,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/articles/c61wvzxjxnjxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T06:42:44Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Even my best friend didn’t know’: Usman Khawaja reveals why he kept his rheumatoid arthritis a secret",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/usman-khawaja-reveals-why-he-kept-rheumatoid-arthritis-secret",
-      "date": "2026-10-26T04:54:41Z",
       "league": "all"
     }
   ]
