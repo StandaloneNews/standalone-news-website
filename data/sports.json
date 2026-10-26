@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T02:57:41Z",
+  "updated_at": "2026-10-26T03:59:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,28 +977,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "‘We’re not doing great’: Gilgeous-Alexander in tears after Williams suffers gruesome leg injury",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/jalen-williams-injury-thunder-clippers-nba",
+      "date": "2026-10-26T03:06:12Z",
+      "league": "all"
+    },
     {
       "title": "Antonelli superb and Leclerc close to perfect - driver ratings",
       "source": "BBC Sport",
@@ -1105,7 +1093,7 @@
       "league": "all"
     },
     {
-      "title": "NFL roundup: Falcons spoil Niners’ undefeated start; Steelers win in Paris",
+      "title": "NFL roundup: Seahawks overwhelm Chiefs to end KC’s unbeaten run",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/nfl-roundup-sunday-football-scores",
       "date": "2026-10-25T20:48:11Z",
@@ -1306,13 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmrlye5w3p79o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T13:26:13Z",
       "league": "soccer"
-    },
-    {
-      "title": "The WNBA finals are a basketball wonderland – unless you’re part of the Maga machine",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
-      "date": "2026-10-25T12:48:44Z",
-      "league": "all"
     }
   ]
 }
