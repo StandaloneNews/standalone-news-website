@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T02:01:23Z",
+  "updated_at": "2026-10-26T02:57:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -977,9 +977,42 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Antonelli superb and Leclerc close to perfect - driver ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmpwgnekx1e0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T01:48:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T01:24:51Z",
+      "league": "all"
+    },
     {
       "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
       "source": "BBC Sport",
@@ -1163,25 +1196,11 @@
       "league": "all"
     },
     {
-      "title": "Marchant recalled by Borthwick for England training camp",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmq5nyywq8n1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:35:13Z",
-      "league": "all"
-    },
-    {
       "title": "Pierre Sage regrets ‘missed 15 minutes’ as defeat increases heat on Crystal Palace manager",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/25/pierre-sage-regrets-missed-15-minutes-as-defeat-increases-heat-on-crystal-palace-manager",
       "date": "2026-10-25T18:17:10Z",
       "league": "soccer"
-    },
-    {
-      "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:14:53Z",
-      "league": "all"
     },
     {
       "title": "Isak finally living up to price tag as Liverpool patience rewarded",
