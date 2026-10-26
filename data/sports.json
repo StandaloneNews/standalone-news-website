@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T11:01:17Z",
+  "updated_at": "2026-10-26T13:39:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -190,6 +190,20 @@
         {
           "fighters": [
             {
+              "name": "Francis Marshall",
+              "score": ""
+            },
+            {
+              "name": "Dakota Hope",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
               "name": "Rodrigo Sezinando",
               "score": ""
             },
@@ -237,20 +251,6 @@
             },
             {
               "name": "Piera Rodriguez",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Lucia Szabova",
-              "score": ""
-            },
-            {
-              "name": "Tainara Lisboa",
               "score": ""
             }
           ],
@@ -977,9 +977,131 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Liam Dawson reveals England squad ‘gutted’ after ODI series setback against Pakistan",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/liam-dawson-reveals-england-cricket-squad-gutted-after-second-odi-series-catastrophe",
+      "date": "2026-10-26T13:15:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Smotherman beats Ireland's Power in delayed PGA Tour finish",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c6x29gmyz21ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T13:07:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Borthwick's autumn questions as World Cup looms",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck20wj7znqy8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T12:14:29Z",
+      "league": "all"
+    },
+    {
+      "title": "TNT Sports close to securing live UK rights for England white-ball cricket tour of Australia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/tnt-sports-close-to-securing-live-uk-rights-england-white-ball-limited-overs-tour-australia-cricket",
+      "date": "2026-10-26T12:10:32Z",
+      "league": "all"
+    },
+    {
+      "title": "All the goals from the Women's Super League - matchweek seven",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6073jevmk3go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T12:02:22Z",
+      "league": "all"
+    },
+    {
+      "title": "WSL talking points: Russo to Arsenal’s rescue and Olid makes Manchester United progress",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/wsl-talking-points-alessia-russo-arsenal-tottenham-manchester-united-city",
+      "date": "2026-10-26T11:59:27Z",
+      "league": "all"
+    },
+    {
+      "title": "'He doesn't feel pressure!' - how Antonelli is cruising to title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cqly02nlknjno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T11:48:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Bayern continue unbeaten start in Kompany's absence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqx284yk4mk0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T11:35:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Nix's 62-yard touchdown & 'vintage Rodgers' - NFL best plays",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/crp3g25vv4qyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T11:30:08Z",
+      "league": "all"
+    },
+    {
+      "title": "First Scotland call-up for Newcastle's Leatherbarrow",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck3wvl6dlw6vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T11:25:33Z",
+      "league": "all"
+    },
+    {
+      "title": "McTominay stars in Napoli draw that leaves Allegri ‘not lucid enough’ to talk",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/scott-mctominay-napoli-roma-serie-a-massimiliano-allegri-not-lucid-enough",
+      "date": "2026-10-26T11:21:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Three roles and a goal: USMNT’s ‘super player’ Alex Freeman is breaking out for Villarreal",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/26/villarreal-alex-freeman-goal-usmnt",
+      "date": "2026-10-26T11:00:39Z",
+      "league": "soccer"
+    },
     {
       "title": "Late Mbappe goal earns Real win at Barca in dramatic Clasico",
       "source": "BBC Sport",
@@ -996,13 +1118,13 @@
     },
     {
       "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq5ynp680jm1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T09:21:17Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
-      "title": "Derby day biff, real deal Glos & Christian wades in - Prem talking points",
+      "title": "Leicester's ABC tribute win & Morgan heroics - Prem analysis",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5djvn1mkmzyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T09:02:54Z",
@@ -1020,13 +1142,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/premier-league-10-talking-points-from-the-weekends-action",
       "date": "2026-10-26T08:00:26Z",
-      "league": "all"
-    },
-    {
-      "title": "'I'm no yes-man' - new WRU chair to review region cut",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr4g13d0lxnjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T08:00:11Z",
       "league": "all"
     },
     {
@@ -1072,13 +1187,6 @@
       "league": "all"
     },
     {
-      "title": "Antonelli superb and Leclerc close to perfect - driver ratings",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmpwgnekx1e0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T01:48:02Z",
-      "league": "all"
-    },
-    {
       "title": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
@@ -1100,13 +1208,6 @@
       "league": "all"
     },
     {
-      "title": "Man City's perfect start over after draw at rivals Man Utd",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cj3vq1ggw247o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T23:52:55Z",
-      "league": "all"
-    },
-    {
       "title": "Man Utd lacked intensity & fight - Alderweireld",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo?at_medium=RSS&at_campaign=rss",
@@ -1118,13 +1219,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T23:49:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Smith holds on to beat Schindler in Euros final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/cv5yn4w8x378o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T22:44:47Z",
       "league": "all"
     },
     {
@@ -1150,10 +1244,10 @@
     },
     {
       "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T21:38:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "End approaching for Carrick but Man Utd fans make clear who they blame",
@@ -1184,13 +1278,6 @@
       "league": "all"
     },
     {
-      "title": "Late own goal gives Liverpool point against London City Lionesses",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmp3g9ee4e1lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T19:54:45Z",
-      "league": "all"
-    },
-    {
       "title": "Weir would swap Ballon d'Or nominations for World Cup",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
@@ -1206,10 +1293,10 @@
     },
     {
       "title": "Pressure grows on Sage as fans turn on Palace boss",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kg5jmrzd2jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:36:12Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Pierre Sage regrets ‘missed 15 minutes’ as defeat increases heat on Crystal Palace manager",
@@ -1223,13 +1310,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T18:13:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Joe Marchant recalled to England training squad for Nations Championship",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/joe-marchant-recalled-to-england-training-squad-for-nations-championship",
-      "date": "2026-10-25T17:57:43Z",
       "league": "all"
     },
     {
@@ -1251,48 +1331,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/harlequins-saracens-prem-rugby-union-match-report",
       "date": "2026-10-25T17:30:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick 'saddened' by Man Utd situation after Bournemouth loss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynqy55l68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T17:02:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'It wasn't a farewell from me' - but horror start leaves Carrick on brink",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crgj9wnpd1lvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T16:51:48Z",
-      "league": "all"
-    },
-    {
-      "title": "England stunned after Shadab Khan’s miraculous century delivers one-wicket win for Pakistan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/25/england-pakistan-odi-match-report-cricket-shadab-khan",
-      "date": "2026-10-25T16:49:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Ouattara rescues point for Brentford as Hull maintain unbeaten home record",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/25/hull-brentford-premier-league-match-report",
-      "date": "2026-10-25T16:40:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England lose to Pakistan after improbable last-wicket stand",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq0mek4de4xno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T16:34:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Osula and Barnes strike as Newcastle pile pressure on lacklustre Palace",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/crystal-palace-newcastle-premier-league-match-report",
-      "date": "2026-10-25T16:29:02Z",
       "league": "all"
     }
   ]
