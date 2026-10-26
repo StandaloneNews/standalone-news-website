@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T08:29:39Z",
+  "updated_at": "2026-10-26T09:26:11Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,28 +977,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        },
-        {
-          "name": "Lyon",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq5ynp680jm1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T09:21:17Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Derby day biff, real deal Glos & Christian wades in - Prem talking points",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5djvn1mkmzyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T09:02:54Z",
+      "league": "all"
+    },
     {
       "title": "Creaking, smug … and a contender? Aaron Rodgers may yet get his Super Bowl farewell",
       "source": "The Guardian Sport",
@@ -1011,13 +1006,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/premier-league-10-talking-points-from-the-weekends-action",
       "date": "2026-10-26T08:00:26Z",
-      "league": "all"
-    },
-    {
-      "title": "'I'm no yes man' - new WRU chair to review region cut",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr4g13d0lxnjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T08:00:11Z",
       "league": "all"
     },
     {
@@ -1228,13 +1216,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/25/pierre-sage-regrets-missed-15-minutes-as-defeat-increases-heat-on-crystal-palace-manager",
       "date": "2026-10-25T18:17:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Chaos or concern - Hanley's striker cameo poses questions for Hibs",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d93eeq27gqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:14:53Z",
       "league": "soccer"
     },
     {
