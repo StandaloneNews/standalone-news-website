@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T23:43:38Z",
+  "updated_at": "2026-10-26T00:06:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 15,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -83,12 +83,12 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -865,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591667",
+      "id": "sportsdb-2591668",
       "league": "nhl",
-      "name": "Nashville Predators vs Colorado Avalanche",
-      "date": "2026-10-26T00:00:00Z",
+      "name": "Vancouver Canucks vs Minnesota Wild",
+      "date": "2026-10-26T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nashville Predators",
+          "name": "Vancouver Canucks",
           "score": ""
         },
         {
-          "name": "Colorado Avalanche",
+          "name": "Minnesota Wild",
           "score": ""
         }
       ],
@@ -996,9 +996,108 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487574",
+      "league": "ligamx",
+      "name": "Atlas vs Puebla",
+      "date": "2026-10-25T23:00:00Z",
+      "state": "upcoming",
+      "status": "HT",
+      "participants": [
+        {
+          "name": "Atlas",
+          "score": ""
+        },
+        {
+          "name": "Puebla",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492894",
+      "league": "j1",
+      "name": "Kawasaki Frontale vs Fagiano Okayama",
+      "date": "2026-10-25T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Kawasaki Frontale",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Fagiano Okayama",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514010",
+      "league": "primeira",
+      "name": "Sporting CP vs Académico de Viseu",
+      "date": "2026-10-25T20:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sporting CP",
+          "score": "1"
+        },
+        {
+          "name": "Académico de Viseu",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Man City's perfect start over after draw at rivals Man Utd",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cj3vq1ggw247o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T23:52:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd lacked intensity & fight - Alderweireld",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T23:51:22Z",
+      "league": "all"
+    },
+    {
+      "title": "How Liverpool's attack impressed against Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-25T23:49:41Z",
+      "league": "all"
+    },
     {
       "title": "Smith holds on to beat Schindler in Euros final",
       "source": "BBC Sport",
@@ -1112,24 +1211,10 @@
       "league": "all"
     },
     {
-      "title": "Birmingham get first win of the season after edging past Charlton",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqy8lj00k1m7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T19:55:12Z",
-      "league": "soccer"
-    },
-    {
       "title": "Late own goal gives Liverpool point against London City Lionesses",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmp3g9ee4e1lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T19:54:45Z",
-      "league": "all"
-    },
-    {
-      "title": "Vangsgaard scores twice as Villa hang on to beat Everton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckvgd122njp0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T19:54:10Z",
       "league": "all"
     },
     {
@@ -1200,13 +1285,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/joe-marchant-recalled-to-england-training-squad-for-nations-championship",
       "date": "2026-10-25T17:57:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Malard stars as Chelsea beat Palace to extend unbeaten start",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c699zk701n2yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T17:56:35Z",
       "league": "all"
     },
     {
@@ -1287,13 +1365,6 @@
       "league": "soccer"
     },
     {
-      "title": "Jarman wins historic second Worlds silver in vault final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/videos/c574pv1nk0jgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T15:25:16Z",
-      "league": "all"
-    },
-    {
       "title": "Sheffield Wednesday sack Pedersen after 15 months",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq4g15392p4ro?at_medium=RSS&at_campaign=rss",
@@ -1312,6 +1383,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/25/the-wnba-finals-are-a-basketball-wonderland-unless-youre-part-of-the-maga-machine",
       "date": "2026-10-25T12:48:44Z",
+      "league": "all"
+    },
+    {
+      "title": "‘If it was up to me it wouldn’t end like this’: Jimmy Anderson confirms Lancashire exit",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/25/jimmy-anderson-confirms-lancashire-exit-cricket",
+      "date": "2026-10-25T12:04:15Z",
       "league": "all"
     }
   ]
