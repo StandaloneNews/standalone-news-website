@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T19:57:34Z",
+  "updated_at": "2026-10-26T20:57:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -922,19 +922,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506263",
+      "id": "sportsdb-2506271",
       "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
+      "name": "Villarreal vs Espanyol",
+      "date": "2026-10-30T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sevilla",
+          "name": "Villarreal",
           "score": ""
         },
         {
-          "name": "Osasuna",
+          "name": "Espanyol",
           "score": ""
         }
       ],
@@ -981,10 +981,17 @@
   ],
   "stories": [
     {
+      "title": "5 Live Sport",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T21:00:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "Ballon d’Or 2026: updates from 70th edition in London – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-      "date": "2026-10-26T19:52:09Z",
+      "date": "2026-10-26T20:54:14Z",
       "league": "all"
     },
     {
@@ -1286,13 +1293,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/usman-khawaja-reveals-why-he-kept-rheumatoid-arthritis-secret",
       "date": "2026-10-26T04:54:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T01:24:51Z",
       "league": "all"
     }
   ]
