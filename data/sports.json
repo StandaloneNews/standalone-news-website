@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T15:24:33Z",
+  "updated_at": "2026-10-26T16:18:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -808,6 +808,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475479",
+      "league": "nfl",
+      "name": "Seattle Seahawks vs Kansas City Chiefs",
+      "date": "2026-10-26T00:20:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Seattle Seahawks",
+          "score": "20",
+          "winner": true
+        },
+        {
+          "name": "Kansas City Chiefs",
+          "score": "3"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475480",
       "league": "nfl",
       "name": "Philadelphia Eagles vs Dallas Cowboys",
@@ -977,9 +997,208 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Lyon",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398502",
+      "league": "brasileirao",
+      "name": "Coritiba vs Grêmio",
+      "date": "2026-10-26T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Coritiba",
+          "score": ""
+        },
+        {
+          "name": "Grêmio",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398160",
+      "league": "argentina",
+      "name": "Unión vs Estudiantes de La Plata",
+      "date": "2026-10-26T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Unión",
+          "score": ""
+        },
+        {
+          "name": "Estudiantes de La Plata",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "América",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540118",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Auckland FC",
+      "date": "2026-10-30T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Auckland FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514009",
+      "league": "primeira",
+      "name": "Santa Clara vs Benfica",
+      "date": "2026-10-26T18:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Santa Clara",
+          "score": ""
+        },
+        {
+          "name": "Benfica",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407173",
+      "league": "mls",
+      "name": "Inter Miami vs FC Cincinnati",
+      "date": "2026-10-28T23:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Doubles players sign open letter pleading with tennis chiefs to ‘protect’ format",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/doubles-players-sign-open-letter-pleading-with-tennis-chiefs-to-protect-format",
+      "date": "2026-10-26T15:55:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Howe and Nagelsmann high on Man Utd's list if Carrick sacked",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T15:34:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | United’s cycle of hope followed by failure claims another patsy in Carrick",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/26/manchester-united-michael-carrick-football-daily",
+      "date": "2026-10-26T15:24:37Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Why is Wilcox in line of fire from Man Utd fans?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn5j37en0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T15:24:12Z",
+      "league": "all"
+    },
     {
       "title": "Olid, Cuthbert and Weir on Scottish awards shortlist",
       "source": "BBC Football",
@@ -1157,10 +1376,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c32l4kyk7gdeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T06:53:00Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Vikings are last unbeaten team as Chiefs lose - NFL week seven",
@@ -1227,10 +1446,10 @@
     },
     {
       "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T22:16:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
@@ -1266,34 +1485,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/25/nfl-roundup-sunday-football-scores",
       "date": "2026-10-25T20:48:11Z",
       "league": "all"
-    },
-    {
-      "title": "Terland strikes late as United end Manchester City’s winning start in WSL",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/manchester-united-manchester-city-wsl-match-report",
-      "date": "2026-10-25T20:38:20Z",
-      "league": "all"
-    },
-    {
-      "title": "Weir would swap Ballon d'Or nominations for World Cup",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx1xw7z9xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T19:34:15Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Roefs and Trafford stand firm as Sunderland and Leeds battle for point",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/25/sunderland-leeds-premier-league-match-report",
-      "date": "2026-10-25T18:46:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pressure grows on Sage as fans turn on Palace boss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6kg5jmrzd2jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T18:36:12Z",
-      "league": "soccer"
     }
   ]
 }
