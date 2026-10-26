@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T17:57:28Z",
+  "updated_at": "2026-10-26T19:10:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -884,26 +884,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499106",
-      "league": "ncaaf",
-      "name": "New Mexico vs North Dakota State",
-      "date": "2026-10-25T02:20:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "New Mexico",
-          "score": "21",
-          "winner": true
-        },
-        {
-          "name": "North Dakota State",
-          "score": "16"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499125",
       "league": "ncaaf",
       "name": "Western Kentucky vs Delaware",
@@ -1001,6 +981,55 @@
   ],
   "stories": [
     {
+      "title": "Ballon d’Or 2026: updates from 70th edition in London – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
+      "date": "2026-10-26T19:08:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Damning data: stats that show Michael Carrick’s luck was bound to run out | Andrew Beasley",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/damning-data-michael-carrick-manchester-united-head-coach",
+      "date": "2026-10-26T18:50:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Bookies fear budget hit but gaming machine self-harm killed off the old-fashioned shops",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/bookies-budget-gaming-machines-horse-racing",
+      "date": "2026-10-26T18:35:33Z",
+      "league": "all"
+    },
+    {
+      "title": "England fret over Fin Smith’s fitness for looming Australia match",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/england-fin-smith-fitness-australia-nations-championship-rugby-union",
+      "date": "2026-10-26T18:30:01Z",
+      "league": "all"
+    },
+    {
+      "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T18:17:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T18:10:26Z",
+      "league": "all"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pjq3nz?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T17:18:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "McDowell becomes latest major champion to exit LIV",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/ck78px63l923o?at_medium=RSS&at_campaign=rss",
@@ -1019,13 +1048,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/michael-carrick-manchester-united-training-ground-club-discuss-sacking",
       "date": "2026-10-26T16:57:27Z",
-      "league": "all"
-    },
-    {
-      "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T16:39:16Z",
       "league": "all"
     },
     {
@@ -1148,13 +1170,6 @@
       "league": "all"
     },
     {
-      "title": "Bayern continue unbeaten start in Kompany's absence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqx284yk4mk0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T11:35:11Z",
-      "league": "all"
-    },
-    {
       "title": "Nix's 62-yard touchdown & 'vintage Rodgers' - NFL best plays",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/videos/crp3g25vv4qyo?at_medium=RSS&at_campaign=rss",
@@ -1170,10 +1185,10 @@
     },
     {
       "title": "McTominay stars in Napoli draw that leaves Allegri ‘not lucid enough’ to talk | Nicky Bandini",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/26/scott-mctominay-napoli-roma-serie-a-massimiliano-allegri-not-lucid-enough",
       "date": "2026-10-26T11:21:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Three roles and a goal: USMNT’s ‘super player’ Alex Freeman is breaking out for Villarreal",
@@ -1247,10 +1262,10 @@
     },
     {
       "title": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqjdmn0ndxjxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T06:19:12Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘Even my best friend didn’t know’: Usman Khawaja reveals why he kept his rheumatoid arthritis a secret",
@@ -1279,41 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T00:07:16Z",
       "league": "all"
-    },
-    {
-      "title": "Man Utd lacked intensity & fight - Alderweireld",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T23:51:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia’s Rebecca Henderson claims historic race walk world record",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/australian-rebecca-henderson-breaks-athletics-world-record-race-walk-marathon-japan",
-      "date": "2026-10-25T22:44:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T22:16:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Mbappé double secures Real Madrid late victory at Barcelona after Raphinha leveller",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/25/barcelona-real-madrid-el-clasico-la-liga-match-report",
-      "date": "2026-10-25T22:12:20Z",
-      "league": "all"
-    },
-    {
-      "title": "What have Man Utd changed to turn around WSL form?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynpjx170zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T21:38:59Z",
-      "league": "soccer"
     }
   ]
 }
