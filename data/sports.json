@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T22:18:43Z",
+  "updated_at": "2026-10-26T22:56:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -979,39 +979,21 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
+      "id": "sportsdb-2594645",
       "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Club Brugge vs Lens",
+      "date": "2026-10-21T19:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Shakhtar Donetsk",
-          "score": ""
+          "name": "Club Brugge",
+          "score": "3",
+          "winner": true
         },
         {
-          "name": "Sporting CP",
-          "score": ""
+          "name": "Lens",
+          "score": "0"
         }
       ],
       "url": ""
@@ -1019,10 +1001,24 @@
   ],
   "stories": [
     {
-      "title": "Ballon d’Or 2026: Lamine Yamal wins young men’s trophy, Saka awarded humanitarian prize – live",
+      "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T22:53:50Z",
+      "league": "all"
+    },
+    {
+      "title": "London City's Putellas wins record-equalling third Ballon d'Or",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T22:47:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Ballon d’Or 2026: Updates from awards ceremony in London – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-      "date": "2026-10-26T22:11:44Z",
+      "date": "2026-10-26T22:40:35Z",
       "league": "all"
     },
     {
@@ -1272,17 +1268,10 @@
     },
     {
       "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq5ynp680jm1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T09:21:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Leicester's ABC tribute win & Morgan heroics - Prem analysis",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5djvn1mkmzyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T09:02:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Premier League: 10 talking points from the weekend’s action",
@@ -1311,13 +1300,6 @@
       "url": "https://www.bbc.co.uk/sport/american-football/articles/c61wvzxjxnjxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T06:42:44Z",
       "league": "all"
-    },
-    {
-      "title": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqjdmn0ndxjxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T06:19:12Z",
-      "league": "soccer"
     },
     {
       "title": "‘Even my best friend didn’t know’: Usman Khawaja reveals why he kept his rheumatoid arthritis a secret",
