@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T17:05:05Z",
+  "updated_at": "2026-10-26T17:57:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -884,6 +884,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499106",
+      "league": "ncaaf",
+      "name": "New Mexico vs North Dakota State",
+      "date": "2026-10-25T02:20:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "New Mexico",
+          "score": "21",
+          "winner": true
+        },
+        {
+          "name": "North Dakota State",
+          "score": "16"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499125",
       "league": "ncaaf",
       "name": "Western Kentucky vs Delaware",
@@ -981,11 +1001,25 @@
   ],
   "stories": [
     {
+      "title": "McDowell becomes latest major champion to exit LIV",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/ck78px63l923o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T17:17:31Z",
+      "league": "all"
+    },
+    {
       "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T16:59:33Z",
       "league": "soccer"
+    },
+    {
+      "title": "Michael Carrick attends Manchester United training ground as club discuss his fate",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/26/michael-carrick-manchester-united-training-ground-club-discuss-sacking",
+      "date": "2026-10-26T16:57:27Z",
+      "league": "all"
     },
     {
       "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
@@ -1021,13 +1055,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T15:34:23Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily | United’s cycle of hope followed by failure claims another patsy in Carrick",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/26/manchester-united-michael-carrick-football-daily",
-      "date": "2026-10-26T15:24:37Z",
-      "league": "soccer"
     },
     {
       "title": "Why is Wilcox in line of fire from Man Utd fans?",
@@ -1258,13 +1285,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-25T23:51:22Z",
-      "league": "all"
-    },
-    {
-      "title": "How Liverpool's attack impressed against Brighton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-25T23:49:41Z",
       "league": "all"
     },
     {
