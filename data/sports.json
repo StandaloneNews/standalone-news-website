@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T22:56:29Z",
+  "updated_at": "2026-10-27T23:20:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -865,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591672",
+      "id": "sportsdb-2591673",
       "league": "nhl",
-      "name": "Philadelphia Flyers vs Columbus Blue Jackets",
-      "date": "2026-10-27T23:00:00Z",
+      "name": "St. Louis Blues vs Montreal Canadiens",
+      "date": "2026-10-28T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia Flyers",
+          "name": "St. Louis Blues",
           "score": ""
         },
         {
-          "name": "Columbus Blue Jackets",
+          "name": "Montreal Canadiens",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499125",
+      "id": "sportsdb-2499126",
       "league": "ncaaf",
-      "name": "Western Kentucky vs Delaware",
-      "date": "2026-10-27T23:00:00Z",
+      "name": "Missouri State vs Sam Houston State",
+      "date": "2026-10-28T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Western Kentucky",
+          "name": "Missouri State",
           "score": ""
         },
         {
-          "name": "Delaware",
+          "name": "Sam Houston State",
           "score": ""
         }
       ],
@@ -977,15 +977,53 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Fleetwood Town stun Arsenal on penalties: Carabao Cup fourth round – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
-      "date": "2026-10-27T22:43:10Z",
-      "league": "all"
+      "title": "Blackpool beat Villa and Vale thrash Man City in Trophy",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0zyd15jqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T22:31:57Z",
+      "league": "soccer"
     },
     {
       "title": "João Pedro out for ‘a few weeks’, reveals Alonso; Donnarumma gets Maresca’s backing",
@@ -993,6 +1031,13 @@
       "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
       "date": "2026-10-27T22:30:36Z",
       "league": "soccer"
+    },
+    {
+      "title": "Fantastic Fleetwood seal shootout success in Carabao Cup shock against Arsenal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/fleetwood-town-arsenal-carabao-cup-fourth-round-match-report",
+      "date": "2026-10-27T22:26:05Z",
+      "league": "all"
     },
     {
       "title": "Barcelona fined £503 over approach for Alvarez",
@@ -1167,13 +1212,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgqwge88z84o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T14:24:23Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Milne out for season as Hearts' injury woes continue",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T13:58:04Z",
       "league": "soccer"
     },
     {
