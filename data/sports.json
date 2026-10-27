@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T10:01:56Z",
+  "updated_at": "2026-10-27T10:59:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,25 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1003,7 +984,35 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T09:46:24Z",
+      "date": "2026-10-27T10:45:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Feyi-Waboso boost for England coach Borthwick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr1ex94qwwl6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T10:28:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Chinese brands drop Mbappe as backlash grows over Mao joke",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T10:19:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United must pay Newcastle £3m compensation if they want Eddie Howe",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/manchester-united-eddie-howe-newcastle-compensation-michael-carrick",
+      "date": "2026-10-27T10:15:47Z",
+      "league": "all"
+    },
+    {
+      "title": "The Breakdown | England need to unearth World Cup core despite derby friction and injury chaos",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/27/england-world-cup-core-nations-championship-rugby-union",
+      "date": "2026-10-27T09:57:07Z",
       "league": "all"
     },
     {
@@ -1061,13 +1070,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynr87jdr0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T07:22:04Z",
       "league": "all"
-    },
-    {
-      "title": "Chinese brands drop Mbappe as backlash grows over Mao joke",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T07:15:08Z",
-      "league": "soccer"
     },
     {
       "title": "How much of Antonelli's success is down to his ability? - F1 Q&A",
@@ -1196,13 +1198,6 @@
       "league": "all"
     },
     {
-      "title": "Player in Stokes and Atkinson altercation joins Bristol after Saracens sacking",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c95yn672rx64o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T19:03:22Z",
-      "league": "all"
-    },
-    {
       "title": "Damning data: stats that show Michael Carrick’s luck was bound to run out | Andrew Beasley",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/26/damning-data-michael-carrick-manchester-united-head-coach",
@@ -1214,13 +1209,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/bookies-budget-gaming-machines-horse-racing",
       "date": "2026-10-26T18:35:33Z",
-      "league": "all"
-    },
-    {
-      "title": "England fret over Fin Smith’s fitness for looming Australia match",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/england-fin-smith-fitness-australia-nations-championship-rugby-union",
-      "date": "2026-10-26T18:30:01Z",
       "league": "all"
     },
     {
@@ -1242,13 +1230,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/ck78px63l923o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T17:17:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Michael Carrick attends Manchester United training ground as club discuss his fate",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/26/michael-carrick-manchester-united-training-ground-club-discuss-sacking",
-      "date": "2026-10-26T16:57:27Z",
       "league": "all"
     },
     {
@@ -1274,10 +1255,10 @@
     },
     {
       "title": "Why is Wilcox in line of fire from Man Utd fans?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn5j37en0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T15:24:12Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "The horse that ushered in Manchester United’s tragic arc | Jonathan Wilson",
