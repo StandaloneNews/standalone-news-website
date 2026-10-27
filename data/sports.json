@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T12:25:57Z",
+  "updated_at": "2026-10-27T13:17:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 15,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -68,12 +68,12 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -827,6 +827,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601716",
+      "league": "nba",
+      "name": "Denver Nuggets vs Golden State Warriors",
+      "date": "2026-10-27T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Denver Nuggets",
+          "score": "114"
+        },
+        {
+          "name": "Golden State Warriors",
+          "score": "134",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601717",
       "league": "nba",
       "name": "Boston Celtics vs Brooklyn Nets",
@@ -941,6 +961,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508387",
+      "league": "bundesliga",
+      "name": "Freiburg vs Bayern Munich",
+      "date": "2026-10-25T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Freiburg",
+          "score": "1"
+        },
+        {
+          "name": "Bayern Munich",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508404",
       "league": "bundesliga",
       "name": "Elversberg vs Mainz",
@@ -996,6 +1036,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398513",
+      "league": "brasileirao",
+      "name": "Bragantino vs Chapecoense",
+      "date": "2026-10-28T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Chapecoense",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -1003,7 +1081,56 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T12:15:07Z",
+      "date": "2026-10-27T13:09:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Donnarumma’s Manchester City mistakes are normal, insists Maresca",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
+      "date": "2026-10-27T13:05:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "England out of tri-series after Sri Lanka beat Pakistan",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6pwg00nv9dvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T13:01:11Z",
+      "league": "all"
+    },
+    {
+      "title": "How 'anti-superstar' Kane defied doubters to become world's best",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg01jyy84xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T12:46:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Madushanka stars as Sri Lanka thrash Pakistan to end England’s tri-series hopes",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/27/pakistan-sri-lanka-one-day-international-odi-match-report-cricket",
+      "date": "2026-10-27T12:38:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/27/alexia-putellas-ballon-dor-winner-awards-long-way-before-being-equal-moving-the-goalposts",
+      "date": "2026-10-27T12:32:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Pierre Sage given more time by Crystal Palace but remains under pressure",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/pierre-sage-given-more-time-by-crystal-palace-but-remains-under-pressure",
+      "date": "2026-10-27T12:22:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick given chance to save job as he stays for Manchester United’s game at Chelsea",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/manchester-united-eddie-howe-newcastle-compensation-michael-carrick",
+      "date": "2026-10-27T12:21:15Z",
       "league": "all"
     },
     {
@@ -1022,10 +1149,10 @@
     },
     {
       "title": "Unattached Coleman 'edging towards' retirement",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy83lyz32yjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T12:05:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Chinese brands drop Mbappe as backlash grows over Mao joke",
@@ -1081,13 +1208,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr1ex94qwwl6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T10:28:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United must pay Newcastle £3m compensation if they want Eddie Howe",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/manchester-united-eddie-howe-newcastle-compensation-michael-carrick",
-      "date": "2026-10-27T10:15:47Z",
       "league": "all"
     },
     {
@@ -1196,13 +1316,6 @@
       "league": "all"
     },
     {
-      "title": "Golden State Valkyries one win from WNBA title after Game 5 win over Atlanta Dream",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/wnba-finals-game-5-dream-valkyries-basketball",
-      "date": "2026-10-27T02:39:46Z",
-      "league": "all"
-    },
-    {
       "title": "Fighters exploited & forgotten in failing system - Smith",
       "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cwm24xnxv4zdo?at_medium=RSS&at_campaign=rss",
@@ -1225,10 +1338,10 @@
     },
     {
       "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T23:10:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Lancashire consider Anderson farewell amid fan unrest",
@@ -1278,41 +1391,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/26/bookies-budget-gaming-machines-horse-racing",
       "date": "2026-10-26T18:35:33Z",
       "league": "all"
-    },
-    {
-      "title": "England-Republic of Ireland U15 World Cup game ends over alleged racism",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn8wzldd7q0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T18:17:25Z",
-      "league": "all"
-    },
-    {
-      "title": "BBC Women's Football Weekly",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pjq3nz?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T17:18:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
-      "date": "2026-10-26T16:35:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Doubles players sign open letter pleading with tennis chiefs to ‘protect’ format",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/doubles-players-sign-open-letter-pleading-with-tennis-chiefs-to-protect-format",
-      "date": "2026-10-26T15:55:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Why is Wilcox in line of fire from Man Utd fans?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn5j37en0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T15:24:12Z",
-      "league": "soccer"
     }
   ]
 }
