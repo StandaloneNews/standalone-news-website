@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T14:09:59Z",
+  "updated_at": "2026-10-27T15:08:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 21,
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "argentina",
@@ -83,22 +83,22 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -923,25 +923,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494078",
-      "league": "epl",
-      "name": "Sunderland vs Leeds United",
-      "date": "2026-10-25T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sunderland",
-          "score": "0"
-        },
-        {
-          "name": "Leeds United",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2494084",
       "league": "epl",
       "name": "Chelsea vs Manchester United",
@@ -1018,26 +999,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Lyon",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2489541",
       "league": "ligue1",
       "name": "Le Havre vs Paris Saint-Germain",
@@ -1076,26 +1037,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398504",
-      "league": "brasileirao",
-      "name": "Flamengo vs Atlético Mineiro",
-      "date": "2026-10-26T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Flamengo",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2398513",
       "league": "brasileirao",
       "name": "Bragantino vs Chapecoense",
@@ -1115,41 +1056,58 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398154",
+      "id": "sportsdb-2398147",
       "league": "argentina",
-      "name": "Instituto vs Deportivo Riestra",
-      "date": "2026-10-27T00:15:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Argentinos Juniors vs Independiente Rivadavia",
+      "date": "2026-10-27T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Instituto",
-          "score": "1",
-          "winner": true
+          "name": "Argentinos Juniors",
+          "score": ""
         },
         {
-          "name": "Deportivo Riestra",
-          "score": "0"
+          "name": "Independiente Rivadavia",
+          "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2540117",
-      "league": "aleague",
-      "name": "Sydney FC vs Adelaide United",
-      "date": "2026-10-25T04:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Sydney FC",
-          "score": "2",
-          "winner": true
+          "name": "América",
+          "score": ""
         },
         {
-          "name": "Adelaide United",
-          "score": "1"
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
         }
       ],
       "url": ""
@@ -1174,20 +1132,39 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2407172",
-      "league": "mls",
-      "name": "Los Angeles FC vs LA Galaxy",
-      "date": "2026-10-26T01:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2514023",
+      "league": "primeira",
+      "name": "Casa Pia vs Sporting CP",
+      "date": "2026-10-30T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles FC",
-          "score": "2"
+          "name": "Casa Pia",
+          "score": ""
         },
         {
-          "name": "LA Galaxy",
-          "score": "2"
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407173",
+      "league": "mls",
+      "name": "Inter Miami vs FC Cincinnati",
+      "date": "2026-10-28T23:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
         }
       ],
       "url": ""
@@ -1198,8 +1175,36 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T13:56:04Z",
+      "date": "2026-10-27T15:06:48Z",
       "league": "all"
+    },
+    {
+      "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-andy-burnham-knighthood-ballon-dor-win",
+      "date": "2026-10-27T14:25:29Z",
+      "league": "all"
+    },
+    {
+      "title": "How Kane's Ballon d'Or win could boost the Bundesliga",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crgqwge88z84o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T14:24:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Ballon d'Or in London - the most chaotic ever?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y8lgg21l89o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T14:10:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Milne out for season as Hearts' injury woes continue",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T13:58:04Z",
+      "league": "soccer"
     },
     {
       "title": "Williams loses again - to opponent 28 years younger",
@@ -1213,6 +1218,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T13:25:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales call up in-form Page after Dyer injury blow",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckd6dzznw81jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T13:22:21Z",
       "league": "all"
     },
     {
@@ -1413,10 +1425,10 @@
     },
     {
       "title": "Ranking England's Ballon d'Or winners - how does Kane compare?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qdxgzzz7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T06:20:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'I would do it again' - Kaepernick reflects on price of protest, 10 years on",
@@ -1447,18 +1459,11 @@
       "league": "ufc"
     },
     {
-      "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
+      "title": "Putellas wins record-equalling third Ballon d'Or to extend Spanish dominance",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T23:35:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "London City's Putellas wins record-equalling third Ballon d'Or",
-      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T23:14:39Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
@@ -1479,34 +1484,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T21:38:42Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pjqwyh?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T21:18:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ballon d'Or winner Kane's best Bundesliga goals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmd93gqn8119o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T19:29:35Z",
-      "league": "all"
-    },
-    {
-      "title": "England Under-15s walk off pitch against Ireland in World Cup after racism allegation",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/26/england-under-15-walk-off-pitch-ireland-world-cup-racism-allegation",
-      "date": "2026-10-26T19:20:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Damning data: stats that show Michael Carrick’s luck was bound to run out | Andrew Beasley",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/26/damning-data-michael-carrick-manchester-united-head-coach",
-      "date": "2026-10-26T18:50:43Z",
       "league": "soccer"
     }
   ]
