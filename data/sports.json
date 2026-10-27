@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T01:59:36Z",
+  "updated_at": "2026-10-27T02:56:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601716",
+      "id": "sportsdb-2601717",
       "league": "nba",
-      "name": "Denver Nuggets vs Golden State Warriors",
-      "date": "2026-10-27T02:00:00Z",
+      "name": "Boston Celtics vs Brooklyn Nets",
+      "date": "2026-10-27T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Denver Nuggets",
+          "name": "Boston Celtics",
           "score": ""
         },
         {
-          "name": "Golden State Warriors",
+          "name": "Brooklyn Nets",
           "score": ""
         }
       ],
@@ -977,9 +977,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Golden State Valkyries one win from WNBA title after Game 5 win over Atlanta Dream",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/wnba-finals-game-5-dream-valkyries-basketball",
+      "date": "2026-10-27T02:39:46Z",
+      "league": "all"
+    },
     {
       "title": "Fighters exploited & forgotten in failing system - Smith",
       "source": "BBC Sport",
@@ -1287,13 +1332,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c32l4kyk7gdeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T06:53:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Vikings are last unbeaten team as Chiefs lose - NFL week seven",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c61wvzxjxnjxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T06:42:44Z",
-      "league": "all"
     }
   ]
 }
