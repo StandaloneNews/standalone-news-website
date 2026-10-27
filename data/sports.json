@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T09:03:13Z",
+  "updated_at": "2026-10-27T10:01:56Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -977,6 +977,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -984,7 +1003,28 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T08:56:28Z",
+      "date": "2026-10-27T09:46:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Quiz: Kane and who else? Name every men's Ballon d'Or winner",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cn5q170dnwlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T09:31:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane's rise from childhood keeper to the best in the world",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx2ln5n7yqdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T09:31:37Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fears grow for Iranian athletes on death row as mountaineer latest to be hanged",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/global-development/2026/oct/27/fears-grow-for-iranian-athletes-on-death-row-as-mountaineer-latest-to-be-hanged",
+      "date": "2026-10-27T09:30:30Z",
       "league": "all"
     },
     {
@@ -1205,13 +1245,6 @@
       "league": "all"
     },
     {
-      "title": "Weir 25th in Ballon d'Or and joins Olid & Cuthbert in award shortlist",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckd6dzv7w85go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T16:59:33Z",
-      "league": "soccer"
-    },
-    {
       "title": "Michael Carrick attends Manchester United training ground as club discuss his fate",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/michael-carrick-manchester-united-training-ground-club-discuss-sacking",
@@ -1223,13 +1256,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
       "date": "2026-10-26T16:35:26Z",
-      "league": "all"
-    },
-    {
-      "title": "'Cutting doubles would destroy careers' - angry players urge ATP rethink",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cr78pxd66d47o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T16:07:20Z",
       "league": "all"
     },
     {
@@ -1287,13 +1313,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/26/wsl-talking-points-alessia-russo-arsenal-tottenham-manchester-united-city",
       "date": "2026-10-26T11:59:27Z",
       "league": "soccer"
-    },
-    {
-      "title": "'He doesn't feel pressure!' - how Antonelli is cruising to title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/videos/cqly02nlknjno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T11:48:45Z",
-      "league": "all"
     }
   ]
 }
