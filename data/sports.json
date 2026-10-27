@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T23:20:42Z",
+  "updated_at": "2026-10-27T23:51:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601717",
+      "id": "sportsdb-2601718",
       "league": "nba",
-      "name": "Boston Celtics vs Brooklyn Nets",
-      "date": "2026-10-27T23:30:00Z",
+      "name": "New York Knicks vs Detroit Pistons",
+      "date": "2026-10-28T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boston Celtics",
+          "name": "New York Knicks",
           "score": ""
         },
         {
-          "name": "Brooklyn Nets",
+          "name": "Detroit Pistons",
           "score": ""
         }
       ],
@@ -977,47 +977,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T23:35:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
+      "date": "2026-10-27T23:18:47Z",
+      "league": "all"
+    },
     {
       "title": "Blackpool beat Villa and Vale thrash Man City in Trophy",
       "source": "BBC Football",
@@ -1265,10 +1241,10 @@
     },
     {
       "title": "Kylian Mbappé apologises after being dropped by Chinese brands for Mao Zedong comment",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/27/kylian-mbappe-dropped-by-chinese-brands-for-offensive-mao-jokes",
       "date": "2026-10-27T11:54:47Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Lawrie, 15, eyes £501,000 live TV win over Littler",
@@ -1318,20 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cwg7xevnyrjpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T08:53:55Z",
       "league": "all"
-    },
-    {
-      "title": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-triumph-ceremony-barney-ronay",
-      "date": "2026-10-27T08:00:06Z",
-      "league": "all"
-    },
-    {
-      "title": "No Saliba, no problem - Konsa stepping up for Arsenal",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynr87jdr0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T07:22:04Z",
-      "league": "soccer"
     }
   ]
 }
