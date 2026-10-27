@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-10-27T03:48:02+00:00",
+  "updated_at": "2026-10-27T04:46:42+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
   "featured_ids": [
     "e1647ff64b0fbabdbc56c2bc",
     "b91c111b3c41de893c3e9315",
+    "b86318bcbe59a48643d07c46",
     "5192bb5cac563d56eaffd05e",
     "bd3dfdfc1a6a59f936ecff6d",
     "e070fb278b64a849d96c66f4",
@@ -21,7 +22,6 @@
     "0a72a69fe154278ac8467eeb",
     "94ca486567d991be43db654a",
     "5fcba4e73ee45c1767cb3837",
-    "17128c9bab237df365093de9",
     "939d943fc8f0d3999bfa9328",
     "8af7b30500f9c04c48b14d5a",
     "b555ce2afa55383d5d6c0fd9",
@@ -32,6 +32,19 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "253f69ed980d767baacdfc88",
+      "title": "HSBC announces share buyback of up to $1 billion as third-quarter profit meets estimates",
+      "summary": "HSBC announced its third-quarter earnings on Tuesday.",
+      "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T04:42:31+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "8ee1c6b50953fb81c3945da7",
       "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
       "summary": "The winner of the Alaska Senate election could determine whether Republicans or Democrats have a majority in the Senate in the next Congress.",
@@ -40,7 +53,7 @@
       "feed_id": "cnbc_top",
       "category": "Markets",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-27T03:44:53+00:00",
+      "published_at": "2026-10-27T04:40:30+00:00",
       "desk_priority": 37,
       "selection_type": "automatic",
       "image": {
@@ -56,14 +69,79 @@
     },
     {
       "id": "f609f0cb4edfa1597a74916a",
-      "title": "Australian politics live: Coalition demands ‘straight answer’ from Albanese on $6m golf grant as question time starts; Labor promises ‘swift response’ on MP safety",
+      "title": "Australian politics live: Coalition tells Albanese to ‘stop the spin’ on $6m golf grant; Labor promises ‘swift response’ on MP safety",
       "summary": "Follow the day’s news live Get our breaking news email , free app or daily news podcast Political debate should be ‘robust but respectful’, Anne Ruston says A day after MPs addressed the House of Representatives paying tribute to the independent Helen Haines , who was injured after an alleged attack in her electorate, the Liberal senator Anne Ruston maintains that respect is necessary in political debate. What we do here sets the tone for what the rest of the nation thinks is acceptable. There is a huge responsibility on politicians, not to shy away from robust debate. I don’t want anyone to think that we shouldn’t be having strong debate. It’s simply out of control in an online world and we’ve got to make the platforms accountable. Facebook is the worst in terms of the platforms, Instagram and TikTok less so, but still bad. Continue read",
       "url": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-10-27T03:34:46+00:00",
+      "published_at": "2026-10-27T04:33:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "029feaa13e6138cdec91f355",
+      "title": "Sharp rise in sales of some essential goods after government call to stock up",
+      "summary": "Figures obtained by BBC Newsnight show large spikes in sales of torches, radios and power banks.",
+      "url": "https://www.bbc.co.uk/news/articles/c5rmy84np001o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T04:29:52+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7d909e3f359b36f7df3cdc73",
+      "title": "Storm Boelo leaves thousands without power as Met Office issues new wind warning",
+      "summary": "A yellow warning for strong winds came in effect at 18:00 on Monday across the west coast of England, Wales and Scotland and eastern parts of Northern Ireland.",
+      "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T04:13:56+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "409ed0acf7836f400b8e0617",
+      "title": "Judge Bars Trump Administration From Cutting More Trees on D.C. Golf Course",
+      "summary": "The order comes in a legal fight over Trump’s renovation plan and requires the government to give notice before closing or altering the property.",
+      "url": "https://www.wsj.com/politics/policy/judge-bars-trump-administration-from-cutting-more-trees-on-d-c-golf-course-54670223?mod=rss_usnews",
+      "source": "WSJ",
+      "feed_id": "wsj_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T04:07:00+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b86318bcbe59a48643d07c46",
+      "title": "Ukraine and Russia begin Oleshky ceasefire for aid mission",
+      "summary": "Around 2,000 people remain stranded in the city of Oleshky, facing severe shortages of food and medicine. The Russian-occupied town has been devastated by fighting and flooding since Moscow's invasion in 2022.",
+      "url": "https://www.dw.com/en/ukraine-and-russia-begin-oleshky-ceasefire-for-aid-mission/a-79771473?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T03:52:00+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d98a8f2187f80da3138a4d94",
+      "title": "Man with fake gun shot after using abused partner as shield",
+      "summary": "Brazilian police shot a man who assaulted and threatened his partner with a fake gun in Criciuma, southern Brazil.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/man-with-fake-gun-shot-after-using-abused-partner-as-shield?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T03:48:41+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -210,7 +288,7 @@
     {
       "id": "95d94d60920eefbb2ed8692d",
       "title": "Beau Lamarre-Condon tells jury he wanted to report deaths but friend encouraged him to dispose of bodies",
-      "summary": "NSW police officer accused of murdering Jesse Baird and Luke Davies tells court he wanted to do ‘right thing’ by their families Follow our Australian politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon has accused a friend of encouraging him to dispose of the bodies of two men “straight away” despite him wanting to report the deaths to police, according to his first statement to his double murder trial. Lamarre-Condon, 31, is accused of fatally shooting couple Jesse Baird and Luke Davies with his police service weapon in Baird’s Paddington home on 19 February 2024. Continue reading...",
+      "summary": "NSW police officer accused of murdering Jesse Baird and Luke Davies tells court he wanted to do ‘right thing’ by their families Follow our Australian politics live blog for latest updates Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon has accused a friend of encouraging him to dispose of the bodies of two men “straight away”, despite him wanting to report the deaths to police, according to his first statement to his double murder trial. Lamarre-Condon, 31, is accused of fatally shooting couple Jesse Baird and Luke Davies with his police service weapon in Baird’s Paddington home on 19 February 2024. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/2026/oct/27/beau-lamarre-condon-claims-friend-lied-to-police-first-statement-to-trial-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -299,6 +377,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "95695fd4f9f797a4252cb692",
+      "title": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
+      "summary": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders.",
+      "url": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-10-27T01:46:38+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "17128c9bab237df365093de9",
       "title": "US seeks new charges against former FBI chief James Comey",
       "summary": "The Trump administration accuses the former FBI director of leaking classified information a decade ago. Comey denies wrongdoing, while his lawyers argue the case is legally invalid and comes too late.",
@@ -322,19 +413,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-27T01:32:54+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "409ed0acf7836f400b8e0617",
-      "title": "Judge Bars Trump Administration From Cutting More Trees on D.C. Golf Course",
-      "summary": "The order comes in a legal fight over Trump’s renovation plan and requires the government to give notice before closing or altering the property.",
-      "url": "https://www.wsj.com/politics/policy/judge-bars-trump-administration-from-cutting-more-trees-on-d-c-golf-course-54670223?mod=rss_usnews",
-      "source": "WSJ",
-      "feed_id": "wsj_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-27T01:29:00+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -906,19 +984,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-26T22:45:35+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7d909e3f359b36f7df3cdc73",
-      "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
-      "summary": "A yellow warning for strong winds came in effect at 18:00 on Monday across the west coast of England, Wales and Scotland and eastern parts of Northern Ireland.",
-      "url": "https://www.bbc.co.uk/news/articles/cqm264jxxnxzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T22:43:44+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -5454,71 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-26T02:59:50+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "2d9b57a6863ab998e431861c",
-      "title": "Seoul ‘fabricated’ landmine blast, North Korea tells UN in letter",
-      "summary": "South Korea blames Pyongyang for September landmine blast, but North Korea says incident a 'sinister obstructive move'.",
-      "url": "https://www.aljazeera.com/news/2026/10/26/seoul-fabricated-landmine-blast-north-korea-tells-un-in-letter?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T02:55:15+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "30993307ab52b70e5d0ef3ac",
-      "title": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
-      "summary": "Brazil's left-wing President has been elected for a fourth term after narrowly beating right-wing Flávio Bolsonaro in a knife-edge vote.",
-      "url": "https://www.bbc.co.uk/news/videos/cmp8g0x4l11yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T02:53:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "36e5aabfbf43fffc55796c39",
-      "title": "‘Someone has been following me’: safety fears after bullet inscribed with ‘RAT’ left on Victorian minister’s car",
-      "summary": "Paul Edbrooke says he fears for family’s safety amid heightened concerns for MPs after alleged attack on Helen Haines Get our breaking news email , free app or daily news podcast Victoria’s emergency services minister believes he is being followed and fears for his family’s safety after a bullet, etched with the word “RAT” and his former firefighter number, was left on his car. The Herald Sun first reported on Monday that Paul Edbrooke had returned to his car after a community event in his Frankston electorate on Saturday and found the bullet on the bonnet. He later told reporters he had only been away from the car for about an hour and made the “chilling” discovery on his return. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/26/labor-mp-paul-edbrooke-bullet-on-car-rat-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T02:38:37+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "68f33e441583f0446c1e6050",
-      "title": "There’s no human right to Vegemite, court tells Australian prisoner who wanted ban overturned",
-      "summary": "Prohibition of salty, yeast-based condiment in Victoria’s prisons remains after convicted murderer claimed it denied him right to ‘enjoy his culture’ A murderer who claimed a refusal to allow him Vegemite in prison is a breach of his human rights as an Australian has failed to overturn the ban on the polarising spread. Andre McKechnie sued Victoria’s corrections department after he was refused the salty, yeast-based condiment in prison. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/26/no-human-right-to-vegemite-court-tells-prisoner-australia-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T02:34:11+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "7ce76d9833babb6d603ef30b",
-      "title": "What is the Budget and what could be in it?",
-      "summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2zrjl7kjno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-26T02:16:37+00:00",
-      "desk_priority": 38,
       "selection_type": "automatic"
     }
   ]
