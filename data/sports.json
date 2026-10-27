@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T21:55:50Z",
+  "updated_at": "2026-10-27T22:24:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 28,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,22 +13,22 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -58,12 +58,12 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -808,6 +808,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475480",
+      "league": "nfl",
+      "name": "Philadelphia Eagles vs Dallas Cowboys",
+      "date": "2026-10-27T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Philadelphia Eagles",
+          "score": "21"
+        },
+        {
+          "name": "Dallas Cowboys",
+          "score": "38",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475481",
       "league": "nfl",
       "name": "Green Bay Packers vs Carolina Panthers",
@@ -822,6 +842,26 @@
         {
           "name": "Carolina Panthers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601716",
+      "league": "nba",
+      "name": "Denver Nuggets vs Golden State Warriors",
+      "date": "2026-10-27T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Denver Nuggets",
+          "score": "114"
+        },
+        {
+          "name": "Golden State Warriors",
+          "score": "134",
+          "winner": true
         }
       ],
       "url": ""
@@ -846,6 +886,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619529",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-27T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "1"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "10",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2619530",
       "league": "mlb",
       "name": "Tampa Bay Rays vs Milwaukee Brewers",
@@ -860,6 +920,26 @@
         {
           "name": "Milwaukee Brewers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591671",
+      "league": "nhl",
+      "name": "Edmonton Oilers vs Detroit Red Wings",
+      "date": "2026-10-27T01:30:00Z",
+      "state": "final",
+      "status": "AP",
+      "participants": [
+        {
+          "name": "Edmonton Oilers",
+          "score": "3"
+        },
+        {
+          "name": "Detroit Red Wings",
+          "score": "4",
+          "winner": true
         }
       ],
       "url": ""
@@ -898,6 +978,25 @@
         {
           "name": "Delaware",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494078",
+      "league": "epl",
+      "name": "Sunderland vs Leeds United",
+      "date": "2026-10-25T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sunderland",
+          "score": "0"
+        },
+        {
+          "name": "Leeds United",
+          "score": "0"
         }
       ],
       "url": ""
@@ -960,6 +1059,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482223",
+      "league": "seriea",
+      "name": "Torino vs Como",
+      "date": "2026-10-27T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Torino",
+          "score": "1"
+        },
+        {
+          "name": "Como",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482219",
       "league": "seriea",
       "name": "AC Milan vs Bologna",
@@ -974,6 +1093,26 @@
         {
           "name": "Bologna",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Lyon",
+          "score": "0"
         }
       ],
       "url": ""
@@ -1015,14 +1154,167 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2398504",
+      "league": "brasileirao",
+      "name": "Flamengo vs Atlético Mineiro",
+      "date": "2026-10-26T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Flamengo",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398513",
+      "league": "brasileirao",
+      "name": "Bragantino vs Chapecoense",
+      "date": "2026-10-28T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Chapecoense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398167",
+      "league": "argentina",
+      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
+      "date": "2026-10-30T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estudiantes de Río Cuarto",
+          "score": ""
+        },
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "América",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540118",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Auckland FC",
+      "date": "2026-10-30T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Auckland FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514023",
+      "league": "primeira",
+      "name": "Casa Pia vs Sporting CP",
+      "date": "2026-10-30T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Casa Pia",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407173",
+      "league": "mls",
+      "name": "Inter Miami vs FC Cincinnati",
+      "date": "2026-10-28T23:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
+      "title": "Fleetwood Town stun Arsenal on penalties: Carabao Cup fourth round – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
-      "date": "2026-10-27T21:46:03Z",
+      "date": "2026-10-27T22:15:42Z",
       "league": "all"
     },
     {
@@ -1201,6 +1493,13 @@
       "league": "soccer"
     },
     {
+      "title": "Milne out for season as Hearts' injury woes continue",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T13:58:04Z",
+      "league": "soccer"
+    },
+    {
       "title": "Williams loses again - to opponent 28 years younger",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqr7y33ekv0go?at_medium=RSS&at_campaign=rss",
@@ -1297,13 +1596,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/27/england-world-cup-core-nations-championship-rugby-union",
       "date": "2026-10-27T09:57:07Z",
       "league": "all"
-    },
-    {
-      "title": "Quiz: Kane and who else? Name every men's Ballon d'Or winner",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cn5q170dnwlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T09:31:58Z",
-      "league": "soccer"
     },
     {
       "title": "Fears grow for Iranian athletes on death row as mountaineer latest to be hanged",
