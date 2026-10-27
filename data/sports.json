@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T03:22:58Z",
+  "updated_at": "2026-10-27T03:57:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -977,28 +977,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Ruthless Brewers close in on World Series sweep after crushing Rays 10-1 in Game 3",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/26/brewers-rays-world-series-game-3-baseball",
+      "date": "2026-10-27T03:22:00Z",
+      "league": "all"
+    },
     {
       "title": "Golden State Valkyries one win from WNBA title after Game 5 win over Atlanta Dream",
       "source": "The Guardian Sport",
@@ -1306,13 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8e81xjy7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T07:36:20Z",
       "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c32l4kyk7gdeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T06:53:00Z",
-      "league": "soccer"
     }
   ]
 }
