@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T19:07:34Z",
+  "updated_at": "2026-10-27T19:56:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,17 +73,17 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 2
+      "events": 0
     },
     {
       "id": "j1",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -960,40 +960,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482221",
+      "id": "sportsdb-2482219",
       "league": "seriea",
-      "name": "Roma vs Cagliari",
-      "date": "2026-10-27T19:45:00Z",
+      "name": "AC Milan vs Bologna",
+      "date": "2026-10-28T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Roma",
+          "name": "AC Milan",
           "score": ""
         },
         {
-          "name": "Cagliari",
+          "name": "Bologna",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Lyon",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1035,117 +1015,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2398513",
-      "league": "brasileirao",
-      "name": "Bragantino vs Chapecoense",
-      "date": "2026-10-28T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": ""
-        },
-        {
-          "name": "Chapecoense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398147",
-      "league": "argentina",
-      "name": "Argentinos Juniors vs Independiente Rivadavia",
-      "date": "2026-10-27T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Argentinos Juniors",
-          "score": ""
-        },
-        {
-          "name": "Independiente Rivadavia",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487577",
-      "league": "ligamx",
-      "name": "Tijuana vs Santos Laguna",
-      "date": "2026-10-26T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tijuana",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Santos Laguna",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "América",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407172",
-      "league": "mls",
-      "name": "Los Angeles FC vs LA Galaxy",
-      "date": "2026-10-26T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles FC",
-          "score": "2"
-        },
-        {
-          "name": "LA Galaxy",
-          "score": "2"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
+      "date": "2026-10-27T19:34:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Sliding Colts trade All-Pro guard Quenton Nelson to Seahawks for draft picks",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/27/quenton-nelson-colts-seahawks-trade-nfl",
+      "date": "2026-10-27T19:18:07Z",
+      "league": "all"
+    },
+    {
+      "title": "England’s Nations Championship plans hit by Pepper and Van Rensburg double blow",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/27/england-nations-championship-guy-pepper-benhard-van-rensburg-injury-rugby-union",
+      "date": "2026-10-27T19:09:54Z",
+      "league": "all"
+    },
     {
       "title": "Ballon d'Or in London - the most chaotic ever?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y8lgg21l89o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T19:06:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
-      "date": "2026-10-27T19:06:01Z",
       "league": "all"
     },
     {
@@ -1226,13 +1124,6 @@
       "league": "all"
     },
     {
-      "title": "Man City players can block out 'noise' of away fans - Maresca",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6jrwqd7jl3yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T15:27:27Z",
-      "league": "soccer"
-    },
-    {
       "title": "FAW boss renews call for Infantino to step down",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054vdz9g7mo?at_medium=RSS&at_campaign=rss",
@@ -1286,13 +1177,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqr7y33ekv0go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T13:40:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Donnarumma gets Maresca’s backing; Iraola feels bond growing at Anfield",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
-      "date": "2026-10-27T13:05:23Z",
       "league": "all"
     },
     {
@@ -1430,10 +1314,10 @@
     },
     {
       "title": "Kane’s Ballon d’Or triumph a glorious riposte to celebrity fawning of ceremony | Barney Ronay",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-triumph-ceremony-barney-ronay",
       "date": "2026-10-27T08:00:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "No Saliba, no problem - Konsa stepping up for Arsenal",
