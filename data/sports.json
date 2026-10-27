@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T01:11:45Z",
+  "updated_at": "2026-10-27T01:59:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 14,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nhl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -846,25 +846,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2619529",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-27T00:00:00Z",
-      "state": "upcoming",
-      "status": "IN3",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2619530",
       "league": "mlb",
       "name": "Tampa Bay Rays vs Milwaukee Brewers",
@@ -884,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591671",
+      "id": "sportsdb-2591672",
       "league": "nhl",
-      "name": "Edmonton Oilers vs Detroit Red Wings",
-      "date": "2026-10-27T01:30:00Z",
+      "name": "Philadelphia Flyers vs Columbus Blue Jackets",
+      "date": "2026-10-27T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Edmonton Oilers",
+          "name": "Philadelphia Flyers",
           "score": ""
         },
         {
-          "name": "Detroit Red Wings",
+          "name": "Columbus Blue Jackets",
           "score": ""
         }
       ],
@@ -992,63 +973,6 @@
         },
         {
           "name": "Lazio",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
