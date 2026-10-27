@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T23:50:50Z",
+  "updated_at": "2026-10-27T00:12:06Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -827,29 +827,29 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601712",
+      "id": "sportsdb-2601714",
       "league": "nba",
-      "name": "Milwaukee Bucks vs Indiana Pacers",
-      "date": "2026-10-27T00:00:00Z",
+      "name": "Houston Rockets vs Atlanta Hawks",
+      "date": "2026-10-27T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Milwaukee Bucks",
+          "name": "Houston Rockets",
           "score": ""
         },
         {
-          "name": "Indiana Pacers",
+          "name": "Atlanta Hawks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2619529",
+      "id": "sportsdb-2619530",
       "league": "mlb",
       "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-27T00:00:00Z",
+      "date": "2026-10-28T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
@@ -977,60 +977,22 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Fighters exploited & forgotten in failing system - Smith",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cwm24xnxv4zdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T23:59:14Z",
+      "league": "all"
+    },
     {
       "title": "Kane prematurely announced as Ballon d'Or winner - but he wasn't only one",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmly0g2y7q2zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T23:35:27Z",
       "league": "all"
-    },
-    {
-      "title": "Ballon d’Or 2026: Updates from awards ceremony in London – as it happened",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/26/ballon-dor-2026-updates-from-70th-edition-in-london-live",
-      "date": "2026-10-26T23:26:00Z",
-      "league": "soccer"
     },
     {
       "title": "London City's Putellas wins record-equalling third Ballon d'Or",
