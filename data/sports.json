@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T10:59:08Z",
+  "updated_at": "2026-10-27T11:55:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -977,6 +977,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -984,7 +1003,42 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T10:45:44Z",
+      "date": "2026-10-27T11:50:32Z",
+      "league": "all"
+    },
+    {
+      "title": "David Squires on … Manchester United’s latest crisis and dirty laundry",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/picture/2026/oct/27/david-squires-on-manchester-united-latest-crisis-michael-carrick-cartoon",
+      "date": "2026-10-27T11:35:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Abhishek hits 35-ball ton as India hammer New Zealand",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cvlyd05g6wypo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T11:26:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick arrives at training ground with future unclear",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T11:16:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Eagles slump to fifth straight defeat against the Cowboys",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6rryxn4zry9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T11:16:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Ringrose set to miss Ireland's November games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g274k6z5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T10:57:21Z",
       "league": "all"
     },
     {
@@ -1171,10 +1225,10 @@
     },
     {
       "title": "Arsenal eye Monza striker Varela - Tuesday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T21:38:42Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Football Daily",
@@ -1226,13 +1280,6 @@
       "league": "soccer"
     },
     {
-      "title": "McDowell becomes latest major champion to exit LIV",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/ck78px63l923o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T17:17:31Z",
-      "league": "all"
-    },
-    {
       "title": "Mourinho’s plan comes together as Real Madrid relaunch with clásico statement | Sid Lowe",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/26/mourinhos-plan-comes-together-as-real-madrid-relaunch-with-clasico-statement",
@@ -1244,13 +1291,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/doubles-players-sign-open-letter-pleading-with-tennis-chiefs-to-protect-format",
       "date": "2026-10-26T15:55:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Howe and Nagelsmann high on Man Utd's list if Carrick sacked",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr8zv5dg42o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T15:34:23Z",
       "league": "all"
     },
     {
@@ -1268,31 +1308,10 @@
       "league": "all"
     },
     {
-      "title": "Davide Ancelotti wants to make a name for himself – will he do it at Lille?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/26/davide-ancelotti-lille-champions-league-ligue-1",
-      "date": "2026-10-26T13:27:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Liam Dawson reveals England are ‘gutted’ after latest ODI tri-series defeat",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/26/liam-dawson-reveals-england-cricket-squad-gutted-after-second-odi-series-catastrophe",
-      "date": "2026-10-26T13:15:49Z",
-      "league": "all"
-    },
-    {
-      "title": "All the goals from the Women's Super League - matchweek seven",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6073jevmk3go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T12:02:22Z",
-      "league": "all"
-    },
-    {
-      "title": "WSL talking points: Russo to Arsenal’s rescue and Olid makes Manchester United progress",
+      "title": "Carrick on the brink, Jackson ends City’s run, and Spurs singe the Blues | Football Weekly – video",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/26/wsl-talking-points-alessia-russo-arsenal-tottenham-manchester-united-city",
-      "date": "2026-10-26T11:59:27Z",
+      "url": "https://www.theguardian.com/football/video/2026/oct/26/carrick-on-the-brink-jackson-ends-citys-run-and-spurs-singe-the-blues-football-weekly-video",
+      "date": "2026-10-26T14:20:43Z",
       "league": "soccer"
     }
   ]
