@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T03:57:32Z",
+  "updated_at": "2026-10-27T04:56:16Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -974,6 +974,26 @@
         {
           "name": "Lazio",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514009",
+      "league": "primeira",
+      "name": "Santa Clara vs Benfica",
+      "date": "2026-10-26T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Santa Clara",
+          "score": "1"
+        },
+        {
+          "name": "Benfica",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
