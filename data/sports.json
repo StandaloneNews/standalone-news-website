@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T15:08:42Z",
+  "updated_at": "2026-10-27T16:04:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 21,
+  "sources_ok": 32,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,22 +18,22 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -53,17 +53,17 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 2
     }
   ],
   "events": [
@@ -847,6 +847,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601716",
+      "league": "nba",
+      "name": "Denver Nuggets vs Golden State Warriors",
+      "date": "2026-10-27T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Denver Nuggets",
+          "score": "114"
+        },
+        {
+          "name": "Golden State Warriors",
+          "score": "134",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601717",
       "league": "nba",
       "name": "Boston Celtics vs Brooklyn Nets",
@@ -861,6 +881,26 @@
         {
           "name": "Brooklyn Nets",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2619529",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-27T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "1"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "10",
+          "winner": true
         }
       ],
       "url": ""
@@ -885,6 +925,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2591671",
+      "league": "nhl",
+      "name": "Edmonton Oilers vs Detroit Red Wings",
+      "date": "2026-10-27T01:30:00Z",
+      "state": "final",
+      "status": "AP",
+      "participants": [
+        {
+          "name": "Edmonton Oilers",
+          "score": "3"
+        },
+        {
+          "name": "Detroit Red Wings",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591672",
       "league": "nhl",
       "name": "Philadelphia Flyers vs Columbus Blue Jackets",
@@ -904,6 +964,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499106",
+      "league": "ncaaf",
+      "name": "New Mexico vs North Dakota State",
+      "date": "2026-10-25T02:20:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "New Mexico",
+          "score": "21",
+          "winner": true
+        },
+        {
+          "name": "North Dakota State",
+          "score": "16"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499125",
       "league": "ncaaf",
       "name": "Western Kentucky vs Delaware",
@@ -918,6 +998,25 @@
         {
           "name": "Delaware",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494078",
+      "league": "epl",
+      "name": "Sunderland vs Leeds United",
+      "date": "2026-10-25T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sunderland",
+          "score": "0"
+        },
+        {
+          "name": "Leeds United",
+          "score": "0"
         }
       ],
       "url": ""
@@ -961,6 +1060,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508387",
+      "league": "bundesliga",
+      "name": "Freiburg vs Bayern Munich",
+      "date": "2026-10-25T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Freiburg",
+          "score": "1"
+        },
+        {
+          "name": "Bayern Munich",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508404",
       "league": "bundesliga",
       "name": "Elversberg vs Mainz",
@@ -980,6 +1099,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482211",
+      "league": "seriea",
+      "name": "Udinese vs AC Milan",
+      "date": "2026-10-25T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Udinese",
+          "score": "0"
+        },
+        {
+          "name": "AC Milan",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482218",
       "league": "seriea",
       "name": "Sassuolo vs Lazio",
@@ -994,6 +1133,26 @@
         {
           "name": "Lazio",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Lyon",
+          "score": "0"
         }
       ],
       "url": ""
@@ -1056,6 +1215,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2398154",
+      "league": "argentina",
+      "name": "Instituto vs Deportivo Riestra",
+      "date": "2026-10-27T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Instituto",
+          "score": "1",
+          "winner": true
+        },
+        {
+          "name": "Deportivo Riestra",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2398147",
       "league": "argentina",
       "name": "Argentinos Juniors vs Independiente Rivadavia",
@@ -1113,6 +1292,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2540117",
+      "league": "aleague",
+      "name": "Sydney FC vs Adelaide United",
+      "date": "2026-10-25T04:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Adelaide United",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2540118",
       "league": "aleague",
       "name": "Brisbane Roar vs Auckland FC",
@@ -1151,6 +1350,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2407172",
+      "league": "mls",
+      "name": "Los Angeles FC vs LA Galaxy",
+      "date": "2026-10-26T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles FC",
+          "score": "2"
+        },
+        {
+          "name": "LA Galaxy",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2407173",
       "league": "mls",
       "name": "Inter Miami vs FC Cincinnati",
@@ -1175,8 +1393,50 @@
       "title": "South Africa v Australia: third men’s cricket Test, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T15:06:48Z",
+      "date": "2026-10-27T15:53:33Z",
       "league": "all"
+    },
+    {
+      "title": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:31:48Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Man City players can block out 'noise' of away fans - Maresca",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6jrwqd7jl3yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:27:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "FAW boss renews call for Infantino to step down",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw054vdz9g7mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:20:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Simpler, cheaper hybrid V8s proposed for next F1 rules",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw4g186011rdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:17:53Z",
+      "league": "all"
+    },
+    {
+      "title": "How have 'best team north or south of border' last season lost six in a row?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6lylnkzp772o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T15:12:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
+      "date": "2026-10-27T14:59:44Z",
+      "league": "soccer"
     },
     {
       "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
@@ -1221,14 +1481,7 @@
       "league": "all"
     },
     {
-      "title": "Wales call up in-form Page after Dyer injury blow",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckd6dzznw81jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T13:22:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Donnarumma’s Manchester City mistakes are normal, insists Maresca",
+      "title": "Donnarumma gets Maresca’s backing; Iraola feels bond growing at Anfield",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
       "date": "2026-10-27T13:05:23Z",
@@ -1355,10 +1608,10 @@
     },
     {
       "title": "Quiz: Kane and who else? Name every men's Ballon d'Or winner",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cn5q170dnwlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T09:31:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Kane's rise from childhood keeper to the best in the world",
@@ -1417,13 +1670,6 @@
       "league": "soccer"
     },
     {
-      "title": "Litten and Knowles in for England as O'Neill drops out",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crz65e9dng0wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T06:31:14Z",
-      "league": "all"
-    },
-    {
       "title": "Ranking England's Ballon d'Or winners - how does Kane compare?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qdxgzzz7o?at_medium=RSS&at_campaign=rss",
@@ -1452,39 +1698,11 @@
       "league": "all"
     },
     {
-      "title": "Fighters exploited & forgotten in failing system - Smith",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cwm24xnxv4zdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T23:59:14Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Putellas wins record-equalling third Ballon d'Or to extend Spanish dominance",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gky38lj3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T23:14:39Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Kane ends England's 25-year Ballon d'Or wait - how he bucked the trend",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqlye4jpzzxyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T23:10:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Lancashire consider Anderson farewell amid fan unrest",
+      "title": "Starc takes six as Australia bowl South Africa out for 329 - third Test scorecard",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cme8rw2gkd9go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T22:58:14Z",
+      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236999?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T00:00:00Z",
       "league": "all"
-    },
-    {
-      "title": "Arsenal eye Monza striker Varela - Tuesday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj3vq7l22yk9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-26T21:38:42Z",
-      "league": "soccer"
     }
   ]
 }
