@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T00:12:06Z",
+  "updated_at": "2026-10-27T01:11:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nhl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -808,38 +808,57 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475480",
+      "id": "sportsdb-2475481",
       "league": "nfl",
-      "name": "Philadelphia Eagles vs Dallas Cowboys",
-      "date": "2026-10-27T00:15:00Z",
+      "name": "Green Bay Packers vs Carolina Panthers",
+      "date": "2026-10-30T00:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia Eagles",
+          "name": "Green Bay Packers",
           "score": ""
         },
         {
-          "name": "Dallas Cowboys",
+          "name": "Carolina Panthers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601714",
+      "id": "sportsdb-2601716",
       "league": "nba",
-      "name": "Houston Rockets vs Atlanta Hawks",
-      "date": "2026-10-27T00:30:00Z",
+      "name": "Denver Nuggets vs Golden State Warriors",
+      "date": "2026-10-27T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Houston Rockets",
+          "name": "Denver Nuggets",
           "score": ""
         },
         {
-          "name": "Atlanta Hawks",
+          "name": "Golden State Warriors",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2619529",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-27T00:00:00Z",
+      "state": "upcoming",
+      "status": "IN3",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": ""
+        },
+        {
+          "name": "Milwaukee Brewers",
           "score": ""
         }
       ],
@@ -865,19 +884,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591670",
+      "id": "sportsdb-2591671",
       "league": "nhl",
-      "name": "Calgary Flames vs Toronto Maple Leafs",
-      "date": "2026-10-27T00:30:00Z",
+      "name": "Edmonton Oilers vs Detroit Red Wings",
+      "date": "2026-10-27T01:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Calgary Flames",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Toronto Maple Leafs",
+          "name": "Detroit Red Wings",
           "score": ""
         }
       ],
@@ -973,6 +992,63 @@
         },
         {
           "name": "Lazio",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
