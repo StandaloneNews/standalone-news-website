@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T18:00:31Z",
+  "updated_at": "2026-10-27T19:07:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 18,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,27 +63,27 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 2
     },
     {
       "id": "j1",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -977,9 +977,191 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Lyon",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398513",
+      "league": "brasileirao",
+      "name": "Bragantino vs Chapecoense",
+      "date": "2026-10-28T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Chapecoense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398147",
+      "league": "argentina",
+      "name": "Argentinos Juniors vs Independiente Rivadavia",
+      "date": "2026-10-27T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Argentinos Juniors",
+          "score": ""
+        },
+        {
+          "name": "Independiente Rivadavia",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487577",
+      "league": "ligamx",
+      "name": "Tijuana vs Santos Laguna",
+      "date": "2026-10-26T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tijuana",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Santos Laguna",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "América",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407172",
+      "league": "mls",
+      "name": "Los Angeles FC vs LA Galaxy",
+      "date": "2026-10-26T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles FC",
+          "score": "2"
+        },
+        {
+          "name": "LA Galaxy",
+          "score": "2"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Ballon d'Or in London - the most chaotic ever?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y8lgg21l89o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T19:06:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Fleetwood Town v Arsenal: Carabao Cup fourth round – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live",
+      "date": "2026-10-27T19:06:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd stick with Carrick - inside a turbulent 48 hours at Old Trafford",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwz0vgj35k7mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T18:56:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Prep time for Wallabies a challenge - Borthwick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwn8d7ppr9d3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T18:05:24Z",
+      "league": "all"
+    },
     {
       "title": "Lancashire treatment of Anderson disrespectful - Broad",
       "source": "BBC Sport",
@@ -1093,13 +1275,6 @@
       "league": "all"
     },
     {
-      "title": "Ballon d'Or in London - the most chaotic ever?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y8lgg21l89o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T14:10:26Z",
-      "league": "all"
-    },
-    {
       "title": "Milne out for season as Hearts' injury woes continue",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko?at_medium=RSS&at_campaign=rss",
@@ -1111,13 +1286,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqr7y33ekv0go?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T13:40:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Mbappe sorry for 'ill-judged' Mao remark after backlash in China",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T13:25:54Z",
       "league": "all"
     },
     {
@@ -1171,10 +1339,10 @@
     },
     {
       "title": "Carrick to stay in charge of Man Utd for Chelsea game",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crlykgeqzypyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T12:10:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Police called to Florida soccer game after parents say three-year-old benched for being too good",
@@ -1182,13 +1350,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/27/florida-soccer-game-three-year-old-boy-benched-police",
       "date": "2026-10-27T12:07:25Z",
       "league": "all"
-    },
-    {
-      "title": "Unattached Coleman 'edging towards' retirement",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy83lyz32yjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T12:05:10Z",
-      "league": "soccer"
     },
     {
       "title": "Kylian Mbappé apologises after being dropped by Chinese brands for Mao Zedong comment",
@@ -1224,6 +1385,13 @@
       "url": "https://www.bbc.co.uk/sport/american-football/videos/c6rryxn4zry9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T11:16:05Z",
       "league": "all"
+    },
+    {
+      "title": "Team success, the ‘Bundesliga tax’ and the World Cup: three takeaways from the 2026 Ballon d’Or",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/27/ballon-dor-harry-kane-takeaways",
+      "date": "2026-10-27T11:15:31Z",
+      "league": "soccer"
     },
     {
       "title": "The Breakdown | England need to unearth World Cup core despite derby friction and injury chaos",
@@ -1268,32 +1436,18 @@
       "league": "all"
     },
     {
-      "title": "‘The wind goes in all directions’: Fleetwood prepare wet welcome for Arsenal at Highbury",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/the-wind-goes-in-all-directions-fleetwood-prepare-wet-welcome-for-arsenal-at-highbury",
-      "date": "2026-10-27T08:00:05Z",
-      "league": "all"
-    },
-    {
       "title": "No Saliba, no problem - Konsa stepping up for Arsenal",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynr87jdr0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T07:22:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "How much of Antonelli's success is down to his ability? - F1 Q&A",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde8xjl3xpwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T07:00:23Z",
       "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm62y818j9gjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T06:57:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ranking England's Ballon d'Or winners - how does Kane compare?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qdxgzzz7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T06:20:58Z",
-      "league": "soccer"
     }
   ]
 }
