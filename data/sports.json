@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T16:04:47Z",
+  "updated_at": "2026-10-27T17:08:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 32,
+  "sources_ok": 33,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -83,17 +83,17 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 2
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "primeira",
@@ -1041,6 +1041,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506263",
+      "league": "laliga",
+      "name": "Sevilla vs Osasuna",
+      "date": "2026-10-26T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sevilla",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Osasuna",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506271",
       "league": "laliga",
       "name": "Villarreal vs Espanyol",
@@ -1094,26 +1114,6 @@
         {
           "name": "Mainz",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482211",
-      "league": "seriea",
-      "name": "Udinese vs AC Milan",
-      "date": "2026-10-25T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Udinese",
-          "score": "0"
-        },
-        {
-          "name": "AC Milan",
-          "score": "2",
-          "winner": true
         }
       ],
       "url": ""
@@ -1254,6 +1254,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2487577",
+      "league": "ligamx",
+      "name": "Tijuana vs Santos Laguna",
+      "date": "2026-10-26T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tijuana",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Santos Laguna",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2487511",
       "league": "ligamx",
       "name": "América vs Tijuana",
@@ -1273,6 +1293,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2492894",
+      "league": "j1",
+      "name": "Kawasaki Frontale vs Fagiano Okayama",
+      "date": "2026-10-25T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Kawasaki Frontale",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Fagiano Okayama",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2492903",
       "league": "j1",
       "name": "Kyoto Sanga vs Shimizu S-Pulse",
@@ -1287,26 +1327,6 @@
         {
           "name": "Shimizu S-Pulse",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540117",
-      "league": "aleague",
-      "name": "Sydney FC vs Adelaide United",
-      "date": "2026-10-25T04:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Adelaide United",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1390,10 +1410,31 @@
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day one – live",
+      "title": "Captain Xhaka allowed to play for Switzerland again",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T17:00:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Milan derby to be shown live on BBC Two",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T16:38:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | Harry Kane completes his arc from Orient loanee to Ballon d’Or winner",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-ballon-dor-football-daily-newsletter",
+      "date": "2026-10-27T16:02:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Starc strikes back as Australia dismiss South Africa for 329 on day one of third Test – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/27/south-africa-v-australia-third-test-day-one-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-27T15:53:33Z",
+      "date": "2026-10-27T15:59:03Z",
       "league": "all"
     },
     {
@@ -1437,13 +1478,6 @@
       "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
       "date": "2026-10-27T14:59:44Z",
       "league": "soccer"
-    },
-    {
-      "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-andy-burnham-knighthood-ballon-dor-win",
-      "date": "2026-10-27T14:25:29Z",
-      "league": "all"
     },
     {
       "title": "How Kane's Ballon d'Or win could boost the Bundesliga",
@@ -1586,13 +1620,6 @@
       "league": "all"
     },
     {
-      "title": "Ringrose set to miss Ireland's November games",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g274k6z5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T10:57:21Z",
-      "league": "all"
-    },
-    {
       "title": "Feyi-Waboso boost for England coach Borthwick",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr1ex94qwwl6o?at_medium=RSS&at_campaign=rss",
@@ -1695,13 +1722,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/26/brewers-rays-world-series-game-3-baseball",
       "date": "2026-10-27T03:22:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Starc takes six as Australia bowl South Africa out for 329 - third Test scorecard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/e-236999?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T00:00:00Z",
       "league": "all"
     }
   ]
