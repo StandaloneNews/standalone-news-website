@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T23:51:32Z",
+  "updated_at": "2026-10-28T00:16:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -827,76 +827,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601718",
+      "id": "sportsdb-2601720",
       "league": "nba",
-      "name": "New York Knicks vs Detroit Pistons",
-      "date": "2026-10-28T00:00:00Z",
+      "name": "Los Angeles Lakers vs Portland Trail Blazers",
+      "date": "2026-10-28T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Knicks",
+          "name": "Los Angeles Lakers",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Portland Trail Blazers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2619530",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-28T00:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591673",
+      "id": "sportsdb-2591679",
       "league": "nhl",
-      "name": "St. Louis Blues vs Montreal Canadiens",
-      "date": "2026-10-28T00:00:00Z",
+      "name": "Utah Mammoth vs Minnesota Wild",
+      "date": "2026-10-28T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "St. Louis Blues",
+          "name": "Utah Mammoth",
           "score": ""
         },
         {
-          "name": "Montreal Canadiens",
+          "name": "Minnesota Wild",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499126",
+      "id": "sportsdb-2499127",
       "league": "ncaaf",
-      "name": "Missouri State vs Sam Houston State",
-      "date": "2026-10-28T00:00:00Z",
+      "name": "Middle Tennessee vs Kennesaw State",
+      "date": "2026-10-28T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Missouri State",
+          "name": "Middle Tennessee",
           "score": ""
         },
         {
-          "name": "Sam Houston State",
+          "name": "Kennesaw State",
           "score": ""
         }
       ],
@@ -977,9 +958,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Fleetwood-Arsenal halted for eight minutes because of drone",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmqlngxw6lv3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T23:54:14Z",
+      "league": "all"
+    },
     {
       "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
       "source": "BBC Sport",
@@ -1042,13 +1049,6 @@
       "url": "https://www.bbc.co.uk/sounds/play/p0pjy46g?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T20:46:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Fleetwood-Arsenal halted for eight minutes because of drone",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmqlngxw6lv3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T20:26:31Z",
-      "league": "all"
     },
     {
       "title": "An unmanageable club? Carrick the latest to suffer in Manchester United’s faded grandeur",
@@ -1241,10 +1241,10 @@
     },
     {
       "title": "Kylian Mbappé apologises after being dropped by Chinese brands for Mao Zedong comment",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/27/kylian-mbappe-dropped-by-chinese-brands-for-offensive-mao-jokes",
       "date": "2026-10-27T11:54:47Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Lawrie, 15, eyes £501,000 live TV win over Littler",
@@ -1255,10 +1255,10 @@
     },
     {
       "title": "David Squires on … Manchester United’s latest crisis and dirty laundry",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/picture/2026/oct/27/david-squires-on-manchester-united-latest-crisis-michael-carrick-cartoon",
       "date": "2026-10-27T11:35:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Eagles slump to fifth straight defeat against the Cowboys",
