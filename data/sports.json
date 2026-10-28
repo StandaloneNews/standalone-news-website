@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T00:16:37Z",
+  "updated_at": "2026-10-28T01:25:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -846,19 +846,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591679",
+      "id": "sportsdb-2591680",
       "league": "nhl",
-      "name": "Utah Mammoth vs Minnesota Wild",
-      "date": "2026-10-28T01:00:00Z",
+      "name": "Anaheim Ducks vs Vancouver Canucks",
+      "date": "2026-10-28T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Utah Mammoth",
+          "name": "Anaheim Ducks",
           "score": ""
         },
         {
-          "name": "Minnesota Wild",
+          "name": "Vancouver Canucks",
           "score": ""
         }
       ],
@@ -958,28 +958,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "'Biggest night in the club's history' for fearless Fleetwood",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv2vxeengo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T00:39:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Dowman sees red as Arsenal dumped out, but did Arteta go too far?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmg47g7dngxlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T00:34:31Z",
+      "league": "all"
+    },
     {
       "title": "Fleetwood-Arsenal halted for eight minutes because of drone",
       "source": "BBC Sport",
@@ -1027,13 +1022,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmpwg0lqxkd4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T21:38:20Z",
-      "league": "all"
-    },
-    {
-      "title": "Little Angel makes big impact on return to Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck1l377n0r6mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T21:18:06Z",
       "league": "all"
     },
     {
@@ -1129,10 +1117,10 @@
     },
     {
       "title": "Captain Xhaka allowed to play for Switzerland again",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T17:00:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Milan derby to be shown live on BBC Two",
@@ -1224,13 +1212,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/27/pierre-sage-given-more-time-by-crystal-palace-but-remains-under-pressure",
       "date": "2026-10-27T12:22:57Z",
       "league": "all"
-    },
-    {
-      "title": "Carrick to stay in charge of Man Utd for Chelsea game",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crlykgeqzypyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T12:10:21Z",
-      "league": "soccer"
     },
     {
       "title": "Police called to Florida soccer game after parents say three-year-old benched for being too good",
