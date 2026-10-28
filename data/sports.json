@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T12:02:03Z",
+  "updated_at": "2026-10-28T13:23:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -977,6 +977,46 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Lyon",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514009",
+      "league": "primeira",
+      "name": "Santa Clara vs Benfica",
+      "date": "2026-10-26T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Santa Clara",
+          "score": "1"
+        },
+        {
+          "name": "Benfica",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -984,7 +1024,42 @@
       "title": "South Africa v Australia: third men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-28T11:58:45Z",
+      "date": "2026-10-28T13:16:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Briton Azim set for December return against Valenzuela",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6rry10rejnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T13:12:41Z",
+      "league": "all"
+    },
+    {
+      "title": "‘You have to believe’: Qwan’tez Stiggers, the New York Jets player who went from delivery driver to the NFL",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/no-helmets-required/2026/oct/28/qwantez-stiggers-new-york-jets-nfl-delivery-driver-football",
+      "date": "2026-10-28T13:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Fernandes tells Carrick he is committed to turning season around in clear-the-air talks",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/bruno-fernandes-michael-carrick-clear-the-air-talks-manchester-united",
+      "date": "2026-10-28T12:47:26Z",
+      "league": "all"
+    },
+    {
+      "title": "West Ham’s Viviane Asseyi: ‘When I was four I said I wanted to be like Zidane’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/west-ham-women-viviane-asseyi-zidane-wsl",
+      "date": "2026-10-28T12:26:55Z",
+      "league": "all"
+    },
+    {
+      "title": "'Relax, I love Kane and Lamine Yamal' - Henry defends his Ballon d'Or hosting",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm369r0n0zk5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T12:13:23Z",
       "league": "all"
     },
     {
@@ -1135,13 +1210,6 @@
       "league": "all"
     },
     {
-      "title": "The Prem talents hunting Wales breakthroughs",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5ynrzplz18o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T06:42:50Z",
-      "league": "all"
-    },
-    {
       "title": "Play the 100th edition of Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm8xzywpqydko?at_medium=RSS&at_campaign=rss",
@@ -1213,10 +1281,10 @@
     },
     {
       "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T23:35:11Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
@@ -1266,34 +1334,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/27/manchester-united-michael-carrick-faded-grandeur",
       "date": "2026-10-27T20:02:34Z",
       "league": "all"
-    },
-    {
-      "title": "Sliding Colts trade All-Pro guard Quenton Nelson to Seahawks for draft picks",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/27/quenton-nelson-colts-seahawks-trade-nfl",
-      "date": "2026-10-27T19:18:07Z",
-      "league": "all"
-    },
-    {
-      "title": "England’s Nations Championship plans hit by Pepper and Van Rensburg double blow",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/27/england-nations-championship-guy-pepper-benhard-van-rensburg-injury-rugby-union",
-      "date": "2026-10-27T19:09:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Man Utd stick with Carrick - inside a turbulent 48 hours at Old Trafford",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwz0vgj35k7mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T18:56:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wenger's 'daylight' offside trial unlikely to be extended",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj342p373vzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T17:21:26Z",
-      "league": "soccer"
     }
   ]
 }
