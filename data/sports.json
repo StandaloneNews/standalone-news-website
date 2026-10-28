@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T22:57:45Z",
+  "updated_at": "2026-10-28T23:54:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601721",
+      "id": "sportsdb-2601726",
       "league": "nba",
-      "name": "Indiana Pacers vs Philadelphia 76ers",
-      "date": "2026-10-28T23:00:00Z",
+      "name": "Chicago Bulls vs New York Knicks",
+      "date": "2026-10-29T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Indiana Pacers",
+          "name": "Chicago Bulls",
           "score": ""
         },
         {
-          "name": "Philadelphia 76ers",
+          "name": "New York Knicks",
           "score": ""
         }
       ],
@@ -865,38 +865,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591683",
+      "id": "sportsdb-2591684",
       "league": "nhl",
-      "name": "Washington Capitals vs Philadelphia Flyers",
-      "date": "2026-10-28T23:30:00Z",
+      "name": "Edmonton Oilers vs Calgary Flames",
+      "date": "2026-10-29T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington Capitals",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Philadelphia Flyers",
+          "name": "Calgary Flames",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499127",
+      "id": "sportsdb-2499128",
       "league": "ncaaf",
-      "name": "Middle Tennessee vs Kennesaw State",
-      "date": "2026-10-28T23:00:00Z",
+      "name": "New Mexico State vs Jacksonville State",
+      "date": "2026-10-29T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Middle Tennessee",
+          "name": "New Mexico State",
           "score": ""
         },
         {
-          "name": "Kennesaw State",
+          "name": "Jacksonville State",
           "score": ""
         }
       ],
@@ -996,28 +996,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts as Celtic also earn point",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/scottish-premiership-makhanya-late-header-rangers-point-at-hearts-celtic-draw",
+      "date": "2026-10-28T23:25:10Z",
+      "league": "all"
+    },
+    {
+      "title": "How unbeaten Chelsea are getting back to their best",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9wenqd01o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T23:17:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Carabao Cup roundup: Bournemouth thrash Villa, Sunderland salvo stings Bees",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/28/carabao-cup-fouth-round-bournemouth-aston-villa-sunderland-brentford",
+      "date": "2026-10-28T23:15:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'He knows his role' - Rulli provides heroics but no worries for Donnarumma",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cqrky1jnpy1no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T23:10:06Z",
+      "league": "all"
+    },
     {
       "title": "Fleetwood to face Everton or Newcastle in last eight",
       "source": "BBC Sport",
@@ -1089,13 +1098,6 @@
       "league": "all"
     },
     {
-      "title": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
-      "date": "2026-10-28T20:34:23Z",
-      "league": "all"
-    },
-    {
       "title": "Chiefs sign Justin Tucker in wake of sexual misconduct allegations as Butker struggles",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/justin-tucker-harrison-butker-nfl-kicker-chiefs",
@@ -1160,10 +1162,10 @@
     },
     {
       "title": "Burnley appoint ex-Basel boss Celestini as head coach",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckzd67v45523o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T18:16:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Howe, Nagelsmann, Pochettino: can anyone end Manchester United’s doom loop?",
@@ -1213,13 +1215,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmx2w477qwjpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T16:35:19Z",
       "league": "soccer"
-    },
-    {
-      "title": "Saracens did unbelievable job with Auvaa - Lam",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx054dnqmde7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T16:24:23Z",
-      "league": "all"
     },
     {
       "title": "Perez signs multi-year extension with Cadillac",
@@ -1317,20 +1312,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5djv7e49lwmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T11:06:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Marco Jansen belongs to a great tradition but top all-rounders are hard to find",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/28/cricket-marco-jansen-tradition-all-rounders-hard-to-find",
-      "date": "2026-10-28T11:00:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Kylian Mbappé’s China crisis shows how sensitive Mao’s legacy remains | Rebecca Bailey",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
-      "date": "2026-10-28T10:00:04Z",
       "league": "all"
     }
   ]
