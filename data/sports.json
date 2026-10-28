@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T18:03:04Z",
+  "updated_at": "2026-10-28T19:15:10Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -977,9 +977,64 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489533",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Lyon",
+      "date": "2026-10-26T19:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Lyon",
+          "score": "0"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Arsenal v Benfica: Women’s Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
+      "date": "2026-10-28T19:11:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
+      "date": "2026-10-28T19:10:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Wrexham fined for fielding ineligible players",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr89z5pj5n2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T18:22:42Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Burnley appoint ex-Basel boss Celestini as head coach",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd67v45523o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T18:16:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Howe, Nagelsmann, Pochettino: can anyone end Manchester United’s doom loop?",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/28/howe-nagelsmann-pochettino-can-anyone-end-manchester-uniteds-doom-loop",
+      "date": "2026-10-28T18:00:09Z",
+      "league": "soccer"
+    },
     {
       "title": "British racing chief warns budget tax hike may have ‘devastating’ impact on sport",
       "source": "The Guardian Sport",
@@ -992,13 +1047,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cxyvr1my94m4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T17:33:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Ireland captain Stirling out of Namibia series",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ck5ynl41gqq5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T17:22:21Z",
       "league": "all"
     },
     {
@@ -1052,10 +1100,10 @@
     },
     {
       "title": "Football Daily | Fleetwood go their own way to down Arsenal and live Carabao Cup dream",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/28/fleetwood-arsenal-carabao-cup-football-daily-newsletter",
       "date": "2026-10-28T16:08:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Ousmane Dembele, Winchester City and the Ballon d'Or",
@@ -1079,7 +1127,7 @@
       "league": "all"
     },
     {
-      "title": "Chiefs reportedly signing Tucker in wake of sexual misconduct allegations as Butker struggles",
+      "title": "Chiefs sign Justin Tucker in wake of sexual misconduct allegations as Butker struggles",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/justin-tucker-harrison-butker-nfl-kicker-chiefs",
       "date": "2026-10-28T14:30:54Z",
@@ -1091,13 +1139,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/28/london-broncos-to-go-without-13m-rfl-funding-if-they-enter-super-league-next-year",
       "date": "2026-10-28T14:22:09Z",
       "league": "all"
-    },
-    {
-      "title": "Unlucky seven? Wrexham aim to buck bizarre trend",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq3djl59gdz2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T13:56:28Z",
-      "league": "soccer"
     },
     {
       "title": "McClean leaves Derry City after contract dispute",
@@ -1115,10 +1156,10 @@
     },
     {
       "title": "Max Dowman’s Fleetwood fracas leaves him, Arsenal and Arteta red-faced",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/28/max-dowman-fleetwood-red-card-arsenal-mikel-arteta-carabao-cup",
       "date": "2026-10-28T13:16:53Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "MacAnthony promises to sell if Peterborough not in top 10",
@@ -1139,13 +1180,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/no-helmets-required/2026/oct/28/qwantez-stiggers-new-york-jets-nfl-delivery-driver-football",
       "date": "2026-10-28T13:00:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Fernandes tells Carrick he is committed to turning season around in clear-the-air talks",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/28/bruno-fernandes-michael-carrick-clear-the-air-talks-manchester-united",
-      "date": "2026-10-28T12:47:26Z",
       "league": "all"
     },
     {
@@ -1279,20 +1313,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/crlykgp51ej4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T07:14:18Z",
-      "league": "all"
-    },
-    {
-      "title": "McInnes set for frosty Tynecastle return - and will Goodwin's entertainers shock Celtic?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9qz52e32v8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T07:10:28Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Why Hurts played with blood clot and what it means for NFL",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cm0qk37933nno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T06:49:03Z",
       "league": "all"
     }
   ]
