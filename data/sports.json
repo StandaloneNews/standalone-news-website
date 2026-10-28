@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T11:04:43Z",
+  "updated_at": "2026-10-28T12:02:03Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -977,44 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1022,7 +984,49 @@
       "title": "South Africa v Australia: third men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-28T10:34:50Z",
+      "date": "2026-10-28T11:58:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal to appeal against Dowman red card",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:55:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick and Fernandes hold clear-the-air talks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:48:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Why did Fleetwood have to lose player for Arsenal penalty shootout?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8040xn769xgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:23:20Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Serrano to end career in Puerto Rico in January",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn8denld133o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:11:53Z",
+      "league": "all"
+    },
+    {
+      "title": "'I earned my spot' - Lewis can be England hero after controversial selection",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5djv7e49lwmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T11:06:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Marco Jansen belongs to a great tradition but top all-rounders are hard to find",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/28/cricket-marco-jansen-tradition-all-rounders-hard-to-find",
+      "date": "2026-10-28T11:00:03Z",
       "league": "all"
     },
     {
@@ -1030,13 +1034,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
       "date": "2026-10-28T10:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Scotland men and women win European openers",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T09:44:11Z",
       "league": "all"
     },
     {
@@ -1128,13 +1125,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm9qz52e32v8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T07:10:28Z",
-      "league": "all"
-    },
-    {
-      "title": "From rivals to team-mates - Ball links up with Pope",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/articles/cqwy7j5kr3y1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T07:04:48Z",
       "league": "all"
     },
     {
@@ -1251,10 +1241,10 @@
     },
     {
       "title": "Barcelona fined £503 over approach for Alvarez",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmpwg0lqxkd4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T21:38:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip",
@@ -1293,44 +1283,16 @@
     },
     {
       "title": "Man Utd stick with Carrick - inside a turbulent 48 hours at Old Trafford",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwz0vgj35k7mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T18:56:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Wenger's 'daylight' offside trial unlikely to be extended",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj342p373vzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T17:21:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Are Celtic any nearer Ferrari form a year after Rodgers exit?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmj47zzy4778o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T17:15:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Captain Xhaka allowed to play for Switzerland again",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T17:00:58Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Milan derby to be shown live on BBC Two",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T16:38:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "FAW boss renews call for Infantino to step down",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw054vdz9g7mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T15:20:51Z",
       "league": "soccer"
     }
   ]
