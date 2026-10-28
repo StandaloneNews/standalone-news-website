@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T03:03:46Z",
+  "updated_at": "2026-10-28T04:05:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 19,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
@@ -83,7 +83,7 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -846,6 +846,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2619530",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-28T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "2"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591683",
       "league": "nhl",
       "name": "Washington Capitals vs Philadelphia Flyers",
@@ -879,6 +898,25 @@
         {
           "name": "Kennesaw State",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494078",
+      "league": "epl",
+      "name": "Sunderland vs Leeds United",
+      "date": "2026-10-25T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sunderland",
+          "score": "0"
+        },
+        {
+          "name": "Leeds United",
+          "score": "0"
         }
       ],
       "url": ""
@@ -941,6 +979,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482223",
+      "league": "seriea",
+      "name": "Torino vs Como",
+      "date": "2026-10-27T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Torino",
+          "score": "1"
+        },
+        {
+          "name": "Como",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482219",
       "league": "seriea",
       "name": "AC Milan vs Bologna",
@@ -993,6 +1051,83 @@
         {
           "name": "Sporting CP",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398504",
+      "league": "brasileirao",
+      "name": "Flamengo vs Atlético Mineiro",
+      "date": "2026-10-26T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Flamengo",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398513",
+      "league": "brasileirao",
+      "name": "Bragantino vs Chapecoense",
+      "date": "2026-10-28T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Chapecoense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "América",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407172",
+      "league": "mls",
+      "name": "Los Angeles FC vs LA Galaxy",
+      "date": "2026-10-26T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles FC",
+          "score": "2"
+        },
+        {
+          "name": "LA Galaxy",
+          "score": "2"
         }
       ],
       "url": ""
