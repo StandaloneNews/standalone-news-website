@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T06:00:37Z",
+  "updated_at": "2026-10-28T07:25:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -977,14 +977,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Goodbye to Wawrinka - an everyman who gatecrashed the greats",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/crlykgp51ej4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T07:14:18Z",
+      "league": "all"
+    },
+    {
+      "title": "McInnes' Tynecastle return, Goodwin's entertainers & Reedijk eyes first win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm9qz52e32v8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T07:10:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Why Hurts played with blood clot and what it means for NFL",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/cm0qk37933nno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T06:49:03Z",
+      "league": "all"
+    },
+    {
+      "title": "The Prem talents hunting Wales breakthroughs",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5ynrzplz18o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T06:42:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Play the 100th edition of Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm8xzywpqydko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T06:33:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Cundy 'no spring chicken' but nears 20-year unbeaten run",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/articles/cjn5vql4z137o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T06:12:34Z",
+      "league": "all"
+    },
+    {
+      "title": "'I'm getting older and the competitors are getting younger'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/videos/c6ewezrq0p5eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T06:07:17Z",
+      "league": "all"
+    },
     {
       "title": "Kurtley Beale earns shock recall to Wallabies squad five years after last Test",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/kurtley-beale-shock-recall-wallabies-squad-rugby-world-cup-australia",
       "date": "2026-10-28T05:01:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Rays battle from brink in 12th inning to stun Brewers and stave off World Series sweep",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/28/rays-brewers-world-series-game-four-12th-inning-rally",
+      "date": "2026-10-28T04:54:59Z",
       "league": "all"
     },
     {
@@ -1010,10 +1085,10 @@
     },
     {
       "title": "Fleetwood-Arsenal halted for eight minutes because of drone",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmqlngxw6lv3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T23:54:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
@@ -1024,10 +1099,10 @@
     },
     {
       "title": "Barcelona fined £503 over their approach for Atlético Madrid star Álvarez",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
       "date": "2026-10-27T23:18:47Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Blackpool beat Villa and Vale thrash Man City in Trophy",
@@ -1038,10 +1113,10 @@
     },
     {
       "title": "João Pedro out for ‘a few weeks’, reveals Alonso; Donnarumma gets Maresca’s backing",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
       "date": "2026-10-27T22:30:36Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Fantastic Fleetwood seal shootout success in Carabao Cup shock against Arsenal",
@@ -1107,13 +1182,6 @@
       "league": "all"
     },
     {
-      "title": "Prep time for Wallabies a challenge - Borthwick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwn8d7ppr9d3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T18:05:24Z",
-      "league": "all"
-    },
-    {
       "title": "Lancashire treatment of Anderson disrespectful - Broad",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/ck5ynrz680q4o?at_medium=RSS&at_campaign=rss",
@@ -1122,17 +1190,17 @@
     },
     {
       "title": "Wenger's 'daylight' offside trial unlikely to be extended",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj342p373vzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T17:21:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Where are Celtic & O'Neill a year after Rodgers exit?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47zzy4778o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T17:15:11Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Australia fight back to keep Cummins out of unwanted club... for now",
@@ -1164,10 +1232,10 @@
     },
     {
       "title": "McInnes admits feeling 'guilt' over leaving Hearts for Rangers",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjr4y51g6zvvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T15:31:48Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "FAW boss renews call for Infantino to step down",
@@ -1220,10 +1288,10 @@
     },
     {
       "title": "How 'anti-superstar' Kane defied doubters to become world's best",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvg01jyy84xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T12:46:39Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Madushanka stars as Sri Lanka thrash Pakistan to end England’s tri-series hopes",
@@ -1244,55 +1312,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/27/pierre-sage-given-more-time-by-crystal-palace-but-remains-under-pressure",
       "date": "2026-10-27T12:22:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Police called to Florida soccer game after parents say three-year-old benched for being too good",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/27/florida-soccer-game-three-year-old-boy-benched-police",
-      "date": "2026-10-27T12:07:25Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Kylian Mbappé apologises after being dropped by Chinese brands for Mao Zedong comment",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/kylian-mbappe-dropped-by-chinese-brands-for-offensive-mao-jokes",
-      "date": "2026-10-27T11:54:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Lawrie, 15, eyes £501,000 live TV win over Littler",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/cq33xj8yyd5do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T11:51:25Z",
-      "league": "all"
-    },
-    {
-      "title": "David Squires on … Manchester United’s latest crisis and dirty laundry",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/picture/2026/oct/27/david-squires-on-manchester-united-latest-crisis-michael-carrick-cartoon",
-      "date": "2026-10-27T11:35:37Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Eagles slump to fifth straight defeat against the Cowboys",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6rryxn4zry9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T11:16:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Team success, the ‘Bundesliga tax’ and the World Cup: three takeaways from the 2026 Ballon d’Or",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/27/ballon-dor-harry-kane-takeaways",
-      "date": "2026-10-27T11:15:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The Breakdown | England need to unearth World Cup core despite derby friction and injury chaos",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/27/england-world-cup-core-nations-championship-rugby-union",
-      "date": "2026-10-27T09:57:07Z",
       "league": "all"
     }
   ]
