@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T10:09:17Z",
+  "updated_at": "2026-10-28T11:04:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -977,6 +977,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -984,7 +1022,14 @@
       "title": "South Africa v Australia: third men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-28T09:55:09Z",
+      "date": "2026-10-28T10:34:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Kylian Mbappé’s China crisis shows how sensitive Mao’s legacy remains",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
+      "date": "2026-10-28T10:00:04Z",
       "league": "all"
     },
     {
@@ -1261,7 +1306,7 @@
       "league": "soccer"
     },
     {
-      "title": "Where are Celtic & O'Neill a year after Rodgers exit?",
+      "title": "Are Celtic any nearer Ferrari form a year after Rodgers exit?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47zzy4778o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T17:15:11Z",
@@ -1275,24 +1320,17 @@
       "league": "soccer"
     },
     {
+      "title": "Milan derby to be shown live on BBC Two",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T16:38:17Z",
+      "league": "soccer"
+    },
+    {
       "title": "FAW boss renews call for Infantino to step down",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054vdz9g7mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T15:20:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "How have 'best team north or south of border' last season lost six in a row?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6lylnkzp772o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T15:12:57Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Harry Kane wins the Ballon d’Or and an EFL round-up | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
-      "date": "2026-10-27T14:59:44Z",
       "league": "soccer"
     }
   ]
