@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T02:10:56Z",
+  "updated_at": "2026-10-28T03:03:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -827,38 +827,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601720",
+      "id": "sportsdb-2601721",
       "league": "nba",
-      "name": "Los Angeles Lakers vs Portland Trail Blazers",
-      "date": "2026-10-28T03:00:00Z",
+      "name": "Indiana Pacers vs Philadelphia 76ers",
+      "date": "2026-10-28T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Lakers",
+          "name": "Indiana Pacers",
           "score": ""
         },
         {
-          "name": "Portland Trail Blazers",
+          "name": "Philadelphia 76ers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591682",
+      "id": "sportsdb-2591683",
       "league": "nhl",
-      "name": "San Jose Sharks vs Buffalo Sabres",
-      "date": "2026-10-28T02:30:00Z",
+      "name": "Washington Capitals vs Philadelphia Flyers",
+      "date": "2026-10-28T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Jose Sharks",
+          "name": "Washington Capitals",
           "score": ""
         },
         {
-          "name": "Buffalo Sabres",
+          "name": "Philadelphia Flyers",
           "score": ""
         }
       ],
@@ -954,6 +954,44 @@
         },
         {
           "name": "Bologna",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489541",
+      "league": "ligue1",
+      "name": "Le Havre vs Paris Saint-Germain",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Le Havre",
+          "score": ""
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
           "score": ""
         }
       ],
