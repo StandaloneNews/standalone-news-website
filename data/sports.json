@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T09:10:44Z",
+  "updated_at": "2026-10-28T10:09:17Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -977,44 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489541",
-      "league": "ligue1",
-      "name": "Le Havre vs Paris Saint-Germain",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Le Havre",
-          "score": ""
-        },
-        {
-          "name": "Paris Saint-Germain",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1022,7 +984,42 @@
       "title": "South Africa v Australia: third men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-28T09:08:43Z",
+      "date": "2026-10-28T09:55:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Scotland men and women win European openers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T09:44:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Kuyt named Fenerbahce interim boss before Liverpool tie",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5398300x0nyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T09:41:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Wawrinka retires in front of home crowd after defeat to Lehecka",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/videos/c6zxj9d4rzd8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T09:36:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Chair skills, quick brain - how O'Neill adapted to wheelchair rugby league",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5lyer2wvd3xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T09:19:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Jay-Z is the perfect Super Bowl shill for a league of billionaires",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/28/jay-z-halftime-show-super-bowl",
+      "date": "2026-10-28T09:15:02Z",
       "league": "all"
     },
     {
@@ -1257,13 +1254,6 @@
       "league": "all"
     },
     {
-      "title": "Lancashire treatment of Anderson disrespectful - Broad",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ck5ynrz680q4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T17:47:58Z",
-      "league": "all"
-    },
-    {
       "title": "Wenger's 'daylight' offside trial unlikely to be extended",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj342p373vzo?at_medium=RSS&at_campaign=rss",
@@ -1285,25 +1275,11 @@
       "league": "soccer"
     },
     {
-      "title": "Milan derby to be shown live on BBC Two",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crvg93zvgjzzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T16:38:17Z",
-      "league": "soccer"
-    },
-    {
       "title": "FAW boss renews call for Infantino to step down",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054vdz9g7mo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T15:20:51Z",
       "league": "soccer"
-    },
-    {
-      "title": "Simpler, cheaper hybrid V8s proposed for next F1 rules",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw4g186011rdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T15:17:53Z",
-      "league": "all"
     },
     {
       "title": "How have 'best team north or south of border' last season lost six in a row?",
@@ -1318,20 +1294,6 @@
       "url": "https://www.theguardian.com/football/video/2026/oct/27/harry-kane-wins-the-ballon-dor-and-an-efl-round-up-football-weekly-video",
       "date": "2026-10-27T14:59:44Z",
       "league": "soccer"
-    },
-    {
-      "title": "Arise, Sir Harry? Downing Street hints at Kane knighthood after Ballon d’Or win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/harry-kane-andy-burnham-knighthood-ballon-dor-win",
-      "date": "2026-10-27T14:25:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Williams loses again - to opponent 28 years younger",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqr7y33ekv0go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T13:40:56Z",
-      "league": "all"
     }
   ]
 }
