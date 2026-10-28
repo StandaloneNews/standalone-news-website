@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T15:13:05Z",
+  "updated_at": "2026-10-28T16:11:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 19,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -78,17 +78,17 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -827,26 +827,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601720",
-      "league": "nba",
-      "name": "Los Angeles Lakers vs Portland Trail Blazers",
-      "date": "2026-10-28T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Lakers",
-          "score": "129"
-        },
-        {
-          "name": "Portland Trail Blazers",
-          "score": "136",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601721",
       "league": "nba",
       "name": "Indiana Pacers vs Philadelphia 76ers",
@@ -937,26 +917,6 @@
         {
           "name": "Manchester United",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506263",
-      "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sevilla",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Osasuna",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1055,103 +1015,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2398147",
-      "league": "argentina",
-      "name": "Argentinos Juniors vs Independiente Rivadavia",
-      "date": "2026-10-27T22:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Argentinos Juniors",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "name": "Independiente Rivadavia",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398167",
-      "league": "argentina",
-      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
-      "date": "2026-10-30T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Estudiantes de Río Cuarto",
-          "score": ""
-        },
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "América",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492894",
-      "league": "j1",
-      "name": "Kawasaki Frontale vs Fagiano Okayama",
-      "date": "2026-10-25T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Kawasaki Frontale",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Fagiano Okayama",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514023",
-      "league": "primeira",
-      "name": "Casa Pia vs Sporting CP",
-      "date": "2026-10-30T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Casa Pia",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1159,7 +1022,21 @@
       "title": "South Africa v Australia: third men’s cricket Test, day two – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-28T15:09:02Z",
+      "date": "2026-10-28T16:05:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish side to play two cup ties simultaneously after schedule clash",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cky831qxdzydo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T15:34:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Judoka determined to prove refugees belong at Dakar 2026",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/c9gkv2pvg1gzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T14:50:04Z",
       "league": "all"
     },
     {
@@ -1304,10 +1181,10 @@
     },
     {
       "title": "Kuyt named Fenerbahce interim boss before Liverpool tie",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5398300x0nyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T09:41:34Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Wawrinka retires in front of home crowd after defeat to Lehecka",
@@ -1387,11 +1264,11 @@
       "league": "all"
     },
     {
-      "title": "McInnes' Tynecastle return, Goodwin's entertainers & Reedijk eyes first win",
-      "source": "BBC Sport",
+      "title": "McInnes set for frosty Tynecastle return - and will Goodwin's entertainers shock Celtic?",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm9qz52e32v8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T07:10:28Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Why Hurts played with blood clot and what it means for NFL",
@@ -1454,20 +1331,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T23:35:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Barcelona fined £503 over their approach for Atlético Madrid star Alvarez",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/barcelona-fined-503-over-their-approach-for-atletico-madrid-star-alvarez",
-      "date": "2026-10-27T23:18:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Blackpool beat Aston Villa and Port Vale thrash Man City in Trophy",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly0zyd15jqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T22:31:57Z",
       "league": "soccer"
     }
   ]
