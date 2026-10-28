@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T20:03:42Z",
+  "updated_at": "2026-10-28T21:03:13Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 23,
+  "sources_ok": 18,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -78,32 +78,32 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 2
     }
   ],
   "events": [
@@ -885,26 +885,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591682",
-      "league": "nhl",
-      "name": "San Jose Sharks vs Buffalo Sabres",
-      "date": "2026-10-28T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Jose Sharks",
-          "score": "0"
-        },
-        {
-          "name": "Buffalo Sabres",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591683",
       "league": "nhl",
       "name": "Washington Capitals vs Philadelphia Flyers",
@@ -919,6 +899,26 @@
         {
           "name": "Philadelphia Flyers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499126",
+      "league": "ncaaf",
+      "name": "Missouri State vs Sam Houston State",
+      "date": "2026-10-28T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Missouri State",
+          "score": "24",
+          "winner": true
+        },
+        {
+          "name": "Sam Houston State",
+          "score": "3"
         }
       ],
       "url": ""
@@ -957,26 +957,6 @@
         {
           "name": "Manchester United",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506263",
-      "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sevilla",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Osasuna",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1116,96 +1096,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398167",
-      "league": "argentina",
-      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
-      "date": "2026-10-30T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2407172",
+      "league": "mls",
+      "name": "Los Angeles FC vs LA Galaxy",
+      "date": "2026-10-26T01:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Estudiantes de Río Cuarto",
-          "score": ""
+          "name": "Los Angeles FC",
+          "score": "2"
         },
         {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "América",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Auckland FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514023",
-      "league": "primeira",
-      "name": "Casa Pia vs Sporting CP",
-      "date": "2026-10-30T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Casa Pia",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
+          "name": "LA Galaxy",
+          "score": "2"
         }
       ],
       "url": ""
@@ -1235,14 +1139,28 @@
       "title": "Arsenal v Benfica: Women’s Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
-      "date": "2026-10-28T20:02:59Z",
+      "date": "2026-10-28T20:48:18Z",
       "league": "all"
     },
     {
       "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
-      "date": "2026-10-28T20:02:50Z",
+      "date": "2026-10-28T20:48:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea continue unbeaten start with win over Roma",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm17k8x994edo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T20:36:25Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Two late own goals return Inter to top of Serie A but Milan lose at home",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
+      "date": "2026-10-28T20:34:23Z",
       "league": "all"
     },
     {
@@ -1288,7 +1206,7 @@
       "league": "all"
     },
     {
-      "title": "Prem eyes English expansion despite Welsh interest",
+      "title": "Prem reluctant to commit on Anglo-Welsh league",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c54g1x0z4rygo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T18:55:30Z",
@@ -1498,13 +1416,6 @@
       "league": "all"
     },
     {
-      "title": "Chair skills, quick brain - how O'Neill adapted to wheelchair rugby league",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5lyer2wvd3xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T09:19:13Z",
-      "league": "all"
-    },
-    {
       "title": "Jay-Z is the perfect Super Bowl shill for a league of billionaires",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/jay-z-halftime-show-super-bowl",
@@ -1536,13 +1447,6 @@
       "title": "Jimmy Anderson’s stubborn refusal to give up has fuelled his greatest achievements | Emma John",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/cricket-jimmy-anderson-england-lancashire-stubborn-farewell-tour",
-      "date": "2026-10-28T08:00:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Which footballers have scored in the same minute as their surname? | The Knowledge",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/28/which-footballers-have-scored-in-the-same-minute-as-their-surname-knowledge",
       "date": "2026-10-28T08:00:02Z",
       "league": "all"
     }
