@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T21:03:13Z",
+  "updated_at": "2026-10-28T21:59:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -808,26 +808,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475480",
-      "league": "nfl",
-      "name": "Philadelphia Eagles vs Dallas Cowboys",
-      "date": "2026-10-27T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Philadelphia Eagles",
-          "score": "21"
-        },
-        {
-          "name": "Dallas Cowboys",
-          "score": "38",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475481",
       "league": "nfl",
       "name": "Green Bay Packers vs Carolina Panthers",
@@ -899,26 +879,6 @@
         {
           "name": "Philadelphia Flyers",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499126",
-      "league": "ncaaf",
-      "name": "Missouri State vs Sam Houston State",
-      "date": "2026-10-28T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Missouri State",
-          "score": "24",
-          "winner": true
-        },
-        {
-          "name": "Sam Houston State",
-          "score": "3"
         }
       ],
       "url": ""
@@ -1017,136 +977,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398504",
-      "league": "brasileirao",
-      "name": "Flamengo vs Atlético Mineiro",
-      "date": "2026-10-26T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Flamengo",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398513",
-      "league": "brasileirao",
-      "name": "Bragantino vs Chapecoense",
-      "date": "2026-10-28T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": ""
-        },
-        {
-          "name": "Chapecoense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407172",
-      "league": "mls",
-      "name": "Los Angeles FC vs LA Galaxy",
-      "date": "2026-10-26T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles FC",
-          "score": "2"
-        },
-        {
-          "name": "LA Galaxy",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407173",
-      "league": "mls",
-      "name": "Inter Miami vs FC Cincinnati",
-      "date": "2026-10-28T23:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Arsenal v Benfica: Women’s Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
-      "date": "2026-10-28T20:48:18Z",
-      "league": "all"
-    },
-    {
       "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
-      "date": "2026-10-28T20:48:05Z",
+      "date": "2026-10-28T21:44:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal v Benfica: Women’s Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
+      "date": "2026-10-28T21:43:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Kompany discharged from hospital following collapse",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c678prmye8xvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T21:37:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Sancho rejects Getafe - Thursday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T21:34:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Chiefs coach defends decision to sign kicker Tucker",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c9e8l47grpz4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T20:55:11Z",
       "league": "all"
     },
     {
@@ -1276,6 +1142,13 @@
       "league": "soccer"
     },
     {
+      "title": "Saracens did unbelievable job with Auvaa - Lam",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx054dnqmde7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T16:24:23Z",
+      "league": "all"
+    },
+    {
       "title": "Perez signs multi-year extension with Cadillac",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss",
@@ -1287,13 +1160,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/28/fleetwood-arsenal-carabao-cup-football-daily-newsletter",
       "date": "2026-10-28T16:08:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ousmane Dembele, Winchester City and the Ballon d'Or",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c50mejwmry3vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T16:01:47Z",
       "league": "soccer"
     },
     {
@@ -1332,13 +1198,6 @@
       "league": "all"
     },
     {
-      "title": "MacAnthony promises to sell if Peterborough not in top 10",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c539830n0wj3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T13:14:22Z",
-      "league": "soccer"
-    },
-    {
       "title": "‘You have to believe’: Qwan’tez Stiggers, the New York Jets player who went from delivery driver to the NFL",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/no-helmets-required/2026/oct/28/qwantez-stiggers-new-york-jets-nfl-delivery-driver-football",
@@ -1361,17 +1220,17 @@
     },
     {
       "title": "Arsenal to appeal against Dowman red card",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T11:55:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Carrick and Fernandes hold clear-the-air talks",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T11:48:28Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Serrano to end career in Puerto Rico in January",
@@ -1431,24 +1290,10 @@
     },
     {
       "title": "Liverpool gambled on Jacquet and it is paying off",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T08:36:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Lise Klaveness: ‘Certainly there are people that can challenge Infantino’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/28/lise-klaveness-certainly-there-are-people-that-can-challenge-infantino",
-      "date": "2026-10-28T08:00:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Jimmy Anderson’s stubborn refusal to give up has fuelled his greatest achievements | Emma John",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/28/cricket-jimmy-anderson-england-lancashire-stubborn-farewell-tour",
-      "date": "2026-10-28T08:00:02Z",
-      "league": "all"
+      "league": "soccer"
     }
   ]
 }
