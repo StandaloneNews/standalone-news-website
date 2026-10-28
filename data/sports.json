@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T21:59:33Z",
+  "updated_at": "2026-10-28T22:57:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -977,21 +977,87 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live",
-      "date": "2026-10-28T21:44:39Z",
+      "title": "Fleetwood to face Everton or Newcastle in last eight",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T22:45:35Z",
       "league": "all"
     },
     {
-      "title": "Arsenal v Benfica: Women’s Champions League – live",
+      "title": "Liverpool beat Chelsea on penalties yet again to secure Carabao Cup progress",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/28/arsenal-v-benfica-womens-champions-league-live",
-      "date": "2026-10-28T21:43:50Z",
+      "url": "https://www.theguardian.com/football/2026/oct/28/liverpool-chelsea-carabao-cup-fourth-round-match-report",
+      "date": "2026-10-28T22:30:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Alessia Russo makes history with hat-trick as Arsenal cruise to Benfica win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
+      "date": "2026-10-28T22:21:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Russo scores hat-trick as Arsenal beat Benfica",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T22:19:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Rulli’s heroics earn Manchester City shootout success against Brighton",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/manchester-city-brighton-carabao-cup-fourth-round-match-report",
+      "date": "2026-10-28T21:58:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Nketiah takes Crystal Palace past Fulham and earns Sage breathing space",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/fulham-crystal-palace-carabao-cup-fourth-round-match-report",
+      "date": "2026-10-28T21:53:27Z",
       "league": "all"
     },
     {
@@ -1059,10 +1125,10 @@
     },
     {
       "title": "Burnley turn to former CSKA Moscow manager Fabio Celestini as new head coach",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/28/burnley-former-cska-moscow-manager-fabio-celestini-new-head-coach",
       "date": "2026-10-28T19:14:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Red Roses make six changes but Kildunne on bench again",
@@ -1072,7 +1138,7 @@
       "league": "all"
     },
     {
-      "title": "Prem reluctant to commit on Anglo-Welsh league",
+      "title": "Prem eyes English expansion despite Welsh interest",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c54g1x0z4rygo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T18:55:30Z",
@@ -1135,6 +1201,13 @@
       "league": "all"
     },
     {
+      "title": "‘This isn’t supposed to happen’: giant-slaying Fleetwood revels in fairytale Arsenal win",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/28/this-isnt-supposed-to-happen-giant-slaying-fleetwood-revels-in-fairytale-win",
+      "date": "2026-10-28T16:52:23Z",
+      "league": "soccer"
+    },
+    {
       "title": "Davies crossing divide between pitch and boardroom",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmx2w477qwjpo?at_medium=RSS&at_campaign=rss",
@@ -1154,13 +1227,6 @@
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T16:10:07Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily | Fleetwood go their own way to down Arsenal and live Carabao Cup dream",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/fleetwood-arsenal-carabao-cup-football-daily-newsletter",
-      "date": "2026-10-28T16:08:59Z",
-      "league": "soccer"
     },
     {
       "title": "Scottish side to play two cup ties simultaneously after schedule clash",
@@ -1185,10 +1251,10 @@
     },
     {
       "title": "All Spanish cup matches suspended after Madrid train collision",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgj902p68gno?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T13:25:48Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Max Dowman’s Fleetwood fracas leaves him, Arsenal and Arteta red-faced",
@@ -1203,6 +1269,13 @@
       "url": "https://www.theguardian.com/sport/no-helmets-required/2026/oct/28/qwantez-stiggers-new-york-jets-nfl-delivery-driver-football",
       "date": "2026-10-28T13:00:03Z",
       "league": "all"
+    },
+    {
+      "title": "Fernandes tells Carrick he is committed to turning season around in clear-the-air talks",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/28/bruno-fernandes-michael-carrick-clear-the-air-talks-manchester-united",
+      "date": "2026-10-28T12:47:26Z",
+      "league": "soccer"
     },
     {
       "title": "West Ham’s Viviane Asseyi: ‘When I was four I said I wanted to be like Zidane’",
@@ -1259,41 +1332,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/28/kylian-mbappe-china-crisis-shows-how-sensitive-maos-legacy-remains",
       "date": "2026-10-28T10:00:04Z",
       "league": "all"
-    },
-    {
-      "title": "Kuyt named Fenerbahce interim boss before Liverpool tie",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5398300x0nyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T09:41:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wawrinka retires in front of home crowd after defeat to Lehecka",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/videos/c6zxj9d4rzd8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T09:36:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Jay-Z is the perfect Super Bowl shill for a league of billionaires",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/28/jay-z-halftime-show-super-bowl",
-      "date": "2026-10-28T09:15:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Can clubs stop team news leaking out through FPL picks?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwly0myd08reo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T08:36:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Liverpool gambled on Jacquet and it is paying off",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T08:36:34Z",
-      "league": "soccer"
     }
   ]
 }
