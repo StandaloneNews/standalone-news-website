@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T07:25:51Z",
+  "updated_at": "2026-10-28T08:16:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 12,
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
@@ -846,6 +846,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2624258",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-29T00:00:00Z",
+      "state": "upcoming",
+      "status": "Scheduled",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": ""
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591683",
       "league": "nhl",
       "name": "Washington Capitals vs Philadelphia Flyers",
@@ -1000,6 +1019,41 @@
   ],
   "stories": [
     {
+      "title": "Lise Klaveness: ‘Certainly there are people that can challenge Infantino’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/lise-klaveness-certainly-there-are-people-that-can-challenge-infantino",
+      "date": "2026-10-28T08:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Jimmy Anderson’s stubborn refusal to give up has fuelled his greatest achievements | Emma John",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/28/cricket-jimmy-anderson-england-lancashire-stubborn-farewell-tour",
+      "date": "2026-10-28T08:00:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Which footballers have scored in the same minute as their surname? | The Knowledge",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/which-footballers-have-scored-in-the-same-minute-as-their-surname-knowledge",
+      "date": "2026-10-28T08:00:02Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: third men’s cricket Test, day two – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/28/south-africa-v-australia-third-test-day-two-cricket-newlands-cape-town-live-updates",
+      "date": "2026-10-28T07:58:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Lawlor delighted after beating 'best team in the country'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr93z7p02743o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T07:28:41Z",
+      "league": "all"
+    },
+    {
       "title": "Goodbye to Wawrinka - an everyman who gatecrashed the greats",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/crlykgp51ej4o?at_medium=RSS&at_campaign=rss",
@@ -1011,6 +1065,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm9qz52e32v8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T07:10:28Z",
+      "league": "all"
+    },
+    {
+      "title": "From rivals to team-mates - Ball links up with Pope",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/articles/cqwy7j5kr3y1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T07:04:48Z",
       "league": "all"
     },
     {
@@ -1091,6 +1152,13 @@
       "league": "soccer"
     },
     {
+      "title": "‘What you live for’: Fleetwood revel in seismic Arsenal shock after Dowman sees red",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/27/that-was-what-you-live-for-fleetwood-revel-in-unbelievably-special-arsenal-win",
+      "date": "2026-10-27T23:52:21Z",
+      "league": "all"
+    },
+    {
       "title": "Where does Fleetwood beating Arsenal rank in biggest cup upsets?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq62y7yzjdmzo?at_medium=RSS&at_campaign=rss",
@@ -1113,17 +1181,10 @@
     },
     {
       "title": "João Pedro out for ‘a few weeks’, reveals Alonso; Donnarumma gets Maresca’s backing",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/27/manchester-city-chelsea-liverpool-carabao-cup",
       "date": "2026-10-27T22:30:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Fantastic Fleetwood seal shootout success in Carabao Cup shock against Arsenal",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/fleetwood-town-arsenal-carabao-cup-fourth-round-match-report",
-      "date": "2026-10-27T22:26:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Barcelona fined £503 over approach for Alvarez",
@@ -1134,10 +1195,10 @@
     },
     {
       "title": "Liverpool keen on Stuttgart defender Jeltsch - Wednesday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck7vpjqyd4pmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T21:10:47Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Carrick stays at Man Utd & Kane wins Ballon d’Or",
@@ -1210,13 +1271,6 @@
       "league": "all"
     },
     {
-      "title": "Australia fight back in rollercoaster start to deciding Test against South Africa",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/27/australia-fightback-in-rollercoaster-start-to-deciding-test-against-south-africa",
-      "date": "2026-10-27T17:04:06Z",
-      "league": "all"
-    },
-    {
       "title": "Captain Xhaka allowed to play for Switzerland again",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck3wvl2ygd77o?at_medium=RSS&at_campaign=rss",
@@ -1278,41 +1332,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/crgqwge88z84o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T14:24:23Z",
       "league": "soccer"
-    },
-    {
-      "title": "Williams loses again - to opponent 28 years younger",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqr7y33ekv0go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T13:40:56Z",
-      "league": "all"
-    },
-    {
-      "title": "How 'anti-superstar' Kane defied doubters to become world's best",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg01jyy84xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-27T12:46:39Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Madushanka stars as Sri Lanka thrash Pakistan to end England’s tri-series hopes",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/27/pakistan-sri-lanka-one-day-international-odi-match-report-cricket",
-      "date": "2026-10-27T12:38:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Alexia Putellas a worthy Ballon d’Or winner but the limited shortlist illustrates flaws",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/alexia-putellas-ballon-dor-winner-awards-long-way-before-being-equal-moving-the-goalposts",
-      "date": "2026-10-27T12:32:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Pierre Sage given more time by Crystal Palace but remains under pressure",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/27/pierre-sage-given-more-time-by-crystal-palace-but-remains-under-pressure",
-      "date": "2026-10-27T12:22:57Z",
-      "league": "all"
     }
   ]
 }
