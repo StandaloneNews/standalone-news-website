@@ -114,6 +114,27 @@ def should_send(subscriber,mode,story):
     return not previous
 
 
+
+def report_delivery_error(exc):
+    """Log actionable HTTP diagnostics without printing PII, keys, or response bodies."""
+    if isinstance(exc, urllib.error.HTTPError):
+        status=exc.code
+        print(f'Email provider rejected request: HTTP {status}')
+        hints={
+            400:'Check sender format, payload and email validation in Resend.',
+            401:'Check RESEND_API_KEY in GitHub Actions secrets.',
+            403:'Check Resend sending-domain verification and API-key permissions.',
+            404:'Check provider endpoint configuration.',
+            422:'Check the verified From address, recipient and request validation.',
+            429:'Resend rate limit reached; review provider limits before retrying.',
+        }
+        print(hints.get(status,'Review the corresponding request in Resend email/activity logs.'))
+    elif isinstance(exc, urllib.error.URLError):
+        print('Network or connection error contacting email provider; delivery is uncertain.')
+    else:
+        print('Email delivery failed during local validation; check configuration.')
+
+
 def run(mode,dry_run=False):
     if not configured():
         print('Mail secrets missing: newsletter job skipped; no emails sent')
@@ -139,7 +160,9 @@ def run(mode,dry_run=False):
             post_email(reader['email'],subject,make_email(stories,reader,mode),campaign+'-'+sid)
             api('newsletter_deliveries?id=eq.'+rows[0]['id'],method='PATCH',data={'status':'sent','sent_at':now.isoformat()});sent+=1
         except (urllib.error.HTTPError,urllib.error.URLError,ValueError) as exc:
-            failed+=1;print('Delivery failed for subscriber id',sid,'type:',type(exc).__name__)
+            failed+=1
+            print('Delivery failed (subscriber ID withheld).')
+            report_delivery_error(exc)
             api('newsletter_deliveries?id=eq.'+rows[0]['id'],method='PATCH',data={'status':'failed'})
     print(f'Sent: {sent}; failed: {failed}; skipped: {len(subscribers)-sent-failed}')
     return 1 if failed else 0
