@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T01:24:42Z",
+  "updated_at": "2026-10-29T02:12:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 33,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,27 +13,27 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -43,67 +43,67 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 2
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -808,26 +808,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475480",
-      "league": "nfl",
-      "name": "Philadelphia Eagles vs Dallas Cowboys",
-      "date": "2026-10-27T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Philadelphia Eagles",
-          "score": "21"
-        },
-        {
-          "name": "Dallas Cowboys",
-          "score": "38",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475481",
       "league": "nfl",
       "name": "Green Bay Packers vs Carolina Panthers",
@@ -847,114 +827,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601730",
+      "id": "sportsdb-2601732",
       "league": "nba",
-      "name": "Utah Jazz vs San Antonio Spurs",
-      "date": "2026-10-29T01:00:00Z",
+      "name": "Los Angeles Clippers vs Los Angeles Lakers",
+      "date": "2026-10-29T02:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Utah Jazz",
+          "name": "Los Angeles Clippers",
           "score": ""
         },
         {
-          "name": "San Antonio Spurs",
+          "name": "Los Angeles Lakers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601731",
-      "league": "nba",
-      "name": "Dallas Mavericks vs Oklahoma City Thunder",
-      "date": "2026-10-29T01:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Dallas Mavericks",
-          "score": ""
-        },
-        {
-          "name": "Oklahoma City Thunder",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "upcoming",
-      "status": "IN4",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591685",
+      "id": "sportsdb-2591687",
       "league": "nhl",
-      "name": "Colorado Avalanche vs New Jersey Devils",
-      "date": "2026-10-29T01:00:00Z",
+      "name": "Carolina Hurricanes vs Columbus Blue Jackets",
+      "date": "2026-10-29T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado Avalanche",
+          "name": "Carolina Hurricanes",
           "score": ""
         },
         {
-          "name": "New Jersey Devils",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591686",
-      "league": "nhl",
-      "name": "Seattle Kraken vs Toronto Maple Leafs",
-      "date": "2026-10-29T02:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Seattle Kraken",
-          "score": ""
-        },
-        {
-          "name": "Toronto Maple Leafs",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499128",
-      "league": "ncaaf",
-      "name": "New Mexico State vs Jacksonville State",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "upcoming",
-      "status": "Q2",
-      "participants": [
-        {
-          "name": "New Mexico State",
-          "score": ""
-        },
-        {
-          "name": "Jacksonville State",
+          "name": "Columbus Blue Jackets",
           "score": ""
         }
       ],
@@ -980,25 +884,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494078",
-      "league": "epl",
-      "name": "Sunderland vs Leeds United",
-      "date": "2026-10-25T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sunderland",
-          "score": "0"
-        },
-        {
-          "name": "Leeds United",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2494084",
       "league": "epl",
       "name": "Chelsea vs Manchester United",
@@ -1013,26 +898,6 @@
         {
           "name": "Manchester United",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506263",
-      "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sevilla",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Osasuna",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1057,26 +922,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508387",
-      "league": "bundesliga",
-      "name": "Freiburg vs Bayern Munich",
-      "date": "2026-10-25T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Freiburg",
-          "score": "1"
-        },
-        {
-          "name": "Bayern Munich",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508404",
       "league": "bundesliga",
       "name": "Elversberg vs Mainz",
@@ -1091,26 +936,6 @@
         {
           "name": "Mainz",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482227",
-      "league": "seriea",
-      "name": "Monza vs Napoli",
-      "date": "2026-10-28T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Monza",
-          "score": "1"
-        },
-        {
-          "name": "Napoli",
-          "score": "4",
-          "winner": true
         }
       ],
       "url": ""
@@ -1135,26 +960,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Lyon",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2489537",
       "league": "ligue1",
       "name": "Nice vs Rennes",
@@ -1168,217 +973,6 @@
         },
         {
           "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594645",
-      "league": "ucl",
-      "name": "Club Brugge vs Lens",
-      "date": "2026-10-21T19:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Club Brugge",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Lens",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398518",
-      "league": "brasileirao",
-      "name": "Remo vs Botafogo",
-      "date": "2026-10-29T00:30:00Z",
-      "state": "upcoming",
-      "status": "HT",
-      "participants": [
-        {
-          "name": "Remo",
-          "score": ""
-        },
-        {
-          "name": "Botafogo",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398511",
-      "league": "brasileirao",
-      "name": "Atlético Mineiro vs Cruzeiro",
-      "date": "2026-10-29T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        },
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398167",
-      "league": "argentina",
-      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
-      "date": "2026-10-30T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Estudiantes de Río Cuarto",
-          "score": ""
-        },
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487577",
-      "league": "ligamx",
-      "name": "Tijuana vs Santos Laguna",
-      "date": "2026-10-26T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tijuana",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Santos Laguna",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "América",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Auckland FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514023",
-      "league": "primeira",
-      "name": "Casa Pia vs Sporting CP",
-      "date": "2026-10-30T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Casa Pia",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407184",
-      "league": "mls",
-      "name": "Vancouver Whitecaps vs San Diego FC",
-      "date": "2026-10-29T02:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vancouver Whitecaps",
-          "score": ""
-        },
-        {
-          "name": "San Diego FC",
           "score": ""
         }
       ],
