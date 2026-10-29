@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T02:12:57Z",
+  "updated_at": "2026-10-29T03:06:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -827,19 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601732",
+      "id": "sportsdb-2601733",
       "league": "nba",
-      "name": "Los Angeles Clippers vs Los Angeles Lakers",
-      "date": "2026-10-29T02:30:00Z",
+      "name": "Atlanta Hawks vs Cleveland Cavaliers",
+      "date": "2026-10-30T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Clippers",
+          "name": "Atlanta Hawks",
           "score": ""
         },
         {
-          "name": "Los Angeles Lakers",
+          "name": "Cleveland Cavaliers",
           "score": ""
         }
       ],
@@ -954,25 +954,6 @@
         },
         {
           "name": "Lecce",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
           "score": ""
         }
       ],
