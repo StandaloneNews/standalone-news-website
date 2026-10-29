@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T09:12:45Z",
+  "updated_at": "2026-10-29T10:10:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 22,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -68,22 +68,22 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
@@ -98,12 +98,12 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -846,26 +846,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "1"
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591687",
       "league": "nhl",
       "name": "Carolina Hurricanes vs Columbus Blue Jackets",
@@ -918,26 +898,6 @@
         {
           "name": "Manchester United",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506263",
-      "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sevilla",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Osasuna",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1017,161 +977,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398518",
-      "league": "brasileirao",
-      "name": "Remo vs Botafogo",
-      "date": "2026-10-29T00:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Remo",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Botafogo",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398511",
-      "league": "brasileirao",
-      "name": "Atlético Mineiro vs Cruzeiro",
-      "date": "2026-10-29T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        },
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398147",
-      "league": "argentina",
-      "name": "Argentinos Juniors vs Independiente Rivadavia",
-      "date": "2026-10-27T22:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Argentinos Juniors",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "name": "Independiente Rivadavia",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487578",
-      "league": "ligamx",
-      "name": "Juárez vs Querétaro",
-      "date": "2026-10-31T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Juárez",
-          "score": ""
-        },
-        {
-          "name": "Querétaro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514009",
-      "league": "primeira",
-      "name": "Santa Clara vs Benfica",
-      "date": "2026-10-26T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Santa Clara",
-          "score": "1"
-        },
-        {
-          "name": "Benfica",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407186",
-      "league": "mls",
-      "name": "San Jose Earthquakes vs Colorado Rapids",
-      "date": "2026-10-29T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Jose Earthquakes",
-          "score": "2"
-        },
-        {
-          "name": "Colorado Rapids",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407190",
-      "league": "mls",
-      "name": "Charlotte FC vs Orlando City",
-      "date": "2026-10-31T17:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        },
-        {
-          "name": "Orlando City",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1179,14 +984,21 @@
       "title": "Sri Lanka v England: men’s cricket tri-series one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
-      "date": "2026-10-29T09:08:11Z",
+      "date": "2026-10-29T09:56:04Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: third men’s cricket Test, day three – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/south-africa-v-australia-third-test-day-three-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-29T09:05:24Z",
+      "date": "2026-10-29T09:55:12Z",
+      "league": "all"
+    },
+    {
+      "title": "The NFL has a host of Hall of Fame caliber receivers. But which one is the best?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/29/best-nfl-receivers-smith-njigba-nacua-chase-jefferson",
+      "date": "2026-10-29T09:00:27Z",
       "league": "all"
     },
     {
@@ -1229,6 +1041,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c804032de6yyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T07:59:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Is the Ulster forward with farmer's strength Ireland's next big star?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6dxwzpeydk5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T07:58:56Z",
       "league": "all"
     },
     {
@@ -1303,10 +1122,10 @@
     },
     {
       "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts, Celtic held at home",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/28/scottish-premiership-makhanya-late-header-rangers-point-at-hearts-celtic-draw",
       "date": "2026-10-28T23:25:10Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "How unbeaten Chelsea are getting back to their best",
@@ -1407,18 +1226,11 @@
       "league": "all"
     },
     {
-      "title": "Sesko ruled out until January with shin injury",
+      "title": "Man Utd's Sesko ruled out until January with shin injury",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T19:57:04Z",
       "league": "soccer"
-    },
-    {
-      "title": "Djokovic celebrates 'big win' on return to Basel",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cmd93vlz4k11o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T19:51:14Z",
-      "league": "all"
     },
     {
       "title": "Ernie Johnson, beloved host of Inside the NBA, to step away from show at end of season",
@@ -1482,13 +1294,6 @@
       "url": "https://www.bbc.co.uk/sounds/play/p0pk3kv2?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T16:32:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Perez signs multi-year extension with Cadillac",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T16:10:07Z",
-      "league": "all"
     }
   ]
 }
