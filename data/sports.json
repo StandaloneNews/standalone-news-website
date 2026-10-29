@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T19:17:21Z",
+  "updated_at": "2026-10-29T20:05:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,12 +13,12 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -822,6 +822,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475480",
+      "league": "nfl",
+      "name": "Philadelphia Eagles vs Dallas Cowboys",
+      "date": "2026-10-27T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Philadelphia Eagles",
+          "score": "21"
+        },
+        {
+          "name": "Dallas Cowboys",
+          "score": "38",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475481",
       "league": "nfl",
       "name": "Green Bay Packers vs Carolina Panthers",
@@ -836,6 +856,26 @@
         {
           "name": "Carolina Panthers",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601732",
+      "league": "nba",
+      "name": "Los Angeles Clippers vs Los Angeles Lakers",
+      "date": "2026-10-29T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles Clippers",
+          "score": "87"
+        },
+        {
+          "name": "Los Angeles Lakers",
+          "score": "103",
+          "winner": true
         }
       ],
       "url": ""
@@ -955,38 +995,171 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482222",
+      "id": "sportsdb-2482234",
       "league": "seriea",
-      "name": "Fiorentina vs Atalanta",
-      "date": "2026-10-29T19:45:00Z",
+      "name": "Bologna vs Monza",
+      "date": "2026-10-31T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Fiorentina",
+          "name": "Bologna",
           "score": ""
         },
         {
-          "name": "Atalanta",
+          "name": "Monza",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nice",
+          "name": "Shakhtar Donetsk",
           "score": ""
         },
         {
-          "name": "Rennes",
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398511",
+      "league": "brasileirao",
+      "name": "Atlético Mineiro vs Cruzeiro",
+      "date": "2026-10-29T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        },
+        {
+          "name": "Cruzeiro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398167",
+      "league": "argentina",
+      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
+      "date": "2026-10-30T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estudiantes de Río Cuarto",
+          "score": ""
+        },
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487578",
+      "league": "ligamx",
+      "name": "Juárez vs Querétaro",
+      "date": "2026-10-31T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Juárez",
+          "score": ""
+        },
+        {
+          "name": "Querétaro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540118",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Auckland FC",
+      "date": "2026-10-30T09:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brisbane Roar",
+          "score": ""
+        },
+        {
+          "name": "Auckland FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514023",
+      "league": "primeira",
+      "name": "Casa Pia vs Sporting CP",
+      "date": "2026-10-30T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Casa Pia",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407190",
+      "league": "mls",
+      "name": "Charlotte FC vs Orlando City",
+      "date": "2026-10-31T17:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        },
+        {
+          "name": "Orlando City",
           "score": ""
         }
       ],
@@ -995,24 +1168,45 @@
   ],
   "stories": [
     {
-      "title": "Dream win to set up WNBA Finals decider",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/cr4g181v4q4wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T19:12:04Z",
-      "league": "all"
+      "title": "Everton v Newcastle: Carabao Cup fourth round – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live",
+      "date": "2026-10-29T19:58:44Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Sutton's predictions v Bad Day At The Office star John Hannah",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1m4j79x50jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T19:55:24Z",
+      "league": "soccer"
     },
     {
       "title": "Manchester City v Paris Saint-Germain: Women’s Champions League – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live",
-      "date": "2026-10-29T19:11:10Z",
+      "date": "2026-10-29T19:54:54Z",
       "league": "soccer"
     },
     {
-      "title": "Everton v Newcastle: Carabao Cup fourth round – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live",
-      "date": "2026-10-29T19:04:00Z",
+      "title": "Grealish dropped by Everton after 'breach of club discipline'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T19:31:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/29/jack-grealish-axed-everton-breach-club-discipline-newcastle-caraboao-cup",
+      "date": "2026-10-29T19:23:33Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Dream win to set up WNBA Finals decider",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/cr4g181v4q4wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T19:12:04Z",
       "league": "all"
     },
     {
@@ -1132,13 +1326,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cjg4700703rxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T16:37:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Wales scrum-half Hardy faces World Cup fitness race",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c65ynw5184pjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T16:22:40Z",
       "league": "all"
     },
     {
@@ -1293,20 +1480,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/best-nfl-receivers-smith-njigba-nacua-chase-jefferson",
       "date": "2026-10-29T09:00:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Do Dundee United have Scotland's best midfield three?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwn738elr6nvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T08:21:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Mourinho and chaos - is Real Madrid boss misunderstood?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crly062vd0z7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T08:07:22Z",
       "league": "all"
     }
   ]
