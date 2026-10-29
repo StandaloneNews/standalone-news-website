@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T23:54:36Z",
+  "updated_at": "2026-10-29T00:21:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -827,38 +827,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601726",
+      "id": "sportsdb-2601730",
       "league": "nba",
-      "name": "Chicago Bulls vs New York Knicks",
-      "date": "2026-10-29T00:00:00Z",
+      "name": "Utah Jazz vs San Antonio Spurs",
+      "date": "2026-10-29T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chicago Bulls",
+          "name": "Utah Jazz",
           "score": ""
         },
         {
-          "name": "New York Knicks",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": ""
-        },
-        {
-          "name": "Milwaukee Brewers",
+          "name": "San Antonio Spurs",
           "score": ""
         }
       ],
@@ -884,19 +865,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499128",
+      "id": "sportsdb-2594160",
       "league": "ncaaf",
-      "name": "New Mexico State vs Jacksonville State",
-      "date": "2026-10-29T00:00:00Z",
+      "name": "Morgan State vs South Carolina State",
+      "date": "2026-10-29T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New Mexico State",
+          "name": "Morgan State",
           "score": ""
         },
         {
-          "name": "Jacksonville State",
+          "name": "South Carolina State",
           "score": ""
         }
       ],
@@ -1000,7 +981,28 @@
   ],
   "stories": [
     {
-      "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts as Celtic also earn point",
+      "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T00:17:48Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'He could be happier' - why is Estevao becoming Chelsea's forgotten man?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv5ynwkndw61o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T00:05:21Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Bayern ease to Cup victory after Kompany leaves hospital",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia",
+      "date": "2026-10-29T00:00:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts, Celtic held at home",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/28/scottish-premiership-makhanya-late-header-rangers-point-at-hearts-celtic-draw",
       "date": "2026-10-28T23:25:10Z",
@@ -1042,7 +1044,7 @@
       "league": "all"
     },
     {
-      "title": "Alessia Russo makes history with hat-trick as Arsenal cruise to Benfica win",
+      "title": "Arsenal’s Slegers hails ‘role model’ Russo after historic hat-trick sinks Benfica",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report",
       "date": "2026-10-28T22:21:52Z",
@@ -1210,13 +1212,6 @@
       "league": "soccer"
     },
     {
-      "title": "Davies crossing divide between pitch and boardroom",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmx2w477qwjpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T16:35:19Z",
-      "league": "soccer"
-    },
-    {
       "title": "Perez signs multi-year extension with Cadillac",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss",
@@ -1274,10 +1269,10 @@
     },
     {
       "title": "West Ham’s Viviane Asseyi: ‘When I was four I said I wanted to be like Zidane’",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/28/west-ham-women-viviane-asseyi-zidane-wsl",
       "date": "2026-10-28T12:26:55Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Relax, I love Kane and Lamine Yamal' - Henry defends his Ballon d'Or hosting",
@@ -1299,20 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T11:48:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "Serrano to end career in Puerto Rico in January",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn8denld133o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:11:53Z",
-      "league": "all"
-    },
-    {
-      "title": "'I earned my spot' - Lewis can be England hero after controversial selection",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5djv7e49lwmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:06:27Z",
-      "league": "all"
     }
   ]
 }
