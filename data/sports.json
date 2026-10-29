@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T06:02:21Z",
+  "updated_at": "2026-10-29T07:26:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -958,9 +958,83 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514009",
+      "league": "primeira",
+      "name": "Santa Clara vs Benfica",
+      "date": "2026-10-26T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Santa Clara",
+          "score": "1"
+        },
+        {
+          "name": "Benfica",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Weekly sports quiz: Which league are Fleetwood in?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cmrly1jy31p1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T06:53:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Chiellini guidance to Leeds 'rock' - could Muharemovic be signing of season?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx05487d6r9vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T06:27:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y1218vjvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T06:23:21Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I’m no special guy. We can all do this’: Loek Hartog on rescuing Ollie Millroy from a burning car",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/29/motor-racing-loek-hartog-ollie-millroy-remarkable-rescue",
+      "date": "2026-10-29T06:00:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Meet the Welsh teenager hoping to beat Littler",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/cmzxlrwn27eyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T05:29:17Z",
+      "league": "all"
+    },
     {
       "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
       "source": "The Guardian Sport",
@@ -1096,10 +1170,10 @@
     },
     {
       "title": "Sesko ruled out until January with shin injury",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T19:57:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Djokovic celebrates 'big win' on return to Basel",
@@ -1193,6 +1267,13 @@
       "league": "soccer"
     },
     {
+      "title": "72+: The EFL Podcast",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pk3kv2?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-28T16:32:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "Perez signs multi-year extension with Cadillac",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss",
@@ -1214,13 +1295,6 @@
       "league": "all"
     },
     {
-      "title": "McClean leaves Derry City after contract dispute",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqn738v634xxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T13:25:57Z",
-      "league": "soccer"
-    },
-    {
       "title": "All Spanish cup matches suspended after Madrid train collision",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crgj902p68gno?at_medium=RSS&at_campaign=rss",
@@ -1240,41 +1314,6 @@
       "url": "https://www.theguardian.com/sport/no-helmets-required/2026/oct/28/qwantez-stiggers-new-york-jets-nfl-delivery-driver-football",
       "date": "2026-10-28T13:00:03Z",
       "league": "all"
-    },
-    {
-      "title": "Fernandes tells Carrick he is committed to turning season around in clear-the-air talks",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/bruno-fernandes-michael-carrick-clear-the-air-talks-manchester-united",
-      "date": "2026-10-28T12:47:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "West Ham’s Viviane Asseyi: ‘When I was four I said I wanted to be like Zidane’",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/west-ham-women-viviane-asseyi-zidane-wsl",
-      "date": "2026-10-28T12:26:55Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Relax, I love Kane and Lamine Yamal' - Henry defends his Ballon d'Or hosting",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm369r0n0zk5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T12:13:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal to appeal against Dowman red card",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3dxwdnjqj17o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:55:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carrick and Fernandes hold clear-the-air talks",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:48:28Z",
-      "league": "soccer"
     }
   ]
 }
