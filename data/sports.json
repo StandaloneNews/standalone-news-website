@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T10:10:58Z",
+  "updated_at": "2026-10-29T11:05:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -958,40 +958,56 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Sri Lanka v England: men’s cricket tri-series one-day international – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
-      "date": "2026-10-29T09:56:04Z",
+      "title": "Sometimes managers needs sacking for own good - Neville",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgx0ek6rz2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T11:00:53Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: third men’s cricket Test, day three – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/south-africa-v-australia-third-test-day-three-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-29T09:55:12Z",
+      "date": "2026-10-29T10:58:56Z",
+      "league": "all"
+    },
+    {
+      "title": "England boss McDermott urges patience in PNG points chase",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm8xz7we02dyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T10:57:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Sri Lanka v England: men’s cricket tri-series one-day international – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
+      "date": "2026-10-29T10:56:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Rybakina secures year-end number one ranking",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2qr1v11xyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T10:38:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Scots women lose before men's side take on Germany",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T10:36:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Everybody hates Pat: is a cabal of college kids really trying to bring down ESPN’s star meathead?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/29/pat-mcafee-college-gameday-espn",
+      "date": "2026-10-29T09:00:28Z",
       "league": "all"
     },
     {
@@ -1122,10 +1138,10 @@
     },
     {
       "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts, Celtic held at home",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/28/scottish-premiership-makhanya-late-header-rangers-point-at-hearts-celtic-draw",
       "date": "2026-10-28T23:25:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "How unbeaten Chelsea are getting back to their best",
@@ -1205,13 +1221,6 @@
       "league": "all"
     },
     {
-      "title": "Chiefs coach defends decision to sign kicker Tucker",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c9e8l47grpz4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T20:55:11Z",
-      "league": "all"
-    },
-    {
       "title": "Chelsea continue unbeaten start with win over Roma",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm17k8x994edo?at_medium=RSS&at_campaign=rss",
@@ -1237,13 +1246,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/28/ernie-johnson-beloved-host-of-inside-the-nba-to-step-away-from-show-at-end-of-season",
       "date": "2026-10-28T19:25:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Red Roses make six changes but Kildunne on bench again",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq1m4kn84gk2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T19:00:51Z",
       "league": "all"
     },
     {
@@ -1273,27 +1275,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/28/horse-racing-chief-warning-budget-fixed-odds-gaming-tax",
       "date": "2026-10-28T17:35:50Z",
       "league": "all"
-    },
-    {
-      "title": "Prem and RFU commit to expanding with English clubs after report of Welsh sides joining",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/28/prem-rfu-commit-english-clubs-after-report-welsh-sides-joining",
-      "date": "2026-10-28T17:17:04Z",
-      "league": "all"
-    },
-    {
-      "title": "‘This isn’t supposed to happen’: giant-slaying Fleetwood revels in fairytale Arsenal win",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/this-isnt-supposed-to-happen-giant-slaying-fleetwood-revels-in-fairytale-win",
-      "date": "2026-10-28T16:52:23Z",
-      "league": "soccer"
-    },
-    {
-      "title": "72+: The EFL Podcast",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pk3kv2?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T16:32:00Z",
-      "league": "soccer"
     }
   ]
 }
