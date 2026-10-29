@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T13:25:28Z",
+  "updated_at": "2026-10-29T14:20:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 28,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -841,26 +841,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601732",
-      "league": "nba",
-      "name": "Los Angeles Clippers vs Los Angeles Lakers",
-      "date": "2026-10-29T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Clippers",
-          "score": "87"
-        },
-        {
-          "name": "Los Angeles Lakers",
-          "score": "103",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601733",
       "league": "nba",
       "name": "Atlanta Hawks vs Cleveland Cavaliers",
@@ -899,26 +879,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499128",
-      "league": "ncaaf",
-      "name": "New Mexico State vs Jacksonville State",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "New Mexico State",
-          "score": "0"
-        },
-        {
-          "name": "Jacksonville State",
-          "score": "24",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2594160",
       "league": "ncaaf",
       "name": "Morgan State vs South Carolina State",
@@ -933,25 +893,6 @@
         {
           "name": "South Carolina State",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494078",
-      "league": "epl",
-      "name": "Sunderland vs Leeds United",
-      "date": "2026-10-25T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sunderland",
-          "score": "0"
-        },
-        {
-          "name": "Leeds United",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1031,298 +972,49 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489533",
-      "league": "ligue1",
-      "name": "Paris Saint-Germain vs Lyon",
-      "date": "2026-10-26T19:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Paris Saint-Germain",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Lyon",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398518",
-      "league": "brasileirao",
-      "name": "Remo vs Botafogo",
-      "date": "2026-10-29T00:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Remo",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Botafogo",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398511",
-      "league": "brasileirao",
-      "name": "Atlético Mineiro vs Cruzeiro",
-      "date": "2026-10-29T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        },
-        {
-          "name": "Cruzeiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398167",
-      "league": "argentina",
-      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
-      "date": "2026-10-30T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Estudiantes de Río Cuarto",
-          "score": ""
-        },
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487578",
-      "league": "ligamx",
-      "name": "Juárez vs Querétaro",
-      "date": "2026-10-31T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Juárez",
-          "score": ""
-        },
-        {
-          "name": "Querétaro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492894",
-      "league": "j1",
-      "name": "Kawasaki Frontale vs Fagiano Okayama",
-      "date": "2026-10-25T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Kawasaki Frontale",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Fagiano Okayama",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540117",
-      "league": "aleague",
-      "name": "Sydney FC vs Adelaide United",
-      "date": "2026-10-25T04:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Adelaide United",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": ""
-        },
-        {
-          "name": "Auckland FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514023",
-      "league": "primeira",
-      "name": "Casa Pia vs Sporting CP",
-      "date": "2026-10-30T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Casa Pia",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407186",
-      "league": "mls",
-      "name": "San Jose Earthquakes vs Colorado Rapids",
-      "date": "2026-10-29T02:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Jose Earthquakes",
-          "score": "2"
-        },
-        {
-          "name": "Colorado Rapids",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407190",
-      "league": "mls",
-      "name": "Charlotte FC vs Orlando City",
-      "date": "2026-10-31T17:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        },
-        {
-          "name": "Orlando City",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Is the double drop from the Premier League becoming more common?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv2d6ze63gk2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T13:19:52Z",
-      "league": "all"
-    },
-    {
       "title": "Sri Lanka chasing 387 against England after Duckett century: men’s cricket tri-series one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
-      "date": "2026-10-29T13:16:19Z",
+      "date": "2026-10-29T14:05:09Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: third men’s cricket Test, day three – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/south-africa-v-australia-third-test-day-three-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-29T13:15:08Z",
+      "date": "2026-10-29T14:03:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal fail at Fleetwood and Michael Carrick clings on | Football Weekly Extra – video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/oct/29/arsenal-fail-at-fleetwood-and-michael-carrick-clings-on-football-weekly-video",
+      "date": "2026-10-29T13:51:21Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Toney nightclub assault trial set for June 2028",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/ck98zmrdz2g5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T13:47:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Wrexham fined for fielding ineligible players",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr89z5pj5n2zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T13:40:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Is the double drop from the Premier League becoming more common?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv2d6ze63gk2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T13:19:52Z",
       "league": "all"
     },
     {
@@ -1396,7 +1088,7 @@
       "league": "all"
     },
     {
-      "title": "Rybakina secures year-end number one ranking",
+      "title": "'Amazing achievement' as Rybakina clinches year-end number one ranking",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2qr1v11xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T10:38:08Z",
@@ -1597,27 +1289,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/28/fulham-crystal-palace-carabao-cup-fourth-round-match-report",
       "date": "2026-10-28T21:53:27Z",
       "league": "soccer"
-    },
-    {
-      "title": "Kompany discharged from hospital following collapse",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c678prmye8xvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T21:37:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Sancho rejects Getafe - Thursday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckyvr1q72v84o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T21:34:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Chelsea continue unbeaten start with win over Roma",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm17k8x994edo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T20:36:25Z",
-      "league": "all"
     }
   ]
 }
