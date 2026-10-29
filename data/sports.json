@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T03:06:29Z",
+  "updated_at": "2026-10-29T04:07:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -958,9 +958,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Milwaukee Brewers close out Tampa Bay Rays to end 57-year wait for first World Series title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/28/milwaukee-brewers-tampa-bay-rays-world-series-game-5-first-title",
+      "date": "2026-10-29T03:18:07Z",
+      "league": "all"
+    },
     {
       "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
       "source": "BBC Sport",
@@ -1268,13 +1294,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cje36dn5nx36o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-28T11:48:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "Serrano to end career in Puerto Rico in January",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqn8denld133o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T11:11:53Z",
-      "league": "all"
     }
   ]
 }
