@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T16:13:40Z",
+  "updated_at": "2026-10-29T17:13:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -262,9 +262,9 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "mma-20261107-ufc-vegas-124-bonfim-vs-brady",
+      "id": "mma-20261107-ufc-vegas-124-bonfim-vs-tbd",
       "league": "ufc",
-      "name": "UFC Vegas 124: Bonfim vs. Brady",
+      "name": "UFC Vegas 124: Bonfim vs. TBD",
       "date": "2026-11-07T00:00:00Z",
       "date_only": true,
       "state": "upcoming",
@@ -278,7 +278,7 @@
               "score": ""
             },
             {
-              "name": "Sean Brady",
+              "name": "TBD",
               "score": ""
             }
           ],
@@ -991,28 +991,96 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Sri Lanka chasing 387 against England after Duckett century: men’s cricket tri-series one-day international – live",
+      "title": "Golden State Valkyries v Atlanta Dream: WNBA finals 2026 Game 6 – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/29/sri-lanka-v-england-mens-cricket-tri-series-one-day-international-live",
-      "date": "2026-10-29T16:09:41Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/29/golden-state-valkyries-v-atlanta-dream-wnba-finals-2026-game-6-live-buildup",
+      "date": "2026-10-29T17:08:01Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day three – live",
+      "title": "A phone-free Yellow Wall: are Dortmund urging fans to be present or policing them?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/29/borussia-dortmund-fans-phones",
+      "date": "2026-10-29T17:00:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/m003434t?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T16:54:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Careless dismissals give Australia route to series win in South Africa",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwz0vevng3n0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T16:53:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Duckett and Dawson steer England to victory over Sri Lanka in tri-series farewell",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/29/england-sri-lanka-tri-series-match-report-duckett-dawson",
+      "date": "2026-10-29T16:46:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Duckett and Dawson deliver in England's consolation win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjg4700703rxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T16:37:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales scrum-half Hardy faces World Cup fitness race",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c65ynw5184pjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T16:22:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Euro Leagues",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pkb7f8?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T16:21:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Australia strike late to restrict South Africa to 140-4, just 40 runs ahead, on the third day of men’s third Test– as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/29/south-africa-v-australia-third-test-day-three-cricket-newlands-cape-town-live-updates",
       "date": "2026-10-29T16:09:08Z",
       "league": "all"
     },
     {
-      "title": "Golden State Valkyries v Atlanta Dream: WNBA finals 2026 Game 6 – live",
+      "title": "Liverpool beat Chelsea as three more join penalty hall of shame | Football Daily",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/29/golden-state-valkyries-v-atlanta-dream-wnba-finals-2026-game-6-live-buildup",
-      "date": "2026-10-29T16:04:24Z",
+      "url": "https://www.theguardian.com/football/2026/oct/29/liverpool-chelsea-football-daily-newsletter",
+      "date": "2026-10-29T15:58:18Z",
       "league": "all"
     },
     {
@@ -1024,10 +1092,10 @@
     },
     {
       "title": "McInnes defends Fernandez before League Cup semi",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6e3x50p3v1eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T15:36:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Brewers manager Pat Murphy takes shot at ‘horseshit’ Yankees team after World Series win",
@@ -1055,20 +1123,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckz7x8z1e9y9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T14:31:52Z",
-      "league": "all"
-    },
-    {
-      "title": "The low-budget Brewers won the World Series – and exposed baseball’s biggest lie | Howard Bryant",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/milwaukee-brewers-world-series-title-mlb-salary-cap",
-      "date": "2026-10-29T14:01:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Pasifika pride finds a home at Rugby League World Cup: ‘Passion brings us together’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/rugby-league-world-cup-sydney-tonga-samoa-pasifika-pride",
-      "date": "2026-10-29T14:00:46Z",
       "league": "all"
     },
     {
@@ -1132,13 +1186,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cvkgkx496e0ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T11:06:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Durban selected as South Africa’s candidate for Olympic bids in 2036 and 2040",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/durban-selected-south-africa-candidate-olympic-bids-2036-2040",
-      "date": "2026-10-29T11:01:54Z",
       "league": "all"
     },
     {
@@ -1255,10 +1302,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y1218vjvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T06:23:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘I’m no special guy. We can all do this’: Loek Hartog on rescuing Ollie Millroy from a burning car",
@@ -1279,34 +1326,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T00:17:48Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'He could be happier' - why is Estevao becoming Chelsea's forgotten man?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv5ynwkndw61o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T00:05:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Scottish Premiership: McInnes booed in Rangers draw at Hearts, Celtic held at home",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/scottish-premiership-makhanya-late-header-rangers-point-at-hearts-celtic-draw",
-      "date": "2026-10-28T23:25:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "How unbeaten Chelsea are getting back to their best",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9wenqd01o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-28T23:17:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carabao Cup roundup: Bournemouth thrash Villa, Sunderland salvo stings Bees",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/28/carabao-cup-fouth-round-bournemouth-aston-villa-sunderland-brentford",
-      "date": "2026-10-28T23:15:01Z",
       "league": "soccer"
     }
   ]
