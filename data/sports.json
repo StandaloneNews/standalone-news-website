@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:58:21Z",
+  "updated_at": "2026-10-30T23:54:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -841,57 +841,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601736",
+      "id": "sportsdb-2601741",
       "league": "nba",
-      "name": "Washington Wizards vs Charlotte Hornets",
-      "date": "2026-10-30T23:00:00Z",
+      "name": "Minnesota Timberwolves vs Los Angeles Clippers",
+      "date": "2026-10-31T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington Wizards",
+          "name": "Minnesota Timberwolves",
           "score": ""
         },
         {
-          "name": "Charlotte Hornets",
+          "name": "Los Angeles Clippers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591699",
+      "id": "sportsdb-2591700",
       "league": "nhl",
-      "name": "Florida Panthers vs Winnipeg Jets",
-      "date": "2026-10-30T23:00:00Z",
+      "name": "Calgary Flames vs Seattle Kraken",
+      "date": "2026-10-31T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Florida Panthers",
+          "name": "Calgary Flames",
           "score": ""
         },
         {
-          "name": "Winnipeg Jets",
+          "name": "Seattle Kraken",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499131",
+      "id": "sportsdb-2598792",
       "league": "ncaaf",
-      "name": "Charlotte vs Tulane",
-      "date": "2026-10-30T23:00:00Z",
+      "name": "Chicago State vs UFTL",
+      "date": "2026-10-31T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Charlotte",
+          "name": "Chicago State",
           "score": ""
         },
         {
-          "name": "Tulane",
+          "name": "UFTL",
           "score": ""
         }
       ],
@@ -976,6 +976,62 @@
   ],
   "stories": [
     {
+      "title": "Leclerc sets pace in Friday practice at Mexico City Grand Prix",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T23:53:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Sherrock upsets Littler to claim £501,000 prize",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/crkg7p1z3p3lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T23:38:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Red Roses put defeats behind them by crushing USA to extend 35-year streak",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/england-return-to-winning-ways-with-comfortable-victory-over-usa",
+      "date": "2026-10-30T23:22:15Z",
+      "league": "all"
+    },
+    {
+      "title": "England see off USA, but fail to hit top gear",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq98zrj5dj6ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T23:15:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T23:08:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Villa to sue Carragher over 'unacceptable insults'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqd09p3kppyvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T23:05:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Alex de Minaur hits career milestone in Vienna to book semi-final date with Zverev",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/alex-de-minaur-matteo-berrettini-tennis-quarter-final-vienna-open-report",
+      "date": "2026-10-30T22:56:26Z",
+      "league": "all"
+    },
+    {
+      "title": "From WiFi to 'relief' - how was Ferguson's Irish League debut?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj5ynr23rg4ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T22:52:32Z",
+      "league": "all"
+    },
+    {
       "title": "Cox sets world record to win gold at Worlds",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/c6qxnpdr7ezxo?at_medium=RSS&at_campaign=rss",
@@ -984,10 +1040,10 @@
     },
     {
       "title": "Xabi Alonso rules out January loan move for Chelsea winger Estêvão Willian",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/xabi-alonso-rules-out-january-loan-move-estevao-willian-chelsea-manchester-united-premier-league",
       "date": "2026-10-30T22:30:26Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Carrick tells players ‘hard truth’ in attempt to turn Manchester United’s season around",
@@ -997,7 +1053,7 @@
       "league": "all"
     },
     {
-      "title": "Breeders’ Cup 2026: Haffner wins Juvenile Turf to complete O’Brien double, day one – live",
+      "title": "Breeders’ Cup 2026 day one: Haffner wins Juvenile Turf to complete O’Brien double – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/breeders-cup-2026-folsom-blues-set-to-go-off-as-favourite-in-juvenile-turf-day-one-live",
       "date": "2026-10-30T22:08:23Z",
@@ -1060,13 +1116,6 @@
       "league": "all"
     },
     {
-      "title": "Canelo makes weight against backdrop of Saudi turmoil",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cmwy721wd7x6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T19:12:03Z",
-      "league": "all"
-    },
-    {
       "title": "Zverev thrashes GB's Fery to reach Vienna semis",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cm0ld27ew5lyo?at_medium=RSS&at_campaign=rss",
@@ -1124,10 +1173,10 @@
     },
     {
       "title": "Fears Chelsea's Lacroix could be out until January",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T16:21:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Premier League team news: predicted lineups for the weekend action",
@@ -1159,10 +1208,10 @@
     },
     {
       "title": "‘We are not in Disneyland’: Arteta warns Dowman of Arsenal’s demands",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/max-dowman-red-card-suspension-mikel-arteta-arsenal-fleetwood-liverpool-premier-league",
       "date": "2026-10-30T15:44:51Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Football Daily | Newcastle’s Jaissle wants to scream while Grealish leaves Moyes speechless",
@@ -1214,13 +1263,6 @@
       "league": "all"
     },
     {
-      "title": "Ireland 'have it in us' to claim Springboks series win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c8p3gpe2e93go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T14:35:35Z",
-      "league": "all"
-    },
-    {
       "title": "O'Neill agrees with McGregor about Celtic issues",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
@@ -1247,48 +1289,6 @@
       "url": "https://www.theguardian.com/sport/2026/oct/30/packers-josh-jacobs-touchdown-celebration-arrest",
       "date": "2026-10-30T12:22:36Z",
       "league": "all"
-    },
-    {
-      "title": "Forest Green launch £2m lawsuit over Savage approach",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq4g148z2xp2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T12:18:28Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The academy system needs a refresh but now is the time for Carrick to trust in youth | David Pleat",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/the-academy-system-needs-a-refresh-but-now-is-the-time-for-carrick-to-trust-in-youth",
-      "date": "2026-10-30T12:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "England thrash Wales in Wheelchair Rugby League World Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6ewep00w4nno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T11:53:32Z",
-      "league": "all"
-    },
-    {
-      "title": "England rugby league reaches defining moment after men face early World Cup exit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/england-rugby-league-world-cup-hopes-papua-new-guinea",
-      "date": "2026-10-30T11:32:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Love leads Packers to win over Panthers",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6m2dp0910p7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T11:30:11Z",
-      "league": "all"
-    },
-    {
-      "title": "How to follow the Premier League on the BBC this weekend",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cp30ggvqj0do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T10:50:44Z",
-      "league": "soccer"
     }
   ]
 }
