@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T16:08:03Z",
+  "updated_at": "2026-10-30T17:03:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 21,
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "argentina",
@@ -83,17 +83,17 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 2
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -822,26 +822,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475481",
-      "league": "nfl",
-      "name": "Green Bay Packers vs Carolina Panthers",
-      "date": "2026-10-30T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Green Bay Packers",
-          "score": "27",
-          "winner": true
-        },
-        {
-          "name": "Carolina Panthers",
-          "score": "19"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475482",
       "league": "nfl",
       "name": "Buffalo Bills vs Baltimore Ravens",
@@ -880,26 +860,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591697",
-      "league": "nhl",
-      "name": "San Jose Sharks vs Vancouver Canucks",
-      "date": "2026-10-30T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Jose Sharks",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Vancouver Canucks",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591698",
       "league": "nhl",
       "name": "Vegas Golden Knights vs New Jersey Devils",
@@ -914,6 +874,26 @@
         {
           "name": "New Jersey Devils",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2499130",
+      "league": "ncaaf",
+      "name": "James Madison vs Troy",
+      "date": "2026-10-29T23:30:00Z",
+      "state": "final",
+      "status": "AOT",
+      "participants": [
+        {
+          "name": "James Madison",
+          "score": "21"
+        },
+        {
+          "name": "Troy",
+          "score": "24",
+          "winner": true
         }
       ],
       "url": ""
@@ -957,26 +937,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506263",
-      "league": "laliga",
-      "name": "Sevilla vs Osasuna",
-      "date": "2026-10-26T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sevilla",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Osasuna",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2506271",
       "league": "laliga",
       "name": "Villarreal vs Espanyol",
@@ -1010,25 +970,6 @@
         {
           "name": "Mainz",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482222",
-      "league": "seriea",
-      "name": "Fiorentina vs Atalanta",
-      "date": "2026-10-29T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Atalanta",
-          "score": "2"
         }
       ],
       "url": ""
@@ -1091,26 +1032,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398517",
-      "league": "brasileirao",
-      "name": "Grêmio vs Athletico Paranaense",
-      "date": "2026-10-30T00:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Grêmio",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Athletico Paranaense",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2398514",
       "league": "brasileirao",
       "name": "Corinthians vs Mirassol",
@@ -1168,21 +1089,96 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2514009",
-      "league": "primeira",
-      "name": "Santa Clara vs Benfica",
-      "date": "2026-10-26T18:45:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2487578",
+      "league": "ligamx",
+      "name": "Juárez vs Querétaro",
+      "date": "2026-10-31T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Santa Clara",
-          "score": "1"
+          "name": "Juárez",
+          "score": ""
         },
         {
-          "name": "Benfica",
-          "score": "2",
-          "winner": true
+          "name": "Querétaro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540119",
+      "league": "aleague",
+      "name": "Newcastle Jets vs Wellington Phoenix",
+      "date": "2026-10-31T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Newcastle Jets",
+          "score": ""
+        },
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514023",
+      "league": "primeira",
+      "name": "Casa Pia vs Sporting CP",
+      "date": "2026-10-30T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Casa Pia",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407190",
+      "league": "mls",
+      "name": "Charlotte FC vs Orlando City",
+      "date": "2026-10-31T17:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        },
+        {
+          "name": "Orlando City",
+          "score": ""
         }
       ],
       "url": ""
@@ -1190,24 +1186,80 @@
   ],
   "stories": [
     {
-      "title": "Arteta warns Dowman that top flight is not ‘Disneyland’ after red, Maresca says Donnarumma is droppable, and more – football live",
+      "title": "Iraola tempers Liverpool title talk, Maresca says Donnarumma is droppable, and more – football live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T15:57:25Z",
+      "date": "2026-10-30T16:59:42Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
+      "title": "South Africa all out and set Australia 288 to win decider: third men’s cricket Test, day four – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T15:55:12Z",
+      "date": "2026-10-30T16:44:44Z",
+      "league": "all"
+    },
+    {
+      "title": "What Howe could bring to Man Utd - and what are the challenges?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T16:27:13Z",
+      "league": "all"
+    },
+    {
+      "title": "From Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T16:22:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Fears Chelsea's Lacroix could be out until January",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T16:21:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League team news: predicted lineups for the weekend action",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+      "date": "2026-10-30T16:19:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Putellas provides mindset change as London City bid to upstage champions",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
+      "date": "2026-10-30T16:16:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Bay City Roller can prove top of the pops in fascinating Breeders’ Cup Turf",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/bay-city-roller-breeders-cup-turf-horse-racing-tips",
+      "date": "2026-10-30T16:14:05Z",
       "league": "all"
     },
     {
       "title": "Spurs' Maddison fit to face Palace - De Zerbi",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cke8rp00m87lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T15:49:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "‘We are not in Disneyland’: Arteta warns Dowman of Arsenal’s demands",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/max-dowman-red-card-suspension-mikel-arteta-arsenal-fleetwood-liverpool-premier-league",
+      "date": "2026-10-30T15:44:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | Newcastle’s Jaissle wants to scream while Grealish leaves Moyes speechless",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/newcastle-jaissle-grealish-moyes-football-daily-newsletter",
+      "date": "2026-10-30T15:41:54Z",
       "league": "all"
     },
     {
@@ -1281,13 +1333,6 @@
       "league": "all"
     },
     {
-      "title": "Refugee athlete to make history for second time at Youth Olympics",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cq74pjgxdrx2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T13:11:20Z",
-      "league": "all"
-    },
-    {
       "title": "Injured Tuipulotu a doubt for England's autumn Tests",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cve8rpzk3r0ko?at_medium=RSS&at_campaign=rss",
@@ -1307,13 +1352,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq4g148z2xp2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T12:18:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "Russia's international ice hockey ban overturned",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/ice-hockey/articles/cm87zqjrr9dno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T12:03:39Z",
-      "league": "all"
     },
     {
       "title": "The academy system needs a refresh but now is the time for Carrick to trust in youth | David Pleat",
@@ -1358,6 +1396,13 @@
       "league": "all"
     },
     {
+      "title": "Calvert-Lewin set for new Leeds deal",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2w1epxx8yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T10:26:53Z",
+      "league": "soccer"
+    },
+    {
       "title": "Ronaldo closes in on 1,000th goal with hat-trick",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgqprr44gzo?at_medium=RSS&at_campaign=rss",
@@ -1366,10 +1411,10 @@
     },
     {
       "title": "Fifa to miss equal Women’s World Cup prize money ambition set by Infantino",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/fifa-miss-equal-womens-world-cup-prize-money-ambition-gianni-infantino",
       "date": "2026-10-30T09:59:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Carrick says there are 'no issues' with captain Fernandes",
@@ -1453,55 +1498,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3zen65d1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T07:51:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Why managers must put their own health first - Pulis",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqy0r31kwne0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T07:41:38Z",
-      "league": "all"
-    },
-    {
-      "title": "F1 has never had anyone like me - Hamilton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmvg9z1v33keo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T07:25:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qj9r3v7vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T06:22:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "How talking about Man Utd's cycle of doom became an industry",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v3pl0159o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T06:14:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Exeter’s Tom Hooper: ‘Sometimes you’ve just got to suck up a little bit of pain’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/exeters-tom-hooper-sometimes-youve-just-got-to-suck-up-a-little-bit-of-pain",
-      "date": "2026-10-30T06:00:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Packers beat Panthers as Green Bay’s Christian Watson returns after mid-game hospital visit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/packers-panthers-thursday-night-football-nfl-christian-watson-hospital",
-      "date": "2026-10-30T03:53:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Premier League: 10 things to look out for this weekend",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-10-things-to-look-out-for-this-weekend",
-      "date": "2026-10-30T00:01:38Z",
       "league": "all"
     }
   ]
