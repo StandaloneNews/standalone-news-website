@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T17:57:58Z",
+  "updated_at": "2026-10-30T19:11:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -972,33 +972,28 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Iraola tempers Liverpool title talk, Maresca says Donnarumma is droppable, and more – football live",
+      "title": "Breeders’ Cup 2026: Folsom Blues set to go off as favourite in Juvenile Turf, day one – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T17:41:38Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/30/breeders-cup-2026-folsom-blues-set-to-go-off-as-favourite-in-juvenile-turf-day-one-live",
+      "date": "2026-10-30T19:02:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Zverev thrashes GB's Fery to reach Vienna semis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm0ld27ew5lyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T18:41:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Why has Caf abandoned plans to hold Afcon every four years?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T17:33:02Z",
       "league": "all"
     },
     {
@@ -1023,7 +1018,14 @@
       "league": "soccer"
     },
     {
-      "title": "Australia set 288 to win after South African centurions turn the tide",
+      "title": "Grealish could have been Everton’s poster boy of a new era. Now his career is in limbo",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/jack-grealish-dropped-disclipline-everton-newcastle-carabao-cup-david-moyes",
+      "date": "2026-10-30T16:50:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia set 288 to win on final day after South African centurions turn tide",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/australia-set-288-to-win-after-south-african-centurions-turn-the-tide",
       "date": "2026-10-30T16:40:33Z",
@@ -1037,7 +1039,7 @@
       "league": "all"
     },
     {
-      "title": "From Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
+      "title": "From her own Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T16:22:55Z",
@@ -1087,10 +1089,10 @@
     },
     {
       "title": "Football Daily | Newcastle’s Jaissle wants to scream while Grealish leaves Moyes speechless",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/newcastle-jaissle-grealish-moyes-football-daily-newsletter",
       "date": "2026-10-30T15:41:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Arteta warns Dowman 'we are not in Disneyland' after red card",
@@ -1163,17 +1165,17 @@
       "league": "all"
     },
     {
-      "title": "Injured Tuipulotu a doubt for England's autumn Tests",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cve8rpzk3r0ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T12:56:17Z",
-      "league": "all"
-    },
-    {
       "title": "Jimmy Anderson reveals ‘sadness and shock’ at Lancashire exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/jimmy-anderson-reveals-sadness-and-shock-lancashire-exit-ponders-cricket-future",
       "date": "2026-10-30T12:48:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Packers’ Josh Jacobs says hands-behind-back TD celebration was not mocking recent arrest",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/packers-josh-jacobs-touchdown-celebration-arrest",
+      "date": "2026-10-30T12:22:36Z",
       "league": "all"
     },
     {
@@ -1247,13 +1249,6 @@
       "league": "soccer"
     },
     {
-      "title": "Carrick says there are 'no issues' with captain Fernandes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqj34pjxp7xdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T09:58:41Z",
-      "league": "all"
-    },
-    {
       "title": "Ex-captain says club was turned into 'dictatorship'",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crq5n91ly4pxo?at_medium=RSS&at_campaign=rss",
@@ -1282,13 +1277,6 @@
       "league": "all"
     },
     {
-      "title": "Spirited England out of World Cup after Samoa loss",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c8ly0p5ngwx6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T08:43:30Z",
-      "league": "all"
-    },
-    {
       "title": "Afcon to return to two-year cycle after Caf U-turn",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqn73pxx8vr5o?at_medium=RSS&at_campaign=rss",
@@ -1300,13 +1288,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/chess-english-prodigies-have-proud-record-of-giantkilling-across-the-generations",
       "date": "2026-10-30T08:00:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Beach volleyball in Morecambe Bay? An Olympics of the north sounds like a winner | Emma John",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/beach-volleyball-morecambe-bay-olympics-of-the-north-andy-burnham",
-      "date": "2026-10-30T08:00:49Z",
       "league": "all"
     }
   ]
