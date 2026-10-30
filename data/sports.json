@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T21:55:53Z",
+  "updated_at": "2026-10-30T22:24:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 14,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -860,19 +860,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591698",
+      "id": "sportsdb-2591699",
       "league": "nhl",
-      "name": "Vegas Golden Knights vs New Jersey Devils",
-      "date": "2026-10-30T22:00:00Z",
+      "name": "Florida Panthers vs Winnipeg Jets",
+      "date": "2026-10-30T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Vegas Golden Knights",
+          "name": "Florida Panthers",
           "score": ""
         },
         {
-          "name": "New Jersey Devils",
+          "name": "Winnipeg Jets",
           "score": ""
         }
       ],
@@ -911,25 +911,6 @@
         },
         {
           "name": "Manchester United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506271",
-      "league": "laliga",
-      "name": "Villarreal vs Espanyol",
-      "date": "2026-10-30T20:00:00Z",
-      "state": "upcoming",
-      "status": "2H",
-      "participants": [
-        {
-          "name": "Villarreal",
-          "score": ""
-        },
-        {
-          "name": "Espanyol",
           "score": ""
         }
       ],
@@ -991,63 +972,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489540",
-      "league": "ligue1",
-      "name": "Troyes vs Le Mans",
-      "date": "2026-10-31T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Mans",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": "1"
-        },
-        {
-          "name": "Auckland FC",
-          "score": "1"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1055,7 +979,14 @@
       "title": "Breeders’ Cup 2026: Haffner wins Juvenile Turf to complete O’Brien double, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/breeders-cup-2026-folsom-blues-set-to-go-off-as-favourite-in-juvenile-turf-day-one-live",
-      "date": "2026-10-30T21:47:30Z",
+      "date": "2026-10-30T22:08:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Searle makes difference as Leicester battle to Prem top spot at Bristol",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/bristol-exeter-prem-rugby-union-match-report",
+      "date": "2026-10-30T21:46:06Z",
       "league": "all"
     },
     {
@@ -1186,10 +1117,10 @@
     },
     {
       "title": "Putellas provides mindset change as London City bid to upstage champions",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
       "date": "2026-10-30T16:16:24Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bay City Roller can prove top of the pops in fascinating Breeders’ Cup Turf",
@@ -1357,13 +1288,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgqprr44gzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T10:22:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Fifa to miss equal Women’s World Cup prize money ambition set by Infantino",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/fifa-miss-equal-womens-world-cup-prize-money-ambition-gianni-infantino",
-      "date": "2026-10-30T09:59:10Z",
       "league": "soccer"
     }
   ]
