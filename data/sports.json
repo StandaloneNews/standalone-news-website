@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T13:21:36Z",
+  "updated_at": "2026-10-30T14:16:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -972,21 +972,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
+      "title": "Forest Green launch legal proceedings against Savage departure, England win controversial U-15 World Cup match, and Premier League news – football live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T13:05:31Z",
+      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+      "date": "2026-10-30T14:08:35Z",
       "league": "all"
     },
     {
-      "title": "Penalty seals England win in controversial U-15 World Cup match, Afcon to be held every two years, and Premier League news – football live",
+      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T13:03:32Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+      "date": "2026-10-30T14:07:31Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Where we want to be’: Régis Le Bris stays positive as stuttering Sunderland face Coventry reunion",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/30/regis-le-bris-sunderland-coventry-reunion",
+      "date": "2026-10-30T13:59:34Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Popular and talented - but Grealish is running out of chances",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmzxj2e2e5p2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T13:42:15Z",
+      "league": "all"
+    },
+    {
+      "title": "England edge towards World Cup exit despite PNG win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cx30e28vn5r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T13:29:47Z",
       "league": "all"
     },
     {
@@ -1025,7 +1065,7 @@
       "league": "all"
     },
     {
-      "title": "The academy system needs a refresh but now is the time for Carrick to trust in youth",
+      "title": "The academy system needs a refresh but now is the time for Carrick to trust in youth | David Pleat",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/the-academy-system-needs-a-refresh-but-now-is-the-time-for-carrick-to-trust-in-youth",
       "date": "2026-10-30T12:00:52Z",
@@ -1058,13 +1098,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T11:23:55Z",
       "league": "soccer"
-    },
-    {
-      "title": "England edge towards World Cup exit despite PNG win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cx30e28vn5r4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T11:17:27Z",
-      "league": "all"
     },
     {
       "title": "How to follow the Premier League on the BBC this weekend",
@@ -1274,20 +1307,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/29/manchester-city-paris-saint-germain-womens-champions-league-match-report",
       "date": "2026-10-29T22:14:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Inter and Milan unveil plans for new shared stadium to replace San Siro",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/29/inter-milan-generali-stadium-new-venue-san-siro-protests",
-      "date": "2026-10-29T21:46:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea linked with Alexander-Arnold - Friday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck1l396jqv4zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T21:40:24Z",
       "league": "soccer"
     }
   ]
