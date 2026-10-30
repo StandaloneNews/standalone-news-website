@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T11:21:30Z",
+  "updated_at": "2026-10-30T12:01:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,22 +13,22 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -822,6 +822,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475481",
+      "league": "nfl",
+      "name": "Green Bay Packers vs Carolina Panthers",
+      "date": "2026-10-30T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Green Bay Packers",
+          "score": "27",
+          "winner": true
+        },
+        {
+          "name": "Carolina Panthers",
+          "score": "19"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475482",
       "league": "nfl",
       "name": "Buffalo Bills vs Baltimore Ravens",
@@ -841,6 +861,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601735",
+      "league": "nba",
+      "name": "Portland Trail Blazers vs Memphis Grizzlies",
+      "date": "2026-10-30T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Portland Trail Blazers",
+          "score": "103"
+        },
+        {
+          "name": "Memphis Grizzlies",
+          "score": "124",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601736",
       "league": "nba",
       "name": "Washington Wizards vs Charlotte Hornets",
@@ -855,6 +895,46 @@
         {
           "name": "Charlotte Hornets",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2624258",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-29T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "1"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591697",
+      "league": "nhl",
+      "name": "San Jose Sharks vs Vancouver Canucks",
+      "date": "2026-10-30T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Jose Sharks",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Vancouver Canucks",
+          "score": "2"
         }
       ],
       "url": ""
@@ -972,14 +1052,220 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398514",
+      "league": "brasileirao",
+      "name": "Corinthians vs Mirassol",
+      "date": "2026-10-30T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": ""
+        },
+        {
+          "name": "Mirassol",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398167",
+      "league": "argentina",
+      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
+      "date": "2026-10-30T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estudiantes de Río Cuarto",
+          "score": ""
+        },
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487578",
+      "league": "ligamx",
+      "name": "Juárez vs Querétaro",
+      "date": "2026-10-31T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Juárez",
+          "score": ""
+        },
+        {
+          "name": "Querétaro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492903",
+      "league": "j1",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kyoto Sanga",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540119",
+      "league": "aleague",
+      "name": "Newcastle Jets vs Wellington Phoenix",
+      "date": "2026-10-31T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Newcastle Jets",
+          "score": ""
+        },
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514023",
+      "league": "primeira",
+      "name": "Casa Pia vs Sporting CP",
+      "date": "2026-10-30T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Casa Pia",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407190",
+      "league": "mls",
+      "name": "Charlotte FC vs Orlando City",
+      "date": "2026-10-31T17:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        },
+        {
+          "name": "Orlando City",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "England thrash Wales in Wheelchair Rugby League World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c6ewep00w4nno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T11:53:32Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+      "date": "2026-10-30T11:49:06Z",
+      "league": "all"
+    },
+    {
       "title": "Afcon reverts to being held every two years, Premier League news, Carabao Cup and WCL reaction – football live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T11:21:37Z",
+      "date": "2026-10-30T11:46:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Love leads Packers to win over Panthers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/c6m2dp0910p7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T11:30:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Items stolen from Man Utd Munich air disaster memorial",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T11:23:55Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Two Wales changes to face Australia at World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq4g142dr2xko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T11:23:12Z",
       "league": "all"
     },
     {
@@ -1004,24 +1290,10 @@
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T10:38:50Z",
-      "league": "all"
-    },
-    {
       "title": "Ronaldo closes in on 1,000th goal with hat-trick",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgqprr44gzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T10:22:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Items stolen from Man Utd air disaster memorial in Munich",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T10:05:39Z",
       "league": "all"
     },
     {
@@ -1074,7 +1346,7 @@
       "league": "all"
     },
     {
-      "title": "Spirited England exit World Cup after Samoa loss",
+      "title": "Spirited England out of World Cup after Samoa loss",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c8ly0p5ngwx6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T08:43:30Z",
@@ -1130,7 +1402,7 @@
       "league": "all"
     },
     {
-      "title": "Why managers must put their own fitness first - Pulis",
+      "title": "Why managers must put their own health first - Pulis",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqy0r31kwne0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T07:41:38Z",
@@ -1190,6 +1462,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-10-things-to-look-out-for-this-weekend",
       "date": "2026-10-30T00:01:38Z",
+      "league": "all"
+    },
+    {
+      "title": "China made Mbappé apologise - but many don't know exactly what he said",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wv36d603yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T23:03:15Z",
       "league": "all"
     },
     {
@@ -1260,34 +1539,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/atlanta-dream-golden-state-valkyries-game-6-wnba-finals",
       "date": "2026-10-29T18:58:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Uefa close to selecting candidate to run against Infantino in Fifa election",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/29/uefa-close-to-identifying-candidate-gianni-infantino-in-fifa-election",
-      "date": "2026-10-29T18:41:04Z",
-      "league": "all"
-    },
-    {
-      "title": "MLS announces ‘sprint season’ schedule, with accommodations for cold-weather locales",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/29/mls-sprint-season-schedule",
-      "date": "2026-10-29T18:00:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Max Dowman to miss three games after Arsenal’s red card appeal rejected",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/29/max-dowman-to-miss-three-arsenal-matches-fa-rejects-red-card-appeal-fleetwood",
-      "date": "2026-10-29T17:57:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Scottish football could pave way for 3pm TV blackout to end",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmgr8l87edyjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T17:43:53Z",
       "league": "all"
     }
   ]
