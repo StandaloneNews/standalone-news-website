@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T06:25:23Z",
+  "updated_at": "2026-10-30T07:29:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -972,15 +972,48 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "F1 has never had anyone like me - Hamilton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmvg9z1v33keo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T07:25:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Families v loyal fans - women's football's attendance dilemma",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq23d1ldgn1yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T07:04:53Z",
+      "league": "all"
+    },
+    {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qj9r3v7vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T06:22:04Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "How talking about Man Utd's cycle of doom became an industry",
@@ -990,11 +1023,25 @@
       "league": "all"
     },
     {
+      "title": "Exeter’s Tom Hooper: ‘Sometimes you’ve just got to suck up a little bit of pain’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/exeters-tom-hooper-sometimes-youve-just-got-to-suck-up-a-little-bit-of-pain",
+      "date": "2026-10-30T06:00:46Z",
+      "league": "all"
+    },
+    {
       "title": "Les Kiss backs Beale to ‘compete’ for Wallabies’ World Cup spot: ‘He’s in there to perform’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/australia-wallabies-les-kiss-kurtley-beale-rugby-world-cup",
       "date": "2026-10-30T05:43:12Z",
       "league": "all"
+    },
+    {
+      "title": "Sub-plots intensify Blades and Wrexham's rivalry",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cky931w9p0x0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T04:12:07Z",
+      "league": "soccer"
     },
     {
       "title": "Packers beat Panthers as Green Bay’s Christian Watson returns after mid-game hospital visit",
@@ -1058,13 +1105,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/29/inter-milan-generali-stadium-new-venue-san-siro-protests",
       "date": "2026-10-29T21:46:26Z",
       "league": "all"
-    },
-    {
-      "title": "Fleetwood to face Everton in EFL Cup quarters",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T21:42:29Z",
-      "league": "soccer"
     },
     {
       "title": "Chelsea linked with Alexander-Arnold - Friday's gossip",
@@ -1180,10 +1220,10 @@
     },
     {
       "title": "Dowman to miss three matches after appeal rejected",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6kgq9qg28dno?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T17:19:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "A phone-free Yellow Wall: are Dortmund urging fans to be present or policing them?",
@@ -1267,27 +1307,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/milwaukee-brewers-world-series-title-mlb-salary-cap",
       "date": "2026-10-29T14:01:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal fail at Fleetwood and Michael Carrick clings on | Football Weekly Extra – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/oct/29/arsenal-fail-at-fleetwood-and-michael-carrick-clings-on-football-weekly-video",
-      "date": "2026-10-29T13:51:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Toney nightclub assault trial set for June 2028",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/ck98zmrdz2g5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T13:47:43Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Is the double drop from the Premier League becoming more common?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv2d6ze63gk2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T13:19:52Z",
       "league": "all"
     }
   ]
