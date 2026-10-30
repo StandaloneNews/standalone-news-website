@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T17:03:43Z",
+  "updated_at": "2026-10-30T17:57:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 21,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 2
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -879,26 +879,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499130",
-      "league": "ncaaf",
-      "name": "James Madison vs Troy",
-      "date": "2026-10-29T23:30:00Z",
-      "state": "final",
-      "status": "AOT",
-      "participants": [
-        {
-          "name": "James Madison",
-          "score": "21"
-        },
-        {
-          "name": "Troy",
-          "score": "24",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499131",
       "league": "ncaaf",
       "name": "Charlotte vs Tulane",
@@ -1011,177 +991,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398514",
-      "league": "brasileirao",
-      "name": "Corinthians vs Mirassol",
-      "date": "2026-10-30T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Corinthians",
-          "score": ""
-        },
-        {
-          "name": "Mirassol",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398167",
-      "league": "argentina",
-      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
-      "date": "2026-10-30T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Estudiantes de Río Cuarto",
-          "score": ""
-        },
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "América",
-          "score": "1"
-        },
-        {
-          "name": "Tijuana",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487578",
-      "league": "ligamx",
-      "name": "Juárez vs Querétaro",
-      "date": "2026-10-31T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Juárez",
-          "score": ""
-        },
-        {
-          "name": "Querétaro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540119",
-      "league": "aleague",
-      "name": "Newcastle Jets vs Wellington Phoenix",
-      "date": "2026-10-31T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Newcastle Jets",
-          "score": ""
-        },
-        {
-          "name": "Wellington Phoenix",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514023",
-      "league": "primeira",
-      "name": "Casa Pia vs Sporting CP",
-      "date": "2026-10-30T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Casa Pia",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407190",
-      "league": "mls",
-      "name": "Charlotte FC vs Orlando City",
-      "date": "2026-10-31T17:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        },
-        {
-          "name": "Orlando City",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1189,14 +998,35 @@
       "title": "Iraola tempers Liverpool title talk, Maresca says Donnarumma is droppable, and more – football live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T16:59:42Z",
+      "date": "2026-10-30T17:41:38Z",
       "league": "all"
     },
     {
-      "title": "South Africa all out and set Australia 288 to win decider: third men’s cricket Test, day four – as it happened",
+      "title": "England beat Papua New Guinea but World Cup hopes in doubt",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c3kgqpeez9ppo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T17:06:29Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa-Australia set for classic finale – what does history suggest could happen?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n8dpvyyy71o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T17:03:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Are Liverpool in the title race? Their match against Arsenal will tell us a lot",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/who-scored-blog/2026/oct/30/liverpool-matches-title-contenders-andoni-iraola-arsenal",
+      "date": "2026-10-30T17:00:18Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Australia set 288 to win after South African centurions turn the tide",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T16:44:44Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/australia-set-288-to-win-after-south-african-centurions-turn-the-tide",
+      "date": "2026-10-30T16:40:33Z",
       "league": "all"
     },
     {
@@ -1466,13 +1296,6 @@
       "league": "soccer"
     },
     {
-      "title": "Matchroom's Hearn expected to increase Prem influence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmrry1rgzd4zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T08:00:55Z",
-      "league": "all"
-    },
-    {
       "title": "Chess: English prodigies have proud record of giantkilling across the generations",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/chess-english-prodigies-have-proud-record-of-giantkilling-across-the-generations",
@@ -1484,20 +1307,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/beach-volleyball-morecambe-bay-olympics-of-the-north-andy-burnham",
       "date": "2026-10-30T08:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Sports quiz of the week: last goodbyes, ill-judged jokes and golden balls",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/sports-quiz-week-football-tennis-rugby-baseball-cricket-cycling-f1-athletics",
-      "date": "2026-10-30T08:00:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Time to invest in Bournemouth? - FPL gameweek nine dilemmas",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3zen65d1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T07:51:08Z",
       "league": "all"
     }
   ]
