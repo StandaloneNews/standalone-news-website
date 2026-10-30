@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T20:00:01Z",
+  "updated_at": "2026-10-30T20:59:59Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -68,22 +68,22 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
@@ -93,12 +93,12 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -898,25 +898,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494078",
-      "league": "epl",
-      "name": "Sunderland vs Leeds United",
-      "date": "2026-10-25T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sunderland",
-          "score": "0"
-        },
-        {
-          "name": "Leeds United",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2494084",
       "league": "epl",
       "name": "Chelsea vs Manchester United",
@@ -974,25 +955,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482222",
-      "league": "seriea",
-      "name": "Fiorentina vs Atalanta",
-      "date": "2026-10-29T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Atalanta",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482234",
       "league": "seriea",
       "name": "Bologna vs Monza",
@@ -1012,99 +974,59 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398517",
-      "league": "brasileirao",
-      "name": "Grêmio vs Athletico Paranaense",
-      "date": "2026-10-30T00:30:00Z",
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398147",
+      "league": "argentina",
+      "name": "Argentinos Juniors vs Independiente Rivadavia",
+      "date": "2026-10-27T22:00:00Z",
       "state": "final",
       "status": "FT",
       "participants": [
         {
-          "name": "Grêmio",
-          "score": "2",
+          "name": "Argentinos Juniors",
+          "score": "1",
           "winner": true
         },
         {
-          "name": "Athletico Paranaense",
+          "name": "Independiente Rivadavia",
           "score": "0"
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2487511",
-      "league": "ligamx",
-      "name": "América vs Tijuana",
-      "date": "2026-10-29T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "América",
-          "score": "1"
-        },
-        {
-          "name": "Tijuana",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492894",
+      "id": "sportsdb-2492903",
       "league": "j1",
-      "name": "Kawasaki Frontale vs Fagiano Okayama",
-      "date": "2026-10-25T07:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Kyoto Sanga vs Shimizu S-Pulse",
+      "date": "2026-10-31T05:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Kawasaki Frontale",
-          "score": "2",
-          "winner": true
+          "name": "Kyoto Sanga",
+          "score": ""
         },
         {
-          "name": "Fagiano Okayama",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540118",
-      "league": "aleague",
-      "name": "Brisbane Roar vs Auckland FC",
-      "date": "2026-10-30T09:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Brisbane Roar",
-          "score": "1"
-        },
-        {
-          "name": "Auckland FC",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514009",
-      "league": "primeira",
-      "name": "Santa Clara vs Benfica",
-      "date": "2026-10-26T18:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Santa Clara",
-          "score": "1"
-        },
-        {
-          "name": "Benfica",
-          "score": "2",
-          "winner": true
+          "name": "Shimizu S-Pulse",
+          "score": ""
         }
       ],
       "url": ""
@@ -1115,7 +1037,28 @@
       "title": "Breeders’ Cup 2026: Folsom Blues set to go off as favourite in Juvenile Turf, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/breeders-cup-2026-folsom-blues-set-to-go-off-as-favourite-in-juvenile-turf-day-one-live",
-      "date": "2026-10-30T19:45:29Z",
+      "date": "2026-10-30T20:49:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Arteta can take inspiration from George Graham to expunge painful Anfield memories",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/mikel-arteta-arsenal-inspiration-george-graham-anfield-liverpool",
+      "date": "2026-10-30T20:00:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/mexico-grand-prix-kimi-antonelli-f1-history",
+      "date": "2026-10-30T20:00:22Z",
+      "league": "all"
+    },
+    {
+      "title": "How can playing for Manchester City fit into Marc Guéhi’s moral universe? | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
+      "date": "2026-10-30T20:00:22Z",
       "league": "all"
     },
     {
@@ -1204,10 +1147,10 @@
     },
     {
       "title": "Premier League team news: predicted lineups for the weekend action",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-team-news-predicted-lineups-for-the-weekend-action",
       "date": "2026-10-30T16:19:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Putellas provides mindset change as London City bid to upstage champions",
@@ -1404,27 +1347,6 @@
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cq5ynegm2p53o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T09:48:36Z",
       "league": "all"
-    },
-    {
-      "title": "‘It’s just USA, blah, blah, blah’: Rising rugby star Bella Vogel out to catch wounded England napping",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/bella-vogel-usa-rugby",
-      "date": "2026-10-30T09:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Roster rifts, police raids and Son’s uncertain future leave South Korea at a crossroads",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/south-korea-national-team-scandals-son-heung-min",
-      "date": "2026-10-30T09:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Afcon to return to two-year cycle after Caf U-turn",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqn73pxx8vr5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T08:39:36Z",
-      "league": "soccer"
     }
   ]
 }
