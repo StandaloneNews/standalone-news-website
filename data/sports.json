@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T20:59:59Z",
+  "updated_at": "2026-10-30T21:55:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -88,12 +88,12 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -917,6 +917,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506271",
+      "league": "laliga",
+      "name": "Villarreal vs Espanyol",
+      "date": "2026-10-30T20:00:00Z",
+      "state": "upcoming",
+      "status": "2H",
+      "participants": [
+        {
+          "name": "Villarreal",
+          "score": ""
+        },
+        {
+          "name": "Espanyol",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506272",
       "league": "laliga",
       "name": "Levante vs Atlético Madrid",
@@ -974,6 +993,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2489540",
+      "league": "ligue1",
+      "name": "Troyes vs Le Mans",
+      "date": "2026-10-31T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Mans",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2594635",
       "league": "ucl",
       "name": "Shakhtar Donetsk vs Sporting CP",
@@ -993,40 +1031,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398147",
-      "league": "argentina",
-      "name": "Argentinos Juniors vs Independiente Rivadavia",
-      "date": "2026-10-27T22:00:00Z",
+      "id": "sportsdb-2540118",
+      "league": "aleague",
+      "name": "Brisbane Roar vs Auckland FC",
+      "date": "2026-10-30T09:00:00Z",
       "state": "final",
       "status": "FT",
       "participants": [
         {
-          "name": "Argentinos Juniors",
-          "score": "1",
-          "winner": true
+          "name": "Brisbane Roar",
+          "score": "1"
         },
         {
-          "name": "Independiente Rivadavia",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492903",
-      "league": "j1",
-      "name": "Kyoto Sanga vs Shimizu S-Pulse",
-      "date": "2026-10-31T05:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kyoto Sanga",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
+          "name": "Auckland FC",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1034,10 +1052,38 @@
   ],
   "stories": [
     {
-      "title": "Breeders’ Cup 2026: Folsom Blues set to go off as favourite in Juvenile Turf, day one – live",
+      "title": "Breeders’ Cup 2026: Haffner wins Juvenile Turf to complete O’Brien double, day one – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/breeders-cup-2026-folsom-blues-set-to-go-off-as-favourite-in-juvenile-turf-day-one-live",
-      "date": "2026-10-30T20:49:11Z",
+      "date": "2026-10-30T21:47:30Z",
+      "league": "all"
+    },
+    {
+      "title": "UFC champion Makhachev confirms retirement plans",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq70p7lx04eeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T21:45:32Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Leicester dominate Bristol to go top of the Prem",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3x2wrp97dqdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T21:43:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T21:26:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Suspicious bets returning £149,000 for predicting Ballon d’Or under investigation",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/ballon-dor-betting-suspicious-cryptocurrency-investigation",
+      "date": "2026-10-30T21:12:33Z",
       "league": "all"
     },
     {
@@ -1059,13 +1105,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
       "date": "2026-10-30T20:00:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Leclerc fastest in Mexico City Grand Prix first practice",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T19:43:59Z",
       "league": "all"
     },
     {
@@ -1102,13 +1141,6 @@
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n8dpvyyy71o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T17:03:40Z",
       "league": "all"
-    },
-    {
-      "title": "Are Liverpool in the title race? Their match against Arsenal will tell us a lot",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/who-scored-blog/2026/oct/30/liverpool-matches-title-contenders-andoni-iraola-arsenal",
-      "date": "2026-10-30T17:00:18Z",
-      "league": "soccer"
     },
     {
       "title": "Grealish could have been Everton’s poster boy of a new era. Now his career is in limbo",
@@ -1322,10 +1354,10 @@
     },
     {
       "title": "Ronaldo closes in on 1,000th goal with hat-trick",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgqprr44gzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T10:22:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fifa to miss equal Women’s World Cup prize money ambition set by Infantino",
@@ -1333,20 +1365,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/30/fifa-miss-equal-womens-world-cup-prize-money-ambition-gianni-infantino",
       "date": "2026-10-30T09:59:10Z",
       "league": "soccer"
-    },
-    {
-      "title": "Carrick says there are 'no issues' with captain Fernandes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqj34pjxp7xdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T09:58:41Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Dart stuns Badosa to make second career semi-final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq5ynegm2p53o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T09:48:36Z",
-      "league": "all"
     }
   ]
 }
