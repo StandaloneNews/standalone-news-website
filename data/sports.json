@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T15:13:39Z",
+  "updated_at": "2026-10-30T16:08:03Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
@@ -68,22 +68,22 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -822,6 +822,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475481",
+      "league": "nfl",
+      "name": "Green Bay Packers vs Carolina Panthers",
+      "date": "2026-10-30T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Green Bay Packers",
+          "score": "27",
+          "winner": true
+        },
+        {
+          "name": "Carolina Panthers",
+          "score": "19"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475482",
       "league": "nfl",
       "name": "Buffalo Bills vs Baltimore Ravens",
@@ -855,6 +875,26 @@
         {
           "name": "Charlotte Hornets",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591697",
+      "league": "nhl",
+      "name": "San Jose Sharks vs Vancouver Canucks",
+      "date": "2026-10-30T02:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "San Jose Sharks",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Vancouver Canucks",
+          "score": "2"
         }
       ],
       "url": ""
@@ -917,6 +957,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506263",
+      "league": "laliga",
+      "name": "Sevilla vs Osasuna",
+      "date": "2026-10-26T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sevilla",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Osasuna",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506271",
       "league": "laliga",
       "name": "Villarreal vs Espanyol",
@@ -950,6 +1010,25 @@
         {
           "name": "Mainz",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2482222",
+      "league": "seriea",
+      "name": "Fiorentina vs Atalanta",
+      "date": "2026-10-29T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Fiorentina",
+          "score": "2"
+        },
+        {
+          "name": "Atalanta",
+          "score": "2"
         }
       ],
       "url": ""
@@ -991,14 +1070,158 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398517",
+      "league": "brasileirao",
+      "name": "Grêmio vs Athletico Paranaense",
+      "date": "2026-10-30T00:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Grêmio",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Athletico Paranaense",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398514",
+      "league": "brasileirao",
+      "name": "Corinthians vs Mirassol",
+      "date": "2026-10-30T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Corinthians",
+          "score": ""
+        },
+        {
+          "name": "Mirassol",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398167",
+      "league": "argentina",
+      "name": "Estudiantes de Río Cuarto vs Gimnasia y Esgrima de La Plata",
+      "date": "2026-10-30T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Estudiantes de Río Cuarto",
+          "score": ""
+        },
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487511",
+      "league": "ligamx",
+      "name": "América vs Tijuana",
+      "date": "2026-10-29T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "América",
+          "score": "1"
+        },
+        {
+          "name": "Tijuana",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514009",
+      "league": "primeira",
+      "name": "Santa Clara vs Benfica",
+      "date": "2026-10-26T18:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Santa Clara",
+          "score": "1"
+        },
+        {
+          "name": "Benfica",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Arteta warns Dowman that top flight is not ‘Disneyland’ after red, Maresca says Donnarumma is droppable, and more – football live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+      "date": "2026-10-30T15:57:25Z",
+      "league": "all"
+    },
+    {
       "title": "South Africa v Australia: third men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T15:11:28Z",
+      "date": "2026-10-30T15:55:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Spurs' Maddison fit to face Palace - De Zerbi",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cke8rp00m87lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T15:49:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Arteta warns Dowman 'we are not in Disneyland' after red card",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c875p940g5v2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T15:41:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/antonelli-set-for-f1-title-premier-league-and-nfl-action-follow-with-us",
+      "date": "2026-10-30T15:30:37Z",
       "league": "all"
     },
     {
@@ -1007,13 +1230,6 @@
       "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T15:03:12Z",
       "league": "soccer"
-    },
-    {
-      "title": "Arteta warns Dowman that top flight is not ‘Disneyland’ after red, Maresca says Donnarumma is droppable, and more – football live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T15:03:01Z",
-      "league": "all"
     },
     {
       "title": "England out of World Cup after loss to Samoa",
@@ -1065,6 +1281,13 @@
       "league": "all"
     },
     {
+      "title": "Refugee athlete to make history for second time at Youth Olympics",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cq74pjgxdrx2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T13:11:20Z",
+      "league": "all"
+    },
+    {
       "title": "Injured Tuipulotu a doubt for England's autumn Tests",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cve8rpzk3r0ko?at_medium=RSS&at_campaign=rss",
@@ -1084,13 +1307,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq4g148z2xp2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T12:18:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "England thrash Wales to begin World Cup defence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6ly0pnr19jzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T12:08:02Z",
-      "league": "all"
     },
     {
       "title": "Russia's international ice hockey ban overturned",
@@ -1114,7 +1330,7 @@
       "league": "all"
     },
     {
-      "title": "England need miracle to stay in World Cup after failing to crush Papua New Guinea",
+      "title": "England rugby league reaches defining moment after men face early World Cup exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/england-rugby-league-world-cup-hopes-papua-new-guinea",
       "date": "2026-10-30T11:32:49Z",
@@ -1177,13 +1393,6 @@
       "league": "all"
     },
     {
-      "title": "Prospective Gateshead takeover close to collapse",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crz657qv7nv4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T09:40:45Z",
-      "league": "soccer"
-    },
-    {
       "title": "‘It’s just USA, blah, blah, blah’: Rising rugby star Bella Vogel out to catch wounded England napping",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/bella-vogel-usa-rugby",
@@ -1210,13 +1419,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqn73pxx8vr5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T08:39:36Z",
       "league": "soccer"
-    },
-    {
-      "title": "Dog walker, babysitter, teacher, lifeguard... world champion",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/c6ewe794nd2do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T08:17:03Z",
-      "league": "all"
     },
     {
       "title": "Matchroom's Hearn expected to increase Prem influence",
@@ -1300,13 +1502,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-10-things-to-look-out-for-this-weekend",
       "date": "2026-10-30T00:01:38Z",
-      "league": "all"
-    },
-    {
-      "title": "China made Mbappé apologise - but many don't know exactly what he said",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cm3wv36d603yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T23:03:15Z",
       "league": "all"
     }
   ]
