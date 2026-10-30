@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T08:36:26Z",
+  "updated_at": "2026-10-30T09:34:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -972,9 +972,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489537",
+      "league": "ligue1",
+      "name": "Nice vs Rennes",
+      "date": "2026-10-30T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nice",
+          "score": ""
+        },
+        {
+          "name": "Rennes",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "South Africa v Australia: third men’s cricket Test, day four – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
+      "date": "2026-10-30T09:26:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League news, Carabao Cup and WCL reaction and more – football live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
+      "date": "2026-10-30T09:20:04Z",
+      "league": "all"
+    },
+    {
+      "title": "‘It’s just USA, blah, blah, blah’: Rising rugby star Bella Vogel out to catch wounded England napping",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/bella-vogel-usa-rugby",
+      "date": "2026-10-30T09:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Roster rifts, police raids and Son’s uncertain future leave South Korea at a crossroads",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/south-korea-national-team-scandals-son-heung-min",
+      "date": "2026-10-30T09:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Spirited England exit World Cup after Samoa loss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c8ly0p5ngwx6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T08:43:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Afcon to return to two-year cycle after Caf U-turn",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqn73pxx8vr5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T08:39:36Z",
+      "league": "all"
+    },
     {
       "title": "Dog walker, babysitter, teacher, lifeguard... world champion",
       "source": "BBC Sport",
@@ -1039,13 +1119,6 @@
       "league": "all"
     },
     {
-      "title": "Families v loyal fans - women's football's attendance dilemma",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq23d1ldgn1yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T07:04:53Z",
-      "league": "all"
-    },
-    {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qj9r3v7vo?at_medium=RSS&at_campaign=rss",
@@ -1064,13 +1137,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/30/exeters-tom-hooper-sometimes-youve-just-got-to-suck-up-a-little-bit-of-pain",
       "date": "2026-10-30T06:00:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Les Kiss backs Beale to ‘compete’ for Wallabies’ World Cup spot: ‘He’s in there to perform’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/australia-wallabies-les-kiss-kurtley-beale-rugby-world-cup",
-      "date": "2026-10-30T05:43:12Z",
       "league": "all"
     },
     {
@@ -1123,10 +1189,10 @@
       "league": "all"
     },
     {
-      "title": "Everton ease past Newcastle to set up Fleetwood trip after Grealish is dropped",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/29/everton-newcastle-carabao-cup-fourth-round-match-report",
-      "date": "2026-10-29T22:15:19Z",
+      "title": "Ireland's Furlong cleared of groin grab by disciplinary committee",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm9wzqen751ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-29T22:19:17Z",
       "league": "all"
     },
     {
@@ -1261,34 +1327,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6e3x50p3v1eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T15:36:21Z",
       "league": "soccer"
-    },
-    {
-      "title": "Carrick keeps Fernandes as captain and says he needs no assurances on United future",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/29/michael-carrick-keeps-bruno-fernandes-captain-assurances-future-manchester-united",
-      "date": "2026-10-29T14:50:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Rodman rule has been revised but the fight to keep stars in the NWSL goes on | Moving the Goalposts",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/29/rodman-rule-revised-fight-keep-stars-nwsl-moving-the-goalposts",
-      "date": "2026-10-29T14:34:43Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Fully committed' Fernandes to remain Man Utd captain",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckz7x8z1e9y9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T14:31:52Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The low-budget Brewers won the World Series – and exposed baseball’s biggest lie | Howard Bryant",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/milwaukee-brewers-world-series-title-mlb-salary-cap",
-      "date": "2026-10-29T14:01:44Z",
-      "league": "all"
     }
   ]
 }
