@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T07:29:54Z",
+  "updated_at": "2026-10-30T08:36:26Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -972,28 +972,65 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Dog walker, babysitter, teacher, lifeguard... world champion",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/c6ewe794nd2do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T08:17:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Matchroom's Hearn expected to increase Prem influence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmrry1rgzd4zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T08:00:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Chess: English prodigies have proud record of giantkilling across the generations",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/chess-english-prodigies-have-proud-record-of-giantkilling-across-the-generations",
+      "date": "2026-10-30T08:00:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Beach volleyball in Morecambe Bay? An Olympics of the north sounds like a winner | Emma John",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/beach-volleyball-morecambe-bay-olympics-of-the-north-andy-burnham",
+      "date": "2026-10-30T08:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Sports quiz of the week: last goodbyes, ill-judged jokes and golden balls",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/30/sports-quiz-week-football-tennis-rugby-baseball-cricket-cycling-f1-athletics",
+      "date": "2026-10-30T08:00:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Time to invest in Bournemouth? - FPL gameweek nine dilemmas",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked3zen65d1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T07:51:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Why managers must put their own fitness first - Pulis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqy0r31kwne0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T07:41:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Shock Basel loss dents Djokovic's ATP Finals hopes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwe8lpmn2ly1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T07:35:31Z",
+      "league": "all"
+    },
     {
       "title": "F1 has never had anyone like me - Hamilton",
       "source": "BBC Sport",
@@ -1044,6 +1081,13 @@
       "league": "soccer"
     },
     {
+      "title": "Davies backs Page to make Wales debut soon",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwyrdew1pz9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T04:11:51Z",
+      "league": "all"
+    },
+    {
       "title": "Packers beat Panthers as Green Bay’s Christian Watson returns after mid-game hospital visit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/packers-panthers-thursday-night-football-nfl-christian-watson-hospital",
@@ -1059,10 +1103,10 @@
     },
     {
       "title": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/29/jack-grealish-axed-everton-breach-club-discipline-newcastle-caraboao-cup",
       "date": "2026-10-29T22:57:19Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "George Russell determined not to let disappointing F1 season define career",
@@ -1076,13 +1120,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T22:40:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Ireland's Furlong cleared of groin grab by disciplinary committee",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm9wzqen751ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T22:19:17Z",
       "league": "all"
     },
     {
@@ -1121,20 +1158,6 @@
       "league": "all"
     },
     {
-      "title": "Cundy's 20-year reign as world champion ends",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/articles/cxj0lv0vzv7do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T20:27:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Zverev seals world number one spot after win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwdr8m8g4jz2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T20:25:37Z",
-      "league": "all"
-    },
-    {
       "title": "Sutton's predictions v Bad Day At The Office star John Hannah",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq1m4j79x50jo?at_medium=RSS&at_campaign=rss",
@@ -1146,13 +1169,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwy4vyl9nplo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T19:31:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Dream win to set up WNBA Finals decider",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/cr4g181v4q4wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T19:12:04Z",
       "league": "all"
     },
     {
@@ -1182,13 +1198,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/29/max-dowman-to-miss-three-arsenal-matches-fa-rejects-red-card-appeal-fleetwood",
       "date": "2026-10-29T17:57:45Z",
       "league": "soccer"
-    },
-    {
-      "title": "Australia gain edge in Test decider after late Bavuma blow hurts South Africa",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/south-africa-australia-third-test-day-three-match-report",
-      "date": "2026-10-29T17:46:40Z",
-      "league": "all"
     },
     {
       "title": "Scottish football could pave way for 3pm TV blackout to end",
@@ -1233,20 +1242,6 @@
       "league": "all"
     },
     {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/m003434t?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T16:54:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Careless dismissals give Australia route to series win in South Africa",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwz0vevng3n0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T16:53:40Z",
-      "league": "all"
-    },
-    {
       "title": "Duckett and Dawson steer England to victory over Sri Lanka in tri-series farewell",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/england-sri-lanka-tri-series-match-report-duckett-dawson",
@@ -1258,20 +1253,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cjg4700703rxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T16:37:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Bears swing big and trade two first-round picks for star Titans DT Jeffery Simmons",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/bears-jeffery-simmons-titans-trade",
-      "date": "2026-10-29T16:22:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Garcia targets Ryder Cup return as he confirms LIV exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cw3djl7mz90zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T15:55:55Z",
       "league": "all"
     },
     {
