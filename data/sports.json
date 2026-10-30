@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T09:34:45Z",
+  "updated_at": "2026-10-30T10:31:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -972,44 +972,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489537",
-      "league": "ligue1",
-      "name": "Nice vs Rennes",
-      "date": "2026-10-30T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nice",
-          "score": ""
-        },
-        {
-          "name": "Rennes",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -1017,15 +979,64 @@
       "title": "South Africa v Australia: third men’s cricket Test, day four – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/30/south-africa-v-australia-third-test-day-four-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-30T09:26:37Z",
+      "date": "2026-10-30T10:30:37Z",
       "league": "all"
     },
     {
-      "title": "Premier League news, Carabao Cup and WCL reaction and more – football live",
+      "title": "Afcon reverts to being held every two years, Premier League news, Carabao Cup and WCL reaction – football live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/30/premier-league-news-carabao-cup-and-wcl-reaction-and-more-football-live",
-      "date": "2026-10-30T09:20:04Z",
+      "date": "2026-10-30T10:29:05Z",
       "league": "all"
+    },
+    {
+      "title": "Ronaldo closes in on 1,000th goal with hat-trick",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgqprr44gzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T10:22:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Items stolen from Man Utd air disaster memorial in Munich",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cxly4pqndz57o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T10:05:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Fifa to miss equal Women’s World Cup prize money ambition set by Infantino",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/fifa-miss-equal-womens-world-cup-prize-money-ambition-gianni-infantino",
+      "date": "2026-10-30T09:59:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick says there are 'no issues' with captain Fernandes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqj34pjxp7xdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T09:58:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Ex-Cheltenham captain says club was turned into 'dictatorship'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crq5n91ly4pxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T09:49:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Dart stuns Badosa to make second career semi-final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq5ynegm2p53o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T09:48:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Prospective Gateshead takeover close to collapse",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz657qv7nv4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-30T09:40:45Z",
+      "league": "soccer"
     },
     {
       "title": "‘It’s just USA, blah, blah, blah’: Rising rugby star Bella Vogel out to catch wounded England napping",
@@ -1147,13 +1158,6 @@
       "league": "soccer"
     },
     {
-      "title": "Davies backs Page to make Wales debut soon",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwyrdew1pz9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T04:11:51Z",
-      "league": "all"
-    },
-    {
       "title": "Packers beat Panthers as Green Bay’s Christian Watson returns after mid-game hospital visit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/29/packers-panthers-thursday-night-football-nfl-christian-watson-hospital",
@@ -1189,18 +1193,11 @@
       "league": "all"
     },
     {
-      "title": "Ireland's Furlong cleared of groin grab by disciplinary committee",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm9wzqen751ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T22:19:17Z",
-      "league": "all"
-    },
-    {
       "title": "PSG claim late point after Shaw penalty to hit Manchester City’s WCL top-four hopes",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/29/manchester-city-paris-saint-germain-womens-champions-league-match-report",
       "date": "2026-10-29T22:14:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Inter and Milan unveil plans for new shared stadium to replace San Siro",
@@ -1291,41 +1288,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n49v9ek1k9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-29T17:20:57Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Dowman to miss three matches after appeal rejected",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6kgq9qg28dno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T17:19:06Z",
-      "league": "soccer"
-    },
-    {
-      "title": "A phone-free Yellow Wall: are Dortmund urging fans to be present or policing them?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/29/borussia-dortmund-fans-phones",
-      "date": "2026-10-29T17:00:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Duckett and Dawson steer England to victory over Sri Lanka in tri-series farewell",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/29/england-sri-lanka-tri-series-match-report-duckett-dawson",
-      "date": "2026-10-29T16:46:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Duckett and Dawson deliver in England's consolation win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjg4700703rxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T16:37:15Z",
-      "league": "all"
-    },
-    {
-      "title": "McInnes defends Fernandez before League Cup semi",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6e3x50p3v1eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-29T15:36:21Z",
       "league": "soccer"
     }
   ]
