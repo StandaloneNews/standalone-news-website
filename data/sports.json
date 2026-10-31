@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T09:58:27Z",
+  "updated_at": "2026-10-31T10:55:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -972,6 +972,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489540",
+      "league": "ligue1",
+      "name": "Troyes vs Le Mans",
+      "date": "2026-10-31T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Mans",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -979,29 +1017,36 @@
       "title": "Australia v Cook Islands: men’s Rugby League World Cup – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/australia-vs-cook-islands-mens-rugby-league-world-cup-live-updates",
-      "date": "2026-10-31T09:47:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea v Manchester United buildup, Premier League, WSL and more – matchday live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-buildup-premier-league-wsl-and-more-matchday-live",
-      "date": "2026-10-31T09:45:47Z",
+      "date": "2026-10-31T10:48:12Z",
       "league": "all"
     },
     {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T09:45:45Z",
+      "date": "2026-10-31T10:46:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Chelsea v Manchester United buildup, Premier League, WSL and more – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-buildup-premier-league-wsl-and-more-matchday-live",
+      "date": "2026-10-31T10:43:18Z",
       "league": "all"
     },
     {
       "title": "South Africa v Australia: third men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/south-africa-v-australia-third-test-day-five-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-31T09:45:17Z",
+      "date": "2026-10-31T10:37:00Z",
       "league": "all"
+    },
+    {
+      "title": "Listen: Shearer on MOTD, managerial jobs & scoring record",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pkgq2g?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T10:00:00Z",
+      "league": "soccer"
     },
     {
       "title": "Wales complete Japan double to end WXV on a high",
@@ -1281,13 +1326,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/newcastle-jaissle-grealish-moyes-football-daily-newsletter",
       "date": "2026-10-30T15:41:54Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Arteta warns Dowman 'we are not in Disneyland' after red card",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c875p940g5v2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T15:41:43Z",
       "league": "soccer"
     }
   ]
