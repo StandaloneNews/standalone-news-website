@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-31T20:55:48Z",
+  "updated_at": "2026-10-31T21:22:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 5
+      "events": 4
     },
     {
       "id": "nfl",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -107,160 +107,6 @@
     }
   ],
   "events": [
-    {
-      "id": "mma-20261031-ufc-vegas-123-moicano-vs-nolan",
-      "league": "ufc",
-      "name": "UFC Vegas 123: Moicano vs. Nolan",
-      "date": "2026-10-31T00:00:00Z",
-      "date_only": true,
-      "state": "upcoming",
-      "status": "Event date confirmed · Start time TBD",
-      "participants": [],
-      "fights": [
-        {
-          "fighters": [
-            {
-              "name": "Renato Moicano",
-              "score": ""
-            },
-            {
-              "name": "Tom Nolan",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Randy Brown",
-              "score": ""
-            },
-            {
-              "name": "Jacobe Smith",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Ode Osbourne",
-              "score": ""
-            },
-            {
-              "name": "Cody Durden",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Yana Santos",
-              "score": ""
-            },
-            {
-              "name": "Luana Santos",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Jean-Paul Lebosnoyani",
-              "score": ""
-            },
-            {
-              "name": "Farman Hasanov",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Francis Marshall",
-              "score": ""
-            },
-            {
-              "name": "Dakota Hope",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Rodrigo Sezinando",
-              "score": ""
-            },
-            {
-              "name": "Theodor Berggren",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Julian Erosa",
-              "score": ""
-            },
-            {
-              "name": "Jeong Yeong Lee",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Zachary Reese",
-              "score": ""
-            },
-            {
-              "name": "Mickey Gall",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Nick Klein",
-              "score": ""
-            },
-            {
-              "name": "Joe Kropschot",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        }
-      ],
-      "url": "https://www.mmafighting.com/schedule",
-      "source": "MMA Fighting event schedule"
-    },
     {
       "id": "mma-20261107-ufc-vegas-124-cortes-acosta-vs-walker",
       "league": "ufc",
@@ -879,19 +725,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594205",
+      "id": "sportsdb-2499165",
       "league": "ncaaf",
-      "name": "Central Arkansas vs North Alabama",
-      "date": "2026-10-31T21:00:00Z",
+      "name": "Georgia Southern vs Appalachian State",
+      "date": "2026-10-31T22:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Central Arkansas",
+          "name": "Georgia Southern",
           "score": ""
         },
         {
-          "name": "North Alabama",
+          "name": "Appalachian State",
           "score": ""
         }
       ],
@@ -972,66 +818,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489538",
-      "league": "ligue1",
-      "name": "Strasbourg vs Auxerre",
-      "date": "2026-11-01T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Strasbourg",
-          "score": ""
-        },
-        {
-          "name": "Auxerre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Mexican Grand Prix qualifying: Formula One 2026 – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/mexican-grand-prix-qualifying-formula-one-2026-live",
-      "date": "2026-10-31T20:41:04Z",
+      "title": "Are De Zerbi's Spurs finding elusive consistency?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n04v897qe4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T21:16:11Z",
       "league": "all"
     },
     {
-      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
+      "title": "Mexican Grand Prix qualifying: Formula One 2026 – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
-      "date": "2026-10-31T20:38:55Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/mexican-grand-prix-qualifying-formula-one-2026-live",
+      "date": "2026-10-31T21:13:39Z",
       "league": "all"
     },
     {
       "title": "Breeders’ Cup 2026, day two: horse racing – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T20:36:33Z",
+      "date": "2026-10-31T21:06:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
+      "date": "2026-10-31T21:04:44Z",
       "league": "all"
     },
     {
@@ -1039,6 +854,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6d7qwnz1jnjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:36:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Naderi breaks Aberdeen’s resistance as Rangers reach Premier Sports Cup final",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
+      "date": "2026-10-31T20:36:08Z",
       "league": "all"
     },
     {
@@ -1133,13 +955,6 @@
       "league": "soccer"
     },
     {
-      "title": "Cokanasiga scores twice as Bath overcome Sale",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3vgxjnew1w0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T18:50:34Z",
-      "league": "all"
-    },
-    {
       "title": "It's not time to make compromises - Glasner",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmzxj5glve9no?at_medium=RSS&at_campaign=rss",
@@ -1180,6 +995,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck9dz2yned67o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T17:40:41Z",
       "league": "all"
+    },
+    {
+      "title": "Championship roundup: Pressure grows on Nuno as West Ham beaten at home",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/championship-roundup-birmingham-burnley-middlesbrough-southampton-wolves",
+      "date": "2026-10-31T17:39:40Z",
+      "league": "soccer"
     },
     {
       "title": "Packers’ Josh Jacobs faces fresh abuse allegations from three women in police records",
@@ -1224,6 +1046,13 @@
       "league": "all"
     },
     {
+      "title": "Michael Carrick insists he will still be in charge of Manchester United against Roma",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/31/michael-carrick-chelsea-manchester-united-roma-premier-league",
+      "date": "2026-10-31T16:43:37Z",
+      "league": "all"
+    },
+    {
       "title": "Returning Estevao brings X-factor to strikerless Chelsea",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0p143qzyo?at_medium=RSS&at_campaign=rss",
@@ -1252,7 +1081,7 @@
       "league": "all"
     },
     {
-      "title": "Carrick bemoans Man Utd defending in Chelsea loss",
+      "title": "Carrick bemoans Man Utd defending in loss to Chelsea",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqrlywrdjdzyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T15:13:43Z",
@@ -1274,17 +1103,10 @@
     },
     {
       "title": "Manchester United miss chance to close on WSL top three in drab draw at Everton",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/31/everton-manchester-united-wsl-match-report",
       "date": "2026-10-31T14:59:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United crisis deepens with Chelsea defeat and Martínez red card",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/chelsea-manchester-united-premier-league-match-report",
-      "date": "2026-10-31T14:42:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "A 3/10 that might be generous - player ratings for Chelsea v Man Utd",
@@ -1312,20 +1134,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/south-africa-australia-third-test-match-report",
       "date": "2026-10-31T13:34:44Z",
-      "league": "all"
-    },
-    {
-      "title": "'Un-Australian' - Warner tears into former side after SA charge to win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmdx3p354v04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T13:23:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Fallon Sherrock pulls off shock defeat of world darts No 1 Luke Littler in live TV battle",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/31/fallon-sherrock-shock-defeat-luke-littler-darts-live-tv-battle-netflix",
-      "date": "2026-10-31T12:41:45Z",
       "league": "all"
     }
   ]
