@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T11:20:42Z",
+  "updated_at": "2026-10-31T11:55:26Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -972,88 +972,64 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489540",
-      "league": "ligue1",
-      "name": "Troyes vs Le Mans",
-      "date": "2026-10-31T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Mans",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T11:18:53Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Australia 66-6 Cook Islands: men’s Rugby League World Cup – live reaction",
+      "title": "South Africa v Australia: third men’s cricket Test, day five – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/australia-vs-cook-islands-mens-rugby-league-world-cup-live-updates",
-      "date": "2026-10-31T11:11:44Z",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/south-africa-v-australia-third-test-day-five-cricket-newlands-cape-town-live-updates",
+      "date": "2026-10-31T11:53:53Z",
       "league": "all"
     },
     {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T11:07:55Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa v Australia: third men’s cricket Test, day five – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/south-africa-v-australia-third-test-day-five-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-31T11:03:38Z",
+      "date": "2026-10-31T11:52:26Z",
       "league": "all"
     },
     {
       "title": "Chelsea v Manchester United: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-premier-league-live",
-      "date": "2026-10-31T11:00:42Z",
+      "date": "2026-10-31T11:51:07Z",
       "league": "all"
     },
     {
       "title": "Chelsea v Manchester United buildup, Premier League, WSL and more – matchday live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-buildup-premier-league-wsl-and-more-matchday-live",
-      "date": "2026-10-31T10:52:14Z",
+      "date": "2026-10-31T11:41:05Z",
       "league": "soccer"
+    },
+    {
+      "title": "Scotland men slip up at European curling before semi-finals live on BBC",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T11:39:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Briton Dart reaches first WTA Tour singles final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T11:37:55Z",
+      "league": "all"
+    },
+    {
+      "title": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T11:18:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Reece Walsh fires clunky Australia to Rugby League World Cup win against Cook Islands",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/australia-kangaroos-cook-islands-mens-rugby-league-world-cup-match-report",
+      "date": "2026-10-31T11:18:48Z",
+      "league": "all"
     },
     {
       "title": "Fallon Sherrock pulls off shock defeat of world darts No 1 Luke Littler in live TV battle",
@@ -1074,6 +1050,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm75p91x04x5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T09:34:21Z",
+      "league": "all"
+    },
+    {
+      "title": "He was one of the NFL’s most feared runners. Now Larry Johnson fears what football did to his brain",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/larry-johnson-nfl-cte-brain-injuries-kansas-city-chiefs",
+      "date": "2026-10-31T09:00:38Z",
       "league": "all"
     },
     {
@@ -1161,13 +1144,6 @@
       "league": "all"
     },
     {
-      "title": "England see off USA to return to winning ways",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq98zrj5dj6ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T23:15:38Z",
-      "league": "all"
-    },
-    {
       "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
@@ -1190,17 +1166,10 @@
     },
     {
       "title": "From WiFi to 'relief' - how was Ferguson's Irish League debut?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj5ynr23rg4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T22:52:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Cox sets world record to win gold at Worlds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/c6qxnpdr7ezxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T22:31:25Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Xabi Alonso rules out January loan move for Chelsea winger Estêvão Willian",
@@ -1320,13 +1289,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
       "date": "2026-10-30T16:16:24Z",
       "league": "soccer"
-    },
-    {
-      "title": "Bay City Roller can prove top of the pops in fascinating Breeders’ Cup Turf",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/bay-city-roller-breeders-cup-turf-horse-racing-tips",
-      "date": "2026-10-30T16:14:05Z",
-      "league": "all"
     }
   ]
 }
