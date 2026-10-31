@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T23:19:48Z",
+  "updated_at": "2026-10-31T23:52:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 12,
@@ -725,19 +725,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499137",
+      "id": "sportsdb-2499154",
       "league": "ncaaf",
-      "name": "Texas vs Mississippi State",
-      "date": "2026-10-31T23:30:00Z",
+      "name": "Nebraska vs Washington",
+      "date": "2026-11-01T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Texas",
+          "name": "Nebraska",
           "score": ""
         },
         {
-          "name": "Mississippi State",
+          "name": "Washington",
           "score": ""
         }
       ],
@@ -860,10 +860,45 @@
   ],
   "stories": [
     {
+      "title": "Are Manchester United really at risk of a relegation scrap?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:52:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Ocon denies reports of physical altercation behind dropping",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n04vjjpkv4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:43:41Z",
+      "league": "all"
+    },
+    {
       "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 7 – live buildup",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
-      "date": "2026-10-31T23:08:09Z",
+      "date": "2026-10-31T23:43:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo reclaims title with vintage win over Mbilli",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cmy4xey44yqno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:42:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo Álvarez wins back world title as Houthi attacks cast shadow over Riyadh",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/canelo-alvarez-christian-mbilli-wbc-world-title-riyadh-boxing",
+      "date": "2026-10-31T23:26:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Breeders’ Cup 2026, day two: Moore’s ‘one bullet’ hits the target in Turf – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
+      "date": "2026-10-31T23:25:51Z",
       "league": "all"
     },
     {
@@ -874,24 +909,10 @@
       "league": "all"
     },
     {
-      "title": "Canelo Álvarez defeats Christian Mbilli for WBC super-middleweight championship – live reaction",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
-      "date": "2026-10-31T23:07:31Z",
-      "league": "all"
-    },
-    {
       "title": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6reyl8zp3jwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T23:07:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Breeders’ Cup 2026, day two: horse racing – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T23:06:43Z",
       "league": "all"
     },
     {
@@ -976,13 +997,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:14:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Bowen double helps Cardiff beat pointless Ospreys",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm3el2gwlwwdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T21:44:20Z",
       "league": "all"
     },
     {
@@ -1071,10 +1085,10 @@
     },
     {
       "title": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/enzo-maresca-manchester-city-brighton-premier-league",
       "date": "2026-10-31T18:38:43Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Usyk eyes 'final chapter' at cruiserweight against Benavidez",
@@ -1147,13 +1161,6 @@
       "league": "soccer"
     },
     {
-      "title": "Ayari on target as Brighton stun Manchester City to close gap on leaders",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/manchester-city-brighton-premier-league-match-report",
-      "date": "2026-10-31T16:59:12Z",
-      "league": "all"
-    },
-    {
       "title": "Pakistan win tri-series final as Fakhar Zaman century denies Sri Lanka in thrilling chase",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/pakistan-sri-lanka-tri-series-final",
@@ -1165,13 +1172,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/michael-carrick-chelsea-manchester-united-roma-premier-league",
       "date": "2026-10-31T16:43:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Returning Estevao brings X-factor to strikerless Chelsea",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0p143qzyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T16:34:42Z",
       "league": "all"
     }
   ]
