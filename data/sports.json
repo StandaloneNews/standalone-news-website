@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T20:17:33Z",
+  "updated_at": "2026-10-31T20:55:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -972,9 +972,96 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489538",
+      "league": "ligue1",
+      "name": "Strasbourg vs Auxerre",
+      "date": "2026-11-01T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Strasbourg",
+          "score": ""
+        },
+        {
+          "name": "Auxerre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Mexican Grand Prix qualifying: Formula One 2026 – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/mexican-grand-prix-qualifying-formula-one-2026-live",
+      "date": "2026-10-31T20:41:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
+      "date": "2026-10-31T20:38:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Breeders’ Cup 2026, day two: horse racing – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
+      "date": "2026-10-31T20:36:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Verbruggen spreads belief as Brighton continue to impress",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6d7qwnz1jnjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T20:36:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Saints come from behind to beat in-form Gloucester",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj5ynk53x39eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T20:35:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Glasner fears he will be next Forest sacking if wins don't follow",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvn067174knjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T20:26:15Z",
+      "league": "all"
+    },
+    {
+      "title": "More goals for Lankshear, home woes for Hammers - Aaron McLean's EFL Takeaways",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv369yp2451lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T20:24:50Z",
+      "league": "all"
+    },
     {
       "title": "Tottenham mood 'totally different' - De Zerbi",
       "source": "BBC Sport",
@@ -983,11 +1070,11 @@
       "league": "all"
     },
     {
-      "title": "Breeders’ Cup 2026, day two: horse racing – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T20:07:05Z",
-      "league": "all"
+      "title": "Sage looking for solutions to Palace form",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6r7yx55n3gjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T20:13:28Z",
+      "league": "soccer"
     },
     {
       "title": "European football: Kane misses penalty as Dortmund share spoils in Der Klassiker",
@@ -1015,20 +1102,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/mikel-arteta-dossier-arsenal-everton-premier-league",
       "date": "2026-10-31T20:00:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
-      "date": "2026-10-31T19:55:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Saints come from behind to beat in-form Gloucester",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj5ynk53x39eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T19:52:21Z",
       "league": "all"
     },
     {
@@ -1071,20 +1144,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmzxj5glve9no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T18:48:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Edinburgh lose unbeaten URC record at hands of Benetton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx23w76krlro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T18:19:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Watch: Youth Olympics Opening Ceremony",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/l00590gm?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T18:16:27Z",
       "league": "all"
     },
     {
@@ -1145,10 +1204,10 @@
     },
     {
       "title": "‘I’m not here to be liked’: Glasner defiant as Brentford capitalise on Forest woes",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/31/brentford-nottingham-forest-premier-league-match-report",
       "date": "2026-10-31T17:09:34Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Ayari on target as Brighton stun Manchester City to close gap on leaders",
@@ -1267,27 +1326,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/fallon-sherrock-shock-defeat-luke-littler-darts-live-tv-battle-netflix",
       "date": "2026-10-31T12:41:45Z",
-      "league": "all"
-    },
-    {
-      "title": "Briton Dart reaches first WTA Tour singles final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T11:37:55Z",
-      "league": "all"
-    },
-    {
-      "title": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T11:18:53Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Reece Walsh fires clunky Australia to Rugby League World Cup win against Cook Islands",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/31/australia-kangaroos-cook-islands-mens-rugby-league-world-cup-match-report",
-      "date": "2026-10-31T11:18:48Z",
       "league": "all"
     }
   ]
