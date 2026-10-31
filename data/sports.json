@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T13:17:37Z",
+  "updated_at": "2026-10-31T13:59:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -972,47 +972,49 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489540",
-      "league": "ligue1",
-      "name": "Troyes vs Le Mans",
-      "date": "2026-10-31T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Mans",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Chelsea v Manchester United: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-premier-league-live",
-      "date": "2026-10-31T13:14:01Z",
+      "title": "Carragher apologises to Villa for 'wrong' language",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj6jp63k87zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T13:51:00Z",
       "league": "all"
     },
     {
-      "title": "South Africa v Australia: third men’s cricket Test, day five – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/south-africa-v-australia-third-test-day-five-cricket-newlands-cape-town-live-updates",
-      "date": "2026-10-31T13:13:15Z",
-      "league": "all"
+      "title": "Chelsea v Manchester United: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-premier-league-live",
+      "date": "2026-10-31T13:49:33Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
+      "date": "2026-10-31T13:48:33Z",
+      "league": "soccer"
     },
     {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T13:13:03Z",
+      "date": "2026-10-31T13:42:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia collapse on final day as Simon Harmer spins South Africa to series win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/south-africa-australia-third-test-match-report",
+      "date": "2026-10-31T13:34:44Z",
+      "league": "all"
+    },
+    {
+      "title": "'Un-Australian' - Warner tears into former side after SA charge to win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmdx3p354v04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T13:23:15Z",
       "league": "all"
     },
     {
@@ -1163,13 +1165,6 @@
       "league": "all"
     },
     {
-      "title": "Villa to sue Carragher over 'unacceptable insults'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqd09p3kppyvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T23:05:45Z",
-      "league": "all"
-    },
-    {
       "title": "Alex de Minaur hits career milestone in Vienna to book semi-final date with Zverev",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/alex-de-minaur-matteo-berrettini-tennis-quarter-final-vienna-open-report",
@@ -1255,10 +1250,10 @@
     },
     {
       "title": "Why has Caf abandoned plans to hold Afcon every four years?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T17:33:02Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England beat Papua New Guinea but World Cup hopes in doubt",
@@ -1289,25 +1284,11 @@
       "league": "soccer"
     },
     {
-      "title": "Premier League team news: predicted lineups for the weekend action",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/premier-league-team-news-predicted-lineups-for-the-weekend-action",
-      "date": "2026-10-30T16:19:26Z",
-      "league": "soccer"
-    },
-    {
       "title": "Putellas provides mindset change as London City bid to upstage champions",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
       "date": "2026-10-30T16:16:24Z",
       "league": "soccer"
-    },
-    {
-      "title": "Bay City Roller can prove top of the pops in fascinating Breeders’ Cup Turf",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/bay-city-roller-breeders-cup-turf-horse-racing-tips",
-      "date": "2026-10-30T16:14:05Z",
-      "league": "all"
     }
   ]
 }
