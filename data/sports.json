@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T16:22:02Z",
+  "updated_at": "2026-10-31T16:57:19Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -879,19 +879,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499157",
+      "id": "sportsdb-2499168",
       "league": "ncaaf",
-      "name": "Rutgers vs Michigan",
-      "date": "2026-10-31T16:30:00Z",
+      "name": "Old Dominion vs Marshall",
+      "date": "2026-10-31T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Rutgers",
+          "name": "Old Dominion",
           "score": ""
         },
         {
-          "name": "Michigan",
+          "name": "Marshall",
           "score": ""
         }
       ],
@@ -976,17 +976,31 @@
   ],
   "stories": [
     {
-      "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T16:21:57Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
-      "date": "2026-10-31T16:21:44Z",
+      "date": "2026-10-31T16:50:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Pakistan win tri-series final as Fakhar Zaman century denies Sri Lanka in thrilling chase",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/pakistan-sri-lanka-tri-series-final",
+      "date": "2026-10-31T16:46:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Martinez's 'inexplicable' 83 seconds cost Man Utd and Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckvg64xp1e1eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T16:38:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Returning Estevao brings X-factor to strikerless Chelsea",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0p143qzyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T16:34:42Z",
       "league": "all"
     },
     {
@@ -1130,13 +1144,6 @@
       "league": "all"
     },
     {
-      "title": "Listen: Shearer on MOTD, managerial jobs & scoring record",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pkgq2g?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T10:00:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "Wales complete Japan double to end WXV on a high",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm75p91x04x5o?at_medium=RSS&at_campaign=rss",
@@ -1180,10 +1187,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6x2qr8dj81vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T06:54:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "AC Milan v Inter and the tale of an iconic image",
@@ -1218,13 +1225,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c65yn0w2w152o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T23:56:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Sherrock happy to overcome 'hate' in beating Littler for £501,000",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/crkg7p1z3p3lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T23:38:06Z",
       "league": "all"
     },
     {
@@ -1277,18 +1277,18 @@
       "league": "ufc"
     },
     {
-      "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T21:26:10Z",
-      "league": "soccer"
-    },
-    {
       "title": "Suspicious bets returning £149,000 for predicting Ballon d’Or under investigation",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/ballon-dor-betting-suspicious-cryptocurrency-investigation",
       "date": "2026-10-30T21:12:33Z",
       "league": "soccer"
+    },
+    {
+      "title": "Arteta can take inspiration from George Graham to expunge painful Anfield memories",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/mikel-arteta-arsenal-inspiration-george-graham-anfield-liverpool",
+      "date": "2026-10-30T20:00:23Z",
+      "league": "all"
     }
   ]
 }
