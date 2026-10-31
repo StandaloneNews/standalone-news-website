@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T22:54:26Z",
+  "updated_at": "2026-10-31T23:19:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -687,57 +687,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601748",
+      "id": "sportsdb-2601749",
       "league": "nba",
-      "name": "New Orleans Pelicans vs Atlanta Hawks",
-      "date": "2026-10-31T23:00:00Z",
+      "name": "San Antonio Spurs vs Minnesota Timberwolves",
+      "date": "2026-11-01T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New Orleans Pelicans",
+          "name": "San Antonio Spurs",
           "score": ""
         },
         {
-          "name": "Atlanta Hawks",
+          "name": "Minnesota Timberwolves",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591707",
+      "id": "sportsdb-2591709",
       "league": "nhl",
-      "name": "Montreal Canadiens vs Pittsburgh Penguins",
-      "date": "2026-10-31T23:00:00Z",
+      "name": "Dallas Stars vs Columbus Blue Jackets",
+      "date": "2026-11-01T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Montreal Canadiens",
+          "name": "Dallas Stars",
           "score": ""
         },
         {
-          "name": "Pittsburgh Penguins",
+          "name": "Columbus Blue Jackets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499142",
+      "id": "sportsdb-2499137",
       "league": "ncaaf",
-      "name": "Iowa State vs Oklahoma State",
-      "date": "2026-10-31T23:00:00Z",
+      "name": "Texas vs Mississippi State",
+      "date": "2026-10-31T23:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Iowa State",
+          "name": "Texas",
           "score": ""
         },
         {
-          "name": "Oklahoma State",
+          "name": "Mississippi State",
           "score": ""
         }
       ],
@@ -818,36 +818,95 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489538",
+      "league": "ligue1",
+      "name": "Strasbourg vs Auxerre",
+      "date": "2026-11-01T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Strasbourg",
+          "score": ""
+        },
+        {
+          "name": "Auxerre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live",
+      "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 7 – live buildup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
+      "date": "2026-10-31T23:08:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Coventry, Ipswich, Hull - promoted trio enjoy positive starts",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzv8404ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:08:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo Álvarez defeats Christian Mbilli for WBC super-middleweight championship – live reaction",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
-      "date": "2026-10-31T22:40:55Z",
-      "league": "all"
-    },
-    {
-      "title": "Mexican Grand Prix qualifying: Lewis Hamilton takes pole – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/mexican-grand-prix-qualifying-formula-one-2026-live",
-      "date": "2026-10-31T22:39:18Z",
-      "league": "all"
-    },
-    {
-      "title": "Breeders’ Cup 2026, day two: horse racing – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T22:36:06Z",
+      "date": "2026-10-31T23:07:31Z",
       "league": "all"
     },
     {
       "title": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6reyl8zp3jwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:33:25Z",
+      "date": "2026-10-31T23:07:02Z",
       "league": "all"
+    },
+    {
+      "title": "Breeders’ Cup 2026, day two: horse racing – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
+      "date": "2026-10-31T23:06:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Lewis Hamilton storms to his first Ferrari pole at F1 Mexican GP with Antonelli fourth",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/lewis-hamilton-storms-to-first-ferrari-pole-at-f1-mexican-grand-prix-with-antonelli-fifth",
+      "date": "2026-10-31T23:03:18Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Kane misses penalty as Dortmund share spoils in Der Klassiker",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/european-football-harry-kane-bayern-munich-borussia-dortmund-milan-inter-barcelona",
+      "date": "2026-10-31T22:41:08Z",
+      "league": "soccer"
     },
     {
       "title": "Chelsea beat 10-man Man Utd to pile more pressure on Carrick",
@@ -857,7 +916,7 @@
       "league": "all"
     },
     {
-      "title": "Brighton pick up first away league victory over Man City to go third",
+      "title": "Brighton pick up first away league victory over Man City",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqx28l2gdepxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:30:05Z",
@@ -969,20 +1028,6 @@
       "league": "soccer"
     },
     {
-      "title": "Tottenham mood 'totally different' - De Zerbi",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9203ymmn1m3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T20:13:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "European football: Kane misses penalty as Dortmund share spoils in Der Klassiker",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/european-football-harry-kane-bayern-munich-borussia-dortmund-milan-inter-barcelona",
-      "date": "2026-10-31T20:06:46Z",
-      "league": "soccer"
-    },
-    {
       "title": "Mitchell injury blow adds to England’s woes as Northampton sink Gloucester",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/northampton-gloucester-prem-rugby-union-match-report",
@@ -1023,6 +1068,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cve8rkd8r302o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T19:05:41Z",
       "league": "all"
+    },
+    {
+      "title": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/enzo-maresca-manchester-city-brighton-premier-league",
+      "date": "2026-10-31T18:38:43Z",
+      "league": "soccer"
     },
     {
       "title": "Usyk eyes 'final chapter' at cruiserweight against Benavidez",
@@ -1121,20 +1173,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0p143qzyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T16:34:42Z",
       "league": "all"
-    },
-    {
-      "title": "Carrick bemoans Man Utd defending in loss to Chelsea",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqrlywrdjdzyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T15:13:43Z",
-      "league": "all"
-    },
-    {
-      "title": "‘We need to be better’: Manchester United’s Olid demands progress after Everton draw",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/everton-manchester-united-wsl-match-report",
-      "date": "2026-10-31T14:59:15Z",
-      "league": "soccer"
     }
   ]
 }
