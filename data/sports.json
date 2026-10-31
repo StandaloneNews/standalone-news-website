@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T15:54:41Z",
+  "updated_at": "2026-10-31T16:22:02Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -879,19 +879,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499138",
+      "id": "sportsdb-2499157",
       "league": "ncaaf",
-      "name": "Texas Tech vs Arizona",
-      "date": "2026-10-31T16:00:00Z",
+      "name": "Rutgers vs Michigan",
+      "date": "2026-10-31T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Texas Tech",
+          "name": "Rutgers",
           "score": ""
         },
         {
-          "name": "Arizona",
+          "name": "Michigan",
           "score": ""
         }
       ],
@@ -972,40 +972,21 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489540",
-      "league": "ligue1",
-      "name": "Troyes vs Le Mans",
-      "date": "2026-10-31T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Mans",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
-      "date": "2026-10-31T15:47:29Z",
-      "league": "all"
-    },
-    {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T15:46:41Z",
+      "date": "2026-10-31T16:21:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
+      "date": "2026-10-31T16:21:44Z",
       "league": "all"
     },
     {
@@ -1037,7 +1018,7 @@
       "league": "all"
     },
     {
-      "title": "Parsons hat-trick as Irish beat South Africa again",
+      "title": "Parsons hat-trick as Irish seal South Africa series win",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwe8lp875engo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T15:12:40Z",
