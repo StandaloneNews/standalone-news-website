@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T01:27:32Z",
+  "updated_at": "2026-10-31T02:31:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -841,19 +841,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601744",
+      "id": "sportsdb-2601746",
       "league": "nba",
-      "name": "Golden State Warriors vs Los Angeles Lakers",
-      "date": "2026-10-31T02:00:00Z",
+      "name": "Utah Jazz vs Portland Trail Blazers",
+      "date": "2026-10-31T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Golden State Warriors",
+          "name": "Utah Jazz",
           "score": ""
         },
         {
-          "name": "Los Angeles Lakers",
+          "name": "Portland Trail Blazers",
           "score": ""
         }
       ],
@@ -879,19 +879,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499170",
+      "id": "sportsdb-2499138",
       "league": "ncaaf",
-      "name": "Sacramento State vs Kent State",
-      "date": "2026-10-31T02:30:00Z",
+      "name": "Texas Tech vs Arizona",
+      "date": "2026-10-31T16:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sacramento State",
+          "name": "Texas Tech",
           "score": ""
         },
         {
-          "name": "Kent State",
+          "name": "Arizona",
           "score": ""
         }
       ],
@@ -968,6 +968,44 @@
         },
         {
           "name": "Monza",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489540",
+      "league": "ligue1",
+      "name": "Troyes vs Le Mans",
+      "date": "2026-10-31T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Mans",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
           "score": ""
         }
       ],
