@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:52:10Z",
+  "updated_at": "2026-10-31T18:19:27Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -860,38 +860,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591703",
+      "id": "sportsdb-2591705",
       "league": "nhl",
-      "name": "Nashville Predators vs Tampa Bay Lightning",
-      "date": "2026-10-31T18:00:00Z",
+      "name": "Los Angeles Kings vs Buffalo Sabres",
+      "date": "2026-10-31T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nashville Predators",
+          "name": "Los Angeles Kings",
           "score": ""
         },
         {
-          "name": "Tampa Bay Lightning",
+          "name": "Buffalo Sabres",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499141",
+      "id": "sportsdb-2499162",
       "league": "ncaaf",
-      "name": "Colorado vs Kansas State",
-      "date": "2026-10-31T18:00:00Z",
+      "name": "East Carolina vs Temple",
+      "date": "2026-10-31T19:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado",
+          "name": "East Carolina",
           "score": ""
         },
         {
-          "name": "Kansas State",
+          "name": "Temple",
           "score": ""
         }
       ],
@@ -977,17 +977,45 @@
   "stories": [
     {
       "title": "Tottenham v Crystal Palace: Premier League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/tottenham-v-crystal-palace-premier-league-live",
-      "date": "2026-10-31T17:51:49Z",
+      "date": "2026-10-31T18:12:07Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Usyk eyes 'final chapter' at cruiserweight against Benavidez",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/crpdg3qwjg4eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T18:11:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Le Bris shrugs off questions on Sunderland future",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm9dz2yy1225o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T18:08:39Z",
       "league": "all"
     },
     {
       "title": "Breeders’ Cup 2026, day two: horse racing – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T17:47:19Z",
+      "date": "2026-10-31T18:04:03Z",
       "league": "all"
+    },
+    {
+      "title": "18-year-old Mfuni 'will go a long way' - Lampard",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c60qkyzeqz44o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T18:00:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/manchester-united-chelsea-premier-league-michael-carrick",
+      "date": "2026-10-31T17:54:19Z",
+      "league": "soccer"
     },
     {
       "title": "'Best thing is keep your mouth shut' - Mourinho on Mbappe-Mao row",
@@ -1008,6 +1036,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/josh-jacobs-green-bay-packers-abuse-allegations-police-records",
       "date": "2026-10-31T17:35:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Cokanasiga scores twice as Bath beat Sale",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3vgxjnew1w0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T17:31:15Z",
       "league": "all"
     },
     {
@@ -1200,13 +1235,6 @@
       "league": "all"
     },
     {
-      "title": "Olsen-Baker named Women's World Player of the Year",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm0e02xn583go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T09:24:41Z",
-      "league": "all"
-    },
-    {
       "title": "He was one of the NFL’s most feared runners. Now Larry Johnson fears what football did to his brain",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/larry-johnson-nfl-cte-brain-injuries-kansas-city-chiefs",
@@ -1225,13 +1253,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/how-alexis-mac-allister-shook-off-contract-doubts-liverpool-revival",
       "date": "2026-10-31T08:00:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Jones challenges Red Roses to keep rivals guessing",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmqjnp85gyxzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T07:27:05Z",
       "league": "all"
     },
     {
@@ -1267,27 +1288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c65yn0w2w152o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T23:56:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Red Roses put defeats behind them by crushing USA to extend 35-year streak",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/england-return-to-winning-ways-with-comfortable-victory-over-usa",
-      "date": "2026-10-30T23:22:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Xabi Alonso rules out January loan move for Chelsea winger Estêvão Willian",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/xabi-alonso-rules-out-january-loan-move-estevao-willian-chelsea-manchester-united-premier-league",
-      "date": "2026-10-30T22:30:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Searle makes difference as Leicester battle to Prem top spot at Bristol",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/bristol-exeter-prem-rugby-union-match-report",
-      "date": "2026-10-30T21:46:06Z",
       "league": "all"
     }
   ]
