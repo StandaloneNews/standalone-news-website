@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T19:07:58Z",
+  "updated_at": "2026-10-31T19:54:19Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -879,19 +879,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499149",
+      "id": "sportsdb-2499164",
       "league": "ncaaf",
-      "name": "Louisville vs Stanford",
-      "date": "2026-10-31T19:15:00Z",
+      "name": "San Jose State vs New Mexico",
+      "date": "2026-10-31T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Louisville",
+          "name": "San Jose State",
           "score": ""
         },
         {
-          "name": "Stanford",
+          "name": "New Mexico",
           "score": ""
         }
       ],
@@ -955,19 +955,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482230",
+      "id": "sportsdb-2482237",
       "league": "seriea",
-      "name": "AC Milan vs Inter Milan",
-      "date": "2026-10-31T19:45:00Z",
+      "name": "Como vs Venezia",
+      "date": "2026-11-01T11:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "AC Milan",
+          "name": "Como",
           "score": ""
         },
         {
-          "name": "Inter Milan",
+          "name": "Venezia",
           "score": ""
         }
       ],
@@ -976,18 +976,53 @@
   ],
   "stories": [
     {
-      "title": "Maresca's big test is to address mounting Man City issues",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cve8rkd8r302o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T19:05:41Z",
+      "title": "Saints come from behind to beat in-form Gloucester",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj5ynk53x39eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T19:52:21Z",
+      "league": "all"
+    },
+    {
+      "title": "World number one-bound Zverev loses to De Minaur",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq398yn8zvr9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T19:44:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Tottenham ease past Crystal Palace as pressure intensifies on Sage",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/tottenham-crystal-palace-premier-league-match-report",
+      "date": "2026-10-31T19:42:20Z",
       "league": "soccer"
     },
     {
-      "title": "Tottenham v Crystal Palace: Premier League – live",
-      "source": "The Guardian Football",
+      "title": "Breeders’ Cup 2026, day two: horse racing – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
+      "date": "2026-10-31T19:39:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Tottenham 2-0 Crystal Palace: Premier League – live reaction",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/tottenham-v-crystal-palace-premier-league-live",
-      "date": "2026-10-31T19:00:35Z",
-      "league": "soccer"
+      "date": "2026-10-31T19:38:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
+      "date": "2026-10-31T19:30:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Maresca's big test is to address mounting Man City issues",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cve8rkd8r302o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T19:05:41Z",
+      "league": "all"
     },
     {
       "title": "Man Utd held to goalless draw at Everton",
@@ -997,24 +1032,17 @@
       "league": "soccer"
     },
     {
-      "title": "Breeders’ Cup 2026, day two: horse racing – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T18:53:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Cokanasiga scores twice as Bath beat Sale",
+      "title": "Cokanasiga scores twice as Bath overcome Sale",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3vgxjnew1w0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T18:50:34Z",
       "league": "all"
     },
     {
-      "title": "Edinburgh lose unbeaten URC record at hands of Benetton",
+      "title": "It's not time to make compromises - Glasner",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx23w76krlro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T18:19:19Z",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmzxj5glve9no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T18:48:24Z",
       "league": "all"
     },
     {
@@ -1033,10 +1061,10 @@
     },
     {
       "title": "Le Bris shrugs off questions on Sunderland future",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm9dz2yy1225o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T18:08:39Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "18-year-old Mfuni 'will go a long way' - Lampard",
@@ -1214,13 +1242,6 @@
       "league": "all"
     },
     {
-      "title": "New Zealand into semis with statement win over Fiji",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ck8dz8z712pno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T12:25:34Z",
-      "league": "all"
-    },
-    {
       "title": "Briton Dart reaches first WTA Tour singles final",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cqwyr2r3jggno?at_medium=RSS&at_campaign=rss",
@@ -1229,10 +1250,10 @@
     },
     {
       "title": "'We fell behind' - what does new San Siro deal mean for AC Milan and Inter?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c84g15r12xn3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T11:18:53Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Reece Walsh fires clunky Australia to Rugby League World Cup win against Cook Islands",
@@ -1267,27 +1288,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/how-alexis-mac-allister-shook-off-contract-doubts-liverpool-revival",
       "date": "2026-10-31T08:00:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2qr8dj81vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T06:54:52Z",
-      "league": "soccer"
-    },
-    {
-      "title": "AC Milan v Inter and the tale of an iconic image",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T06:44:38Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T06:23:58Z",
       "league": "all"
     }
   ]
