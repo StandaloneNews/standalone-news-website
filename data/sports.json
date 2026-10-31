@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T15:21:08Z",
+  "updated_at": "2026-10-31T15:54:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -972,6 +972,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489540",
+      "league": "ligue1",
+      "name": "Troyes vs Le Mans",
+      "date": "2026-10-31T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Mans",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -979,14 +998,35 @@
       "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
-      "date": "2026-10-31T15:17:52Z",
+      "date": "2026-10-31T15:47:29Z",
       "league": "all"
     },
     {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T15:16:42Z",
+      "date": "2026-10-31T15:46:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Pogacar 'happy to be alive' after 'scary' crash",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/articles/cwg5j38gzy69o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:26:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane beat Mbappe to Ballon d'Or by just 28 points",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6073yeg52xeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:21:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Alonso praises Estevao response to lack of gametime",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr5ynzdpjnn9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:20:53Z",
       "league": "all"
     },
     {
@@ -1123,6 +1163,13 @@
       "league": "all"
     },
     {
+      "title": "Olsen-Baker named Women's World Player of the Year",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm0e02xn583go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T09:24:41Z",
+      "league": "all"
+    },
+    {
       "title": "He was one of the NFL’s most feared runners. Now Larry Johnson fears what football did to his brain",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/larry-johnson-nfl-cte-brain-injuries-kansas-city-chiefs",
@@ -1208,10 +1255,10 @@
     },
     {
       "title": "Man Utd target Barcelona's Lopez - Saturday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck3r52vn758xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T23:08:16Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Alex de Minaur hits career milestone in Vienna to book semi-final date with Zverev",
@@ -1261,34 +1308,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/30/ballon-dor-betting-suspicious-cryptocurrency-investigation",
       "date": "2026-10-30T21:12:33Z",
       "league": "soccer"
-    },
-    {
-      "title": "Arteta can take inspiration from George Graham to expunge painful Anfield memories",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/mikel-arteta-arsenal-inspiration-george-graham-anfield-liverpool",
-      "date": "2026-10-30T20:00:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Fiesta awaits in Mexico City as Kimi Antonelli speeds towards F1 history",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/30/mexico-grand-prix-kimi-antonelli-f1-history",
-      "date": "2026-10-30T20:00:22Z",
-      "league": "all"
-    },
-    {
-      "title": "How can playing for Manchester City fit into Marc Guéhi’s moral universe? | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/manchester-city-financial-charges-guilty-marc-guehi-premier-league",
-      "date": "2026-10-30T20:00:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Zverev thrashes GB's Fery to reach Vienna semis",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm0ld27ew5lyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T18:41:25Z",
-      "league": "all"
     }
   ]
 }
