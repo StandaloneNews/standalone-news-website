@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T05:58:50Z",
+  "updated_at": "2026-10-31T07:20:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -991,28 +991,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2qr8dj81vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T06:54:52Z",
+      "league": "all"
+    },
+    {
+      "title": "AC Milan v Inter and the tale of an iconic image",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq99zlpzm87ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T06:44:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T06:23:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Hyrox athlete who soiled herself puts ‘confronting’ matter behind her to win return race",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/hyrox-athlete-joanna-wietrzyk-wins-hamburg-race-apology",
+      "date": "2026-10-31T06:00:45Z",
+      "league": "all"
+    },
     {
       "title": "Verstappen and Lawson given grid penalties for Mexico practice collision",
       "source": "BBC Sport",
@@ -1217,13 +1226,6 @@
       "league": "all"
     },
     {
-      "title": "From her own Barbie doll to bench - how Ellie Kildunne slipped from Red Roses' XV",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy832jv00p1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T16:22:55Z",
-      "league": "all"
-    },
-    {
       "title": "Fears Chelsea's Lacroix could be out until January",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss",
@@ -1274,10 +1276,10 @@
     },
     {
       "title": "Arteta warns Dowman 'we are not in Disneyland' after red card",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c875p940g5v2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T15:41:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Antonelli set for F1 title, Premier League, and NFL action – follow with us",
@@ -1305,27 +1307,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/30/regis-le-bris-sunderland-coventry-reunion",
       "date": "2026-10-30T14:56:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Set up to fail? Where England's World Cup campaign went wrong",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqp9gv3mr8myo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T14:50:57Z",
-      "league": "all"
-    },
-    {
-      "title": "O'Neill agrees with McGregor about Celtic issues",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwrkypzzp6xeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T14:22:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Britain's first £100m man facing defining moment",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmzxj2e2e5p2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T13:42:15Z",
       "league": "all"
     }
   ]
