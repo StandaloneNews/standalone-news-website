@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T13:59:15Z",
+  "updated_at": "2026-10-31T14:55:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -936,38 +936,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508397",
+      "id": "sportsdb-2508396",
       "league": "bundesliga",
-      "name": "Werder Bremen vs Hoffenheim",
-      "date": "2026-10-31T14:30:00Z",
+      "name": "Bayern Munich vs Borussia Dortmund",
+      "date": "2026-10-31T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Werder Bremen",
+          "name": "Bayern Munich",
           "score": ""
         },
         {
-          "name": "Hoffenheim",
+          "name": "Borussia Dortmund",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2482234",
+      "id": "sportsdb-2482231",
       "league": "seriea",
-      "name": "Bologna vs Monza",
-      "date": "2026-10-31T14:00:00Z",
+      "name": "Udinese vs Roma",
+      "date": "2026-10-31T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bologna",
+          "name": "Udinese",
           "score": ""
         },
         {
-          "name": "Monza",
+          "name": "Roma",
           "score": ""
         }
       ],
@@ -976,31 +976,45 @@
   ],
   "stories": [
     {
+      "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
+      "date": "2026-10-31T14:46:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United crisis deepens with Chelsea defeat and Martínez red card",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/31/chelsea-manchester-united-premier-league-match-report",
+      "date": "2026-10-31T14:42:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
+      "date": "2026-10-31T14:38:48Z",
+      "league": "all"
+    },
+    {
+      "title": "A 3/10 that might be generous - player ratings for Chelsea v Man Utd",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3j47prvlz04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T14:35:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Jamie Carragher apologises to Aston Villa for ‘clumsy and wrong’ comments",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
+      "date": "2026-10-31T13:56:14Z",
+      "league": "all"
+    },
+    {
       "title": "Carragher apologises to Villa for 'wrong' language",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj6jp63k87zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T13:51:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea v Manchester United: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/chelsea-v-manchester-united-premier-league-live",
-      "date": "2026-10-31T13:49:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
-      "date": "2026-10-31T13:48:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T13:42:46Z",
       "league": "all"
     },
     {
@@ -1067,6 +1081,13 @@
       "league": "all"
     },
     {
+      "title": "Olsen-Baker named Women's World Player of the Year",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm0e02xn583go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T09:24:41Z",
+      "league": "all"
+    },
+    {
       "title": "He was one of the NFL’s most feared runners. Now Larry Johnson fears what football did to his brain",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/larry-johnson-nfl-cte-brain-injuries-kansas-city-chiefs",
@@ -1109,7 +1130,7 @@
       "league": "all"
     },
     {
-      "title": "Shearer on trials of MOTD & the manager's job that never was",
+      "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T06:23:58Z",
@@ -1134,13 +1155,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c65yn0w2w152o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T23:56:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Aston Villa to take legal action against Jamie Carragher for ‘unacceptable insults’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
-      "date": "2026-10-30T23:55:37Z",
       "league": "all"
     },
     {
@@ -1208,17 +1222,17 @@
     },
     {
       "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T21:26:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Suspicious bets returning £149,000 for predicting Ballon d’Or under investigation",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/30/ballon-dor-betting-suspicious-cryptocurrency-investigation",
       "date": "2026-10-30T21:12:33Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Arteta can take inspiration from George Graham to expunge painful Anfield memories",
@@ -1275,20 +1289,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T16:27:13Z",
       "league": "all"
-    },
-    {
-      "title": "Fears Chelsea's Lacroix could be out until January",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgkpexjzneo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T16:21:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Putellas provides mindset change as London City bid to upstage champions",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/alexia-putellas-london-city-lionesses-manchester-city-womens-super-league",
-      "date": "2026-10-30T16:16:24Z",
-      "league": "soccer"
     }
   ]
 }
