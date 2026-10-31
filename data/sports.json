@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T02:31:41Z",
+  "updated_at": "2026-10-31T03:27:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -991,33 +991,14 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Verstappen says Lawson 'not very smart' after collision in Mexico practice",
+      "title": "Verstappen and Lawson given grid penalties for Mexico practice collision",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cqde8p6j9ye7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T00:38:31Z",
+      "date": "2026-10-31T03:18:06Z",
       "league": "all"
     },
     {
