@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T21:54:32Z",
+  "updated_at": "2026-10-31T22:21:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -687,19 +687,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601747",
+      "id": "sportsdb-2601748",
       "league": "nba",
-      "name": "Charlotte Hornets vs Philadelphia 76ers",
-      "date": "2026-10-31T22:00:00Z",
+      "name": "New Orleans Pelicans vs Atlanta Hawks",
+      "date": "2026-10-31T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Charlotte Hornets",
+          "name": "New Orleans Pelicans",
           "score": ""
         },
         {
-          "name": "Philadelphia 76ers",
+          "name": "Atlanta Hawks",
           "score": ""
         }
       ],
@@ -822,31 +822,52 @@
   ],
   "stories": [
     {
-      "title": "Bowen double helps Cardiff beat pointless Ospreys",
+      "title": "Hamilton takes first pole for Ferrari at Mexico City Grand Prix",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm3el2gwlwwdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T21:44:20Z",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6reyl8zp3jwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T22:17:34Z",
       "league": "all"
     },
     {
-      "title": "Mexican Grand Prix qualifying: Formula One 2026 – live",
+      "title": "Man Utd enquire about Toney - Sunday's gossip",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T22:14:36Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Mexican Grand Prix qualifying: Lewis Hamilton takes pole – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/mexican-grand-prix-qualifying-formula-one-2026-live",
-      "date": "2026-10-31T21:42:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Breeders’ Cup 2026, day two: horse racing – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T21:42:13Z",
+      "date": "2026-10-31T22:13:33Z",
       "league": "all"
     },
     {
       "title": "Canelo Álvarez v Christian Mbilli: WBC super-middleweight championship – live buildup",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/canelo-alvarez-v-christian-mbilli-wbc-super-middleweight-championship-live-buildup",
-      "date": "2026-10-31T21:40:31Z",
+      "date": "2026-10-31T22:12:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Breeders’ Cup 2026, day two: horse racing – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
+      "date": "2026-10-31T22:09:31Z",
+      "league": "all"
+    },
+    {
+      "title": "AC Milan score three first-half goals to seal derby victory over Inter",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmqln15wdyxgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T21:58:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Bowen double helps Cardiff beat pointless Ospreys",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm3el2gwlwwdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T21:44:20Z",
       "league": "all"
     },
     {
@@ -871,7 +892,7 @@
       "league": "all"
     },
     {
-      "title": "Saints come from behind to beat in-form Gloucester",
+      "title": "Saints rally to beat Gloucester but Mitchell hobbles off injured",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj5ynk53x39eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:35:17Z",
@@ -991,10 +1012,10 @@
     },
     {
       "title": "18-year-old Mfuni 'will go a long way' - Lampard",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c60qkyzeqz44o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T18:00:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
@@ -1043,6 +1064,20 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/oct/31/hull-ipswich-premier-league-match-report",
       "date": "2026-10-31T17:21:57Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Evanilson profits from costly Trafford blunder as Bournemouth punish Leeds",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/bournemouth-leeds-premier-league-match-report",
+      "date": "2026-10-31T17:16:21Z",
+      "league": "soccer"
+    },
+    {
+      "title": "‘I’m not here to be liked’: Glasner defiant as Brentford capitalise on Forest woes",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/brentford-nottingham-forest-premier-league-match-report",
+      "date": "2026-10-31T17:09:34Z",
       "league": "soccer"
     },
     {
@@ -1099,41 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqrlywrdjdzyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T15:13:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Hirakawa replaces Ocon for Mexico City Grand Prix",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/crwydk35zlnvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T15:05:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United miss chance to close on WSL top three in drab draw at Everton",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/everton-manchester-united-wsl-match-report",
-      "date": "2026-10-31T14:59:15Z",
-      "league": "soccer"
-    },
-    {
-      "title": "A 3/10 that might be generous - player ratings for Chelsea v Man Utd",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3j47prvlz04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T14:35:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Jamie Carragher apologises to Aston Villa for ‘clumsy and wrong’ comments",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/aston-villa-to-take-legal-action-against-jamie-carragher-for-unacceptable-insults",
-      "date": "2026-10-31T13:56:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carragher apologises to Villa for 'wrong' language",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj6jp63k87zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T13:51:00Z",
       "league": "all"
     }
   ]
