@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T14:55:05Z",
+  "updated_at": "2026-10-31T15:21:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -898,38 +898,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494081",
+      "id": "sportsdb-2494083",
       "league": "epl",
-      "name": "Bournemouth vs Leeds United",
-      "date": "2026-10-31T15:00:00Z",
+      "name": "Tottenham Hotspur vs Crystal Palace",
+      "date": "2026-10-31T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bournemouth",
+          "name": "Tottenham Hotspur",
           "score": ""
         },
         {
-          "name": "Leeds United",
+          "name": "Crystal Palace",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2506276",
+      "id": "sportsdb-2506273",
       "league": "laliga",
-      "name": "Rayo Vallecano vs Celta Vigo",
-      "date": "2026-10-31T15:15:00Z",
+      "name": "Real Betis vs Málaga",
+      "date": "2026-10-31T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Rayo Vallecano",
+          "name": "Real Betis",
           "score": ""
         },
         {
-          "name": "Celta Vigo",
+          "name": "Málaga",
           "score": ""
         }
       ],
@@ -976,10 +976,59 @@
   ],
   "stories": [
     {
+      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
+      "date": "2026-10-31T15:17:52Z",
+      "league": "all"
+    },
+    {
       "title": "Pakistan v Sri Lanka: tri-series cricket one-day international final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/pakistan-v-sri-lanka-tri-series-odi-final-live",
-      "date": "2026-10-31T14:46:20Z",
+      "date": "2026-10-31T15:16:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick bemoans Man Utd defending in Chelsea loss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqrlywrdjdzyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:13:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Parsons hat-trick as Irish beat South Africa again",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwe8lp875engo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:12:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Priske’s double gives Birmingham victory over Lincoln",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/championship-roundup-birmingham-burnley-middlesbrough-southampton-wolves",
+      "date": "2026-10-31T15:08:59Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Hirakawa replaces Ocon for Mexico City Grand Prix",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/crwydk35zlnvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T15:05:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United miss chance to close on WSL top three in drab draw at Everton",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/31/everton-manchester-united-wsl-match-report",
+      "date": "2026-10-31T14:59:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Ulster undone by five-try Stormers in Cape Town",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj75p952634no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T14:57:00Z",
       "league": "all"
     },
     {
@@ -987,13 +1036,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/chelsea-manchester-united-premier-league-match-report",
       "date": "2026-10-31T14:42:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester City v Brighton, Bournemouth v Leeds, and more: clockwatch - live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/oct/31/manchester-city-v-brighton-bournemouth-v-leeds-and-more-clockwatch-live",
-      "date": "2026-10-31T14:38:48Z",
       "league": "all"
     },
     {
@@ -1078,13 +1120,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm75p91x04x5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T09:34:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Olsen-Baker named Women's World Player of the Year",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm0e02xn583go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T09:24:41Z",
       "league": "all"
     },
     {
@@ -1214,13 +1249,6 @@
       "league": "ufc"
     },
     {
-      "title": "Leicester dominate Bristol to go top of the Prem",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3x2wrp97dqdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T21:43:59Z",
-      "league": "all"
-    },
-    {
       "title": "Can Robinson work Hampden magic against McInnes' Rangers?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwx281x2p28do?at_medium=RSS&at_campaign=rss",
@@ -1260,34 +1288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cm0ld27ew5lyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T18:41:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Why has Caf abandoned plans to hold Afcon every four years?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T17:33:02Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England beat Papua New Guinea but World Cup hopes in doubt",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/c3kgqpeez9ppo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T17:06:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Grealish could have been Everton’s poster boy of a new era. Now his career is in limbo",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/30/jack-grealish-dropped-disclipline-everton-newcastle-carabao-cup-david-moyes",
-      "date": "2026-10-30T16:50:09Z",
-      "league": "soccer"
-    },
-    {
-      "title": "What Howe could bring to Man Utd - and what are the challenges?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr74pd99vwq3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-30T16:27:13Z",
       "league": "all"
     }
   ]
