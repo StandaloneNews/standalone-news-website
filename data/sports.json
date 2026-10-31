@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T07:20:41Z",
+  "updated_at": "2026-10-31T08:06:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -972,28 +972,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489540",
-      "league": "ligue1",
-      "name": "Troyes vs Le Mans",
-      "date": "2026-10-31T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Mans",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Jones challenges Red Roses to keep rivals guessing",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmqjnp85gyxzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T07:27:05Z",
+      "league": "all"
+    },
     {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
@@ -1009,7 +997,7 @@
       "league": "all"
     },
     {
-      "title": "Shearer discusses scoring record, MOTD & a brush with Cardiff",
+      "title": "Shearer on trials of MOTD & the manager's job that never was",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5l822k3no?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T06:23:58Z",
@@ -1044,7 +1032,7 @@
       "league": "all"
     },
     {
-      "title": "Sherrock upsets Littler to claim £501,000 prize",
+      "title": "Sherrock upsets Littler to win £501,000 in amateur event",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/darts/articles/crkg7p1z3p3lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T23:38:06Z",
@@ -1087,10 +1075,10 @@
     },
     {
       "title": "From WiFi to 'relief' - how was Ferguson's Irish League debut?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj5ynr23rg4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T22:52:32Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Cox sets world record to win gold at Worlds",
@@ -1185,10 +1173,10 @@
     },
     {
       "title": "Why has Caf abandoned plans to hold Afcon every four years?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T17:33:02Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England beat Papua New Guinea but World Cup hopes in doubt",
@@ -1300,13 +1288,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cmx281j2n8r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-30T15:00:50Z",
-      "league": "all"
-    },
-    {
-      "title": "‘There’s a new chapter to write’: Le Bris upbeat as Sunderland eye Coventry reunion",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/30/regis-le-bris-sunderland-coventry-reunion",
-      "date": "2026-10-30T14:56:32Z",
       "league": "all"
     }
   ]
