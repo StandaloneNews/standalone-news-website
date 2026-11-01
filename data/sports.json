@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T11:53:47Z",
+  "updated_at": "2026-11-01T12:22:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -837,33 +837,14 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Carrick to stay in charge for Roma game; Challinor in at Sheffield Wednesday; Liverpool v Arsenal buildup – matchday live",
+      "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/carrick-defiant-after-latest-defeat-liverpool-v-arsenal-buildup-wsl-and-more-matchday-live",
-      "date": "2026-11-01T11:36:34Z",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
+      "date": "2026-11-01T12:13:08Z",
       "league": "all"
     },
     {
@@ -913,6 +894,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/motorsport/articles/c65ynzv9v4qxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T09:10:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Michael Carrick to stay in charge of Manchester United for Roma game",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
+      "date": "2026-11-01T08:49:48Z",
       "league": "all"
     },
     {
@@ -1166,13 +1154,6 @@
       "url": "https://www.theguardian.com/football/2026/oct/31/tottenham-crystal-palace-premier-league-match-report",
       "date": "2026-10-31T19:42:20Z",
       "league": "soccer"
-    },
-    {
-      "title": "Maresca's big test is to address mounting Man City issues",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cve8rkd8r302o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T19:05:41Z",
-      "league": "all"
     }
   ]
 }
