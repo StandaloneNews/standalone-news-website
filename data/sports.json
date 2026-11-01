@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T21:56:44Z",
+  "updated_at": "2026-11-01T22:24:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -687,19 +687,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601754",
+      "id": "sportsdb-2601755",
       "league": "nba",
-      "name": "Indiana Pacers vs Brooklyn Nets",
-      "date": "2026-11-01T22:00:00Z",
+      "name": "Golden State Warriors vs Los Angeles Clippers",
+      "date": "2026-11-02T01:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Indiana Pacers",
+          "name": "Golden State Warriors",
           "score": ""
         },
         {
-          "name": "Brooklyn Nets",
+          "name": "Los Angeles Clippers",
           "score": ""
         }
       ],
@@ -837,40 +837,21 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "NFL week eight: Bills thrash Ravens, Steelers beat Browns, Lions edge Vikings and more – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T21:42:59Z",
-      "league": "all"
-    },
-    {
       "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
-      "date": "2026-11-01T21:41:17Z",
+      "date": "2026-11-01T22:13:22Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL week eight: Bills thrash Ravens, Steelers beat Browns, Lions edge Vikings – as it happened",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
+      "date": "2026-11-01T21:45:52Z",
       "league": "all"
     },
     {
