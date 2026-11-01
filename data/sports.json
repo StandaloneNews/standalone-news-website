@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T18:19:48Z",
+  "updated_at": "2026-11-01T19:08:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,47 +818,51 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489536",
-      "league": "ligue1",
-      "name": "Marseille vs Toulouse",
-      "date": "2026-11-01T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marseille",
-          "score": ""
-        },
-        {
-          "name": "Toulouse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
+      "date": "2026-11-01T18:54:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Giant curiosity Hibs finally liberated from Hearts sucker punch",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxr5yjpnd31eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T18:45:49Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Arsenal hold on for vital win at Liverpool after Kai Havertz’s close-range finish",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report",
+      "date": "2026-11-01T18:44:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T18:38:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Bellingham & Mbappe score as Real Madrid earn statement win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T18:37:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Boy hands himself into police after Bradley Lowery taunt in Sunderland match",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/01/police-bradley-lowery-taunt-coventry-sunderland-premier-league",
+      "date": "2026-11-01T18:20:53Z",
+      "league": "all"
+    },
     {
       "title": "Almgren wins in New York on marathon debut",
       "source": "BBC Sport",
@@ -867,18 +871,11 @@
       "league": "all"
     },
     {
-      "title": "Liverpool v Arsenal: Premier League – live",
+      "title": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
-      "date": "2026-11-01T18:07:56Z",
+      "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
+      "date": "2026-11-01T18:00:30Z",
       "league": "soccer"
-    },
-    {
-      "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – updates",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T18:04:11Z",
-      "league": "all"
     },
     {
       "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
@@ -934,6 +931,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmed34zjq9d5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T16:43:04Z",
+      "league": "all"
+    },
+    {
+      "title": "New York City Marathon: Andreas Almgren wins on debut as Sheila Chepkirui reclaims crown",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/new-york-city-marathon-andreas-almgren-wins-on-debut-as-sheila-chepkirui-reclaims-crown",
+      "date": "2026-11-01T16:33:00Z",
       "league": "all"
     },
     {
@@ -994,10 +998,10 @@
     },
     {
       "title": "Russo spares Arsenal blushes but latest setback increases pressure on Slegers",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
       "date": "2026-11-01T15:08:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
@@ -1098,13 +1102,6 @@
       "league": "soccer"
     },
     {
-      "title": "Wales hit by Australia century in World Cup record defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cked34glxp0no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T06:57:05Z",
-      "league": "all"
-    },
-    {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
@@ -1137,41 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9vgrjej28dvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T23:59:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Are Manchester United really at risk of a relegation scrap?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:52:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Ocon denies reports of physical altercation behind dropping",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n04vjjpkv4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:43:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Canelo Álvarez wins back world title as Houthi attacks cast shadow over Riyadh",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/31/canelo-alvarez-christian-mbilli-wbc-world-title-riyadh-boxing",
-      "date": "2026-10-31T23:26:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Breeders’ Cup 2026, day two: Moore’s ‘one bullet’ hits the target in Turf – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
-      "date": "2026-10-31T23:25:51Z",
-      "league": "all"
-    },
-    {
-      "title": "Lewis Hamilton storms to his first Ferrari pole at F1 Mexican GP with Antonelli fourth",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/31/lewis-hamilton-storms-to-first-ferrari-pole-at-f1-mexican-grand-prix-with-antonelli-fifth",
-      "date": "2026-10-31T23:03:18Z",
       "league": "all"
     }
   ]
