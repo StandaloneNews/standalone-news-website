@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T06:27:56Z",
+  "updated_at": "2026-11-01T07:42:10Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,28 +818,51 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489538",
-      "league": "ligue1",
-      "name": "Strasbourg vs Auxerre",
-      "date": "2026-11-01T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Strasbourg",
-          "score": ""
-        },
-        {
-          "name": "Auxerre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T07:38:15Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Cox wins second gold at Para-cycling Worlds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cycling/articles/cmrlywzzg8g7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T07:21:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales hit by Australia century in World Cup record defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cked34glxp0no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T06:57:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Guess WSL star No 10",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vgyqrw90nxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T06:56:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T06:54:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm1j3yd6994yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T06:29:50Z",
+      "league": "all"
+    },
     {
       "title": "Gabby Williams powers Valkyries past Dream in Game 7 for historic WNBA title",
       "source": "The Guardian Sport",
@@ -859,13 +882,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/de-minaur-takes-down-zverev-to-reach-vienna-open-final-match-report-tennis",
       "date": "2026-11-01T00:24:51Z",
-      "league": "all"
-    },
-    {
-      "title": "Has Martinez become a liability for Man Utd?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9vgrjej28dvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:59:22Z",
       "league": "all"
     },
     {
@@ -939,7 +955,7 @@
       "league": "all"
     },
     {
-      "title": "Coventry out of bottom three after win over struggling Sunderland",
+      "title": "Coventry out of bottom three with win over struggling Sunderland",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm93zv0zkjqlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:29:50Z",
@@ -1002,11 +1018,11 @@
       "league": "all"
     },
     {
-      "title": "Verbruggen spreads belief as Brighton continue to impress",
-      "source": "BBC Sport",
+      "title": "Verbruggen spreads belief as impressive Brighton beat Man City",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6d7qwnz1jnjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:36:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Naderi breaks Aberdeen’s resistance as Rangers reach Premier Sports Cup final",
@@ -1028,13 +1044,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cvn067174knjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:26:15Z",
       "league": "all"
-    },
-    {
-      "title": "More goals for Lankshear, home woes for Hammers - Aaron McLean's EFL Takeaways",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv369yp2451lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T20:24:50Z",
-      "league": "soccer"
     },
     {
       "title": "Mitchell injury blow adds to England’s woes as Northampton sink Gloucester",
@@ -1122,37 +1131,9 @@
     },
     {
       "title": "Martinez's 'inexplicable' 83 seconds cost Man Utd and Carrick",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckvg64xp1e1eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T17:27:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Sakamoto sparks Coventry win to keep 10-man Sunderland rock-bottom",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/coventry-sunderland-premier-league-match-report",
-      "date": "2026-10-31T17:24:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Julio Enciso strikes again to earn Ipswich a point against Hull",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/hull-ipswich-premier-league-match-report",
-      "date": "2026-10-31T17:21:57Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Evanilson profits from costly Trafford blunder as Bournemouth punish Leeds",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/bournemouth-leeds-premier-league-match-report",
-      "date": "2026-10-31T17:16:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘I’m not here to be liked’: Glasner defiant as Brentford capitalise on Forest woes",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/brentford-nottingham-forest-premier-league-match-report",
-      "date": "2026-10-31T17:09:34Z",
       "league": "soccer"
     }
   ]
