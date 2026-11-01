@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T16:58:04Z",
+  "updated_at": "2026-11-01T17:53:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -763,19 +763,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506277",
+      "id": "sportsdb-2506270",
       "league": "laliga",
-      "name": "Elche vs Valencia",
-      "date": "2026-11-01T17:30:00Z",
+      "name": "Athletic Bilbao vs Real Sociedad",
+      "date": "2026-11-01T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Elche",
+          "name": "Athletic Bilbao",
           "score": ""
         },
         {
-          "name": "Valencia",
+          "name": "Real Sociedad",
           "score": ""
         }
       ],
@@ -801,19 +801,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482236",
+      "id": "sportsdb-2482232",
       "league": "seriea",
-      "name": "Lecce vs Genoa",
-      "date": "2026-11-01T17:00:00Z",
+      "name": "Juventus vs Napoli",
+      "date": "2026-11-01T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Lecce",
+          "name": "Juventus",
           "score": ""
         },
         {
-          "name": "Genoa",
+          "name": "Napoli",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489536",
+      "league": "ligue1",
+      "name": "Marseille vs Toulouse",
+      "date": "2026-11-01T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Marseille",
+          "score": ""
+        },
+        {
+          "name": "Toulouse",
           "score": ""
         }
       ],
@@ -823,24 +842,45 @@
   "stories": [
     {
       "title": "Liverpool v Arsenal: Premier League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
-      "date": "2026-11-01T16:51:04Z",
+      "date": "2026-11-01T17:48:50Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – updates",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
+      "date": "2026-11-01T17:43:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Are Celtic club in regression amid run of six defeats in 10?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg7d1xl8epo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T17:34:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish roundup: Falkirk shock Celtic; Hibernian beat Hearts in semi-final",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
+      "date": "2026-11-01T17:28:54Z",
       "league": "soccer"
     },
     {
-      "title": "Charlton 0-6 Chelsea, West Ham 4-1 Liverpool, Birmingham City 1-4 Tottenham, and more: WSL – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "date": "2026-11-01T16:46:16Z",
+      "title": "Chelsea put six past Charlton to top WSL",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T17:10:45Z",
       "league": "all"
     },
     {
-      "title": "Namibia overpower Ireland in series decider",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmed34zjq9d5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T16:43:04Z",
-      "league": "all"
+      "title": "Retired Sheff Utd legend Sharp signs for Rushden",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c820vylvxwxlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T16:51:07Z",
+      "league": "soccer"
     },
     {
       "title": "‘We have effing unbreakable love’: how the maverick Natalie Nakase led the Valkyries to WNBA glory",
@@ -854,13 +894,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/crd6dezj8v86o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T16:10:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Scottish roundup: Falkirk shock Celtic; Rangers into Premier Sports Cup final",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
-      "date": "2026-11-01T16:02:52Z",
       "league": "all"
     },
     {
@@ -907,16 +940,9 @@
     },
     {
       "title": "Russo spares Arsenal blushes but latest setback increases pressure on Slegers",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
       "date": "2026-11-01T15:08:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Dart reacts to her first WTA title after 'incredible week'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/videos/cqj9kgr8kzvyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T15:01:34Z",
       "league": "all"
     },
     {
@@ -976,13 +1002,6 @@
       "league": "all"
     },
     {
-      "title": "Wednesday appoint former Stockport boss Challinor",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6er2025qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T11:15:42Z",
-      "league": "soccer"
-    },
-    {
       "title": "Tonga’s gripping win over Samoa a victory for Pasifika pride at Rugby League World Cup",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/tonga-samoa-mens-rugby-league-world-cup-england-exit",
@@ -1012,10 +1031,10 @@
     },
     {
       "title": "Rampant Salford hint that Beckham’s lofty ambitions are not a pipe dream",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/01/salford-city-david-beckham-lofty-ambitions-football",
       "date": "2026-11-01T08:00:07Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Third choice? Inside Alexander-Arnold's struggles in Madrid",
