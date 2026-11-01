@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T22:57:07Z",
+  "updated_at": "2026-11-01T23:24:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -706,19 +706,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591714",
+      "id": "sportsdb-2591715",
       "league": "nhl",
-      "name": "New York Rangers vs Edmonton Oilers",
-      "date": "2026-11-01T23:00:00Z",
+      "name": "Anaheim Ducks vs Ottawa Senators",
+      "date": "2026-11-02T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Rangers",
+          "name": "Anaheim Ducks",
           "score": ""
         },
         {
-          "name": "Edmonton Oilers",
+          "name": "Ottawa Senators",
           "score": ""
         }
       ],
@@ -818,28 +818,73 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Watch: Match of the Day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T23:12:25Z",
-      "league": "all"
-    },
-    {
       "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T22:57:02Z",
+      "date": "2026-11-01T23:20:54Z",
       "league": "all"
     },
     {
       "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T22:54:52Z",
+      "date": "2026-11-01T23:12:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Detroit linebacker Campbell taken to hospital with neck injury",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz29w2p90o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T23:04:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd eye Barcelona's Balde - Monday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgk0l3zpnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T23:00:21Z",
       "league": "all"
     },
     {
@@ -847,6 +892,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T22:50:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Kimi Antonelli claims the Formula One crown – his season in pictures",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/gallery/2026/nov/01/kimi-antonelli-claims-formula-one-crown-season-in-pictures",
+      "date": "2026-11-01T22:43:18Z",
       "league": "all"
     },
     {
@@ -883,6 +935,13 @@
       "url": "https://www.theguardian.com/sport/2026/nov/01/nfl-roundup-sunday-football-scores",
       "date": "2026-11-01T21:56:26Z",
       "league": "all"
+    },
+    {
+      "title": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league",
+      "date": "2026-11-01T21:25:01Z",
+      "league": "soccer"
     },
     {
       "title": "Liverpool’s work in progress fizzles out in the face of streetwise champions | Andy Hunter",
@@ -955,13 +1014,6 @@
       "league": "all"
     },
     {
-      "title": "Arsenal hold on for first league win at Liverpool since 2012 after Kai Havertz pounces early",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report",
-      "date": "2026-11-01T18:44:48Z",
-      "league": "all"
-    },
-    {
       "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
@@ -984,10 +1036,10 @@
     },
     {
       "title": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
       "date": "2026-11-01T18:00:30Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
@@ -1012,10 +1064,10 @@
     },
     {
       "title": "Chelsea put six past Charlton to top WSL",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T17:10:45Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Retired Sheff Utd legend Sharp signs for Rushden",
@@ -1036,13 +1088,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/natalie-nakase-golden-state-valkyries-wnba-championship-culture",
       "date": "2026-11-01T16:10:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Alcaraz wins Vienna Open to maintain perfect record",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/crd6dezj8v86o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T16:10:39Z",
       "league": "all"
     },
     {
@@ -1128,13 +1173,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
       "date": "2026-11-01T08:49:48Z",
       "league": "all"
-    },
-    {
-      "title": "Rampant Salford hint that Beckham’s lofty ambitions are not a pipe dream",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/01/salford-city-david-beckham-lofty-ambitions-football",
-      "date": "2026-11-01T08:00:07Z",
-      "league": "soccer"
     }
   ]
 }
