@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T13:15:38Z",
+  "updated_at": "2026-11-01T14:01:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -801,38 +801,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482228",
+      "id": "sportsdb-2482236",
       "league": "seriea",
-      "name": "Lazio vs Cagliari",
-      "date": "2026-11-01T14:00:00Z",
+      "name": "Lecce vs Genoa",
+      "date": "2026-11-01T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Lazio",
+          "name": "Lecce",
           "score": ""
         },
         {
-          "name": "Cagliari",
+          "name": "Genoa",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2489538",
+      "id": "sportsdb-2489535",
       "league": "ligue1",
-      "name": "Strasbourg vs Auxerre",
-      "date": "2026-11-01T14:00:00Z",
+      "name": "Lyon vs Angers",
+      "date": "2026-11-01T16:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Strasbourg",
+          "name": "Lyon",
           "score": ""
         },
         {
-          "name": "Auxerre",
+          "name": "Angers",
           "score": ""
         }
       ],
@@ -841,10 +841,24 @@
   ],
   "stories": [
     {
-      "title": "Arsenal v Aston Villa, London City Lionesses v Manchester City, and more: Women’s Super League – live",
+      "title": "Arsenal 1-1 Aston Villa, London City Lionesses 1-2 Manchester City, and more: Women’s Super League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "date": "2026-11-01T13:07:36Z",
+      "date": "2026-11-01T14:01:04Z",
+      "league": "all"
+    },
+    {
+      "title": "How England's rugby league bosses plan to avoid repeat of World Cup pain",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y439xp22n7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T13:56:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Yamaha will not travel to Qatar for MotoGP race",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm98z2966128o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T13:51:53Z",
       "league": "all"
     },
     {
@@ -862,6 +876,13 @@
       "league": "all"
     },
     {
+      "title": "Wales thrashed as Australia score record 21 tries",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/crp3gx9vz510o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T12:27:34Z",
+      "league": "all"
+    },
+    {
       "title": "GB’s Harriet Dart wins maiden WTA title at 30 with Guangzhou Open triumph",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/harriet-dart-wins-maiden-wta-title-guangzhou-open-tennis-lilli-tagger",
@@ -869,11 +890,11 @@
       "league": "all"
     },
     {
-      "title": "Sheff Wed appoint former Stockport boss Challinor",
-      "source": "BBC Sport",
+      "title": "Wednesday appoint former Stockport boss Challinor",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6er2025qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T11:15:42Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Tonga’s gripping win over Samoa a victory for Pasifika pride at Rugby League World Cup",
@@ -897,24 +918,10 @@
       "league": "soccer"
     },
     {
-      "title": "Marquez wins in Malaysia to extend MotoGP lead",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/motorsport/articles/c65ynzv9v4qxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T09:10:43Z",
-      "league": "all"
-    },
-    {
       "title": "Michael Carrick to stay in charge of Manchester United for Roma game",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
       "date": "2026-11-01T08:49:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Valkyries win WNBA title in their second season",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/basketball/articles/cked34v3zen8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T08:16:59Z",
       "league": "all"
     },
     {
@@ -978,6 +985,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/de-minaur-takes-down-zverev-to-reach-vienna-open-final-match-report-tennis",
       "date": "2026-11-01T00:24:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Has Martinez become a liability for Man Utd?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9vgrjej28dvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:59:22Z",
       "league": "all"
     },
     {
@@ -1094,10 +1108,10 @@
     },
     {
       "title": "Man Utd enquire about Toney - Sunday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:14:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Are De Zerbi's Spurs finding elusive consistency?",
@@ -1139,20 +1153,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmrry892zpkro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:03:10Z",
-      "league": "soccer"
-    },
-    {
-      "title": "If Mikel Arteta’s dossier is part of a deliberate strategy, it is a dangerous one for Arsenal | Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/mikel-arteta-dossier-arsenal-everton-premier-league",
-      "date": "2026-10-31T20:00:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Spurs see off Crystal Palace after Mateta’s early red to pile pressure on Sage",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/tottenham-crystal-palace-premier-league-match-report",
-      "date": "2026-10-31T19:42:20Z",
       "league": "soccer"
     }
   ]
