@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T15:23:53Z",
+  "updated_at": "2026-11-01T15:55:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,25 +818,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489535",
-      "league": "ligue1",
-      "name": "Lyon vs Angers",
-      "date": "2026-11-01T16:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lyon",
-          "score": ""
-        },
-        {
-          "name": "Angers",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -844,7 +825,28 @@
       "title": "Charlton v Chelsea, West Ham v Liverpool, Birmingham City v Tottenham, and more: WSL – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "date": "2026-11-01T15:18:50Z",
+      "date": "2026-11-01T15:50:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Defeat for London City against Man City - but is Europe a real possibility?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj93z2nk2694o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T15:49:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool v Arsenal: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
+      "date": "2026-11-01T15:48:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Hardie clinches fifth gold as Scots win European Championship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T15:31:11Z",
       "league": "all"
     },
     {
@@ -869,10 +871,10 @@
       "league": "soccer"
     },
     {
-      "title": "Liverpool v Arsenal: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
-      "date": "2026-11-01T15:00:14Z",
+      "title": "Dart reacts to her first WTA title after 'incredible week'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/videos/cqj9kgr8kzvyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T15:01:34Z",
       "league": "all"
     },
     {
@@ -995,25 +997,11 @@
       "league": "all"
     },
     {
-      "title": "Wales hit by Australia century in World Cup record defeat",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cked34glxp0no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T06:57:05Z",
-      "league": "all"
-    },
-    {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:54:38Z",
       "league": "soccer"
-    },
-    {
-      "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm1j3yd6994yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T06:29:50Z",
-      "league": "all"
     },
     {
       "title": "Gabby Williams powers Valkyries past Dream in Game 7 for historic WNBA title",
@@ -1034,13 +1022,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/de-minaur-takes-down-zverev-to-reach-vienna-open-final-match-report-tennis",
       "date": "2026-11-01T00:24:51Z",
-      "league": "all"
-    },
-    {
-      "title": "How 'brave & balanced' Brighton beat Man City",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmx23wyk769eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:59:24Z",
       "league": "all"
     },
     {
@@ -1070,13 +1051,6 @@
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/breeders-cup-2026-day-two-live",
       "date": "2026-10-31T23:25:51Z",
       "league": "all"
-    },
-    {
-      "title": "Coventry, Ipswich, Hull - promoted trio enjoy positive starts",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzv8404ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:08:07Z",
-      "league": "soccer"
     },
     {
       "title": "Kane misses Bayern penalty before late Dortmund goal earns draw",
@@ -1154,6 +1128,13 @@
       "url": "https://www.theguardian.com/football/2026/oct/31/aston-villa-fulham-premier-league-match-report",
       "date": "2026-10-31T22:15:33Z",
       "league": "all"
+    },
+    {
+      "title": "Man Utd enquire about Toney - Sunday's gossip",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T22:14:36Z",
+      "league": "soccer"
     }
   ]
 }
