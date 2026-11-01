@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T20:56:37Z",
+  "updated_at": "2026-11-01T21:24:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -668,19 +668,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475490",
+      "id": "sportsdb-2475491",
       "league": "nfl",
-      "name": "Los Angeles Rams vs Los Angeles Chargers",
-      "date": "2026-11-01T21:05:00Z",
+      "name": "Denver Broncos vs Kansas City Chiefs",
+      "date": "2026-11-01T21:25:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Rams",
+          "name": "Denver Broncos",
           "score": ""
         },
         {
-          "name": "Los Angeles Chargers",
+          "name": "Kansas City Chiefs",
           "score": ""
         }
       ],
@@ -706,19 +706,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591713",
+      "id": "sportsdb-2591714",
       "league": "nhl",
-      "name": "Philadelphia Flyers vs Utah Mammoth",
-      "date": "2026-11-01T21:00:00Z",
+      "name": "New York Rangers vs Edmonton Oilers",
+      "date": "2026-11-01T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia Flyers",
+          "name": "New York Rangers",
           "score": ""
         },
         {
-          "name": "Utah Mammoth",
+          "name": "Edmonton Oilers",
           "score": ""
         }
       ],
@@ -837,6 +837,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -844,14 +863,21 @@
       "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
-      "date": "2026-11-01T20:54:58Z",
+      "date": "2026-11-01T21:09:38Z",
       "league": "all"
     },
     {
-      "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – live",
+      "title": "NFL week eight: Ravens v Bills, Steelers beat Browns, Lions edge Vikings and more – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T20:53:57Z",
+      "date": "2026-11-01T21:07:32Z",
+      "league": "all"
+    },
+    {
+      "title": "I'll tell my players to dive in future - Iraola",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvp8grpjk4leo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T21:00:26Z",
       "league": "all"
     },
     {
@@ -859,13 +885,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6rry8pxwkdpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T20:32:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Watch: Bundesliga highlights - matchday eight",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/l00590gw?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T20:18:38Z",
       "league": "all"
     },
     {
