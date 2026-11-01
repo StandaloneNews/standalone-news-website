@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T23:52:47Z",
+  "updated_at": "2026-11-01T00:19:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -687,57 +687,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601749",
+      "id": "sportsdb-2601752",
       "league": "nba",
-      "name": "San Antonio Spurs vs Minnesota Timberwolves",
-      "date": "2026-11-01T00:00:00Z",
+      "name": "Houston Rockets vs Oklahoma City Thunder",
+      "date": "2026-11-01T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Antonio Spurs",
+          "name": "Houston Rockets",
           "score": ""
         },
         {
-          "name": "Minnesota Timberwolves",
+          "name": "Oklahoma City Thunder",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591709",
+      "id": "sportsdb-2591710",
       "league": "nhl",
-      "name": "Dallas Stars vs Columbus Blue Jackets",
-      "date": "2026-11-01T00:00:00Z",
+      "name": "Colorado Avalanche vs Calgary Flames",
+      "date": "2026-11-01T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Stars",
+          "name": "Colorado Avalanche",
           "score": ""
         },
         {
-          "name": "Columbus Blue Jackets",
+          "name": "Calgary Flames",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499154",
+      "id": "sportsdb-2594209",
       "league": "ncaaf",
-      "name": "Nebraska vs Washington",
-      "date": "2026-11-01T00:00:00Z",
+      "name": "Texas Southern vs Grambling State",
+      "date": "2026-11-01T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nebraska",
+          "name": "Texas Southern",
           "score": ""
         },
         {
-          "name": "Washington",
+          "name": "Grambling State",
           "score": ""
         }
       ],
@@ -818,66 +818,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489538",
-      "league": "ligue1",
-      "name": "Strasbourg vs Auxerre",
-      "date": "2026-11-01T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Strasbourg",
-          "score": ""
-        },
-        {
-          "name": "Auxerre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 7 – live updates",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
+      "date": "2026-11-01T00:11:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Has Martinez become a liability for Man Utd?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9vgrjej28dvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:59:22Z",
+      "league": "all"
+    },
+    {
       "title": "Are Manchester United really at risk of a relegation scrap?",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T23:52:28Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Ocon denies reports of physical altercation behind dropping",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n04vjjpkv4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T23:43:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 7 – live buildup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
-      "date": "2026-10-31T23:43:38Z",
       "league": "all"
     },
     {
@@ -1050,10 +1019,10 @@
     },
     {
       "title": "Sunderland's paradox - San Siro trip amid relegation battle",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmrry892zpkro?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T20:03:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "If Mikel Arteta’s dossier is part of a deliberate strategy, it is a dangerous one for Arsenal | Jonathan Wilson",
@@ -1165,13 +1134,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/pakistan-sri-lanka-tri-series-final",
       "date": "2026-10-31T16:46:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Michael Carrick insists he will still be in charge of Manchester United against Roma",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/michael-carrick-chelsea-manchester-united-roma-premier-league",
-      "date": "2026-10-31T16:43:37Z",
       "league": "all"
     }
   ]
