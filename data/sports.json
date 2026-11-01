@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T01:32:12Z",
+  "updated_at": "2026-11-01T02:31:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -706,38 +706,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591710",
+      "id": "sportsdb-2591711",
       "league": "nhl",
-      "name": "Colorado Avalanche vs Calgary Flames",
-      "date": "2026-11-01T02:00:00Z",
+      "name": "Carolina Hurricanes vs Winnipeg Jets",
+      "date": "2026-11-01T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado Avalanche",
+          "name": "Carolina Hurricanes",
           "score": ""
         },
         {
-          "name": "Calgary Flames",
+          "name": "Winnipeg Jets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499178",
+      "id": "sportsdb-2499160",
       "league": "ncaaf",
-      "name": "Boise State vs Texas State",
-      "date": "2026-11-01T02:00:00Z",
+      "name": "Fresno State vs Oregon State",
+      "date": "2026-11-01T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boise State",
+          "name": "Fresno State",
           "score": ""
         },
         {
-          "name": "Texas State",
+          "name": "Oregon State",
           "score": ""
         }
       ],
@@ -818,6 +818,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489538",
+      "league": "ligue1",
+      "name": "Strasbourg vs Auxerre",
+      "date": "2026-11-01T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Strasbourg",
+          "score": ""
+        },
+        {
+          "name": "Auxerre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -825,7 +844,7 @@
       "title": "Atlanta Dream v Golden State Valkyries: WNBA finals 2026 Game 7 – live updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
-      "date": "2026-11-01T01:12:58Z",
+      "date": "2026-11-01T02:17:34Z",
       "league": "all"
     },
     {
