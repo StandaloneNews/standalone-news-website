@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T16:24:20Z",
+  "updated_at": "2026-11-01T16:58:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -744,19 +744,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494082",
+      "id": "sportsdb-2494080",
       "league": "epl",
-      "name": "Liverpool vs Arsenal",
-      "date": "2026-11-01T16:30:00Z",
+      "name": "Newcastle United vs Everton",
+      "date": "2026-11-02T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Liverpool",
+          "name": "Newcastle United",
           "score": ""
         },
         {
-          "name": "Arsenal",
+          "name": "Everton",
           "score": ""
         }
       ],
@@ -782,19 +782,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508400",
+      "id": "sportsdb-2508411",
       "league": "bundesliga",
-      "name": "Eintracht Frankfurt vs Hamburg",
-      "date": "2026-11-01T16:30:00Z",
+      "name": "Hamburg vs Borussia Mönchengladbach",
+      "date": "2026-11-06T19:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Eintracht Frankfurt",
+          "name": "Hamburg",
           "score": ""
         },
         {
-          "name": "Hamburg",
+          "name": "Borussia Mönchengladbach",
           "score": ""
         }
       ],
@@ -822,17 +822,24 @@
   ],
   "stories": [
     {
-      "title": "Charlton v Chelsea, West Ham 4-1 Liverpool, Birmingham City 1-4 Tottenham, and more: WSL – live",
+      "title": "Liverpool v Arsenal: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
+      "date": "2026-11-01T16:51:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Charlton 0-6 Chelsea, West Ham 4-1 Liverpool, Birmingham City 1-4 Tottenham, and more: WSL – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/arsenal-v-aston-villa-london-city-lionesses-v-manchester-city-and-more-womens-super-league-live",
-      "date": "2026-11-01T16:19:41Z",
+      "date": "2026-11-01T16:46:16Z",
       "league": "all"
     },
     {
-      "title": "Liverpool v Arsenal: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
-      "date": "2026-11-01T16:18:11Z",
+      "title": "Namibia overpower Ireland in series decider",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmed34zjq9d5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T16:43:04Z",
       "league": "all"
     },
     {
@@ -854,6 +861,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
       "date": "2026-11-01T16:02:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Borthwick urges England players to improve discipline at Nations Championship",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/steve-borthwick-england-players-improve-discipline-before-nations-championships-rugby",
+      "date": "2026-11-01T16:00:15Z",
       "league": "all"
     },
     {
@@ -1005,10 +1019,10 @@
     },
     {
       "title": "Third choice? Inside Alexander-Arnold's struggles in Madrid",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9e8lp357je7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T07:42:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
@@ -1120,20 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6zxj1vzwx1xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:29:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Thiago on target as Brentford beat Forest",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck1l3z063n8vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Suzuki mistake gifts Fulham point at Villa",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy9rylr0e6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:02Z",
       "league": "all"
     }
   ]
