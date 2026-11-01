@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T09:27:18Z",
+  "updated_at": "2026-11-01T10:23:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,21 +818,59 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489538",
+      "league": "ligue1",
+      "name": "Strasbourg vs Auxerre",
+      "date": "2026-11-01T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Strasbourg",
+          "score": ""
+        },
+        {
+          "name": "Auxerre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Carrick to stay in charge for Roma match, Liverpool v Arsenal buildup, WSL and more – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/carrick-defiant-after-latest-defeat-liverpool-v-arsenal-buildup-wsl-and-more-matchday-live",
+      "date": "2026-11-01T10:13:56Z",
+      "league": "all"
+    },
     {
       "title": "Marquez wins in Malaysia to extend MotoGP lead",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/motorsport/articles/c65ynzv9v4qxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T09:10:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick to stay in charge for Roma match, Liverpool v Arsenal buildup, WSL and more – matchday live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/carrick-defiant-after-latest-defeat-liverpool-v-arsenal-buildup-wsl-and-more-matchday-live",
-      "date": "2026-11-01T08:55:49Z",
       "league": "all"
     },
     {
