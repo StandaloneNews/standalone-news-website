@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T22:46:58+00:00",
+  "updated_at": "2026-11-01T23:44:22+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -10,10 +10,12 @@
     "75b0ce0ef3ca08fe9ef2f735",
     "d99340fc39d918950d7dcc37",
     "3018013b08ee49265917c99c",
+    "7b7ddc5a85e83a719914aa90",
     "e7607c6e1e667da0411840ae",
     "f063ceae6ff751ba9d7c0016",
+    "c5350b600e30be7c325c67b4",
     "2880ac56a543d7ffccb1cbdc",
-    "ddc3e02e544ee5abc9e8b86e",
+    "3dd3569cdddde987a1bfa70f",
     "2b42d9bad881e0a34f28da94",
     "68c8132ce8f7c4baec893d1a",
     "944be91cc06a18a89b9b88b4",
@@ -22,15 +24,26 @@
     "4c7805da92c2787a7faa415a",
     "8b0558e01f8a2b9eeda26a41",
     "03ac225b7200320a0a3535ea",
-    "90310dab04ec3a54c43598db",
     "42a555c90e3be1ee65fdb50c",
     "50914a0b386ea2ce3b63c0a2",
     "ce082da7fcd7545db434e50a",
-    "02ecd35b7079ec56efeed225",
     "23a0616d370d48716ba5d9de"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "c5350b600e30be7c325c67b4",
+      "title": "Don't get caught out by new Buy Now Pay Later rules",
+      "summary": "New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:34:49+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
     {
       "id": "066da0116e2f8f1de32adcb7",
       "title": "Tributes to 'inspirational' Olympian Ciara Mageean after death at 34",
@@ -40,7 +53,82 @@
       "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T22:44:47+00:00",
+      "published_at": "2026-11-01T23:31:31+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "c4b88ae510f63c3d4acabae1",
+      "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+      "summary": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:20:54+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7b7ddc5a85e83a719914aa90",
+      "title": "Justice Department urges sanctions for database analysis critical of its noncitizen voting claims",
+      "summary": "Attorneys for an immigrant rights group on Saturday filed court papers revealing that their analysis found more than 40% of the people on the list do not appear in the state's voter file.",
+      "url": "https://www.pbs.org/newshour/politics/justice-department-urges-sanctions-for-database-analysis-critical-of-its-noncitizen-voting-claims",
+      "source": "PBS News",
+      "feed_id": "pbs_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:18:16+00:00",
+      "desk_priority": 46,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3dd3569cdddde987a1bfa70f",
+      "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
+      "summary": "Democratic nominee Mary Peltola is facing two candidates named Dan Sullivan in the Alaska Senate election, one of whom is the Republican incumbent.",
+      "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:17:57+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
+        "source": "Wikimedia Commons",
+        "creator": "EEBS27",
+        "license": "CC BY-SA 4.0",
+        "description": "United States Capitol building from the east side (front)",
+        "label": "Illustrative photo",
+        "matched_query": "United States Capitol building"
+      }
+    },
+    {
+      "id": "e3b756138fe24336cdf137a3",
+      "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+      "summary": "Transportation Secretary Sean Duffy described the crash, which happened near President Trump's Mar-a-Lago resort, as a \"horrific tragedy\".",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:15:56+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5dc7665166dcca373853b8a3",
+      "title": "Nationals leader Matt Canavan to run for lower house seat in possible showdown with One Nation’s James Ashby",
+      "summary": "Tilt comes after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email , free app or daily news podcast The Nationals leader, Matt Canavan, will run in a lower house Queensland seat at the next federal election, in a move that may see him face off with Pauline Hanson’s national director. The announcement follows the retirement of the Capricornia MP Michelle Landry, and could result in a contest against James Ashby in a major battle for regional seats. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T23:05:05+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -55,6 +143,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T22:38:24+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "be41816f66c3e52b2456b367",
+      "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI",
+      "summary": "Bowen Wan was on anti-seizure medication, and chatbot provided her with a tapering schedule to reduce dosage A woman’s death from an epileptic seizure after she received dangerous advice from a chatbot has prompted her parents to sue OpenAI earlier this week. The legal action is the latest lawsuit that in which plaintiffs allege that a bot provided counsel to a user that ultimately led to their death . Continue reading...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T22:37:36+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -112,7 +213,7 @@
     {
       "id": "4283538a94956aaad2d8b196",
       "title": "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP",
-      "summary": "20-year-old clinches title with four races to go Verstappen wins race ahead of Hamilton Kimi Antonelli closed out with the cool command of the greats to win the Formula One world championship by taking third place in the Mexican Grand Prix, a race won after no little drama by Red Bull’s Max Verstappen, from the Ferrari of Lewis Hamilton who was left fuming with his ­teammate Charles Leclerc, who finished fourth. In taking his debut F1 title for Mercedes, the 20-year-old Antonelli has etched his name into the record books as the youngest driver to claim the sport’s crown and the first Italian to do so since Alberto Ascari won in 1953. It is Mercedes’ first drivers’ championship since Hamilton last won in 2020 and the team’s 10th. Continue reading...",
+      "summary": "20-year-old clinches title with four races to go Verstappen wins race ahead of Hamilton Kimi Antonelli closed out with the cool command of the greats to win the Formula One world championship by taking third place in the Mexican Grand Prix, a race won after no little drama by Red Bull’s Max Verstappen, from the Ferrari of Lewis Hamilton who was left fuming with his teammate Charles Leclerc, who finished fourth. In taking his debut F1 title for Mercedes, the 20-year-old Antonelli has etched his name into the record books as the youngest driver to claim the sport’s crown and the first Italian to do so since Alberto Ascari won in 1953. It is Mercedes’ first drivers’ championship since Hamilton last won in 2020 and the team’s 10th. Continue reading...",
       "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -146,19 +247,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T22:22:12+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e3b756138fe24336cdf137a3",
-      "title": "Nine killed in 'horrific' Florida jet crash",
-      "summary": "Transport Secretary Sean Duffy described the crash, which happened nine miles from President Trump's Mar-a-Lago resort, as a \"horrific tragedy\".",
-      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T22:19:19+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -197,19 +285,6 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T22:05:03+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "be41816f66c3e52b2456b367",
-      "title": "Parents of woman who died of seizure after ChaGPT misguidance sue OpenAI",
-      "summary": "Bowen Wan was on anti-seizure medication, and chatbot provided her with a tapering schedule to reduce dosage A woman’s death from an epileptic seizure after she received dangerous advice from a chatbot has prompted her parents to sue OpenAI earlier this week. The legal action is the latest lawsuit that in which plaintiffs allege that a bot provided counsel to a user that ultimately led to their death . Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T22:02:17+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     },
@@ -276,32 +351,6 @@
       }
     },
     {
-      "id": "5dc7665166dcca373853b8a3",
-      "title": "Nationals leader Matt Canavan to run for lower house seat in possible showdown with One Nation’s James Ashby",
-      "summary": "Tilt comes after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email , free app or daily news podcast The Nationals leader, Matt Canavan, will run in a lower house Queensland seat at the next federal election, in a move that may see him face off with Pauline Hanson’s chief of staff. The announcement follows the retirement of the Capricornia MP Michelle Landry, and could result in a contest against James Ashby in a major battle for regional seats. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T21:25:18+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3dd3569cdddde987a1bfa70f",
-      "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
-      "summary": "Democratic nominee Mary Peltola is facing two candidates named Dan Sullivan in the Alaska Senate election, one of whom is the Republican incumbent.",
-      "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T21:25:03+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "90310dab04ec3a54c43598db",
       "title": "Connecticut Sen. Chris Murphy is in the hospital after having a stroke, his office says",
       "summary": "Murphy's chief of staff, Allison Herwitt, said in a statement the 53-year-old senator \"started experiencing numbness in his arm while at his son's hockey game\" on Saturday.",
@@ -333,7 +382,7 @@
       "summary": "Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, endorses his opponent days before the vote.",
       "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_world",
+      "feed_id": "bbc_top",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T21:16:45+00:00",
@@ -377,17 +426,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T21:06:42+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "EEBS27",
-        "license": "CC BY-SA 4.0",
-        "description": "United States Capitol building from the east side (front)",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "7848f34b42e396a0d24cb66c",
@@ -611,6 +650,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "63572d2f7060b0778edf99e6",
+      "title": "Connecticut Sen. Chris Murphy has stroke and is in the hospital, office says",
+      "summary": "Sen. Chris Murphy's office announced Sunday that he suffered a stroke and was hospitalized the day prior, though they say he is 'awake and alert.'",
+      "url": "https://www.cnbc.com/2026/11/01/chris-murphy-stroke-senate-hospital.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T19:10:12+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "38efcafb92e3178ba3a5fac6",
       "title": "Arsenal go top after narrow win at Liverpool",
       "summary": "Arsenal pick up their first win at Anfield since 2012 to go three points clear of Man City",
@@ -717,7 +769,7 @@
     {
       "id": "369f11980ac1af3c2579d27b",
       "title": "Michigan Dem Haley Stevens endorses Republican Senate candidate Mike Rogers",
-      "summary": "US Rep Stevens lost Democratic primary to Abdul El-Sayed and now endorses his Republican opponent in the Senate race.",
+      "summary": "Stevens, who lost the primary to Abdul El-Sayed, shifts support to his Republican opponent days before midterm election.",
       "url": "https://www.aljazeera.com/news/2026/11/1/michigan-dem-haley-stevens-endorses-republican-senate-candidate-mike-rogers?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
@@ -828,19 +880,6 @@
       "category": "Markets",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T18:12:05+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "63572d2f7060b0778edf99e6",
-      "title": "Connecticut Sen. Chris Murphy has stroke and is in the hospital, office says",
-      "summary": "Sen. Chris Murphy's office announced Sunday that he suffered a stroke and was hospitalized the day prior, though they say he is 'awake and alert.'",
-      "url": "https://www.cnbc.com/2026/11/01/chris-murphy-stroke-senate-hospital.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T18:08:33+00:00",
       "desk_priority": 37,
       "selection_type": "automatic"
     },
@@ -3010,6 +3049,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "97587605ab935cb7a947589b",
+      "title": "Bulgaria's Yotova secures decisive win in presidential runoff",
+      "summary": "Acting President Iliana Yotova is all set to become Bulgaria's first elected female head of state after decisively winning the presidential election runoff.",
+      "url": "https://www.dw.com/en/bulgaria-s-yotova-secures-decisive-win-in-presidential-runoff/a-79820449?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T07:00:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "4dc8c19bfe40d157ded24e9e",
       "title": "Bulgaria exit polls: Incumbent Yotova predicted to win",
       "summary": "Incumbent President Iliana Yotova appears set to win Bulgaria's presidential election runoff. Exit polls put the more Russia-friendly candidate who favors dialogue with Moscow on just over 50% of the vote.",
@@ -4328,11 +4380,11 @@
       "summary": "In past elections, elected leaders, candidates and social media users have spread falsehoods that \"late night\" arrivals of \"ballot dumps\" or \"suitcases\" of ballots are signs of fraud, or that only Democratic-led cities take days to count votes.",
       "url": "https://www.pbs.org/newshour/politics/when-will-we-know-2026-midterm-election-results-it-may-take-some-time-but-thats-normal",
       "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
+      "feed_id": "pbs_politics",
+      "category": "Government",
       "source_type": "Publisher RSS",
       "published_at": "2026-10-31T18:02:17+00:00",
-      "desk_priority": 24,
+      "desk_priority": 31,
       "selection_type": "automatic"
     },
     {
@@ -5477,58 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-31T11:30:00+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "99812603deaed695696b6303",
-      "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
-      "summary": "Poland’s centrist government says it is restoring judicial independence after years of far-right political interference.",
-      "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T11:27:07+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "e8ecd9c545c92ab756ccbb3a",
-      "title": "Thousands protest across Italy over living costs and military spending",
-      "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T11:07:39+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "5286ac43584e0ca10749facb",
-      "title": "UFC champion Islam Makhachev says his next fight will be ‘one of last’",
-      "summary": "Makhachev, one of the best fighters in UFC history, wants to face the winner of next year's Prates vs Morales fight.",
-      "url": "https://www.aljazeera.com/sports/2026/10/31/islam-makhachev-ufc-welterweight-title-one-of-last-fight-prates-morales?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T11:02:05+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "78d43a9de2c14285260b30a1",
-      "title": "Days away from a national verdict on Trump 2.0, we check in with nine voters across the political spectrum",
-      "summary": "Millions will vote to decide which party controls Congress – which will have a huge impact on Trump’s final years in office US voters will soon deliver a national verdict on the second presidency of Donald Trump . On 3 November, millions of Americans will vote in midterm elections to decide control of the House of Representatives and Senate, as well as the governorships in 36 states and state legislatures across the country. The results could have a huge impact on Trump’s final two years in office. Our reporters have interviewed nine voters across the country and the political spectrum about extremism in US politics, their confidence in the US voting system, what they hope Congress will tackle first and their views of the president’s secretary of defense, Pete Hegseth. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/31/nine-voters-us-midterms-extremism-congress-hegseth",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T11:00:44+00:00",
-      "desk_priority": 24,
       "selection_type": "automatic"
     }
   ]
