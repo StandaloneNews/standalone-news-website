@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T19:55:05Z",
+  "updated_at": "2026-11-01T20:19:27Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -763,19 +763,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506270",
+      "id": "sportsdb-2506274",
       "league": "laliga",
-      "name": "Athletic Bilbao vs Real Sociedad",
-      "date": "2026-11-01T20:00:00Z",
+      "name": "Deportivo de A Coruña vs Osasuna",
+      "date": "2026-11-02T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Athletic Bilbao",
+          "name": "Deportivo de A Coruña",
           "score": ""
         },
         {
-          "name": "Real Sociedad",
+          "name": "Osasuna",
           "score": ""
         }
       ],
@@ -818,14 +818,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2514019",
+      "league": "primeira",
+      "name": "Braga vs Famalicao",
+      "date": "2026-11-01T20:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": ""
+        },
+        {
+          "name": "Famalicao",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Boy, 14, hands himself into police over Bradley Lowery video",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:15:52Z",
+      "league": "all"
+    },
+    {
       "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T19:41:43Z",
+      "date": "2026-11-01T20:11:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
+      "date": "2026-11-01T20:10:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal move clear at the top with a rare win at Liverpool",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:00:18Z",
       "league": "all"
     },
     {
@@ -833,13 +873,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjdx3dpvevngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T19:37:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
-      "date": "2026-11-01T19:35:45Z",
       "league": "all"
     },
     {
@@ -864,7 +897,7 @@
       "league": "all"
     },
     {
-      "title": "Arsenal hold on for vital win at Liverpool after Kai Havertz’s close-range finish",
+      "title": "Arsenal hold on for first league win at Liverpool since 2012 after Kai Havertz pounces early",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report",
       "date": "2026-11-01T18:44:48Z",
@@ -900,10 +933,10 @@
     },
     {
       "title": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
       "date": "2026-11-01T18:00:30Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
@@ -1081,13 +1114,6 @@
       "league": "all"
     },
     {
-      "title": "Kilmarnock 'need support more than ever' but patience wearing thin",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6pqg3dw9w55o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T10:41:28Z",
-      "league": "soccer"
-    },
-    {
       "title": "Michael Carrick to stay in charge of Manchester United for Roma game",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
@@ -1110,23 +1136,16 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:54:38Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cm1j3yd6994yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:29:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Gabby Williams powers Valkyries past Dream in Game 7 for historic WNBA title",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/31/golden-state-valkyries-atlanta-dream-wnba-finals-game-7-gabby-williams",
-      "date": "2026-11-01T02:36:19Z",
       "league": "all"
     },
     {
