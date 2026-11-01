@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T20:19:27Z",
+  "updated_at": "2026-11-01T20:56:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -687,38 +687,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601753",
+      "id": "sportsdb-2601754",
       "league": "nba",
-      "name": "Orlando Magic vs Boston Celtics",
-      "date": "2026-11-01T20:30:00Z",
+      "name": "Indiana Pacers vs Brooklyn Nets",
+      "date": "2026-11-01T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Orlando Magic",
+          "name": "Indiana Pacers",
           "score": ""
         },
         {
-          "name": "Boston Celtics",
+          "name": "Brooklyn Nets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591712",
+      "id": "sportsdb-2591713",
       "league": "nhl",
-      "name": "Washington Capitals vs Minnesota Wild",
-      "date": "2026-11-01T20:30:00Z",
+      "name": "Philadelphia Flyers vs Utah Mammoth",
+      "date": "2026-11-01T21:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington Capitals",
+          "name": "Philadelphia Flyers",
           "score": ""
         },
         {
-          "name": "Minnesota Wild",
+          "name": "Utah Mammoth",
           "score": ""
         }
       ],
@@ -820,19 +820,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2514019",
-      "league": "primeira",
-      "name": "Braga vs Famalicao",
-      "date": "2026-11-01T20:30:00Z",
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Braga",
+          "name": "Lorient",
           "score": ""
         },
         {
-          "name": "Famalicao",
+          "name": "Brest",
           "score": ""
         }
       ],
@@ -841,24 +841,52 @@
   ],
   "stories": [
     {
-      "title": "Boy, 14, hands himself into police over Bradley Lowery video",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T20:15:52Z",
+      "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
+      "date": "2026-11-01T20:54:58Z",
       "league": "all"
     },
     {
       "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T20:11:44Z",
+      "date": "2026-11-01T20:53:57Z",
       "league": "all"
     },
     {
-      "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
+      "title": "Warnock hid seizures from Liverpool as a youngster",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rry8pxwkdpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:32:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Watch: Bundesliga highlights - matchday eight",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/l00590gw?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:18:38Z",
+      "league": "all"
+    },
+    {
+      "title": "WSL roundup: Arsenal stall despite Russo strike; Chelsea’s James suffers injury",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
-      "date": "2026-11-01T20:10:43Z",
+      "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
+      "date": "2026-11-01T20:17:13Z",
+      "league": "all"
+    },
+    {
+      "title": "From Fleetwood embarrassment to 'magical' Anfield win 14 years in making",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c39wz2epven4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:16:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Boy, 14, hands himself into police over Bradley Lowery video",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T20:15:52Z",
       "league": "all"
     },
     {
@@ -880,13 +908,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cx2d2yxv84zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T19:21:49Z",
-      "league": "all"
-    },
-    {
-      "title": "WSL roundup: Russo salvages draw, James suffers hamstring injury",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
-      "date": "2026-11-01T19:07:47Z",
       "league": "all"
     },
     {
@@ -975,17 +996,10 @@
     },
     {
       "title": "Retired Sheff Utd legend Sharp signs for Rushden",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c820vylvxwxlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T16:51:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Namibia overpower Ireland in series decider",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmed34zjq9d5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T16:43:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "New York City Marathon: Andreas Almgren wins on debut as Sheila Chepkirui reclaims crown",
@@ -1140,20 +1154,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:54:38Z",
       "league": "soccer"
-    },
-    {
-      "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cm1j3yd6994yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T06:29:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Are Manchester United really at risk of a relegation scrap?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:52:28Z",
-      "league": "all"
     }
   ]
 }
