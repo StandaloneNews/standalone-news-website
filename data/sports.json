@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T03:32:47Z",
+  "updated_at": "2026-11-01T04:34:09Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,52 +818,14 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489538",
-      "league": "ligue1",
-      "name": "Strasbourg vs Auxerre",
-      "date": "2026-11-01T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Strasbourg",
-          "score": ""
-        },
-        {
-          "name": "Auxerre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Atlanta Dream 63-68 Golden State Valkyries: WNBA finals 2026 Game 7 – live reaction",
+      "title": "Gabby Williams powers Valkyries past Dream in Game 7 for historic WNBA title",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/oct/31/atlanta-dream-v-golden-state-valkyries-wnba-finals-2026-game-7-live-buildup",
-      "date": "2026-11-01T03:15:29Z",
+      "url": "https://www.theguardian.com/sport/2026/oct/31/golden-state-valkyries-atlanta-dream-wnba-finals-game-7-gabby-williams",
+      "date": "2026-11-01T02:36:19Z",
       "league": "all"
     },
     {
