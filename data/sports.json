@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T22:24:40Z",
+  "updated_at": "2026-11-01T22:57:07Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,40 +818,70 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Mexican Formula One Grand Prix: Kimi Antonelli aims to seal title – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live",
-      "date": "2026-11-01T22:13:22Z",
+      "title": "Watch: Match of the Day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T23:12:25Z",
       "league": "all"
     },
     {
-      "title": "NFL week eight: Bills thrash Ravens, Steelers beat Browns, Lions edge Vikings – as it happened",
+      "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:57:02Z",
+      "league": "all"
+    },
+    {
+      "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:54:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Rice relishing title race 'anxiety' after win at Liverpool",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:50:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli heads list of F1's youngest champions",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cjy56wkdk3nko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:28:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T21:45:52Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp",
+      "date": "2026-11-01T22:27:23Z",
+      "league": "all"
+    },
+    {
+      "title": "How much do you know about F1 champion Antonelli?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:25:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Antonelli - the boy 'born in a garage' who became world champion",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c0rdvxdwwwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T22:25:01Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL roundup: Cardinals’ comeback stuns Cowboys; Lamar Jackson’s season could be over",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/nfl-roundup-sunday-football-scores",
+      "date": "2026-11-01T21:56:26Z",
       "league": "all"
     },
     {
@@ -953,13 +983,6 @@
       "league": "all"
     },
     {
-      "title": "Almgren wins in New York on marathon debut",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/c6ly0871547eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T18:10:11Z",
-      "league": "all"
-    },
-    {
       "title": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
@@ -971,13 +994,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
       "date": "2026-11-01T17:55:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Clinical Man City edge past London City in WSL thriller",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1rgey8j7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T17:54:43Z",
       "league": "all"
     },
     {
@@ -996,10 +1012,10 @@
     },
     {
       "title": "Chelsea put six past Charlton to top WSL",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T17:10:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Retired Sheff Utd legend Sharp signs for Rushden",
@@ -1051,18 +1067,11 @@
       "league": "all"
     },
     {
-      "title": "Hardie clinches fifth gold as Scots win European Championship",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cwp8grl5xypjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T15:31:11Z",
-      "league": "all"
-    },
-    {
       "title": "Spence 'very proud' to break WSL appearance record",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy4xwwqzvw1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T15:18:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Referee accidentally fractures college football player's leg",
@@ -1093,13 +1102,6 @@
       "league": "all"
     },
     {
-      "title": "Yamaha will not travel to Qatar for MotoGP race",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm98z2966128o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T13:51:53Z",
-      "league": "all"
-    },
-    {
       "title": "Ciara Mageean, European 1500m gold medallist with Ireland, dies aged 34",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
@@ -1121,13 +1123,6 @@
       "league": "all"
     },
     {
-      "title": "Former European champion and two-time Olympian Mageean dies aged 34",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/cn81px29032o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T10:45:42Z",
-      "league": "all"
-    },
-    {
       "title": "Michael Carrick to stay in charge of Manchester United for Roma game",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-stay-manager-manchester-united-roma-game",
@@ -1139,20 +1134,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/01/salford-city-david-beckham-lofty-ambitions-football",
       "date": "2026-11-01T08:00:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Third choice? Inside Alexander-Arnold's struggles in Madrid",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9e8lp357je7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T07:42:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T06:54:38Z",
       "league": "soccer"
     }
   ]
