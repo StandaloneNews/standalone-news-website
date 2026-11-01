@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T10:59:07Z",
+  "updated_at": "2026-11-01T11:53:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -801,19 +801,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482237",
+      "id": "sportsdb-2482228",
       "league": "seriea",
-      "name": "Como vs Venezia",
-      "date": "2026-11-01T11:30:00Z",
+      "name": "Lazio vs Cagliari",
+      "date": "2026-11-01T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Como",
+          "name": "Lazio",
           "score": ""
         },
         {
-          "name": "Venezia",
+          "name": "Cagliari",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489538",
+      "league": "ligue1",
+      "name": "Strasbourg vs Auxerre",
+      "date": "2026-11-01T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Strasbourg",
+          "score": ""
+        },
+        {
+          "name": "Auxerre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
           "score": ""
         }
       ],
@@ -825,7 +863,42 @@
       "title": "Carrick to stay in charge for Roma game; Challinor in at Sheffield Wednesday; Liverpool v Arsenal buildup – matchday live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/carrick-defiant-after-latest-defeat-liverpool-v-arsenal-buildup-wsl-and-more-matchday-live",
-      "date": "2026-11-01T10:46:21Z",
+      "date": "2026-11-01T11:36:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Britain's Dart wins first WTA title of her career",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm62y10v3p96o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T11:27:04Z",
+      "league": "all"
+    },
+    {
+      "title": "GB’s Harriet Dart wins maiden WTA title at 30 with Guangzhou Open triumph",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/harriet-dart-wins-maiden-wta-title-guangzhou-open-tennis-lilli-tagger",
+      "date": "2026-11-01T11:20:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Sheff Wed appoint former Stockport boss Challinor",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6er2025qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T11:15:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Tonga’s gripping win over Samoa a victory for Pasifika pride at Rugby League World Cup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/tonga-samoa-mens-rugby-league-world-cup-england-exit",
+      "date": "2026-11-01T11:05:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Former European champion and two-time Olympian Mageean dies aged 34",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/cn81px29032o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T10:45:42Z",
       "league": "all"
     },
     {
@@ -871,13 +944,6 @@
       "league": "all"
     },
     {
-      "title": "Cox wins second gold at Para-cycling Worlds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cycling/articles/cmrlywzzg8g7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T07:21:05Z",
-      "league": "all"
-    },
-    {
       "title": "Wales hit by Australia century in World Cup record defeat",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cked34glxp0no?at_medium=RSS&at_campaign=rss",
@@ -892,25 +958,11 @@
       "league": "all"
     },
     {
-      "title": "Merciless Jillaroos destroy Wales at Rugby League World Cup, piling on all-time record score",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/australia-jillaroos-wales-womens-rugby-league-world-cup-match-report",
-      "date": "2026-11-01T06:46:13Z",
-      "league": "all"
-    },
-    {
       "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cm1j3yd6994yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:29:50Z",
       "league": "all"
-    },
-    {
-      "title": "Fishlock out to keep career alive in NWSL play-offs",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmewe7ee1djzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T05:15:00Z",
-      "league": "soccer"
     },
     {
       "title": "Gabby Williams powers Valkyries past Dream in Game 7 for historic WNBA title",
@@ -1054,17 +1106,17 @@
     },
     {
       "title": "Man Utd enquire about Toney - Sunday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crz98lwn3pvzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T22:14:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Are De Zerbi's Spurs finding elusive consistency?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n04v897qe4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T21:16:11Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Verbruggen spreads belief as impressive Brighton beat Man City",
@@ -1121,20 +1173,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cve8rkd8r302o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-31T19:05:41Z",
       "league": "all"
-    },
-    {
-      "title": "Enzo Maresca rues ‘silly’ errors after Manchester City defeat against Brighton",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/31/enzo-maresca-manchester-city-brighton-premier-league",
-      "date": "2026-10-31T18:38:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United’s capitulation at Chelsea paints picture of a club that barely exists | Barney Ronay",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/manchester-united-chelsea-premier-league-michael-carrick",
-      "date": "2026-10-31T17:54:19Z",
-      "league": "soccer"
     }
   ]
 }
