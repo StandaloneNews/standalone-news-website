@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T17:53:30Z",
+  "updated_at": "2026-11-01T18:19:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -668,19 +668,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475482",
+      "id": "sportsdb-2475490",
       "league": "nfl",
-      "name": "Buffalo Bills vs Baltimore Ravens",
-      "date": "2026-11-01T18:00:00Z",
+      "name": "Los Angeles Rams vs Los Angeles Chargers",
+      "date": "2026-11-01T21:05:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Bills",
+          "name": "Los Angeles Rams",
           "score": ""
         },
         {
-          "name": "Baltimore Ravens",
+          "name": "Los Angeles Chargers",
           "score": ""
         }
       ],
@@ -706,19 +706,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591711",
+      "id": "sportsdb-2591712",
       "league": "nhl",
-      "name": "Carolina Hurricanes vs Winnipeg Jets",
-      "date": "2026-11-01T18:00:00Z",
+      "name": "Washington Capitals vs Minnesota Wild",
+      "date": "2026-11-01T20:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Carolina Hurricanes",
+          "name": "Washington Capitals",
           "score": ""
         },
         {
-          "name": "Winnipeg Jets",
+          "name": "Minnesota Wild",
           "score": ""
         }
       ],
@@ -837,21 +837,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Liverpool v Arsenal: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
-      "date": "2026-11-01T17:48:50Z",
+      "title": "Almgren wins in New York on marathon debut",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/c6ly0871547eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T18:10:11Z",
       "league": "all"
+    },
+    {
+      "title": "Liverpool v Arsenal: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live",
+      "date": "2026-11-01T18:07:56Z",
+      "league": "soccer"
     },
     {
       "title": "NFL week eight: Ravens v Bills, Browns v Steelers, Vikings v Lions and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/01/nfl-week-eight-ravens-v-bills-browns-v-steelers-vikings-v-lions-and-more-updates",
-      "date": "2026-11-01T17:43:29Z",
+      "date": "2026-11-01T18:04:11Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
+      "date": "2026-11-01T17:55:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Clinical Man City edge past London City in WSL thriller",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1rgey8j7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T17:54:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Russo rescues late point for Arsenal against Villa",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c678pe84l97go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T17:54:40Z",
       "league": "all"
     },
     {
@@ -863,10 +910,10 @@
     },
     {
       "title": "Scottish roundup: Falkirk shock Celtic; Hibernian beat Hearts in semi-final",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
       "date": "2026-11-01T17:28:54Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Chelsea put six past Charlton to top WSL",
@@ -877,10 +924,17 @@
     },
     {
       "title": "Retired Sheff Utd legend Sharp signs for Rushden",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c820vylvxwxlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T16:51:07Z",
-      "league": "soccer"
+      "league": "all"
+    },
+    {
+      "title": "Namibia overpower Ireland in series decider",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmed34zjq9d5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T16:43:04Z",
+      "league": "all"
     },
     {
       "title": "‘We have effing unbreakable love’: how the maverick Natalie Nakase led the Valkyries to WNBA glory",
@@ -988,13 +1042,6 @@
       "league": "all"
     },
     {
-      "title": "Wales thrashed as Australia score record 21 tries",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/crp3gx9vz510o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T12:27:34Z",
-      "league": "all"
-    },
-    {
       "title": "GB’s Harriet Dart wins maiden WTA title at 30 with Guangzhou Open triumph",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/harriet-dart-wins-maiden-wta-title-guangzhou-open-tennis-lilli-tagger",
@@ -1051,11 +1098,18 @@
       "league": "soccer"
     },
     {
+      "title": "Wales hit by Australia century in World Cup record defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cked34glxp0no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T06:57:05Z",
+      "league": "all"
+    },
+    {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ezj09e9k6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T06:54:38Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Cummins concerns and weaknesses to target - takeaways from SA-Australia",
@@ -1069,6 +1123,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/golden-state-valkyries-atlanta-dream-wnba-finals-game-7-gabby-williams",
       "date": "2026-11-01T02:36:19Z",
+      "league": "all"
+    },
+    {
+      "title": "On 'tense' Antonelli's big weekend, this was Hamilton's day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cje36e0gze4ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-01T00:35:28Z",
       "league": "all"
     },
     {
@@ -1086,6 +1147,13 @@
       "league": "all"
     },
     {
+      "title": "Ocon denies reports of physical altercation behind dropping",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n04vjjpkv4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-31T23:43:41Z",
+      "league": "all"
+    },
+    {
       "title": "Canelo Álvarez wins back world title as Houthi attacks cast shadow over Riyadh",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/canelo-alvarez-christian-mbilli-wbc-world-title-riyadh-boxing",
@@ -1100,59 +1168,10 @@
       "league": "all"
     },
     {
-      "title": "Kane misses Bayern penalty before late Dortmund goal earns draw",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckpdg3eq06z5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T23:05:55Z",
-      "league": "all"
-    },
-    {
       "title": "Lewis Hamilton storms to his first Ferrari pole at F1 Mexican GP with Antonelli fourth",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/oct/31/lewis-hamilton-storms-to-first-ferrari-pole-at-f1-mexican-grand-prix-with-antonelli-fifth",
       "date": "2026-10-31T23:03:18Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea beat 10-man Man Utd to pile more pressure on Carrick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckn8w20nn9g7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:30:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Brighton pick up first away league victory over Man City",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqx28l2gdepxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:30:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Coventry out of bottom three with win over struggling Sunderland",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm93zv0zkjqlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Enciso's stunning goal earns Ipswich draw at Hull",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8qln4qq2656o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Spurs revival continues with victory over 10-man Crystal Palace",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cxvgdrg33m72o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Evanilson scores again as Bournemouth beat Leeds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6zxj1vzwx1xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-10-31T22:29:21Z",
       "league": "all"
     }
   ]
