@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T14:46:48Z",
+  "updated_at": "2026-11-02T15:41:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,47 +818,30 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Jack Grealish left out of Everton squad again for Premier League trip to Newcastle",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/jack-grealish-left-out-everton-squad-newcastle-premier-league-david-moyes",
+      "date": "2026-11-02T14:58:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Stokell in 'voluntary' ban after medication error",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n9rngrplggo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T14:44:30Z",
+      "league": "all"
+    },
+    {
+      "title": "England’s exit from Rugby League World Cup was a disaster years in the making | Aaron Bower",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/england-2026-rugby-league-world-cup-disaster",
+      "date": "2026-11-02T14:44:21Z",
+      "league": "all"
+    },
     {
       "title": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
       "source": "The Guardian Football",
@@ -882,10 +865,10 @@
     },
     {
       "title": "‘We had to dig in’: Arsenal’s Anfield win was performance of champions, says Rice",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-declan-rice-champions",
       "date": "2026-11-02T14:00:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Worst in the EFL - the team with a penalty problem",
@@ -1078,10 +1061,10 @@
     },
     {
       "title": "No Grealish, no problem - the rise of Everton's youngsters",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm70pv70jwrjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T07:19:35Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Zverev becomes deserved world number one - but sense of discomfort remains",
@@ -1126,13 +1109,6 @@
       "league": "all"
     },
     {
-      "title": "Rugby League World Cup: Adversaries gather at Australia’s gate but main threat comes from within",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/australia-rugby-league-world-cup-kangaroos-vs-samoa-semi-final",
-      "date": "2026-11-02T01:35:36Z",
-      "league": "all"
-    },
-    {
       "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
@@ -1159,20 +1135,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T00:00:03Z",
       "league": "all"
-    },
-    {
-      "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
-      "date": "2026-11-01T23:46:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Man Utd eye Barcelona's Balde - Monday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgk0l3zpnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T23:00:21Z",
-      "league": "soccer"
     }
   ]
 }
