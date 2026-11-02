@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T03:37:29Z",
+  "updated_at": "2026-11-02T04:43:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 26,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -23,12 +23,12 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -668,25 +668,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475493",
-      "league": "nfl",
-      "name": "Washington Commanders vs Philadelphia Eagles",
-      "date": "2026-11-02T01:20:00Z",
-      "state": "upcoming",
-      "status": "Q3",
-      "participants": [
-        {
-          "name": "Washington Commanders",
-          "score": ""
-        },
-        {
-          "name": "Philadelphia Eagles",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475494",
       "league": "nfl",
       "name": "Seattle Seahawks vs Chicago Bears",
@@ -719,45 +700,6 @@
         },
         {
           "name": "Oklahoma City Thunder",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "1"
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591715",
-      "league": "nhl",
-      "name": "Anaheim Ducks vs Ottawa Senators",
-      "date": "2026-11-02T01:00:00Z",
-      "state": "upcoming",
-      "status": "P2",
-      "participants": [
-        {
-          "name": "Anaheim Ducks",
-          "score": ""
-        },
-        {
-          "name": "Ottawa Senators",
           "score": ""
         }
       ],
@@ -797,26 +739,6 @@
         {
           "name": "Ohio",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494082",
-      "league": "epl",
-      "name": "Liverpool vs Arsenal",
-      "date": "2026-11-01T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Liverpool",
-          "score": "0"
-        },
-        {
-          "name": "Arsenal",
-          "score": "1",
-          "winner": true
         }
       ],
       "url": ""
@@ -892,236 +814,6 @@
         },
         {
           "name": "Fiorentina",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489536",
-      "league": "ligue1",
-      "name": "Marseille vs Toulouse",
-      "date": "2026-11-01T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Marseille",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Toulouse",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398523",
-      "league": "brasileirao",
-      "name": "Bragantino vs Santos",
-      "date": "2026-11-02T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": ""
-        },
-        {
-          "name": "Santos",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398170",
-      "league": "argentina",
-      "name": "Lanús vs Gimnasia y Esgrima de Mendoza",
-      "date": "2026-11-01T23:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lanús",
-          "score": "1"
-        },
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398164",
-      "league": "argentina",
-      "name": "Defensa y Justicia vs Independiente",
-      "date": "2026-11-02T22:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Defensa y Justicia",
-          "score": ""
-        },
-        {
-          "name": "Independiente",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487587",
-      "league": "ligamx",
-      "name": "Necaxa vs Tijuana",
-      "date": "2026-11-07T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Necaxa",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        },
-        {
-          "name": "Tokyo Verdy",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540123",
-      "league": "aleague",
-      "name": "Perth Glory vs Adelaide United",
-      "date": "2026-11-01T08:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Perth Glory",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Adelaide United",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540124",
-      "league": "aleague",
-      "name": "Sydney FC vs Central Coast Mariners",
-      "date": "2026-11-06T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": ""
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514015",
-      "league": "primeira",
-      "name": "Benfica vs Alverca",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Benfica",
-          "score": ""
-        },
-        {
-          "name": "Alverca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "Charlotte FC",
           "score": ""
         }
       ],
