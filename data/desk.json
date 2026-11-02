@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T05:13:58+00:00",
+  "updated_at": "2026-11-02T06:19:54+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -19,18 +19,93 @@
     "44854a68dadb2786c77029f8",
     "bdbd277ad7d6ef812f3edee7",
     "2b42d9bad881e0a34f28da94",
-    "d9a4f6390c50b3d214453bbd",
+    "9e197db2782d3caa57eef2ed",
+    "97ee6362932be90d64aa328c",
     "743c9adc1c15650721744dc5",
+    "726ba60dbdd476251a85cd2e",
     "944be91cc06a18a89b9b88b4",
     "dd8ec44c2a87c5d04685d37e",
-    "4c7805da92c2787a7faa415a",
-    "be5f08b5603989ed1871f3ff",
     "8b0558e01f8a2b9eeda26a41",
     "03ac225b7200320a0a3535ea",
     "42a555c90e3be1ee65fdb50c"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "726ba60dbdd476251a85cd2e",
+      "title": "9 dead as jet nosedives and erupts into fireball near busy roadway in South Florida",
+      "summary": "U.S. Transportation Secretary Duffy says all nine people died aboard a business jet that crashed into a Florida neighborhood. The aircraft departed from Austin, Texas, and was headed to the Bahamas.",
+      "url": "https://www.npr.org/2026/11/02/g-s1-151211/south-florida-jet-crash",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T06:13:28+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "b93b2077c86eaeef2db21dd3",
+      "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
+      "summary": "Frustration grows over the economy with one Labor MP saying voter anger is already high ahead of Reserve Bank of Australia decision Get our daily political email , free app or daily news podcast The NSW premier, Chris Minns, has warned an expected interest rate increase will force job losses and cause businesses to close, insisting the federal government and states should rein in spending to take pressure off the economy. The intervention from the leader of the country’s biggest state will heap yet more pressure on the Albanese government ahead of the Reserve Bank of Australia’s cash rate decision on Tuesday. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T06:08:33+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ad5d5621e393f57eb18f333e",
+      "title": "South Korea targets 'world's highest performance' sovereign AI model in record new budget",
+      "summary": "The 2027 budget will rise 12.8% to 820.9 trillion won, and will include a 21.3 trillion won investment into semiconductors, physical AI and AI data centers.",
+      "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T06:02:03+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9e197db2782d3caa57eef2ed",
+      "title": "Iran killed her teenage daughter - now she is facing up to the regime",
+      "summary": "Samira's 16-year-old daughter Sevda was shot dead as they took part in mass protests in January.",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T06:00:54+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "46cd8cbd30cb382316b40b8e",
+      "title": "Israel has ‘historic’ opportunity to change direction, says leader of Arab coalition",
+      "summary": "Yousef Jabareen says he is ready to join forces with opposition bloc to oust Benjamin Netanyahu after winning record number of seats in Knesset The leader of Israel’s main Palestinian coalition, which holds the balance of power after Tuesday’s elections, has said the country is facing a historic opportunity to change direction. Yousef Jabareen, the head of the Joint List, said he was ready to join forces with the “Change” bloc to oust Benjamin Netanyahu and his far-right coalition, and to wrest control of the Knesset. Continue reading...",
+      "url": "https://www.theguardian.com/world/2026/nov/02/israel-opposition-bloc-arab-coalition-knesset-yousef-jabareen",
+      "source": "The Guardian",
+      "feed_id": "guardian_us",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T06:00:32+00:00",
+      "desk_priority": 24,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Kyle Taylor from London, 84 Countries",
+        "license": "CC BY 2.0",
+        "description": "Israel - Jerusalem - Old City",
+        "label": "Illustrative photo",
+        "matched_query": "Jerusalem Israel skyline"
+      }
+    },
     {
       "id": "1a457372e42f954540ed47d6",
       "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
@@ -60,7 +135,7 @@
     {
       "id": "487ca3cac192a7d39670d2e2",
       "title": "South Korea to pour billions into AI",
-      "summary": "South Korea to spend billions to strengthen the country's technological edge.",
+      "summary": "President Lee Jae Myung has presented his record-breaking budget proposal for 2027, including major investments in AI and other tech.",
       "url": "https://www.dw.com/en/south-korea-to-pour-billions-into-ai/a-79825118?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -68,6 +143,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-02T05:01:00+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "97ee6362932be90d64aa328c",
+      "title": "Jackery made its portable power stations even smaller",
+      "summary": "Jackery announced a new portable power station that uses the safer and longer-lasting lithium iron phosphate (LFP) batteries the company first introduced in 2023. But what makes the new Explorer 100D stand out is that it's Jackery's smallest power station to date, measuring only 4.6 by 3.4 by 3.4 inches and weighing just 1.87 pounds. […]",
+      "url": "https://www.theverge.com/tech/1023173/jackery-explorer-100d-portable-power-station-battery-lithium-iron-phosphate",
+      "source": "The Verge",
+      "feed_id": "verge",
+      "category": "Technology",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-02T05:00:00+00:00",
+      "desk_priority": 26,
       "selection_type": "automatic"
     },
     {
@@ -290,7 +378,7 @@
     },
     {
       "id": "e3b756138fe24336cdf137a3",
-      "title": "'Like a missile coming down' - Nine killed in fiery Florida jet crash",
+      "title": "Nine killed as small jet crashes on Florida street",
       "summary": "Transportation Secretary Sean Duffy described the crash, which happened near President Trump's Mar-a-Lago resort, as a \"horrific tragedy\".",
       "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -719,7 +807,7 @@
     },
     {
       "id": "c4b88ae510f63c3d4acabae1",
-      "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+      "title": "Antonelli becomes youngest world champion as Verstappen wins in Mexico",
       "summary": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -2928,19 +3016,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "e42b7225893e1691d90a19fc",
-      "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
-      "summary": "The ACA health insurance marketplaces — find yours at HealthCare.gov — open Nov. 1 for 2027 coverage. Getting an early start may be especially important this year.",
-      "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-01T12:00:00+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
       "id": "325014fc361ed264b3ce84b2",
       "title": "Investors Are Hedging Against the Risks of the AI Boom",
       "summary": "Plus, inside the final days of Darline Graham’s reluctant Senate run, and two owners claim to have the same legendary Porsche.",
@@ -2951,6 +3026,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-01T12:00:00+00:00",
       "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "e42b7225893e1691d90a19fc",
+      "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+      "summary": "The ACA health insurance marketplaces — find yours at HealthCare.gov — open Nov. 1 for 2027 coverage. Getting an early start may be especially important this year.",
+      "url": "https://www.npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
+      "source": "NPR",
+      "feed_id": "npr_top",
+      "category": "US News",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-01T12:00:00+00:00",
+      "desk_priority": 24,
       "selection_type": "automatic"
     },
     {
@@ -5431,84 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-10-31T15:31:49+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f984f1bb078ab70d89ed0828",
-      "title": "Everton striker's relief family not home during burglary",
-      "summary": "The French striker says he is relieved his family were not at home as he played against Newcastle United.",
-      "url": "https://www.bbc.co.uk/news/articles/cwm26rnyrk23o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:27:55+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "060a985d9c7f79f803d1dc85",
-      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-      "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
-      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:16:20+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c2b007773561e634d6fe1269",
-      "title": "Windows 11 tries new shortcuts for Xbox gaming mode and search",
-      "summary": "The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter results for files, actions, or web results. […]",
-      "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:12:19+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "3436a298d7d445e942105342",
-      "title": "Chelsea beat Man United as Martinez sent off to pile pressure on Carrick",
-      "summary": "Goals from Morgan Rogers and Cole Palmer give Chelsea a 2-0 win over Manchester United in the Premier League.",
-      "url": "https://www.aljazeera.com/sports/2026/10/31/chelsea-beat-man-united-as-martinez-sees-red-for-crazy-moment-in-thriller?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:09:59+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "25c799e87cfd13020649c4b3",
-      "title": "Best Buy is bundling a $100 gift card with touchscreen MacBook Pro preorders",
-      "summary": "While the new touch-enabled MacBook Pro with the PROLED XDR screen is available for preorder across a few major retailers, Best Buy is sweetening the deal by including a $100 gift card. The gift card will be automatically added to your cart when you preorder one of Apple’s highest-end laptops available in 14- or 16-inch […]",
-      "url": "https://www.theverge.com/gadgets/1023302/best-buy-gift-card-macbook-pro-proled-xdr-preorder-deal-sale",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:00:00+00:00",
-      "desk_priority": 26,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "c33a4ef8830443b6ddae0e30",
-      "title": "Vic Mensa can’t live without the Voice Memos app",
-      "summary": "Vic Mensa is one of those people who has done so many things that it's hard to remember where you were first introduced to him. Was it his debut mixtape Innanetape, which finally hit the major streaming services for the first time in September? Or maybe his house-influenced single \"Down On My Luck\"? Maybe you […]",
-      "url": "https://www.theverge.com/entertainment/1023477/vic-mensa-voice-memos-app-interview",
-      "source": "The Verge",
-      "feed_id": "verge",
-      "category": "Technology",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-10-31T15:00:00+00:00",
-      "desk_priority": 26,
       "selection_type": "automatic"
     }
   ]
