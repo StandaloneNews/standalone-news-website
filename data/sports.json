@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T05:44:24Z",
+  "updated_at": "2026-11-02T06:49:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,9 +818,42 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Sportspeople back Dobbin's PM plea on ME funding",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/c63r53wvy4q5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T06:30:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx30erg1d2rjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T06:24:40Z",
+      "league": "all"
+    },
     {
       "title": "Australia Test captain Pat Cummins to miss upcoming England matches",
       "source": "The Guardian Sport",
@@ -836,6 +869,13 @@
       "league": "all"
     },
     {
+      "title": "‘I’ve cried way too much today’: Kimi Antonelli fights back tears after F1 title win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-world-champion-mexican-grand-prix-lando-norris-lewis-hamilton-max-verstappen",
+      "date": "2026-11-02T03:05:20Z",
+      "league": "all"
+    },
+    {
       "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
@@ -843,7 +883,7 @@
       "league": "all"
     },
     {
-      "title": "Adversaries gather at Australia’s gate but main Rugby League World Cup threat comes from within | Jack Snape",
+      "title": "Rugby League World Cup: Adversaries gather at Australia’s gate but main threat comes from within",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/02/australia-rugby-league-world-cup-kangaroos-vs-samoa-semi-final",
       "date": "2026-11-02T01:35:36Z",
@@ -927,13 +967,6 @@
       "league": "all"
     },
     {
-      "title": "Kimi Antonelli becomes youngest F1 champion with third place in Mexican GP",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp",
-      "date": "2026-11-01T22:27:23Z",
-      "league": "all"
-    },
-    {
       "title": "How much do you know about F1 champion Antonelli?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c98rzkv5y115o?at_medium=RSS&at_campaign=rss",
@@ -952,13 +985,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/nfl-roundup-sunday-football-scores",
       "date": "2026-11-01T21:56:26Z",
-      "league": "all"
-    },
-    {
-      "title": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league",
-      "date": "2026-11-01T21:25:01Z",
       "league": "all"
     },
     {
@@ -1026,10 +1052,10 @@
     },
     {
       "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T18:38:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bellingham & Mbappe score as Real Madrid earn statement win",
@@ -1102,11 +1128,11 @@
       "league": "all"
     },
     {
-      "title": "Defeat for London City against Man City - but is Europe a real possibility?",
-      "source": "BBC Sport",
+      "title": "Defeat for London City - but is Europe a real possibility?",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cj93z2nk2694o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T15:49:47Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Spence 'very proud' to break WSL appearance record",
@@ -1127,13 +1153,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/one-person-killed-in-shooting-outside-magic-city-classic-football-game-in-alabama",
       "date": "2026-11-01T14:10:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Ariarne Titmus: ‘I was all or nothing – achieve it or fail. And I guess that’s not a great way to be’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/ariarne-titmus-i-was-all-or-nothing-achieve-it-or-fail-and-i-guess-thats-not-a-great-way-to-be",
-      "date": "2026-11-01T14:00:19Z",
       "league": "all"
     }
   ]
