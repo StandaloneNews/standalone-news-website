@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T23:54:58Z",
+  "updated_at": "2026-11-02T00:27:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,33 +818,42 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Rice is a rounded midfielder, but could be more selfish - Murphy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz227v751o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T00:00:21Z",
+      "league": "all"
+    },
+    {
+      "title": "'He's been fantastic' - how Konsa has fitted in seamlessly at Arsenal",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy4000q97ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T00:00:11Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T00:00:03Z",
+      "league": "all"
+    },
+    {
       "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T23:27:08Z",
+      "date": "2026-11-01T23:56:00Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
+      "date": "2026-11-01T23:46:31Z",
       "league": "all"
     },
     {
@@ -981,13 +990,6 @@
       "league": "all"
     },
     {
-      "title": "Arteta credits Fleetwood loss for spirited win at Anfield",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cx2d2yxv84zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T19:21:49Z",
-      "league": "all"
-    },
-    {
       "title": "Giant curiosity Hibs finally liberated from the sucker punch",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxr5yjpnd31eo?at_medium=RSS&at_campaign=rss",
@@ -1023,13 +1025,6 @@
       "league": "all"
     },
     {
-      "title": "European football: Mbappé penalty helps Real Madrid stroll to sixth straight win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/european-football-real-madrid-lazio-juventus-napoli-kylian-mbappe",
-      "date": "2026-11-01T17:55:23Z",
-      "league": "all"
-    },
-    {
       "title": "Are Celtic club in regression amid run of six defeats in 10?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmvg7d1xl8epo?at_medium=RSS&at_campaign=rss",
@@ -1041,13 +1036,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
       "date": "2026-11-01T17:28:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea put six past Charlton to top WSL",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6wyrgydvx0lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T17:10:45Z",
       "league": "all"
     },
     {
@@ -1098,13 +1086,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy4xwwqzvw1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T15:18:43Z",
       "league": "soccer"
-    },
-    {
-      "title": "Referee accidentally fractures college football player's leg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck30ey1ezmyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T15:17:04Z",
-      "league": "all"
     },
     {
       "title": "Hemp strikes back as Manchester City edge out London City Lionesses in thriller",
