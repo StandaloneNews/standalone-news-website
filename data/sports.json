@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T17:41:55Z",
+  "updated_at": "2026-11-02T18:38:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,34 +818,50 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Key questions as Pocognoli prepares to name Scotland squad",
+      "title": "Newcastle United v Everton: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
+      "date": "2026-11-02T18:30:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Melbourne Cup betting rules show UK the way to prevent illegal gambling boom | Greg Wood",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/uk-legislators-must-follow-melbourne-cup-rules-illegal-betting-horse-racing",
+      "date": "2026-11-02T18:28:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Tenerife player in intensive care with injury",
       "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T18:18:55Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Almost 8.4m ticket requests for India-Pakistan World Cup tie",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr2ke7gy8q1go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T17:59:02Z",
+      "league": "all"
+    },
+    {
+      "title": "England call up Spencer and Randall as injuries hit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvp8gxldn304o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T17:48:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Key questions as Pocognoli prepares to name Scotland squad",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T17:35:14Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Goals, guests and 6,561 scenarios: inside ESPN on the biggest NWSL Decision Day yet",
@@ -1065,13 +1081,6 @@
       "league": "all"
     },
     {
-      "title": "Australia omit star pace trio for England series",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr5ynwddqpd6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T10:59:01Z",
-      "league": "all"
-    },
-    {
       "title": "Asa Tribe barred from England Lions tour under Ebola rules after Kenya trip",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/02/asa-tribe-england-lions-cricket-tour-st-kitts-ebola-rules-kenya-trip",
@@ -1121,38 +1130,10 @@
       "league": "all"
     },
     {
-      "title": "Vikings, Chiefs and Cowboys beaten - NFL week eight",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c3x2wd8llqpko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T07:27:46Z",
-      "league": "all"
-    },
-    {
       "title": "No Grealish, no problem - the rise of Everton's youngsters",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm70pv70jwrjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T07:19:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Zverev becomes deserved world number one - but sense of discomfort remains",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwkg5z5jmye0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T06:44:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx30erg1d2rjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T06:24:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Why Scottish football is struggling to produce young talent",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T06:05:57Z",
       "league": "soccer"
     }
   ]
