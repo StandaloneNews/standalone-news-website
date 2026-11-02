@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T01:38:10Z",
+  "updated_at": "2026-11-02T02:35:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,22 +13,22 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -668,6 +668,25 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475493",
+      "league": "nfl",
+      "name": "Washington Commanders vs Philadelphia Eagles",
+      "date": "2026-11-02T01:20:00Z",
+      "state": "upcoming",
+      "status": "Q2",
+      "participants": [
+        {
+          "name": "Washington Commanders",
+          "score": ""
+        },
+        {
+          "name": "Philadelphia Eagles",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475494",
       "league": "nfl",
       "name": "Seattle Seahawks vs Chicago Bears",
@@ -700,6 +719,64 @@
         },
         {
           "name": "Toronto Raptors",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2601757",
+      "league": "nba",
+      "name": "Cleveland Cavaliers vs Oklahoma City Thunder",
+      "date": "2026-11-03T00:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Cleveland Cavaliers",
+          "score": ""
+        },
+        {
+          "name": "Oklahoma City Thunder",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2624258",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-29T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "1"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591715",
+      "league": "nhl",
+      "name": "Anaheim Ducks vs Ottawa Senators",
+      "date": "2026-11-02T01:00:00Z",
+      "state": "upcoming",
+      "status": "P2",
+      "participants": [
+        {
+          "name": "Anaheim Ducks",
+          "score": ""
+        },
+        {
+          "name": "Ottawa Senators",
           "score": ""
         }
       ],
@@ -818,9 +895,194 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398523",
+      "league": "brasileirao",
+      "name": "Bragantino vs Santos",
+      "date": "2026-11-02T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Santos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398164",
+      "league": "argentina",
+      "name": "Defensa y Justicia vs Independiente",
+      "date": "2026-11-02T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Defensa y Justicia",
+          "score": ""
+        },
+        {
+          "name": "Independiente",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487587",
+      "league": "ligamx",
+      "name": "Necaxa vs Tijuana",
+      "date": "2026-11-07T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540124",
+      "league": "aleague",
+      "name": "Sydney FC vs Central Coast Mariners",
+      "date": "2026-11-06T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514015",
+      "league": "primeira",
+      "name": "Benfica vs Alverca",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Benfica",
+          "score": ""
+        },
+        {
+          "name": "Alverca",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407202",
+      "league": "mls",
+      "name": "Inter Miami vs Charlotte FC",
+      "date": "2026-11-07T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T01:47:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Adversaries gather at Australia’s gate but main Rugby League World Cup threat comes from within | Jack Snape",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/australia-rugby-league-world-cup-kangaroos-vs-samoa-semi-final",
+      "date": "2026-11-02T01:35:36Z",
+      "league": "all"
+    },
     {
       "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
       "source": "BBC Sport",
@@ -990,11 +1252,11 @@
       "league": "all"
     },
     {
-      "title": "Giant curiosity Hibs finally liberated from the sucker punch",
-      "source": "BBC Sport",
+      "title": "Giant curiosity Hibs finally liberated from Hearts sucker punch",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxr5yjpnd31eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T18:45:49Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
@@ -1120,20 +1382,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
       "date": "2026-11-01T12:31:01Z",
-      "league": "all"
-    },
-    {
-      "title": "GB’s Harriet Dart wins maiden WTA title at 30 with Guangzhou Open triumph",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/harriet-dart-wins-maiden-wta-title-guangzhou-open-tennis-lilli-tagger",
-      "date": "2026-11-01T11:20:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Tonga’s gripping win over Samoa a victory for Pasifika pride at Rugby League World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/tonga-samoa-mens-rugby-league-world-cup-england-exit",
-      "date": "2026-11-01T11:05:18Z",
       "league": "all"
     }
   ]
