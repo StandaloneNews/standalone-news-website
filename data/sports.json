@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T18:38:28Z",
+  "updated_at": "2026-11-02T19:40:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 22,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -58,12 +58,12 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ucl",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 2
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -801,6 +801,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482229",
+      "league": "seriea",
+      "name": "Sassuolo vs Fiorentina",
+      "date": "2026-11-02T17:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sassuolo",
+          "score": "2"
+        },
+        {
+          "name": "Fiorentina",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482233",
       "league": "seriea",
       "name": "Atalanta vs Parma",
@@ -818,6 +838,221 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489536",
+      "league": "ligue1",
+      "name": "Marseille vs Toulouse",
+      "date": "2026-11-01T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Marseille",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Toulouse",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398515",
+      "league": "brasileirao",
+      "name": "Coritiba vs Vitória",
+      "date": "2026-10-31T19:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Coritiba",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Vitória",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398170",
+      "league": "argentina",
+      "name": "Lanús vs Gimnasia y Esgrima de Mendoza",
+      "date": "2026-11-01T23:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lanús",
+          "score": "1"
+        },
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398164",
+      "league": "argentina",
+      "name": "Defensa y Justicia vs Independiente",
+      "date": "2026-11-02T22:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Defensa y Justicia",
+          "score": ""
+        },
+        {
+          "name": "Independiente",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487586",
+      "league": "ligamx",
+      "name": "Cruz Azul vs León",
+      "date": "2026-11-02T01:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "León",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492904",
+      "league": "j1",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "0"
+        },
+        {
+          "name": "Gamba Osaka",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540123",
+      "league": "aleague",
+      "name": "Perth Glory vs Adelaide United",
+      "date": "2026-11-01T08:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Perth Glory",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Adelaide United",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540124",
+      "league": "aleague",
+      "name": "Sydney FC vs Central Coast Mariners",
+      "date": "2026-11-06T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514019",
+      "league": "primeira",
+      "name": "Braga vs Famalicao",
+      "date": "2026-11-01T20:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Famalicao",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407201",
+      "league": "mls",
+      "name": "Portland Timbers vs Houston Dynamo",
+      "date": "2026-11-02T02:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Portland Timbers",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Houston Dynamo",
+          "score": "1"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -825,7 +1060,14 @@
       "title": "Newcastle United v Everton: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
-      "date": "2026-11-02T18:30:25Z",
+      "date": "2026-11-02T19:30:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Stumbling block: Wirtz's and Liverpool’s costly struggles against tight defences | Andrew Beasley",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/florian-wirtz-andoni-iraola-liverpool-tight-defences-arsenal-anfield",
+      "date": "2026-11-02T18:50:00Z",
       "league": "all"
     },
     {
@@ -840,6 +1082,13 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T18:18:55Z",
+      "league": "soccer"
+    },
+    {
+      "title": "BBC Women's Football Weekly",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pkxggd?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T18:10:00Z",
       "league": "soccer"
     },
     {
@@ -1121,20 +1370,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/02/tampa-bay-buccaneers-zero-passing-yards-nfl-atlanta-falcons",
       "date": "2026-11-02T08:00:35Z",
       "league": "all"
-    },
-    {
-      "title": "Premier League: 10 talking points from the weekend’s action",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/premier-league-10-talking-points-from-the-weekends-action",
-      "date": "2026-11-02T08:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "No Grealish, no problem - the rise of Everton's youngsters",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm70pv70jwrjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T07:19:35Z",
-      "league": "soccer"
     }
   ]
 }
