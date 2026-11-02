@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T16:45:24Z",
+  "updated_at": "2026-11-02T17:41:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 15,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -68,12 +68,12 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -801,39 +801,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482232",
+      "id": "sportsdb-2482233",
       "league": "seriea",
-      "name": "Juventus vs Napoli",
-      "date": "2026-11-01T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Juventus",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Napoli",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482229",
-      "league": "seriea",
-      "name": "Sassuolo vs Fiorentina",
-      "date": "2026-11-02T17:30:00Z",
+      "name": "Atalanta vs Parma",
+      "date": "2026-11-02T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sassuolo",
+          "name": "Atalanta",
           "score": ""
         },
         {
-          "name": "Fiorentina",
+          "name": "Parma",
           "score": ""
         }
       ],
@@ -857,67 +837,30 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398523",
-      "league": "brasileirao",
-      "name": "Bragantino vs Santos",
-      "date": "2026-11-02T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": ""
-        },
-        {
-          "name": "Santos",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514019",
-      "league": "primeira",
-      "name": "Braga vs Famalicao",
-      "date": "2026-11-01T20:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Braga",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Famalicao",
-          "score": "0"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Key questions as Pocognoli prepares to name Scotland squad",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T17:35:14Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Goals, guests and 6,561 scenarios: inside ESPN on the biggest NWSL Decision Day yet",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/goals-guests-and-6561-scenarios-inside-espn-on-the-biggest-nwsl-decision-day-yet",
+      "date": "2026-11-02T17:28:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Boulter wins despite incident getting under her skin",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwj3465p7n7no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T16:51:56Z",
+      "league": "all"
+    },
     {
       "title": "Can Alcaraz's ex-coach help Shelton challenge his former protege?",
       "source": "BBC Sport",
@@ -941,17 +884,17 @@
     },
     {
       "title": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league",
       "date": "2026-11-02T15:47:19Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Led by Liam Rosenior and backed by billionaires, Paris FC are now a force in Ligue 1 | Luke Entwistle",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/02/paris-fc-ligue-1-liam-rosenior-billionaires",
       "date": "2026-11-02T15:45:35Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Carrick not concerned about Martínez’s attitude as United prepare for Roma visit",
@@ -961,10 +904,10 @@
       "league": "soccer"
     },
     {
-      "title": "Football Daily | Aston Villa, ‘unacceptable insults’ and thin-skinned clutching of pearls",
+      "title": "Aston Villa drop threat of legal action against Jamie Carragher after apology",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/football-daily-email-aston-villa",
-      "date": "2026-11-02T15:00:43Z",
+      "url": "https://www.theguardian.com/football/2026/nov/02/aston-villa-drop-threat-of-legal-action-against-jamie-carragher",
+      "date": "2026-11-02T15:40:40Z",
       "league": "soccer"
     },
     {
@@ -993,13 +936,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T14:06:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Brisbane 2032: the sports being forced to modernise in bid to stay in Olympic race",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/brisbane-2032-olympic-program-race-walking-microchips",
-      "date": "2026-11-02T14:00:45Z",
       "league": "all"
     },
     {
@@ -1102,10 +1038,10 @@
     },
     {
       "title": "Folarin Balogun takes a first, tiny step toward moving on from a calamitous summer",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/02/folarin-balogun-monaco-first-goal",
       "date": "2026-11-02T11:38:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Allgeier stars in NFL plays of the week",
@@ -1164,13 +1100,6 @@
       "league": "all"
     },
     {
-      "title": "Boulter wins despite incident getting under her skin",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwj3465p7n7no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T08:56:48Z",
-      "league": "all"
-    },
-    {
       "title": "Falkirk brick wall Bain boosts Scotland chances",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65ynz5ve125o?at_medium=RSS&at_campaign=rss",
@@ -1225,13 +1154,6 @@
       "url": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T06:05:57Z",
       "league": "soccer"
-    },
-    {
-      "title": "Australia Test captain Pat Cummins to miss upcoming England matches",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/australia-test-captain-pat-cummins-to-miss-upcoming-england-matches",
-      "date": "2026-11-02T04:23:48Z",
-      "league": "all"
     }
   ]
 }
