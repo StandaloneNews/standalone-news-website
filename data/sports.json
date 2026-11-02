@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T02:35:24Z",
+  "updated_at": "2026-11-02T03:37:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 26,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "primeira",
@@ -673,7 +673,7 @@
       "name": "Washington Commanders vs Philadelphia Eagles",
       "date": "2026-11-02T01:20:00Z",
       "state": "upcoming",
-      "status": "Q2",
+      "status": "Q3",
       "participants": [
         {
           "name": "Washington Commanders",
@@ -700,25 +700,6 @@
         },
         {
           "name": "Chicago Bears",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2601756",
-      "league": "nba",
-      "name": "Los Angeles Lakers vs Toronto Raptors",
-      "date": "2026-11-02T02:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Los Angeles Lakers",
-          "score": ""
-        },
-        {
-          "name": "Toronto Raptors",
           "score": ""
         }
       ],
@@ -821,6 +802,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2494082",
+      "league": "epl",
+      "name": "Liverpool vs Arsenal",
+      "date": "2026-11-01T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Liverpool",
+          "score": "0"
+        },
+        {
+          "name": "Arsenal",
+          "score": "1",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2494080",
       "league": "epl",
       "name": "Newcastle United vs Everton",
@@ -897,6 +898,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2489536",
+      "league": "ligue1",
+      "name": "Marseille vs Toulouse",
+      "date": "2026-11-01T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Marseille",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Toulouse",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2489539",
       "league": "ligue1",
       "name": "Lorient vs Brest",
@@ -954,6 +975,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2398170",
+      "league": "argentina",
+      "name": "Lanús vs Gimnasia y Esgrima de Mendoza",
+      "date": "2026-11-01T23:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lanús",
+          "score": "1"
+        },
+        {
+          "name": "Gimnasia y Esgrima de Mendoza",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2398164",
       "league": "argentina",
       "name": "Defensa y Justicia vs Independiente",
@@ -1006,6 +1046,26 @@
         {
           "name": "Tokyo Verdy",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540123",
+      "league": "aleague",
+      "name": "Perth Glory vs Adelaide United",
+      "date": "2026-11-01T08:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Perth Glory",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Adelaide United",
+          "score": "0"
         }
       ],
       "url": ""
@@ -1069,6 +1129,13 @@
     }
   ],
   "stories": [
+    {
+      "title": "Antonelli clinched the title - but who shone most in Mexico? Driver ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c95ynznzkm10o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T03:09:17Z",
+      "league": "all"
+    },
     {
       "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
       "source": "BBC Sport",
@@ -1375,13 +1442,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c5y439xp22n7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T13:56:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Ciara Mageean, European 1500m gold medallist with Ireland, dies aged 34",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/01/ciara-mageean-european-1500m-gold-medallist-ireland-dies-age-34",
-      "date": "2026-11-01T12:31:01Z",
       "league": "all"
     }
   ]
