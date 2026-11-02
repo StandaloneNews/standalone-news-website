@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T11:37:56Z",
+  "updated_at": "2026-11-02T12:40:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,40 +818,77 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": ""
-        },
-        {
-          "name": "Brest",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "WSL talking points: Kang could have a problem and how long can Slegers hang on?",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/wsl-talking-points-michele-kang-london-city-lionesses-renee-slegers-arsenal",
-      "date": "2026-11-02T11:29:49Z",
+      "title": "Paul to fight MMA star Doumbe on 24 December",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cx98z22mz8r8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T12:16:29Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Bottom club Sunderland to stick with manager Le Bris",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj75pglrq794o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T12:04:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Harry Kane’s Ballon d’Or party gives way to anxiety-filled hangover for Bayern Munich | Andy Brassell",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/harry-kane-ballon-dor-bayern-munich-hangover-borussia-dortmund-bundesliga",
+      "date": "2026-11-02T12:04:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Nuno Espírito Santo under threat at West Ham after poor start to the season",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/nuno-espirito-santo-west-ham-under-threat-poor-season-start-championship",
+      "date": "2026-11-02T12:01:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Villa drop legal action threat against Carragher",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmx285n4l81lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:49:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Every goal from the Women's Super League - matchweek eight",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6rmy008xmzxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:42:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Hibs toast win over Hearts - but will they kick on before cup final?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmje5gjp5ezgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:39:41Z",
       "league": "soccer"
     },
     {
-      "title": "The boy from Bologna who became world champion",
+      "title": "Folarin Balogun takes a first, tiny step toward moving on from a calamitous summer",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/folarin-balogun-monaco-first-goal",
+      "date": "2026-11-02T11:38:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Allgeier stars in NFL plays of the week",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/videos/cm17k1gxlze2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T11:20:40Z",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/cwx29ry7enr5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:38:09Z",
+      "league": "all"
+    },
+    {
+      "title": "WSL talking points: Kang could have a problem and how long can Slegers hang on?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/wsl-talking-points-michele-kang-london-city-lionesses-renee-slegers-arsenal",
+      "date": "2026-11-02T11:29:49Z",
       "league": "all"
     },
     {
@@ -918,16 +955,16 @@
       "league": "soccer"
     },
     {
-      "title": "Premier League: 10 talking points from the weekend’s action",
+      "title": "Zero passing yards, one win. Did the Bucs just reinvent the NFL in all the wrong ways?",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/premier-league-10-talking-points-from-the-weekends-action",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/tampa-bay-buccaneers-zero-passing-yards-nfl-atlanta-falcons",
       "date": "2026-11-02T08:00:35Z",
       "league": "all"
     },
     {
-      "title": "Zero passing yards, one win. Did the Bucs just reinvent the NFL in all the wrong ways?",
+      "title": "Premier League: 10 talking points from the weekend’s action",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/tampa-bay-buccaneers-zero-passing-yards-nfl-atlanta-falcons",
+      "url": "https://www.theguardian.com/football/2026/nov/02/premier-league-10-talking-points-from-the-weekends-action",
       "date": "2026-11-02T08:00:35Z",
       "league": "all"
     },
@@ -953,13 +990,6 @@
       "league": "all"
     },
     {
-      "title": "Sportspeople back Dobbin's PM plea on ME funding",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/c63r53wvy4q5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T06:30:24Z",
-      "league": "all"
-    },
-    {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cx30erg1d2rjo?at_medium=RSS&at_campaign=rss",
@@ -975,10 +1005,10 @@
     },
     {
       "title": "Why Scottish football is struggling to produce young talent",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T06:05:57Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Australia Test captain Pat Cummins to miss upcoming England matches",
@@ -1007,13 +1037,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/02/australia-rugby-league-world-cup-kangaroos-vs-samoa-semi-final",
       "date": "2026-11-02T01:35:36Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pks2xb?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T00:59:00Z",
-      "league": "soccer"
     },
     {
       "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
@@ -1051,13 +1074,6 @@
       "league": "all"
     },
     {
-      "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T23:20:54Z",
-      "league": "all"
-    },
-    {
       "title": "Man Utd eye Barcelona's Balde - Monday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqkgk0l3zpnyo?at_medium=RSS&at_campaign=rss",
@@ -1066,10 +1082,10 @@
     },
     {
       "title": "Rice relishing title race 'anxiety' after win at Liverpool",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T22:50:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Kimi Antonelli claims the Formula One crown – his season in pictures",
@@ -1118,41 +1134,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6rry8pxwkdpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T20:32:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "WSL roundup: Arsenal stall despite Russo strike; Chelsea’s James suffers injury",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/01/wsl-roundup-arsenal-aston-villa-alessia-russo-renee-slegers",
-      "date": "2026-11-01T20:17:13Z",
-      "league": "soccer"
-    },
-    {
-      "title": "From Fleetwood embarrassment to 'magical' Anfield win 14 years in making",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c39wz2epven4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T20:16:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Boy, 14, hands himself in to police over Bradley Lowery video",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T20:15:52Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Arsenal move clear at the top with a rare win at Liverpool",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmly09yv9xl6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T20:00:18Z",
-      "league": "all"
-    },
-    {
-      "title": "'Everyone saw it' - Iraola confused by Isak penalty decision",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cjdx3dpvevngo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T19:37:44Z",
       "league": "soccer"
     }
   ]
