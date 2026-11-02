@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T15:41:22Z",
+  "updated_at": "2026-11-02T16:45:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 15,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -58,22 +58,22 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -801,6 +801,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482232",
+      "league": "seriea",
+      "name": "Juventus vs Napoli",
+      "date": "2026-11-01T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Juventus",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Napoli",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482229",
       "league": "seriea",
       "name": "Sassuolo vs Fiorentina",
@@ -818,21 +838,140 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398523",
+      "league": "brasileirao",
+      "name": "Bragantino vs Santos",
+      "date": "2026-11-02T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": ""
+        },
+        {
+          "name": "Santos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514019",
+      "league": "primeira",
+      "name": "Braga vs Famalicao",
+      "date": "2026-11-01T20:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Braga",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Famalicao",
+          "score": "0"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Can Alcaraz's ex-coach help Shelton challenge his former protege?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/crz654jdzdqpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T16:21:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick says it's 'crazy' but he's looking forward to Roma game",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T16:00:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Borthwick turned down my offer to work with England - Edwards",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T15:47:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league",
+      "date": "2026-11-02T15:47:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Led by Liam Rosenior and backed by billionaires, Paris FC are now a force in Ligue 1 | Luke Entwistle",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/paris-fc-ligue-1-liam-rosenior-billionaires",
+      "date": "2026-11-02T15:45:35Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Carrick not concerned about Martínez’s attitude as United prepare for Roma visit",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/michael-carrick-lisandro-martinez-manchester-united-roma-champions-league",
+      "date": "2026-11-02T15:45:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Football Daily | Aston Villa, ‘unacceptable insults’ and thin-skinned clutching of pearls",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/football-daily-email-aston-villa",
+      "date": "2026-11-02T15:00:43Z",
+      "league": "soccer"
+    },
     {
       "title": "Jack Grealish left out of Everton squad again for Premier League trip to Newcastle",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/02/jack-grealish-left-out-everton-squad-newcastle-premier-league-david-moyes",
       "date": "2026-11-02T14:58:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Stokell in 'voluntary' ban after medication error",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n9rngrplggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T14:44:30Z",
       "league": "all"
     },
     {
@@ -893,10 +1032,10 @@
     },
     {
       "title": "Trailing 8-0 & down to six players - abandoned game labelled a 'farce'",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvj6j3k6yjppo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T13:32:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Dazn secures exclusive deal on global streaming rights for 2029 Club World Cup",
@@ -914,7 +1053,7 @@
     },
     {
       "title": "Paul to fight MMA star Doumbe on 24 December",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cx98z22mz8r8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T12:16:29Z",
       "league": "ufc"
@@ -1092,48 +1231,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/02/australia-test-captain-pat-cummins-to-miss-upcoming-england-matches",
       "date": "2026-11-02T04:23:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli clinched the title - but who shone most in Mexico? Driver ratings",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c95ynznzkm10o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T03:09:17Z",
-      "league": "all"
-    },
-    {
-      "title": "How Antonelli 'blew everyone away' to make F1 history",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T01:47:30Z",
-      "league": "all"
-    },
-    {
-      "title": "'We've got big problems' - Hamilton says Ferrari need 'serious talks'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmwy7dl879gzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T00:28:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Rice is a rounded midfielder, but could be more selfish - Murphy",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz227v751o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T00:00:21Z",
-      "league": "all"
-    },
-    {
-      "title": "'He's been fantastic' - how Konsa has fitted in seamlessly at Arsenal",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy4000q97ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T00:00:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T00:00:03Z",
       "league": "all"
     }
   ]
