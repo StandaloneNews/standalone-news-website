@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T10:43:12Z",
+  "updated_at": "2026-11-02T11:37:56Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,9 +818,77 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": ""
+        },
+        {
+          "name": "Brest",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "WSL talking points: Kang could have a problem and how long can Slegers hang on?",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/wsl-talking-points-michele-kang-london-city-lionesses-renee-slegers-arsenal",
+      "date": "2026-11-02T11:29:49Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The boy from Bologna who became world champion",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/videos/cm17k1gxlze2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:20:40Z",
+      "league": "all"
+    },
+    {
+      "title": "A world champion but 'one of us' - a city's pride in Antonelli",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cj3vq29y10qyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T11:16:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia omit star pace trio for England series",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr5ynwddqpd6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T10:59:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Asa Tribe barred from England Lions tour under Ebola rules after Kenya trip",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/asa-tribe-england-lions-cricket-tour-st-kitts-ebola-rules-kenya-trip",
+      "date": "2026-11-02T10:52:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Unai Simón caps myth-making week with another extraordinary night | Sid Lowe",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/02/unai-simon-athletic-club-la-liga-myth-making-week-la-liga",
+      "date": "2026-11-02T10:43:13Z",
+      "league": "all"
+    },
+    {
+      "title": "'Utter chaos at Ferrari right now'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/videos/c6kgl9mgdvl2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T10:39:57Z",
+      "league": "all"
+    },
     {
       "title": "How Kimi Antonelli saw off the grid to become F1’s youngest world champion",
       "source": "The Guardian Sport",
@@ -848,13 +916,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c65ynz5ve125o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T08:22:20Z",
       "league": "soccer"
-    },
-    {
-      "title": "Australia omit star pace trio for England series",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr5ynwddqpd6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T08:07:31Z",
-      "league": "all"
     },
     {
       "title": "Premier League: 10 talking points from the weekend’s action",
@@ -906,6 +967,13 @@
       "league": "soccer"
     },
     {
+      "title": "Non-league clubs tackle teen trouble at matches",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1jk8we42o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T06:13:37Z",
+      "league": "soccer"
+    },
+    {
       "title": "Why Scottish football is struggling to produce young talent",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/crx23ejgz7j8o?at_medium=RSS&at_campaign=rss",
@@ -927,7 +995,7 @@
       "league": "all"
     },
     {
-      "title": "How Antonelli 'blew everyone away' to make Formula 1 history",
+      "title": "How Antonelli 'blew everyone away' to make F1 history",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6m2dj7ze9v2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T01:47:30Z",
@@ -1068,10 +1136,10 @@
     },
     {
       "title": "Boy, 14, hands himself in to police over Bradley Lowery video",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6z7x52w0r0zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T20:15:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Arsenal move clear at the top with a rare win at Liverpool",
@@ -1082,58 +1150,9 @@
     },
     {
       "title": "'Everyone saw it' - Iraola confused by Isak penalty decision",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjdx3dpvevngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-01T19:37:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Giant curiosity Hibs finally liberated from Hearts sucker punch",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxr5yjpnd31eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T18:45:49Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T18:38:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Bellingham & Mbappe score as Real Madrid earn statement win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cv0ldye7k4g3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T18:37:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Boy hands himself into police after Bradley Lowery taunt in Sunderland match",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/police-bradley-lowery-taunt-coventry-sunderland-premier-league",
-      "date": "2026-11-01T18:20:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Should Premier League strugglers stick or twist as pressure on managers mounts? | Andrew Beasley",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/01/michael-carrick-manchester-united-favourite-premier-league-sack-race",
-      "date": "2026-11-01T18:00:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Are Celtic club in regression amid run of six defeats in 10?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmvg7d1xl8epo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-01T17:34:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Scottish roundup: Falkirk shock Celtic; Hibernian beat Hearts in semi-final",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/oct/31/rangers-aberdeen-scottish-league-cup-semi-final-match-report",
-      "date": "2026-11-01T17:28:54Z",
       "league": "soccer"
     }
   ]
