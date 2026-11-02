@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T21:28:22Z",
+  "updated_at": "2026-11-02T22:27:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -706,26 +706,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "1"
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591716",
       "league": "nhl",
       "name": "Boston Bruins vs Vegas Golden Knights",
@@ -842,10 +822,45 @@
   ],
   "stories": [
     {
-      "title": "Newcastle United v Everton: Premier League – live",
+      "title": "Arsenal want Kroupi in January - Tuesday's gossip",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy83eppjzp4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T22:24:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fifa to share documents on World Cup sell-off plans with council members",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/02/fifa-council-members-documents-forward-enterprise-ffe-scheme-uefa-questions-governance-scandals-gianni-infantino",
+      "date": "2026-11-02T22:23:20Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Who produced the kind of performance Moyes loves? - player ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmglwjxx45gjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T22:08:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Newcastle unrest grows as Barry and Everton give Jaissle another headache",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
-      "date": "2026-11-02T21:24:27Z",
+      "url": "https://www.theguardian.com/football/2026/nov/02/newcastle-everton-premier-league-match-report",
+      "date": "2026-11-02T22:04:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane would swap Ballon d'Or for Champions League victory",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6gr875l1095o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T21:46:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Lions say signs are positive for injured Campbell",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz90z951po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T21:45:33Z",
       "league": "all"
     },
     {
@@ -933,13 +948,6 @@
       "league": "soccer"
     },
     {
-      "title": "Almost 8.4m ticket requests for India-Pakistan World Cup tie",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cr2ke7gy8q1go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T17:59:02Z",
-      "league": "all"
-    },
-    {
       "title": "England call up Spencer and Randall as injuries hit",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvp8gxldn304o?at_medium=RSS&at_campaign=rss",
@@ -979,13 +987,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T16:00:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Borthwick turned down my offer to work with England - Edwards",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T15:47:55Z",
       "league": "all"
     },
     {
@@ -1109,10 +1110,10 @@
     },
     {
       "title": "Villa drop legal action threat against Carragher",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmx285n4l81lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T11:49:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Every goal from the Women's Super League - matchweek eight",
@@ -1129,31 +1130,10 @@
       "league": "soccer"
     },
     {
-      "title": "Folarin Balogun takes a first, tiny step toward moving on from a calamitous summer",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/folarin-balogun-monaco-first-goal",
-      "date": "2026-11-02T11:38:59Z",
-      "league": "soccer"
-    },
-    {
       "title": "Allgeier stars in NFL plays of the week",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/videos/cwx29ry7enr5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T11:38:09Z",
-      "league": "all"
-    },
-    {
-      "title": "WSL talking points: Kang could have a problem and how long can Slegers hang on?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/wsl-talking-points-michele-kang-london-city-lionesses-renee-slegers-arsenal",
-      "date": "2026-11-02T11:29:49Z",
-      "league": "all"
-    },
-    {
-      "title": "A world champion but 'one of us' - a city's pride in Antonelli",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cj3vq29y10qyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T11:16:47Z",
       "league": "all"
     }
   ]
