@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T20:29:42Z",
+  "updated_at": "2026-11-02T21:28:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 15,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 0
+      "events": 1
     },
     {
       "id": "nhl",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "bundesliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -706,6 +706,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2624258",
+      "league": "mlb",
+      "name": "Tampa Bay Rays vs Milwaukee Brewers",
+      "date": "2026-10-29T00:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Tampa Bay Rays",
+          "score": "1"
+        },
+        {
+          "name": "Milwaukee Brewers",
+          "score": "4",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591716",
       "league": "nhl",
       "name": "Boston Bruins vs Vegas Golden Knights",
@@ -757,25 +777,6 @@
         },
         {
           "name": "Coventry City",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2506274",
-      "league": "laliga",
-      "name": "Deportivo de A Coruña vs Osasuna",
-      "date": "2026-11-02T20:00:00Z",
-      "state": "upcoming",
-      "status": "1H",
-      "participants": [
-        {
-          "name": "Deportivo de A Coruña",
-          "score": ""
-        },
-        {
-          "name": "Osasuna",
           "score": ""
         }
       ],
@@ -837,91 +838,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398170",
-      "league": "argentina",
-      "name": "Lanús vs Gimnasia y Esgrima de Mendoza",
-      "date": "2026-11-01T23:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lanús",
-          "score": "1"
-        },
-        {
-          "name": "Gimnasia y Esgrima de Mendoza",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "upcoming",
-      "status": "1H",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": ""
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Newcastle United v Everton: Premier League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/02/newcastle-united-v-everton-premier-league-live",
-      "date": "2026-11-02T20:25:15Z",
+      "date": "2026-11-02T21:24:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pkyhnx?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T21:20:00Z",
       "league": "soccer"
+    },
+    {
+      "title": "Russell says F1 title loss 'tough to deal with'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T21:16:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Lions’ Jack Campbell remains hospitalized after ‘scary’ neck injury but initial signs are positive",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/lions-give-positive-update-on-jack-campbell-after-scary-neck-injury-sends-linebacker-to-hospital",
+      "date": "2026-11-02T21:15:43Z",
+      "league": "all"
     },
     {
       "title": "Fifa to share confidential World Cup sell-off plan documents",
@@ -1058,10 +1004,10 @@
     },
     {
       "title": "Carrick not concerned about Martínez’s attitude as United prepare for Roma visit",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/02/michael-carrick-lisandro-martinez-manchester-united-roma-champions-league",
       "date": "2026-11-02T15:45:01Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Aston Villa drop threat of legal action against Jamie Carragher after apology",
@@ -1208,27 +1154,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cj3vq29y10qyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T11:16:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Asa Tribe barred from England Lions tour under Ebola rules after Kenya trip",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/asa-tribe-england-lions-cricket-tour-st-kitts-ebola-rules-kenya-trip",
-      "date": "2026-11-02T10:52:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Unai Simón caps myth-making week with another extraordinary night | Sid Lowe",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/unai-simon-athletic-club-la-liga-myth-making-week-la-liga",
-      "date": "2026-11-02T10:43:13Z",
-      "league": "all"
-    },
-    {
-      "title": "'Utter chaos at Ferrari right now'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/videos/c6kgl9mgdvl2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T10:39:57Z",
       "league": "all"
     }
   ]
