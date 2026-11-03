@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T05:37:53Z",
+  "updated_at": "2026-11-03T06:41:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -841,6 +841,13 @@
   ],
   "stories": [
     {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqx286dvr4jgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T06:12:20Z",
+      "league": "all"
+    },
+    {
       "title": "King's former horse wins prestigious Melbourne Cup",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss",
@@ -853,6 +860,13 @@
       "url": "https://www.theguardian.com/sport/2026/nov/03/melbourne-cup-2026-point-of-law-winner-result-places",
       "date": "2026-11-03T04:30:50Z",
       "league": "all"
+    },
+    {
+      "title": "Socceroos and Matildas sue Football Australia over revenue share dispute",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/socceroos-matildas-sue-football-australia-revenue-dispute",
+      "date": "2026-11-03T03:15:23Z",
+      "league": "soccer"
     },
     {
       "title": "Jeers again as home woes continue - Jaissle has big problems at Newcastle",
@@ -926,10 +940,10 @@
     },
     {
       "title": "Who produced the kind of performance Moyes loves? - player ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmglwjxx45gjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T22:08:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Newcastle unrest grows as Barry and Everton give Jaissle another headache",
@@ -943,6 +957,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6gr875l1095o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T21:46:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Lions say signs are positive for injured Campbell",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz90z951po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T21:45:33Z",
       "league": "all"
     },
     {
@@ -1017,10 +1038,10 @@
     },
     {
       "title": "Key questions as Pocognoli prepares to name Scotland squad",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T17:35:14Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Goals, guests and 6,561 scenarios: inside ESPN on the biggest NWSL Decision Day yet",
@@ -1041,6 +1062,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T16:00:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Borthwick turned down my offer to work with England - Edwards",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-02T15:47:55Z",
       "league": "all"
     },
     {
@@ -1087,10 +1115,10 @@
     },
     {
       "title": "To dive or not to dive? Football's big dilemma",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T14:06:47Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "‘We had to dig in’: Arsenal’s Anfield win was performance of champions, says Rice",
@@ -1126,34 +1154,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/02/dazn-world-cup-2029-exclusive-deal-global-streaming-rights",
       "date": "2026-11-02T13:00:40Z",
       "league": "all"
-    },
-    {
-      "title": "Paul to fight MMA star Doumbe on 24 December",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cx98z22mz8r8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T12:16:29Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Bottom club Sunderland to stick with manager Le Bris",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj75pglrq794o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T12:04:09Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Harry Kane’s Ballon d’Or party gives way to anxiety-filled hangover for Bayern Munich | Andy Brassell",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/harry-kane-ballon-dor-bayern-munich-hangover-borussia-dortmund-bundesliga",
-      "date": "2026-11-02T12:04:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Nuno Espírito Santo under threat at West Ham after poor start to the season",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/nuno-espirito-santo-west-ham-under-threat-poor-season-start-championship",
-      "date": "2026-11-02T12:01:16Z",
-      "league": "soccer"
     }
   ]
 }
