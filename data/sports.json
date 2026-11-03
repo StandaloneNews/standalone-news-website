@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T23:04:23Z",
+  "updated_at": "2026-11-03T23:56:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -58,17 +58,17 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -78,12 +78,12 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -687,26 +687,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601771",
-      "league": "nba",
-      "name": "Golden State Warriors vs Phoenix Suns",
-      "date": "2026-11-03T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Golden State Warriors",
-          "score": "116",
-          "winner": true
-        },
-        {
-          "name": "Phoenix Suns",
-          "score": "113"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601772",
       "league": "nba",
       "name": "Detroit Pistons vs Philadelphia 76ers",
@@ -821,26 +801,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482233",
-      "league": "seriea",
-      "name": "Atalanta vs Parma",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Atalanta",
-          "score": "0"
-        },
-        {
-          "name": "Parma",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482245",
       "league": "seriea",
       "name": "Venezia vs Udinese",
@@ -858,137 +818,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": "0"
-        },
-        {
-          "name": "Brest",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594648",
-      "league": "ucl",
-      "name": "AEK Athens vs Real Madrid",
-      "date": "2026-11-04T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "AEK Athens",
-          "score": ""
-        },
-        {
-          "name": "Real Madrid",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398176",
-      "league": "argentina",
-      "name": "Aldosivi vs River Plate",
-      "date": "2026-11-08T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Aldosivi",
-          "score": ""
-        },
-        {
-          "name": "River Plate",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487586",
-      "league": "ligamx",
-      "name": "Cruz Azul vs León",
-      "date": "2026-11-02T01:10:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Cruz Azul",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "León",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540124",
-      "league": "aleague",
-      "name": "Sydney FC vs Central Coast Mariners",
-      "date": "2026-11-06T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": ""
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Football world mourns Tenerife striker De Miguel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6djv011mzlyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T23:37:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd beat Roma - the other great Champions League comebacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T23:25:20Z",
+      "league": "all"
+    },
+    {
+      "title": "We don't need to save anyone's job, says Man Utd captain Fernandes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T23:25:13Z",
+      "league": "all"
+    },
     {
       "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T22:55:00Z",
-      "league": "all"
-    },
-    {
-      "title": "'We don't need to save anyone's job,' says Man Utd captain Fernandes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T22:37:49Z",
       "league": "all"
     },
     {
@@ -1111,13 +969,6 @@
       "league": "all"
     },
     {
-      "title": "Djokovic keeps alive bid to squeeze into ATP Finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c3n04nzv1n21o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T16:57:17Z",
-      "league": "all"
-    },
-    {
       "title": "Pocognoli focus on Scotland tidy-up as Euros loom",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cknv0n96er9po?at_medium=RSS&at_campaign=rss",
@@ -1165,13 +1016,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T15:39:21Z",
       "league": "all"
-    },
-    {
-      "title": "Wrexham suffer 'significant' Smith injury blow",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmyr0m3ydxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T15:20:23Z",
-      "league": "soccer"
     },
     {
       "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
@@ -1286,10 +1130,10 @@
       "league": "all"
     },
     {
-      "title": "Mee and Kenny handed first Northern Ireland call-ups",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5dl4d3l8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T10:07:54Z",
+      "title": "West Ham turn to Scott Parker after sacking Nuno Espírito Santo as head coach",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/03/west-ham-sack-nuno-espirito-santo-as-head-coach",
+      "date": "2026-11-03T09:43:49Z",
       "league": "soccer"
     }
   ]
