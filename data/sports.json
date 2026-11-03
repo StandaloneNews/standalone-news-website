@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T06:41:39Z",
+  "updated_at": "2026-11-03T07:56:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -837,9 +837,96 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Vikings, Chiefs, Cowboys and Seahawks beaten - NFL week eight",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c3x2wd8llqpko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T07:39:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Emery looks to show Villa can compete with elite",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5ev3m9ddzgmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T07:33:17Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
+      "date": "2026-11-03T07:30:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
+      "date": "2026-11-03T07:30:41Z",
+      "league": "all"
+    },
+    {
+      "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
+      "date": "2026-11-03T07:30:40Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T07:15:17Z",
+      "league": "all"
+    },
+    {
+      "title": "The referee who became a role model after bouncing back from Diaz error",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cdj4z0lwjzlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T06:41:31Z",
+      "league": "all"
+    },
     {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
@@ -848,10 +935,17 @@
       "league": "all"
     },
     {
-      "title": "King's former horse wins prestigious Melbourne Cup",
+      "title": "Horse sold by King Charles wins Melbourne Cup",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T05:15:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Caleb Williams and new arrival Jeffery Simmons power Bears past sputtering Seahawks",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/02/bears-seahawks-caleb-williams-jeffery-simmons-monday-night-football",
+      "date": "2026-11-03T04:55:38Z",
       "league": "all"
     },
     {
@@ -960,20 +1054,6 @@
       "league": "all"
     },
     {
-      "title": "Lions say signs are positive for injured Campbell",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck9qz90z951po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T21:45:33Z",
-      "league": "all"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pkyhnx?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T21:20:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "Russell says F1 title loss 'tough to deal with'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
@@ -1038,10 +1118,10 @@
     },
     {
       "title": "Key questions as Pocognoli prepares to name Scotland squad",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T17:35:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Goals, guests and 6,561 scenarios: inside ESPN on the biggest NWSL Decision Day yet",
@@ -1080,10 +1160,10 @@
     },
     {
       "title": "Led by Liam Rosenior and backed by billionaires, Paris FC are now a force in Ligue 1 | Luke Entwistle",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/02/paris-fc-ligue-1-liam-rosenior-billionaires",
       "date": "2026-11-02T15:45:35Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Carrick not concerned about Martínez’s attitude as United prepare for Roma visit",
@@ -1112,48 +1192,6 @@
       "url": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
       "date": "2026-11-02T14:34:55Z",
       "league": "soccer"
-    },
-    {
-      "title": "To dive or not to dive? Football's big dilemma",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crvg69wn9490o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T14:06:47Z",
-      "league": "all"
-    },
-    {
-      "title": "‘We had to dig in’: Arsenal’s Anfield win was performance of champions, says Rice",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-declan-rice-champions",
-      "date": "2026-11-02T14:00:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "From VHS dreams to San Siro glory: Amorim’s Milan surge puts rivals on notice | Nicky Bandini",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/milan-inter-ruben-amorim-serie-a",
-      "date": "2026-11-02T13:47:03Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Hellberg unsure of 'brilliant' Lankshear's England chances",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6jdm4n5l7rlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T13:36:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Trailing 8-0 & down to six players - abandoned game labelled a 'farce'",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvj6j3k6yjppo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T13:32:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Dazn secures exclusive deal on global streaming rights for 2029 Club World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/dazn-world-cup-2029-exclusive-deal-global-streaming-rights",
-      "date": "2026-11-02T13:00:40Z",
-      "league": "all"
     }
   ]
 }
