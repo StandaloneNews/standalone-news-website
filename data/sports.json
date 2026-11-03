@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T21:27:11Z",
+  "updated_at": "2026-11-03T22:12:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -818,184 +818,34 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594674",
-      "league": "ucl",
-      "name": "LASK vs Slovan Bratislava",
-      "date": "2026-11-03T20:00:00Z",
-      "state": "upcoming",
-      "status": "2H",
-      "participants": [
-        {
-          "name": "LASK",
-          "score": ""
-        },
-        {
-          "name": "Slovan Bratislava",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398523",
-      "league": "brasileirao",
-      "name": "Bragantino vs Santos",
-      "date": "2026-11-02T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Santos",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398169",
-      "league": "argentina",
-      "name": "Independiente Rivadavia vs Banfield",
-      "date": "2026-11-03T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Independiente Rivadavia",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Banfield",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487586",
-      "league": "ligamx",
-      "name": "Cruz Azul vs León",
-      "date": "2026-11-02T01:10:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Cruz Azul",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "León",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492904",
-      "league": "j1",
-      "name": "Machida Zelvia vs Gamba Osaka",
-      "date": "2026-11-01T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Machida Zelvia",
-          "score": "0"
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540123",
-      "league": "aleague",
-      "name": "Perth Glory vs Adelaide United",
-      "date": "2026-11-01T08:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Perth Glory",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Adelaide United",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407201",
-      "league": "mls",
-      "name": "Portland Timbers vs Houston Dynamo",
-      "date": "2026-11-02T02:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Portland Timbers",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Houston Dynamo",
-          "score": "1"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Manchester United v Roma: Champions League – live",
-      "source": "The Guardian Sport",
+      "title": "Manchester United 3-2 Roma: Champions League – live",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
-      "date": "2026-11-03T21:20:53Z",
+      "date": "2026-11-03T22:04:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Raphinha underlines Barcelona’s class to give Aston Villa a reality check",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/barcelona-aston-villa-champions-league-match-report",
+      "date": "2026-11-03T22:00:11Z",
       "league": "all"
+    },
+    {
+      "title": "Newcastle and Palace progress in EFL Trophy",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm040k69nqk4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T21:34:28Z",
+      "league": "soccer"
     },
     {
       "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T21:20:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Barcelona v Aston Villa: Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
       "date": "2026-11-03T21:20:43Z",
       "league": "all"
     },
@@ -1110,6 +960,13 @@
       "url": "https://www.bbc.co.uk/sport/golf/articles/c38xzn2y7pglo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T16:33:50Z",
       "league": "all"
+    },
+    {
+      "title": "How to follow the Champions League on the BBC",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5yw79e4zgdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T16:11:06Z",
+      "league": "soccer"
     },
     {
       "title": "How sporting events are being impacted by Middle East conflict",
@@ -1277,20 +1134,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynr531xlvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T09:21:56Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Tenerife striker De Miguel dies after on-field collision",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T09:09:18Z",
-      "league": "all"
-    },
-    {
-      "title": "How Arteta is getting the best from Rice",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckeq3erv529po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:18:04Z",
       "league": "soccer"
     }
   ]
