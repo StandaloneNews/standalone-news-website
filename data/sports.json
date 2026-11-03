@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T17:36:46Z",
+  "updated_at": "2026-11-03T18:29:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 35,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -58,27 +58,27 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligamx",
@@ -88,22 +88,22 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 2
     }
   ],
   "events": [
@@ -707,6 +707,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601771",
+      "league": "nba",
+      "name": "Golden State Warriors vs Phoenix Suns",
+      "date": "2026-11-03T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Golden State Warriors",
+          "score": "116",
+          "winner": true
+        },
+        {
+          "name": "Phoenix Suns",
+          "score": "113"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601772",
       "league": "nba",
       "name": "Detroit Pistons vs Philadelphia 76ers",
@@ -785,6 +805,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499160",
+      "league": "ncaaf",
+      "name": "Fresno State vs Oregon State",
+      "date": "2026-11-01T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Fresno State",
+          "score": "38",
+          "winner": true
+        },
+        {
+          "name": "Oregon State",
+          "score": "22"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499180",
       "league": "ncaaf",
       "name": "Akron vs Ohio",
@@ -799,6 +839,26 @@
         {
           "name": "Ohio",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494080",
+      "league": "epl",
+      "name": "Newcastle United vs Everton",
+      "date": "2026-11-02T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Newcastle United",
+          "score": "0"
+        },
+        {
+          "name": "Everton",
+          "score": "1",
+          "winner": true
         }
       ],
       "url": ""
@@ -881,26 +941,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482233",
-      "league": "seriea",
-      "name": "Atalanta vs Parma",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Atalanta",
-          "score": "0"
-        },
-        {
-          "name": "Parma",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482245",
       "league": "seriea",
       "name": "Venezia vs Udinese",
@@ -915,6 +955,26 @@
         {
           "name": "Udinese",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489539",
+      "league": "ligue1",
+      "name": "Lorient vs Brest",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Lorient",
+          "score": "0"
+        },
+        {
+          "name": "Brest",
+          "score": "2",
+          "winner": true
         }
       ],
       "url": ""
@@ -939,20 +999,59 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594635",
+      "id": "sportsdb-2594656",
       "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
+      "name": "Galatasaray vs Stuttgart",
       "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "1H",
+      "participants": [
+        {
+          "name": "Galatasaray",
+          "score": ""
+        },
+        {
+          "name": "Stuttgart",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594537",
+      "league": "ucl",
+      "name": "Manchester United vs Roma",
+      "date": "2026-11-03T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Shakhtar Donetsk",
+          "name": "Manchester United",
           "score": ""
         },
         {
-          "name": "Sporting CP",
+          "name": "Roma",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398523",
+      "league": "brasileirao",
+      "name": "Bragantino vs Santos",
+      "date": "2026-11-02T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Bragantino",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Santos",
+          "score": "1"
         }
       ],
       "url": ""
@@ -972,6 +1071,26 @@
         {
           "name": "Mirassol",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398169",
+      "league": "argentina",
+      "name": "Independiente Rivadavia vs Banfield",
+      "date": "2026-11-03T00:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Independiente Rivadavia",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Banfield",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1010,6 +1129,25 @@
         {
           "name": "Tijuana",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492904",
+      "league": "j1",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "0"
+        },
+        {
+          "name": "Gamba Osaka",
+          "score": "0"
         }
       ],
       "url": ""
@@ -1054,6 +1192,44 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2540124",
+      "league": "aleague",
+      "name": "Sydney FC vs Central Coast Mariners",
+      "date": "2026-11-06T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Gil Vicente",
+          "score": "0"
+        },
+        {
+          "name": "Vitória de Guimarães",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2514030",
       "league": "primeira",
       "name": "Famalicao vs Arouca",
@@ -1091,9 +1267,56 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2407202",
+      "league": "mls",
+      "name": "Inter Miami vs Charlotte FC",
+      "date": "2026-11-07T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "RFL backs Wilkin's £30m funding plea to Burnham",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqn06nk1rx4xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T18:13:50Z",
+      "league": "all"
+    },
+    {
+      "title": "England’s Fin Smith facing make-or-break fitness test before Australia clash",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/alex-mitchell-out-england-nations-championship-campaign-hamstring-injury",
+      "date": "2026-11-03T18:02:16Z",
+      "league": "all"
+    },
+    {
+      "title": "The transplanted Scot doing famous father proud in New Zealand",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6ewerp0w5lvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T17:50:16Z",
+      "league": "all"
+    },
+    {
+      "title": "USOPC considering plan to sell stake in Team USA as LA Olympics approach",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/usopc-considering-plan-to-sell-stake-in-team-usa-as-la-olympics-approach",
+      "date": "2026-11-03T17:45:42Z",
+      "league": "all"
+    },
     {
       "title": "Tenerife footballer Jesús de Miguel dies aged 30 after on-pitch collision",
       "source": "The Guardian Sport",
@@ -1197,34 +1420,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gelp4em2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T14:54:55Z",
-      "league": "all"
-    },
-    {
-      "title": "RFL backs Wilkin's £30m funding plea to Burnham",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqn06nk1rx4xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T14:48:52Z",
-      "league": "all"
-    },
-    {
-      "title": "England’s Alex Mitchell out of Nations Championship with fourth hamstring injury in 2026",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/alex-mitchell-out-england-nations-championship-campaign-hamstring-injury",
-      "date": "2026-11-03T14:45:19Z",
-      "league": "all"
-    },
-    {
-      "title": "'Fully loaded' All Blacks out to preserve Scotland record",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwvgdjm1453mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T14:33:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Falling revenues, bigger losses, higher wages: Prem Rugby clubs’ debt climbs to £366m",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/falling-revenues-bigger-losses-higher-wages-prem-rugby-union-clubs-debt",
-      "date": "2026-11-03T14:00:45Z",
       "league": "all"
     },
     {
