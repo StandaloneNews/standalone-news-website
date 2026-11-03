@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T14:41:40Z",
+  "updated_at": "2026-11-03T15:29:59Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -218,6 +218,20 @@
         {
           "fighters": [
             {
+              "name": "Mitch Raposo",
+              "score": ""
+            },
+            {
+              "name": "Marcos Degli",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
               "name": "Jose Delano",
               "score": ""
             },
@@ -237,20 +251,6 @@
             },
             {
               "name": "Ollie Schmid",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Priscila Cachoeira",
-              "score": ""
-            },
-            {
-              "name": "Nina Milosevic",
               "score": ""
             }
           ],
@@ -841,17 +841,52 @@
   ],
   "stories": [
     {
-      "title": "England's Mitchell ruled out of Nations Championship",
+      "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6n4endjxqnko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T14:31:28Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxj0l3pd9jy7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T15:07:49Z",
+      "league": "all"
+    },
+    {
+      "title": "England thrash USA to secure place in World Cup semi-finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cxnv0n879vmno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T15:05:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Scrum, foul play, TMO - what can we expect from refs this autumn?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cky83ewyq22zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T14:59:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Palace launch Mateta red card appeal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gelp4em2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T14:54:55Z",
       "league": "all"
     },
     {
       "title": "RFL backs Wilkin's £30m funding plea to Burnham",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqn06nk1rx4xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T14:02:47Z",
+      "date": "2026-11-03T14:48:52Z",
+      "league": "all"
+    },
+    {
+      "title": "'Fully loaded' All Blacks out to preserve Scotland record",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwvgdjm1453mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T14:33:07Z",
+      "league": "all"
+    },
+    {
+      "title": "England's Mitchell ruled out of Nations Championship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6n4endjxqnko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T14:31:28Z",
       "league": "all"
     },
     {
@@ -915,13 +950,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T12:28:26Z",
-      "league": "all"
-    },
-    {
-      "title": "I couldn't see myself with another badge - Chessum",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqwyrmdy4dero?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T11:59:28Z",
       "league": "all"
     },
     {
@@ -1017,17 +1045,10 @@
     },
     {
       "title": "How Arteta is getting the best from Rice",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckeq3erv529po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T08:18:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Watch trailer for Rivals: Fury v Joshua",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/videos/ck054dqjyd29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:06:09Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "From teenage limbo and Mangotsfield United to Champions League dream",
@@ -1072,31 +1093,10 @@
       "league": "soccer"
     },
     {
-      "title": "Asian Cup postponed in wake of attacks on Saudi Arabia",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y0e79yjg44o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T07:15:17Z",
-      "league": "soccer"
-    },
-    {
       "title": "The referee who became a role model after bouncing back from Diaz error",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cdj4z0lwjzlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T06:41:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx286dvr4jgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T06:12:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Horse sold by King Charles wins Melbourne Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T05:15:11Z",
       "league": "all"
     },
     {
@@ -1122,10 +1122,10 @@
     },
     {
       "title": "From nightmare debut season to Everton hero - Barry's revival",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj346rvg3pzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:28:17Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Grealish can still have Everton future - Moyes",
