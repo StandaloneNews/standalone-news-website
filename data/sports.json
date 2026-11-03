@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T08:47:44Z",
+  "updated_at": "2026-11-03T09:40:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -728,7 +728,7 @@
       "id": "sportsdb-2499180",
       "league": "ncaaf",
       "name": "Akron vs Ohio",
-      "date": "2026-11-03T23:00:00Z",
+      "date": "2026-11-04T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
@@ -782,6 +782,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508400",
+      "league": "bundesliga",
+      "name": "Eintracht Frankfurt vs Hamburg",
+      "date": "2026-11-01T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Eintracht Frankfurt",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Hamburg",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -818,66 +838,58 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "England beat USA 134-0 to reach World Cup semi-finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crwydqxw1l8ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T09:30:56Z",
+      "league": "all"
+    },
+    {
+      "title": "West Ham sack head coach Nuno after 14 months",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T09:29:35Z",
+      "league": "all"
+    },
+    {
+      "title": "McNamara to succeed Cullen as Leinster head coach",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckly0vz73wn7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T09:24:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Boy arrested following Bradley Lowery taunt",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynr531xlvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T09:21:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Tenerife footballer Jesús de Miguel dies aged 30 after on-pitch collision",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/tenerife-footballer-jesus-de-miguel-hospital-collision",
+      "date": "2026-11-03T09:13:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Tenerife striker De Miguel dies after on-field collision",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T09:09:18Z",
+      "league": "all"
+    },
+    {
+      "title": "West Ham sack Nuno Espírito Santo as head coach with club eighth in Championship",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/west-ham-sack-nuno-espirito-santo-as-head-coach",
+      "date": "2026-11-03T09:02:06Z",
+      "league": "all"
+    },
     {
       "title": "NZ's Ponga back in World Cup contention after broken arm",
       "source": "BBC Sport",
@@ -886,18 +898,11 @@
       "league": "all"
     },
     {
-      "title": "Tenerife striker's condition worsens after on-field collision",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:31:32Z",
-      "league": "all"
-    },
-    {
       "title": "How Arteta is getting the best from Rice",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckeq3erv529po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T08:18:04Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Watch trailer for Rivals: Fury v Joshua",
@@ -921,13 +926,6 @@
       "league": "all"
     },
     {
-      "title": "Vikings, Chiefs, Cowboys and Seahawks beaten - NFL week eight",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c3x2wd8llqpko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T07:39:13Z",
-      "league": "all"
-    },
-    {
       "title": "Emery looks to show Villa can compete with elite",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5ev3m9ddzgmo?at_medium=RSS&at_campaign=rss",
@@ -935,16 +933,16 @@
       "league": "all"
     },
     {
-      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
+      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
+      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
       "date": "2026-11-03T07:30:41Z",
       "league": "all"
     },
     {
-      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
+      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
       "date": "2026-11-03T07:30:41Z",
       "league": "all"
     },
@@ -971,10 +969,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx286dvr4jgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T06:12:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Horse sold by King Charles wins Melbourne Cup",
@@ -1027,10 +1025,10 @@
     },
     {
       "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37n11kv2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:09:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Jaissle unhappy with 'clear foul' before Barry goal",
@@ -1055,10 +1053,10 @@
     },
     {
       "title": "Arsenal want Kroupi in January - Tuesday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy83eppjzp4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T22:24:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Curtain falls on Big Show as Glenn Maxwell retires from T20 international cricket",
@@ -1156,41 +1154,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/02/goals-guests-and-6561-scenarios-inside-espn-on-the-biggest-nwsl-decision-day-yet",
       "date": "2026-11-02T17:28:24Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carrick says it's 'crazy' but he's looking forward to Roma game",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T16:00:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal have everything they need to repeat as Premier League champions | Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/arsenal-liverpool-premier-league",
-      "date": "2026-11-02T15:47:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Led by Liam Rosenior and backed by billionaires, Paris FC are now a force in Ligue 1 | Luke Entwistle",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/paris-fc-ligue-1-liam-rosenior-billionaires",
-      "date": "2026-11-02T15:45:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Carrick not concerned about Martínez’s attitude as United prepare for Roma visit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/michael-carrick-lisandro-martinez-manchester-united-roma-champions-league",
-      "date": "2026-11-02T15:45:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Aston Villa drop threat of legal action against Jamie Carragher after apology",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/aston-villa-drop-threat-of-legal-action-against-jamie-carragher",
-      "date": "2026-11-02T15:40:40Z",
       "league": "soccer"
     }
   ]
