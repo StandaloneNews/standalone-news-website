@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T01:47:55Z",
+  "updated_at": "2026-11-03T02:33:27Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 22,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 2
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -687,57 +687,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601768",
+      "id": "sportsdb-2601769",
       "league": "nba",
-      "name": "Denver Nuggets vs Portland Trail Blazers",
-      "date": "2026-11-03T02:00:00Z",
+      "name": "Los Angeles Lakers vs Miami Heat",
+      "date": "2026-11-03T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Denver Nuggets",
+          "name": "Los Angeles Lakers",
           "score": ""
         },
         {
-          "name": "Portland Trail Blazers",
+          "name": "Miami Heat",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591718",
+      "id": "sportsdb-2591720",
       "league": "nhl",
-      "name": "Chicago Blackhawks vs Colorado Avalanche",
-      "date": "2026-11-03T01:00:00Z",
-      "state": "upcoming",
-      "status": "P1",
-      "participants": [
-        {
-          "name": "Chicago Blackhawks",
-          "score": ""
-        },
-        {
-          "name": "Colorado Avalanche",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591719",
-      "league": "nhl",
-      "name": "San Jose Sharks vs Calgary Flames",
-      "date": "2026-11-03T02:00:00Z",
+      "name": "Washington Capitals vs Dallas Stars",
+      "date": "2026-11-04T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Jose Sharks",
+          "name": "Washington Capitals",
           "score": ""
         },
         {
-          "name": "Calgary Flames",
+          "name": "Dallas Stars",
           "score": ""
         }
       ],
@@ -833,197 +814,6 @@
         },
         {
           "name": "Udinese",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594635",
-      "league": "ucl",
-      "name": "Shakhtar Donetsk vs Sporting CP",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shakhtar Donetsk",
-          "score": ""
-        },
-        {
-          "name": "Sporting CP",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398524",
-      "league": "brasileirao",
-      "name": "Chapecoense vs Mirassol",
-      "date": "2026-11-03T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Chapecoense",
-          "score": ""
-        },
-        {
-          "name": "Mirassol",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398176",
-      "league": "argentina",
-      "name": "Aldosivi vs River Plate",
-      "date": "2026-11-08T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Aldosivi",
-          "score": ""
-        },
-        {
-          "name": "River Plate",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487586",
-      "league": "ligamx",
-      "name": "Cruz Azul vs León",
-      "date": "2026-11-02T01:10:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Cruz Azul",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "León",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487587",
-      "league": "ligamx",
-      "name": "Necaxa vs Tijuana",
-      "date": "2026-11-07T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Necaxa",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        },
-        {
-          "name": "Tokyo Verdy",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540124",
-      "league": "aleague",
-      "name": "Sydney FC vs Central Coast Mariners",
-      "date": "2026-11-06T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": ""
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "Charlotte FC",
           "score": ""
         }
       ],
