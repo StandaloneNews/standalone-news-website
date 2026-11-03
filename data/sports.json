@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T20:30:13Z",
+  "updated_at": "2026-11-03T21:27:11Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 20,
+  "sources_ok": 18,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -58,12 +58,12 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -93,12 +93,12 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -687,26 +687,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601771",
-      "league": "nba",
-      "name": "Golden State Warriors vs Phoenix Suns",
-      "date": "2026-11-03T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Golden State Warriors",
-          "score": "116",
-          "winner": true
-        },
-        {
-          "name": "Phoenix Suns",
-          "score": "113"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601772",
       "league": "nba",
       "name": "Detroit Pistons vs Philadelphia 76ers",
@@ -821,26 +801,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482233",
-      "league": "seriea",
-      "name": "Atalanta vs Parma",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Atalanta",
-          "score": "0"
-        },
-        {
-          "name": "Parma",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482245",
       "league": "seriea",
       "name": "Venezia vs Udinese",
@@ -860,58 +820,40 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594648",
+      "id": "sportsdb-2594674",
       "league": "ucl",
-      "name": "AEK Athens vs Real Madrid",
-      "date": "2026-11-04T17:45:00Z",
+      "name": "LASK vs Slovan Bratislava",
+      "date": "2026-11-03T20:00:00Z",
       "state": "upcoming",
-      "status": "NS",
+      "status": "2H",
       "participants": [
         {
-          "name": "AEK Athens",
+          "name": "LASK",
           "score": ""
         },
         {
-          "name": "Real Madrid",
+          "name": "Slovan Bratislava",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2398524",
+      "id": "sportsdb-2398523",
       "league": "brasileirao",
-      "name": "Chapecoense vs Mirassol",
-      "date": "2026-11-03T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Bragantino vs Santos",
+      "date": "2026-11-02T23:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Chapecoense",
-          "score": ""
+          "name": "Bragantino",
+          "score": "2",
+          "winner": true
         },
         {
-          "name": "Mirassol",
-          "score": ""
+          "name": "Santos",
+          "score": "1"
         }
       ],
       "url": ""
@@ -937,25 +879,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398176",
-      "league": "argentina",
-      "name": "Aldosivi vs River Plate",
-      "date": "2026-11-08T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Aldosivi",
-          "score": ""
-        },
-        {
-          "name": "River Plate",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2487586",
       "league": "ligamx",
       "name": "Cruz Azul vs León",
@@ -976,39 +899,79 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492917",
+      "id": "sportsdb-2492904",
       "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Shimizu S-Pulse",
-          "score": ""
+          "name": "Machida Zelvia",
+          "score": "0"
         },
         {
-          "name": "Tokyo Verdy",
-          "score": ""
+          "name": "Gamba Osaka",
+          "score": "0"
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2540123",
+      "league": "aleague",
+      "name": "Perth Glory vs Adelaide United",
+      "date": "2026-11-01T08:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Inter Miami",
-          "score": ""
+          "name": "Perth Glory",
+          "score": "4",
+          "winner": true
         },
         {
-          "name": "Charlotte FC",
-          "score": ""
+          "name": "Adelaide United",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Gil Vicente",
+          "score": "0"
+        },
+        {
+          "name": "Vitória de Guimarães",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407201",
+      "league": "mls",
+      "name": "Portland Timbers vs Houston Dynamo",
+      "date": "2026-11-02T02:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Portland Timbers",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Houston Dynamo",
+          "score": "1"
         }
       ],
       "url": ""
@@ -1016,25 +979,46 @@
   ],
   "stories": [
     {
+      "title": "Manchester United v Roma: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+      "date": "2026-11-03T21:20:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T21:20:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Barcelona v Aston Villa: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
+      "date": "2026-11-03T21:20:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Ocon dropped by Haas for rest of season after row",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck054q3g5jnpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T21:15:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Arteta backs Saliba’s readiness to return for Arsenal at Slavia Prague",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/arteta-backs-salibas-readiness-to-return-for-arsenal-at-slavia-prague",
+      "date": "2026-11-03T20:31:58Z",
+      "league": "all"
+    },
+    {
       "title": "Death threats for Briton Burrage on WTA Tour return",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T20:26:12Z",
       "league": "all"
-    },
-    {
-      "title": "Barcelona v Aston Villa: Champions League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
-      "date": "2026-11-03T20:24:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester United v Roma: Champions League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
-      "date": "2026-11-03T20:23:35Z",
-      "league": "soccer"
     },
     {
       "title": "Phil Foden sets sights on England recall and says he has had no contact with Tuchel",
@@ -1055,13 +1039,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckqxn7pzrxyro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T18:26:55Z",
-      "league": "all"
-    },
-    {
-      "title": "RFL backs Wilkin's £30m funding plea to Burnham",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqn06nk1rx4xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T18:13:50Z",
       "league": "all"
     },
     {
@@ -1234,10 +1211,10 @@
     },
     {
       "title": "Shaw among big names to miss out on FifPro World XI",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37gxzvgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T12:28:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘An absolute afterthought’: the story of the Nigeria women’s team’s fall from grace",
@@ -1314,20 +1291,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckeq3erv529po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T08:18:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Watch trailer for Rivals: Fury v Joshua",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/videos/ck054dqjyd29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:06:09Z",
-      "league": "all"
-    },
-    {
-      "title": "From teenage limbo and Mangotsfield United to Champions League dream",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxj0led3jnj4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:00:40Z",
       "league": "soccer"
     }
   ]
