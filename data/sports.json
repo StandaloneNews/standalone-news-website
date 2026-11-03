@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T18:29:37Z",
+  "updated_at": "2026-11-03T19:37:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 35,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -23,12 +23,12 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -63,22 +63,22 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -88,22 +88,22 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 2
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -668,26 +668,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475494",
-      "league": "nfl",
-      "name": "Seattle Seahawks vs Chicago Bears",
-      "date": "2026-11-03T01:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Seattle Seahawks",
-          "score": "17"
-        },
-        {
-          "name": "Chicago Bears",
-          "score": "34",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475495",
       "league": "nfl",
       "name": "Baltimore Ravens vs Jacksonville Jaguars",
@@ -741,46 +721,6 @@
         {
           "name": "Philadelphia 76ers",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "1"
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591719",
-      "league": "nhl",
-      "name": "San Jose Sharks vs Calgary Flames",
-      "date": "2026-11-03T02:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "San Jose Sharks",
-          "score": "1"
-        },
-        {
-          "name": "Calgary Flames",
-          "score": "2",
-          "winner": true
         }
       ],
       "url": ""
@@ -960,26 +900,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489539",
-      "league": "ligue1",
-      "name": "Lorient vs Brest",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lorient",
-          "score": "0"
-        },
-        {
-          "name": "Brest",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2489546",
       "league": "ligue1",
       "name": "Toulouse vs Strasbourg",
@@ -993,25 +913,6 @@
         },
         {
           "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594656",
-      "league": "ucl",
-      "name": "Galatasaray vs Stuttgart",
-      "date": "2026-11-03T17:45:00Z",
-      "state": "upcoming",
-      "status": "1H",
-      "participants": [
-        {
-          "name": "Galatasaray",
-          "score": ""
-        },
-        {
-          "name": "Stuttgart",
           "score": ""
         }
       ],
@@ -1037,26 +938,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398523",
-      "league": "brasileirao",
-      "name": "Bragantino vs Santos",
-      "date": "2026-11-02T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Bragantino",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Santos",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2398524",
       "league": "brasileirao",
       "name": "Chapecoense vs Mirassol",
@@ -1071,26 +952,6 @@
         {
           "name": "Mirassol",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398169",
-      "league": "argentina",
-      "name": "Independiente Rivadavia vs Banfield",
-      "date": "2026-11-03T00:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Independiente Rivadavia",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Banfield",
-          "score": "1"
         }
       ],
       "url": ""
@@ -1134,25 +995,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492904",
-      "league": "j1",
-      "name": "Machida Zelvia vs Gamba Osaka",
-      "date": "2026-11-01T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Machida Zelvia",
-          "score": "0"
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2492917",
       "league": "j1",
       "name": "Shimizu S-Pulse vs Tokyo Verdy",
@@ -1167,26 +1009,6 @@
         {
           "name": "Tokyo Verdy",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540123",
-      "league": "aleague",
-      "name": "Perth Glory vs Adelaide United",
-      "date": "2026-11-01T08:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Perth Glory",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Adelaide United",
-          "score": "0"
         }
       ],
       "url": ""
@@ -1209,86 +1031,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514030",
-      "league": "primeira",
-      "name": "Famalicao vs Arouca",
-      "date": "2026-11-06T20:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Famalicao",
-          "score": ""
-        },
-        {
-          "name": "Arouca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407201",
-      "league": "mls",
-      "name": "Portland Timbers vs Houston Dynamo",
-      "date": "2026-11-02T02:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Portland Timbers",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Houston Dynamo",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Barcelona v Aston Villa: Champions League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/03/barcelona-v-aston-villa-champions-league-live",
+      "date": "2026-11-03T19:34:15Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester United v Roma: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live",
+      "date": "2026-11-03T19:31:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Andoni Iraola calls on Liverpool to sharpen up in attack before Fenerbahce test",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/03/andoni-iraola-calls-on-liverpool-to-sharpen-up-in-attack-before-fenerbahce-test",
+      "date": "2026-11-03T18:42:11Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Kenny's background 'not that important' to O'Neill",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckqxn7pzrxyro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T18:26:55Z",
+      "league": "all"
+    },
     {
       "title": "RFL backs Wilkin's £30m funding plea to Burnham",
       "source": "BBC Sport",
@@ -1423,6 +1196,13 @@
       "league": "all"
     },
     {
+      "title": "Falling revenues, bigger losses, higher wages: Prem Rugby clubs’ debt climbs to £366m",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/falling-revenues-bigger-losses-higher-wages-prem-rugby-union-clubs-debt",
+      "date": "2026-11-03T14:00:45Z",
+      "league": "all"
+    },
+    {
       "title": "The Joy of Six: Glenn Maxwell’s greatest innings for Australia",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/03/the-joy-of-six-glenn-maxwell-australia-cricket-greatest-innings",
@@ -1473,10 +1253,10 @@
     },
     {
       "title": "‘An absolute afterthought’: the story of the Nigeria women’s team’s fall from grace",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/03/womens-world-cup-2027-missing-out-nigeria-moving-the-goalposts",
       "date": "2026-11-03T11:33:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McTominay returns as Penrice earns first Scotland call",
@@ -1567,41 +1347,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c862y1en5vrzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T07:53:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Emery looks to show Villa can compete with elite",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5ev3m9ddzgmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T07:33:17Z",
-      "league": "all"
-    },
-    {
-      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
-      "date": "2026-11-03T07:30:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
-      "date": "2026-11-03T07:30:41Z",
-      "league": "all"
-    },
-    {
-      "title": "AFC postpones Asian Cup in Saudi Arabia to late 2027 due to conflict in Middle East",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/2027-asian-cup-saudi-arabia-postponed-conflict-middle-east",
-      "date": "2026-11-03T07:30:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The referee who became a role model after bouncing back from Diaz error",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cdj4z0lwjzlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T06:41:31Z",
       "league": "all"
     }
   ]
