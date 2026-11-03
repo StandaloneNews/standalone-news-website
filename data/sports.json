@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T04:36:11Z",
+  "updated_at": "2026-11-03T05:37:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,9 +818,42 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "King's former horse wins prestigious Melbourne Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cr3wv0476z5do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T05:15:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Melbourne Cup 2026: King Charles’ former horse Point of Law storms home to win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/melbourne-cup-2026-point-of-law-winner-result-places",
+      "date": "2026-11-03T04:30:50Z",
+      "league": "all"
+    },
     {
       "title": "Jeers again as home woes continue - Jaissle has big problems at Newcastle",
       "source": "BBC Sport",
@@ -976,13 +1009,6 @@
       "league": "all"
     },
     {
-      "title": "Melbourne Cup betting rules show UK the way to prevent illegal gambling boom | Greg Wood",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/uk-legislators-must-follow-melbourne-cup-rules-illegal-betting-horse-racing",
-      "date": "2026-11-02T18:28:56Z",
-      "league": "all"
-    },
-    {
       "title": "England call up Spencer and Randall as injuries hit",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvp8gxldn304o?at_medium=RSS&at_campaign=rss",
@@ -1002,13 +1028,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/02/goals-guests-and-6561-scenarios-inside-espn-on-the-biggest-nwsl-decision-day-yet",
       "date": "2026-11-02T17:28:24Z",
       "league": "soccer"
-    },
-    {
-      "title": "Boulter wins despite incident getting under her skin",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cwj3465p7n7no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T16:51:56Z",
-      "league": "all"
     },
     {
       "title": "Can Alcaraz's ex-coach help Shelton challenge his former protege?",
