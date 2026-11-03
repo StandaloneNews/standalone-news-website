@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T09:40:37Z",
+  "updated_at": "2026-11-03T10:41:07Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -782,26 +782,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508400",
-      "league": "bundesliga",
-      "name": "Eintracht Frankfurt vs Hamburg",
-      "date": "2026-11-01T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Eintracht Frankfurt",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Hamburg",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -842,6 +822,27 @@
   ],
   "stories": [
     {
+      "title": "West Ham talk to Parker after sacking boss Nuno",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T10:38:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Mee and Kenny handed first Northern Ireland call-ups",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5dl4d3l8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T10:07:54Z",
+      "league": "soccer"
+    },
+    {
+      "title": "West Ham turn to Scott Parker after sacking Nuno Espírito Santo as head coach",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/03/west-ham-sack-nuno-espirito-santo-as-head-coach",
+      "date": "2026-11-03T09:43:49Z",
+      "league": "all"
+    },
+    {
       "title": "England beat USA 134-0 to reach World Cup semi-finals",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/crwydqxw1l8ko?at_medium=RSS&at_campaign=rss",
@@ -849,10 +850,10 @@
       "league": "all"
     },
     {
-      "title": "West Ham sack head coach Nuno after 14 months",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T09:29:35Z",
+      "title": "Champagne, cocaine and some very long walks: when pedestrianism ruled the sporting world",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/pedestrianism-long-distance-walking-edward-payson-weston",
+      "date": "2026-11-03T09:30:43Z",
       "league": "all"
     },
     {
@@ -864,10 +865,10 @@
     },
     {
       "title": "Boy arrested following Bradley Lowery taunt",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynr531xlvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T09:21:56Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Tenerife footballer Jesús de Miguel dies aged 30 after on-pitch collision",
@@ -881,20 +882,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T09:09:18Z",
-      "league": "all"
-    },
-    {
-      "title": "West Ham sack Nuno Espírito Santo as head coach with club eighth in Championship",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/west-ham-sack-nuno-espirito-santo-as-head-coach",
-      "date": "2026-11-03T09:02:06Z",
-      "league": "all"
-    },
-    {
-      "title": "NZ's Ponga back in World Cup contention after broken arm",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c61wv1z5781zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T08:39:17Z",
       "league": "all"
     },
     {
@@ -1147,13 +1134,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckpqg82yxqgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T17:35:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Goals, guests and 6,561 scenarios: inside ESPN on the biggest NWSL Decision Day yet",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/02/goals-guests-and-6561-scenarios-inside-espn-on-the-biggest-nwsl-decision-day-yet",
-      "date": "2026-11-02T17:28:24Z",
       "league": "soccer"
     }
   ]
