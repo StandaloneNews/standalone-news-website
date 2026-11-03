@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T12:40:14Z",
+  "updated_at": "2026-11-03T13:55:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,9 +818,63 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Giannis says Dončić could be best scorer of all time as Lakers star pours in 42 against Heat",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/giannis-says-doncic-could-be-best-scorer-of-all-time-as-lakers-star-pours-in-42-against-heat",
+      "date": "2026-11-03T13:06:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Rahm was not 'willing to follow' LIV 2.0 path",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cmqlnxp5e9lqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T13:04:31Z",
+      "league": "all"
+    },
+    {
+      "title": "West Ham approach Parker after sacking boss Nuno",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T12:42:04Z",
+      "league": "all"
+    },
+    {
+      "title": "24-year-old woman dies after collapsing in final stages of New York City Marathon",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/24-year-old-woman-dies-after-collapasing-in-final-stages-of-new-york-city-marathon",
+      "date": "2026-11-03T12:36:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Green backs 'proven' Parker for Hammers job",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c893z569154yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T12:32:53Z",
+      "league": "soccer"
+    },
     {
       "title": "Shaw among big names to miss out on FifPro World XI",
       "source": "BBC Sport",
@@ -864,13 +918,6 @@
       "league": "all"
     },
     {
-      "title": "West Ham approach Parker after sacking boss Nuno",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63dj3zpl85go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T11:06:46Z",
-      "league": "all"
-    },
-    {
       "title": "Chicago Bears deliver statement victory against Seahawks",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/videos/cwm24gx0z77xo?at_medium=RSS&at_campaign=rss",
@@ -886,10 +933,10 @@
     },
     {
       "title": "Mee and Kenny handed first Northern Ireland call-ups",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwkg5dl4d3l8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T10:07:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "West Ham turn to Scott Parker after sacking Nuno Espírito Santo as head coach",
@@ -976,16 +1023,16 @@
       "league": "all"
     },
     {
-      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
+      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
       "date": "2026-11-03T07:30:41Z",
       "league": "all"
     },
     {
-      "title": "‘I’ve been chased and shot at’: Denzel Bentley on trauma, street violence and brutal boxing politics",
+      "title": "Don’t call it a remontada: Emery’s Camp Nou comeback focuses European blur",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/denzel-bentley-trauma-street-violence-boxing-politics",
+      "url": "https://www.theguardian.com/football/2026/nov/03/unai-emery-aston-villa-barcelona-camp-nou-champions-league",
       "date": "2026-11-03T07:30:41Z",
       "league": "all"
     },
@@ -1047,23 +1094,16 @@
     },
     {
       "title": "From nightmare debut season to Everton hero - Barry's revival",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj346rvg3pzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:28:17Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Grealish can still have Everton future - Moyes",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm70pgrd22x4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:14:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8dx37n11kv2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T23:09:36Z",
       "league": "soccer"
     },
     {
@@ -1114,27 +1154,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/02/newcastle-everton-premier-league-match-report",
       "date": "2026-11-02T22:04:11Z",
       "league": "soccer"
-    },
-    {
-      "title": "Lions’ Jack Campbell remains hospitalized after ‘scary’ neck injury but initial signs are positive",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/lions-give-positive-update-on-jack-campbell-after-scary-neck-injury-sends-linebacker-to-hospital",
-      "date": "2026-11-02T21:15:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Fifa to share 'key documents' over World Cup sell-off plan",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6vgj0p4ey17o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T20:23:55Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Revisiting the Superclásico: a story of death, violence, colour and family",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/02/revisiting-superclasico-boca-juniors-river-plate",
-      "date": "2026-11-02T20:00:27Z",
-      "league": "all"
     }
   ]
 }
