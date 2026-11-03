@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T07:56:46Z",
+  "updated_at": "2026-11-03T08:47:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 13,
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -858,26 +858,68 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Shimizu S-Pulse",
-          "score": ""
+          "name": "Gil Vicente",
+          "score": "0"
         },
         {
-          "name": "Tokyo Verdy",
-          "score": ""
+          "name": "Vitória de Guimarães",
+          "score": "0"
         }
       ],
       "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "NZ's Ponga back in World Cup contention after broken arm",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c61wv1z5781zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T08:39:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Tenerife striker's condition worsens after on-field collision",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T08:31:32Z",
+      "league": "all"
+    },
+    {
+      "title": "How Arteta is getting the best from Rice",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckeq3erv529po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T08:18:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Watch trailer for Rivals: Fury v Joshua",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/videos/ck054dqjyd29o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T08:06:09Z",
+      "league": "all"
+    },
+    {
+      "title": "From teenage limbo and Mangotsfield United to Champions League dream",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxj0led3jnj4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T08:00:40Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Do Ferrari need rules of engagement? F1 Q&A",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c862y1en5vrzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T07:53:14Z",
+      "league": "all"
+    },
     {
       "title": "Vikings, Chiefs, Cowboys and Seahawks beaten - NFL week eight",
       "source": "BBC Sport",
@@ -1033,13 +1075,6 @@
       "league": "all"
     },
     {
-      "title": "Who produced the kind of performance Moyes loves? - player ratings",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmglwjxx45gjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T22:08:43Z",
-      "league": "soccer"
-    },
-    {
       "title": "Newcastle unrest grows as Barry and Everton give Jaissle another headache",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/02/newcastle-everton-premier-league-match-report",
@@ -1051,13 +1086,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6gr875l1095o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T21:46:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Russell says F1 title loss 'tough to deal with'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmq8n95ppwd4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T21:16:11Z",
       "league": "all"
     },
     {
@@ -1131,24 +1159,10 @@
       "league": "soccer"
     },
     {
-      "title": "Can Alcaraz's ex-coach help Shelton challenge his former protege?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/crz654jdzdqpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T16:21:12Z",
-      "league": "all"
-    },
-    {
       "title": "Carrick says it's 'crazy' but he's looking forward to Roma game",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933x04ryz4do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T16:00:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Borthwick turned down my offer to work with England - Edwards",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmp3g0j2dvklo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T15:47:55Z",
       "league": "all"
     },
     {
@@ -1177,20 +1191,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/02/aston-villa-drop-threat-of-legal-action-against-jamie-carragher",
       "date": "2026-11-02T15:40:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England’s exit from Rugby League World Cup was a disaster years in the making | Aaron Bower",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/02/england-2026-rugby-league-world-cup-disaster",
-      "date": "2026-11-02T14:44:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal end Anfield wait and Manchester United beaten again | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/nov/02/arsenal-end-anfield-wait-and-manchester-united-beaten-again-football-weekly-video",
-      "date": "2026-11-02T14:34:55Z",
       "league": "soccer"
     }
   ]
