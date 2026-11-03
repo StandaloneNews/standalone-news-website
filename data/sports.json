@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T15:29:59Z",
+  "updated_at": "2026-11-03T16:37:50Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -837,9 +837,56 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594635",
+      "league": "ucl",
+      "name": "Shakhtar Donetsk vs Sporting CP",
+      "date": "2026-11-03T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shakhtar Donetsk",
+          "score": ""
+        },
+        {
+          "name": "Sporting CP",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Westwood 'unemployed' amid LIV uncertainty as Rahm discusses exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c38xzn2y7pglo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T16:33:50Z",
+      "league": "all"
+    },
+    {
+      "title": "How sporting events are being impacted by Middle East conflict",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T16:01:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Lionesses to face France and Portugal in Nations League",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T15:39:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Wrexham suffer 'significant' Smith injury blow",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmyr0m3ydxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-03T15:20:23Z",
+      "league": "soccer"
+    },
     {
       "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
       "source": "BBC Sport",
@@ -873,6 +920,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqn06nk1rx4xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T14:48:52Z",
+      "league": "all"
+    },
+    {
+      "title": "England’s Alex Mitchell out of Nations Championship with fourth hamstring injury in 2026",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/alex-mitchell-out-england-nations-championship-campaign-hamstring-injury",
+      "date": "2026-11-03T14:45:19Z",
       "league": "all"
     },
     {
@@ -915,13 +969,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/03/giannis-says-doncic-could-be-best-scorer-of-all-time-as-lakers-star-pours-in-42-against-heat",
       "date": "2026-11-03T13:06:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Rahm was not 'willing to follow' LIV 2.0 path",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cmqlnxp5e9lqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T13:04:31Z",
       "league": "all"
     },
     {
@@ -1013,13 +1060,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/03/pedestrianism-long-distance-walking-edward-payson-weston",
       "date": "2026-11-03T09:30:43Z",
-      "league": "all"
-    },
-    {
-      "title": "McNamara to succeed Cullen as Leinster head coach",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckly0vz73wn7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T09:24:48Z",
       "league": "all"
     },
     {
@@ -1115,23 +1155,9 @@
     },
     {
       "title": "Jeers again as home woes continue - Jaissle has big problems at Newcastle",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmly05n114gjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T23:53:46Z",
-      "league": "all"
-    },
-    {
-      "title": "From nightmare debut season to Everton hero - Barry's revival",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqj346rvg3pzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T23:28:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Grealish can still have Everton future - Moyes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm70pgrd22x4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T23:14:27Z",
       "league": "soccer"
     },
     {
@@ -1146,13 +1172,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckjwex4v4gq1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-02T22:54:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Everton hold off Newcastle to move into seventh",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq5ynd70vlx3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-02T22:44:30Z",
       "league": "all"
     }
   ]
