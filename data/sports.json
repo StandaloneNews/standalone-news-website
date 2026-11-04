@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T18:37:40Z",
+  "updated_at": "2026-11-04T19:43:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -782,6 +782,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508400",
+      "league": "bundesliga",
+      "name": "Eintracht Frankfurt vs Hamburg",
+      "date": "2026-11-01T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Eintracht Frankfurt",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Hamburg",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -820,39 +840,40 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2398527",
+      "league": "brasileirao",
+      "name": "Internacional vs Coritiba",
+      "date": "2026-11-04T00:30:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Toulouse",
-          "score": ""
+          "name": "Internacional",
+          "score": "1",
+          "winner": true
         },
         {
-          "name": "Strasbourg",
-          "score": ""
+          "name": "Coritiba",
+          "score": "0"
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2594566",
-      "league": "ucl",
-      "name": "Lens vs Como",
-      "date": "2026-11-04T20:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Lens",
-          "score": ""
+          "name": "Gil Vicente",
+          "score": "0"
         },
         {
-          "name": "Como",
-          "score": ""
+          "name": "Vitória de Guimarães",
+          "score": "0"
         }
       ],
       "url": ""
@@ -863,7 +884,56 @@
       "title": "Fenerbahce v Liverpool: Champions League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
-      "date": "2026-11-04T18:33:45Z",
+      "date": "2026-11-04T19:33:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Champions League: Slavia Prague v Arsenal, RB Leipzig v Manchester City and more – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
+      "date": "2026-11-04T19:28:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Billions in revenue proves Fifa right on the World Cup – but only on things it cares about",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/fifa-world-cup-billions-revenue",
+      "date": "2026-11-04T19:02:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Hearts lose Miller for two months as injuries mount",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj0406qvzqd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T19:00:49Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Deontay Wilder to face unbeaten Opetaia on Fury v Joshua undercard in Cardiff",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
+      "date": "2026-11-04T18:53:42Z",
+      "league": "all"
+    },
+    {
+      "title": "An island in mourning: Tenerife processes death of De Miguel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T18:51:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Campbell has full lower body movement after neck injury",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c9rky3j0p7rvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T18:44:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Burrage receives support after online death threats",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw073lpllk43o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T18:41:34Z",
       "league": "all"
     },
     {
@@ -909,7 +979,7 @@
       "league": "soccer"
     },
     {
-      "title": "Rory McIlroy backs claim that LIV tried to 'destroy' DP World Tour",
+      "title": "Rory McIlroy backs claim that LIV tried to ‘destroy’ DP World Tour",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/04/rory-mcilroy-liv-golf-destroy-dp-world-tour",
       "date": "2026-11-04T17:23:54Z",
@@ -972,11 +1042,11 @@
       "league": "all"
     },
     {
-      "title": "Upward path for Penrice has McInnes eager for Rangers deal",
-      "source": "BBC Sport",
+      "title": "Rangers' McInnes eager for Penrice deal",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:38:41Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Goalkeeper Jesús Owono experiencing ‘hardest days of my life’ after De Miguel’s death",
@@ -991,13 +1061,6 @@
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cry4xzkgvkgeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:22:32Z",
       "league": "all"
-    },
-    {
-      "title": "72+: The EFL Podcast",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pl9kk6?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:15:00Z",
-      "league": "soccer"
     },
     {
       "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
@@ -1042,13 +1105,6 @@
       "league": "all"
     },
     {
-      "title": "Casey, Jansen and Timoney start against Argentina",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c615j8v2d2npo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T14:14:57Z",
-      "league": "all"
-    },
-    {
       "title": "Kurtley Beale on his return to Wallabies fold aged 37: ‘There was some unfinished business’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/kurtley-beale-wallabies-australia-rugby-squad-unfinished-business",
@@ -1077,13 +1133,6 @@
       "league": "all"
     },
     {
-      "title": "World Series champion Teixeira wins US House seat as former NFL reporter Tafoya’s Senate bid fails",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/mark-teixeira-michele-tafoya-midterm-elections",
-      "date": "2026-11-04T12:57:30Z",
-      "league": "all"
-    },
-    {
       "title": "Jodie Burrage offered support by WTA after death threats and online abuse",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/04/jodie-burrage-tennis-offered-support-by-wta-after-death-threats-and-online-abuse",
@@ -1095,13 +1144,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T11:54:59Z",
-      "league": "all"
-    },
-    {
-      "title": "LIV aimed to 'destroy the European Tour' - McIlroy",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/ck78p0epe0y8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T11:52:36Z",
       "league": "all"
     },
     {
@@ -1152,27 +1194,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gelp4em2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T10:23:14Z",
       "league": "soccer"
-    },
-    {
-      "title": "‘Whitewater is ephemeral. That’s why we chase it’: Nouria Newman on the risk and thrill of extreme kayaking",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/nouria-newman-interview-whitewater-kayaking",
-      "date": "2026-11-04T10:00:03Z",
-      "league": "all"
-    },
-    {
-      "title": "How Carpenter has become Chelsea's surprise star",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw0k0mr7n1l8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T09:55:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "West Ham confirm Scott Parker as head coach after sacking Nuno Espírito Santo",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/west-ham-confirm-scott-parker-as-manager",
-      "date": "2026-11-04T09:30:41Z",
-      "league": "all"
     }
   ]
 }
