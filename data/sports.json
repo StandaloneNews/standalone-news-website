@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T12:36:35Z",
+  "updated_at": "2026-11-04T13:54:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,9 +818,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594648",
+      "league": "ucl",
+      "name": "AEK Athens vs Real Madrid",
+      "date": "2026-11-04T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "AEK Athens",
+          "score": ""
+        },
+        {
+          "name": "Real Madrid",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Can miraculous Manchester United comeback save Michael Carrick? | Football Weekly video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/nov/04/can-miraculous-manchester-united-comeback-save-michael-carrick-football-weekly-video",
+      "date": "2026-11-04T13:30:58Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Nadal set to join Real Madrid board of directors",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T13:21:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "‘I blacked out’: Canadiens blow 4-0 lead with less than three minutes to go in loss to Jets",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/canadiens-jets-comeback-nhl-record",
+      "date": "2026-11-04T13:18:36Z",
+      "league": "all"
+    },
+    {
+      "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
+      "date": "2026-11-04T13:00:11Z",
+      "league": "all"
+    },
+    {
+      "title": "World Series champion Teixeira wins US House seat as former NFL reporter Tafoya’s Senate bid fails",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/mark-teixeira-michele-tafoya-midterm-elections",
+      "date": "2026-11-04T12:57:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Jodie Burrage offered support by WTA after death threats and online abuse",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/jodie-burrage-tennis-offered-support-by-wta-after-death-threats-and-online-abuse",
+      "date": "2026-11-04T12:55:19Z",
+      "league": "all"
+    },
     {
       "title": "Goalkeeper Jesús Owono ‘deeply affected’ by De Miguel’s death, teammate says",
       "source": "The Guardian Sport",
@@ -836,6 +916,13 @@
       "league": "all"
     },
     {
+      "title": "Conan on desire to keep playing and Farrell's influence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm23gggjp3po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T11:56:51Z",
+      "league": "all"
+    },
+    {
       "title": "West Ham confirm Parker as boss",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_medium=RSS&at_campaign=rss",
@@ -843,7 +930,7 @@
       "league": "all"
     },
     {
-      "title": "Reset needed after LIV's 'false economy' - McIlroy",
+      "title": "LIV aimed to 'destroy the European Tour' - McIlroy",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/ck78p0epe0y8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T11:52:36Z",
@@ -857,7 +944,7 @@
       "league": "all"
     },
     {
-      "title": "Real reach verbal agreement to sign Man Utd's Gabriel",
+      "title": "Real Madrid reach verbal agreement to sign Gabriel",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T11:49:23Z",
@@ -977,10 +1064,10 @@
     },
     {
       "title": "Choke of the century? Chengdu collapse sets up thrilling Chinese Super League climax",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/04/choke-of-the-century-chengdu-collapse-sets-up-thrilling-chinese-super-league-climax",
       "date": "2026-11-04T08:00:29Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "West Ham took too long to sack Nuno and now must trust Parker to do what he does best | Jacob Steinberg",
@@ -1086,55 +1173,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/03/atletico-madrid-bayern-munich-champions-league-match-report",
       "date": "2026-11-03T22:28:08Z",
       "league": "all"
-    },
-    {
-      "title": "Championship roundup: Devlin’s double for Portsmouth denies Swansea top spot",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/championship-roundup-swansea-portsmouth-southampton-west-brom-burnley",
-      "date": "2026-11-03T22:28:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Raphinha underlines Barcelona’s class to give Aston Villa a reality check",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/barcelona-aston-villa-champions-league-match-report",
-      "date": "2026-11-03T22:00:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ocon dropped by Haas for rest of season after row",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/ck054q3g5jnpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T21:15:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Arteta backs Saliba’s readiness to return for Arsenal at Slavia Prague",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/arteta-backs-salibas-readiness-to-return-for-arsenal-at-slavia-prague",
-      "date": "2026-11-03T20:31:58Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Death threats for Briton Burrage on WTA Tour return",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq62y9yzgzgeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T20:26:12Z",
-      "league": "all"
-    },
-    {
-      "title": "Phil Foden sets sights on England recall and says he has had no contact with Tuchel",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/phil-foden-sets-sights-on-england-recall-and-says-hes-had-no-contact-with-tuchel",
-      "date": "2026-11-03T20:08:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Andoni Iraola calls on Liverpool to sharpen up in attack before Fenerbahce test",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/andoni-iraola-calls-on-liverpool-to-sharpen-up-in-attack-before-fenerbahce-test",
-      "date": "2026-11-03T18:42:11Z",
-      "league": "soccer"
     }
   ]
 }
