@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T21:34:22Z",
+  "updated_at": "2026-11-04T22:32:09Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -818,71 +818,91 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        },
-        {
-          "name": "Tokyo Verdy",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Champions League: Slavia Prague v Arsenal, RB Leipzig v Manchester City and more – live",
+      "title": "Emphatic Porto thrash Napoli in second-half romp",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr1ex9vx3y50o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:17:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Haaland scores winner as Man City beat Leipzig",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckz65ey5q29zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:15:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal survive late Slavia scare for hard-fought win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq4g1jwnzmyro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:10:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Viktor Gyökeres the difference as Arsenal claim nervy win against Slavia Prague",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
-      "date": "2026-11-04T21:21:36Z",
+      "url": "https://www.theguardian.com/football/2026/nov/04/slavia-prague-arsenal-champions-league-match-report",
+      "date": "2026-11-04T22:05:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool crumble at Kuyt's Fenerbahce",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqy7ljmzx6d6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:04:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Valverde stunner earns Real Madrid late win at AEK Athens",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck7vpj0ggqr8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:04:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United beat Roma in epic second-half comeback",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqrmy8lrz0wno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:04:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Raphinha scores twice as Barcelona beat Aston Villa",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmlylzndw52ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:04:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Bayern continue unbeaten CL start with win at Atletico",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cxm23ry19n9po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:03:54Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Spence stars as Inter Milan cruise to win at Feyenoord",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck4g1ev58yw7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T22:03:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "LIV to wind down after backers withdraw support",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T21:52:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Emery in line for new Villa deal - Thursday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwkgjv582vj0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T21:41:04Z",
       "league": "all"
     },
     {
@@ -921,13 +941,6 @@
       "league": "all"
     },
     {
-      "title": "Hearts lose Miller for two months as injuries mount",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj0406qvzqd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T19:00:49Z",
-      "league": "soccer"
-    },
-    {
       "title": "Deontay Wilder to face unbeaten Opetaia on Fury v Joshua undercard in Cardiff",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
@@ -939,13 +952,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T18:51:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Campbell has full lower body movement after neck injury",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c9rky3j0p7rvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T18:44:34Z",
       "league": "all"
     },
     {
@@ -981,13 +987,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c893zeq4eln1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T17:48:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Olympic medallist Barbosu banned for doping violation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c623dxpgnvkzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T17:32:33Z",
       "league": "all"
     },
     {
@@ -1054,13 +1053,6 @@
       "league": "all"
     },
     {
-      "title": "Rangers' McInnes eager for Penrice deal",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwly45r47917o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:38:41Z",
-      "league": "soccer"
-    },
-    {
       "title": "Goalkeeper Jesús Owono experiencing ‘hardest days of my life’ after De Miguel’s death",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
@@ -1075,25 +1067,11 @@
       "league": "all"
     },
     {
-      "title": "72+: The EFL Podcast",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pl9kk6?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:15:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:12:46Z",
       "league": "all"
-    },
-    {
-      "title": "What are rules on loan players in Champions League?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp8g4jy2pgpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:02:08Z",
-      "league": "soccer"
     },
     {
       "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
@@ -1131,13 +1109,6 @@
       "league": "soccer"
     },
     {
-      "title": "Nadal set to join Real Madrid board of directors",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T13:21:01Z",
-      "league": "all"
-    },
-    {
       "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
@@ -1152,13 +1123,6 @@
       "league": "all"
     },
     {
-      "title": "West Ham confirm Parker as boss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T11:54:59Z",
-      "league": "soccer"
-    },
-    {
       "title": "Could Hyrox's Olympic ambition spell the end for triathlon?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/triathlon/articles/cwp9ge311n91o?at_medium=RSS&at_campaign=rss",
@@ -1170,27 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq146dnrn541o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T11:49:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Fans pay respects to Tenerife's De Miguel",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c862yezg92qqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T11:05:16Z",
-      "league": "all"
-    },
-    {
-      "title": "The long goodbye: England taking their time to leave Rugby League World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/no-helmets-required/2026/nov/04/long-goodbye-england-tournament-brian-mcdermott-rugby-league-world-cup",
-      "date": "2026-11-04T10:36:32Z",
-      "league": "all"
-    },
-    {
-      "title": "The Spin | ‘I wanted the ball to be hit at me’: life in cricket’s most dangerous fielding position",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/cricket-most-dangeroous-fielding-position-short-leg-the-spin",
-      "date": "2026-11-04T10:33:44Z",
       "league": "all"
     }
   ]
