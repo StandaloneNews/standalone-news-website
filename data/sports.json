@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T19:43:32Z",
+  "updated_at": "2026-11-04T20:36:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
@@ -782,26 +782,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508400",
-      "league": "bundesliga",
-      "name": "Eintracht Frankfurt vs Hamburg",
-      "date": "2026-11-01T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Eintracht Frankfurt",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Hamburg",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -840,40 +820,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398527",
-      "league": "brasileirao",
-      "name": "Internacional vs Coritiba",
-      "date": "2026-11-04T00:30:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Internacional",
-          "score": "1",
-          "winner": true
+          "name": "Toulouse",
+          "score": ""
         },
         {
-          "name": "Coritiba",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514022",
-      "league": "primeira",
-      "name": "Gil Vicente vs Vitória de Guimarães",
-      "date": "2026-11-02T20:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Gil Vicente",
-          "score": "0"
-        },
-        {
-          "name": "Vitória de Guimarães",
-          "score": "0"
+          "name": "Strasbourg",
+          "score": ""
         }
       ],
       "url": ""
@@ -881,17 +841,31 @@
   ],
   "stories": [
     {
-      "title": "Fenerbahce v Liverpool: Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
-      "date": "2026-11-04T19:33:47Z",
-      "league": "all"
-    },
-    {
       "title": "Champions League: Slavia Prague v Arsenal, RB Leipzig v Manchester City and more – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
-      "date": "2026-11-04T19:28:32Z",
+      "date": "2026-11-04T20:30:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Valverde’s late winner breaks AEK Athens hearts as Real Madrid twice come from behind",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
+      "date": "2026-11-04T20:04:07Z",
+      "league": "all"
+    },
+    {
+      "title": "GB sprint star Hunt visits England training camp",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5x2vzplg43go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T19:59:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses",
+      "date": "2026-11-04T19:58:13Z",
       "league": "all"
     },
     {
@@ -970,13 +944,6 @@
       "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c623dxpgnvkzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T17:32:33Z",
       "league": "all"
-    },
-    {
-      "title": "Ex-Burnley striker Rodriguez announces retirement",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgxyn49rq4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T17:28:52Z",
-      "league": "soccer"
     },
     {
       "title": "Rory McIlroy backs claim that LIV tried to ‘destroy’ DP World Tour",
@@ -1063,6 +1030,13 @@
       "league": "all"
     },
     {
+      "title": "72+: The EFL Podcast",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pl9kk6?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T16:15:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
@@ -1074,13 +1048,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp8g4jy2pgpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:02:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Daily | Manchester United’s unlikely one-match winning streak and hard-to-please fans",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/04/manchester-united-win-football-daily-newsletter",
-      "date": "2026-11-04T15:31:25Z",
       "league": "soccer"
     },
     {
@@ -1141,10 +1108,10 @@
     },
     {
       "title": "West Ham confirm Parker as boss",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq3dj37m1kddo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T11:54:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Could Hyrox's Olympic ambition spell the end for triathlon?",
@@ -1186,13 +1153,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwly4ee53mgyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T10:30:19Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Palace lose appeal against Mateta red card",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqp9gelp4em2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T10:23:14Z",
       "league": "soccer"
     }
   ]
