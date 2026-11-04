@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T20:36:40Z",
+  "updated_at": "2026-11-04T21:34:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -837,6 +837,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Gil Vicente",
+          "score": "0"
+        },
+        {
+          "name": "Vitória de Guimarães",
+          "score": "0"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -844,7 +882,14 @@
       "title": "Champions League: Slavia Prague v Arsenal, RB Leipzig v Manchester City and more – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live",
-      "date": "2026-11-04T20:30:20Z",
+      "date": "2026-11-04T21:21:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Ravens near trade with Cardinals for Jacoby Brissett amid QB injury crisis",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/baltimore-ravens-arizona-cardinals-trade-jacoby-brissett",
+      "date": "2026-11-04T20:50:44Z",
       "league": "all"
     },
     {
@@ -1147,13 +1192,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/04/cricket-most-dangeroous-fielding-position-short-leg-the-spin",
       "date": "2026-11-04T10:33:44Z",
       "league": "all"
-    },
-    {
-      "title": "Wilson returns as Wales call up uncapped Duncan",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwly4ee53mgyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T10:30:19Z",
-      "league": "soccer"
     }
   ]
 }
