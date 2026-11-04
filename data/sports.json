@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:31:38Z",
+  "updated_at": "2026-11-04T03:32:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -204,20 +204,6 @@
         {
           "fighters": [
             {
-              "name": "Karine Silva",
-              "score": ""
-            },
-            {
-              "name": "Gabriella Fernandes",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
               "name": "Mitch Raposo",
               "score": ""
             },
@@ -232,11 +218,11 @@
         {
           "fighters": [
             {
-              "name": "Jose Delano",
+              "name": "Priscila Cachoeira",
               "score": ""
             },
             {
-              "name": "Murtazali Magomedov",
+              "name": "Nina Milosevic",
               "score": ""
             }
           ],
@@ -246,11 +232,25 @@
         {
           "fighters": [
             {
-              "name": "Keiichiro Nakamura",
+              "name": "Karine Silva",
               "score": ""
             },
             {
-              "name": "Ollie Schmid",
+              "name": "Gabriella Fernandes",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jose Delano",
+              "score": ""
+            },
+            {
+              "name": "Murtazali Magomedov",
               "score": ""
             }
           ],
@@ -841,6 +841,13 @@
   ],
   "stories": [
     {
+      "title": "AFL to consider rule changes to add ‘exciting’ Irish flair to women’s competition",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/aflw-considers-rule-change-irish-flair-gaelic-football-solo",
+      "date": "2026-11-04T02:37:21Z",
+      "league": "all"
+    },
+    {
       "title": "Fernandes critical of media 'lies' about Carrick relationship",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
@@ -1146,13 +1153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/american-football/videos/cwm24gx0z77xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T11:03:43Z",
-      "league": "all"
-    },
-    {
-      "title": "David Squires on … Mikel Arteta’s view that football is not Disneyland",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/picture/2026/nov/03/david-squires-on-mikel-arteta-football-not-disneyland",
-      "date": "2026-11-03T10:57:42Z",
       "league": "all"
     }
   ]
