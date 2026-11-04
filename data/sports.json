@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T03:32:54Z",
+  "updated_at": "2026-11-04T04:39:03Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -162,20 +162,6 @@
         {
           "fighters": [
             {
-              "name": "Seokhyon Ko",
-              "score": ""
-            },
-            {
-              "name": "Wellington Turman",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
               "name": "Billy Elekana",
               "score": ""
             },
@@ -190,11 +176,11 @@
         {
           "fighters": [
             {
-              "name": "Mantas Kondratavicius",
+              "name": "Priscila Cachoeira",
               "score": ""
             },
             {
-              "name": "Andre Petroski",
+              "name": "Nina Milosevic",
               "score": ""
             }
           ],
@@ -218,11 +204,11 @@
         {
           "fighters": [
             {
-              "name": "Priscila Cachoeira",
+              "name": "Keiichiro Nakamura",
               "score": ""
             },
             {
-              "name": "Nina Milosevic",
+              "name": "Ollie Schmid",
               "score": ""
             }
           ],
@@ -251,6 +237,20 @@
             },
             {
               "name": "Murtazali Magomedov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Mantas Kondratavicius",
+              "score": ""
+            },
+            {
+              "name": "Andre Petroski",
               "score": ""
             }
           ],
@@ -814,25 +814,6 @@
         },
         {
           "name": "Udinese",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
           "score": ""
         }
       ],
