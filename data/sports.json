@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T10:28:51Z",
+  "updated_at": "2026-11-04T11:40:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,47 +818,44 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594648",
-      "league": "ucl",
-      "name": "AEK Athens vs Real Madrid",
-      "date": "2026-11-04T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "AEK Athens",
-          "score": ""
-        },
-        {
-          "name": "Real Madrid",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Korda wins LPGA Tour player of the year",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cm5yn75wg5vqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T11:37:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Fans pay respects to Tenerife's De Miguel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c862yezg92qqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T11:05:16Z",
+      "league": "all"
+    },
+    {
+      "title": "The long goodbye: England taking their time to leave Rugby League World Cup",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/no-helmets-required/2026/nov/04/long-goodbye-england-tournament-brian-mcdermott-rugby-league-world-cup",
+      "date": "2026-11-04T10:36:32Z",
+      "league": "all"
+    },
+    {
+      "title": "The Spin | ‘I wanted the ball to be hit at me’: life in cricket’s most dangerous fielding position",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/cricket-most-dangeroous-fielding-position-short-leg-the-spin",
+      "date": "2026-11-04T10:33:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Wilson returns as Wales call up uncapped Duncan",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwly4ee53mgyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T10:30:19Z",
+      "league": "all"
+    },
     {
       "title": "Palace lose appeal against Mateta red card",
       "source": "BBC Sport",
@@ -1001,10 +998,10 @@
     },
     {
       "title": "Fernandes critical of media 'lies' about Carrick relationship",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T00:45:33Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
@@ -1137,41 +1134,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cknv0n96er9po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T16:54:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "I don't know what 2027 looks like for me - Rahm",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/videos/cw3dj3332xrro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T16:52:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Westwood 'unemployed' amid LIV uncertainty as Rahm discusses exit",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c38xzn2y7pglo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T16:33:50Z",
-      "league": "all"
-    },
-    {
-      "title": "How sporting events are being affected by Middle East conflict",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T16:01:24Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Lionesses to face France and Portugal in Nations League",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T15:39:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxj0l3pd9jy7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T15:07:49Z",
       "league": "soccer"
     }
   ]
