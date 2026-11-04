@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T14:45:58Z",
+  "updated_at": "2026-11-04T15:39:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -246,11 +246,11 @@
         {
           "fighters": [
             {
-              "name": "Mantas Kondratavicius",
+              "name": "Austin Bashi",
               "score": ""
             },
             {
-              "name": "Andre Petroski",
+              "name": "Carlos Calderon",
               "score": ""
             }
           ],
@@ -818,9 +818,87 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594648",
+      "league": "ucl",
+      "name": "AEK Athens vs Real Madrid",
+      "date": "2026-11-04T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "AEK Athens",
+          "score": ""
+        },
+        {
+          "name": "Real Madrid",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398521",
+      "league": "brasileirao",
+      "name": "Athletico Paranaense vs Vasco da Gama",
+      "date": "2026-11-04T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Athletico Paranaense",
+          "score": ""
+        },
+        {
+          "name": "Vasco da Gama",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
+      "date": "2026-11-04T15:10:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Ocon dropped - is it the end of his F1 career?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c59vz9gdllxlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T15:00:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Real Madrid close on agreement to sign Manchester United 16-year-old JJ Gabriel",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/real-madrid-jj-gabriel-manchester-united-close-agreement-sign",
+      "date": "2026-11-04T14:48:17Z",
+      "league": "all"
+    },
     {
       "title": "Casey, Jansen and Timoney start against Argentina",
       "source": "BBC Sport",
@@ -886,10 +964,10 @@
     },
     {
       "title": "Manchester United’s wild win against Roma showed angry fans we care, says Dalot",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/04/roma-manchester-united-win-can-transform-season-says-diogo-dalot",
       "date": "2026-11-04T12:00:10Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "West Ham confirm Parker as boss",
@@ -1089,10 +1167,10 @@
     },
     {
       "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6q8n98y4023o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T00:27:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Emery takes positives, but Villa 'have work to do' to reach Barca level",
@@ -1114,27 +1192,6 @@
       "url": "https://www.theguardian.com/football/blog/2026/nov/04/asian-cup-afc-postponed-socceroos-football-australia-tony-popovich",
       "date": "2026-11-03T23:54:13Z",
       "league": "soccer"
-    },
-    {
-      "title": "Football world mourns Tenerife striker De Miguel",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6djv011mzlyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T23:37:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Man Utd beat Roma - the other great Champions League comebacks",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T23:25:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T22:55:00Z",
-      "league": "all"
     }
   ]
 }
