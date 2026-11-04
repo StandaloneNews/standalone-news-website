@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T06:46:37Z",
+  "updated_at": "2026-11-04T08:02:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,28 +818,30 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Retiring Serrano wants to end as a 'game-changer'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6n047870jzeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T07:12:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6jdmg9mkg8mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T07:06:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Why rugby league needs Tonga-Samoa World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c9kgj3elgmkzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T07:00:16Z",
+      "league": "all"
+    },
     {
       "title": "AFL to consider rule changes to add ‘exciting’ Irish flair to women’s competition",
       "source": "The Guardian Sport",
@@ -891,10 +893,10 @@
     },
     {
       "title": "Man Utd beat Roma - the other great Champions League comebacks",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T23:25:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Man Utd eye Man City's Ait-Nouri - Wednesday's gossip",
@@ -1002,13 +1004,6 @@
       "league": "all"
     },
     {
-      "title": "Kerr's mile record up for World Athletics award",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/cmy0rjzlkdreo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T17:17:21Z",
-      "league": "all"
-    },
-    {
       "title": "England's Mitchell ruled out of Nations Championship",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6n4endjxqnko?at_medium=RSS&at_campaign=rss",
@@ -1052,10 +1047,10 @@
     },
     {
       "title": "Lionesses to face France and Portugal in Nations League",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qxge7zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T15:39:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Saliba's back for Arsenal - how does Arteta solve his defensive dilemma?",
@@ -1140,20 +1135,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6wyvr870d8do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T11:29:06Z",
       "league": "soccer"
-    },
-    {
-      "title": "The Breakdown | Rugby’s grand Ruckfest gamble cannot afford a damp squib in London finale",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/rugby-union-nations-championship-finals-england-south-africa-australia-new-zealand",
-      "date": "2026-11-03T11:12:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Bears deliver statement victory against Seahawks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/cwm24gx0z77xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T11:03:43Z",
-      "league": "all"
     }
   ]
 }
