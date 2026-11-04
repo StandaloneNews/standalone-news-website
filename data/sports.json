@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T13:54:47Z",
+  "updated_at": "2026-11-04T14:45:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,47 +818,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594648",
-      "league": "ucl",
-      "name": "AEK Athens vs Real Madrid",
-      "date": "2026-11-04T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "AEK Athens",
-          "score": ""
-        },
-        {
-          "name": "Real Madrid",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Casey, Jansen and Timoney start against Argentina",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c615j8v2d2npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T14:14:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Kurtley Beale on his return to Wallabies fold aged 37: ‘There was some unfinished business’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/kurtley-beale-wallabies-australia-rugby-squad-unfinished-business",
+      "date": "2026-11-04T14:00:37Z",
+      "league": "all"
+    },
     {
       "title": "Can miraculous Manchester United comeback save Michael Carrick? | Football Weekly video",
       "source": "The Guardian Football",
@@ -868,10 +844,10 @@
     },
     {
       "title": "Nadal set to join Real Madrid board of directors",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T13:21:01Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "‘I blacked out’: Canadiens blow 4-0 lead with less than three minutes to go in loss to Jets",
@@ -913,13 +889,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/04/roma-manchester-united-win-can-transform-season-says-diogo-dalot",
       "date": "2026-11-04T12:00:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Conan on desire to keep playing and Farrell's influence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm23gggjp3po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T11:56:51Z",
       "league": "all"
     },
     {
@@ -1165,13 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3vgx8qkqx4jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T22:55:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Lennart Karl steals in behind Atlético Madrid to inspire Bayern Munich win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/03/atletico-madrid-bayern-munich-champions-league-match-report",
-      "date": "2026-11-03T22:28:08Z",
       "league": "all"
     }
   ]
