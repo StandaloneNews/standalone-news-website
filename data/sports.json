@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T00:32:36Z",
+  "updated_at": "2026-11-04T01:45:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -63,42 +63,42 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -668,6 +668,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475494",
+      "league": "nfl",
+      "name": "Seattle Seahawks vs Chicago Bears",
+      "date": "2026-11-03T01:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Seattle Seahawks",
+          "score": "17"
+        },
+        {
+          "name": "Chicago Bears",
+          "score": "34",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475495",
       "league": "nfl",
       "name": "Baltimore Ravens vs Jacksonville Jaguars",
@@ -706,39 +726,59 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591729",
+      "id": "sportsdb-2591730",
       "league": "nhl",
-      "name": "Nashville Predators vs Carolina Hurricanes",
-      "date": "2026-11-04T01:00:00Z",
+      "name": "Vancouver Canucks vs Anaheim Ducks",
+      "date": "2026-11-04T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nashville Predators",
+          "name": "Vancouver Canucks",
           "score": ""
         },
         {
-          "name": "Carolina Hurricanes",
+          "name": "Anaheim Ducks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499181",
+      "id": "sportsdb-2499182",
       "league": "ncaaf",
-      "name": "Miami (OH) vs Buffalo",
-      "date": "2026-11-04T01:00:00Z",
+      "name": "UMass vs Ball State",
+      "date": "2026-11-05T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Miami (OH)",
+          "name": "UMass",
           "score": ""
         },
         {
-          "name": "Buffalo",
+          "name": "Ball State",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494080",
+      "league": "epl",
+      "name": "Newcastle United vs Everton",
+      "date": "2026-11-02T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Newcastle United",
+          "score": "0"
+        },
+        {
+          "name": "Everton",
+          "score": "1",
+          "winner": true
         }
       ],
       "url": ""
@@ -818,9 +858,168 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594648",
+      "league": "ucl",
+      "name": "AEK Athens vs Real Madrid",
+      "date": "2026-11-04T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "AEK Athens",
+          "score": ""
+        },
+        {
+          "name": "Real Madrid",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398521",
+      "league": "brasileirao",
+      "name": "Athletico Paranaense vs Vasco da Gama",
+      "date": "2026-11-04T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Athletico Paranaense",
+          "score": ""
+        },
+        {
+          "name": "Vasco da Gama",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398176",
+      "league": "argentina",
+      "name": "Aldosivi vs River Plate",
+      "date": "2026-11-08T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Aldosivi",
+          "score": ""
+        },
+        {
+          "name": "River Plate",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487587",
+      "league": "ligamx",
+      "name": "Necaxa vs Tijuana",
+      "date": "2026-11-07T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540124",
+      "league": "aleague",
+      "name": "Sydney FC vs Central Coast Mariners",
+      "date": "2026-11-06T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": ""
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514030",
+      "league": "primeira",
+      "name": "Famalicao vs Arouca",
+      "date": "2026-11-06T20:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Famalicao",
+          "score": ""
+        },
+        {
+          "name": "Arouca",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Fernandes critical of media 'lies' about Carrick relationship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T00:45:33Z",
+      "league": "all"
+    },
     {
       "title": "A half-time speech, a retaken penalty - and a win to save Carrick's job?",
       "source": "BBC Sport",
@@ -861,13 +1060,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-03T23:25:20Z",
-      "league": "all"
-    },
-    {
-      "title": "We don't need to save anyone's job, says Man Utd captain Fernandes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T23:25:13Z",
       "league": "all"
     },
     {
