@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T15:39:43Z",
+  "updated_at": "2026-11-04T16:39:17Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -818,66 +818,58 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594648",
-      "league": "ucl",
-      "name": "AEK Athens vs Real Madrid",
-      "date": "2026-11-04T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "AEK Athens",
-          "score": ""
-        },
-        {
-          "name": "Real Madrid",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398521",
-      "league": "brasileirao",
-      "name": "Athletico Paranaense vs Vasco da Gama",
-      "date": "2026-11-04T22:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Athletico Paranaense",
-          "score": ""
-        },
-        {
-          "name": "Vasco da Gama",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Goalkeeper Jesús Owono experiencing ‘hardest days of my life’ after De Miguel’s death",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
+      "date": "2026-11-04T16:23:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Fenerbahce v Liverpool: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+      "date": "2026-11-04T16:23:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Leicestershire relegation confirmed after losing appeal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cry4xzkgvkgeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T16:22:32Z",
+      "league": "all"
+    },
+    {
+      "title": "72+: The EFL Podcast",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pl9kk6?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T16:15:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T16:12:46Z",
+      "league": "all"
+    },
+    {
+      "title": "What are rules on loan players in Champions League?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp8g4jy2pgpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T16:02:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Football Daily | Manchester United’s unlikely one-match winning streak and hard-to-please fans",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/04/manchester-united-win-football-daily-newsletter",
+      "date": "2026-11-04T15:31:25Z",
+      "league": "soccer"
+    },
     {
       "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
       "source": "The Guardian Football",
@@ -954,20 +946,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/04/jodie-burrage-tennis-offered-support-by-wta-after-death-threats-and-online-abuse",
       "date": "2026-11-04T12:55:19Z",
       "league": "all"
-    },
-    {
-      "title": "Goalkeeper Jesús Owono ‘deeply affected’ by De Miguel’s death, teammate says",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
-      "date": "2026-11-04T12:01:33Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United’s wild win against Roma showed angry fans we care, says Dalot",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/04/roma-manchester-united-win-can-transform-season-says-diogo-dalot",
-      "date": "2026-11-04T12:00:10Z",
-      "league": "soccer"
     },
     {
       "title": "West Ham confirm Parker as boss",
@@ -1096,16 +1074,16 @@
       "league": "all"
     },
     {
-      "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
+      "title": "Has a footballer ever run a marathon faster than James Milner? | The Knowledge",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/qatar-pulls-out-of-hosting-2028-nations-championship-owing-to-middle-east-crisis",
+      "url": "https://www.theguardian.com/football/2026/nov/04/footballer-run-marathon-faster-than-james-milner-the-knowledge",
       "date": "2026-11-04T08:00:29Z",
       "league": "all"
     },
     {
-      "title": "Has a footballer ever run a marathon faster than James Milner? | The Knowledge",
+      "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/footballer-run-marathon-faster-than-james-milner-the-knowledge",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/qatar-pulls-out-of-hosting-2028-nations-championship-owing-to-middle-east-crisis",
       "date": "2026-11-04T08:00:29Z",
       "league": "all"
     },
@@ -1122,13 +1100,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/04/west-ham-took-too-long-to-sack-nuno-and-now-must-trust-parker-to-do-what-he-does-best",
       "date": "2026-11-04T08:00:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "Hutchinson finding happiness after emotional turmoil",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c63el27nxnn8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T07:29:50Z",
-      "league": "all"
     },
     {
       "title": "Retiring Serrano wants to end as a 'game-changer'",
@@ -1152,13 +1123,6 @@
       "league": "all"
     },
     {
-      "title": "AFL to consider rule changes to add ‘exciting’ Irish flair to women’s competition",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/aflw-considers-rule-change-irish-flair-gaelic-football-solo",
-      "date": "2026-11-04T02:37:21Z",
-      "league": "all"
-    },
-    {
       "title": "Fernandes critical of media 'lies' about Carrick relationship",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss",
@@ -1170,27 +1134,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6q8n98y4023o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T00:27:37Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Emery takes positives, but Villa 'have work to do' to reach Barca level",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjwy9496qe7ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-03T23:58:22Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Mainoo and Lacey raise the spirits but systemic change still required at Manchester United | Nick Ames",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/03/michael-carrick-manchester-united-roma-old-trafford-champions-league",
-      "date": "2026-11-03T23:57:56Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Asian Cup postponement leaves Socceroos, FA and coach Tony Popovic at crossroads | Joey Lynch",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/blog/2026/nov/04/asian-cup-afc-postponed-socceroos-football-australia-tony-popovich",
-      "date": "2026-11-03T23:54:13Z",
       "league": "soccer"
     }
   ]
