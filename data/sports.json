@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T17:37:25Z",
+  "updated_at": "2026-11-04T18:37:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,9 +818,82 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594566",
+      "league": "ucl",
+      "name": "Lens vs Como",
+      "date": "2026-11-04T20:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Como",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Fenerbahce v Liverpool: Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
+      "date": "2026-11-04T18:33:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Defeat ends Djokovic's hopes of making ATP Finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckn8we5p1ydeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T18:22:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Lions’ Jack Campbell making progress on movement in upper body after injury during game",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/jack-campbell-injury-update-nfl",
+      "date": "2026-11-04T18:14:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Team USA stake could be sold to private investors",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/olympics/articles/c689zj04qypko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T18:14:17Z",
+      "league": "all"
+    },
+    {
+      "title": "How landmark Everton compensation prevented Burnley record loss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c893zeq4eln1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T17:48:19Z",
+      "league": "all"
+    },
     {
       "title": "Olympic medallist Barbosu banned for doping violation",
       "source": "BBC Sport",
@@ -829,10 +902,24 @@
       "league": "all"
     },
     {
-      "title": "Fenerbahce v Liverpool: Champions League – live",
+      "title": "Ex-Burnley striker Rodriguez announces retirement",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjvgxyn49rq4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-04T17:28:52Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Rory McIlroy backs claim that LIV tried to 'destroy' DP World Tour",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live",
-      "date": "2026-11-04T17:18:42Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/rory-mcilroy-liv-golf-destroy-dp-world-tour",
+      "date": "2026-11-04T17:23:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Billy ‘The Kid’ Loughnane can be new ‘face of racing’ and next Dettori after Godolphin deal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/billy-the-kid-loughnane-new-face-horse-racing-next-frankie-dettori-after-godolphin-deal",
+      "date": "2026-11-04T17:22:05Z",
       "league": "all"
     },
     {
@@ -983,13 +1070,6 @@
       "league": "all"
     },
     {
-      "title": "‘I blacked out’: Canadiens blow 4-0 lead with less than three minutes to go in loss to Jets",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/canadiens-jets-comeback-nhl-record",
-      "date": "2026-11-04T13:18:36Z",
-      "league": "all"
-    },
-    {
       "title": "‘She can do what Beckham did’: Océane Hurtré making waves at Birmingham",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/04/oceane-hurtre-birmingham-womens-super-league-france",
@@ -1074,13 +1154,6 @@
       "league": "soccer"
     },
     {
-      "title": "GB's Stojsavljevic, 17, claims first WTA Tour win despite short notice",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglw70n41d7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T10:06:10Z",
-      "league": "all"
-    },
-    {
       "title": "‘Whitewater is ephemeral. That’s why we chase it’: Nouria Newman on the risk and thrill of extreme kayaking",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/04/nouria-newman-interview-whitewater-kayaking",
@@ -1099,41 +1172,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/04/west-ham-confirm-scott-parker-as-manager",
       "date": "2026-11-04T09:30:41Z",
-      "league": "all"
-    },
-    {
-      "title": "From Derby to Champions League - Brown's journey to face Reds",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwp8g7gjy6mro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T08:58:24Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Paul will 'hang up gloves' if he loses to Doumbe",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/crly0jn058z1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T08:57:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool owner FSG holds talks over buying majority stake in Cadillac F1 team",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/liverpool-owner-fsg-talks-buy-cadillac-f1-team-majority-stake",
-      "date": "2026-11-04T08:36:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Why is it going so wrong for Le Bris at Sunderland?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1jx8ylveo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T08:27:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Qatar pulls out of hosting 2028 Nations Championship owing to Middle East crisis",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/qatar-pulls-out-of-hosting-2028-nations-championship-owing-to-middle-east-crisis",
-      "date": "2026-11-04T08:00:29Z",
       "league": "all"
     }
   ]
