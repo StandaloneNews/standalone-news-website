@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-03T18:54:03+00:00",
+  "updated_at": "2026-11-04T01:03:31+00:00",
   "source": "https://data.sec.gov/submissions/",
   "companies": {
     "AAPL": {
       "cik": 320193,
       "name": "Apple Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "10-K",
@@ -386,7 +386,7 @@
       "cik": 1045810,
       "name": "NVIDIA CORP",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4/A",
@@ -808,7 +808,7 @@
       "cik": 789019,
       "name": "MICROSOFT CORP",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "8-K",
@@ -1188,7 +1188,7 @@
       "cik": 1318605,
       "name": "Tesla, Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "10-Q",
@@ -1580,8 +1580,14 @@
       "cik": 1018724,
       "name": "AMAZON COM INC",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "13F-HR",
+          "filed": "2026-11-03",
+          "description": "13F-HR",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926122014/xslForm13F_X02/primary_doc.xml"
+        },
         {
           "form": "10-Q",
           "filed": "2026-10-30",
@@ -1901,12 +1907,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
         },
         {
-          "form": "13F-HR",
-          "filed": "2025-02-07",
-          "description": "13F-HR",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465925010572/xslForm13F_X02/primary_doc.xml"
-        },
-        {
           "form": "10-K",
           "filed": "2025-02-07",
           "description": "10-K",
@@ -1978,7 +1978,7 @@
       "cik": 1652044,
       "name": "Alphabet Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4",
@@ -2382,7 +2382,7 @@
       "cik": 1326801,
       "name": "Meta Platforms, Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "8-K",
@@ -2690,8 +2690,14 @@
       "cik": 19617,
       "name": "JPMORGAN CHASE & CO",
       "exchange": "NYSE",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "10-Q",
+          "filed": "2026-11-03",
+          "description": "10-Q",
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm"
+        },
         {
           "form": "8-K",
           "filed": "2026-10-20",
@@ -2998,8 +3004,14 @@
       "cik": 2488,
       "name": "ADVANCED MICRO DEVICES INC",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "8-K",
+          "filed": "2026-11-03",
+          "description": "8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amd-20261103.htm"
+        },
         {
           "form": "4",
           "filed": "2026-10-19",
@@ -3283,12 +3295,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189d8k.htm"
         },
         {
-          "form": "8-K",
-          "filed": "2025-08-25",
-          "description": "8-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000147/amd-20250822.htm"
-        },
-        {
           "form": "10-Q",
           "filed": "2025-08-06",
           "description": "10-Q",
@@ -3414,7 +3420,7 @@
       "cik": 1652044,
       "name": "Alphabet Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4",
@@ -3818,8 +3824,68 @@
       "cik": 1065280,
       "name": "NETFLIX INC",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000310/xslF345X06/wk-form4_1793753189.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000308/xslF345X06/wk-form4_1793753143.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000306/xslF345X06/wk-form4_1793753109.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000304/xslF345X06/wk-form4_1793752945.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000302/xslF345X06/wk-form4_1793752881.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000300/xslF345X06/wk-form4_1793752852.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000298/xslF345X06/wk-form4_1793752340.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000296/xslF345X06/wk-form4_1793751548.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000294/xslF345X06/wk-form4_1793751480.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "OWNERSHIP DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000110465926121972/xslF345X06/tm2628887-1_4seq1.xml"
+        },
         {
           "form": "4",
           "filed": "2026-10-29",
@@ -3915,66 +3981,6 @@
           "filed": "2026-09-09",
           "description": "FORM 4",
           "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000269/xslF345X06/wk-form4_1788984509.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "OWNERSHIP DOCUMENT",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000110465926104794/xslF345X06/tm2624686-1_4seq1.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000267/xslF345X06/wk-form4_1788380182.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000266/xslF345X06/wk-form4_1788380130.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000265/xslF345X06/wk-form4_1788380102.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000264/xslF345X06/wk-form4_1788380077.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000263/xslF345X06/wk-form4_1788380052.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000262/xslF345X06/wk-form4_1788380025.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000261/xslF345X06/wk-form4_1788379988.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000260/xslF345X06/wk-form4_1788379961.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000259/xslF345X06/wk-form4_1788379914.xml"
         },
         {
           "form": "8-K",
@@ -4162,7 +4168,7 @@
       "cik": 909832,
       "name": "COSTCO WHOLESALE CORP /NEW",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4",
@@ -4572,8 +4578,20 @@
       "cik": 104169,
       "name": "Walmart Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000028/xslF345X06/wk-form4_1793741841.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/104169/000178119826000008/xslF345X06/wk-form4_1793741833.xml"
+        },
         {
           "form": "8-K",
           "filed": "2026-10-23",
@@ -4711,18 +4729,6 @@
           "filed": "2026-09-09",
           "description": "FORM 4",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000211030426000021/xslF345X06/wk-form4_1788988237.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-09",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/104169/000188636726000025/xslF345X06/wk-form4_1788988202.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-09-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/104169/000157929926000024/xslF345X06/wk-form4_1788382695.xml"
         },
         {
           "form": "10-Q",
@@ -4958,8 +4964,14 @@
       "cik": 1744489,
       "name": "Walt Disney Co",
       "exchange": "NYSE",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "FORM 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026069657/xslF345X06/wk-form4_1793745065.xml"
+        },
         {
           "form": "4",
           "filed": "2026-10-19",
@@ -5109,12 +5121,6 @@
           "filed": "2026-07-02",
           "description": "FORM 4",
           "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026046864/xslF345X06/wk-form4_1783022586.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-07-02",
-          "description": "FORM 4",
-          "url": "https://www.sec.gov/Archives/edgar/data/1744489/000162828026046862/xslF345X06/wk-form4_1783022580.xml"
         },
         {
           "form": "10-Q",
@@ -5338,8 +5344,26 @@
       "cik": 70858,
       "name": "BANK OF AMERICA CORP /DE/",
       "exchange": "NYSE",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "PRIMARY DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000556/xslF345X06/primary_doc.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "PRIMARY DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000555/xslF345X06/primary_doc.xml"
+        },
+        {
+          "form": "4",
+          "filed": "2026-11-03",
+          "description": "PRIMARY DOCUMENT",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000554/xslF345X06/primary_doc.xml"
+        },
         {
           "form": "10-Q",
           "filed": "2026-10-30",
@@ -5491,28 +5515,10 @@
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000451/xslF345X06/primary_doc.xml"
         },
         {
-          "form": "4",
-          "filed": "2026-08-18",
-          "description": "PRIMARY DOCUMENT",
-          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000449/xslF345X06/form4.xml"
-        },
-        {
           "form": "13F-HR",
           "filed": "2026-08-14",
           "description": "13F-HR",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000442/xslForm13F_X02/primary_doc.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-08-12",
-          "description": "PRIMARY DOCUMENT",
-          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000439/xslF345X06/primary_doc.xml"
-        },
-        {
-          "form": "4",
-          "filed": "2026-08-06",
-          "description": "PRIMARY DOCUMENT",
-          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000411/xslF345X06/primary_doc.xml"
         },
         {
           "form": "10-Q",
@@ -5616,7 +5622,7 @@
       "cik": 1321655,
       "name": "Palantir Technologies Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "10-Q",
@@ -6026,7 +6032,7 @@
       "cik": 50863,
       "name": "INTEL CORP",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4",
@@ -6478,7 +6484,7 @@
       "cik": 1341439,
       "name": "ORACLE CORP",
       "exchange": "NYSE",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "8-K",
@@ -6888,7 +6894,7 @@
       "cik": 1108524,
       "name": "Salesforce, Inc.",
       "exchange": "NYSE",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "4",
@@ -7226,7 +7232,7 @@
       "cik": 1730168,
       "name": "Broadcom Inc.",
       "exchange": "NASDAQ",
-      "updated_at": "2026-11-03T18:54:03+00:00",
+      "updated_at": "2026-11-04T01:03:31+00:00",
       "filings": [
         {
           "form": "8-K",
