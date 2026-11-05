@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T10:25:36Z",
+  "updated_at": "2026-11-05T11:22:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,22 +818,95 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Ronaldo retires from Portugal duty",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T11:17:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
+      "date": "2026-11-05T11:03:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Japan FA head Kozo Tashima to stand against Infantino for Fifa presidency",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/japan-fa-head-kozo-tashima-stand-against-gianni-infantino-for-fifa-president",
+      "date": "2026-11-05T10:48:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Cristiano Ronaldo calls time on Portugal career after 234 caps and 146 goals",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/cristiano-ronaldo-calls-time-on-portugal-career",
+      "date": "2026-11-05T10:42:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Fifa wants to restrict women’s Olympic football to under-23s in controversial move",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
+      "date": "2026-11-05T10:26:54Z",
+      "league": "all"
+    },
+    {
       "title": "FA and WSL launch major study into ACL injuries in women's football",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6e9le7l9m75o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T10:24:06Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "‘In our veins’: Arsenal pushed by pain of Champions League final defeat, says Raya",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/arsenal-pain-champions-league-final-defeat-david-raya",
       "date": "2026-11-05T10:08:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Sports owners bet big on Republicans. What does their defeat mean for US sports?",
@@ -878,7 +951,7 @@
       "league": "all"
     },
     {
-      "title": "England captain Kane signs new Bayern contract",
+      "title": "Kane signs new Bayern contract",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmjweqpv8vj1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T08:39:18Z",
@@ -984,10 +1057,10 @@
     },
     {
       "title": "Champions League: Como clobber Lens 9-1 after Real Madrid roar back to deny AEK Athens",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli",
       "date": "2026-11-04T23:08:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Como score nine to make Champions League history",
@@ -1040,10 +1113,10 @@
     },
     {
       "title": "Erling Haaland settles thriller for Manchester City to end RB Leipzig resistance",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/04/rb-leipzig-manchester-city-champions-league-match-report",
       "date": "2026-11-04T22:04:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Liverpool crumble at Kuyt's Fenerbahce",
@@ -1075,10 +1148,10 @@
     },
     {
       "title": "Bayern continue unbeaten CL start with win at Atletico",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cxm23ry19n9po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:03:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Spence stars as Inter Milan cruise to win at Feyenoord",
@@ -1089,51 +1162,16 @@
     },
     {
       "title": "Emery in line for new Villa deal - Thursday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwkgjv582vj0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T21:41:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "GB sprint star Hunt visits England training camp",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5x2vzplg43go?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T19:59:18Z",
-      "league": "all"
-    },
-    {
-      "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses",
-      "date": "2026-11-04T19:58:13Z",
-      "league": "all"
-    },
-    {
-      "title": "Billions in revenue proves Fifa right on the World Cup – but only on things it cares about",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/fifa-world-cup-billions-revenue",
-      "date": "2026-11-04T19:02:48Z",
-      "league": "all"
-    },
-    {
-      "title": "An island in mourning: Tenerife processes death of De Miguel",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T18:51:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Billy ‘The Kid’ Loughnane can be new ‘face of racing’ and next Dettori after Godolphin deal",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/billy-the-kid-loughnane-new-face-horse-racing-next-frankie-dettori-after-godolphin-deal",
-      "date": "2026-11-04T17:22:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Zverev annoyed by reaction to becoming world number one",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckpdg01pq55eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T17:08:45Z",
       "league": "all"
     }
   ]
