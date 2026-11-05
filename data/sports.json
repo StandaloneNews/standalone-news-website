@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T22:31:53Z",
+  "updated_at": "2026-11-05T23:29:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,47 +818,56 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Sunderland 0-2 Dinamo Zagreb, Celtic 3-2 Besiktas: Europa League – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
-      "date": "2026-11-05T22:11:47Z",
+      "title": "Deschamps not interested in Man Utd job - Friday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T22:49:23Z",
       "league": "all"
+    },
+    {
+      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
+      "date": "2026-11-05T22:46:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Scott Parker’s dramatic West Ham return leaves him struggling for words",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/scott-parkers-dramatic-west-ham-return-leaves-him-struggling-for-words",
+      "date": "2026-11-05T22:30:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Forest need balance between Woodstock and military - Glasner",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwg5jj6nvmnyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T22:30:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Keep or sell Konsa? - FPL gameweek 10 dilemmas",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g112qp051o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T22:26:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Euro Leagues",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pljnrs?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T22:18:00Z",
+      "league": "soccer"
     },
     {
       "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
       "date": "2026-11-05T22:03:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Friday's gossip: Man Utd contact Deschamps",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T21:41:38Z",
       "league": "all"
     },
     {
@@ -873,13 +882,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
       "date": "2026-11-05T21:08:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Europa League: Bournemouth stay perfect while Milan humbled at home",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
-      "date": "2026-11-05T20:51:45Z",
       "league": "all"
     },
     {
@@ -898,10 +900,10 @@
     },
     {
       "title": "Kamada’s late leveller rescues point for 10-man Crystal Palace and denies Hoffenheim",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/kamadas-late-leveller-rescues-point-for-10-man-crystal-palace-and-denies-hoffenheim",
       "date": "2026-11-05T19:56:39Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Russell to have 'deep, deep look in mirror'",
@@ -918,7 +920,7 @@
       "league": "all"
     },
     {
-      "title": "DP World Tour ready to extend olive branch to rebels including DeChambeau after LIV Golf collapse",
+      "title": "DP World Tour ready to embrace rebels including DeChambeau after LIV Golf collapses",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
       "date": "2026-11-05T19:24:23Z",
@@ -1009,6 +1011,13 @@
       "league": "all"
     },
     {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T16:31:00Z",
+      "league": "soccer"
+    },
+    {
       "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
@@ -1030,18 +1039,11 @@
       "league": "all"
     },
     {
-      "title": "Football Daily | Como turn on the style and hammer nine past out-of-focus Lens",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/football-daily-email-como-lens",
-      "date": "2026-11-05T15:55:25Z",
-      "league": "all"
-    },
-    {
       "title": "Emery close to agreeing new Aston Villa contract",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw99zde82nmno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T15:45:22Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Everton's Grealish unavailable again after 'breach of discipline'",
@@ -1055,13 +1057,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
       "date": "2026-11-05T15:22:46Z",
-      "league": "all"
-    },
-    {
-      "title": "England forward Trout served ban for cannabis",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq4g15n486xlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T15:19:56Z",
       "league": "all"
     },
     {
@@ -1139,20 +1134,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/the-international-break-is-almost-here-so-wave-goodbye-to-your-players-and-maybe-your-manager",
       "date": "2026-11-05T13:00:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Japan's Tashima to stand against Infantino for Fifa presidency",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T12:55:13Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘He’s basically Wilt’: Wembanyama downs Mavericks with 52-point, 24-rebound classic",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/hes-basically-wilt-wembanyama-downs-mavericks-with-52-point-24-rebound-classic",
-      "date": "2026-11-05T12:31:25Z",
       "league": "all"
     }
   ]
