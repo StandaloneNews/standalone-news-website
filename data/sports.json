@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T16:50:22Z",
+  "updated_at": "2026-11-05T17:43:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -48,7 +48,7 @@
     {
       "id": "laliga",
       "name": "Spanish La Liga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "bundesliga",
@@ -63,27 +63,27 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -687,6 +687,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601785",
+      "league": "nba",
+      "name": "Los Angeles Clippers vs Miami Heat",
+      "date": "2026-11-05T03:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Los Angeles Clippers",
+          "score": "116"
+        },
+        {
+          "name": "Miami Heat",
+          "score": "117",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601786",
       "league": "nba",
       "name": "Phoenix Suns vs Orlando Magic",
@@ -763,6 +783,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2506274",
+      "league": "laliga",
+      "name": "Deportivo de A Coruña vs Osasuna",
+      "date": "2026-11-02T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Deportivo de A Coruña",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Osasuna",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2506283",
       "league": "laliga",
       "name": "Sevilla vs Deportivo Alavés",
@@ -820,20 +860,98 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398176",
-      "league": "argentina",
-      "name": "Aldosivi vs River Plate",
-      "date": "2026-11-05T18:00:00Z",
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Aldosivi",
+          "name": "Toulouse",
           "score": ""
         },
         {
-          "name": "River Plate",
+          "name": "Strasbourg",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594666",
+      "league": "ucl",
+      "name": "Viking vs Sabah Baku",
+      "date": "2026-11-04T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Viking",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Sabah Baku",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398529",
+      "league": "brasileirao",
+      "name": "São Paulo vs Corinthians",
+      "date": "2026-11-05T00:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "São Paulo",
+          "score": "0"
+        },
+        {
+          "name": "Corinthians",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398528",
+      "league": "brasileirao",
+      "name": "Palmeiras vs Remo",
+      "date": "2026-11-05T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Palmeiras",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487586",
+      "league": "ligamx",
+      "name": "Cruz Azul vs León",
+      "date": "2026-11-02T01:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "León",
+          "score": "1"
         }
       ],
       "url": ""
@@ -856,14 +974,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2514022",
+      "league": "primeira",
+      "name": "Gil Vicente vs Vitória de Guimarães",
+      "date": "2026-11-02T20:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Gil Vicente",
+          "score": "0"
+        },
+        {
+          "name": "Vitória de Guimarães",
+          "score": "0"
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Concacaf revamps Gold Cup format to make tournament ‘more competitive’",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/05/concacaf-gold-cup-format-changes",
+      "date": "2026-11-05T17:34:37Z",
+      "league": "soccer"
+    },
+    {
       "title": "Crystal Palace v Hoffenheim, Sparta Prague v Bournemouth: Europa League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
-      "date": "2026-11-05T16:34:25Z",
+      "date": "2026-11-05T17:31:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Talk of Irish rugby's decline 'nonsense' - Sheehan",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6p3gk32pwvwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T17:28:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Good to feel club are committed to me - Jaissle",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T17:25:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Nanobubbles, hungry foxes and hidden reservoir - Twickenham's hi-tech turf",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crn4e54108w9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T17:25:14Z",
       "league": "all"
     },
     {
@@ -872,6 +1037,13 @@
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5yne1q32qxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T16:33:14Z",
       "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T16:31:00Z",
+      "league": "soccer"
     },
     {
       "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
@@ -1014,13 +1186,6 @@
       "league": "all"
     },
     {
-      "title": "Coleman in 'hybrid role' with Republic of Ireland",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn9rwn7eyv4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T13:03:43Z",
-      "league": "soccer"
-    },
-    {
       "title": "The international break is almost here: so wave goodbye to your players, and maybe your manager | Max Rushden",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/the-international-break-is-almost-here-so-wave-goodbye-to-your-players-and-maybe-your-manager",
@@ -1144,34 +1309,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/sydney-swans-engage-external-advisers-to-review-embattled-afl-clubs-culture-ntwnfb",
       "date": "2026-11-05T08:08:40Z",
-      "league": "all"
-    },
-    {
-      "title": "LIV to wind down after backers withdraw support",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T07:45:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Sherrock’s synthetic success over Littler and why Netflix’s darts special felt so dissatisfying | Jonathan Liew",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/darts-fallon-sherrock-synthetic-success-luke-littler-netflix",
-      "date": "2026-11-05T07:30:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Money-making Nations Championship project carries a cost for fans and players",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/rugby-union-nations-championship-finals-commercial",
-      "date": "2026-11-05T07:30:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Uefa faces political flashpoint over Sevastopol’s ascent in Russian football",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/uefa-fifa-ukraine-crimea-sevastopol-promotion-russia-war",
-      "date": "2026-11-05T07:30:56Z",
       "league": "all"
     }
   ]
