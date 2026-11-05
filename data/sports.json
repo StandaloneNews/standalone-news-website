@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T01:55:13Z",
+  "updated_at": "2026-11-05T02:43:25Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -687,19 +687,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601781",
+      "id": "sportsdb-2601784",
       "league": "nba",
-      "name": "Denver Nuggets vs Toronto Raptors",
-      "date": "2026-11-05T02:00:00Z",
+      "name": "Sacramento Kings vs Los Angeles Lakers",
+      "date": "2026-11-05T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Denver Nuggets",
+          "name": "Sacramento Kings",
           "score": ""
         },
         {
-          "name": "Toronto Raptors",
+          "name": "Los Angeles Lakers",
           "score": ""
         }
       ],
@@ -821,6 +821,20 @@
     }
   ],
   "stories": [
+    {
+      "title": "Australian F1 world champion Alan Jones dies aged 80",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
+      "date": "2026-11-05T02:30:34Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Playing out of his mind’: Novak Djokovic hails Rinky Hijikata after Australian’s stunning win in Paris",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/novak-djokovic-rinky-hijikata-paris-masters-upset-win",
+      "date": "2026-11-05T01:55:41Z",
+      "league": "all"
+    },
     {
       "title": "LIV Golf’s attempted relaunch collapses after new lead investor withdraws, reports say",
       "source": "The Guardian Sport",
@@ -1011,13 +1025,6 @@
       "league": "all"
     },
     {
-      "title": "Deontay Wilder to face unbeaten Opetaia on Fury v Joshua undercard in Cardiff",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/deontay-wilder-jai-opetaia-fury-joshua-undercard-cardiff-boxing",
-      "date": "2026-11-04T18:53:42Z",
-      "league": "all"
-    },
-    {
       "title": "An island in mourning: Tenerife processes death of De Miguel",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckx2qz97gz3no?at_medium=RSS&at_campaign=rss",
@@ -1128,13 +1135,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/05/kurtley-beale-wallabies-australia-rugby-squad-unfinished-business",
       "date": "2026-11-04T14:00:37Z",
       "league": "all"
-    },
-    {
-      "title": "Can miraculous Manchester United comeback save Michael Carrick? | Football Weekly video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/nov/04/can-miraculous-manchester-united-comeback-save-michael-carrick-football-weekly-video",
-      "date": "2026-11-04T13:30:58Z",
-      "league": "soccer"
     }
   ]
 }
