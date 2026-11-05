@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T02:43:25Z",
+  "updated_at": "2026-11-05T03:38:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -687,38 +687,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601784",
+      "id": "sportsdb-2601786",
       "league": "nba",
-      "name": "Sacramento Kings vs Los Angeles Lakers",
-      "date": "2026-11-05T03:00:00Z",
+      "name": "Phoenix Suns vs Orlando Magic",
+      "date": "2026-11-06T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sacramento Kings",
+          "name": "Phoenix Suns",
           "score": ""
         },
         {
-          "name": "Los Angeles Lakers",
+          "name": "Orlando Magic",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591733",
+      "id": "sportsdb-2591735",
       "league": "nhl",
-      "name": "Los Angeles Kings vs San Jose Sharks",
-      "date": "2026-11-05T03:00:00Z",
+      "name": "New York Rangers vs Philadelphia Flyers",
+      "date": "2026-11-06T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Kings",
+          "name": "New York Rangers",
           "score": ""
         },
         {
-          "name": "San Jose Sharks",
+          "name": "Philadelphia Flyers",
           "score": ""
         }
       ],
@@ -814,6 +814,44 @@
         },
         {
           "name": "Udinese",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
           "score": ""
         }
       ],
