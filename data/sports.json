@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T15:41:53Z",
+  "updated_at": "2026-11-05T16:50:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -820,19 +820,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
+      "id": "sportsdb-2398176",
+      "league": "argentina",
+      "name": "Aldosivi vs River Plate",
+      "date": "2026-11-05T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Toulouse",
+          "name": "Aldosivi",
           "score": ""
         },
         {
-          "name": "Strasbourg",
+          "name": "River Plate",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
           "score": ""
         }
       ],
@@ -840,6 +859,55 @@
     }
   ],
   "stories": [
+    {
+      "title": "Crystal Palace v Hoffenheim, Sparta Prague v Bournemouth: Europa League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
+      "date": "2026-11-05T16:34:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Hutchinson's mission to fulfil childhood prophecy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5yne1q32qxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T16:33:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
+      "date": "2026-11-05T16:30:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "WTA takes 'full responsibility' after Pegula calling Andreeva 'diva' aired",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm1dwll642ngo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T16:29:20Z",
+      "league": "all"
+    },
+    {
+      "title": "'A void that is impossible to fill' - tributes paid at De Miguel's funeral",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr62y4yj39veo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T16:12:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | Como turn on the style and hammer nine past out-of-focus Lens",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/football-daily-email-como-lens",
+      "date": "2026-11-05T15:55:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Emery close to agreeing new Aston Villa contract",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw99zde82nmno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T15:45:22Z",
+      "league": "all"
+    },
     {
       "title": "Everton's Grealish unavailable again after 'breach of discipline'",
       "source": "BBC Sport",
@@ -862,13 +930,6 @@
       "league": "all"
     },
     {
-      "title": "Scotland's Russell and Tuipulotu return to face All Blacks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm89zjzp3qq4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T15:14:20Z",
-      "league": "all"
-    },
-    {
       "title": "Champions League review: comebacks, thrashings and a Mauritanian first",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/champions-league-roundup-koita-real-madrid-bayern-psg",
@@ -880,13 +941,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T14:44:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Family thankful for support as De Miguel funeral held",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr62y4yj39veo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T14:36:32Z",
       "league": "all"
     },
     {
@@ -911,24 +965,10 @@
       "league": "all"
     },
     {
-      "title": "Pegula calls Andreeva 'a diva' after practice session",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm1dwll642ngo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T14:12:53Z",
-      "league": "all"
-    },
-    {
       "title": "Wallabies’ pay dispute with Rugby Australia overshadows Nations Championship finale",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/blog/2026/nov/06/wallabies-pay-dispute-with-rugby-australia-overshadows-nations-championship-finale",
       "date": "2026-11-05T14:00:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Fenerbahce thwart Liverpool and Arsenal pushed in Prague: Football Weekly – podcast",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/audio/2026/nov/05/fenerbahce-thwart-liverpool-and-arsenal-pushed-in-prague-football-weekly",
-      "date": "2026-11-05T13:40:36Z",
       "league": "all"
     },
     {
@@ -1093,24 +1133,10 @@
       "league": "all"
     },
     {
-      "title": "Wales opt for centre power pair against Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9146d7g0reyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T09:02:56Z",
-      "league": "all"
-    },
-    {
       "title": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/ballon-dor-winner-harry-kane-signs-new-contract-with-bayern-munich-2029",
       "date": "2026-11-05T08:43:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T08:24:46Z",
       "league": "soccer"
     },
     {
@@ -1146,13 +1172,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/uefa-fifa-ukraine-crimea-sevastopol-promotion-russia-war",
       "date": "2026-11-05T07:30:56Z",
-      "league": "all"
-    },
-    {
-      "title": "World record 53 red cards shown in Brazilian youth game",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy0rz7741ywo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T07:23:08Z",
       "league": "all"
     }
   ]
