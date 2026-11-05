@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T11:22:48Z",
+  "updated_at": "2026-11-05T12:15:04Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,53 +818,50 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "How to follow the Premier League on the BBC this weekend",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp30ggvqj0do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T12:14:33Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'What a ride' - Meet the UFC's longest-serving Brit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw62ymmq3l41o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T12:11:35Z",
+      "league": "ufc"
+    },
+    {
       "title": "Ronaldo retires from Portugal duty",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cme8rxx2e1w9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T11:17:03Z",
+      "date": "2026-11-05T11:56:02Z",
       "league": "all"
+    },
+    {
+      "title": "Bromley appoint ex-MK Dons & Salford boss Robinson",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvze4k43gl6go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T11:38:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Ronaldo's most iconic moments as he retires from international football",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cew197l8l17o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T11:22:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Owono left out of Eq Guinea squad after death of De Miguel",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8dmm49dnmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T11:18:39Z",
+      "league": "soccer"
     },
     {
       "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
@@ -874,7 +871,7 @@
       "league": "all"
     },
     {
-      "title": "Japan FA head Kozo Tashima to stand against Infantino for Fifa presidency",
+      "title": "Japan FA’s Kozo Tashima to stand against Infantino for Fifa presidency",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/japan-fa-head-kozo-tashima-stand-against-gianni-infantino-for-fifa-president",
       "date": "2026-11-05T10:48:42Z",
@@ -1070,20 +1067,6 @@
       "league": "all"
     },
     {
-      "title": "No end in sight for Russell as he eyes famous All Blacks win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmj47p14w5npo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T22:40:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Dortmund take narrow win over Real Betis",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c699zjkd7yrvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T22:31:57Z",
-      "league": "soccer"
-    },
-    {
       "title": "Championship roundup: West Ham stage dramatic comeback on Scott Parker’s opening night",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/04/championship-roundup-cardiff-west-ham-scott-parker-wrexham-middlesbrough-bristol-city-wolves",
@@ -1141,10 +1124,10 @@
     },
     {
       "title": "Raphinha scores twice as Barcelona beat Aston Villa",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmlylzndw52ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:04:02Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bayern continue unbeaten CL start with win at Atletico",
@@ -1152,27 +1135,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cxm23ry19n9po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:03:54Z",
       "league": "soccer"
-    },
-    {
-      "title": "Spence stars as Inter Milan cruise to win at Feyenoord",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck4g1ev58yw7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T22:03:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Emery in line for new Villa deal - Thursday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwkgjv582vj0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T21:41:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "GB sprint star Hunt visits England training camp",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5x2vzplg43go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T19:59:18Z",
-      "league": "all"
     }
   ]
 }
