@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T20:31:01Z",
+  "updated_at": "2026-11-05T21:28:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
@@ -63,32 +63,32 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 2
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 2
     },
     {
       "id": "aleague",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -706,6 +706,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2591734",
+      "league": "nhl",
+      "name": "Seattle Kraken vs Calgary Flames",
+      "date": "2026-11-05T03:00:00Z",
+      "state": "final",
+      "status": "AOT",
+      "participants": [
+        {
+          "name": "Seattle Kraken",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Calgary Flames",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2591735",
       "league": "nhl",
       "name": "New York Rangers vs Philadelphia Flyers",
@@ -782,6 +802,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508400",
+      "league": "bundesliga",
+      "name": "Eintracht Frankfurt vs Hamburg",
+      "date": "2026-11-01T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Eintracht Frankfurt",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Hamburg",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -818,14 +858,214 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398528",
+      "league": "brasileirao",
+      "name": "Palmeiras vs Remo",
+      "date": "2026-11-05T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Palmeiras",
+          "score": ""
+        },
+        {
+          "name": "Remo",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398179",
+      "league": "argentina",
+      "name": "Barracas Central vs Racing Club",
+      "date": "2026-11-06T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Barracas Central",
+          "score": ""
+        },
+        {
+          "name": "Racing Club",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487586",
+      "league": "ligamx",
+      "name": "Cruz Azul vs León",
+      "date": "2026-11-02T01:10:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Cruz Azul",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "León",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487587",
+      "league": "ligamx",
+      "name": "Necaxa vs Tijuana",
+      "date": "2026-11-07T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492904",
+      "league": "j1",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "0"
+        },
+        {
+          "name": "Gamba Osaka",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407202",
+      "league": "mls",
+      "name": "Inter Miami vs Charlotte FC",
+      "date": "2026-11-07T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Sunderland v Dinamo Zagreb, Celtic v Besiktas: Europa League – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
-      "date": "2026-11-05T20:19:49Z",
+      "date": "2026-11-05T21:23:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Antonelli says 2027 preparation starts now",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T21:19:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Fifa wants talks over restricting women’s Olympic football to under-23s",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
+      "date": "2026-11-05T21:08:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Europa League: Bournemouth stay perfect while Milan humbled at home",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
+      "date": "2026-11-05T20:51:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Lewis Hamilton refuses to back down over criticism of teammate Leclerc",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/lewis-hamilton-refuses-to-back-down-over-criticism-of-teammate-leclerc",
+      "date": "2026-11-05T20:38:12Z",
       "league": "all"
     },
     {
@@ -1005,10 +1245,10 @@
     },
     {
       "title": "Champions League review: comebacks, thrashings and a Mauritanian first",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/champions-league-roundup-koita-real-madrid-bayern-psg",
       "date": "2026-11-05T15:00:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "What new Kane deal means for England and the Premier League record",
@@ -1107,34 +1347,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw62ymmq3l41o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T12:11:35Z",
       "league": "ufc"
-    },
-    {
-      "title": "Sheffield-born Jorgensen out to inflict more pain on England",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmze4zzz2wl8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T12:04:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Meet Clara Serrajordi: Barcelona’s midfield hope filling the void left by Alexia Putellas | Moving the Goalposts",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/clara-serrajordi-barcelona-midfielder-alexia-putellas-moving-the-goalposts",
-      "date": "2026-11-05T11:52:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Ronaldo's most iconic moments as he retires from international football",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cew197l8l17o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T11:22:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
-      "date": "2026-11-05T11:03:25Z",
-      "league": "soccer"
     }
   ]
 }
