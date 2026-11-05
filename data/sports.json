@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T23:28:19Z",
+  "updated_at": "2026-11-05T00:30:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -687,57 +687,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601772",
+      "id": "sportsdb-2601777",
       "league": "nba",
-      "name": "Detroit Pistons vs Philadelphia 76ers",
-      "date": "2026-11-05T00:00:00Z",
+      "name": "Oklahoma City Thunder vs Cleveland Cavaliers",
+      "date": "2026-11-05T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Detroit Pistons",
+          "name": "Oklahoma City Thunder",
           "score": ""
         },
         {
-          "name": "Philadelphia 76ers",
+          "name": "Cleveland Cavaliers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591731",
+      "id": "sportsdb-2591733",
       "league": "nhl",
-      "name": "Buffalo Sabres vs Ottawa Senators",
-      "date": "2026-11-05T00:30:00Z",
+      "name": "Los Angeles Kings vs San Jose Sharks",
+      "date": "2026-11-05T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Sabres",
+          "name": "Los Angeles Kings",
           "score": ""
         },
         {
-          "name": "Ottawa Senators",
+          "name": "San Jose Sharks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499182",
+      "id": "sportsdb-2499185",
       "league": "ncaaf",
-      "name": "UMass vs Ball State",
-      "date": "2026-11-05T00:00:00Z",
+      "name": "Florida Atlantic vs UTSA",
+      "date": "2026-11-06T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "UMass",
+          "name": "Florida Atlantic",
           "score": ""
         },
         {
-          "name": "Ball State",
+          "name": "UTSA",
           "score": ""
         }
       ],
@@ -818,9 +818,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "LIV Golf’s attempted relaunch collapses after new lead investor withdraws, reports say",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/04/rory-mcilroy-liv-golf-destroy-dp-world-tour",
+      "date": "2026-11-04T23:29:01Z",
+      "league": "all"
+    },
     {
       "title": "Why Iraola's Liverpool are still a work in progress",
       "source": "BBC Sport",
@@ -949,24 +994,24 @@
     },
     {
       "title": "Raphinha scores twice as Barcelona beat Aston Villa",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmlylzndw52ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:04:02Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Bayern continue unbeaten CL start with win at Atletico",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cxm23ry19n9po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:03:54Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Spence stars as Inter Milan cruise to win at Feyenoord",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck4g1ev58yw7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:03:51Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Emery in line for new Villa deal - Thursday's gossip",
@@ -1032,24 +1077,10 @@
       "league": "all"
     },
     {
-      "title": "Team USA stake could be sold to private investors",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/c689zj04qypko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T18:14:17Z",
-      "league": "all"
-    },
-    {
       "title": "How landmark Everton compensation prevented Burnley record loss",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c893zeq4eln1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T17:48:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Rory McIlroy backs claim that LIV tried to ‘destroy’ DP World Tour",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/rory-mcilroy-liv-golf-destroy-dp-world-tour",
-      "date": "2026-11-04T17:23:54Z",
       "league": "all"
     },
     {
@@ -1103,10 +1134,10 @@
     },
     {
       "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T16:12:46Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
@@ -1135,6 +1166,13 @@
       "url": "https://www.theguardian.com/sport/2026/nov/05/kurtley-beale-wallabies-australia-rugby-squad-unfinished-business",
       "date": "2026-11-04T14:00:37Z",
       "league": "all"
+    },
+    {
+      "title": "Can miraculous Manchester United comeback save Michael Carrick? | Football Weekly video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/nov/04/can-miraculous-manchester-united-comeback-save-michael-carrick-football-weekly-video",
+      "date": "2026-11-04T13:30:58Z",
+      "league": "soccer"
     }
   ]
 }
