@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T14:42:30Z",
+  "updated_at": "2026-11-05T15:41:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,9 +818,77 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Everton's Grealish unavailable again after 'breach of discipline'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm79p020d9yvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T15:28:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Australian F1 world champion Alan Jones dies aged 80",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
+      "date": "2026-11-05T15:22:46Z",
+      "league": "all"
+    },
+    {
+      "title": "England forward Trout served ban for cannabis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cq4g15n486xlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T15:19:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Scotland's Russell and Tuipulotu return to face All Blacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm89zjzp3qq4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T15:14:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Champions League review: comebacks, thrashings and a Mauritanian first",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/champions-league-roundup-koita-real-madrid-bayern-psg",
+      "date": "2026-11-05T15:00:26Z",
+      "league": "all"
+    },
+    {
+      "title": "What new Kane deal means for England and the Premier League record",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93zvzzl33zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T14:44:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Family thankful for support as De Miguel funeral held",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr62y4yj39veo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T14:36:32Z",
+      "league": "all"
+    },
     {
       "title": "Fenerbahce thwart Liverpool and Arsenal pushed in Prague | Football Weekly Extra – video",
       "source": "The Guardian Football",
@@ -836,6 +904,13 @@
       "league": "all"
     },
     {
+      "title": "McIlroy handed two-shot penalty for improving lie",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c6n49k9vyx81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T14:28:16Z",
+      "league": "all"
+    },
+    {
       "title": "Pegula calls Andreeva 'a diva' after practice session",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cm1dwll642ngo?at_medium=RSS&at_campaign=rss",
@@ -843,10 +918,10 @@
       "league": "all"
     },
     {
-      "title": "Scotland's Russell and Tuipulotu return to face All Blacks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm89zjzp3qq4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T13:43:37Z",
+      "title": "Wallabies’ pay dispute with Rugby Australia overshadows Nations Championship finale",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/blog/2026/nov/06/wallabies-pay-dispute-with-rugby-australia-overshadows-nations-championship-finale",
+      "date": "2026-11-05T14:00:26Z",
       "league": "all"
     },
     {
@@ -914,10 +989,10 @@
     },
     {
       "title": "Japan's Tashima to stand against Infantino for Fifa presidency",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwvgdyd80g9do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T12:55:13Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "English female coach Kaminski reaping rewards in Norway",
@@ -942,7 +1017,7 @@
     },
     {
       "title": "'What a ride' - Meet the UFC's longest-serving Brit",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw62ymmq3l41o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T12:11:35Z",
       "league": "ufc"
@@ -969,18 +1044,11 @@
       "league": "all"
     },
     {
-      "title": "Owono left out of Eq Guinea squad after death of De Miguel",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8dmm49dnmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T11:18:39Z",
-      "league": "soccer"
-    },
-    {
       "title": "Referee hands out record 53 red cards after chaos at under-20s game in Brazil",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
       "date": "2026-11-05T11:03:25Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Japan FA’s Kozo Tashima to stand against Infantino for Fifa presidency",
@@ -1025,13 +1093,6 @@
       "league": "all"
     },
     {
-      "title": "Weekly sports quiz: Who scored twice for Man Utd against Roma?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/ckjwe57n45lxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T09:35:34Z",
-      "league": "all"
-    },
-    {
       "title": "Wales opt for centre power pair against Japan",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9146d7g0reyo?at_medium=RSS&at_campaign=rss",
@@ -1043,13 +1104,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/ballon-dor-winner-harry-kane-signs-new-contract-with-bayern-munich-2029",
       "date": "2026-11-05T08:43:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Kane signs new Bayern contract",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmjweqpv8vj1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T08:39:18Z",
       "league": "all"
     },
     {
@@ -1099,41 +1153,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy0rz7741ywo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T07:23:08Z",
-      "league": "all"
-    },
-    {
-      "title": "A must pick or unreliable? Tuchel's Palmer dilemma",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c65yne3912jeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T07:17:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Meet the people set for key role in deciding Man City fate",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw62ym8r113vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T06:26:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Australian F1 world champion Alan Jones dies aged 80",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80",
-      "date": "2026-11-05T02:30:34Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Playing out of his mind’: Novak Djokovic hails Rinky Hijikata after Australian’s stunning win in Paris",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/novak-djokovic-rinky-hijikata-paris-masters-upset-win",
-      "date": "2026-11-05T01:55:41Z",
-      "league": "all"
-    },
-    {
-      "title": "LIV Golf’s attempted relaunch collapses after new lead investor withdraws, reports say",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/rory-mcilroy-liv-golf-destroy-dp-world-tour",
-      "date": "2026-11-04T23:29:01Z",
       "league": "all"
     }
   ]
