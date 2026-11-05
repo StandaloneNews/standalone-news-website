@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T19:38:55Z",
+  "updated_at": "2026-11-05T20:31:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -23,7 +23,7 @@
     {
       "id": "mlb",
       "name": "MLB",
-      "events": 1
+      "events": 0
     },
     {
       "id": "nhl",
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -706,26 +706,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2624258",
-      "league": "mlb",
-      "name": "Tampa Bay Rays vs Milwaukee Brewers",
-      "date": "2026-10-29T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Tampa Bay Rays",
-          "score": "1"
-        },
-        {
-          "name": "Milwaukee Brewers",
-          "score": "4",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2591735",
       "league": "nhl",
       "name": "New York Rangers vs Philadelphia Flyers",
@@ -838,40 +818,56 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Crystal Palace v Hoffenheim, Sparta Prague v Bournemouth: Europa League – live",
-      "source": "The Guardian Football",
+      "title": "Sunderland v Dinamo Zagreb, Celtic v Besiktas: Europa League – live",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/05/crystal-palace-hoffenheim-sparta-prague-bournemouth-sunderland-celtic-europa-league-live",
-      "date": "2026-11-05T19:29:31Z",
-      "league": "soccer"
+      "date": "2026-11-05T20:19:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Jimmy Anderson in talks with Surrey to continue county career after Lancashire exit",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/jimmy-anderson-in-talks-with-surrey-to-continue-county-career-after-lancashire-exit",
+      "date": "2026-11-05T20:06:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Kamada’s late leveller rescues point for 10-man Crystal Palace and denies Hoffenheim",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/kamadas-late-leveller-rescues-point-for-10-man-crystal-palace-and-denies-hoffenheim",
+      "date": "2026-11-05T19:56:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Russell to have 'deep, deep look in mirror'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr3wvvpxnx1wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T19:55:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Golden State Valkyries celebrate historic WNBA championship with Bay Area parade – in pictures",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/gallery/2026/nov/05/golden-state-valkyries-wnba-championship-parade-san-francisco-oakland-pictures",
+      "date": "2026-11-05T19:36:57Z",
+      "league": "all"
     },
     {
       "title": "DP World Tour ready to extend olive branch to rebels including DeChambeau after LIV Golf collapse",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
       "date": "2026-11-05T19:24:23Z",
+      "league": "all"
+    },
+    {
+      "title": "‘It doesn’t look good’: McIlroy gets two-shot penalty after ruling he improved his lie",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/it-doesnt-look-good-rory-mcilroy-gets-two-shot-penalty-after-ruling-he-improved-his-lie",
+      "date": "2026-11-05T19:22:57Z",
       "league": "all"
     },
     {
@@ -952,13 +948,6 @@
       "league": "all"
     },
     {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/m003434x?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T16:31:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
@@ -1016,10 +1005,10 @@
     },
     {
       "title": "Champions League review: comebacks, thrashings and a Mauritanian first",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/champions-league-roundup-koita-real-madrid-bayern-psg",
       "date": "2026-11-05T15:00:26Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "What new Kane deal means for England and the Premier League record",
@@ -1075,13 +1064,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cwr5y0yj716do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T13:15:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Tom Curry a major injury doubt for England with twin Ben poised to step up against Australia",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/tom-curry-injury-doubt-england-australia-rugby-union",
-      "date": "2026-11-05T13:12:23Z",
       "league": "all"
     },
     {
@@ -1152,27 +1134,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/record-53-red-cards-brazil-referee",
       "date": "2026-11-05T11:03:25Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Japan FA’s Kozo Tashima to stand against Infantino for Fifa presidency",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/japan-fa-head-kozo-tashima-stand-against-gianni-infantino-for-fifa-president",
-      "date": "2026-11-05T10:48:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Fifa wants to restrict women’s Olympic football to under-23s in controversial move",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
-      "date": "2026-11-05T10:26:54Z",
-      "league": "all"
-    },
-    {
-      "title": "FA and WSL launch major study into ACL injuries in women's football",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6e9le7l9m75o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T10:24:06Z",
       "league": "soccer"
     }
   ]
