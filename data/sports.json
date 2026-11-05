@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T08:02:44Z",
+  "updated_at": "2026-11-05T09:22:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -818,47 +818,51 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Wales opt for centre power pair against Japan",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9146d7g0reyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T09:02:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/05/ballon-dor-winner-harry-kane-signs-new-contract-with-bayern-munich-2029",
+      "date": "2026-11-05T08:43:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Career-best Wembanyama display seals Spurs win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/cw4g1m6rlvxpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T08:39:57Z",
+      "league": "all"
+    },
+    {
+      "title": "England captain Kane signs new Bayern contract",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmjweqpv8vj1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T08:39:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T08:24:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Former F1 champion Jones dies aged 80",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmd9345vdy8do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T07:57:44Z",
+      "league": "all"
+    },
     {
       "title": "LIV to wind down after backers withdraw support",
       "source": "BBC Sport",
@@ -903,17 +907,17 @@
     },
     {
       "title": "A must pick or unreliable? Tuchel's Palmer dilemma",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c65yne3912jeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T07:17:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y4xznww9xpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T06:30:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Meet the people set for key role in deciding Man City fate",
@@ -976,13 +980,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmj47p14w5npo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-04T22:40:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T22:38:24Z",
       "league": "all"
     },
     {
@@ -1084,13 +1081,6 @@
       "league": "all"
     },
     {
-      "title": "Ravens near trade with Cardinals for Jacoby Brissett amid QB injury crisis",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/baltimore-ravens-arizona-cardinals-trade-jacoby-brissett",
-      "date": "2026-11-04T20:50:44Z",
-      "league": "all"
-    },
-    {
       "title": "GB sprint star Hunt visits England training camp",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5x2vzplg43go?at_medium=RSS&at_campaign=rss",
@@ -1145,34 +1135,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/04/rugby-union-six-nations-sanzaar-lions-broadcast-commercial-rights",
       "date": "2026-11-04T17:00:39Z",
       "league": "all"
-    },
-    {
-      "title": "Borthwick given RFU backing for World Cup even if England flop in Nations Championship",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/04/steve-borthwick-rugby-world-cup-rfu-backing-england",
-      "date": "2026-11-04T17:00:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Goalkeeper Jesús Owono experiencing ‘hardest days of my life’ after De Miguel’s death",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/04/goalkeeper-jesus-owono-jesus-de-miguel-death-tenerife-deeply-affected-andorra",
-      "date": "2026-11-04T16:23:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Why Man Utd's Roma comeback has echoes of Mourinho and Solskjaer",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqx28zjxdxxzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-04T16:12:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Christian Pulisic, Folarin Balogun return to USMNT roster for Nations League",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/04/usmnt-roster-nations-league-christian-pulisic",
-      "date": "2026-11-04T15:10:43Z",
-      "league": "soccer"
     }
   ]
 }
