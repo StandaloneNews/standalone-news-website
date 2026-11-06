@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:00:00+00:00",
+  "updated_at": "2026-11-06T04:04:16+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -32,16 +32,16 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
-      "id": "02c3d79f4cdeb11aae5fefc4",
-      "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
-      "summary": "The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.",
-      "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
+      "id": "523a1b7f29b26a367a88e962",
+      "title": "Paraguay’s president impeached amid bank collapse crisis",
+      "summary": "Lawmakers have voted to impeach Paraguay’s President Santiago Pena amid a banking collapse that has roiled the country.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/paraguays-president-impeached-amid-bank-collapse-crisis?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T02:58:02+00:00",
-      "desk_priority": 37,
+      "published_at": "2026-11-06T03:49:33+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -53,7 +53,7 @@
       "feed_id": "guardian_us",
       "category": "US News",
       "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T02:57:55+00:00",
+      "published_at": "2026-11-06T03:48:55+00:00",
       "desk_priority": 24,
       "selection_type": "automatic",
       "image": {
@@ -66,6 +66,68 @@
         "label": "Illustrative photo",
         "matched_query": "United States Capitol building"
       }
+    },
+    {
+      "id": "89b5f6f07cd9652cf3d4b2ce",
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T03:33:25+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "8eb4edf88c7a96e06adf15dc",
+      "title": "Bondi beach shooting: Woman, 90, shot during massacre dies in hospital year after antisemitic attack",
+      "summary": "Woman was shot on 14 December 2025 during Hanukkah festival and she has been in and out of hospital since Get our breaking news email , free app or daily news podcast A woman who was shot during the Bondi beach terror attack has died in hospital almost 12 months after the massacre. The 90-year-old woman had been in and out of hospital this year for treatment of injuries sustained during the attack on 14 December, a senior Jewish community source said on Friday. Continue reading...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
+      "source": "The Guardian",
+      "feed_id": "guardian_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T03:31:38+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "0c2539d4efca98cebc930a6f",
+      "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+      "summary": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+      "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T03:20:43+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tesla_Factory%2C_Fremont_%28CA%2C_USA%29_%288763130149%29.jpg/1280px-Tesla_Factory%2C_Fremont_%28CA%2C_USA%29_%288763130149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Tesla_Factory,_Fremont_(CA,_USA)_(8763130149).jpg",
+        "source": "Wikimedia Commons",
+        "creator": "Maurizio Pesce from Milan, Italia",
+        "license": "CC BY 2.0",
+        "description": "Tesla Factory, Fremont (CA, USA)",
+        "label": "Illustrative photo",
+        "matched_query": "Tesla factory"
+      }
+    },
+    {
+      "id": "02c3d79f4cdeb11aae5fefc4",
+      "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
+      "summary": "The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.",
+      "url": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T02:58:02+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
     },
     {
       "id": "7f806f4d6ebc196f3a39fdee",
@@ -134,8 +196,8 @@
     },
     {
       "id": "9e7d1c8dc3b08b4097ea05ea",
-      "title": "Beau Lamarre-Condon trial live updates: prosecution begins cross-examination of double murder accused",
-      "summary": "Lamarre-Condon returns to witness box for day two of his evidence. He has pleaded not guilty to murdering the couple in Sydney in 2024 Beau Lamarre-Condon tells double murder trial shooting of Jesse Baird wasn’t intentional but ‘it was my fault’ Get our breaking news email , free app or daily news podcast Lamarre-Condon tells the court he had seen what he assumed to be someone’s delivery motorcycle: As soon as I saw that I had an idea … I saw a hi-vis hooded jacket, waterproof long pants and gloves. This moment here … I wish that I didn’t do this … But I had the thought process that if I was to put on this helmet and outfit I could knock on Jesse’s door I would look like an UberEats driver without any verbal interaction with Jesse. At the very least I would have had an AVO out against me … police don’t hesitate to put another police on an",
+      "title": "Beau Lamarre-Condon trial: prosecution begins cross-examination of double murder accused – as it happened",
+      "summary": "This blog has now closed Beau Lamarre-Condon tells double murder trial shooting of Jesse Baird wasn’t intentional but ‘it was my fault’ Get our breaking news email , free app or daily news podcast Lamarre-Condon tells the court he had seen what he assumed to be someone’s delivery motorcycle: As soon as I saw that I had an idea … I saw a hi-vis hooded jacket, waterproof long pants and gloves. This moment here … I wish that I didn’t do this … But I had the thought process that if I was to put on this helmet and outfit I could knock on Jesse’s door I would look like an UberEats driver without any verbal interaction with Jesse. At the very least I would have had an AVO out against me … police don’t hesitate to put another police on an AVO … I was worried if I knocked on the door it would be perceived as harassment. Continue reading...",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -174,7 +236,7 @@
     {
       "id": "3126f522453042458fc95024",
       "title": "Hedge Funds Dump Positions and Cut Staff as Selloff Deepens",
-      "summary": "Last month saw the highest rate of stock-picking funds unwinding positions in over a decade.",
+      "summary": "Stock-picking funds unwound their positions last month at the highest rate in over a decade.",
       "url": "https://www.wsj.com/finance/investing/hedge-funds-dump-positions-and-cut-staff-as-selloff-deepens-7eb14493?mod=rss_markets_main",
       "source": "WSJ",
       "feed_id": "wsj_markets",
@@ -187,7 +249,7 @@
     {
       "id": "3d1809fe5e7d2a909bf8dbd5",
       "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-      "summary": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
+      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Mark Rubio is rumoured to be eyeing a presidential run.",
       "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -195,17 +257,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T02:08:57+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/White_House_from_North.jpg/1280px-White_House_from_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:White_House_from_North.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "BenAveling",
-        "license": "CC BY-SA 3.0",
-        "description": "White House from across the North lawn",
-        "label": "Illustrative photo",
-        "matched_query": "White House Washington DC"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "45065205d34f05bfc8db2f45",
@@ -309,19 +361,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T01:21:08+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "89b5f6f07cd9652cf3d4b2ce",
-      "title": "Trump signs order preventing future presidents from changing Oval Office",
-      "summary": "The order comes after Trump made a series of big changes the Oval Office decor and launched landmark construction projects across Washington.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T01:20:01+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -925,7 +964,7 @@
     {
       "id": "b6ed7d5f54f1a6aebe4a2059",
       "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
-      "summary": "The artificial-intelligence giant could need to set a significantly lower-than-expected valuation, investors say.",
+      "summary": "The artificial intelligence giant could need to set a significantly lower-than-expected valuation, investors say.",
       "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b?mod=rss_markets_main",
       "source": "WSJ",
       "feed_id": "wsj_markets",
@@ -1092,19 +1131,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "0c2539d4efca98cebc930a6f",
-      "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
-      "summary": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
-      "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
-      "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-05T22:31:13+00:00",
-      "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
       "id": "9fe5e58e6f1dda17f04fe50c",
       "title": "Here's where we stand on Kimberly-Clark shares after a better-than-feared quarter",
       "summary": "The stock rose more than 1% Thursday during Wall Street's sell-off.",
@@ -1130,8 +1156,8 @@
       "desk_priority": 40,
       "selection_type": "automatic",
       "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_%28page_1%29.jpg/1280px-U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_(page_1).jpg",
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_%28page_2%29.jpg/1280px-U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_%28page_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Agriculture_Food_and_Drug_Administration_Inspection_of_Factories_Form_and_Notes_for_the_Estate_of_A._Brakeley_-_NARA_-_22475186_(page_2).jpg",
         "source": "Wikimedia Commons",
         "creator": "Unknown author Unknown author or not provided",
         "license": "Public domain",
@@ -5512,32 +5538,6 @@
       "category": "US News",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-05T08:01:57+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "213c45588cd8d90e8be8f329",
-      "title": "You be the judge: should my wife keep out of our neighbours’ disputes?",
-      "summary": "Rosie has become co-chair of their apartment block committee, but Marcus thinks she should take a back seat. Whose argument falls flat? You decide • Find out how to get a disagreement settled or become a juror Rosie wants us to be ‘good gentrifiers’, but is getting involved in feuds that go way back Continue reading...",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/05/you-be-the-judge-wife-keep-out-neighbours-disputes",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-05T08:00:57+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4b7c68ce2a01f24b0fe032da",
-      "title": "Polling experts hail ‘great night’ after correctly calling most key US midterm election races",
-      "summary": "Accuracy of US polling came into sharp focus after Trump outperformed polls in 2016, 2020 and 2024 Political polling experts hailed a “great night” for the industry after surveys accurately foresaw much of the Democratic blue wave that swept across the US in midterm elections. In only a handful of US Senate races, including Texas and New Hampshire, key polls failed to gauge the scale of the Democratic victory over Republicans on Tuesday. Continue reading...",
-      "url": "https://www.theguardian.com/us-news/2026/nov/05/polls-midterms-results-accurate",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-05T08:00:57+00:00",
       "desk_priority": 24,
       "selection_type": "automatic"
     }
