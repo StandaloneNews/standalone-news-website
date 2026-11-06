@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T20:30:26Z",
+  "updated_at": "2026-11-06T21:24:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,6 +818,44 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489548",
+      "league": "ligue1",
+      "name": "Auxerre vs Paris FC",
+      "date": "2026-11-07T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -825,7 +863,42 @@
       "title": "Everton v Coventry City: Premier League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates",
-      "date": "2026-11-06T20:23:46Z",
+      "date": "2026-11-06T21:23:42Z",
+      "league": "all"
+    },
+    {
+      "title": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/usa-switzerland-canada-sweden-womens-world-hockey-championship",
+      "date": "2026-11-06T21:13:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T21:08:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Title race is over - but intrigue in F1 continues",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T20:52:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Charlton’s struggles expose ‘absolute ocean’ between WSL and second tier",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
+      "date": "2026-11-06T20:49:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Nations championship, Rugby League World Cup and NFL action – follow with us",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
+      "date": "2026-11-06T20:33:58Z",
       "league": "all"
     },
     {
@@ -1004,13 +1077,6 @@
       "league": "all"
     },
     {
-      "title": "Yaxel Lendeborg is the NBA’s most entertaining rookie – and he’s not holding back",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/yaxel-lendeborg-golden-state-warriors-nba-rookie-media-training",
-      "date": "2026-11-06T14:01:54Z",
-      "league": "all"
-    },
-    {
       "title": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
@@ -1107,34 +1173,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/06/clicky-ponting-cheating-scandal-cricketer-brian-devine-banned-club-relegated",
       "date": "2026-11-06T10:30:38Z",
       "league": "all"
-    },
-    {
-      "title": "Hockey’s streaming spree means there’s one fewer thing holding Canada together",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/hockeys-streaming-spree-means-theres-one-fewer-thing-holding-canada-together",
-      "date": "2026-11-06T10:00:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Championship preview: Contenders, pretenders and strugglers",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c38xzkkgg7rpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T09:22:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Diamonds are forever - phoenix club seek FA Cup upset",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5rmyyww1749o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T08:22:16Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Win at Everton would put Coventry on right side of history in survival fight",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/coventry-everton-frank-lampard-premier-league-survival",
-      "date": "2026-11-06T08:00:47Z",
-      "league": "soccer"
     }
   ]
 }
