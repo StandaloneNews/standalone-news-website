@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T23:29:04Z",
+  "updated_at": "2026-11-06T00:27:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -706,19 +706,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591735",
+      "id": "sportsdb-2591743",
       "league": "nhl",
-      "name": "New York Rangers vs Philadelphia Flyers",
-      "date": "2026-11-06T00:00:00Z",
+      "name": "Edmonton Oilers vs Anaheim Ducks",
+      "date": "2026-11-06T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Rangers",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Philadelphia Flyers",
+          "name": "Anaheim Ducks",
           "score": ""
         }
       ],
@@ -822,17 +822,38 @@
   ],
   "stories": [
     {
-      "title": "Deschamps not interested in Man Utd job - Friday's gossip",
+      "title": "Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T22:49:23Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwd099ez7z4yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T00:10:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League: 10 things to look out for this weekend",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-10-things-to-look-out-for-this-weekend",
+      "date": "2026-11-06T00:01:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Anderson could be given chance to join Surrey",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6wyvvdx2xe9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T23:33:52Z",
       "league": "all"
     },
     {
       "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
-      "date": "2026-11-05T22:46:58Z",
+      "date": "2026-11-05T23:27:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Deschamps not interested in Man Utd job - Friday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-05T22:49:23Z",
       "league": "all"
     },
     {
@@ -941,13 +962,6 @@
       "league": "all"
     },
     {
-      "title": "WTA apologizes after hot mic captures Pegula’s ‘diva’ remarks about Andreeva",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/wta-finals-jessica-pegula-mirra-andreeva-hot-mic-diva-apology",
-      "date": "2026-11-05T18:42:03Z",
-      "league": "all"
-    },
-    {
       "title": "'I don't fear for my safety from online abuse - because we're so used to it'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cmq8nn2q01wdo?at_medium=RSS&at_campaign=rss",
@@ -977,10 +991,10 @@
     },
     {
       "title": "Sutton's predictions v Football Manager, the game",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck5ynzry64p2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T18:02:15Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Concacaf revamps Gold Cup format to make tournament ‘more competitive’",
@@ -990,24 +1004,10 @@
       "league": "soccer"
     },
     {
-      "title": "Good to feel club are committed to me - Jaissle",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8y56z50k95xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T17:25:41Z",
-      "league": "all"
-    },
-    {
       "title": "Nanobubbles, hungry foxes and hidden reservoir - Twickenham's hi-tech turf",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crn4e54108w9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T17:25:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Hutchinson's mission to fulfil childhood prophecy",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm5yne1q32qxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T16:33:14Z",
       "league": "all"
     },
     {
@@ -1123,10 +1123,10 @@
       "league": "all"
     },
     {
-      "title": "'Taking people for fools' - Gloucestershire to rebrand as Bristol for T20 Blast",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckd7q9l0n7dyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T13:10:22Z",
+      "title": "Tom Curry a major injury doubt for England with twin Ben poised to step up against Australia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/05/tom-curry-injury-doubt-england-australia-rugby-union",
+      "date": "2026-11-05T13:12:23Z",
       "league": "all"
     },
     {
