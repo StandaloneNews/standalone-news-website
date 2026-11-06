@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T18:33:36Z",
+  "updated_at": "2026-11-06T19:39:02Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 24,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "laliga",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -687,26 +687,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601787",
-      "league": "nba",
-      "name": "Golden State Warriors vs Miami Heat",
-      "date": "2026-11-06T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Golden State Warriors",
-          "score": "120",
-          "winner": true
-        },
-        {
-          "name": "Miami Heat",
-          "score": "100"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601788",
       "league": "nba",
       "name": "Charlotte Hornets vs Boston Celtics",
@@ -745,26 +725,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499186",
-      "league": "ncaaf",
-      "name": "Southern Miss vs James Madison",
-      "date": "2026-11-06T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Southern Miss",
-          "score": "23"
-        },
-        {
-          "name": "James Madison",
-          "score": "54",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499187",
       "league": "ncaaf",
       "name": "SMU vs Virginia Tech",
@@ -779,26 +739,6 @@
         {
           "name": "Virginia Tech",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2494080",
-      "league": "epl",
-      "name": "Newcastle United vs Everton",
-      "date": "2026-11-02T20:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Newcastle United",
-          "score": "0"
-        },
-        {
-          "name": "Everton",
-          "score": "1",
-          "winner": true
         }
       ],
       "url": ""
@@ -842,19 +782,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508411",
+      "id": "sportsdb-2508406",
       "league": "bundesliga",
-      "name": "Hamburg vs Borussia Mönchengladbach",
-      "date": "2026-11-06T19:30:00Z",
+      "name": "Mainz vs Bayern Munich",
+      "date": "2026-11-07T14:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Hamburg",
+          "name": "Mainz",
           "score": ""
         },
         {
-          "name": "Borussia Mönchengladbach",
+          "name": "Bayern Munich",
           "score": ""
         }
       ],
@@ -878,200 +818,58 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398525",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Bahia",
-      "date": "2026-11-06T00:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Cruzeiro",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Bahia",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": ""
-        },
-        {
-          "name": "Fluminense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398179",
-      "league": "argentina",
-      "name": "Barracas Central vs Racing Club",
-      "date": "2026-11-06T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Barracas Central",
-          "score": ""
-        },
-        {
-          "name": "Racing Club",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487587",
-      "league": "ligamx",
-      "name": "Necaxa vs Tijuana",
-      "date": "2026-11-07T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Necaxa",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        },
-        {
-          "name": "Tokyo Verdy",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540125",
-      "league": "aleague",
-      "name": "Auckland FC vs Wellington Phoenix",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auckland FC",
-          "score": ""
-        },
-        {
-          "name": "Wellington Phoenix",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514030",
-      "league": "primeira",
-      "name": "Famalicao vs Arouca",
-      "date": "2026-11-06T20:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Famalicao",
-          "score": ""
-        },
-        {
-          "name": "Arouca",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Everton v Coventry City: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates",
+      "date": "2026-11-06T19:25:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Injury crises and Borthwick under scrutiny: it’s that time of year again for England rugby",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
+      "date": "2026-11-06T19:15:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Buatsi booed at weigh-in before world title bout",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6lylr5lnggvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T19:01:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Bellinghams celebrate ‘beautiful story’ as Jobe joins Jude in Tuchel’s England 2.0",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
+      "date": "2026-11-06T19:00:50Z",
+      "league": "all"
+    },
+    {
+      "title": "ECB forecasting losses of up to £50m in 2027 despite visit of Australia for the Ashes",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/ecb-forecasting-losses-of-up-to-50m-in-2027-despite-visit-of-australia-for-the-ashes",
+      "date": "2026-11-06T19:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Matthias Jaissle caught in the storm as Newcastle struggle without European fix",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/06/matthias-jaissle-caught-in-the-storm-as-newcastle-struggle-without-european-fix",
+      "date": "2026-11-06T19:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "'Unexplained neurological symptoms' behind Henderson absence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/cw0733x400yro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T18:39:33Z",
+      "league": "all"
+    },
     {
       "title": "Player-coach rift report will only galvanise England - George",
       "source": "BBC Sport",
@@ -1080,10 +878,10 @@
       "league": "all"
     },
     {
-      "title": "Jobe Bellingham joining Jude in England squad is ‘beautiful’, says Tuchel: football news – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T18:14:39Z",
+      "title": "Scotland come full circle for another crack at All Blacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw62yy06dejzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T18:29:09Z",
       "league": "all"
     },
     {
@@ -1185,24 +983,10 @@
       "league": "all"
     },
     {
-      "title": "England players ‘fight to protect’ Steve Borthwick and deny rumours of rift",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/fin-smith-steve-borthwick-maro-itoje-australia-england-rugby-union",
-      "date": "2026-11-06T14:07:45Z",
-      "league": "all"
-    },
-    {
       "title": "Yaxel Lendeborg is the NBA’s most entertaining rookie – and he’s not holding back",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/yaxel-lendeborg-golden-state-warriors-nba-rookie-media-training",
       "date": "2026-11-06T14:01:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Fly-half Smith fit to steer England against Wallabies",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv4g11wr6l5jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T14:00:55Z",
       "league": "all"
     },
     {
@@ -1241,13 +1025,6 @@
       "league": "all"
     },
     {
-      "title": "Sports quiz of the week: red cards, records, retirement and relegation",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/sports-quiz-week-football-rugby-league-tennis-cricket-rugby-union-formula-one-athletics",
-      "date": "2026-11-06T12:37:38Z",
-      "league": "all"
-    },
-    {
       "title": "Two-year ban for 'Clicky Ponting' cricketer",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c62keenz7dzjo?at_medium=RSS&at_campaign=rss",
@@ -1263,10 +1040,10 @@
     },
     {
       "title": "Palmer misses too many chances to impress - Tuchel",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9kgjjdg30r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:59:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McIlroy fires 63 to move into Abu Dhabi contention",
@@ -1281,13 +1058,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ckgj99yjpnqzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:29:51Z",
       "league": "soccer"
-    },
-    {
-      "title": "Coach who helped Sinner to the top set to depart",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c64g11venm0ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:21:05Z",
-      "league": "all"
     },
     {
       "title": "Newcastle's Dedic stopped by police after being spotted with bow and arrows",
@@ -1315,13 +1085,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/nottingham-forest-no-goals-home-oliver-glasner",
       "date": "2026-11-06T10:49:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Amar Dedic set to escape Newcastle sanction over carrying bow and arrow",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/amar-dedic-set-to-escape-newcastle-sanction-over-carrying-bow-and-arrow",
-      "date": "2026-11-06T10:38:34Z",
       "league": "soccer"
     },
     {
@@ -1353,27 +1116,6 @@
       "league": "soccer"
     },
     {
-      "title": "Lampard looks for Coventry progress as belief grows",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T08:11:03Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Australia recruit Hussey for Ashes build-up",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c9y7lln8vyglo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T08:05:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Chess: Magnus Carlsen returns for Budapest battle before Sindarov targets classical crown",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/chess-magnus-carlsen-returns-for-budapest-battle-before-sindarov-targets-classical-crown",
-      "date": "2026-11-06T08:00:47Z",
-      "league": "all"
-    },
-    {
       "title": "Win at Everton would put Coventry on right side of history in survival fight",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/coventry-everton-frank-lampard-premier-league-survival",
@@ -1386,6 +1128,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck98z2r17e6po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:53:56Z",
       "league": "all"
+    },
+    {
+      "title": "From playing against Messi and Ronaldo to non-league",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T06:42:07Z",
+      "league": "soccer"
     }
   ]
 }
