@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T22:02:05Z",
+  "updated_at": "2026-11-06T23:00:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 20,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -63,47 +63,47 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -668,26 +668,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475495",
-      "league": "nfl",
-      "name": "Baltimore Ravens vs Jacksonville Jaguars",
-      "date": "2026-11-06T01:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Baltimore Ravens",
-          "score": "10"
-        },
-        {
-          "name": "Jacksonville Jaguars",
-          "score": "33",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475496",
       "league": "nfl",
       "name": "Atlanta Falcons vs Cincinnati Bengals",
@@ -838,186 +818,85 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489548",
-      "league": "ligue1",
-      "name": "Auxerre vs Paris FC",
-      "date": "2026-11-07T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auxerre",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": ""
-        },
-        {
-          "name": "Fluminense",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398184",
-      "league": "argentina",
-      "name": "Independiente vs Deportivo Riestra",
-      "date": "2026-11-06T22:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Independiente",
-          "score": ""
-        },
-        {
-          "name": "Deportivo Riestra",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487587",
-      "league": "ligamx",
-      "name": "Necaxa vs Tijuana",
-      "date": "2026-11-07T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Necaxa",
-          "score": ""
-        },
-        {
-          "name": "Tijuana",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492917",
-      "league": "j1",
-      "name": "Shimizu S-Pulse vs Tokyo Verdy",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        },
-        {
-          "name": "Tokyo Verdy",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540125",
-      "league": "aleague",
-      "name": "Auckland FC vs Wellington Phoenix",
-      "date": "2026-11-07T04:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auckland FC",
-          "score": ""
-        },
-        {
-          "name": "Wellington Phoenix",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514025",
-      "league": "primeira",
-      "name": "Nacional de Madeira vs Académico de Viseu",
-      "date": "2026-11-07T15:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Nacional de Madeira",
-          "score": ""
-        },
-        {
-          "name": "Académico de Viseu",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407202",
-      "league": "mls",
-      "name": "Inter Miami vs Charlotte FC",
-      "date": "2026-11-07T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Inter Miami",
-          "score": ""
-        },
-        {
-          "name": "Charlotte FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Everton 3-1 Coventry City: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates",
-      "date": "2026-11-06T21:56:06Z",
+      "title": "'Big decisions' affected the game - Lampard",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm74ppwz9yewo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:40:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Not a good performance, but we got a result - Moyes",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmreyy2ndd95o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:40:56Z",
       "league": "soccer"
+    },
+    {
+      "title": "Alcaraz beats Fritz to help Jodar reach ATP finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6e9lldl3lpjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:35:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Barry scores twice as Everton fight back to beat Coventry",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:30:12Z",
+      "league": "all"
+    },
+    {
+      "title": "WTA chair apologises to Pegula for airing of 'diva' comment",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckpdgg87ye3po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:28:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Keenan hat-trick inspires six-try Ireland to emphatic win against Argentina",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/ireland-argentina-nations-championship-match-report",
+      "date": "2026-11-06T22:20:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Slick Saints beat Prem Rugby Cup holders Leicester",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cr2kewvk8exvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:11:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Whole Australia team knew of sandpaper use - Khawaja",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:06:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Keenan hat-trick as six-try Ireland beat Pumas",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmgellz7dn52o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:06:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Raith Rovers go top with Dunfermline draw",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/videos/c3qjnnpr9xzno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:06:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Thierno Barry double fires Everton to comeback win against Coventry",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
+      "date": "2026-11-06T22:03:48Z",
+      "league": "all"
     },
     {
       "title": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute",
@@ -1083,13 +962,6 @@
       "league": "all"
     },
     {
-      "title": "Buatsi booed at weigh-in before world title bout",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6lylr5lnggvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T19:01:33Z",
-      "league": "all"
-    },
-    {
       "title": "Bellinghams celebrate ‘beautiful story’ as Jobe joins Jude in Tuchel’s England 2.0",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
@@ -1108,13 +980,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/matthias-jaissle-caught-in-the-storm-as-newcastle-struggle-without-european-fix",
       "date": "2026-11-06T19:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "'Unexplained neurological symptoms' behind Henderson absence",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cw0733x400yro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T18:39:33Z",
       "league": "all"
     },
     {
@@ -1140,17 +1005,17 @@
     },
     {
       "title": "James out for minimum of five games - Bompastor",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T16:44:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Premier League team news: predicted lineups for the weekend action",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
       "date": "2026-11-06T16:43:45Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Is Palmer's England career over under Tuchel?",
@@ -1185,13 +1050,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/lebanon-syria-ukraine-rugby-league-teams-war-world-cup",
       "date": "2026-11-06T15:12:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Briton Dubois to face Han in lightweight unification",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c679pp7g1lexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T15:12:09Z",
       "league": "all"
     },
     {
@@ -1277,55 +1135,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c9kgjjdg30r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:59:37Z",
       "league": "soccer"
-    },
-    {
-      "title": "McIlroy fires 63 to move into Abu Dhabi contention",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cq78ppmj0zm3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:40:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Wolves legend and ex-England defender Coady retires",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckgj99yjpnqzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:29:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Newcastle's Dedic stopped by police after being spotted with bow and arrows",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmpwggy2gz0eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:16:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Major League Rugby could get Buffalo team amid talks with 17 other locations",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/major-league-rugby-could-get-buffalo-team-amid-talks-with-17-other-locations",
-      "date": "2026-11-06T11:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "NWSL playoff predictions: who can spoil Gotham’s bid for the double?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks",
-      "date": "2026-11-06T11:00:51Z",
-      "league": "all"
-    },
-    {
-      "title": "Nottingham Forest’s historic goal drought at home is part of longstanding problem",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/nottingham-forest-no-goals-home-oliver-glasner",
-      "date": "2026-11-06T10:49:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘Clicky Ponting’ cheating scandal cricketer banned and club relegated",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/clicky-ponting-cheating-scandal-cricketer-brian-devine-banned-club-relegated",
-      "date": "2026-11-06T10:30:38Z",
-      "league": "all"
     }
   ]
 }
