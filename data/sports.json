@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T12:08:41Z",
+  "updated_at": "2026-11-06T13:30:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 16,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -53,17 +53,17 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -88,12 +88,12 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -725,6 +725,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499186",
+      "league": "ncaaf",
+      "name": "Southern Miss vs James Madison",
+      "date": "2026-11-06T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Southern Miss",
+          "score": "23"
+        },
+        {
+          "name": "James Madison",
+          "score": "54",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499187",
       "league": "ncaaf",
       "name": "SMU vs Virginia Tech",
@@ -782,6 +802,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508400",
+      "league": "bundesliga",
+      "name": "Eintracht Frankfurt vs Hamburg",
+      "date": "2026-11-01T16:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Eintracht Frankfurt",
+          "score": "3",
+          "winner": true
+        },
+        {
+          "name": "Hamburg",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -796,6 +836,26 @@
         {
           "name": "Borussia Mönchengladbach",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2482233",
+      "league": "seriea",
+      "name": "Atalanta vs Parma",
+      "date": "2026-11-02T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Atalanta",
+          "score": "0"
+        },
+        {
+          "name": "Parma",
+          "score": "3",
+          "winner": true
         }
       ],
       "url": ""
@@ -820,26 +880,101 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2398525",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Bahia",
+      "date": "2026-11-06T00:30:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Toulouse",
-          "score": ""
+          "name": "Cruzeiro",
+          "score": "3",
+          "winner": true
         },
         {
-          "name": "Strasbourg",
-          "score": ""
+          "name": "Bahia",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492904",
+      "league": "j1",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Machida Zelvia",
+          "score": "0"
+        },
+        {
+          "name": "Gamba Osaka",
+          "score": "0"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540124",
+      "league": "aleague",
+      "name": "Sydney FC vs Central Coast Mariners",
+      "date": "2026-11-06T08:40:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Sydney FC",
+          "score": "4",
+          "winner": true
+        },
+        {
+          "name": "Central Coast Mariners",
+          "score": "1"
         }
       ],
       "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
+      "date": "2026-11-06T13:16:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Westwood worried for DP World Tour after LIV collapse",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cwm244d55pdpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:02:26Z",
+      "league": "all"
+    },
+    {
+      "title": "'It would be pretty special' - Chessum on England captaincy links",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c8kgeeq5vyxdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:55:49Z",
+      "league": "all"
+    },
+    {
+      "title": "RFU boss confirms WRU Anglo-Welsh league approach",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9p8ggzzerz5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:46:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Sports quiz of the week: red cards, records, retirement and relegation",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/sports-quiz-week-football-rugby-league-tennis-cricket-rugby-union-formula-one-athletics",
+      "date": "2026-11-06T12:37:38Z",
+      "league": "all"
+    },
     {
       "title": "Two-year ban for 'Clicky Ponting' cricketer",
       "source": "BBC Sport",
@@ -866,13 +1001,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:53:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Jobe Bellingham earned England call with ’special performances’; Palmer left out – football news",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T11:41:09Z",
       "league": "all"
     },
     {
@@ -960,6 +1088,13 @@
       "league": "soccer"
     },
     {
+      "title": "Diamonds are forever - phoenix club seek FA Cup upset",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5rmyyww1749o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T08:22:16Z",
+      "league": "soccer"
+    },
+    {
       "title": "Lampard looks for Coventry progress as belief grows",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
@@ -988,13 +1123,6 @@
       "league": "soccer"
     },
     {
-      "title": "Scotland can be best & worst team in world - Dempsey",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmd934jpg59yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T07:53:44Z",
-      "league": "all"
-    },
-    {
       "title": "How to follow the FA Cup on the BBC this weekend",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3lyl52j0vg4o?at_medium=RSS&at_campaign=rss",
@@ -1014,13 +1142,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:42:07Z",
       "league": "soccer"
-    },
-    {
-      "title": "'A smack in the teeth' - warned coach to work at international youth event",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/gymnastics/articles/c6gm0r08d1elo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T06:36:38Z",
-      "league": "all"
     },
     {
       "title": "'Putting his doubters in their place' - Rooney lands pundit of year award",
@@ -1066,10 +1187,10 @@
     },
     {
       "title": "Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwd099ez7z4yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T00:10:28Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Premier League: 10 things to look out for this weekend",
@@ -1107,13 +1228,6 @@
       "league": "soccer"
     },
     {
-      "title": "Keep or sell Konsa? - FPL gameweek 10 dilemmas",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g112qp051o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T22:26:23Z",
-      "league": "soccer"
-    },
-    {
       "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
@@ -1139,20 +1253,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/jimmy-anderson-in-talks-with-surrey-to-continue-county-career-after-lancashire-exit",
       "date": "2026-11-05T20:06:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Kamada’s late leveller rescues point for 10-man Crystal Palace and denies Hoffenheim",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/kamadas-late-leveller-rescues-point-for-10-man-crystal-palace-and-denies-hoffenheim",
-      "date": "2026-11-05T19:56:39Z",
-      "league": "all"
-    },
-    {
-      "title": "DP World Tour ready to embrace rebels including DeChambeau after LIV Golf collapses",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
-      "date": "2026-11-05T19:24:23Z",
       "league": "all"
     }
   ]
