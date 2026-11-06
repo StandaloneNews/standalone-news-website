@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T13:30:36Z",
+  "updated_at": "2026-11-06T14:39:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 16,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -53,17 +53,17 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -73,7 +73,7 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -88,12 +88,12 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -218,6 +218,20 @@
         {
           "fighters": [
             {
+              "name": "Gabriel Lorenco",
+              "score": ""
+            },
+            {
+              "name": "Thomas Petersen",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
               "name": "Karine Silva",
               "score": ""
             },
@@ -237,20 +251,6 @@
             },
             {
               "name": "Murtazali Magomedov",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Austin Bashi",
-              "score": ""
-            },
-            {
-              "name": "Carlos Calderon",
               "score": ""
             }
           ],
@@ -725,26 +725,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499186",
-      "league": "ncaaf",
-      "name": "Southern Miss vs James Madison",
-      "date": "2026-11-06T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Southern Miss",
-          "score": "23"
-        },
-        {
-          "name": "James Madison",
-          "score": "54",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499187",
       "league": "ncaaf",
       "name": "SMU vs Virginia Tech",
@@ -802,26 +782,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508400",
-      "league": "bundesliga",
-      "name": "Eintracht Frankfurt vs Hamburg",
-      "date": "2026-11-01T16:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Eintracht Frankfurt",
-          "score": "3",
-          "winner": true
-        },
-        {
-          "name": "Hamburg",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508411",
       "league": "bundesliga",
       "name": "Hamburg vs Borussia Mönchengladbach",
@@ -836,26 +796,6 @@
         {
           "name": "Borussia Mönchengladbach",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482233",
-      "league": "seriea",
-      "name": "Atalanta vs Parma",
-      "date": "2026-11-02T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Atalanta",
-          "score": "0"
-        },
-        {
-          "name": "Parma",
-          "score": "3",
-          "winner": true
         }
       ],
       "url": ""
@@ -880,60 +820,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2398525",
-      "league": "brasileirao",
-      "name": "Cruzeiro vs Bahia",
-      "date": "2026-11-06T00:30:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Cruzeiro",
-          "score": "3",
-          "winner": true
+          "name": "Toulouse",
+          "score": ""
         },
         {
-          "name": "Bahia",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492904",
-      "league": "j1",
-      "name": "Machida Zelvia vs Gamba Osaka",
-      "date": "2026-11-01T07:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Machida Zelvia",
-          "score": "0"
-        },
-        {
-          "name": "Gamba Osaka",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540124",
-      "league": "aleague",
-      "name": "Sydney FC vs Central Coast Mariners",
-      "date": "2026-11-06T08:40:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Sydney FC",
-          "score": "4",
-          "winner": true
-        },
-        {
-          "name": "Central Coast Mariners",
-          "score": "1"
+          "name": "Strasbourg",
+          "score": ""
         }
       ],
       "url": ""
@@ -944,8 +844,78 @@
       "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T13:16:13Z",
+      "date": "2026-11-06T14:32:06Z",
       "league": "all"
+    },
+    {
+      "title": "Portugal coach 'knew nothing' about Ronaldo retiring",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwzd66r22j68o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T14:25:41Z",
+      "league": "all"
+    },
+    {
+      "title": "'Incredible achievement for the family' as Bellingham brothers called up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T14:16:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Fin Smith fit to face Australia as Ben Curry replaces injured twin Tom in England line-up",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/fin-smith-steve-borthwick-maro-itoje-australia-england-rugby-union",
+      "date": "2026-11-06T14:07:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Yaxel Lendeborg is the NBA’s most entertaining rookie – and he’s not holding back",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/yaxel-lendeborg-golden-state-warriors-nba-rookie-media-training",
+      "date": "2026-11-06T14:01:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Fly-half Smith fit to steer England against Wallabies",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv4g11wr6l5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T14:00:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:54:50Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Talking points as Premiership prepares for international break",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq78ppm5ge80o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:44:22Z",
+      "league": "soccer"
+    },
+    {
+      "title": "England secure group top spot with Ireland win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cxly441nej84o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:42:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Women's rights matter more than any league, say Afghan cricketers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:40:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Oxford City can shock Leicester - Foxes fan Pollock",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xx94vy4eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T13:31:34Z",
+      "league": "soccer"
     },
     {
       "title": "Westwood worried for DP World Tour after LIV collapse",
@@ -1012,10 +982,10 @@
     },
     {
       "title": "Wolves legend and ex-England defender Coady retires",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckgj99yjpnqzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:29:51Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Coach who helped Sinner to the top set to depart",
@@ -1123,13 +1093,6 @@
       "league": "soccer"
     },
     {
-      "title": "How to follow the FA Cup on the BBC this weekend",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3lyl52j0vg4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T07:47:46Z",
-      "league": "soccer"
-    },
-    {
       "title": "Why managers can learn a lot from leaders like Napoleon - Pulis",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck98z2r17e6po?at_medium=RSS&at_campaign=rss",
@@ -1148,27 +1111,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck4g1l4nj85zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:22:00Z",
-      "league": "all"
-    },
-    {
-      "title": "'He'll regret it' - the day Ferguson quit Aberdeen for Man Utd",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy4edrdp02o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T06:17:13Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm78p02288epo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T06:13:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Jones - the smiling wind-up artist who refuses to fade away",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckm233n7gerlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T04:42:05Z",
       "league": "all"
     },
     {
@@ -1212,48 +1154,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T22:49:23Z",
       "league": "soccer"
-    },
-    {
-      "title": "Scott Parker’s dramatic West Ham return leaves him struggling for words",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/05/scott-parkers-dramatic-west-ham-return-leaves-him-struggling-for-words",
-      "date": "2026-11-05T22:30:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Forest need balance between Woodstock and military - Glasner",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwg5jj6nvmnyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T22:30:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
-      "date": "2026-11-05T22:03:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Fifa wants talks over restricting women’s Olympic football to under-23s",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/05/fifa-wants-womens-olympic-football-under-23s",
-      "date": "2026-11-05T21:08:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Lewis Hamilton refuses to back down over criticism of teammate Leclerc",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/lewis-hamilton-refuses-to-back-down-over-criticism-of-teammate-leclerc",
-      "date": "2026-11-05T20:38:12Z",
-      "league": "all"
-    },
-    {
-      "title": "Jimmy Anderson in talks with Surrey to continue county career after Lancashire exit",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/jimmy-anderson-in-talks-with-surrey-to-continue-county-career-after-lancashire-exit",
-      "date": "2026-11-05T20:06:24Z",
-      "league": "all"
     }
   ]
 }
