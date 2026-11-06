@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T06:48:40Z",
+  "updated_at": "2026-11-06T07:59:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,34 +818,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Toulouse",
-          "score": ""
-        },
-        {
-          "name": "Strasbourg",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "From playing against Messi & Ronaldo to non-league",
+      "title": "How much prize money can teams win in FA Cup?",
       "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/articles/cq8jzn88rejgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T07:50:11Z",
+      "league": "soccer"
+    },
+    {
+      "title": "How to follow the FA Cup on the BBC this weekend",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3lyl52j0vg4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T07:47:46Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Why managers can learn a lot from leaders like Napoleon - Pulis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck98z2r17e6po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T06:53:56Z",
+      "league": "all"
+    },
+    {
+      "title": "From playing against Messi & Ronaldo to non-league",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:42:07Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "'A smack in the teeth' - warned coach to work at international youth event",
@@ -1072,13 +1074,6 @@
       "league": "soccer"
     },
     {
-      "title": "Nanobubbles, hungry foxes and hidden reservoir - Twickenham's hi-tech turf",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crn4e54108w9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T17:25:14Z",
-      "league": "all"
-    },
-    {
       "title": "Wooden Spoon, Golden Boot and playoff spots: what to watch for on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
@@ -1139,20 +1134,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-05T14:29:40Z",
-      "league": "all"
-    },
-    {
-      "title": "McIlroy handed two-shot penalty for improving lie",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c6n49k9vyx81o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T14:28:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Wallabies’ pay dispute with Rugby Australia overshadows Nations Championship finale",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/blog/2026/nov/06/wallabies-pay-dispute-with-rugby-australia-overshadows-nations-championship-finale",
-      "date": "2026-11-05T14:00:26Z",
       "league": "all"
     }
   ]
