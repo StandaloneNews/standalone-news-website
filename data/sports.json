@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T17:35:02Z",
+  "updated_at": "2026-11-06T18:33:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 14,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -63,27 +63,27 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -745,6 +745,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499186",
+      "league": "ncaaf",
+      "name": "Southern Miss vs James Madison",
+      "date": "2026-11-06T01:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Southern Miss",
+          "score": "23"
+        },
+        {
+          "name": "James Madison",
+          "score": "54",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499187",
       "league": "ncaaf",
       "name": "SMU vs Virginia Tech",
@@ -860,20 +880,154 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492904",
-      "league": "j1",
-      "name": "Machida Zelvia vs Gamba Osaka",
-      "date": "2026-11-01T07:00:00Z",
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398525",
+      "league": "brasileirao",
+      "name": "Cruzeiro vs Bahia",
+      "date": "2026-11-06T00:30:00Z",
       "state": "final",
       "status": "FT",
       "participants": [
         {
-          "name": "Machida Zelvia",
-          "score": "0"
+          "name": "Cruzeiro",
+          "score": "3",
+          "winner": true
         },
         {
-          "name": "Gamba Osaka",
-          "score": "0"
+          "name": "Bahia",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398530",
+      "league": "brasileirao",
+      "name": "Vitória vs Fluminense",
+      "date": "2026-11-06T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vitória",
+          "score": ""
+        },
+        {
+          "name": "Fluminense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398179",
+      "league": "argentina",
+      "name": "Barracas Central vs Racing Club",
+      "date": "2026-11-06T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Barracas Central",
+          "score": ""
+        },
+        {
+          "name": "Racing Club",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487587",
+      "league": "ligamx",
+      "name": "Necaxa vs Tijuana",
+      "date": "2026-11-07T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540125",
+      "league": "aleague",
+      "name": "Auckland FC vs Wellington Phoenix",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auckland FC",
+          "score": ""
+        },
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
         }
       ],
       "url": ""
@@ -896,14 +1050,40 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2407202",
+      "league": "mls",
+      "name": "Inter Miami vs Charlotte FC",
+      "date": "2026-11-07T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Player-coach rift report will only galvanise England - George",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2qqyz4p1po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T18:30:57Z",
+      "league": "all"
+    },
+    {
       "title": "Jobe Bellingham joining Jude in England squad is ‘beautiful’, says Tuchel: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T17:21:45Z",
+      "date": "2026-11-06T18:14:39Z",
       "league": "all"
     },
     {
@@ -1005,7 +1185,7 @@
       "league": "all"
     },
     {
-      "title": "Fin Smith fit to face Australia as Ben Curry replaces injured twin Tom in England lineup",
+      "title": "England players ‘fight to protect’ Steve Borthwick and deny rumours of rift",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/fin-smith-steve-borthwick-maro-itoje-australia-england-rugby-union",
       "date": "2026-11-06T14:07:45Z",
@@ -1058,13 +1238,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c8kgeeq5vyxdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T12:55:49Z",
-      "league": "all"
-    },
-    {
-      "title": "RFU boss confirms WRU Anglo-Welsh league approach",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9p8ggzzerz5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T12:46:01Z",
       "league": "all"
     },
     {
