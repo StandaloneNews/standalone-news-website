@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T02:40:30Z",
+  "updated_at": "2026-11-06T03:37:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -687,19 +687,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601787",
+      "id": "sportsdb-2601788",
       "league": "nba",
-      "name": "Golden State Warriors vs Miami Heat",
-      "date": "2026-11-06T03:00:00Z",
+      "name": "Charlotte Hornets vs Boston Celtics",
+      "date": "2026-11-07T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Golden State Warriors",
+          "name": "Charlotte Hornets",
           "score": ""
         },
         {
-          "name": "Miami Heat",
+          "name": "Boston Celtics",
           "score": ""
         }
       ],
@@ -814,6 +814,25 @@
         },
         {
           "name": "Udinese",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
           "score": ""
         }
       ],
