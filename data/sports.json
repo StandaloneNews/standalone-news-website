@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T14:39:57Z",
+  "updated_at": "2026-11-06T15:30:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -837,14 +837,68 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Jobe Bellingham ‘deserves’ England call; Kompany on track for ‘full recovery’; Coady retires: football news – live",
+      "title": "The Fifa hopeful hoping to take Infantino down with 'samurai spirit'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyvv7pkqrno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T15:21:40Z",
+      "league": "all"
+    },
+    {
+      "title": "‘It’s in our blood’: Lebanon, Ukraine and Syria rugby league teams fly the flag despite horrors of war at home",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/lebanon-syria-ukraine-rugby-league-teams-war-world-cup",
+      "date": "2026-11-06T15:12:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Briton Dubois to face Han in lightweight unification",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c679pp7g1lexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T15:12:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Jobe Bellingham ‘deserves’ England call; Baleba injury blow for Manchester United: football news – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T14:32:06Z",
+      "date": "2026-11-06T15:11:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Whirlwhind year from Wolverhampton to Hong Kong for Leger heroine Osborne",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/whirlwhind-year-from-wolverhampton-to-hong-kong-st-leger-heroine-saffie-osborne",
+      "date": "2026-11-06T15:09:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Jaguars inflict fourth straight defeat on Ravens",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/cwp8gge4r428o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T14:27:19Z",
       "league": "all"
     },
     {
@@ -855,14 +909,14 @@
       "league": "all"
     },
     {
-      "title": "'Incredible achievement for the family' as Bellingham brothers called up",
+      "title": "'A beautiful story' as Bellingham brothers called up",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T14:16:34Z",
       "league": "all"
     },
     {
-      "title": "Fin Smith fit to face Australia as Ben Curry replaces injured twin Tom in England line-up",
+      "title": "Fin Smith fit to face Australia as Ben Curry replaces injured twin Tom in England lineup",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/fin-smith-steve-borthwick-maro-itoje-australia-england-rugby-union",
       "date": "2026-11-06T14:07:45Z",
@@ -911,13 +965,6 @@
       "league": "all"
     },
     {
-      "title": "Oxford City can shock Leicester - Foxes fan Pollock",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwg7xx94vy4eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T13:31:34Z",
-      "league": "soccer"
-    },
-    {
       "title": "Westwood worried for DP World Tour after LIV collapse",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/cwm244d55pdpo?at_medium=RSS&at_campaign=rss",
@@ -964,13 +1011,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9kgjjdg30r4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T11:59:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Permane to stay as Racing Bulls team principal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:53:34Z",
       "league": "all"
     },
     {
@@ -1066,10 +1106,10 @@
     },
     {
       "title": "Lampard looks for Coventry progress as belief grows",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr20w943gvl5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T08:11:03Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Australia recruit Hussey for Ashes build-up",
@@ -1132,27 +1172,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwd099ez7z4yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T00:10:28Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Premier League: 10 things to look out for this weekend",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-10-things-to-look-out-for-this-weekend",
-      "date": "2026-11-06T00:01:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
-      "date": "2026-11-05T23:27:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Deschamps not interested in Man Utd job - Friday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9rky3g7e8zro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T22:49:23Z",
       "league": "soccer"
     }
   ]
