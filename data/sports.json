@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T11:18:36Z",
+  "updated_at": "2026-11-06T12:08:41Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,21 +818,89 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Newcastle's Dedic stopped by police after being spotted with bow and arrows",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmpwggy2gz0eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T11:16:07Z",
-      "league": "soccer"
+      "title": "Two-year ban for 'Clicky Ponting' cricketer",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c62keenz7dzjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:00:21Z",
+      "league": "all"
     },
     {
-      "title": "Jobe Bellingham called up by England, Sunderland face jeers and the FA Cup first round: football news – live",
+      "title": "Has Anderson lived up to the hype after Man City move?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqde8w0k2pz1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T12:00:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Palmer misses too many chances to impress - Tuchel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9kgjjdg30r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:59:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Permane to stay as Racing Bulls team principal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw80zzd8jk1go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:53:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Jobe Bellingham earned England call with ’special performances’; Palmer left out – football news",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T11:13:36Z",
+      "date": "2026-11-06T11:41:09Z",
+      "league": "all"
+    },
+    {
+      "title": "McIlroy fires 63 to move into Abu Dhabi contention",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cq78ppmj0zm3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:40:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Wolves legend and ex-England defender Coady retires",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckgj99yjpnqzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:29:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Coach who helped Sinner to the top set to depart",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c64g11venm0ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:21:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Newcastle's Dedic stopped by police after being spotted with bow and arrows",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmpwggy2gz0eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T11:16:07Z",
       "league": "all"
     },
     {
@@ -847,13 +915,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/nwsl-playoff-predictions-picks",
       "date": "2026-11-06T11:00:51Z",
-      "league": "all"
-    },
-    {
-      "title": "NZ's Ponga back on bench - three weeks after breaking arm",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c61wv1z5781zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T10:52:44Z",
       "league": "all"
     },
     {
@@ -893,10 +954,10 @@
     },
     {
       "title": "Championship preview: Contenders, pretenders and strugglers",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c38xzkkgg7rpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T09:22:00Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Lampard looks for Coventry progress as belief grows",
@@ -920,18 +981,18 @@
       "league": "all"
     },
     {
+      "title": "Win at Everton would put Coventry on right side of history in survival fight",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/06/coventry-everton-frank-lampard-premier-league-survival",
+      "date": "2026-11-06T08:00:47Z",
+      "league": "soccer"
+    },
+    {
       "title": "Scotland can be best & worst team in world - Dempsey",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmd934jpg59yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T07:53:44Z",
       "league": "all"
-    },
-    {
-      "title": "How much prize money can teams win in FA Cup?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/articles/cq8jzn88rejgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T07:50:11Z",
-      "league": "soccer"
     },
     {
       "title": "How to follow the FA Cup on the BBC this weekend",
@@ -949,10 +1010,10 @@
     },
     {
       "title": "From playing against Messi and Ronaldo to non-league",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:42:07Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'A smack in the teeth' - warned coach to work at international youth event",
@@ -1004,13 +1065,6 @@
       "league": "all"
     },
     {
-      "title": "Socceroos urge FA to move Jordan friendly in Middle East due to safety concerns",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/socceroos-football-australia-jordan-friendly-middle-east-safety-concerns",
-      "date": "2026-11-06T03:10:55Z",
-      "league": "soccer"
-    },
-    {
       "title": "Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwd099ez7z4yo?at_medium=RSS&at_campaign=rss",
@@ -1025,11 +1079,11 @@
       "league": "all"
     },
     {
-      "title": "Anderson could be given chance to join Surrey",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6wyvvdx2xe9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T23:33:52Z",
-      "league": "all"
+      "title": "Europa League: Sunderland lose at home to Zagreb while Celtic enjoy first win",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/05/europa-league-roundup-sparta-prague-bournemouth-ferencvaros-milanstay-perfect-while-milan-sunderland-dinamo-zagreb",
+      "date": "2026-11-05T23:27:14Z",
+      "league": "soccer"
     },
     {
       "title": "Deschamps not interested in Man Utd job - Friday's gossip",
@@ -1060,24 +1114,10 @@
       "league": "soccer"
     },
     {
-      "title": "What legacy does Ronaldo leave on international stage?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pljnrs?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T22:18:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "‘In moments of pain, football comes together’: Spain says goodbye to Jesús de Miguel",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/05/jesus-de-miguel-death-tenerife-funeral-football-spain",
       "date": "2026-11-05T22:03:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Antonelli says 2027 preparation starts now",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cx0544g2n1jdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T21:19:56Z",
       "league": "all"
     },
     {
@@ -1113,27 +1153,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/05/liv-golf-to-liquidate-after-financing-rescue-deal-collapses",
       "date": "2026-11-05T19:24:23Z",
-      "league": "all"
-    },
-    {
-      "title": "‘It doesn’t look good’: McIlroy gets two-shot penalty after improving his lie",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/05/it-doesnt-look-good-rory-mcilroy-gets-two-shot-penalty-after-ruling-he-improved-his-lie",
-      "date": "2026-11-05T19:22:57Z",
-      "league": "all"
-    },
-    {
-      "title": "'I don't fear for my safety from online abuse - because we're so used to it'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cmq8nn2q01wdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T18:38:24Z",
-      "league": "all"
-    },
-    {
-      "title": "LIV confirms intention to wind down after five years",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T18:12:32Z",
       "league": "all"
     }
   ]
