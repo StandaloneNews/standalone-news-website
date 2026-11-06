@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T21:24:51Z",
+  "updated_at": "2026-11-06T22:02:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 20,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -668,6 +668,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475495",
+      "league": "nfl",
+      "name": "Baltimore Ravens vs Jacksonville Jaguars",
+      "date": "2026-11-06T01:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Baltimore Ravens",
+          "score": "10"
+        },
+        {
+          "name": "Jacksonville Jaguars",
+          "score": "33",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475496",
       "league": "nfl",
       "name": "Atlanta Falcons vs Cincinnati Bengals",
@@ -856,15 +876,148 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2398530",
+      "league": "brasileirao",
+      "name": "Vitória vs Fluminense",
+      "date": "2026-11-06T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vitória",
+          "score": ""
+        },
+        {
+          "name": "Fluminense",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398184",
+      "league": "argentina",
+      "name": "Independiente vs Deportivo Riestra",
+      "date": "2026-11-06T22:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Independiente",
+          "score": ""
+        },
+        {
+          "name": "Deportivo Riestra",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487587",
+      "league": "ligamx",
+      "name": "Necaxa vs Tijuana",
+      "date": "2026-11-07T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Necaxa",
+          "score": ""
+        },
+        {
+          "name": "Tijuana",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492917",
+      "league": "j1",
+      "name": "Shimizu S-Pulse vs Tokyo Verdy",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        },
+        {
+          "name": "Tokyo Verdy",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540125",
+      "league": "aleague",
+      "name": "Auckland FC vs Wellington Phoenix",
+      "date": "2026-11-07T04:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auckland FC",
+          "score": ""
+        },
+        {
+          "name": "Wellington Phoenix",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514025",
+      "league": "primeira",
+      "name": "Nacional de Madeira vs Académico de Viseu",
+      "date": "2026-11-07T15:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Nacional de Madeira",
+          "score": ""
+        },
+        {
+          "name": "Académico de Viseu",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2407202",
+      "league": "mls",
+      "name": "Inter Miami vs Charlotte FC",
+      "date": "2026-11-07T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Inter Miami",
+          "score": ""
+        },
+        {
+          "name": "Charlotte FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Everton v Coventry City: Premier League – live",
-      "source": "The Guardian Sport",
+      "title": "Everton 3-1 Coventry City: Premier League – live",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/everton-v-coventry-city-premier-league-live-updates",
-      "date": "2026-11-06T21:23:42Z",
-      "league": "all"
+      "date": "2026-11-06T21:56:06Z",
+      "league": "soccer"
     },
     {
       "title": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute",
@@ -875,13 +1028,13 @@
     },
     {
       "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T21:08:04Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
-      "title": "Title race is over - but intrigue in F1 continues",
+      "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T20:52:24Z",
