@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T09:17:07Z",
+  "updated_at": "2026-11-06T10:23:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,14 +818,59 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489546",
+      "league": "ligue1",
+      "name": "Toulouse vs Strasbourg",
+      "date": "2026-11-06T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Toulouse",
+          "score": ""
+        },
+        {
+          "name": "Strasbourg",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "England squad announced, Sunderland face jeers and the FA Cup first round: football news – live",
-      "source": "The Guardian Sport",
+      "title": "Jobe Bellingham called up by England, Sunderland face jeers and the FA Cup first round: football news – live",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T09:01:37Z",
+      "date": "2026-11-06T10:16:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Championship preview: Contenders, pretenders and strugglers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c38xzkkgg7rpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T09:22:00Z",
       "league": "all"
     },
     {
@@ -885,7 +930,7 @@
       "league": "all"
     },
     {
-      "title": "From playing against Messi & Ronaldo to non-league",
+      "title": "From playing against Messi and Ronaldo to non-league",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:42:07Z",
@@ -1100,13 +1145,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/05/mls-decision-day-storylines",
       "date": "2026-11-05T16:30:28Z",
       "league": "soccer"
-    },
-    {
-      "title": "'A void that is impossible to fill' - tributes paid at De Miguel's funeral",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr62y4yj39veo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-05T16:12:37Z",
-      "league": "all"
     },
     {
       "title": "Australian F1 world champion Alan Jones dies aged 80",
