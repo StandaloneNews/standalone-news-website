@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T16:34:51Z",
+  "updated_at": "2026-11-06T17:35:02Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 1
+      "events": 2
     },
     {
       "id": "mlb",
@@ -43,7 +43,7 @@
     {
       "id": "epl",
       "name": "Premier League",
-      "events": 1
+      "events": 2
     },
     {
       "id": "laliga",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -687,6 +687,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2601787",
+      "league": "nba",
+      "name": "Golden State Warriors vs Miami Heat",
+      "date": "2026-11-06T03:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Golden State Warriors",
+          "score": "120",
+          "winner": true
+        },
+        {
+          "name": "Miami Heat",
+          "score": "100"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2601788",
       "league": "nba",
       "name": "Charlotte Hornets vs Boston Celtics",
@@ -739,6 +759,26 @@
         {
           "name": "Virginia Tech",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2494080",
+      "league": "epl",
+      "name": "Newcastle United vs Everton",
+      "date": "2026-11-02T20:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Newcastle United",
+          "score": "0"
+        },
+        {
+          "name": "Everton",
+          "score": "1",
+          "winner": true
         }
       ],
       "url": ""
@@ -820,38 +860,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489546",
-      "league": "ligue1",
-      "name": "Toulouse vs Strasbourg",
-      "date": "2026-11-06T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2492904",
+      "league": "j1",
+      "name": "Machida Zelvia vs Gamba Osaka",
+      "date": "2026-11-01T07:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Toulouse",
-          "score": ""
+          "name": "Machida Zelvia",
+          "score": "0"
         },
         {
-          "name": "Strasbourg",
-          "score": ""
+          "name": "Gamba Osaka",
+          "score": "0"
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
+      "id": "sportsdb-2514030",
+      "league": "primeira",
+      "name": "Famalicao vs Arouca",
+      "date": "2026-11-06T20:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bodø/Glimt",
+          "name": "Famalicao",
           "score": ""
         },
         {
-          "name": "LASK",
+          "name": "Arouca",
           "score": ""
         }
       ],
@@ -859,6 +899,34 @@
     }
   ],
   "stories": [
+    {
+      "title": "Jobe Bellingham joining Jude in England squad is ‘beautiful’, says Tuchel: football news – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
+      "date": "2026-11-06T17:21:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Hamilton v Leclerc: how can Ferrari solve problem of two number one drivers?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers",
+      "date": "2026-11-06T17:08:05Z",
+      "league": "all"
+    },
+    {
+      "title": "James out for minimum of five games - Bompastor",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T16:44:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League team news: predicted lineups for the weekend action",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
+      "date": "2026-11-06T16:43:45Z",
+      "league": "soccer"
+    },
     {
       "title": "Is Palmer's England career over under Tuchel?",
       "source": "BBC Sport",
@@ -874,18 +942,11 @@
       "league": "all"
     },
     {
-      "title": "Jobe Bellingham ‘deserves’ England call; Arteta ‘can’t help’ leaving technical area: football news – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/06/england-squad-announced-sunderland-face-jeers-and-fa-cup-first-round-football-news-live",
-      "date": "2026-11-06T16:22:47Z",
-      "league": "all"
-    },
-    {
       "title": "Premier League news: United’s Baleba out for weeks, Maresca backs Donnarumma",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
       "date": "2026-11-06T16:06:30Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "The Fifa hopeful hoping to take Infantino down with 'samurai spirit'",
@@ -1098,13 +1159,6 @@
       "league": "all"
     },
     {
-      "title": "England beat Ireland to top Wheelchair World Cup group",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cj62yy5qnweeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T10:23:59Z",
-      "league": "all"
-    },
-    {
       "title": "Hockey’s streaming spree means there’s one fewer thing holding Canada together",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/hockeys-streaming-spree-means-theres-one-fewer-thing-holding-canada-together",
@@ -1159,20 +1213,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck98z2r17e6po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T06:53:56Z",
       "league": "all"
-    },
-    {
-      "title": "From playing against Messi and Ronaldo to non-league",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw054d7nmndzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T06:42:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Putting his doubters in their place' - Rooney lands pundit of year award",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4g1l4nj85zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T06:22:00Z",
-      "league": "soccer"
     }
   ]
 }
