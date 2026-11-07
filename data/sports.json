@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:55:36Z",
+  "updated_at": "2026-11-07T22:23:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -8,7 +8,7 @@
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 4
+      "events": 3
     },
     {
       "id": "nfl",
@@ -107,160 +107,6 @@
     }
   ],
   "events": [
-    {
-      "id": "mma-20261107-ufc-vegas-124-cortes-acosta-vs-walker",
-      "league": "ufc",
-      "name": "UFC Vegas 124: Cortes-Acosta vs. Walker",
-      "date": "2026-11-07T00:00:00Z",
-      "date_only": true,
-      "state": "upcoming",
-      "status": "Event date confirmed · Start time TBD",
-      "participants": [],
-      "fights": [
-        {
-          "fighters": [
-            {
-              "name": "Waldo Cortes-Acosta",
-              "score": ""
-            },
-            {
-              "name": "Johnny Walker",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Tatiana Suarez",
-              "score": ""
-            },
-            {
-              "name": "Virna Jandiroba",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Davey Grant",
-              "score": ""
-            },
-            {
-              "name": "Elijah Smith",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Billy Elekana",
-              "score": ""
-            },
-            {
-              "name": "Lucas Fernando",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Priscila Cachoeira",
-              "score": ""
-            },
-            {
-              "name": "Nina Milosevic",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Mitch Raposo",
-              "score": ""
-            },
-            {
-              "name": "Marcos Degli",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Keiichiro Nakamura",
-              "score": ""
-            },
-            {
-              "name": "Ollie Schmid",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Gabriel Lorenco",
-              "score": ""
-            },
-            {
-              "name": "Thomas Petersen",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Karine Silva",
-              "score": ""
-            },
-            {
-              "name": "Gabriella Fernandes",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
-              "name": "Jose Delano",
-              "score": ""
-            },
-            {
-              "name": "Murtazali Magomedov",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        }
-      ],
-      "url": "https://www.mmafighting.com/schedule",
-      "source": "MMA Fighting event schedule"
-    },
     {
       "id": "mma-20261114-ufc-334-gane-vs-hokit",
       "league": "ufc",
@@ -687,57 +533,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601797",
+      "id": "sportsdb-2601798",
       "league": "nba",
-      "name": "Indiana Pacers vs Denver Nuggets",
-      "date": "2026-11-07T22:00:00Z",
+      "name": "Atlanta Hawks vs Brooklyn Nets",
+      "date": "2026-11-08T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Indiana Pacers",
+          "name": "Atlanta Hawks",
           "score": ""
         },
         {
-          "name": "Denver Nuggets",
+          "name": "Brooklyn Nets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591751",
+      "id": "sportsdb-2591752",
       "league": "nhl",
-      "name": "Seattle Kraken vs New York Rangers",
-      "date": "2026-11-07T22:00:00Z",
+      "name": "New York Islanders vs New Jersey Devils",
+      "date": "2026-11-08T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Seattle Kraken",
+          "name": "New York Islanders",
           "score": ""
         },
         {
-          "name": "New York Rangers",
+          "name": "New Jersey Devils",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499223",
+      "id": "sportsdb-2499235",
       "league": "ncaaf",
-      "name": "Louisiana vs South Alabama",
-      "date": "2026-11-07T22:00:00Z",
+      "name": "Colorado State vs Boise State",
+      "date": "2026-11-07T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Louisiana",
+          "name": "Colorado State",
           "score": ""
         },
         {
-          "name": "South Alabama",
+          "name": "Boise State",
           "score": ""
         }
       ],
@@ -822,18 +668,53 @@
   ],
   "stories": [
     {
-      "title": "Port Vale ease past Scunthorpe at Vale Park",
+      "title": "Rotherham end 10-game losing run with FA Cup win over Bromley",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm93zr7lnqvko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:19:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish roundup: Naderi fires Rangers past St Mirren to keep pressure on Celtic",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
+      "date": "2026-11-07T22:08:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Adeeko's extra-time winner sends Fleetwood Town past Rochdale",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr5yn1xlzv27o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:08:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool considering Verbruggen move - Sunday's gossip",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:05:40Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Port Vale defeat non-league Scunthorpe in FA Cup",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm78p29vp706o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:53:36Z",
       "league": "all"
     },
     {
+      "title": "Match of the Day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/l00592bk?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:50:21Z",
+      "league": "all"
+    },
+    {
       "title": "Glasner glee and Delap double - win could be lift-off for Forest",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:42:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
@@ -892,7 +773,7 @@
       "league": "all"
     },
     {
-      "title": "Lando Norris claims F1 São Paulo GP pole as heavy rain disrupts qualifying",
+      "title": "Lando Norris claims F1 São Paulo GP pole as ‘crazy’ rain disrupts qualifying",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
       "date": "2026-11-07T20:53:55Z",
@@ -990,13 +871,6 @@
       "league": "soccer"
     },
     {
-      "title": "Former winners Wigan progress to second round of FA Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekz29k2yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:23:57Z",
-      "league": "all"
-    },
-    {
       "title": "Championship roundup: Birmingham go top, Cardiff stun Burnley from 4-1 down",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
@@ -1023,13 +897,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T18:33:18Z",
       "league": "soccer"
-    },
-    {
-      "title": "Seventh-tier Guiseley stun Sutton with stoppage-time penalty",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1nx3xgdjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:32:30Z",
-      "league": "all"
     },
     {
       "title": "National League Carlisle upset League Two leaders Salford",
@@ -1060,13 +927,6 @@
       "league": "soccer"
     },
     {
-      "title": "Powell and Phillips star as Bradford put seven past Marine",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:02:03Z",
-      "league": "all"
-    },
-    {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
@@ -1089,10 +949,10 @@
     },
     {
       "title": "Muniz rescues late point for Fulham against Newcastle after Murphy stunner",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/fulham-newcastle-premier-league-match-report",
       "date": "2026-11-07T17:00:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Goal caps eye-catching Odegaard display - player ratings for Arsenal v Hull",
@@ -1103,10 +963,10 @@
     },
     {
       "title": "Tottenham set to complain to Pro Ref after Bogle escapes red card",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T16:35:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
@@ -1120,20 +980,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
       "date": "2026-11-07T15:11:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Okafor seals Leeds win but Tottenham complain to Pro Ref over Bogle tackle on Tel",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
-      "date": "2026-11-07T14:34:21Z",
-      "league": "all"
-    },
-    {
-      "title": "‘A footballing alien’: Mamadou Sangaré soars to Premier League heights",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/a-footballing-alien-mamadou-sangare-brentford-mali-premier-league",
-      "date": "2026-11-07T12:00:13Z",
       "league": "soccer"
     }
   ]
