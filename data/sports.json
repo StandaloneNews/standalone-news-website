@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T07:44:45Z",
+  "updated_at": "2026-11-07T08:34:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -837,28 +837,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Arsenal and Manchester City in action, FA Cup first round news and more – matchday live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
+      "date": "2026-11-07T08:28:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Buatsi v Hutchinson 2 - world light-heavyweight title fight predictions",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T08:00:59Z",
+      "league": "all"
+    },
+    {
+      "title": "England have been backed into a corner – it should bring out their best against Australia | Ugo Monye",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/england-have-been-backed-into-a-corner-it-should-bring-out-their-best-against-australia",
+      "date": "2026-11-07T08:00:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Infantino caught in the web as tide turns against Trump in midterms and leaves Fifa exposed | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/gianni-infantino-fifa-donald-trump-democrats-republicans",
+      "date": "2026-11-07T08:00:05Z",
+      "league": "all"
+    },
     {
       "title": "I had to play regularly for my mental wellbeing - Trafford on summer move",
       "source": "BBC Sport",
@@ -966,10 +975,10 @@
     },
     {
       "title": "Premier League news: Arteta insists Rice isn’t playing too many games",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
       "date": "2026-11-06T23:09:22Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Big decisions' affected the game - Lampard",
@@ -1018,13 +1027,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
       "date": "2026-11-06T22:03:48Z",
-      "league": "all"
-    },
-    {
-      "title": "USA women throttle Switzerland 7-0 to open hockey worlds amid jersey dispute",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/usa-switzerland-canada-sweden-womens-world-hockey-championship",
-      "date": "2026-11-06T21:13:22Z",
       "league": "all"
     },
     {
@@ -1151,27 +1153,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyvv7pkqrno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T15:21:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘It’s in our blood’: Lebanon, Ukraine and Syria rugby league teams fly the flag despite horrors of war at home",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/lebanon-syria-ukraine-rugby-league-teams-war-world-cup",
-      "date": "2026-11-06T15:12:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Whirlwhind year from Wolverhampton to Hong Kong for Leger heroine Osborne",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/whirlwhind-year-from-wolverhampton-to-hong-kong-st-leger-heroine-saffie-osborne",
-      "date": "2026-11-06T15:09:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Football Daily | You want proper football? Here are the FA Cup first-round ties to look out for",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/fa-cup-first-round-ties-to-look-out-for-football-daily-newsletter",
-      "date": "2026-11-06T14:55:19Z",
       "league": "soccer"
     }
   ]
