@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:56:40Z",
+  "updated_at": "2026-11-07T23:24:42Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -571,19 +571,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499235",
+      "id": "sportsdb-2499236",
       "league": "ncaaf",
-      "name": "Colorado State vs Boise State",
-      "date": "2026-11-07T23:00:00Z",
+      "name": "Jacksonville State vs Sam Houston State",
+      "date": "2026-11-08T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Colorado State",
+          "name": "Jacksonville State",
           "score": ""
         },
         {
-          "name": "Boise State",
+          "name": "Sam Houston State",
           "score": ""
         }
       ],
@@ -687,6 +687,48 @@
   ],
   "stories": [
     {
+      "title": "Match of the Day",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Pearce double fires York City past Northampton Town",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqj34km75eydo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:18:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Non-league Barrow beat League Two Gillingham with injury-time winner",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn1xqv686o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:15:30Z",
+      "league": "all"
+    },
+    {
+      "title": "FA Cup roundup: Charlie Savage gets one over dad Robbie as Reading thrash Peterborough",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+      "date": "2026-11-07T23:11:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Highlights: Exeter shock League One leaders Huddersfield",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq8rz7lyl5g8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:08:32Z",
+      "league": "all"
+    },
+    {
+      "title": "McNeill's superb halfway goal sparks Crewe upset over Wimbledon",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cv5yn15k5pz0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:05:36Z",
+      "league": "all"
+    },
+    {
       "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
@@ -729,32 +771,11 @@
       "league": "all"
     },
     {
-      "title": "Adeeko's extra-time winner sends Fleetwood Town past Rochdale",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr5yn1xlzv27o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:08:06Z",
-      "league": "soccer"
-    },
-    {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T22:05:40Z",
       "league": "soccer"
-    },
-    {
-      "title": "Port Vale defeat non-league Scunthorpe in FA Cup",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm78p29vp706o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:53:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Match of the Day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/l00592bk?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:50:21Z",
-      "league": "all"
     },
     {
       "title": "Glasner glee and Delap double - win could be lift-off for Forest",
@@ -876,13 +897,6 @@
       "league": "all"
     },
     {
-      "title": "Seven-try New Zealand too strong for Scotland",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c9vgr21ejk40o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:40:55Z",
-      "league": "all"
-    },
-    {
       "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
@@ -911,20 +925,6 @@
       "league": "soccer"
     },
     {
-      "title": "Highlights: Wales 28-21 Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckd6d1496g3wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:02:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Shaw hat-trick gives five-star Man City dominant win over West Ham",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqlyek7wpnl0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:35:43Z",
-      "league": "all"
-    },
-    {
       "title": "Argentina set to go to Cas after Fifa rejects appeals",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
@@ -946,25 +946,11 @@
       "league": "all"
     },
     {
-      "title": "FA Cup roundup: non-league Kidderminster stun Doncaster as Exeter upset Huddersfield",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
-      "date": "2026-11-07T18:15:34Z",
-      "league": "all"
-    },
-    {
       "title": "Bowler's extra-time winner for Blackpool sinks 10-man Hornchurch",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqm26j0x2xzlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T18:11:12Z",
       "league": "soccer"
-    },
-    {
-      "title": "Powell and Phillips star as Bradford put seven past Marine",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:02:03Z",
-      "league": "all"
     },
     {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
@@ -999,6 +985,20 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T16:35:26Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
+      "date": "2026-11-07T16:27:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
+      "date": "2026-11-07T15:11:59Z",
       "league": "soccer"
     }
   ]
