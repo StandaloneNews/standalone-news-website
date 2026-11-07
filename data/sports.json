@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T09:29:42Z",
+  "updated_at": "2026-11-07T10:26:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -818,34 +818,22 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489548",
-      "league": "ligue1",
-      "name": "Auxerre vs Paris FC",
-      "date": "2026-11-07T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auxerre",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Arsenal and Manchester City in action, FA Cup first round news and more – matchday live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
-      "date": "2026-11-07T09:27:15Z",
-      "league": "all"
+      "date": "2026-11-07T10:17:50Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pln6dk?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T10:00:00Z",
+      "league": "soccer"
     },
     {
       "title": "New Zealand reach Women’s Rugby League World Cup final as Waaka hat-trick sinks Samoa",
@@ -884,13 +872,13 @@
     },
     {
       "title": "I had to play regularly for my mental wellbeing - Trafford on summer move",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T07:27:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
-      "title": "Not playing at Man City 'horrendous' - Trafford",
+      "title": "Not playing was horrendous, I left Man City for mental wellbeing - Trafford",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T07:16:37Z",
@@ -1021,13 +1009,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/06/ireland-argentina-nations-championship-match-report",
       "date": "2026-11-06T22:20:54Z",
       "league": "all"
-    },
-    {
-      "title": "Raith Rovers go top with Dunfermline draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/videos/c3qjnnpr9xzno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:06:01Z",
-      "league": "soccer"
     },
     {
       "title": "Thierno Barry double fires Everton to comeback win against Coventry",
