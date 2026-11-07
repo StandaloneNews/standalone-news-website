@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T02:10:24+00:00",
+  "updated_at": "2026-11-07T02:59:37+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -24,8 +24,8 @@
     "42a555c90e3be1ee65fdb50c",
     "9bf74dfc2091c0deb97f0691",
     "2993c3bddd49024d05647913",
-    "d85f1947ad017220fecd24ef",
     "b6ef7f1395a13bf96bbfd522",
+    "48a26be0d0669fa5f2a7c6ba",
     "ec2480d446f6212cddc53432",
     "6c7191a9daddd03288372f92"
   ],
@@ -41,6 +41,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T01:55:11+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "601439222905953938ba7f4b",
+      "title": "CDC reports more than 5,000 measles cases, highest number in 35 years",
+      "summary": "Children and teenagers make up almost 60 percent of confirmed cases.",
+      "url": "https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T01:55:03+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -120,6 +133,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "1d2074db1a3e5ae0a3fa8b1b",
+      "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
+      "summary": "Jehovah's Witness leaders relaxed strict rules on blood transfusions, but the change came 23 days too late for Isaac Valdez.",
+      "url": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T01:27:47+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "8bd014409233113582f88270",
       "title": "Paraguay's president impeached after collapse of bank",
       "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
@@ -135,7 +161,7 @@
     {
       "id": "6ab2b81b876b396f2d61308c",
       "title": "Ben Roberts-Smith collaborates with gym business run by influencer that sold ‘war crimes’ pre-workout supplement",
-      "summary": "Zero Limits supplements is co-owned by rightwing podcaster and fitness coach Chris Katelaris, also known as ‘Big Chocky’ Get our breaking news email , free app or daily news podcast Ben Roberts-Smith has collaborated with a gym supplements company run by a right-wing influencer which recently sold a pre-workout product called “war crimes”. Roberts-Smith, one of Australia’s most decorated living soldiers who is currently awaiting trial on war crimes charges, has recently launched an apparel brand, Epic 1 Two, producing t-shirts and gym wear . Continue reading...",
+      "summary": "Zero Limits supplements is co-owned by rightwing podcaster and fitness coach Chris Katelaris, also known as ‘Big Chocky’ Get our breaking news email , free app or daily news podcast Ben Roberts-Smith has collaborated with a gym supplements company run by a rightwing influencer which recently sold a pre-workout product called “war crimes”. Roberts-Smith, one of Australia’s most decorated living soldiers who is currently awaiting trial on war crimes charges, has recently launched an apparel brand, Epic 1 Two, producing T-shirts and gym wear . Continue reading...",
       "url": "https://www.theguardian.com/australia-news/2026/nov/07/ben-roberts-smith-collaborates-gym-business-influencer-war-crimes-pre-workout-supplement-ntwnfb",
       "source": "The Guardian",
       "feed_id": "guardian_world",
@@ -273,6 +299,19 @@
       "selection_type": "automatic"
     },
     {
+      "id": "2f4f1fdc54caf398fc354cf3",
+      "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
+      "summary": "Kiernan Dewsbury-Hall responds to his England omission by scoring a stunning goal to inspire Everton's 3-1 comeback victory over Coventry City.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T23:53:06+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
       "id": "ccee2736ab75fd696752881a",
       "title": "News Wrap: Judge blocks construction of Trump's triumphal arch for now",
       "summary": "In our news wrap Friday, Trump's plans to build a massive triumphal arch near Arlington National Cemetery have been put on hold, two more top officials resigned from the Justice Department, residents along the Georgia-Tennessee border are returning home after record floodwaters receded, Pope Leo started his 12-day tour of Latin America, and Tesla will wind down production of its Cybertruck.",
@@ -335,17 +374,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T23:40:45+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/United_States_Capitol_Building%2C_East_Front.jpg/1280px-United_States_Capitol_Building%2C_East_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_Building,_East_Front.jpg",
-        "source": "Wikimedia Commons",
-        "creator": "EEBS27",
-        "license": "CC BY-SA 4.0",
-        "description": "United States Capitol building from the east side (front)",
-        "label": "Illustrative photo",
-        "matched_query": "United States Capitol building"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "384cab4bfab8e31859f00f0a",
@@ -448,6 +477,19 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T23:24:15+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "ce2637c9dbe191c3738c3238",
+      "title": "Paraguay: President Santiago Pena under house arrest over bank crisis",
+      "summary": "Paraguay’s Senate has ousted President Santiago Pena over the collapse of a major bank tied to his government. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
+      "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T23:23:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -1858,11 +1900,11 @@
       "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
       "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
+      "feed_id": "bbc_top",
+      "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T18:32:16+00:00",
-      "desk_priority": 38,
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -1876,6 +1918,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T18:30:36+00:00",
       "desk_priority": 31,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "9b64bdfeeaf2190e7f17e951",
+      "title": "Dutch launch shows smugglers are adapting, says MP",
+      "summary": "Dover MP Mike Tapp says smugglers will find new launch locations and methods due to disruptions.",
+      "url": "https://www.bbc.co.uk/news/articles/c689zzvl5yp8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-06T18:29:29+00:00",
+      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -2833,7 +2888,7 @@
       "summary": "No link has been established between the threats against the airlines and those against the media outlets.",
       "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "feed_id": "bbc_top",
+      "feed_id": "bbc_world",
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T15:25:35+00:00",
@@ -5474,71 +5529,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T05:27:24+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "667a8dcf183660e0b2bfca0e",
-      "title": "Beau Lamarre-Condon tells double murder trial firing first shot at Jesse Baird’s shoulder was ‘the right move’",
-      "summary": "Former NSW police officer gives evidence for a second day after pleading not guilty to murdering Baird and Luke Davies in early 2024 The day in court: Prosecution begins cross-examination of double murder accused Beau Lamarre-Condon Beau Lamarre-Condon “stands by” his decision to shoot Jesse Baird but did not intend to kill him, the New South Wales supreme court has heard. The former police officer is accused of fatally shooting Baird and his partner, Luke Davies, with his police service weapon in Baird’s Paddington home in Sydney on 19 February 2024. Continue reading...",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/06/beau-lamarre-condon-trial-witness-box-evidence-case-ntwnfb",
-      "source": "The Guardian",
-      "feed_id": "guardian_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T05:17:05+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "ccb67d959929d050167cbf2a",
-      "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
-      "summary": "The Trump administration hoped to begin construction immediately after a federal panel approved its arch late Thursday. But just after midnight, the judge issued an order blocking work for 14 days.",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
-      "source": "NPR",
-      "feed_id": "npr_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T05:05:43+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "baee136e8ad92073abee4158",
-      "title": "Why one Republican won a redrawn Texas district despite blue tsunami",
-      "summary": "Republican redistricting largely backfired in Texas and beyond, but one redrawn district delivered for the party.",
-      "url": "https://www.aljazeera.com/news/2026/11/6/why-one-republican-won-a-redrawn-texas-district-despite-blue-tsunami?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T05:03:57+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "68321539ccea6372920de826",
-      "title": "Awkwafina: The Unlikely Cook review – the heir to a legendary eatery … who sets soup on fire",
-      "summary": "She is completely baffled in the kitchen, but the star valiantly resurrects her family’s famous restaurant. Her journey is chaotic, hilarious – and deeply moving It starts both very well and very badly does Awkwafina: The Unlikely Cook. On the one hand, our host’s absolute ignorance of how food works – or pans, or knives, or plates – has a refreshing authenticity about it. Too often in these shows, in which a celebrity goes on A Journey to acquire basic knowledge in what is generally considered to be a normal field of human endeavour, their lack of exposure to it or inability therein is pretended or hammed up. But actor, rapper and comedian Awkwafina – real name Nora Lum, which is what she uses for this series beyond the title, for reasons that will become clear – is the real, wholly baffled deal. Non-game recognises non-game, and as a ki",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/06/awkwafina-the-unlikely-cook-review",
-      "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T05:01:43+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "647b7ca14bb51e9f85060c4e",
-      "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
-      "summary": "Call comes as Iraq's top diplomat urges armed groups not to join any Iranian retaliation to US attacks.",
-      "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T05:00:47+00:00",
-      "desk_priority": 51,
       "selection_type": "automatic"
     }
   ]
