@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:14:36+00:00",
+  "updated_at": "2026-11-07T09:07:21+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -9,8 +9,8 @@
     "4f5e858724093851a16d5e5e",
     "1f192bdc02a0d824f981950a",
     "f038df72f5211fbed7549667",
+    "efcd184cc68d8ccbb2d65323",
     "fa99e7c7ac9f0bbcc10c7434",
-    "8a8f7d6e028878f8dea90cb0",
     "65b58d3759f8d83ca416dd5b",
     "c5cfc173e64341d80f41f230",
     "6921e45d9c5909960ee86820",
@@ -32,6 +32,19 @@
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
     {
+      "id": "c258bdc31c69aa1bcddd52f4",
+      "title": "Why a wave of bomb threats is proving so difficult for Europe's aviation authorities to contain",
+      "summary": "The \"weakest point of aviation is targeting it in-flight,\" analysts say — but any change to procedures will be a lengthy process.",
+      "url": "https://www.cnbc.com/2026/11/07/hoax-bomb-threats-flights-europe.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T09:01:57+00:00",
+      "desk_priority": 37,
+      "selection_type": "automatic"
+    },
+    {
       "id": "0bd9f34f26827a02db74b700",
       "title": "New Zealand election 2026 live results: Labour draws level with National as count continues in close race",
       "summary": "Polls show no coalition is expected to secure a majority of seats, in one of the closest elections in recent history New Zealand heads for election cliffhanger with minor party cast as kingmaker In New Zealand’s bellwether seat, what are locals thinking as a knife-edge poll looms? Another update here with 8% of the vote counted . National on 31.2%, Labour 28.4%, the Greens 12.9%, Act 11.2%, NZ First 9.6%, Opportunity 5.7% and Te Pāti Māori 0.4%. On these numbers, we would have a right bloc coalition back in power. Long way to go . Continue reading...",
@@ -40,7 +53,72 @@
       "feed_id": "guardian_world",
       "category": "World",
       "source_type": "Publisher RSS",
-      "published_at": "2026-11-07T08:03:59+00:00",
+      "published_at": "2026-11-07T08:53:31+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "efcd184cc68d8ccbb2d65323",
+      "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
+      "summary": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections.",
+      "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T08:45:36+00:00",
+      "desk_priority": 51,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "dda962acfd114bf9c615a38d",
+      "title": "Amid protests, France's rising debt costs threaten stability",
+      "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
+      "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T08:16:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "99edd694c05ffca775038a26",
+      "title": "Amid protests, France's rising debt costs threaten stability",
+      "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
+      "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_business",
+      "category": "Economy",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T08:16:00+00:00",
+      "desk_priority": 38,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "7ec4b19be3283c20a693b266",
+      "title": "Texas mayor instructs police to limit co-operation with ICE",
+      "summary": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
+      "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T08:15:55+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "af4322a474537e10cd5d4d04",
+      "title": "Doncic’s 53 points lift Lakers as Cavs top Sixers in LeBron James’s return",
+      "summary": "LA Lakers star Doncic closed the first half with an astonishing shot from well beyond the half-court line.",
+      "url": "https://www.aljazeera.com/sports/2026/11/7/doncic-lakers-lebron-cavaliers-sixers-nba-cup-basketball?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T08:10:01+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     },
@@ -55,6 +133,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T07:50:16+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "50e55ef84e85c2f0b4c61357",
+      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+      "summary": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
+      "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T07:37:36+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -264,8 +355,8 @@
     },
     {
       "id": "89cb88a960599d33f6a870cb",
-      "title": "Governing party ahead in early results of New Zealand’s knife-edge vote",
-      "summary": "Early count suggests New Zealand's National and Labour parties are neck and neck, with neither likely to govern alone.",
+      "title": "Two main parties neck and neck after New Zealand vote, early count",
+      "summary": "Early results suggests New Zealand's National and Labour parties polling just short of 30 percent of the popular vote.",
       "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results?traffic_source=rss",
       "source": "Al Jazeera English",
       "feed_id": "aljazeera",
@@ -299,6 +390,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T06:00:05+00:00",
       "desk_priority": 24,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d0c560723bc26913a13a5525",
+      "title": "The race is on to build the first fusion power plant — and Europe is looking to Japan for help",
+      "summary": "Fusion energy has the potential to provide abundant, clean power. Now, the race is on to develop the world’s first commercial plant.",
+      "url": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T06:00:01+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -510,19 +614,6 @@
       "selection_type": "automatic"
     },
     {
-      "id": "7ec4b19be3283c20a693b266",
-      "title": "Texas mayor instructs police to limit co-operation with ICE",
-      "summary": "The new policy, which comes after a Democratic sweep of the state, will limit the people it will inform the immigration agency about to those who have been arrested for jailable offences.",
-      "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-07T03:31:54+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
       "id": "d6e3cd7c26058cc3839e21a2",
       "title": "How the US midterm elections reflected resistance to data centres",
       "summary": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
@@ -598,6 +689,19 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T02:03:28+00:00",
       "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "1e1b370131f51b55cf4ef0be",
+      "title": "Inside the card-grading empire shaping the price of Pokémon cards",
+      "summary": "PSA’s resale premium, backlog and grading-market dominance shape what collectors pay — and how much their Pokémon cards may fetch.",
+      "url": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
+      "source": "CNBC",
+      "feed_id": "cnbc_top",
+      "category": "Markets",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-07T02:00:01+00:00",
+      "desk_priority": 37,
       "selection_type": "automatic"
     },
     {
@@ -1630,7 +1734,7 @@
     {
       "id": "604e55f2efd2ea1c82651ac3",
       "title": "Stephen Miller named by Trump as new White House chief of staff",
-      "summary": "Trump said he would be replacing Susie Wiles for the top advisory role. Miller is controversial figure, known as a key architect of the administration's hardline immigration policies.",
+      "summary": "The US president said he would be replacing Susie Wiles for the top advisory role. Stephen Miller is a controversial figure, known as a key architect of the administration's hard-line immigration policies.",
       "url": "https://www.dw.com/en/stephen-miller-named-by-trump-as-new-white-house-chief-of-staff/a-79881571?maca=en-rss-en-top-1022-rdf",
       "source": "Deutsche Welle",
       "feed_id": "dw_top",
@@ -3554,11 +3658,11 @@
       "summary": "The Cybertruck and its polarizing design gained a niche following, but it did not achieve mass-market sales and Tesla has issued several voluntary recalls.",
       "url": "https://www.cnbc.com/2026/11/06/tesla-cybertruck-texas-musk.html",
       "source": "CNBC",
-      "feed_id": "cnbc_top",
-      "category": "Markets",
+      "feed_id": "cnbc_business",
+      "category": "Economy",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T15:06:11+00:00",
-      "desk_priority": 37,
+      "desk_priority": 38,
       "selection_type": "automatic"
     },
     {
@@ -3689,19 +3793,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T14:46:03+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "99edd694c05ffca775038a26",
-      "title": "Amid protests, France's rising debt costs threaten stability",
-      "summary": "France plans to spend an extra €4 billion on education amid nationwide protests. But with public debt mounting and interest costs climbing, how much fiscal room does the government have?",
-      "url": "https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-bus-2091-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T14:37:00+00:00",
-      "desk_priority": 38,
       "selection_type": "automatic"
     },
     {
@@ -5428,97 +5519,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T09:34:00+00:00",
       "desk_priority": 53,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "aa3c7d935000a0521b9db704",
-      "title": "French school bus crashes causing several injuries",
-      "summary": "A school bus has crashed in France, with reports of \"several victims.\"",
-      "url": "https://www.dw.com/en/french-school-bus-crashes-causing-several-injuries/a-79873221?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:32:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6501d8c665729ac899c4e616",
-      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
-      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats' US midterm victory have rattled global markets.",
-      "url": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-bus-2091-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:29:00+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "73d1fc866204225058e10fd4",
-      "title": "European shares join a global sell-off as AI spending fears rattle Wall Street and Asian markets",
-      "summary": "European shares have fallen after sharp losses in Asia and on Wall Street. Doubts over huge AI investments and fears of curbs following the Democrats' US midterm victory have rattled global markets.",
-      "url": "https://www.dw.com/en/european-shares-join-a-global-sell-off-as-ai-spending-fears-rattle-wall-street-and-asian-markets/a-79871504?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:29:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1e0192d1cca6c958750cb0ea",
-      "title": "How does it affect me if share prices fall?",
-      "summary": "Changes in the FTSE 100 and other indexes are not just for financial experts, they can affect our lives.",
-      "url": "https://www.bbc.co.uk/news/articles/c33zdz2m1e2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:21:50+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "b75c1ede5f4219c392f9c3c3",
-      "title": "After cancer surgery, Pope Leo embarks on Latin America trip",
-      "summary": "Pope Leo XIV is kicking off a three-nation tour of Latin America with a visit to Uruguay, three weeks after undergoing lung cancer surgery that had put the entire trip into question.",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
-      "source": "NPR",
-      "feed_id": "npr_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:19:57+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "89b5f6f07cd9652cf3d4b2ce",
-      "title": "Trump signs order to preserve Oval Office as national monument",
-      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:19:57+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "6b8d48fdb1d9be609c6aa7ae",
-      "title": "Court grants ex-Malaysian PM Najib house arrest after $12m royal pardon",
-      "summary": "Court had approved his transfer after the former prime minister's party paid $12m fine via crowdfunding.",
-      "url": "https://www.aljazeera.com/news/2026/11/6/courts-grant-ex-malaysian-pm-najib-house-arrest-after-12m-royal-pardon?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T09:01:40+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     }
   ]
