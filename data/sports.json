@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T22:23:31Z",
+  "updated_at": "2026-11-07T22:56:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -664,9 +664,56 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489545",
+      "league": "ligue1",
+      "name": "Rennes vs Lille",
+      "date": "2026-11-08T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Rennes",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:44:20Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Randall's last-gasp winner sends Chesterfield past Yeovil in seven-goal thriller",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cky937j8vxxeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:35:13Z",
+      "league": "all"
+    },
+    {
+      "title": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
+      "date": "2026-11-07T22:30:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T22:29:37Z",
+      "league": "ufc"
+    },
     {
       "title": "Rotherham end 10-game losing run with FA Cup win over Bromley",
       "source": "BBC Sport",
@@ -683,10 +730,10 @@
     },
     {
       "title": "Adeeko's extra-time winner sends Fleetwood Town past Rochdale",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cr5yn1xlzv27o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T22:08:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
@@ -697,10 +744,10 @@
     },
     {
       "title": "Port Vale defeat non-league Scunthorpe in FA Cup",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm78p29vp706o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:53:36Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Match of the Day",
@@ -729,13 +776,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cq77p24myz4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:25:19Z",
       "league": "all"
-    },
-    {
-      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:23:26Z",
-      "league": "ufc"
     },
     {
       "title": "McGeehan hat-trick powers Barnsley to 7-2 win over Aldershot",
@@ -792,13 +832,6 @@
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gell5l7l3zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T20:48:40Z",
       "league": "all"
-    },
-    {
-      "title": "Maresca looking to understand Man City's 'lack of intensity'",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmly0d6r6pggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T20:42:23Z",
-      "league": "soccer"
     },
     {
       "title": "NWSL playoffs: Cooper’s extra-time penalty sends Kansas City through as Utah stun San Diego",
@@ -927,18 +960,18 @@
       "league": "soccer"
     },
     {
+      "title": "Powell and Phillips star as Bradford put seven past Marine",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T18:02:03Z",
+      "league": "all"
+    },
+    {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:23:20Z",
       "league": "all"
-    },
-    {
-      "title": "European football: Bayern beat Mainz but Neuer’s record-breaking day turns sour",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
-      "date": "2026-11-07T17:13:48Z",
-      "league": "soccer"
     },
     {
       "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
@@ -966,20 +999,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T16:35:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
-      "date": "2026-11-07T16:27:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
-      "date": "2026-11-07T15:11:59Z",
       "league": "soccer"
     }
   ]
