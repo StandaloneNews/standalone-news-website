@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T23:24:42Z",
+  "updated_at": "2026-11-07T23:55:23Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -664,25 +664,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489545",
-      "league": "ligue1",
-      "name": "Rennes vs Lille",
-      "date": "2026-11-08T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Rennes",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -694,6 +675,20 @@
       "league": "all"
     },
     {
+      "title": "York score after 10 seconds against Northampton following unique kick-off",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c893zrl4p7npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:38:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Hutchinson beats Buatsi to win WBC light-heavyweight title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqx2vw8demexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:26:08Z",
+      "league": "all"
+    },
+    {
       "title": "Pearce double fires York City past Northampton Town",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqj34km75eydo?at_medium=RSS&at_campaign=rss",
@@ -702,10 +697,10 @@
     },
     {
       "title": "Non-league Barrow beat League Two Gillingham with injury-time winner",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn1xqv686o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T23:15:30Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "FA Cup roundup: Charlie Savage gets one over dad Robbie as Reading thrash Peterborough",
@@ -744,10 +739,10 @@
     },
     {
       "title": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
       "date": "2026-11-07T22:30:08Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
@@ -757,18 +752,11 @@
       "league": "ufc"
     },
     {
-      "title": "Rotherham end 10-game losing run with FA Cup win over Bromley",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm93zr7lnqvko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:19:46Z",
-      "league": "all"
-    },
-    {
       "title": "Scottish roundup: Naderi fires Rangers past St Mirren to keep pressure on Celtic",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
       "date": "2026-11-07T22:08:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
@@ -803,6 +791,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn139zgw0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:22:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Enzo Maresca rues Manchester City’s lack of desire after defeat at Nottingham Forest",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
+      "date": "2026-11-07T21:17:41Z",
       "league": "all"
     },
     {
@@ -904,13 +899,6 @@
       "league": "all"
     },
     {
-      "title": "Delap’s Nottingham Forest stunners hand Manchester City third league defeat in a row",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/nottingham-forest-manchester-city-premier-league-match-report",
-      "date": "2026-11-07T19:30:43Z",
-      "league": "all"
-    },
-    {
       "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
@@ -993,13 +981,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
       "date": "2026-11-07T16:27:39Z",
       "league": "all"
-    },
-    {
-      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
-      "date": "2026-11-07T15:11:59Z",
-      "league": "soccer"
     }
   ]
 }
