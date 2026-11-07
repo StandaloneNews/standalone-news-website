@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T06:32:00Z",
+  "updated_at": "2026-11-07T07:44:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -818,9 +818,96 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489548",
+      "league": "ligue1",
+      "name": "Auxerre vs Paris FC",
+      "date": "2026-11-07T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "I had to play regularly for my mental wellbeing - Trafford on summer move",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq62yyveznrro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T07:27:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Not playing at Man City 'horrendous' - Trafford",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T07:16:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwg5jj21e519o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T06:53:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Non-league's greatest giant-killers eye another scalp",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqev332mv1lyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T06:45:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Japan date starts pivotal month for Welsh rugby",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq8ez336g0r1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T06:25:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Rise of the ‘schooligans’: how a wave of antisocial behaviour threatens non-league football",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/antisocial-behaviour-non-league-football-youth-hooligans-police",
+      "date": "2026-11-07T06:00:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Golden State Warriors’ Kristaps Porziņģis steps away from basketball over undisclosed health issue",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/kristaps-porzingis-warriors-steps-away-basketball-health",
+      "date": "2026-11-07T01:47:39Z",
+      "league": "all"
+    },
     {
       "title": "Bad blood? Knicks defend Taylor Swift after players accuse her of being ‘fake fan’",
       "source": "The Guardian Sport",
@@ -892,13 +979,6 @@
       "league": "all"
     },
     {
-      "title": "Not a good performance, but we got a result - Moyes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmreyy2ndd95o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:40:56Z",
-      "league": "soccer"
-    },
-    {
       "title": "Alcaraz beats Fritz to help Jodar reach ATP finals",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c6e9lldl3lpjo?at_medium=RSS&at_campaign=rss",
@@ -924,13 +1004,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/ireland-argentina-nations-championship-match-report",
       "date": "2026-11-06T22:20:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Keenan hat-trick as six-try Ireland beat Pumas",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmgellz7dn52o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:06:12Z",
       "league": "all"
     },
     {
@@ -976,14 +1049,14 @@
       "league": "all"
     },
     {
-      "title": "Nations championship, Rugby League World Cup and NFL action – follow with us",
+      "title": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
       "date": "2026-11-06T20:33:58Z",
       "league": "all"
     },
     {
-      "title": "Australia need a way to turn moments into momentum to revive spirits",
+      "title": "Australia need a way to turn moments into momentum and revive spirits",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/06/australia-need-a-way-to-turn-moments-into-momentum-to-revive-spirits",
       "date": "2026-11-06T20:02:08Z",
@@ -1054,10 +1127,10 @@
     },
     {
       "title": "Premier League team news: predicted lineups for the weekend action",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-team-news-predicted-lineups-for-the-weekend-action",
       "date": "2026-11-06T16:43:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Is Palmer's England career over under Tuchel?",
@@ -1099,41 +1172,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/fa-cup-first-round-ties-to-look-out-for-football-daily-newsletter",
       "date": "2026-11-06T14:55:19Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Jaguars inflict fourth straight defeat on Ravens",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/cwp8gge4r428o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T14:27:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Portugal coach 'knew nothing' about Ronaldo retiring",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwzd66r22j68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T14:25:41Z",
-      "league": "all"
-    },
-    {
-      "title": "'A beautiful story' as Bellingham brothers called up",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2vvjy2rpeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T14:16:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Harborough sign 6ft 9in striker Hudlin before FA Cup tie",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxvgdd7q2dm3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T13:54:50Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Talking points as Premiership prepares for international break",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq78ppm5ge80o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T13:44:22Z",
       "league": "soccer"
     }
   ]
