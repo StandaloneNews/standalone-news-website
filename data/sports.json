@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T14:05:40Z",
+  "updated_at": "2026-11-07T14:58:59Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -782,19 +782,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508406",
+      "id": "sportsdb-2508409",
       "league": "bundesliga",
-      "name": "Mainz vs Bayern Munich",
-      "date": "2026-11-07T14:30:00Z",
+      "name": "Stuttgart vs Werder Bremen",
+      "date": "2026-11-07T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Mainz",
+          "name": "Stuttgart",
           "score": ""
         },
         {
-          "name": "Bayern Munich",
+          "name": "Werder Bremen",
           "score": ""
         }
       ],
@@ -818,47 +818,63 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489548",
-      "league": "ligue1",
-      "name": "Auxerre vs Paris FC",
-      "date": "2026-11-07T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auxerre",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Leeds United v Tottenham Hotspur: Premier League – live",
-      "source": "The Guardian Sport",
+      "title": "Arsenal v Hull City, Fulham v Newcastle United, FA Cup and more: football – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-v-hull-city-fulham-v-newcastle-united-fa-cup-and-more-football-live",
+      "date": "2026-11-07T14:53:30Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Leeds United 1-0 Tottenham Hotspur: Premier League – live",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/07/leeds-united-v-tottenham-hotspur-premier-league-live",
-      "date": "2026-11-07T14:03:34Z",
-      "league": "all"
+      "date": "2026-11-07T14:53:07Z",
+      "league": "soccer"
     },
     {
       "title": "Scotland v New Zealand: Nations Championship rugby union – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
-      "date": "2026-11-07T14:00:35Z",
+      "date": "2026-11-07T14:51:18Z",
       "league": "all"
     },
     {
-      "title": "Arsenal v Hull City, Fulham v Newcastle United, FA Cup and more: football – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-v-hull-city-fulham-v-newcastle-united-fa-cup-and-more-football-live",
-      "date": "2026-11-07T13:55:25Z",
+      "title": "Tongue ruled out of Australia tour as Rashid stars in warm-up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c875p26gnnp2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T14:41:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Rahm edges ahead of Hatton & McIlroy in Abu Dhabi",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/crq5nvdq726jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T14:36:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Okafor the difference despite Van Hecke defiance - Leeds v Spurs ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T14:35:23Z",
+      "league": "all"
+    },
+    {
+      "title": "How 'calm' Eustace got the result he needed for Derby",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqlyek7ywx3no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T14:12:45Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Scotland lose Welsh and call up Porteous",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrdyzrvgro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T13:57:46Z",
       "league": "all"
     },
     {
@@ -918,13 +934,6 @@
       "league": "all"
     },
     {
-      "title": "New Zealand sweep aside Samoa to reach Women's World Cup final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c680zz8k3nvvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T08:32:15Z",
-      "league": "all"
-    },
-    {
       "title": "Buatsi v Hutchinson 2 - world light-heavyweight title fight predictions",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/c674pek0yd2jo?at_medium=RSS&at_campaign=rss",
@@ -961,23 +970,16 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwg5jj21e519o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T06:53:35Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Non-league's greatest giant-killers eye another scalp",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqev332mv1lyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T06:45:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Japan date starts pivotal month for Welsh rugby",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq8ez336g0r1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T06:25:09Z",
       "league": "all"
     },
     {
@@ -1010,10 +1012,10 @@
     },
     {
       "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T23:53:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Leicester hold nerve to knock out sixth-tier Oxford City",
@@ -1065,13 +1067,6 @@
       "league": "all"
     },
     {
-      "title": "Alcaraz beats Fritz to help Jodar reach ATP finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6e9lldl3lpjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:35:04Z",
-      "league": "all"
-    },
-    {
       "title": "Barry scores twice as Everton fight back to beat Coventry",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c62l44geqvlyo?at_medium=RSS&at_campaign=rss",
@@ -1079,10 +1074,10 @@
       "league": "all"
     },
     {
-      "title": "WTA chair apologises to Pegula for airing of 'diva' comment",
+      "title": "Raith Rovers go top with Dunfermline draw",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/ckpdgg87ye3po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:28:43Z",
+      "url": "https://www.bbc.co.uk/sport/videos/c3qjnnpr9xzno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T22:06:01Z",
       "league": "all"
     },
     {
@@ -1094,10 +1089,10 @@
     },
     {
       "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T21:08:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
@@ -1140,20 +1135,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
       "date": "2026-11-06T19:00:50Z",
       "league": "soccer"
-    },
-    {
-      "title": "ECB forecasting losses of up to £50m in 2027 despite visit of Australia for the Ashes",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/ecb-forecasting-losses-of-up-to-50m-in-2027-despite-visit-of-australia-for-the-ashes",
-      "date": "2026-11-06T19:00:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Hamilton v Leclerc: how can Ferrari solve problem of two number one drivers?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers",
-      "date": "2026-11-06T17:08:05Z",
-      "league": "all"
     }
   ]
 }
