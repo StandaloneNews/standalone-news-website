@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:58:59Z",
+  "updated_at": "2026-11-07T15:57:23Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -744,38 +744,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494091",
+      "id": "sportsdb-2494098",
       "league": "epl",
-      "name": "Fulham vs Newcastle United",
-      "date": "2026-11-07T15:00:00Z",
+      "name": "Nottingham Forest vs Manchester City",
+      "date": "2026-11-07T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Fulham",
+          "name": "Nottingham Forest",
           "score": ""
         },
         {
-          "name": "Newcastle United",
+          "name": "Manchester City",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2506285",
+      "id": "sportsdb-2506287",
       "league": "laliga",
-      "name": "Espanyol vs Deportivo de A Coruña",
-      "date": "2026-11-07T15:15:00Z",
+      "name": "Osasuna vs Athletic Bilbao",
+      "date": "2026-11-07T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Espanyol",
+          "name": "Osasuna",
           "score": ""
         },
         {
-          "name": "Deportivo de A Coruña",
+          "name": "Athletic Bilbao",
           "score": ""
         }
       ],
@@ -823,23 +823,44 @@
   "stories": [
     {
       "title": "Arsenal v Hull City, Fulham v Newcastle United, FA Cup and more: football – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-v-hull-city-fulham-v-newcastle-united-fa-cup-and-more-football-live",
-      "date": "2026-11-07T14:53:30Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Leeds United 1-0 Tottenham Hotspur: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/07/leeds-united-v-tottenham-hotspur-premier-league-live",
-      "date": "2026-11-07T14:53:07Z",
-      "league": "soccer"
+      "date": "2026-11-07T15:56:17Z",
+      "league": "all"
     },
     {
       "title": "Scotland v New Zealand: Nations Championship rugby union – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
-      "date": "2026-11-07T14:51:18Z",
+      "date": "2026-11-07T15:54:45Z",
+      "league": "all"
+    },
+    {
+      "title": "New Zealand beat Tonga to reach World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq80z8l8zgzno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T15:47:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Stoke go top, Norwich hit five and Wrexham hold Wolves",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
+      "date": "2026-11-07T15:27:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
+      "date": "2026-11-07T15:11:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Hamilton, Leclerc and Verstappen to have penalties",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T15:01:59Z",
       "league": "all"
     },
     {
@@ -861,6 +882,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T14:35:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Okafor’s Leeds winner adds insult to Tel’s injury for Tottenham as Bogle escapes red",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
+      "date": "2026-11-07T14:34:21Z",
       "league": "all"
     },
     {
@@ -1053,13 +1081,6 @@
       "league": "all"
     },
     {
-      "title": "Premier League news: Arteta insists Rice isn’t playing too many games",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/premier-league-news-manchester-united-baleba-manchester-city-donnarumma-arsenal-arteta-rice",
-      "date": "2026-11-06T23:09:22Z",
-      "league": "soccer"
-    },
-    {
       "title": "'Big decisions' affected the game - Lampard",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm74ppwz9yewo?at_medium=RSS&at_campaign=rss",
@@ -1103,10 +1124,10 @@
     },
     {
       "title": "Charlton’s struggles expose ‘absolute ocean’ between WSL and second tier",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
       "date": "2026-11-06T20:49:00Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
@@ -1114,27 +1135,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
       "date": "2026-11-06T20:33:58Z",
       "league": "all"
-    },
-    {
-      "title": "Australia need a way to turn moments into momentum and revive spirits",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/australia-need-a-way-to-turn-moments-into-momentum-to-revive-spirits",
-      "date": "2026-11-06T20:02:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Injury crises and Borthwick under scrutiny: it’s that time of year again for England rugby",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-injuries-steve-borthwick-england-australia-rugby",
-      "date": "2026-11-06T19:15:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Bellinghams celebrate ‘beautiful story’ as Jobe joins Jude in Tuchel’s England 2.0",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/jude-jobe-bellingham-thomas-tuchel-england-croatia-spain-nations-league",
-      "date": "2026-11-06T19:00:50Z",
-      "league": "soccer"
     }
   ]
 }
