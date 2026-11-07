@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:58:08Z",
+  "updated_at": "2026-11-07T21:55:36Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -725,19 +725,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499215",
+      "id": "sportsdb-2499223",
       "league": "ncaaf",
-      "name": "North Texas vs Rice",
-      "date": "2026-11-07T21:00:00Z",
+      "name": "Louisiana vs South Alabama",
+      "date": "2026-11-07T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "North Texas",
+          "name": "Louisiana",
           "score": ""
         },
         {
-          "name": "Rice",
+          "name": "South Alabama",
           "score": ""
         }
       ],
@@ -822,17 +822,94 @@
   ],
   "stories": [
     {
-      "title": "Maresca's dream start turns into nightmare as title hopes hit",
+      "title": "Port Vale ease past Scunthorpe at Vale Park",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm78p29vp706o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:53:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Glasner glee and Delap double - win could be lift-off for Forest",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0l03n8vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T20:54:12Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:42:59Z",
       "league": "soccer"
     },
     {
-      "title": "São Paulo Formula One Grand Prix qualifying in Brazil – Lando Norris takes pole amid rain, as it happened",
+      "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/yassine-en-neyah-truro-folkestone-national-league-south-medical-emergency",
+      "date": "2026-11-07T21:28:52Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Notts County beat Altrincham in incredible fog-filled spectacle",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq77p24myz4ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:25:19Z",
+      "league": "all"
+    },
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:23:26Z",
+      "league": "ufc"
+    },
+    {
+      "title": "McGeehan hat-trick powers Barnsley to 7-2 win over Aldershot",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn139zgw0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:22:55Z",
+      "league": "all"
+    },
+    {
+      "title": "World number one Rybakina withdraws from WTA Finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm4g1n9ednn1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:10:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales let themselves down despite win - Lake",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crgj9323we9go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:03:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Scotland's familiar frailties brutally exposed in All Blacks schooling",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c60rlkzwwk27o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T20:57:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Maresca's dream start turns into nightmare as title hopes hit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0l03n8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T20:54:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Lando Norris claims F1 São Paulo GP pole as heavy rain disrupts qualifying",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
-      "date": "2026-11-07T20:47:43Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
+      "date": "2026-11-07T20:53:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Steve Tandy warns Wales to be more ruthless after edgy win against Japan",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report",
+      "date": "2026-11-07T20:52:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Norris takes pole in rain-delayed qualifying",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gell5l7l3zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T20:48:40Z",
       "league": "all"
     },
     {
@@ -885,20 +962,6 @@
       "league": "all"
     },
     {
-      "title": "Alcaraz sets up Shelton rematch in Paris final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw0k06v13xvxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:54:27Z",
-      "league": "all"
-    },
-    {
-      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:52:23Z",
-      "league": "ufc"
-    },
-    {
       "title": "Seven-try New Zealand too strong for Scotland",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c9vgr21ejk40o?at_medium=RSS&at_campaign=rss",
@@ -941,45 +1004,10 @@
       "league": "soccer"
     },
     {
-      "title": "Altrincham take shock lead against Notts County",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8vgx29yyrw0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:08:23Z",
-      "league": "all"
-    },
-    {
       "title": "Highlights: Wales 28-21 Japan",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckd6d1496g3wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T19:02:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Bates double earns Dover upset win over Wealdstone",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwvg027v5e5yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:49:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Louis Rees-Zammit helps edge Wales to unconvincing victory against Japan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report",
-      "date": "2026-11-07T18:46:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Wales labour to bonus-point win against Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crd6d1ygjv68o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:43:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea surrender top spot after home draw with Everton",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmz98dpl3vjgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:35:49Z",
       "league": "all"
     },
     {
@@ -1026,23 +1054,16 @@
     },
     {
       "title": "Bowler's extra-time winner for Blackpool sinks 10-man Hornchurch",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqm26j0x2xzlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T18:11:12Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Powell and Phillips star as Bradford put seven past Marine",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T18:02:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Salisbury put six past Sholing to advance to second round",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6jrwe4q1le1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T17:39:21Z",
       "league": "all"
     },
     {
@@ -1081,18 +1102,11 @@
       "league": "soccer"
     },
     {
-      "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/yassine-en-neyah-truro-folkestone-national-league-south-medical-emergency",
-      "date": "2026-11-07T16:41:52Z",
-      "league": "soccer"
-    },
-    {
       "title": "Tottenham set to complain to Pro Ref after Bogle escapes red card",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T16:35:26Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
@@ -1102,24 +1116,10 @@
       "league": "all"
     },
     {
-      "title": "New Zealand beat Tonga to reach World Cup final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq80z8l8zgzno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T15:47:06Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
       "date": "2026-11-07T15:11:59Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Okafor the difference despite Van Hecke defiance - Leeds v Spurs ratings",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T14:35:23Z",
       "league": "soccer"
     },
     {
