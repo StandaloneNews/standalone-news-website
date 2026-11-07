@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T19:09:58Z",
+  "updated_at": "2026-11-07T19:57:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -725,19 +725,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499219",
+      "id": "sportsdb-2499193",
       "league": "ncaaf",
-      "name": "Appalachian State vs Georgia State",
-      "date": "2026-11-07T19:30:00Z",
+      "name": "South Carolina vs Texas A and M",
+      "date": "2026-11-07T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Appalachian State",
+          "name": "South Carolina",
           "score": ""
         },
         {
-          "name": "Georgia State",
+          "name": "Texas A and M",
           "score": ""
         }
       ],
@@ -801,19 +801,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482241",
+      "id": "sportsdb-2482239",
       "league": "seriea",
-      "name": "Roma vs Sassuolo",
-      "date": "2026-11-07T19:45:00Z",
+      "name": "Napoli vs Lazio",
+      "date": "2026-11-08T11:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Roma",
+          "name": "Napoli",
           "score": ""
         },
         {
-          "name": "Sassuolo",
+          "name": "Lazio",
           "score": ""
         }
       ],
@@ -841,6 +841,69 @@
   ],
   "stories": [
     {
+      "title": "Alcaraz sets up Shelton rematch in Paris final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw0k06v13xvxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:54:27Z",
+      "league": "all"
+    },
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:52:23Z",
+      "league": "ufc"
+    },
+    {
+      "title": "São Paulo Formula One Grand Prix qualifying in Brazil – live again after a red flag",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
+      "date": "2026-11-07T19:51:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Seven-try New Zealand too strong for Scotland",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c9vgr21ejk40o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:40:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Another 1-0 for relentless Arsenal - but did Odegaard spare VAR blushes?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rmyg7xpnj1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:34:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Delap’s Nottingham Forest stunners hand Manchester City third league defeat in a row",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/nottingham-forest-manchester-city-premier-league-match-report",
+      "date": "2026-11-07T19:30:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:26:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Former winners Wigan progress to second round of FA Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekz29k2yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:23:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Birmingham go top, Cardiff stun Burnley from 4-1 down",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
+      "date": "2026-11-07T19:20:34Z",
+      "league": "all"
+    },
+    {
       "title": "Altrincham take shock lead against Notts County",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8vgx29yyrw0o?at_medium=RSS&at_campaign=rss",
@@ -852,20 +915,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckd6d1496g3wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T19:02:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Nottingham Forest v Manchester City: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live",
-      "date": "2026-11-07T18:56:17Z",
-      "league": "all"
-    },
-    {
-      "title": "São Paulo Formula One Grand Prix qualifying in Brazil – live (but with a red flag for rain)",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
-      "date": "2026-11-07T18:55:27Z",
       "league": "all"
     },
     {
@@ -953,13 +1002,6 @@
       "league": "all"
     },
     {
-      "title": "Highlights: Burton ease past eighth-tier AFC Rushden & Diamonds",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c62kel01dkdno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:02:39Z",
-      "league": "all"
-    },
-    {
       "title": "Powell and Phillips star as Bradford put seven past Marine",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
@@ -967,31 +1009,10 @@
       "league": "all"
     },
     {
-      "title": "Championship roundup: Birmingham go top, Cardiff stun Burnley from 4-1 down",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
-      "date": "2026-11-07T17:50:50Z",
-      "league": "all"
-    },
-    {
       "title": "Salisbury put six past Sholing to advance to second round",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6jrwe4q1le1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:39:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Highlights: Shrewsbury edge past Eastleigh to reach round two",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6kg7vdk9dy2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T17:30:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Hamilton & Verstappen to start from back in Brazil",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c574p28devp4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T17:24:15Z",
       "league": "all"
     },
     {
@@ -1024,17 +1045,10 @@
     },
     {
       "title": "Goal caps eye-catching Odegaard display - player ratings for Arsenal v Hull",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq62yp4lg831o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:00:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Wilson beats Higgins to win International Championship",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/c54g1n39g30zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T16:58:31Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
@@ -1093,7 +1107,7 @@
       "league": "soccer"
     },
     {
-      "title": "Okafor’s Leeds winner adds insult to Tel’s injury for Tottenham as Bogle escapes red",
+      "title": "Okafor seals Leeds win but Tottenham complain to Pro Ref over Bogle tackle on Tel",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/leeds-tottenham-premier-league-match-report",
       "date": "2026-11-07T14:34:21Z",
@@ -1139,20 +1153,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/07/new-zealand-kiwi-ferns-samoa-womens-rugby-league-world-cup-semi-final-match-report",
       "date": "2026-11-07T08:36:06Z",
-      "league": "all"
-    },
-    {
-      "title": "England have been backed into a corner – it should bring out their best against Australia | Ugo Monye",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/07/england-have-been-backed-into-a-corner-it-should-bring-out-their-best-against-australia",
-      "date": "2026-11-07T08:00:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Infantino caught in the web as tide turns against Trump in midterms and leaves Fifa exposed | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/gianni-infantino-fifa-donald-trump-democrats-republicans",
-      "date": "2026-11-07T08:00:05Z",
       "league": "all"
     }
   ]
