@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T23:55:00Z",
+  "updated_at": "2026-11-07T00:28:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -687,57 +687,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601788",
+      "id": "sportsdb-2601790",
       "league": "nba",
-      "name": "Charlotte Hornets vs Boston Celtics",
-      "date": "2026-11-07T00:00:00Z",
+      "name": "Cleveland Cavaliers vs Philadelphia 76ers",
+      "date": "2026-11-07T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Charlotte Hornets",
+          "name": "Cleveland Cavaliers",
           "score": ""
         },
         {
-          "name": "Boston Celtics",
+          "name": "Philadelphia 76ers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591746",
+      "id": "sportsdb-2591747",
       "league": "nhl",
-      "name": "Buffalo Sabres vs Columbus Blue Jackets",
-      "date": "2026-11-07T00:00:00Z",
+      "name": "Calgary Flames vs Anaheim Ducks",
+      "date": "2026-11-07T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Sabres",
+          "name": "Calgary Flames",
           "score": ""
         },
         {
-          "name": "Columbus Blue Jackets",
+          "name": "Anaheim Ducks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499187",
+      "id": "sportsdb-2499229",
       "league": "ncaaf",
-      "name": "SMU vs Virginia Tech",
-      "date": "2026-11-07T00:00:00Z",
+      "name": "East Carolina vs South Florida",
+      "date": "2026-11-07T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "SMU",
+          "name": "East Carolina",
           "score": ""
         },
         {
-          "name": "Virginia Tech",
+          "name": "South Florida",
           "score": ""
         }
       ],
@@ -818,9 +818,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489548",
+      "league": "ligue1",
+      "name": "Auxerre vs Paris FC",
+      "date": "2026-11-07T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Bad blood? Knicks defend Taylor Swift after players accuse her of being ‘fake fan’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/06/taylor-swift-knicks-tyler-kolek-miles-mcbride-fake-fan",
+      "date": "2026-11-07T00:09:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Six tries and a big win - but were Ireland ruthless?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmde88ppx39go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-06T23:57:05Z",
+      "league": "all"
+    },
     {
       "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
       "source": "BBC Sport",
@@ -833,6 +885,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnn4dvp3yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T23:37:23Z",
+      "league": "all"
+    },
+    {
+      "title": "‘It was all of us’: Khawaja says entire Australia team knew about sandpaper ball tampering plot",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/usman-khawaja-australia-cricket-team-sandpaper-ball-tampering-plot",
+      "date": "2026-11-06T23:35:45Z",
       "league": "all"
     },
     {
@@ -1054,10 +1113,10 @@
     },
     {
       "title": "The Fifa hopeful hoping to take Infantino down with 'samurai spirit'",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyvv7pkqrno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T15:21:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘It’s in our blood’: Lebanon, Ukraine and Syria rugby league teams fly the flag despite horrors of war at home",
@@ -1114,27 +1173,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq78ppm5ge80o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T13:44:22Z",
       "league": "soccer"
-    },
-    {
-      "title": "England secure group top spot with Ireland win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cxly441nej84o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T13:42:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Women's rights matter more than any league, say Afghan cricketers",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwr7ydgv03kvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T13:40:59Z",
-      "league": "all"
-    },
-    {
-      "title": "Two-year ban for 'Clicky Ponting' cricketer",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c62keenz7dzjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T12:00:21Z",
-      "league": "all"
     }
   ]
 }
