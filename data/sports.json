@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T11:57:29Z",
+  "updated_at": "2026-11-07T13:16:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -744,38 +744,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494097",
+      "id": "sportsdb-2494091",
       "league": "epl",
-      "name": "Leeds United vs Tottenham Hotspur",
-      "date": "2026-11-07T12:30:00Z",
+      "name": "Fulham vs Newcastle United",
+      "date": "2026-11-07T15:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Leeds United",
+          "name": "Fulham",
           "score": ""
         },
         {
-          "name": "Tottenham Hotspur",
+          "name": "Newcastle United",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2506282",
+      "id": "sportsdb-2506285",
       "league": "laliga",
-      "name": "Málaga vs Racing de Santander",
-      "date": "2026-11-07T13:00:00Z",
+      "name": "Espanyol vs Deportivo de A Coruña",
+      "date": "2026-11-07T15:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Málaga",
+          "name": "Espanyol",
           "score": ""
         },
         {
-          "name": "Racing de Santander",
+          "name": "Deportivo de A Coruña",
           "score": ""
         }
       ],
@@ -818,14 +818,54 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489548",
+      "league": "ligue1",
+      "name": "Auxerre vs Paris FC",
+      "date": "2026-11-07T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Arsenal and Manchester City in action, FA Cup first round news and more – matchday live",
+      "title": "Leeds United v Tottenham Hotspur: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/07/leeds-united-v-tottenham-hotspur-premier-league-live",
+      "date": "2026-11-07T13:05:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Scotland v New Zealand: Nations Championship rugby union – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-and-manchester-city-in-action-fa-cup-first-round-news-and-more-matchday-live",
-      "date": "2026-11-07T11:45:45Z",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
+      "date": "2026-11-07T13:00:12Z",
+      "league": "all"
+    },
+    {
+      "title": "My dream is to win Ballon d'Or - Gabriel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy4x9yq3xg3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T12:25:14Z",
+      "league": "all"
+    },
+    {
+      "title": "‘A footballing alien’: Mamadou Sangaré soars to Premier League heights",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/a-footballing-alien-mamadou-sangare-brentford-mali-premier-league",
+      "date": "2026-11-07T12:00:13Z",
       "league": "all"
     },
     {
@@ -833,13 +873,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmvgx2e78xrro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T11:45:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Leeds United v Tottenham Hotspur: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/07/leeds-united-v-tottenham-hotspur-premier-league-live",
-      "date": "2026-11-07T11:40:19Z",
       "league": "all"
     },
     {
@@ -932,6 +965,13 @@
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq8ez336g0r1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T06:25:09Z",
       "league": "all"
+    },
+    {
+      "title": "Can we play you every week? The day Southend toppled Man United",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/cwm266zkz8ggo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T06:22:41Z",
+      "league": "soccer"
     },
     {
       "title": "Rise of the ‘schooligans’: how a wave of antisocial behaviour threatens non-league football",
@@ -1032,13 +1072,6 @@
       "league": "all"
     },
     {
-      "title": "Keenan hat-trick inspires six-try Ireland to emphatic win against Argentina",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/ireland-argentina-nations-championship-match-report",
-      "date": "2026-11-06T22:20:54Z",
-      "league": "all"
-    },
-    {
       "title": "Thierno Barry double fires Everton to comeback win against Coventry",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
@@ -1109,13 +1142,6 @@
       "league": "all"
     },
     {
-      "title": "Player-coach rift report will only galvanise England - George",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx2qqyz4p1po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T18:30:57Z",
-      "league": "all"
-    },
-    {
       "title": "Scotland come full circle for another crack at All Blacks",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw62yy06dejzo?at_medium=RSS&at_campaign=rss",
@@ -1128,13 +1154,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/06/hamilton-v-leclerc-how-can-ferrari-solve-problem-of-two-number-one-drivers",
       "date": "2026-11-06T17:08:05Z",
       "league": "all"
-    },
-    {
-      "title": "James out for minimum of five games - Bompastor",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crq5nnqn84zyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T16:44:44Z",
-      "league": "soccer"
     }
   ]
 }
