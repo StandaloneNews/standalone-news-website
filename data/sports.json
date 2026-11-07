@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T17:54:09Z",
+  "updated_at": "2026-11-07T18:21:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -706,38 +706,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591750",
+      "id": "sportsdb-2591751",
       "league": "nhl",
-      "name": "Nashville Predators vs St. Louis Blues",
-      "date": "2026-11-07T18:00:00Z",
+      "name": "Seattle Kraken vs New York Rangers",
+      "date": "2026-11-07T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Nashville Predators",
+          "name": "Seattle Kraken",
           "score": ""
         },
         {
-          "name": "St. Louis Blues",
+          "name": "New York Rangers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499200",
+      "id": "sportsdb-2594235",
       "league": "ncaaf",
-      "name": "Kansas State vs Oklahoma State",
-      "date": "2026-11-07T18:00:00Z",
+      "name": "Gardner-Webb vs Lindenwood",
+      "date": "2026-11-07T18:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Kansas State",
+          "name": "Gardner-Webb",
           "score": ""
         },
         {
-          "name": "Oklahoma State",
+          "name": "Lindenwood",
           "score": ""
         }
       ],
@@ -818,28 +818,75 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489544",
+      "league": "ligue1",
+      "name": "Paris Saint-Germain vs Troyes",
+      "date": "2026-11-07T20:05:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris Saint-Germain",
+          "score": ""
+        },
+        {
+          "name": "Troyes",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Bowler's extra-time winner for Blackpool sinks 10-man Hornchurch",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqm26j0x2xzlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T18:11:12Z",
+      "league": "all"
+    },
+    {
+      "title": "São Paulo Formula One Grand Prix qualifying in Brazil – live (but with a red flag for rain)",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
+      "date": "2026-11-07T18:09:55Z",
+      "league": "all"
+    },
+    {
       "title": "Nottingham Forest v Manchester City: Premier League – live",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live",
-      "date": "2026-11-07T17:40:01Z",
-      "league": "soccer"
+      "date": "2026-11-07T18:08:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Highlights: Burton ease past eighth-tier AFC Rushden & Diamonds",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c62kel01dkdno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T18:02:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Powell and Phillips star as Bradford put seven past Marine",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmd6d1v2y2j6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T18:02:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Birmingham go top, Cardiff stun Burnley from 4-1 down",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
+      "date": "2026-11-07T17:50:50Z",
+      "league": "all"
     },
     {
       "title": "Salisbury put six past Sholing to advance to second round",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6jrwe4q1le1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:39:21Z",
-      "league": "all"
-    },
-    {
-      "title": "São Paulo Formula One Grand Prix qualifying in Brazil – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/07/sao-paulo-formula-one-grand-prix-qualifying-in-brazil-live",
-      "date": "2026-11-07T17:38:07Z",
       "league": "all"
     },
     {
@@ -941,13 +988,6 @@
       "league": "all"
     },
     {
-      "title": "Championship roundup: Stoke go top, Norwich hit five and Wrexham hold Wolves",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
-      "date": "2026-11-07T15:27:08Z",
-      "league": "all"
-    },
-    {
       "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
@@ -970,10 +1010,10 @@
     },
     {
       "title": "Okafor the difference despite Van Hecke defiance - Leeds v Spurs ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq70p2w3j00jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T14:35:23Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Okafor’s Leeds winner adds insult to Tel’s injury for Tottenham as Bogle escapes red",
@@ -1022,13 +1062,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
       "date": "2026-11-07T10:31:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pln6dk?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T10:00:00Z",
       "league": "soccer"
     },
     {
@@ -1121,20 +1154,6 @@
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cjdx33kyzk3lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T23:11:56Z",
       "league": "all"
-    },
-    {
-      "title": "'Big decisions' affected the game - Lampard",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm74ppwz9yewo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:40:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Not a good performance, but we got a result - Moyes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmreyy2ndd95o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T22:40:56Z",
-      "league": "soccer"
     }
   ]
 }
