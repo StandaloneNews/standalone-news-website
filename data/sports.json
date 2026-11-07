@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T15:57:23Z",
+  "updated_at": "2026-11-07T16:57:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -818,6 +818,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489548",
+      "league": "ligue1",
+      "name": "Auxerre vs Paris FC",
+      "date": "2026-11-07T18:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Auxerre",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -825,14 +844,49 @@
       "title": "Arsenal v Hull City, Fulham v Newcastle United, FA Cup and more: football – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/07/arsenal-v-hull-city-fulham-v-newcastle-united-fa-cup-and-more-football-live",
-      "date": "2026-11-07T15:56:17Z",
+      "date": "2026-11-07T16:48:39Z",
       "league": "all"
     },
     {
-      "title": "Scotland v New Zealand: Nations Championship rugby union – live",
+      "title": "Nottingham Forest v Manchester City: Premier League – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/07/scotland-v-new-zealand-nations-championship-rugby-union-live",
-      "date": "2026-11-07T15:54:45Z",
+      "url": "https://www.theguardian.com/football/live/2026/nov/07/nottingham-forest-v-manchester-city-premier-league-live",
+      "date": "2026-11-07T16:45:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/yassine-en-neyah-truro-folkestone-national-league-south-medical-emergency",
+      "date": "2026-11-07T16:41:52Z",
+      "league": "all"
+    },
+    {
+      "title": "De Zerbi focuses on Spurs' failings - but should Bogle have seen red?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T16:35:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
+      "date": "2026-11-07T16:27:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Ruthless All Blacks blow Scotland away in second half",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c9e8l5vlgxl5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T16:13:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Truro game abandoned after player collapses in warm-up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxj0l54rr61do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T15:55:54Z",
       "league": "all"
     },
     {
@@ -900,10 +954,10 @@
     },
     {
       "title": "Scotland lose Welsh and call up Porteous",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxyvrdyzrvgro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T13:57:46Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Kiwis reap rewards of gamble on 'freak of nature' Ponga",
@@ -942,10 +996,10 @@
     },
     {
       "title": "Chelsea’s Alonso identity still to form in a midfield that remains a problem",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/chelsea-xabi-alonso-midfield-problem-area",
       "date": "2026-11-07T10:31:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Football Daily",
@@ -991,10 +1045,10 @@
     },
     {
       "title": "I left Man City for my mental wellbeing - Trafford",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckly00wq495zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T07:16:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1032,13 +1086,6 @@
       "league": "all"
     },
     {
-      "title": "Bad blood? Knicks defend Taylor Swift after players accuse her of being ‘fake fan’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/taylor-swift-knicks-tyler-kolek-miles-mcbride-fake-fan",
-      "date": "2026-11-07T00:09:50Z",
-      "league": "all"
-    },
-    {
       "title": "England 'disappointment' fuels Dewsbury-Hall's Everton heroics",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4g114p9e7go?at_medium=RSS&at_campaign=rss",
@@ -1068,10 +1115,10 @@
     },
     {
       "title": "Lampard feels hair pull should have led to Coventry penalty",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr15jj0yy8xeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-06T23:22:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Whole Australia team knew of sandpaper use - Khawaja",
@@ -1103,38 +1150,10 @@
     },
     {
       "title": "Thierno Barry double fires Everton to comeback win against Coventry",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/06/everton-coventry-premier-league-match-report",
       "date": "2026-11-06T22:03:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Real Madrid and PSG keen on Suzuki - Saturday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c98rzz0rjjvdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T21:08:04Z",
       "league": "soccer"
-    },
-    {
-      "title": "Ferrari's Hamilton-Leclerc problem - and other F1 stories to follow",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm62y4283534o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-06T20:52:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Charlton’s struggles expose ‘absolute ocean’ between WSL and second tier",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/06/charlton-risk-being-chewed-up-wsl-karen-hills",
-      "date": "2026-11-06T20:49:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Nations Championship, Rugby League World Cup and NFL action – follow with us",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/06/nations-championship-rugby-league-world-cup-and-nfl-action-follow-with-us",
-      "date": "2026-11-06T20:33:58Z",
-      "league": "all"
     }
   ]
 }
