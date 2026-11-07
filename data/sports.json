@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T00:28:43Z",
+  "updated_at": "2026-11-07T01:44:07Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -687,57 +687,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601790",
+      "id": "sportsdb-2601795",
       "league": "nba",
-      "name": "Cleveland Cavaliers vs Philadelphia 76ers",
-      "date": "2026-11-07T00:30:00Z",
+      "name": "Los Angeles Lakers vs Portland Trail Blazers",
+      "date": "2026-11-07T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Cleveland Cavaliers",
+          "name": "Los Angeles Lakers",
           "score": ""
         },
         {
-          "name": "Philadelphia 76ers",
+          "name": "Portland Trail Blazers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591747",
+      "id": "sportsdb-2591749",
       "league": "nhl",
-      "name": "Calgary Flames vs Anaheim Ducks",
-      "date": "2026-11-07T01:00:00Z",
+      "name": "Washington Capitals vs Florida Panthers",
+      "date": "2026-11-07T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Calgary Flames",
+          "name": "Washington Capitals",
           "score": ""
         },
         {
-          "name": "Anaheim Ducks",
+          "name": "Florida Panthers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499229",
+      "id": "sportsdb-2499231",
       "league": "ncaaf",
-      "name": "East Carolina vs South Florida",
-      "date": "2026-11-07T00:30:00Z",
+      "name": "Nevada vs New Mexico",
+      "date": "2026-11-07T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "East Carolina",
+          "name": "Nevada",
           "score": ""
         },
         {
-          "name": "South Florida",
+          "name": "New Mexico",
           "score": ""
         }
       ],
@@ -814,44 +814,6 @@
         },
         {
           "name": "Frosinone",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489548",
-      "league": "ligue1",
-      "name": "Auxerre vs Paris FC",
-      "date": "2026-11-07T18:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Auxerre",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
           "score": ""
         }
       ],
