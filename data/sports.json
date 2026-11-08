@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T15:55:52Z",
+  "updated_at": "2026-11-08T16:25:28Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,47 +762,70 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489543",
-      "league": "ligue1",
-      "name": "Angers vs Nice",
-      "date": "2026-11-08T16:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Angers",
-          "score": ""
-        },
-        {
-          "name": "Nice",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Crystal Palace v Liverpool, Sunderland v Chelsea, and more: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
-      "date": "2026-11-08T15:48:29Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester United v Aston Villa: Premier League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
-      "date": "2026-11-08T15:46:32Z",
-      "league": "soccer"
+      "title": "São Paulo Grand Prix: Formula One 2026 – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
+      "date": "2026-11-08T16:22:35Z",
+      "league": "all"
     },
     {
       "title": "England v Australia: Nations Championship – rugby union live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/england-v-australia-nations-championship-rugby-union-live",
-      "date": "2026-11-08T15:44:51Z",
+      "date": "2026-11-08T16:21:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace 1-3 Liverpool, Sunderland 1-0 Chelsea, and more: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
+      "date": "2026-11-08T16:19:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Manchester United v Aston Villa: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
+      "date": "2026-11-08T16:18:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Sunderland stun Chelsea as Le Fée’s penalty breathes life into Black Cats",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/08/sunderland-chelsea-premier-league-match-report",
+      "date": "2026-11-08T16:16:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Alexander Isak tops off goal trio for Liverpool as late penalty offers little for Crystal Palace",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
+      "date": "2026-11-08T16:16:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Evanilson launches eighth straight Bournemouth win as Ipswich blunder",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
+      "date": "2026-11-08T16:14:31Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Brobbey wins Colwill battle - player ratings for Sunderland's win over Chelsea",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c94g1n4pzev3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T16:13:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Who was back to his best? Player ratings for Crystal Palace v Liverpool",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgjm2dlpv6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T16:04:18Z",
       "league": "all"
     },
     {
@@ -877,10 +900,10 @@
     },
     {
       "title": "Last season difficult with injury and miscarriage - Muniz",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T11:56:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Reece Walsh hat-trick drives Australia past Samoa and into Rugby League World Cup final",
@@ -890,38 +913,24 @@
       "league": "all"
     },
     {
-      "title": "Why Wales have a lot to prove despite beating Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T10:13:56Z",
-      "league": "all"
-    },
-    {
       "title": "John Aloisi’s Chengdu choke to blow title chances on final day of Chinese season",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/john-aloisi-chengdu-choke-chinese-super-league-final-day-of-season",
       "date": "2026-11-08T10:10:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Is there something missing despite Rangers' impressive form?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6dxw1k2x4kno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T10:10:27Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "I haven't thrown anyone under the bus - Khawaja",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c65yn1j4lrgno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T10:04:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Raya, Pickford and Wales' search for a new keeper",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cry8335l96q5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T09:57:58Z",
       "league": "all"
     },
     {
@@ -946,13 +955,6 @@
       "league": "all"
     },
     {
-      "title": "I want to face Baumgardner, it will be boxing's next great rivalry - Dubois",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6y8l1318k8zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T07:30:09Z",
-      "league": "all"
-    },
-    {
       "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo?at_medium=RSS&at_campaign=rss",
@@ -961,16 +963,9 @@
     },
     {
       "title": "Messi makes history with MLS Golden Boot",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckr5ygezr0m9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T07:23:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr20wvgx2q27o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T06:47:58Z",
       "league": "soccer"
     },
     {
@@ -981,25 +976,11 @@
       "league": "all"
     },
     {
-      "title": "The oldest club in London making FA Cup history",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv8ez3pe5x41o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T06:28:56Z",
-      "league": "soccer"
-    },
-    {
       "title": "Messi claims second straight Golden Boot as Nashville set points record on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
       "date": "2026-11-08T03:31:47Z",
       "league": "soccer"
-    },
-    {
-      "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
-      "date": "2026-11-08T01:33:21Z",
-      "league": "all"
     },
     {
       "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
@@ -1030,6 +1011,20 @@
       "league": "all"
     },
     {
+      "title": "Was Leeds' Bogle lucky to escape red card?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Forest win over Man City 'a turning point' - Murphy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:14Z",
+      "league": "all"
+    },
+    {
       "title": "Arsenal should have been awarded penalty against Hull - Cann",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
@@ -1037,24 +1032,10 @@
       "league": "all"
     },
     {
-      "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:53:30Z",
-      "league": "all"
-    },
-    {
       "title": "York score after 10 seconds against Northampton following unique kick-off",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c893zrl4p7npo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T23:38:38Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Hutchinson beats Buatsi to win WBC light-heavyweight title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqx2vw8demexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:26:08Z",
       "league": "all"
     },
     {
@@ -1062,13 +1043,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
       "date": "2026-11-07T23:11:27Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:44:20Z",
       "league": "soccer"
     },
     {
@@ -1094,10 +1068,17 @@
     },
     {
       "title": "Notts County beat Altrincham in incredible fog-filled spectacle",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq77p24myz4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:25:19Z",
-      "league": "soccer"
+      "league": "all"
+    },
+    {
+      "title": "Enzo Maresca rues Manchester City’s lack of desire after defeat at Nottingham Forest",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
+      "date": "2026-11-07T21:17:41Z",
+      "league": "all"
     }
   ]
 }
