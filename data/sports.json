@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T13:16:37Z",
+  "updated_at": "2026-11-08T14:05:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -590,19 +590,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494094",
+      "id": "sportsdb-2494090",
       "league": "epl",
-      "name": "Brighton and Hove Albion vs Brentford",
-      "date": "2026-11-08T14:00:00Z",
+      "name": "Manchester United vs Aston Villa",
+      "date": "2026-11-08T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Brighton and Hove Albion",
+          "name": "Manchester United",
           "score": ""
         },
         {
-          "name": "Brentford",
+          "name": "Aston Villa",
           "score": ""
         }
       ],
@@ -647,38 +647,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482240",
+      "id": "sportsdb-2482244",
       "league": "seriea",
-      "name": "Genoa vs AC Milan",
-      "date": "2026-11-08T14:00:00Z",
+      "name": "Inter Milan vs Como",
+      "date": "2026-11-08T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Genoa",
+          "name": "Inter Milan",
           "score": ""
         },
         {
-          "name": "AC Milan",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489545",
-      "league": "ligue1",
-      "name": "Rennes vs Lille",
-      "date": "2026-11-08T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Rennes",
-          "score": ""
-        },
-        {
-          "name": "Lille",
+          "name": "Como",
           "score": ""
         }
       ],
@@ -687,10 +668,52 @@
   ],
   "stories": [
     {
-      "title": "Liverpool v Arsenal: Women’s Super League – live",
+      "title": "Liverpool 1-2 Arsenal: Women’s Super League – live reaction",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
-      "date": "2026-11-08T13:12:15Z",
+      "date": "2026-11-08T14:02:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace v Liverpool, Sunderland v Chelsea, and more: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
+      "date": "2026-11-08T14:01:21Z",
+      "league": "all"
+    },
+    {
+      "title": "'That's Reece' - World Cup semi-final brings out best and worst of Walsh",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm93zrw2wz9go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T13:57:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia battle past Fiji to reach fifth consecutive World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm26j5lg651o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T13:56:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia dismantle Samoa to reach World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqly04r1n6xzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T13:42:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Shock changes & key results - Wrexham's seismic week",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyg434y84o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T13:19:22Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Rahm pips Hatton & McIlroy to Abu Dhabi title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c6y0exdrp2xeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T13:14:40Z",
       "league": "all"
     },
     {
@@ -705,13 +728,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T11:56:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T11:45:42Z",
       "league": "all"
     },
     {
@@ -758,10 +774,10 @@
     },
     {
       "title": "Raya, Pickford and Wales' search for a new keeper",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cry8335l96q5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T09:57:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Abbi Church powers Australia to win over spirited Fiji as hosts reach Women’s Rugby League World Cup final",
@@ -782,13 +798,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
       "date": "2026-11-08T08:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "I want to face Baumgardner, it will be boxing's next great rivalry - Dubois",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6y8l1318k8zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T07:30:09Z",
       "league": "all"
     },
     {
@@ -897,13 +906,6 @@
       "league": "soccer"
     },
     {
-      "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:44:20Z",
-      "league": "soccer"
-    },
-    {
       "title": "Scottish roundup: Naderi fires Rangers past St Mirren to keep pressure on Celtic",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
@@ -936,13 +938,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
       "date": "2026-11-07T21:17:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Scotland's familiar frailties brutally exposed in All Blacks schooling",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c60rlkzwwk27o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T20:57:12Z",
       "league": "all"
     },
     {
@@ -985,20 +980,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/manager-sorts-out-manchester-united-unai-emery",
       "date": "2026-11-07T20:00:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Muniz strike denies Newcastle and Jaissle much-needed win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm2d69p2x3g7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:59:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Leeds beat Spurs to end five-game winless run",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckz7x4jlypq3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:59:34Z",
       "league": "all"
     }
   ]
