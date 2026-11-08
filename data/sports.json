@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T11:08:14Z",
+  "updated_at": "2026-11-08T11:57:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -647,19 +647,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482239",
+      "id": "sportsdb-2482240",
       "league": "seriea",
-      "name": "Napoli vs Lazio",
-      "date": "2026-11-08T11:30:00Z",
+      "name": "Genoa vs AC Milan",
+      "date": "2026-11-08T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Napoli",
+          "name": "Genoa",
           "score": ""
         },
         {
-          "name": "Lazio",
+          "name": "AC Milan",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489545",
+      "league": "ligue1",
+      "name": "Rennes vs Lille",
+      "date": "2026-11-08T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Rennes",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
           "score": ""
         }
       ],
@@ -668,17 +706,31 @@
   ],
   "stories": [
     {
-      "title": "Australia v Samoa: men’s Rugby League World Cup semi-final – live",
+      "title": "Liverpool v Arsenal: Women’s Super League – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/australia-kangaroos-vs-samoa-rugby-league-world-cup-mens-semi-final-live-updates",
-      "date": "2026-11-08T10:54:43Z",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
+      "date": "2026-11-08T11:51:23Z",
       "league": "all"
     },
     {
-      "title": "Premier League buildup, FA Cup first round, WSL and more – matchday live",
+      "title": "Walsh-inspired Australia crush irate Samoa to reach World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T11:45:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia reach World Cup final after Fiji scare",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T11:43:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Reece Walsh hat-trick drives Australia past Samoa and into Rugby League World Cup final",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/premier-league-buildup-fa-cup-first-round-wsl-and-more-matchday-live",
-      "date": "2026-11-08T10:52:44Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-kangaroos-samoa-rugby-league-world-cup-mens-semi-final-match-report",
+      "date": "2026-11-08T11:20:29Z",
       "league": "all"
     },
     {
@@ -731,13 +783,6 @@
       "league": "all"
     },
     {
-      "title": "Australia reach World Cup final after Fiji scare",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T08:19:18Z",
-      "league": "all"
-    },
-    {
       "title": "Female sports journalists have always faced sexism. Social media has made it vicious and relentless | Anjali Doshi",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
@@ -773,13 +818,6 @@
       "league": "all"
     },
     {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr20wvgx2q27o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T06:47:58Z",
-      "league": "all"
-    },
-    {
       "title": "Why unique Brighton defence is so tricky to unpick",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po?at_medium=RSS&at_campaign=rss",
@@ -794,7 +832,7 @@
       "league": "all"
     },
     {
-      "title": "Messi claims second straight Golden Boot as Nashville sets points record on MLS Decision Day",
+      "title": "Messi claims second straight Golden Boot as Nashville set points record on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
       "date": "2026-11-08T03:31:47Z",
@@ -837,10 +875,10 @@
     },
     {
       "title": "Arsenal should have been awarded penalty against Hull - Cann",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:00:09Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
@@ -892,13 +930,6 @@
       "league": "soccer"
     },
     {
-      "title": "Glasner glee and Delap double - win could be lift-off for Forest",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:42:59Z",
-      "league": "soccer"
-    },
-    {
       "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/yassine-en-neyah-truro-folkestone-national-league-south-medical-emergency",
@@ -917,13 +948,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
       "date": "2026-11-07T21:17:41Z",
-      "league": "all"
-    },
-    {
-      "title": "World number one Rybakina withdraws from WTA Finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm4g1n9ednn1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:10:55Z",
       "league": "all"
     },
     {
@@ -980,6 +1004,20 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm2d69p2x3g7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T19:59:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Leeds beat Spurs to end five-game winless run",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckz7x4jlypq3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:59:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal beat Hull to extend lead at top of the table",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T19:59:31Z",
       "league": "all"
     }
   ]
