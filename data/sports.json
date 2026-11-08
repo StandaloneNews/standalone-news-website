@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T11:57:49Z",
+  "updated_at": "2026-11-08T13:16:37Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -609,19 +609,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506288",
+      "id": "sportsdb-2506286",
       "league": "laliga",
-      "name": "Elche vs Real Betis",
-      "date": "2026-11-08T13:00:00Z",
+      "name": "Real Sociedad vs Rayo Vallecano",
+      "date": "2026-11-08T15:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Elche",
+          "name": "Real Sociedad",
           "score": ""
         },
         {
-          "name": "Real Betis",
+          "name": "Rayo Vallecano",
           "score": ""
         }
       ],
@@ -683,25 +683,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -709,7 +690,21 @@
       "title": "Liverpool v Arsenal: Women’s Super League – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
-      "date": "2026-11-08T11:51:23Z",
+      "date": "2026-11-08T13:12:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia reach World Cup final after Fiji scare",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T12:39:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Last season difficult with injury and miscarriage - Muniz",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T11:56:01Z",
       "league": "all"
     },
     {
@@ -717,13 +712,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cqd0914z959do?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T11:45:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia reach World Cup final after Fiji scare",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T11:43:29Z",
       "league": "all"
     },
     {
@@ -812,10 +800,10 @@
     },
     {
       "title": "Messi makes history with MLS Golden Boot",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckr5ygezr0m9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T07:23:50Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Why unique Brighton defence is so tricky to unpick",
@@ -868,10 +856,10 @@
     },
     {
       "title": "'Wonderful goal' - Crewe's McNeill scores from halfway line",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:07:11Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Arsenal should have been awarded penalty against Hull - Cann",
@@ -1011,13 +999,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckz7x4jlypq3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T19:59:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal beat Hull to extend lead at top of the table",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/crx230ke2gzxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:59:31Z",
       "league": "all"
     }
   ]
