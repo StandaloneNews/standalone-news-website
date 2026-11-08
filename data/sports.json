@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T16:25:28Z",
+  "updated_at": "2026-11-08T16:59:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -688,19 +688,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2494090",
+      "id": "sportsdb-2494105",
       "league": "epl",
-      "name": "Manchester United vs Aston Villa",
-      "date": "2026-11-08T16:30:00Z",
+      "name": "Manchester City vs Fulham",
+      "date": "2026-11-21T12:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Manchester United",
+          "name": "Manchester City",
           "score": ""
         },
         {
-          "name": "Aston Villa",
+          "name": "Fulham",
           "score": ""
         }
       ],
@@ -726,38 +726,76 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508405",
+      "id": "sportsdb-2508408",
       "league": "bundesliga",
-      "name": "Freiburg vs Union Berlin",
-      "date": "2026-11-08T16:30:00Z",
+      "name": "Hoffenheim vs Schalke 04",
+      "date": "2026-11-08T18:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Freiburg",
+          "name": "Hoffenheim",
           "score": ""
         },
         {
-          "name": "Union Berlin",
+          "name": "Schalke 04",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2482244",
+      "id": "sportsdb-2482242",
       "league": "seriea",
-      "name": "Inter Milan vs Como",
-      "date": "2026-11-08T17:00:00Z",
+      "name": "Fiorentina vs Juventus",
+      "date": "2026-11-08T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Inter Milan",
+          "name": "Fiorentina",
           "score": ""
         },
         {
-          "name": "Como",
+          "name": "Juventus",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489551",
+      "league": "ligue1",
+      "name": "Lens vs Marseille",
+      "date": "2026-11-08T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
           "score": ""
         }
       ],
@@ -766,56 +804,63 @@
   ],
   "stories": [
     {
+      "title": "Fan injured after falling through hole in stand",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck0j0x2e49j7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T16:53:37Z",
+      "league": "all"
+    },
+    {
       "title": "São Paulo Grand Prix: Formula One 2026 – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
-      "date": "2026-11-08T16:22:35Z",
+      "date": "2026-11-08T16:52:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United v Aston Villa: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
+      "date": "2026-11-08T16:51:57Z",
       "league": "all"
     },
     {
       "title": "England v Australia: Nations Championship – rugby union live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/england-v-australia-nations-championship-rugby-union-live",
-      "date": "2026-11-08T16:21:48Z",
+      "date": "2026-11-08T16:50:22Z",
       "league": "all"
     },
     {
-      "title": "Crystal Palace 1-3 Liverpool, Sunderland 1-0 Chelsea, and more: Premier League – live",
+      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
-      "date": "2026-11-08T16:19:51Z",
+      "url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
+      "date": "2026-11-08T16:17:32Z",
       "league": "soccer"
     },
     {
-      "title": "Manchester United v Aston Villa: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
-      "date": "2026-11-08T16:18:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Sunderland stun Chelsea as Le Fée’s penalty breathes life into Black Cats",
+      "title": "Le Fée’s penalty stuns Chelsea and breathes life into defiant Sunderland",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/08/sunderland-chelsea-premier-league-match-report",
       "date": "2026-11-08T16:16:34Z",
       "league": "all"
     },
     {
-      "title": "Alexander Isak tops off goal trio for Liverpool as late penalty offers little for Crystal Palace",
+      "title": "Wirtz provides quality to seal Liverpool’s win over toothless Crystal Palace",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
       "date": "2026-11-08T16:16:18Z",
       "league": "all"
     },
     {
-      "title": "Evanilson launches eighth straight Bournemouth win as Ipswich blunder",
+      "title": "Evanilson launches eighth straight Bournemouth win at blundering Ipswich",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
       "date": "2026-11-08T16:14:31Z",
       "league": "soccer"
     },
     {
-      "title": "Brobbey wins Colwill battle - player ratings for Sunderland's win over Chelsea",
+      "title": "Failed to deal with Brobbey - player ratings for Sunderland v Chelsea",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c94g1n4pzev3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T16:13:36Z",
@@ -878,13 +923,6 @@
       "league": "all"
     },
     {
-      "title": "Shock changes & key results - Wrexham's seismic week",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyg434y84o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T13:19:22Z",
-      "league": "soccer"
-    },
-    {
       "title": "Rahm pips Hatton & McIlroy to Abu Dhabi title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/c6y0exdrp2xeo?at_medium=RSS&at_campaign=rss",
@@ -900,10 +938,10 @@
     },
     {
       "title": "Last season difficult with injury and miscarriage - Muniz",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T11:56:01Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Reece Walsh hat-trick drives Australia past Samoa and into Rugby League World Cup final",
@@ -969,18 +1007,18 @@
       "league": "soccer"
     },
     {
-      "title": "Why unique Brighton defence is so tricky to unpick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T06:41:37Z",
-      "league": "all"
-    },
-    {
       "title": "Messi claims second straight Golden Boot as Nashville set points record on MLS Decision Day",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
       "date": "2026-11-08T03:31:47Z",
       "league": "soccer"
+    },
+    {
+      "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
+      "date": "2026-11-08T01:33:21Z",
+      "league": "all"
     },
     {
       "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
@@ -991,10 +1029,10 @@
     },
     {
       "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:17:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'It's Savage junior's night' - Charlie scores against dad Robbie's side",
@@ -1008,13 +1046,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:07:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Was Leeds' Bogle lucky to escape red card?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:00:26Z",
       "league": "all"
     },
     {
@@ -1046,13 +1077,6 @@
       "league": "soccer"
     },
     {
-      "title": "Scottish roundup: Naderi fires Rangers past St Mirren to keep pressure on Celtic",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
-      "date": "2026-11-07T22:08:26Z",
-      "league": "soccer"
-    },
-    {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
@@ -1078,6 +1102,20 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
       "date": "2026-11-07T21:17:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Maresca's dream start turns into nightmare as title hopes hit",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm93z0l03n8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T20:54:12Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Lando Norris claims F1 São Paulo GP pole as ‘crazy’ rain disrupts qualifying",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
+      "date": "2026-11-07T20:53:55Z",
       "league": "all"
     }
   ]
