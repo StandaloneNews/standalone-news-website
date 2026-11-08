@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T17:53:35Z",
+  "updated_at": "2026-11-08T18:21:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -612,19 +612,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475497",
+      "id": "sportsdb-2475504",
       "league": "nfl",
-      "name": "Indianapolis Colts vs Dallas Cowboys",
-      "date": "2026-11-08T18:00:00Z",
+      "name": "Los Angeles Chargers vs Houston Texans",
+      "date": "2026-11-08T21:05:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Indianapolis Colts",
+          "name": "Los Angeles Chargers",
           "score": ""
         },
         {
-          "name": "Dallas Cowboys",
+          "name": "Houston Texans",
           "score": ""
         }
       ],
@@ -650,19 +650,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591761",
+      "id": "sportsdb-2591762",
       "league": "nhl",
-      "name": "Boston Bruins vs Florida Panthers",
-      "date": "2026-11-08T18:00:00Z",
+      "name": "Buffalo Sabres vs Vegas Golden Knights",
+      "date": "2026-11-08T20:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boston Bruins",
+          "name": "Buffalo Sabres",
           "score": ""
         },
         {
-          "name": "Florida Panthers",
+          "name": "Vegas Golden Knights",
           "score": ""
         }
       ],
@@ -762,6 +762,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489551",
+      "league": "ligue1",
+      "name": "Lens vs Marseille",
+      "date": "2026-11-08T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Lens",
+          "score": ""
+        },
+        {
+          "name": "Marseille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -773,6 +792,55 @@
       "league": "all"
     },
     {
+      "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
+      "date": "2026-11-08T18:13:40Z",
+      "league": "all"
+    },
+    {
+      "title": "São Paulo Grand Prix: Formula One 2026 – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
+      "date": "2026-11-08T18:13:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United v Aston Villa: Premier League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
+      "date": "2026-11-08T18:13:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Peschel scores on debut as USA rout Germany 5-0 at women’s hockey worlds",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/usa-germany-womens-ice-hockey-world-championship-emma-peschel",
+      "date": "2026-11-08T18:00:54Z",
+      "league": "all"
+    },
+    {
+      "title": "England ease pressure on Borthwick after big win over Australia",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cked3q4z0y5xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T18:00:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Alcaraz takes revenge on Shelton to win first Paris title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T17:56:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Qatar runner-up Marquez must wait for eighth title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/motorsport/articles/cqy0re6xjg4wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T17:51:47Z",
+      "league": "all"
+    },
+    {
       "title": "Substitute Olme gives Man Utd deserved win over Aston Villa",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c699ze5074n2o?at_medium=RSS&at_campaign=rss",
@@ -780,31 +848,31 @@
       "league": "all"
     },
     {
-      "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
-      "date": "2026-11-08T17:47:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United v Aston Villa: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
-      "date": "2026-11-08T17:47:01Z",
-      "league": "all"
-    },
-    {
-      "title": "São Paulo Grand Prix: Formula One 2026 – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
-      "date": "2026-11-08T17:47:00Z",
-      "league": "all"
-    },
-    {
       "title": "Russo double gives Arsenal win over Liverpool at Anfield",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnq73n6lyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:45:27Z",
+      "league": "all"
+    },
+    {
+      "title": "FA Cup roundup: Seventh-tier Wimborne shock Crawley to reach second round",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+      "date": "2026-11-08T17:41:47Z",
+      "league": "soccer"
+    },
+    {
+      "title": "10-man Stockport come from behind to survive huge scare at Cray",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqj9km408d38o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T17:39:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Alan Jones obituary",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/alan-jones-obituary",
+      "date": "2026-11-08T17:35:01Z",
       "league": "all"
     },
     {
@@ -934,13 +1002,6 @@
       "league": "all"
     },
     {
-      "title": "Australia battle past Fiji to reach fifth consecutive World Cup final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqm26j5lg651o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T13:56:28Z",
-      "league": "all"
-    },
-    {
       "title": "Australia dismantle Samoa to reach World Cup final",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqly04r1n6xzo?at_medium=RSS&at_campaign=rss",
@@ -1037,48 +1098,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
       "date": "2026-11-08T03:31:47Z",
       "league": "soccer"
-    },
-    {
-      "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
-      "date": "2026-11-08T01:33:21Z",
-      "league": "all"
-    },
-    {
-      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:31:53Z",
-      "league": "ufc"
-    },
-    {
-      "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:17:56Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'It's Savage junior's night' - Charlie scores against dad Robbie's side",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:13:34Z",
-      "league": "all"
-    },
-    {
-      "title": "'Wonderful goal' - Crewe's McNeill scores from halfway line",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:07:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal should have been awarded penalty against Hull - Cann",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:00:09Z",
-      "league": "all"
     }
   ]
 }
