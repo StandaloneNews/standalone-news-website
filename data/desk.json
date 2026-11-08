@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T04:35:43+00:00",
+  "updated_at": "2026-11-08T05:31:37+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -31,6 +31,42 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "128ea2158d184264200fdf5a",
+      "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+      "summary": "Colombian President de la Espriella says those behind the attack in Santa Rosa del Sur will have ‘nowhere to hide’.",
+      "url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T04:56:37+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "15dcc117e2e9b7cfbb77d7be",
+      "title": "Earthquake hits central Japan, injuring more than 20 people",
+      "summary": "The magnitude 5.7 quake hit Shizuoka prefecture, and authorities warn of possible strong aftershocks in coming days.",
+      "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T04:20:57+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic",
+      "image": {
+        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg/1280px-Skyline_Ueno_Tokyo_Japan_%28214471153%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page_url": "https://commons.wikimedia.org/wiki/File:Skyline_Ueno_Tokyo_Japan_(214471153).jpeg",
+        "source": "Wikimedia Commons",
+        "creator": "Andreas Bunen",
+        "license": "CC BY-SA 3.0",
+        "description": "500px provided description: Skyline Ueno Tokyo Japan [#sky ,#skyscraper ,#Tokyo ,#Sightseeing ,#Tokio ,#Sehnswurdigkeiten]",
+        "label": "Illustrative photo",
+        "matched_query": "Tokyo Japan skyline"
+      }
+    },
     {
       "id": "9c999dcc39c371b541911a0c",
       "title": "Ukraine war briefing: Russia ramping up attacks to ‘pressure’ Kyiv at trilateral talks, Zelenskyy says",
@@ -5492,32 +5528,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T18:48:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "1edb28e8da1d3e2a74e090aa",
-      "title": "Online magazine Salon announces it is shutting down",
-      "summary": "Salon said there were no immediate plans to take down its online archives, which include three decades of stories from across the world and across topics and genres.",
-      "url": "https://www.pbs.org/newshour/arts/online-magazine-salon-announces-it-is-shutting-down",
-      "source": "PBS News",
-      "feed_id": "pbs_top",
-      "category": "US News",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T18:46:46+00:00",
-      "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "4c56f590e5a91d66db791c84",
-      "title": "Goats on weed-clearing duty become unlikely Tokyo celebrities",
-      "summary": "Two goats deployed to clear overgrown grass near a Tokyo railway station have become social media stars.",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/6-11-sv-tokyo-goats-weed-clearing?traffic_source=rss",
-      "source": "Al Jazeera English",
-      "feed_id": "aljazeera",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T18:45:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
