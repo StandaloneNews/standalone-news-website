@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T01:20:05+00:00",
+  "updated_at": "2026-11-08T02:31:09+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -19,18 +19,57 @@
     "2ee1cc6e12aa309060fc84eb",
     "6ab2b81b876b396f2d61308c",
     "b8bcd5eb7fc95501558c079a",
-    "16d4b702522f5dfb1cc1a6bc",
     "99edd694c05ffca775038a26",
     "af722e765d69173a661ef7c9",
+    "f6291242d992d0d53911fc9a",
     "42a555c90e3be1ee65fdb50c",
     "757379c07d1179f77b312b84",
     "9bf74dfc2091c0deb97f0691",
     "2993c3bddd49024d05647913",
-    "e6f32b7d44ef53651cc0cc93",
-    "70f1531fce2b0561b927bd18"
+    "70f1531fce2b0561b927bd18",
+    "949ca82ab4607078fe837912"
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "d04570c52c8f8b018285176a",
+      "title": "What we know so far after Krakow gun attack",
+      "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T01:47:41+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "6f7ef4430d44ae2add881430",
+      "title": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+      "summary": "El Hierro asks Spanish government for help after more than 3,300 people arrived on boats since start of November.",
+      "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T01:37:55+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "3c3d33809aa59138d10c58fa",
+      "title": "Royal Family join veterans and families at Festival of Remembrance",
+      "summary": "The senior royals attended the annual event at London's Royal Albert Hall on the eve of Remembrance Sunday.",
+      "url": "https://www.bbc.co.uk/news/articles/cxvgd2nr3e30o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T01:24:58+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "5cd26d1b4f8a302560432ddc",
       "title": "Property, football and politics: The links between Manchester and Abu Dhabi explained",
@@ -177,7 +216,7 @@
     {
       "id": "d123433d5895762b6e4dbc49",
       "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-      "summary": "It was unclear whether the president's public job offer was genuine, although White said later on Saturday: \"I got a lot of jobs already.\"",
+      "summary": "It was unclear how genuine the president's offer was, although White later said he would travel to Washington for them to meet.",
       "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -273,17 +312,7 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T23:45:45+00:00",
       "desk_priority": 29,
-      "selection_type": "automatic",
-      "image": {
-        "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg/1280px-Israel_-_Jerusalem_-_Old_City_-_2_%284261543307%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page_url": "https://commons.wikimedia.org/wiki/File:Israel_-_Jerusalem_-_Old_City_-_2_(4261543307).jpg",
-        "source": "Wikimedia Commons",
-        "creator": "Kyle Taylor from London, 84 Countries",
-        "license": "CC BY 2.0",
-        "description": "Israel - Jerusalem - Old City",
-        "label": "Illustrative photo",
-        "matched_query": "Jerusalem Israel skyline"
-      }
+      "selection_type": "automatic"
     },
     {
       "id": "789b8ad2806ce5e8e16ac97b",
@@ -348,19 +377,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T23:01:43+00:00",
       "desk_priority": 24,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "d04570c52c8f8b018285176a",
-      "title": "What we know so far after Krakow gun attack",
-      "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-07T22:58:49+00:00",
-      "desk_priority": 29,
       "selection_type": "automatic"
     },
     {
@@ -5493,32 +5509,6 @@
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T18:35:08+00:00",
       "desk_priority": 37,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "01856f52ceb43a68949e7285",
-      "title": "Why the US midterms sparked an AI stock selloff",
-      "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-      "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_business",
-      "category": "Economy",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T18:32:16+00:00",
-      "desk_priority": 38,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "f819e93d781e1d533b0f1de3",
-      "title": "Opposition to AI data centers in the midterms foreshadows tougher regulations ahead",
-      "summary": "Data center regulation itself was not on most midterm ballots, but hard-line stances against the server warehouses were woven into the platforms of Democrats who upended longtime Republican control of the governorships in Texas, Ohio and Georgia, all data center hot spots.",
-      "url": "https://www.pbs.org/newshour/nation/opposition-to-ai-data-centers-in-the-midterms-foreshadows-tougher-regulations-ahead",
-      "source": "PBS News",
-      "feed_id": "pbs_politics",
-      "category": "Government",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T18:30:36+00:00",
-      "desk_priority": 31,
       "selection_type": "automatic"
     }
   ]
