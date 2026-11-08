@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T21:56:52Z",
+  "updated_at": "2026-11-08T22:25:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -762,53 +762,57 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Falkirk add goals and grit to McGlynn's guile on rapid rise",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd4q0k8ddo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T22:14:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
+      "date": "2026-11-08T22:12:58Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Norris wins gripping race after Antonelli and Russell errors",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T22:11:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Oldham Athletic shock Sheffield Wednesday with extra-time winner",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c52e982pnrdko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T22:01:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Norris brilliant in wet & Verstappen recovery extraordinary - driver ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5y43jzvrnz0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T21:56:33Z",
+      "league": "all"
+    },
+    {
       "title": "Bizarre & thrilling theatre as Carrick's Man Utd future still in limbo",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T21:50:05Z",
-      "league": "soccer"
+      "league": "all"
+    },
+    {
+      "title": "Bundesliga",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/l00591pp?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T21:45:31Z",
+      "league": "all"
     },
     {
       "title": "NFL week nine: Chiefs thrash Jets, Rams beat Commanders and Broncos survive wild finish – as it happened",
@@ -944,13 +948,6 @@
       "league": "all"
     },
     {
-      "title": "Norris wins gripping race after Antonelli and Russell errors",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:13:53Z",
-      "league": "all"
-    },
-    {
       "title": "Man Utd making it 'hard on ourselves' - Carrick",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6rmyg80pk3wo?at_medium=RSS&at_campaign=rss",
@@ -994,10 +991,10 @@
     },
     {
       "title": "Dorgu makes dramatic impact - Man Utd v Aston Villa ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k7k54veo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T18:46:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Tinkerman' Alonso's Chelsea side still searching for identity",
@@ -1014,13 +1011,6 @@
       "league": "all"
     },
     {
-      "title": "England ease pressure on Borthwick after big win over Australia",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cked3q4z0y5xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T18:00:25Z",
-      "league": "all"
-    },
-    {
       "title": "Alcaraz takes revenge on Shelton to win first Paris Masters title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss",
@@ -1032,13 +1022,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnq73n6lyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:45:27Z",
-      "league": "all"
-    },
-    {
-      "title": "10-man Stockport come from behind to survive huge scare at Cray",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqj9km408d38o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T17:39:15Z",
       "league": "all"
     },
     {
@@ -1092,30 +1075,9 @@
     },
     {
       "title": "Fan injured after falling through hole in stand",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck0j0x2e49j7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T16:53:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
-      "date": "2026-11-08T16:17:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Le Fée’s penalty stuns Chelsea and breathes life into defiant Sunderland",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/sunderland-chelsea-premier-league-match-report",
-      "date": "2026-11-08T16:16:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Wirtz provides quality as Liverpool leave Crystal Palace propping up table",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
-      "date": "2026-11-08T16:16:18Z",
       "league": "soccer"
     }
   ]
