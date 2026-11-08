@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T08:34:23Z",
+  "updated_at": "2026-11-08T09:29:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -664,21 +664,47 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489545",
+      "league": "ligue1",
+      "name": "Rennes vs Lille",
+      "date": "2026-11-08T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Rennes",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Premier League buildup, FA Cup first round, WSL and more – matchday live",
+      "title": "Australia v Samoa: men’s Rugby League World Cup semi-final – live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/premier-league-buildup-fa-cup-first-round-wsl-and-more-matchday-live",
-      "date": "2026-11-08T08:20:52Z",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/australia-kangaroos-vs-samoa-rugby-league-world-cup-mens-semi-final-live-updates",
+      "date": "2026-11-08T09:26:41Z",
       "league": "all"
     },
     {
-      "title": "Australia 30-14 Fiji: Women’s Rugby League World Cup semi-final – live reaction",
+      "title": "Premier League buildup, FA Cup first round, WSL and more – matchday live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/australia-jillaroos-vs-fiji-womens-rugby-league-world-cup-semi-final-live-updates",
-      "date": "2026-11-08T08:19:32Z",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/premier-league-buildup-fa-cup-first-round-wsl-and-more-matchday-live",
+      "date": "2026-11-08T09:22:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Abbi Church powers Australia to win over spirited Fiji as hosts reach Women’s Rugby League World Cup final",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-jillaroos-fiji-womens-rugby-league-world-cup-semi-final-match-report",
+      "date": "2026-11-08T08:23:26Z",
       "league": "all"
     },
     {
@@ -703,6 +729,13 @@
       "league": "all"
     },
     {
+      "title": "I want to face Baumgardner, it will be boxing's next great rivalry - Dubois",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6y8l1318k8zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T07:30:09Z",
+      "league": "all"
+    },
+    {
       "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo?at_medium=RSS&at_campaign=rss",
@@ -718,10 +751,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr20wvgx2q27o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T06:47:58Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Why unique Brighton defence is so tricky to unpick",
@@ -736,6 +769,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cv8ez3pe5x41o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T06:28:56Z",
       "league": "all"
+    },
+    {
+      "title": "Messi claims second straight Golden Boot as Nashville sets points record on MLS Decision Day",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
+      "date": "2026-11-08T03:31:47Z",
+      "league": "soccer"
     },
     {
       "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
@@ -773,18 +813,11 @@
       "league": "all"
     },
     {
-      "title": "Was Leeds' Bogle lucky to escape red card?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:00:26Z",
-      "league": "all"
-    },
-    {
       "title": "Forest win over Man City 'a turning point' - Murphy",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:00:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Arsenal should have been awarded penalty against Hull - Cann",
@@ -802,10 +835,10 @@
     },
     {
       "title": "York score after 10 seconds against Northampton following unique kick-off",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c893zrl4p7npo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T23:38:38Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Hutchinson beats Buatsi to win WBC light-heavyweight title",
@@ -844,10 +877,10 @@
     },
     {
       "title": "Glasner glee and Delap double - win could be lift-off for Forest",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:42:59Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
@@ -858,16 +891,23 @@
     },
     {
       "title": "Notts County beat Altrincham in incredible fog-filled spectacle",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq77p24myz4ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:25:19Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Enzo Maresca rues Manchester City’s lack of desire after defeat at Nottingham Forest",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
       "date": "2026-11-07T21:17:41Z",
+      "league": "all"
+    },
+    {
+      "title": "World number one Rybakina withdraws from WTA Finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm4g1n9ednn1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T21:10:55Z",
       "league": "all"
     },
     {
@@ -959,27 +999,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
       "date": "2026-11-07T19:20:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Argentina set to go to Cas after Fifa rejects appeals",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crn4ekzyz8jlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:33:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Title race hots up before Chelsea-Man City showdown",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:27:46Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/arsenal-hull-premier-league-match-report",
-      "date": "2026-11-07T17:02:45Z",
       "league": "soccer"
     }
   ]
