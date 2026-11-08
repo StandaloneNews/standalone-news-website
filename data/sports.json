@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T19:59:45Z",
+  "updated_at": "2026-11-08T20:57:14Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -631,38 +631,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601804",
+      "id": "sportsdb-2601805",
       "league": "nba",
-      "name": "Chicago Bulls vs Philadelphia 76ers",
-      "date": "2026-11-08T20:30:00Z",
+      "name": "Detroit Pistons vs Los Angeles Lakers",
+      "date": "2026-11-08T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chicago Bulls",
+          "name": "Detroit Pistons",
           "score": ""
         },
         {
-          "name": "Philadelphia 76ers",
+          "name": "Los Angeles Lakers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591762",
+      "id": "sportsdb-2591765",
       "league": "nhl",
-      "name": "Buffalo Sabres vs Vegas Golden Knights",
-      "date": "2026-11-08T20:30:00Z",
+      "name": "Winnipeg Jets vs Tampa Bay Lightning",
+      "date": "2026-11-08T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Sabres",
+          "name": "Winnipeg Jets",
           "score": ""
         },
         {
-          "name": "Vegas Golden Knights",
+          "name": "Tampa Bay Lightning",
           "score": ""
         }
       ],
@@ -762,60 +762,85 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Palace consider replacing Sage with Frank among contenders",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T20:49:40Z",
+      "league": "soccer"
+    },
+    {
       "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
-      "date": "2026-11-08T19:58:44Z",
+      "date": "2026-11-08T20:44:32Z",
       "league": "all"
     },
     {
-      "title": "Where does Man United 4-4 Aston Villa rank among best Premier League games?",
+      "title": "Who has made Troy's Premier League team of the week?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T20:18:01Z",
+      "league": "all"
+    },
+    {
+      "title": "FA Cup roundup: Seventh-tier Wimborne shock Crawley to reach second round",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
+      "date": "2026-11-08T20:15:53Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Where does Man Utd 4-4 Villa rank among best Premier League games?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cy47wj05xgqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:55:44Z",
+      "date": "2026-11-08T20:05:53Z",
       "league": "soccer"
+    },
+    {
+      "title": "Man Utd score twice in stoppage time to share points in eight-goal thriller",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqj6jldpl2gyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T20:01:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Brighton breeze past 10-man Brentford to move up to second",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cry836l4q56po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T20:00:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Bournemouth beat Ipswich to extend winning streak",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmx23rll2w0qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:59:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool dispatch Palace to pile pressure on Sage",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c5djv1mn7gj8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:58:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Struggling Sunderland beat Chelsea to move off bottom of Premier League",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c64g1nj4v4rmo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:58:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish roundup: Flying Falkirk hit five to shatter Hearts’ long unbeaten home run",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
+      "date": "2026-11-08T19:54:56Z",
+      "league": "all"
     },
     {
       "title": "Feyi-Waboso burns bright as England energy endorses Borthwick",
@@ -930,32 +955,11 @@
       "league": "all"
     },
     {
-      "title": "Qatar runner-up Marquez must wait for eighth title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/motorsport/articles/cqy0re6xjg4wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T17:51:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Substitute Olme gives Man Utd deserved win over Aston Villa",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c699ze5074n2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T17:47:38Z",
-      "league": "all"
-    },
-    {
       "title": "Russo double gives Arsenal win over Liverpool at Anfield",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8qlnq73n6lyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:45:27Z",
       "league": "all"
-    },
-    {
-      "title": "FA Cup roundup: Seventh-tier Wimborne shock Crawley to reach second round",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
-      "date": "2026-11-08T17:41:47Z",
-      "league": "soccer"
     },
     {
       "title": "10-man Stockport come from behind to survive huge scare at Cray",
@@ -994,10 +998,10 @@
     },
     {
       "title": "London City thump Birmingham to close gap on second",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c62kel300wwxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:06:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England swat aside Wallabies to back up Borthwick",
@@ -1008,10 +1012,10 @@
     },
     {
       "title": "Grimsby fight back from two goals down to edge Stafford on penalties",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cv5yn1w5j359o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:00:00Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Fan injured after falling through hole in stand",
@@ -1042,11 +1046,11 @@
       "league": "soccer"
     },
     {
-      "title": "Evanilson launches eighth straight Bournemouth win at blundering Ipswich",
-      "source": "The Guardian Sport",
+      "title": "Evanilson ignites eighth straight Bournemouth win at blundering Ipswich",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
       "date": "2026-11-08T16:14:31Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Failed to deal with Brobbey - player ratings for Sunderland v Chelsea",
@@ -1074,48 +1078,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq2d698j5gxgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T14:41:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Russo on target again as double fires under-pressure Arsenal to vital WSL win at Liverpool",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
-      "date": "2026-11-08T14:13:00Z",
-      "league": "all"
-    },
-    {
-      "title": "'That's Reece' - World Cup semi-final brings out best and worst of Walsh",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm93zrw2wz9go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T13:57:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Rahm pips Hatton & McIlroy to Abu Dhabi title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c6y0exdrp2xeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T13:14:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Last season difficult with injury and miscarriage - Muniz",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T11:56:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "John Aloisi’s Chengdu choke to blow title chances on final day of Chinese season",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/john-aloisi-chengdu-choke-chinese-super-league-final-day-of-season",
-      "date": "2026-11-08T10:10:43Z",
-      "league": "soccer"
-    },
-    {
-      "title": "I haven't thrown anyone under the bus - Khawaja",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c65yn1j4lrgno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T10:04:01Z",
       "league": "all"
     }
   ]
