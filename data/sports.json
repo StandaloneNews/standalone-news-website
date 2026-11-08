@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T05:33:40Z",
+  "updated_at": "2026-11-08T06:33:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 13,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,12 +68,12 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -683,9 +683,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398536",
+      "league": "brasileirao",
+      "name": "Mirassol vs Atlético Mineiro",
+      "date": "2026-11-14T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Mirassol",
+          "score": ""
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Australia v Fiji: Women’s Rugby League World Cup semi-final – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/australia-jillaroos-vs-fiji-womens-rugby-league-world-cup-semi-final-live-updates",
+      "date": "2026-11-08T06:32:44Z",
+      "league": "all"
+    },
+    {
+      "title": "The oldest club in London making FA Cup history",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv8ez3pe5x41o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T06:28:56Z",
+      "league": "all"
+    },
     {
       "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
       "source": "The Guardian Sport",
@@ -771,13 +823,6 @@
       "league": "all"
     },
     {
-      "title": "McNeill's superb halfway goal sparks Crewe upset over Wimbledon",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cv5yn15k5pz0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:05:36Z",
-      "league": "all"
-    },
-    {
       "title": "'Bruno's as good as ever' - Carrick backs Man Utd captain",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
@@ -800,10 +845,10 @@
     },
     {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T22:05:40Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Glasner glee and Delap double - win could be lift-off for Forest",
@@ -954,10 +999,10 @@
     },
     {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:23:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
@@ -993,13 +1038,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
       "date": "2026-11-07T16:27:39Z",
       "league": "all"
-    },
-    {
-      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
-      "date": "2026-11-07T15:11:59Z",
-      "league": "soccer"
     }
   ]
 }
