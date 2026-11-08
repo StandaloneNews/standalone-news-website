@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T18:21:05Z",
+  "updated_at": "2026-11-08T19:10:02Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -726,19 +726,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
+      "id": "sportsdb-2508414",
       "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
+      "name": "Bayern Munich vs Köln",
+      "date": "2026-11-20T19:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Hoffenheim",
+          "name": "Bayern Munich",
           "score": ""
         },
         {
-          "name": "Schalke 04",
+          "name": "Köln",
           "score": ""
         }
       ],
@@ -762,54 +762,63 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489551",
-      "league": "ligue1",
-      "name": "Lens vs Marseille",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": ""
-        },
-        {
-          "name": "Marseille",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "The FA Cup",
+      "title": "Norris wins rainy São Paulo Grand Prix as Mercedes clinch constructors’ championship: Formula One 2026 – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
+      "date": "2026-11-08T19:04:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Norris wins gripping race after Antonelli and Russell errors",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbctwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T18:41:30Z",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:04:02Z",
       "league": "all"
     },
     {
       "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
-      "date": "2026-11-08T18:13:40Z",
+      "date": "2026-11-08T19:02:57Z",
       "league": "all"
     },
     {
-      "title": "São Paulo Grand Prix: Formula One 2026 – live",
+      "title": "Emotion gets better of Samoa as Australia begin to resemble their old selves | Angus Fontaine",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
-      "date": "2026-11-08T18:13:36Z",
+      "url": "https://www.theguardian.com/sport/blog/2026/nov/09/australia-kangaroos-mens-rugby-league-world-cup-semi-final",
+      "date": "2026-11-08T19:00:47Z",
       "league": "all"
     },
     {
-      "title": "Manchester United v Aston Villa: Premier League – live",
+      "title": "Seventh-tier Wimborne knock out League Two Crawley in FA Cup upset",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmy83620wq2wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T18:56:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Dorgu rescues point for Manchester United in eight-goal thriller against Aston Villa",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/man-utd-v-aston-villa-premier-league-live",
-      "date": "2026-11-08T18:13:10Z",
+      "url": "https://www.theguardian.com/football/2026/nov/08/manchester-united-aston-villa-premier-league-match-report",
+      "date": "2026-11-08T18:54:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Dorgu makes dramatic impact - Man Utd v Aston Villa ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k7k54veo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T18:46:45Z",
+      "league": "all"
+    },
+    {
+      "title": "'Tinkerman' Alonso's Chelsea side still searching for identity",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5m2ddz437nzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T18:20:56Z",
       "league": "all"
     },
     {
@@ -827,7 +836,7 @@
       "league": "all"
     },
     {
-      "title": "Alcaraz takes revenge on Shelton to win first Paris title",
+      "title": "Alcaraz takes revenge on Shelton to win first Paris Masters title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/ck9qz8d2znl5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T17:56:35Z",
@@ -1002,24 +1011,10 @@
       "league": "all"
     },
     {
-      "title": "Australia dismantle Samoa to reach World Cup final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqly04r1n6xzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T13:42:46Z",
-      "league": "all"
-    },
-    {
       "title": "Rahm pips Hatton & McIlroy to Abu Dhabi title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/c6y0exdrp2xeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T13:14:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia reach World Cup final after Fiji scare",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c6vg02klk084o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T12:39:01Z",
       "league": "all"
     },
     {
@@ -1028,13 +1023,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nl4w3e8eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T11:56:01Z",
       "league": "soccer"
-    },
-    {
-      "title": "Reece Walsh hat-trick drives Australia past Samoa and into Rugby League World Cup final",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-kangaroos-samoa-rugby-league-world-cup-mens-semi-final-match-report",
-      "date": "2026-11-08T11:20:29Z",
-      "league": "all"
     },
     {
       "title": "John Aloisi’s Chengdu choke to blow title chances on final day of Chinese season",
@@ -1080,23 +1068,16 @@
     },
     {
       "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T07:30:01Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Messi makes history with MLS Golden Boot",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckr5ygezr0m9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T07:23:50Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Messi claims second straight Golden Boot as Nashville set points record on MLS Decision Day",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/07/lionel-messi-mls-golden-boot-inter-miami-charlotte-nashville-playoffs",
-      "date": "2026-11-08T03:31:47Z",
       "league": "soccer"
     }
   ]
