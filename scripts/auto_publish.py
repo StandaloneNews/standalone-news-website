@@ -53,7 +53,7 @@ ALLOWED_HOSTS={
     'www.govinfo.gov','govinfo.gov','public-inspection.federalregister.gov'
 }
 # High-stakes or ambiguous news is better served as a link to the original source.
-SENSITIVE=re.compile(r'\b(election|ballot|vote counting|candidate|assassination|shooting|\bdeath\b|\bdead\b|\bkilled\b|\bwar\b|military strike|terroris\w*|warfare|hostage|genocide|\btrial\b|\bindict\w*|criminal charg\w*|arrest|suspect|investigation|allegation|lawsuit|enforcement action|sanction\w*|emergency|disaster|recall\w*|vaccine|cancer|drug approval|scheduling|reschedul\w*|controlled substance|schedule i|schedule ii|schedule iii)\b',re.I)
+SENSITIVE=re.compile(r'\b(election|ballot|vote counting|candidate|assassination|shooting|\bdeath\b|\bdead\b|\bkilled\b|\bwar\b|military strike|terroris\w*|warfare|hostage|genocide|\btrial\b|\bindict\w*|criminal charg\w*|arrest|suspect|investigation|allegation|lawsuit|enforcement action|sanction\w*|emergency|disaster|recall\w*|vaccine|cancer|drug approval|scheduling|reschedul\w*|controlled substances?|schedule i|schedule ii|schedule iii)\b',re.I)
 MAX_DAY=4
 MIN_INTERVAL_HOURS=3
 
@@ -482,25 +482,49 @@ def main():
         if now-latest<dt.timedelta(hours=MIN_INTERVAL_HOURS):
             print('Minimum publishing interval not yet elapsed.');return 0
     already={r['source_url'] for r in records}
-    candidates=[s for s in feed.get('items',[]) if s.get('source_type') in ('Official direct','Official register') and official_url(s.get('url','')) and s.get('url') not in already and not SENSITIVE.search(s.get('title',''))]
-    print(f'Found {len(candidates)} eligible primary-source candidates')
-    # Prefer documents with structured full text. Do not let one source take
-    # every opportunity, and skip source endpoints that regularly fail to serve
-    # article text. Those sources stay in the *headline feed*.
-    ranked = sorted(candidates, key=lambda s: (
-        0 if s.get('source_type') == 'Official register' else
-        1 if s.get('source') in ('Federal Reserve', 'Bureau of Labor Statistics', 'Food and Drug Administration') else
-        2,
-        s.get('source',''),
-        -(len(s.get('title') or ''))))
+    # Prefer substantive, directly linked official announcements over generic
+    # agency landing pages or narrow controlled-substance registry notices.
+    # The latter remain eligible for the normal headline feed, but not
+    # unattended AI explainers under our existing editorial rules.
+    def safe_candidate(story):
+        url=story.get('url','')
+        title=story.get('title','')
+        if story.get('source_type') not in ('Official direct','Official register'):
+            return False
+        if not official_url(url) or url in already or SENSITIVE.search(title):
+            return False
+        parsed=urllib.parse.urlsplit(url)
+        if parsed.path.rstrip('/') in ('','/bls','/newsroom','/newsroom/press-releases'):
+            return False
+        if story.get('source','').startswith('Federal Register · DEA'):
+            return False
+        if story.get('source') == 'Bureau of Labor Statistics' and parsed.path.rstrip('/') == '/bls':
+            return False
+        return True
+
+    candidates=[story for story in feed.get('items',[]) if safe_candidate(story)]
+    print(f'Found {len(candidates)} safe, article-specific primary-source candidates')
+    # Prioritize diverse direct agency announcements, then structured
+    # documents. Newer publication dates win within the same source tier.
+    def rank_candidate(story):
+        source=story.get('source','')
+        tier=0 if source in ('Federal Reserve','Securities and Exchange Commission') else 1 if source == 'Department of Justice' else 2
+        return (tier, source, story.get('published_at',''))
+
+    ranked=sorted(candidates,key=rank_candidate)
+    # Preserve recently published items within each agency instead of
+    # favoring the longest or alphabetically first headline.
+    ranked.sort(key=lambda story: story.get('published_at',''),reverse=True)
+    ranked.sort(key=lambda story: 0 if story.get('source') in ('Federal Reserve','Securities and Exchange Commission') else 1 if story.get('source') == 'Department of Justice' else 2)
     selected=[]; per_source={}
     for candidate in ranked:
         source_name=candidate.get('source','Unknown')
-        limit=5 if candidate.get('source_type') == 'Official register' else 3
-        if per_source.get(source_name,0)>=limit: continue
+        if per_source.get(source_name,0)>=5:
+            continue
         selected.append(candidate)
         per_source[source_name]=per_source.get(source_name,0)+1
-        if len(selected)>=14:break
+        if len(selected)>=14:
+            break
     print(f'Checking up to {len(selected)} candidates across {len(per_source)} sources')
     try:
         gemini_models = list_usable_gemini_models(key)
@@ -511,12 +535,14 @@ def main():
         print('AI SETUP ERROR: '+str(error), file=sys.stderr, flush=True)
         return 1
     failures={}
+    model_skips=0
     for story in selected:
         try:
             source, canonical_url=fetch_official(story['url'],story.get('source_type',''))
             print(f'Source evidence: {len(source)} chars — {story.get("source","Unknown")}', flush=True)
             value,used_model=generate_ai(story,source,key,gemini_models)
             if value.get('skip'):
+                model_skips+=1
                 print(f'Model declined story: {story.get("source","Unknown")} (not enough distinct facts)')
                 continue
             headline,summary,paragraphs=check_article(value,source,story)
@@ -542,7 +568,7 @@ def main():
             print(f'Skipped {story.get("source", "unknown")}: {type(e).__name__}: {reason} | URL={story.get("url","")[:200]}',file=sys.stderr,flush=True)
         except Exception as e:
             print('Unexpected source error: '+type(e).__name__,file=sys.stderr)
-    print('No story passed publishing safeguards. No new article.')
+    print(f'No story passed publishing safeguards. No new article. Model declines: {model_skips}; source/validation failures: {sum(failures.values())}.')
     for reason, count in sorted(failures.items(), key=lambda item:-item[1])[:6]:
         print(f'  {count}x {reason}')
     return 0
