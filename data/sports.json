@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T14:05:30Z",
+  "updated_at": "2026-11-08T14:58:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -8,7 +8,7 @@
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 3
+      "events": 4
     },
     {
       "id": "nfl",
@@ -416,6 +416,104 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "mma-20261205-ufc-saudi-arabia-adesanya-vs-magomedov",
+      "league": "ufc",
+      "name": "UFC Saudi Arabia: Adesanya vs. Magomedov",
+      "date": "2026-12-05T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [
+        {
+          "fighters": [
+            {
+              "name": "Israel Adesanya",
+              "score": ""
+            },
+            {
+              "name": "Shara Magomedov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Ian Machado Garry",
+              "score": ""
+            },
+            {
+              "name": "Yaroslav Amosov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Serghei Spivac",
+              "score": ""
+            },
+            {
+              "name": "Mario Pinto",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Levan Chokheli",
+              "score": ""
+            },
+            {
+              "name": "Islam Dulatov",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Mairon Santos",
+              "score": ""
+            },
+            {
+              "name": "Akbar Abdullaev",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Magomed Tuchalov",
+              "score": ""
+            },
+            {
+              "name": "Ion Cutelaba",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        }
+      ],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
       "id": "mma-20261212-ufc-335-oliveira-vs-lopes",
       "league": "ufc",
       "name": "UFC 335: Oliveira vs. Lopes",
@@ -514,19 +612,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475496",
+      "id": "sportsdb-2475497",
       "league": "nfl",
-      "name": "Atlanta Falcons vs Cincinnati Bengals",
-      "date": "2026-11-08T14:30:00Z",
+      "name": "Indianapolis Colts vs Dallas Cowboys",
+      "date": "2026-11-08T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Falcons",
+          "name": "Indianapolis Colts",
           "score": ""
         },
         {
-          "name": "Cincinnati Bengals",
+          "name": "Dallas Cowboys",
           "score": ""
         }
       ],
@@ -628,19 +726,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508413",
+      "id": "sportsdb-2508405",
       "league": "bundesliga",
-      "name": "Köln vs Bayer Leverkusen",
-      "date": "2026-11-08T14:30:00Z",
+      "name": "Freiburg vs Union Berlin",
+      "date": "2026-11-08T16:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Köln",
+          "name": "Freiburg",
           "score": ""
         },
         {
-          "name": "Bayer Leverkusen",
+          "name": "Union Berlin",
           "score": ""
         }
       ],
@@ -668,17 +766,31 @@
   ],
   "stories": [
     {
-      "title": "Liverpool 1-2 Arsenal: Women’s Super League – live reaction",
+      "title": "Crystal Palace v Liverpool, Sunderland v Chelsea, and more: Premier League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
+      "date": "2026-11-08T14:49:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "England v Australia: Nations Championship – rugby union live",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/liverpool-v-arsenal-womens-super-league-live",
-      "date": "2026-11-08T14:02:15Z",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/england-v-australia-nations-championship-rugby-union-live",
+      "date": "2026-11-08T14:43:07Z",
       "league": "all"
     },
     {
-      "title": "Crystal Palace v Liverpool, Sunderland v Chelsea, and more: Premier League – live",
+      "title": "Chengdu blow 12-point lead to miss out on Chinese title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq2d698j5gxgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T14:41:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Russo on target again as double fires under-pressure Arsenal to vital WSL win at Liverpool",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/08/crystal-palace-v-liverpool-brighton-v-brentford-and-more-premier-league-live",
-      "date": "2026-11-08T14:01:21Z",
+      "url": "https://www.theguardian.com/football/2026/nov/08/liverpool-arsenal-wsl-match-report",
+      "date": "2026-11-08T14:13:00Z",
       "league": "all"
     },
     {
@@ -743,13 +855,6 @@
       "url": "https://www.bbc.co.uk/sport/videos/ck3r5g1j97nno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T10:29:54Z",
       "league": "soccer"
-    },
-    {
-      "title": "Why Wales have a lot to prove despite beating Japan",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx98z74gg69mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T10:13:56Z",
-      "league": "all"
     },
     {
       "title": "John Aloisi’s Chengdu choke to blow title chances on final day of Chinese season",
@@ -973,13 +1078,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/crp3gewxj77eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T20:02:25Z",
-      "league": "all"
-    },
-    {
-      "title": "There are very few reasons for Unai Emery to leave Aston Villa for Manchester United | Jonathan Wilson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/manager-sorts-out-manchester-united-unai-emery",
-      "date": "2026-11-07T20:00:19Z",
       "league": "all"
     }
   ]
