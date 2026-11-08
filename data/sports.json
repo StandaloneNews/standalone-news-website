@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T20:57:14Z",
+  "updated_at": "2026-11-08T21:56:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -612,19 +612,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475504",
+      "id": "sportsdb-2475508",
       "league": "nfl",
-      "name": "Los Angeles Chargers vs Houston Texans",
-      "date": "2026-11-08T21:05:00Z",
+      "name": "Chicago Bears vs Tampa Bay Buccaneers",
+      "date": "2026-11-09T01:20:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Chargers",
+          "name": "Chicago Bears",
           "score": ""
         },
         {
-          "name": "Houston Texans",
+          "name": "Tampa Bay Buccaneers",
           "score": ""
         }
       ],
@@ -762,21 +762,94 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Palace consider replacing Sage with Frank among contenders",
+      "title": "Bizarre & thrilling theatre as Carrick's Man Utd future still in limbo",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T20:49:40Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T21:50:05Z",
       "league": "soccer"
     },
     {
-      "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
+      "title": "NFL week nine: Chiefs thrash Jets, Rams beat Commanders and Broncos survive wild finish – as it happened",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
-      "date": "2026-11-08T20:44:32Z",
+      "date": "2026-11-08T21:38:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Woeful Wallabies sink to new Twickenham low with no set-piece and no swagger | Gerard Meagher",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-wallabies-england-twickenham-nations-championship-rugby-union",
+      "date": "2026-11-08T21:30:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Dalot’s muddled performances are just another symptom of Old Trafford chaos | Will Unwin",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/08/diogo-dalot-manchester-united-old-trafford-aston-villa",
+      "date": "2026-11-08T21:24:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Villa's Kamara on Chelsea watchlist - Monday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T21:08:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Palace consider replacing Sage, with Frank among contenders",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T20:49:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Steve Borthwick’s England channel their rage to resemble finished article | Andy Bull",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/steve-borthwick-england-australia-nations-championship-twickenham-rugby-union",
+      "date": "2026-11-08T20:45:49Z",
       "league": "all"
     },
     {
@@ -836,7 +909,7 @@
       "league": "all"
     },
     {
-      "title": "Scottish roundup: Flying Falkirk hit five to shatter Hearts’ long unbeaten home run",
+      "title": "Scottish roundup: flying Falkirk hit five to shatter Hearts’ long unbeaten home run",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
       "date": "2026-11-08T19:54:56Z",
@@ -1044,41 +1117,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
       "date": "2026-11-08T16:16:18Z",
       "league": "soccer"
-    },
-    {
-      "title": "Evanilson ignites eighth straight Bournemouth win at blundering Ipswich",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/ipswich-bournemouth-premier-league-match-report",
-      "date": "2026-11-08T16:14:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Failed to deal with Brobbey - player ratings for Sunderland v Chelsea",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c94g1n4pzev3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T16:13:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who was back to his best? Player ratings for Crystal Palace v Liverpool",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgjm2dlpv6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T16:04:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England await Guehi scan results after injury concern",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T15:03:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Chengdu lose final four games to blow 12-point lead and Chinese title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq2d698j5gxgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T14:41:04Z",
-      "league": "all"
     }
   ]
 }
