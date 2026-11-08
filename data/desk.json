@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T07:43:42+00:00",
+  "updated_at": "2026-11-08T08:32:21+00:00",
   "method": "Automated importance scoring and subject-specific commercial-license photo matching; not verified or manually approved",
   "sources_checked": 54,
   "sources_ok": 54,
@@ -19,8 +19,8 @@
     "6921e45d9c5909960ee86820",
     "2ee1cc6e12aa309060fc84eb",
     "b8bcd5eb7fc95501558c079a",
+    "a961022228ccff93357e3207",
     "79953e53275e9aeb951e6ddf",
-    "99edd694c05ffca775038a26",
     "fc8b9f966699944af36a295e",
     "af722e765d69173a661ef7c9",
     "42a555c90e3be1ee65fdb50c",
@@ -31,6 +31,45 @@
   ],
   "image_policy": "Only keyword-specific, license-checked Wikimedia or Pexels illustrative photos with attribution. Otherwise branded art.",
   "items": [
+    {
+      "id": "a961022228ccff93357e3207",
+      "title": "India: Delhi chokes on most polluted Diwali eve in 10 years",
+      "summary": "Delhi was ranked as the world's most polluted major city on the eve of Diwali. Delhi's air pollution is expected to get worse in the coming days. DW has more.",
+      "url": "https://www.dw.com/en/india-delhi-chokes-on-most-polluted-diwali-eve-in-10-years/live-79883248?maca=en-rss-en-top-1022-rdf",
+      "source": "Deutsche Welle",
+      "feed_id": "dw_top",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T07:53:00+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "d04570c52c8f8b018285176a",
+      "title": "What we know so far after Krakow gun attack",
+      "summary": "Six people were killed in a random shooting in Krakow's main square, and three bodies were later found at the home of the attacker.",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "feed_id": "bbc_world",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T07:52:33+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
+    {
+      "id": "5c200f7f1dc7f274d59a2577",
+      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
+      "summary": "The interceptions come as the Houthis report 33 people killed in a coalition air attack on a village near Sanaa.",
+      "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province?traffic_source=rss",
+      "source": "Al Jazeera English",
+      "feed_id": "aljazeera",
+      "category": "World",
+      "source_type": "Publisher RSS",
+      "published_at": "2026-11-08T07:40:07+00:00",
+      "desk_priority": 29,
+      "selection_type": "automatic"
+    },
     {
       "id": "fc8b9f966699944af36a295e",
       "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
@@ -53,19 +92,6 @@
         "label": "Illustrative photo",
         "matched_query": "White House Washington DC"
       }
-    },
-    {
-      "id": "d04570c52c8f8b018285176a",
-      "title": "What we know so far after Krakow gun attack",
-      "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "feed_id": "bbc_world",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-08T07:30:43+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
     },
     {
       "id": "987516c0a83f4e363599222f",
@@ -157,8 +183,8 @@
     },
     {
       "id": "0099b19869517b47b80b2c33",
-      "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
-      "summary": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday. Continue reading...",
+      "title": "Briton among six dead after gunman opens fire in Kraków market square",
+      "summary": "Three more people found dead at home of suspect, who minister says held ‘ultra-nationalistic’ views Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday. Continue reading...",
       "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
       "source": "The Guardian",
       "feed_id": "guardian_us",
@@ -333,8 +359,8 @@
     },
     {
       "id": "d9d883b9fa5c8f3488390d56",
-      "title": "Two seriously injured after M20 crash involving more than 30 vehicles in Kent",
-      "summary": "Police say more than 30 vehicles were involved in the incident on the M20 around 18:40 on Saturday.",
+      "title": "Two seriously hurt in 30-vehicle crash on the M20 in Kent",
+      "summary": "The crash happened in fog on Saturday evening on the London-bound carriageway near Maidstone, Kent.",
       "url": "https://www.bbc.co.uk/news/articles/ck87z9exex2lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "feed_id": "bbc_top",
@@ -580,7 +606,7 @@
     },
     {
       "id": "d81768f58549b4eb63669cd7",
-      "title": "The rise of microdramas: The 'snackable' shows made for the scrolling age",
+      "title": "'Soap operas on steroids': Microdramas are going mainstream",
       "summary": "The snappy, high-octane episodes - viewed on your phone - are huge in China and on the up in the UK.",
       "url": "https://www.bbc.co.uk/news/articles/cm87zv70jg9no?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -606,7 +632,7 @@
     },
     {
       "id": "d123433d5895762b6e4dbc49",
-      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "title": "Trump asks UFC boss to be White House press secretary: 'Dana, please take the job!'",
       "summary": "It was unclear how genuine the president's offer was, although White later said he would travel to Washington for them to meet.",
       "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -723,7 +749,7 @@
     },
     {
       "id": "eef14a3beae1692081a2b5f7",
-      "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+      "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is fading",
       "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
       "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -866,7 +892,7 @@
     },
     {
       "id": "c4c648932b3d7ff19108f28f",
-      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+      "title": "Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
       "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
       "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -1130,11 +1156,11 @@
       "summary": "Systems provide 360-degree view of airport operations, but concerns have been raised about the technology The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in Florida and Alaska as the Trump administration presses ahead with updating the country’s ageing aviation infrastructure. The systems are now online at the Bartow executive airport (KBOW) in Florida and the Kenai municipal airport (PAEN) in Alaska, with five additional regional airports slated to receive the technology next. Continue reading...",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
       "source": "The Guardian",
-      "feed_id": "guardian_us",
-      "category": "US News",
+      "feed_id": "guardian_tech",
+      "category": "Technology",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-07T20:03:23+00:00",
-      "desk_priority": 24,
+      "desk_priority": 26,
       "selection_type": "automatic"
     },
     {
@@ -1503,7 +1529,7 @@
     },
     {
       "id": "6f87cce88ee43aa9253c17ee",
-      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "title": "Watch: Gaza wedding festival sees 250 couples married at the same time",
       "summary": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
       "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -5512,32 +5538,6 @@
       "category": "World",
       "source_type": "Publisher RSS",
       "published_at": "2026-11-06T19:16:07+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "efa08b8df0547a8c967f27ec",
-      "title": "Critics say Democrats should look into Trump's Middle East deals in future corruption investigations",
-      "summary": "After their victory in the US midterm elections, the Democrats have promised to investigate corruption in the Trump administration. Critics say the president's Middle East deals is an area they should focus on.",
-      "url": "https://www.dw.com/en/critics-say-democrats-should-look-into-trump-s-middle-east-deals-in-future-corruption-investigations/a-79877104?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T19:16:00+00:00",
-      "desk_priority": 29,
-      "selection_type": "automatic"
-    },
-    {
-      "id": "eb89620a74cbe6d590301a60",
-      "title": "Middle East could have big role in Democrats' Trump corruption inquiry",
-      "summary": "After their victory in the US midterm elections, the Democrats have promised to investigate corruption in the Trump administration. Critics say the president's Middle East deals is an area they should focus on.",
-      "url": "https://www.dw.com/en/middle-east-could-have-big-role-in-democrats-trump-corruption-inquiry/a-79877104?maca=en-rss-en-top-1022-rdf",
-      "source": "Deutsche Welle",
-      "feed_id": "dw_top",
-      "category": "World",
-      "source_type": "Publisher RSS",
-      "published_at": "2026-11-06T19:16:00+00:00",
       "desk_priority": 29,
       "selection_type": "automatic"
     }
