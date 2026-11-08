@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T19:10:02Z",
+  "updated_at": "2026-11-08T19:59:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -707,19 +707,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506279",
+      "id": "sportsdb-2506289",
       "league": "laliga",
-      "name": "Atlético Madrid vs Barcelona",
-      "date": "2026-11-08T20:00:00Z",
+      "name": "Barcelona vs Villarreal",
+      "date": "2026-11-22T16:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlético Madrid",
+          "name": "Barcelona",
           "score": ""
         },
         {
-          "name": "Barcelona",
+          "name": "Villarreal",
           "score": ""
         }
       ],
@@ -745,19 +745,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482242",
+      "id": "sportsdb-2482248",
       "league": "seriea",
-      "name": "Fiorentina vs Juventus",
-      "date": "2026-11-08T19:45:00Z",
+      "name": "Lazio vs Lecce",
+      "date": "2026-11-21T14:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Fiorentina",
+          "name": "Lazio",
           "score": ""
         },
         {
-          "name": "Juventus",
+          "name": "Lecce",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
           "score": ""
         }
       ],
@@ -766,24 +804,73 @@
   ],
   "stories": [
     {
-      "title": "Norris wins rainy São Paulo Grand Prix as Mercedes clinch constructors’ championship: Formula One 2026 – live",
+      "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/sao-paulo-f1-grand-prix-live-updates",
-      "date": "2026-11-08T19:04:10Z",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
+      "date": "2026-11-08T19:58:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Where does Man United 4-4 Aston Villa rank among best Premier League games?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy47wj05xgqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:55:44Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Feyi-Waboso burns bright as England energy endorses Borthwick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c620r5dp51e0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:52:48Z",
+      "league": "all"
+    },
+    {
+      "title": "What can you read into Premier League table after 10 games?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c91463n3mlzlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:40:34Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'Frustrated and disappointed' - Emery on Man Utd draw",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9dr812v01lzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:39:24Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Are 'outstanding' Brighton now Arsenal's main title challengers?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjx23rwxdn64o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:24:36Z",
       "league": "all"
     },
     {
       "title": "Norris wins gripping race after Antonelli and Russell errors",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c35yn19r7zkvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:04:02Z",
+      "date": "2026-11-08T19:13:53Z",
       "league": "all"
     },
     {
-      "title": "NFL week nine: Jets v Chiefs, Rams v Commanders, Broncos v Panthers and more – updates",
+      "title": "Man Utd making it 'hard on ourselves' - Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6rmyg80pk3wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:13:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/08/nfl-week-nine-jets-v-chiefs-rams-v-commanders-broncos-v-panthers-and-more-updates",
-      "date": "2026-11-08T19:02:57Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/lando-norris-wins-f1-sao-paulo-grand-prix-max-verstappen-kimi-antonelli-lewis-hamilton-mercedes",
+      "date": "2026-11-08T19:12:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Leeds condemn racist abuse of Bogle after Tel incident",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck5yn1zzyr2jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T19:12:01Z",
       "league": "all"
     },
     {
@@ -948,7 +1035,7 @@
       "league": "all"
     },
     {
-      "title": "Wirtz provides quality to seal Liverpool win over lacklustre Crystal Palace",
+      "title": "Wirtz provides quality as Liverpool leave Crystal Palace propping up table",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report",
       "date": "2026-11-08T16:16:18Z",
@@ -974,13 +1061,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqkgjm2dlpv6o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T16:04:18Z",
       "league": "soccer"
-    },
-    {
-      "title": "'Dreamland!' - Cray score brilliant free-kick as Stockport down to 10",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c64g1n4w70p9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T15:31:43Z",
-      "league": "all"
     },
     {
       "title": "England await Guehi scan results after injury concern",
@@ -1032,53 +1112,11 @@
       "league": "soccer"
     },
     {
-      "title": "Is there something missing despite Rangers' impressive form?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6dxw1k2x4kno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T10:10:27Z",
-      "league": "soccer"
-    },
-    {
       "title": "I haven't thrown anyone under the bus - Khawaja",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c65yn1j4lrgno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T10:04:01Z",
       "league": "all"
-    },
-    {
-      "title": "Abbi Church powers Australia to win over spirited Fiji as hosts reach Women’s Rugby League World Cup final",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-jillaroos-fiji-womens-rugby-league-world-cup-semi-final-match-report",
-      "date": "2026-11-08T08:23:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Female sports journalists have always faced sexism. Social media has made it vicious and relentless | Anjali Doshi",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/female-sports-journalists-sexism-social-media-vicious-relentless-cricket",
-      "date": "2026-11-08T08:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Julián Alvarez’s Atlético redemption arc in full focus for visit of Barcelona",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/julian-alvarezs-atletico-redemption-arc-in-full-focus-for-visit-of-barcelona",
-      "date": "2026-11-08T08:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T07:30:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Messi makes history with MLS Golden Boot",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckr5ygezr0m9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T07:23:50Z",
-      "league": "soccer"
     }
   ]
 }
