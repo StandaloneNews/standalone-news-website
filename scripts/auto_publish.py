@@ -504,18 +504,13 @@ def main():
 
     candidates=[story for story in feed.get('items',[]) if safe_candidate(story)]
     print(f'Found {len(candidates)} safe, article-specific primary-source candidates')
-    # Prioritize diverse direct agency announcements, then structured
-    # documents. Newer publication dates win within the same source tier.
-    def rank_candidate(story):
-        source=story.get('source','')
-        tier=0 if source in ('Federal Reserve','Securities and Exchange Commission') else 1 if source == 'Department of Justice' else 2
-        return (tier, source, story.get('published_at',''))
-
-    ranked=sorted(candidates,key=rank_candidate)
-    # Preserve recently published items within each agency instead of
-    # favoring the longest or alphabetically first headline.
-    ranked.sort(key=lambda story: story.get('published_at',''),reverse=True)
-    ranked.sort(key=lambda story: 0 if story.get('source') in ('Federal Reserve','Securities and Exchange Commission') else 1 if story.get('source') == 'Department of Justice' else 2)
+    # Stable sorting: newest first within each source priority tier.
+    ranked=sorted(candidates,key=lambda story: story.get('published_at',''),reverse=True)
+    ranked.sort(key=lambda story: (
+        0 if story.get('source') in ('Federal Reserve','Securities and Exchange Commission')
+        else 1 if story.get('source') == 'Department of Justice'
+        else 2
+    ))
     selected=[]; per_source={}
     for candidate in ranked:
         source_name=candidate.get('source','Unknown')
