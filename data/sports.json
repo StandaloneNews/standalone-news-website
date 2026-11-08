@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T23:55:23Z",
+  "updated_at": "2026-11-08T00:28:49Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -552,38 +552,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591752",
+      "id": "sportsdb-2591755",
       "league": "nhl",
-      "name": "New York Islanders vs New Jersey Devils",
-      "date": "2026-11-08T00:00:00Z",
+      "name": "Carolina Hurricanes vs Chicago Blackhawks",
+      "date": "2026-11-08T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Islanders",
+          "name": "Carolina Hurricanes",
           "score": ""
         },
         {
-          "name": "New Jersey Devils",
+          "name": "Chicago Blackhawks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499236",
+      "id": "sportsdb-2499190",
       "league": "ncaaf",
-      "name": "Jacksonville State vs Sam Houston State",
-      "date": "2026-11-08T00:00:00Z",
+      "name": "Ole Miss vs Georgia",
+      "date": "2026-11-08T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Jacksonville State",
+          "name": "Ole Miss",
           "score": ""
         },
         {
-          "name": "Sam Houston State",
+          "name": "Georgia",
           "score": ""
         }
       ],
@@ -664,14 +664,101 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489545",
+      "league": "ligue1",
+      "name": "Rennes vs Lille",
+      "date": "2026-11-08T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Rennes",
+          "score": ""
+        },
+        {
+          "name": "Lille",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqev3rdvyvm1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:17:56Z",
+      "league": "all"
+    },
+    {
+      "title": "'It's Savage junior's night' - Charlie scores against dad Robbie's side",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmx2d76znxe1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:13:34Z",
+      "league": "all"
+    },
+    {
+      "title": "'Wonderful goal' - Crewe's McNeill scores from halfway line",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:07:11Z",
+      "league": "all"
+    },
     {
       "title": "Match of the Day",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:00:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Was Leeds' Bogle lucky to escape red card?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6lyl7qvq8ejo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Forest win over Man City 'a turning point' - Murphy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c893zr4rlzp1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal should have been awarded penalty against Hull - Cann",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr4g1n21vgp3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:00:09Z",
+      "league": "all"
+    },
+    {
+      "title": "Qualifying conditions borderline - but Norris and Russell hoping for more rain",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-07T23:53:30Z",
       "league": "all"
     },
     {
@@ -689,31 +776,10 @@
       "league": "all"
     },
     {
-      "title": "Pearce double fires York City past Northampton Town",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqj34km75eydo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:18:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Non-league Barrow beat League Two Gillingham with injury-time winner",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn1xqv686o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:15:30Z",
-      "league": "soccer"
-    },
-    {
       "title": "FA Cup roundup: Charlie Savage gets one over dad Robbie as Reading thrash Peterborough",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/fa-cup-roundup-non-league-kidderminster-doncaster-exeter-huddersfield",
       "date": "2026-11-07T23:11:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Highlights: Exeter shock League One leaders Huddersfield",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq8rz7lyl5g8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T23:08:32Z",
       "league": "all"
     },
     {
@@ -729,13 +795,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ckj0l542v7pvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T22:44:20Z",
       "league": "soccer"
-    },
-    {
-      "title": "Randall's last-gasp winner sends Chesterfield past Yeovil in seven-goal thriller",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cky937j8vxxeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:35:13Z",
-      "league": "all"
     },
     {
       "title": "European football: Mbappé eases Real Madrid past Valencia to move joint top",
@@ -787,13 +846,6 @@
       "league": "all"
     },
     {
-      "title": "McGeehan hat-trick powers Barnsley to 7-2 win over Aldershot",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn139zgw0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T21:22:55Z",
-      "league": "all"
-    },
-    {
       "title": "Enzo Maresca rues Manchester City’s lack of desire after defeat at Nottingham Forest",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/07/enzo-maresca-nottingham-forest-manchester-city-premier-league",
@@ -840,13 +892,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/07/wales-japan-nations-championship-rugby-union-match-report",
       "date": "2026-11-07T20:52:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Norris takes pole in rain-delayed qualifying",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gell5l7l3zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T20:48:40Z",
       "league": "all"
     },
     {
@@ -920,13 +965,6 @@
       "league": "soccer"
     },
     {
-      "title": "National League Carlisle upset League Two leaders Salford",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm1exw70d49po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:29:20Z",
-      "league": "all"
-    },
-    {
       "title": "Title race hots up before Chelsea-Man City showdown",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
@@ -934,18 +972,11 @@
       "league": "all"
     },
     {
-      "title": "Bowler's extra-time winner for Blackpool sinks 10-man Hornchurch",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqm26j0x2xzlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T18:11:12Z",
-      "league": "soccer"
-    },
-    {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:23:20Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
@@ -981,6 +1012,13 @@
       "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
       "date": "2026-11-07T16:27:39Z",
       "league": "all"
+    },
+    {
+      "title": "Manchester City break clear of Chelsea in WSL after Bronze’s freak own goal",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/07/manchester-city-chelsea-everton-west-ham-wsl-roundup",
+      "date": "2026-11-07T15:11:59Z",
+      "league": "soccer"
     }
   ]
 }
