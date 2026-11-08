@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T00:28:49Z",
+  "updated_at": "2026-11-08T01:50:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -533,57 +533,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601798",
+      "id": "sportsdb-2601802",
       "league": "nba",
-      "name": "Atlanta Hawks vs Brooklyn Nets",
-      "date": "2026-11-08T00:30:00Z",
+      "name": "Phoenix Suns vs Houston Rockets",
+      "date": "2026-11-08T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Hawks",
+          "name": "Phoenix Suns",
           "score": ""
         },
         {
-          "name": "Brooklyn Nets",
+          "name": "Houston Rockets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591755",
+      "id": "sportsdb-2591758",
       "league": "nhl",
-      "name": "Carolina Hurricanes vs Chicago Blackhawks",
-      "date": "2026-11-08T01:00:00Z",
+      "name": "Los Angeles Kings vs Pittsburgh Penguins",
+      "date": "2026-11-08T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Carolina Hurricanes",
+          "name": "Los Angeles Kings",
           "score": ""
         },
         {
-          "name": "Chicago Blackhawks",
+          "name": "Pittsburgh Penguins",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499190",
+      "id": "sportsdb-2499201",
       "league": "ncaaf",
-      "name": "Ole Miss vs Georgia",
-      "date": "2026-11-08T00:30:00Z",
+      "name": "Texas Tech vs West Virginia",
+      "date": "2026-11-08T02:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Ole Miss",
+          "name": "Texas Tech",
           "score": ""
         },
         {
-          "name": "Georgia",
+          "name": "West Virginia",
           "score": ""
         }
       ],
@@ -664,47 +664,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489545",
-      "league": "ligue1",
-      "name": "Rennes vs Lille",
-      "date": "2026-11-08T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Rennes",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations",
+      "date": "2026-11-08T01:33:21Z",
+      "league": "all"
+    },
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T00:31:53Z",
+      "league": "ufc"
+    },
     {
       "title": "'The worst conditions in my 35-year career' - commentating in the FA Cup fog",
       "source": "BBC Sport",
@@ -724,13 +700,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmkgekn1007qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T00:07:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Match of the Day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T00:00:56Z",
       "league": "all"
     },
     {
@@ -802,13 +771,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/07/european-football-bayern-beat-mainz-but-neuers-record-breaking-day-turns-sour",
       "date": "2026-11-07T22:30:08Z",
       "league": "all"
-    },
-    {
-      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T22:29:37Z",
-      "league": "ufc"
     },
     {
       "title": "Scottish roundup: Naderi fires Rangers past St Mirren to keep pressure on Celtic",
@@ -973,10 +935,10 @@
     },
     {
       "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T17:23:20Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Martin Ødegaard extends Arsenal lead at top with winner to break Hull resistance",
