@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-08T06:33:20Z",
+  "updated_at": "2026-11-08T07:45:25Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 13,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -664,63 +664,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489545",
-      "league": "ligue1",
-      "name": "Rennes vs Lille",
-      "date": "2026-11-08T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Rennes",
-          "score": ""
-        },
-        {
-          "name": "Lille",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -728,7 +671,35 @@
       "title": "Australia v Fiji: Women’s Rugby League World Cup semi-final – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/08/australia-jillaroos-vs-fiji-womens-rugby-league-world-cup-semi-final-live-updates",
-      "date": "2026-11-08T06:32:44Z",
+      "date": "2026-11-08T07:39:05Z",
+      "league": "all"
+    },
+    {
+      "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T07:30:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Messi makes history with MLS Golden Boot",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckr5ygezr0m9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T07:23:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr20wvgx2q27o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T06:47:58Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Why unique Brighton defence is so tricky to unpick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0j033lnp5po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-08T06:41:37Z",
       "league": "all"
     },
     {
@@ -845,17 +816,17 @@
     },
     {
       "title": "Liverpool considering Verbruggen move - Sunday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c54g1nepgr28o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T22:05:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Glasner glee and Delap double - win could be lift-off for Forest",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cvy0red8yl69o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T21:42:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Truro City game at Folkestone called off after Yassine En-Neyah has medical emergency in warm-up",
@@ -970,13 +941,6 @@
       "league": "all"
     },
     {
-      "title": "Delightful Delap and outfought Anderson - Forest v Man City player ratings",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9512p2yvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T19:26:31Z",
-      "league": "soccer"
-    },
-    {
       "title": "Championship roundup: Birmingham go top, Cardiff stun Burnley from 4-1 down",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/07/championship-roundup-stoke-norwich-wrexham-wolves",
@@ -992,16 +956,9 @@
     },
     {
       "title": "Title race hots up before Chelsea-Man City showdown",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0qkjdx3l9zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T18:27:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Highlights: Non-league Kidderminster shock League One Doncaster",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz7l6exx3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T17:23:20Z",
       "league": "soccer"
     },
     {
@@ -1019,25 +976,11 @@
       "league": "soccer"
     },
     {
-      "title": "Goal caps eye-catching Odegaard display - player ratings for Arsenal v Hull",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq62yp4lg831o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-07T17:00:38Z",
-      "league": "soccer"
-    },
-    {
       "title": "Tottenham set to complain to Pro Ref after Bogle escapes red card",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wz9llg255o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-07T16:35:26Z",
       "league": "soccer"
-    },
-    {
-      "title": "Scotland trail in All Blacks’ wake once more despite Ewan Ashman hat-trick",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/07/scotland-new-zealand-nations-championship-rugby-union-match-report",
-      "date": "2026-11-07T16:27:39Z",
-      "league": "all"
     }
   ]
 }
