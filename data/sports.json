@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T15:16:48Z",
+  "updated_at": "2026-11-09T16:25:21Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 17,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -58,22 +58,22 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -83,12 +83,12 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -669,26 +669,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499241",
-      "league": "ncaaf",
-      "name": "UNLV vs Wyoming",
-      "date": "2026-11-08T03:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "UNLV",
-          "score": "35"
-        },
-        {
-          "name": "Wyoming",
-          "score": "41",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2499242",
       "league": "ncaaf",
       "name": "Akron vs Western Michigan",
@@ -765,25 +745,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482242",
-      "league": "seriea",
-      "name": "Fiorentina vs Juventus",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Juventus",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482248",
       "league": "seriea",
       "name": "Lazio vs Lecce",
@@ -803,76 +764,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Troyes",
+          "name": "Kashima Antlers",
           "score": ""
         },
         {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487508",
-      "league": "ligamx",
-      "name": "Querétaro vs Monterrey",
-      "date": "2026-11-14T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Querétaro",
-          "score": ""
-        },
-        {
-          "name": "Monterrey",
+          "name": "Shimizu S-Pulse",
           "score": ""
         }
       ],
@@ -881,7 +785,28 @@
   ],
   "stories": [
     {
-      "title": "Kettering 'can't hide' from racism problem at club after 'sickening abuse'",
+      "title": "Real Madrid legend Raul named Real Oviedo manager",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0v1yj585o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T16:16:30Z",
+      "league": "soccer"
+    },
+    {
+      "title": "FIA boss planning to end age limits for office holders",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T15:20:35Z",
+      "league": "all"
+    },
+    {
+      "title": "How Hawkins overcame illness to star for England",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmvgxgdqgdgvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T15:15:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Kettering 'cannot hide' from racism problem at club after 'sickening abuse'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cr0j0jnln3j0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T15:10:38Z",
@@ -1028,13 +953,6 @@
       "league": "all"
     },
     {
-      "title": "Brown, 19, becomes youngest PGA winner in 95 years",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cqkgkgz7gx21o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T10:19:06Z",
-      "league": "all"
-    },
-    {
       "title": "Trump’s pathetic Dana White gambit could not mask his midterm humiliation | Howard Bryant",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/donald-trump-dana-white-ufc-midterms-sports-politics",
@@ -1071,10 +989,10 @@
     },
     {
       "title": "Trump says he was 'kidding' about Dana White press secretary offer",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T08:49:17Z",
-      "league": "all"
+      "league": "ufc"
     },
     {
       "title": "Dutch match postponed after fans block team bus",
@@ -1180,20 +1098,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw",
       "date": "2026-11-08T21:40:36Z",
       "league": "soccer"
-    },
-    {
-      "title": "Woeful Wallabies sink to new Twickenham low with no set-piece and no swagger | Gerard Meagher",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/australia-wallabies-england-twickenham-nations-championship-rugby-union",
-      "date": "2026-11-08T21:30:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Dalot’s muddled performances are just another symptom of Old Trafford chaos | Will Unwin",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/diogo-dalot-manchester-united-old-trafford-aston-villa",
-      "date": "2026-11-08T21:24:44Z",
-      "league": "all"
     }
   ]
 }
