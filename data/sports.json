@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T17:27:15Z",
+  "updated_at": "2026-11-09T18:37:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,9 +762,82 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "England wing Feyi-Waboso out of Nations Championship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T18:33:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Dianna Russini returns to sports media after Vrabel photo scandal with NFL betting show",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/dianna-russini-return-betus-show",
+      "date": "2026-11-09T17:49:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd yet to make decision on Carrick's future",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T17:49:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Kane and Bellingham air strong views in England World Cup review",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T17:30:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Wilson eyeing survival step as Wales tackle Norway",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck3r5rwdpjj7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T17:21:28Z",
+      "league": "all"
+    },
     {
       "title": "The heavy defeat that ended Robinson's Aberdeen tenure",
       "source": "BBC Sport",
@@ -785,6 +858,13 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T16:46:11Z",
       "league": "all"
+    },
+    {
+      "title": "Football Daily | Manchester United, Aston Villa and the unseriousness of a 4-4 draw",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/09/football-daily-email-manchester-united-aston-villa-4-4",
+      "date": "2026-11-09T16:40:21Z",
+      "league": "soccer"
     },
     {
       "title": "Manchester City’s weaknesses under Enzo Maresca are being exposed",
@@ -857,13 +937,6 @@
       "league": "all"
     },
     {
-      "title": "Newport round on 'unacceptable' fan behaviour",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq4g1g0zkgy4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T14:16:18Z",
-      "league": "soccer"
-    },
-    {
       "title": "Felix Nmecha’s faith is forcing Borussia Dortmund into an uncomfortable debate",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
@@ -885,18 +958,18 @@
       "league": "all"
     },
     {
-      "title": "USA & Pacific Islands to host 2030 Rugby League World Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c620r0n4yxw8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T13:38:28Z",
-      "league": "all"
-    },
-    {
       "title": "Lens were humiliated by Como. The pain continued against Marseille",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
       "date": "2026-11-09T13:37:45Z",
       "league": "all"
+    },
+    {
+      "title": "Could Old Trafford chaos keep Michael Carrick in the job? Football Weekly – video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/nov/09/could-old-trafford-chaos-keep-michael-carrick-in-the-job-football-weekly-video",
+      "date": "2026-11-09T13:29:14Z",
+      "league": "soccer"
     },
     {
       "title": "Chelsea staff warned over Fantasy Premier League use",
@@ -907,10 +980,10 @@
     },
     {
       "title": "Burn replaces injured Guehi in England squad",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmwyq8x6nx5lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T12:06:19Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Uncapped Notts spinner Patterson-White earns England Test call-up for South Africa",
@@ -939,13 +1012,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T12:00:11Z",
       "league": "all"
-    },
-    {
-      "title": "Berkhamsted players banned from watching FA Cup draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6j9k910l1ryo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T11:45:08Z",
-      "league": "soccer"
     },
     {
       "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
@@ -1026,10 +1092,10 @@
     },
     {
       "title": "Dutch match postponed after fans block team bus",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqy0r0lw4l5ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T08:00:07Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Premier League: 10 talking points from the weekend’s action",
@@ -1046,38 +1112,10 @@
       "league": "all"
     },
     {
-      "title": "Packers & Bengals win in style - NFL week nine",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cmdxwxry2pr8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T07:21:24Z",
-      "league": "all"
-    },
-    {
       "title": "England make massive step up in Australia victory",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T06:49:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Fishlock retires after record-breaking career",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T06:32:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ramla Ali wins first world titles at 36 with highly controversial split decision",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/ramla-ali-mikiah-kreps-controversial-split-decision-world-titles-boxing",
-      "date": "2026-11-09T06:20:34Z",
-      "league": "all"
-    },
-    {
-      "title": "‘I’m going to tell the truth. Screw this!’ Billie Jean King at 82 on coming out, tearing up tennis – and her one big regret",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/billie-jean-king-82-coming-out-tennis",
-      "date": "2026-11-09T05:01:00Z",
       "league": "all"
     }
   ]
