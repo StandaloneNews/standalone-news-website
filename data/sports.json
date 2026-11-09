@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T03:39:27Z",
+  "updated_at": "2026-11-09T04:47:54Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,9 +762,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Latest Wallabies capitulation provides no answer to lingering Australian problem | Dan Gallan",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/wallabies-australia-fly-half-no10-position-problem",
+      "date": "2026-11-09T04:00:58Z",
+      "league": "all"
+    },
     {
       "title": "Australia selectors make early call to axe Marnus Labuschagne from Test squad",
       "source": "The Guardian Sport",
@@ -1071,13 +1097,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/08/alan-jones-obituary",
       "date": "2026-11-08T17:35:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Carlos Alcaraz beats error-prone Ben Shelton to win Paris Masters",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final",
-      "date": "2026-11-08T17:31:01Z",
       "league": "all"
     }
   ]
