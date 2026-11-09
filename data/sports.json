@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T14:00:15Z",
+  "updated_at": "2026-11-09T15:16:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 17,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaab",
@@ -58,22 +58,22 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -83,7 +83,7 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
@@ -669,6 +669,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2499241",
+      "league": "ncaaf",
+      "name": "UNLV vs Wyoming",
+      "date": "2026-11-08T03:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "UNLV",
+          "score": "35"
+        },
+        {
+          "name": "Wyoming",
+          "score": "41",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2499242",
       "league": "ncaaf",
       "name": "Akron vs Western Michigan",
@@ -745,6 +765,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482242",
+      "league": "seriea",
+      "name": "Fiorentina vs Juventus",
+      "date": "2026-11-08T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Fiorentina",
+          "score": "2"
+        },
+        {
+          "name": "Juventus",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482248",
       "league": "seriea",
       "name": "Lazio vs Lecce",
@@ -762,9 +801,141 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398536",
+      "league": "brasileirao",
+      "name": "Mirassol vs Atlético Mineiro",
+      "date": "2026-11-14T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Mirassol",
+          "score": ""
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487508",
+      "league": "ligamx",
+      "name": "Querétaro vs Monterrey",
+      "date": "2026-11-14T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Querétaro",
+          "score": ""
+        },
+        {
+          "name": "Monterrey",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Kettering 'can't hide' from racism problem at club after 'sickening abuse'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr0j0jnln3j0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T15:10:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Bronze named in World 11 for record ninth time",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgeg2z4dlwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T14:55:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Incident-by-incident: Was it a bad weekend for VAR?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T14:34:19Z",
+      "league": "all"
+    },
+    {
+      "title": "That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a",
+      "date": "2026-11-09T14:18:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Newport round on 'unacceptable' fan behaviour",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq4g1g0zkgy4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T14:16:18Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Felix Nmecha’s faith is forcing Borussia Dortmund into an uncomfortable debate",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
+      "date": "2026-11-09T14:10:43Z",
+      "league": "all"
+    },
+    {
+      "title": "13-year-old surfing prodigy Leihani Zoric: ‘I don’t want to participate, I want to dominate’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/leihani-zoric-australian-surf-prodigy-surfing",
+      "date": "2026-11-09T14:00:13Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Senna was Senna’: Wolff says it is too soon to compare Kimi Antonelli to F1 great",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/senna-was-senna-wolff-says-it-is-too-soon-to-compare-kimi-antonelli-to-f1-great",
+      "date": "2026-11-09T13:47:26Z",
+      "league": "all"
+    },
     {
       "title": "USA & Pacific Islands to host 2030 Rugby League World Cup",
       "source": "BBC Sport",
@@ -773,11 +944,11 @@
       "league": "all"
     },
     {
-      "title": "Friedel group completes Shrewsbury Town takeover",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9p8grpdpp2go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T13:07:29Z",
-      "league": "soccer"
+      "title": "Lens were humiliated by Como. The pain continued against Marseille",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
+      "date": "2026-11-09T13:37:45Z",
+      "league": "all"
     },
     {
       "title": "Chelsea staff warned over Fantasy Premier League use",
@@ -822,13 +993,6 @@
       "league": "soccer"
     },
     {
-      "title": "Ireland's Jansen ruled out of Fiji and Bok games",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck79p9d3gv2yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T11:44:10Z",
-      "league": "all"
-    },
-    {
       "title": "WSL talking points: Tullis-Joyce takes charge and is Shaw the perfect striker?",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/wsl-talking-points-khadija-shaw-manchester-city-phallon-tullis-joyce",
@@ -848,6 +1012,13 @@
       "url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
       "date": "2026-11-09T11:00:13Z",
       "league": "all"
+    },
+    {
+      "title": "When is the FA Cup second round draw?",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6wydypkgdjlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T10:54:10Z",
+      "league": "soccer"
     },
     {
       "title": "Ali weeps as world title dream realised in Texas",
@@ -934,13 +1105,6 @@
       "league": "all"
     },
     {
-      "title": "Gauff opens WTA Finals with gritty win over Pegula",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c3x2w9w078kko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T07:20:06Z",
-      "league": "all"
-    },
-    {
       "title": "England make massive step up in Australia victory",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss",
@@ -953,13 +1117,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq98z8401zz8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T06:32:11Z",
       "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6ly0w4n7d91o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T06:25:16Z",
-      "league": "all"
     },
     {
       "title": "Ramla Ali wins first world titles at 36 with highly controversial split decision",
@@ -998,31 +1155,24 @@
     },
     {
       "title": "Barcelona move clear at the top after Fermín López’s double stuns Atlético Madrid",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/atletico-madrid-barcelona-la-liga-match-report",
       "date": "2026-11-08T22:27:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Falkirk add goals and grit to McGlynn's guile on rapid rise",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd4q0k8ddo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T22:14:38Z",
       "league": "soccer"
     },
     {
       "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
       "date": "2026-11-08T22:12:58Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
-      "title": "Bizarre and thrilling theatre with Carrick's Man Utd future still in limbo",
-      "source": "BBC Sport",
+      "title": "Bizarre & thrilling theatre as Carrick in limbo with Man Utd in drop zone",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T21:50:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack",
@@ -1044,41 +1194,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/08/diogo-dalot-manchester-united-old-trafford-aston-villa",
       "date": "2026-11-08T21:24:44Z",
       "league": "all"
-    },
-    {
-      "title": "‘Incredible job’: Antonelli praises Mercedes after F1 constructors’ win in Brazil",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/kimi-antonelli-mercedes-f1-constructors-win-sao-paulo-grand-prix",
-      "date": "2026-11-08T21:20:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Villa's Kamara on Chelsea watchlist - Monday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8qlnqggwge0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T21:08:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Palace consider replacing Sage, with Frank among contenders",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T20:49:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Steve Borthwick’s England channel their rage to resemble finished article | Andy Bull",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/steve-borthwick-england-australia-nations-championship-twickenham-rugby-union",
-      "date": "2026-11-08T20:45:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T20:18:01Z",
-      "league": "soccer"
     }
   ]
 }
