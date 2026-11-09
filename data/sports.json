@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T18:37:46Z",
+  "updated_at": "2026-11-09T19:43:38Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -781,28 +781,37 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Wimborne to host Bradford in FA Cup second round",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T19:33:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
+      "date": "2026-11-09T19:15:04Z",
+      "league": "all"
+    },
+    {
+      "title": "England’s first-choice back three stares Borthwick in face after Australia rout | Gerard Meagher",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+      "date": "2026-11-09T19:00:11Z",
+      "league": "all"
+    },
+    {
+      "title": "People don't know full story behind England exile - White",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T19:00:10Z",
+      "league": "all"
+    },
     {
       "title": "England wing Feyi-Waboso out of Nations Championship",
       "source": "BBC Sport",
@@ -892,13 +901,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T15:25:55Z",
-      "league": "all"
-    },
-    {
-      "title": "FIA boss planning to end age limits for office holders",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cr9dz7w1xgxvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T15:20:35Z",
       "league": "all"
     },
     {
@@ -1035,13 +1037,6 @@
       "league": "all"
     },
     {
-      "title": "When is the FA Cup second round draw?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6wydypkgdjlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T10:54:10Z",
-      "league": "soccer"
-    },
-    {
       "title": "Ali weeps as world title dream realised in Texas",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
@@ -1102,20 +1097,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/premier-league-10-talking-points-weekend-action",
       "date": "2026-11-09T08:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Sports Personality of the Year returns - with five awards decided by public",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cqj9kd00y0wko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T07:30:05Z",
-      "league": "all"
-    },
-    {
-      "title": "England make massive step up in Australia victory",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqev33zn20vdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T06:49:22Z",
       "league": "all"
     }
   ]
