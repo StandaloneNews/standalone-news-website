@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T22:31:28Z",
+  "updated_at": "2026-11-09T23:25:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -78,7 +78,7 @@
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -762,9 +762,113 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398181",
+      "league": "argentina",
+      "name": "Central Córdoba de Santiago del Estero vs Lanús",
+      "date": "2026-11-08T22:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Central Córdoba de Santiago del Estero",
+          "score": "1"
+        },
+        {
+          "name": "Lanús",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kashima Antlers",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Man Utd expected to sack head coach Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T23:13:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Sabalenka wins WTA Finals opener despite wayward serve",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cr20w0q8lgy1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T23:10:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
+      "date": "2026-11-09T22:30:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Michael Carrick facing Manchester United axe amid review by Jason Wilcox",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
+      "date": "2026-11-09T22:19:09Z",
+      "league": "all"
+    },
     {
       "title": "Brady ends association with Birmingham City",
       "source": "BBC Sport",
@@ -794,18 +898,18 @@
       "league": "all"
     },
     {
+      "title": "Aberdeen hunt yet another manager after ill-fated Robinson reign",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr0qkq8pnx4ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T21:39:37Z",
+      "league": "all"
+    },
+    {
       "title": "Football Daily",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sounds/play/p0pm5xwv?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T21:33:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Michael Carrick facing Manchester United axe amid review by Jason Wilcox",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
-      "date": "2026-11-09T21:17:45Z",
-      "league": "all"
     },
     {
       "title": "Atletico target Zubimendi move - Tuesday's gossip",
@@ -823,16 +927,16 @@
     },
     {
       "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
       "date": "2026-11-09T20:00:17Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
-      "title": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
+      "title": "Borthwick gets a glimpse of first-choice back three – before injuries strike again | Gerard Meagher",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
-      "date": "2026-11-09T19:15:04Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
+      "date": "2026-11-09T19:00:11Z",
       "league": "all"
     },
     {
@@ -854,13 +958,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/dianna-russini-return-betus-show",
       "date": "2026-11-09T17:49:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Man Utd yet to make decision on Carrick's future",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw4g1g7z2mdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T17:49:05Z",
       "league": "all"
     },
     {
@@ -893,10 +990,10 @@
     },
     {
       "title": "Aberdeen sack Robinson after league slump",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T16:46:11Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Football Daily | Manchester United, Aston Villa and the unseriousness of a 4-4 draw",
@@ -969,7 +1066,7 @@
       "league": "all"
     },
     {
-      "title": "13-year-old surfing prodigy Leihani Zoric: ‘I don’t want to participate, I want to dominate’",
+      "title": "Thirteen-year-old surfing prodigy Leihani Zoric: ‘I don’t want to participate, I want to dominate’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/10/leihani-zoric-australian-surf-prodigy-surfing",
       "date": "2026-11-09T14:00:13Z",
@@ -1057,27 +1154,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/donald-trump-dana-white-ufc-midterms-sports-politics",
       "date": "2026-11-09T10:00:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Racing must seize its chance as new commission tackles UK betting laws",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/talking-horses-racing-uk-betting-laws",
-      "date": "2026-11-09T09:37:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Khawaja 100% accurate on ball-tampering - Warner",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T09:21:09Z",
-      "league": "all"
-    },
-    {
-      "title": "‘100% accurate’: Warner backs Khawaja over explosive ball-tampering claims",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/australia-face-fresh-questions-usman-khawaja-autobiography-ball-tampering-ntwnfb",
-      "date": "2026-11-09T09:08:08Z",
       "league": "all"
     }
   ]
