@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T09:32:14Z",
+  "updated_at": "2026-11-09T10:39:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,9 +762,75 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Ali weeps as world title dream realised in Texas",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cqkglg1y4jwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T10:38:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Brown, 19, becomes youngest PGA winner in 95 years",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cqkgkgz7gx21o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T10:19:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Trump’s pathetic Dana White gambit could not mask his midterm humiliation | Howard Bryant",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/donald-trump-dana-white-ufc-midterms-sports-politics",
+      "date": "2026-11-09T10:00:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Racing must seize its chance as new commission tackles UK betting laws",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/talking-horses-racing-uk-betting-laws",
+      "date": "2026-11-09T09:37:24Z",
+      "league": "all"
+    },
     {
       "title": "Khawaja 100% accurate on ball-tampering - Warner",
       "source": "BBC Sport",
@@ -773,7 +839,7 @@
       "league": "all"
     },
     {
-      "title": "‘100% accurate’: Warner backs Khawaja over explosive ball tampering claims",
+      "title": "‘100% accurate’: Warner backs Khawaja over explosive ball-tampering claims",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/australia-face-fresh-questions-usman-khawaja-autobiography-ball-tampering-ntwnfb",
       "date": "2026-11-09T09:08:08Z",
@@ -871,6 +937,13 @@
       "league": "all"
     },
     {
+      "title": "Smiling Rees-Zammit has no fear of All Blacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwnv0457rr0jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T04:28:32Z",
+      "league": "all"
+    },
+    {
       "title": "Latest Wallabies capitulation provides no answer to lingering Australian problem | Daniel Gallan",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/wallabies-australia-fly-half-no10-position-problem",
@@ -938,13 +1011,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
       "date": "2026-11-08T22:12:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Norris brilliant in wet & Verstappen recovery extraordinary - driver ratings",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c5y43jzvrnz0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T21:56:33Z",
       "league": "all"
     },
     {
@@ -1050,34 +1116,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c5djv1mn7gj8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T19:58:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Struggling Sunderland beat Chelsea to move off bottom of Premier League",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c64g1nj4v4rmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:58:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Scottish roundup: flying Falkirk hit five to shatter Hearts’ long unbeaten home run",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/07/scottish-premiership-roundup-rangers-st-mirren-aberdeen-hibernian-dundee-united-motherwell-st-johnstone",
-      "date": "2026-11-08T19:54:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Feyi-Waboso burns bright as England energy endorses Borthwick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c620r5dp51e0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:52:48Z",
-      "league": "all"
-    },
-    {
-      "title": "What can you read into Premier League table after 10 games?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c91463n3mlzlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:40:34Z",
       "league": "all"
     }
   ]
