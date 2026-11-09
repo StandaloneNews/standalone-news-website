@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T10:39:47Z",
+  "updated_at": "2026-11-09T11:40:01Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -762,47 +762,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/football-comes-together-spain-honour-jesus-de-miguel-tenerife",
+      "date": "2026-11-09T11:00:13Z",
+      "league": "all"
+    },
     {
       "title": "Ali weeps as world title dream realised in Texas",
       "source": "BBC Sport",
@@ -865,6 +834,13 @@
       "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c620r0n4yxw8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T08:06:32Z",
       "league": "all"
+    },
+    {
+      "title": "SPFL round-up: Morton stun Stenny, Cove humble Accies & Clyde keep pace",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6x292y37g59o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T08:00:34Z",
+      "league": "soccer"
     },
     {
       "title": "Dutch match postponed after fans block team bus",
@@ -1071,10 +1047,10 @@
     },
     {
       "title": "Who has made Troy's Premier League team of the week?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw98z7vdg546o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T20:18:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "FA Cup roundup: Seventh-tier Wimborne shock Crawley to reach second round",
@@ -1102,20 +1078,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cry836l4q56po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-08T20:00:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Bournemouth beat Ipswich to extend winning streak",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmx23rll2w0qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:59:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool dispatch Palace to pile pressure on Sage",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5djv1mn7gj8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T19:58:46Z",
       "league": "all"
     }
   ]
