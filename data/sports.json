@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T00:26:33Z",
+  "updated_at": "2026-11-09T01:41:33Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -612,57 +612,57 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475508",
+      "id": "sportsdb-2475509",
       "league": "nfl",
-      "name": "Chicago Bears vs Tampa Bay Buccaneers",
-      "date": "2026-11-09T01:20:00Z",
+      "name": "Minnesota Vikings vs Buffalo Bills",
+      "date": "2026-11-10T01:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Chicago Bears",
+          "name": "Minnesota Vikings",
           "score": ""
         },
         {
-          "name": "Tampa Bay Buccaneers",
+          "name": "Buffalo Bills",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601807",
+      "id": "sportsdb-2601809",
       "league": "nba",
-      "name": "Dallas Mavericks vs Brooklyn Nets",
-      "date": "2026-11-09T00:30:00Z",
+      "name": "Los Angeles Clippers vs New Orleans Pelicans",
+      "date": "2026-11-09T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Mavericks",
+          "name": "Los Angeles Clippers",
           "score": ""
         },
         {
-          "name": "Brooklyn Nets",
+          "name": "New Orleans Pelicans",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591766",
+      "id": "sportsdb-2591767",
       "league": "nhl",
-      "name": "Anaheim Ducks vs Pittsburgh Penguins",
-      "date": "2026-11-09T01:00:00Z",
+      "name": "Edmonton Oilers vs New York Rangers",
+      "date": "2026-11-10T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Anaheim Ducks",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Pittsburgh Penguins",
+          "name": "New York Rangers",
           "score": ""
         }
       ],
@@ -765,6 +765,20 @@
     }
   ],
   "stories": [
+    {
+      "title": "Australia selectors make early call to axe Marnus Labuschagne from Test squad",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/australia-marnus-labuschagne-dropped-nz-test-series-poor-form",
+      "date": "2026-11-09T01:05:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Kyle Larson joins Nascar’s all-time greats with third Cup title in six years",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/08/kyle-larson-nascar-cup-series-championship-homestead",
+      "date": "2026-11-09T00:23:31Z",
+      "league": "all"
+    },
     {
       "title": "Four 'huge mistakes' that show Man Utd's defensive problems",
       "source": "BBC Sport",
@@ -1004,6 +1018,13 @@
       "league": "all"
     },
     {
+      "title": "Emotion gets better of Samoa as Australia begin to resemble their old selves | Angus Fontaine",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/blog/2026/nov/09/australia-kangaroos-mens-rugby-league-world-cup-semi-final",
+      "date": "2026-11-08T19:00:47Z",
+      "league": "all"
+    },
+    {
       "title": "Seventh-tier Wimborne knock out League Two Crawley in FA Cup upset",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmy83620wq2wo?at_medium=RSS&at_campaign=rss",
@@ -1057,27 +1078,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/08/carlos-alcaraz-ben-shelton-win-paris-masters-final",
       "date": "2026-11-08T17:31:01Z",
-      "league": "all"
-    },
-    {
-      "title": "WSL roundup: Crystal Palace deny Charlton first point, London City stay third",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/wsl-roundup-crystal-palace-deny-charlton-first-point-london-city-tottenham-brighton",
-      "date": "2026-11-08T17:10:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Fan injured after falling through hole in stand",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck0j0x2e49j7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T16:53:37Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Diego Gómez hits another stunner as Brighton beat 10-man Brentford to go second",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/08/brighton-brentford-premier-league-match-report",
-      "date": "2026-11-08T16:17:32Z",
       "league": "all"
     }
   ]
