@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T16:25:21Z",
+  "updated_at": "2026-11-09T17:27:15Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -762,34 +762,57 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "The heavy defeat that ended Robinson's Aberdeen tenure",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/videos/c3dxw181eqejo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T17:10:00Z",
+      "league": "all"
+    },
+    {
+      "title": "College Football Playoff will double in size to 24 teams starting next year",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/college-football-playoff-expansion-24-teams",
+      "date": "2026-11-09T17:08:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Aberdeen sack Robinson after league slump",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T16:46:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City’s weaknesses under Enzo Maresca are being exposed",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-city-enzo-maresca-premier-league",
+      "date": "2026-11-09T16:30:13Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United weighing up Michael Carrick sacking as Wilcox leads review",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
+      "date": "2026-11-09T16:21:31Z",
+      "league": "all"
+    },
     {
       "title": "Real Madrid legend Raul named Real Oviedo manager",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwnv0v1yj585o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T16:16:30Z",
       "league": "soccer"
+    },
+    {
+      "title": "Every goal from the Women's Super League - matchweek nine",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T15:25:55Z",
+      "league": "all"
     },
     {
       "title": "FIA boss planning to end age limits for office holders",
@@ -894,6 +917,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
       "date": "2026-11-09T12:03:42Z",
+      "league": "all"
+    },
+    {
+      "title": "'Spectacular' catches and toe-tapping skills - NFL best plays",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/c60mem12x7zyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T12:01:51Z",
       "league": "all"
     },
     {
@@ -1049,55 +1079,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/09/billie-jean-king-82-coming-out-tennis",
       "date": "2026-11-09T05:01:00Z",
       "league": "all"
-    },
-    {
-      "title": "Latest Wallabies capitulation provides no answer to lingering Australian problem | Daniel Gallan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/wallabies-australia-fly-half-no10-position-problem",
-      "date": "2026-11-09T04:00:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Kyle Larson joins Nascar’s all-time greats with third Cup title in six years",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/08/kyle-larson-nascar-cup-series-championship-homestead",
-      "date": "2026-11-09T00:23:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Norris sparkles in Sao Paulo despite firework mishap",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6gr8e822kzqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T23:44:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Barcelona move clear at the top after Fermín López’s double stuns Atlético Madrid",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/atletico-madrid-barcelona-la-liga-match-report",
-      "date": "2026-11-08T22:27:50Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park",
-      "date": "2026-11-08T22:12:58Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Bizarre & thrilling theatre as Carrick in limbo with Man Utd in drop zone",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cked3qjw1q4xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-08T21:50:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw",
-      "date": "2026-11-08T21:40:36Z",
-      "league": "soccer"
     }
   ]
 }
