@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-09T19:43:38Z",
+  "updated_at": "2026-11-09T20:38:14Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,28 +762,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Listen to Monday Night Club",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T21:00:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
+      "date": "2026-11-09T20:00:17Z",
+      "league": "all"
+    },
     {
       "title": "Wimborne to host Bradford in FA Cup second round",
       "source": "BBC Sport",
@@ -796,13 +791,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
       "date": "2026-11-09T19:15:04Z",
-      "league": "all"
-    },
-    {
-      "title": "England’s first-choice back three stares Borthwick in face after Australia rout | Gerard Meagher",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
-      "date": "2026-11-09T19:00:11Z",
       "league": "all"
     },
     {
@@ -961,10 +949,10 @@
     },
     {
       "title": "Lens were humiliated by Como. The pain continued against Marseille",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/09/lens-como-marseille-pierre-sage-coupe-de-france-ligue-1",
       "date": "2026-11-09T13:37:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Could Old Trafford chaos keep Michael Carrick in the job? Football Weekly – video",
@@ -1024,10 +1012,10 @@
     },
     {
       "title": "Musiala may never return to his best - Hoeness",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw78p8dp0keeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T11:01:09Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Football comes together across Spain to honour Jesús de Miguel: ‘We’ve seen how fragile life is’",
@@ -1091,13 +1079,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqy0r0lw4l5ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T08:00:07Z",
       "league": "soccer"
-    },
-    {
-      "title": "Premier League: 10 talking points from the weekend’s action",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/premier-league-10-talking-points-weekend-action",
-      "date": "2026-11-09T08:00:04Z",
-      "league": "all"
     }
   ]
 }
