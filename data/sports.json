@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T11:10:44Z",
+  "updated_at": "2026-11-10T12:08:18Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -669,19 +669,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499243",
+      "id": "sportsdb-2499242",
       "league": "ncaaf",
-      "name": "Bowling Green vs Kent State",
-      "date": "2026-11-10T23:00:00Z",
+      "name": "Akron vs Western Michigan",
+      "date": "2026-11-11T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Bowling Green",
+          "name": "Akron",
           "score": ""
         },
         {
-          "name": "Kent State",
+          "name": "Western Michigan",
           "score": ""
         }
       ],
@@ -764,45 +764,62 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
+      "id": "sportsdb-2594666",
       "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Viking vs Sabah Baku",
+      "date": "2026-11-04T20:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Bodø/Glimt",
-          "score": ""
+          "name": "Viking",
+          "score": "4",
+          "winner": true
         },
         {
-          "name": "LASK",
-          "score": ""
+          "name": "Sabah Baku",
+          "score": "1"
         }
       ],
       "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Hill gets first England call-up as Konsa cover",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T11:41:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Jockey Neale, 22, dies after fall during race",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c933x3yjk530o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T11:34:41Z",
+      "league": "all"
+    },
+    {
+      "title": "DeChambeau running out of options - McIlroy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cwz0v0jmxpl0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T11:23:31Z",
+      "league": "all"
+    },
+    {
+      "title": "David Squires on … You Can MUFC Everything",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/picture/2026/nov/10/david-squires-on-you-can-mufc-everything-manchester-united",
+      "date": "2026-11-10T11:02:54Z",
+      "league": "all"
+    },
+    {
+      "title": "War has upended Russian-Nordic friendships forged on Arctic ice hockey rinks. Can they ever recover?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/ice-hockey-diplomacy-russia-international-competition-nordic-arctic",
+      "date": "2026-11-10T11:00:52Z",
+      "league": "all"
+    },
     {
       "title": "Rui Pinto’s lawyers in talks with UK authorities over cooperation deal for whistleblower",
       "source": "The Guardian Sport",
@@ -837,13 +854,6 @@
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T09:06:38Z",
       "league": "ufc"
-    },
-    {
-      "title": "Wilcox and Berrada poised to tell Ratcliffe in Monaco that Carrick should be sacked",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/manchester-united-jason-wilcox-omar-berrada-jim-ratcliffe-michael-carrick-should-be-sacked",
-      "date": "2026-11-10T09:01:09Z",
-      "league": "all"
     },
     {
       "title": "Wenger considers standing against Infantino",
@@ -979,13 +989,6 @@
       "league": "all"
     },
     {
-      "title": "Sabalenka wins WTA Finals opener despite wayward serve",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cr20w0q8lgy1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T23:51:09Z",
-      "league": "all"
-    },
-    {
       "title": "Tom Brady ends tenure as investor in Birmingham City after three years",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit",
@@ -1008,23 +1011,16 @@
     },
     {
       "title": "Brady ends association with Birmingham City",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T22:18:17Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
-      "title": "Wimborne to host Bradford in FA Cup second round - see full draw",
-      "source": "BBC Sport",
+      "title": "Wimborne to host Bradford in FA Cup second round - see the full draw",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T22:10:22Z",
-      "league": "all"
-    },
-    {
-      "title": "NI's O'Neill ruled out of Nations League matches",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T21:44:23Z",
       "league": "soccer"
     },
     {
@@ -1103,20 +1099,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/09/college-football-playoff-expansion-24-teams",
       "date": "2026-11-09T17:08:52Z",
       "league": "all"
-    },
-    {
-      "title": "Aberdeen sack Robinson after league slump",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T16:46:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester City’s weaknesses under Enzo Maresca are being exposed",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-city-enzo-maresca-premier-league",
-      "date": "2026-11-09T16:30:13Z",
-      "league": "soccer"
     }
   ]
 }
