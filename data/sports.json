@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T10:15:08Z",
+  "updated_at": "2026-11-10T11:10:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -669,19 +669,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499242",
+      "id": "sportsdb-2499243",
       "league": "ncaaf",
-      "name": "Akron vs Western Michigan",
+      "name": "Bowling Green vs Kent State",
       "date": "2026-11-10T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Akron",
+          "name": "Bowling Green",
           "score": ""
         },
         {
-          "name": "Western Michigan",
+          "name": "Kent State",
           "score": ""
         }
       ],
@@ -762,15 +762,67 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Rui Pinto’s lawyers in talks with UK authorities over cooperation deal for whistleblower",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower",
+      "date": "2026-11-10T10:30:35Z",
+      "league": "all"
+    },
+    {
       "title": "Felix Nmecha denies goal celebrations promote ‘intolerance, discrimination and hate’",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
       "date": "2026-11-10T10:06:06Z",
-      "league": "soccer"
+      "league": "all"
+    },
+    {
+      "title": "The Breakdown | Prendergast to Pollock via Paris: winners and losers from rugby’s ultimate weekender",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/rugby-union-breakdown-nations-championship-england-france-south-africa",
+      "date": "2026-11-10T09:30:34Z",
+      "league": "all"
     },
     {
       "title": "'I wanted to prove that motherhood is not the finish line' - ultrarunner Stephanie Case",
@@ -948,13 +1000,6 @@
       "league": "soccer"
     },
     {
-      "title": "Man Utd expected to sack head coach Carrick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T23:13:31Z",
-      "league": "all"
-    },
-    {
       "title": "Cerebral Josh King plots unusual route into Tuchel’s England plans",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/09/cerebral-josh-king-plots-unusual-route-into-tuchels-england-plans",
@@ -969,10 +1014,17 @@
       "league": "all"
     },
     {
-      "title": "Wimborne to host Bradford in FA Cup second round - see the full draw",
-      "source": "BBC Football",
+      "title": "Wimborne to host Bradford in FA Cup second round - see full draw",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T22:10:22Z",
+      "league": "all"
+    },
+    {
+      "title": "NI's O'Neill ruled out of Nations League matches",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-09T21:44:23Z",
       "league": "soccer"
     },
     {
@@ -1001,13 +1053,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
       "date": "2026-11-09T20:00:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Feyi-Waboso and Tom Curry out of Nations Championship in fresh blow to England",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/england-fresh-injury-woe-feyi-waboso-tom-curry-out-nations-championship",
-      "date": "2026-11-09T19:15:04Z",
       "league": "all"
     },
     {
@@ -1064,13 +1109,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwj34k2z5p00o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T16:46:11Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Football Daily | Manchester United, Aston Villa and the unseriousness of a 4-4 draw",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/09/football-daily-email-manchester-united-aston-villa-4-4",
-      "date": "2026-11-09T16:40:21Z",
       "league": "soccer"
     },
     {
