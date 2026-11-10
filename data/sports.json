@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:08:18Z",
+  "updated_at": "2026-11-10T13:28:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 11,
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -190,20 +190,6 @@
         {
           "fighters": [
             {
-              "name": "Drew Dober",
-              "score": ""
-            },
-            {
-              "name": "Chris Duncan",
-              "score": ""
-            }
-          ],
-          "state": "upcoming",
-          "detail": "Scheduled"
-        },
-        {
-          "fighters": [
-            {
               "name": "Stephen Thompson",
               "score": ""
             },
@@ -218,11 +204,11 @@
         {
           "fighters": [
             {
-              "name": "Donte Johnson",
+              "name": "Drew Dober",
               "score": ""
             },
             {
-              "name": "Cesar Almeida",
+              "name": "Chris Duncan",
               "score": ""
             }
           ],
@@ -246,11 +232,25 @@
         {
           "fighters": [
             {
-              "name": "Bia Mesquita",
+              "name": "Donte Johnson",
               "score": ""
             },
             {
-              "name": "Macy Chiasson",
+              "name": "Cesar Almeida",
+              "score": ""
+            }
+          ],
+          "state": "upcoming",
+          "detail": "Scheduled"
+        },
+        {
+          "fighters": [
+            {
+              "name": "Jared Gordon",
+              "score": ""
+            },
+            {
+              "name": "Melquizael Costa",
               "score": ""
             }
           ],
@@ -764,27 +764,82 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594666",
-      "league": "ucl",
-      "name": "Viking vs Sabah Baku",
-      "date": "2026-11-04T20:00:00Z",
-      "state": "final",
-      "status": "FT",
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Viking",
-          "score": "4",
-          "winner": true
+          "name": "Troyes",
+          "score": ""
         },
         {
-          "name": "Sabah Baku",
-          "score": "1"
+          "name": "Le Havre",
+          "score": ""
         }
       ],
       "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Wainwright gives Wales injury scare for All Blacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/crvg6gzg59d1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T13:16:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Six Nations and Sanzaar face new battle with World Rugby in bid to scrap relegation",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/six-nations-sanzaar-face-new-battle-with-world-rugby-bid-scrap-relegation",
+      "date": "2026-11-10T13:00:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Khawaja alleges racial abuse by MCC member",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmwy9y0r1gp3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T13:00:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Dortmund fans' group criticises Nmecha celebration",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3696yy9z64o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T12:48:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Savage denies media work is impacting role as manager",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6ev3vmykweko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T12:39:31Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Sisters in Sweat: how a former Spurs player got 20,000 Indian women into sport",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/sisters-in-sweat-indian-women-sport-moving-the-goalposts",
+      "date": "2026-11-10T12:00:51Z",
+      "league": "all"
+    },
+    {
+      "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
+      "date": "2026-11-10T12:00:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Wales call up MK Dons' Collins as Moore withdraws",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62l4l2k0lyro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T11:47:59Z",
+      "league": "all"
+    },
     {
       "title": "Hill gets first England call-up as Konsa cover",
       "source": "BBC Sport",
@@ -1043,62 +1098,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
       "date": "2026-11-09T20:51:37Z",
       "league": "soccer"
-    },
-    {
-      "title": "Ben White says he has no complaints at boos from England fans over self-imposed exile",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/ben-white-england-international-exile-arsenal-thomas-tuchel-squad-nations-league-spain-croatia",
-      "date": "2026-11-09T20:00:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Borthwick gets a glimpse of first-choice back three – before injuries strike again",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/england-first-choice-back-three-steve-borthwick-australia-nations-championship",
-      "date": "2026-11-09T19:00:11Z",
-      "league": "all"
-    },
-    {
-      "title": "People don't know full story behind England exile - White",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6rmym3p419no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T19:00:10Z",
-      "league": "all"
-    },
-    {
-      "title": "England wing Feyi-Waboso out of Nations Championship",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw5yny20m7jzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T18:33:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Dianna Russini returns to sports media after Vrabel photo scandal with NFL betting show",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/dianna-russini-return-betus-show",
-      "date": "2026-11-09T17:49:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Kane and Bellingham air strong views in England World Cup review",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqr7y7813l04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T17:30:23Z",
-      "league": "all"
-    },
-    {
-      "title": "The heavy defeat that ended Robinson's Aberdeen tenure",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/videos/c3dxw181eqejo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T17:10:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "College Football Playoff will double in size to 24 teams starting next year",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/09/college-football-playoff-expansion-24-teams",
-      "date": "2026-11-09T17:08:52Z",
-      "league": "all"
     }
   ]
 }
