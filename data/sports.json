@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T02:35:55Z",
+  "updated_at": "2026-11-10T03:33:10Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -631,38 +631,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601818",
+      "id": "sportsdb-2601819",
       "league": "nba",
-      "name": "Golden State Warriors vs New Orleans Pelicans",
-      "date": "2026-11-10T03:00:00Z",
+      "name": "New York Knicks vs Milwaukee Bucks",
+      "date": "2026-11-11T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Golden State Warriors",
+          "name": "New York Knicks",
           "score": ""
         },
         {
-          "name": "New Orleans Pelicans",
+          "name": "Milwaukee Bucks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591769",
+      "id": "sportsdb-2591770",
       "league": "nhl",
-      "name": "San Jose Sharks vs New York Islanders",
-      "date": "2026-11-10T03:00:00Z",
+      "name": "Toronto Maple Leafs vs Colorado Avalanche",
+      "date": "2026-11-11T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Jose Sharks",
+          "name": "Toronto Maple Leafs",
           "score": ""
         },
         {
-          "name": "New York Islanders",
+          "name": "Colorado Avalanche",
           "score": ""
         }
       ],
@@ -758,25 +758,6 @@
         },
         {
           "name": "Lecce",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
           "score": ""
         }
       ],
