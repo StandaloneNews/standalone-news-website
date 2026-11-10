@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T13:28:57Z",
+  "updated_at": "2026-11-10T14:38:06Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,28 +762,44 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Kompany back at Bayern training after collapse",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c674p4el33wno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T14:17:04Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Australia doomed to live with stench of sandpapergate",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6x2v277z89eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T14:03:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick on the brink and Madrid on the charge under Mourinho | Football Weekly video",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/video/2026/nov/10/carrick-on-the-brink-and-madrid-on-the-charge-under-mourinho-football-weekly-video",
+      "date": "2026-11-10T13:58:30Z",
+      "league": "soccer"
+    },
+    {
+      "title": "World Cup finalists England still feel short of best",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T13:58:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Who are the main candidates for the Aberdeen job?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3rryr85v874o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T13:24:07Z",
+      "league": "all"
+    },
     {
       "title": "Wainwright gives Wales injury scare for All Blacks",
       "source": "BBC Sport",
@@ -796,13 +812,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/10/six-nations-sanzaar-face-new-battle-with-world-rugby-bid-scrap-relegation",
       "date": "2026-11-10T13:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Khawaja alleges racial abuse by MCC member",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmwy9y0r1gp3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T13:00:31Z",
       "league": "all"
     },
     {
@@ -852,6 +861,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c933x3yjk530o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T11:34:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Carrick's Man Utd future to be decided at Wednesday meeting",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T11:23:43Z",
       "league": "all"
     },
     {
@@ -905,7 +921,7 @@
     },
     {
       "title": "UFC 334: Gane v Hokit - all you need to know",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T09:06:38Z",
       "league": "ufc"
@@ -1002,11 +1018,11 @@
       "league": "all"
     },
     {
-      "title": "The fans at the FA Cup game no-one could see",
-      "source": "BBC Sport",
+      "title": "The fans at the foggy FA Cup game no-one could see",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/cmqjnjvld27yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T06:00:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Bills wear out Vikings’ NFL-leading defense, sloppy Wentz to improve to 7-1",
@@ -1037,13 +1053,6 @@
       "league": "all"
     },
     {
-      "title": "Initiative launched to make UK world leader in women's sport",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/crp3g3l2wew3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T00:01:29Z",
-      "league": "all"
-    },
-    {
       "title": "Tom Brady ends tenure as investor in Birmingham City after three years",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/09/tom-brady-birmingham-city-investor-sale-exit",
@@ -1069,34 +1078,6 @@
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T22:18:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wimborne to host Bradford in FA Cup second round - see the full draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T22:10:22Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester’s soulless content machine football clubs sum up post-imperial Britain | Barney Ronay",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-city-soulless-content-machines-premier-league",
-      "date": "2026-11-09T21:40:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Atletico target Zubimendi move - Tuesday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T21:13:37Z",
-      "league": "soccer"
-    },
-    {
-      "title": "NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/08/washington-spirit-semifinal-audi-field-gotham-nwsl-playoffs",
-      "date": "2026-11-09T20:51:37Z",
       "league": "soccer"
     }
   ]
