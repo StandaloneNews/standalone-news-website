@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T22:06:44Z",
+  "updated_at": "2026-11-10T23:00:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 15,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -58,22 +58,22 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -745,25 +745,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482242",
-      "league": "seriea",
-      "name": "Fiorentina vs Juventus",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Juventus",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482248",
       "league": "seriea",
       "name": "Lazio vs Lecce",
@@ -781,104 +762,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540129",
-      "league": "aleague",
-      "name": "Adelaide United vs Melbourne Victory",
-      "date": "2026-11-08T06:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Adelaide United",
-          "score": "2"
-        },
-        {
-          "name": "Melbourne Victory",
-          "score": "2"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Injured Feyi-Waboso is our Robinson – Sinfield",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq9vw88v8p80o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T22:32:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Leicester and Brentford U21 into trophy knockout stage",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjqlnllkyzd5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T22:17:53Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
+      "date": "2026-11-10T22:05:43Z",
+      "league": "all"
+    },
     {
       "title": "Man City thrash Inter to claim first CL win of season",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T22:05:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Inter 1-4 Manchester City: Women’s Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live",
-      "date": "2026-11-10T21:56:02Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL trade deadline 2026: Vikings reunite with Kirk Cousins; Colts stick with Taylor; 49ers get WR Allen – live reaction",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/10/nfl-trade-deadline-2026-live-updates-deals-rumors-news",
-      "date": "2026-11-10T21:50:42Z",
       "league": "all"
     },
     {
@@ -893,6 +805,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T20:07:12Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL trade deadline: Kirk Cousins returns to Vikings as Raiders hand starting job to Fernando Mendoza",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/kirk-cousins-minnesota-vikings-las-vegas-raiders-trade-fernando-mendoza",
+      "date": "2026-11-10T19:57:37Z",
       "league": "all"
     },
     {
@@ -1043,6 +962,13 @@
       "league": "soccer"
     },
     {
+      "title": "Six Nations and Sanzaar face new battle with World Rugby in bid to scrap relegation",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/six-nations-sanzaar-face-new-battle-with-world-rugby-bid-scrap-relegation",
+      "date": "2026-11-10T13:00:52Z",
+      "league": "all"
+    },
+    {
       "title": "Khawaja alleges racial abuse by MCC member",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cmwy9y0r1gp3o?at_medium=RSS&at_campaign=rss",
@@ -1152,27 +1078,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/athletics/videos/cmly0yde7098o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T09:24:42Z",
-      "league": "all"
-    },
-    {
-      "title": "UFC 334: Gane v Hokit - all you need to know",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T09:06:38Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Wenger considers standing against Infantino",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj343pep7zdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T08:53:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia fans 'can't trust what's real' - Clarke wants ball-tampering investigation reopened",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T08:34:25Z",
       "league": "all"
     }
   ]
