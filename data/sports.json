@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T07:57:09Z",
+  "updated_at": "2026-11-10T09:12:56Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 21,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
@@ -83,27 +83,27 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -612,6 +612,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475509",
+      "league": "nfl",
+      "name": "Minnesota Vikings vs Buffalo Bills",
+      "date": "2026-11-10T01:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Minnesota Vikings",
+          "score": "6"
+        },
+        {
+          "name": "Buffalo Bills",
+          "score": "23",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475510",
       "league": "nfl",
       "name": "New York Giants vs Washington Commanders",
@@ -762,21 +782,215 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398536",
+      "league": "brasileirao",
+      "name": "Mirassol vs Atlético Mineiro",
+      "date": "2026-11-14T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Mirassol",
+          "score": ""
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487508",
+      "league": "ligamx",
+      "name": "Querétaro vs Monterrey",
+      "date": "2026-11-14T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Querétaro",
+          "score": ""
+        },
+        {
+          "name": "Monterrey",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kashima Antlers",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540130",
+      "league": "aleague",
+      "name": "Western Sydney Wanderers vs Adelaide United",
+      "date": "2026-11-20T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Western Sydney Wanderers",
+          "score": ""
+        },
+        {
+          "name": "Adelaide United",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514035",
+      "league": "primeira",
+      "name": "Marítimo vs Nacional de Madeira",
+      "date": "2026-11-27T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Marítimo",
+          "score": ""
+        },
+        {
+          "name": "Nacional de Madeira",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627200",
+      "league": "mls",
+      "name": "Orlando City vs FC Cincinnati",
+      "date": "2026-11-20T00:30:00Z",
+      "state": "upcoming",
+      "status": "Scheduled",
+      "participants": [
+        {
+          "name": "Orlando City",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "UFC 334: Gane v Hokit - all you need to know",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T09:06:38Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Wenger considers standing against Infantino",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwj343pep7zdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T08:53:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Australia fans 'can't trust what's real' - Clarke wants ball-tampering investigation reopened",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T08:34:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Vote for your greatest all-British boxing fight",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cq5yn477mn51o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T08:30:49Z",
+      "league": "all"
+    },
+    {
+      "title": "How good is Hamilton and how long can he stay in F1? - Q&A",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cmp3g005zyxko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T08:00:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Liberals like Messi but authoritarians prefer Ronaldo: how politics shapes sporting choices | Sean Ingle",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/how-politics-shapes-sporting-choices-messi-ronaldo-trump",
+      "date": "2026-11-10T08:00:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester City’s Kerstin Casparij: ‘I love football – but it takes over your life’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/manchester-citys-kerstin-casparij-i-love-football-but-it-takes-over-your-life",
+      "date": "2026-11-10T08:00:32Z",
+      "league": "all"
+    },
     {
       "title": "How Germany's greatest goalscorer is guiding the next generation",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmq8nnddpllqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T07:34:07Z",
-      "league": "all"
-    },
-    {
-      "title": "'No reason' to reopen sandpaper investigation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T07:31:01Z",
       "league": "all"
     },
     {
@@ -826,6 +1040,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/iplayer/episode/m0034cyd?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T06:00:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Bills wear out Vikings’ NFL-leading defense, sloppy Wentz to improve to 7-1",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/09/bills-vikings-monday-night-football",
+      "date": "2026-11-10T04:59:16Z",
       "league": "all"
     },
     {
@@ -928,10 +1149,10 @@
     },
     {
       "title": "Atletico target Zubimendi move - Tuesday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjn5v5xypez2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T21:13:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "NWSL playoffs scheduling snafu: Washington Spirit keep Audi Field; Gotham move to Icahn",
@@ -1029,55 +1250,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T15:25:55Z",
-      "league": "all"
-    },
-    {
-      "title": "How Hawkins overcame illness to star for England",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cmvgxgdqgdgvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T15:15:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Kettering Town 'cannot hide' from racism problem",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr0j0jnln3j0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T15:10:38Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Bronze named in World 11 for record ninth time",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmkgeg2z4dlwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T14:55:32Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Incident-by-incident: Was it a bad weekend for VAR?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T14:34:19Z",
-      "league": "all"
-    },
-    {
-      "title": "That’s a Mora: Rodrigo and Roma rise with Lazio to give Eternal City new life | Nicky Bandini",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/rodrigo-mora-roma-lazio-rome-serie-a",
-      "date": "2026-11-09T14:18:45Z",
-      "league": "all"
-    },
-    {
-      "title": "Felix Nmecha’s faith is forcing Borussia Dortmund into an uncomfortable debate",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/felix-nmecha-faith-borussia-dortmund-debate-bundesliga",
-      "date": "2026-11-09T14:10:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Thirteen-year-old surfing prodigy Leihani Zoric: ‘I don’t want to participate, I want to dominate’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/leihani-zoric-australian-surf-prodigy-surfing",
-      "date": "2026-11-09T14:00:13Z",
       "league": "all"
     }
   ]
