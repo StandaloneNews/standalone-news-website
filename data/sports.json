@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T01:28:59Z",
+  "updated_at": "2026-11-10T02:35:55Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -631,38 +631,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601816",
+      "id": "sportsdb-2601818",
       "league": "nba",
-      "name": "Houston Rockets vs Denver Nuggets",
-      "date": "2026-11-10T01:30:00Z",
+      "name": "Golden State Warriors vs New Orleans Pelicans",
+      "date": "2026-11-10T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Houston Rockets",
+          "name": "Golden State Warriors",
           "score": ""
         },
         {
-          "name": "Denver Nuggets",
+          "name": "New Orleans Pelicans",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591768",
+      "id": "sportsdb-2591769",
       "league": "nhl",
-      "name": "Vancouver Canucks vs Philadelphia Flyers",
-      "date": "2026-11-10T02:30:00Z",
+      "name": "San Jose Sharks vs New York Islanders",
+      "date": "2026-11-10T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Vancouver Canucks",
+          "name": "San Jose Sharks",
           "score": ""
         },
         {
-          "name": "Philadelphia Flyers",
+          "name": "New York Islanders",
           "score": ""
         }
       ],
@@ -762,9 +762,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Cricket Australia rules out reopening ball tampering investigation in wake of Khawaja book claims",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book",
+      "date": "2026-11-10T01:07:21Z",
+      "league": "all"
+    },
     {
       "title": "Plymouth Parkway beat Berkhamsted to reach FA Cup second round",
       "source": "BBC Sport",
@@ -1071,13 +1097,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/09/uncapped-spinner-patterson-white-england-test-call-up-south-africa-cricket",
       "date": "2026-11-09T12:03:42Z",
-      "league": "all"
-    },
-    {
-      "title": "'Spectacular' catches and toe-tapping skills - NFL best plays",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/c60mem12x7zyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T12:01:51Z",
       "league": "all"
     }
   ]
