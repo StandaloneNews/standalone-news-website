@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T09:12:56Z",
+  "updated_at": "2026-11-10T10:15:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 21,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
@@ -83,27 +83,27 @@
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -612,26 +612,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475509",
-      "league": "nfl",
-      "name": "Minnesota Vikings vs Buffalo Bills",
-      "date": "2026-11-10T01:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Minnesota Vikings",
-          "score": "6"
-        },
-        {
-          "name": "Buffalo Bills",
-          "score": "23",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475510",
       "league": "nfl",
       "name": "New York Giants vs Washington Commanders",
@@ -782,167 +762,36 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487508",
-      "league": "ligamx",
-      "name": "Querétaro vs Monterrey",
-      "date": "2026-11-14T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Querétaro",
-          "score": ""
-        },
-        {
-          "name": "Monterrey",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540130",
-      "league": "aleague",
-      "name": "Western Sydney Wanderers vs Adelaide United",
-      "date": "2026-11-20T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Western Sydney Wanderers",
-          "score": ""
-        },
-        {
-          "name": "Adelaide United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514035",
-      "league": "primeira",
-      "name": "Marítimo vs Nacional de Madeira",
-      "date": "2026-11-27T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marítimo",
-          "score": ""
-        },
-        {
-          "name": "Nacional de Madeira",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627200",
-      "league": "mls",
-      "name": "Orlando City vs FC Cincinnati",
-      "date": "2026-11-20T00:30:00Z",
-      "state": "upcoming",
-      "status": "Scheduled",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
-        },
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Felix Nmecha denies goal celebrations promote ‘intolerance, discrimination and hate’",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
+      "date": "2026-11-10T10:06:06Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'I wanted to prove that motherhood is not the finish line' - ultrarunner Stephanie Case",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/videos/cmly0yde7098o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T09:24:42Z",
+      "league": "all"
+    },
+    {
       "title": "UFC 334: Gane v Hokit - all you need to know",
-      "source": "BBC MMA",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6n494my0g32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T09:06:38Z",
       "league": "ufc"
+    },
+    {
+      "title": "Wilcox and Berrada poised to tell Ratcliffe in Monaco that Carrick should be sacked",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/manchester-united-jason-wilcox-omar-berrada-jim-ratcliffe-michael-carrick-should-be-sacked",
+      "date": "2026-11-10T09:01:09Z",
+      "league": "all"
     },
     {
       "title": "Wenger considers standing against Infantino",
@@ -1036,10 +885,10 @@
       "league": "all"
     },
     {
-      "title": "Watch: Rivals - Fury v Joshua on BBC iPlayer",
+      "title": "The fans at the FA Cup game no-one could see",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m0034cyd?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T06:00:00Z",
+      "url": "https://www.bbc.co.uk/news/articles/cmqjnjvld27yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T06:00:05Z",
       "league": "all"
     },
     {
@@ -1113,13 +962,6 @@
       "league": "soccer"
     },
     {
-      "title": "Michael Carrick facing Manchester United axe amid review by Jason Wilcox",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/09/manchester-united-michael-carrick-jason-wilcox-review-sacking",
-      "date": "2026-11-09T22:19:09Z",
-      "league": "all"
-    },
-    {
       "title": "Brady ends association with Birmingham City",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd6d63vegd4o?at_medium=RSS&at_campaign=rss",
@@ -1127,17 +969,10 @@
       "league": "all"
     },
     {
-      "title": "Wimborne to host Bradford in FA Cup second round - see full draw",
-      "source": "BBC Sport",
+      "title": "Wimborne to host Bradford in FA Cup second round - see the full draw",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6wyrynd848jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-09T22:10:22Z",
-      "league": "all"
-    },
-    {
-      "title": "NI's O'Neill ruled out of Nations League matches",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynylnd71yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T21:44:23Z",
       "league": "soccer"
     },
     {
@@ -1244,13 +1079,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/09/manchester-city-enzo-maresca-premier-league",
       "date": "2026-11-09T16:30:13Z",
       "league": "soccer"
-    },
-    {
-      "title": "Every goal from the Women's Super League - matchweek nine",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-09T15:25:55Z",
-      "league": "all"
     }
   ]
 }
