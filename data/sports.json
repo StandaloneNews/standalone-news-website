@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T17:33:36Z",
+  "updated_at": "2026-11-10T18:28:06Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 27,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -68,42 +68,42 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 2
+      "events": 0
     }
   ],
   "events": [
@@ -631,26 +631,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601818",
-      "league": "nba",
-      "name": "Golden State Warriors vs New Orleans Pelicans",
-      "date": "2026-11-10T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Golden State Warriors",
-          "score": "138",
-          "winner": true
-        },
-        {
-          "name": "New Orleans Pelicans",
-          "score": "87"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2601819",
       "league": "nba",
       "name": "New York Knicks vs Milwaukee Bucks",
@@ -684,26 +664,6 @@
         {
           "name": "Colorado Avalanche",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499241",
-      "league": "ncaaf",
-      "name": "UNLV vs Wyoming",
-      "date": "2026-11-08T03:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "UNLV",
-          "score": "35"
-        },
-        {
-          "name": "Wyoming",
-          "score": "41",
-          "winner": true
         }
       ],
       "url": ""
@@ -766,26 +726,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
-      "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Schalke 04",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -841,226 +781,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": "0"
-        },
-        {
-          "name": "Fluminense",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627816",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
-      "date": "2026-11-22T21:00:00Z",
-      "state": "upcoming",
-      "status": "Scheduled",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        },
-        {
-          "name": "Newell's Old Boys",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487508",
-      "league": "ligamx",
-      "name": "Querétaro vs Monterrey",
-      "date": "2026-11-14T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Querétaro",
-          "score": ""
-        },
-        {
-          "name": "Monterrey",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492911",
-      "league": "j1",
-      "name": "JEF United Chiba vs Mito HollyHock",
-      "date": "2026-11-08T08:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "JEF United Chiba",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "name": "Mito HollyHock",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540130",
-      "league": "aleague",
-      "name": "Western Sydney Wanderers vs Adelaide United",
-      "date": "2026-11-20T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Western Sydney Wanderers",
-          "score": ""
-        },
-        {
-          "name": "Adelaide United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514035",
-      "league": "primeira",
-      "name": "Marítimo vs Nacional de Madeira",
-      "date": "2026-11-27T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marítimo",
-          "score": ""
-        },
-        {
-          "name": "Nacional de Madeira",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2407216",
-      "league": "mls",
-      "name": "Houston Dynamo vs St. Louis City SC",
-      "date": "2026-11-08T00:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Houston Dynamo",
-          "score": "0"
-        },
-        {
-          "name": "St. Louis City SC",
-          "score": "1",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627200",
-      "league": "mls",
-      "name": "Orlando City vs FC Cincinnati",
-      "date": "2026-11-20T00:30:00Z",
-      "state": "upcoming",
-      "status": "Scheduled",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
-        },
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T18:12:02Z",
+      "league": "all"
+    },
+    {
       "title": "NFL trade deadline 2026: Jonathan Taylor status, Vikings eye QB and more – live updates",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/10/nfl-trade-deadline-2026-live-updates-deals-rumors-news",
-      "date": "2026-11-10T16:58:55Z",
+      "date": "2026-11-10T18:11:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
+      "date": "2026-11-10T17:40:40Z",
+      "league": "all"
+    },
+    {
+      "title": "F1 presses ahead with plan to hold season finale in Middle East despite safety concerns",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/f1-season-finale-middle-east-conflict-formula-one-abu-dhabi-imola-qatar",
+      "date": "2026-11-10T17:18:35Z",
       "league": "all"
     },
     {
@@ -1096,13 +845,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T16:17:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
-      "date": "2026-11-10T16:10:38Z",
       "league": "all"
     },
     {
@@ -1233,10 +975,10 @@
     },
     {
       "title": "Carrick's Man Utd future to be decided as Berrada and Wilcox retain support",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T11:23:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "DeChambeau running out of options - McIlroy",
@@ -1355,20 +1097,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq5yny8g5g2ro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T06:35:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T06:24:50Z",
-      "league": "all"
-    },
-    {
-      "title": "Meet Stephanie Case - the first woman to run 100 miles in Antarctica",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/cm98z8w9kx02o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T06:20:04Z",
       "league": "all"
     }
   ]
