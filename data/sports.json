@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T21:15:43Z",
+  "updated_at": "2026-11-11T22:21:48Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -781,9 +781,49 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "US withdraw from U-17 World Cup in Qatar due to safety concerns",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict",
+      "date": "2026-11-11T21:54:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal join Scott chase - Thursday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T21:38:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Meeting of two lost souls: can Pochettino make it work at Manchester United? | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/mauricio-pochettino-manchester-united-old-trafford-manager",
+      "date": "2026-11-11T21:10:31Z",
+      "league": "all"
+    },
     {
       "title": "Football Daily",
       "source": "BBC Football",
@@ -947,10 +987,10 @@
     },
     {
       "title": "Manchester United reach framework deal with Pochettino before settling Carrick’s fate",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/manchester-united-close-mauricio-pochettino-deal-michael-carrick",
       "date": "2026-11-11T13:52:39Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Turkey-based Bates replaces Binks in Scotland squad",
@@ -1065,13 +1105,6 @@
       "league": "all"
     },
     {
-      "title": "Bethell out of Australia trip and doubt for SA",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckvg25q0n61jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T10:00:23Z",
-      "league": "all"
-    },
-    {
       "title": "Robinson unfazed by Pochettino departure talk",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
@@ -1083,20 +1116,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T09:45:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Khawaja refuses to name Aussie ball tamperers",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8dx16vzvr3ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:41:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Vonn has ninth operation after Olympic crash",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/articles/ckx28eww18g2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:40:03Z",
       "league": "all"
     }
   ]
