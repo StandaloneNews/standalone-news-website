@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T18:36:58Z",
+  "updated_at": "2026-11-11T19:44:24Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,30 +762,46 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Raducanu to return at January's United Cup after injury absence",
+      "title": "England return to site of Ashes angst but Australia gaze stuck on sandpaper",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/england-return-to-site-of-ashes-angst-but-australia-gaze-stuck-on-sandpaper",
+      "date": "2026-11-11T19:00:03Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I’ve had to prove people wrong’: Kane still striving before record England cap",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
+      "date": "2026-11-11T19:00:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Complaint filed to IRS in relation to Fifa head Gianni Infantino’s housekeeper",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/complaint-us-irs-fifa-gianni-infantino-housekeeper",
+      "date": "2026-11-11T19:00:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Thomas Tuchel keeps laser focus on ‘unfinished business’ with England",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/thomas-tuchel-unfinished-business-england-euro-2028-nations-league",
+      "date": "2026-11-11T19:00:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pmh9w1?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T18:15:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Raducanu to return at January's United Cup after injury lay-off",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cmwyvgvlv2qwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T18:05:25Z",
@@ -891,10 +907,10 @@
     },
     {
       "title": "‘Hear the goals during the afterlife’: Barça fans get to inter ashes at club’s new memorial",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/barcelona-fc-camp-nou-stadium-memorial-fans-ashes",
       "date": "2026-11-11T14:30:15Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Jockey Tom O’Brien, Cheltenham festival winner, dies aged 39",
@@ -1063,41 +1079,6 @@
       "url": "https://www.bbc.co.uk/sport/articles/ckx28eww18g2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T09:40:03Z",
       "league": "all"
-    },
-    {
-      "title": "NFL trade deadline winners and losers: Vikings go full dadcore with Kirk Cousins in Super Bowl quest",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/nfl-trade-deadline-winners-and-losers-vikings-bears-jaguars",
-      "date": "2026-11-11T09:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "NI can draw on strong club form in key window",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wz2kg0lno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T08:09:02Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Which football club has had most international captains in the same team? | The Knowledge",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/11/football-club-most-international-captains-same-team-the-knowledge",
-      "date": "2026-11-11T08:00:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Is No 10 still the best, or No 41? The myths and maths of Premier League shirt numbers",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/11/is-no-10-still-the-best-or-no-41-the-myths-and-maths-of-premier-league-shirt-numbers",
-      "date": "2026-11-11T08:00:32Z",
-      "league": "all"
-    },
-    {
-      "title": "From Jersey to Somalia... via Liverpool & Man City",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T07:13:52Z",
-      "league": "soccer"
     }
   ]
 }
