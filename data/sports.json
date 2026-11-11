@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T22:21:48Z",
+  "updated_at": "2026-11-11T23:11:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -781,28 +781,23 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "'I got a bit angry at myself' - Svitolina keeps WTA Finals hopes alive",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T22:50:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Stephen Curry attacks treatment of women after former players criticize wife Ayesha’s movie kiss",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/stephen-curry-ayesha-movie-kiss-arenas-young",
+      "date": "2026-11-11T22:30:23Z",
+      "league": "all"
+    },
     {
       "title": "US withdraw from U-17 World Cup in Qatar due to safety concerns",
       "source": "The Guardian Sport",
@@ -1102,20 +1097,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/11/jacob-bethell-cricket-england-fitness-south-africa-tests-australia-white-ball-tour",
       "date": "2026-11-11T10:19:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Robinson unfazed by Pochettino departure talk",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:54:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Tearful Smith switches allegiance to Netherlands",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:45:14Z",
       "league": "all"
     }
   ]
