@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T23:54:20Z",
+  "updated_at": "2026-11-11T00:27:32Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 23,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -58,52 +58,52 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 2
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -650,38 +650,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591770",
+      "id": "sportsdb-2591773",
       "league": "nhl",
-      "name": "Toronto Maple Leafs vs Colorado Avalanche",
-      "date": "2026-11-11T00:00:00Z",
+      "name": "Columbus Blue Jackets vs Florida Panthers",
+      "date": "2026-11-11T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Toronto Maple Leafs",
+          "name": "Columbus Blue Jackets",
           "score": ""
         },
         {
-          "name": "Colorado Avalanche",
+          "name": "Florida Panthers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499242",
+      "id": "sportsdb-2499244",
       "league": "ncaaf",
-      "name": "Akron vs Western Michigan",
-      "date": "2026-11-11T00:00:00Z",
+      "name": "Miami (OH) vs Ohio",
+      "date": "2026-11-11T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Akron",
+          "name": "Miami (OH)",
           "score": ""
         },
         {
-          "name": "Western Michigan",
+          "name": "Ohio",
           "score": ""
         }
       ],
@@ -745,6 +745,25 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2482242",
+      "league": "seriea",
+      "name": "Fiorentina vs Juventus",
+      "date": "2026-11-08T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Fiorentina",
+          "score": "2"
+        },
+        {
+          "name": "Juventus",
+          "score": "2"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2482248",
       "league": "seriea",
       "name": "Lazio vs Lecce",
@@ -762,9 +781,214 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398536",
+      "league": "brasileirao",
+      "name": "Mirassol vs Atlético Mineiro",
+      "date": "2026-11-14T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Mirassol",
+          "score": ""
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627816",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
+      "date": "2026-11-22T21:00:00Z",
+      "state": "upcoming",
+      "status": "Scheduled",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        },
+        {
+          "name": "Newell's Old Boys",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487508",
+      "league": "ligamx",
+      "name": "Querétaro vs Monterrey",
+      "date": "2026-11-14T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Querétaro",
+          "score": ""
+        },
+        {
+          "name": "Monterrey",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kashima Antlers",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540130",
+      "league": "aleague",
+      "name": "Western Sydney Wanderers vs Adelaide United",
+      "date": "2026-11-20T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Western Sydney Wanderers",
+          "score": ""
+        },
+        {
+          "name": "Adelaide United",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514032",
+      "league": "primeira",
+      "name": "Estrela Amadora vs Benfica",
+      "date": "2026-11-08T20:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Estrela Amadora",
+          "score": "2"
+        },
+        {
+          "name": "Benfica",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514035",
+      "league": "primeira",
+      "name": "Marítimo vs Nacional de Madeira",
+      "date": "2026-11-27T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Marítimo",
+          "score": ""
+        },
+        {
+          "name": "Nacional de Madeira",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627200",
+      "league": "mls",
+      "name": "Orlando City vs FC Cincinnati",
+      "date": "2026-11-20T00:30:00Z",
+      "state": "upcoming",
+      "status": "Scheduled",
+      "participants": [
+        {
+          "name": "Orlando City",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-10T23:59:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Pegula keeps WTA Finals semi-final hopes alive with straight-sets win over Kostyuk",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/jessica-pegula-marta-kostyuk-wta-finals-tennis",
+      "date": "2026-11-10T23:31:32Z",
+      "league": "all"
+    },
     {
       "title": "Arsenal eye Real's Endrick - Wednesday's gossip",
       "source": "BBC Sport",
@@ -882,6 +1106,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/10/f1-season-finale-middle-east-conflict-formula-one-abu-dhabi-imola-qatar",
       "date": "2026-11-10T17:18:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Mitchell Starc breaks silence to deny knowledge of ball tampering plan",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book",
+      "date": "2026-11-10T16:55:05Z",
       "league": "all"
     },
     {
@@ -1057,27 +1288,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/10/ice-hockey-diplomacy-russia-international-competition-nordic-arctic",
       "date": "2026-11-10T11:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Rui Pinto’s lawyers in talks with UK authorities over deal for Manchester City whistleblower",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/rui-pinto-lawyers-talks-uk-authorities-cooperation-deal-whistleblower",
-      "date": "2026-11-10T10:30:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Felix Nmecha denies goal celebrations promote ‘intolerance, discrimination and hate’",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/10/felix-nmecha-denies-goal-celebrations-promote-intolerance-discrimination-and-hate",
-      "date": "2026-11-10T10:06:06Z",
-      "league": "soccer"
-    },
-    {
-      "title": "The Breakdown | Prendergast to Pollock via Paris: winners and losers from rugby’s ultimate weekender",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/rugby-union-breakdown-nations-championship-england-france-south-africa",
-      "date": "2026-11-10T09:30:34Z",
       "league": "all"
     }
   ]
