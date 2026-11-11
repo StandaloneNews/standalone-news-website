@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T09:16:31Z",
+  "updated_at": "2026-11-11T10:20:50Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,9 +762,96 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Shirt pull on Isak should have been penalty - panel",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:16:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino’s Manchester United interest is as natural as it is disruptive to the US",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/mauricio-pochettino-manchester-united-usmnt",
+      "date": "2026-11-11T10:00:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Bethell out of Australia trip and doubt for SA",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/ckvg25q0n61jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:00:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Robinson unfazed by Pochettino departure talk",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:54:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Tearful Smith switches allegiance to Netherlands",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:45:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Khawaja refuses to name Aussie ball tamperers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8dx16vzvr3ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:41:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Vonn has ninth operation after Olympic crash",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/ckx28eww18g2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:40:03Z",
+      "league": "all"
+    },
     {
       "title": "Man Utd open talks with Pochettino about replacing Carrick",
       "source": "BBC Sport",
@@ -784,13 +871,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/11/manchester-united-close-mauricio-pochettino-deal-michael-carrick",
       "date": "2026-11-11T08:56:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Tearful Smith switches allegiance to the Netherlands",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T08:19:59Z",
       "league": "all"
     },
     {
@@ -816,10 +896,10 @@
     },
     {
       "title": "Dalkeith to LA pays off for Porteous with Scotland recall",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T08:00:14Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "From Jersey to Somalia... via Liverpool & Man City",
@@ -927,13 +1007,6 @@
       "league": "all"
     },
     {
-      "title": "Pocognoli to lean on Scotland's 'captain group of five'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8e8wjyzgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T20:49:11Z",
-      "league": "all"
-    },
-    {
       "title": "Chelsea play out goalless draw with Hacken",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss",
@@ -1011,13 +1084,6 @@
       "league": "all"
     },
     {
-      "title": "Formula 1 to finish season in Middle East",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T15:04:46Z",
-      "league": "all"
-    },
-    {
       "title": "Birthdays and broken lamps - at home with the Charles brothers",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
@@ -1030,13 +1096,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/10/hot-mics-andreeva-diva-drama-and-a-stopgap-finale-at-indian-wells-bail-out-the-wta",
       "date": "2026-11-10T14:25:05Z",
       "league": "all"
-    },
-    {
-      "title": "Kompany back at Bayern training after collapse",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c674p4el33wno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T14:17:04Z",
-      "league": "soccer"
     },
     {
       "title": "Australia doomed to live with stench of sandpapergate",
@@ -1053,32 +1112,11 @@
       "league": "soccer"
     },
     {
-      "title": "World Cup finalists England still feel short of best",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ckzd6dmm5z19o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T13:58:00Z",
-      "league": "all"
-    },
-    {
       "title": "Who are the main candidates for the Aberdeen job?",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3rryr85v874o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T13:24:07Z",
       "league": "soccer"
-    },
-    {
-      "title": "Six Nations and Sanzaar face new battle with World Rugby in bid to scrap relegation",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/six-nations-sanzaar-face-new-battle-with-world-rugby-bid-scrap-relegation",
-      "date": "2026-11-10T13:00:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Dortmund fans' group criticises Nmecha celebration",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm3696yy9z64o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T12:48:21Z",
-      "league": "all"
     }
   ]
 }
