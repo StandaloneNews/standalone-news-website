@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T19:44:24Z",
+  "updated_at": "2026-11-11T21:15:43Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,9 +762,35 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pmhwp1?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T20:53:00Z",
+      "league": "soccer"
+    },
     {
       "title": "England return to site of Ashes angst but Australia gaze stuck on sandpaper",
       "source": "The Guardian Sport",
@@ -1037,13 +1063,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/11/jacob-bethell-cricket-england-fitness-south-africa-tests-australia-white-ball-tour",
       "date": "2026-11-11T10:19:26Z",
       "league": "all"
-    },
-    {
-      "title": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T10:17:09Z",
-      "league": "soccer"
     },
     {
       "title": "Bethell out of Australia trip and doubt for SA",
