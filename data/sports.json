@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T12:14:51Z",
+  "updated_at": "2026-11-11T13:36:19Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -762,47 +762,65 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Welsh Grand National-winning jockey O'Brien dies aged 39",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T13:29:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Super League approves expansion to 15 teams",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm0l384nz4r6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T13:10:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:58:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Former BBC radio presenter Kelly dies aged 69",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmz9dwk90ny7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:44:17Z",
+      "league": "all"
+    },
+    {
+      "title": "The brothers and their dad driving England's World Cup bid",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ckq6er93rd34o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:36:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Jayson Tatum gives former teammate Jaylen Brown frosty greeting as Celtics beat 76ers",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/jayson-tatum-jaylen-brown-76ers-celtics-greeting-nba",
+      "date": "2026-11-11T12:32:12Z",
+      "league": "all"
+    },
+    {
+      "title": "‘An eternal shame’: Bilic and Croatia aim to use 7-0 humbling as fuel against England",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/slaven-bilic-croatia-7-0-england-nations-league-wembley",
+      "date": "2026-11-11T12:30:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Dupont picked at 10 amid France fly-half crisis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq742lw1v3pvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:17:17Z",
+      "league": "all"
+    },
     {
       "title": "How promotion, relegation and knockouts work in Nations League",
       "source": "BBC Football",
@@ -811,24 +829,10 @@
       "league": "soccer"
     },
     {
-      "title": "Super League approves expansion to 15 teams",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm0l384nz4r6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T12:01:36Z",
-      "league": "all"
-    },
-    {
       "title": "Scotland without captain Weir for World Cup play-off",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T11:59:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Welsh Grand National-winning jockey O'Brien dies aged 39",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:58:47Z",
       "league": "all"
     },
     {
@@ -853,17 +857,17 @@
       "league": "all"
     },
     {
+      "title": "Farewell Dennis Breakwell, Somerset stalwart and mentor to generations of cricketers",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/dennis-breakwell-somerset-stalwart-mentor-jos-buttler-cricket",
+      "date": "2026-11-11T11:30:47Z",
+      "league": "all"
+    },
+    {
       "title": "Littler expected 'pub players' on Netflix show",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/darts/articles/ckpqrjnj3y0qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T11:21:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Exeter hopeful Feyi-Waboso ankle injury not serious",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6qx5jexrx89o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:19:36Z",
       "league": "all"
     },
     {
@@ -923,13 +927,6 @@
       "league": "all"
     },
     {
-      "title": "McNamara or Cayless - who has hardest job in Hull?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c90k0k3647r2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:56:37Z",
-      "league": "all"
-    },
-    {
       "title": "Robinson unfazed by Pochettino departure talk",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
@@ -973,10 +970,10 @@
     },
     {
       "title": "NI can draw on strong club form in key window",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wz2kg0lno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T08:09:02Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Which football club has had most international captains in the same team? | The Knowledge",
@@ -1001,10 +998,10 @@
     },
     {
       "title": "From Jersey to Somalia... via Liverpool & Man City",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T07:13:52Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -1081,41 +1078,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
       "date": "2026-11-10T22:05:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Man City thrash Inter to claim first CL win of season",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T22:05:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Chelsea play out goalless draw with Hacken",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c62keklwjpe0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T20:07:12Z",
-      "league": "all"
-    },
-    {
-      "title": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
-      "date": "2026-11-10T19:54:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Firing a manager is often more about maintaining the illusion of control | Leander Schaerlaeckens",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/10/michael-carrick-firing-managers-premier-league",
-      "date": "2026-11-10T19:03:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Will Joseph poised to audition for leading role against Japan in Feyi-Waboso’s absence",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/rugby-union-england-japan-nations-championship-will-joseph",
-      "date": "2026-11-10T18:41:49Z",
       "league": "all"
     }
   ]
