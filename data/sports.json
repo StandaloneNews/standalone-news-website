@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T11:17:00Z",
+  "updated_at": "2026-11-11T12:14:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,9 +762,110 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "How promotion, relegation and knockouts work in Nations League",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crz65j3xyn9xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:09:22Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Super League approves expansion to 15 teams",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm0l384nz4r6o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T12:01:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Scotland without captain Weir for World Cup play-off",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:59:18Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Welsh Grand National-winning jockey O'Brien dies aged 39",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:58:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Danny Kelly, football broadcaster and renowned editor, dies aged 69",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/danny-kelly-football-broadcaster-editor-q-magazine-nme-dies-aged-69",
+      "date": "2026-11-11T11:56:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Psychological uncertainty and tactics - assessing the issues at Man City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw30e0yz0p04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:47:09Z",
+      "league": "all"
+    },
+    {
+      "title": "'My boss will pay me to knock him out' - Doumbe",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm752n322gn9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:47:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Littler expected 'pub players' on Netflix show",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/ckpqrjnj3y0qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:21:03Z",
+      "league": "all"
+    },
+    {
+      "title": "Exeter hopeful Feyi-Waboso ankle injury not serious",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6qx5jexrx89o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T11:19:36Z",
+      "league": "all"
+    },
     {
       "title": "League One clubs aim for further curbs on spending as budgets continue to spiral",
       "source": "The Guardian Sport",
@@ -907,10 +1008,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy4x9en5k3lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T06:47:18Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Does Pickford finally face serious competition for his England place?",
@@ -949,17 +1050,10 @@
     },
     {
       "title": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T00:19:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T23:59:03Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Noskova beats Gauff to reach WTA Finals semi-finals as Pegula stays alive",
@@ -970,17 +1064,10 @@
     },
     {
       "title": "Arsenal eye Real's Endrick - Wednesday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq8jzjz9x23jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T23:08:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Injured Feyi-Waboso is our Robinson - Sinfield",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq9vw88v8p80o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T22:32:41Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Izzy Neale, ‘dearly loved’ Australian apprentice jockey, dies after fall at regional track",
@@ -1029,55 +1116,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/10/rugby-union-england-japan-nations-championship-will-joseph",
       "date": "2026-11-10T18:41:49Z",
-      "league": "all"
-    },
-    {
-      "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T18:12:02Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wales' Johnson says definitely more to come after 50 caps",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c58jzj8k08lzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T18:01:03Z",
-      "league": "soccer"
-    },
-    {
-      "title": "F1 presses ahead with plan to hold season finale in Middle East despite safety concerns",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/f1-season-finale-middle-east-conflict-formula-one-abu-dhabi-imola-qatar",
-      "date": "2026-11-10T17:18:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Mitchell Starc breaks silence to deny knowledge of ball tampering plan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book",
-      "date": "2026-11-10T16:55:05Z",
-      "league": "all"
-    },
-    {
-      "title": "McTominay reveals heart treatment at World Cup",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T16:46:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England hammer Australia to reach final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm5ynyez127xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T16:32:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Crystal Palace could avoid significant compensation if Pierre Sage rejoins Lens",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
-      "date": "2026-11-10T15:08:24Z",
       "league": "all"
     }
   ]
