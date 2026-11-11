@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T06:47:06Z",
+  "updated_at": "2026-11-11T08:01:53Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,15 +762,34 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy4x9en5k3lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T06:47:18Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Does Pickford finally face serious competition for his England place?",
@@ -784,6 +803,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/boxing/videos/cwx29gd12xjko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T06:24:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Bone broth, sweets ban and acupuncture: Harry Kane’s road to record England cap",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/harry-kane-record-england-cap-bone-broth-sweets-ban-acupuncture",
+      "date": "2026-11-11T06:00:32Z",
       "league": "all"
     },
     {
@@ -878,14 +904,14 @@
       "league": "all"
     },
     {
-      "title": "McTominay reveals heart treatment two days before Scotland’s World Cup opener",
+      "title": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
       "date": "2026-11-10T19:54:51Z",
       "league": "all"
     },
     {
-      "title": "Firing a manager is often more about maintaining the illusion of control",
+      "title": "Firing a manager is often more about maintaining the illusion of control | Leander Schaerlaeckens",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/10/michael-carrick-firing-managers-premier-league",
       "date": "2026-11-10T19:03:04Z",
@@ -1071,13 +1097,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T11:41:27Z",
-      "league": "all"
-    },
-    {
-      "title": "Jockey Neale, 22, dies after fall during race",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c933x3yjk530o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T11:34:41Z",
       "league": "all"
     }
   ]
