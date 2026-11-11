@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T08:01:53Z",
+  "updated_at": "2026-11-11T09:16:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,28 +762,72 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Man Utd open talks with Pochettino about replacing Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:11:28Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL trade deadline winners and losers: Vikings go full dadcore with Kirk Cousins in Super Bowl quest",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/nfl-trade-deadline-winners-and-losers-vikings-bears-jaguars",
+      "date": "2026-11-11T09:00:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United close on Mauricio Pochettino deal before settling Carrick’s fate",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/manchester-united-close-mauricio-pochettino-deal-michael-carrick",
+      "date": "2026-11-11T08:56:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Tearful Smith switches allegiance to the Netherlands",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T08:19:59Z",
+      "league": "all"
+    },
+    {
+      "title": "NI can draw on strong club form in key window",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3x2wz2kg0lno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T08:09:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Which football club has had most international captains in the same team? | The Knowledge",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/football-club-most-international-captains-same-team-the-knowledge",
+      "date": "2026-11-11T08:00:33Z",
+      "league": "all"
+    },
+    {
+      "title": "Is No 10 still the best, or No 41? The myths and maths of Premier League shirt numbers",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/is-no-10-still-the-best-or-no-41-the-myths-and-maths-of-premier-league-shirt-numbers",
+      "date": "2026-11-11T08:00:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Dalkeith to LA pays off for Porteous with Scotland recall",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T08:00:14Z",
+      "league": "soccer"
+    },
+    {
+      "title": "From Jersey to Somalia... via Liverpool & Man City",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T07:13:52Z",
+      "league": "all"
+    },
     {
       "title": "Who am I? Plus today's other quizzes",
       "source": "BBC Sport",
@@ -897,13 +941,6 @@
       "league": "all"
     },
     {
-      "title": "NFL trade deadline: Kirk Cousins returns to Vikings as Raiders hand starting job to Fernando Mendoza",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/kirk-cousins-minnesota-vikings-las-vegas-raiders-trade-fernando-mendoza",
-      "date": "2026-11-10T19:57:37Z",
-      "league": "all"
-    },
-    {
       "title": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
@@ -916,13 +953,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/10/michael-carrick-firing-managers-premier-league",
       "date": "2026-11-10T19:03:04Z",
       "league": "soccer"
-    },
-    {
-      "title": "Rio Ngumoha ready to make England splash as he spells out Ballon d’Or ambition",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition",
-      "date": "2026-11-10T19:00:17Z",
-      "league": "all"
     },
     {
       "title": "Will Joseph poised to audition for leading role against Japan in Feyi-Waboso’s absence",
@@ -944,13 +974,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c58jzj8k08lzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T18:01:03Z",
       "league": "soccer"
-    },
-    {
-      "title": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
-      "date": "2026-11-10T17:40:40Z",
-      "league": "all"
     },
     {
       "title": "F1 presses ahead with plan to hold season finale in Middle East despite safety concerns",
@@ -978,13 +1001,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cm5ynyez127xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T16:32:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Pochettino, Howe, Emery... or Carrick? Man Utd's managerial options",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5rmymrvm004o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T16:17:10Z",
       "league": "all"
     },
     {
@@ -1058,45 +1074,10 @@
       "league": "all"
     },
     {
-      "title": "Khawaja alleges racial abuse by MCC member",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmwy9y0r1gp3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T13:00:31Z",
-      "league": "all"
-    },
-    {
       "title": "Dortmund fans' group criticises Nmecha celebration",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm3696yy9z64o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T12:48:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Savage denies media work is impacting role as manager",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6ev3vmykweko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T12:39:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Sisters in Sweat: how a former Spurs player got 20,000 Indian women into sport",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/10/sisters-in-sweat-indian-women-sport-moving-the-goalposts",
-      "date": "2026-11-10T12:00:51Z",
-      "league": "all"
-    },
-    {
-      "title": "From W-M to the No 10, shirt numbers tell a story of football’s tactical evolution",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/10/shirt-numbers-tell-story-football-tactical-evolution",
-      "date": "2026-11-10T12:00:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Hill gets first England call-up as Konsa cover",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckjrwrggjlryo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T11:41:27Z",
       "league": "all"
     }
   ]
