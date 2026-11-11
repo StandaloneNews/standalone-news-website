@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T10:20:50Z",
+  "updated_at": "2026-11-11T11:17:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -762,52 +762,49 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "League One clubs aim for further curbs on spending as budgets continue to spiral",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/11/league-one-clubs-spending-limits-rules",
+      "date": "2026-11-11T11:02:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:34:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Bromley signings 'not good enough' - ex-boss Woodman",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5x2wle9nnvzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:32:23Z",
+      "league": "soccer"
+    },
+    {
       "title": "Shirt pull on Isak should have been penalty - panel",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T10:16:01Z",
+      "date": "2026-11-11T10:23:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Bethell faces fitness race for South Africa Tests after being ruled out of Australia tour",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/jacob-bethell-cricket-england-fitness-south-africa-tests-australia-white-ball-tour",
+      "date": "2026-11-11T10:19:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T10:17:09Z",
       "league": "all"
     },
     {
@@ -822,6 +819,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/ckvg25q0n61jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T10:00:23Z",
+      "league": "all"
+    },
+    {
+      "title": "McNamara or Cayless - who has hardest job in Hull?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c90k0k3647r2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T09:56:37Z",
       "league": "all"
     },
     {
@@ -850,13 +854,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/articles/ckx28eww18g2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T09:40:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Man Utd open talks with Pochettino about replacing Carrick",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T09:11:28Z",
       "league": "all"
     },
     {
@@ -951,6 +948,13 @@
       "league": "all"
     },
     {
+      "title": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T00:19:42Z",
+      "league": "all"
+    },
+    {
       "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss",
@@ -986,13 +990,6 @@
       "league": "all"
     },
     {
-      "title": "Leicester and Brentford U21 into EFL Trophy knockout stages",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cjqlnllkyzd5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T22:17:53Z",
-      "league": "soccer"
-    },
-    {
       "title": "Fujino’s double sparks WCL comeback win for Manchester City against Inter",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/10/inter-manchester-city-womens-champions-league-match-report",
@@ -1015,10 +1012,10 @@
     },
     {
       "title": "McTominay reveals he had heart ‘shocked’ two days before World Cup opener",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener",
       "date": "2026-11-10T19:54:51Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Firing a manager is often more about maintaining the illusion of control | Leander Schaerlaeckens",
@@ -1036,10 +1033,10 @@
     },
     {
       "title": "The Monaco summit that will decide the future of Carrick and Man Utd",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy9yzyzxnko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T18:12:02Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Wales' Johnson says definitely more to come after 50 caps",
@@ -1064,10 +1061,10 @@
     },
     {
       "title": "McTominay reveals heart treatment at World Cup",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-10T16:46:31Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "England hammer Australia to reach final",
@@ -1082,41 +1079,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/10/pierre-sage-crystal-palace-premier-league-lens",
       "date": "2026-11-10T15:08:24Z",
       "league": "all"
-    },
-    {
-      "title": "Birthdays and broken lamps - at home with the Charles brothers",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c615je0lgleqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T14:36:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Hot mics, Andreeva ‘diva’ drama and a stopgap finale at Indian Wells bail out the WTA | Tumaini Carayol",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/hot-mics-andreeva-diva-drama-and-a-stopgap-finale-at-indian-wells-bail-out-the-wta",
-      "date": "2026-11-10T14:25:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia doomed to live with stench of sandpapergate",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6x2v277z89eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T14:03:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Carrick on the brink and Madrid on the charge under Mourinho | Football Weekly video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/nov/10/carrick-on-the-brink-and-madrid-on-the-charge-under-mourinho-football-weekly-video",
-      "date": "2026-11-10T13:58:30Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who are the main candidates for the Aberdeen job?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3rryr85v874o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-10T13:24:07Z",
-      "league": "soccer"
     }
   ]
 }
