@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T17:42:13Z",
+  "updated_at": "2026-11-11T18:36:58Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,14 +762,61 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Legally restrict heading a football in training, says MP",
+      "title": "Raducanu to return at January's United Cup after injury absence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cmwyvgvlv2qwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T18:05:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Shrewsbury 'hit all the boxes' for new owners - Friedel",
       "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm894wegv3lno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T17:44:42Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Legally restrict heading a football in training, says MP",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T17:38:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Former NFL coach Rex Ryan charged after allegedly hitting pedestrians with car in Nashville",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/rex-ryan-charged-hit-and-run-pedestrians-nashville",
+      "date": "2026-11-11T17:35:54Z",
+      "league": "all"
+    },
+    {
+      "title": "O'Shea proud of how team-mates handled Israel games",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwg7l9nd0p1zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-11T17:33:37Z",
       "league": "soccer"
     },
     {
@@ -777,6 +824,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/11/eddie-jones-england-reunion-rugby",
       "date": "2026-11-11T17:00:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Marco Rubio reportedly spent over $1.2m of taxpayer money traveling to son’s football games",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/marco-rubio-travel-costs-university-florida-football",
+      "date": "2026-11-11T16:47:41Z",
       "league": "all"
     },
     {
@@ -794,7 +848,7 @@
       "league": "all"
     },
     {
-      "title": "O'Sullivan loses 4-0 to Murphy at Champion of Champions",
+      "title": "O'Sullivan and world champion Wu both lose",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/snooker/articles/cw4gnx2jdrr8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T16:03:49Z",
@@ -871,13 +925,6 @@
       "league": "all"
     },
     {
-      "title": "Super League approves expansion to 15 teams",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cm0l384nz4r6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T13:10:14Z",
-      "league": "all"
-    },
-    {
       "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
@@ -889,13 +936,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmz9dwk90ny7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T12:44:17Z",
-      "league": "all"
-    },
-    {
-      "title": "The brothers and their dad driving England's World Cup bid",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/ckq6er93rd34o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T12:36:28Z",
       "league": "all"
     },
     {
@@ -1058,27 +1098,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T07:13:52Z",
       "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy4x9en5k3lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T06:47:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Does Pickford finally face serious competition for his England place?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crvg9y27n45wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T06:24:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Why Fury was born to fight",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/videos/cwx29gd12xjko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T06:24:24Z",
-      "league": "all"
     }
   ]
 }
