@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T04:42:06Z",
+  "updated_at": "2026-11-11T05:43:11Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 19,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -63,17 +63,17 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 2
+      "events": 0
     },
     {
       "id": "mls",
@@ -612,26 +612,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475509",
-      "league": "nfl",
-      "name": "Minnesota Vikings vs Buffalo Bills",
-      "date": "2026-11-10T01:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Minnesota Vikings",
-          "score": "6"
-        },
-        {
-          "name": "Buffalo Bills",
-          "score": "23",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475510",
       "league": "nfl",
       "name": "New York Giants vs Washington Commanders",
@@ -664,25 +644,6 @@
         },
         {
           "name": "Boston Celtics",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591776",
-      "league": "nhl",
-      "name": "Los Angeles Kings vs Nashville Predators",
-      "date": "2026-11-11T03:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Los Angeles Kings",
-          "score": ""
-        },
-        {
-          "name": "Nashville Predators",
           "score": ""
         }
       ],
@@ -765,26 +726,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
-      "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Schalke 04",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -821,125 +762,16 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": "0"
-        },
-        {
-          "name": "Fluminense",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514032",
-      "league": "primeira",
-      "name": "Estrela Amadora vs Benfica",
-      "date": "2026-11-08T20:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Estrela Amadora",
-          "score": "2"
-        },
-        {
-          "name": "Benfica",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514035",
-      "league": "primeira",
-      "name": "Marítimo vs Nacional de Madeira",
-      "date": "2026-11-27T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marítimo",
-          "score": ""
-        },
-        {
-          "name": "Nacional de Madeira",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Usman Khawaja bunkers down as book tour ‘adjusted’ amid ball-tampering claims",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/11/usman-khawaja-book-tour-adjusted-amid-ball-tampering-claims",
+      "date": "2026-11-11T04:18:31Z",
+      "league": "all"
+    },
     {
       "title": "Cricket Australia wants to move on from ball tampering saga but its equivocation has the opposite effect | Jonathan Horn",
       "source": "The Guardian Sport",
@@ -1247,13 +1079,6 @@
       "url": "https://www.theguardian.com/football/picture/2026/nov/10/david-squires-on-you-can-mufc-everything-manchester-united",
       "date": "2026-11-10T11:02:54Z",
       "league": "soccer"
-    },
-    {
-      "title": "War has upended Russian-Nordic friendships forged on Arctic ice hockey rinks. Can they ever recover?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/10/ice-hockey-diplomacy-russia-international-competition-nordic-arctic",
-      "date": "2026-11-10T11:00:52Z",
-      "league": "all"
     }
   ]
 }
