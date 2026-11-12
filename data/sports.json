@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T11:23:13Z",
+  "updated_at": "2026-11-12T12:15:39Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,6 +762,25 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
@@ -769,7 +788,49 @@
       "title": "Carrick sacked by Manchester United with team in Premier League relegation zone – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live",
-      "date": "2026-11-12T11:06:47Z",
+      "date": "2026-11-12T12:10:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Michael Carrick was just the latest fall guy for Manchester United’s dysfunctional hierarchy | Jamie Jackson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/michael-carrick-manchester-united-sacked",
+      "date": "2026-11-12T12:00:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Pollock starts alongside Ojomoh and Joseph in bold England side",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqkg727741xvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:00:28Z",
+      "league": "all"
+    },
+    {
+      "title": "Lindblad and Lawson to continue at Racing Bulls",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T11:44:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0qjekqzwp0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T11:31:54Z",
+      "league": "all"
+    },
+    {
+      "title": "BBC to show England-France wheelchair World Cup final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c8dx16rnrpkxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T11:30:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Six matches that defined Carrick's Man Utd tenure",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c5ev37egv97mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T11:25:46Z",
       "league": "all"
     },
     {
@@ -784,27 +845,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/cricket-jimmy-anderson-joins-surrey",
       "date": "2026-11-12T10:46:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Six matches that defined Carrick's Man Utd tenure",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5ev37egv97mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T10:39:54Z",
-      "league": "all"
-    },
-    {
-      "title": "England's Mitchell faces prolonged spell out after hamstring operation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwr7grg25432o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T10:39:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Hawkins, Ponga and Waaka win Golden Boot awards",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c64gndn5xv9jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T10:32:59Z",
       "league": "all"
     },
     {
@@ -848,13 +888,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cqg7l9x9jnzko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T08:42:47Z",
       "league": "soccer"
-    },
-    {
-      "title": "Britain's Kelly to face Ennis in February unification bout",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c3wy04zvre15o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T08:29:46Z",
-      "league": "all"
     },
     {
       "title": "MVP and PFL merger 'exciting' - McKee",
@@ -934,7 +967,7 @@
       "league": "all"
     },
     {
-      "title": "How 'Barca way' continues despite big-name exits",
+      "title": "Barcelona much-changed but formidable as ever for Arsenal",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T06:41:09Z",
@@ -1065,20 +1098,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/11/barcelona-fc-camp-nou-stadium-memorial-fans-ashes",
       "date": "2026-11-11T14:30:15Z",
       "league": "soccer"
-    },
-    {
-      "title": "Manchester United reach framework deal with Pochettino before settling Carrick’s fate",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/11/manchester-united-close-mauricio-pochettino-deal-michael-carrick",
-      "date": "2026-11-11T13:52:39Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Jaylen Brown gives former teammate Jayson Tatum frosty greeting as Celtics beat 76ers",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/jayson-tatum-jaylen-brown-76ers-celtics-greeting-nba",
-      "date": "2026-11-11T12:32:12Z",
-      "league": "all"
     }
   ]
 }
