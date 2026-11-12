@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T20:34:40Z",
+  "updated_at": "2026-11-12T21:31:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 14,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -73,12 +73,12 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -762,92 +762,43 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": "0"
-        },
-        {
-          "name": "Fluminense",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398181",
-      "league": "argentina",
-      "name": "Central Córdoba de Santiago del Estero vs Lanús",
-      "date": "2026-11-08T22:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Central Córdoba de Santiago del Estero",
-          "score": "1"
-        },
-        {
-          "name": "Lanús",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540129",
-      "league": "aleague",
-      "name": "Adelaide United vs Melbourne Victory",
-      "date": "2026-11-08T06:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Adelaide United",
-          "score": "2"
-        },
-        {
-          "name": "Melbourne Victory",
-          "score": "2"
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "England v Croatia: Nations League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/12/england-v-croatia-nations-league-live",
-      "date": "2026-11-12T20:25:22Z",
+      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T21:28:06Z",
       "league": "soccer"
+    },
+    {
+      "title": "England v Croatia: Nations League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/12/england-v-croatia-nations-league-live",
+      "date": "2026-11-12T21:25:57Z",
+      "league": "all"
+    },
+    {
+      "title": "SFA in talks with Boston officials over biennial friendly match",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T21:16:56Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Man Utd & Man City in Gusto battle - Friday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp86enlly13o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T21:13:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Norway follows Finland in barring Russian athletes from entering country over Ukraine war",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
+      "date": "2026-11-12T21:00:12Z",
+      "league": "all"
     },
     {
       "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
@@ -885,18 +836,11 @@
       "league": "all"
     },
     {
-      "title": "SFA in talks with Boston officials over biannual friendly match",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T18:35:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T18:12:55Z",
-      "league": "soccer"
+      "title": "Champion trainer Skelton happy but always wanting more",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cqzjxjzn23r4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T18:38:27Z",
+      "league": "all"
     },
     {
       "title": "Robertson pays tribute to Dalglish as he matches Scotland cap record",
@@ -924,13 +868,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv36gngre3r9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:00:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Finland bars Russian athletes from entering country over Ukraine war",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/12/finland-bars-russian-athletes-ukraine",
-      "date": "2026-11-12T17:23:51Z",
       "league": "all"
     },
     {
@@ -1142,20 +1079,6 @@
       "url": "https://www.bbc.co.uk/sport/articles/cw24epvmq96lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T08:17:52Z",
       "league": "soccer"
-    },
-    {
-      "title": "Marsh dodges Khawaja claims as Cummins vows to 'respond properly'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T08:00:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Fizzle of Shoaib Bashir’s algorithmic magic echoes wider decline of Test spin | Jonathan Liew",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
-      "date": "2026-11-12T08:00:14Z",
-      "league": "all"
     }
   ]
 }
