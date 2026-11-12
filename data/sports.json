@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T00:04:43Z",
+  "updated_at": "2026-11-12T01:38:45Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 26,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,12 +13,12 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "nba",
       "name": "NBA",
-      "events": 2
+      "events": 1
     },
     {
       "id": "mlb",
@@ -28,12 +28,12 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -58,7 +58,7 @@
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
@@ -73,37 +73,37 @@
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 1
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 1
+      "events": 0
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 1
+      "events": 0
     },
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -612,26 +612,6 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475509",
-      "league": "nfl",
-      "name": "Minnesota Vikings vs Buffalo Bills",
-      "date": "2026-11-10T01:15:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Minnesota Vikings",
-          "score": "6"
-        },
-        {
-          "name": "Buffalo Bills",
-          "score": "23",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2475510",
       "league": "nfl",
       "name": "New York Giants vs Washington Commanders",
@@ -651,115 +631,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601827",
+      "id": "sportsdb-2601832",
       "league": "nba",
-      "name": "New York Knicks vs Cleveland Cavaliers",
-      "date": "2026-11-12T00:00:00Z",
+      "name": "Utah Jazz vs Orlando Magic",
+      "date": "2026-11-12T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Knicks",
+          "name": "Utah Jazz",
           "score": ""
         },
         {
-          "name": "Cleveland Cavaliers",
+          "name": "Orlando Magic",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601828",
-      "league": "nba",
-      "name": "Chicago Bulls vs San Antonio Spurs",
-      "date": "2026-11-12T01:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Chicago Bulls",
-          "score": ""
-        },
-        {
-          "name": "San Antonio Spurs",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591777",
+      "id": "sportsdb-2591779",
       "league": "nhl",
-      "name": "Buffalo Sabres vs Tampa Bay Lightning",
-      "date": "2026-11-12T00:00:00Z",
+      "name": "Edmonton Oilers vs Philadelphia Flyers",
+      "date": "2026-11-12T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Sabres",
+          "name": "Edmonton Oilers",
           "score": ""
         },
         {
-          "name": "Tampa Bay Lightning",
+          "name": "Philadelphia Flyers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591778",
-      "league": "nhl",
-      "name": "Calgary Flames vs New York Rangers",
-      "date": "2026-11-12T00:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Calgary Flames",
-          "score": ""
-        },
-        {
-          "name": "New York Rangers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499244",
+      "id": "sportsdb-2499248",
       "league": "ncaaf",
-      "name": "Miami (OH) vs Ohio",
-      "date": "2026-11-11T01:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Miami (OH)",
-          "score": "34",
-          "winner": true
-        },
-        {
-          "name": "Ohio",
-          "score": "17"
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499245",
-      "league": "ncaaf",
-      "name": "Ball State vs Buffalo",
-      "date": "2026-11-12T00:30:00Z",
+      "name": "South Florida vs Memphis",
+      "date": "2026-11-13T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Ball State",
+          "name": "South Florida",
           "score": ""
         },
         {
-          "name": "Buffalo",
+          "name": "Memphis",
           "score": ""
         }
       ],
@@ -823,25 +745,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482242",
-      "league": "seriea",
-      "name": "Fiorentina vs Juventus",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Juventus",
-          "score": "2"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2482248",
       "league": "seriea",
       "name": "Lazio vs Lecce",
@@ -897,154 +800,28 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627816",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
-      "date": "2026-11-22T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        },
-        {
-          "name": "Newell's Old Boys",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2487508",
-      "league": "ligamx",
-      "name": "Querétaro vs Monterrey",
-      "date": "2026-11-14T23:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Querétaro",
-          "score": ""
-        },
-        {
-          "name": "Monterrey",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540130",
-      "league": "aleague",
-      "name": "Western Sydney Wanderers vs Adelaide United",
-      "date": "2026-11-20T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Western Sydney Wanderers",
-          "score": ""
-        },
-        {
-          "name": "Adelaide United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2514035",
-      "league": "primeira",
-      "name": "Marítimo vs Nacional de Madeira",
-      "date": "2026-11-27T20:15:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Marítimo",
-          "score": ""
-        },
-        {
-          "name": "Nacional de Madeira",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627200",
-      "league": "mls",
-      "name": "Orlando City vs FC Cincinnati",
-      "date": "2026-11-20T00:30:00Z",
-      "state": "upcoming",
-      "status": "Scheduled",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
-        },
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Pat Cummins can end sandpaper saga with full disclosure of what players knew – not what they didn’t | Geoff Lemon",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/blog/2026/nov/12/pat-cummins-can-end-sandpapergate-with-full-disclosure",
+      "date": "2026-11-12T00:55:22Z",
+      "league": "all"
+    },
+    {
       "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T00:02:55Z",
+      "date": "2026-11-12T00:48:23Z",
       "league": "all"
     },
     {
       "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
-      "date": "2026-11-11T23:26:00Z",
+      "date": "2026-11-12T00:23:53Z",
       "league": "all"
     },
     {
@@ -1088,13 +865,6 @@
       "url": "https://www.bbc.co.uk/sounds/play/p0pmhwp1?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T20:53:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "England return to site of Ashes angst but Australia gaze stuck on sandpaper",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/england-return-to-site-of-ashes-angst-but-australia-gaze-stuck-on-sandpaper",
-      "date": "2026-11-11T19:00:03Z",
-      "league": "all"
     },
     {
       "title": "‘I’ve had to prove people wrong’: Kane still striving before record England cap",
@@ -1189,10 +959,10 @@
     },
     {
       "title": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
       "date": "2026-11-11T16:03:44Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
