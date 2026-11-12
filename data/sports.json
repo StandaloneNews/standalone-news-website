@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T19:40:16Z",
+  "updated_at": "2026-11-12T20:34:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 17,
+  "sources_ok": 14,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -68,17 +68,17 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 1
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -726,26 +726,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
-      "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Schalke 04",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -803,20 +783,21 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "id": "sportsdb-2398530",
+      "league": "brasileirao",
+      "name": "Vitória vs Fluminense",
+      "date": "2026-11-06T23:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
         {
-          "name": "Bodø/Glimt",
-          "score": ""
+          "name": "Vitória",
+          "score": "0"
         },
         {
-          "name": "LASK",
-          "score": ""
+          "name": "Fluminense",
+          "score": "3",
+          "winner": true
         }
       ],
       "url": ""
@@ -841,58 +822,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2627816",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
-      "date": "2026-11-22T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        },
-        {
-          "name": "Newell's Old Boys",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540130",
+      "id": "sportsdb-2540129",
       "league": "aleague",
-      "name": "Western Sydney Wanderers vs Adelaide United",
-      "date": "2026-11-20T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
+      "name": "Adelaide United vs Melbourne Victory",
+      "date": "2026-11-08T06:00:00Z",
+      "state": "final",
+      "status": "FT",
       "participants": [
-        {
-          "name": "Western Sydney Wanderers",
-          "score": ""
-        },
         {
           "name": "Adelaide United",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627200",
-      "league": "mls",
-      "name": "Orlando City vs FC Cincinnati",
-      "date": "2026-11-20T00:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
+          "score": "2"
         },
         {
-          "name": "FC Cincinnati",
-          "score": ""
+          "name": "Melbourne Victory",
+          "score": "2"
         }
       ],
       "url": ""
@@ -900,17 +843,38 @@
   ],
   "stories": [
     {
-      "title": "Barcelona v Arsenal: Women’s Champions League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/12/barcelona-v-arsenal-womens-champions-league-live",
-      "date": "2026-11-12T19:35:43Z",
+      "title": "England v Croatia: Nations League – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/12/england-v-croatia-nations-league-live",
+      "date": "2026-11-12T20:25:22Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Arsenal dig in for draw at Barcelona to extend unbeaten start",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/crlye55q790yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:09:07Z",
       "league": "all"
     },
     {
-      "title": "England v Croatia: Nations League – live",
+      "title": "Arsenal dig deep to earn WCL draw in face of Barcelona dominance",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/12/england-v-croatia-nations-league-live",
-      "date": "2026-11-12T19:23:24Z",
+      "url": "https://www.theguardian.com/football/2026/nov/12/barcelona-arsenal-womens-champions-league-match-report",
+      "date": "2026-11-12T20:00:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T19:53:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Quiz: Name England's all-time leading appearance makers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T19:47:16Z",
       "league": "all"
     },
     {
@@ -922,10 +886,10 @@
     },
     {
       "title": "SFA in talks with Boston officials over biannual friendly match",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:35:31Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
@@ -1191,27 +1155,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
       "date": "2026-11-12T08:00:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Less drama, more listening, but is Kozo Tashima the candidate to topple Infantino?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/12/fifa-kozo-tashima-seeks-change-of-tone",
-      "date": "2026-11-12T08:00:13Z",
-      "league": "all"
-    },
-    {
-      "title": "USA withdraw from U17 World Cup",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T07:44:21Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Robertson set to make history, but hero Dalglish will always be King",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T07:19:57Z",
       "league": "all"
     }
   ]
