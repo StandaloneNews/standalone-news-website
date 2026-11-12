@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T08:03:46Z",
+  "updated_at": "2026-11-12T09:21:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 12,
@@ -707,19 +707,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506289",
+      "id": "sportsdb-2506290",
       "league": "laliga",
-      "name": "Barcelona vs Villarreal",
-      "date": "2026-11-22T16:00:00Z",
+      "name": "Athletic Bilbao vs Espanyol",
+      "date": "2026-11-20T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Barcelona",
+          "name": "Athletic Bilbao",
           "score": ""
         },
         {
-          "name": "Villarreal",
+          "name": "Espanyol",
           "score": ""
         }
       ],
@@ -804,10 +804,80 @@
   ],
   "stories": [
     {
+      "title": "England legend Anderson, 44, joins Surrey",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6879g5z0v0wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T09:11:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Basham starts for Wales against All Blacks as Wainwright ruled out",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg2dwpyx70o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T09:05:19Z",
+      "league": "all"
+    },
+    {
+      "title": "'Unfinished business' - Tuchel committed to England",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqg7l9x9jnzko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:42:47Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Britain's Kelly to face Ennis in February unification bout",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c3wy04zvre15o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:29:46Z",
+      "league": "all"
+    },
+    {
+      "title": "MVP and PFL merger 'exciting' - McKee",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm4g1xx12wxzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:27:56Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Young duo at heart of Nations League's meanest defence",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cw24epvmq96lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:17:52Z",
+      "league": "all"
+    },
+    {
+      "title": "Nurmagomedov slaps Dvalishvili to spark hotel brawl",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:08:01Z",
+      "league": "all"
+    },
+    {
       "title": "Marsh dodges Khawaja claims as Cummins vows to 'respond properly'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T08:00:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Fizzle of Shoaib Bashir’s algorithmic magic echoes wider decline of Test spin | Jonathan Liew",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
+      "date": "2026-11-12T08:00:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Harry Kane’s England caps record: an illustrious career in numbers and charts",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts",
+      "date": "2026-11-12T08:00:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Less drama, more listening, but is Kozo Tashima the candidate to topple Infantino?",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/fifa-kozo-tashima-seeks-change-of-tone",
+      "date": "2026-11-12T08:00:13Z",
       "league": "all"
     },
     {
@@ -840,10 +910,10 @@
     },
     {
       "title": "How 'Barca way' continues despite big-name exits",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T06:41:09Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Who am I? Plus today's other quizzes",
@@ -854,10 +924,10 @@
     },
     {
       "title": "Kane's top 10 England moments - which was your favourite?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c64g12w5zpjpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T06:25:26Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘All-out war’: UK sports fear an uncertain future after new body created",
@@ -867,25 +937,11 @@
       "league": "all"
     },
     {
-      "title": "Workaholic with a tattooed throat – meet The Merthyr Mexican",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c607303x7yedo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T04:56:22Z",
-      "league": "all"
-    },
-    {
       "title": "Wales' James warns of Norwegian revenge in Oslo",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c623jl1kenvyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T04:32:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Pat Cummins can end sandpaper saga with full disclosure of what players knew – not what they didn’t | Geoff Lemon",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/blog/2026/nov/12/pat-cummins-can-end-sandpapergate-with-full-disclosure",
-      "date": "2026-11-12T00:55:22Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
@@ -930,25 +986,11 @@
       "league": "all"
     },
     {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pmhwp1?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T20:53:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘I’ve had to prove people wrong’: Kane still striving before record England cap",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/11/harry-kane-england-most-capped-mens-player-peter-shilton-croatia-nations-league",
-      "date": "2026-11-11T19:00:02Z",
-      "league": "all"
-    },
-    {
       "title": "Complaint filed to IRS in relation to Fifa head Gianni Infantino’s housekeeper",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/complaint-us-irs-fifa-gianni-infantino-housekeeper",
       "date": "2026-11-11T19:00:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Thomas Tuchel keeps laser focus on ‘unfinished business’ with England",
@@ -1007,13 +1049,6 @@
       "league": "all"
     },
     {
-      "title": "O'Sullivan and world champion Wu both lose",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/cw4gnx2jdrr8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T16:03:49Z",
-      "league": "all"
-    },
-    {
       "title": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
@@ -1032,13 +1067,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c60mdnld8gvzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T14:57:42Z",
-      "league": "all"
-    },
-    {
-      "title": "England cancel Windies Test in favour of home Ashes warm-ups",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c5zjrympwrlmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T14:46:29Z",
       "league": "all"
     },
     {
@@ -1070,13 +1098,6 @@
       "league": "soccer"
     },
     {
-      "title": "Welsh Grand National-winning jockey O'Brien dies aged 39",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c3pw48qyjz2ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T13:29:41Z",
-      "league": "all"
-    },
-    {
       "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
@@ -1096,27 +1117,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/11/slaven-bilic-croatia-7-0-england-nations-league-wembley",
       "date": "2026-11-11T12:30:30Z",
       "league": "all"
-    },
-    {
-      "title": "Scotland without captain Weir for World Cup play-off",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnlevgj1zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:59:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Danny Kelly, football broadcaster and renowned editor, dies aged 69",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/11/danny-kelly-football-broadcaster-editor-q-magazine-nme-dies-aged-69",
-      "date": "2026-11-11T11:56:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Assessing the reasons for Man City's decline in form under Maresca",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw30e0yz0p04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:47:09Z",
-      "league": "soccer"
     }
   ]
 }
