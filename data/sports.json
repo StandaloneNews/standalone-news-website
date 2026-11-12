@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T12:15:39Z",
+  "updated_at": "2026-11-12T13:39:08Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,25 +762,6 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
@@ -788,7 +769,42 @@
       "title": "Carrick sacked by Manchester United with team in Premier League relegation zone – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live",
-      "date": "2026-11-12T12:10:57Z",
+      "date": "2026-11-12T13:24:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Harrison on verge of 'permanent nerve damage' before surgery",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw23jl3m9l0jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:22:33Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Police investigation into Vigar's death ongoing",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:11:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace sack Pierre Sage and in advanced talks to appoint Thomas Frank",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/pierre-sage-sacked-crystal-palace-manager-thomas-frank",
+      "date": "2026-11-12T12:27:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Smart ejected for punching Bassey as Warriors lose Curry to injury in defeat to Rockets",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/marcus-smart-punch-stephen-curry-injury-rockets-warriors-nba",
+      "date": "2026-11-12T12:26:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Crystal Palace sack boss Sage after 16 games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:23:47Z",
       "league": "all"
     },
     {
@@ -799,10 +815,24 @@
       "league": "all"
     },
     {
+      "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
+      "date": "2026-11-12T12:00:47Z",
+      "league": "all"
+    },
+    {
       "title": "Pollock starts alongside Ojomoh and Joseph in bold England side",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqkg727741xvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T12:00:28Z",
+      "league": "all"
+    },
+    {
+      "title": "World Cup triumph would only be half the story for England’s wheelchair rugby league squad",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
+      "date": "2026-11-12T11:58:11Z",
       "league": "all"
     },
     {
@@ -813,11 +843,18 @@
       "league": "all"
     },
     {
-      "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
+      "title": "Smith's Netherlands switch sad - South Africa swimming boss",
       "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmy86x3y5dd8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T11:40:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0qjekqzwp0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T11:31:54Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "BBC to show England-France wheelchair World Cup final",
@@ -939,11 +976,11 @@
       "league": "all"
     },
     {
-      "title": "USA withdraw from U17 World Cup over armed conflict risk",
-      "source": "BBC Sport",
+      "title": "USA withdraw from U17 World Cup",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T07:44:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Robertson set to make history but his hero Dalglish will always be King",
@@ -1031,72 +1068,16 @@
     },
     {
       "title": "Arsenal join Scott chase - Thursday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T21:38:01Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Complaint filed to IRS in relation to Fifa head Gianni Infantino’s housekeeper",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/complaint-us-irs-fifa-gianni-infantino-housekeeper",
       "date": "2026-11-11T19:00:01Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Thomas Tuchel keeps laser focus on ‘unfinished business’ with England",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/11/thomas-tuchel-unfinished-business-england-euro-2028-nations-league",
-      "date": "2026-11-11T19:00:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Legally restrict heading a football in training, says MP",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T17:38:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Former NFL coach Rex Ryan charged after allegedly hitting pedestrians with car in Nashville",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/rex-ryan-charged-hit-and-run-pedestrians-nashville",
-      "date": "2026-11-11T17:35:54Z",
-      "league": "all"
-    },
-    {
-      "title": "O'Shea proud of how team-mates handled Israel games",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwg7l9nd0p1zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T17:33:37Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Eddie Jones retains his passion and divisive power heading into England reunion",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/eddie-jones-england-reunion-rugby",
-      "date": "2026-11-11T17:00:54Z",
-      "league": "all"
-    },
-    {
-      "title": "'Thursday is a deserved occasion to celebrate' - how Kane's fairytale came true",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T16:44:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Top four teams in Fifa rankings set to be kept apart until semi-finals at 2027 Women’s World Cup",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
-      "date": "2026-11-11T16:03:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘Hear the goals during the afterlife’: Barça fans get to inter ashes at club’s new memorial",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/11/barcelona-fc-camp-nou-stadium-memorial-fans-ashes",
-      "date": "2026-11-11T14:30:15Z",
       "league": "soccer"
     }
   ]
