@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T15:42:51Z",
+  "updated_at": "2026-11-12T16:45:30Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -781,41 +781,50 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Owono undecided over future following De Miguel death",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:41:49Z",
+      "league": "all"
+    },
+    {
       "title": "Carrick sacked by Manchester United with team in Premier League relegation zone – live",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live",
-      "date": "2026-11-12T15:39:54Z",
+      "date": "2026-11-12T16:38:38Z",
       "league": "soccer"
     },
     {
-      "title": "Owono undecided over future following De Miguel death",
+      "title": "Football Daily",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T15:39:19Z",
+      "url": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:31:00Z",
       "league": "soccer"
+    },
+    {
+      "title": "How Pochettino came on Man Utd's radar - and what Carrick was told when",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr1jlr1707o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:12:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Lindblad and Lawson to continue at Racing Bulls",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:02:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Nurmagomedov slaps Dvalishvili to spark hotel brawl",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T15:52:38Z",
+      "league": "all"
     },
     {
       "title": "Andreeva beats world number two Sabalenka to reach WTA semis",
@@ -909,20 +918,6 @@
       "league": "all"
     },
     {
-      "title": "Lindblad and Lawson to continue at Racing Bulls",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T11:44:20Z",
-      "league": "all"
-    },
-    {
-      "title": "Smith's Netherlands switch sad - South Africa swimming boss",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmy86x3y5dd8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T11:40:04Z",
-      "league": "all"
-    },
-    {
       "title": "Spain boss denies Lamine Yamal gets 'special privileges'",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0qjekqzwp0o?at_medium=RSS&at_campaign=rss",
@@ -1007,13 +1002,6 @@
       "league": "soccer"
     },
     {
-      "title": "Nurmagomedov slaps Dvalishvili to spark hotel brawl",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cq0l38rw2w7ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T08:08:01Z",
-      "league": "all"
-    },
-    {
       "title": "Marsh dodges Khawaja claims as Cummins vows to 'respond properly'",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss",
@@ -1063,17 +1051,10 @@
       "league": "all"
     },
     {
-      "title": "Barcelona much-changed but formidable as ever for Arsenal",
-      "source": "BBC Sport",
+      "title": "How 'Barca way' continues despite big-name exits",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5vg23nmgp2yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T06:41:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwm2jnz3nrvno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T06:29:12Z",
       "league": "soccer"
     },
     {
