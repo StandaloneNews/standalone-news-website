@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T06:48:30Z",
+  "updated_at": "2026-11-12T08:03:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,9 +762,82 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Marsh dodges Khawaja claims as Cummins vows to 'respond properly'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c623jlxgn9rno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T08:00:17Z",
+      "league": "all"
+    },
+    {
+      "title": "USA withdraw from U17 World Cup over armed conflict risk",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6y49yz77pppo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T07:44:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Robertson set to make history but his hero Dalglish will always be King",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T07:19:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Weekly sports quiz: Man Utd's worst start to a season since when?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/articles/cme391kq6xgyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T07:18:00Z",
+      "league": "all"
+    },
+    {
+      "title": "England's Blues brothers - how the Bellinghams helped save Birmingham",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm1j3j20r2rzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T07:12:41Z",
+      "league": "all"
+    },
     {
       "title": "How 'Barca way' continues despite big-name exits",
       "source": "BBC Football",
@@ -787,11 +860,25 @@
       "league": "all"
     },
     {
+      "title": "‘All-out war’: UK sports fear an uncertain future after new body created",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/uk-sports-fear-future-new-body-sport-org",
+      "date": "2026-11-12T06:00:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Workaholic with a tattooed throat – meet The Merthyr Mexican",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c607303x7yedo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T04:56:22Z",
+      "league": "all"
+    },
+    {
       "title": "Wales' James warns of Norwegian revenge in Oslo",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c623jl1kenvyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T04:32:42Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Pat Cummins can end sandpaper saga with full disclosure of what players knew – not what they didn’t | Geoff Lemon",
@@ -879,10 +966,10 @@
     },
     {
       "title": "Legally restrict heading a football in training, says MP",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T17:38:18Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Former NFL coach Rex Ryan charged after allegedly hitting pedestrians with car in Nashville",
@@ -920,13 +1007,6 @@
       "league": "all"
     },
     {
-      "title": "Referee observer banned for discriminatory comments",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckedq15wq0dlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T16:26:24Z",
-      "league": "soccer"
-    },
-    {
       "title": "O'Sullivan and world champion Wu both lose",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/snooker/articles/cw4gnx2jdrr8o?at_medium=RSS&at_campaign=rss",
@@ -942,16 +1022,9 @@
     },
     {
       "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T16:03:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Bristol City give Skubala opportunity to improve form",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c54gnev0ydnno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T15:52:30Z",
       "league": "soccer"
     },
     {
@@ -1011,13 +1084,6 @@
       "league": "all"
     },
     {
-      "title": "Former BBC radio presenter Kelly dies aged 69",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmz9dwk90ny7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T12:44:17Z",
-      "league": "all"
-    },
-    {
       "title": "Jaylen Brown gives former teammate Jayson Tatum frosty greeting as Celtics beat 76ers",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/11/jayson-tatum-jaylen-brown-76ers-celtics-greeting-nba",
@@ -1047,37 +1113,9 @@
     },
     {
       "title": "Assessing the reasons for Man City's decline in form under Maresca",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw30e0yz0p04o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T11:47:09Z",
-      "league": "all"
-    },
-    {
-      "title": "'Crazy' I'll get to 'knock my boss out' - Doumbe",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cm752n322gn9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:47:07Z",
-      "league": "ufc"
-    },
-    {
-      "title": "The Spin | Farewell Dennis Breakwell, Somerset stalwart and mentor to generations of cricketers",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/dennis-breakwell-somerset-stalwart-mentor-jos-buttler-cricket",
-      "date": "2026-11-11T11:30:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Littler expected 'pub players' on Netflix show",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/ckpqrjnj3y0qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T11:21:03Z",
-      "league": "all"
-    },
-    {
-      "title": "League One clubs aim for further curbs on spending as budgets continue to spiral",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/11/league-one-clubs-spending-limits-rules",
-      "date": "2026-11-11T11:02:46Z",
       "league": "soccer"
     }
   ]
