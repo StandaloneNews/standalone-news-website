@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T14:40:11Z",
+  "updated_at": "2026-11-12T15:42:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,14 +762,73 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
       "title": "Carrick sacked by Manchester United with team in Premier League relegation zone – live",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live",
-      "date": "2026-11-12T14:26:15Z",
+      "date": "2026-11-12T15:39:54Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Owono undecided over future following De Miguel death",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T15:39:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Andreeva beats world number two Sabalenka to reach WTA semis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/videos/cqrmg2w1038ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:57:38Z",
+      "league": "all"
+    },
+    {
+      "title": "McNabney set for debut as Irish make seven changes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqx2xg22w0k7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:22:06Z",
       "league": "all"
     },
     {
@@ -927,13 +986,6 @@
       "league": "all"
     },
     {
-      "title": "Wales' Basham starts against All Blacks as Wainwright ruled out",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg2dwpyx70o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T09:05:19Z",
-      "league": "all"
-    },
-    {
       "title": "'Unfinished business' - Tuchel committed to England",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqg7l9x9jnzko?at_medium=RSS&at_campaign=rss",
@@ -1065,20 +1117,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/11/stephen-curry-ayesha-movie-kiss-arenas-young",
       "date": "2026-11-11T22:30:23Z",
       "league": "all"
-    },
-    {
-      "title": "US withdraw from U-17 World Cup in Qatar due to safety concerns",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/11/usa-u-17-world-cup-qatar-withdrawal-middle-east-conflict",
-      "date": "2026-11-11T21:54:46Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal join Scott chase - Thursday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T21:38:01Z",
-      "league": "soccer"
     }
   ]
 }
