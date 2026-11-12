@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T09:21:52Z",
+  "updated_at": "2026-11-12T10:24:29Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -762,56 +762,39 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "England legend Anderson, 44, joins Surrey",
+      "title": "The chaos that took Carrick from two-year deal to sacked within 15 games",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6879g5z0v0wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T09:11:26Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0rl4kwn8vqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T10:21:29Z",
       "league": "all"
     },
     {
-      "title": "Basham starts for Wales against All Blacks as Wainwright ruled out",
+      "title": "England legend Anderson, 44, joins Surrey",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6879g5z0v0wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T09:32:22Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I have a lot to offer’: 44-year-old Jimmy Anderson joins Surrey for 2027",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/cricket-jimmy-anderson-joins-surrey",
+      "date": "2026-11-12T09:30:47Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL midseason awards: Allen’s brilliance, a Seahawks shocker and a new Super Bowl pick",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/nfl-midseason-awards-josh-allen-jahmyr-gibbs-seahawks-bears",
+      "date": "2026-11-12T09:30:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales' Basham starts against All Blacks as Wainwright ruled out",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg2dwpyx70o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T09:05:19Z",
@@ -860,16 +843,16 @@
       "league": "all"
     },
     {
-      "title": "Fizzle of Shoaib Bashir’s algorithmic magic echoes wider decline of Test spin | Jonathan Liew",
+      "title": "Harry Kane’s England caps record: an illustrious career in numbers and charts",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
+      "url": "https://www.theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts",
       "date": "2026-11-12T08:00:14Z",
       "league": "all"
     },
     {
-      "title": "Harry Kane’s England caps record: an illustrious career in numbers and charts",
+      "title": "Fizzle of Shoaib Bashir’s algorithmic magic echoes wider decline of Test spin | Jonathan Liew",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/12/harry-kane-england-caps-record-career-in-numbers-charts",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/shoaib-bashir-england-spin-bowling-test-t20-data",
       "date": "2026-11-12T08:00:14Z",
       "league": "all"
     },
@@ -1035,14 +1018,7 @@
       "league": "all"
     },
     {
-      "title": "Marco Rubio reportedly spent over $1.2m of taxpayer money traveling to son’s football games",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/marco-rubio-travel-costs-university-florida-football",
-      "date": "2026-11-11T16:47:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
+      "title": "'Thursday is a deserved occasion to celebrate' - how Kane's fairytale came true",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T16:44:58Z",
@@ -1053,13 +1029,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/11/womens-world-cup-top-four-groups",
       "date": "2026-11-11T16:03:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pochettino ready to accept Man Utd offer to replace Carrick",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg25pj36mvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T16:03:02Z",
       "league": "soccer"
     },
     {
@@ -1096,13 +1065,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c539gkdrn7yeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-11T13:37:08Z",
       "league": "soccer"
-    },
-    {
-      "title": "Pochettino a decade in Man Utd's making - but Carrick deserves better",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwzd9pvjy426o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-11T12:58:17Z",
-      "league": "all"
     },
     {
       "title": "Jaylen Brown gives former teammate Jayson Tatum frosty greeting as Celtics beat 76ers",
