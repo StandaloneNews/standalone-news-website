@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T16:45:30Z",
+  "updated_at": "2026-11-12T17:39:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -650,19 +650,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591783",
+      "id": "sportsdb-2591784",
       "league": "nhl",
-      "name": "Seattle Kraken vs Carolina Hurricanes",
-      "date": "2026-11-12T17:00:00Z",
+      "name": "Boston Bruins vs Montreal Canadiens",
+      "date": "2026-11-13T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Seattle Kraken",
+          "name": "Boston Bruins",
           "score": ""
         },
         {
-          "name": "Carolina Hurricanes",
+          "name": "Montreal Canadiens",
           "score": ""
         }
       ],
@@ -762,41 +762,50 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Barcelona v Arsenal: Women’s Champions League – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/12/barcelona-v-arsenal-womens-champions-league-live",
+      "date": "2026-11-12T17:32:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Dupont at fly-half as France seek to end barren run against South Africa",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/12/antoine-dupont-fly-half-france-south-africa-nations-championship-rugby",
+      "date": "2026-11-12T17:17:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Palace sack Sage after 16 games with Frank in advanced talks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:15:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:02:10Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fitness, Fernandes and a back four: how next head coach can reignite Manchester United | Will Unwin",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
+      "date": "2026-11-12T17:00:22Z",
+      "league": "all"
+    },
     {
       "title": "Owono undecided over future following De Miguel death",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T16:41:49Z",
       "league": "all"
-    },
-    {
-      "title": "Carrick sacked by Manchester United with team in Premier League relegation zone – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/12/carrick-sacked-by-manchester-united-with-team-in-premier-league-relegation-zone-live",
-      "date": "2026-11-12T16:38:38Z",
-      "league": "soccer"
     },
     {
       "title": "Football Daily",
@@ -848,11 +857,11 @@
       "league": "all"
     },
     {
-      "title": "Archive, 1990: Peter Shilton wins 125th cap making him England’s record appearance holder",
-      "source": "The Guardian Sport",
+      "title": "Archive, 1990: Peter Shilton wins 125th and final cap of record-breaking England career",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/12/archive-1990-peter-shilton-wins-125th-cap-making-him-englands-record-appearance-holder",
       "date": "2026-11-12T13:27:18Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Harrison on verge of 'permanent nerve damage' before surgery",
@@ -880,13 +889,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/marcus-smart-punch-stephen-curry-injury-rockets-warriors-nba",
       "date": "2026-11-12T12:26:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Palace sack Sage after 16 games with Frank in advanced talks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cv5y18lkk87do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:23:47Z",
       "league": "all"
     },
     {
@@ -1030,7 +1032,7 @@
       "league": "soccer"
     },
     {
-      "title": "Robertson set to make history but his hero Dalglish will always be King",
+      "title": "Robertson set to make history, but hero Dalglish will always be King",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cxe89dq16dp2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T07:19:57Z",
@@ -1077,27 +1079,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c623jl1kenvyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T04:32:42Z",
       "league": "soccer"
-    },
-    {
-      "title": "Andreeva wins 11 games in a row to thrash Sabalenka at WTA Finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T00:48:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Svitolina stays in WTA Finals hunt after remarkable fightback sees off Muchova",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/elina-svitolina-karolina-muchova-wta-finals-tennis",
-      "date": "2026-11-12T00:23:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Stephen Curry attacks treatment of women after former players criticize wife Ayesha’s movie kiss",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/11/stephen-curry-ayesha-movie-kiss-arenas-young",
-      "date": "2026-11-11T22:30:23Z",
-      "league": "all"
     }
   ]
 }
