@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T02:31:04Z",
+  "updated_at": "2026-11-13T03:36:51Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -650,19 +650,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2591793",
+      "id": "sportsdb-2591794",
       "league": "nhl",
-      "name": "Los Angeles Kings vs New York Islanders",
-      "date": "2026-11-13T03:00:00Z",
+      "name": "Vancouver Canucks vs New York Rangers",
+      "date": "2026-11-14T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Los Angeles Kings",
+          "name": "Vancouver Canucks",
           "score": ""
         },
         {
-          "name": "New York Islanders",
+          "name": "New York Rangers",
           "score": ""
         }
       ],
@@ -762,21 +762,66 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T01:23:06Z",
+      "title": "Australia v England: first men’s cricket one-day international – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/13/australia-vs-england-cricket-odi-perth-live-scores",
+      "date": "2026-11-13T03:31:29Z",
       "league": "all"
     },
     {
       "title": "'Wrong' and 'nonsense' - Cummins on Khawaja sandpaper claims",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cwq6e4y9525mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T00:58:00Z",
+      "date": "2026-11-13T03:19:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T01:23:06Z",
       "league": "all"
     },
     {
@@ -917,6 +962,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmlylv1xl9qgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T19:47:16Z",
+      "league": "all"
+    },
+    {
+      "title": "How will the USMNT replace Mauricio Pochettino? There’s no clear answer",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/mauricio-pochettino-replacements-usmnt-manchester-united",
+      "date": "2026-11-12T19:20:01Z",
       "league": "all"
     },
     {
@@ -1061,24 +1113,10 @@
     },
     {
       "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
       "date": "2026-11-12T12:00:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Pollock starts alongside Ojomoh and Joseph in bold England side",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqkg727741xvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:00:28Z",
-      "league": "all"
-    },
-    {
-      "title": "World Cup triumph would be only half the story for England’s wheelchair rugby league squad",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
-      "date": "2026-11-12T11:58:11Z",
-      "league": "all"
+      "league": "soccer"
     }
   ]
 }
