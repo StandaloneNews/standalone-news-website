@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:57:14+00:00",
+  "updated_at": "2026-11-13T01:10:18+00:00",
   "source": "https://www.sec.gov/files/company_tickers_exchange.json",
   "companies": [
     {
@@ -732,6 +732,12 @@
       "ticker": "ACRL",
       "name": "Atacama Resources International, Inc.",
       "cik": 1584618,
+      "exchange": ""
+    },
+    {
+      "ticker": "ACRPRD",
+      "name": "ACRES Commercial Realty Corp.",
+      "cik": 1332551,
       "exchange": ""
     },
     {
@@ -4165,6 +4171,12 @@
       "name": "Ares Management Corp",
       "cik": 1176948,
       "exchange": "NYSE"
+    },
+    {
+      "ticker": "ARES.PRB",
+      "name": "Ares Management Corp",
+      "cik": 1176948,
+      "exchange": ""
     },
     {
       "ticker": "ARGX",
@@ -17223,6 +17235,12 @@
       "exchange": "NASDAQ"
     },
     {
+      "ticker": "DYNC",
+      "name": "Dynamix Corp",
+      "cik": 2028699,
+      "exchange": "NASDAQ"
+    },
+    {
       "ticker": "DYNR",
       "name": "DYNARESOURCE, INC.",
       "cik": 1111741,
@@ -20175,6 +20193,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "FCT",
+      "name": "FIRST TRUST SENIOR FLOATING RATE INCOME FUND II",
+      "cik": 1282850,
+      "exchange": ""
+    },
+    {
       "ticker": "FCUV",
       "name": "FOCUS UNIVERSAL INC.",
       "cik": 1590418,
@@ -22666,25 +22690,25 @@
     },
     {
       "ticker": "GAIN",
-      "name": "GLADSTONE INVESTMENT CORPORATIONDE",
+      "name": "GLADSTONE INVESTMENT CORPORATION\\DE",
       "cik": 1321741,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "GAING",
-      "name": "GLADSTONE INVESTMENT CORPORATIONDE",
+      "name": "GLADSTONE INVESTMENT CORPORATION\\DE",
       "cik": 1321741,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "GAINI",
-      "name": "GLADSTONE INVESTMENT CORPORATIONDE",
+      "name": "GLADSTONE INVESTMENT CORPORATION\\DE",
       "cik": 1321741,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "GAINZ",
-      "name": "GLADSTONE INVESTMENT CORPORATIONDE",
+      "name": "GLADSTONE INVESTMENT CORPORATION\\DE",
       "cik": 1321741,
       "exchange": "NASDAQ"
     },
@@ -22876,7 +22900,7 @@
     },
     {
       "ticker": "GCBC",
-      "name": "GREENE BANCORP, INC.",
+      "name": "GREENE COUNTY BANCORP INC",
       "cik": 1070524,
       "exchange": "NASDAQ"
     },
@@ -24618,12 +24642,6 @@
       "ticker": "GPI",
       "name": "GROUP 1 AUTOMOTIVE INC",
       "cik": 1031203,
-      "exchange": "NYSE"
-    },
-    {
-      "ticker": "GPJA",
-      "name": "GEORGIA POWER CO",
-      "cik": 41091,
       "exchange": "NYSE"
     },
     {
@@ -27427,6 +27445,12 @@
       "name": "Haymaker Acquisition Corp V",
       "cik": 2111838,
       "exchange": "NYSE"
+    },
+    {
+      "ticker": "HYB",
+      "name": "NEW AMERICA HIGH INCOME FUND INC",
+      "cik": 825345,
+      "exchange": ""
     },
     {
       "ticker": "HYDTF",
@@ -33069,6 +33093,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "LNAI",
+      "name": "Lunai Bioworks Inc.",
+      "cik": 1527728,
+      "exchange": "NASDAQ"
+    },
+    {
       "ticker": "LNC",
       "name": "LINCOLN NATIONAL CORP",
       "cik": 59558,
@@ -34293,6 +34323,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "MAXNQ",
+      "name": "Maxeon Solar Technologies, Ltd.",
+      "cik": 1796898,
+      "exchange": ""
+    },
+    {
       "ticker": "MAYS",
       "name": "MAYS J W INC",
       "cik": 54187,
@@ -34632,7 +34668,7 @@
       "ticker": "MCTA",
       "name": "Charming Medical Ltd",
       "cik": 2035992,
-      "exchange": ""
+      "exchange": "NASDAQ"
     },
     {
       "ticker": "MCUJF",
@@ -38883,6 +38919,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "NMHI",
+      "name": "Nature's Miracle Holding Inc.",
+      "cik": 1947861,
+      "exchange": ""
+    },
+    {
       "ticker": "NMI",
       "name": "NUVEEN MUNICIPAL INCOME FUND INC",
       "cik": 830271,
@@ -42117,6 +42159,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "OWPC",
+      "name": "One World Products, Inc.",
+      "cik": 1622244,
+      "exchange": ""
+    },
+    {
       "ticker": "OWSCX",
       "name": "1WS Credit Income Fund",
       "cik": 1748680,
@@ -42849,51 +42897,45 @@
       "exchange": "NYSE"
     },
     {
-      "ticker": "PCG-PA",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
-      "exchange": "NYSE"
-    },
-    {
       "ticker": "PCG-PB",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PC",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PD",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PE",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PG",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PH",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
       "ticker": "PCG-PI",
-      "name": "PACIFIC GAS & ELECTRIC Co",
-      "cik": 75488,
+      "name": "PG&E Corp",
+      "cik": 1004980,
       "exchange": "NYSE"
     },
     {
@@ -49518,13 +49560,7 @@
       "ticker": "SCQC",
       "name": "SPACCircle Acquisition Corp.",
       "cik": 2131303,
-      "exchange": "NASDAQ"
-    },
-    {
-      "ticker": "SCQCR",
-      "name": "SPACCircle Acquisition Corp.",
-      "cik": 2131303,
-      "exchange": "NASDAQ"
+      "exchange": ""
     },
     {
       "ticker": "SCQCU",
@@ -49533,10 +49569,10 @@
       "exchange": "NASDAQ"
     },
     {
-      "ticker": "SCQCW",
-      "name": "SPACCircle Acquisition Corp.",
-      "cik": 2131303,
-      "exchange": "NASDAQ"
+      "ticker": "SCRH",
+      "name": "SCORES HOLDING CO INC",
+      "cik": 831489,
+      "exchange": ""
     },
     {
       "ticker": "SCRNY",
@@ -54249,6 +54285,12 @@
       "exchange": ""
     },
     {
+      "ticker": "TCBI-PB",
+      "name": "TEXAS CAPITAL BANCSHARES INC/TX",
+      "cik": 1077428,
+      "exchange": ""
+    },
+    {
       "ticker": "TCBK",
       "name": "TRICO BANCSHARES /",
       "cik": 356171,
@@ -56466,6 +56508,12 @@
       "ticker": "TSOL",
       "name": "21Shares Solana Staking ETF",
       "cik": 2028834,
+      "exchange": ""
+    },
+    {
+      "ticker": "TSPH",
+      "name": "TuSimple Holdings Inc.",
+      "cik": 1823593,
       "exchange": ""
     },
     {
@@ -61674,6 +61722,12 @@
       "ticker": "YHGJ",
       "name": "YUNHONG GREEN CTI LTD.",
       "cik": 1042187,
+      "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "YHNA",
+      "name": "YHN Acquisition I Ltd",
+      "cik": 2020987,
       "exchange": "NASDAQ"
     },
     {
