@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T00:06:40Z",
+  "updated_at": "2026-11-13T01:33:02Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 19,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,32 +53,32 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 2
+      "events": 0
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "primeira",
@@ -612,76 +612,76 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475510",
+      "id": "sportsdb-2475511",
       "league": "nfl",
-      "name": "New York Giants vs Washington Commanders",
-      "date": "2026-11-13T01:15:00Z",
+      "name": "Detroit Lions vs New England Patriots",
+      "date": "2026-11-15T14:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Giants",
+          "name": "Detroit Lions",
           "score": ""
         },
         {
-          "name": "Washington Commanders",
+          "name": "New England Patriots",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601837",
+      "id": "sportsdb-2601838",
       "league": "nba",
-      "name": "Minnesota Timberwolves vs Dallas Mavericks",
-      "date": "2026-11-13T01:00:00Z",
+      "name": "Phoenix Suns vs Charlotte Hornets",
+      "date": "2026-11-13T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Minnesota Timberwolves",
+          "name": "Phoenix Suns",
           "score": ""
         },
         {
-          "name": "Dallas Mavericks",
+          "name": "Charlotte Hornets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591786",
+      "id": "sportsdb-2591792",
       "league": "nhl",
-      "name": "Florida Panthers vs Detroit Red Wings",
-      "date": "2026-11-13T00:30:00Z",
+      "name": "Utah Mammoth vs St. Louis Blues",
+      "date": "2026-11-13T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Florida Panthers",
+          "name": "Utah Mammoth",
           "score": ""
         },
         {
-          "name": "Detroit Red Wings",
+          "name": "St. Louis Blues",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499248",
+      "id": "sportsdb-2499249",
       "league": "ncaaf",
-      "name": "South Florida vs Memphis",
-      "date": "2026-11-13T01:00:00Z",
+      "name": "Louisiana-Monroe vs Louisiana",
+      "date": "2026-11-13T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "South Florida",
+          "name": "Louisiana-Monroe",
           "score": ""
         },
         {
-          "name": "Memphis",
+          "name": "Louisiana",
           "score": ""
         }
       ],
@@ -726,26 +726,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
-      "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Schalke 04",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -760,25 +740,6 @@
         {
           "name": "Köln",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2482242",
-      "league": "seriea",
-      "name": "Fiorentina vs Juventus",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Fiorentina",
-          "score": "2"
-        },
-        {
-          "name": "Juventus",
-          "score": "2"
         }
       ],
       "url": ""
@@ -801,136 +762,35 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398530",
-      "league": "brasileirao",
-      "name": "Vitória vs Fluminense",
-      "date": "2026-11-06T23:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Vitória",
-          "score": "0"
-        },
-        {
-          "name": "Fluminense",
-          "score": "3",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2398536",
-      "league": "brasileirao",
-      "name": "Mirassol vs Atlético Mineiro",
-      "date": "2026-11-14T21:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Mirassol",
-          "score": ""
-        },
-        {
-          "name": "Atlético Mineiro",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627816",
-      "league": "argentina",
-      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
-      "date": "2026-11-22T21:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Gimnasia y Esgrima de La Plata",
-          "score": ""
-        },
-        {
-          "name": "Newell's Old Boys",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2540130",
-      "league": "aleague",
-      "name": "Western Sydney Wanderers vs Adelaide United",
-      "date": "2026-11-20T08:40:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Western Sydney Wanderers",
-          "score": ""
-        },
-        {
-          "name": "Adelaide United",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Police decide not to charge Sydney Swans players over incident in Melbourne hotel",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/sydney-swans-players-no-charges-alleged-hotel-incident-ntwnfb",
-      "date": "2026-11-12T23:51:23Z",
+      "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T01:23:06Z",
       "league": "all"
     },
     {
       "title": "'Wrong' and 'nonsense' - Cummins on Khawaja sandpaper claims",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cwq6e4y9525mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T23:47:22Z",
+      "date": "2026-11-13T00:58:00Z",
+      "league": "all"
+    },
+    {
+      "title": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
+      "date": "2026-11-13T00:01:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Police decide not to charge Sydney Swans players over incident in Melbourne hotel",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/sydney-swans-players-no-charges-alleged-hotel-incident-ntwnfb",
+      "date": "2026-11-12T23:51:23Z",
       "league": "all"
     },
     {
@@ -973,13 +833,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
       "date": "2026-11-12T22:31:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Gauff battles through back injury to keep WTA Finals hopes alive",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T22:27:18Z",
       "league": "all"
     },
     {
@@ -1184,13 +1037,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/12/pierre-sage-sacked-manager-crystal-palace-steve-parish-premier-league",
       "date": "2026-11-12T14:00:42Z",
       "league": "all"
-    },
-    {
-      "title": "Archive, 1990: Peter Shilton wins 125th and final cap of record-breaking England career",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/12/archive-1990-peter-shilton-wins-125th-cap-making-him-englands-record-appearance-holder",
-      "date": "2026-11-12T13:27:18Z",
-      "league": "soccer"
     },
     {
       "title": "Harrison on verge of 'permanent nerve damage' before surgery",
