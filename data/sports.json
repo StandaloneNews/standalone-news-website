@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T06:47:57Z",
+  "updated_at": "2026-11-13T08:03:05Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -762,40 +762,56 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x298z10lg1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T06:42:18Z",
+      "title": "The beautiful game: revived art prize gives football its creative due once more | Emma John",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/13/football-association-art-prize",
+      "date": "2026-11-13T08:00:12Z",
       "league": "soccer"
     },
     {
       "title": "Australia v England: first men’s cricket one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/13/australia-vs-england-cricket-odi-perth-live-scores",
-      "date": "2026-11-13T06:32:49Z",
+      "date": "2026-11-13T07:49:46Z",
+      "league": "all"
+    },
+    {
+      "title": "How Riley went from KSI's trainer to world-title dream",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c623jlg88yymo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T07:30:58Z",
+      "league": "all"
+    },
+    {
+      "title": "How big a problem is central defence for Pocognoli?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckwy9jyd2wq5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T07:23:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino’s Chelsea maelstrom the best yardstick for what lies ahead at United",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/13/pochettino-chelsea-maelstrom-yardstick-what-lies-ahead-manchester-united",
+      "date": "2026-11-13T07:00:12Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool and Van Dijk have a decision to make",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T06:57:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x298z10lg1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T06:42:18Z",
       "league": "all"
     },
     {
@@ -803,6 +819,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c60735md0jrpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T06:12:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Warburton out to impress the world against Adames",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cmgqwdv1kg40o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T04:52:44Z",
       "league": "all"
     },
     {
@@ -827,6 +850,13 @@
       "league": "all"
     },
     {
+      "title": "‘Abrasive’, ‘arrogant’ and ‘ugly’: standout moments from Pat Cummins’ sandpapergate press conference",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/abrasive-arrogant-and-ugly-standout-moments-from-pat-cummins-sandpapergate-press-conference-ntwnfb",
+      "date": "2026-11-13T03:12:15Z",
+      "league": "all"
+    },
+    {
       "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
@@ -846,13 +876,6 @@
       "url": "https://www.bbc.co.uk/sounds/play/p0pmqwrn?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T23:37:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Australia Test captain Pat Cummins calls Khawaja's sandpapergate claims ‘complete and utter nonsense’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/pat-cummins-press-conference-sandpapergate-usman-khawaja-ball-tampering-australia-cricket-captain-statement-ntwnfb",
-      "date": "2026-11-12T23:31:22Z",
-      "league": "all"
     },
     {
       "title": "Morgan Rogers says ‘it’s a lie’ that Cole Palmer does not want to play for England",
@@ -918,18 +941,11 @@
       "league": "all"
     },
     {
-      "title": "SFA in talks with Boston officials over biennial friendly match",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr1jd5mpp5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T21:16:56Z",
-      "league": "soccer"
-    },
-    {
       "title": "Man Utd & Man City in Gusto battle - Friday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp86enlly13o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T21:13:59Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Norway follows Finland in barring Russian athletes from entering country over Ukraine war",
@@ -1016,13 +1032,6 @@
       "league": "all"
     },
     {
-      "title": "Fitness, Fernandes and a back four: how next head coach can reignite Manchester United | Will Unwin",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/12/the-problems-awaiting-manchester-united-next-manager",
-      "date": "2026-11-12T17:00:22Z",
-      "league": "all"
-    },
-    {
       "title": "Owono undecided over future following De Miguel death",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckedq01zve04o?at_medium=RSS&at_campaign=rss",
@@ -1030,10 +1039,10 @@
       "league": "all"
     },
     {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/m0034dz1?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:31:00Z",
+      "title": "Football Daily | ‘The club would like to thank …’: Manchester United dust off the heartfelt exit message",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/12/football-daily-manchester-united-michael-carrick",
+      "date": "2026-11-12T16:24:51Z",
       "league": "soccer"
     },
     {
@@ -1065,38 +1074,10 @@
       "league": "all"
     },
     {
-      "title": "McIlroy makes strong start in bid to equal Montgomerie's record",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cwlymny900ezo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:13:27Z",
-      "league": "all"
-    },
-    {
       "title": "Pierre Sage’s failure to fix defensive flaws leaves Crystal Palace seeking new solution",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/12/pierre-sage-sacked-manager-crystal-palace-steve-parish-premier-league",
       "date": "2026-11-12T14:00:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Harrison on verge of 'permanent nerve damage' before surgery",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cw23jl3m9l0jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:22:33Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Police investigation into Vigar's death ongoing",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckm2mn2lvld9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:11:49Z",
-      "league": "all"
-    },
-    {
-      "title": "Michael Carrick was just the latest fall guy for Manchester United’s dysfunctional hierarchy | Jamie Jackson",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/12/michael-carrick-manchester-united-sacked",
-      "date": "2026-11-12T12:00:48Z",
       "league": "all"
     }
   ]
