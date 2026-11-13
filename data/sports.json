@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T12:14:11Z",
+  "updated_at": "2026-11-13T13:33:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -762,21 +762,73 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Manchester United confirm Pochettino appointment; Fernandes rejects second contract offer: football – live",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
+      "date": "2026-11-13T13:26:24Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Odegaard backing Norway to avenge Wales defeat",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmq8lx38zwn4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T12:43:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Lazraq-Khlass banned for whereabouts violation",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/athletics/articles/cqvg2lrkdz97o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T12:12:34Z",
+      "league": "all"
+    },
     {
       "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T12:09:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United confirm Pochettino appointment; Fernandes rejects second contract offer: football – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/13/mauricio-pochettino-manchester-united-head-coach-football-live",
-      "date": "2026-11-13T12:05:45Z",
       "league": "all"
     },
     {
@@ -879,17 +931,17 @@
     },
     {
       "title": "Beckham to be inducted into US Soccer Hall of Fame",
-      "source": "BBC Football",
+      "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmx295q05l7eo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T08:22:34Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Who makes your Northern Ireland XI against Ukraine?",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y4jlplner0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T08:21:40Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
@@ -983,13 +1035,6 @@
       "league": "all"
     },
     {
-      "title": "Pegula saves match point to beat Noskova & reach WTA Finals last four",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c57429mgdkjdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T01:23:06Z",
-      "league": "all"
-    },
-    {
       "title": "It’s Happy Harry Kane day as England’s finest seizes his moment in style | Barney Ronay",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/13/happy-harry-kane-day-englands-finest-seizes-his-moment-croatia-nations-league",
@@ -1022,13 +1067,6 @@
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/12/nations-league-italy-france-spain-czechia",
       "date": "2026-11-12T22:31:35Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Grealish apologises for absence after breach of discipline",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cr3wgp8e2ljxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T22:10:13Z",
       "league": "soccer"
     },
     {
