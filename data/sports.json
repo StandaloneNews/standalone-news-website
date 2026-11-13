@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T23:27:01Z",
+  "updated_at": "2026-11-13T00:06:40Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 19,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -53,32 +53,32 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 1
+      "events": 2
     },
     {
       "id": "seriea",
       "name": "Italian Serie A",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
@@ -93,7 +93,7 @@
     {
       "id": "aleague",
       "name": "Australian A-League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "primeira",
@@ -631,38 +631,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601835",
+      "id": "sportsdb-2601837",
       "league": "nba",
-      "name": "Washington Wizards vs Detroit Pistons",
-      "date": "2026-11-13T00:00:00Z",
+      "name": "Minnesota Timberwolves vs Dallas Mavericks",
+      "date": "2026-11-13T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Washington Wizards",
+          "name": "Minnesota Timberwolves",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Dallas Mavericks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591784",
+      "id": "sportsdb-2591786",
       "league": "nhl",
-      "name": "Boston Bruins vs Montreal Canadiens",
-      "date": "2026-11-13T00:00:00Z",
+      "name": "Florida Panthers vs Detroit Red Wings",
+      "date": "2026-11-13T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Boston Bruins",
+          "name": "Florida Panthers",
           "score": ""
         },
         {
-          "name": "Montreal Canadiens",
+          "name": "Detroit Red Wings",
           "score": ""
         }
       ],
@@ -726,6 +726,26 @@
       "url": ""
     },
     {
+      "id": "sportsdb-2508408",
+      "league": "bundesliga",
+      "name": "Hoffenheim vs Schalke 04",
+      "date": "2026-11-08T18:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Hoffenheim",
+          "score": "2",
+          "winner": true
+        },
+        {
+          "name": "Schalke 04",
+          "score": "1"
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -740,6 +760,25 @@
         {
           "name": "Köln",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2482242",
+      "league": "seriea",
+      "name": "Fiorentina vs Juventus",
+      "date": "2026-11-08T19:45:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Fiorentina",
+          "score": "2"
+        },
+        {
+          "name": "Juventus",
+          "score": "2"
         }
       ],
       "url": ""
@@ -762,18 +801,161 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398530",
+      "league": "brasileirao",
+      "name": "Vitória vs Fluminense",
+      "date": "2026-11-06T23:00:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Vitória",
+          "score": "0"
+        },
+        {
+          "name": "Fluminense",
+          "score": "3",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398536",
+      "league": "brasileirao",
+      "name": "Mirassol vs Atlético Mineiro",
+      "date": "2026-11-14T21:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Mirassol",
+          "score": ""
+        },
+        {
+          "name": "Atlético Mineiro",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627816",
+      "league": "argentina",
+      "name": "Gimnasia y Esgrima de La Plata vs Newell's Old Boys",
+      "date": "2026-11-22T21:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Gimnasia y Esgrima de La Plata",
+          "score": ""
+        },
+        {
+          "name": "Newell's Old Boys",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2540130",
+      "league": "aleague",
+      "name": "Western Sydney Wanderers vs Adelaide United",
+      "date": "2026-11-20T08:40:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Western Sydney Wanderers",
+          "score": ""
+        },
+        {
+          "name": "Adelaide United",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Pat Cummins press conference live updates: Australian cricket captain speaks about Usman Khawaja’s ‘sandpapergate’ claims",
+      "title": "Police decide not to charge Sydney Swans players over incident in Melbourne hotel",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/13/pat-cummins-press-conference-usman-khawaja-sandpapergate-australia-cricket-captain-statement-ntwnfb",
-      "date": "2026-11-12T23:14:18Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/sydney-swans-players-no-charges-alleged-hotel-incident-ntwnfb",
+      "date": "2026-11-12T23:51:23Z",
       "league": "all"
     },
     {
-      "title": "'A lie' & 'nonsense' - Palmer committed to England, says Rogers",
+      "title": "'Wrong' and 'nonsense' - Cummins on Khawaja sandpaper claims",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwq6e4y9525mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T23:47:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pmqwrn?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T23:37:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Australia Test captain Pat Cummins calls Khawaja's sandpapergate claims ‘complete and utter nonsense’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/pat-cummins-press-conference-sandpapergate-usman-khawaja-ball-tampering-australia-cricket-captain-statement-ntwnfb",
+      "date": "2026-11-12T23:31:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Morgan Rogers says ‘it’s a lie’ that Cole Palmer does not want to play for England",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/12/morgan-rogers-says-its-a-lie-that-cole-palmer-does-not-want-to-play-for-england",
+      "date": "2026-11-12T23:17:46Z",
+      "league": "all"
+    },
+    {
+      "title": "'A lie' - Palmer committed to England, says Rogers",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6e9kjne5y8vo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T23:09:07Z",
@@ -834,13 +1016,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c64gnd7vd912o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T21:47:36Z",
       "league": "all"
-    },
-    {
-      "title": "Ghana kick-start Afcon 2027 bid despite Ayew penalty miss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c61md0mldvdgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T21:28:06Z",
-      "league": "soccer"
     },
     {
       "title": "SFA in talks with Boston officials over biennial friendly match",
@@ -914,10 +1089,10 @@
     },
     {
       "title": "Robertson pays tribute to Dalglish as he matches Scotland cap record",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/12/robertson-pays-tribute-to-dalglish-as-he-matches-scotland-cap-record",
       "date": "2026-11-12T18:06:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Steph Curry’s defense of Ayesha exposes the ugly double standards of sports’ manosphere | Andrew Lawrence",
@@ -969,24 +1144,10 @@
       "league": "soccer"
     },
     {
-      "title": "Football Daily | ‘The club would like to thank …’: Manchester United dust off the heartfelt exit message",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/12/football-daily-manchester-united-michael-carrick",
-      "date": "2026-11-12T16:24:51Z",
-      "league": "soccer"
-    },
-    {
       "title": "How Pochettino came on Man Utd's radar - and what Carrick was told when",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqdr1jlr1707o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T16:12:39Z",
-      "league": "all"
-    },
-    {
-      "title": "Lindblad and Lawson to continue at Racing Bulls",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw24epe29566o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:02:16Z",
       "league": "all"
     },
     {
@@ -1071,13 +1232,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/england-france-wheelchair-rugby-league-squad-world-cup-final",
       "date": "2026-11-12T11:58:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Six matches that defined Carrick's Man Utd tenure",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5ev37egv97mo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T11:25:46Z",
       "league": "all"
     }
   ]
