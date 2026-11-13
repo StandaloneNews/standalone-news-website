@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T05:44:31Z",
+  "updated_at": "2026-11-13T06:47:57Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
@@ -762,14 +762,47 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x298z10lg1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T06:42:18Z",
+      "league": "soccer"
+    },
+    {
       "title": "Australia v England: first men’s cricket one-day international – live",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/live/2026/nov/13/australia-vs-england-cricket-odi-perth-live-scores",
-      "date": "2026-11-13T05:38:17Z",
+      "date": "2026-11-13T06:32:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Whatever happened to the diamond that went missing in F1 crash?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c60735md0jrpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T06:12:20Z",
       "league": "all"
     },
     {
@@ -777,6 +810,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/commanders-giants-thursday-night-football-nfl",
       "date": "2026-11-13T04:43:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Cheating, scandal and drama - Wales agony v All Blacks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cx5y131nlrvro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T04:38:19Z",
       "league": "all"
     },
     {
@@ -941,13 +981,6 @@
       "league": "all"
     },
     {
-      "title": "Champion trainer Skelton happy but always wanting more",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/cqzjxjzn23r4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T18:38:27Z",
-      "league": "all"
-    },
-    {
       "title": "Much-changed England told to ignore World Cup and put team first against Japan",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/much-changed-england-japan-nations-championship-rugby",
@@ -973,13 +1006,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/12/lewis-hamilton-gaza-visit-rafah-israel",
       "date": "2026-11-12T18:00:50Z",
-      "league": "all"
-    },
-    {
-      "title": "How and why Wales are relying on scrum-half Williams",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv36gngre3r9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T18:00:14Z",
       "league": "all"
     },
     {
@@ -1072,13 +1098,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/12/michael-carrick-manchester-united-sacked",
       "date": "2026-11-12T12:00:48Z",
       "league": "all"
-    },
-    {
-      "title": "‘Pregnancy does not mean game over’: meet the footballers challenging the myths | Moving the Goalposts",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/12/pregnancy-womens-football-moving-the-goalposts-newsletter",
-      "date": "2026-11-12T12:00:47Z",
-      "league": "soccer"
     }
   ]
 }
