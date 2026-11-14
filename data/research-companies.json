@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:28:59+00:00",
+  "updated_at": "2026-11-14T06:10:00+00:00",
   "source": "https://www.sec.gov/files/company_tickers_exchange.json",
   "companies": [
     {
@@ -301,6 +301,12 @@
       "name": "ASBURY AUTOMOTIVE GROUP INC",
       "cik": 1144980,
       "exchange": "NYSE"
+    },
+    {
+      "ticker": "ABGC",
+      "name": "American Barrick Gold Corp",
+      "cik": 2162540,
+      "exchange": ""
     },
     {
       "ticker": "ABLV",
@@ -4180,7 +4186,7 @@
     },
     {
       "ticker": "ARI",
-      "name": "Apollo Commercial Real Estate Finance, Inc.",
+      "name": "Apollo Commercial Real Estate Finance Liquidating Trust",
       "cik": 1467760,
       "exchange": "NYSE"
     },
@@ -4948,25 +4954,25 @@
     },
     {
       "ticker": "ATLQ",
-      "name": "JAB Acquisition Corp I",
+      "name": "Atlantic Acquisition Corp I",
       "cik": 2128739,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "ATLQR",
-      "name": "JAB Acquisition Corp I",
+      "name": "Atlantic Acquisition Corp I",
       "cik": 2128739,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "ATLQU",
-      "name": "JAB Acquisition Corp I",
+      "name": "Atlantic Acquisition Corp I",
       "cik": 2128739,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "ATLQW",
-      "name": "JAB Acquisition Corp I",
+      "name": "Atlantic Acquisition Corp I",
       "cik": 2128739,
       "exchange": "NASDAQ"
     },
@@ -5209,12 +5215,6 @@
       "name": "Tincorp Metals Inc.",
       "cik": 1864597,
       "exchange": ""
-    },
-    {
-      "ticker": "AUROW",
-      "name": "Aurora Innovation, Inc.",
-      "cik": 1828108,
-      "exchange": "NASDAQ"
     },
     {
       "ticker": "AURX",
@@ -7101,12 +7101,6 @@
       "exchange": "NASDAQ"
     },
     {
-      "ticker": "BFRIW",
-      "name": "Biofrontera Inc.",
-      "cik": 1858685,
-      "exchange": "NASDAQ"
-    },
-    {
       "ticker": "BFS",
       "name": "SAUL CENTERS, INC.",
       "cik": 907254,
@@ -7384,7 +7378,7 @@
     },
     {
       "ticker": "BHLL",
-      "name": "Bunker Hill Mining Corp.",
+      "name": "Bunker Hill Silver Corp.",
       "cik": 1407583,
       "exchange": ""
     },
@@ -8317,12 +8311,6 @@
       "name": "BANK OF MONTREAL /CAN/",
       "cik": 927971,
       "exchange": "NYSE"
-    },
-    {
-      "ticker": "BMOK",
-      "name": "BM Acquisition Corp.",
-      "cik": 2071607,
-      "exchange": ""
     },
     {
       "ticker": "BMPA",
@@ -10623,12 +10611,6 @@
       "exchange": "NASDAQ"
     },
     {
-      "ticker": "CBZ",
-      "name": "CBIZ, Inc.",
-      "cik": 944148,
-      "exchange": "NYSE"
-    },
-    {
       "ticker": "CC",
       "name": "Chemours Co",
       "cik": 1627223,
@@ -11358,13 +11340,13 @@
       "ticker": "CFR",
       "name": "CULLEN/FROST BANKERS, INC.",
       "cik": 39263,
-      "exchange": "NYSE"
+      "exchange": ""
     },
     {
       "ticker": "CFR-PB",
       "name": "CULLEN/FROST BANKERS, INC.",
       "cik": 39263,
-      "exchange": "NYSE"
+      "exchange": ""
     },
     {
       "ticker": "CFSU",
@@ -14028,6 +14010,12 @@
       "ticker": "CRMLW",
       "name": "Critical Metals Corp.",
       "cik": 1951089,
+      "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "CRMN",
+      "name": "Skyline Builders Group Holding Ltd",
+      "cik": 2031009,
       "exchange": "NASDAQ"
     },
     {
@@ -18604,7 +18592,7 @@
     },
     {
       "ticker": "EOCN",
-      "name": "Galmed Pharmaceuticals Ltd.",
+      "name": "EoCene Ltd.",
       "cik": 1595353,
       "exchange": "NASDAQ"
     },
@@ -19303,6 +19291,12 @@
       "name": "EUDA Health Holdings Ltd",
       "cik": 1847846,
       "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "EUEV",
+      "name": "EUROEV Holdings Ltd",
+      "cik": 2048740,
+      "exchange": ""
     },
     {
       "ticker": "EULIF",
@@ -23451,6 +23445,12 @@
       "exchange": ""
     },
     {
+      "ticker": "GGLXF",
+      "name": "GGL RESOURCES CORP.",
+      "cik": 800523,
+      "exchange": ""
+    },
+    {
       "ticker": "GGN",
       "name": "GAMCO Global Gold, Natural Resources & Income Trust",
       "cik": 1313510,
@@ -23964,6 +23964,12 @@
       "ticker": "GLL",
       "name": "ProShares Trust II",
       "cik": 1415311,
+      "exchange": "NYSE"
+    },
+    {
+      "ticker": "GLLD",
+      "name": "BANK OF MONTREAL /CAN/",
+      "cik": 927971,
       "exchange": "NYSE"
     },
     {
@@ -31311,6 +31317,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "KNRXF",
+      "name": "KNOREX LTD.",
+      "cik": 1982960,
+      "exchange": ""
+    },
+    {
       "ticker": "KNSA",
       "name": "Kiniksa Pharmaceuticals International, plc",
       "cik": 1730430,
@@ -31420,19 +31432,19 @@
     },
     {
       "ticker": "KOYN",
-      "name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+      "name": "First Digital Acquisition Corp Ltd.",
       "cik": 2068454,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "KOYNU",
-      "name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+      "name": "First Digital Acquisition Corp Ltd.",
       "cik": 2068454,
       "exchange": "NASDAQ"
     },
     {
       "ticker": "KOYNW",
-      "name": "CSLM Digital Asset Acquisition Corp III, Ltd",
+      "name": "First Digital Acquisition Corp Ltd.",
       "cik": 2068454,
       "exchange": "NASDAQ"
     },
@@ -31495,6 +31507,12 @@
       "name": "Karyopharm Therapeutics Inc.",
       "cik": 1503802,
       "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "KPTIQ",
+      "name": "Karyopharm Therapeutics Inc.",
+      "cik": 1503802,
+      "exchange": ""
     },
     {
       "ticker": "KR",
@@ -31831,12 +31849,6 @@
       "name": "CoVolt Power, Inc.",
       "cik": 2131613,
       "exchange": ""
-    },
-    {
-      "ticker": "KVUE",
-      "name": "Kenvue Inc.",
-      "cik": 1944048,
-      "exchange": "NYSE"
     },
     {
       "ticker": "KVYO",
@@ -33189,6 +33201,12 @@
       "exchange": "NYSE"
     },
     {
+      "ticker": "LOB-PB",
+      "name": "Live Oak Bancshares, Inc.",
+      "cik": 1462120,
+      "exchange": "NYSE"
+    },
+    {
       "ticker": "LOBKV",
       "name": "Live Oak Bancshares, Inc.",
       "cik": 1462120,
@@ -33312,10 +33330,16 @@
       "ticker": "LOVI",
       "name": "Live Oak Acquisition Corp. VI",
       "cik": 2115191,
-      "exchange": ""
+      "exchange": "NASDAQ"
     },
     {
       "ticker": "LOVIU",
+      "name": "Live Oak Acquisition Corp. VI",
+      "cik": 2115191,
+      "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "LOVIW",
       "name": "Live Oak Acquisition Corp. VI",
       "cik": 2115191,
       "exchange": "NASDAQ"
@@ -33918,18 +33942,6 @@
       "ticker": "LXFR",
       "name": "LUXFER HOLDINGS PLC",
       "cik": 1096056,
-      "exchange": "NYSE"
-    },
-    {
-      "ticker": "LXP",
-      "name": "LXP Industrial Trust",
-      "cik": 910108,
-      "exchange": "NYSE"
-    },
-    {
-      "ticker": "LXP-PC",
-      "name": "LXP Industrial Trust",
-      "cik": 910108,
       "exchange": "NYSE"
     },
     {
@@ -35271,12 +35283,6 @@
       "exchange": "NASDAQ"
     },
     {
-      "ticker": "MGPI",
-      "name": "SEMPREON, INC",
-      "cik": 835011,
-      "exchange": "NASDAQ"
-    },
-    {
       "ticker": "MGR",
       "name": "AFFILIATED MANAGERS GROUP, INC.",
       "cik": 1004434,
@@ -35740,12 +35746,6 @@
     },
     {
       "ticker": "MLEC",
-      "name": "Moolec Science SA",
-      "cik": 1937737,
-      "exchange": "NASDAQ"
-    },
-    {
-      "ticker": "MLECW",
       "name": "Moolec Science SA",
       "cik": 1937737,
       "exchange": "NASDAQ"
@@ -37297,6 +37297,12 @@
       "name": "MICROVISION, INC.",
       "cik": 65770,
       "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "MVNCD",
+      "name": "United KSK Corp",
+      "cik": 1439264,
+      "exchange": ""
     },
     {
       "ticker": "MVRL",
@@ -41170,7 +41176,7 @@
     },
     {
       "ticker": "OLMA",
-      "name": "Olema Pharmaceuticals, Inc.",
+      "name": "Olema Oncology, Inc.",
       "cik": 1750284,
       "exchange": "NASDAQ"
     },
@@ -41533,6 +41539,12 @@
       "name": "OptimumBank Holdings, Inc.",
       "cik": 1288855,
       "exchange": "NYSE"
+    },
+    {
+      "ticker": "OPHI",
+      "name": "CollPlant Biotechnologies Ltd",
+      "cik": 1631487,
+      "exchange": "NASDAQ"
     },
     {
       "ticker": "OPI",
@@ -44019,12 +44031,6 @@
       "exchange": "NASDAQ"
     },
     {
-      "ticker": "PLTYF",
-      "name": "Plastec Technologies, Ltd.",
-      "cik": 1433309,
-      "exchange": ""
-    },
-    {
       "ticker": "PLUG",
       "name": "PLUG POWER INC",
       "cik": 1093691,
@@ -45255,12 +45261,6 @@
       "exchange": "NYSE"
     },
     {
-      "ticker": "PSQH-WT",
-      "name": "PSQ Holdings, Inc.",
-      "cik": 1847064,
-      "exchange": "NYSE"
-    },
-    {
       "ticker": "PSQL",
       "name": "Pasqal Holding SA",
       "cik": 2119292,
@@ -46071,6 +46071,12 @@
       "exchange": "NASDAQ"
     },
     {
+      "ticker": "QUIT",
+      "name": "ACHIEVE LIFE SCIENCES, INC.",
+      "cik": 949858,
+      "exchange": "NASDAQ"
+    },
+    {
       "ticker": "QUMS",
       "name": "Quantumsphere Acquisition Corp",
       "cik": 2070900,
@@ -46242,12 +46248,6 @@
       "ticker": "RAL",
       "name": "Ralliant Corp",
       "cik": 2041385,
-      "exchange": "NYSE"
-    },
-    {
-      "ticker": "RAMP",
-      "name": "LiveRamp Holdings, Inc.",
-      "cik": 733269,
       "exchange": "NYSE"
     },
     {
@@ -50373,12 +50373,6 @@
       "exchange": ""
     },
     {
-      "ticker": "SHNY",
-      "name": "BANK OF MONTREAL /CAN/",
-      "cik": 927971,
-      "exchange": "NYSE"
-    },
-    {
       "ticker": "SHO",
       "name": "Sunstone Hotel Investors, Inc.",
       "cik": 1295810,
@@ -52251,12 +52245,6 @@
       "exchange": "NYSE"
     },
     {
-      "ticker": "SPQS",
-      "name": "SportsQuest, Inc.",
-      "cik": 803097,
-      "exchange": ""
-    },
-    {
       "ticker": "SPRB",
       "name": "SPRUCE BIOSCIENCES, INC.",
       "cik": 1683553,
@@ -52812,7 +52800,7 @@
       "ticker": "STAI",
       "name": "ScanTech AI Systems Inc.",
       "cik": 1994624,
-      "exchange": ""
+      "exchange": "NASDAQ"
     },
     {
       "ticker": "STAK",
@@ -53653,12 +53641,6 @@
       "name": "STANLEY BLACK & DECKER, INC.",
       "cik": 93556,
       "exchange": "NYSE"
-    },
-    {
-      "ticker": "SWKHL",
-      "name": "SWK Holdings Corp",
-      "cik": 1089907,
-      "exchange": "NASDAQ"
     },
     {
       "ticker": "SWKS",
@@ -55731,6 +55713,12 @@
       "exchange": "NASDAQ"
     },
     {
+      "ticker": "TORXF",
+      "name": "Torex Resources Inc.",
+      "cik": 1561540,
+      "exchange": ""
+    },
+    {
       "ticker": "TOST",
       "name": "Toast, Inc.",
       "cik": 1650164,
@@ -57334,7 +57322,7 @@
     },
     {
       "ticker": "UKSK",
-      "name": "Marvion Inc.",
+      "name": "United KSK Corp",
       "cik": 1439264,
       "exchange": ""
     },
@@ -57706,43 +57694,43 @@
     },
     {
       "ticker": "USB",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PA",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PH",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PP",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PQ",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PR",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
     {
       "ticker": "USB-PS",
-      "name": "US BANCORP DE",
+      "name": "US BANCORP \\DE\\",
       "cik": 36104,
       "exchange": "NYSE"
     },
@@ -58345,12 +58333,6 @@
       "name": "Vertex, Inc.",
       "cik": 1806837,
       "exchange": "NASDAQ"
-    },
-    {
-      "ticker": "VEST",
-      "name": "Loan Artificial Intelligence Corp.",
-      "cik": 1594968,
-      "exchange": ""
     },
     {
       "ticker": "VET",
@@ -59086,7 +59068,7 @@
     },
     {
       "ticker": "VRDN",
-      "name": "Viridian Therapeutics, Inc.DE",
+      "name": "Viridian Therapeutics, Inc.\\DE",
       "cik": 1590750,
       "exchange": "NASDAQ"
     },
@@ -59424,7 +59406,7 @@
       "ticker": "VVVV",
       "name": "vVARDIS Holding AG",
       "cik": 1907709,
-      "exchange": ""
+      "exchange": "NYSE"
     },
     {
       "ticker": "VVX",
@@ -60858,7 +60840,7 @@
       "ticker": "WWB",
       "name": "WINDWARD BIO GROUP AG",
       "cik": 2145089,
-      "exchange": ""
+      "exchange": "NASDAQ"
     },
     {
       "ticker": "WWD",
@@ -61104,6 +61086,12 @@
       "ticker": "XGN",
       "name": "EXAGEN INC.",
       "cik": 1274737,
+      "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "XGPU",
+      "name": "Reliance Global Group, Inc.",
+      "cik": 1812727,
       "exchange": "NASDAQ"
     },
     {
@@ -62430,6 +62418,12 @@
       "ticker": "ZYME",
       "name": "Zymeworks Inc.",
       "cik": 1937653,
+      "exchange": "NASDAQ"
+    },
+    {
+      "ticker": "ZYN",
+      "name": "PTL Ltd",
+      "cik": 2016337,
       "exchange": "NASDAQ"
     }
   ]
