@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:40:25Z",
+  "updated_at": "2026-11-14T01:05:31Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 20,
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaaf",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 2
+      "events": 1
     },
     {
       "id": "aleague",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 0
+      "events": 1
     }
   ],
   "events": [
@@ -631,40 +631,20 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601839",
+      "id": "sportsdb-2601844",
       "league": "nba",
-      "name": "Indiana Pacers vs New York Knicks",
-      "date": "2026-11-14T00:00:00Z",
+      "name": "Houston Rockets vs Utah Jazz",
+      "date": "2026-11-14T01:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Indiana Pacers",
+          "name": "Houston Rockets",
           "score": ""
         },
         {
-          "name": "New York Knicks",
+          "name": "Utah Jazz",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2591793",
-      "league": "nhl",
-      "name": "Los Angeles Kings vs New York Islanders",
-      "date": "2026-11-13T03:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Los Angeles Kings",
-          "score": "2"
-        },
-        {
-          "name": "New York Islanders",
-          "score": "5",
-          "winner": true
         }
       ],
       "url": ""
@@ -689,19 +669,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499250",
+      "id": "sportsdb-2499297",
       "league": "ncaaf",
-      "name": "Pittsburgh vs Florida State",
-      "date": "2026-11-14T00:00:00Z",
+      "name": "UCLA vs Illinois",
+      "date": "2026-11-14T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Pittsburgh",
+          "name": "UCLA",
           "score": ""
         },
         {
-          "name": "Florida State",
+          "name": "Illinois",
           "score": ""
         }
       ],
@@ -879,26 +859,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2492911",
-      "league": "j1",
-      "name": "JEF United Chiba vs Mito HollyHock",
-      "date": "2026-11-08T08:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "JEF United Chiba",
-          "score": "1",
-          "winner": true
-        },
-        {
-          "name": "Mito HollyHock",
-          "score": "0"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2492922",
       "league": "j1",
       "name": "Kashima Antlers vs Shimizu S-Pulse",
@@ -937,21 +897,39 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2514032",
+      "id": "sportsdb-2514035",
       "league": "primeira",
-      "name": "Estrela Amadora vs Benfica",
-      "date": "2026-11-08T20:30:00Z",
-      "state": "final",
-      "status": "FT",
+      "name": "Marítimo vs Nacional de Madeira",
+      "date": "2026-11-27T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
       "participants": [
         {
-          "name": "Estrela Amadora",
-          "score": "2"
+          "name": "Marítimo",
+          "score": ""
         },
         {
-          "name": "Benfica",
-          "score": "3",
-          "winner": true
+          "name": "Nacional de Madeira",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627200",
+      "league": "mls",
+      "name": "Orlando City vs FC Cincinnati",
+      "date": "2026-11-20T00:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Orlando City",
+          "score": ""
+        },
+        {
+          "name": "FC Cincinnati",
+          "score": ""
         }
       ],
       "url": ""
@@ -959,11 +937,116 @@
   ],
   "stories": [
     {
-      "title": "Scotland v North Macedonia: Nations League – live",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/13/scotland-v-north-macedonia-nations-league-live",
-      "date": "2026-11-13T20:35:24Z",
+      "title": "Sabalenka's season ended by Svitolina at WTA Finals",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw30gl912vq9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-14T00:51:25Z",
+      "league": "all"
+    },
+    {
+      "title": "France edge past South Africa after thriller in Nations Championship",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T23:43:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Nations League: Germany set up Netherlands clash after beating Serbia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/13/nations-league-germany-set-up-netherlands-clash-serbia-greece",
+      "date": "2026-11-13T23:14:45Z",
+      "league": "all"
+    },
+    {
+      "title": "France hold nerve to edge past South Africa in thriller",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T23:03:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Wallabies recall playmaker Carter Gordon as Kiss throws support behind Suaalii",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/14/australia-wallabies-rugby-team-scotland-nations-championship-gordon-suaalii",
+      "date": "2026-11-13T22:56:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Ferguson 'made up' with first win as Glentoran boss",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c95y10z6rpj8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:54:49Z",
       "league": "soccer"
+    },
+    {
+      "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:53:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Goalkeeper involved in fatal collision gets 12-game ban",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:37:30Z",
+      "league": "all"
+    },
+    {
+      "title": "France cling on for furious victory against South Africa after Dupont sizzles",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/france-south-africa-nations-championship-match-report",
+      "date": "2026-11-13T22:35:06Z",
+      "league": "all"
+    },
+    {
+      "title": "'If that penalty is given against you, you're furious'",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c34gn5k2lk9lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:34:20Z",
+      "league": "all"
+    },
+    {
+      "title": "John McGinn double saves Scotland’s blushes against North Macedonia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/13/scotland-north-macedonia-nations-league-match-report",
+      "date": "2026-11-13T22:16:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Salah scores twice as Egypt and Nigeria win Afcon 2027 qualifiers",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:11:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd want Paz, Chelsea target Kounde - Saturday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq39glw42xkjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T22:05:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Jesús Owono given 12-match ban for tackle that resulted in Jesús de Miguel’s death",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/13/jesus-owono-given-12-match-ban-for-tackle-that-resulted-in-jesus-de-miguels-death",
+      "date": "2026-11-13T22:04:08Z",
+      "league": "soccer"
+    },
+    {
+      "title": "USA hammer Denmark 14-0 with record 85 shots to reach women’s hockey worlds semi-finals",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/usa-denmark-womens-ice-hockey-world-championship-quarter-finals",
+      "date": "2026-11-13T21:55:59Z",
+      "league": "all"
+    },
+    {
+      "title": "'Gloves are off' - how Australian papers reacted to Cummins on Khawaja",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq1k97y4e1rxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T21:53:37Z",
+      "league": "all"
     },
     {
       "title": "A cricketing drama to divide a nation: why the sandpaper scandal is Australia’s Bazball | Barney Ronay",
@@ -995,16 +1078,9 @@
     },
     {
       "title": "Tuchel to remind England players of anti-racism protocols before game in Spain",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/13/thotmas-tuchel-england-anti-racism-protocols-spain-nations-league",
       "date": "2026-11-13T19:00:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Arokodare double secures Nigeria win in Afcon 2027 qualifier",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw1md9jx2r3po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T18:36:27Z",
       "league": "soccer"
     },
     {
@@ -1016,10 +1092,10 @@
     },
     {
       "title": "EFL warns clubs over social media posts",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmqj5r8edvneo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T18:20:17Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "How Wales can win without making history v All Blacks",
@@ -1057,24 +1133,10 @@
       "league": "all"
     },
     {
-      "title": "'Memories flood back' - Rochdale & York meet again after April drama",
+      "title": "'Memories flood back' - Rochdale & York meet again after title drama",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck1l05drreqqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T16:39:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England have licence to thrill against Japan after acing audition against Australia | Ugo Monye",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/england-have-licence-to-thrill-against-japan-after-acing-audition-against-australia",
-      "date": "2026-11-13T16:32:17Z",
-      "league": "all"
-    },
-    {
-      "title": "Football Daily",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pmwxf4?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T16:05:00Z",
       "league": "soccer"
     },
     {
@@ -1083,13 +1145,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/13/jude-bellingham-branding-it-like-beckham",
       "date": "2026-11-13T16:03:19Z",
       "league": "soccer"
-    },
-    {
-      "title": "Vunipola exploring life after rugby with coaching role",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj7526lz35x9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T15:59:06Z",
-      "league": "all"
     },
     {
       "title": "Sharks, ladders and a four-year plan - how England won World Cup",
@@ -1106,6 +1161,13 @@
       "league": "all"
     },
     {
+      "title": "Ojomoh and Pollock get their shot as England’s World Cup hopefuls aim to crush Japan",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/ojomoh-and-pollock-get-their-shot-as-englands-world-cup-hopefuls-aim-to-crush-japan",
+      "date": "2026-11-13T15:32:33Z",
+      "league": "all"
+    },
+    {
       "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss",
@@ -1118,6 +1180,13 @@
       "url": "https://www.theguardian.com/football/2026/nov/13/pierre-sage-crystal-palace-football-daily-newsletter",
       "date": "2026-11-13T15:21:47Z",
       "league": "soccer"
+    },
+    {
+      "title": "Ponga and Walsh lead old rivals into Rugby League World Cup showdown",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/australia-new-zealand-rugby-league-world-cup-final-reece-walsh-kalyn-ponga",
+      "date": "2026-11-13T15:15:05Z",
+      "league": "all"
     },
     {
       "title": "Cameron-Mayer rematch added to Paul Christmas Eve card",
@@ -1155,6 +1224,13 @@
       "league": "soccer"
     },
     {
+      "title": "McCullum backs Pietersen to help England after collapse on ‘trampoline’ pitch",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/13/mccullum-backs-pietersen-to-help-england-after-collapse-on-trampoline-pitch",
+      "date": "2026-11-13T12:38:03Z",
+      "league": "all"
+    },
+    {
       "title": "Missing Israel games 'stressful' for captain Collins",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq7821vdgrevo?at_medium=RSS&at_campaign=rss",
@@ -1169,108 +1245,10 @@
       "league": "all"
     },
     {
-      "title": "England beat France to become back-to-back world champions",
+      "title": "Borthwick challenges Ojomoh to match talent with toughness",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:40:42Z",
-      "league": "all"
-    },
-    {
-      "title": "UFC boss White does not like Hokit's 'shtick'",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm1wrnl8qnd7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:39:46Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Surfing speedster Beardman gives a glimpse of Ashes future",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6vg2dkyxp00o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:39:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia race to paltry target after debutant quick Beardman routs England in first ODI",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/australia-beat-england-seven-wickets-first-mens-cricket-odi-report",
-      "date": "2026-11-13T11:15:31Z",
-      "league": "all"
-    },
-    {
-      "title": "The driving-maul try machine - why rugby's steamroller gained traction",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy0egy6zkk0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:09:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Rugby League World Cup glory again for England’s wheelchair champions",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/england-men-win-back-to-back-wheelchair-rugby-league-world-cups",
-      "date": "2026-11-13T10:39:08Z",
-      "league": "all"
-    },
-    {
-      "title": "The club preparing to play again after the death of a player",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6vg7gz9w5edo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:00:46Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL quarterbacks are under more pressure than ever from rushers. Why?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/nfl-quarterbacks-are-under-more-pressure-than-ever-from-rushers-why",
-      "date": "2026-11-13T10:00:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Fernandes rejects second Man Utd contract offer",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T09:55:01Z",
-      "league": "all"
-    },
-    {
-      "title": "Beckham to be inducted into US Soccer Hall of Fame",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmx295q05l7eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T08:22:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who makes your Northern Ireland XI against Ukraine?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4jlplner0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T08:21:40Z",
-      "league": "soccer"
-    },
-    {
-      "title": "From postcards to texts, the different ways a manager gets the sack - Pulis",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T08:13:19Z",
-      "league": "all"
-    },
-    {
-      "title": "How do you stop Haaland? Wales show how it's done",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3y0e0z0r8kzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T08:05:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Chess: Carlsen comes to town with tantalising tests for London Classic Super Rapid",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/chess-carlsen-comes-to-town-with-tantalising-tests-for-london-classic-super-rapid",
-      "date": "2026-11-13T08:00:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Sports quiz of the week: records, rancour, rivalry and recriminations",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/13/sports-quiz-week-football-hockey-nfl-rugby-golf-tennis-cricket",
-      "date": "2026-11-13T08:00:14Z",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5rmg2djmm1lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T11:53:05Z",
       "league": "all"
     }
   ]
