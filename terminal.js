@@ -1,0 +1,260 @@
+(() => {
+  'use strict';
+
+  const $ = id => document.getElementById(id);
+  const topics = {
+    Fed: 'Markets', SEC: 'Markets', CFTC: 'Markets', Business: 'Markets',
+    Treasury: 'Government', DOJ: 'Government', FDA: 'Government', Washington: 'Government',
+    Politics: 'Government', DEA: 'Regulation', 'US News': 'U.S. news',
+  };
+  const timeFormat = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'UTC', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  });
+  const refreshInterval = 60_000;
+  const pageSize = 40;
+  const maxItems = 500;
+  const headlines = $('headlines');
+  const showNew = $('show-new');
+  const checkNow = $('check-now');
+  const autoRefresh = $('auto-refresh');
+  const keyword = $('keyword');
+  const topic = $('topic');
+  const source = $('source');
+  const official = $('official');
+
+  let known = new Map();
+  let displayed = [];
+  let displayedKeys = new Set();
+  let pending = [];
+  let limit = pageSize;
+  let checking = false;
+  let lastCheck = 0;
+  let snapshotAt = 0;
+  let directAt = 0;
+  let directStatus = 'unavailable';
+  let directSources = [];
+  let lastConnection = '';
+
+  function node(tag, text, className) {
+    const element = document.createElement(tag);
+    if (text !== undefined) element.textContent = text;
+    if (className) element.className = className;
+    return element;
+  }
+
+  function formatTime(timestamp) {
+    return timeFormat.format(timestamp) + ' UTC';
+  }
+
+  function itemFrom(row, now) {
+    if (!row || typeof row.title !== 'string' || !row.title.trim()
+        || typeof row.source !== 'string' || !row.source.trim()) return null;
+    const time = Date.parse(row.published_at);
+    if (!Number.isFinite(time) || time > now) return null;
+    let url;
+    try { url = new URL(row.url); } catch { return null; }
+    if (!['https:', 'http:'].includes(url.protocol) || url.username || url.password) return null;
+
+    const href = url.href;
+    url.hash = '';
+    for (const name of [...url.searchParams.keys()]) {
+      if (/^(?:utm_.*|at_campaign|at_medium|CMP|ocid)$/i.test(name)) url.searchParams.delete(name);
+    }
+    url.searchParams.sort();
+    return {
+      key: url.origin + url.pathname.replace(/\/$/, '') + url.search,
+      title: row.title.trim(), href, time, source: row.source.trim(),
+      topic: Object.hasOwn(topics, row.category) ? topics[row.category]
+        : (typeof row.category === 'string' && row.category) || 'Other',
+      official: /^Official(?:\s|$)/i.test(row.source_type || ''),
+    };
+  }
+
+  function addItems(items) {
+    const now = Date.now();
+    for (const row of items) {
+      const item = itemFrom(row, now);
+      if (!item) continue;
+      const previous = known.get(item.key);
+      if (!previous || (item.official && !previous.official)) known.set(item.key, item);
+    }
+    known = new Map([...known].sort((a, b) => b[1].time - a[1].time).slice(0, maxItems));
+  }
+
+  function options(select, values, allLabel) {
+    const selected = select.value;
+    select.replaceChildren(new Option(allLabel, ''));
+    for (const value of [...new Set(values)].sort((a, b) => a.localeCompare(b))) {
+      select.add(new Option(value, value));
+    }
+    select.value = values.includes(selected) ? selected : '';
+  }
+
+  function matches() {
+    const terms = keyword.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return displayed.filter(item => {
+      const searchable = (item.title + ' ' + item.source + ' ' + item.topic).toLowerCase();
+      return (!topic.value || item.topic === topic.value)
+        && (!source.value || item.source === source.value)
+        && (!official.checked || item.official)
+        && terms.every(term => searchable.includes(term));
+    });
+  }
+
+  function renderItems() {
+    const filtered = matches();
+    const rows = filtered.slice(0, limit);
+    const fragment = document.createDocumentFragment();
+    for (const item of rows) {
+      const li = node('li', undefined, 'row');
+      const time = node('time', formatTime(item.time));
+      time.dateTime = new Date(item.time).toISOString();
+      const detail = node('div');
+      const link = node('a', item.title, 'row-title');
+      link.href = item.href;
+      const meta = node('p', undefined, 'row-meta');
+      meta.append(node('span', item.source), node('span', item.topic));
+      if (item.official) meta.append(node('span', 'Official source', 'official'));
+      detail.append(link, meta);
+      li.append(time, detail);
+      fragment.append(li);
+    }
+    headlines.replaceChildren(fragment);
+    $('paging').hidden = rows.length >= filtered.length;
+    const count = $('result-count');
+    count.hidden = false;
+    count.textContent = filtered.length
+      ? 'Showing ' + rows.length + ' of ' + filtered.length + ' headlines'
+      : displayed.length ? 'No headlines match these filters.' : 'No headlines are available yet.';
+  }
+
+  function showCurrent() {
+    displayed = [...known.values()];
+    displayedKeys = new Set(known.keys());
+    pending = [];
+    options(topic, displayed.map(item => item.topic), 'All topics');
+    options(source, displayed.map(item => item.source), 'All sources');
+    renderItems();
+  }
+
+  function renderPending() {
+    const label = pending.length === 1 ? 'Show 1 new headline' : 'Show ' + pending.length + ' new headlines';
+    if (pending.length || document.activeElement === showNew) showNew.hidden = false;
+    else showNew.hidden = true;
+    showNew.textContent = pending.length ? label : 'Headlines up to date';
+    showNew.setAttribute('aria-disabled', String(!pending.length));
+    const available = pending.length + (pending.length === 1 ? ' new headline' : ' new headlines');
+    setText($('new-status'), pending.length ? available + ' available.' : '');
+  }
+
+  function setText(element, value) {
+    if (element.textContent !== value) element.textContent = value;
+  }
+
+  function renderStatus(announce = false) {
+    const available = directSources.filter(feed => feed.available).length;
+    let status;
+    if (directStatus === 'available') {
+      status = 'Direct feeds checked ' + formatTime(directAt) + ' · '
+        + available + ' of ' + directSources.length + ' sources responding';
+    } else if (snapshotAt) {
+      status = 'News wire snapshot from ' + formatTime(snapshotAt) + ' · Direct feeds unavailable';
+    } else if (displayed.length) {
+      status = 'Showing the last loaded headlines · Refresh unavailable';
+    } else {
+      status = 'Headline feeds are unavailable. Use Refresh to try again.';
+    }
+    if (!autoRefresh.checked) status += ' · Auto-refresh paused';
+    setText($('feed-status'), status);
+    const connection = [directStatus, available, Boolean(snapshotAt)].join(':');
+    if (announce || connection !== lastConnection) setText($('connection-status'), status);
+    lastConnection = connection;
+    if (directSources.length) {
+      $('feed-details').hidden = false;
+      $('feed-sources').replaceChildren(...directSources.map(feed =>
+        node('li', feed.source + (feed.available ? ' · Responding' : ' · Unavailable'))));
+    }
+  }
+
+  async function json(path) {
+    const response = await fetch(path, { cache: 'no-cache', signal: AbortSignal.timeout(12_000) });
+    if (!response.ok) throw new Error('Feed returned HTTP ' + response.status);
+    const data = await response.json();
+    if (!Array.isArray(data.items)) throw new Error('Missing headline entries');
+    return data;
+  }
+
+  async function check(manual = false) {
+    if (checking) return;
+    checking = true;
+    lastCheck = Date.now();
+    checkNow.setAttribute('aria-disabled', 'true');
+
+    try {
+      const [direct, snapshot] = await Promise.allSettled([json('./api/wire'), json('./data/news.json')]);
+      if (direct.status === 'fulfilled' && Array.isArray(direct.value.feeds)
+          && Number.isFinite(Date.parse(direct.value.checked_at))) {
+        directAt = Date.parse(direct.value.checked_at);
+        directSources = direct.value.feeds.filter(feed => feed && typeof feed.source === 'string');
+        directStatus = directSources.some(feed => feed.available) ? 'available' : 'unavailable';
+        if (directStatus === 'available') addItems(direct.value.items);
+      } else {
+        directStatus = 'unavailable';
+        directSources = [];
+        $('feed-details').hidden = true;
+      }
+      if (snapshot.status === 'fulfilled') {
+        snapshotAt = Date.parse(snapshot.value.updated_at) || 0;
+        addItems(snapshot.value.items);
+      }
+
+      if ((!displayed.length || manual) && known.size) showCurrent();
+      else if (displayed.length) pending = [...known.keys()].filter(key => !displayedKeys.has(key));
+      else renderItems();
+
+      renderStatus(manual);
+      renderPending();
+    } finally {
+      checking = false;
+      checkNow.setAttribute('aria-disabled', 'false');
+    }
+  }
+
+  for (const filter of [keyword, topic, source, official]) {
+    filter.addEventListener(filter === keyword ? 'input' : 'change', () => {
+      limit = pageSize;
+      renderItems();
+    });
+  }
+  $('show-more').addEventListener('click', () => {
+    const firstNew = limit;
+    limit += pageSize;
+    renderItems();
+    headlines.querySelectorAll('a')[firstNew]?.focus();
+  });
+  showNew.addEventListener('click', () => {
+    if (!pending.length) return;
+    showCurrent();
+    renderPending();
+  });
+  showNew.addEventListener('blur', () => {
+    if (!pending.length) showNew.hidden = true;
+  });
+  checkNow.addEventListener('click', () => check(true));
+  autoRefresh.addEventListener('change', () => {
+    renderStatus(true);
+    if (autoRefresh.checked) check();
+  });
+
+  function refreshIfDue() {
+    if (autoRefresh.checked && !document.hidden && Date.now() - lastCheck >= refreshInterval) check();
+  }
+
+  $('filters').hidden = false;
+  $('wire-actions').hidden = false;
+  setInterval(() => {
+    if (autoRefresh.checked && !document.hidden) check();
+  }, refreshInterval);
+  document.addEventListener('visibilitychange', refreshIfDue);
+  check();
+})();

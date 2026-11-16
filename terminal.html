@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101418">
+  <meta name="description" content="Follow Standalone News headlines in a continuously refreshed feed with filters by topic and source.">
+  <title>News Terminal | Standalone News</title>
+  <link rel="canonical" href="https://standalonenews.com/terminal">
+  <link rel="icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./terminal.css">
+  <script defer src="./terminal.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to headlines</a>
+  <header class="top">
+    <div class="shell top-inner">
+      <a class="brand" href="./">STANDALONE <span>NEWS</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="./#wire">News wire</a>
+        <a href="./markets.html">Markets</a>
+        <a href="./articles/">Explainers</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+    <div class="title-row">
+      <div>
+        <h1>News Terminal</h1>
+        <p class="lede">Latest headlines and official releases, linked to their sources.</p>
+      </div>
+      <div class="actions" id="wire-actions" hidden>
+        <label class="check"><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>
+        <button id="check-now" type="button" aria-disabled="false">Refresh</button>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="sidebar">
+        <fieldset id="filters" hidden>
+          <legend>Filters</legend>
+          <label for="keyword">Keyword</label>
+          <input id="keyword" type="search" spellcheck="false" placeholder="Search headlines or sources">
+          <label for="topic">Topic</label>
+          <select id="topic"><option value="">All topics</option></select>
+          <label for="source">Source</label>
+          <select id="source"><option value="">All sources</option></select>
+          <label class="check"><input id="official" type="checkbox"> Official sources only</label>
+        </fieldset>
+        <details id="feed-details" hidden>
+          <summary>Feed sources</summary>
+          <ul id="feed-sources"></ul>
+        </details>
+      </div>
+
+      <section class="wire" aria-labelledby="feed-heading">
+        <div class="wire-heading">
+          <h2 id="feed-heading">Latest headlines</h2>
+          <p id="feed-status">Connecting to the news wire…</p>
+          <span class="sr-only" id="connection-status" role="status"></span>
+          <div class="new-items">
+            <button id="show-new" type="button" aria-disabled="true" hidden>Show new headlines</button>
+            <span class="sr-only" id="new-status" role="status"></span>
+          </div>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite" hidden></p>
+        <ol id="headlines" class="headlines" aria-label="Headlines, newest first"></ol>
+        <div id="paging" hidden><button id="show-more" type="button">Show more headlines</button></div>
+        <noscript><p><a href="./feed.xml">Open the Standalone News RSS feed</a> or enable JavaScript to use the terminal.</p></noscript>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
