@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T21:54:02Z",
+  "updated_at": "2026-11-16T01:27:07Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 18,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -33,7 +33,7 @@
     {
       "id": "ncaaf",
       "name": "College Football",
-      "events": 2
+      "events": 1
     },
     {
       "id": "ncaab",
@@ -53,7 +53,7 @@
     {
       "id": "bundesliga",
       "name": "German Bundesliga",
-      "events": 2
+      "events": 1
     },
     {
       "id": "seriea",
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 2
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -103,7 +103,7 @@
     {
       "id": "mls",
       "name": "MLS",
-      "events": 1
+      "events": 0
     }
   ],
   "events": [
@@ -458,78 +458,58 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475522",
+      "id": "sportsdb-2475523",
       "league": "nfl",
-      "name": "Cincinnati Bengals vs Pittsburgh Steelers",
-      "date": "2026-11-16T01:20:00Z",
+      "name": "Baltimore Ravens vs Los Angeles Chargers",
+      "date": "2026-11-17T01:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Cincinnati Bengals",
+          "name": "Baltimore Ravens",
           "score": ""
         },
         {
-          "name": "Pittsburgh Steelers",
+          "name": "Los Angeles Chargers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601856",
+      "id": "sportsdb-2601861",
       "league": "nba",
-      "name": "Utah Jazz vs San Antonio Spurs",
-      "date": "2026-11-15T22:00:00Z",
+      "name": "Sacramento Kings vs Oklahoma City Thunder",
+      "date": "2026-11-16T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Utah Jazz",
+          "name": "Sacramento Kings",
           "score": ""
         },
         {
-          "name": "San Antonio Spurs",
+          "name": "Oklahoma City Thunder",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591810",
+      "id": "sportsdb-2591813",
       "league": "nhl",
-      "name": "Philadelphia Flyers vs Edmonton Oilers",
-      "date": "2026-11-16T00:30:00Z",
+      "name": "San Jose Sharks vs Nashville Predators",
+      "date": "2026-11-16T02:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Philadelphia Flyers",
+          "name": "San Jose Sharks",
           "score": ""
         },
         {
-          "name": "Edmonton Oilers",
+          "name": "Nashville Predators",
           "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2499263",
-      "league": "ncaaf",
-      "name": "Oklahoma vs Ole Miss",
-      "date": "2026-11-15T18:00:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Oklahoma",
-          "score": "24",
-          "winner": true
-        },
-        {
-          "name": "Ole Miss",
-          "score": "17"
         }
       ],
       "url": ""
@@ -592,26 +572,6 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2508408",
-      "league": "bundesliga",
-      "name": "Hoffenheim vs Schalke 04",
-      "date": "2026-11-08T18:30:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Hoffenheim",
-          "score": "2",
-          "winner": true
-        },
-        {
-          "name": "Schalke 04",
-          "score": "1"
-        }
-      ],
-      "url": ""
-    },
-    {
       "id": "sportsdb-2508414",
       "league": "bundesliga",
       "name": "Bayern Munich vs Köln",
@@ -648,117 +608,126 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489551",
-      "league": "ligue1",
-      "name": "Lens vs Marseille",
-      "date": "2026-11-08T19:45:00Z",
-      "state": "final",
-      "status": "FT",
-      "participants": [
-        {
-          "name": "Lens",
-          "score": "1"
-        },
-        {
-          "name": "Marseille",
-          "score": "2",
-          "winner": true
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2627200",
-      "league": "mls",
-      "name": "Orlando City vs FC Cincinnati",
-      "date": "2026-11-20T00:30:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Orlando City",
-          "score": ""
-        },
-        {
-          "name": "FC Cincinnati",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Spain 2-3 England: Nations League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/15/spain-v-england-nations-league-live",
-      "date": "2026-11-15T21:48:09Z",
+      "title": "Much still to do on F1 diversity - Hamilton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T00:04:45Z",
       "league": "all"
     },
     {
-      "title": "WTA Finals final: Elina Svitolina v Mirra Andreeva – live",
+      "title": "How did England cling on against Spain and what did Tuchel do differently?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6742l4z91lwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T00:02:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Lewis Hamilton urges F1 to ‘push harder and move faster’ on diversity",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/15/wta-finals-final-elina-svitolina-v-mirra-andreeva-live",
-      "date": "2026-11-15T21:44:06Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/lewis-hamilton-urges-f1-push-harder-move-faster-diversity",
+      "date": "2026-11-16T00:01:27Z",
+      "league": "all"
+    },
+    {
+      "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c933ge310n33o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T23:52:43Z",
+      "league": "all"
+    },
+    {
+      "title": "Three Lions’ win over Spain comes in two acts: the first superb, the second heroic | Sid Lowe",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/15/england-superb-heroic-spain-nations-league",
+      "date": "2026-11-15T23:50:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Teenager Andreeva caps stunning week with WTA Finals title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c61740145y7wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T23:18:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pn5rdk?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T23:16:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "First win for Duncan after 12 years & 222 attempts",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cq39gn9zy4v9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T23:13:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Wilson survives Wakelin comeback for third consecutive title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmx29l9lzxn8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T23:13:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Hopkins’ late stunner sends Kansas City past Gotham and into NWSL final",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
+      "date": "2026-11-15T23:03:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Greaves out of Grand Slam despite win over Zonneveld",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/cxlylvy2m5lqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T22:54:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Mirra Andreeva holds nerve against Svitolina to win WTA Finals for first time",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/15/mirra-andreeva-elina-svitolina-wta-finals-tennis",
+      "date": "2026-11-15T22:39:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Who swaggered around like he owned the place? Spain v England ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjg46lrpllrpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T22:12:55Z",
+      "league": "all"
+    },
+    {
+      "title": "London City earn point in thrilling draw against Arsenal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rd2e400jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T22:06:41Z",
+      "league": "all"
+    },
+    {
+      "title": "Zverev 'felt a lot of joy' in first win as world number one",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T21:57:42Z",
+      "league": "all"
+    },
+    {
+      "title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
+      "date": "2026-11-15T21:56:41Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL roundup: Vikings win on Cousins’ return; Hutchinson reportedly ends season celebrating sack",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores",
+      "date": "2026-11-15T21:55:13Z",
       "league": "all"
     },
     {
@@ -784,10 +753,10 @@
     },
     {
       "title": "Aston Villa beat Birmingham in WSL derby",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjp3v5pndyz1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T19:47:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Struggling Charlton make WSL history after defeat at West Ham",
@@ -846,20 +815,6 @@
       "league": "soccer"
     },
     {
-      "title": "NFL roundup: Cousins wins on Vikings return; Hutchinson injures knee celebrating sack",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores",
-      "date": "2026-11-15T18:21:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Zverev 'felt a lot of joy' in first win as world number one",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T18:00:57Z",
-      "league": "all"
-    },
-    {
       "title": "England handed boost for All Blacks clash with Furbank leading return of cavalry",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/15/england-new-zealand-rugby-union-nations-championship-george-furbank-chessum-atkinson",
@@ -903,10 +858,10 @@
     },
     {
       "title": "Tenerife return to action after death of De Miguel",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqx2xn535yj8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T16:38:51Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'They reign supreme!' - Australia beat NZ to lift World Cup again",
@@ -917,10 +872,10 @@
     },
     {
       "title": "Why Northern Ireland won't focus on point they need in Hungary",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T16:04:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McIlroy wins Race to Dubai after thrilling final day",
@@ -937,17 +892,10 @@
       "league": "all"
     },
     {
-      "title": "Club's first match after player's death abandoned because of serious injury",
-      "source": "BBC Sport",
+      "title": "Club's first match since player's death abandoned because of serious injury",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T14:06:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Bristol Rovers being let down by poor players - Evans",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx1l0g217veqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T13:55:09Z",
       "league": "soccer"
     },
     {
@@ -956,13 +904,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c5y4jn2zw3yno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T13:49:17Z",
       "league": "soccer"
-    },
-    {
-      "title": "Curran's best weapon? The 'moon ball' strikes again",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c0q44le0z5wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T13:34:57Z",
-      "league": "all"
     },
     {
       "title": "'We got disrespected' - Walsh and Australia make World Cup point",
@@ -983,83 +924,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T12:14:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Record-breaking Andy Robertson is Scotland’s finest captain",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/15/record-breaking-andy-robertson-is-scotlands-finest-captain",
-      "date": "2026-11-15T12:00:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Banton pushes case and bowlers sparkle for inconsistent England",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8n50wgr6vd4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:56:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Banton’s century leads England to emphatic win in second ODI amid Australian soap opera",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/tom-banton-century-england-win-second-mens-cricket-odi-australia",
-      "date": "2026-11-15T11:51:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Wenger decides not to challenge Fifa chief Infantino",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c539gn33z1l3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:28:25Z",
-      "league": "soccer"
-    },
-    {
-      "title": "History, euphoria and no more dreaming – are Wales back after win over All Blacks?",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/history-euphoria-no-more-dreaming-wales-victory-all-blacks-rugby-union",
-      "date": "2026-11-15T11:22:13Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia overpower New Zealand to win fourth consecutive men’s Rugby League World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/australia-kangaroos-new-zealand-kiwis-mens-rugby-league-world-cup-final-match-report",
-      "date": "2026-11-15T10:49:12Z",
-      "league": "all"
-    },
-    {
-      "title": "The UFC is hard to like. The brilliant Kayla Harrison shows why it’s harder to dismiss | Bryan Armen Graham",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/kayla-harrison-ufc-womens-mma-dana-white-trump",
-      "date": "2026-11-15T10:30:10Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Australia's Sayers 'took sandpaper from field' & rejects Cummins' claims",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c9ly4jm8djy7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T09:33:33Z",
-      "league": "all"
-    },
-    {
-      "title": "Ruthless Australia win record fourth Women's World Cup",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/c50mdzx3j039o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T09:12:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Reality dawns after Wales dared to dream",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cvx2xnyxl85ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T08:58:32Z",
-      "league": "all"
-    },
-    {
-      "title": "England are favourites against All Blacks, and fearless Wales are an inspiration",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6wy41738nv7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T08:47:46Z",
       "league": "all"
     }
   ]
