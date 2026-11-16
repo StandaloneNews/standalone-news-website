@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:27:07Z",
+  "updated_at": "2026-11-16T08:15:20Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -477,38 +477,38 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601861",
+      "id": "sportsdb-2601862",
       "league": "nba",
-      "name": "Sacramento Kings vs Oklahoma City Thunder",
-      "date": "2026-11-16T02:00:00Z",
+      "name": "Washington Wizards vs Memphis Grizzlies",
+      "date": "2026-11-17T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sacramento Kings",
+          "name": "Washington Wizards",
           "score": ""
         },
         {
-          "name": "Oklahoma City Thunder",
+          "name": "Memphis Grizzlies",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591813",
+      "id": "sportsdb-2591815",
       "league": "nhl",
-      "name": "San Jose Sharks vs Nashville Predators",
-      "date": "2026-11-16T02:00:00Z",
+      "name": "New York Rangers vs Montreal Canadiens",
+      "date": "2026-11-17T00:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Jose Sharks",
+          "name": "New York Rangers",
           "score": ""
         },
         {
-          "name": "Nashville Predators",
+          "name": "Montreal Canadiens",
           "score": ""
         }
       ],
@@ -612,6 +612,104 @@
   ],
   "stories": [
     {
+      "title": "Brock Purdy was once dismissed as a system guy. Now he is THE guy",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/brock-purdy-san-francisco-49ers-nfl",
+      "date": "2026-11-16T08:02:53Z",
+      "league": "all"
+    },
+    {
+      "title": "Watch: Partick Thistle & Ross County stretch leads as Clyde hit six",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cky8699zd79lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T08:02:51Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Wales’ epic upset against All Blacks offers fresh hope for rank outsiders | Robert Kitson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/wales-new-zealand-england-france-south-africa-rugby-union-nations-championship",
+      "date": "2026-11-16T08:00:38Z",
+      "league": "all"
+    },
+    {
+      "title": "European football body’s secret plan to go global leaves Fifa on tenterhooks",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/16/fifa-waits-european-football-clubs-plan-global",
+      "date": "2026-11-16T08:00:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Vote for the best men's European striker this century",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmpw45kx90npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T07:59:20Z",
+      "league": "all"
+    },
+    {
+      "title": "49ers stun Cowboys, Chiefs and Bengals impress - NFL week 10",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/cmjre22gz0wwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T07:33:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Homophobia on the rise in football - what is your club doing about it?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c617ked5wn9po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T07:26:27Z",
+      "league": "all"
+    },
+    {
+      "title": "What do Scotland do about 'scunnered' Gannon-Doak?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c64gnpvdld40o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T07:09:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Formula 1's one-race wonders",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqp9dr4kedd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T06:53:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqy0el2jy17ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T06:23:57Z",
+      "league": "all"
+    },
+    {
+      "title": "‘A small price to pay’: Usman Khawaja defends book claims amid deepening rifts",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/a-small-price-to-pay-usman-khawaja-defends-book-claims-amid-deepening-rifts",
+      "date": "2026-11-16T04:58:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales must look to back up All Blacks win - Tandy",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqpv9zxpny13o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T04:31:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Cardiff's Kronk? The gym where Welsh champions train",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cmy4xxqv150yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T04:16:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Leihani Zoric, 14, stuns surfing world with gold medal to give Australia Olympic boost",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/australian-surfer-leihani-zoric-14-wins-gold-isa-world-surfing-games",
+      "date": "2026-11-16T03:50:53Z",
+      "league": "all"
+    },
+    {
       "title": "Much still to do on F1 diversity - Hamilton",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/formula1/articles/c52e8kpnje42o?at_medium=RSS&at_campaign=rss",
@@ -668,18 +766,11 @@
       "league": "all"
     },
     {
-      "title": "Wilson survives Wakelin comeback for third consecutive title",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/cmx29l9lzxn8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T23:13:15Z",
-      "league": "all"
-    },
-    {
       "title": "Hopkins’ late stunner sends Kansas City past Gotham and into NWSL final",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/15/kansas-city-current-gotham-fc-nwsl-semi-final-haley-hopkins",
       "date": "2026-11-15T23:03:38Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Greaves out of Grand Slam despite win over Zonneveld",
@@ -710,24 +801,10 @@
       "league": "all"
     },
     {
-      "title": "Zverev 'felt a lot of joy' in first win as world number one",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T21:57:42Z",
-      "league": "all"
-    },
-    {
-      "title": "England fend off fiery Spain fightback after Anderson’s red to top Nations League group",
+      "title": "Australia slowly going nowhere after trudge through Murrayfield rain | Daniel Gallan",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/15/spain-england-nations-league-match-report",
-      "date": "2026-11-15T21:56:41Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL roundup: Vikings win on Cousins’ return; Hutchinson reportedly ends season celebrating sack",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores",
-      "date": "2026-11-15T21:55:13Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/15/australia-wallabies-scotland-murrayfield-nations-championship-rugby-union",
+      "date": "2026-11-15T21:50:01Z",
       "league": "all"
     },
     {
@@ -746,10 +823,10 @@
     },
     {
       "title": "London City's 'bravery' paying off in top three pursuit",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6y49gzjgew5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T20:03:08Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Aston Villa beat Birmingham in WSL derby",
@@ -795,38 +872,24 @@
     },
     {
       "title": "Mary Earps frustrates Arsenal as London City Lionesses earn battling draw",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/15/arsenal-london-city-lionesses-womens-super-league-wsl-match-report",
       "date": "2026-11-15T18:53:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Aberdeen appoint Liechtenstein's Frick as head coach",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T18:27:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Children's tournament abandoned for parents' behaviour",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp867d026nno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T18:24:54Z",
       "league": "soccer"
     },
     {
-      "title": "England handed boost for All Blacks clash with Furbank leading return of cavalry",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/england-new-zealand-rugby-union-nations-championship-george-furbank-chessum-atkinson",
-      "date": "2026-11-15T18:00:19Z",
-      "league": "all"
+      "title": "Aberdeen appoint Liechtenstein's Frick as head coach",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqrmgz9ypvwko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T18:27:08Z",
+      "league": "soccer"
     },
     {
       "title": "Why 'inspiring' Van Gaal influences Scotland head coach Pocognoli",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw1mdl14dzx8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T17:56:57Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Caryl Oliver obituary",
@@ -843,18 +906,11 @@
       "league": "all"
     },
     {
-      "title": "AS FAR retain Women's African Champions League title",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckdd10v6vqjpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T17:23:45Z",
-      "league": "soccer"
-    },
-    {
       "title": "Chapecoense air crash survivor wins promotion in final game",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T17:10:24Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Tenerife return to action after death of De Miguel",
@@ -868,62 +924,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cw07492d8gv3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-15T16:29:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Why Northern Ireland won't focus on point they need in Hungary",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm1ew79gnxnxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T16:04:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "McIlroy wins Race to Dubai after thrilling final day",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/videos/c5lyk087yxjko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T15:34:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Triumph or flop? The Rugby League World Cup that split opinion",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cwdr1dl21l1vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T15:07:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Club's first match since player's death abandoned because of serious injury",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm98xd2dpjd7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T14:06:19Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pitch perimeters under review after Vigar death",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5y4jn2zw3yno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T13:49:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'We got disrespected' - Walsh and Australia make World Cup point",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cw808lm89x81o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T12:50:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Emotional Rory McIlroy dedicates record-equalling eighth Race to Dubai title to father",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/15/rory-mcilroy-wins-golfs-race-to-dubai-title-for-record-equalling-eighth-time",
-      "date": "2026-11-15T12:29:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Tearful McIlroy dedicates record-equalling win to ill dad",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c6kg7rwmz1g8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T12:14:04Z",
       "league": "all"
     }
   ]
