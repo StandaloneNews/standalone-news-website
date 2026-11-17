@@ -1,4 +1,4 @@
-"""Apply site-wide keyboard navigation and legal links to published HTML."""
+"""Apply shared navigation and link behavior to published HTML."""
 import re
 
 LEGAL_LINKS = (
@@ -9,6 +9,7 @@ LEGAL_LINKS = (
     ("/contact.html", "Contact"),
 )
 CHROME_CSS = '<link rel="stylesheet" href="/site-accessibility.css?v=1">'
+OUTBOUND_SCRIPT = '<script defer src="/outbound-links.js?v=1"></script>'
 MAIN_TAG = re.compile(r"<main\b[^>]*>", re.I)
 ID_ATTRIBUTE = re.compile(r'''\bid=["']([^"']+)["']''', re.I)
 FOOTER = re.compile(r"<footer\b[^>]*>[\s\S]*?</footer>", re.I)
@@ -29,6 +30,8 @@ def with_site_chrome(page: str) -> str:
     page = page[:main.start()] + tag + page[main.end():]
     if CHROME_CSS not in page:
         page = page.replace("</head>", CHROME_CSS + "\n</head>", 1)
+    if OUTBOUND_SCRIPT not in page:
+        page = page.replace("</head>", OUTBOUND_SCRIPT + "\n</head>", 1)
 
     has_skip = any(
         re.search(r'''\bclass=["'][^"']*\b(?:skip-link|skip|site-skip-link)\b''', anchor)
