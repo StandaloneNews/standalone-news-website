@@ -114,13 +114,13 @@ jobs:
               }
               assert(shown, 'Logo and headlines must render at ' + width);
               const { result } = await call('Runtime.evaluate', {
-                expression: '({ paper: getComputedStyle(document.body).backgroundColor, accent: getComputedStyle(document.querySelector(".top")).borderTopColor, width: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth, brand: document.querySelector(".brand img").getBoundingClientRect().width, links: document.querySelectorAll("#headlines a").length })',
+                expression: '({ paper: getComputedStyle(document.body).backgroundColor, accent: getComputedStyle(document.querySelector(".top")).borderTopColor, viewport: innerWidth, width: document.documentElement.clientWidth, scrollWidth: document.documentElement.scrollWidth, brand: document.querySelector(".brand img").getBoundingClientRect().width, links: document.querySelectorAll("#headlines a").length })',
                 returnByValue: true,
               });
               assert.equal(result.value.paper, 'rgb(253, 252, 243)');
               assert.equal(result.value.accent, 'rgb(255, 197, 0)');
-              assert.equal(result.value.width, width);
-              assert(result.value.scrollWidth <= width, 'Horizontal overflow at ' + width);
+              assert.equal(result.value.viewport, width);
+              assert(result.value.scrollWidth <= result.value.width, 'Horizontal overflow at ' + width);
               assert.equal(result.value.brand, 46);
               console.log(width + 'px: logo loaded, theme applied and ' + result.value.links + ' headline links rendered without horizontal overflow.');
             }
