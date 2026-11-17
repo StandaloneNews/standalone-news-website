@@ -1,0 +1,81 @@
+name: Verify live feeds for Reuters and other established publishers
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check recent titles, origin hosts and dates on public feeds
+        run: |
+          python3 - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from datetime import datetime, timedelta, timezone
+          from email.utils import parsedate_to_datetime
+          from urllib.parse import urlencode, urlsplit
+          from urllib.request import Request, urlopen
+          from xml.etree import ElementTree as ET
+          import json
+          def google(domain):
+              return 'https://news.google.com/rss/search?'+urlencode({'q':f'site:{domain} when:2d','hl':'en-US','gl':'US','ceid':'US:en'})
+          feeds = [
+              ('Reuters','World','reuters.com',''),('Associated Press','US News','apnews.com',''),
+              ('POLITICO','Government','politico.com',''),('USA TODAY','US News','usatoday.com',''),
+              ('Barron’s','Markets','barrons.com',''),('Yahoo Finance','Markets','finance.yahoo.com',''),
+              ('The Independent','World','independent.co.uk',''),
+              ('The Globe and Mail','World','theglobeandmail.com',''),
+              ('The Telegraph','World','telegraph.co.uk',''),
+              ('The Economist','Economy','','https://www.economist.com/finance-and-economics/rss.xml'),
+              ('Christian Science Monitor','US News','','https://www.csmonitor.com/rss/csm'),
+              ('Le Monde in English','World','','https://www.lemonde.fr/en/rss_full.xml'),
+              ('CBC News','World','','https://www.cbc.ca/cmlink/rss-topstories'),
+              ('The Independent direct','World','','https://www.independent.co.uk/news/world/rss'),
+              ('AFP','World','','https://www.france24.com/en/europe/rss'),
+              ('UN News','World','','https://news.un.org/feed/subscribe/en/news/all/rss.xml'),
+          ]
+          def local(tag):
+              return tag.rsplit('}',1)[-1].lower()
+          def check(row):
+              name,topic,domain,feed=row
+              try:
+                  req=Request(feed or google(domain),headers={'User-Agent':'StandaloneNewsRSS/1.0 (+https://standalonenews.com/)','Accept':'application/rss+xml, application/atom+xml, application/xml, text/xml'})
+                  with urlopen(req,timeout=8) as response:
+                      url=response.geturl()
+                      content=response.read(1_500_000)
+                  root=ET.fromstring(content)
+                  if local(root.tag) not in {'rss','feed','rdf'}:raise ValueError('Non-feed XML')
+                  now=datetime.now(timezone.utc)
+                  ages, hosts, names, links = [], set(), set(), set()
+                  for item in root.iter():
+                      if local(item.tag) not in {'entry','item'}: continue
+                      fields={local(child.tag):child for child in item}
+                      stamp=next((fields[key].text or '' for key in ('pubdate','published','updated','date') if key in fields),'')
+                      try:
+                          date=parsedate_to_datetime(stamp)
+                      except (TypeError,ValueError):
+                          try:date=datetime.fromisoformat(stamp.replace('Z','+00:00'))
+                          except ValueError:continue
+                      if not date.tzinfo:continue
+                      source=fields.get('source')
+                      if source is not None:
+                          site=urlsplit(source.get('url','')).hostname or ''
+                          hosts.add(site)
+                          if source.text:names.add(source.text)
+                          link=fields.get('link')
+                          if link is not None and link.text:
+                              out=urlsplit(link.text.strip())
+                              links.add((out.hostname or '')+'/'+out.path.strip('/').split('/')[0])
+                          if domain and site!=domain and not site.endswith('.'+domain):continue
+                      elif domain:continue
+                      if timedelta(0) <= now-date <= timedelta(days=3):ages.append(date)
+                  return ['OK',name,topic,domain,url,len(content),len(ages),str(max(ages,default='')),sorted(hosts)[:8],sorted(names)[:8],sorted(links)[:8]]
+              except Exception as exc:return ['ERROR',name,str(exc)]
+          with ThreadPoolExecutor(max_workers=10) as pool:
+              for row in pool.map(check,feeds):print('RESULT',json.dumps(row),flush=True)
+          PY
