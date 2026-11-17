@@ -1,0 +1,75 @@
+name: Verify Reuters and the expanded news sources on the live site
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check Reuters, AP, and additional sources in production
+        run: |
+          python3 - <<'PY'
+          import json,time,urllib.request,urllib.parse
+          base='https://standalonenews.com'
+          names={'Reuters','Associated Press','POLITICO','USA TODAY',"Barron's",'Yahoo Finance','The Independent','The Globe and Mail','The Economist'}
+          def get(path):
+              req=urllib.request.Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=14) as response:return response.read().decode()
+          for attempt in range(24):
+              try:
+                  page=get('/')
+                  wire=json.loads(get('/api/wire'))
+                  archive=json.loads(get('/data/news.json'))
+                  live={name:sum(x['source']==name for x in wire['items']) for name in sorted(names)}
+                  scheduled={name:sum(x['source']==name for x in archive['items']) for name in sorted(names)}
+                  reuters=[x for phase in (wire,archive) for x in phase['items'] if x['source']=='Reuters']
+                  ap=live['Associated Press']+scheduled['Associated Press']
+                  print('FEED LIVE',json.dumps({'attempt':attempt+1,'configured':len(wire['feeds']),'direct':live,'snapshot':scheduled}),flush=True)
+                  if 'terminal.js?v=8' in page and len(wire['feeds'])==38 and reuters and ap and sum(v>0 for v in scheduled.values())>=5:
+                      assert all(x['source_type']=='Google News discovery' and urllib.parse.urlsplit(x['url']).hostname=='news.google.com' for x in reuters)
+                      break
+              except Exception as exc:
+                  print('Live check',attempt+1,str(exc),flush=True)
+              time.sleep(12)
+          else:
+              raise SystemExit('Reuters or the expanded source snapshot was not available within the verification window.')
+          PY
+      - name: Filter the terminal by Reuters and confirm link behavior
+        run: |
+          npm install --prefix "$RUNNER_TEMP/verify-reuters" --no-audit --no-fund playwright-core@1.55.0
+          cd "$RUNNER_TEMP/verify-reuters"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              const page=await browser.newPage({viewport:{width:1320,height:940}});
+              await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
+              const source=page.locator('#source');
+              await source.locator('option[value="Reuters"]').waitFor({state:'attached',timeout:23000});
+              await page.locator('#filter-panel summary').click();
+              await source.selectOption('Reuters');
+              const article=page.locator('#headlines li').first();
+              await article.waitFor();
+              assert.match(await article.locator('.row-meta').innerText(),/Reuters.*via Google News/s);
+              assert.equal(await article.locator('time').getAttribute('title'),'Timestamp supplied by Google News');
+              const link=article.locator('a');
+              assert.match(await link.getAttribute('href'),/^https:\/\/news\.google\.com\/rss\/articles\//);
+              assert.equal(await link.getAttribute('target'),'_blank');
+              await page.locator('#official').check();
+              await page.locator('#headlines li').first().waitFor({state:'detached'});
+              await page.locator('#official').uncheck();
+              await source.selectOption('Associated Press');
+              assert.match(await article.locator('.row-meta').innerText(),/Associated Press.*via Google News/s);
+              console.log('LIVE BROWSER verified Reuters and AP source filters, source labels, timestamp disclosure, and new tabs.');
+            }finally{await browser.close();}
+          })().catch(e=>{console.error(e);process.exitCode=1;});
+          JS
