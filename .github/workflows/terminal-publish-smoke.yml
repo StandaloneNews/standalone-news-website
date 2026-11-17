@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 8011dbda2238f9eb8c8bfc599a35dfc1dbbeb896
+          ref: db563206e3bb7b5e95dab3ba1fc0c329d124dd75
           persist-credentials: false
       - name: Check section theme, links, contrast and basic interactions
         shell: bash
@@ -69,7 +69,7 @@ jobs:
                 if(state.width>width+2) failures.push([width,route,'horizontal overflow',state.width]);
                 if(width===1440 || (width===390 && route==='edition.html')) {
                   await page.addScriptTag({path:axe});
-                  const issues=await page.evaluate(async ()=>(await axe.run('body',{runOnly:['color-contrast']})).violations.flatMap(v=>v.nodes.map(n=>({target:n.target.join(' '),detail:n.any[0]?.failureSummary?.split('\n').at(-1),html:n.html.slice(0,125)}))));
+                  const issues=await page.evaluate(async ()=>(await axe.run('body',{runOnly:['color-contrast']})).violations.flatMap(v=>v.nodes.map(n=>({target:n.target.join(' '),detail:n.any[0]?.data,html:n.html.slice(0,125)}))));
                   if(issues.length) failures.push([width,route,'contrast',issues.slice(0,18)]);
                 }
               }
