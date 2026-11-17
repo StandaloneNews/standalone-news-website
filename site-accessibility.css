@@ -40,3 +40,9 @@ footer .site-legal-links a:focus-visible { outline: 2px solid #ffc500; outline-o
 }
 body.theme-broadsheet.theme-standards header { padding-inline: max(1rem, (100% - 56rem) / 2); }
 body.theme-broadsheet.theme-standards header .edition-wordmark { max-inline-size: 100%; white-space: normal; }
+
+.theme-broadsheet .sports-footer nav a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 44px;
+}
