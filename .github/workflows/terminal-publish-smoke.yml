@@ -6,7 +6,7 @@ on:
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   audit:
@@ -15,34 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: updates/terminal-legal-accessibility
-      - name: Apply the shared footer and keyboard navigation to published pages
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import sys
-          sys.path.insert(0, 'scripts')
-          from site_chrome import with_site_chrome
-          root = Path('.')
-          pages = [p for p in root.glob('*.html') if p.name not in {'shadow-test.html','terminal.html','market-embed.html'}]
-          pages.extend((root / 'articles').glob('*.html'))
-          for page in pages:
-              before = page.read_text(encoding='utf-8')
-              after = with_site_chrome(before)
-              assert with_site_chrome(after) == after, page
-              if after != before:
-                  page.write_text(after, encoding='utf-8')
-          print(f'Applied publication layout to {len(pages)} public pages.')
-          PY
-          git diff --check
-          git config user.name 'Standalone News Website'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- '*.html'
-          if ! git diff --cached --quiet; then
-            git commit -m 'Make legal footers and keyboard navigation available across the public site'
-            git push origin HEAD:refs/heads/updates/terminal-legal-accessibility
-          fi
-          git rev-parse HEAD
+          ref: e56fde17fd57b3183349081bef4d5a9ef9120a50
       - name: Validate existing site tests and CNN publication dates
         run: |
           python3 -m unittest discover -s tests -p 'test_*.py'
