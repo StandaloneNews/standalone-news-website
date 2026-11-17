@@ -1,30 +1,42 @@
-name: Verify the dark ticker, pause and reduced motion
+name: Verify the dark animated market bar on the live site
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  render:
+  live:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 7
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 413c1ae8e137171a39810314b40c37b9257b92da
-      - name: Run static accessibility checks
-        run: python3 -m unittest discover -s tests -p 'test_accessibility_static.py'
-      - name: Test TradingView prices, ticker motion and theme in Chromium
+      - name: Wait for the dark ticker deployment
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/market-bar-http.log 2>&1 &
+          python3 - <<'PY'
+          import time
+          import urllib.request
+          for attempt in range(18):
+              try:
+                  request = urllib.request.Request('https://standalonenews.com/',headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+                  page = urllib.request.urlopen(request,timeout=12).read().decode()
+                  if '<tv-ticker-tape' in page and 'href="./terminal.css?v=10"' in page:
+                      print('Live page is serving the new ticker.',flush=True)
+                      break
+                  print('Waiting for Cloudflare',attempt+1,flush=True)
+              except Exception as error:
+                  print(error,flush=True)
+              time.sleep(10)
+          else:
+              raise SystemExit('Ticker deployment was not visible within the verification window.')
+          PY
+      - name: Verify live quote data, dark colors, animation and pause behavior
+        run: |
           npm install --prefix "$RUNNER_TEMP/market-render" --no-audit --no-fund playwright-core@1.55.0 pngjs@7.0.0 axe-core@4.10.3
           cd "$RUNNER_TEMP/market-render"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
-          export MARKET_BAR_BASE="http://127.0.0.1:8080/"
+          export MARKET_BAR_BASE="https://standalonenews.com/"
           node --input-type=commonjs - <<'JS'
           const {chromium}=require('playwright-core');
           const {PNG}=require('pngjs');
