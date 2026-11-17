@@ -1,0 +1,142 @@
+name: Compare the calmer homepage with the previous terminal
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 042dd45882ff87751b167833c8746f033d0c38c3
+          path: after
+      - uses: actions/checkout@v4
+        with:
+          ref: 479754df69963e6ce99b446934a32579e6963325
+          path: before
+      - name: Run static accessibility checks
+        run: python3 -m unittest discover -s after/tests -p 'test_accessibility_static.py'
+      - name: Render and test desktop, phone, filters and expandable tools
+        run: |
+          cp after/outbound-links.js after/site-accessibility.css .
+          python3 -m http.server 8091 --bind 127.0.0.1 >/tmp/quiet-home-http.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/home-check" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3
+          export NODE_PATH="$RUNNER_TEMP/home-check/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const { chromium } = require('playwright-core');
+          const assert = require('node:assert/strict');
+          const date = new Date(Date.now() - 15_000).toISOString();
+          const titles = [
+            ['Reuters', 'Global stocks steady as traders await the next round of earnings', 'Markets', 'Google News discovery'],
+            ['CNN', 'What to know about the week ahead in Washington', 'Government'],
+            ['Associated Press', 'World leaders meet for talks on trade and energy security', 'World', 'Google News discovery'],
+            ['Bloomberg', 'Treasury yields edge lower as investors weigh economic outlook', 'Markets'],
+            ['The Economist', 'Why the outlook for global trade is becoming harder to predict', 'Economy'],
+            ['BBC News', 'What the latest talks could mean for Europe’s energy market', 'World'],
+            ['Federal Reserve', 'Federal Reserve releases new economic data', 'Economy', 'Official direct'],
+            ['The Guardian', 'Researchers outline a new way to measure coastal climate risks', 'Science'],
+          ];
+          const items = Array.from({length:24}, (_,i) => {
+            const [source,title,category,source_type='Publisher RSS'] = titles[i%titles.length];
+            const url = source_type==='Google News discovery' ? 'https://news.google.com/rss/articles/sample-'+i : 'https://example.org/story/'+i;
+            return {source,title,category,source_type,url,published_at:new Date(Date.now()-15_000-i*1_200_000).toISOString()};
+          });
+          const feeds = titles.map(([source])=>({source,available:true}));
+          const host = process.env.CALM_SITE_URL || 'http://127.0.0.1:8091/';
+          const production = Boolean(process.env.CALM_SITE_URL);
+          
+          (async()=>{
+            const browser = await chromium.launch({executablePath:process.env.CHROME_BIN || '/usr/bin/chromium',args:['--no-sandbox']});
+            try {
+              for(const width of [1440,390,320]) {
+                for(const variant of (production ? ['live'] : width === 320 ? ['after'] : ['before','after'])) {
+                  const page = await browser.newPage({viewport:{width,height:920}});
+                  const failures = [];
+                  page.on('pageerror', error=>failures.push(error.message));
+                  await page.route('**/api/wire',r=>r.fulfill({json:{checked_at:date,feeds,items}}));
+                  await page.route('**/data/news.json',r=>r.fulfill({json:{updated_at:date,items:[]}}));
+                  if (!production) {
+                    await page.route('**/tv-ticker-tape.js',r=>r.fulfill({contentType:'application/javascript',headers:{'Access-Control-Allow-Origin':'*'},body:
+                      "customElements.define('tv-ticker-tape',class extends HTMLElement{connectedCallback(){const root=this.attachShadow({mode:'open'});root.innerHTML='<style>div{display:flex;color:var(--tv-widget-text-color);font:12px monospace}span{display:block;white-space:nowrap;padding:16px 18px;border-right:1px solid #364455}b{color:#68dda5}</style><div>'+['SPY','QQQ','DIA','IWM','NVDA','GLD','USO','BTC'].map((s,i)=>'<span>'+s+' &nbsp; '+(548-i*17)+'.24&nbsp; <b>+0.38%</b></span>').join('')+'</div>'}});"
+                    }));
+                    await page.route('**/embed-widget-advanced-chart.js',r=>r.fulfill({contentType:'application/javascript',body:"const f=document.createElement('iframe');f.title='Price chart';document.currentScript.parentElement.prepend(f);"}));
+                    await page.route('**/widgets.js',r=>r.abort());
+                  }
+                  await page.goto(production ? host : host+variant+'/',{waitUntil:'domcontentloaded'});
+                  await page.locator('#headlines li').first().waitFor();
+                  await page.locator('#market-motion').waitFor();
+                  if (!production) await page.screenshot({path:variant+'-'+width+'.png'});
+                  if(variant==='before'){await page.close();continue;}
+          
+                  assert.equal(await page.locator('#market-panel').getAttribute('open'),null);
+                  assert.equal(await page.locator('#timeline-panel').getAttribute('open'),null);
+                  assert.equal(await page.locator('#market-chart iframe').count(),0);
+                  assert.equal(await page.locator('#x-timeline iframe').count(),0);
+                  assert.equal(await page.locator('#market-motion').innerText(),'Play ticker');
+                  assert.equal(await page.locator('#market-top-scroll').getAttribute('data-playing'),null);
+                  assert.equal(await page.locator('#headlines li').count(),18);
+                  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+                  assert.equal(await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'X posts'}).getAttribute('href'),'https://x.com/StandaloneNews');
+                  assert.equal(await page.locator('#headlines a').first().getAttribute('target'),'_blank');
+                  await page.addScriptTag({path:require.resolve('axe-core')});
+                  const violations=await page.evaluate(async()=> (await axe.run({iframes:false,runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}})).violations.map(x=>[x.id,x.nodes.map(n=>n.target)]));
+                  assert.deepEqual(violations,[]);
+                  await page.keyboard.press('Tab');
+                  assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Skip to the terminal');
+                  await page.keyboard.press('Enter');
+                  assert.equal(await page.evaluate(()=>document.activeElement.id),'main');
+                  await page.locator('#market-motion').click();
+                  await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
+                  await page.locator('#market-motion').click();
+                  assert.equal(await page.locator('#market-top-scroll').getAttribute('data-playing'),null);
+                  await page.locator('#filter-panel summary').click();
+                  await page.locator('#source').selectOption('Reuters');
+                  assert.match(await page.locator('#headlines .row-meta').first().innerText(),/Reuters.*via Google News/s);
+                  await page.locator('#clear-filters').click();
+                  assert.equal(await page.locator('#headlines li').count(),18);
+                  await page.locator('#filter-panel summary').click();
+                  const menu=page.locator('#site-menu');
+                  await menu.locator('summary').click();
+                  await page.keyboard.press('Escape');
+                  assert.equal(await menu.getAttribute('open'),null);
+                  await menu.locator('summary').click();
+                  await menu.getByRole('link',{name:'X timelines'}).click();
+                  assert.notEqual(await page.locator('#timeline-panel').getAttribute('open'),null);
+                  assert.equal(await menu.getAttribute('open'),null);
+                  assert.equal(await page.locator('#x-timeline iframe').count(),0);
+                  await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Markets',exact:true}).click();
+                  assert.notEqual(await page.locator('#market-panel').getAttribute('open'),null);
+                  await page.locator('#market-chart iframe').waitFor({timeout:20000});
+                  if(!production) assert.deepEqual(failures,[]);
+                  console.log('HOMEPAGE VERIFIED',width,variant);
+                  await page.close();
+                }
+              }
+            }finally{await browser.close();}
+          })().catch(error=>{console.error(error);process.exitCode=1;});
+          JS
+      - name: Capture compact previews for visual review
+        if: always()
+        run: |
+          python3 -m pip -q install pillow
+          python3 - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          import base64, io
+          for file in [Path('after-1440.png'),Path('after-390.png')]:
+              if not file.exists(): continue
+              pic = Image.open(file)
+              pic.thumbnail((920,670))
+              pic = pic.convert('RGB').quantize(colors=40)
+              image = io.BytesIO()
+              pic.save(image,format='PNG',optimize=True)
+              print('PREVIEW',file.name,base64.b64encode(image.getbuffer()).decode(),flush=True)
+          PY
