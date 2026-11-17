@@ -1,0 +1,53 @@
+name: News Terminal production smoke check
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify the published terminal and headline endpoint
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import time
+          from urllib.request import Request, urlopen
+
+          site = "https://standalonenews.com"
+
+          def read(path):
+              request = Request(site + path, headers={
+                  "User-Agent": "StandaloneNewsDeployCheck/1.0",
+                  "Cache-Control": "no-cache",
+              })
+              with urlopen(request, timeout=12) as response:
+                  if response.status != 200:
+                      raise ValueError(f"{path}: HTTP {response.status}")
+                  return response.read(2_000_000).decode()
+
+          for attempt in range(1, 6):
+              try:
+                  page = read("/terminal")
+                  if "<title>News Terminal | Standalone News</title>" not in page:
+                      raise ValueError("The terminal did not return its expected page")
+                  if "terminal.html" not in read("/"):
+                      raise ValueError("The homepage is missing the terminal link")
+                  payload = json.loads(read("/api/wire"))
+                  responding = sum(feed["available"] is True for feed in payload["feeds"])
+                  if not responding or not isinstance(payload["items"], list):
+                      raise ValueError("The terminal endpoint has no responding source")
+                  print(f"Homepage and terminal returned HTTP 200. {responding} of {len(payload['feeds'])} direct sources responding. {len(payload['items'])} entries.")
+                  break
+              except (OSError, ValueError, KeyError, TypeError) as exc:
+                  print(f"Attempt {attempt}: {exc}", flush=True)
+                  if attempt == 5:
+                      raise SystemExit(1) from exc
+                  time.sleep(15)
+          PY
