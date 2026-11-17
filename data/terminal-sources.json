@@ -1,6 +1,6 @@
 [
-  {"id": "reuters", "name": "Reuters", "topic": "World", "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": true, "format": "google-news", "publisherDomain": "reuters.com"},
-  {"id": "associated-press", "name": "Associated Press", "topic": "US News", "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": true, "format": "google-news", "publisherDomain": "apnews.com"},
+  {"id": "reuters", "name": "Reuters", "topic": "World", "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "reuters.com"},
+  {"id": "associated-press", "name": "Associated Press", "topic": "US News", "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "apnews.com"},
   {"id": "the-economist", "name": "The Economist", "topic": "Economy", "url": "https://www.economist.com/finance-and-economics/rss.xml", "official": false, "direct": true},
   {"id": "marketwatch", "name": "MarketWatch", "topic": "Markets", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "official": false, "direct": true},
   {"id": "financial-times", "name": "Financial Times", "topic": "Markets", "url": "https://www.ft.com/rss/home/international", "official": false, "direct": true},

@@ -47,28 +47,10 @@ function atomLink(entry) {
   return '';
 }
 
-function discoveredTitle(item, source, url, title) {
-  if (url.hostname !== 'news.google.com' || !url.pathname.startsWith('/rss/articles/')) return '';
-  const publisher = item.match(/<source\b([^>]*)>/i)?.[1];
-  const site = publisher?.match(/\surl\s*=\s*(["'])(.*?)\1/i)?.[2];
-  if (!site) return '';
-  try {
-    const publisherUrl = new URL(decodeXml(site));
-    const host = publisherUrl.hostname.replace(/^www\./, '');
-    if (publisherUrl.protocol !== 'https:' || host !== source.publisherDomain) return '';
-  } catch { return ''; }
-  const name = field(item, 'source');
-  const suffix = ' - ' + name;
-  return name && title.endsWith(suffix) ? title.slice(0, -suffix.length) : title;
-}
-
 export function parseFeed(xml, source, now) {
   const format = xml.match(/<(rss|rdf:RDF|feed|urlset)(?:\s|>)/i)?.[1].toLowerCase();
   const sitemap = source.format === 'news-sitemap';
-  const discovery = source.format === 'google-news';
-  if (!format || sitemap !== (format === 'urlset') || (discovery && format !== 'rss')) {
-    throw new Error('Unexpected publisher XML format');
-  }
+  if (!format || sitemap !== (format === 'urlset')) throw new Error('Unexpected publisher XML format');
   const atom = format === 'feed';
   const rows = sitemap ? /<url(?:\s[^>]*)?>([\s\S]*?)<\/url\s*>/gi
     : atom ? /<entry(?:\s[^>]*)?>([\s\S]*?)<\/entry\s*>/gi
@@ -77,8 +59,8 @@ export function parseFeed(xml, source, now) {
   const entries = [];
   let count = 0;
   for (const [, item] of xml.matchAll(rows)) {
-    if (!sitemap && !discovery && count++ === 25) break;
-    const rawTitle = field(item, sitemap ? 'news:title' : 'title').replace(/\s+/g, ' ');
+    if (!sitemap && count++ === 25) break;
+    const title = field(item, sitemap ? 'news:title' : 'title').replace(/\s+/g, ' ').slice(0, 350);
     const dateText = sitemap ? field(item, 'news:publication_date')
       : atom ? field(item, 'published') || field(item, 'updated')
         : field(item, 'pubDate') || field(item, 'dc:date');
@@ -88,19 +70,17 @@ export function parseFeed(xml, source, now) {
     const link = atom ? atomLink(item) : field(item, sitemap ? 'loc' : 'link');
     let url;
     try { url = new URL(link, source.url); } catch { continue; }
-    const title = (discovery ? discoveredTitle(item, source, url, rawTitle) : rawTitle).slice(0, 350);
     if (!title || !link || url.protocol !== 'https:' || url.username || url.password
         || (sitemap && url.hostname !== publisherHost)
         || !Number.isFinite(time) || time > now || time < now - MAX_AGE) continue;
     entries.push({
       title, url: url.href, published_at: new Date(time).toISOString(),
       source: source.name, category: source.topic,
-      source_type: discovery ? 'Google News discovery'
-        : source.official ? 'Official direct' : sitemap ? 'Publisher sitemap' : 'Publisher RSS',
+      source_type: source.official ? 'Official direct' : sitemap ? 'Publisher sitemap' : 'Publisher RSS',
     });
   }
-  if (sitemap || discovery) entries.sort((a, b) => b.published_at.localeCompare(a.published_at));
-  return entries.slice(0, discovery ? 12 : 25);
+  // News sitemaps need not be ordered by publication time.
+  return sitemap ? entries.sort((a, b) => b.published_at.localeCompare(a.published_at)).slice(0, 25) : entries;
 }
 
 async function readFeed(response) {
@@ -124,14 +104,13 @@ async function readFeed(response) {
 }
 
 async function fetchFeed(source, deadline) {
-  const refresh = source.format === 'google-news' ? 300 : 60;
   const response = await fetch(source.url, {
     headers: {
       Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml',
       'User-Agent': 'StandaloneNewsRSS/1.0 (+https://standalonenews.com/)',
     },
     signal: AbortSignal.any([deadline, AbortSignal.timeout(4300)]),
-    cf: { cacheEverything: true, cacheTtlByStatus: { '200-299': refresh, '400-599': 60 } },
+    cf: { cacheEverything: true, cacheTtlByStatus: { '200-299': 60, '400-599': 60 } },
   });
   if (!response.ok) {
     await response.body?.cancel().catch(() => {});
@@ -164,7 +143,6 @@ export async function onRequestGet({ request, waitUntil }) {
   }));
   const feeds = results.map((entries, index) => ({
     source: SOURCES[index].name, available: entries !== null,
-    ...(SOURCES[index].format === 'google-news' ? { via: 'Google News' } : {}),
   }));
   const items = results.flatMap(entries => entries ?? []);
   const response = Response.json({ checked_at: new Date().toISOString(), feeds, items }, { headers });

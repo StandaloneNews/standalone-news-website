@@ -151,8 +151,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     if (directSources.length) {
       $('feed-details').hidden = false;
       $('feed-sources').replaceChildren(...directSources.map(feed =>
-        node('li', feed.source + (feed.via === 'Google News' ? ' via Google News' : '')
-          + (feed.available ? ' · Responding' : ' · Unavailable'))));
+        node('li', feed.source + (feed.available ? ' · Responding' : ' · Unavailable'))));
     }
   }
 
