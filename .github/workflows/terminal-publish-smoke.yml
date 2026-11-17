@@ -1,4 +1,4 @@
-name: Verify all homepage section links
+name: Verify homepage navigation and headline link styles
 
 on:
   push:
@@ -40,7 +40,8 @@ jobs:
           for (let attempt = 0; attempt < 8 && !updated; attempt++) {
             try {
               const response = await fetch(site+'/', {cache:'no-cache',signal:AbortSignal.timeout(9000)});
-              updated = response.ok && (await response.text()).includes('class="site-sections"');
+              const html = await response.text();
+              updated = response.ok && html.includes('class="site-sections"') && html.includes('terminal.css?v=7');
             } catch {}
             if (!updated) await delay(10000);
           }
@@ -71,10 +72,21 @@ jobs:
               await page.keyboard.press('Tab');
               assert.equal(await page.evaluate(() => document.activeElement.textContent.trim()),'Daily brief');
               assert.equal(await page.evaluate(() => getComputedStyle(document.activeElement).outlineWidth),'3px');
+              const headline = page.locator('#headlines .row-title').first();
+              await headline.waitFor();
+              assert.equal(await headline.evaluate(link => getComputedStyle(link).textDecorationLine),'none');
+              await headline.focus();
+              assert.equal(await headline.evaluate(link => getComputedStyle(link).outlineWidth),'3px');
+              assert.equal(await headline.evaluate(link => getComputedStyle(link).color),'rgb(255, 197, 0)');
+              if (width === 1440) {
+                await nav.getByRole('link',{name:'News edition'}).focus();
+                await headline.hover();
+                assert.equal(await headline.evaluate(link => getComputedStyle(link).color),'rgb(255, 197, 0)');
+              }
               await page.addScriptTag({path:axe});
               const failures = await page.evaluate(async () => (await axe.run('.site-sections',{runOnly:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']})).violations.map(v=>v.id));
               assert.deepEqual(failures,[]);
-              console.log(width+'px: all eight links visible, keyboard focus and automated accessibility checks passed.');
+              console.log(width+'px: all eight links visible; headline styling, keyboard focus and automated accessibility checks passed.');
               await page.close();
             }
           } finally { await browser.close(); }
