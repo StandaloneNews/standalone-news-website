@@ -51,7 +51,7 @@ jobs:
               }));
               await page.route('https://s3.tradingview.com/external-embedding/**', route => route.fulfill({
                 contentType:'application/javascript',
-                body:'const embedNode=document.currentScript;const f=document.createElement("iframe");f.srcdoc="<p>"+JSON.parse(embedNode.textContent).symbol+"</p>";embedNode.parentNode.append(f);',
+                body:'(()=>{const embedNode=document.currentScript;const f=document.createElement("iframe");f.srcdoc="<p>"+JSON.parse(embedNode.textContent).symbol+"</p>";embedNode.parentNode.append(f);})();',
               }));
               await page.goto(app + '/');
               await page.locator('#headlines a').first().waitFor();
