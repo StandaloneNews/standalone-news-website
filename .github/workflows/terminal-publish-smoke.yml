@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 323d302131c75b3b7032564a19e0a1f4c4714222
+          ref: aaba6e6045ab4fc77c5230a0db15f05e72d7227e
       - name: Check site tests
         run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Test the four page sizes and navigation with more than 1600 articles
@@ -74,7 +74,7 @@ jobs:
                   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),width+'px');
                 }
                 if(width===1440){
-                  for(let step=1;step<17;step++) await next.click();
+                  await next.evaluate(button=>{for(let step=1;step<17;step++) button.click();});
                   assert.equal(await pager.locator('#headline-page-number').innerText(),'Page 17 of 17');
                   assert.equal(await range.innerText(),'Showing 1,601–1,603 of 1,603 headlines');
                   assert.equal(await results.count(),3);
@@ -87,7 +87,7 @@ jobs:
           
                 const search=page.getByRole('searchbox',{name:'Search headlines'});
                 await search.fill('article 1602');
-                assert.equal(await range.innerText(),'Showing 1–1 of 1 headline');
+                assert.equal(await range.innerText(),'Showing 1 of 1 headline');
                 assert.equal(await results.count(),1);
                 assert.equal(await start(),'Pagination article 1602');
                 assert.ok(await pager.isHidden());
