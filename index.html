@@ -76,9 +76,18 @@
               <summary>Filters</summary>
               <fieldset id="filters">
                 <legend class="sr-only">Filter headlines</legend>
-                <label class="filter-field" for="topic">Topic<select id="topic"><option value="">All topics</option></select></label>
-                <label class="filter-field" for="source">Source<select id="source"><option value="">All sources</option></select></label>
-                <label class="filter-field" for="exclude">Exclude words or phrases<input id="exclude" type="text" maxlength="160" placeholder="Separate entries with commas"></label>
+                <div class="filter-field">
+                  <label for="topic">Topic</label>
+                  <select id="topic"><option value="">All topics</option></select>
+                </div>
+                <div class="filter-field">
+                  <label for="source">Source</label>
+                  <select id="source"><option value="">All sources</option></select>
+                </div>
+                <div class="filter-field">
+                  <label for="exclude">Exclude words or phrases</label>
+                  <input id="exclude" type="text" maxlength="160" placeholder="Separate entries with commas">
+                </div>
                 <div class="filter-options">
                   <label class="check"><input id="official" type="checkbox"> Official sources only</label>
                   <label class="check" id="wire-actions" hidden><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>

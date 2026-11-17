@@ -115,9 +115,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     headlines.replaceChildren(fragment);
     $('headline-display').hidden = false;
     const count = $('result-count');
+    const first = countFormat.format(offset + 1);
+    const last = countFormat.format(offset + rows.length);
+    const range = rows.length === 1 ? first : first + '–' + last;
     count.textContent = rows.length
-      ? 'Showing ' + countFormat.format(offset + 1) + '–' + countFormat.format(offset + rows.length)
-        + ' of ' + countFormat.format(filtered.length) + (filtered.length === 1 ? ' headline' : ' headlines')
+      ? 'Showing ' + range + ' of ' + countFormat.format(filtered.length)
+        + (filtered.length === 1 ? ' headline' : ' headlines')
       : displayed.length ? 'No headlines match these filters.' : 'No headlines are available yet.';
     $('headline-pagination').hidden = pageCount <= 1;
     previousPage.disabled = page <= 1;
