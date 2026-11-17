@@ -1,35 +1,48 @@
-name: Compare the calmer homepage with the previous terminal
+name: Verify the simplified homepage in production
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  preview:
+  live:
     runs-on: ubuntu-latest
     timeout-minutes: 7
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 042dd45882ff87751b167833c8746f033d0c38c3
-          path: after
-      - uses: actions/checkout@v4
-        with:
-          ref: 479754df69963e6ce99b446934a32579e6963325
-          path: before
-      - name: Run static accessibility checks
-        run: python3 -m unittest discover -s after/tests -p 'test_accessibility_static.py'
-      - name: Render and test desktop, phone, filters and expandable tools
+      - name: Wait for the updated homepage and its live headline data
         run: |
-          cp after/outbound-links.js after/site-accessibility.css .
-          python3 -m http.server 8091 --bind 127.0.0.1 >/tmp/quiet-home-http.log 2>&1 &
+          python3 - <<'PY'
+          import json,time
+          from urllib.request import Request,urlopen
+          base='https://standalonenews.com'
+          def get(path):
+              req=Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urlopen(req,timeout=14) as response:
+                  return response.read().decode()
+          for attempt in range(18):
+              try:
+                  home=get('/')
+                  if 'terminal.css?v=11' in home and 'Latest headlines' in home:
+                      primary=json.loads(get('/api/wire'))
+                      snapshot=json.loads(get('/data/news.json'))
+                      assert primary.get('items') or snapshot.get('items')
+                      print('Simplified homepage is live with news data.',flush=True)
+                      break
+              except Exception as error:
+                  print(error,flush=True)
+              time.sleep(10)
+          else:
+              raise SystemExit('The new homepage was not available within the verification window.')
+          PY
+      - name: Verify desktop and phone layouts, keyboard, and lazy-loaded tools
+        run: |
           npm install --prefix "$RUNNER_TEMP/home-check" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3
           export NODE_PATH="$RUNNER_TEMP/home-check/node_modules"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          export CALM_SITE_URL="https://standalonenews.com/"
           node --input-type=commonjs - <<'JS'
           const { chromium } = require('playwright-core');
           const assert = require('node:assert/strict');
@@ -123,20 +136,3 @@ jobs:
             }finally{await browser.close();}
           })().catch(error=>{console.error(error);process.exitCode=1;});
           JS
-      - name: Capture compact previews for visual review
-        if: always()
-        run: |
-          python3 -m pip -q install pillow
-          python3 - <<'PY'
-          from PIL import Image
-          from pathlib import Path
-          import base64, io
-          for file in [Path('after-1440.png'),Path('after-390.png')]:
-              if not file.exists(): continue
-              pic = Image.open(file)
-              pic.thumbnail((920,670))
-              pic = pic.convert('RGB').quantize(colors=40)
-              image = io.BytesIO()
-              pic.save(image,format='PNG',optimize=True)
-              print('PREVIEW',file.name,base64.b64encode(image.getbuffer()).decode(),flush=True)
-          PY
