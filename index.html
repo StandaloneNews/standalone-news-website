@@ -66,6 +66,7 @@
           <h2 id="feed-heading">Latest headlines</h2>
         </header>
         <div class="feed-tools">
+          <div class="quick-topics" id="quick-topics" role="group" aria-label="Filter headlines by topic" hidden></div>
           <div class="feed-toolbar">
             <div class="search-line" id="headline-search" hidden>
               <label class="sr-only" for="keyword">Search headlines</label>
@@ -76,10 +77,6 @@
               <summary>Filters</summary>
               <fieldset id="filters">
                 <legend class="sr-only">Filter headlines</legend>
-                <div class="filter-field">
-                  <label for="topic">Topic</label>
-                  <select id="topic"><option value="">All topics</option></select>
-                </div>
                 <div class="filter-field">
                   <label for="source">Source</label>
                   <select id="source"><option value="">All sources</option></select>
@@ -100,12 +97,6 @@
                 <ul id="feed-sources"></ul>
               </details>
             </details>
-          </div>
-          <div class="quick-topics" id="quick-topics" role="group" aria-label="Filter headlines by topic" hidden>
-            <button type="button" data-topic="" aria-pressed="true">All</button>
-            <button type="button" data-topic="Markets" aria-pressed="false">Markets</button>
-            <button type="button" data-topic="World" aria-pressed="false">World</button>
-            <button type="button" data-topic="Sports" aria-pressed="false">Sports</button>
           </div>
           <p class="status" id="feed-status">Loading headlines…</p>
           <span class="sr-only" id="connection-status" role="status"></span>

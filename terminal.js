@@ -15,18 +15,16 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   const checkNow = $('check-now');
   const autoRefresh = $('auto-refresh');
   const keyword = $('keyword');
-  const topic = $('topic');
   const quickTopics = $('quick-topics');
-  const topicButtons = [...quickTopics.querySelectorAll('button[data-topic]')];
+  const topicButtons = new Map();
   const source = $('source');
   const official = $('official');
   const exclude = $('exclude');
   const params = new URLSearchParams(location.search);
-  const topics = ['World', 'U.S. news', 'Markets', 'Economy', 'Government', 'Technology', 'Regulation', 'Science', 'Sports'];
-  const initialTopic = topics.includes(params.get('topic')) ? params.get('topic') : '';
+  const topics = ['Markets', 'World', 'Sports', 'U.S. news', 'Economy', 'Government', 'Technology', 'Science', 'Regulation'];
+  let activeTopic = params.get('topic') || '';
   keyword.value = (params.get('q') || '').slice(0, 160);
   official.checked = params.get('official') === '1';
-  if (initialTopic) topic.add(new Option(initialTopic, initialTopic, true, true));
 
   try {
     const savedSize = localStorage.getItem(pageSizePreference);
@@ -73,12 +71,27 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     select.value = values.includes(selected) ? selected : '';
   }
 
+  function addTopicButtons(values) {
+    for (const value of values) {
+      if (topicButtons.has(value)) continue;
+      const button = node('button', value || 'All');
+      button.type = 'button';
+      button.setAttribute('aria-pressed', String(value === activeTopic));
+      button.addEventListener('click', () => {
+        activeTopic = value;
+        firstPage();
+      });
+      topicButtons.set(value, button);
+      quickTopics.append(button);
+    }
+  }
+
   function matches() {
     const terms = keyword.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     const omitted = exclude.value.trim().toLowerCase().split(',').map(term => term.trim()).filter(Boolean);
     return displayed.filter(item => {
       const searchable = (item.title + ' ' + item.source + ' ' + item.topic).toLowerCase();
-      return (!topic.value || item.topic === topic.value)
+      return (!activeTopic || item.topic === activeTopic)
         && (!source.value || item.source === source.value)
         && (!official.checked || item.official)
         && terms.every(term => searchable.includes(term))
@@ -87,8 +100,8 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   function renderItems() {
-    for (const button of topicButtons) {
-      button.setAttribute('aria-pressed', String(button.dataset.topic === topic.value));
+    for (const [value, button] of topicButtons) {
+      button.setAttribute('aria-pressed', String(value === activeTopic));
     }
     const filtered = matches();
     const size = Number(pageSize.value);
@@ -137,7 +150,9 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     displayed = [...known.values()];
     displayedKeys = new Set(known.keys());
     pending = [];
-    options(topic, [...topics, ...displayed.map(item => item.topic)], 'All topics');
+    const availableTopics = new Set(displayed.map(item => item.topic));
+    addTopicButtons([...availableTopics].sort((a, b) => a.localeCompare(b)));
+    if (!topicButtons.has(activeTopic)) activeTopic = '';
     options(source, displayed.map(item => item.source), 'All sources');
     renderItems();
   }
@@ -233,12 +248,6 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     headlines.querySelector('a')?.focus({ preventScroll: true });
   }
 
-  for (const button of topicButtons) {
-    button.addEventListener('click', () => {
-      topic.value = button.dataset.topic;
-      firstPage();
-    });
-  }
   previousPage.addEventListener('click', () => changePage(-1));
   nextPage.addEventListener('click', () => changePage(1));
   pageSize.addEventListener('change', () => {
@@ -247,13 +256,13 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     firstPage();
   });
 
-  for (const filter of [keyword, exclude, topic, source, official]) {
+  for (const filter of [keyword, exclude, source, official]) {
     filter.addEventListener(filter instanceof HTMLInputElement && filter.type !== 'checkbox' ? 'input' : 'change', firstPage);
   }
   $('clear-filters').addEventListener('click', () => {
     keyword.value = '';
     exclude.value = '';
-    topic.value = '';
+    activeTopic = '';
     source.value = '';
     official.checked = false;
     firstPage();
@@ -278,9 +287,9 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   const filterPanel = $('filter-panel');
-  filterPanel.open = Boolean(official.checked
-    || (initialTopic && !topicButtons.some(button => button.dataset.topic === initialTopic)));
+  filterPanel.open = official.checked;
   filterPanel.hidden = false;
+  addTopicButtons(['', ...topics]);
   quickTopics.hidden = false;
   $('wire-actions').hidden = false;
   $('headline-search').hidden = false;

@@ -124,9 +124,9 @@ button.accent-button:not([aria-disabled="true"]):hover { background: #ffdb58; }
   letter-spacing: -.025em;
 }
 .feed-tools { margin-block-end: .7rem; }
-.quick-topics { display: flex; flex-wrap: wrap; gap: .35rem; margin-block-start: .7rem; }
-.quick-topics button { min-inline-size: 44px; padding-inline: .65rem; font-size: .875rem; }
-.quick-topics button[aria-pressed="true"] { color: var(--accent); background: var(--panel); border-color: var(--accent); font-weight: 700; }
+.quick-topics { display: flex; flex-wrap: wrap; gap: .1rem .2rem; margin-block-end: .75rem; }
+.quick-topics button { min-inline-size: 44px; padding-inline: .5rem; border-color: transparent; color: var(--muted); font-size: .875rem; }
+.quick-topics button[aria-pressed="true"] { color: var(--accent); background: var(--panel); border-color: var(--rule); font-weight: 700; }
 .feed-toolbar, .search-line, .control-line { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
 .search-line { flex: 1 1 16rem; min-inline-size: 0; }
 .search-line input, .control-line select { flex: 1 1 9rem; min-inline-size: 0; }
