@@ -1,164 +1,90 @@
-name: Apply and verify legal links and accessibility for Standalone News
+name: Verify CNN, Markets, X and legal links on the live website
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  audit:
+  live:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 9
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: e56fde17fd57b3183349081bef4d5a9ef9120a50
-      - name: Validate existing site tests and CNN publication dates
+      - name: Check live Cloudflare pages and publisher feeds
         run: |
-          python3 -m unittest discover -s tests -p 'test_*.py'
           python3 - <<'PY'
-          import datetime, json, sys
-          from pathlib import Path
-          sys.path.insert(0, 'scripts')
-          import update_news
-          feed = next(x for x in update_news.SOURCES if x['id']=='terminal_cnn')
-          rows = update_news.fetch(feed, datetime.datetime.now(datetime.timezone.utc))
-          assert rows and all(x['url'].startswith('https://www.cnn.com/') and x['source_type']=='Publisher sitemap' and x['summary']=='' for x in rows)
-          print('CNN ORIGINAL HEADLINES', len(rows))
+          import json, time, urllib.request
+          base='https://standalonenews.com'
+          def download(path):
+              req=urllib.request.Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=14) as response:
+                  return response.read()
+          for attempt in range(24):
+              try:
+                  home=download('/').decode()
+                  feed=json.loads(download('/api/wire'))
+                  snapshot=json.loads(download('/data/news.json'))
+                  cnn=[item for item in feed['items'] if item['source']=='CNN']
+                  names={item['source'] for item in feed['items']}
+                  archive={item['source'] for item in snapshot['items']}
+                  ready=('market-chart-card' in home and 'site-legal-links' in home and 'value="StandaloneNews" selected' in home)
+                  print('LIVE CHECK', json.dumps({'attempt':attempt+1,'new_ui':ready,'direct_sources':len(feed['feeds']),'available':sum(x['available'] for x in feed['feeds']),'cnn':len(cnn),'direct_examples':sorted(names&{'CNN','Bloomberg','Los Angeles Times','CNA','Benzinga'}),'archive_sources':len(archive),'archive_examples':sorted(archive&{'The Atlantic','TIME','Vox','Semafor','Variety'})}),flush=True)
+                  if ready and cnn and all(x['url'].startswith('https://www.cnn.com/') and x['source_type']=='Publisher sitemap' for x in cnn) and len(archive&{'The Atlantic','TIME','Vox','Semafor','Variety'})>=3:
+                      routes=['/','/edition.html','/markets.html','/sports.html','/terms.html','/privacy.html','/accessibility.html','/articles/']
+                      for route in routes:
+                          text=download(route).decode()
+                          footer=text[text.lower().rfind('<footer'):]
+                          assert all(name+'.html"' in footer for name in ('terms','privacy','newsletter-privacy','accessibility','contact')),route
+                      print('Legal footer links served on', len(routes), 'live page types.')
+                      break
+              except Exception as exc:
+                  print('Live attempt',attempt+1,str(exc),flush=True)
+              time.sleep(12)
+          else: raise SystemExit('Live headline update or legal footer verification did not finish.')
           PY
-          node --input-type=module - <<'JS'
-          import assert from 'node:assert/strict';
-          import { parseFeed } from './functions/api/wire.js';
-          const sitemap = '<urlset xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"><url><loc>https://www.cnn.com/story</loc><lastmod>2026-11-17T00:20:00.000Z</lastmod><news:news><news:publication_date>2026-11-16T21:30:00.000Z</news:publication_date><news:title>Headline &amp; test</news:title></news:news></url><url><loc>https://external.example/story</loc><news:news><news:publication_date>2026-11-16T21:30:00Z</news:publication_date><news:title>Untrusted host</news:title></news:news></url><url><loc>https://www.cnn.com/undated</loc><lastmod>2026-11-17T00:20:00.000Z</lastmod><news:title>Missing publication time</news:title></url></urlset>';
-          const source = { name:'CNN', topic:'US News', url:'https://www.cnn.com/sitemap/news.xml', format:'news-sitemap' };
-          const rows = parseFeed(sitemap, source, Date.parse('2026-11-17T02:00:00Z'));
-          assert.equal(rows.length, 1);
-          assert.equal(rows[0].published_at,'2026-11-16T21:30:00.000Z');
-          assert.equal(rows[0].title,'Headline & test');
-          assert.equal(rows[0].source_type,'Publisher sitemap');
-          console.log('Verified CNN publication-date and same-publisher link checks.');
-          JS
-      - name: Scan every public page for WCAG violations and responsive overflow
+      - name: Check the deployed Markets panel and official public X embed
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/standalone-audit.log 2>&1 &
-          export SITE_ROOT="$PWD"
-          npm install --prefix "$RUNNER_TEMP/a11y" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
-          cd "$RUNNER_TEMP/a11y"
-          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
-          node --input-type=commonjs - <<'JS'
-          const {chromium}=require('playwright-core');
-          const fs=require('node:fs');
-          const path=require('node:path');
-          const assert=require('node:assert/strict');
-          const base='http://127.0.0.1:8080';
-          const root=process.env.SITE_ROOT;
-          const pages=['/',...fs.readdirSync(root).filter(x=>x.endsWith('.html')&&!['index.html','shadow-test.html','terminal.html'].includes(x)).map(x=>'/'+x),'/articles/',...fs.readdirSync(path.join(root,'articles')).filter(x=>x.endsWith('.html')&&x!=='index.html').map(x=>'/articles/'+x)];
-          const groups=new Map();
-          function add(route,name,val) {
-            if (!groups.has(name)) groups.set(name,[]);
-            groups.get(name).push([route,val]);
-          }
-          (async()=>{
-            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
-            try {
-              const context=await browser.newContext({viewport:{width:1280,height:900},reducedMotion:'reduce'});
-              await context.route('**/*',r=>r.request().url().startsWith(base+'/')?r.continue():r.abort());
-              let next=0;
-              await Promise.all(Array.from({length:4},async()=>{
-                const page=await context.newPage();
-                while(next<pages.length){
-                  const route=pages[next++];
-                  try{
-                    const response=await page.goto(base+route,{waitUntil:'load',timeout:18000});
-                    assert.ok(response.ok());
-                    await page.addScriptTag({path:require.resolve('axe-core')});
-                    const data=await page.evaluate(async()=>{
-                      const rules=await axe.run({runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']},iframes:false});
-                      return {issues:rules.violations.map(v=>({id:v.id,items:v.nodes.map(n=>[n.target.join('/'),n.failureSummary?.slice(0,300)])})),
-                          title:document.title,heading:!!document.querySelector('h1'),skip:!!document.querySelector('a.skip-link, a.skip, a.site-skip-link'),
-                          footer:['terms','privacy','newsletter-privacy','accessibility','contact'].every(file=>!!document.querySelector('footer a[href$="/'+file+'.html"]')),main:!!document.querySelector('main,[role=main]')};
-                    });
-                    for(const {id,items} of data.issues) add(route,id,items);
-                    for(const key of ['title','heading','skip','footer','main']) if(!data[key] && !(route==='/market-embed.html' && ['skip','footer'].includes(key))) add(route,'missing '+key,[]);
-                    if(!route.startsWith('/articles/')||route==='/articles/'||route===pages.at(-1)){
-                      await page.setViewportSize({width:320,height:760});
-                      const overflow=await page.evaluate(()=>({excess:document.documentElement.scrollWidth-innerWidth, elements:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3&&e.clientWidth>25).slice(0,8).map(e=>[e.tagName,e.id,e.className?.baseVal||e.className])}));
-                      if (overflow.excess>2) add(route,'mobile overflow',overflow);
-                      await page.setViewportSize({width:1280,height:900});
-                    }
-                  }catch(e){add(route,'scan failed',String(e).slice(0,350));}
-                }
-                await page.close();
-              }));
-              console.log('AUDITED',pages.length);
-              for(const [rule,affected] of groups) {
-                const ordinary=affected.filter(([route])=>!route.startsWith('/articles/')||route==='/articles/');
-                const articles=affected.filter(([route])=>route.startsWith('/articles/')&&route!=='/articles/');
-                const rows=[...ordinary,...articles.slice(0,2)].map(([route,detail])=>[route,Array.isArray(detail)?detail.slice(0,9):detail]);
-                console.log('AUDIT',JSON.stringify({rule,count:affected.length,rows}));
-              }
-              if(groups.size) process.exitCode=1;
-            } finally { await browser.close(); }
-          })().catch(e=>{console.error(e);process.exitCode=1;});
-          JS
-      - name: Check the real Markets panel and official X timeline
-        if: always()
-        run: |
-          cd "$RUNNER_TEMP/a11y"
+          npm install --prefix "$RUNNER_TEMP/online-check" --no-audit --no-fund playwright-core@1.55.0
+          cd "$RUNNER_TEMP/online-check"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
           node --input-type=commonjs - <<'JS'
           const {chromium}=require('playwright-core');
           const assert=require('node:assert/strict');
+          const base='https://standalonenews.com';
           (async()=>{
             const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
             try {
-              const page=await browser.newPage({viewport:{width:1360,height:900}});
-              await page.goto('http://127.0.0.1:8080/',{waitUntil:'domcontentloaded'});
-              await page.keyboard.press('Tab');
-              assert.equal(await page.evaluate(()=>document.activeElement.textContent),'Skip to the terminal');
-              await page.keyboard.press('Enter');
-              assert.equal(await page.evaluate(()=>document.activeElement.id),'main');
-              const chart=page.locator('#market-chart iframe');
-              await chart.waitFor({state:'visible',timeout:20000});
-              assert.ok(await chart.getAttribute('title'));
-              const card = page.locator('.market-chart-card');
-              assert.equal(await card.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(12, 17, 25)');
-              assert.equal(await page.locator('#market-watchlist').getAttribute('open'),null);
-              await page.locator('#market-symbol').selectOption('NASDAQ:NVDA');
-              assert.match(await page.locator('#market-instrument').innerText(),/Nvidia/);
-              assert.match(await page.locator('#market-chart-link').getAttribute('href'),/NASDAQ-NVDA/);
+              const page=await browser.newPage({viewport:{width:1400,height:900}});
+              await page.goto(base,{waitUntil:'domcontentloaded'});
+              await page.locator('#market-chart iframe').waitFor({timeout:25000});
+              assert.equal(await page.locator('.market-chart-card').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(12, 17, 25)');
+              await page.selectOption('#market-symbol','NASDAQ:QQQ');
+              assert.match(await page.locator('#market-instrument').innerText(),/Nasdaq/);
               await page.locator('#market-watchlist summary').focus();
               await page.keyboard.press('Enter');
               await page.locator('#market-quotes iframe').waitFor({timeout:20000});
-              await page.getByRole('region',{name:'Market chart and watchlist'}).evaluate(el=>el.scrollTop=0);
               assert.equal(await page.locator('#x-account').inputValue(),'StandaloneNews');
               assert.equal(await page.locator('#x-profile-link').getAttribute('href'),'https://x.com/StandaloneNews');
-              const x = page.locator('#x-timeline iframe');
-              const status=page.locator('#x-status');
               await page.waitForFunction(()=>/Timeline for|unavailable here/.test(document.querySelector('#x-status').textContent),{},{timeout:30000});
-              let contents='';
               let links=0;
+              let text='';
+              const x=page.locator('#x-timeline iframe');
               if(await x.count()){
                 const frame=x.first().contentFrame();
-                await frame.locator('body').waitFor({timeout:12000}).catch(()=>{});
-                contents=await frame.locator('body').innerText({timeout:5000}).catch(()=> '');
+                text=await frame.locator('body').innerText({timeout:8000}).catch(()=>'');
                 links=await frame.locator('a[href*="/status/"]').count();
               }
-              console.log('X WIDGET',JSON.stringify({status:await status.innerText(),links,contents:contents.slice(0,350)}));
-              await page.close();
-              const mobile=await browser.newPage({viewport:{width:320,height:740},reducedMotion:'reduce'});
-              for(const route of ['/','/standards.html','/markets.html','/articles/']){
-                await mobile.goto('http://127.0.0.1:8080'+route,{waitUntil:'domcontentloaded'});
-                await mobile.keyboard.press('Tab');
-                const first=await mobile.evaluate(()=>document.activeElement.textContent);
-                assert.match(first,/skip/i,route);
-                await mobile.keyboard.press('Enter');
-                assert.equal(await mobile.evaluate(()=>document.activeElement.tagName),'MAIN',route);
-              }
-              console.log('Keyboard skip links, symbol selection, dark chart and watchlist tested.');
-            } finally {await browser.close();}
+              console.log('X LIVE',JSON.stringify({status:await page.locator('#x-status').innerText(),links,text:text.slice(0,220)}));
+              const mobile=await browser.newPage({viewport:{width:320,height:760}});
+              await mobile.goto(base+'/standards',{waitUntil:'domcontentloaded'});
+              assert.ok(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+              await mobile.keyboard.press('Tab');
+              assert.match(await mobile.evaluate(()=>document.activeElement.textContent),/skip/i);
+              await mobile.keyboard.press('Enter');
+              assert.equal(await mobile.evaluate(()=>document.activeElement.tagName),'MAIN');
+              console.log('Verified the live chart, watchlist, X fallback, and keyboard navigation.');
+            } finally { await browser.close(); }
           })().catch(e=>{console.error(e);process.exitCode=1;});
           JS
