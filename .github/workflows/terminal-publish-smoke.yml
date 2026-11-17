@@ -1,114 +1,80 @@
-name: Check publisher endpoints and the public Standalone News X embed
+name: Audit Standalone News public pages for accessibility
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
-  publishers:
+  audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 12
     steps:
-      - name: Check public XML endpoints for original publication dates
+      - uses: actions/checkout@v4
+        with:
+          ref: 39cfd6d2443d703bfadcffaae9698add6b70fcd5
+      - name: Scan every public page for WCAG violations and responsive overflow
         run: |
-          python3 - <<'PY'
-          from concurrent.futures import ThreadPoolExecutor
-          import datetime as dt, email.utils, json, urllib.request, urllib.parse
-          import xml.etree.ElementTree as ET
-          def google(domain):
-              return 'https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':'site:'+domain+' when:2d','hl':'en-US','gl':'US','ceid':'US:en'})
-          urls = [
-            ('CNN sitemap', 'https://www.cnn.com/sitemap/news.xml'),
-            ('CNN RSS old', 'https://rss.cnn.com/rss/cnn_latest.rss'),
-            ('CNN Discovery',google('cnn.com')),
-            ('AP sitemap', 'https://apnews.com/news-sitemap.xml'),
-            ('AP Discovery',google('apnews.com')),
-            ('Reuters sitemap', 'https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml'),
-            ('Reuters Discovery',google('reuters.com')),
-            ('Bloomberg Discovery',google('bloomberg.com')),
-            ('Bloomberg RSS','https://feeds.bloomberg.com/markets/news.rss'),
-            ('POLITICO Discovery',google('politico.com')),
-            ('POLITICO EU','https://www.politico.eu/feed/'),
-            ('Los Angeles Times','https://www.latimes.com/world-nation/rss2.0.xml'),
-            ('The Atlantic','https://www.theatlantic.com/feed/all/'),
-            ('TIME','https://time.com/feed/'),
-            ('Gizmodo','https://gizmodo.com/rss'),
-            ('Vox','https://www.vox.com/rss/index.xml'),
-            ('Nasdaq','https://www.nasdaq.com/feed/rssoutbound?category=Markets'),
-            ('Benzinga','https://www.benzinga.com/feed'),
-            ('Fortune','https://fortune.com/feed/'),
-            ('Morningstar','https://www.morningstar.com/rss/articles'),
-            ('The Motley Fool','https://www.fool.com/feeds/index.aspx'),
-            ('Barron’s','https://www.barrons.com/arc/outboundfeeds/rss/'),
-            ('CBC News','https://www.cbc.ca/cmlink/rss-topstories'),
-            ('CNA','https://www.channelnewsasia.com/rssfeeds/8395884'),
-            ('Politifact','https://www.politifact.com/rss/all/'),
-            ('FactCheck.org','https://www.factcheck.org/feed/'),
-            ('Australian Financial Review','https://www.afr.com/rss/feed.xml'),
-            ('Nikkei Asia','https://asia.nikkei.com/rss/feed/nar'),
-            ('Semafor','https://www.semafor.com/rss.xml'),
-            ('Deadline','https://deadline.com/feed/'),
-            ('Variety','https://variety.com/feed/'),
-          ]
-          names = {'item','entry','url'}
-          def local(node):
-              return node.tag.rsplit('}',1)[-1].lower()
-          def stamp(raw):
-              try:
-                  return dt.datetime.fromisoformat(raw.strip().replace('Z','+00:00'))
-              except ValueError:
-                  try: return email.utils.parsedate_to_datetime(raw)
-                  except (ValueError, TypeError): return None
-          def check(job):
-              name,url=job
-              try:
-                  req=urllib.request.Request(url,headers={'User-Agent':'StandaloneNewsRSS/1.0 (+https://standalonenews.com/)','Accept':'application/rss+xml, application/atom+xml, application/xml, text/xml'})
-                  with urllib.request.urlopen(req,timeout=7) as response:
-                      body=response.read(1_500_000)
-                      final=response.geturl()
-                  root=ET.fromstring(body)
-                  if local(root) not in {'rss','rdf','feed','urlset'}: raise ValueError(local(root))
-                  entries=[n for n in root.iter() if local(n) in names]
-                  dated=[d for n in entries for ch in n.iter() if local(ch) in {'publication_date','pubdate','date','published','updated'} and ch.text and (d:=stamp(ch.text)) and d.tzinfo]
-                  now=dt.datetime.now(dt.timezone.utc)
-                  hosts=set()
-                  for n in entries[:8]:
-                      for ch in n.iter():
-                          if local(ch) in {'source','loc'}:
-                              raw=ch.attrib.get('url') or ch.text or ''
-                              if raw.startswith('https://'): hosts.add(urllib.parse.urlsplit(raw).hostname)
-                  return [name,'OK',final,local(root),len(entries),len(body),sum(now-d<dt.timedelta(days=3) for d in dated), str(max(dated,default='')), sorted(hosts)]
-              except Exception as exc: return [name,'ERROR',str(exc)]
-          with ThreadPoolExecutor(max_workers=9) as pool:
-              for row in pool.map(check,urls): print('PROBE',json.dumps(row),flush=True)
-          PY
-  x:
-    runs-on: ubuntu-latest
-    timeout-minutes: 4
-    steps:
-      - name: Verify X’s public profile widget and visible post availability
-        run: |
-          npm install --prefix "$RUNNER_TEMP/x-check" --no-audit --no-fund playwright-core@1.55.0
-          cd "$RUNNER_TEMP/x-check"
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/standalone-audit.log 2>&1 &
+          export SITE_ROOT="$PWD"
+          npm install --prefix "$RUNNER_TEMP/a11y" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
+          cd "$RUNNER_TEMP/a11y"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
           node --input-type=commonjs - <<'JS'
           const {chromium}=require('playwright-core');
+          const fs=require('node:fs');
+          const path=require('node:path');
+          const assert=require('node:assert/strict');
+          const base='http://127.0.0.1:8080';
+          const root=process.env.SITE_ROOT;
+          const pages=['/',...fs.readdirSync(root).filter(x=>x.endsWith('.html')&&!['index.html','shadow-test.html','terminal.html'].includes(x)).map(x=>'/'+x),'/articles/',...fs.readdirSync(path.join(root,'articles')).filter(x=>x.endsWith('.html')&&x!=='index.html').map(x=>'/articles/'+x)];
+          const groups=new Map();
+          function add(route,name,val) {
+            if (!groups.has(name)) groups.set(name,[]);
+            groups.get(name).push([route,val]);
+          }
           (async()=>{
             const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
             try {
-              const page=await browser.newPage();
-              await page.route('https://standalonenews.com/__x_probe',r=>r.fulfill({contentType:'text/html',body:'<!doctype html><a class="twitter-timeline" data-theme="dark" data-height="560" href="https://twitter.com/StandaloneNews">Posts by @StandaloneNews</a><script async src="https://platform.twitter.com/widgets.js"></script>'}));
-              await page.goto('https://standalonenews.com/__x_probe',{waitUntil:'domcontentloaded'});
-              const frame = page.locator('iframe').first();
-              try {
-                await frame.waitFor({timeout:16000});
-                const doc=await frame.contentFrame().locator('body').innerText({timeout:10000});
-                const posts=(await frame.contentFrame().locator('a[href*="/status/"]').count());
-                console.log('X RESULT',JSON.stringify({iframe:await frame.getAttribute('title'),body:doc.slice(0,450),postLinks:posts}));
-              } catch (err) { console.log('X RESULT',JSON.stringify({error:String(err).slice(0,250)})); }
-            } finally {await browser.close();}
+              const context=await browser.newContext({viewport:{width:1280,height:900},reducedMotion:'reduce'});
+              await context.route('**/*',r=>r.request().url().startsWith(base+'/')?r.continue():r.abort());
+              let next=0;
+              await Promise.all(Array.from({length:4},async()=>{
+                const page=await context.newPage();
+                while(next<pages.length){
+                  const route=pages[next++];
+                  try{
+                    const response=await page.goto(base+route,{waitUntil:'load',timeout:18000});
+                    assert.ok(response.ok());
+                    await page.addScriptTag({path:require.resolve('axe-core')});
+                    const data=await page.evaluate(async()=>{
+                      const rules=await axe.run({runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']},iframes:false});
+                      return {issues:rules.violations.map(v=>({id:v.id,items:v.nodes.map(n=>[n.target.join('/'),n.failureSummary?.slice(0,300)])})),
+                          title:document.title,heading:!!document.querySelector('h1'),skip:!!document.querySelector('a.skip-link'),
+                          footer:!!document.querySelector('footer a[href$="terms.html"]'),main:!!document.querySelector('main,[role=main]')};
+                    });
+                    for(const {id,items} of data.issues) add(route,id,items);
+                    for(const key of ['title','heading','skip','footer','main']) if(!data[key]) add(route,'missing '+key,[]);
+                    if(!route.startsWith('/articles/')||route==='/articles/'||route===pages.at(-1)){
+                      await page.setViewportSize({width:320,height:760});
+                      const overflow=await page.evaluate(()=>({excess:document.documentElement.scrollWidth-innerWidth, elements:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+3&&e.clientWidth>25).slice(0,8).map(e=>[e.tagName,e.id,e.className?.baseVal||e.className])}));
+                      if (overflow.excess>2) add(route,'mobile overflow',overflow);
+                      await page.setViewportSize({width:1280,height:900});
+                    }
+                  }catch(e){add(route,'scan failed',String(e).slice(0,350));}
+                }
+                await page.close();
+              }));
+              console.log('AUDITED',pages.length);
+              for(const [rule,affected] of groups) {
+                const ordinary=affected.filter(([route])=>!route.startsWith('/articles/')||route==='/articles/');
+                const articles=affected.filter(([route])=>route.startsWith('/articles/')&&route!=='/articles/');
+                const rows=[...ordinary,...articles.slice(0,2)].map(([route,detail])=>[route,Array.isArray(detail)?detail.slice(0,9):detail]);
+                console.log('AUDIT',JSON.stringify({rule,count:affected.length,rows}));
+              }
+            } finally { await browser.close(); }
           })().catch(e=>{console.error(e);process.exitCode=1;});
           JS
