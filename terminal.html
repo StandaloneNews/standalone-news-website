@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101418">
+  <meta name="theme-color" content="#fdfcf3">
   <meta name="description" content="Follow Standalone News headlines in a continuously refreshed feed with filters by topic and source.">
   <title>News Terminal | Standalone News</title>
   <link rel="canonical" href="https://standalonenews.com/terminal">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css">
+  <link rel="stylesheet" href="./terminal.css?v=2">
   <script defer src="./terminal.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to headlines</a>
   <header class="top">
     <div class="shell top-inner">
-      <a class="brand" href="./">STANDALONE <span>NEWS</span></a>
+      <a class="brand" href="./">
+        <img src="./assets/sn-brand-logo.png" width="46" height="46" alt="">
+        <span>STANDALONE NEWS</span>
+      </a>
       <nav aria-label="Primary navigation">
         <a href="./#wire">News wire</a>
         <a href="./markets.html">Markets</a>
@@ -64,7 +67,7 @@
           </div>
         </div>
         <p id="result-count" class="result-count" aria-live="polite" hidden></p>
-        <ol id="headlines" class="headlines" aria-label="Headlines, newest first"></ol>
+        <ol id="headlines" class="headlines" role="list" aria-label="Headlines, newest first"></ol>
         <div id="paging" hidden><button id="show-more" type="button">Show more headlines</button></div>
         <noscript><p><a href="./feed.xml">Open the Standalone News RSS feed</a> or enable JavaScript to use the terminal.</p></noscript>
       </section>
