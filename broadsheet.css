@@ -355,6 +355,13 @@ body.theme-broadsheet {
   --bs-rule: var(--edition-rule);
   --bs-muted: var(--edition-muted);
 }
+body.theme-broadsheet.sports-page {
+  --sd-cream: var(--edition-paper);
+  --sd-ink: var(--edition-ink);
+  --sd-muted: var(--edition-muted);
+  --sd-rule: var(--edition-rule);
+  --sd-panel: var(--edition-sheet);
+}
 body.theme-broadsheet :is(.masthead, .mast, .site-header, .sports-top) {
   border-block-start: 4px solid var(--edition-accent) !important;
   background: var(--edition-paper) !important;
