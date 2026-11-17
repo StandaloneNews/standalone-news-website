@@ -63,7 +63,7 @@ jobs:
               await menu.click();
               await page.getByLabel('Search headlines').fill('decision');
               assert.equal(await page.locator('#headlines a').count(), 1);
-              await page.getByText('Filter headlines', {exact:true}).click();
+              await page.locator('.filter-panel > summary').click();
               await page.getByLabel('Exclude words or phrases').fill('rate');
               assert.match(await page.locator('#result-count').textContent(), /No headlines match/);
               await page.getByRole('button',{name:'Clear filters'}).click();
