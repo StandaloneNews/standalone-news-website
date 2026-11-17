@@ -5,8 +5,6 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
 
   const $ = id => document.getElementById(id);
   const refreshInterval = 60_000;
-  const pageSize = 18;
-  const maxItems = 1_200;
   const headlines = $('headlines');
   const showNew = $('show-new');
   const checkNow = $('check-now');
@@ -27,7 +25,6 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   let displayed = [];
   let displayedKeys = new Set();
   let pending = [];
-  let limit = pageSize;
   let checking = false;
   let lastCheck = 0;
   let snapshotAt = 0;
@@ -51,7 +48,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       const previous = known.get(item.key);
       if (!previous || (item.official && !previous.official)) known.set(item.key, item);
     }
-    known = new Map([...known].sort((a, b) => b[1].time - a[1].time).slice(0, maxItems));
+    known = new Map([...known].sort((a, b) => b[1].time - a[1].time));
   }
 
   function options(select, values, allLabel) {
@@ -77,8 +74,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   function renderItems() {
-    const filtered = matches();
-    const rows = filtered.slice(0, limit);
+    const rows = matches();
     const fragment = document.createDocumentFragment();
     for (const item of rows) {
       const li = node('li', undefined, 'row');
@@ -100,12 +96,11 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       fragment.append(li);
     }
     headlines.replaceChildren(fragment);
-    $('paging').hidden = rows.length >= filtered.length;
     const count = $('result-count');
     count.hidden = false;
     count.classList.toggle('sr-only', Boolean(rows.length));
-    count.textContent = filtered.length
-      ? 'Showing ' + rows.length + ' of ' + filtered.length + ' headlines'
+    count.textContent = rows.length
+      ? rows.length + (rows.length === 1 ? ' headline' : ' headlines')
       : displayed.length ? 'No headlines match these filters.' : 'No headlines are available yet.';
   }
 
@@ -199,7 +194,6 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
 
   for (const filter of [keyword, exclude, topic, source, official]) {
     filter.addEventListener(filter instanceof HTMLInputElement && filter.type !== 'checkbox' ? 'input' : 'change', () => {
-      limit = pageSize;
       renderItems();
     });
   }
@@ -209,14 +203,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     topic.value = '';
     source.value = '';
     official.checked = false;
-    limit = pageSize;
     renderItems();
-  });
-  $('show-more').addEventListener('click', () => {
-    const firstNew = limit;
-    limit += pageSize;
-    renderItems();
-    headlines.querySelectorAll('a')[firstNew]?.focus();
   });
   showNew.addEventListener('click', () => {
     if (!pending.length) return;

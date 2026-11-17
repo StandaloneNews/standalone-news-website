@@ -57,9 +57,7 @@ export function parseFeed(xml, source, now) {
       : /<item(?:\s[^>]*)?>([\s\S]*?)<\/item\s*>/gi;
   const publisherHost = sitemap ? new URL(source.url).hostname : '';
   const entries = [];
-  let count = 0;
   for (const [, item] of xml.matchAll(rows)) {
-    if (!sitemap && count++ === 25) break;
     const title = field(item, sitemap ? 'news:title' : 'title').replace(/\s+/g, ' ').slice(0, 350);
     const dateText = sitemap ? field(item, 'news:publication_date')
       : atom ? field(item, 'published') || field(item, 'updated')
@@ -80,7 +78,8 @@ export function parseFeed(xml, source, now) {
     });
   }
   // News sitemaps need not be ordered by publication time.
-  return sitemap ? entries.sort((a, b) => b.published_at.localeCompare(a.published_at)).slice(0, 25) : entries;
+  if (sitemap) entries.sort((a, b) => b.published_at.localeCompare(a.published_at));
+  return entries;
 }
 
 async function readFeed(response) {

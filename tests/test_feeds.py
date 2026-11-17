@@ -1,6 +1,11 @@
 import sys
 import unittest
 import datetime as dt
+import email.utils
+import json
+import tempfile
+import xml.etree.ElementTree as ET
+from unittest.mock import patch
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).parents[1]/'scripts'))
 import update_news
@@ -51,4 +56,34 @@ class FeedTests(unittest.TestCase):
     def test_reject_unsafe_urls(self):
         xml=b'<rss><channel><item><title>Bad</title><link>javascript:alert(1)</link></item></channel></rss>'
         self.assertEqual(update_news.parse_rss(xml,{'name':'Agency','kind':'Official direct','category':'Government'},self.now),[])
+    def test_publishes_all_fresh_unique_headlines_to_json_and_rss(self):
+        now = dt.datetime.now(dt.timezone.utc) - dt.timedelta(minutes=1)
+        stamp = email.utils.format_datetime(now)
+        feed = {'id': 'test', 'name': 'Test Publisher', 'kind': 'Publisher RSS', 'category': 'World'}
+        records = ''.join(
+            f'<item><title>Shared headline</title><link>https://example.org/article/{number}</link>'
+            f'<pubDate>{stamp}</pubDate></item>'
+            for number in range(401)
+        )
+        xml = f'<rss><channel>{records}</channel></rss>'.encode()
+        items = update_news.parse_rss(xml, feed, now)
+        self.assertEqual(len(items), 401)
+        tracked = dict(items[0], url=items[0]['url'] + '?utm_source=test', id='tracking-copy')
+        rotated = dict(items[0], url='https://example.org/rotated', id='rotated')
+        expired = dict(rotated, url='https://example.org/expired', id='expired',
+                       published_at=(now - dt.timedelta(days=8)).isoformat())
+
+        with tempfile.TemporaryDirectory() as temp:
+            snapshot = Path(temp) / 'news.json'
+            rss = Path(temp) / 'feed.xml'
+            snapshot.write_text(json.dumps({'items': [rotated, expired]}), encoding='utf-8')
+            with patch.multiple(update_news, TARGET=snapshot, RSS_OUT=rss, SOURCES=[feed]), \
+                 patch.object(update_news, 'fetch', return_value=items + [tracked]):
+                self.assertEqual(update_news.main(), 0)
+
+            stories = json.loads(snapshot.read_text(encoding='utf-8'))['items']
+            self.assertEqual(len(stories), 402)
+            self.assertEqual(len(ET.parse(rss).findall('./channel/item')), 402)
+            self.assertEqual({row['id'] for row in stories}, {row['id'] for row in items} | {'rotated'})
+
 if __name__=='__main__':unittest.main()

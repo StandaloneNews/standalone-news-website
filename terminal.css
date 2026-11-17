@@ -171,7 +171,7 @@ fieldset { min-inline-size: 0; margin: 0; padding: .65rem 0 0; border: 0; }
 .row-meta { display: flex; align-items: baseline; flex-wrap: wrap; gap: .1rem .45rem; margin: .15rem 0 0; }
 .row-meta > * + *::before { content: '·' / ''; margin-inline-end: .45rem; }
 .official { font-weight: 600; }
-#paging { padding-block-start: .65rem; }
+.headlines .row { content-visibility: auto; contain-intrinsic-block-size: auto 4.75rem; }
 .market-controls label { display: block; margin-block-end: .3rem; color: var(--muted); font: 600 .82rem/1.35 var(--mono); }
 .market-controls select { inline-size: 100%; min-inline-size: 0; }
 .market-chart-card, .market-watchlist { margin-block-start: .65rem; border: 1px solid var(--rule); border-radius: 4px; background: var(--bg); }

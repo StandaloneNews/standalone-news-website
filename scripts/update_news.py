@@ -22,15 +22,6 @@ TARGET = ROOT / "data" / "news.json"
 RSS_OUT = ROOT / "feed.xml"
 UTC = dt.timezone.utc
 
-# Keep a larger, still bounded headline archive for the public news wire.
-# More recent stories remain first, and publication/attribution checks are unchanged.
-MAX_PER_FEED = 20
-MAX_HEADLINES = 320
-MAX_PER_OUTLET = 14
-MAX_PER_CATEGORY = 85
-MAX_RSS_ITEMS = 100
-
-
 def google(query: str):
     return "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q":query,"hl":"en-US","gl":"US","ceid":"US:en"})
 
@@ -251,10 +242,9 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             'published_at':published.isoformat(timespec='seconds').replace('+00:00','Z'),
             'id':__import__('hashlib').sha256(link.encode('utf-8')).hexdigest()[:20]
         })
-        if not (sitemap or discovery) and len(out)>=MAX_PER_FEED:break
     if sitemap or discovery:
         out.sort(key=lambda item: item['published_at'], reverse=True)
-    return out[:12 if discovery else MAX_PER_FEED]
+    return out
 
 
 def fetch(feed: dict, now: dt.datetime):
@@ -273,7 +263,7 @@ def build_feed(items,updated):
       '<description>Attributed news headlines with links to their reporting sources</description>',
       '<language>en-us</language>',
       f'<lastBuildDate>{email.utils.format_datetime(updated)}</lastBuildDate>']
-    for a in items[:MAX_RSS_ITEMS]:
+    for a in items:
         source = a["source"] + (" via Google News" if a.get("source_type") == "Google News discovery" else "")
         pub=email.utils.format_datetime(dt.datetime.fromisoformat(a['published_at'].replace('Z','+00:00')))
         lines+=['<item>',f'<title>{u(a["title"])}</title>',f'<link>{u(a["url"])}</link>',
@@ -283,9 +273,8 @@ def build_feed(items,updated):
     RSS_OUT.write_text('\n'.join(lines)+'\n',encoding='utf8')
 
 
-def recent_discovery_items(now: dt.datetime, unavailable: set[str]):
-    if not unavailable:
-        return []
+def recent_published_items(now: dt.datetime):
+    """Keep recent headlines after they rotate out of their publisher feed."""
     try:
         rows = json.loads(TARGET.read_text(encoding='utf-8')).get('items', [])
     except (OSError, ValueError):
@@ -293,18 +282,28 @@ def recent_discovery_items(now: dt.datetime, unavailable: set[str]):
 
     items = []
     for row in rows:
-        if row.get('source_type') != 'Google News discovery' or row.get('source') not in unavailable:
+        if not isinstance(row, dict) or not all(row.get(key) for key in (
+            'id', 'title', 'url', 'source', 'category', 'published_at', 'source_type'
+        )):
             continue
-        date = parse_date(row.get('published_at', ''), now)
-        if date is not None and now - dt.timedelta(days=3) <= date <= now:
+        date = parse_date(row['published_at'], now)
+        days = 3 if row['source_type'] == 'Google News discovery' else 7
+        if date is not None and now - dt.timedelta(days=days) <= date <= now:
             items.append(row)
     return items
+
+
+def article_key(url: str):
+    parts = urllib.parse.urlsplit(url)
+    query = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+    query = sorted((key, value) for key, value in query
+                   if not re.fullmatch(r'utm_.*|at_campaign|at_medium|CMP|ocid', key, re.I))
+    return parts.scheme, parts.netloc.lower(), parts.path.rstrip('/'), tuple(query)
 
 
 def main():
     now=dt.datetime.now(UTC)
     stories=[]
-    unavailable_discovery=set()
     # Broad legacy discovery searches stay disabled. The catalog enables only
     # specific discovery searches that verify the attributed publisher host.
     eligible_feeds=[feed for feed in SOURCES if feed.get('kind')!='Discovery']
@@ -317,56 +316,29 @@ def main():
                 got=f.result();stories.extend(got);success+=1
                 print(f'{feed["id"]}: {len(got)} headlines')
             except Exception as e:
-                if feed['kind'] == 'Google News discovery':
-                    unavailable_discovery.add(feed['name'])
                 print(f'{feed["id"]}: skipped ({type(e).__name__}: {e})',file=sys.stderr)
     if not stories:
         print('No stories fetched. Keeping previous feed unchanged.',file=sys.stderr)
         return 1
-    stories.extend(recent_discovery_items(now, unavailable_discovery))
-    stories.sort(key=lambda x:x['published_at'],reverse=True)
+    stories.extend(recent_published_items(now))
+    stories.sort(key=lambda item: item['published_at'], reverse=True)
 
-    # Deduplicate same story across multiple feeds / repeated topic RSS feeds.
-    clean=[]; seen_urls=set(); seen_titles=set()
+    # Collapse copies of the same article URL, including tracking variants.
+    # Separate articles can legitimately have identical headlines.
+    by_url = {}
     for story in stories:
-        title_key=re.sub(r'\W+', ' ', story['title'].lower()).strip()
-        if story['url'] in seen_urls or title_key in seen_titles: continue
-        seen_urls.add(story['url']);seen_titles.add(title_key);clean.append(story)
+        key = article_key(story['url'])
+        previous = by_url.get(key)
+        if previous is None or (story['source_type'].startswith('Official')
+                                and not previous['source_type'].startswith('Official')):
+            by_url[key] = story
 
-    # Reserve enough original government releases for the independent explainer
-    # bot before filling the frontpage with publisher headlines.
-    selected=[]; selected_ids=set(); outlet_counts={}; category_counts={}
-    def add(story, reserve=False):
-        if story['id'] in selected_ids:return False
-        src=story['source'].strip().casefold()
-        if not reserve and (outlet_counts.get(src,0)>=MAX_PER_OUTLET or category_counts.get(story['category'],0)>=MAX_PER_CATEGORY):return False
-        selected.append(story);selected_ids.add(story['id'])
-        outlet_counts[src]=outlet_counts.get(src,0)+1
-        category_counts[story['category']]=category_counts.get(story['category'],0)+1
-        return True
-
-    government_seen={}
-    for story in clean:
-        if story['source_type'] not in ('Official direct','Official register'):continue
-        src=story['source'];n=government_seen.get(src,0)
-        if n<5 and sum(government_seen.values())<28:
-            if add(story,reserve=True): government_seen[src]=n+1
-
-    # First give each available publisher room to appear, even if many recent
-    # stories came from the same category. Then fill by freshness up to quotas.
-    for story in clean:
-        if len(selected)>=MAX_HEADLINES:break
-        if outlet_counts.get(story['source'].strip().casefold(),0)<2:
-            add(story,reserve=True)
-
-    for story in clean:
-        if len(selected)>=MAX_HEADLINES:break
-        add(story)
-    selected.sort(key=lambda x:x['published_at'],reverse=True)
+    selected = sorted(by_url.values(), key=lambda item: item['published_at'], reverse=True)
+    outlets = {item['source'].strip().casefold() for item in selected}
     payload={'site':'Standalone News','updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'), 'items':selected}
     TARGET.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     build_feed(selected,now)
-    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlet_counts)} named sources; {success}/{len(eligible_feeds)} configured feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
+    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlets)} named sources; {success}/{len(eligible_feeds)} configured feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
     return 0
 
 if __name__=='__main__': sys.exit(main())
