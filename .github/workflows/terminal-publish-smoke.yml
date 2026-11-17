@@ -1,81 +1,75 @@
-name: Verify Reuters, AP and expanded news feeds before publishing
+name: Verify Reuters and the expanded news sources on the live site
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  feeds:
+  live:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: d0f09230607501c12a79b34b385011d3eeef73e5
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Test source attribution, dates and cached coverage
+      - name: Check Reuters, AP, and additional sources in production
         run: |
-          python3 -m unittest discover -s tests -p 'test_*.py'
-          cat > "$RUNNER_TEMP/discovery.xml" <<'XML'
-          <rss><channel>
-          <item><title>Newest actual Reuters headline - Reuters</title><link>https://news.google.com/rss/articles/item-one?oc=5</link><pubDate>Tue, 17 Nov 2026 01:00:00 GMT</pubDate><source url="https://www.reuters.com">Reuters</source></item>
-          <item><title>Different publisher</title><link>https://news.google.com/rss/articles/item-two</link><pubDate>Tue, 17 Nov 2026 01:03:00 GMT</pubDate><source url="https://example.org">Other</source></item>
-          <item><title>Wrong redirect</title><link>https://example.org/pretend</link><pubDate>Tue, 17 Nov 2026 01:05:00 GMT</pubDate><source url="https://www.reuters.com">Reuters</source></item>
-          <item><title>Reuters without date</title><link>https://news.google.com/rss/articles/item-three</link><source url="https://www.reuters.com">Reuters</source></item>
-          <item><title>Old Reuters story</title><link>https://news.google.com/rss/articles/item-four</link><pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate><source url="https://www.reuters.com">Reuters</source></item>
-          <item><title>Earlier Reuters headline - Reuters</title><link>https://news.google.com/rss/articles/item-five</link><pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate><source url="https://reuters.com">Reuters</source></item>
-          </channel></rss>
-          XML
           python3 - <<'PY'
-          from datetime import datetime
-          from pathlib import Path
-          import json, os, sys
-          sys.path.insert(0,'scripts')
-          import update_news
-          source=next(x for x in update_news.SOURCES if x['id']=='terminal_reuters')
-          now=datetime.fromisoformat('2026-11-17T02:00:00+00:00')
-          path=Path(os.environ['RUNNER_TEMP'])
-          items=update_news.parse_rss((path/'discovery.xml').read_bytes(),source,now)
-          assert [x['title'] for x in items]==['Newest actual Reuters headline','Earlier Reuters headline']
-          assert all(x['source']=='Reuters' and x['source_type']=='Google News discovery' and x['summary']=='' for x in items)
-          update_news.TARGET=path/'discovery-cache.json'
-          update_news.TARGET.write_text(json.dumps({'items':items+[dict(items[0],published_at='2026-11-10T00:00:00Z')]}))
-          assert update_news.recent_discovery_items(now,{'Reuters'})==items
-          assert update_news.recent_discovery_items(now,{'Associated Press'})==[]
-          print('Verified publisher identity, dates, new-tab URLs and up to 72-hour cache recovery.')
+          import json,time,urllib.request,urllib.parse
+          base='https://standalonenews.com'
+          names={'Reuters','Associated Press','POLITICO','USA TODAY',"Barron's",'Yahoo Finance','The Independent','The Globe and Mail','The Economist'}
+          def get(path):
+              req=urllib.request.Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=14) as response:return response.read().decode()
+          for attempt in range(24):
+              try:
+                  page=get('/')
+                  wire=json.loads(get('/api/wire'))
+                  archive=json.loads(get('/data/news.json'))
+                  live={name:sum(x['source']==name for x in wire['items']) for name in sorted(names)}
+                  scheduled={name:sum(x['source']==name for x in archive['items']) for name in sorted(names)}
+                  reuters=[x for phase in (wire,archive) for x in phase['items'] if x['source']=='Reuters']
+                  ap=live['Associated Press']+scheduled['Associated Press']
+                  print('FEED LIVE',json.dumps({'attempt':attempt+1,'configured':len(wire['feeds']),'direct':live,'snapshot':scheduled}),flush=True)
+                  if 'terminal.js?v=7' in page and len(wire['feeds'])==40 and reuters and ap and sum(v>0 for v in scheduled.values())>=5:
+                      assert all(x['source_type']=='Google News discovery' and urllib.parse.urlsplit(x['url']).hostname=='news.google.com' for x in reuters)
+                      break
+              except Exception as exc:
+                  print('Live check',attempt+1,str(exc),flush=True)
+              time.sleep(12)
+          else:
+              raise SystemExit('Reuters or the expanded source snapshot was not available within the verification window.')
           PY
-          node --input-type=module - <<'JS'
-          import assert from 'node:assert/strict';
-          import fs from 'node:fs';
-          import sourceList from './data/terminal-sources.json' with { type:'json' };
-          import {parseFeed} from './functions/api/wire.js';
-          import {itemFrom} from './wire-feed.js';
-          const source=sourceList.find(x=>x.id==='reuters');
-          const xml=fs.readFileSync(process.env.RUNNER_TEMP+'/discovery.xml','utf8');
-          const now=Date.parse('2026-11-17T02:00:00Z');
-          const items=parseFeed(xml,source,now);
-          assert.deepEqual(items.map(x=>x.title),['Newest actual Reuters headline','Earlier Reuters headline']);
-          assert.ok(items.every(x=>x.source==='Reuters'&&x.source_type==='Google News discovery'));
-          assert.ok(itemFrom(items[0],now).viaGoogleNews);
-          assert.equal(itemFrom(items[0],now).official,false);
-          assert.ok(sourceList.filter(x=>x.direct).length+11<=40);
-          console.log('Verified Worker publication and Google News label.');
+      - name: Filter the terminal by Reuters and confirm link behavior
+        run: |
+          npm install --prefix "$RUNNER_TEMP/verify-reuters" --no-audit --no-fund playwright-core@1.55.0
+          cd "$RUNNER_TEMP/verify-reuters"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              const page=await browser.newPage({viewport:{width:1320,height:940}});
+              await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
+              const source=page.locator('#source');
+              await source.locator('option[value="Reuters"]').waitFor({state:'attached',timeout:23000});
+              await page.locator('#filter-panel summary').click();
+              await source.selectOption('Reuters');
+              const article=page.locator('#headlines li').first();
+              await article.waitFor();
+              assert.match(await article.locator('.row-meta').innerText(),/Reuters.*via Google News/s);
+              assert.equal(await article.locator('time').getAttribute('title'),'Timestamp supplied by Google News');
+              const link=article.locator('a');
+              assert.match(await link.getAttribute('href'),/^https:\/\/news\.google\.com\/rss\/articles\//);
+              assert.equal(await link.getAttribute('target'),'_blank');
+              await page.locator('#official').check();
+              await page.locator('#headlines li').first().waitFor({state:'detached'});
+              await page.locator('#official').uncheck();
+              await source.selectOption('Associated Press');
+              assert.match(await article.locator('.row-meta').innerText(),/Associated Press.*via Google News/s);
+              console.log('LIVE BROWSER verified Reuters and AP source filters, source labels, timestamp disclosure, and new tabs.');
+            }finally{await browser.close();}
+          })().catch(e=>{console.error(e);process.exitCode=1;});
           JS
-      - name: Build a headline snapshot using public feeds
-        run: |
-          python3 scripts/update_news.py
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          rows=json.loads(Path('data/news.json').read_text())['items']
-          added={'Reuters','Associated Press','POLITICO','USA TODAY',"Barron's",'Yahoo Finance','The Independent','The Globe and Mail','The Economist'}
-          counts={name:sum(x['source']==name for x in rows) for name in sorted(added)}
-          print('NEW SOURCES', json.dumps(counts))
-          assert sum(x>0 for x in counts.values())>=5,counts
-          PY
