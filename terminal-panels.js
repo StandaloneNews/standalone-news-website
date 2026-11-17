@@ -16,6 +16,7 @@ const publishers = {
   AP: ['Associated Press', 'https://apnews.com/', ['Associated Press', 'AP', 'AP News']],
 };
 let publisherHeadlines = [];
+let publisherListKey = '';
 let xScript;
 let xRequest = 0;
 
@@ -54,6 +55,9 @@ function renderPublisherUpdates() {
   publisherLink.href = href;
   publisherLink.textContent = name + ' newsroom';
   const items = publisherHeadlines.filter(item => sources.includes(item.source)).slice(0, 4);
+  const key = JSON.stringify(items.map(item => [item.href, item.title]));
+  if (key === publisherListKey) return;
+  publisherListKey = key;
   publisherList.replaceChildren(...items.map(item => {
     const row = document.createElement('li');
     const link = document.createElement('a');
@@ -83,6 +87,7 @@ async function loadTimeline() {
   if (xButton.getAttribute('aria-disabled') === 'true') return;
   const request = ++xRequest;
   const handle = account.value;
+  publisherUpdates.hidden = false;
   xButton.setAttribute('aria-disabled', 'true');
   xStatus.textContent = 'Loading @' + handle + '…';
   const container = document.createElement('div');
