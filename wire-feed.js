@@ -31,6 +31,7 @@ export function itemFrom(row, now) {
     title: row.title.trim(), href, time, source: row.source.trim(),
     topic: Object.hasOwn(topics, row.category) ? topics[row.category]
       : (typeof row.category === 'string' && row.category) || 'Other',
+    viaGoogleNews: row.source_type === 'Google News discovery',
     official: /^Official(?:\s|$)/i.test(row.source_type || ''),
   };
 }

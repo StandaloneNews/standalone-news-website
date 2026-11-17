@@ -1,4 +1,7 @@
 [
+  {"id": "reuters", "name": "Reuters", "topic": "World", "url": "https://news.google.com/rss/search?q=site%3Areuters.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": true, "format": "google-news", "publisherDomain": "reuters.com"},
+  {"id": "associated-press", "name": "Associated Press", "topic": "US News", "url": "https://news.google.com/rss/search?q=site%3Aapnews.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": true, "format": "google-news", "publisherDomain": "apnews.com"},
+  {"id": "the-economist", "name": "The Economist", "topic": "Economy", "url": "https://www.economist.com/finance-and-economics/rss.xml", "official": false, "direct": true},
   {"id": "marketwatch", "name": "MarketWatch", "topic": "Markets", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "official": false, "direct": true},
   {"id": "financial-times", "name": "Financial Times", "topic": "Markets", "url": "https://www.ft.com/rss/home/international", "official": false, "direct": true},
   {"id": "wall-street-journal", "name": "Wall Street Journal", "topic": "Markets", "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "official": false, "direct": true},
@@ -63,5 +66,11 @@
   {"id": "australian-financial-review", "name": "Australian Financial Review", "topic": "Markets", "url": "https://www.afr.com/rss/feed.xml", "official": false, "direct": false},
   {"id": "semafor", "name": "Semafor", "topic": "US News", "url": "https://www.semafor.com/rss.xml", "official": false, "direct": false},
   {"id": "deadline", "name": "Deadline", "topic": "Entertainment", "url": "https://deadline.com/feed/", "official": false, "direct": false},
-  {"id": "variety", "name": "Variety", "topic": "Entertainment", "url": "https://variety.com/feed/", "official": false, "direct": false}
+  {"id": "variety", "name": "Variety", "topic": "Entertainment", "url": "https://variety.com/feed/", "official": false, "direct": false},
+  {"id": "politico", "name": "POLITICO", "topic": "Government", "url": "https://news.google.com/rss/search?q=site%3Apolitico.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "politico.com"},
+  {"id": "usa-today", "name": "USA TODAY", "topic": "US News", "url": "https://news.google.com/rss/search?q=site%3Awww.usatoday.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "usatoday.com"},
+  {"id": "barrons", "name": "Barron's", "topic": "Markets", "url": "https://news.google.com/rss/search?q=site%3Abarrons.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "barrons.com"},
+  {"id": "yahoo-finance", "name": "Yahoo Finance", "topic": "Markets", "url": "https://news.google.com/rss/search?q=site%3Afinance.yahoo.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "finance.yahoo.com"},
+  {"id": "the-independent", "name": "The Independent", "topic": "World", "url": "https://news.google.com/rss/search?q=site%3Aindependent.co.uk+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "independent.co.uk"},
+  {"id": "the-globe-and-mail", "name": "The Globe and Mail", "topic": "World", "url": "https://news.google.com/rss/search?q=site%3Atheglobeandmail.com+when%3A2d&hl=en-US&gl=US&ceid=US%3Aen", "official": false, "direct": false, "format": "google-news", "publisherDomain": "theglobeandmail.com"}
 ]

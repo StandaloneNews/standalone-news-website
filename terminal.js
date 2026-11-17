@@ -1,4 +1,4 @@
-import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
+import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
 
 (() => {
   'use strict';
@@ -89,6 +89,10 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
       link.href = item.href;
       const meta = node('p', undefined, 'row-meta');
       meta.append(node('span', item.source), node('span', item.topic));
+      if (item.viaGoogleNews) {
+        meta.append(node('span', 'via Google News'));
+        time.title = 'Timestamp supplied by Google News';
+      }
       if (item.official) meta.append(node('span', 'Official source', 'official'));
       detail.append(link, meta);
       li.append(time, detail);
@@ -130,10 +134,10 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
     const available = directSources.filter(feed => feed.available).length;
     let status;
     if (directStatus === 'available') {
-      status = 'Direct feeds checked ' + formatTime(directAt) + ' · '
+      status = 'Live feeds checked ' + formatTime(directAt) + ' · '
         + available + ' of ' + directSources.length + ' sources responding';
     } else if (snapshotAt) {
-      status = 'News wire snapshot from ' + formatTime(snapshotAt) + ' · Direct feeds unavailable';
+      status = 'News wire snapshot from ' + formatTime(snapshotAt) + ' · Live feeds unavailable';
     } else if (displayed.length) {
       status = 'Showing the last loaded headlines · Refresh unavailable';
     } else {
@@ -147,7 +151,8 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
     if (directSources.length) {
       $('feed-details').hidden = false;
       $('feed-sources').replaceChildren(...directSources.map(feed =>
-        node('li', feed.source + (feed.available ? ' · Responding' : ' · Unavailable'))));
+        node('li', feed.source + (feed.via === 'Google News' ? ' via Google News' : '')
+          + (feed.available ? ' · Responding' : ' · Unavailable'))));
     }
   }
 

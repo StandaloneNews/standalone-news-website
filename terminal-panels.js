@@ -64,6 +64,7 @@ function renderPublisherUpdates() {
     const link = document.createElement('a');
     link.href = item.href;
     link.textContent = item.title;
+    if (item.viaGoogleNews) link.append(' · via Google News');
     row.append(link);
     return row;
   }));

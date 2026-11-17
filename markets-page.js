@@ -150,8 +150,9 @@ function createStory(item){
     const p=document.createElement('p');p.className='summary';p.textContent=item.summary.slice(0,230);article.append(p);
   }
   const meta=document.createElement('div');meta.className='news-card-meta';
-  const source=document.createElement('span');source.textContent='SOURCE · '+item.source;
-  const link=document.createElement('a');link.href=item.url;link.textContent=item.external?'Read original ↗':'Read explainer ↗';
+  const viaGoogleNews = item.url.startsWith('https://news.google.com/');
+  const source=document.createElement('span');source.textContent='SOURCE · '+item.source+(viaGoogleNews?' via Google News':'');
+  const link=document.createElement('a');link.href=item.url;link.textContent=viaGoogleNews?'Read coverage ↗':item.external?'Read original ↗':'Read explainer ↗';
   if(item.external){link.target='_blank';link.rel='noopener noreferrer';}
   meta.append(source,link);article.append(meta);return article;
 }

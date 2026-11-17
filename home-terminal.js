@@ -1,4 +1,4 @@
-import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
+import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
 
 const section = document.getElementById('news-terminal');
 const status = document.getElementById('terminal-preview-status');
@@ -40,6 +40,7 @@ async function loadPreview() {
     time.dateTime = new Date(row.time).toISOString();
     time.textContent = formatTime(row.time);
     meta.append(row.source, row.topic ? ' · ' + row.topic : '');
+    if (row.viaGoogleNews) meta.append(' · via Google News');
     if (row.official) {
       const badge = document.createElement('span');
       badge.className = 'terminal-preview-official';

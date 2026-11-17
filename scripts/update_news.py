@@ -109,9 +109,11 @@ SOURCES.extend(
         "id": f"terminal_{source['id']}",
         "name": source["name"],
         "category": source["topic"],
-        "kind": "Official direct" if source["official"] else (
-            "Publisher sitemap" if source.get("format") == "news-sitemap" else "Publisher RSS"
-        ),
+        "kind": "Official direct" if source["official"] else {
+            "news-sitemap": "Publisher sitemap",
+            "google-news": "Google News discovery",
+        }.get(source.get("format"), "Publisher RSS"),
+        "publisher_domain": source.get("publisherDomain"),
         "url": source["url"],
         "headline_only": True,
     }
@@ -193,6 +195,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
         raise ValueError('Invalid external XML entity')
     root=ET.fromstring(xml)
     sitemap = feed['kind'] == 'Publisher sitemap'
+    discovery = feed['kind'] == 'Google News discovery'
     publisher_host = urllib.parse.urlsplit(feed['url']).hostname if sitemap else None
     if sitemap and local(root.tag) != 'urlset':
         raise ValueError('Expected a news sitemap')
@@ -213,6 +216,16 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             article_url = urllib.parse.urlsplit(link)
             if article_url.scheme != 'https' or article_url.hostname != publisher_host: continue
         source=feed['name']
+        if discovery:
+            publisher = next((ch for ch in node if local(ch.tag) == 'source'), None)
+            if publisher is None: continue
+            host = urllib.parse.urlsplit(publisher.get('url', '')).hostname or ''
+            target = urllib.parse.urlsplit(link)
+            if host.removeprefix('www.') != feed['publisher_domain']: continue
+            if target.scheme != 'https' or target.hostname != 'news.google.com' or not target.path.startswith('/rss/articles/'): continue
+            if publisher.text:
+                title = title.removesuffix(' - ' + plain(publisher.text, 100))
+            if not title: continue
         if feed['kind']=='Discovery':
             # Google News supplies an actual publisher label in the source child.
             hint=plain(child_text(node,'source'),60)
@@ -222,7 +235,7 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             child_text(node,'pubDate') or child_text(node,'date') or child_text(node,'published') or child_text(node,'updated')
         )
         published=parse_date(date_text,now)
-        if published is None or published>now+dt.timedelta(minutes=5) or published<now-dt.timedelta(days=7):continue
+        if published is None or published>now+dt.timedelta(minutes=5) or published<now-dt.timedelta(days=3 if discovery else 7):continue
         # Show short attributed excerpts when the original publisher provides them.
         # Google News discovery descriptions can be nested lists of related stories,
         # so do not turn those into an alleged summary of the linked article.
@@ -238,10 +251,10 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             'published_at':published.isoformat(timespec='seconds').replace('+00:00','Z'),
             'id':__import__('hashlib').sha256(link.encode('utf-8')).hexdigest()[:20]
         })
-        if not sitemap and len(out)>=MAX_PER_FEED:break
-    if sitemap:
+        if not (sitemap or discovery) and len(out)>=MAX_PER_FEED:break
+    if sitemap or discovery:
         out.sort(key=lambda item: item['published_at'], reverse=True)
-    return out[:MAX_PER_FEED]
+    return out[:12 if discovery else MAX_PER_FEED]
 
 
 def fetch(feed: dict, now: dt.datetime):
@@ -261,19 +274,39 @@ def build_feed(items,updated):
       '<language>en-us</language>',
       f'<lastBuildDate>{email.utils.format_datetime(updated)}</lastBuildDate>']
     for a in items[:MAX_RSS_ITEMS]:
+        source = a["source"] + (" via Google News" if a.get("source_type") == "Google News discovery" else "")
         pub=email.utils.format_datetime(dt.datetime.fromisoformat(a['published_at'].replace('Z','+00:00')))
         lines+=['<item>',f'<title>{u(a["title"])}</title>',f'<link>{u(a["url"])}</link>',
            f'<guid isPermaLink="false">{u(a["id"])}</guid>',f'<pubDate>{pub}</pubDate>',
-           f'<description>{u("Source: "+a["source"]+" · "+a["category"])}</description>','</item>']
+           f'<description>{u("Source: "+source+" · "+a["category"])}</description>','</item>']
     lines+=['</channel></rss>']
     RSS_OUT.write_text('\n'.join(lines)+'\n',encoding='utf8')
+
+
+def recent_discovery_items(now: dt.datetime, unavailable: set[str]):
+    if not unavailable:
+        return []
+    try:
+        rows = json.loads(TARGET.read_text(encoding='utf-8')).get('items', [])
+    except (OSError, ValueError):
+        return []
+
+    items = []
+    for row in rows:
+        if row.get('source_type') != 'Google News discovery' or row.get('source') not in unavailable:
+            continue
+        date = parse_date(row.get('published_at', ''), now)
+        if date is not None and now - dt.timedelta(days=3) <= date <= now:
+            items.append(row)
+    return items
 
 
 def main():
     now=dt.datetime.now(UTC)
     stories=[]
-    # Google News discovery timestamps are not independently verified
-    # publisher dates. Show direct and official feeds as current news.
+    unavailable_discovery=set()
+    # Broad legacy discovery searches stay disabled. The catalog enables only
+    # specific discovery searches that verify the attributed publisher host.
     eligible_feeds=[feed for feed in SOURCES if feed.get('kind')!='Discovery']
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         future_to_feed={pool.submit(fetch,feed,now):feed for feed in eligible_feeds}
@@ -284,10 +317,13 @@ def main():
                 got=f.result();stories.extend(got);success+=1
                 print(f'{feed["id"]}: {len(got)} headlines')
             except Exception as e:
+                if feed['kind'] == 'Google News discovery':
+                    unavailable_discovery.add(feed['name'])
                 print(f'{feed["id"]}: skipped ({type(e).__name__}: {e})',file=sys.stderr)
     if not stories:
         print('No stories fetched. Keeping previous feed unchanged.',file=sys.stderr)
         return 1
+    stories.extend(recent_discovery_items(now, unavailable_discovery))
     stories.sort(key=lambda x:x['published_at'],reverse=True)
 
     # Deduplicate same story across multiple feeds / repeated topic RSS feeds.
@@ -330,7 +366,7 @@ def main():
     payload={'site':'Standalone News','updated_at':now.isoformat(timespec='seconds').replace('+00:00','Z'), 'items':selected}
     TARGET.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     build_feed(selected,now)
-    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlet_counts)} named sources; {success}/{len(eligible_feeds)} date-bearing direct feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
+    print(f'Updated {TARGET.name}: {len(selected)} headlines from {len(outlet_counts)} named sources; {success}/{len(eligible_feeds)} configured feeds reachable; {sum(st["source_type"] in ("Official direct","Official register") for st in selected)} official-source entries.')
     return 0
 
 if __name__=='__main__': sys.exit(main())
