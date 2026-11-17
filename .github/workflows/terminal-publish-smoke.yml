@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: db563206e3bb7b5e95dab3ba1fc0c329d124dd75
+          ref: 92524ecaf03d679d5ab8f1c172ff9c22636795c5
           persist-credentials: false
       - name: Check section theme, links, contrast and basic interactions
         shell: bash
@@ -67,6 +67,19 @@ jobs:
                 assert.equal(state.body,'rgb(12, 17, 25)',route+' body');
                 if(!dark(state.main)) failures.push([width,route,'panel not dark',state.main]);
                 if(state.width>width+2) failures.push([width,route,'horizontal overflow',state.width]);
+                if (width===1440) {
+                  const pale=await page.evaluate(() => {
+                    const result=new Set();
+                    for(const el of document.querySelectorAll('main :is(div, section, aside, header, nav, a, input, button, td, th)')) {
+                      const rect=el.getBoundingClientRect();
+                      if(rect.height<20 || rect.width<45) continue;
+                      const parts=getComputedStyle(el).backgroundColor.match(/[\d.]+/g)?.map(Number);
+                      if(parts?.length>=3 && Math.min(...parts.slice(0,3))>=175 && (parts.length===3 || parts[3]>.7)) result.add(el.tagName.toLowerCase()+'.'+String(el.className).replace(/\s+/g,'.'));
+                    }
+                    return [...result].slice(0,20);
+                  });
+                  if(pale.length) console.log('Pale surfaces in '+route+': '+pale.join(', '));
+                }
                 if(width===1440 || (width===390 && route==='edition.html')) {
                   await page.addScriptTag({path:axe});
                   const issues=await page.evaluate(async ()=>(await axe.run('body',{runOnly:['color-contrast']})).violations.flatMap(v=>v.nodes.map(n=>({target:n.target.join(' '),detail:n.any[0]?.data,html:n.html.slice(0,125)}))));
