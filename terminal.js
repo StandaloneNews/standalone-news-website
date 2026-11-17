@@ -179,6 +179,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
       else if (displayed.length) pending = [...known.keys()].filter(key => !displayedKeys.has(key));
       else renderItems();
 
+      document.dispatchEvent(new CustomEvent('terminal-headlines', { detail: [...known.values()] }));
       renderStatus(manual);
       renderPending();
     } finally {

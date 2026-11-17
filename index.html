@@ -8,9 +8,9 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=4">
-  <script type="module" src="./terminal.js?v=4"></script>
-  <script type="module" src="./terminal-panels.js?v=1"></script>
+  <link rel="stylesheet" href="./terminal.css?v=5">
+  <script type="module" src="./terminal.js?v=5"></script>
+  <script type="module" src="./terminal-panels.js?v=2"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to the terminal</a>
@@ -108,6 +108,12 @@
             <p id="x-status" class="status" role="status">Select an account to view its public posts through X.</p>
           </div>
           <div id="x-timeline"></div>
+          <section class="publisher-updates" id="x-publisher-updates" aria-labelledby="publisher-updates-heading">
+            <h3 id="publisher-updates-heading">Publisher updates</h3>
+            <p class="status">Latest headlines from the selected account’s newsroom.</p>
+            <a id="x-publisher-link" href="https://www.federalreserve.gov/newsevents.htm">Federal Reserve newsroom</a>
+            <ul id="x-publisher-headlines" role="list" hidden></ul>
+          </section>
           <noscript><p class="panel-note">Open the account on X to read its posts.</p></noscript>
         </div>
       </section>

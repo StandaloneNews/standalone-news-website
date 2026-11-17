@@ -105,6 +105,11 @@ fieldset select { margin-bottom: .35rem; }
 .watchlist-heading { margin: .35rem .65rem; font: 650 .9rem/1.25 var(--mono); }
 #x-timeline { min-inline-size: 0; margin: .45rem .65rem; }
 #x-timeline iframe { max-inline-size: 100% !important; }
+.publisher-updates { margin: .6rem .65rem; padding: .6rem 0; border-top: 1px solid var(--rule); }
+.publisher-updates h3 { margin: 0; font: 650 .9rem/1.25 var(--mono); }
+.publisher-updates a { display: inline-flex; align-items: center; min-block-size: 44px; overflow-wrap: anywhere; }
+.publisher-updates ul { margin: .25rem 0; padding: 0; list-style: none; }
+.publisher-updates li { padding-block: .15rem; border-top: 1px solid var(--rule); }
 .page-footer { display: flex; flex-wrap: wrap; gap: 0 1rem; color: var(--muted); font-size: .825rem; }
 @media (min-width: 64rem) {
   .workspace-panel { block-size: clamp(36rem, calc(100svh - 7rem), 64rem); }

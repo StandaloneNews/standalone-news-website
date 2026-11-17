@@ -5,6 +5,17 @@ const xLink = element('x-profile-link');
 const xButton = element('load-x');
 const xStatus = element('x-status');
 const xHost = element('x-timeline');
+const publisherUpdates = element('x-publisher-updates');
+const publisherLink = element('x-publisher-link');
+const publisherList = element('x-publisher-headlines');
+const publishers = {
+  federalreserve: ['Federal Reserve', 'https://www.federalreserve.gov/newsevents.htm', ['Federal Reserve', 'Fed']],
+  BLS_gov: ['Bureau of Labor Statistics', 'https://www.bls.gov/bls/newsrels.htm', ['Bureau of Labor Statistics', 'BLS']],
+  SECGov: ['SEC', 'https://www.sec.gov/newsroom', ['Securities and Exchange Commission', 'SEC']],
+  Reuters: ['Reuters', 'https://www.reuters.com/', ['Reuters']],
+  AP: ['Associated Press', 'https://apnews.com/', ['Associated Press', 'AP', 'AP News']],
+};
+let publisherHeadlines = [];
 let xScript;
 let xRequest = 0;
 
@@ -38,8 +49,31 @@ function xWidgets() {
   return xScript;
 }
 
+function renderPublisherUpdates() {
+  const [name, href, sources] = publishers[account.value];
+  publisherLink.href = href;
+  publisherLink.textContent = name + ' newsroom';
+  const items = publisherHeadlines.filter(item => sources.includes(item.source)).slice(0, 4);
+  publisherList.replaceChildren(...items.map(item => {
+    const row = document.createElement('li');
+    const link = document.createElement('a');
+    link.href = item.href;
+    link.textContent = item.title;
+    row.append(link);
+    return row;
+  }));
+  publisherList.hidden = !items.length;
+}
+
+document.addEventListener('terminal-headlines', event => {
+  publisherHeadlines = event.detail;
+  renderPublisherUpdates();
+});
+
 function resetX() {
   xRequest++;
+  publisherUpdates.hidden = false;
+  renderPublisherUpdates();
   xHost.replaceChildren();
   xLink.href = 'https://x.com/' + account.value;
   xStatus.textContent = 'Load @' + account.value + ' or open the profile on X.';
@@ -67,6 +101,7 @@ async function loadTimeline() {
     if (request !== xRequest) return;
     if (frame instanceof HTMLIFrameElement && !frame.title) frame.title = 'Public posts by @' + handle;
     xStatus.textContent = 'Timeline for @' + handle + '.';
+    publisherUpdates.hidden = true;
   } catch {
     if (request === xRequest) {
       xHost.replaceChildren();
