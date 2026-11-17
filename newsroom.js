@@ -123,19 +123,7 @@
  $('lead-source').textContent=item.type==='article'?'Standalone News · AI-assisted':'Via '+item.source;$('lead-time').textContent=utc(item.published_at,true);
  hero.className='hero-art '+(({Markets:'art-economy',Economy:'art-economy',Government:'art-government',Regulation:'art-regulation',World:'art-world'})[item.category]||'art-world');const caption=hero.querySelector('.hero-image-caption');if(item.image&&item.image.thumb_url){hero.classList.add('has-photo');hero.style.setProperty('--hero-image',`url("${item.image.thumb_url}")`);if(caption)caption.hidden=true;if(credit){if(item.image.page_url){credit.hidden=false;credit.href=item.image.page_url;credit.textContent=creditLine(item);credit.title='Image attribution and license';}else credit.hidden=true;}const probe=new Image();probe.onerror=()=>{if(hero.style.getPropertyValue('--hero-image').includes(item.image.thumb_url)){hero.classList.remove('has-photo');hero.style.removeProperty('--hero-image');if(caption){caption.textContent='A BIGGER PICTURE';caption.hidden=true;}if(credit)credit.hidden=true;}};probe.src=item.image.thumb_url;}else{hero.style.removeProperty('--hero-image');if(caption){caption.textContent='A BIGGER PICTURE';caption.hidden=true;}if(credit)credit.hidden=true;}
  leadSave.hidden=false;leadSave.dataset.save=item.key;const saved=state.saved.some(x=>x.key===item.key);leadSave.className='bookmark-btn'+(saved?' on':'');leadSave.textContent=saved?'♥ Saved':'♡ Save';leadSave.setAttribute('aria-pressed',String(saved));cta.href=item.url;cta.textContent=item.type==='article'?'Read explainer →':sourceLinkText(item);if(item.type==='news'){cta.target='_blank';cta.rel='noopener noreferrer';}else{cta.removeAttribute('target');cta.removeAttribute('rel');}}
- function renderLatest(){const n=$('latest-items');n.replaceChildren();if(!state.news.length){n.append(el('p','placeholder',state.error?'Headlines could not be loaded.':'New source-linked headlines will appear here.'));return;}
- // The wire remains purely chronological; this compact homepage module mixes outlets
- // so an agency publishing a burst of notices cannot occupy every visible row.
- const lead=(deskPicks(state.news)[0]||{}).key, latest=[], count=new Map();let officialCount=0;
- for(const item of state.news){
-  if(item.key===lead||latest.length>=4)continue;
-  if((count.get(item.source)||0)>=2)continue;
-  if(item.source_type.startsWith('Official')&&officialCount>=2)continue;
-  latest.push(item);count.set(item.source,(count.get(item.source)||0)+1);
-  if(item.source_type.startsWith('Official'))officialCount++;
- }
- for(const item of state.news){if(latest.length>=4)break;if(item.key!==lead&&!latest.some(s=>s.key===item.key))latest.push(item);}
- latest.forEach((item,i)=>{const row=el('div','latest-row');row.append(el('span','latest-index',String(i+1).padStart(2,'0')));const cont=el('div');const h=el('h3');h.append(link(item));cont.append(h,el('div','small-meta',item.source+' · '+utc(item.published_at,true)));row.append(cont);n.append(row);});}
+
  function storyCard(item){const art=el('article','story-card');art.append(visual(item));const body=el('div','story-card-body'),h=el('h3');h.append(link(item));body.append(el('div','story-card-label',item.category.toUpperCase()),h);if(sourceExcerpt(item))body.append(el('p','desk-excerpt',sourceExcerpt(item)));body.append(el('div','card-meta',shortMeta(item)));const photo=photoCredit(item);if(photo)body.append(photo);body.append(followButton(item.source));const actions=el('div','card-actions');actions.append(link(item,item.type==='article'?'Read explainer →':sourceLinkText(item)),actionSave(item));actions.firstChild.className='story-link';body.append(actions);art.append(body);return art;}
  function renderTop(){const n=$('top-grid');n.replaceChildren();const lead=(deskPicks(state.news)[0]||{}).key;const pool=deskPicks(state.news).filter(x=>x.key!==lead);const chosen=[],sources=new Set(),cats=new Set();for(const item of pool){if(chosen.length>=4)break;if(!sources.has(item.source)&&(!cats.has(item.category)||chosen.length>=3)){chosen.push(item);sources.add(item.source);cats.add(item.category);}}for(const item of pool){if(chosen.length>=4)break;if(!chosen.some(x=>x.key===item.key))chosen.push(item);}if(!chosen.length){empty(n,'Top stories appear when the headline feed updates.');return;}const usedImages=new Set();const leadItem=deskPicks(state.news)[0];if(leadItem?.image?.thumb_url)usedImages.add(leadItem.image.thumb_url);chosen.forEach(x=>{if(x.image?.thumb_url&&usedImages.has(x.image.thumb_url)){x={...x,image:null};}else if(x.image?.thumb_url){usedImages.add(x.image.thumb_url);}n.append(storyCard(x));});}
 
@@ -176,7 +164,7 @@
  }
  function renderOutletOptions(){const n=$('wire-source'),outlets=[...new Set([...state.news,...state.articles,...state.saved].map(x=>x.source))].sort((a,b)=>a.localeCompare(b));if(state.outlet&&!outlets.includes(state.outlet))state.outlet='';n.replaceChildren();const all=el('option','',`All outlets (${outlets.length})`);all.value='';n.append(all);outlets.forEach(name=>{const opt=el('option','',name);opt.value=name;n.append(opt);});n.value=state.outlet;}
  function renderSaved(){const n=$('saved-list');n.replaceChildren();$('saved-total').textContent=String(state.saved.length);if(!state.saved.length){n.append(el('p','placeholder','No stories saved yet. Tap ♡ Save beside any article.'));$('clear-saved').hidden=true;return;}$('clear-saved').hidden=false;state.saved.forEach(item=>{const row=el('div','saved-item'),body=el('div');body.append(link(item),el('div','card-meta',item.source+' · '+utc(item.published_at,true)));row.append(body);const b=el('button','', 'Remove');b.dataset.save=item.key;b.type='button';row.append(b);n.append(row);});}
- function render(){renderHero();renderLatest();renderTop();renderBrief();renderFollowing();renderCategories();renderExplainers();renderWire();renderSaved();}
+ function render(){renderHero();renderTop();renderBrief();renderFollowing();renderCategories();renderExplainers();renderWire();renderSaved();}
  async function fetchJSON(path){const r=await fetch(path+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status+' '+path);return r.json();}
  async function load(){const btn=$('reload-news');btn.disabled=true;$('feed-status').textContent='REFRESHING…';$('feed-error').hidden=true;
  // Keep the existing public headline and editorial feeds, and layer the independent bot-ranked feed on top.
@@ -194,7 +182,7 @@
  if(state.error){$('feed-error').textContent='The news feed could not be loaded. Please try refreshing or check GitHub Actions.';$('feed-error').hidden=false;}
  try{const res=await fetchJSON(demo?'./data/demo-articles.json':'./data/articles.json');const seen=new Set();state.articles=sort((Array.isArray(res.items)?res.items:[]).map(normArticle).filter(x=>{if(!x||seen.has(x.key))return false;seen.add(x.key);return true;}));}catch{state.articles=[];}
  $('feed-status').textContent=state.error?'FEED UNAVAILABLE':(state.news.length+' HEADLINES · '+new Set(state.news.map(x=>x.source)).size+' OUTLETS & AGENCIES · '+(state.feedUpdated?'UPDATED '+utc(state.feedUpdated,true):'LATEST AVAILABLE'));
- btn.disabled=false;renderOutletOptions();render();renderPrefs();const live=$('latest-status');if(live)live.textContent=state.feedUpdated?'Updated '+utc(state.feedUpdated,true):'Latest available';}
+ btn.disabled=false;renderOutletOptions();render();renderPrefs();}
  function showModal(id){prevFocus=document.activeElement;const node=$(id);node.hidden=false;document.body.style.overflow='hidden';if(id==='saved-overlay')renderSaved();else if(id==='brief-overlay')renderPrefs();node.querySelector('.modal-close').focus();}
  function closeModal(id){const node=$(id);node.hidden=true;document.body.style.overflow='';if(prevFocus&&prevFocus.focus)prevFocus.focus();}
  function renderPrefs(){const n=$('preference-grid');n.replaceChildren();TOPICS.forEach(c=>{const b=el('button','pref-option'+(state.prefs.includes(c)?' on':''),NAMES[c]);b.type='button';b.dataset.pref=c;b.setAttribute('aria-pressed',String(state.prefs.includes(c)));n.append(b);});const sources=$('publisher-preference-grid');if(sources){sources.replaceChildren();const outlets=[...new Set(state.news.map(x=>x.source))].sort().slice(0,85);for(const name of [...new Set([...state.followed,...outlets])]){const b=el('button','publisher-option'+(state.followed.includes(name)?' on':''),name);b.type='button';b.dataset.follow=name;b.setAttribute('aria-pressed',String(state.followed.includes(name)));sources.append(b);}}}
@@ -272,7 +260,7 @@
  for(const id of ['open-saved','mobile-saved'])$(id).addEventListener('click',()=>showModal('saved-overlay'));
  // Open the same Saved dialog when a reader follows the mobile shortcut from another page.
  if(new URLSearchParams(location.search).get('saved')==='1')showModal('saved-overlay');
- for(const id of ['open-brief','open-brief-side','brief-personalize'])$(id).addEventListener('click',()=>showModal('brief-overlay'));
+ $('brief-personalize').addEventListener('click',()=>showModal('brief-overlay'));
  $('search-toggle').addEventListener('click',()=>{location.hash='#wire';$('wire-search').focus();});
  document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeModal(b.dataset.close)));
  document.querySelectorAll('.modal-overlay').forEach(n=>n.addEventListener('click',e=>{if(e.target===n)closeModal(n.id);}));

@@ -337,3 +337,155 @@ body.theme-broadsheet .edition-flag{margin:0}
 body.theme-broadsheet.home-broadsheet .edition-flag{color:#eff5f5!important}
 body.theme-broadsheet.home-broadsheet .utility-right,
 body.theme-broadsheet.home-broadsheet .utility-right a{color:#eff5f5!important}
+
+/* Shared edition styling across the public desks and article pages. */
+:root {
+  --edition-paper: #fdfcf3;
+  --edition-sheet: #fffefa;
+  --edition-ink: #172c39;
+  --edition-muted: #435864;
+  --edition-rule: #d5d5cb;
+  --edition-accent: #ffc500;
+  --edition-tint: #fff2bb;
+}
+body.theme-broadsheet {
+  --bs-paper: var(--edition-paper);
+  --bs-sheet: var(--edition-sheet);
+  --bs-ink: var(--edition-ink);
+  --bs-rule: var(--edition-rule);
+  --bs-muted: var(--edition-muted);
+}
+body.theme-broadsheet.sports-page {
+  --sd-cream: var(--edition-paper);
+  --sd-ink: var(--edition-ink);
+  --sd-muted: var(--edition-muted);
+  --sd-rule: var(--edition-rule);
+  --sd-panel: var(--edition-sheet);
+}
+body.theme-broadsheet :is(.masthead, .mast, .site-header, .sports-top) {
+  border-block-start: 4px solid var(--edition-accent) !important;
+  background: var(--edition-paper) !important;
+  box-shadow: none !important;
+}
+body.theme-broadsheet :is(.site-header .header-main, .mast .mast-inner, .sports-head-row) {
+  min-block-size: 62px;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+body.theme-broadsheet :is(.mast-name, .edition-wordmark, .sports-brand) {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  font-family: var(--bs-serif);
+  color: var(--edition-ink);
+}
+body.theme-broadsheet :is(.mast-name, .edition-wordmark, .sports-brand) img {
+  display: block;
+  object-fit: contain;
+  flex: none;
+}
+body.theme-broadsheet :is(.nav-wrap, .top-nav, .site-nav, .topnav, .sports-nav) {
+  background: var(--edition-paper) !important;
+  border-block-end: 1px solid var(--edition-ink) !important;
+}
+body.theme-broadsheet a.edition-nav-terminal {
+  background: var(--edition-tint);
+  color: var(--edition-ink) !important;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+body.theme-broadsheet a.edition-nav-terminal:hover { background: var(--edition-accent); }
+body.theme-broadsheet a.edition-nav-terminal:focus-visible { outline-offset: -3px; }
+body.theme-broadsheet nav.sn-six-bottom .sn-six-tab:is(.active, [aria-current="page"]) {
+  background: var(--edition-tint);
+  color: var(--edition-ink);
+}
+body.theme-broadsheet nav.sn-six-bottom .sn-six-tab:is(.active, [aria-current="page"])::before {
+  background: var(--edition-accent);
+}
+body.theme-broadsheet nav.sn-six-bottom .sn-six-label { font-size: clamp(8px, 2.35vw, 10px); }
+body.theme-broadsheet :is(.hero, .sports-intro, .page-head, .personal-hero, .inner-heading) {
+  border-block-end: 1px solid var(--edition-ink) !important;
+}
+body.theme-broadsheet :is(.hero > div:first-child, .sports-intro > div:first-child, .page-head > div:first-child, .personal-hero, .inner-heading) h1 {
+  font-family: var(--bs-serif);
+  letter-spacing: -.04em !important;
+  line-height: 1.06 !important;
+}
+body.theme-broadsheet :is(.hero, .sports-intro, .page-head, .personal-hero, .inner-heading) h1 em {
+  color: inherit !important;
+  text-decoration: underline;
+  text-decoration-color: var(--edition-accent);
+  text-decoration-thickness: .12em;
+  text-underline-offset: .17em;
+}
+body.theme-broadsheet :is(.chart-section, .workspace, .sports-section, .discussion-shell, .personal-results, .editorial-grid) {
+  border-block-start: 2px solid var(--edition-ink);
+}
+body.theme-broadsheet.theme-article :is(.editorial-article, .inner-page),
+body.theme-broadsheet:is(.theme-editorial,.theme-legal,.theme-standards,.theme-newsletter) main {
+  border-block-start: 3px solid var(--edition-accent) !important;
+}
+body.theme-broadsheet.theme-article .editorial-body {
+  max-inline-size: 72ch;
+}
+body.theme-broadsheet.theme-article .editorial-tile {
+  border-block-start: 1px solid var(--edition-ink);
+}
+body.theme-broadsheet.home-broadsheet .lead-grid {
+  grid-template-columns: minmax(0, 2fr) minmax(14rem, 1fr) !important;
+}
+body.theme-broadsheet.home-broadsheet .edition-feed-status {
+  margin: 0;
+  color: var(--edition-muted);
+  font: .8rem/1.5 var(--bs-sans);
+}
+body.theme-broadsheet.home-broadsheet .market-strip { margin-block: 1.5rem .8rem; }
+body.theme-broadsheet.home-broadsheet .edition-reader-brief {
+  scroll-margin-block-start: 5rem;
+  background: var(--edition-sheet);
+  border: 1px solid var(--edition-rule);
+  padding: .75rem 1rem;
+}
+.edition-reader-brief h2 { margin: 0; font-size: 1.35rem; }
+.edition-reader-brief summary {
+  cursor: pointer;
+  padding: .7rem 0;
+  min-block-size: 44px;
+  font: 700 .92rem/1.4 var(--bs-sans);
+}
+.edition-reader-brief .edition-brief-actions { margin-block: .25rem .5rem; }
+.edition-reader-brief .brief-prefs { min-block-size: 44px; border-radius: 0; border-color: #6b726d; }
+.edition-reader-brief .brief-list {
+  grid-template-columns: minmax(0, 1fr);
+  border-block: 1px solid var(--edition-rule);
+  margin: 0;
+}
+.edition-reader-brief .brief-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: .2rem;
+  padding: .5rem 0;
+  border: 0;
+}
+.edition-reader-brief .brief-row + .brief-row { border-block-start: 1px solid var(--edition-rule); }
+.edition-reader-brief .brief-number { display: none; }
+.edition-reader-brief :is(.brief-source,.brief-topic,.brief-bottom,.brief-wait) {
+  color: var(--edition-muted);
+  font-size: .8rem;
+}
+.edition-reader-brief .brief-row > a, .edition-reader-brief .brief-bottom a {
+  display: inline-flex;
+  min-block-size: 44px;
+  align-items: center;
+  color: var(--edition-ink);
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+.edition-reader-brief .brief-row > a:hover { color: var(--edition-ink); text-decoration-thickness: 2px; }
+.edition-reader-brief .brief-bottom { flex-wrap: wrap; align-items: center; }
+@media (max-width: 48rem) {
+  body.theme-broadsheet.home-broadsheet .lead-grid { grid-template-columns: minmax(0, 1fr) !important; }
+  body.theme-broadsheet :is(.mast-name,.edition-wordmark,.sports-brand) { min-block-size: 44px; }
+}
