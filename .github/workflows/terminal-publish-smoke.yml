@@ -1,0 +1,104 @@
+name: Verify the Standalone News terminal workspace
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  workspace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: d1fe7b40ec95b8a2c77a08f6ffaa978940de4526
+          persist-credentials: false
+      - name: Check browser interactions and responsive layouts
+        shell: bash
+        run: |
+          python3 -m unittest discover -s tests -p test_accessibility_static.py -v
+          npm install --prefix "$RUNNER_TEMP/terminal-test" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
+          python3 -m http.server 8765 --bind 127.0.0.1 >"$RUNNER_TEMP/site.log" 2>&1 &
+          test_server=$!
+          trap 'kill "$test_server" 2>/dev/null || true' EXIT
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { createRequire } from 'node:module';
+
+          const require = createRequire(process.env.RUNNER_TEMP + '/terminal-test/package.json');
+          const { chromium } = require('playwright-core');
+          const axe = require.resolve('axe-core/axe.min.js');
+          const app = 'http://127.0.0.1:8765';
+          const browser = await chromium.launch({executablePath: process.env.CHROME_BIN});
+          try {
+            for (const width of [1440, 390, 320]) {
+              const page = await browser.newPage({viewport: {width, height: 900}});
+              const date = new Date(Date.now() - 3000).toISOString();
+              const fixture = [
+                {title:'Federal rate decision fixture',url:'https://example.org/fed',published_at:date,source:'Federal Reserve',category:'Markets',source_type:'Official direct'},
+                {title:'World dispatch fixture',url:'https://example.org/world',published_at:date,source:'BBC News',category:'World',source_type:'Publisher RSS'},
+              ];
+              await page.route('**/api/wire', route => route.fulfill({json:{checked_at:date, feeds:[{source:'Federal Reserve',available:true}],items:fixture}}));
+              await page.route('**/data/news.json', route => route.fulfill({json:{updated_at:date,items:[]}}));
+              await page.route('https://platform.twitter.com/widgets.js', route => route.fulfill({
+                contentType: 'application/javascript',
+                body: 'window.twttr={widgets:{createTimeline:async (source,host)=>{if(source.screenName==="Reuters")throw Error("Unavailable");const f=document.createElement("iframe");f.srcdoc="<p>"+source.screenName+"</p>";host.append(f);return f;}}};',
+              }));
+              await page.route('https://s3.tradingview.com/external-embedding/**', route => route.fulfill({
+                contentType:'application/javascript',
+                body:'const embedNode=document.currentScript;const f=document.createElement("iframe");f.srcdoc="<p>"+JSON.parse(embedNode.textContent).symbol+"</p>";embedNode.parentNode.append(f);',
+              }));
+              await page.goto(app + '/');
+              await page.locator('#headlines a').first().waitFor();
+              assert.equal(await page.locator('h1').textContent(), 'Standalone News Terminal');
+              const menu = page.getByText('More', {exact:true});
+              await menu.click();
+              assert(await page.getByRole('link', {name:'News edition',exact:true}).isVisible());
+              assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Menu introduced horizontal overflow at '+width);
+              await menu.click();
+              await page.getByLabel('Search headlines').fill('decision');
+              assert.equal(await page.locator('#headlines a').count(), 1);
+              await page.getByText('Filter headlines', {exact:true}).click();
+              await page.getByLabel('Exclude words or phrases').fill('rate');
+              assert.match(await page.locator('#result-count').textContent(), /No headlines match/);
+              await page.getByRole('button',{name:'Clear filters'}).click();
+              assert.equal(await page.locator('#headlines a').count(), 2);
+              await page.locator('.filter-panel > summary').click();
+              await page.getByRole('link',{name:'X posts',exact:true}).click();
+              await page.locator('#x-timeline iframe[title]').waitFor();
+              await page.getByLabel('Public account').selectOption('BLS_gov');
+              await page.getByText('Timeline for @BLS_gov.', {exact:true}).waitFor();
+              await page.getByLabel('Public account').selectOption('Reuters');
+              await page.getByText('The timeline is unavailable here.', {exact:false}).waitFor();
+              assert.equal(await page.locator('#x-profile-link').getAttribute('href'), 'https://x.com/Reuters');
+              await page.getByRole('link',{name:'Markets',exact:true}).click();
+              await page.locator('#market-chart iframe[title]').waitFor();
+              await page.getByLabel('Chart symbol').selectOption('COINBASE:BTCUSD');
+              assert.match(await page.locator('#market-chart-link').getAttribute('href'), /COINBASE-BTCUSD/);
+              await page.locator('#market-quotes iframe[title]').waitFor();
+              assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Horizontal overflow at '+width);
+              await page.addScriptTag({path:axe});
+              const issues = await page.evaluate(async () => {
+                const r=await axe.run(document, {runOnly:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']});
+                return r.violations.map(v => [v.id,v.nodes.map(n => n.target)]);
+              });
+              assert.deepEqual(issues, [], 'Accessibility violations at '+width);
+              console.log(width+'px: News, X account switching, market symbol switching, watchlist, layout and accessibility passed.');
+              await page.close();
+            }
+            const page = await browser.newPage();
+            await page.route('https://**/*', route => route.abort());
+            await page.goto(app + '/edition.html#brief');
+            assert(await page.locator('#brief details').count());
+            await page.goto(app + '/terminal.html?topic=Markets');
+            await page.waitForURL(app+'/?topic=Markets');
+            console.log('Older terminal URL preserves filters; the daily brief remains accessible in the edition.');
+          } finally {
+            await browser.close();
+          }
+          JS
