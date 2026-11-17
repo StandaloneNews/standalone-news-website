@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: cba6d69d877a7a0d8abbe1260cded1b860ebaccb
+          ref: 68bb790203c97ec3aaba3d18096fc0392a0a08bc
           persist-credentials: false
       - name: Check existing accessibility regressions and article templates
         run: |
@@ -139,12 +139,13 @@ jobs:
               '/markets.html':'Market Desk', '/research.html':'Company Research', '/sports.html':'Sports Desk',
               '/discuss.html':'Discussion Room', '/personalize.html':'Personalized News',
               '/articles/':'News explainers.', '/about.html':'Trust begins', '/privacy.html':'Privacy',
-              '/terms.html':'Terms', '/accessibility.html':'News should',
+              '/terms.html':'Terms', '/accessibility.html':'News should', '/standards.html':"How Standalone News works.",
+              '/contact.html':"Contact &amp; Corrections", '/newsletter-privacy.html':'Email newsletter privacy', '/newsletter-status.html':'Standalone News',
             })) {
               await load(path);
               assert(await evaluate('document.querySelector("h1")?.textContent.startsWith(' + JSON.stringify(title) + ')'), path);
               assert(await evaluate('getComputedStyle(document.body).backgroundColor === "rgb(253, 252, 243)"'), path);
-              if (!['/privacy.html','/terms.html'].includes(path)) assert(await evaluate('Array.from(document.links).some(link => link.pathname.startsWith("/terminal"))'), path);
+              if (['/markets.html','/research.html','/sports.html','/discuss.html','/personalize.html','/articles/','/about.html','/accessibility.html'].includes(path)) assert(await evaluate('Array.from(document.links).some(link => link.pathname.startsWith("/terminal"))'), path);
               console.log(path + ': loads with the edition theme.');
             }
           } finally {
