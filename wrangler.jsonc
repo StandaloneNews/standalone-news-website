@@ -1,8 +1,12 @@
-
 {
   "name": "standalone-news-website",
   "compatibility_date": "2026-10-14",
   "assets": {
-    "directory": "./"
-  }
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/wire"
+    ]
+  },
+  "main": "site-worker.mjs"
 }
