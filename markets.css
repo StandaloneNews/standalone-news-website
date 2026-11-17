@@ -77,9 +77,18 @@ button{cursor:pointer}button:disabled{cursor:default;opacity:.55}
 .watch-tabs{display:flex;flex-wrap:wrap;gap:7px;border-bottom:1px solid var(--line);background:#f9fbfc;padding:13px 17px}
 .watch-tab{border:1px solid #d7e1e9;border-radius:6px;background:white;color:#567086;font-size:12px;font-weight:800;padding:11px 15px}
 .watch-tab:hover,.watch-tab.active{background:var(--navy);border-color:var(--navy);color:#fff}
-.watch-widget{height:465px}
-.watch-widget .tradingview-widget-container{height:100%;width:100%}
-.watch-widget .tradingview-widget-container__widget{height:calc(100% - 30px);width:100%}
+.watch-widget {
+  color-scheme: dark;
+  background: var(--terminal-panel, #121a25);
+  --tv-widget-background-color: var(--terminal-panel, #121a25);
+  --tv-widget-text-color: var(--terminal-ink, #edf3fa);
+  --tv-widget-price-text-color: var(--terminal-ink, #edf3fa);
+  --tv-widget-accent-color: var(--terminal-accent, #ffc500);
+  --tv-widget-positive-color: #68dda5;
+  --tv-widget-negative-color: #ff9eab;
+}
+.watch-widget tv-tickers { display: block; inline-size: 100%; }
+.watch-widget .watchlist-fallback { margin: 0; padding: .8rem; }
 .watch-footer{border-top:1px solid var(--line);padding:15px 18px;color:#6c7f90;font-size:11px;line-height:1.5;display:flex;justify-content:space-between;gap:15px}
 .official-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:13px}
 .official-links a{background:#f4f7fa;border:1px solid var(--line);border-radius:6px;padding:12px 15px;text-decoration:none;font-weight:800;font-size:11px;color:#355773}
@@ -140,7 +149,7 @@ button{cursor:pointer}button:disabled{cursor:default;opacity:.55}
   .quick-symbols{gap:6px;margin-top:16px}.quick-symbols button{padding:8px 10px;font-size:10px}
   .advanced-chart{height:465px}
   .chart-credit{display:block;padding:13px 15px}.chart-credit a{display:block;margin-top:4px}
-  .watch-widget{height:415px}.watch-tabs{gap:6px;padding:11px}
+  .watch-tabs{gap:6px;padding:11px}
   .watch-tab{font-size:10px;padding:10px}
   .watch-footer{display:block;font-size:10px}.watch-footer span{display:block;margin-bottom:4px}
   .news-toolbar{display:block}.news-tabs{gap:6px}.news-filter{padding:9px 11px;font-size:10px}

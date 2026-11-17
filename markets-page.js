@@ -1,3 +1,5 @@
+import { showQuoteWatchlist } from './market-watchlist.js?v=1';
+
 /* Standalone News Markets desk. TradingView owns all embedded quote/chart data.
    Public newsroom JSON supplies source-linked headlines; no market prices are fabricated. */
 (()=>{'use strict';
@@ -102,9 +104,7 @@ function initCharts(){
       const active=button.dataset.watch===key;
       button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
     });
-    mountTradingView($('watch-widget'),'market-quotes',{
-      locale:'en',colorTheme:'dark',width:'100%',height:'430',showSymbolLogo:true,symbolsGroups:GROUPS[key]
-    },'Market watchlist');
+    showQuoteWatchlist($('watch-widget'), GROUPS[key].flatMap(group => group.symbols.map(symbol => symbol.name)));
   };
   document.querySelectorAll('[data-watch]').forEach(button=>button.addEventListener('click',()=>drawWatch(button.dataset.watch)));
   // Keep the above-the-fold chart fast; load a second large widget only as it becomes visible.

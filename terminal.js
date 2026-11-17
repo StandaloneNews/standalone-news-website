@@ -16,6 +16,8 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   const autoRefresh = $('auto-refresh');
   const keyword = $('keyword');
   const topic = $('topic');
+  const quickTopics = $('quick-topics');
+  const topicButtons = [...quickTopics.querySelectorAll('button[data-topic]')];
   const source = $('source');
   const official = $('official');
   const exclude = $('exclude');
@@ -85,6 +87,9 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   function renderItems() {
+    for (const button of topicButtons) {
+      button.setAttribute('aria-pressed', String(button.dataset.topic === topic.value));
+    }
     const filtered = matches();
     const size = Number(pageSize.value);
     const pageCount = Math.max(1, Math.ceil(filtered.length / size));
@@ -228,6 +233,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     headlines.querySelector('a')?.focus({ preventScroll: true });
   }
 
+  for (const button of topicButtons) {
+    button.addEventListener('click', () => {
+      topic.value = button.dataset.topic;
+      firstPage();
+    });
+  }
   previousPage.addEventListener('click', () => changePage(-1));
   nextPage.addEventListener('click', () => changePage(1));
   pageSize.addEventListener('change', () => {
@@ -267,8 +278,10 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   const filterPanel = $('filter-panel');
-  filterPanel.open = Boolean(initialTopic || official.checked);
+  filterPanel.open = Boolean(official.checked
+    || (initialTopic && !topicButtons.some(button => button.dataset.topic === initialTopic)));
   filterPanel.hidden = false;
+  quickTopics.hidden = false;
   $('wire-actions').hidden = false;
   $('headline-search').hidden = false;
   setInterval(() => {

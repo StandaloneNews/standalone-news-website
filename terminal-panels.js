@@ -1,3 +1,5 @@
+import { showQuoteWatchlist } from './market-watchlist.js?v=1';
+
 const element = id => document.getElementById(id);
 
 const account = element('x-account');
@@ -191,11 +193,7 @@ function loadMarkets() {
   const loadWatchlist = () => {
     if (!watchlist.open) return;
     watchlist.removeEventListener('toggle', loadWatchlist);
-    const instruments = [...symbol.options].map(option => ({name: option.value, displayName: option.textContent}));
-    mountMarket(quotes, 'market-quotes', {
-      width: '100%', height: '100%', colorTheme: 'dark', isTransparent: true,
-      locale: 'en', showSymbolLogo: false, symbolsGroups: [{ name: 'Watchlist', symbols: instruments }],
-    }, 'Market watchlist');
+    showQuoteWatchlist(quotes, [...symbol.options].map(option => option.value));
   };
   watchlist.addEventListener('toggle', loadWatchlist);
   loadWatchlist();
@@ -205,7 +203,7 @@ const topScroll = element('market-top-scroll');
 const topQuotes = element('market-top-quotes');
 const marketMotion = element('market-motion');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-let tickerPlaying = false;
+let tickerPlaying = !reducedMotion.matches;
 let duplicateQuotes;
 let tickerFrame;
 let tickerPosition = 0;
