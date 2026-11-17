@@ -5,7 +5,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
 
   const $ = id => document.getElementById(id);
   const refreshInterval = 60_000;
-  const pageSize = 40;
+  const pageSize = 18;
   const maxItems = 1_200;
   const headlines = $('headlines');
   const showNew = $('show-new');
@@ -94,14 +94,16 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
         time.title = 'Timestamp supplied by Google News';
       }
       if (item.official) meta.append(node('span', 'Official source', 'official'));
+      meta.append(time);
       detail.append(link, meta);
-      li.append(time, detail);
+      li.append(detail);
       fragment.append(li);
     }
     headlines.replaceChildren(fragment);
     $('paging').hidden = rows.length >= filtered.length;
     const count = $('result-count');
     count.hidden = false;
+    count.classList.toggle('sr-only', Boolean(rows.length));
     count.textContent = filtered.length
       ? 'Showing ' + rows.length + ' of ' + filtered.length + ' headlines'
       : displayed.length ? 'No headlines match these filters.' : 'No headlines are available yet.';
@@ -144,7 +146,10 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       status = 'Headline feeds are unavailable. Use Refresh to try again.';
     }
     if (!autoRefresh.checked) status += ' · Auto-refresh paused';
-    setText($('feed-status'), status);
+    const compactStatus = directStatus === 'available' ? 'Checked ' + formatTime(directAt)
+      : snapshotAt ? 'Snapshot from ' + formatTime(snapshotAt) : status;
+    setText($('feed-status'), compactStatus + (autoRefresh.checked || compactStatus === status ? '' : ' · Paused'));
+    setText($('source-status'), status);
     const connection = [directStatus, available, Boolean(snapshotAt)].join(':');
     if (announce || connection !== lastConnection) setText($('connection-status'), status);
     lastConnection = connection;

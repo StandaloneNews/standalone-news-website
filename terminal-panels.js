@@ -201,24 +201,11 @@ function loadMarkets() {
   loadWatchlist();
 }
 
-function whenVisible(id, load) {
-  if (!('IntersectionObserver' in window)) {
-    load();
-    return;
-  }
-  const observer = new IntersectionObserver(entries => {
-    if (!entries.some(entry => entry.isIntersecting)) return;
-    observer.disconnect();
-    load();
-  });
-  observer.observe(element(id));
-}
-
 const topScroll = element('market-top-scroll');
 const topQuotes = element('market-top-quotes');
 const marketMotion = element('market-motion');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-let tickerPlaying = !reducedMotion.matches;
+let tickerPlaying = false;
 let duplicateQuotes;
 let tickerFrame;
 let tickerPosition = 0;
@@ -272,13 +259,36 @@ customElements.whenDefined('tv-ticker-tape').then(() => {
     topScroll.addEventListener(event, pauseTicker, { passive: true });
   }
   reducedMotion.addEventListener('change', event => {
-    tickerPlaying = !event.matches;
-    updateTickerMotion();
+    if (event.matches) pauseTicker();
   });
 });
 
-whenVisible('x-posts', loadTimeline);
-whenVisible('markets', loadMarkets);
+const marketPanel = element('market-panel');
+function loadOpenMarketPanel() {
+  if (!marketPanel.open) return;
+  marketPanel.removeEventListener('toggle', loadOpenMarketPanel);
+  loadMarkets();
+}
+marketPanel.addEventListener('toggle', loadOpenMarketPanel);
+
+function openUtilityPanel(hash) {
+  const panel = hash === '#markets' ? marketPanel
+    : hash === '#x-posts' ? element('timeline-panel') : null;
+  if (panel) panel.open = true;
+}
+const siteMenu = element('site-menu');
+document.addEventListener('click', event => {
+  const link = event.target.closest('a[href="#markets"], a[href="#x-posts"]');
+  if (link) openUtilityPanel(link.hash);
+  if (siteMenu.open && (link || !siteMenu.contains(event.target))) siteMenu.open = false;
+});
+siteMenu.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || !siteMenu.open) return;
+  siteMenu.open = false;
+  siteMenu.querySelector('summary').focus();
+});
+window.addEventListener('hashchange', () => openUtilityPanel(location.hash));
+openUtilityPanel(location.hash);
 
 const editionAnchors = new Set(['#top-stories', '#sports-today', '#explainers', '#brief', '#newsletter', '#economy', '#government', '#wire-discuss-cta']);
 if (editionAnchors.has(location.hash)) location.replace('./edition.html' + location.search + location.hash);

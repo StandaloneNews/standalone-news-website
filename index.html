@@ -8,9 +8,9 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=10">
-  <script type="module" src="./terminal.js?v=8"></script>
-  <script type="module" src="./terminal-panels.js?v=6"></script>
+  <link rel="stylesheet" href="./terminal.css?v=11">
+  <script type="module" src="./terminal.js?v=9"></script>
+  <script type="module" src="./terminal-panels.js?v=7"></script>
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
 <script defer src="/outbound-links.js?v=1"></script>
@@ -23,84 +23,81 @@
         <img src="./assets/sn-brand-logo.png" width="36" height="36" alt="">
         <span>STANDALONE <strong>NEWS</strong></span>
       </a>
-      <nav aria-label="Terminal panels">
-        <a href="#wire">News</a>
-        <a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">X posts</a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="./edition.html">News edition</a>
         <a href="#markets">Markets</a>
+        <a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">X posts</a>
+        <details class="site-menu" id="site-menu">
+          <summary>Sections</summary>
+          <ul role="list">
+            <li><a href="./edition.html#brief">Daily brief</a></li>
+            <li><a href="./markets.html">Market desk</a></li>
+            <li><a href="./research.html">Company research</a></li>
+            <li><a href="./articles/">Explainers</a></li>
+            <li><a href="./sports.html">Sports</a></li>
+            <li><a href="./discuss.html">Community</a></li>
+            <li><a href="#x-posts">X timelines</a></li>
+            <li><a href="./accessibility.html">Accessibility</a></li>
+          </ul>
+        </details>
       </nav>
     </div>
-    <nav class="site-sections" aria-label="Site sections">
-      <ul class="shell" role="list">
-        <li><a href="./edition.html">News edition</a></li>
-        <li><a href="./edition.html#brief">Daily brief</a></li>
-        <li><a href="./markets.html">Market desk</a></li>
-        <li><a href="./research.html">Company research</a></li>
-        <li><a href="./articles/">Explainers</a></li>
-        <li><a href="./sports.html">Sports</a></li>
-        <li><a href="./discuss.html">Community</a></li>
-        <li><a href="./accessibility.html">Accessibility</a></li>
-      </ul>
-    </nav>
   </header>
   <main class="shell" id="main" tabindex="-1">
     <h1 class="sr-only" id="news-terminal">Standalone News Terminal</h1>
     <section class="market-top" aria-labelledby="market-top-heading">
       <div class="market-top-heading">
-        <h2 id="market-top-heading">Market bar</h2>
-        <p class="market-top-note">Prices may be delayed.</p>
-        <div class="market-top-actions">
-          <button type="button" id="market-motion" aria-controls="market-top-scroll" hidden>Play ticker</button>
-          <a href="https://www.tradingview.com/markets/">TradingView quotes</a>
-        </div>
+        <h2 id="market-top-heading">Market quotes</h2>
+        <button type="button" id="market-motion" aria-controls="market-top-scroll" hidden>Play ticker</button>
       </div>
       <div class="market-top-scroll" role="group" aria-label="Market quotes" id="market-top-scroll">
         <div class="market-top-track">
           <tv-ticker-tape id="market-top-quotes"
             symbols="AMEX:SPY,NASDAQ:QQQ,AMEX:DIA,AMEX:IWM,NASDAQ:NVDA,AMEX:GLD,AMEX:USO,COINBASE:BTCUSD"
             theme="dark" item-size="compact" transparent hide-chart hide-logo disable-scroll>
-            <p class="market-top-placeholder">View quotes on TradingView.</p>
+            <p class="market-top-placeholder"><a href="https://www.tradingview.com/markets/">View quotes on TradingView</a></p>
           </tv-ticker-tape>
         </div>
       </div>
     </section>
     <div class="layout" id="workspace">
       <section class="workspace-panel wire" id="wire" aria-labelledby="feed-heading">
-        <header class="panel-heading">
-          <h2 id="feed-heading">News feed</h2>
-          <details id="feed-details" class="source-details" hidden>
-            <summary>Sources</summary>
-            <ul id="feed-sources"></ul>
-          </details>
+        <header class="feed-heading">
+          <h2 id="feed-heading">Latest headlines</h2>
         </header>
         <div class="feed-tools">
-          <div class="search-line" id="headline-search" hidden>
-            <label class="sr-only" for="keyword">Search headlines</label>
-            <input id="keyword" type="search" spellcheck="false" maxlength="160" placeholder="Search headlines or sources">
-            <button id="check-now" type="button" aria-disabled="false">Refresh</button>
-          </div>
-          <div class="filter-line">
+          <div class="feed-toolbar">
+            <div class="search-line" id="headline-search" hidden>
+              <label class="sr-only" for="keyword">Search headlines</label>
+              <input id="keyword" type="search" spellcheck="false" maxlength="160" placeholder="Search headlines or sources">
+              <button id="check-now" type="button" aria-disabled="false">Refresh</button>
+            </div>
             <details class="filter-panel" id="filter-panel" hidden>
-          <summary>Filter headlines</summary>
-          <fieldset id="filters">
-          <legend class="sr-only">Filter headlines</legend>
-          <label for="topic">Topic</label>
-          <select id="topic"><option value="">All topics</option></select>
-          <label for="source">Source</label>
-          <select id="source"><option value="">All sources</option></select>
-          <label class="check"><input id="official" type="checkbox"> Official sources only</label>
-          <label for="exclude">Exclude words or phrases</label>
-          <input id="exclude" type="text" maxlength="160" placeholder="Separate entries with commas">
-          <button id="clear-filters" type="button">Clear filters</button>
-          </fieldset>
-        </details>
-            <label class="check" id="wire-actions" hidden><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>
+              <summary>Filters</summary>
+              <fieldset id="filters">
+                <legend class="sr-only">Filter headlines</legend>
+                <label class="filter-field" for="topic">Topic<select id="topic"><option value="">All topics</option></select></label>
+                <label class="filter-field" for="source">Source<select id="source"><option value="">All sources</option></select></label>
+                <label class="filter-field" for="exclude">Exclude words or phrases<input id="exclude" type="text" maxlength="160" placeholder="Separate entries with commas"></label>
+                <div class="filter-options">
+                  <label class="check"><input id="official" type="checkbox"> Official sources only</label>
+                  <label class="check" id="wire-actions" hidden><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>
+                  <button id="clear-filters" type="button">Clear filters</button>
+                </div>
+              </fieldset>
+              <details id="feed-details" class="source-details" hidden>
+                <summary>Source status</summary>
+                <p id="source-status" class="status"></p>
+                <ul id="feed-sources"></ul>
+              </details>
+            </details>
           </div>
-          <p class="status" id="feed-status">Connecting to publisher feeds…</p>
+          <p class="status" id="feed-status">Loading headlines…</p>
           <span class="sr-only" id="connection-status" role="status"></span>
           <button id="show-new" class="accent-button" type="button" aria-disabled="true" hidden>Show new headlines</button>
           <span class="sr-only" id="new-status" role="status"></span>
         </div>
-        <div class="panel-scroll" tabindex="0" role="region" aria-label="Headline list">
+        <div class="feed-list">
           <p id="result-count" class="result-count" aria-live="polite" hidden></p>
           <ol id="headlines" class="headlines" role="list" aria-label="Headlines, newest first"></ol>
           <div id="paging" hidden><button id="show-more" type="button">Show more headlines</button></div>
@@ -108,76 +105,75 @@
         </div>
       </section>
 
-      <section class="workspace-panel social" id="x-posts" aria-labelledby="x-heading">
-        <header class="panel-heading">
-          <h2 id="x-heading">X posts</h2>
-          <a id="x-profile-link" href="https://x.com/StandaloneNews">Open on X</a>
-        </header>
-        <div class="panel-scroll" tabindex="0" role="region" aria-label="Public X timelines">
-          <div class="panel-tools">
-            <label for="x-account">Public account</label>
-            <div class="control-line">
-              <select id="x-account" autocomplete="off">
-                <option value="StandaloneNews" selected>Standalone News</option>
-                <option value="federalreserve">Federal Reserve</option>
-                <option value="BLS_gov">Bureau of Labor Statistics</option>
-                <option value="SECGov">SEC</option>
-                <option value="Reuters">Reuters</option>
-                <option value="AP">Associated Press</option>
-              </select>
-              <button id="load-x" type="button">Load timeline</button>
+      <aside class="utility-rail" aria-label="Market and social tools">
+        <section class="workspace-panel market" id="markets" aria-labelledby="market-heading">
+          <details class="utility-panel" id="market-panel">
+            <summary><h2 id="market-heading">Markets</h2></summary>
+            <div class="utility-content market-panel-body">
+              <a class="utility-link" href="./markets.html">Market desk</a>
+              <div class="market-controls">
+                <label for="market-symbol">Chart symbol</label>
+                <select id="market-symbol" autocomplete="off">
+                  <option value="AMEX:SPY">SPY · S&amp;P 500 ETF</option>
+                  <option value="NASDAQ:QQQ">QQQ · Nasdaq 100 ETF</option>
+                  <option value="NASDAQ:NVDA">NVDA · Nvidia</option>
+                  <option value="NASDAQ:AAPL">AAPL · Apple</option>
+                  <option value="AMEX:GLD">GLD · Gold ETF</option>
+                  <option value="COINBASE:BTCUSD">BTC · Bitcoin</option>
+                  <option value="COINBASE:ETHUSD">ETH · Ethereum</option>
+                </select>
+              </div>
+              <div class="market-chart-card">
+                <div class="market-chart-heading">
+                  <h3 id="market-instrument">SPY · S&amp;P 500 ETF</h3>
+                  <span>Daily chart</span>
+                </div>
+                <div id="market-chart" class="market-chart" role="group" aria-label="Interactive market chart" hidden></div>
+                <a id="market-chart-link" class="market-link" href="https://www.tradingview.com/symbols/AMEX-SPY/">Open full chart on TradingView</a>
+              </div>
+              <details class="market-watchlist" id="market-watchlist">
+                <summary>Watchlist quotes</summary>
+                <div id="market-quotes" class="market-quotes" role="group" aria-label="Market quotes" hidden></div>
+                <noscript><p class="panel-note"><a href="https://www.tradingview.com/markets/">Open quotes on TradingView</a></p></noscript>
+              </details>
+              <p class="market-attribution">Market data by <a href="https://www.tradingview.com/">TradingView</a>. Prices may be delayed.</p>
             </div>
-            <p id="x-status" class="status" role="status">Select an account to view its public posts through X.</p>
-          </div>
-          <div id="x-timeline"></div>
-          <section class="publisher-updates" id="x-publisher-updates" aria-labelledby="publisher-updates-heading">
-            <h3 id="publisher-updates-heading">Publisher updates</h3>
-            <p class="status">Latest headlines from the selected account’s newsroom.</p>
-            <a id="x-publisher-link" href="./edition.html">Standalone News edition</a>
-            <ul id="x-publisher-headlines" role="list" hidden></ul>
-          </section>
-          <noscript><p class="panel-note">Open the account on X to read its posts.</p></noscript>
-        </div>
-      </section>
-
-      <section class="workspace-panel market" id="markets" aria-labelledby="market-heading">
-        <header class="panel-heading">
-          <h2 id="market-heading">Markets</h2>
-          <a href="./markets.html">Market desk</a>
-        </header>
-        <div class="panel-scroll market-panel-body" tabindex="0" role="region" aria-label="Market chart and watchlist">
-          <div class="market-controls">
-            <label for="market-symbol">Chart symbol</label>
-            <select id="market-symbol" autocomplete="off">
-              <option value="AMEX:SPY">SPY · S&amp;P 500 ETF</option>
-              <option value="NASDAQ:QQQ">QQQ · Nasdaq 100 ETF</option>
-              <option value="NASDAQ:NVDA">NVDA · Nvidia</option>
-              <option value="NASDAQ:AAPL">AAPL · Apple</option>
-              <option value="AMEX:GLD">GLD · Gold ETF</option>
-              <option value="COINBASE:BTCUSD">BTC · Bitcoin</option>
-              <option value="COINBASE:ETHUSD">ETH · Ethereum</option>
-            </select>
-          </div>
-          <div class="market-chart-card">
-            <div class="market-chart-heading">
-              <h3 id="market-instrument">SPY · S&amp;P 500 ETF</h3>
-              <span>Daily chart</span>
-            </div>
-            <div id="market-chart" class="market-chart" role="group" aria-label="Interactive market chart" hidden></div>
-            <a id="market-chart-link" class="market-link" href="https://www.tradingview.com/symbols/AMEX-SPY/">Open full chart on TradingView</a>
-          </div>
-          <details class="market-watchlist" id="market-watchlist">
-            <summary>Watchlist quotes</summary>
-            <div id="market-quotes" class="market-quotes" role="group" aria-label="Market quotes" hidden></div>
-            <noscript><p class="panel-note"><a href="https://www.tradingview.com/markets/">Open quotes on TradingView</a></p></noscript>
           </details>
-          <p class="market-attribution">Market data by <a href="https://www.tradingview.com/">TradingView</a>. Prices may be delayed.</p>
-        </div>
-      </section>
+        </section>
+        <section class="workspace-panel social" id="x-posts" aria-labelledby="x-heading">
+          <details class="utility-panel" id="timeline-panel">
+            <summary><h2 id="x-heading">X timelines</h2></summary>
+            <div class="utility-content">
+              <a class="utility-link" id="x-profile-link" href="https://x.com/StandaloneNews">Open on X</a>
+              <div class="panel-tools">
+                <label for="x-account">Public account</label>
+                <div class="control-line">
+                  <select id="x-account" autocomplete="off">
+                    <option value="StandaloneNews" selected>Standalone News</option>
+                    <option value="federalreserve">Federal Reserve</option>
+                    <option value="BLS_gov">Bureau of Labor Statistics</option>
+                    <option value="SECGov">SEC</option>
+                    <option value="Reuters">Reuters</option>
+                    <option value="AP">Associated Press</option>
+                  </select>
+                  <button id="load-x" type="button">Load timeline</button>
+                </div>
+                <p id="x-status" class="status" role="status"></p>
+              </div>
+              <div id="x-timeline"></div>
+              <section class="publisher-updates" id="x-publisher-updates" aria-labelledby="publisher-updates-heading">
+                <h3 id="publisher-updates-heading">Publisher updates</h3>
+                <a id="x-publisher-link" href="./edition.html">Standalone News edition</a>
+                <ul id="x-publisher-headlines" role="list" hidden></ul>
+              </section>
+              <noscript><p class="panel-note">Open the account on X to read its posts.</p></noscript>
+            </div>
+          </details>
+        </section>
+      </aside>
     </div>
   </main>
   <footer class="shell page-footer">
-    <a href="./edition.html#brief">Daily brief</a>
     <a href="./feed.xml">RSS</a>
     <a href="./standards.html">Editorial standards</a>
     <a href="./accessibility.html">Accessibility</a>
