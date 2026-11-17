@@ -130,7 +130,7 @@ const chartLink = element('market-chart-link');
 const chart = element('market-chart');
 const quotes = element('market-quotes');
 
-function mountMarket(host, type, settings, name, fallbackContainer = host) {
+function mountMarket(host, type, settings, name) {
   host.hidden = false;
   const wrap = document.createElement('div');
   wrap.className = 'tradingview-widget-container';
@@ -148,8 +148,7 @@ function mountMarket(host, type, settings, name, fallbackContainer = host) {
     const notice = document.createElement('p');
     notice.className = 'panel-note';
     notice.textContent = name + ' is unavailable here. Use the TradingView link.';
-    fallbackContainer.after(notice);
-    fallbackContainer.hidden = true;
+    host.after(notice);
     notice.dataset.marketFallback = host.id;
   };
   const observer = new MutationObserver(() => {
@@ -216,20 +215,66 @@ function whenVisible(id, load) {
 
 const topScroll = element('market-top-scroll');
 const topQuotes = element('market-top-quotes');
-topScroll.hidden = false;
-mountMarket(topQuotes, 'tickers', {
-  symbols: [
-    { proName: 'AMEX:SPY', title: 'SPY' },
-    { proName: 'NASDAQ:QQQ', title: 'QQQ' },
-    { proName: 'AMEX:DIA', title: 'DIA' },
-    { proName: 'AMEX:IWM', title: 'IWM' },
-    { proName: 'NASDAQ:NVDA', title: 'NVDA' },
-    { proName: 'AMEX:GLD', title: 'GLD' },
-    { proName: 'AMEX:USO', title: 'USO' },
-    { proName: 'COINBASE:BTCUSD', title: 'Bitcoin' },
-  ],
-  colorTheme: 'dark', isTransparent: true, showSymbolLogo: false, locale: 'en',
-}, 'Market bar', topScroll);
+const marketMotion = element('market-motion');
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+let tickerPlaying = !reducedMotion.matches;
+let duplicateQuotes;
+let tickerFrame;
+let tickerPosition = 0;
+let tickerTime;
+
+function advanceTicker(time) {
+  if (tickerTime !== undefined) {
+    const elapsed = Math.min(time - tickerTime, 50);
+    tickerPosition = (tickerPosition + elapsed * .04) % Math.max(topQuotes.offsetWidth, 1);
+    topScroll.scrollLeft = tickerPosition;
+  }
+  tickerTime = time;
+  tickerFrame = requestAnimationFrame(advanceTicker);
+}
+
+function updateTickerMotion() {
+  cancelAnimationFrame(tickerFrame);
+  topScroll.toggleAttribute('data-playing', tickerPlaying);
+  marketMotion.textContent = tickerPlaying ? 'Pause ticker' : 'Play ticker';
+  if (!tickerPlaying) return;
+
+  // The inert copy keeps the visible row continuous as the first row wraps.
+  if (!duplicateQuotes) {
+    duplicateQuotes = topQuotes.cloneNode(false);
+    duplicateQuotes.removeAttribute('id');
+    duplicateQuotes.setAttribute('aria-hidden', 'true');
+    duplicateQuotes.inert = true;
+    topQuotes.after(duplicateQuotes);
+  }
+
+  tickerPosition = topScroll.scrollLeft;
+  tickerTime = undefined;
+  tickerFrame = requestAnimationFrame(advanceTicker);
+}
+
+function pauseTicker() {
+  if (!tickerPlaying) return;
+  tickerPlaying = false;
+  updateTickerMotion();
+}
+
+customElements.whenDefined('tv-ticker-tape').then(() => {
+  topScroll.tabIndex = 0;
+  updateTickerMotion();
+  marketMotion.hidden = false;
+  marketMotion.addEventListener('click', () => {
+    tickerPlaying = !tickerPlaying;
+    updateTickerMotion();
+  });
+  for (const event of ['focusin', 'pointerdown', 'wheel']) {
+    topScroll.addEventListener(event, pauseTicker, { passive: true });
+  }
+  reducedMotion.addEventListener('change', event => {
+    tickerPlaying = !event.matches;
+    updateTickerMotion();
+  });
+});
 
 whenVisible('x-posts', loadTimeline);
 whenVisible('markets', loadMarkets);

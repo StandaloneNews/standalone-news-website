@@ -8,9 +8,10 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=9">
+  <link rel="stylesheet" href="./terminal.css?v=10">
   <script type="module" src="./terminal.js?v=6"></script>
-  <script type="module" src="./terminal-panels.js?v=4"></script>
+  <script type="module" src="./terminal-panels.js?v=5"></script>
+  <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
 </head>
 <body>
@@ -46,10 +47,19 @@
       <div class="market-top-heading">
         <h2 id="market-top-heading">Market bar</h2>
         <p class="market-top-note">Prices may be delayed.</p>
-        <a href="https://www.tradingview.com/markets/">TradingView quotes</a>
+        <div class="market-top-actions">
+          <button type="button" id="market-motion" aria-controls="market-top-scroll" hidden>Play ticker</button>
+          <a href="https://www.tradingview.com/markets/">TradingView quotes</a>
+        </div>
       </div>
-      <div class="market-top-scroll" tabindex="0" role="group" aria-label="Scrollable market quotes" id="market-top-scroll" hidden>
-        <div id="market-top-quotes"></div>
+      <div class="market-top-scroll" role="group" aria-label="Market quotes" id="market-top-scroll">
+        <div class="market-top-track">
+          <tv-ticker-tape id="market-top-quotes"
+            symbols="AMEX:SPY,NASDAQ:QQQ,AMEX:DIA,AMEX:IWM,NASDAQ:NVDA,AMEX:GLD,AMEX:USO,COINBASE:BTCUSD"
+            theme="dark" item-size="compact" transparent hide-chart hide-logo disable-scroll>
+            <p class="market-top-placeholder">View quotes on TradingView.</p>
+          </tv-ticker-tape>
+        </div>
       </div>
     </section>
     <div class="layout" id="workspace">
