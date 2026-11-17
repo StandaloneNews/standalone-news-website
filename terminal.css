@@ -115,6 +115,3 @@ fieldset select { margin-bottom: .35rem; }
   .layout { grid-template-columns: minmax(0, 1fr); max-width: 49rem; margin-inline: auto; }
   .panel-scroll { max-block-size: 34rem; overflow: auto; }
 }
-@media (max-width: 24rem) {
-  .site-menu ul { inset-inline-end: auto; inset-inline-start: 0; }
-}
