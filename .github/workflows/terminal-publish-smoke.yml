@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: 06d36d6d07a01fe6bdfb30f33b01dc03c6d79dfb
+          ref: 413c1ae8e137171a39810314b40c37b9257b92da
       - name: Run static accessibility checks
         run: python3 -m unittest discover -s tests -p 'test_accessibility_static.py'
       - name: Test TradingView prices, ticker motion and theme in Chromium
@@ -64,7 +64,7 @@ jobs:
                 {width:390,reducedMotion:'no-preference',colorScheme:'dark'},
                 {width:320,reducedMotion:'reduce',colorScheme:'light'},
               ]){
-                const page=await browser.newPage({viewport:{width,height:850},reducedMotion,colorScheme});
+                const page=await browser.newPage({viewport:{width,height:850},reducedMotion,colorScheme,hasTouch:width<500});
                 await page.goto(process.env.MARKET_BAR_BASE,{waitUntil:'domcontentloaded'});
                 const button=page.locator('#market-motion');
                 await button.waitFor({timeout:25000});
@@ -94,7 +94,7 @@ jobs:
                   assert.equal(await button.innerText(),'Play ticker');
                 }
                 assert.equal(await page.locator('#market-top-quotes').getAttribute('theme'),'dark');
-                assert.notEqual(await page.locator('#market-top-quotes').getAttribute('disable-scroll'),null);
+                assert.equal(await strip.getAttribute('data-playing'),null);
                 const paused=await strip.screenshot();
                 await page.waitForTimeout(800);
                 const still=compare(paused,await strip.screenshot());
