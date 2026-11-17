@@ -1,0 +1,87 @@
+name: Verify the dark theme across site sections
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  theme:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 8011dbda2238f9eb8c8bfc599a35dfc1dbbeb896
+          persist-credentials: false
+      - name: Check section theme, links, contrast and basic interactions
+        shell: bash
+        run: |
+          python3 -m unittest discover -s tests -p test_accessibility_static.py -v
+          python3 -m py_compile scripts/auto_publish.py
+          npm install --prefix "$RUNNER_TEMP/theme-check" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
+          python3 -m http.server 8765 --bind 127.0.0.1 >"$RUNNER_TEMP/theme-server.log" 2>&1 &
+          site_pid=$!
+          trap 'kill "$site_pid" 2>/dev/null || true' EXIT
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { createRequire } from 'node:module';
+          const require = createRequire(process.env.RUNNER_TEMP+'/theme-check/package.json');
+          const { chromium } = require('playwright-core');
+          const axe = require.resolve('axe-core/axe.min.js');
+          const app = 'http://127.0.0.1:8765';
+          const browser = await chromium.launch({executablePath:process.env.CHROME_BIN});
+          const page = await browser.newPage({viewport:{width:1440,height:900}});
+          await page.route('https://**/*', route => route.abort());
+          const routes = [
+            ['edition.html','#news-terminal'],['markets.html','.chart-shell'],
+            ['research.html','.search-panel'],['sports.html','.sports-summary'],
+            ['discuss.html','.discussion-shell'],['personalize.html','.personal-box'],
+            ['articles/','.editorial-tile'],['accessibility.html','.policy-grid'],
+            ['about.html','.policy-grid'],['contact.html','main'],['standards.html','main'],
+            ['privacy.html','main'],['terms.html','main'],['newsletter-privacy.html','main'],['newsletter-status.html','main'],
+          ];
+          const failures = [];
+          const link = await (async () => {
+            await page.goto(app+'/articles/');
+            return page.locator('.editorial-tile h2 a').first().getAttribute('href');
+          })();
+          routes.push([link.replace(/^\//,''),'.editorial-article']);
+          function dark(value) {
+            const colors = value.match(/\d+/g)?.map(Number) || [];
+            return colors.length>=3 && Math.max(...colors.slice(0,3))<=82 && colors[3]!==0;
+          }
+          try {
+            for (const width of [1440,390,320]) {
+              await page.setViewportSize({width,height:900});
+              for (const [route,selector] of routes) {
+                const response = await page.goto(app+'/'+route,{waitUntil:'domcontentloaded'});
+                assert(response.ok(),route+' did not load');
+                const state = await page.locator(selector).first().evaluate(el => {
+                  return {body:getComputedStyle(document.body).backgroundColor,main:getComputedStyle(el).backgroundColor, width:document.documentElement.scrollWidth};
+                });
+                assert.equal(state.body,'rgb(12, 17, 25)',route+' body');
+                if(!dark(state.main)) failures.push([width,route,'panel not dark',state.main]);
+                if(state.width>width+2) failures.push([width,route,'horizontal overflow',state.width]);
+                if(width===1440 || (width===390 && route==='edition.html')) {
+                  await page.addScriptTag({path:axe});
+                  const issues=await page.evaluate(async ()=>(await axe.run('body',{runOnly:['color-contrast']})).violations.flatMap(v=>v.nodes.map(n=>({target:n.target.join(' '),detail:n.any[0]?.failureSummary?.split('\n').at(-1),html:n.html.slice(0,125)}))));
+                  if(issues.length) failures.push([width,route,'contrast',issues.slice(0,18)]);
+                }
+              }
+              console.log(width+'px: '+routes.length+' section and article routes rendered.');
+            }
+            await page.setViewportSize({width:390,height:900});
+            await page.goto(app+'/edition.html#brief',{waitUntil:'domcontentloaded'});
+            await page.locator('#brief summary').click();
+            await page.locator('#brief-personalize').click();
+            assert(await page.locator('#brief-overlay').isVisible());
+            assert(await page.locator('#brief-overlay [data-close="brief-overlay"]').isVisible());
+          } finally { await browser.close(); }
+          for(const failure of failures) console.log(JSON.stringify(failure));
+          assert.equal(failures.length,0,'Theme checks found '+failures.length+' page and viewport issues');
+          JS
