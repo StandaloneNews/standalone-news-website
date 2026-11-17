@@ -1,28 +1,50 @@
-name: Verify complete headline collection and display before publishing
+name: Confirm the complete headline feed is live
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  verify:
+  production:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 06f4b665d3cc873d4e0df0cd5830a296f4027caa
-      - name: Verify all incoming headlines are displayed and searchable on desktop and mobile
+      - name: Check the live wire, snapshot and RSS feed
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/full-headlines-http.log 2>&1 &
+          python3 - <<'PY'
+          import json,time
+          from collections import Counter
+          from urllib.request import Request,urlopen
+          import xml.etree.ElementTree as ET
+          base='https://standalonenews.com'
+          def get(path):
+              req=Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urlopen(req,timeout=18) as response:return response.read()
+          for attempt in range(22):
+              try:
+                  home=get('/').decode()
+                  wire=json.loads(get('/api/wire'))['items']
+                  archive=json.loads(get('/data/news.json'))['items']
+                  rss=ET.fromstring(get('/feed.xml')).findall('./channel/item')
+                  counts=Counter(x['source'] for x in wire)
+                  print('LIVE FEEDS',json.dumps({'attempt':attempt+1,'wire':len(wire),'largest_wire_source':counts.most_common(1),'snapshot':len(archive),'rss':len(rss),'publishers':len({x['source'] for x in archive})}),flush=True)
+                  if 'terminal.js?v=10' in home and len(archive)>320 and len(rss)==len(archive) and max(counts.values(),default=0)>25:
+                      break
+              except Exception as exc:
+                  print('Verification attempt',attempt+1,str(exc),flush=True)
+              time.sleep(12)
+          else:
+              raise SystemExit('Complete live headline feeds did not finish publishing.')
+          PY
+      - name: Check the live terminal displays and searches all 1600 delivered test headlines
+        run: |
           npm install --prefix "$RUNNER_TEMP/full-feed-check" --no-audit --no-fund playwright-core@1.55.0
           export NODE_PATH="$RUNNER_TEMP/full-feed-check/node_modules"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
-          export HEADLINE_SITE_URL="http://127.0.0.1:8080/"
+          export HEADLINE_SITE_URL="https://standalonenews.com/"
           node --input-type=commonjs - <<'JS'
           const {chromium} = require('playwright-core');
           const assert = require('node:assert/strict');
@@ -45,6 +67,8 @@ jobs:
                 assert.equal(await page.getByRole('heading',{name:'Latest headlines'}).count(),1);
                 assert.equal(await page.locator('#market-panel').getAttribute('open'),null);
                 assert.equal(await page.locator('#timeline-panel').getAttribute('open'),null);
+                assert.equal(await page.locator('#headlines a').last().textContent(),'Uncapped article 1599');
+                await page.locator('#headlines a').last().scrollIntoViewIfNeeded();
                 assert.equal(await page.locator('#headlines a').last().innerText(),'Uncapped article 1599');
                 assert.equal(await page.locator('#headlines a').last().getAttribute('target'),'_blank');
                 assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
