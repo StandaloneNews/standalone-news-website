@@ -17,6 +17,7 @@
 <script defer src="./research.js?v=2"></script>
 <link rel="stylesheet" href="./broadsheet.css?v=terminal-dark">
 <link rel="stylesheet" href="./mobile-six.css?v=1">
+<link rel="stylesheet" href="/site-accessibility.css?v=1">
 </head><body class="theme-refresh theme-research theme-broadsheet">
 <a class="skip" href="#main">Skip to company research</a>
 <div class="utility" role="region" aria-label="Edition information"><div class="wrap utility-inner"><span><span class="dot"></span> STANDALONE NEWS / COMPANY RESEARCH</span><span>OFFICIAL FILINGS · SOURCE-LINKED</span></div></div>
@@ -25,7 +26,7 @@
 <a href="./markets.html" class="top-back">← Back to Markets</a>
 </div></header>
 <nav class="top-nav" aria-label="Company research navigation"><div class="wrap nav-wrap"><a href="./">Today</a><a class="edition-nav-terminal" href="./terminal.html">Terminal</a><a href="./index.html#wire">News wire</a><a href="./markets.html">Markets</a><a href="./sports.html">Sports</a><a href="./research.html" class="active" aria-current="page">Company research</a><a href="./discuss.html?room=markets">Discuss</a></div></nav>
-<main class="wrap" id="main">
+<main class="wrap" id="main" tabindex="-1">
 <section class="hero" aria-labelledby="research-title"><div><span class="eyebrow">STANDALONE NEWS · THE RESEARCH WORKSPACE</span><h1 id="research-title">Company Research</h1><p>Charts, official SEC documents, insider disclosures and news in one place. No guessed trades, financial figures or earnings dates.</p></div><div class="hero-chip"><strong>TRADINGVIEW</strong><span>Interactive charts</span><strong>SEC EDGAR</strong><span>Original disclosures</span></div></section>
 <section class="search-panel" aria-labelledby="search-head"><div class="panel-lead"><div><span class="eyebrow">COMPANY LOOKUP</span><h2 id="search-head">Research a ticker<span class="accent">.</span></h2></div><span class="small-note" id="directory-status">Checking company directory…</span></div>
 <form id="company-search" role="search"><label for="company-input">U.S. ticker or company name</label><div class="search-row"><input id="company-input" list="company-suggestions" name="company" autocomplete="off" maxlength="85" spellcheck="false" placeholder="AAPL, NVDA, Microsoft…" required><datalist id="company-suggestions"></datalist><button type="submit">Research company ↗</button></div></form>
@@ -52,7 +53,7 @@
 <p class="disclosure">Standalone News provides attributed news and research links, not personalized investment advice. This page does not classify Form 4 filings as purchases or sales without reviewing transaction-level disclosures. Data availability and SEC coverage vary by filer; no public website can guarantee complete market-wide filings in real time.</p>
 </section>
 </main>
-<footer class="footer"><div class="wrap footer-content"><a href="./">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./markets.html">Markets</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">Follow us on X ↗</a></nav></div></footer>
+<footer class="footer"><div class="wrap footer-content"><a href="./">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./markets.html">Markets</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">Follow us on X ↗</a></nav></div><nav class="site-legal-links" aria-label="Legal and accessibility"><a href="/terms.html">Terms of use</a><a href="/newsletter-privacy.html">Newsletter privacy</a><a href="/accessibility.html">Accessibility</a></nav></footer>
 <nav class="sn-six-bottom" aria-label="Mobile shortcuts">
 <a class="sn-six-tab" href="./index.html#home"><span class="sn-six-icon" aria-hidden="true">⌂</span><span class="sn-six-label">Today</span></a>
 <a class="sn-six-tab" href="./terminal.html"><span class="sn-six-icon" aria-hidden="true">≡</span><span class="sn-six-label">Terminal</span></a>

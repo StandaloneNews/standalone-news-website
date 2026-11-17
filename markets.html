@@ -23,6 +23,7 @@
 <link href="./interior-clarity.css?v=2" rel="stylesheet"/>
 <link href="./refresh-interior.css?v=1" rel="stylesheet"/><link rel="stylesheet" href="./broadsheet.css?v=terminal-dark">
 <link rel="stylesheet" href="./mobile-six.css?v=1">
+<link rel="stylesheet" href="/site-accessibility.css?v=1">
 </head>
 <body class="theme-market theme-refresh theme-broadsheet">
 <a class="skip" href="#main">Skip to market charts and news</a>
@@ -39,7 +40,7 @@
 <a href="./articles/">Explainers</a><a href="./discuss.html?room=markets">Discuss markets</a><a href="./personalize.html">For you</a>
 </div></nav>
 <div class="tape-row"><div class="wrap"><div aria-label="Selected market quotes" class="tape-widget" id="market-tape"><div class="widget-loading">Loading market quotes…</div></div></div></div>
-<main class="wrap" id="main">
+<main class="wrap" id="main" tabindex="-1">
 <section aria-labelledby="page-title" class="hero">
 <div><p class="kicker">THE STANDALONE MARKET DESK</p><h1 id="page-title">Market Desk</h1><p class="hero-deck">Interactive charts and source-linked reporting, side by side. Search widely traded stocks, explore ETFs, and track the latest market and economic headlines.</p></div>
 <div class="hero-side"><span class="hero-side-label">MARKETS IN FOCUS</span><strong>Charts.<br/>Context.<br/>Sources.</strong><span class="hero-side-small">Quotes can be delayed and depend on exchange coverage.</span></div>
@@ -178,7 +179,7 @@
 <section aria-labelledby="context-title" class="context-band"><div><span class="eyebrow">MORE CONTEXT, LESS NOISE</span><h2 id="context-title">Headlines aren't the whole story.</h2><p>Find officially sourced explainers from the Standalone News automated desk, or discuss market developments with other readers.</p></div><div class="context-actions"><a href="./articles/">Read explainers ↗</a><a href="./discuss.html?room=markets">Discuss markets ↗</a></div></section>
 <p class="market-disclaimer">Financial data displayed through third-party TradingView widgets; availability, market status and delay depend on the market and provider. Headlines are automatically gathered from attributed sources and are not independently fact-checked. This page is informational and not investment advice.</p>
 </main>
-<footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="./index.html">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./about.html">About</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a></nav><span>© Standalone News · Market information may be delayed</span></div></footer>
+<footer class="footer"><div class="wrap footer-inner"><a class="footer-brand" href="./index.html">STANDALONE NEWS</a><nav aria-label="Footer links"><a href="./about.html">About</a><a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact</a><a href="./privacy.html">Privacy</a></nav><span>© Standalone News · Market information may be delayed</span></div><nav class="site-legal-links" aria-label="Legal and accessibility"><a href="/terms.html">Terms of use</a><a href="/newsletter-privacy.html">Newsletter privacy</a><a href="/accessibility.html">Accessibility</a></nav></footer>
 <nav class="sn-six-bottom" aria-label="Mobile shortcuts">
 <a class="sn-six-tab" href="./index.html#home"><span class="sn-six-icon" aria-hidden="true">⌂</span><span class="sn-six-label">Today</span></a>
 <a class="sn-six-tab" href="./terminal.html"><span class="sn-six-icon" aria-hidden="true">≡</span><span class="sn-six-label">Terminal</span></a>
