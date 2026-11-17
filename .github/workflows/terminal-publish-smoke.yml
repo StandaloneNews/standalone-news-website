@@ -1,0 +1,159 @@
+name: Check visible topic buttons, autoplay and themed watchlist quotes
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3df0e6346e4a899e5e93a52e8a4775d816f0ff21
+      - name: Run static site and publisher tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Check desktop and mobile topic controls, playback and real quotes
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/standalone-market-http.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/theme-check" --no-audit --no-fund playwright-core@1.55.0 pngjs@7.0.0 axe-core@4.10.3
+          export NODE_PATH="$RUNNER_TEMP/theme-check/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          export WATCHLIST_SITE_URL="http://127.0.0.1:8080/"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const {PNG}=require('pngjs');
+          const assert=require('node:assert/strict');
+          const base=process.env.WATCHLIST_SITE_URL;
+          
+          async function readWidget(page,selector,symbol) {
+            const devtools=await page.context().newCDPSession(page);
+            const words=node=>[node.nodeType===3?node.nodeValue:'',...(node.shadowRoots??[]).flatMap(words),...(node.children??[]).flatMap(words)].join(' ');
+            try {
+              for(let attempt=0;attempt<28;attempt++){
+                const {root}=await devtools.send('DOM.getDocument');
+                const {nodeId}=await devtools.send('DOM.querySelector',{nodeId:root.nodeId,selector});
+                if(nodeId){
+                  const {node}=await devtools.send('DOM.describeNode',{nodeId,depth:-1,pierce:true});
+                  const text=words(node);
+                  if(new RegExp('\\b'+symbol+'\\b').test(text)&&/\d+[.,]\d+/.test(text)) return;
+                }
+                await page.waitForTimeout(400);
+              }
+              throw new Error(selector+' did not render prices for '+symbol);
+            }finally{await devtools.detach();}
+          }
+          
+          async function checkSurface(element) {
+            const expected=await element.evaluate(el=>getComputedStyle(el).backgroundColor.match(/\d+/g).slice(0,3).map(Number));
+            assert.ok(expected.every(n=>n<48),String(expected));
+            const img=PNG.sync.read(await element.screenshot());
+            let same=0,light=0;
+            for(let i=0;i<img.data.length;i+=4){
+              const [r,g,b]=img.data.subarray(i,i+3);
+              if(r===expected[0]&&g===expected[1]&&b===expected[2]) same++;
+              if(r>225&&g>225&&b>225) light++;
+            }
+            const ratio=same/(img.width*img.height);
+            assert.ok(ratio>.65,'Theme coverage '+ratio);
+            assert.ok(light/(img.width*img.height)<.12,'Light surface');
+            console.log('WATCHLIST COLOR VERIFIED',expected.join(','),ratio.toFixed(3));
+          }
+          
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              for(const width of [1440,320]){
+                const page=await browser.newPage({viewport:{width,height:920},colorScheme:'light',reducedMotion:'no-preference'});
+                const categories=['Markets','World','Sports','US News','Entertainment'];
+                const items=Array.from({length:150},(_,i)=>({
+                  title:'Fixture '+categories[i%categories.length]+' article '+i,
+                  url:'https://example.org/articles/'+i,source:'Fixture Publisher',source_type:'Publisher RSS',
+                  category:categories[i%categories.length],published_at:new Date(Date.now()-60_000-i*800).toISOString(),
+                }));
+                await page.route('**/api/wire',r=>r.fulfill({json:{checked_at:items[0].published_at,feeds:[{source:'Fixture Publisher',available:true}],items}}));
+                await page.route('**/data/news.json',r=>r.fulfill({json:{updated_at:items[0].published_at,items:[]}}));
+                await page.goto(base,{waitUntil:'domcontentloaded'});
+                const bar=page.getByRole('group',{name:'Filter headlines by topic'});
+                const search=page.locator('#result-count');
+                const filter=page.locator('#filter-panel');
+                await page.locator('#headlines li').first().waitFor();
+                assert.equal(await filter.getAttribute('open'),null);
+                assert.equal(await filter.locator('select#topic').count(),0);
+                for(const name of ['All','Markets','World','Sports','U.S. news','Economy','Entertainment']){
+                  assert.ok(await bar.getByRole('button',{name,exact:true}).isVisible(),name);
+                }
+                await bar.getByRole('button',{name:'Markets',exact:true}).focus();
+                await page.keyboard.press('Enter');
+                assert.equal(await bar.getByRole('button',{name:'Markets',exact:true}).getAttribute('aria-pressed'),'true');
+                assert.equal(await search.innerText(),'Showing 1–25 of 30 headlines');
+                await page.getByRole('navigation',{name:'Headline pages'}).getByRole('button',{name:'Next'}).click();
+                assert.equal(await search.innerText(),'Showing 26–30 of 30 headlines');
+                for(const topic of ['World','Sports','Entertainment']){
+                  await bar.getByRole('button',{name:topic,exact:true}).click();
+                  assert.equal(await search.innerText(),'Showing 1–25 of 30 headlines');
+                  assert.ok(await page.locator('#headlines a').first().textContent().then(v=>v.includes(topic)));
+                  assert.equal(await filter.getAttribute('open'),null);
+                  assert.equal(await bar.locator('button[aria-pressed="true"]').count(),1);
+                }
+                await bar.getByRole('button',{name:'All',exact:true}).click();
+                assert.equal(await search.innerText(),'Showing 1–25 of 150 headlines');
+                assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+          
+                const motion=page.locator('#market-motion');
+                await motion.waitFor({timeout:22000});
+                assert.equal(await motion.innerText(),'Pause ticker');
+                await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
+                await motion.click();
+                assert.equal(await motion.innerText(),'Play ticker');
+                const ticker=page.locator('#market-top-scroll');
+                const paused=await ticker.evaluate(e=>e.scrollLeft);
+                await page.waitForTimeout(300);
+                assert.equal(await ticker.evaluate(e=>e.scrollLeft),paused);
+                await motion.click();
+                await page.waitForFunction(previous=>document.querySelector('#market-top-scroll').scrollLeft!==previous,paused);
+          
+                await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'Markets',exact:true}).click();
+                await page.locator('#market-watchlist > summary').click();
+                const quotes=page.locator('#market-quotes');
+                await quotes.locator('tv-tickers').waitFor();
+                assert.equal(await quotes.locator('tv-tickers').getAttribute('theme'),'dark');
+                await readWidget(page,'#market-quotes tv-tickers','SPY');
+                await checkSurface(quotes);
+                await page.addScriptTag({path:require.resolve('axe-core')});
+                const violations=await page.evaluate(async()=>(
+                  await axe.run({runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']},iframes:false})
+                ).violations.map(v=>[v.id,v.nodes.map(n=>n.target)]));
+                assert.deepEqual(violations,[]);
+                console.log('TOPICS AND TICKER VERIFIED',width);
+                await page.close();
+              }
+          
+              const reduced=await browser.newPage({viewport:{width:1080,height:800},reducedMotion:'reduce'});
+              await reduced.goto(new URL('?topic=Sports',base).href,{waitUntil:'domcontentloaded'});
+              const button=reduced.locator('#market-motion');
+              await button.waitFor({timeout:22000});
+              assert.equal(await button.innerText(),'Play ticker');
+              assert.equal(await reduced.locator('#quick-topics').getByRole('button',{name:'Sports',exact:true}).getAttribute('aria-pressed'),'true');
+              console.log('REDUCED MOTION AND TOPIC LINKS VERIFIED');
+              await reduced.close();
+          
+              const market=await browser.newPage({viewport:{width:1350,height:920},colorScheme:'light'});
+              await market.goto(new URL('markets.html',base).href,{waitUntil:'domcontentloaded'});
+              const widget=market.locator('#watch-widget');
+              await widget.scrollIntoViewIfNeeded();
+              await widget.locator('tv-tickers').waitFor({timeout:20000});
+              await readWidget(market,'#watch-widget tv-tickers','AAPL');
+              await checkSurface(widget);
+              await market.getByRole('button',{name:'Index ETFs',exact:true}).click();
+              await readWidget(market,'#watch-widget tv-tickers','SPY');
+              await checkSurface(widget);
+              console.log('MARKET DESK WATCHLIST GROUPS VERIFIED');
+            }finally{await browser.close();}
+          })().catch(e=>{console.error(e);process.exitCode=1;});
+          JS
