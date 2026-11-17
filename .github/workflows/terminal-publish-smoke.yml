@@ -1,0 +1,49 @@
+name: Validate additional publisher RSS feeds
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public XML endpoints and article dates
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures
+          import json
+          import time
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          candidates = json.loads("[[\"Deutsche Welle\",\"World\",\"https://rss.dw.com/rdf/rss-en-top\"],[\"France 24\",\"World\",\"https://www.france24.com/en/rss\"],[\"Sky News\",\"World\",\"https://feeds.skynews.com/feeds/rss/world.xml\"],[\"The Independent\",\"World\",\"https://www.independent.co.uk/news/rss\"],[\"CBC News\",\"World\",\"https://www.cbc.ca/cmlink/rss-topstories\"],[\"ABC News Australia\",\"World\",\"https://www.abc.net.au/news/feed/51120/rss.xml\"],[\"RFI English\",\"World\",\"https://www.rfi.fr/en/rss\"],[\"Euronews\",\"World\",\"https://www.euronews.com/rss?level=theme&name=news\"],[\"South China Morning Post\",\"World\",\"https://www.scmp.com/rss/91/feed\"],[\"The Hindu\",\"World\",\"https://www.thehindu.com/news/international/feeder/default.rss\"],[\"UN News\",\"World\",\"https://news.un.org/feed/subscribe/en/news/all/rss.xml\",true],[\"ABC News\",\"US News\",\"https://abcnews.go.com/abcnews/topstories\"],[\"CBS News\",\"US News\",\"https://www.cbsnews.com/latest/rss/main\"],[\"NBC News\",\"US News\",\"https://feeds.nbcnews.com/nbcnews/public/news\"],[\"The New York Times\",\"US News\",\"https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml\"],[\"The Washington Post\",\"US News\",\"https://feeds.washingtonpost.com/rss/national\"],[\"USA TODAY\",\"US News\",\"https://rssfeeds.usatoday.com/usatoday-NewsTopStories\"],[\"Politico\",\"Government\",\"https://www.politico.com/rss/politicopicks.xml\"],[\"The Hill\",\"Government\",\"https://thehill.com/feed/\"],[\"ProPublica\",\"US News\",\"https://www.propublica.org/feeds/propublica/main\"],[\"Axios\",\"US News\",\"https://api.axios.com/feed/\"],[\"Wall Street Journal\",\"Markets\",\"https://feeds.a.dj.com/rss/RSSMarketsMain.xml\"],[\"MarketWatch\",\"Markets\",\"https://feeds.content.dowjones.io/public/rss/mw_topstories\"],[\"Financial Times\",\"Markets\",\"https://www.ft.com/?format=rss\"],[\"Yahoo Finance\",\"Markets\",\"https://finance.yahoo.com/news/rssindex\"],[\"Ars Technica\",\"Technology\",\"https://feeds.arstechnica.com/arstechnica/index\"],[\"WIRED\",\"Technology\",\"https://www.wired.com/feed/rss\"],[\"The Verge\",\"Technology\",\"https://www.theverge.com/rss/index.xml\"],[\"Engadget\",\"Technology\",\"https://www.engadget.com/rss.xml\"],[\"The Register\",\"Technology\",\"https://www.theregister.com/headlines.atom\"],[\"404 Media\",\"Technology\",\"https://www.404media.co/rss\"],[\"Securities and Exchange Commission\",\"Regulation\",\"https://www.sec.gov/news/pressreleases.rss\",true],[\"Bureau of Economic Analysis\",\"Economy\",\"https://www.bea.gov/rss/rss.xml\",true],[\"Energy Information Administration\",\"Economy\",\"https://www.eia.gov/rss/todayinenergy.xml\",true],[\"Federal Trade Commission\",\"Regulation\",\"https://www.ftc.gov/news-events/news/press-releases/rss\",true],[\"Department of Labor\",\"Economy\",\"https://www.dol.gov/newsroom/releases/rss\",true],[\"European Central Bank\",\"Economy\",\"https://www.ecb.europa.eu/rss/press.html\",true],[\"Bank of England\",\"Economy\",\"https://www.bankofengland.co.uk/rss/news\",true],[\"International Monetary Fund\",\"Economy\",\"https://www.imf.org/en/News/RSS?type=All\",true],[\"Bank for International Settlements\",\"Economy\",\"https://www.bis.org/doclist/all_pressrels.rss\",true],[\"NASA\",\"Technology\",\"https://www.nasa.gov/news-release/feed/\",true],[\"Federal Register\",\"Regulation\",\"https://www.federalregister.gov/api/v1/documents.rss?conditions%5Btype%5D%5B%5D=RULE\",true],[\"White House\",\"Government\",\"https://www.whitehouse.gov/feed/\",true],[\"World Health Organization\",\"World\",\"https://www.who.int/rss-feeds/news-english.xml\",true]]")
+
+          def local(tag):
+              return (tag.rsplit("}",1)[-1]).lower()
+
+          def check(feed):
+              name, topic, url, *_ = feed
+              started = time.monotonic()
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent":"StandaloneNewsRSS/1.0 (+https://standalonenews.com/)", "Accept":"application/rss+xml, application/atom+xml, text/xml, application/xml"})
+                  with urllib.request.urlopen(req, timeout=9) as response:
+                      body = response.read(525000)
+                      final = response.geturl()
+                  root = ET.fromstring(body)
+                  if local(root.tag) not in {'rss','rdf','feed'}:
+                      raise ValueError("Non-feed document")
+                  entries = [row for row in root.iter() if local(row.tag) in {'item','entry'}]
+                  dated = sum(any(local(child.tag) in {'pubdate','date','published','updated'} and child.text for child in row) for row in entries)
+                  return ('FEED',name, final, local(root.tag), len(entries), dated, round(time.monotonic()-started,2))
+              except Exception as exc:
+                  return ('ERROR',name,str(exc),round(time.monotonic()-started,2))
+
+          with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+              for result in pool.map(check,candidates):
+                  print(json.dumps(result,ensure_ascii=True),flush=True)
+          PY
