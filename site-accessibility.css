@@ -1,0 +1,42 @@
+
+.site-skip-link {
+  position: fixed;
+  inset: .25rem auto auto .25rem;
+  z-index: 2147483647;
+  padding: .65rem .85rem;
+  color: #edf3fa;
+  background: #121a25;
+  border: 2px solid #ffc500;
+}
+.site-skip-link:not(:focus) { clip-path: inset(50%); }
+.site-skip-link:focus-visible { outline: 2px solid #ffc500; outline-offset: 2px; }
+
+footer .site-legal-links {
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+  inline-size: min(100% - 1.5rem, 72rem);
+  margin-inline: auto;
+  flex-wrap: wrap;
+  gap: 0 .9rem;
+}
+footer .site-legal-links a {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: 44px;
+  color: #aabbd0;
+  font-size: .875rem;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+footer .site-legal-links a:is(:hover, :focus-visible) { color: #ffc500; }
+footer .site-legal-links a:focus-visible { outline: 2px solid #ffc500; outline-offset: 2px; }
+
+.site-policy-footer {
+  margin: 1.5rem auto;
+  max-inline-size: 54rem;
+  padding: .55rem 1rem;
+  border-top: 1px solid #364455;
+}
+body.theme-broadsheet.theme-standards header { padding-inline: max(1rem, (100% - 56rem) / 2); }
+body.theme-broadsheet.theme-standards header .edition-wordmark { max-inline-size: 100%; white-space: normal; }

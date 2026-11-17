@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Market quotes | Standalone News</title><style>
 html,body{padding:0;margin:0;background:#121a25;color:#aabbd0;font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;height:100%;overflow:hidden}
 #w{height:100%;width:100%;position:relative;overflow:hidden}
 .tv{height:100%;width:100%}
 .tv iframe{max-width:100%!important;border:0}
 .note{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:10px;z-index:0;font-size:12px;background:#121a25}
-.note a{color:#9a2639;font-weight:700}
+.note a{color:#ffc500;font-weight:700}
+.note a:focus-visible{outline:2px solid #ffc500;outline-offset:2px}
+.embed-heading{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
 .tv{position:relative;z-index:1}
-</style></head><body><div id="w"><div class="note" id="fallback">Market quotes may be delayed. <a href="https://www.tradingview.com/markets/" rel="noreferrer" target="_blank">View markets ↗</a></div><div id="widget" class="tv"></div></div>
+</style></head><body><main id="w"><h1 class="embed-heading">Market quotes</h1><div class="note" id="fallback">Market quotes may be delayed. <a href="https://www.tradingview.com/markets/" rel="noreferrer" target="_blank">View markets ↗</a></div><div id="widget" class="tv"></div></main>
 <script>
 'use strict';
 const params=new URLSearchParams(location.search);
@@ -27,5 +29,10 @@ const external=document.createElement('div');external.className='tradingview-wid
 const inner=document.createElement('div');inner.className='tradingview-widget-container__widget';inner.style.width='100%';inner.style.height='100%';external.appendChild(inner);
 const script=document.createElement('script');script.async=true;script.type='text/javascript';script.src='https://s3.tradingview.com/external-embedding/embed-widget-'+(kind==='ticker'?'ticker-tape':'market-quotes')+'.js';script.textContent=JSON.stringify(kind==='ticker'?ticker:quotes);external.appendChild(script);holder.appendChild(external);
 const fallback=document.getElementById('fallback');
-new MutationObserver(()=>{if(holder.querySelector('iframe'))fallback.hidden=true;}).observe(holder,{childList:true,subtree:true});
+new MutationObserver(() => {
+  const frame = holder.querySelector('iframe');
+  if (!frame) return;
+  frame.title = kind === 'ticker' ? 'TradingView market ticker' : 'TradingView market quotes';
+  fallback.hidden = true;
+}).observe(holder, { childList: true, subtree: true });
 </script></body></html>

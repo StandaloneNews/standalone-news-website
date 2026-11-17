@@ -9,6 +9,7 @@ const publisherUpdates = element('x-publisher-updates');
 const publisherLink = element('x-publisher-link');
 const publisherList = element('x-publisher-headlines');
 const publishers = {
+  StandaloneNews: ['Standalone News', './edition.html', ['Standalone News']],
   federalreserve: ['Federal Reserve', 'https://www.federalreserve.gov/newsevents.htm', ['Federal Reserve', 'Fed']],
   BLS_gov: ['Bureau of Labor Statistics', 'https://www.bls.gov/bls/newsrels.htm', ['Bureau of Labor Statistics', 'BLS']],
   SECGov: ['SEC', 'https://www.sec.gov/newsroom', ['Securities and Exchange Commission', 'SEC']],
@@ -53,7 +54,7 @@ function xWidgets() {
 function renderPublisherUpdates() {
   const [name, href, sources] = publishers[account.value];
   publisherLink.href = href;
-  publisherLink.textContent = name + ' newsroom';
+  publisherLink.textContent = name + (account.value === 'StandaloneNews' ? ' edition' : ' newsroom');
   const items = publisherHeadlines.filter(item => sources.includes(item.source)).slice(0, 4);
   const key = JSON.stringify(items.map(item => [item.href, item.title]));
   if (key === publisherListKey) return;
@@ -104,7 +105,7 @@ async function loadTimeline() {
     ]);
     if (!frame) throw new Error('No timeline returned');
     if (request !== xRequest) return;
-    if (frame instanceof HTMLIFrameElement && !frame.title) frame.title = 'Public posts by @' + handle;
+    if (frame instanceof HTMLIFrameElement) frame.title = 'Public posts by @' + handle;
     xStatus.textContent = 'Timeline for @' + handle + '.';
     publisherUpdates.hidden = true;
   } catch {
@@ -172,23 +173,32 @@ function mountMarket(host, type, settings, name, fallbackContainer = host) {
 
 function drawChart() {
   const value = symbol.value;
+  element('market-instrument').textContent = symbol.selectedOptions[0].textContent;
   chartLink.href = 'https://www.tradingview.com/symbols/' + value.replace(':', '-') + '/';
   mountMarket(chart, 'advanced-chart', {
     autosize: true, symbol: value, interval: 'D', timezone: 'exchange', theme: 'dark',
-    style: '1', allow_symbol_change: true, hide_side_toolbar: true, locale: 'en',
-    backgroundColor: '#121a25', gridColor: 'rgba(170, 187, 208, .15)',
+    style: '1', allow_symbol_change: false, hide_side_toolbar: true, hide_top_toolbar: true,
+    hide_legend: true, locale: 'en',
+    backgroundColor: '#0c1119', gridColor: 'rgba(170, 187, 208, .12)',
     support_host: 'https://www.tradingview.com',
   }, 'Market chart');
 }
 
 function loadMarkets() {
   drawChart();
-  const instruments = [...symbol.options].map(option => ({name: option.value, displayName: option.textContent}));
-  mountMarket(quotes, 'market-quotes', {
-    width: '100%', height: '100%', colorTheme: 'dark', locale: 'en', showSymbolLogo: true,
-    symbolsGroups: [{ name: 'Watchlist', symbols: instruments }],
-  }, 'Market watchlist');
   symbol.addEventListener('change', drawChart);
+  const watchlist = element('market-watchlist');
+  const loadWatchlist = () => {
+    if (!watchlist.open) return;
+    watchlist.removeEventListener('toggle', loadWatchlist);
+    const instruments = [...symbol.options].map(option => ({name: option.value, displayName: option.textContent}));
+    mountMarket(quotes, 'market-quotes', {
+      width: '100%', height: '100%', colorTheme: 'dark', isTransparent: true,
+      locale: 'en', showSymbolLogo: false, symbolsGroups: [{ name: 'Watchlist', symbols: instruments }],
+    }, 'Market watchlist');
+  };
+  watchlist.addEventListener('toggle', loadWatchlist);
+  loadWatchlist();
 }
 
 function whenVisible(id, load) {

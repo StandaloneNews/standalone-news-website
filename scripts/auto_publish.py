@@ -21,6 +21,8 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+from site_chrome import with_site_chrome
+
 ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/'data'/'news.json'
 INDEX=ROOT/'data'/'articles.json'
@@ -419,7 +421,7 @@ def write_listing(records):
     newest=sorted(records,key=lambda a:a['published_at'],reverse=True)
     tiles='\n'.join(f'<article class="editorial-tile"><p class="overline">{esc(a["category"])} · {esc(a["published_at"][:10])}</p><h2><a href="/{esc(a["path"])}">{esc(a["headline"])}</a></h2><p>{esc(a["summary"])}</p><p class="editorial-source-label">Source: {esc(a["source"])}</p></article>' for a in newest[:90])
     body=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News Explainers | Standalone News</title><meta name="description" content="Original, clearly attributed AI-assisted explainers based on official U.S. government documents."><meta property="og:type" content="website"><meta property="og:title" content="News Explainers | Standalone News"><meta property="og:description" content="Source-linked, AI-assisted explainers of official government documents."><meta property="og:url" content="{BASE}/articles/"><meta property="og:image" content="{BASE}/assets/standalone-news-banner.png"><link rel="canonical" href="{BASE}/articles/"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../interior-clarity.css?v=2"><link rel="stylesheet" href="../refresh-interior.css?v=1"><link rel="stylesheet" href="../broadsheet.css?v=terminal-dark"><link rel="icon" href="../assets/favicon.png"></head><body class="theme-article theme-refresh theme-broadsheet"><a class="skip-link" href="#main">Skip to main content</a><header class="site-header"><div class="container header-main"><a class="site-brand" href="/"><img src="/assets/sn-brand-logo.png" alt="" width="52" height="52"><span class="brand-lockup"><strong>STANDALONE</strong><span>NEWS</span></span></a><a class="header-utility edition-nav-terminal" href="/terminal">News Terminal</a></div></header><main id="main" class="container inner-page"><p class="overline">OFFICIAL-SOURCE COVERAGE</p><h1>News <em>explainers.</em></h1><p>Short AI-assisted explainers based on official agency announcements. Each article identifies its source and discloses that it is automatically generated and not human-reviewed.</p><div class="editorial-grid">{tiles or '<p>Our first sourced explainers will appear here when they pass publication checks.</p>'}</div></main><footer class="site-footer"><div class="container footer-bottom">© Standalone News · <a href="/about.html">Editorial standards</a></div></footer></body></html>'''
-    (ARTICLES/'index.html').write_text(body,encoding='utf-8')
+    (ARTICLES/'index.html').write_text(with_site_chrome(body),encoding='utf-8')
 
 def write_sitemap(records):
     root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
@@ -546,7 +548,7 @@ def main():
             record={'id':token,'headline':headline,'summary':summary,'paragraphs':paragraphs,
                 'source':story['source'],'source_url':canonical_url,'source_published_at':story['published_at'],
                 'published_at':now.isoformat(timespec='seconds').replace('+00:00','Z'),'category':story['category'],'path':rel,'ai_model':used_model,'human_reviewed':False}
-            (ROOT/rel).write_text(render_html(record),encoding='utf8')
+            (ROOT/rel).write_text(with_site_chrome(render_html(record)),encoding='utf8')
             records.append({k:v for k,v in record.items() if k!='paragraphs'})
             INDEX.write_text(json.dumps({'items':records},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
             write_listing(records);write_sitemap(records);write_articles_feed(records)

@@ -8,9 +8,9 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=8">
+  <link rel="stylesheet" href="./terminal.css?v=9">
   <script type="module" src="./terminal.js?v=6"></script>
-  <script type="module" src="./terminal-panels.js?v=3"></script>
+  <script type="module" src="./terminal-panels.js?v=4"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to the terminal</a>
@@ -99,13 +99,14 @@
       <section class="workspace-panel social" id="x-posts" aria-labelledby="x-heading">
         <header class="panel-heading">
           <h2 id="x-heading">X posts</h2>
-          <a id="x-profile-link" href="https://x.com/federalreserve">Open on X</a>
+          <a id="x-profile-link" href="https://x.com/StandaloneNews">Open on X</a>
         </header>
         <div class="panel-scroll" tabindex="0" role="region" aria-label="Public X timelines">
           <div class="panel-tools">
             <label for="x-account">Public account</label>
             <div class="control-line">
               <select id="x-account" autocomplete="off">
+                <option value="StandaloneNews" selected>Standalone News</option>
                 <option value="federalreserve">Federal Reserve</option>
                 <option value="BLS_gov">Bureau of Labor Statistics</option>
                 <option value="SECGov">SEC</option>
@@ -120,7 +121,7 @@
           <section class="publisher-updates" id="x-publisher-updates" aria-labelledby="publisher-updates-heading">
             <h3 id="publisher-updates-heading">Publisher updates</h3>
             <p class="status">Latest headlines from the selected account’s newsroom.</p>
-            <a id="x-publisher-link" href="https://www.federalreserve.gov/newsevents.htm">Federal Reserve newsroom</a>
+            <a id="x-publisher-link" href="./edition.html">Standalone News edition</a>
             <ul id="x-publisher-headlines" role="list" hidden></ul>
           </section>
           <noscript><p class="panel-note">Open the account on X to read its posts.</p></noscript>
@@ -132,8 +133,8 @@
           <h2 id="market-heading">Markets</h2>
           <a href="./markets.html">Market desk</a>
         </header>
-        <div class="panel-scroll" tabindex="0" role="region" aria-label="Market chart and watchlist">
-          <div class="panel-tools">
+        <div class="panel-scroll market-panel-body" tabindex="0" role="region" aria-label="Market chart and watchlist">
+          <div class="market-controls">
             <label for="market-symbol">Chart symbol</label>
             <select id="market-symbol" autocomplete="off">
               <option value="AMEX:SPY">SPY · S&amp;P 500 ETF</option>
@@ -144,12 +145,21 @@
               <option value="COINBASE:BTCUSD">BTC · Bitcoin</option>
               <option value="COINBASE:ETHUSD">ETH · Ethereum</option>
             </select>
-            <p class="status">Quotes and charts by <a href="https://www.tradingview.com/">TradingView</a>. Prices may be delayed.</p>
           </div>
-          <div id="market-chart" class="market-chart" role="group" aria-label="Interactive market chart" hidden></div>
-          <a id="market-chart-link" class="market-link" href="https://www.tradingview.com/symbols/AMEX-SPY/">Open chart on TradingView</a>
-          <h3 class="watchlist-heading">Watchlist</h3>
-          <div id="market-quotes" class="market-quotes" role="group" aria-label="Market quotes" hidden></div>
+          <div class="market-chart-card">
+            <div class="market-chart-heading">
+              <h3 id="market-instrument">SPY · S&amp;P 500 ETF</h3>
+              <span>Daily chart</span>
+            </div>
+            <div id="market-chart" class="market-chart" role="group" aria-label="Interactive market chart" hidden></div>
+            <a id="market-chart-link" class="market-link" href="https://www.tradingview.com/symbols/AMEX-SPY/">Open full chart on TradingView</a>
+          </div>
+          <details class="market-watchlist" id="market-watchlist">
+            <summary>Watchlist quotes</summary>
+            <div id="market-quotes" class="market-quotes" role="group" aria-label="Market quotes" hidden></div>
+            <noscript><p class="panel-note"><a href="https://www.tradingview.com/markets/">Open quotes on TradingView</a></p></noscript>
+          </details>
+          <p class="market-attribution">Market data by <a href="https://www.tradingview.com/">TradingView</a>. Prices may be delayed.</p>
         </div>
       </section>
     </div>

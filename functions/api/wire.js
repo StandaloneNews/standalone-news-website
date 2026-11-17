@@ -48,33 +48,39 @@ function atomLink(entry) {
 }
 
 export function parseFeed(xml, source, now) {
-  const format = xml.match(/<(rss|rdf:RDF|feed)(?:\s|>)/i)?.[1].toLowerCase();
-  if (!format) throw new Error('Expected an RSS or Atom feed');
+  const format = xml.match(/<(rss|rdf:RDF|feed|urlset)(?:\s|>)/i)?.[1].toLowerCase();
+  const sitemap = source.format === 'news-sitemap';
+  if (!format || sitemap !== (format === 'urlset')) throw new Error('Unexpected publisher XML format');
   const atom = format === 'feed';
-  const rows = atom ? /<entry(?:\s[^>]*)?>([\s\S]*?)<\/entry\s*>/gi
-    : /<item(?:\s[^>]*)?>([\s\S]*?)<\/item\s*>/gi;
+  const rows = sitemap ? /<url(?:\s[^>]*)?>([\s\S]*?)<\/url\s*>/gi
+    : atom ? /<entry(?:\s[^>]*)?>([\s\S]*?)<\/entry\s*>/gi
+      : /<item(?:\s[^>]*)?>([\s\S]*?)<\/item\s*>/gi;
+  const publisherHost = sitemap ? new URL(source.url).hostname : '';
   const entries = [];
   let count = 0;
   for (const [, item] of xml.matchAll(rows)) {
-    if (count++ === 25) break;
-    const title = field(item, 'title').replace(/\s+/g, ' ').slice(0, 350);
-    const dateText = atom ? field(item, 'published') || field(item, 'updated')
-      : field(item, 'pubDate') || field(item, 'dc:date');
+    if (!sitemap && count++ === 25) break;
+    const title = field(item, sitemap ? 'news:title' : 'title').replace(/\s+/g, ' ').slice(0, 350);
+    const dateText = sitemap ? field(item, 'news:publication_date')
+      : atom ? field(item, 'published') || field(item, 'updated')
+        : field(item, 'pubDate') || field(item, 'dc:date');
     // An ambiguous local time cannot be compared reliably to entries from other feeds.
     const time = /(?:[zZ]|[+-]\d{2}:?\d{2}|UT|UTC|GMT|[ECMP][SD]T)(?:\s*\([^)]*\))?$/i.test(dateText)
       ? Date.parse(dateText) : NaN;
-    const link = atom ? atomLink(item) : field(item, 'link');
+    const link = atom ? atomLink(item) : field(item, sitemap ? 'loc' : 'link');
     let url;
     try { url = new URL(link, source.url); } catch { continue; }
     if (!title || !link || url.protocol !== 'https:' || url.username || url.password
+        || (sitemap && url.hostname !== publisherHost)
         || !Number.isFinite(time) || time > now || time < now - MAX_AGE) continue;
     entries.push({
       title, url: url.href, published_at: new Date(time).toISOString(),
       source: source.name, category: source.topic,
-      source_type: source.official ? 'Official direct' : 'Publisher RSS',
+      source_type: source.official ? 'Official direct' : sitemap ? 'Publisher sitemap' : 'Publisher RSS',
     });
   }
-  return entries;
+  // News sitemaps need not be ordered by publication time.
+  return sitemap ? entries.sort((a, b) => b.published_at.localeCompare(a.published_at)).slice(0, 25) : entries;
 }
 
 async function readFeed(response) {

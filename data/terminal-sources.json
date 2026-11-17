@@ -47,5 +47,21 @@
   {"id": "the-straits-times", "name": "The Straits Times", "topic": "World", "url": "https://www.straitstimes.com/news/world/rss.xml", "official": false, "direct": false},
   {"id": "the-washington-post", "name": "The Washington Post", "topic": "US News", "url": "https://feeds.washingtonpost.com/rss/national", "official": false, "direct": false},
   {"id": "wired", "name": "WIRED", "topic": "Technology", "url": "https://www.wired.com/feed/rss", "official": false, "direct": false},
-  {"id": "world-health-organization", "name": "World Health Organization", "topic": "World", "url": "https://www.who.int/rss-feeds/news-english.xml", "official": true, "direct": false}
+  {"id": "world-health-organization", "name": "World Health Organization", "topic": "World", "url": "https://www.who.int/rss-feeds/news-english.xml", "official": true, "direct": false},
+  {"id": "cnn", "name": "CNN", "topic": "US News", "url": "https://www.cnn.com/sitemap/news.xml", "official": false, "direct": true, "format": "news-sitemap"},
+  {"id": "bloomberg", "name": "Bloomberg", "topic": "Markets", "url": "https://www.bloomberg.com/feeds/markets/news.rss", "official": false, "direct": true},
+  {"id": "politico-eu", "name": "POLITICO EU", "topic": "World", "url": "https://www.politico.eu/feed/", "official": false, "direct": false},
+  {"id": "los-angeles-times", "name": "Los Angeles Times", "topic": "US News", "url": "https://www.latimes.com/world-nation/rss2.0.xml", "official": false, "direct": true},
+  {"id": "the-atlantic", "name": "The Atlantic", "topic": "US News", "url": "https://www.theatlantic.com/feed/all/", "official": false, "direct": false},
+  {"id": "time", "name": "TIME", "topic": "US News", "url": "https://time.com/feed/", "official": false, "direct": false},
+  {"id": "vox", "name": "Vox", "topic": "US News", "url": "https://www.vox.com/rss/index.xml", "official": false, "direct": false},
+  {"id": "benzinga", "name": "Benzinga", "topic": "Markets", "url": "https://www.benzinga.com/feed", "official": false, "direct": true},
+  {"id": "fortune", "name": "Fortune", "topic": "Markets", "url": "https://fortune.com/feed/fortune-feeds/?id=3230629", "official": false, "direct": false},
+  {"id": "the-motley-fool", "name": "The Motley Fool", "topic": "Markets", "url": "https://www.fool.com/a/feeds/foolwatch?apikey=foolwatch-feed", "official": false, "direct": false},
+  {"id": "cna", "name": "CNA", "topic": "World", "url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311", "official": false, "direct": true},
+  {"id": "factcheck-org", "name": "FactCheck.org", "topic": "Government", "url": "https://www.factcheck.org/feed/", "official": false, "direct": false},
+  {"id": "australian-financial-review", "name": "Australian Financial Review", "topic": "Markets", "url": "https://www.afr.com/rss/feed.xml", "official": false, "direct": false},
+  {"id": "semafor", "name": "Semafor", "topic": "US News", "url": "https://www.semafor.com/rss.xml", "official": false, "direct": false},
+  {"id": "deadline", "name": "Deadline", "topic": "Entertainment", "url": "https://deadline.com/feed/", "official": false, "direct": false},
+  {"id": "variety", "name": "Variety", "topic": "Entertainment", "url": "https://variety.com/feed/", "official": false, "direct": false}
 ]

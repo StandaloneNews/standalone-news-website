@@ -109,7 +109,9 @@ SOURCES.extend(
         "id": f"terminal_{source['id']}",
         "name": source["name"],
         "category": source["topic"],
-        "kind": "Official direct" if source["official"] else "Publisher RSS",
+        "kind": "Official direct" if source["official"] else (
+            "Publisher sitemap" if source.get("format") == "news-sitemap" else "Publisher RSS"
+        ),
         "url": source["url"],
         "headline_only": True,
     }
@@ -177,7 +179,7 @@ def desk_priority(title: str, category: str, source_type: str) -> int:
             'US News':32, 'Technology':30, 'Washington':31,
             'Government':29, 'SEC':28, 'Treasury':29,
             'FDA':27, 'DEA':27}.get(category, 28)
-    if source_type == 'Publisher RSS': base += 3
+    if source_type in ('Publisher RSS', 'Publisher sitemap'): base += 3
     if source_type.startswith('Official'): base += 2
     for pattern, points in IMPACT_TERMS:
         if re.search(pattern, title, re.I): base += points
@@ -190,24 +192,36 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
     if b'<!DOCTYPE' in xml.upper() or b'<!ENTITY' in xml.upper():
         raise ValueError('Invalid external XML entity')
     root=ET.fromstring(xml)
+    sitemap = feed['kind'] == 'Publisher sitemap'
+    publisher_host = urllib.parse.urlsplit(feed['url']).hostname if sitemap else None
+    if sitemap and local(root.tag) != 'urlset':
+        raise ValueError('Expected a news sitemap')
     out=[]
     for node in root.iter():
-        if local(node.tag) not in ('item','entry'): continue
-        title=plain(child_text(node,'title'),230)
-        link=child_text(node,'link')
-        if not link:
+        if local(node.tag) not in (('url',) if sitemap else ('item','entry')): continue
+        metadata = next((ch for ch in node if local(ch.tag) == 'news'), None) if sitemap else node
+        if metadata is None: continue
+        title=plain(child_text(metadata,'title'),230)
+        link=child_text(node,'loc' if sitemap else 'link')
+        if not link and not sitemap:
             for ch in node:
                 if local(ch.tag)=='link' and ch.attrib.get('rel','alternate')=='alternate':
                     link=ch.attrib.get('href','')
                     if link: break
         if not title or not valid_url(link):continue
+        if sitemap:
+            article_url = urllib.parse.urlsplit(link)
+            if article_url.scheme != 'https' or article_url.hostname != publisher_host: continue
         source=feed['name']
         if feed['kind']=='Discovery':
             # Google News supplies an actual publisher label in the source child.
             hint=plain(child_text(node,'source'),60)
             if hint: source=hint
             elif ' - ' in title: title,source=title.rsplit(' - ',1)
-        published=parse_date(child_text(node,'pubDate') or child_text(node,'date') or child_text(node,'published') or child_text(node,'updated'),now)
+        date_text = child_text(metadata, 'publication_date') if sitemap else (
+            child_text(node,'pubDate') or child_text(node,'date') or child_text(node,'published') or child_text(node,'updated')
+        )
+        published=parse_date(date_text,now)
         if published is None or published>now+dt.timedelta(minutes=5) or published<now-dt.timedelta(days=7):continue
         # Show short attributed excerpts when the original publisher provides them.
         # Google News discovery descriptions can be nested lists of related stories,
@@ -224,8 +238,10 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             'published_at':published.isoformat(timespec='seconds').replace('+00:00','Z'),
             'id':__import__('hashlib').sha256(link.encode('utf-8')).hexdigest()[:20]
         })
-        if len(out)>=MAX_PER_FEED:break
-    return out
+        if not sitemap and len(out)>=MAX_PER_FEED:break
+    if sitemap:
+        out.sort(key=lambda item: item['published_at'], reverse=True)
+    return out[:MAX_PER_FEED]
 
 
 def fetch(feed: dict, now: dt.datetime):
