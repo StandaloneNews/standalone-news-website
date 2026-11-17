@@ -692,6 +692,9 @@ body.theme-broadsheet {
     border-color: var(--terminal-rule) !important;
     box-shadow: none !important;
   }
+  .theme-broadsheet :is(.st-grid, .wire-media, .story-visual.has-photo, .list-thumb.has-photo) {
+    background-color: var(--terminal-panel) !important;
+  }
   .theme-broadsheet :is(.advanced-chart, .economic-widget, .earnings-company-widget, .chart-frame, .market-panel, .widget-loading, .tv-lazy-placeholder, .tape-placeholder, .search-shortcut, .saved-num) {
     background: var(--terminal-panel) !important;
     color: var(--terminal-muted) !important;
