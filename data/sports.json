@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T10:51:55Z",
+  "updated_at": "2026-11-17T19:26:44Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 24,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -13,7 +13,7 @@
     {
       "id": "nfl",
       "name": "NFL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "nba",
@@ -28,7 +28,7 @@
     {
       "id": "nhl",
       "name": "NHL",
-      "events": 1
+      "events": 2
     },
     {
       "id": "ncaaf",
@@ -68,27 +68,27 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
       "name": "Brazilian Série A",
-      "events": 0
+      "events": 2
     },
     {
       "id": "argentina",
       "name": "Argentinian Primera División",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ligamx",
       "name": "Mexican Liga MX",
-      "events": 0
+      "events": 1
     },
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -98,7 +98,7 @@
     {
       "id": "primeira",
       "name": "Portuguese Primeira Liga",
-      "events": 0
+      "events": 1
     },
     {
       "id": "mls",
@@ -485,6 +485,26 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "sportsdb-2475523",
+      "league": "nfl",
+      "name": "Baltimore Ravens vs Los Angeles Chargers",
+      "date": "2026-11-17T01:15:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Baltimore Ravens",
+          "score": "20"
+        },
+        {
+          "name": "Los Angeles Chargers",
+          "score": "23",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
       "id": "sportsdb-2475524",
       "league": "nfl",
       "name": "Houston Texans vs Indianapolis Colts",
@@ -518,6 +538,26 @@
         {
           "name": "New York Knicks",
           "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2591816",
+      "league": "nhl",
+      "name": "Utah Mammoth vs Vancouver Canucks",
+      "date": "2026-11-17T02:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Utah Mammoth",
+          "score": "2"
+        },
+        {
+          "name": "Vancouver Canucks",
+          "score": "3",
+          "winner": true
         }
       ],
       "url": ""
@@ -654,18 +694,425 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398393",
+      "league": "brasileirao",
+      "name": "Chapecoense vs Vasco da Gama",
+      "date": "2026-11-14T23:30:00Z",
+      "state": "final",
+      "status": "FT",
+      "participants": [
+        {
+          "name": "Chapecoense",
+          "score": "0"
+        },
+        {
+          "name": "Vasco da Gama",
+          "score": "2",
+          "winner": true
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2398532",
+      "league": "brasileirao",
+      "name": "Coritiba vs Santos",
+      "date": "2026-11-18T22:30:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Coritiba",
+          "score": ""
+        },
+        {
+          "name": "Santos",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2627819",
+      "league": "argentina",
+      "name": "Vélez Sarsfield vs Belgrano",
+      "date": "2026-11-20T23:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Vélez Sarsfield",
+          "score": ""
+        },
+        {
+          "name": "Belgrano",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2487597",
+      "league": "ligamx",
+      "name": "Puebla vs Atlético de San Luis",
+      "date": "2026-11-21T01:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Puebla",
+          "score": ""
+        },
+        {
+          "name": "Atletico de San Luis",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kashima Antlers",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2514035",
+      "league": "primeira",
+      "name": "Marítimo vs Nacional de Madeira",
+      "date": "2026-11-27T20:15:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Marítimo",
+          "score": ""
+        },
+        {
+          "name": "Nacional de Madeira",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Swansea in fight to keep Matos amid Strasbourg interest",
+      "title": "Alexander Zverev v Ben Shelton: ATP Finals tennis group stage – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live",
+      "date": "2026-11-17T19:15:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Ben Earl calls for future Nations Championship finals in Las Vegas, Hong Kong or Brazil",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-ben-earl-england-future-nations-championship-finals-las-vegas",
+      "date": "2026-11-17T18:58:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Senegal become first side to book Afcon 2027 spot",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqly47zn8xlgo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T10:44:47Z",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T18:56:27Z",
       "league": "soccer"
     },
     {
-      "title": "Blackburn boss Mowbray steps down over health issues",
+      "title": "Wales v Portugal: Nations League football – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/17/wales-v-portugal-nations-league-football-live-score-updates",
+      "date": "2026-11-17T18:54:43Z",
+      "league": "all"
+    },
+    {
+      "title": "England's Atkinson set for All Blacks dream date",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6rrg0l2gz5jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T18:12:46Z",
+      "league": "all"
+    },
+    {
+      "title": "Danny Kelly obituary",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/media/2026/nov/17/danny-kelly-obituary",
+      "date": "2026-11-17T17:46:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal Double winner Storey dies aged 81",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T17:33:41Z",
+      "league": "all"
+    },
+    {
+      "title": "‘I’m entering to win’: Philippe Diallo launches campaign to topple Gianni Infantino",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/im-entering-to-win-philippe-diallo-launches-campaign-to-topple-gianni-infantino",
+      "date": "2026-11-17T17:18:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Ramsay-Peaty headlines as revived ISL wary not to overstretch",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/swimming/articles/ck1wvzryg015o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T17:17:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Last chance to vote for BBC Women's Footballer of the Year 2026",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj20velkgnypo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T17:13:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Wayne Rooney says he contemplated taking own life during playing career",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+      "date": "2026-11-17T17:13:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Rassie Erasmus’s tired ref-blaming act is wearing thin – South Africa deserve better | Robert Kitson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-rassie-erasmus-south-africa-france-referee-blaming",
+      "date": "2026-11-17T17:10:48Z",
+      "league": "all"
+    },
+    {
+      "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable | Ewan Murray",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
+      "date": "2026-11-17T16:59:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Rising star Fils earns first ATP Finals win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T16:28:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Rassie Erasmus hit with six-game ban for ‘match-fixing’ rant after France defeat",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/17/rassie-erasmus-south-africa-rugby-union-match-officials",
+      "date": "2026-11-17T16:28:14Z",
+      "league": "all"
+    },
+    {
+      "title": "South Africa head coach Erasmus banned for six matches",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj752w5q7z90o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T16:09:24Z",
+      "league": "all"
+    },
+    {
+      "title": "York City player pleads not guilty over alleged punch of Rochdale fan",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/c60mdvd4vpy4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T16:03:15Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Woods set to return next month after two years out",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cm93080ep703o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T15:54:36Z",
+      "league": "all"
+    },
+    {
+      "title": "FA wants to host Nations League finals in England",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T15:51:30Z",
+      "league": "all"
+    },
+    {
+      "title": "Peter Storey, Arsenal Double winner and England international, dies aged 81",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/peter-storey-arsenal-england-dies-aged-81",
+      "date": "2026-11-17T15:46:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | Jürgen Klopp hard-launches his Germany rebuilding project in style",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/jurgen-klopp-germany-project-football-daily-newsletter",
+      "date": "2026-11-17T15:23:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Hutchinson ruled out for season after celebration injury",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/ck8798yvq0x0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T15:08:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
+      "date": "2026-11-17T15:00:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Rooney says he considered taking his own life at Man Utd",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T14:09:19Z",
+      "league": "all"
+    },
+    {
+      "title": "DeChambeau joins DP World Tour after LIV Golf collapse",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c5vg27yzm9exo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T13:44:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Chargers earn first victory of the season against the Ravens",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/cje39lr60ykdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T13:34:21Z",
+      "league": "all"
+    },
+    {
+      "title": "Bethell to have more surgery and miss South Africa tour",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c893rgz2946yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T13:18:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Romario demands Ancelotti sacking as war of words continues",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63rgq02pz9qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T13:10:58Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Hincapie in advanced talks over new Arsenal deal",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6ge39lgyzzzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T13:09:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
+      "date": "2026-11-17T13:09:09Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Hamilton says Ravens ‘disgracing’ their standards after loss to lowly Chargers",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/16/los-angeles-chargers-beat-reeling-baltimore-ravens-to-get-first-win-of-season",
+      "date": "2026-11-17T13:00:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Man convicted for racist abuse of Real Madrid's Mbappe",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjn504vweneyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T12:56:27Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Bryson DeChambeau adds star quality to DP World Tour after demise of LIV Golf",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/17/bryson-dechambeau-joins-dp-world-tour-2027-season-liv-golf",
+      "date": "2026-11-17T12:51:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Watch: Can Northern Ireland hit the right notes in Budapest?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cxyvd3z52dq5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T12:40:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
+      "date": "2026-11-17T11:57:35Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'Why not have a go?' - the halfway line goal phenomenon",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw24041nqlygo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T11:54:07Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Prison sentences rescinded after Nurmagomedov-Dvalishvili brawl",
+      "source": "BBC MMA",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cqlyjkl8xz0go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T11:20:11Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Almost impossible for Scotland to not qualify for Euro 2028... or is it?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm62p7eg7nqvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T11:13:40Z",
+      "league": "all"
+    },
+    {
+      "title": "London City's Goodwin gets first England call-up",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-17T11:06:33Z",
+      "league": "all"
+    },
+    {
+      "title": "The NFL’s Salute to Service honors the military – and leaves out the realities of war | Lee Escobedo",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/17/the-nfls-salute-to-service-honors-the-military-and-leaves-out-the-realities-of-war",
+      "date": "2026-11-17T11:00:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Blackburn boss Mowbray steps back over health issues",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6dx190nkvl4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-17T10:40:41Z",
@@ -679,7 +1126,7 @@
       "league": "all"
     },
     {
-      "title": "Has Infantino already won Fifa election as challengers are revealed?",
+      "title": "Will Infantino feel he's already won as Fifa challengers are revealed?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c8wy53z3ygypo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-17T10:32:07Z",
@@ -698,279 +1145,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/17/max-dowman-england-under-21s-record-jude-bellingham",
       "date": "2026-11-17T10:13:45Z",
       "league": "all"
-    },
-    {
-      "title": "Pochettino says he would tell Guardiola to take USA job",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crgj36e6ee5yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T09:48:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Ex-world champion Linares detained by ICE in Texas",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cwgklx47lgm0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T09:31:27Z",
-      "league": "all"
-    },
-    {
-      "title": "The Breakdown | Rattled All Blacks face rare twin threat as England eye back-to-back scalps",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/all-blacks-new-zealand-england-twickenham-wales-rugby-union",
-      "date": "2026-11-17T09:24:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Declan Rice agrees new Arsenal contract making him club’s joint highest-paid player",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/declan-rice-new-arsenal-contract-jurrien-timber",
-      "date": "2026-11-17T09:19:34Z",
-      "league": "all"
-    },
-    {
-      "title": "'Switzerland didn't have better players but were better team'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8vg265dnzqeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T09:09:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Alonso to drive in Dakar Rally for Aston Martin",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/motorsport/articles/crp3e1783xq3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T09:00:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Owono did not deserve 12-match ban - Pique",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c91430yk4el2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T08:28:10Z",
-      "league": "all"
-    },
-    {
-      "title": "How do NI replace 'perfect player' Donley?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c3rrg9xdp5ypo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T08:17:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘He wants to change lives’: the story behind Bukayo Saka’s Sócrates award",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/he-wants-to-change-lives-the-story-behind-bukayo-sakas-socrates-award",
-      "date": "2026-11-17T08:00:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Thomas Frank’s to-do list: lift mood, fix defence and fire up Sarr and Mateta",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/thomas-frank-crystal-palace-pierre-sage-sacked-steve-parish",
-      "date": "2026-11-17T08:00:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-      "date": "2026-11-17T08:00:08Z",
-      "league": "soccer"
-    },
-    {
-      "title": "I built a reputation as a ‘walker’ so I could cheat when it mattered most – and it worked | The Secret Cricket Coach",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/secret-cricket-coach-i-built-reputation-walker-so-i-could-cheat",
-      "date": "2026-11-17T08:00:07Z",
-      "league": "all"
-    },
-    {
-      "title": "Are Scotland still too reliant on 'old guard'?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6zxvd1p4pr0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:55:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Why Hamilton is key to Bearman's future - F1 Q&A",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9vg2l8240emo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:45:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Ronaldo, Maradona, Baggio - what happened to the World XI?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj34058rvv6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:22:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Nunes calls for Harrison rematch at featherweight",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm93rg2lg55qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:19:32Z",
-      "league": "ufc"
-    },
-    {
-      "title": "Irish boxer Reeves dies aged 31 after three months in coma",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cv4gnp901zzxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:18:08Z",
-      "league": "all"
-    },
-    {
-      "title": "Body of Melbourne Cup horse found dumped in Sydney skip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T07:01:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Port Adelaide player Josh Sinn banned for betting on AFL matches: ‘I knew the rules’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/port-adelaide-josh-sinn-match-ban-betting-afl-games",
-      "date": "2026-11-17T07:00:14Z",
-      "league": "all"
-    },
-    {
-      "title": "He wanted to be prime minister, now he's on the brink of the NFL",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/cm0ev1d54n52o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T06:43:42Z",
-      "league": "all"
-    },
-    {
-      "title": "From Watford to world champion",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/videos/c6x2v444m171o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T06:30:41Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx5y1pl7yvz6o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T06:26:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Listener mailbag: Manchester City, media coverage and making gravy | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/nov/17/listener-mailbag-manchester-city-media-coverage-and-making-gravy-football-weekly-video",
-      "date": "2026-11-17T06:26:12Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Why always him? The rise and fall of Balotelli",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvgxvg4v981o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T06:15:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Fifa accused of climate ‘record of failure’ due to Aramco deal and tournament expansion",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/fifa-accused-climate-record-failure-aramco-deal-tournament-expansion",
-      "date": "2026-11-17T06:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Life after Ronaldo - Portugal face post-Bale Wales",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckvg29vler1no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T04:45:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Los Angeles Chargers beat reeling Baltimore Ravens to get first win of season",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/16/los-angeles-chargers-beat-reeling-baltimore-ravens-to-get-first-win-of-season",
-      "date": "2026-11-17T04:40:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Key areas for Wales to build on historic win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6vg202j9dj0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T04:29:45Z",
-      "league": "all"
-    },
-    {
-      "title": "What's the story with Scotland boss Pocognoli - is it time to go?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crgqx1zz94d4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T00:19:58Z",
-      "league": "all"
-    },
-    {
-      "title": "Swansea braced to lose Vítor Matos as Strasbourg seek to replace Hugo Oliveira",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/16/swansea-city-head-coach-vitor-matos-strasbourg-chelsea-sister-club-ligue-1",
-      "date": "2026-11-16T23:32:23Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Police searching for three stolen Melbourne Cup trophies worth $1m each",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/makybe-diva-melbourne-cup-trophies-stolen-flemington-raid-mount-waverley-ntwnfb",
-      "date": "2026-11-16T23:15:07Z",
-      "league": "all"
-    },
-    {
-      "title": "'Is that not match-fixing?' - Erasmus questions officiating",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ck0jx1dnd38go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T23:14:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Pochettino: I’d tell Guardiola to ‘take it’ if he’s offered US coaching job",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/16/mauricio-pochettino-pep-guardiola-usmnt-manchester-united",
-      "date": "2026-11-16T23:01:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Littler hits triple-bull, but Price checkout doesn't add up",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/cwkgr9m0d0e5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T22:54:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live",
-      "date": "2026-11-16T22:46:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Pocognoli wants patience, but Scotland 'don't have time' - Robertson",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv432qy0l1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T22:36:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Nations League: Wirtz doubles up as Germany rout Netherlands to top group",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/16/nations-league-roundup-germany-netherlands-greece-serbia",
-      "date": "2026-11-16T22:33:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Watch as Scotland slump to 4-0 defeat in Switzerland",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmp3e19v734wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T22:14:34Z",
-      "league": "all"
-    },
-    {
-      "title": "Man Utd to resurrect Hall interest - Tuesday's gossip",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6d91x7nz85jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-16T22:06:32Z",
-      "league": "soccer"
     }
   ]
 }
