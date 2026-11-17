@@ -1,0 +1,55 @@
+name: Verify the homepage X profile link in production
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  link:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check the homepage navigation and new-tab behavior
+        run: |
+          python3 - <<'PY'
+          import time
+          from html.parser import HTMLParser
+          from urllib.request import Request, urlopen
+
+          class Homepage(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_terminal_nav = False
+                  self.found = False
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == 'nav':
+                      self.in_terminal_nav = attrs.get('aria-label') == 'Terminal panels'
+                  if tag == 'a' and self.in_terminal_nav:
+                      self.found |= (attrs.get('href') == 'https://x.com/StandaloneNews'
+                                     and attrs.get('target') == '_blank'
+                                     and 'noopener' in attrs.get('rel', '').split())
+
+              def handle_endtag(self, tag):
+                  if tag == 'nav':
+                      self.in_terminal_nav = False
+
+          for attempt in range(16):
+              try:
+                  req = Request('https://standalonenews.com/', headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+                  with urlopen(req, timeout=10) as response:
+                      parser = Homepage()
+                      parser.feed(response.read().decode('utf-8'))
+                  if parser.found:
+                      print('Verified the homepage X posts link opens the Standalone News X profile in a new tab.')
+                      break
+              except OSError as exc:
+                  print(str(exc), flush=True)
+              time.sleep(8)
+          else:
+              raise SystemExit('The updated link did not appear on the homepage.')
+          PY
