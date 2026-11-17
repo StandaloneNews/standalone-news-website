@@ -732,7 +732,7 @@ body.theme-broadsheet {
     border-color: var(--terminal-rule) !important;
   }
   .theme-broadsheet :is(.home-link, .top-back, .header-utility, .market-desk-invite-links a, .side-links a,
-    .agency-links a, .company-id a, .list-article, .category-list, .ai-label, .mobile-market-bar, .small-note) {
+    .agency-links a, .panel-end a, .company-id a, .list-article, .category-list, .ai-label, .mobile-market-bar, .small-note) {
     background: var(--terminal-panel) !important;
     border-color: var(--terminal-rule) !important;
     color: var(--terminal-ink) !important;
