@@ -24,7 +24,7 @@ jobs:
       - name: Test the redesigned edition in Chrome
         shell: bash
         run: |
-          npm install --prefix "$RUNNER_TEMP/edition-a11y" --no-audit --no-fund axe-core@4.10.3
+          npm install --prefix "$RUNNER_TEMP/edition-a11y" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
           python3 - <<'PY' >"$RUNNER_TEMP/edition-server.log" 2>&1 &
           import datetime
           import http.server
@@ -57,49 +57,23 @@ jobs:
           http.server.ThreadingHTTPServer(('127.0.0.1', 8765), Edition).serve_forever()
           PY
           server_pid=$!
-          chrome="$(command -v google-chrome || command -v chromium)"
-          "$chrome" --headless --disable-dev-shm-usage --no-sandbox \
-            --user-data-dir="$(mktemp -d)" --remote-debugging-port=9222 about:blank \
-            >"$RUNNER_TEMP/terminal-chrome.log" 2>&1 &
-          chrome_pid=$!
-          trap 'kill "$chrome_pid" "$server_pid" 2>/dev/null || true' EXIT
+          export EDITION_TEST_CHROME="$(command -v google-chrome || command -v chromium)"
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
           node --input-type=module <<'JS'
           import assert from 'node:assert/strict';
           import { readFileSync } from 'node:fs';
-          const axe = readFileSync(process.env.RUNNER_TEMP + '/edition-a11y/node_modules/axe-core/axe.min.js', 'utf8');
+          import { createRequire } from 'node:module';
           import { setTimeout as delay } from 'node:timers/promises';
-          const endpoint = 'http://127.0.0.1:9222/json/list';
-          let targets;
-          for (let attempt = 0; attempt < 30 && !targets; attempt++) {
-            try { targets = await (await fetch(endpoint)).json(); }
-            catch { await delay(300); }
-          }
-          assert(targets, 'Chrome DevTools did not start');
-          const socket = new WebSocket(targets.find(target => target.type === 'page').webSocketDebuggerUrl);
-          await new Promise((resolve, reject) => {
-            socket.addEventListener('open', resolve, { once: true });
-            socket.addEventListener('error', reject, { once: true });
-          });
-          const pending = new Map();
-          let nextId = 0;
-          socket.onmessage = ({ data }) => {
-            const message = JSON.parse(data);
-            const callback = pending.get(message.id);
-            if (!callback) return;
-            pending.delete(message.id);
-            clearTimeout(callback.timeout);
-            if (message.error) callback.reject(Error(message.error.message));
-            else callback.resolve(message.result);
-          };
-          function call(method, params = {}) {
-            return new Promise((resolve, reject) => {
-              const id = ++nextId;
-              const timeout = setTimeout(() => reject(Error(method + ' timed out')), 10000);
-              pending.set(id, { resolve, reject, timeout });
-              socket.send(JSON.stringify({ id, method, params }));
-            });
-          }
 
+          const directory = process.env.RUNNER_TEMP + '/edition-a11y';
+          const require = createRequire(directory + '/package.json');
+          const { chromium } = require('playwright-core');
+          const axe = readFileSync(directory + '/node_modules/axe-core/axe.min.js', 'utf8');
+          const browser = await chromium.launch({executablePath: process.env.EDITION_TEST_CHROME, headless: true});
+          const context = await browser.newContext();
+          const page = await context.newPage();
+          const devtools = await context.newCDPSession(page);
+          const call = (method, params = {}) => devtools.send(method, params);
           async function evaluate(expression) {
             const result = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
             if (result.exceptionDetails) throw Error(result.exceptionDetails.exception?.description ?? result.exceptionDetails.text);
@@ -174,6 +148,6 @@ jobs:
               console.log(path + ': loads with the edition theme.');
             }
           } finally {
-            socket.close();
+            await browser.close();
           }
           JS
