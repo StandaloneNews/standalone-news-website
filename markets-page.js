@@ -67,7 +67,7 @@ function drawChart(symbol){
   document.querySelectorAll('[data-symbol]').forEach(btn=>btn.classList.toggle('active',btn.dataset.symbol===symbol));
   mountTradingView($('advanced-chart'),'advanced-chart',{
     autosize:true,symbol,interval:'D',timezone:'exchange',theme:'dark',
-    backgroundColor:'#121a25',gridColor:'rgba(46, 72, 97, 0.06)',style:'1',
+    backgroundColor:'#121a25',gridColor:'rgba(170, 187, 208, 0.15)',style:'1',
     withdateranges:true,hide_side_toolbar:false,hide_top_toolbar:false,
     allow_symbol_change:true,save_image:false,locale:'en',
     watchlist:POPULAR,calendar:false,details:false,hotlist:false,

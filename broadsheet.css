@@ -731,6 +731,31 @@ body.theme-broadsheet {
   .theme-broadsheet :is(.privacy-table table, .privacy-table th, .privacy-table td, .data-table th, .data-table td, .section, .module-top) {
     border-color: var(--terminal-rule) !important;
   }
+  .theme-broadsheet :is(.home-link, .top-back, .header-utility, .market-desk-invite-links a, .side-links a,
+    .agency-links a, .company-id a, .list-article, .category-list, .ai-label, .mobile-market-bar, .small-note) {
+    background: var(--terminal-panel) !important;
+    border-color: var(--terminal-rule) !important;
+    color: var(--terminal-ink) !important;
+  }
+  .theme-broadsheet :is(.home-link, .top-back, .header-utility, .market-desk-invite-links a, .side-links a, .agency-links a):is(:hover, :focus-visible) {
+    background: var(--terminal-header) !important;
+    color: var(--terminal-accent) !important;
+  }
+  .theme-broadsheet :is(.calendar-overline, .earnings-card-eyebrow, .ai-label, .market-desk-invite-copy > span, .welcome em,
+    .editorial-notice strong, .sports-game-state.live) { color: var(--terminal-accent) !important; }
+  .theme-broadsheet :is(.quick-symbols > span, .watch-footer, .earnings-shortcuts > span, .quick-row > span, .sports-league-detail > span, .sports-game-state,
+    .room-strip-top > span, .personal-disclaimer, .mobile-market-bar > span, .agency-links a span, footer > span, address) {
+    color: var(--terminal-muted) !important;
+  }
+  .theme-broadsheet :is(.market-desk-invite-copy > strong, .agency-links a strong, #company-symbol, .side-card li strong) {
+    color: var(--terminal-ink) !important;
+  }
+  .theme-broadsheet:is(.theme-legal, .theme-standards) main > section,
+  .theme-broadsheet:is(.theme-legal, .theme-standards) footer {
+    background: var(--terminal-panel) !important;
+    color: var(--terminal-muted) !important;
+    border-color: var(--terminal-rule) !important;
+  }
   .theme-broadsheet :is(.danger, .error, .feed-error, .is-offline, .form-error) { color: #ffb3bd !important; }
   .theme-broadsheet :is(.feed-error, .is-offline, .form-error) { background: var(--terminal-header) !important; }
   .theme-broadsheet :is(a, button, summary, input, select, textarea, [tabindex]):focus-visible {
