@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update_news.py'
+      - 'data/terminal-sources.json'
       - 'tests/test_feeds.py'
       - '.github/workflows/refresh-headlines.yml'
   schedule:

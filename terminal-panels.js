@@ -129,7 +129,7 @@ const chartLink = element('market-chart-link');
 const chart = element('market-chart');
 const quotes = element('market-quotes');
 
-function mountMarket(host, type, settings, name) {
+function mountMarket(host, type, settings, name, fallbackContainer = host) {
   host.hidden = false;
   const wrap = document.createElement('div');
   wrap.className = 'tradingview-widget-container';
@@ -147,7 +147,8 @@ function mountMarket(host, type, settings, name) {
     const notice = document.createElement('p');
     notice.className = 'panel-note';
     notice.textContent = name + ' is unavailable here. Use the TradingView link.';
-    host.after(notice);
+    fallbackContainer.after(notice);
+    fallbackContainer.hidden = true;
     notice.dataset.marketFallback = host.id;
   };
   const observer = new MutationObserver(() => {
@@ -202,6 +203,23 @@ function whenVisible(id, load) {
   });
   observer.observe(element(id));
 }
+
+const topScroll = element('market-top-scroll');
+const topQuotes = element('market-top-quotes');
+topScroll.hidden = false;
+mountMarket(topQuotes, 'tickers', {
+  symbols: [
+    { proName: 'AMEX:SPY', title: 'SPY' },
+    { proName: 'NASDAQ:QQQ', title: 'QQQ' },
+    { proName: 'AMEX:DIA', title: 'DIA' },
+    { proName: 'AMEX:IWM', title: 'IWM' },
+    { proName: 'NASDAQ:NVDA', title: 'NVDA' },
+    { proName: 'AMEX:GLD', title: 'GLD' },
+    { proName: 'AMEX:USO', title: 'USO' },
+    { proName: 'COINBASE:BTCUSD', title: 'Bitcoin' },
+  ],
+  colorTheme: 'dark', isTransparent: true, showSymbolLogo: false, locale: 'en',
+}, 'Market bar', topScroll);
 
 whenVisible('x-posts', loadTimeline);
 whenVisible('markets', loadMarkets);

@@ -8,9 +8,9 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=7">
-  <script type="module" src="./terminal.js?v=5"></script>
-  <script type="module" src="./terminal-panels.js?v=2"></script>
+  <link rel="stylesheet" href="./terminal.css?v=8">
+  <script type="module" src="./terminal.js?v=6"></script>
+  <script type="module" src="./terminal-panels.js?v=3"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to the terminal</a>
@@ -41,6 +41,16 @@
   </header>
   <main class="shell" id="main" tabindex="-1">
     <h1 class="sr-only" id="news-terminal">Standalone News Terminal</h1>
+    <section class="market-top" aria-labelledby="market-top-heading">
+      <div class="market-top-heading">
+        <h2 id="market-top-heading">Market bar</h2>
+        <p class="market-top-note">Prices may be delayed.</p>
+        <a href="https://www.tradingview.com/markets/">TradingView quotes</a>
+      </div>
+      <div class="market-top-scroll" tabindex="0" role="group" aria-label="Scrollable market quotes" id="market-top-scroll" hidden>
+        <div id="market-top-quotes"></div>
+      </div>
+    </section>
     <div class="layout" id="workspace">
       <section class="workspace-panel wire" id="wire" aria-labelledby="feed-heading">
         <header class="panel-heading">

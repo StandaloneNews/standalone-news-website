@@ -100,6 +100,24 @@ SOURCES = [
 
 
 
+# Use the same verified publisher catalog as the terminal, with a larger batch
+# budget for providers that are too slow or too large for an interactive refresh.
+terminal_catalog = json.loads((ROOT / "data" / "terminal-sources.json").read_text(encoding="utf-8"))
+existing_urls = {feed["url"] for feed in SOURCES}
+SOURCES.extend(
+    {
+        "id": f"terminal_{source['id']}",
+        "name": source["name"],
+        "category": source["topic"],
+        "kind": "Official direct" if source["official"] else "Publisher RSS",
+        "url": source["url"],
+        "headline_only": True,
+    }
+    for source in terminal_catalog
+    if source["url"] not in existing_urls
+)
+
+
 def local(tag: str):
     return tag.rsplit('}', 1)[-1].lower()
 
@@ -189,13 +207,13 @@ def parse_rss(xml: bytes, feed: dict, now: dt.datetime):
             hint=plain(child_text(node,'source'),60)
             if hint: source=hint
             elif ' - ' in title: title,source=title.rsplit(' - ',1)
-        published=parse_date(child_text(node,'pubDate') or child_text(node,'published') or child_text(node,'updated'),now)
+        published=parse_date(child_text(node,'pubDate') or child_text(node,'date') or child_text(node,'published') or child_text(node,'updated'),now)
         if published is None or published>now+dt.timedelta(minutes=5) or published<now-dt.timedelta(days=7):continue
         # Show short attributed excerpts when the original publisher provides them.
         # Google News discovery descriptions can be nested lists of related stories,
         # so do not turn those into an alleged summary of the linked article.
         excerpt = ''
-        if feed['kind'] != 'Discovery':
+        if feed['kind'] != 'Discovery' and not feed.get('headline_only'):
             excerpt = plain(child_text(node,'description') or child_text(node,'summary'), 200)
             if excerpt.casefold() == title.casefold() or len(excerpt) < 12:
                 excerpt = ''

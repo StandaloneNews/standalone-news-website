@@ -1,3 +1,5 @@
+import terminalSources from '../../data/terminal-sources.json' with { type: 'json' };
+
 const SOURCES = [
   { name: 'Federal Reserve', topic: 'Markets', official: true, url: 'https://www.federalreserve.gov/feeds/press_all.xml' },
   { name: 'Bureau of Labor Statistics', topic: 'Economy', official: true, url: 'https://www.bls.gov/feed/bls_latest.rss' },
@@ -10,6 +12,7 @@ const SOURCES = [
   { name: 'NPR', topic: 'US News', official: false, url: 'https://feeds.npr.org/1001/rss.xml' },
   { name: 'TechCrunch', topic: 'Technology', official: false, url: 'https://techcrunch.com/feed/' },
   { name: 'Al Jazeera English', topic: 'World', official: false, url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+  ...terminalSources.filter(source => source.direct),
 ];
 
 const FEED_LIMIT = 512 * 1024;
@@ -33,18 +36,34 @@ function field(item, tag) {
   return decodeXml(item.match(pattern)?.[1] || '').trim();
 }
 
+function atomLink(entry) {
+  for (const [, link] of entry.matchAll(/<link(\s+[^>]+)>/gi)) {
+    const attributes = Object.fromEntries(
+      Array.from(link.matchAll(/\s(href|rel)\s*=\s*(["'])(.*?)\2/gi),
+        ([, name, , value]) => [name.toLowerCase(), decodeXml(value)]),
+    );
+    if (attributes.href && (!attributes.rel || attributes.rel === 'alternate')) return attributes.href;
+  }
+  return '';
+}
+
 export function parseFeed(xml, source, now) {
-  if (!/<(?:rss|rdf:RDF)(?:\s|>)/i.test(xml)) throw new Error('Expected an RSS feed');
+  const format = xml.match(/<(rss|rdf:RDF|feed)(?:\s|>)/i)?.[1].toLowerCase();
+  if (!format) throw new Error('Expected an RSS or Atom feed');
+  const atom = format === 'feed';
+  const rows = atom ? /<entry(?:\s[^>]*)?>([\s\S]*?)<\/entry\s*>/gi
+    : /<item(?:\s[^>]*)?>([\s\S]*?)<\/item\s*>/gi;
   const entries = [];
   let count = 0;
-  for (const [, item] of xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item\s*>/gi)) {
+  for (const [, item] of xml.matchAll(rows)) {
     if (count++ === 25) break;
     const title = field(item, 'title').replace(/\s+/g, ' ').slice(0, 350);
-    const dateText = field(item, 'pubDate') || field(item, 'dc:date');
+    const dateText = atom ? field(item, 'published') || field(item, 'updated')
+      : field(item, 'pubDate') || field(item, 'dc:date');
     // An ambiguous local time cannot be compared reliably to entries from other feeds.
     const time = /(?:[zZ]|[+-]\d{2}:?\d{2}|UT|UTC|GMT|[ECMP][SD]T)(?:\s*\([^)]*\))?$/i.test(dateText)
       ? Date.parse(dateText) : NaN;
-    const link = field(item, 'link');
+    const link = atom ? atomLink(item) : field(item, 'link');
     let url;
     try { url = new URL(link, source.url); } catch { continue; }
     if (!title || !link || url.protocol !== 'https:' || url.username || url.password
@@ -78,16 +97,19 @@ async function readFeed(response) {
   }
 }
 
-async function fetchFeed(source) {
+async function fetchFeed(source, deadline) {
   const response = await fetch(source.url, {
     headers: {
-      Accept: 'application/rss+xml, application/xml, text/xml',
+      Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml',
       'User-Agent': 'StandaloneNewsRSS/1.0 (+https://standalonenews.com/)',
     },
-    signal: AbortSignal.timeout(6500),
+    signal: AbortSignal.any([deadline, AbortSignal.timeout(4300)]),
     cf: { cacheEverything: true, cacheTtlByStatus: { '200-299': 60, '400-599': 60 } },
   });
-  if (!response.ok) throw new Error('Source returned HTTP ' + response.status);
+  if (!response.ok) {
+    await response.body?.cancel().catch(() => {});
+    throw new Error('Source returned HTTP ' + response.status);
+  }
   return parseFeed(await readFeed(response), source, Date.now());
 }
 
@@ -100,11 +122,23 @@ export async function onRequestGet({ request, waitUntil }) {
     if (cached) return cached;
   } catch { /* Respond even if the edge cache is unavailable. */ }
 
-  const results = await Promise.allSettled(SOURCES.map(fetchFeed));
-  const feeds = results.map((result, index) => ({
-    source: SOURCES[index].name, available: result.status === 'fulfilled',
+  // Keep simultaneous outbound connections bounded and leave time to respond
+  // before the terminal's 12-second request timeout.
+  const deadline = AbortSignal.timeout(8_800);
+  const results = Array(SOURCES.length).fill(null);
+  let nextSource = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    while (!deadline.aborted && nextSource < SOURCES.length) {
+      const index = nextSource++;
+      try {
+        results[index] = await fetchFeed(SOURCES[index], deadline);
+      } catch { /* Return the remaining sources if this feed is unavailable. */ }
+    }
   }));
-  const items = results.flatMap(result => result.status === 'fulfilled' ? result.value : []);
+  const feeds = results.map((entries, index) => ({
+    source: SOURCES[index].name, available: entries !== null,
+  }));
+  const items = results.flatMap(entries => entries ?? []);
   const response = Response.json({ checked_at: new Date().toISOString(), feeds, items }, { headers });
   waitUntil(cache.put(cacheKey, response.clone()).catch(() => {}));
   return response;
