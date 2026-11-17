@@ -99,7 +99,7 @@ jobs:
           }
           async function load(path) {
             await call('Page.navigate', { url: site + path });
-            await waitFor('document.readyState === "complete" && location.href === ' + JSON.stringify(site + path));
+            await waitFor('document.readyState === "complete" && location.pathname === ' + JSON.stringify(new URL(site + path).pathname));
           }
           try {
             await call('Network.enable');
