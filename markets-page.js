@@ -27,7 +27,7 @@ const tickerTape={symbols:[
  {proName:'NASDAQ:NVDA',title:'Nvidia'},{proName:'NASDAQ:AAPL',title:'Apple'},
  {proName:'NASDAQ:TSLA',title:'Tesla'},{proName:'NASDAQ:MSFT',title:'Microsoft'},
  {proName:'AMEX:GLD',title:'Gold ETF'},{proName:'NASDAQ:TLT',title:'Treasury Bond ETF'}
-],showSymbolLogo:false,colorTheme:'light',isTransparent:true,displayMode:'adaptive',locale:'en'};
+],showSymbolLogo:false,colorTheme:'dark',isTransparent:true,displayMode:'adaptive',locale:'en'};
 function fallback(host,message){
   if(!host||!host.isConnected)return;
   const el=document.createElement('div');el.className='widget-loading';el.style.flexDirection='column';el.style.gap='12px';
@@ -66,8 +66,8 @@ function drawChart(symbol){
   $('ticker-feedback').textContent='';
   document.querySelectorAll('[data-symbol]').forEach(btn=>btn.classList.toggle('active',btn.dataset.symbol===symbol));
   mountTradingView($('advanced-chart'),'advanced-chart',{
-    autosize:true,symbol,interval:'D',timezone:'exchange',theme:'light',
-    backgroundColor:'#ffffff',gridColor:'rgba(46, 72, 97, 0.06)',style:'1',
+    autosize:true,symbol,interval:'D',timezone:'exchange',theme:'dark',
+    backgroundColor:'#121a25',gridColor:'rgba(46, 72, 97, 0.06)',style:'1',
     withdateranges:true,hide_side_toolbar:false,hide_top_toolbar:false,
     allow_symbol_change:true,save_image:false,locale:'en',
     watchlist:POPULAR,calendar:false,details:false,hotlist:false,
@@ -103,7 +103,7 @@ function initCharts(){
       button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
     });
     mountTradingView($('watch-widget'),'market-quotes',{
-      locale:'en',colorTheme:'light',width:'100%',height:'430',showSymbolLogo:true,symbolsGroups:GROUPS[key]
+      locale:'en',colorTheme:'dark',width:'100%',height:'430',showSymbolLogo:true,symbolsGroups:GROUPS[key]
     },'Market watchlist');
   };
   document.querySelectorAll('[data-watch]').forEach(button=>button.addEventListener('click',()=>drawWatch(button.dataset.watch)));
@@ -211,7 +211,7 @@ function initEconomicCalendar(){
   if(!host)return;
   const render=()=>{
     mountTradingView(host,'events',{
-      colorTheme:'light',
+      colorTheme:'dark',
       isTransparent:false,
       locale:'en',
       countryFilter:'us',

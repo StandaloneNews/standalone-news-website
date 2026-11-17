@@ -4,7 +4,7 @@
    Existing newsroom.js manages which tab is active before this script loads. */
 (()=>{'use strict';
 const URL='https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js';
-const base={locale:'en',colorTheme:'light',width:'100%',height:'405',showSymbolLogo:true};
+const base={locale:'en',colorTheme:'dark',width:'100%',height:'405',showSymbolLogo:true};
 const groups={
  'Indexes':[{name:'Popular index ETFs · share prices (not index values)',symbols:[
    {name:'AMEX:SPY',displayName:'SPY · S&P 500 ETF'},

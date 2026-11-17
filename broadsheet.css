@@ -489,3 +489,256 @@ body.theme-broadsheet.home-broadsheet .edition-reader-brief {
   body.theme-broadsheet.home-broadsheet .lead-grid { grid-template-columns: minmax(0, 1fr) !important; }
   body.theme-broadsheet :is(.mast-name,.edition-wordmark,.sports-brand) { min-block-size: 44px; }
 }
+
+/* Terminal palette for the edition, desks, and article pages. */
+:root:has(body.theme-broadsheet) { color-scheme: dark; }
+body.theme-broadsheet {
+  --terminal-bg: #0c1119;
+  --terminal-panel: #121a25;
+  --terminal-header: #17212f;
+  --terminal-rule: #364455;
+  --terminal-control: #6e839a;
+  --terminal-ink: #edf3fa;
+  --terminal-muted: #aabbd0;
+  --terminal-accent: #ffc500;
+  --terminal-accent-hover: #ffdb58;
+  --terminal-sans: 'Instrument Sans', Arial, sans-serif;
+  --terminal-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  --edition-paper: var(--terminal-bg);
+  --edition-sheet: var(--terminal-panel);
+  --edition-ink: var(--terminal-ink);
+  --edition-muted: var(--terminal-muted);
+  --edition-rule: var(--terminal-rule);
+  --edition-accent: var(--terminal-accent);
+  --edition-tint: var(--terminal-header);
+  --bs-navy: var(--terminal-header);
+  --bs-red: var(--terminal-accent);
+  --bs-soft: var(--terminal-header);
+  --bs-serif: var(--terminal-sans);
+  --bs-sans: var(--terminal-sans);
+
+  --ink: var(--terminal-ink);
+  --muted: var(--terminal-muted);
+  --secondary: var(--terminal-muted);
+  --body: var(--terminal-ink);
+  --deep: var(--terminal-header);
+  --navy: var(--terminal-header);
+  --navy-dark: var(--terminal-bg);
+  --navy-light: var(--terminal-header);
+  --navy2: var(--terminal-header);
+  --red: var(--terminal-accent);
+  --red-dark: var(--terminal-accent-hover);
+  --red-bright: var(--terminal-accent);
+  --border: var(--terminal-rule);
+  --line: var(--terminal-rule);
+  --rule: var(--terminal-rule);
+  --stroke: var(--terminal-rule);
+  --paper: var(--terminal-bg);
+  --white: var(--terminal-panel);
+  --surface: var(--terminal-panel);
+  --cloud: var(--terminal-bg);
+  --soft: var(--terminal-header);
+  --canvas: var(--terminal-bg);
+  --blue: var(--terminal-panel);
+  --warm: var(--terminal-header);
+  --serif: var(--terminal-sans);
+  --sans: var(--terminal-sans);
+  --sd-red: var(--terminal-accent);
+  --sd-deep: var(--terminal-header);
+
+  --sn-paper: var(--terminal-bg);
+  --sn-ink: var(--terminal-ink);
+  --sn-body: var(--terminal-ink);
+  --sn-muted: var(--terminal-muted);
+  --sn-line: var(--terminal-rule);
+  --sn-navy: var(--terminal-header);
+  --sn-accent: var(--terminal-accent);
+  --sn-accent-hover: var(--terminal-accent-hover);
+  --sn-tint: var(--terminal-header);
+  --sn-white: var(--terminal-panel);
+  --sn-shadow: none;
+
+  --rf-paper: var(--terminal-bg);
+  --rf-ink: var(--terminal-ink);
+  --rf-muted: var(--terminal-muted);
+  --rf-line: var(--terminal-rule);
+  --rf-soft: var(--terminal-panel);
+  --rf-accent: var(--terminal-accent);
+  --rf-navy: var(--terminal-header);
+  --rf-shadow: none;
+
+  --page-wash: var(--terminal-bg);
+  --page-wash-deep: var(--terminal-header);
+  --page-card: var(--terminal-panel);
+  --page-stroke: var(--terminal-rule);
+  --page-text: var(--terminal-ink);
+  --page-muted: var(--terminal-muted);
+  --page-alt-blue: var(--terminal-panel);
+  --page-alt-warm: var(--terminal-header);
+  --page-alt-warm-border: var(--terminal-rule);
+  --page-shadow: none;
+
+  --clarity-ink: var(--terminal-ink);
+  --clarity-muted: var(--terminal-muted);
+  --clarity-border: var(--terminal-rule);
+  --clarity-blue: var(--terminal-panel);
+  --clarity-blue-light: var(--terminal-panel);
+  --clarity-blue-deep: var(--terminal-header);
+  --clarity-warm: var(--terminal-header);
+  --clarity-warm-border: var(--terminal-rule);
+  --clarity-shadow: none;
+}
+
+/* The original desk styles stay responsible for layout. Layered colors take
+   precedence over their older unlayered, important palette declarations. */
+@layer terminal-theme {
+  body.theme-broadsheet {
+    background: var(--terminal-bg) !important;
+    color: var(--terminal-ink) !important;
+    font-family: var(--terminal-sans) !important;
+  }
+  .theme-broadsheet :is(h1, h2, h3, h4) {
+    color: var(--terminal-ink) !important;
+    font-family: var(--terminal-sans) !important;
+  }
+  .theme-broadsheet :is(.section-header h2, .section-heading h2, .panel-heading h2, .sports-section-heading h2, .module-top h3) {
+    font-family: var(--terminal-mono) !important;
+  }
+  .theme-broadsheet :is(.masthead, .mast, .site-header, .sports-top, .utility, .utility-bar, .nav-wrap, .top-nav, .topnav, .site-nav, .sports-nav, .footer, .sports-footer, .site-footer) {
+    background: var(--terminal-bg) !important;
+    border-color: var(--terminal-rule) !important;
+    color: var(--terminal-ink) !important;
+    box-shadow: none !important;
+  }
+  .theme-broadsheet :is(.masthead, .mast, .site-header, .sports-top) { border-block-start: 3px solid var(--terminal-accent) !important; }
+  .theme-broadsheet :is(.brand, .brand strong, .brand-word strong, .brand-lockup strong, .site-brand, .mast-name, .edition-wordmark, .sports-brand, .footer-brand) {
+    color: var(--terminal-ink) !important;
+    font-family: var(--terminal-sans) !important;
+  }
+  .theme-broadsheet :is(.brand-word em, .brand-lockup > span, .sports-brand strong, .footer-brand > span, .red-period, .accent, .sports-red, .discussion-punctuation) {
+    color: var(--terminal-accent) !important;
+  }
+  .theme-broadsheet :is(.nav-wrap, .top-nav, .topnav, .site-nav, .sports-nav, .sn-six-bottom) a {
+    color: var(--terminal-ink) !important;
+    border-color: var(--terminal-rule) !important;
+  }
+  .theme-broadsheet :is(.nav-wrap, .top-nav, .topnav, .site-nav, .sports-nav) a:is(.active, .current, [aria-current="page"], :hover),
+  .theme-broadsheet a.edition-nav-terminal {
+    background: var(--terminal-panel) !important;
+    color: var(--terminal-accent) !important;
+  }
+  .theme-broadsheet nav.sn-six-bottom {
+    background: var(--terminal-panel) !important;
+    border-color: var(--terminal-rule) !important;
+  }
+  .theme-broadsheet nav.sn-six-bottom .sn-six-tab {
+    background: transparent !important;
+    color: var(--terminal-ink) !important;
+  }
+  .theme-broadsheet nav.sn-six-bottom .sn-six-tab:is([aria-current="page"], .active, :hover, :focus-visible) {
+    background: var(--terminal-header) !important;
+    color: var(--terminal-accent) !important;
+  }
+
+  .theme-broadsheet :is(p, label, small, time, figcaption, dt, dd, th, td, .edition-note > span, .edition-note > strong, .brand-word > span, .sports-edition,
+    .lead-story #lead-summary, .meta-line, .small-meta, .wire-byline, .card-meta, .photo-credit, .hero-photo-credit, .desk-menu a span,
+    .placeholder, .section-desc, .strip-heading small, .st-footnote, .st-detail, .status-note, .footer-bottom,
+    .editorial-source-label, .editorial-byline, .story-source, .brief-source, .brief-topic, .brief-bottom) {
+    color: var(--terminal-muted) !important;
+  }
+  .theme-broadsheet :is(.editorial-body p, .editorial-dek, .policy-grid p, main section > p, main li, .thread-body, .message-body, .reply-body) {
+    color: var(--terminal-ink) !important;
+  }
+  .theme-broadsheet :is(.eyebrow, .section-eyebrow, .st-kicker, .sports-eyebrow, .kicker, .overline, .folio-label, .section-index, .discussion-invite-kicker) {
+    color: var(--terminal-accent) !important;
+  }
+
+  .theme-broadsheet :is(
+    .chart-section, .overview-section, .calendar-section, .news-section, .chart-shell, .watch-card, .calendar-card, .earnings-explorer,
+    .search-panel, .module, .side-module, .workspace-heading,
+    .sports-summary, .sports-summary-ufc, .sports-game, .sports-ufc-card, .sports-source-note, .st-box,
+    .room-strip, .discussion-shell, .side-card, .thread-detail, .messages, .chat-compose,
+    .personal-box, .personal-results, .personal-story, .personal-empty,
+    .inner-page, .editorial-article, .editorial-grid, .editorial-tile, .editorial-body, .policy-grid,
+    .privacy-table-wrap,
+    .modal, .modal-window, .empty-panel, .empty-state, .context-band, .newsletter-band, .about-band,
+    .markets-inner, .market-strip, .explainer-card, .side-explainer, .insight-copy, .edition-reader-brief
+  ), .theme-broadsheet:is(.theme-legal, .theme-newsletter, .theme-standards) main {
+    background: var(--terminal-panel) !important;
+    color: var(--terminal-ink) !important;
+    border-color: var(--terminal-rule) !important;
+    box-shadow: none !important;
+  }
+  .theme-broadsheet :is(
+    .panel-heading, .box-heading, .hero-side, .hero-chip, .status-label, .status-line, .company-id,
+    .room-tab.active, .community-notice, .state-pill, .thread-category, .avatar, .welcome, .side-card .room-meta,
+    .chart-controls, .chart-credit, .watch-tabs, .calendar-card-header, .calendar-card-bottom, .calendar-jump-links a,
+    .earnings-explorer-top, .earnings-selected-card, .earnings-source-badge, .agency-links a, .official-links a,
+    .section-explain, .provider-tag, .research-tabs, .research-tabs a, .provider-box,
+    .editorial-notice, .editorial-sources, .notice, .privacy-table thead, .privacy-table tbody tr:nth-child(even),
+    .wire-tools, .search-box, .outlet-filter, .wire-advanced, .related-context, .tv-proxy-note, .tv-contract-links, .market-note,
+    .market-desk-invite, .market-topline, .desk-note, .soft-tag, .topic-pill, .brief-stamp, .toast,
+    #wire-discuss-cta, #news-terminal .terminal-official-link a, #news-terminal .terminal-preview-official
+  ) {
+    background: var(--terminal-header) !important;
+    color: var(--terminal-ink) !important;
+    border-color: var(--terminal-rule) !important;
+    box-shadow: none !important;
+  }
+  .theme-broadsheet:is(.theme-editorial,.theme-legal,.theme-standards) main section:nth-of-type(even) { background: var(--terminal-header) !important; }
+  .theme-broadsheet :is(.main-container #top-stories, .main-container #wire, .main-container #explainers, .main-container #markets, .main-container #economy, .main-container #government) {
+    background: var(--terminal-bg) !important;
+    border-color: var(--terminal-rule) !important;
+    box-shadow: none !important;
+  }
+  .theme-broadsheet :is(.advanced-chart, .economic-widget, .earnings-company-widget, .chart-frame, .market-panel, .widget-loading, .tv-lazy-placeholder, .tape-placeholder, .search-shortcut, .saved-num) {
+    background: var(--terminal-panel) !important;
+    color: var(--terminal-muted) !important;
+    border-color: var(--terminal-rule) !important;
+  }
+
+  .theme-broadsheet :is(a,.text-link) { color: var(--terminal-ink) !important; text-underline-offset: .2em; }
+  .theme-broadsheet :is(a,.text-link):is(:hover,:focus-visible) { color: var(--terminal-accent) !important; }
+  .theme-broadsheet :is(.story-card h3, .wire-story h3, .explainer-card h3, .editorial-tile h2, .personal-story h3, .sports-news-list h3, .brief-row) > a { text-decoration: none !important; }
+
+  .theme-broadsheet :is(button, select, textarea, input:not([type=checkbox],[type=radio])) {
+    background: var(--terminal-bg) !important;
+    color: var(--terminal-ink) !important;
+    border-color: var(--terminal-control) !important;
+    box-shadow: none !important;
+  }
+  .theme-broadsheet :is(input, textarea)::placeholder { color: var(--terminal-muted) !important; opacity: 1; }
+  .theme-broadsheet :is(input[type=checkbox], input[type=radio]) { accent-color: var(--terminal-accent); }
+  .theme-broadsheet :is(button:not(:disabled),.panel-end a,.research-tabs a,.sports-nav a):is(:hover,:focus-visible),
+  .theme-broadsheet :is(button, .room-tab)[aria-pressed="true"],
+  .theme-broadsheet :is(button.active,button.selected,button.on,.room-tab.active) {
+    background: var(--terminal-header) !important;
+    color: var(--terminal-accent) !important;
+    border-color: var(--terminal-control) !important;
+  }
+  .theme-broadsheet :is(.primary-action,.read-button,.action-primary,.search-row button,.ticker-input-wrap button,.earnings-search-row button,
+    .newsletter-signup button,.newsletter-form button[type=submit],.action-submit,#news-terminal .terminal-preview-open,.discussion-join-button) {
+    background: var(--terminal-accent) !important;
+    color: var(--terminal-bg) !important;
+    border-color: var(--terminal-accent) !important;
+  }
+  .theme-broadsheet :is(.primary-action,.read-button,.action-primary,.search-row button,.ticker-input-wrap button,.earnings-search-row button,
+    .newsletter-signup button,.newsletter-form button[type=submit],.action-submit,#news-terminal .terminal-preview-open,.discussion-join-button):is(:hover,:focus-visible) {
+    background: var(--terminal-accent-hover) !important;
+    color: var(--terminal-bg) !important;
+  }
+  .theme-broadsheet :is(.privacy-table table, .privacy-table th, .privacy-table td, .data-table th, .data-table td, .section, .module-top) {
+    border-color: var(--terminal-rule) !important;
+  }
+  .theme-broadsheet :is(.danger, .error, .feed-error, .is-offline, .form-error) { color: #ffb3bd !important; }
+  .theme-broadsheet :is(.feed-error, .is-offline, .form-error) { background: var(--terminal-header) !important; }
+  .theme-broadsheet :is(a, button, summary, input, select, textarea, [tabindex]):focus-visible {
+    outline: 3px solid var(--terminal-accent) !important;
+    outline-offset: 2px !important;
+  }
+  .theme-broadsheet :is(.skip,.skip-link):focus-visible {
+    background: var(--terminal-panel) !important;
+    color: var(--terminal-ink) !important;
+  }
+}

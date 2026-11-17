@@ -14,7 +14,7 @@ function chart(symbol,exchange){
  const box=$('research-tv-chart');box.replaceChildren();const outer=elt('div',undefined,'tradingview-widget-container'),inner=elt('div',undefined,'tradingview-widget-container__widget'),credit=elt('div',undefined,'tradingview-widget-copyright');
  credit.append(urlLink('https://www.tradingview.com/','Chart by TradingView ↗'));outer.append(inner,credit);box.append(outer);
  const script=document.createElement('script');script.async=true;script.type='text/javascript';script.src='https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
- script.textContent=JSON.stringify({autosize:true,symbol:(exchange?exchange+':':'')+symbol,interval:'D',timezone:'exchange',theme:'light',backgroundColor:'#ffffff',style:'1',locale:'en',hide_top_toolbar:false,hide_side_toolbar:false,allow_symbol_change:true,withdateranges:true,save_image:false,calendar:false});
+ script.textContent=JSON.stringify({autosize:true,symbol:(exchange?exchange+':':'')+symbol,interval:'D',timezone:'exchange',theme:'dark',backgroundColor:'#121a25',style:'1',locale:'en',hide_top_toolbar:false,hide_side_toolbar:false,allow_symbol_change:true,withdateranges:true,save_image:false,calendar:false});
  script.onerror=()=>{if(box.contains(outer))message('research-tv-chart','TradingView chart unavailable. Try again later or open the Markets page.')};
  outer.append(script);
 }
