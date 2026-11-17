@@ -11,7 +11,7 @@ async function latest(path) {
   const headlines = new Map();
   for (const row of rows) {
     if (!headlines.has(row.key)) headlines.set(row.key, row);
-    if (headlines.size === 5) break;
+    if (headlines.size === 8) break;
   }
   return [...headlines.values()];
 }
@@ -39,8 +39,16 @@ async function loadPreview() {
     const time = document.createElement('time');
     time.dateTime = new Date(row.time).toISOString();
     time.textContent = formatTime(row.time);
-    meta.append(row.source + ' · ', time);
-    item.append(link, meta);
+    meta.append(row.source, row.topic ? ' · ' + row.topic : '');
+    if (row.official) {
+      const badge = document.createElement('span');
+      badge.className = 'terminal-preview-official';
+      badge.textContent = 'Official source';
+      meta.append(badge);
+    }
+    const story = document.createElement('div');
+    story.append(link, meta);
+    item.append(time, story);
     list.append(item);
   }
   list.hidden = false;
@@ -48,7 +56,7 @@ async function loadPreview() {
 }
 
 if (new URLSearchParams(location.search).get('demo') === '1') {
-  section.hidden = true;
+  status.textContent = 'Live terminal headlines are hidden in this preview.';
 } else if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
     if (entries.some(entry => entry.isIntersecting)) {

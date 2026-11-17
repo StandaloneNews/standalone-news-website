@@ -15,6 +15,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
   const topic = $('topic');
   const source = $('source');
   const official = $('official');
+  const params = new URLSearchParams(location.search);
+  const topics = ['World', 'U.S. news', 'Markets', 'Economy', 'Government', 'Technology', 'Regulation'];
+  const initialTopic = topics.includes(params.get('topic')) ? params.get('topic') : '';
+  keyword.value = (params.get('q') || '').slice(0, 160);
+  official.checked = params.get('official') === '1';
+  if (initialTopic) topic.add(new Option(initialTopic, initialTopic, true, true));
 
   let known = new Map();
   let displayed = [];
@@ -98,7 +104,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
     displayed = [...known.values()];
     displayedKeys = new Set(known.keys());
     pending = [];
-    options(topic, displayed.map(item => item.topic), 'All topics');
+    options(topic, [...topics, ...displayed.map(item => item.topic)], 'All topics');
     options(source, displayed.map(item => item.source), 'All sources');
     renderItems();
   }
@@ -184,6 +190,14 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
       renderItems();
     });
   }
+  $('clear-filters').addEventListener('click', () => {
+    keyword.value = '';
+    topic.value = '';
+    source.value = '';
+    official.checked = false;
+    limit = pageSize;
+    renderItems();
+  });
   $('show-more').addEventListener('click', () => {
     const firstNew = limit;
     limit += pageSize;
@@ -208,7 +222,9 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
     if (autoRefresh.checked && !document.hidden && Date.now() - lastCheck >= refreshInterval) check();
   }
 
-  $('filters').hidden = false;
+  const filterPanel = $('filter-panel');
+  filterPanel.open = !matchMedia('(max-width: 48rem)').matches || Boolean(keyword.value || initialTopic || official.checked);
+  filterPanel.hidden = false;
   $('wire-actions').hidden = false;
   setInterval(() => {
     if (autoRefresh.checked && !document.hidden) check();

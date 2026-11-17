@@ -8,8 +8,8 @@
   <title>News Terminal | Standalone News</title>
   <link rel="canonical" href="https://standalonenews.com/terminal">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=2">
-  <script type="module" src="./terminal.js?v=2"></script>
+  <link rel="stylesheet" href="./terminal.css?v=3">
+  <script type="module" src="./terminal.js?v=3"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to headlines</a>
@@ -22,7 +22,10 @@
       <nav aria-label="Primary navigation">
         <a href="./#wire">News wire</a>
         <a href="./markets.html">Markets</a>
+        <a href="./sports.html">Sports</a>
+        <a href="./research.html">Research</a>
         <a href="./articles/">Explainers</a>
+        <a href="./discuss.html">Community</a>
       </nav>
     </div>
   </header>
@@ -30,7 +33,7 @@
     <div class="title-row">
       <div>
         <h1>News Terminal</h1>
-        <p class="lede">Latest headlines and official releases, linked to their sources.</p>
+        <p class="lede">Search source-linked headlines and official releases as they come in.</p>
       </div>
       <div class="actions" id="wire-actions" hidden>
         <label class="check"><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>
@@ -39,22 +42,22 @@
     </div>
 
     <div class="layout">
-      <div class="sidebar">
-        <fieldset id="filters" hidden>
-          <legend>Filters</legend>
+      <aside class="sidebar" aria-label="Headline filters">
+        <details class="filter-panel" id="filter-panel" open hidden>
+          <summary>Filter headlines</summary>
+          <fieldset id="filters">
+          <legend class="sr-only">Filter headlines</legend>
           <label for="keyword">Keyword</label>
-          <input id="keyword" type="search" spellcheck="false" placeholder="Search headlines or sources">
+          <input id="keyword" type="search" spellcheck="false" maxlength="160" placeholder="Headline or source">
           <label for="topic">Topic</label>
           <select id="topic"><option value="">All topics</option></select>
           <label for="source">Source</label>
           <select id="source"><option value="">All sources</option></select>
           <label class="check"><input id="official" type="checkbox"> Official sources only</label>
-        </fieldset>
-        <details id="feed-details" hidden>
-          <summary>Feed sources</summary>
-          <ul id="feed-sources"></ul>
+          <button id="clear-filters" type="button">Clear filters</button>
+          </fieldset>
         </details>
-      </div>
+      </aside>
 
       <section class="wire" aria-labelledby="feed-heading">
         <div class="wire-heading">
@@ -71,6 +74,16 @@
         <div id="paging" hidden><button id="show-more" type="button">Show more headlines</button></div>
         <noscript><p><a href="./feed.xml">Open the Standalone News RSS feed</a> or enable JavaScript to use the terminal.</p></noscript>
       </section>
+
+      <aside class="source-rail" aria-labelledby="feed-coverage-heading">
+        <h2 id="feed-coverage-heading">Feed coverage</h2>
+        <p>Automatic checks run every minute while this page is open. New headlines appear when you choose to show them.</p>
+        <details id="feed-details" open hidden>
+          <summary>Source status</summary>
+          <ul id="feed-sources"></ul>
+        </details>
+        <a href="./feed.xml">Subscribe via RSS</a>
+      </aside>
     </div>
   </main>
 </body>
