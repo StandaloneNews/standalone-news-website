@@ -140,7 +140,7 @@ jobs:
               '/discuss.html':'Discussion Room', '/personalize.html':'Personalized News',
               '/articles/':'News explainers.', '/about.html':'Trust begins', '/privacy.html':'Privacy',
               '/terms.html':'Terms', '/accessibility.html':'News should', '/standards.html':"How Standalone News works.",
-              '/contact.html':"Contact &amp; Corrections", '/newsletter-privacy.html':'Email newsletter privacy', '/newsletter-status.html':'Standalone News',
+              '/contact.html':"Contact & Corrections", '/newsletter-privacy.html':'Email newsletter privacy', '/newsletter-status.html':'Standalone News',
             })) {
               await load(path);
               assert(await evaluate('document.querySelector("h1")?.textContent.startsWith(' + JSON.stringify(title) + ')'), path);
