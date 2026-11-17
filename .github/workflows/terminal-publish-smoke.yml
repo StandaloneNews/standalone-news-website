@@ -1,49 +1,131 @@
-name: Validate additional publisher RSS feeds
+name: Verify terminal market bar and expanded headline feeds
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
-  sources:
+  feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 7
     steps:
-      - name: Check public XML endpoints and article dates
-        shell: bash
+      - uses: actions/checkout@v4
+        with:
+          ref: 3b3bd485fe02dd8c3ab74af7fe3c80bcb6e37f9c
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run accessibility and publisher-feed regression tests
         run: |
+          python3 -m unittest discover -s tests -p 'test_*.py'
+          node --input-type=module - <<'JS'
+          import assert from 'node:assert/strict';
+          import { parseFeed, onRequestGet } from './functions/api/wire.js';
+          import catalog from './data/terminal-sources.json' with { type: 'json' };
+          const now = Date.parse('2026-11-17T00:00:00Z');
+          const source = {name:'Publisher', topic:'World', url:'https://example.com/feed'};
+          const atom = '<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>New &amp; dated</title><link rel="self" href="https://example.com/self"/><link href="https://example.com/news?q=1&amp;id=2" rel="alternate" /><published>2026-11-16T20:00:00Z</published></entry><entry><title>Not dated</title><link href="https://example.com/undated"/></entry></feed>';
+          const item = parseFeed(atom, source, now);
+          assert.equal(item.length, 1);
+          assert.equal(item[0].title, 'New & dated');
+          assert.equal(item[0].url, 'https://example.com/news?q=1&id=2');
+          const rdf = '<rdf:RDF><item><title>Official date</title><link>https://example.com/one</link><dc:date>2026-11-16T20:00:00Z</dc:date></item></rdf:RDF>';
+          assert.equal(parseFeed(rdf, {...source, official:true}, now)[0].source_type, 'Official direct');
+          assert.throws(() => parseFeed('<html></html>', source, now));
+          assert.equal(new Set(catalog.map(x=>x.url)).size, catalog.length);
+          let running = 0, peak = 0, calls = 0, cached;
+          globalThis.caches = {default:{match:async()=>cached?.clone(), put:async(_, response)=>{cached=response;}}};
+          globalThis.fetch = async () => {
+            calls++; running++; peak = Math.max(peak, running);
+            const attempt = calls;
+            await new Promise(r=>setTimeout(r, 10));
+            running--;
+            return attempt === 2 ? new Response('unavailable',{status:503}) : new Response('<rss></rss>');
+          };
+          const req = {request:new Request('https://example.com/api/wire'),waitUntil:p=>p};
+          const json = await (await onRequestGet(req)).json();
+          assert.equal(json.feeds.length, 11+catalog.filter(x=>x.direct).length);
+          assert.equal(json.feeds.filter(x=>x.available).length, calls-1);
+          assert.equal(peak, 6);
+          await onRequestGet(req);
+          assert.equal(calls, json.feeds.length);
+          console.log('Verified RSS, RDF and Atom links, per-feed errors, concurrency and aggregate caching.');
+          JS
+      - name: Refresh the headline snapshot using public feeds
+        run: |
+          python3 scripts/update_news.py
           python3 - <<'PY'
-          import concurrent.futures
           import json
-          import time
-          import urllib.request
-          import xml.etree.ElementTree as ET
-          candidates = json.loads("[[\"The Independent\",\"World\",\"https://www.independent.co.uk/news/world/rss\"],[\"CBC News\",\"World\",\"https://www.cbc.ca/webfeed/rss/rss-topstories\"],[\"UN News\",\"World\",\"https://news.un.org/feed/subscribe/en/news/all/rss.xml\",true],[\"ProPublica\",\"US News\",\"https://www.propublica.org/feeds/propublica/main\"],[\"Axios\",\"US News\",\"https://api.axios.com/feed/\"],[\"World Health Organization\",\"World\",\"https://www.who.int/rss-feeds/news-english.xml\",true],[\"Fox News\",\"US News\",\"https://moxie.foxnews.com/google-publisher/latest.xml\"],[\"CNN\",\"US News\",\"https://rss.cnn.com/rss/cnn_topstories.rss\"],[\"Al-Monitor\",\"World\",\"https://www.al-monitor.com/rss\"],[\"The Japan Times\",\"World\",\"https://www.japantimes.co.jp/feed/\"],[\"The Straits Times\",\"World\",\"https://www.straitstimes.com/news/world/rss.xml\"],[\"The Korea Herald\",\"World\",\"https://www.koreaherald.com/rss\"],[\"Hong Kong Free Press\",\"World\",\"https://hongkongfp.com/feed/\"],[\"The Times of Israel\",\"World\",\"https://www.timesofisrael.com/feed/\"],[\"The Kyiv Independent\",\"World\",\"https://kyivindependent.com/rss/\"],[\"The Conversation\",\"Science\",\"https://theconversation.com/us/articles.atom\"],[\"STAT\",\"Science\",\"https://www.statnews.com/feed/\"],[\"ScienceDaily\",\"Science\",\"https://www.sciencedaily.com/rss/top/science.xml\"],[\"CISA\",\"Technology\",\"https://www.cisa.gov/cybersecurity-advisories/all.xml\",true],[\"US Census Bureau\",\"Economy\",\"https://www.census.gov/newsroom/press-releases/rss.xml\",true],[\"US Treasury\",\"Government\",\"https://home.treasury.gov/news/press-releases/rss\",true],[\"USGS\",\"Science\",\"https://www.usgs.gov/news/all/all/feed\",true],[\"Bank of Canada\",\"Economy\",\"https://www.bankofcanada.ca/content_type/press-releases/feed/\",true],[\"Statistics Canada\",\"Economy\",\"https://www150.statcan.gc.ca/n1/dai-quo/rss/rss-eng.xml\",true],[\"Australian Bureau of Statistics\",\"Economy\",\"https://www.abs.gov.au/rss/rss.xml\",true],[\"ESPN\",\"Sports\",\"https://www.espn.com/espn/rss/news\"],[\"BBC Sport\",\"Sports\",\"https://feeds.bbci.co.uk/sport/rss.xml\"],[\"The Guardian Sport\",\"Sports\",\"https://www.theguardian.com/sport/rss\"],[\"NHL\",\"Sports\",\"https://www.nhl.com/rss/news.xml\"],[\"CoinDesk\",\"Markets\",\"https://www.coindesk.com/arc/outboundfeeds/rss/\"],[\"Cointelegraph\",\"Markets\",\"https://cointelegraph.com/rss\"],[\"Investing.com\",\"Markets\",\"https://www.investing.com/rss/news.rss\"]]")
-
-          def local(tag):
-              return (tag.rsplit("}",1)[-1]).lower()
-
-          def check(feed):
-              name, topic, url, *_ = feed
-              started = time.monotonic()
-              try:
-                  req = urllib.request.Request(url, headers={"User-Agent":"StandaloneNewsRSS/1.0 (+https://standalonenews.com/)", "Accept":"application/rss+xml, application/atom+xml, text/xml, application/xml"})
-                  with urllib.request.urlopen(req, timeout=9) as response:
-                      body = response.read(1500000)
-                      final = response.geturl()
-                  root = ET.fromstring(body)
-                  if local(root.tag) not in {'rss','rdf','feed'}:
-                      raise ValueError("Non-feed document")
-                  entries = [row for row in root.iter() if local(row.tag) in {'item','entry'}]
-                  dated = sum(any(local(child.tag) in {'pubdate','date','published','updated'} and child.text for child in row) for row in entries)
-                  return ('FEED',name, final, local(root.tag), len(entries), dated, round(time.monotonic()-started,2), len(body))
-              except Exception as exc:
-                  return ('ERROR',name,str(exc),round(time.monotonic()-started,2))
-
-          with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
-              for result in pool.map(check,candidates):
-                  print(json.dumps(result,ensure_ascii=True),flush=True)
+          from pathlib import Path
+          items = json.loads(Path('data/news.json').read_text())['items']
+          sources = {item['source'] for item in items}
+          catalog = json.loads(Path('data/terminal-sources.json').read_text())
+          archive_only = {row['name'] for row in catalog if not row['direct']}
+          assert len(sources & archive_only) >= 15
+          print('Sources in the refreshed snapshot:', ', '.join(sorted(sources)))
           PY
+      - name: Bundle the Cloudflare Worker
+        run: npx --yes wrangler deploy --dry-run --outdir "$RUNNER_TEMP/terminal-bundle"
+
+  layout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 3b3bd485fe02dd8c3ab74af7fe3c80bcb6e37f9c
+      - name: Check the rendering, keyboard focus and responsive widths
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/terminal-market-http.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/market-check" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
+          cd "$RUNNER_TEMP/market-check"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const { chromium } = require('playwright-core');
+          const assert = require('node:assert/strict');
+          (async() => {
+            const browser = await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              for (const width of [1440, 390, 320]) {
+                const page = await browser.newPage({viewport:{width,height:850}});
+                await page.goto('http://127.0.0.1:8080/',{waitUntil:'domcontentloaded'});
+                const frame = page.locator('#market-top-quotes iframe');
+                await frame.waitFor({state:'visible',timeout:20000});
+                assert.ok(await frame.getAttribute('title'));
+                console.log(width, 'ticker iframe:', (await frame.getAttribute('src')).split('?')[0]);
+                const quoteFrame = page.frameLocator('#market-top-quotes iframe');
+                await quoteFrame.getByText('SPY', {exact:true}).first().waitFor({state:'visible',timeout:12000});
+                const state = await page.evaluate(()=>{
+                  const market = document.querySelector('.market-top').getBoundingClientRect();
+                  const workspace = document.querySelector('#workspace').getBoundingClientRect();
+                  const track = document.querySelector('#market-top-scroll');
+                  return { marketBottom:market.bottom, workspaceTop:workspace.top, documentWidth:document.documentElement.scrollWidth,
+                    viewport:innerWidth, client:track.clientWidth, scroll:track.scrollWidth };
+                });
+                assert.ok(state.marketBottom <= state.workspaceTop, JSON.stringify(state));
+                assert.ok(state.documentWidth <= state.viewport+1, JSON.stringify(state));
+                const scroll = page.locator('#market-top-scroll');
+                await page.keyboard.press('Tab');
+                await scroll.focus();
+                assert.ok(await scroll.evaluate(el=>el.matches(':focus-visible')));
+                if (width < 500) {
+                  assert.ok(state.scroll > state.client);
+                  await page.keyboard.press('ArrowRight');
+                  await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
+                }
+                await page.addScriptTag({path: require.resolve('axe-core')});
+                const violations = await page.evaluate(async()=>{
+                  const result = await axe.run('.market-top', {iframes:false});
+                  return result.violations.map(v=>v.id);
+                });
+                assert.deepEqual(violations, []);
+                console.log(width, 'market bar passed layout, keyboard and accessibility checks');
+                await page.close();
+              }
+            } finally { await browser.close(); }
+          })().catch(error=>{console.error(error);process.exitCode=1});
+          JS
