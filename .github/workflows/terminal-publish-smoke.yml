@@ -84,6 +84,8 @@ jobs:
                 assert.equal(await page.getByRole('heading',{name:'Latest headlines'}).count(),1);
                 assert.equal(await page.locator('#market-panel').getAttribute('open'),null);
                 assert.equal(await page.locator('#timeline-panel').getAttribute('open'),null);
+                assert.equal(await page.locator('#headlines a').last().textContent(),'Uncapped article 1599');
+                await page.locator('#headlines a').last().scrollIntoViewIfNeeded();
                 assert.equal(await page.locator('#headlines a').last().innerText(),'Uncapped article 1599');
                 assert.equal(await page.locator('#headlines a').last().getAttribute('target'),'_blank');
                 assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
