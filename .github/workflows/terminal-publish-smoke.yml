@@ -1,74 +1,125 @@
-name: Inspect the market bar theme and quote widgets
+name: Verify the dark ticker, pause and reduced motion
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
-  probe:
+  render:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
-      - name: Inspect the live bar and TradingView widget rendering
+      - uses: actions/checkout@v4
+        with:
+          ref: 06d36d6d07a01fe6bdfb30f33b01dc03c6d79dfb
+      - name: Run static accessibility checks
+        run: python3 -m unittest discover -s tests -p 'test_accessibility_static.py'
+      - name: Test TradingView prices, ticker motion and theme in Chromium
         run: |
-          npm install --prefix "$RUNNER_TEMP/ticker-probe" --no-audit --no-fund playwright-core@1.55.0
-          cd "$RUNNER_TEMP/ticker-probe"
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/market-bar-http.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/market-render" --no-audit --no-fund playwright-core@1.55.0 pngjs@7.0.0 axe-core@4.10.3
+          cd "$RUNNER_TEMP/market-render"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          export MARKET_BAR_BASE="http://127.0.0.1:8080/"
           node --input-type=commonjs - <<'JS'
           const {chromium}=require('playwright-core');
-          const base='https://standalonenews.com';
+          const {PNG}=require('pngjs');
+          const assert=require('node:assert/strict');
+
+          function compare(a,b) {
+            const x=PNG.sync.read(a), y=PNG.sync.read(b);
+            assert.equal(x.width,y.width);
+            assert.equal(x.height,y.height);
+            let changed=0, dark=0, bright=0;
+            for(let i=0;i<x.data.length;i+=4) {
+              const [r,g,b]=x.data.subarray(i,i+3);
+              if(r<54&&g<63&&b<80) dark++;
+              if(r>224&&g>224&&b>224) bright++;
+              if(Math.abs(r-y.data[i])+Math.abs(g-y.data[i+1])+Math.abs(b-y.data[i+2])>45) changed++;
+            }
+            const size=x.width*x.height;
+            return {changed:changed/size,dark:dark/size,bright:bright/size};
+          }
+
+          async function quotes(page) {
+            const cdp=await page.context().newCDPSession(page);
+            try {
+              const {root}=await cdp.send('DOM.getDocument');
+              const {nodeId}=await cdp.send('DOM.querySelector',{nodeId:root.nodeId,selector:'#market-top-quotes'});
+              const {node}=await cdp.send('DOM.describeNode',{nodeId,depth:-1,pierce:true});
+              const gather=n=>[n.nodeType===3?n.nodeValue:'',...(n.shadowRoots??[]).flatMap(gather),...(n.children??[]).flatMap(gather)];
+              return gather(node).filter(s=>s.trim()).join(' ');
+            } finally {await cdp.detach();}
+          }
+
           (async()=>{
             const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
             try {
-              const live=await browser.newPage({viewport:{width:1440,height:850}});
-              await live.goto(base,{waitUntil:'domcontentloaded'});
-              const prior=live.locator('#market-top-quotes iframe');
-              await prior.waitFor({timeout:16000});
-              const doc=prior.contentFrame();
-              await doc.getByText('SPY',{exact:true}).first().waitFor({timeout:14000});
-              const old=await doc.locator('body').evaluate(el=>({
-                body:getComputedStyle(el).backgroundColor,
-                root:getComputedStyle(document.documentElement).backgroundColor,
-                scheme:getComputedStyle(document.documentElement).colorScheme,
-                theme:document.documentElement.className,
-                surface:[...el.querySelectorAll('*')].map(e=>getComputedStyle(e).backgroundColor).filter(x=>x!=='rgba(0, 0, 0, 0)').slice(0,10),
-              }));
-              console.log('OLD BAR',JSON.stringify(old));
-              const options={symbols:[{proName:'AMEX:SPY',title:'SPY'},{proName:'NASDAQ:QQQ',title:'QQQ'},{proName:'NASDAQ:NVDA',title:'NVDA'},{proName:'AMEX:GLD',title:'GLD'},{proName:'COINBASE:BTCUSD',title:'Bitcoin'}],colorTheme:'dark',isTransparent:true,displayMode:'regular',showSymbolLogo:false,locale:'en'};
-              for (const kind of ['ticker-tape','tickers','ticker-tag']) {
-                const page=await browser.newPage({viewport:{width:1360,height:850}});
-                const legacy='<div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>'+JSON.stringify(options)+'</script></div>';
-                const tag='tv-'+kind;
-                const wc='<script type=module src="https://widgets.tradingview-widget.com/w/en/'+tag+'.js"></script><'+tag+' theme="dark" transparent hide-chart symbol="AMEX:SPY" symbols="AMEX:SPY,NASDAQ:QQQ,NASDAQ:NVDA,AMEX:GLD,COINBASE:BTCUSD"></'+tag+'>';
-                const html='<!doctype html><html style="color-scheme:dark;background:#121a25;color:#edf3fa;--tv-widget-background-color:transparent;--tv-widget-text-color:#edf3fa;--tv-widget-font-family:monospace"><body>'+wc+(kind==='ticker-tape'?legacy:'')+'</body></html>';
-                await page.route(base+'/__ticker_probe',r=>r.fulfill({contentType:'text/html',body:html}));
-                await page.goto(base+'/__ticker_probe',{waitUntil:'load'});
-                await page.waitForFunction(tag=>!!customElements.get(tag),tag,{timeout:7000}).catch(()=>{});
-                const result=await page.locator(tag).evaluate(el=>({defined:!!customElements.get(el.localName), observed:customElements.get(el.localName)?.observedAttributes??[], bounds:el.getBoundingClientRect().toJSON()}));
-                console.log('WIDGET',JSON.stringify({kind,...result}));
-                if (result.defined) {
-                  const aria=await page.locator(tag).ariaSnapshot({timeout:6000}).catch(()=> '');
-                  console.log('WIDGET ARIA',kind,JSON.stringify(aria.slice(0,475)));
+              for(const {width,reducedMotion,colorScheme} of [
+                {width:1440,reducedMotion:'no-preference',colorScheme:'light'},
+                {width:390,reducedMotion:'no-preference',colorScheme:'dark'},
+                {width:320,reducedMotion:'reduce',colorScheme:'light'},
+              ]){
+                const page=await browser.newPage({viewport:{width,height:850},reducedMotion,colorScheme});
+                await page.goto(process.env.MARKET_BAR_BASE,{waitUntil:'domcontentloaded'});
+                const button=page.locator('#market-motion');
+                await button.waitFor({timeout:25000});
+                const strip=page.locator('#market-top-scroll');
+                let rendered='';
+                for(let i=0;i<25;i++){
+                  rendered=await quotes(page);
+                  if(/\bSPY\b/.test(rendered)&&/\d+\.\d+/.test(rendered)) break;
+                  await page.waitForTimeout(400);
                 }
-                if(kind==='ticker-tape'){
-                  const iframe=page.locator('iframe').first();
-                  await iframe.waitFor({timeout:10000});
-                  const frame=iframe.contentFrame();
-                  await frame.getByText('SPY',{exact:true}).first().waitFor({timeout:14000});
-                  const metrics=await frame.locator('body').evaluate(el=>({
-                    body:getComputedStyle(el).backgroundColor,
-                    root:getComputedStyle(document.documentElement).backgroundColor,
-                    theme:document.documentElement.className,
-                    surface:[...el.querySelectorAll('*')].map(e=>getComputedStyle(e).backgroundColor).filter(x=>x!=='rgba(0, 0, 0, 0)').slice(0,10),
-                    animations:document.getAnimations().map(a=>a.animationName),
-                  }));
-                  console.log('TAPE LEGACY',JSON.stringify(metrics));
+                assert.match(rendered,/\bSPY\b/);
+                assert.match(rendered,/\d+\.\d+/);
+                const first=await strip.screenshot();
+                await page.waitForTimeout(850);
+                const second=await strip.screenshot();
+                const running=compare(first,second);
+                assert.ok(running.dark>.82,JSON.stringify(running));
+                assert.ok(running.bright<.1,JSON.stringify(running));
+                if(reducedMotion==='reduce'){
+                  assert.equal(await button.innerText(),'Play ticker');
+                  assert.ok(running.changed < .012,JSON.stringify(running));
+                }else{
+                  assert.equal(await button.innerText(),'Pause ticker');
+                  assert.ok(running.changed > .014,JSON.stringify(running));
+                  await button.focus();
+                  await page.keyboard.press('Enter');
+                  assert.equal(await button.innerText(),'Play ticker');
                 }
+                assert.equal(await page.locator('#market-top-quotes').getAttribute('theme'),'dark');
+                assert.notEqual(await page.locator('#market-top-quotes').getAttribute('disable-scroll'),null);
+                const paused=await strip.screenshot();
+                await page.waitForTimeout(800);
+                const still=compare(paused,await strip.screenshot());
+                assert.ok(still.changed<.012,JSON.stringify(still));
+                assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+                if(width < 500){
+                  await strip.focus();
+                  await page.keyboard.press('ArrowRight');
+                  await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
+                }
+                await button.focus();
+                await page.keyboard.press('Enter');
+                assert.equal(await button.innerText(),'Pause ticker');
+                const resumed=await strip.screenshot();
+                await page.waitForTimeout(800);
+                const after=compare(resumed,await strip.screenshot());
+                assert.ok(after.changed>.014, JSON.stringify(after));
+                await page.addScriptTag({path:require.resolve('axe-core')});
+                const violations=await page.evaluate(async()=>(
+                  await axe.run('.market-top',{iframes:false,runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}})
+                ).violations.map(x=>x.id));
+                assert.deepEqual(violations,[]);
+                console.log('TICKER VERIFIED',JSON.stringify({width,reducedMotion,colorScheme,running,still,after}));
                 await page.close();
               }
-            } finally { await browser.close(); }
+            }finally{await browser.close();}
           })().catch(e=>{console.error(e);process.exitCode=1;});
           JS
