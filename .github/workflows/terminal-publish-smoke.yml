@@ -97,12 +97,12 @@ jobs:
                   await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
                   await page.locator('#market-motion').click();
                   assert.equal(await page.locator('#market-top-scroll').getAttribute('data-playing'),null);
-                  await page.locator('#filter-panel summary').click();
+                  await page.locator('#filter-panel > summary').click();
                   await page.locator('#source').selectOption('Reuters');
                   assert.match(await page.locator('#headlines .row-meta').first().innerText(),/Reuters.*via Google News/s);
                   await page.locator('#clear-filters').click();
                   assert.equal(await page.locator('#headlines li').count(),18);
-                  await page.locator('#filter-panel summary').click();
+                  await page.locator('#filter-panel > summary').click();
                   const menu=page.locator('#site-menu');
                   await menu.locator('summary').click();
                   await page.keyboard.press('Escape');
