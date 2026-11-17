@@ -1,31 +1,21 @@
-name: Verify the dark theme across site sections
+name: Verify the dark theme on the public site
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   theme:
     runs-on: ubuntu-latest
     timeout-minutes: 6
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 92524ecaf03d679d5ab8f1c172ff9c22636795c5
-          persist-credentials: false
       - name: Check section theme, links, contrast and basic interactions
         shell: bash
         run: |
-          python3 -m unittest discover -s tests -p test_accessibility_static.py -v
-          python3 -m py_compile scripts/auto_publish.py
           npm install --prefix "$RUNNER_TEMP/theme-check" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
-          python3 -m http.server 8765 --bind 127.0.0.1 >"$RUNNER_TEMP/theme-server.log" 2>&1 &
-          site_pid=$!
-          trap 'kill "$site_pid" 2>/dev/null || true' EXIT
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
           node --input-type=module <<'JS'
           import assert from 'node:assert/strict';
@@ -33,10 +23,20 @@ jobs:
           const require = createRequire(process.env.RUNNER_TEMP+'/theme-check/package.json');
           const { chromium } = require('playwright-core');
           const axe = require.resolve('axe-core/axe.min.js');
-          const app = 'http://127.0.0.1:8765';
+          const app = 'https://standalonenews.com';
+          const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
+          let ready = false;
+          for (let i=0;i<9 && !ready;i++) {
+            try {
+              const response=await fetch(app+'/edition',{cache:'no-cache',signal:AbortSignal.timeout(10000)});
+              ready=response.ok && (await response.text()).includes('broadsheet.css?v=terminal-dark');
+            } catch {}
+            if (!ready) await pause(10000);
+          }
+          assert(ready,'Waiting for the dark edition to deploy');
           const browser = await chromium.launch({executablePath:process.env.CHROME_BIN});
           const page = await browser.newPage({viewport:{width:1440,height:900}});
-          await page.route('https://**/*', route => route.abort());
+          await page.route('https://**/*', route => new URL(route.request().url()).hostname === 'standalonenews.com' ? route.continue() : route.abort());
           const routes = [
             ['edition.html','#news-terminal'],['markets.html','.chart-shell'],
             ['research.html','.search-panel'],['sports.html','.sports-summary'],
@@ -78,7 +78,7 @@ jobs:
                     }
                     return [...result].slice(0,20);
                   });
-                  if(pale.length) console.log('Pale surfaces in '+route+': '+pale.join(', '));
+                  if(pale.length) failures.push([width,route,'old light surfaces',pale]);
                 }
                 if(width===1440 || (width===390 && route==='edition.html')) {
                   await page.addScriptTag({path:axe});
