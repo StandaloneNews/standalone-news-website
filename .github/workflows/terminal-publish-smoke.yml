@@ -1,154 +1,60 @@
-name: Verify the terminal-first redesign
+name: Verify the redesigned Standalone News production site
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  preflight:
+  production:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 4
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 68bb790203c97ec3aaba3d18096fc0392a0a08bc
-          persist-credentials: false
-      - name: Check existing accessibility regressions and article templates
-        run: |
-          python3 -m unittest discover -s tests -p test_accessibility_static.py -v
-          python3 -m py_compile scripts/auto_publish.py
-      - name: Test the redesigned edition in Chrome
+      - name: Verify the edition and the live terminal endpoint
         shell: bash
         run: |
-          npm install --prefix "$RUNNER_TEMP/edition-a11y" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
-          python3 - <<'PY' >"$RUNNER_TEMP/edition-server.log" 2>&1 &
-          import datetime
-          import http.server
+          python3 - <<'PY'
           import json
-          from urllib.parse import urlsplit
+          import time
+          from urllib.request import Request, urlopen
 
-          class Edition(http.server.SimpleHTTPRequestHandler):
-              def do_GET(self):
-                  path = urlsplit(self.path).path
-                  if path == '/terminal':
-                      self.path = '/terminal.html'
-                  if path != '/api/wire':
-                      return super().do_GET()
-                  now = datetime.datetime.now(datetime.timezone.utc)
-                  items = [
-                      {'title': 'Federal Reserve fixture rate release', 'category': 'Markets', 'source': 'Federal Reserve', 'source_type': 'Official direct'},
-                      {'title': 'World coverage fixture', 'category': 'World', 'source': 'BBC News', 'source_type': 'Publisher RSS'},
-                      {'title': 'Government coverage fixture', 'category': 'Government', 'source': 'Department of Justice', 'source_type': 'Official direct'},
-                  ]
-                  for i, item in enumerate(items):
-                      item['url'] = 'https://example.com/headline-' + str(i)
-                      item['published_at'] = (now - datetime.timedelta(minutes=i + 1)).isoformat()
-                  data = json.dumps({'checked_at': now.isoformat(), 'items': items, 'feeds': [{'source': item['source'], 'available': True} for item in items]}).encode()
-                  self.send_response(200)
-                  self.send_header('content-type', 'application/json')
-                  self.send_header('content-length', str(len(data)))
-                  self.end_headers()
-                  self.wfile.write(data)
+          site = "https://standalonenews.com"
 
-          http.server.ThreadingHTTPServer(('127.0.0.1', 8765), Edition).serve_forever()
+          def read(path):
+              request = Request(site + path, headers={
+                  "User-Agent": "StandaloneNewsDeployCheck/1.0",
+                  "Cache-Control": "no-cache",
+              })
+              with urlopen(request, timeout=12) as response:
+                  return response.read(2_000_000).decode()
+
+          for attempt in range(1, 9):
+              try:
+                  home = read("/")
+                  if not (0 < home.find('id="news-terminal"') < home.find('id="lead-story"') < home.find('id="brief"') < home.find('id="newsletter"')):
+                      raise ValueError("Waiting for the new homepage order")
+                  if '<summary>Show today’s five-story brief</summary>' not in home:
+                      raise ValueError("Waiting for the brief disclosure")
+                  terminal = read("/terminal")
+                  if "terminal.js?v=3" not in terminal or 'id="clear-filters"' not in terminal:
+                      raise ValueError("Waiting for the redesigned terminal")
+                  if "--edition-accent: #ffc500" not in read("/broadsheet.css?v=edition-2"):
+                      raise ValueError("Waiting for the shared edition stylesheet")
+                  feed = json.loads(read("/api/wire"))
+                  responding = sum(source["available"] is True for source in feed["feeds"])
+                  if not responding or not feed["items"]:
+                      raise ValueError("The terminal endpoint has no current headlines")
+                  routes = ["/markets.html", "/research.html", "/sports.html", "/discuss.html", "/personalize.html", "/articles/", "/about.html", "/accessibility.html", "/standards.html", "/contact.html", "/privacy.html", "/terms.html", "/newsletter-privacy.html", "/newsletter-status.html"]
+                  for route in routes:
+                      if "broadsheet.css?v=edition-2" not in read(route):
+                          raise ValueError("Waiting for redesigned route " + route)
+                  print(f"Homepage, terminal and {len(routes)} other routes checked. Feed: {responding} of {len(feed['feeds'])} sources, {len(feed['items'])} headlines.")
+                  break
+              except (OSError, ValueError, KeyError) as exc:
+                  print(f"Attempt {attempt}: {exc}", flush=True)
+                  if attempt == 8:
+                      raise SystemExit(1) from exc
+                  time.sleep(12)
           PY
-          server_pid=$!
-          export EDITION_TEST_CHROME="$(command -v google-chrome || command -v chromium)"
-          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
-          node --input-type=module <<'JS'
-          import assert from 'node:assert/strict';
-          import { readFileSync } from 'node:fs';
-          import { createRequire } from 'node:module';
-          import { setTimeout as delay } from 'node:timers/promises';
-
-          const directory = process.env.RUNNER_TEMP + '/edition-a11y';
-          const require = createRequire(directory + '/package.json');
-          const { chromium } = require('playwright-core');
-          const axe = readFileSync(directory + '/node_modules/axe-core/axe.min.js', 'utf8');
-          const browser = await chromium.launch({executablePath: process.env.EDITION_TEST_CHROME, headless: true});
-          const context = await browser.newContext();
-          const page = await context.newPage();
-          const devtools = await context.newCDPSession(page);
-          const call = (method, params = {}) => devtools.send(method, params);
-          async function evaluate(expression) {
-            const result = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
-            if (result.exceptionDetails) throw Error(result.exceptionDetails.exception?.description ?? result.exceptionDetails.text);
-            return result.result.value;
-          }
-          async function waitFor(expression) {
-            for (let attempt = 0; attempt < 50; attempt++) {
-              try { if (await evaluate(expression)) return; } catch {}
-              await delay(200);
-            }
-            assert.fail('Timed out waiting for ' + expression);
-          }
-          const site = 'http://127.0.0.1:8765';
-          const tags = ['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa'];
-          async function audit(selector) {
-            await evaluate(axe);
-            const result = await evaluate('axe.run(' + JSON.stringify(selector) + ', {runOnly: ' + JSON.stringify(tags) + '}).then(result => ({ violations: result.violations.map(({id, nodes}) => ({id, nodes: nodes.map(node => node.target)})), checked: result.passes.length }))');
-            assert(result.checked > 0);
-            assert.deepEqual(result.violations, [], 'WCAG scan ' + selector);
-          }
-          async function width(value) {
-            await call('Emulation.setDeviceMetricsOverride', { width: value, height: 900, deviceScaleFactor: 1, mobile: value < 600 });
-          }
-          async function load(path) {
-            await call('Page.navigate', { url: site + path });
-            await waitFor('document.readyState === "complete" && location.pathname === ' + JSON.stringify(new URL(site + path).pathname));
-          }
-          try {
-            await call('Network.enable');
-            await call('Network.setBlockedURLs', { urls: ['https://*'] });
-            for (const size of [1440, 390, 320]) {
-              await width(size);
-              await load('/');
-              await waitFor('Boolean(document.querySelector("#terminal-preview-list li a"))');
-              const home = await evaluate('(() => { const terminal = document.querySelector("#news-terminal"); const rect = terminal.getBoundingClientRect(); return {width: innerWidth, right: rect.right, fits: terminal.scrollWidth <= terminal.clientWidth, leading: document.querySelector("main > section") === terminal, first: document.querySelector("#terminal-preview-list li a").textContent, briefClosed: !document.querySelector("#brief details").open, briefAfterEvents: Boolean(document.querySelector("#wire-discuss-cta").compareDocumentPosition(document.querySelector("#brief")) & Node.DOCUMENT_POSITION_FOLLOWING), h1: document.querySelectorAll("h1").length }; })()');
-              assert.equal(home.width, size);
-              assert(home.fits && home.right <= size + 1 && home.leading && home.briefClosed && home.briefAfterEvents);
-              assert.equal(home.h1, 1);
-              assert.match(home.first, /fixture rate release/);
-              await audit('#news-terminal');
-              await evaluate('document.querySelector(".terminal-preview-open").focus()');
-              await call('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
-              await call('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
-              assert(await evaluate('document.activeElement === document.querySelector("#terminal-preview-list li a") && getComputedStyle(document.activeElement).outlineWidth === "3px"'));
-              await evaluate('document.querySelector("#brief details").open = true; document.querySelector("#brief-personalize").click()');
-              await waitFor('!document.querySelector("#brief-overlay").hidden');
-              await evaluate('document.querySelector("[data-close=brief-overlay]").click()');
-              await waitFor('document.querySelector("#brief-overlay").hidden');
-              console.log(size + 'px home: lead terminal, live rows, keyboard focus, brief control and axe passed.');
-              await load('/terminal.html?topic=Markets&q=fixture&official=1');
-              await waitFor('Boolean(document.querySelector("#headlines li a"))');
-              const filters = await evaluate('({ query: document.querySelector("#keyword").value, topic: document.querySelector("#topic").value, official: document.querySelector("#official").checked, filterPanelOpen: document.querySelector("#filter-panel").open, rows: [...document.querySelectorAll("#headlines a")].map(link => link.textContent), fits: document.documentElement.scrollWidth <= document.documentElement.clientWidth })');
-              assert.equal(filters.query, 'fixture');
-              assert.equal(filters.topic, 'Markets');
-              assert(filters.official && filters.filterPanelOpen && filters.fits);
-              assert.deepEqual(filters.rows, ['Federal Reserve fixture rate release']);
-              await evaluate('document.querySelector("#clear-filters").click()');
-              assert(await evaluate('document.querySelector("#headlines").children.length > 1 && !document.querySelector("#official").checked'));
-              await audit('body');
-              console.log(size + 'px terminal: deep-linked filters, reset, live data, reflow and axe passed.');
-            }
-            for (const [path, title] of Object.entries({
-              '/markets.html':'Market Desk', '/research.html':'Company Research', '/sports.html':'Sports Desk',
-              '/discuss.html':'Discussion Room', '/personalize.html':'Personalized News',
-              '/articles/':'News explainers.', '/about.html':'Trust begins', '/privacy.html':'Privacy',
-              '/terms.html':'Terms', '/accessibility.html':'News should', '/standards.html':"How Standalone News works.",
-              '/contact.html':"Contact & Corrections", '/newsletter-privacy.html':'Email newsletter privacy', '/newsletter-status.html':'Standalone News',
-            })) {
-              await load(path);
-              assert(await evaluate('document.querySelector("h1")?.textContent.startsWith(' + JSON.stringify(title) + ')'), path);
-              assert(await evaluate('getComputedStyle(document.body).backgroundColor === "rgb(253, 252, 243)"'), path);
-              if (['/markets.html','/research.html','/sports.html','/discuss.html','/personalize.html','/articles/','/about.html','/accessibility.html'].includes(path)) assert(await evaluate('Array.from(document.links).some(link => link.pathname.startsWith("/terminal"))'), path);
-              console.log(path + ': loads with the edition theme.');
-            }
-          } finally {
-            await browser.close();
-          }
-          JS
