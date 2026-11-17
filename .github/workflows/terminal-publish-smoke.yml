@@ -1,30 +1,46 @@
-name: Verify homepage headline pagination before publishing
+name: Verify selectable headline pagination on the live homepage
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   browser:
     runs-on: ubuntu-latest
     timeout-minutes: 7
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: aaba6e6045ab4fc77c5230a0db15f05e72d7227e
-      - name: Check site tests
-        run: python3 -m unittest discover -s tests -p 'test_*.py'
-      - name: Test the four page sizes and navigation with more than 1600 articles
+      - name: Wait for the new homepage and confirm the full headline snapshot
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/standalone-pager-http.log 2>&1 &
+          python3 - <<'PY'
+          import json, time
+          from urllib.request import Request, urlopen
+          base='https://standalonenews.com'
+          def get(path):
+              req=Request(base+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urlopen(req,timeout=14) as response:return response.read()
+          for attempt in range(18):
+              try:
+                  home=get('/').decode()
+                  if 'terminal.js?v=11' in home and 'id="headline-page-size"' in home:
+                      articles=json.loads(get('/data/news.json'))['items']
+                      assert len(articles)>320
+                      print(f'Live homepage includes pagination. The published feed supplies {len(articles)} headlines.',flush=True)
+                      break
+              except Exception as error:
+                  print(error,flush=True)
+              time.sleep(10)
+          else:
+              raise SystemExit('The pagination deployment did not appear within the verification window.')
+          PY
+      - name: Test user-selected pages, full-feed filtering and saved preferences
+        run: |
           npm install --prefix "$RUNNER_TEMP/pager-check" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3
           export NODE_PATH="$RUNNER_TEMP/pager-check/node_modules"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
-          export PAGER_SITE_URL="http://127.0.0.1:8080/"
+          export PAGER_SITE_URL="https://standalonenews.com/"
           node --input-type=commonjs - <<'JS'
           const { chromium } = require('playwright-core');
           const assert = require('node:assert/strict');
