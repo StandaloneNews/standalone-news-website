@@ -1,0 +1,179 @@
+name: Verify the terminal-first redesign
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cba6d69d877a7a0d8abbe1260cded1b860ebaccb
+          persist-credentials: false
+      - name: Check existing accessibility regressions and article templates
+        run: |
+          python3 -m unittest discover -s tests -p test_accessibility_static.py -v
+          python3 -m py_compile scripts/auto_publish.py
+      - name: Test the redesigned edition in Chrome
+        shell: bash
+        run: |
+          npm install --prefix "$RUNNER_TEMP/edition-a11y" --no-audit --no-fund axe-core@4.10.3
+          python3 - <<'PY' >"$RUNNER_TEMP/edition-server.log" 2>&1 &
+          import datetime
+          import http.server
+          import json
+          from urllib.parse import urlsplit
+
+          class Edition(http.server.SimpleHTTPRequestHandler):
+              def do_GET(self):
+                  path = urlsplit(self.path).path
+                  if path == '/terminal':
+                      self.path = '/terminal.html'
+                  if path != '/api/wire':
+                      return super().do_GET()
+                  now = datetime.datetime.now(datetime.timezone.utc)
+                  items = [
+                      {'title': 'Federal Reserve fixture rate release', 'category': 'Markets', 'source': 'Federal Reserve', 'source_type': 'Official direct'},
+                      {'title': 'World coverage fixture', 'category': 'World', 'source': 'BBC News', 'source_type': 'Publisher RSS'},
+                      {'title': 'Government coverage fixture', 'category': 'Government', 'source': 'Department of Justice', 'source_type': 'Official direct'},
+                  ]
+                  for i, item in enumerate(items):
+                      item['url'] = 'https://example.com/headline-' + str(i)
+                      item['published_at'] = (now - datetime.timedelta(minutes=i + 1)).isoformat()
+                  data = json.dumps({'checked_at': now.isoformat(), 'items': items, 'feeds': [{'source': item['source'], 'available': True} for item in items]}).encode()
+                  self.send_response(200)
+                  self.send_header('content-type', 'application/json')
+                  self.send_header('content-length', str(len(data)))
+                  self.end_headers()
+                  self.wfile.write(data)
+
+          http.server.ThreadingHTTPServer(('127.0.0.1', 8765), Edition).serve_forever()
+          PY
+          server_pid=$!
+          chrome="$(command -v google-chrome || command -v chromium)"
+          "$chrome" --headless --disable-dev-shm-usage --no-sandbox \
+            --user-data-dir="$(mktemp -d)" --remote-debugging-port=9222 about:blank \
+            >"$RUNNER_TEMP/terminal-chrome.log" 2>&1 &
+          chrome_pid=$!
+          trap 'kill "$chrome_pid" "$server_pid" 2>/dev/null || true' EXIT
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { readFileSync } from 'node:fs';
+          const axe = readFileSync(process.env.RUNNER_TEMP + '/edition-a11y/node_modules/axe-core/axe.min.js', 'utf8');
+          import { setTimeout as delay } from 'node:timers/promises';
+          const endpoint = 'http://127.0.0.1:9222/json/list';
+          let targets;
+          for (let attempt = 0; attempt < 30 && !targets; attempt++) {
+            try { targets = await (await fetch(endpoint)).json(); }
+            catch { await delay(300); }
+          }
+          assert(targets, 'Chrome DevTools did not start');
+          const socket = new WebSocket(targets.find(target => target.type === 'page').webSocketDebuggerUrl);
+          await new Promise((resolve, reject) => {
+            socket.addEventListener('open', resolve, { once: true });
+            socket.addEventListener('error', reject, { once: true });
+          });
+          const pending = new Map();
+          let nextId = 0;
+          socket.onmessage = ({ data }) => {
+            const message = JSON.parse(data);
+            const callback = pending.get(message.id);
+            if (!callback) return;
+            pending.delete(message.id);
+            clearTimeout(callback.timeout);
+            if (message.error) callback.reject(Error(message.error.message));
+            else callback.resolve(message.result);
+          };
+          function call(method, params = {}) {
+            return new Promise((resolve, reject) => {
+              const id = ++nextId;
+              const timeout = setTimeout(() => reject(Error(method + ' timed out')), 10000);
+              pending.set(id, { resolve, reject, timeout });
+              socket.send(JSON.stringify({ id, method, params }));
+            });
+          }
+
+          async function evaluate(expression) {
+            const result = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
+            if (result.exceptionDetails) throw Error(result.exceptionDetails.exception?.description ?? result.exceptionDetails.text);
+            return result.result.value;
+          }
+          async function waitFor(expression) {
+            for (let attempt = 0; attempt < 50; attempt++) {
+              try { if (await evaluate(expression)) return; } catch {}
+              await delay(200);
+            }
+            assert.fail('Timed out waiting for ' + expression);
+          }
+          const site = 'http://127.0.0.1:8765';
+          const tags = ['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa'];
+          async function audit(selector) {
+            await evaluate(axe);
+            const result = await evaluate('axe.run(' + JSON.stringify(selector) + ', {runOnly: ' + JSON.stringify(tags) + '}).then(result => ({ violations: result.violations.map(({id, nodes}) => ({id, nodes: nodes.map(node => node.target)})), checked: result.passes.length }))');
+            assert(result.checked > 0);
+            assert.deepEqual(result.violations, [], 'WCAG scan ' + selector);
+          }
+          async function width(value) {
+            await call('Emulation.setDeviceMetricsOverride', { width: value, height: 900, deviceScaleFactor: 1, mobile: value < 600 });
+          }
+          async function load(path) {
+            await call('Page.navigate', { url: site + path });
+            await waitFor('document.readyState === "complete" && location.href === ' + JSON.stringify(site + path));
+          }
+          try {
+            await call('Network.enable');
+            await call('Network.setBlockedURLs', { urls: ['https://*'] });
+            for (const size of [1440, 390, 320]) {
+              await width(size);
+              await load('/');
+              await waitFor('Boolean(document.querySelector("#terminal-preview-list li a"))');
+              const home = await evaluate('(() => { const terminal = document.querySelector("#news-terminal"); const rect = terminal.getBoundingClientRect(); return {width: innerWidth, right: rect.right, fits: terminal.scrollWidth <= terminal.clientWidth, leading: document.querySelector("main > section") === terminal, first: document.querySelector("#terminal-preview-list li a").textContent, briefClosed: !document.querySelector("#brief details").open, briefAfterEvents: Boolean(document.querySelector("#wire-discuss-cta").compareDocumentPosition(document.querySelector("#brief")) & Node.DOCUMENT_POSITION_FOLLOWING), h1: document.querySelectorAll("h1").length }; })()');
+              assert.equal(home.width, size);
+              assert(home.fits && home.right <= size + 1 && home.leading && home.briefClosed && home.briefAfterEvents);
+              assert.equal(home.h1, 1);
+              assert.match(home.first, /fixture rate release/);
+              await audit('#news-terminal');
+              await evaluate('document.querySelector(".terminal-preview-open").focus()');
+              await call('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
+              await call('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
+              assert(await evaluate('document.activeElement === document.querySelector("#terminal-preview-list li a") && getComputedStyle(document.activeElement).outlineWidth === "3px"'));
+              await evaluate('document.querySelector("#brief details").open = true; document.querySelector("#brief-personalize").click()');
+              await waitFor('!document.querySelector("#brief-overlay").hidden');
+              await evaluate('document.querySelector("[data-close=brief-overlay]").click()');
+              await waitFor('document.querySelector("#brief-overlay").hidden');
+              console.log(size + 'px home: lead terminal, live rows, keyboard focus, brief control and axe passed.');
+              await load('/terminal.html?topic=Markets&q=fixture&official=1');
+              await waitFor('Boolean(document.querySelector("#headlines li a"))');
+              const filters = await evaluate('({ query: document.querySelector("#keyword").value, topic: document.querySelector("#topic").value, official: document.querySelector("#official").checked, filterPanelOpen: document.querySelector("#filter-panel").open, rows: [...document.querySelectorAll("#headlines a")].map(link => link.textContent), fits: document.documentElement.scrollWidth <= document.documentElement.clientWidth })');
+              assert.equal(filters.query, 'fixture');
+              assert.equal(filters.topic, 'Markets');
+              assert(filters.official && filters.filterPanelOpen && filters.fits);
+              assert.deepEqual(filters.rows, ['Federal Reserve fixture rate release']);
+              await evaluate('document.querySelector("#clear-filters").click()');
+              assert(await evaluate('document.querySelector("#headlines").children.length > 1 && !document.querySelector("#official").checked'));
+              await audit('body');
+              console.log(size + 'px terminal: deep-linked filters, reset, live data, reflow and axe passed.');
+            }
+            for (const [path, title] of Object.entries({
+              '/markets.html':'Market Desk', '/research.html':'Company Research', '/sports.html':'Sports Desk',
+              '/discuss.html':'Discussion Room', '/personalize.html':'Personalized News',
+              '/articles/':'News explainers.', '/about.html':'Trust begins', '/privacy.html':'Privacy',
+              '/terms.html':'Terms', '/accessibility.html':'News should',
+            })) {
+              await load(path);
+              assert(await evaluate('document.querySelector("h1")?.textContent.startsWith(' + JSON.stringify(title) + ')'), path);
+              assert(await evaluate('getComputedStyle(document.body).backgroundColor === "rgb(253, 252, 243)"'), path);
+              if (!['/privacy.html','/terms.html'].includes(path)) assert(await evaluate('Array.from(document.links).some(link => link.pathname.startsWith("/terminal"))'), path);
+              console.log(path + ': loads with the edition theme.');
+            }
+          } finally {
+            socket.close();
+          }
+          JS
