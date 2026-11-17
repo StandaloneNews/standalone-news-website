@@ -655,7 +655,7 @@ body.theme-broadsheet {
   }
 
   .theme-broadsheet :is(
-    .chart-section, .overview-section, .calendar-section, .news-section, .chart-shell, .watch-card, .calendar-card, .earnings-explorer,
+    .chart-section, .overview-section, .calendar-section, .news-section, .chart-shell, .watch-card, .calendar-card, .earnings-explorer, .earnings-help, .news-card,
     .search-panel, .module, .side-module, .workspace-heading,
     .sports-summary, .sports-summary-ufc, .sports-game, .sports-ufc-card, .sports-source-note, .st-box,
     .room-strip, .discussion-shell, .side-card, .thread-detail, .messages, .chat-compose,
@@ -732,7 +732,7 @@ body.theme-broadsheet {
     border-color: var(--terminal-rule) !important;
   }
   .theme-broadsheet :is(.home-link, .top-back, .header-utility, .market-desk-invite-links a, .side-links a,
-    .agency-links a, .panel-end a, .company-id a, .list-article, .category-list, .ai-label, .mobile-market-bar, .small-note) {
+    .agency-links a, .earnings-wide-links a, .panel-end a, .company-id a, .list-article, .category-list, .ai-label, .mobile-market-bar, .small-note) {
     background: var(--terminal-panel) !important;
     border-color: var(--terminal-rule) !important;
     color: var(--terminal-ink) !important;
@@ -741,10 +741,10 @@ body.theme-broadsheet {
     background: var(--terminal-header) !important;
     color: var(--terminal-accent) !important;
   }
-  .theme-broadsheet :is(.calendar-overline, .earnings-card-eyebrow, .ai-label, .market-desk-invite-copy > span, .welcome em,
+  .theme-broadsheet :is(.calendar-overline, .earnings-card-eyebrow, .news-tag, .ai-label, .market-desk-invite-copy > span, .welcome em,
     .editorial-notice strong, .sports-game-state.live) { color: var(--terminal-accent) !important; }
   .theme-broadsheet :is(.quick-symbols > span, .watch-footer, .earnings-shortcuts > span, .quick-row > span, .sports-league-detail > span, .sports-game-state,
-    .room-strip-top > span, .personal-disclaimer, .mobile-market-bar > span, .agency-links a span, footer > span, address) {
+    .room-strip-top > span, .personal-disclaimer, .earnings-provider-credit, #news-updated, #news-count, .mobile-market-bar > span, .agency-links a span, footer > span, address) {
     color: var(--terminal-muted) !important;
   }
   .theme-broadsheet :is(.market-desk-invite-copy > strong, .agency-links a strong, #company-symbol, .side-card li strong) {
