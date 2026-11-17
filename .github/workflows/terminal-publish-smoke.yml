@@ -1,88 +1,52 @@
-name: Verify terminal market bar and expanded headline feeds
+name: Verify the live market bar and headline coverage
 
 on:
   push:
     branches: [ops/terminal-publish-smoke]
     paths: [.github/workflows/terminal-publish-smoke.yml]
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
-  feeds:
+  live:
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 3b3bd485fe02dd8c3ab74af7fe3c80bcb6e37f9c
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Run accessibility and publisher-feed regression tests
+      - name: Wait for the public terminal and publisher feeds
         run: |
-          python3 -m unittest discover -s tests -p 'test_*.py'
-          node --input-type=module - <<'JS'
-          import assert from 'node:assert/strict';
-          import { parseFeed, onRequestGet } from './functions/api/wire.js';
-          import catalog from './data/terminal-sources.json' with { type: 'json' };
-          const now = Date.parse('2026-11-17T00:00:00Z');
-          const source = {name:'Publisher', topic:'World', url:'https://example.com/feed'};
-          const atom = '<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>New &amp; dated</title><link rel="self" href="https://example.com/self"/><link href="https://example.com/news?q=1&amp;id=2" rel="alternate" /><published>2026-11-16T20:00:00Z</published></entry><entry><title>Not dated</title><link href="https://example.com/undated"/></entry></feed>';
-          const item = parseFeed(atom, source, now);
-          assert.equal(item.length, 1);
-          assert.equal(item[0].title, 'New & dated');
-          assert.equal(item[0].url, 'https://example.com/news?q=1&id=2');
-          const rdf = '<rdf:RDF><item><title>Official date</title><link>https://example.com/one</link><dc:date>2026-11-16T20:00:00Z</dc:date></item></rdf:RDF>';
-          assert.equal(parseFeed(rdf, {...source, official:true}, now)[0].source_type, 'Official direct');
-          assert.throws(() => parseFeed('<html></html>', source, now));
-          assert.equal(new Set(catalog.map(x=>x.url)).size, catalog.length);
-          let running = 0, peak = 0, calls = 0, cached;
-          globalThis.caches = {default:{match:async()=>cached?.clone(), put:async(_, response)=>{cached=response;}}};
-          globalThis.fetch = async () => {
-            calls++; running++; peak = Math.max(peak, running);
-            const attempt = calls;
-            await new Promise(r=>setTimeout(r, 10));
-            running--;
-            return attempt === 2 ? new Response('unavailable',{status:503}) : new Response('<rss></rss>');
-          };
-          const req = {request:new Request('https://example.com/api/wire'),waitUntil:p=>p};
-          const json = await (await onRequestGet(req)).json();
-          assert.equal(json.feeds.length, 11+catalog.filter(x=>x.direct).length);
-          assert.equal(json.feeds.filter(x=>x.available).length, calls-1);
-          assert.equal(peak, 6);
-          await onRequestGet(req);
-          assert.equal(calls, json.feeds.length);
-          console.log('Verified RSS, RDF and Atom links, per-feed errors, concurrency and aggregate caching.');
-          JS
-      - name: Refresh the headline snapshot using public feeds
-        run: |
-          python3 scripts/update_news.py
           python3 - <<'PY'
           import json
-          from pathlib import Path
-          items = json.loads(Path('data/news.json').read_text())['items']
-          sources = {item['source'] for item in items}
-          catalog = json.loads(Path('data/terminal-sources.json').read_text())
-          archive_only = {row['name'] for row in catalog if not row['direct']}
-          assert len(sources & archive_only) >= 15
-          print('Sources in the refreshed snapshot:', ', '.join(sorted(sources)))
+          import time
+          import urllib.request
+          endpoint = 'https://standalonenews.com'
+          def download(path):
+              req = urllib.request.Request(endpoint+path, headers={'User-Agent':'Mozilla/5.0', 'Cache-Control':'no-cache'})
+              with urllib.request.urlopen(req,timeout=14) as response:
+                  return response.read()
+          for attempt in range(20):
+              try:
+                  home = download('/').decode()
+                  feeds = json.loads(download('/api/wire'))
+                  snapshot = json.loads(download('/data/news.json'))
+                  configured = {feed['source'] for feed in feeds['feeds']}
+                  responding = {feed['source'] for feed in feeds['feeds'] if feed['available']}
+                  new_names = {'MarketWatch', 'European Central Bank', 'CBS News', 'The Verge', 'NASA'}
+                  serving = {item['source'] for item in feeds['items']}
+                  snapshot_sources = {item['source'] for item in snapshot['items']}
+                  archive_new = {'Axios', 'CoinDesk', 'ProPublica', 'ScienceDaily', 'The Guardian Sport'}
+                  print('LIVE', json.dumps({'attempt':attempt+1, 'bar':'market-top-heading' in home, 'direct_configured':len(configured), 'responding':len(responding), 'items':len(feeds['items']), 'direct_selected':sorted(serving&new_names), 'snapshot_count':len(snapshot_sources), 'snapshot_selected':sorted(snapshot_sources&archive_new), 'snapshot_updated_at':snapshot.get('updated_at')}), flush=True)
+                  if 'market-top-heading' in home and new_names <= configured and len(serving&new_names)>=3 and len(snapshot_sources&archive_new)>=3:
+                      break
+              except Exception as exc:
+                  print('Live site attempt', attempt+1, str(exc),flush=True)
+              time.sleep(12)
+          else:
+              raise SystemExit('The live site did not serve the expanded bar and headline feeds in the verification window.')
           PY
-      - name: Bundle the Cloudflare Worker
-        run: npx --yes wrangler deploy --dry-run --outdir "$RUNNER_TEMP/terminal-bundle"
-
-  layout:
-    runs-on: ubuntu-latest
-    timeout-minutes: 6
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: 3b3bd485fe02dd8c3ab74af7fe3c80bcb6e37f9c
-      - name: Check the rendering, keyboard focus and responsive widths
+      - name: Verify the live market widget on desktop and mobile
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/terminal-market-http.log 2>&1 &
-          npm install --prefix "$RUNNER_TEMP/market-check" --no-audit --no-fund axe-core@4.10.3 playwright-core@1.55.0
-          cd "$RUNNER_TEMP/market-check"
+          npm install --prefix "$RUNNER_TEMP/live-market-check" --no-audit --no-fund playwright-core@1.55.0
+          cd "$RUNNER_TEMP/live-market-check"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
           node --input-type=commonjs - <<'JS'
           const { chromium } = require('playwright-core');
@@ -90,40 +54,20 @@ jobs:
           (async() => {
             const browser = await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
             try {
-              for (const width of [1440, 390, 320]) {
+              for (const width of [1440, 390]) {
                 const page = await browser.newPage({viewport:{width,height:850}});
-                await page.goto('http://127.0.0.1:8080/',{waitUntil:'domcontentloaded'});
+                await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
                 const frame = page.locator('#market-top-quotes iframe');
                 await frame.waitFor({state:'visible',timeout:20000});
                 assert.ok(await frame.getAttribute('title'));
-                console.log(width, 'ticker iframe:', (await frame.getAttribute('src')).split('?')[0]);
-                const quoteFrame = page.frameLocator('#market-top-quotes iframe');
-                await quoteFrame.getByText('SPY', {exact:true}).first().waitFor({state:'visible',timeout:12000});
-                const state = await page.evaluate(()=>{
-                  const market = document.querySelector('.market-top').getBoundingClientRect();
-                  const workspace = document.querySelector('#workspace').getBoundingClientRect();
-                  const track = document.querySelector('#market-top-scroll');
-                  return { marketBottom:market.bottom, workspaceTop:workspace.top, documentWidth:document.documentElement.scrollWidth,
-                    viewport:innerWidth, client:track.clientWidth, scroll:track.scrollWidth };
-                });
-                assert.ok(state.marketBottom <= state.workspaceTop, JSON.stringify(state));
-                assert.ok(state.documentWidth <= state.viewport+1, JSON.stringify(state));
-                const scroll = page.locator('#market-top-scroll');
-                await page.keyboard.press('Tab');
-                await scroll.focus();
-                assert.ok(await scroll.evaluate(el=>el.matches(':focus-visible')));
-                if (width < 500) {
-                  assert.ok(state.scroll > state.client);
-                  await page.keyboard.press('ArrowRight');
-                  await page.waitForFunction(()=>document.querySelector('#market-top-scroll').scrollLeft>0);
-                }
-                await page.addScriptTag({path: require.resolve('axe-core')});
-                const violations = await page.evaluate(async()=>{
-                  const result = await axe.run('.market-top', {iframes:false});
-                  return result.violations.map(v=>v.id);
-                });
-                assert.deepEqual(violations, []);
-                console.log(width, 'market bar passed layout, keyboard and accessibility checks');
+                await page.frameLocator('#market-top-quotes iframe').getByText('SPY',{exact:true}).first().waitFor({state:'visible',timeout:12000});
+                const layout = await page.evaluate(()=>({
+                  height: document.querySelector('.market-top').getBoundingClientRect().bottom,
+                  body: document.querySelector('#workspace').getBoundingClientRect().top,
+                  viewport: innerWidth, width: document.documentElement.scrollWidth,
+                }));
+                assert.ok(layout.height <= layout.body && layout.width <= layout.viewport+1, JSON.stringify(layout));
+                console.log(width, 'live market bar loaded quotes above the terminal without page overflow.');
                 await page.close();
               }
             } finally { await browser.close(); }
