@@ -1,0 +1,102 @@
+name: Verify complete headline collection and display before publishing
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 0ad15ed99611529311a335ed147d9c003e4a6cee
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check headline and accessibility regression tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Verify the live feed parser returns every valid entry
+        run: |
+          node --input-type=module - <<'JS'
+          import assert from 'node:assert/strict';
+          import {parseFeed} from './functions/api/wire.js';
+          const now=Date.parse('2026-11-17T03:00:00Z');
+          for (const format of ['rss','atom','news-sitemap']) {
+            const items=Array.from({length:160},(_,i)=> {
+              const url='https://example.org/story/'+i;
+              const title='Shared headline';
+              const date='2026-11-17T01:00:00Z';
+              if (format==='atom') return '<entry><title>'+title+'</title><link href="'+url+'"/><published>'+date+'</published></entry>';
+              if (format==='news-sitemap') return '<url><loc>'+url+'</loc><news:news><news:title>'+title+'</news:title><news:publication_date>'+date+'</news:publication_date></news:news></url>';
+              return '<item><title>'+title+'</title><link>'+url+'</link><pubDate>'+date+'</pubDate></item>';
+            }).join('');
+            const root=({rss:'rss',atom:'feed','news-sitemap':'urlset'})[format];
+            const out=parseFeed('<'+root+'>'+items+'</'+root+'>',{name:'Publisher',topic:'World',url:'https://example.org/feed',format},now);
+            assert.equal(out.length,160,format);
+            console.log('Parser kept all entries',format,out.length);
+          }
+          JS
+      - name: Generate the complete public snapshot and RSS using current feeds
+        run: |
+          python3 scripts/update_news.py
+          python3 - <<'PY'
+          import json, xml.etree.ElementTree as ET
+          from collections import Counter
+          from pathlib import Path
+          snapshot=Path('data/news.json')
+          rows=json.loads(snapshot.read_text())['items']
+          rss=ET.parse('feed.xml').findall('./channel/item')
+          assert len(rows) > 320 and len(rss) == len(rows), (len(rows),len(rss))
+          print('NEW FEED',json.dumps({'headlines':len(rows),'rss':len(rss),'sources':len({x['source'] for x in rows}),'largest_source':Counter(x['source'] for x in rows).most_common(1),'snapshot_bytes':snapshot.stat().st_size}))
+          PY
+      - name: Verify all incoming headlines are displayed and searchable on desktop and mobile
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/full-headlines-http.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/full-feed-check" --no-audit --no-fund playwright-core@1.55.0
+          export NODE_PATH="$RUNNER_TEMP/full-feed-check/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          export HEADLINE_SITE_URL="http://127.0.0.1:8080/"
+          node --input-type=commonjs - <<'JS'
+          const {chromium} = require('playwright-core');
+          const assert = require('node:assert/strict');
+          const base = process.env.HEADLINE_SITE_URL;
+          (async()=>{
+            const browser = await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              for(const width of [1440,390]){
+                const page = await browser.newPage({viewport:{width,height:900}});
+                const rows = Array.from({length:1600}, (_,i)=>({
+                  title:'Uncapped article '+String(i).padStart(4,'0'),
+                  url:'https://example.org/news/'+i,
+                  published_at:new Date(Date.now()-60_000-i*500).toISOString(),
+                  source:'Publisher A',category:'World',source_type:'Publisher RSS',
+                }));
+                await page.route('**/api/wire',r=>r.fulfill({json:{checked_at:rows[0].published_at,feeds:[{source:'Publisher A',available:true}],items:rows.slice(0,850)}}));
+                await page.route('**/data/news.json',r=>r.fulfill({json:{updated_at:rows[0].published_at,items:rows.slice(800)}}));
+                await page.goto(base,{waitUntil:'domcontentloaded'});
+                await page.waitForFunction(()=>document.querySelectorAll('#headlines li').length===1600,{},{timeout:20000});
+                assert.equal(await page.getByRole('heading',{name:'Latest headlines'}).count(),1);
+                assert.equal(await page.locator('#market-panel').getAttribute('open'),null);
+                assert.equal(await page.locator('#timeline-panel').getAttribute('open'),null);
+                assert.equal(await page.locator('#headlines a').last().innerText(),'Uncapped article 1599');
+                assert.equal(await page.locator('#headlines a').last().getAttribute('target'),'_blank');
+                assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+                const search=page.locator('#keyword');
+                await search.fill('article 1599');
+                assert.equal(await page.locator('#headlines li').count(),1);
+                assert.equal(await page.locator('#headlines a').first().innerText(),'Uncapped article 1599');
+                await search.clear();
+                assert.equal(await page.locator('#headlines li').count(),1600);
+                assert.equal(await page.locator('#paging').count(),0);
+                console.log('UNCAPPED TERMINAL VERIFIED',width);
+                await page.close();
+              }
+            }finally{await browser.close();}
+          })().catch(e=>{console.error(e);process.exitCode=1;});
+          JS
