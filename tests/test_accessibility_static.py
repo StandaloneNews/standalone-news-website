@@ -41,7 +41,7 @@ class StaticAccessibilityRegressionTests(unittest.TestCase):
         self.assertIn("--bs-muted: #435864;", css)
 
     def test_market_and_utility_regions_have_landmarks(self):
-        html = read("index.html")
+        html = read("edition.html")
         self.assertIn('class="utility" role="region" aria-label="Edition information and social links"', html)
         self.assertIn('<section aria-label="Market prices" class="market-strip">', html)
         for path in ("markets.html", "research.html", "discuss.html", "personalize.html"):
@@ -49,11 +49,11 @@ class StaticAccessibilityRegressionTests(unittest.TestCase):
                 self.assertIn('<div class="utility" role="region" aria-label="Edition information">', read(path))
 
     def test_visible_brand_and_account_labels_are_not_overridden(self):
-        for path in ("index.html", "markets.html", "personalize.html", "about.html", "accessibility.html"):
+        for path in ("edition.html", "markets.html", "personalize.html", "about.html", "accessibility.html"):
             with self.subTest(page=path):
                 html = read(path)
                 self.assertNotRegex(html, r'<a\b[^>]*aria-label="Standalone News(?:, home| home)"')
-        html = read("index.html")
+        html = read("edition.html")
         self.assertIn('class="account-pill" hidden="" id="account-button"', html)
         self.assertNotIn('aria-label="Reader account"', html)
         self.assertIn('aria-describedby="lead-title" class="bookmark-btn"', html)
@@ -66,6 +66,15 @@ class StaticAccessibilityRegressionTests(unittest.TestCase):
         self.assertIn("(saved?'Saved ':'Save ')+item.title", js)
         self.assertIn("b.setAttribute('aria-pressed',String(followed))", js)
         self.assertIn("b.setAttribute('aria-pressed',String(saved))", js)
+
+    def test_terminal_has_named_panels_and_inputs(self):
+        html = read("index.html")
+        for panel in ('feed-heading', 'x-heading', 'market-heading'):
+            self.assertIn(f'aria-labelledby="{panel}"', html)
+            self.assertRegex(html, rf'<h2 id="{panel}">[^<]+</h2>')
+        for field in ('keyword', 'x-account', 'market-symbol'):
+            self.assertIn(f'for="{field}"', html)
+        self.assertIn('href="./edition.html#brief"', html)
 
     def test_focus_and_reduced_motion_remain_supported(self):
         css = read("broadsheet.css")

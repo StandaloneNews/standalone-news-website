@@ -5,7 +5,9 @@
     "directory": "./",
     "binding": "ASSETS",
     "run_worker_first": [
-      "/api/wire"
+      "/api/wire",
+      "/terminal",
+      "/terminal.html"
     ]
   },
   "main": "site-worker.mjs"

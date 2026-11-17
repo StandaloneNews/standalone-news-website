@@ -2,7 +2,12 @@ import { onRequestGet } from './functions/api/wire.js';
 
 export default {
   fetch(request, env, context) {
-    if (new URL(request.url).pathname !== '/api/wire') {
+    const url = new URL(request.url);
+    if (url.pathname === '/terminal' || url.pathname === '/terminal.html') {
+      url.pathname = '/';
+      return Response.redirect(url.href, 302);
+    }
+    if (url.pathname !== '/api/wire') {
       return env.ASSETS.fetch(request);
     }
     if (request.method !== 'GET') {

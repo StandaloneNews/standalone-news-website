@@ -15,6 +15,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
   const topic = $('topic');
   const source = $('source');
   const official = $('official');
+  const exclude = $('exclude');
   const params = new URLSearchParams(location.search);
   const topics = ['World', 'U.S. news', 'Markets', 'Economy', 'Government', 'Technology', 'Regulation'];
   const initialTopic = topics.includes(params.get('topic')) ? params.get('topic') : '';
@@ -64,12 +65,14 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
 
   function matches() {
     const terms = keyword.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const omitted = exclude.value.trim().toLowerCase().split(',').map(term => term.trim()).filter(Boolean);
     return displayed.filter(item => {
       const searchable = (item.title + ' ' + item.source + ' ' + item.topic).toLowerCase();
       return (!topic.value || item.topic === topic.value)
         && (!source.value || item.source === source.value)
         && (!official.checked || item.official)
-        && terms.every(term => searchable.includes(term));
+        && terms.every(term => searchable.includes(term))
+        && !omitted.some(term => searchable.includes(term));
     });
   }
 
@@ -184,14 +187,15 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
     }
   }
 
-  for (const filter of [keyword, topic, source, official]) {
-    filter.addEventListener(filter === keyword ? 'input' : 'change', () => {
+  for (const filter of [keyword, exclude, topic, source, official]) {
+    filter.addEventListener(filter instanceof HTMLInputElement && filter.type !== 'checkbox' ? 'input' : 'change', () => {
       limit = pageSize;
       renderItems();
     });
   }
   $('clear-filters').addEventListener('click', () => {
     keyword.value = '';
+    exclude.value = '';
     topic.value = '';
     source.value = '';
     official.checked = false;
@@ -223,9 +227,10 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js';
   }
 
   const filterPanel = $('filter-panel');
-  filterPanel.open = !matchMedia('(max-width: 48rem)').matches || Boolean(keyword.value || initialTopic || official.checked);
+  filterPanel.open = Boolean(initialTopic || official.checked);
   filterPanel.hidden = false;
   $('wire-actions').hidden = false;
+  $('headline-search').hidden = false;
   setInterval(() => {
     if (autoRefresh.checked && !document.hidden) check();
   }, refreshInterval);

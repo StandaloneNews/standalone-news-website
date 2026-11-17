@@ -1,341 +1,150 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<meta content="#0e2136" name="theme-color"/>
-<meta content="Latest news headlines, markets and world events from attributed sources, plus a five-story briefing and clearly labeled AI-assisted explainers." name="description"/>
-<meta content="website" property="og:type"/>
-<meta content="Standalone News" property="og:site_name"/>
-<meta content="Standalone News | Latest Headlines, Markets &amp; Source-Linked Coverage" property="og:title"/>
-<meta content="Latest news headlines, markets and world events from attributed sources, plus a five-story briefing and clearly labeled AI-assisted explainers." property="og:description"/>
-<meta content="https://standalonenews.com/" property="og:url"/>
-<meta content="https://standalonenews.com/assets/standalone-news-banner.png" property="og:image"/>
-<meta content="Standalone News" property="og:image:alt"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="Standalone News | Latest Headlines and Markets" name="twitter:title"/>
-<meta content="Latest news headlines, markets and world events from attributed sources, plus a five-story briefing and clearly labeled AI-assisted explainers." name="twitter:description"/>
-<link href="https://standalonenews.com/" rel="canonical"/>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://standalonenews.com/#organization","name":"Standalone News","url":"https://standalonenews.com/","logo":{"@type":"ImageObject","url":"https://standalonenews.com/assets/sn-brand-logo.png"},"description":"Source-linked headline discovery and clearly labeled automated news explainers."},{"@type":"WebSite","@id":"https://standalonenews.com/#website","url":"https://standalonenews.com/","name":"Standalone News","publisher":{"@id":"https://standalonenews.com/#organization"},"inLanguage":"en-US"}]}</script>
-<link href="./assets/favicon.png" rel="icon"/><link href="./assets/app-icon.png" rel="apple-touch-icon"/>
-<link href="./feed.xml" rel="alternate" title="Standalone News headlines" type="application/rss+xml"/>
-<link href="./articles/feed.xml" rel="alternate" title="Standalone News explainers" type="application/rss+xml"/>
-<link href="./newsroom.css?v=a11y-20261024" rel="stylesheet"/>
-<link href="./markets-home.css?v=1" rel="stylesheet"/>
-<style>
-
-/* Standalone News V18: Homepage discussion invitation. Fully scoped and mobile-ready. */
-#wire-discuss-cta {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: clamp(18px, 3vw, 42px);
-  margin: 20px 0 clamp(36px, 4.5vw, 54px);
-  padding: clamp(24px, 3.6vw, 42px);
-  background: linear-gradient(115deg, #11253e 0%, #1b3956 78%, #203d56 100%);
-  color: #f7f9fc;
-  border: 1px solid #304e69;
-  border-radius: 17px;
-  box-shadow: 0 10px 28px rgba(14, 36, 60, .09);
-  min-width: 0;
-}
-#wire-discuss-cta * { box-sizing: border-box; }
-#wire-discuss-cta .discussion-invite-kicker {
-  margin: 0 0 10px;
-  color: #f5b6c0;
-  font: 850 10px/1.45 Arial, sans-serif;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-}
-#wire-discuss-cta h2 {
-  font: 700 clamp(27px, 3vw, 39px)/1.14 Georgia, 'Times New Roman', serif;
-  letter-spacing: -.025em;
-  color: #fff;
-  margin: 0 0 12px;
-  max-width: 740px;
-}
-#wire-discuss-cta h2 .discussion-punctuation { color: #e77a8d; }
-#wire-discuss-cta .discussion-invite-description {
-  margin: 0 0 18px;
-  font: 400 14px/1.65 Arial, sans-serif;
-  color: #d5e3ed;
-  max-width: 68ch;
-}
-#wire-discuss-cta .discussion-room-links {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-  align-items: center;
-}
-#wire-discuss-cta .discussion-room-links .discussion-room-label {
-  font: 750 11px/1.4 Arial, sans-serif;
-  color: #bbcede;
-  margin-right: 4px;
-}
-#wire-discuss-cta .discussion-room-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 32px;
-  padding: 6px 11px;
-  text-decoration: none;
-  color: #f7faff;
-  border: 1px solid #668098;
-  background: rgba(255, 255, 255, .07);
-  border-radius: 999px;
-  font: 750 11px/1.3 Arial, sans-serif;
-  white-space: nowrap;
-}
-#wire-discuss-cta .discussion-room-links a:hover,
-#wire-discuss-cta .discussion-room-links a:focus-visible {
-  background: #395a75;
-  border-color: #a5c1d4;
-}
-#wire-discuss-cta .discussion-invite-action {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  min-width: 204px;
-  gap: 9px;
-}
-#wire-discuss-cta .discussion-join-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  min-height: 51px;
-  padding: 14px 19px;
-  background: #b9344e;
-  color: #fff;
-  border: 1px solid #d65a71;
-  border-radius: 9px;
-  text-decoration: none;
-  text-align: center;
-  font: 800 14px/1.2 Arial, sans-serif;
-  box-shadow: 0 5px 14px rgba(8, 21, 38, .16);
-}
-#wire-discuss-cta .discussion-join-button:hover { background: #a32640; }
-#wire-discuss-cta .discussion-join-button:focus-visible,
-#wire-discuss-cta a:focus-visible { outline: 3px solid #c0e5ff; outline-offset: 3px; }
-#wire-discuss-cta .discussion-invite-note {
-  color: #b9cede;
-  text-align: center;
-  font: 650 11px/1.5 Arial, sans-serif;
-}
-@media (max-width: 800px) {
-  #wire-discuss-cta { grid-template-columns: minmax(0, 1fr); gap: 23px; }
-  #wire-discuss-cta .discussion-invite-action { min-width: 0; align-items: flex-start; }
-  #wire-discuss-cta .discussion-join-button { min-width: 215px; }
-}
-@media (max-width: 480px) {
-  #wire-discuss-cta { padding: 23px 18px; margin-top: 14px; border-radius: 14px; gap: 20px; }
-  #wire-discuss-cta h2 { font-size: 29px; }
-  #wire-discuss-cta .discussion-invite-description { font-size: 13px; }
-  #wire-discuss-cta .discussion-room-links { gap: 7px; }
-  #wire-discuss-cta .discussion-room-links .discussion-room-label { flex-basis: 100%; margin-bottom: 1px; }
-  #wire-discuss-cta .discussion-invite-action { align-items: stretch; }
-  #wire-discuss-cta .discussion-join-button { width: 100%; min-width: 0; }
-}
-
- .wire-header-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem 1rem; }
-</style>
-<link href="./section-clarity.css?v=2" rel="stylesheet"/>
-<link href="./mobile-breathing-room.css?v=1" rel="stylesheet"/>
-<script defer="" src="./newsroom.js?v=edition-2"></script>
-<script defer="" src="./markets-fix.js?v=photo7"></script><script defer="" src="./newsletter.js?v=worker13"></script>
-<script defer="" src="./account-config.js?v=mobile7"></script>
-<script src="./accounts.js?v=mobile7" type="module"></script>
-<title>Standalone News | Latest Headlines, Markets &amp; Source-Linked Coverage</title>
-<link href="./refresh-2026.css?v=1" rel="stylesheet"/><link rel="stylesheet" href="./broadsheet.css?v=edition-2">
-<link rel="stylesheet" href="./mobile-six.css?v=1">
-<link rel="stylesheet" href="./home-sports.css?v=1">
-<script defer src="./home-sports.js?v=final-hiding-3"></script>
-<link rel="stylesheet" href="./home-terminal.css?v=2">
-<script type="module" src="./home-terminal.js?v=2"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1119">
+  <meta name="description" content="Standalone News terminal with source-linked headlines, public X timelines, and market charts.">
+  <title>Standalone News Terminal</title>
+  <link rel="canonical" href="https://standalonenews.com/">
+  <link rel="icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./terminal.css?v=4">
+  <script type="module" src="./terminal.js?v=4"></script>
+  <script type="module" src="./terminal-panels.js?v=1"></script>
 </head>
-<body class="theme-refresh theme-broadsheet home-broadsheet">
-<a class="skip" href="#main">Skip to main content</a>
-<div class="utility" role="region" aria-label="Edition information and social links"><div class="container utility-inner">
-<p class="edition-flag"><span class="red-dot" aria-hidden="true"></span> INDEPENDENT NEWS</p>
-<span class="utility-right"><span id="utc-clock">UTC · --:--</span><span class="utility-rule"></span><a href="https://x.com/StandaloneNews" rel="noopener noreferrer" target="_blank">FOLLOW ON X ↗</a></span>
-</div></div>
-<header class="masthead"><div class="container masthead-inner">
-<a class="brand" href="./index.html" aria-label="Standalone News"><img alt="" height="46" src="./assets/sn-brand-logo.png" width="46"/><span class="brand-word"><strong>STANDALONE <em>NEWS</em></strong></span></a>
-<div class="masthead-tools"><div class="edition-note" role="group" aria-label="Edition date"><span>TODAY'S EDITION</span><strong id="today-date">—</strong></div><button aria-label="Search headlines" class="round-action" id="search-toggle" title="Search headlines" type="button"><svg aria-hidden="true" fill="none" height="21" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24" width="21"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button><button class="account-pill" hidden="" id="account-button" type="button">Sign in</button></div>
-</div></header>
-<nav aria-label="Primary navigation" class="nav-wrap"><div class="container nav-inner">
-<a class="nav-item active" data-nav="home" href="#home">Today</a><a class="nav-item edition-nav-terminal" href="./terminal.html">Terminal</a><a class="nav-item" data-nav="top-stories" href="#top-stories">Top stories</a><a class="nav-item" data-nav="wire" href="#wire">News wire</a><a class="nav-item" href="./markets.html">Markets</a><a class="nav-item" href="./sports.html">Sports</a><a class="nav-item" href="./research.html">Company research</a><a class="nav-item" data-nav="explainers" href="#explainers">Explainers</a><a class="nav-item" href="./discuss.html">Community</a><a class="nav-item" href="./personalize.html">For you</a><button class="nav-item nav-saved" id="open-saved" type="button">Saved <span class="saved-num" id="saved-total">0</span></button>
-</div></nav>
-
-<div class="container main-container" id="home">
-<div class="demo-warning" hidden="" id="demo-warning">DESIGN PREVIEW · The example headlines below are fictional demonstration content, not live reporting.</div>
-<div class="feed-error" hidden="" id="feed-error" role="status"></div>
-<main id="main" tabindex="-1">
-<section class="section terminal-preview" id="news-terminal" aria-labelledby="news-terminal-heading">
-  <header class="terminal-preview-header">
-    <div>
-      <h1 id="news-terminal-heading">News Terminal</h1>
-      <p>Headlines and official releases as they come in.</p>
-    </div>
-    <a class="terminal-preview-open" href="./terminal.html">Open terminal <span aria-hidden="true">↗</span></a>
-  </header>
-  <div class="terminal-preview-grid">
-    <section class="terminal-stream" aria-labelledby="terminal-stream-heading">
-      <div class="terminal-stream-header">
-        <h2 id="terminal-stream-heading">Latest headlines</h2>
-        <p class="terminal-preview-status" id="terminal-preview-status" role="status"></p>
-      </div>
-      <ol class="terminal-preview-list" id="terminal-preview-list" role="list" aria-label="Latest terminal headlines, newest first" hidden></ol>
-      <noscript><p class="terminal-preview-status"><a href="./feed.xml">Read the Standalone News RSS feed</a>.</p></noscript>
-    </section>
-    <aside class="terminal-tools" aria-labelledby="terminal-tools-heading">
-      <h2 id="terminal-tools-heading">Explore the feed</h2>
-      <form action="./terminal.html" method="get" role="search" aria-label="Search the News Terminal">
-        <label for="terminal-preview-search">Keyword</label>
-        <div class="terminal-preview-search">
-          <input id="terminal-preview-search" name="q" type="search" maxlength="160" placeholder="Headline or source">
-          <button type="submit">Search</button>
-        </div>
-      </form>
-      <nav aria-label="Terminal topics">
-        <ul role="list">
-            <li><a href="./terminal.html?topic=World">World</a></li>
-            <li><a href="./terminal.html?topic=U.S.%20news">U.S. news</a></li>
-            <li><a href="./terminal.html?topic=Markets">Markets</a></li>
-            <li><a href="./terminal.html?topic=Economy">Economy</a></li>
-            <li><a href="./terminal.html?topic=Government">Government</a></li>
-            <li><a href="./terminal.html?topic=Technology">Technology</a></li>
-          <li class="terminal-official-link"><a href="./terminal.html?official=1">Official releases</a></li>
-        </ul>
+<body>
+  <a class="skip-link" href="#main">Skip to the terminal</a>
+  <header class="top" id="home">
+    <div class="shell top-inner">
+      <a class="brand" href="./">
+        <img src="./assets/sn-brand-logo.png" width="36" height="36" alt="">
+        <span>STANDALONE <strong>NEWS</strong></span>
+      </a>
+      <nav aria-label="Terminal panels">
+        <a href="#wire">News</a>
+        <a href="#x-posts">X posts</a>
+        <a href="#markets">Markets</a>
       </nav>
-    </aside>
-  </div>
-</section>
+      <details class="site-menu">
+        <summary>More</summary>
+        <ul role="list">
+          <li><a href="./edition.html">News edition</a></li>
+          <li><a href="./edition.html#brief">Daily brief</a></li>
+          <li><a href="./markets.html">Market desk</a></li>
+          <li><a href="./research.html">Company research</a></li>
+          <li><a href="./articles/">Explainers</a></li>
+          <li><a href="./sports.html">Sports</a></li>
+          <li><a href="./discuss.html">Community</a></li>
+          <li><a href="./accessibility.html">Accessibility</a></li>
+        </ul>
+      </details>
+    </div>
+  </header>
+  <main class="shell" id="main" tabindex="-1">
+    <h1 class="sr-only" id="news-terminal">Standalone News Terminal</h1>
+    <div class="layout" id="workspace">
+      <section class="workspace-panel wire" id="wire" aria-labelledby="feed-heading">
+        <header class="panel-heading">
+          <h2 id="feed-heading">News feed</h2>
+          <details id="feed-details" class="source-details" hidden>
+            <summary>Sources</summary>
+            <ul id="feed-sources"></ul>
+          </details>
+        </header>
+        <div class="feed-tools">
+          <div class="search-line" id="headline-search" hidden>
+            <label class="sr-only" for="keyword">Search headlines</label>
+            <input id="keyword" type="search" spellcheck="false" maxlength="160" placeholder="Search headlines or sources">
+            <button id="check-now" type="button" aria-disabled="false">Refresh</button>
+          </div>
+          <div class="filter-line">
+            <details class="filter-panel" id="filter-panel" hidden>
+          <summary>Filter headlines</summary>
+          <fieldset id="filters">
+          <legend class="sr-only">Filter headlines</legend>
+          <label for="topic">Topic</label>
+          <select id="topic"><option value="">All topics</option></select>
+          <label for="source">Source</label>
+          <select id="source"><option value="">All sources</option></select>
+          <label class="check"><input id="official" type="checkbox"> Official sources only</label>
+          <label for="exclude">Exclude words or phrases</label>
+          <input id="exclude" type="text" maxlength="160" placeholder="Separate entries with commas">
+          <button id="clear-filters" type="button">Clear filters</button>
+          </fieldset>
+        </details>
+            <label class="check" id="wire-actions" hidden><input id="auto-refresh" type="checkbox" checked> Auto-refresh</label>
+          </div>
+          <p class="status" id="feed-status">Connecting to publisher feeds…</p>
+          <span class="sr-only" id="connection-status" role="status"></span>
+          <button id="show-new" class="accent-button" type="button" aria-disabled="true" hidden>Show new headlines</button>
+          <span class="sr-only" id="new-status" role="status"></span>
+        </div>
+        <div class="panel-scroll" tabindex="0" role="region" aria-label="Headline list">
+          <p id="result-count" class="result-count" aria-live="polite" hidden></p>
+          <ol id="headlines" class="headlines" role="list" aria-label="Headlines, newest first"></ol>
+          <div id="paging" hidden><button id="show-more" type="button">Show more headlines</button></div>
+          <noscript><p class="panel-note"><a href="./feed.xml">Read our RSS feed</a> or enable JavaScript to view headlines here.</p></noscript>
+        </div>
+      </section>
 
-<section aria-label="Lead story and desks" class="lead-grid">
-<article class="lead-story" id="lead-story"><div class="lead-content"><div class="story-tags"><span class="red-label" id="lead-type">LEAD STORY</span><span class="soft-tag" id="lead-category">TOP NEWS</span></div><h2 id="lead-title">The stories shaping your day.</h2><p id="lead-summary">A calmer way to follow the news. Curated from attributed sources, with the original reporting one tap away.</p><details class="related-context" hidden="" id="lead-context"><summary>Why it matters · AI-assisted context</summary><p id="lead-context-summary"></p><a href="#explainers" id="lead-context-link">Read related explainer →</a></details><div class="lead-bottom"><div class="meta-line"><span id="lead-source">Standalone News</span><span class="meta-dot">·</span><time id="lead-time">—</time></div><div class="lead-actions"><button aria-describedby="lead-title" class="bookmark-btn" id="lead-save" type="button">♡ Save</button><a class="read-button" href="#wire" id="lead-link">Read original <span>↗</span></a></div><a class="photo-credit hero-photo-credit" hidden="" id="lead-photo-credit" rel="noopener noreferrer license" target="_blank"></a></div></div><div class="hero-art art-world" id="hero-art"><div class="art-lines"></div><div class="globe-shape"><i></i><b>SN</b></div><a class="hero-image-caption" hidden="" href="#top-stories">Illustrative photo</a></div></article>
+      <section class="workspace-panel social" id="x-posts" aria-labelledby="x-heading">
+        <header class="panel-heading">
+          <h2 id="x-heading">X posts</h2>
+          <a id="x-profile-link" href="https://x.com/federalreserve">Open on X</a>
+        </header>
+        <div class="panel-scroll" tabindex="0" role="region" aria-label="Public X timelines">
+          <div class="panel-tools">
+            <label for="x-account">Public account</label>
+            <div class="control-line">
+              <select id="x-account" autocomplete="off">
+                <option value="federalreserve">Federal Reserve</option>
+                <option value="BLS_gov">Bureau of Labor Statistics</option>
+                <option value="SECGov">SEC</option>
+                <option value="Reuters">Reuters</option>
+                <option value="AP">Associated Press</option>
+              </select>
+              <button id="load-x" type="button">Load timeline</button>
+            </div>
+            <p id="x-status" class="status" role="status">Select an account to view its public posts through X.</p>
+          </div>
+          <div id="x-timeline"></div>
+          <noscript><p class="panel-note">Open the account on X to read its posts.</p></noscript>
+        </div>
+      </section>
 
-<aside class="broadsheet-desk" aria-label="Explore the independent news desk"><span class="folio-label">THE READER'S INDEX</span><h2>Inside this edition.</h2><p>Every story begins with a source. Follow the subjects that matter to you.</p><nav class="desk-menu" aria-label="Sections in this edition"><a href="#wire"><strong>Latest dispatches ↗</strong><span>BREAKING · VERIFIED SOURCE LINKS</span></a><a href="./markets.html"><strong>The market desk ↗</strong><span>STOCKS · ECONOMY · POLICY</span></a><a href="./sports.html"><strong>The sports desk ↗</strong><span>UFC · GAMES · SCORES</span></a><a href="./research.html"><strong>Company research ↗</strong><span>SEC DOCUMENTS & INSIDER FILINGS</span></a><a href="./discuss.html"><strong>The discussion ↗</strong><span>COMMUNITY & READER VIEWS</span></a></nav><div class="desk-note"><strong>FROM THE EDITOR'S DESK</strong><p>Independent, automated news discovery with visible attribution and human-verifiable original sources.</p><a href="./standards.html">How we work ↗</a></div></aside>
-</section>
-<section class="section top-stories" id="top-stories"><div class="section-header"><div><span class="section-eyebrow">DESK PRIORITY · AUTOMATICALLY RANKED · SOURCE-LINKED</span><h2>Featured reporting<span class="red-period">.</span></h2><p class="section-desc">Four important stories selected for impact and source variety. Automatic ranking is not fact-checking.</p></div><a class="see-all" href="#wire">Browse all headlines <span>→</span></a></div><div class="story-grid" id="top-grid"><div class="empty-panel">Loading top stories…</div></div></section>
-<section class="section" id="sports-today" aria-labelledby="sports-today-title">
-  <div class="st-heading"><div><span class="st-kicker">THE SPORTS DESK · WORLD FOOTBALL · GAME DAY</span><h2 id="sports-today-title">Sports Today<span class="red-period">.</span></h2></div><a class="st-all" href="./sports.html">All sports, schedules &amp; scores ↗</a></div>
-  <div class="st-grid" id="st-sports-grid">
-    <section class="st-box" aria-labelledby="st-upcoming-title"><h3 id="st-upcoming-title">Coming up</h3><div class="st-list" id="st-upcoming"><p class="st-detail">Loading actual schedules…</p></div></section>
-    <section class="st-box" id="st-results-panel" aria-labelledby="st-results-title" hidden><h3 id="st-results-title">Latest final scores</h3><div class="st-list" id="st-results"><p class="st-detail">Checking published results…</p></div></section>
-    <section class="st-box" aria-labelledby="st-soccer-title"><h3 id="st-soccer-title">Worldwide soccer</h3><div class="st-list" id="st-soccer"><p class="st-detail">Checking international football fixtures…</p></div><a class="st-country-link" href="./sports.html#sports-filters">All soccer leagues ↗</a></section>
-    <section class="st-box" id="st-ufc-panel" aria-labelledby="st-ufc-title" hidden><h3 id="st-ufc-title">UFC &amp; MMA</h3><div class="st-list" id="st-ufc"><p class="st-detail">Checking fight cards…</p></div></section>
-  </div>
-  <p class="st-footnote" id="st-status" role="status" aria-live="polite">Loading source-linked sports information…</p>
-</section>
-
-<section class="section wire-section" id="wire"><div class="section-header"><div><span class="section-eyebrow">SOURCE-LINKED COVERAGE</span><h2>The live news wire<span class="red-period">.</span></h2><p class="section-desc">Scan recent coverage by topic and source. Use filters to find headlines, explainers or your saved stories.</p></div><p class="edition-feed-status" id="feed-status" role="status"></p><div class="wire-header-actions"><a class="see-all" href="./terminal.html">Open news terminal <span aria-hidden="true">↗</span></a><button class="refresh-button" id="reload-news" type="button">↻ Refresh</button></div></div><div aria-label="Search and filter news" class="wire-tools">
-<label class="search-box"><span aria-hidden="true" class="wire-search-icon">⌕</span><input aria-label="Search headlines, explainers, or saved stories" autocomplete="off" id="wire-search" placeholder="Search stories or publishers" type="search"/><span aria-hidden="true" class="search-shortcut">SEARCH</span></label>
-<div class="wire-quickbar">
-<div aria-label="Browse by topic" class="wire-filters" id="wire-filters"><button class="wire-filter active" data-topic="All" type="button">All</button><button class="wire-filter" data-topic="Markets" type="button">Markets</button><button class="wire-filter" data-topic="US News" type="button">U.S.</button><button class="wire-filter" data-topic="World" type="button">World</button><button class="wire-filter" data-topic="Government" type="button">Policy</button><button class="wire-filter" data-topic="Regulation" type="button">Regulation</button><button class="wire-filter" data-topic="Technology" type="button">Tech</button></div>
-<button aria-controls="wire-advanced" aria-expanded="false" class="wire-more-toggle" id="wire-more-toggle" type="button"><span aria-hidden="true" class="wire-more-icon">☷</span> More filters <span aria-hidden="true" class="wire-chevron">⌄</span></button>
-</div>
-<div class="wire-advanced" id="wire-advanced">
-<label class="outlet-filter"><span>NEWS OUTLET</span><select aria-label="Filter by source" id="wire-source"><option value="">All outlets</option></select></label>
-<div class="search-more-filters"><label>CONTENT<select aria-label="Search content type" id="search-scope"><option value="all">Headlines + explainers</option><option value="news">Headlines only</option><option value="explainers">Explainers only</option><option value="saved">Saved stories</option></select></label><label>DATE<select aria-label="Filter search by date" id="search-period"><option value="all">Any time</option><option value="day">Past 24 hours</option><option value="week">Past 7 days</option><option value="month">Past 30 days</option></select></label></div>
-</div>
-</div><p class="wire-count" id="wire-count">Waiting for headlines…</p><div class="wire-list" id="wire-list"></div><button class="load-more" hidden="" id="load-more" type="button">Show more headlines ↓</button></section>
-<!-- V18: Reader discussion invitation directly beneath Latest News Wire. -->
-
-
-
-
-
-
-
-
-<section class="section explainer-section" id="explainers"><div class="section-header"><div><span class="section-eyebrow">GO BEYOND THE HEADLINE</span><h2>Understand the context<span class="red-period">.</span></h2><p class="section-desc">AI-assisted explainers built from official public documents. Not human-reviewed; sources linked within each article.</p></div><a class="see-all" href="./articles/">All explainers →</a></div><div class="explainers-grid" id="explainer-grid"><div class="empty-panel">Explainers appear after source checks.</div></div></section><section aria-label="Market prices" class="market-strip"><div class="container strip-inner">
-<div class="strip-heading"><span class="strip-signal"></span><strong>MARKET WATCH</strong><small>Prices may be delayed</small></div>
-<div class="strip-quotes"><div class="tv-embed-shell tv-tape"><div aria-hidden="true" class="tape-placeholder"><span><b>SPY</b><small>S&amp;P 500 ETF</small></span><span><b>QQQ</b><small>Nasdaq ETF</small></span><span><b>NVDA</b><small>Nvidia</small></span><span><b>GLD</b><small>Gold ETF</small></span><span><b>USO</b><small>Oil ETF</small></span></div><div class="tradingview-widget-container" style="height:86px;width:100%"><div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div><script async="" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" type="text/javascript">{"symbols":[{"proName":"AMEX:SPY","title":"SPY · S&P 500 ETF"},{"proName":"NASDAQ:QQQ","title":"QQQ · Nasdaq ETF"},{"proName":"AMEX:DIA","title":"DIA · Dow ETF"},{"proName":"AMEX:IWM","title":"IWM · Russell 2000 ETF"},{"proName":"NASDAQ:NVDA","title":"Nvidia"},{"proName":"NASDAQ:AAPL","title":"Apple"},{"proName":"NASDAQ:MSFT","title":"Microsoft"},{"proName":"NASDAQ:TSLA","title":"Tesla"},{"proName":"AMEX:GLD","title":"GLD · Gold ETF"},{"proName":"AMEX:USO","title":"USO · Oil ETF"},{"proName":"NASDAQ:TLT","title":"TLT · Bond ETF"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"}],"showSymbolLogo":false,"colorTheme":"light","isTransparent":true,"displayMode":"adaptive","locale":"en"}</script></div><div class="tv-help">Quotes are external and can be delayed. <a href="https://www.tradingview.com/markets/" rel="noopener noreferrer" target="_blank">View markets ↗</a></div></div></div>
-<div aria-label="Live market quote changes" class="mobile-market-live" id="mobile-market-live">
-<div class="mobile-market-bar"><span><span aria-hidden="true" class="strip-signal"></span> MARKETS <small>Quote changes · may be delayed</small></span><a href="./markets.html">Full markets →</a></div>
-<div aria-label="Swipe horizontally for live TradingView stock prices and their daily changes" class="mobile-market-window" role="region" tabindex="0">
-<div class="mobile-market-inner" id="mobile-market-inner"><span class="mobile-market-fallback" id="mobile-market-fallback">Loading quotes from TradingView…</span></div>
-</div>
-<noscript><p class="mobile-market-noscript">Enable JavaScript for prices. <a href="https://www.tradingview.com/markets/" rel="noopener noreferrer" target="_blank">View quotes on TradingView ↗</a></p></noscript>
-</div>
-<a class="strip-more" href="./markets.html">ALL MARKETS <span>→</span></a>
-</div></section>
-<section class="section markets-section" id="markets"><div class="section-header"><div><span class="section-eyebrow">YOUR FINANCIAL DASHBOARD</span><h2>Market watch<span class="red-period">.</span></h2><p class="section-desc">Popular stocks and ETFs, commodity funds, and bond ETF prices. Actual futures contracts and official Treasury yields linked separately.</p></div><a class="see-all" href="./markets.html">Interactive charts &amp; news →</a></div><div class="markets-inner"><div class="market-topline"><div><strong>MARKET WATCHLIST</strong><p>SPY · QQQ · Stocks · Futures links · Gold · Oil · Bond ETFs</p></div><span class="quotes-status">External quotes · May be delayed</span></div><div class="market-desk-invite">
-<div class="market-desk-invite-copy"><span>NEW · THE MARKET DESK</span><strong>Look beyond the watchlist.</strong><p>Search stock symbols, explore interactive price charts and follow market-moving headlines in one place.</p></div>
-<div aria-label="Chart shortcuts" class="market-desk-invite-links"><a href="./markets.html?symbol=NASDAQ%3AAAPL">AAPL ↗</a><a href="./markets.html?symbol=NASDAQ%3ANVDA">NVDA ↗</a><a href="./markets.html?symbol=NASDAQ%3ATSLA">TSLA ↗</a><a href="./markets.html?symbol=AMEX%3ASPY">SPY ↗</a></div>
-<a class="market-desk-invite-action" href="./markets.html">Open the market desk <span aria-hidden="true">→</span></a>
-</div><p class="market-swipe-hint">Swipe sideways to see the full market quote table and daily changes →</p><div class="market-tabs"><button class="market-filter active" data-market="Indexes" type="button">Indexes</button><button class="market-filter" data-market="Stocks" type="button">Popular stocks</button><button class="market-filter" data-market="Futures" type="button">Futures &amp; ETFs</button><button class="market-filter" data-market="Oil &amp; metals" type="button">Oil &amp; gold</button><button class="market-filter" data-market="Bond ETFs" type="button">Bond ETFs</button></div><div id="market-panels">
-<div class="market-panel active" data-market-panel="Indexes"><div aria-live="polite" class="tv-lazy"><div class="tv-lazy-placeholder">Market quotes load when this tab opens.</div></div></div>
-<div class="market-panel" data-market-panel="Stocks"><div aria-live="polite" class="tv-lazy"><div class="tv-lazy-placeholder">Market quotes load when this tab opens.</div></div></div>
-<div class="market-panel" data-market-panel="Futures"><p class="tv-proxy-note"><strong>Futures-market tracker:</strong> SPY, QQQ, DIA and IWM are <strong>stock ETFs, not futures contracts</strong>. We removed restricted CME/CBOT futures symbols from embedded quotes; use the contract links below for actual futures information.</p><div aria-live="polite" class="tv-lazy"><div class="tv-lazy-placeholder">ETF prices load when this tab opens.</div></div><div class="tv-contract-links"><span>Actual index futures on TradingView:</span><a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/" rel="noopener noreferrer" target="_blank">S&amp;P 500 E-mini ↗</a><a href="https://www.tradingview.com/symbols/CME_MINI-NQ1!/" rel="noopener noreferrer" target="_blank">Nasdaq 100 E-mini ↗</a><a href="https://www.tradingview.com/symbols/CBOT_MINI-YM1!/" rel="noopener noreferrer" target="_blank">Dow E-mini ↗</a><a href="https://www.tradingview.com/symbols/CME_MINI-RTY1!/" rel="noopener noreferrer" target="_blank">Russell 2000 E-mini ↗</a></div></div>
-<div class="market-panel" data-market-panel="Oil &amp; metals"><div aria-live="polite" class="tv-lazy"><div class="tv-lazy-placeholder">Market quotes load when this tab opens.</div></div></div>
-<div class="market-panel" data-market-panel="Bond ETFs"><p class="tv-proxy-note"><strong>Bond ETFs are fund share prices, not Treasury yields.</strong> For official U.S. Treasury yield data, <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview?type=daily_treasury_yield_curve" rel="noopener noreferrer" target="_blank">view daily Treasury rates ↗</a>. Treasury bond ETF prices are below.</p><div aria-live="polite" class="tv-lazy"><div class="tv-lazy-placeholder">Market quotes load when this tab opens.</div></div></div>
-</div><div class="market-note"><span>ETF and CFD references are not direct futures prices. Embedded quotes by <a href="https://www.tradingview.com/" rel="noopener noreferrer" target="_blank">TradingView ↗</a>; availability and quote delays vary by exchange. Official Treasury yields are linked separately from bond ETF share prices.</span><span>Not investment advice.</span></div></div></section><div class="two-section-grid"><section class="section economy-section" id="economy"><div class="section-header smaller"><div><span class="section-eyebrow">WHAT'S MOVING MONEY</span><h2>Markets &amp; economy<span class="red-period">.</span></h2></div><a class="see-all" href="./markets.html">Market overview →</a></div><div class="category-list" id="economy-stories"><p class="placeholder">Loading economic coverage…</p></div></section><section class="section policy-section" id="government"><div class="section-header smaller"><div><span class="section-eyebrow">POLICY &amp; THE WORLD</span><h2>Government &amp; world<span class="red-period">.</span></h2></div><a class="see-all" href="#wire">More coverage →</a></div><div class="category-list" id="policy-stories"><p class="placeholder">Loading world coverage…</p></div></section></div><div class="insight-grid"><div class="insight-copy"><span class="insight-kicker">WHY STANDALONE?</span><h2>The story, the source,<br/><em>and the signal.</em></h2><p>Browse a balanced desk of original headlines, save the reporting you trust, and go deeper with source-linked explainers. No endless feed needed to get your bearings.</p></div><div class="side-explainer"><span class="eyebrow">LATEST STANDALONE EXPLAINER</span><div id="rail-explainer"><p class="placeholder">Explainers appear as they pass source checks.</p></div><a class="small-more" href="./articles/">Visit the context desk ↗</a></div></div><section aria-labelledby="wire-discuss-heading" id="wire-discuss-cta">
-<div class="discussion-invite-copy">
-<p class="discussion-invite-kicker">THE CONVERSATION CONTINUES</p>
-<h2 id="wire-discuss-heading">Read the news. Then discuss it<span class="discussion-punctuation">.</span></h2>
-<p class="discussion-invite-description">Debate the headlines, challenge ideas, and hear other perspectives in the Standalone News community. Everyone can read; sign in with your reader account to participate.</p>
-<div aria-label="Join a specific discussion room" class="discussion-room-links">
-<span class="discussion-room-label">Explore a room</span>
-<a href="./discuss.html?room=general">General</a>
-<a href="./discuss.html?room=politics">Politics</a>
-<a href="./discuss.html?room=markets">Markets</a>
-<a href="./discuss.html?room=world">World</a>
-<a href="./discuss.html?room=technology">Technology</a>
-</div>
-</div>
-<div class="discussion-invite-action">
-<a class="discussion-join-button" href="./discuss.html">Join the discussion <span aria-hidden="true">→</span></a>
-<span class="discussion-invite-note">Live chatrooms &amp; threaded discussions</span>
-</div>
-</section><section id="brief" class="section edition-reader-brief" aria-labelledby="reader-brief-heading">
-  <h2 id="reader-brief-heading">Daily brief</h2>
-  <details>
-    <summary>Show today’s five-story brief</summary>
-    <div class="edition-brief-content"><div class="edition-brief-actions"><button class="brief-prefs" id="brief-personalize" type="button">Choose topics</button></div><div class="brief-list" id="brief-list"><div class="brief-wait">Your briefing will appear here as new headlines arrive.</div></div><div class="brief-bottom"><span id="brief-note">Automatically selected from recent reporting.</span><a href="#wire">Full coverage →</a></div></div>
-  </details>
-</section>
-<section aria-labelledby="newsletter-heading" class="newsletter-band" id="newsletter"><div><span class="section-eyebrow">STAY IN THE KNOW</span><h2 id="newsletter-heading">The five stories worth your morning.</h2><p>A source-linked daily email. Optional significant-story alerts. No automatic AI-written claims, and you can unsubscribe at any time.</p></div><form hidden="" id="newsletter-form"><label for="newsletter-email">Email address</label><div class="newsletter-signup"><input autocomplete="email" id="newsletter-email" maxlength="254" name="email" placeholder="you@example.com" required="" type="email"/><button type="submit">Subscribe →</button></div><label class="newsletter-choice"><input id="newsletter-alerts" name="alerts" type="checkbox"/> Also send occasional major-story alerts (up to one per day)</label><label class="newsletter-choice"><input id="newsletter-consent" name="consent" required="" type="checkbox"/> I agree to receive Standalone News emails. <a href="./newsletter-privacy.html" rel="noopener noreferrer" target="_blank">Privacy information</a>.</label><input aria-hidden="true" autocomplete="off" class="honey" name="website" tabindex="-1" type="text"/><p class="newsletter-message" id="newsletter-message" role="status"></p></form><p class="newsletter-wait" id="newsletter-wait">Email signup will open once delivery is configured. In the meantime, use the 5-story brief on the site.</p></section><section class="about-band"><div><span>THE STANDALONE APPROACH</span><h2>Read widely. Know the source.</h2><p>Automated news selection is based on relevance, freshness, and source variety—not human editorial review. News from other publishers links to their reporting. Automated ranking is not fact verification. AI explainers are separate and labeled.</p></div><div class="about-links"><a href="./standards.html">How our newsroom works →</a><a href="./articles/">All explainers →</a></div></section></main></div>
-<footer aria-label="Site information" class="footer">
-<div class="container footer-main">
-<div class="footer-identity">
-<div class="footer-brand"><img alt="" height="36" src="./assets/sn-brand-logo.png" width="36"/><strong>STANDALONE <span>NEWS</span></strong></div>
-<p>Source-first headlines. Clearer context.</p>
-<address class="footer-address">12544 Kirkham Ct<br/>Poway, CA 92064, USA</address>
-<p class="footer-smallnote">Business mailing address · Not a walk-in newsroom</p>
-</div>
-<nav aria-label="Footer navigation" class="footer-nav">
-<div class="footer-nav-group"><h2>Read</h2>
-<a href="./terminal.html">News Terminal</a><a href="#top-stories">Top stories</a><a href="#wire">Latest news wire</a><a href="./markets.html">Markets</a><a href="./sports.html">Sports &amp; UFC</a><a href="./personalize.html">Personalize your news</a><a href="./discuss.html">Community discussions</a><a href="#brief">Five-story brief</a><a href="./articles/">Explainers</a>
-</div>
-<div class="footer-nav-group"><h2>About</h2>
-<a href="./standards.html">Editorial standards</a><a href="./contact.html">Contact &amp; corrections</a><a href="./accessibility.html">Accessibility</a><a href="#newsletter">Email newsletter</a>
-</div>
-<div class="footer-nav-group"><h2>Legal</h2>
-<a href="./privacy.html">Privacy policy</a><a href="./terms.html">Terms of use</a><a href="./newsletter-privacy.html">Newsletter privacy</a>
-</div>
-</nav>
-</div>
-<div class="container footer-bottom"><span>© <span id="year"></span> Standalone News · All rights reserved.</span><span>Market prices may be delayed · All timestamps in 24-hour UTC</span></div>
-</footer>
-<nav class="sn-six-bottom" aria-label="Mobile shortcuts">
-<a class="sn-six-tab active" href="#home" data-mobile-nav="home"><span class="sn-six-icon" aria-hidden="true">⌂</span><span class="sn-six-label">Today</span></a>
-<a class="sn-six-tab" href="./terminal.html"><span class="sn-six-icon" aria-hidden="true">≡</span><span class="sn-six-label">Terminal</span></a>
-<a class="sn-six-tab" href="./markets.html"><span class="sn-six-icon" aria-hidden="true">⌁</span><span class="sn-six-label">Markets</span></a>
-<a class="sn-six-tab" href="./sports.html"><span class="sn-six-icon" aria-hidden="true">🏆</span><span class="sn-six-label">Sports</span></a>
-<button class="sn-six-tab" id="mobile-saved" type="button"><span class="sn-six-icon" aria-hidden="true">♡</span><span class="sn-six-label">Saved</span></button>
-<a class="sn-six-tab" href="./discuss.html"><span class="sn-six-icon" aria-hidden="true">◎</span><span class="sn-six-label">Discuss</span></a>
-</nav>
-<div class="modal-overlay" hidden="" id="saved-overlay"><section aria-labelledby="saved-title" aria-modal="true" class="modal-window saved-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR READING LIST</span><h2 id="saved-title">Saved stories</h2></div><button aria-label="Close saved" class="modal-close" data-close="saved-overlay" type="button">×</button></div><p class="modal-intro" id="saved-context">Your saved stories stay on this browser. No account needed.</p><button class="saved-account-link" hidden="" id="saved-account-link" type="button">Sign in to sync your reading list →</button><div class="saved-list" id="saved-list"></div><button class="clear-btn" id="clear-saved" type="button">Remove all saved stories</button></section></div>
-<div class="modal-overlay" hidden="" id="brief-overlay"><section aria-labelledby="prefs-title" aria-modal="true" class="modal-window brief-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR DAILY BRIEF</span><h2 id="prefs-title">Pick your interests</h2></div><button aria-label="Close preferences" class="modal-close" data-close="brief-overlay" type="button">×</button></div><p class="modal-intro">Choose topics to prioritize. We'll still aim to include a variety of original sources.</p><div class="preference-grid" id="preference-grid"></div><h3 class="publisher-prefs-title">Follow publishers</h3><p class="publisher-prefs-help">Prioritize your favorite outlets in the brief and your reading desk. Preferences are saved on this device.</p><div class="publisher-preference-grid" id="publisher-preference-grid"></div><div class="prefs-buttons"><button class="clear-btn" id="reset-prefs" type="button">Reset topics</button><button class="read-button" id="save-prefs" type="button">Save preferences →</button></div></section></div>
-<div class="modal-overlay" hidden="" id="account-overlay"><section aria-labelledby="account-title" aria-modal="true" class="modal-window account-dialog" role="dialog"><div class="modal-top"><div><span class="eyebrow">YOUR STANDALONE NEWS</span><h2 id="account-title">Reader account</h2></div><button aria-label="Close account" class="modal-close" data-close="account-overlay" type="button">×</button></div>
-<p class="modal-intro">Save story links privately and access your reading list on another device. No subscription required.</p>
-<div class="account-note" id="account-wait">Checking your account…</div>
-<form hidden="" id="account-email-form"><label for="account-email">Email address</label><input autocomplete="email" id="account-email" inputmode="email" maxlength="254" name="email" placeholder="you@example.com" required="" type="email"/><button class="read-button" type="submit">Email me a sign-in link →</button><p class="account-fine">We'll email you a one-time sign-in link. No password needed.</p></form>
-<div hidden="" id="account-signed"><p>Signed in as <strong id="account-identity"></strong></p><p class="account-note" id="account-count"></p><button class="import-btn" hidden="" id="account-import" type="button">Import bookmarks saved on this browser</button><button class="clear-btn" id="account-signout" type="button">Sign out</button></div>
-<p aria-live="polite" class="account-message" id="account-message" role="status"></p>
-</section></div>
-<div class="toast" hidden="" id="toast" role="status"></div>
-</body></html>
+      <section class="workspace-panel market" id="markets" aria-labelledby="market-heading">
+        <header class="panel-heading">
+          <h2 id="market-heading">Markets</h2>
+          <a href="./markets.html">Market desk</a>
+        </header>
+        <div class="panel-scroll" tabindex="0" role="region" aria-label="Market chart and watchlist">
+          <div class="panel-tools">
+            <label for="market-symbol">Chart symbol</label>
+            <select id="market-symbol" autocomplete="off">
+              <option value="AMEX:SPY">SPY · S&amp;P 500 ETF</option>
+              <option value="NASDAQ:QQQ">QQQ · Nasdaq 100 ETF</option>
+              <option value="NASDAQ:NVDA">NVDA · Nvidia</option>
+              <option value="NASDAQ:AAPL">AAPL · Apple</option>
+              <option value="AMEX:GLD">GLD · Gold ETF</option>
+              <option value="COINBASE:BTCUSD">BTC · Bitcoin</option>
+              <option value="COINBASE:ETHUSD">ETH · Ethereum</option>
+            </select>
+            <p class="status">Quotes and charts by <a href="https://www.tradingview.com/">TradingView</a>. Prices may be delayed.</p>
+          </div>
+          <div id="market-chart" class="market-chart" role="group" aria-label="Interactive market chart" hidden></div>
+          <a id="market-chart-link" class="market-link" href="https://www.tradingview.com/symbols/AMEX-SPY/">Open chart on TradingView</a>
+          <h3 class="watchlist-heading">Watchlist</h3>
+          <div id="market-quotes" class="market-quotes" role="group" aria-label="Market quotes" hidden></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="shell page-footer">
+    <a href="./edition.html#brief">Daily brief</a>
+    <a href="./feed.xml">RSS</a>
+    <a href="./standards.html">Editorial standards</a>
+    <a href="./accessibility.html">Accessibility</a>
+    <a href="./privacy.html">Privacy</a>
+  </footer>
+</body>
+</html>

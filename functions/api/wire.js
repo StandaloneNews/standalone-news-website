@@ -6,6 +6,10 @@ const SOURCES = [
   { name: 'BBC News', topic: 'World', official: false, url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
   { name: 'CNBC', topic: 'Markets', official: false, url: 'https://www.cnbc.com/id/100003114/device/rss/rss.html' },
   { name: 'The Guardian', topic: 'US News', official: false, url: 'https://www.theguardian.com/us/rss' },
+  { name: 'PBS News', topic: 'US News', official: false, url: 'https://www.pbs.org/newshour/feeds/rss/headlines' },
+  { name: 'NPR', topic: 'US News', official: false, url: 'https://feeds.npr.org/1001/rss.xml' },
+  { name: 'TechCrunch', topic: 'Technology', official: false, url: 'https://techcrunch.com/feed/' },
+  { name: 'Al Jazeera English', topic: 'World', official: false, url: 'https://www.aljazeera.com/xml/rss/all.xml' },
 ];
 
 const FEED_LIMIT = 512 * 1024;
