@@ -1,0 +1,150 @@
+name: Verify News Terminal accessibility in production
+
+on:
+  push:
+    branches: [ops/terminal-publish-smoke]
+    paths: [.github/workflows/terminal-publish-smoke.yml]
+
+permissions: {}
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Wait for the homepage terminal section
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import time
+          from urllib.request import Request, urlopen
+
+          site = "https://standalonenews.com"
+
+          def read(path):
+              request = Request(site + path, headers={
+                  "User-Agent": "StandaloneNewsDeployCheck/1.0",
+                  "Cache-Control": "no-cache",
+              })
+              with urlopen(request, timeout=10) as response:
+                  return response.headers, response.read(2_000_000)
+
+          for attempt in range(1, 9):
+              try:
+                  _, page = read("/")
+                  if b'id="news-terminal"' not in page or b"home-terminal.js" not in page:
+                      raise ValueError("Waiting for the homepage terminal section")
+                  _, feed = read("/api/wire")
+                  payload = json.loads(feed)
+                  responding = sum(source["available"] is True for source in payload["feeds"])
+                  if not responding:
+                      raise ValueError("No direct feed sources responding")
+                  print(f"Homepage terminal section verified. Feed: {responding} of {len(payload['feeds'])} sources, {len(payload['items'])} entries.")
+                  break
+              except (OSError, ValueError, KeyError) as exc:
+                  print(f"Attempt {attempt}: {exc}", flush=True)
+                  if attempt == 8:
+                      raise SystemExit(1) from exc
+                  time.sleep(12)
+          PY
+      - name: Check keyboard, reflow and WCAG rules in Chrome
+        shell: bash
+        run: |
+          npm install --prefix "$RUNNER_TEMP/terminal-a11y" --no-audit --no-fund axe-core@4.10.3
+          chrome="$(command -v google-chrome || command -v chromium)"
+          "$chrome" --headless --disable-dev-shm-usage --no-sandbox \
+            --user-data-dir="$(mktemp -d)" --remote-debugging-port=9222 about:blank \
+            >"$RUNNER_TEMP/terminal-chrome.log" 2>&1 &
+          chrome_pid=$!
+          trap 'kill "$chrome_pid" 2>/dev/null || true' EXIT
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import { readFileSync } from 'node:fs';
+          const axe = readFileSync(process.env.RUNNER_TEMP + '/terminal-a11y/node_modules/axe-core/axe.min.js', 'utf8');
+          import { setTimeout as delay } from 'node:timers/promises';
+          const endpoint = 'http://127.0.0.1:9222/json/list';
+          let targets;
+          for (let attempt = 0; attempt < 30 && !targets; attempt++) {
+            try { targets = await (await fetch(endpoint)).json(); }
+            catch { await delay(300); }
+          }
+          assert(targets, 'Chrome DevTools did not start');
+          const socket = new WebSocket(targets.find(target => target.type === 'page').webSocketDebuggerUrl);
+          await new Promise((resolve, reject) => {
+            socket.addEventListener('open', resolve, { once: true });
+            socket.addEventListener('error', reject, { once: true });
+          });
+          const pending = new Map();
+          let nextId = 0;
+          socket.onmessage = ({ data }) => {
+            const message = JSON.parse(data);
+            const callback = pending.get(message.id);
+            if (!callback) return;
+            pending.delete(message.id);
+            clearTimeout(callback.timeout);
+            if (message.error) callback.reject(Error(message.error.message));
+            else callback.resolve(message.result);
+          };
+          function call(method, params = {}) {
+            return new Promise((resolve, reject) => {
+              const id = ++nextId;
+              const timeout = setTimeout(() => reject(Error(method + ' timed out')), 10000);
+              pending.set(id, { resolve, reject, timeout });
+              socket.send(JSON.stringify({ id, method, params }));
+            });
+          }
+          async function evaluate(expression) {
+            const result = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
+            if (result.exceptionDetails) throw Error(result.exceptionDetails.exception?.description ?? result.exceptionDetails.text);
+            return result.result.value;
+          }
+          async function waitFor(expression) {
+            for (let attempt = 0; attempt < 65; attempt++) {
+              if (await evaluate(expression)) return;
+              await delay(300);
+            }
+            assert.fail('Timed out waiting for ' + expression);
+          }
+          const site = 'https://standalonenews.com';
+          const tags = ['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa'];
+          async function audit(selector) {
+            await evaluate(axe);
+            const result = await evaluate('axe.run(' + JSON.stringify(selector) + ', {runOnly: ' + JSON.stringify(tags) + '}).then(result => ({ violations: result.violations.map(({id, nodes}) => ({id, nodes: nodes.map(node => node.target)})), checked: result.passes.length }))');
+            assert(result.checked > 0, 'Expected at least one applicable accessibility check');
+            assert.deepEqual(result.violations, [], 'Accessibility scan of ' + selector);
+            console.log(selector + ': ' + result.checked + ' applicable axe checks passed.');
+          }
+          try {
+            for (const width of [1440, 390, 320]) {
+              await call('Emulation.setDeviceMetricsOverride', {
+                width, height: 900, deviceScaleFactor: 1, mobile: width < 600,
+              });
+              await call('Page.navigate', { url: site + '/#news-terminal' });
+              await waitFor('Boolean(document.querySelector("#news-terminal"))');
+              await evaluate('document.querySelector("#news-terminal").scrollIntoView({ block: "center", behavior: "instant" })');
+              await waitFor('Boolean(document.querySelector("#terminal-preview-list li a"))');
+              const metrics = await evaluate('(() => { const section = document.querySelector("#news-terminal"); const rect = section.getBoundingClientRect(); return {viewport: innerWidth, left: rect.left, right: rect.right, overflow: section.scrollWidth > section.clientWidth, links: [...section.querySelectorAll("a")].map(link => ({height: link.getBoundingClientRect().height, name: link.textContent.trim()})) }; })()');
+              assert.equal(metrics.viewport, width);
+              assert(!metrics.overflow && metrics.left >= 0 && metrics.right <= width + 1, 'Section horizontal overflow at ' + width);
+              assert(metrics.links.length > 1 && metrics.links.length <= 6);
+              assert(metrics.links.every(link => link.height >= 44 && link.name));
+              await evaluate('document.querySelector(".terminal-preview-open").focus()');
+              await call('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
+              await call('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Tab', code: 'Tab', windowsVirtualKeyCode: 9 });
+              const focus = await evaluate('(() => { const link = document.querySelector("#terminal-preview-list li a"); const rect = link.getBoundingClientRect(); const hit = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height / 2); return { moved: document.activeElement === link, visible: link.contains(hit), outline: getComputedStyle(link).outlineWidth }; })()');
+              assert.deepEqual(focus, {moved: true, visible: true, outline: '3px'});
+              await audit('#news-terminal');
+              console.log(width + 'px: tap targets, keyboard traversal, visible focus and reflow passed.');
+            }
+            await call('Page.navigate', { url: site + '/terminal' });
+            await waitFor('Boolean(document.querySelector("#headlines li a"))');
+            await evaluate('document.querySelector("#keyword").value = "unique-no-results-smoke-test"; document.querySelector("#keyword").dispatchEvent(new Event("input"));');
+            await waitFor('document.querySelector("#result-count")?.textContent.includes("No headlines match")');
+            await evaluate('document.querySelector("#keyword").value = ""; document.querySelector("#keyword").dispatchEvent(new Event("input"));');
+            await audit('body');
+            console.log('The full terminal loaded live headlines and keyword filtering worked.');
+          } finally {
+            socket.close();
+          }
+          JS
