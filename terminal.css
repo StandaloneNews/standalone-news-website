@@ -162,6 +162,19 @@ fieldset { min-inline-size: 0; margin: 0; padding: .65rem 0 0; border: 0; }
 .utility-link { display: inline-flex; align-items: center; min-block-size: 44px; font-size: .875rem; }
 .utility-link:hover { color: var(--accent); }
 .panel-tools label { display: block; margin-block-end: .3rem; }
+.headline-display, .headline-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem 1rem;
+}
+.headline-display { padding-block: .25rem .6rem; }
+.headline-display .result-count { margin: 0; }
+.headline-page-size { display: flex; align-items: center; gap: .5rem; color: var(--muted); font-size: .875rem; }
+.headline-page-size select { min-inline-size: 4rem; }
+.headline-pagination { border-block-start: 1px solid var(--rule); padding-block-start: .75rem; color: var(--muted); font-size: .875rem; }
+.headline-pagination button:disabled { color: var(--muted); cursor: default; opacity: .75; }
 .headlines { margin: 0; padding: 0; list-style: none; }
 .row { padding: .8rem 0 .9rem; border-top: 1px solid var(--rule); overflow-wrap: anywhere; }
 .row-title { display: inline-flex; align-items: center; min-block-size: 34px; line-height: 1.35; font-size: 1.08rem; font-weight: 650; }

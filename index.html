@@ -8,8 +8,8 @@
   <title>Standalone News Terminal</title>
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
-  <link rel="stylesheet" href="./terminal.css?v=12">
-  <script type="module" src="./terminal.js?v=10"></script>
+  <link rel="stylesheet" href="./terminal.css?v=13">
+  <script type="module" src="./terminal.js?v=11"></script>
   <script type="module" src="./terminal-panels.js?v=7"></script>
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
@@ -97,9 +97,25 @@
           <button id="show-new" class="accent-button" type="button" aria-disabled="true" hidden>Show new headlines</button>
           <span class="sr-only" id="new-status" role="status"></span>
         </div>
-        <div class="feed-list">
-          <p id="result-count" class="result-count" aria-live="polite" hidden></p>
+        <div class="feed-list" id="feed-list">
+          <div class="headline-display" id="headline-display" hidden>
+            <p id="result-count" class="result-count" aria-live="polite"></p>
+            <div class="headline-page-size">
+              <label for="headline-page-size">Headlines per page</label>
+              <select id="headline-page-size">
+                <option value="10">10</option>
+                <option value="25" selected>25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+              </select>
+            </div>
+          </div>
           <ol id="headlines" class="headlines" role="list" aria-label="Headlines, newest first"></ol>
+          <nav class="headline-pagination" id="headline-pagination" aria-label="Headline pages" hidden>
+            <button type="button" id="headlines-previous">Previous</button>
+            <span id="headline-page-number"></span>
+            <button type="button" id="headlines-next">Next</button>
+          </nav>
           <noscript><p class="panel-note"><a href="./feed.xml">Read our RSS feed</a> or enable JavaScript to view headlines here.</p></noscript>
         </div>
       </section>

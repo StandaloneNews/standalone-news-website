@@ -6,6 +6,11 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   const $ = id => document.getElementById(id);
   const refreshInterval = 60_000;
   const headlines = $('headlines');
+  const pageSize = $('headline-page-size');
+  const previousPage = $('headlines-previous');
+  const nextPage = $('headlines-next');
+  const pageSizePreference = 'standalone-headlines-per-page';
+  const countFormat = new Intl.NumberFormat('en-US');
   const showNew = $('show-new');
   const checkNow = $('check-now');
   const autoRefresh = $('auto-refresh');
@@ -21,6 +26,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   official.checked = params.get('official') === '1';
   if (initialTopic) topic.add(new Option(initialTopic, initialTopic, true, true));
 
+  try {
+    const savedSize = localStorage.getItem(pageSizePreference);
+    if ([...pageSize.options].some(option => option.value === savedSize)) pageSize.value = savedSize;
+  } catch { /* The browser can block storage. Use the current selection. */ }
+
+  let page = 1;
   let known = new Map();
   let displayed = [];
   let displayedKeys = new Set();
@@ -74,7 +85,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
   }
 
   function renderItems() {
-    const rows = matches();
+    const filtered = matches();
+    const size = Number(pageSize.value);
+    const pageCount = Math.max(1, Math.ceil(filtered.length / size));
+    page = Math.min(pageCount, Math.max(1, page));
+    const offset = (page - 1) * size;
+    const rows = filtered.slice(offset, offset + size);
     const fragment = document.createDocumentFragment();
     for (const item of rows) {
       const li = node('li', undefined, 'row');
@@ -95,13 +111,18 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       li.append(detail);
       fragment.append(li);
     }
+    headlines.start = offset + 1;
     headlines.replaceChildren(fragment);
+    $('headline-display').hidden = false;
     const count = $('result-count');
-    count.hidden = false;
-    count.classList.toggle('sr-only', Boolean(rows.length));
     count.textContent = rows.length
-      ? rows.length + (rows.length === 1 ? ' headline' : ' headlines')
+      ? 'Showing ' + countFormat.format(offset + 1) + '–' + countFormat.format(offset + rows.length)
+        + ' of ' + countFormat.format(filtered.length) + (filtered.length === 1 ? ' headline' : ' headlines')
       : displayed.length ? 'No headlines match these filters.' : 'No headlines are available yet.';
+    $('headline-pagination').hidden = pageCount <= 1;
+    previousPage.disabled = page <= 1;
+    nextPage.disabled = page >= pageCount;
+    $('headline-page-number').textContent = 'Page ' + countFormat.format(page) + ' of ' + countFormat.format(pageCount);
   }
 
   function showCurrent() {
@@ -192,10 +213,28 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     }
   }
 
+  function firstPage() {
+    page = 1;
+    renderItems();
+  }
+
+  function changePage(direction) {
+    page += direction;
+    renderItems();
+    $('feed-list').scrollIntoView({ block: 'start', behavior: 'instant' });
+    headlines.querySelector('a')?.focus({ preventScroll: true });
+  }
+
+  previousPage.addEventListener('click', () => changePage(-1));
+  nextPage.addEventListener('click', () => changePage(1));
+  pageSize.addEventListener('change', () => {
+    try { localStorage.setItem(pageSizePreference, pageSize.value); }
+    catch { /* Pagination still works without stored preferences. */ }
+    firstPage();
+  });
+
   for (const filter of [keyword, exclude, topic, source, official]) {
-    filter.addEventListener(filter instanceof HTMLInputElement && filter.type !== 'checkbox' ? 'input' : 'change', () => {
-      renderItems();
-    });
+    filter.addEventListener(filter instanceof HTMLInputElement && filter.type !== 'checkbox' ? 'input' : 'change', firstPage);
   }
   $('clear-filters').addEventListener('click', () => {
     keyword.value = '';
@@ -203,10 +242,11 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     topic.value = '';
     source.value = '';
     official.checked = false;
-    renderItems();
+    firstPage();
   });
   showNew.addEventListener('click', () => {
     if (!pending.length) return;
+    page = 1;
     showCurrent();
     renderPending();
   });
