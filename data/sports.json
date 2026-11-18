@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T09:15:52Z",
+  "updated_at": "2026-11-18T18:13:22Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 15,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "aleague",
@@ -654,22 +654,284 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2492922",
+      "league": "j1",
+      "name": "Kashima Antlers vs Shimizu S-Pulse",
+      "date": "2026-11-20T10:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Kashima Antlers",
+          "score": ""
+        },
+        {
+          "name": "Shimizu S-Pulse",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Australia v England – third and deciding men’s one-day cricket international – live",
+      "title": "Mauricio Pochettino’s USMNT time will be remembered fondly, but it wasn’t transformational",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/18/australia-vs-england-cricket-third-odi-mens-one-day-international-hobart-aus-v-eng-live-scores-updates",
-      "date": "2026-11-18T09:10:09Z",
+      "url": "https://www.theguardian.com/football/2026/nov/18/pochettino-usmnt-manchester-united",
+      "date": "2026-11-18T18:00:04Z",
       "league": "all"
     },
     {
-      "title": "‘It was the whole team’: Cameron Bancroft blows lid off Australia’s sandpaper scandal",
+      "title": "Alexander Zverev notified of abuse lawsuit by ex-partner during ATP Finals",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/alexander-zverev-abuse-lawsuit-atp-finals-finals-brenda-patea",
+      "date": "2026-11-18T17:52:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Rooney revelations important - Bradford boss Duff",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvrlgke13e9go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T17:52:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "All Blacks nightmare was making of me - Van Poortvliet",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm930lv7kgx2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T17:44:36Z",
+      "league": "all"
+    },
+    {
+      "title": "From Dunfermline to Dubai - McPake on new life in Middle East",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6j9m1ygw427o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T17:06:29Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Prem opens registration for expansion to 12 teams",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cje39nwzryw3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:46:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Zverev to defend himself against fresh lawsuit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c60rkq9kweego?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:27:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Bancroft throws Cummins’ future into doubt after blowing lid off Australia sandpaper scandal",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/18/cameron-bancroft-sandpapergate-ball-tampering-australia-cricket-ntwnfb",
-      "date": "2026-11-18T09:01:03Z",
+      "date": "2026-11-18T16:20:17Z",
       "league": "all"
+    },
+    {
+      "title": "72+: The EFL Podcast",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pnnkrh?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:15:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The sandpaper plot - who was there, who said what?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:13:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Price fighting to be Wales' first undisputed world champion",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6pw4xyr84yyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:10:46Z",
+      "league": "all"
+    },
+    {
+      "title": "The tightest survival scrap for years? Why it's not too early to worry",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj3vgp36z063o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:09:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Alcaraz continues winning run despite injury concern",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cmdx1erlpqkxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:01:47Z",
+      "league": "all"
+    },
+    {
+      "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
+      "date": "2026-11-18T16:00:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
+      "date": "2026-11-18T15:16:44Z",
+      "league": "all"
+    },
+    {
+      "title": "Divide and conquer - now maverick Erasmus plans online watchalong",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg28v20xy0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T15:02:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Prem Rugby fires starting gun on 12-team expansion plan with £20m entry fee",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/prem-rugby-union-12-team-expansion-plan-20m-entry-fee",
+      "date": "2026-11-18T14:30:03Z",
+      "league": "all"
+    },
+    {
+      "title": "LeBron James sues sports betting app Bron for using nickname and likeness without permission",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/lebron-james-bron-betting-app-lawsuit",
+      "date": "2026-11-18T14:03:25Z",
+      "league": "all"
+    },
+    {
+      "title": "Israel row a 'defining moment for us' - Hallgrimsson",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/credqnv9xe4vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:05:48Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Reid Wiseman, the astronaut shooting for the moon in F1 with Mercedes",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/reid-wiseman-the-rocketman-shooting-for-the-moon-in-f1-with-mercedes",
+      "date": "2026-11-18T13:00:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Toney loses bid to avoid Euro 2028 court clash",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T12:46:12Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Joint-record six referee errors in last Premier League weekend",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T12:38:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Netflix, Fox and the $2bn bid for the 2030 World Cup that could reshape live sports",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/netflix-fox-2030-world-cup-television-rights",
+      "date": "2026-11-18T12:01:00Z",
+      "league": "all"
+    },
+    {
+      "title": "‘When I walked for Burberry I met Kanye West’: the two lives of Bromley footballer Omar Sowunmi",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/omar-sowunmi-bromley-footballer-model-kanye-west",
+      "date": "2026-11-18T12:00:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Josh Kerr: The Man Behind the Sunglasses",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m00350ld?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T12:00:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Duckett’s bold 133 steers England to ODI series win as sandpapergate latest rocks Australia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/ben-duckett-steers-england-odi-cricket-series-win-sandpapergate-australia",
+      "date": "2026-11-18T11:48:57Z",
+      "league": "all"
+    },
+    {
+      "title": "Duckett ton & impressive bowlers give England series win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6vg28end00xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T11:24:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Explosive Bancroft sandpaper claims heap pressure on Cummins",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T11:12:46Z",
+      "league": "all"
+    },
+    {
+      "title": "The Spin | Sandpapergate’s ‘war of the ghosts’ highlights perils of relying on recall",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/cricket-the-spin-australia-sandpaper-war-ghosts-highlights-perils-relying-recall",
+      "date": "2026-11-18T11:00:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Record crowds, legends - Bordeaux bid to escape amateur game",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:51:37Z",
+      "league": "all"
+    },
+    {
+      "title": "Williams to join temporary Swansea coaching team",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:48:39Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Former Spain midfielder Mata retires aged 38",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:12:46Z",
+      "league": "all"
+    },
+    {
+      "title": "NI will carry momentum into Euro 2028 qualifiers",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck9q8jg1l45do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T10:04:44Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Fifa’s World Cup TV rights documents indicate hydration breaks to stay in 2030",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/18/fifa-hydration-breaks-2030-world-cup-tv-right-documents",
+      "date": "2026-11-18T09:29:03Z",
+      "league": "soccer"
     },
     {
       "title": "Manchester won't always be blue - Pochettino",
@@ -743,234 +1005,10 @@
     },
     {
       "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6ly5dq07wk5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T06:56:12Z",
-      "league": "all"
-    },
-    {
-      "title": "The 3pm football blackout: Outdated or still relevant in 2026?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwvg2mxkd4x8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T06:27:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Wales show they have bench impact in All Blacks win",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4gnp53x9rzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T06:14:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Cricket Australia sets up 'safe space' for players to share sandpapergate experiences",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c58j48elrwvyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T04:48:56Z",
-      "league": "all"
-    },
-    {
-      "title": "A 2-0 win over Haiti ends Pochettino’s USMNT tenure with confident hope",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/17/usmnt-haiti-nations-league-mauricio-pochettino",
-      "date": "2026-11-18T02:19:36Z",
       "league": "soccer"
-    },
-    {
-      "title": "Belief and bench help Northern Ireland scale new heights as promotion secured",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwp9dxr80p3po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T23:49:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Bellamy convinced of Wales credentials despite defeat by Portugal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn507wn6gg3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T23:37:45Z",
-      "league": "all"
-    },
-    {
-      "title": "Nations League roundup: Devenny’s divine strike lifts Northern Ireland to top tier",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/nations-league-northern-ireland-hungary-norway-denmark",
-      "date": "2026-11-17T23:35:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Republic of Ireland talisman Parrott caps dream year with two more goals",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqzjr3yr2z0eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T23:10:33Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Humphries and Van Gerwen into Grand Slam knockouts",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/darts/articles/c6jd7el8d9kyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T22:57:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Senegal and Morocco lead Afcon qualifiers but Tunisia protest",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T22:54:51Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Former world boxing champion Jorge Linares faces deportation after ICE arrest",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/jorge-linares-boxing-champion-ice-detention-texas",
-      "date": "2026-11-17T22:43:15Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool lead Chelsea in Camara race - Wednesday's gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvx2xwx604y0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T22:25:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-      "date": "2026-11-17T22:14:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Zverev takes straight-sets win against Shelton in ATP Finals group stage – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live",
-      "date": "2026-11-17T22:03:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Highlights: Ten-man Portugal beat Wales to top group",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy8p49xp25o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T21:56:04Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Heads should roll’: owner of Melbourne Cup horse found dumped in skip bin demands investigation",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/18/stuart-ramsey-calls-for-investigation-so-you-are-melbourne-cup-horse-found-skip-bin-ntwnfb",
-      "date": "2026-11-17T21:23:47Z",
-      "league": "all"
-    },
-    {
-      "title": "Ben Earl calls for future Nations Championship finals in Las Vegas, Hong Kong or Brazil",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-ben-earl-england-future-nations-championship-finals-las-vegas",
-      "date": "2026-11-17T21:22:43Z",
-      "league": "all"
-    },
-    {
-      "title": "Rangers great Brand dies aged 89",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c933g4eegmp8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T21:02:57Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
-      "date": "2026-11-17T20:00:20Z",
-      "league": "all"
-    },
-    {
-      "title": "JJ Gabriel confirms Manchester United exit: ‘You gave me moments I will always treasure’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/jj-gabriel-confirms-manchester-united-exit-video",
-      "date": "2026-11-17T19:50:48Z",
-      "league": "all"
-    },
-    {
-      "title": "Madrid-bound Gabriel posts farewell Man Utd message",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg2e4208zmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T19:35:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Danny Kelly obituary",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/media/2026/nov/17/danny-kelly-obituary",
-      "date": "2026-11-17T17:46:04Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Arsenal Double winner Storey dies aged 81",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63eg3ekxnpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T17:33:41Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘I’m entering to win’: Philippe Diallo launches campaign to topple Gianni Infantino",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/17/im-entering-to-win-philippe-diallo-launches-campaign-to-topple-gianni-infantino",
-      "date": "2026-11-17T17:18:18Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Wayne Rooney says he contemplated taking own life during playing career",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-      "date": "2026-11-17T17:13:23Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-      "date": "2026-11-17T16:59:54Z",
-      "league": "all"
-    },
-    {
-      "title": "South Africa head coach Erasmus banned for six matches",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj752w5q7z90o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T16:09:24Z",
-      "league": "all"
-    },
-    {
-      "title": "FA wants to host Nations League finals in England",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T15:51:30Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Peter Storey, Arsenal Double winner and England international, dies aged 81",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/17/peter-storey-arsenal-england-dies-aged-81",
-      "date": "2026-11-17T15:46:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-      "date": "2026-11-17T15:00:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Rooney says he considered taking his own life at Man Utd",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cx1l0n3v003eo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T14:09:19Z",
-      "league": "all"
-    },
-    {
-      "title": "DeChambeau joins DP World Tour after LIV Golf collapse",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c5vg27yzm9exo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-17T13:44:17Z",
-      "league": "all"
     }
   ]
 }
