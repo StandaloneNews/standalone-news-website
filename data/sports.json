@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-18T18:13:22Z",
+  "updated_at": "2026-11-19T00:32:52Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 15,
+  "sources_ok": 11,
   "sources_attempted": 38,
   "leagues": [
     {
       "id": "ufc",
       "name": "UFC",
-      "events": 4
+      "events": 5
     },
     {
       "id": "nfl",
@@ -68,7 +68,7 @@
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -88,7 +88,7 @@
     {
       "id": "j1",
       "name": "Japanese J1 League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "aleague",
@@ -485,6 +485,19 @@
       "source": "MMA Fighting event schedule"
     },
     {
+      "id": "mma-20270123-ufc-vegas-125-bonfim-vs-brady",
+      "league": "ufc",
+      "name": "UFC Vegas 125: Bonfim vs. Brady",
+      "date": "2027-01-23T00:00:00Z",
+      "date_only": true,
+      "state": "upcoming",
+      "status": "Event date confirmed · Start time TBD",
+      "participants": [],
+      "fights": [],
+      "url": "https://www.mmafighting.com/schedule",
+      "source": "MMA Fighting event schedule"
+    },
+    {
       "id": "sportsdb-2475524",
       "league": "nfl",
       "name": "Houston Texans vs Indianapolis Colts",
@@ -504,57 +517,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601875",
+      "id": "sportsdb-2601881",
       "league": "nba",
-      "name": "Cleveland Cavaliers vs Memphis Grizzlies",
-      "date": "2026-11-19T00:00:00Z",
+      "name": "Oklahoma City Thunder vs Atlanta Hawks",
+      "date": "2026-11-19T01:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Cleveland Cavaliers",
+          "name": "Oklahoma City Thunder",
           "score": ""
         },
         {
-          "name": "Memphis Grizzlies",
+          "name": "Atlanta Hawks",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591828",
+      "id": "sportsdb-2591830",
       "league": "nhl",
-      "name": "Detroit Red Wings vs Boston Bruins",
-      "date": "2026-11-19T00:30:00Z",
+      "name": "Utah Mammoth vs Colorado Avalanche",
+      "date": "2026-11-19T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Detroit Red Wings",
+          "name": "Utah Mammoth",
           "score": ""
         },
         {
-          "name": "Boston Bruins",
+          "name": "Colorado Avalanche",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499312",
+      "id": "sportsdb-2594313",
       "league": "ncaaf",
-      "name": "UMass vs Akron",
-      "date": "2026-11-19T00:00:00Z",
+      "name": "Stephen F. Austin vs Northwestern State",
+      "date": "2026-11-20T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "UMass",
+          "name": "Stephen F. Austin",
           "score": ""
         },
         {
-          "name": "Akron",
+          "name": "Northwestern State",
           "score": ""
         }
       ],
@@ -654,47 +667,156 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2492922",
-      "league": "j1",
-      "name": "Kashima Antlers vs Shimizu S-Pulse",
-      "date": "2026-11-20T10:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Kashima Antlers",
-          "score": ""
-        },
-        {
-          "name": "Shimizu S-Pulse",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Man Utd pursuing Como's Paz - Thursday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cxnv4q2qnvjvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:34:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Littler shocked by brilliant Wattimena at Grand Slam",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/crlyenxw18d7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:33:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Manchester United’s infamous 1974 relegation is a warning from history",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/manchester-united-infamous-1974-relegation-is-a-warning-from-history",
+      "date": "2026-11-18T22:30:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Buurman rescues late Chelsea win against PSG",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xkq5wwrgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:13:49Z",
+      "league": "all"
+    },
+    {
+      "title": "Veerle Buurman scrambles late WCL winner to push blunt Chelsea past PSG",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/chelsea-paris-saint-germain-womens-champions-league-match-report",
+      "date": "2026-11-18T22:06:45Z",
+      "league": "all"
+    },
+    {
+      "title": "Euro Leagues",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0pnqxmx?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:06:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "MLB commissioner Manfred cites fan support for salary cap as baseball heads towards lockout",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/mlb-commissioner-manfred-cites-fan-support-for-salary-cap-as-baseball-heads-towards-lockout",
+      "date": "2026-11-18T21:34:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Ukrainian FA to blame for failed drugs test - Mudryk",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr930l71z5ejo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:22:18Z",
+      "league": "all"
+    },
+    {
+      "title": "Bottas' stay at Cadillac confirmed for 2027",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqkgr0elvl5zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:18:32Z",
+      "league": "all"
+    },
+    {
+      "title": "England defender Carter joins Bay FC after Gotham exit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck5y169v1262o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:07:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Shame is the only punishment in Australian cricket’s sandpaper scandal | Geoff Lemon",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/australia-cricket-sandpaper-scandal-comment-bancroft-cummins",
+      "date": "2026-11-18T21:03:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Strasbourg appoint Swansea boss Matos",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6174epxv1p4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:57:54Z",
+      "league": "soccer"
+    },
+    {
+      "title": "FA explored legal challenge to Infantino staying on",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:55:01Z",
+      "league": "all"
+    },
+    {
+      "title": "Hemp and Shaw star as Manchester City get vital win at Hacken",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c32l50p1yk8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:25:40Z",
+      "league": "all"
+    },
+    {
+      "title": "Rugby brain injury lawsuits again on brink of collapse over medical documents delay",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/rugby-brain-injury-lawsuits-on-brink-of-collapse-over-medical-documents-delay",
+      "date": "2026-11-18T19:58:34Z",
+      "league": "all"
+    },
+    {
+      "title": "‘An honour’: Pochettino up for challenge of leading Manchester United revival",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/18/mauricio-pochettino-arrives-manchester-united-head-coach-premier-league",
+      "date": "2026-11-18T19:58:26Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Leicester split with sponsor after porn actress row",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gnx28zp5lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T19:10:21Z",
+      "league": "all"
+    },
+    {
+      "title": "From kit boy to manager at 28 - Dumbarton appoint Fellowes",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c61k9mz9vvkyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T19:09:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Leicester part ways with BC Game after sponsor’s partnership with porn actor",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/leicester-city-bc-game-porn-star-eva-elfie-sponsorship",
+      "date": "2026-11-18T19:01:59Z",
+      "league": "all"
+    },
+    {
+      "title": "Emma Hayes to assist in US Soccer hiring process for next USMNT coach",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/18/emma-hayes-usmnt-head-coach-hiring-process",
+      "date": "2026-11-18T18:44:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Ward close to new Republic of Ireland deal as Noonan returns",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6782xedd985o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T18:06:04Z",
+      "league": "all"
+    },
     {
       "title": "Mauricio Pochettino’s USMNT time will be remembered fondly, but it wasn’t transformational",
       "source": "The Guardian Sport",
@@ -710,32 +832,11 @@
       "league": "all"
     },
     {
-      "title": "Rooney revelations important - Bradford boss Duff",
+      "title": "Watch: Non-league player scores from own half",
       "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvrlgke13e9go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T17:52:23Z",
+      "url": "https://www.bbc.co.uk/news/videos/cr4gn768pg5lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T16:46:34Z",
       "league": "soccer"
-    },
-    {
-      "title": "All Blacks nightmare was making of me - Van Poortvliet",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm930lv7kgx2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T17:44:36Z",
-      "league": "all"
-    },
-    {
-      "title": "From Dunfermline to Dubai - McPake on new life in Middle East",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6j9m1ygw427o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T17:06:29Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Prem opens registration for expansion to 12 teams",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cje39nwzryw3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T16:46:45Z",
-      "league": "all"
     },
     {
       "title": "Zverev to defend himself against fresh lawsuit",
@@ -752,24 +853,10 @@
       "league": "all"
     },
     {
-      "title": "72+: The EFL Podcast",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sounds/play/p0pnnkrh?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T16:15:00Z",
-      "league": "soccer"
-    },
-    {
       "title": "The sandpaper plot - who was there, who said what?",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T16:13:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Price fighting to be Wales' first undisputed world champion",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6pw4xyr84yyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T16:10:46Z",
       "league": "all"
     },
     {
@@ -794,13 +881,6 @@
       "league": "all"
     },
     {
-      "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-      "date": "2026-11-18T15:16:44Z",
-      "league": "all"
-    },
-    {
       "title": "Divide and conquer - now maverick Erasmus plans online watchalong",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmvg28v20xy0o?at_medium=RSS&at_campaign=rss",
@@ -812,13 +892,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/18/prem-rugby-union-12-team-expansion-plan-20m-entry-fee",
       "date": "2026-11-18T14:30:03Z",
-      "league": "all"
-    },
-    {
-      "title": "LeBron James sues sports betting app Bron for using nickname and likeness without permission",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/lebron-james-bron-betting-app-lawsuit",
-      "date": "2026-11-18T14:03:25Z",
       "league": "all"
     },
     {
@@ -871,6 +944,13 @@
       "league": "all"
     },
     {
+      "title": "Ireland’s Prendergast free to face South Africa after avoiding hip-drop tackle ban",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/18/ireland-sam-prendergast-free-face-south-africa-avoiding-hip-drop-tackle-ban-rassie-erasmus-rugby-union",
+      "date": "2026-11-18T11:57:07Z",
+      "league": "all"
+    },
+    {
       "title": "Duckett’s bold 133 steers England to ODI series win as sandpapergate latest rocks Australia",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/18/ben-duckett-steers-england-odi-cricket-series-win-sandpapergate-australia",
@@ -885,13 +965,6 @@
       "league": "all"
     },
     {
-      "title": "Explosive Bancroft sandpaper claims heap pressure on Cummins",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T11:12:46Z",
-      "league": "all"
-    },
-    {
       "title": "The Spin | Sandpapergate’s ‘war of the ghosts’ highlights perils of relying on recall",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/18/cricket-the-spin-australia-sandpaper-war-ghosts-highlights-perils-relying-recall",
@@ -900,114 +973,16 @@
     },
     {
       "title": "Record crowds, legends - Bordeaux bid to escape amateur game",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c63rgqrz9jgqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T10:51:37Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Williams to join temporary Swansea coaching team",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c5lyk9rp0vjgo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T10:48:39Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Former Spain midfielder Mata retires aged 38",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8p3vwe1rrzqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T10:12:46Z",
-      "league": "all"
-    },
-    {
-      "title": "NI will carry momentum into Euro 2028 qualifiers",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck9q8jg1l45do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T10:04:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Fifa’s World Cup TV rights documents indicate hydration breaks to stay in 2030",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/18/fifa-hydration-breaks-2030-world-cup-tv-right-documents",
-      "date": "2026-11-18T09:29:03Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Manchester won't always be blue - Pochettino",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm782wnwzvq3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T08:42:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Child doping isn’t just cheating – it’s a global epidemic of abuse and exploitation | Sean Ingle",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/18/child-doping-cheating-global-epidemic-abuse-exploitation",
-      "date": "2026-11-18T08:00:37Z",
-      "league": "all"
-    },
-    {
-      "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
-      "date": "2026-11-18T08:00:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-      "date": "2026-11-18T08:00:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Overlap, underlap or sit back? How Premier League teams use their full-backs",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/18/premier-league-teams-full-backs-opta-analyst",
-      "date": "2026-11-18T08:00:35Z",
-      "league": "all"
-    },
-    {
-      "title": "Cowboy boots, cocktails and casinos - how do three US grands prix compare?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6d91xl13pggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T07:50:26Z",
-      "league": "all"
-    },
-    {
-      "title": "Linares in ICE detention and facing deportation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T07:34:53Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Ten is the minimum’: 14-year-old surfing champion Leihani Zoric aims for record world title haul",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/18/ten-is-the-minimum-14-year-old-surfing-champion-leihani-zoric-aims-for-record-world-title-haul",
-      "date": "2026-11-18T07:22:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Josh Kerr: The making of the man behind the shades",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/athletics/articles/cwe8506v754yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T07:18:18Z",
-      "league": "all"
-    },
-    {
-      "title": "From one of Ajax's future stars to quitting football for music",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmly053x643ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T07:02:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6ly5dq07wk5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T06:56:12Z",
       "league": "soccer"
     }
   ]
