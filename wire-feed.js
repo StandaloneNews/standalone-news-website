@@ -1,3 +1,20 @@
+/* Normalize provider-escaped titles once so rendering, copying and sharing agree.
+   Isolated malformed escape sequences are preserved rather than destroying headlines. */
+export function cleanHeadline(value) {
+  let headline = String(value || '').trim();
+  if (/%[0-9a-fA-F]{2}/.test(headline)) {
+    headline = headline.replace(/(?:%[0-9a-fA-F]{2})+/g, sequence => {
+      try { return decodeURIComponent(sequence); } catch { return sequence; }
+    });
+  }
+  if (/&(?:amp|quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(headline)) {
+    const decoder = document.createElement('textarea');
+    decoder.innerHTML = headline;
+    headline = decoder.value;
+  }
+  return headline.replace(/\s+/g, ' ').trim();
+}
+
 const topics = {
   Fed: 'Markets', SEC: 'Markets', CFTC: 'Markets', Business: 'Markets',
   Treasury: 'Government', DOJ: 'Government', FDA: 'Government', Washington: 'Government',
@@ -28,7 +45,7 @@ export function itemFrom(row, now) {
   url.searchParams.sort();
   return {
     key: url.origin + url.pathname.replace(/\/$/, '') + url.search,
-    title: row.title.trim(), href, time, source: row.source.trim(),
+    title: cleanHeadline(row.title), href, time, source: row.source.trim(),
     topic: Object.hasOwn(topics, row.category) ? topics[row.category]
       : (typeof row.category === 'string' && row.category) || 'Other',
     viaGoogleNews: row.source_type === 'Google News discovery',

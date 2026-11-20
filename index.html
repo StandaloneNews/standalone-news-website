@@ -15,6 +15,7 @@
   <script defer src="./terminal-story.js?v=1"></script>
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
+<link rel="stylesheet" href="./terminal-polish.css?v=1">
 <script defer src="/outbound-links.js?v=1"></script>
 </head>
 <body>
@@ -30,8 +31,8 @@
         <a class="sidebar-current" href="./" aria-current="page">News Terminal</a>
         <a href="./economic-calendar.html">Economic Calendar</a>
         <a href="./live-releases.html">Live Releases</a>
-        <a href="./trackers.html#debt">U.S. Debt Tracker</a>
-        <a href="./trackers.html#bitcoin">Bitcoin Halving</a>
+        <a href="./us-debt.html">U.S. Debt Tracker</a>
+        <a href="./bitcoin-halving.html">Bitcoin Halving</a>
         <span class="sidebar-label sidebar-divider">DISCOVER</span>
         <a href="./sports.html">Sports</a>
         <a href="./research.html">Company Research</a>
@@ -46,8 +47,8 @@
             <li><a href="./">News Terminal</a></li>
             <li><a href="./economic-calendar.html">Economic Calendar</a></li>
             <li><a href="./live-releases.html">Live Releases</a></li>
-            <li><a href="./trackers.html#debt">U.S. Debt</a></li>
-            <li><a href="./trackers.html#bitcoin">Bitcoin Halving</a></li>
+            <li><a href="./us-debt.html">U.S. Debt</a></li>
+            <li><a href="./bitcoin-halving.html">Bitcoin Halving</a></li>
             <li><a href="./edition.html#brief">Daily brief</a></li>
             <li><a href="./markets.html">Market desk</a></li>
             <li><a href="./research.html">Company research</a></li>
@@ -84,7 +85,7 @@
           <h2 id="feed-heading">Latest headlines</h2>
         </header>
         <div class="feed-tools">
-          <div class="quick-topics" id="quick-topics" role="group" aria-label="Filter headlines by topic" hidden></div>
+          
           <div class="feed-toolbar">
             <div class="search-line" id="headline-search" hidden>
               <label class="sr-only" for="keyword">Search headlines</label>
@@ -116,6 +117,7 @@
               </details>
             </details>
           </div>
+          <div class="quick-topics" id="quick-topics" role="group" aria-label="Filter headlines by topic" hidden></div>
           <p class="status" id="feed-status">Loading headlines…</p>
           <span class="sr-only" id="connection-status" role="status"></span>
           <button id="show-new" class="accent-button" type="button" aria-disabled="true" hidden>Show new headlines</button>

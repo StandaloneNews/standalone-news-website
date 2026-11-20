@@ -122,20 +122,33 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
         new CustomEvent('standalone-open-story', { detail: item })
       ));
       const meta = node('p', undefined, 'row-meta');
-      meta.append(node('span', item.source), node('span', item.topic));
+      meta.append(time, node('span', item.source), node('span', item.topic));
       if (item.viaGoogleNews) {
         meta.append(node('span', 'via Google News'));
         time.title = 'Timestamp supplied by Google News';
       }
       if (item.official) meta.append(node('span', 'Official source', 'official'));
-      meta.append(time);
-      const quickShare = node('button', 'Share', 'row-share');
+      const quickShare = node('button', undefined, 'row-share');
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('width', '20');
+      svg.setAttribute('height', '20');
+      svg.setAttribute('fill', 'none');
+      svg.setAttribute('stroke', 'currentColor');
+      svg.setAttribute('stroke-width', '1.8');
+      svg.setAttribute('stroke-linecap', 'round');
+      svg.setAttribute('stroke-linejoin', 'round');
+      svg.setAttribute('aria-hidden', 'true');
+      const glyph = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      glyph.setAttribute('d', 'M12 15V3m0 0L8 7m4-4 4 4M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5');
+      svg.append(glyph);
+      quickShare.append(svg);
       quickShare.type = 'button';
       quickShare.setAttribute('aria-label', 'Share: ' + item.title);
       quickShare.addEventListener('click', () => document.dispatchEvent(
         new CustomEvent('standalone-open-story', { detail: item })
       ));
-      detail.append(link, meta);
+      detail.append(meta, link);
       li.append(detail, quickShare);
       fragment.append(li);
     }
