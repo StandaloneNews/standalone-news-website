@@ -10,7 +10,7 @@ const sample=Array.from({length:44},(_,i)=>({
  url:'https://example.org/article/'+i,
  published_at:new Date(Date.now()-i*60000-120000).toISOString()
 }));
-sample[10].title = 'Markets%20rose%205%25%20after%20Fed%20report';
+sample[10].title = 'Markets%2520rose%25205%2525%2520after%2520Fed%2520report';
 sample[11].title = 'Stocks rose 5% after earnings';
 sample[12].title = 'Bank &amp; investors welcomed earnings';
 async function main(){

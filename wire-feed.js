@@ -2,10 +2,12 @@
    Isolated malformed escape sequences are preserved rather than destroying headlines. */
 export function cleanHeadline(value) {
   let headline = String(value || '').trim();
-  if (/%[0-9a-fA-F]{2}/.test(headline)) {
-    headline = headline.replace(/(?:%[0-9a-fA-F]{2})+/g, sequence => {
+  for (let pass = 0; pass < 2 && /%[0-9a-fA-F]{2}/.test(headline); pass++) {
+    const decoded = headline.replace(/(?:%[0-9a-fA-F]{2})+/g, sequence => {
       try { return decodeURIComponent(sequence); } catch { return sequence; }
     });
+    if (decoded === headline) break;
+    headline = decoded;
   }
   if (/&(?:amp|quot|apos|lt|gt|nbsp|#\d+|#x[0-9a-f]+);/i.test(headline)) {
     const decoder = document.createElement('textarea');
