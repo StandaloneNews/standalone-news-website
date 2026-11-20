@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-20T04:50:47Z",
+  "updated_at": "2026-11-20T13:39:12Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -789,47 +789,254 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489558",
-      "league": "ligue1",
-      "name": "Troyes vs Le Havre",
-      "date": "2026-11-20T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Troyes",
-          "score": ""
-        },
-        {
-          "name": "Le Havre",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Carlos Alcaraz v Flavio Cobolli: ATP Finals tennis group stage – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/20/carlos-alcaraz-v-flavio-cobolli-atp-finals-tennis-group-stage-live",
+      "date": "2026-11-20T13:34:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino session leaked on drone footage; Arteta takes fantasy football action; Nations League draw – live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/20/weekend-football-countdown-live-news-updates",
+      "date": "2026-11-20T13:30:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Durham appoint Gibson as head coach",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cq7829rd3z57o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T13:23:07Z",
+      "league": "all"
+    },
+    {
+      "title": "Victor Wembanyama has turned his NBA finals humiliation into a revenge tour for the ages",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/victor-wembanyama-spurs-nba-mvp-finals-redemption",
+      "date": "2026-11-20T13:11:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Southampton give head coach Eckert new deal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T13:10:33Z",
+      "league": "all"
+    },
+    {
+      "title": "ATP increases player compensation to $350m & delays doubles cuts decision",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqd01n33x0geo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T13:03:50Z",
+      "league": "all"
+    },
+    {
+      "title": "McDowall goes from farm hand to Scotland captain as Darge injured",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5n4ey83wk9ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T13:01:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal’s Lisa Baum: ‘I believe in us. I think it’s all about the small margins’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/20/arsenal-lisa-baum-germany-brother-dennis",
+      "date": "2026-11-20T13:00:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/20/liverpool-fan-not-guilty-racial-abuse-antoine-semenyo-withdraws-from-case-bournemouth-liverpool",
+      "date": "2026-11-20T12:20:00Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Rotated Wales aim to turn New Zealand miracle into true momentum against Australia",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/rugby-union-wales-australia-steve-tandy-nations-championship",
+      "date": "2026-11-20T12:00:43Z",
+      "league": "all"
+    },
+    {
+      "title": "GB's Davis Cup-winning captain ends 17-year stint",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cvze7d03880ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T12:00:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Stoke and Birmingham proving you shouldn't judge a book by its cover",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy8670vjlx0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T11:35:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Sandpaper and silence: Marsh hides away as England’s T20 winners roll into MCG",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/mitch-marsh-sandpaper-cricket-scandal-england-australia-t20",
+      "date": "2026-11-20T11:30:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Fan found not guilty of racially abusing Semenyo",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/news/articles/c5y4jvg27j2po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T11:12:35Z",
+      "league": "soccer"
+    },
+    {
+      "title": "How the Columbus Crew switched paths en route to the MLS playoffs",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/20/columbus-crew-mls-playoffs",
+      "date": "2026-11-20T11:00:29Z",
+      "league": "soccer"
+    },
+    {
+      "title": "CJ Stroud leads Texans to comfortable win over Colts",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/videos/cq8j403rxn2po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T10:59:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Bukayo Saka may not return for Arsenal before Christmas, Mikel Arteta admits",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/20/bukayo-saka-injury-may-not-play-arsenal-before-christmas-mikel-arteta",
+      "date": "2026-11-20T10:46:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Men’s tennis boosts prize money for players to more than $350m in major overhaul",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/major-changes-in-mens-tennis-will-take-prize-money-for-players-to-more-than-350m",
+      "date": "2026-11-20T10:36:02Z",
+      "league": "all"
+    },
+    {
+      "title": "UFC title contender Fiorot banned for three months",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6808yxx71e0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T10:18:35Z",
+      "league": "ufc"
+    },
+    {
+      "title": "Cummins retains Cricket Australia support as captain",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6808y17r0l0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T10:13:23Z",
+      "league": "all"
+    },
+    {
+      "title": "Lewis Hamilton is now the apex sports protester as US athletes stay silent",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/lewis-hamilton-formula-one-activism-gaza",
+      "date": "2026-11-20T10:00:29Z",
+      "league": "all"
+    },
+    {
+      "title": "Rams star Nacua suspended after assault lawsuit",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c6vg21xdgpqgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T09:38:14Z",
+      "league": "all"
+    },
+    {
+      "title": "EFL preview: Evans' gripes & unexpected departures",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crwy4wl1n0q2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T08:24:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Sports quiz of the week: England’s world beaters, Beckham’s dismay and rugby drama",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/sports-quiz-week-football-rugby-tennis-surfing-f1-golf",
+      "date": "2026-11-20T08:00:27Z",
+      "league": "all"
+    },
+    {
+      "title": "Chess: Carlsen’s winless sequence at Budapest risks loss of world No 1 spot and 2800 rating",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/chess-magnus-carlsen-winless-world-no1-spot-2800-rating",
+      "date": "2026-11-20T08:00:27Z",
+      "league": "all"
+    },
+    {
+      "title": "What history tells us about the Premier League table after 10 games of a season",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-table-history-after-10-games-season",
+      "date": "2026-11-20T08:00:26Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Inside the rise of 'humble' Nyoni and why Iraola trusts him",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck24enjqvlyeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T07:42:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Moore eyes Kane shirt as Spurs' past and future stars meet",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq0k65pyp4jvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T07:26:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw772r7g87y0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:43:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Russell fastest in Las Vegas practice after rain",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c9gklmdmnzydo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:40:04Z",
+      "league": "all"
+    },
+    {
+      "title": "F1 bosses close to V8 engines deal from 2030",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:35:38Z",
+      "league": "all"
+    },
+    {
+      "title": "The art of protection - inside an F1 helmet factory",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cm20vpq8z6n4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:29:04Z",
+      "league": "all"
+    },
+    {
+      "title": "'I felt like I was a ghost' - when players miss a season through injury",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqvg27m9xp1xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T06:13:23Z",
+      "league": "soccer"
+    },
+    {
+      "title": "The male footballers best associated with each shirt number – the readers’ edition",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/ng-interactive/2026/nov/20/male-footballers-best-associated-each-shirt-number-readers-edit",
+      "date": "2026-11-20T06:00:24Z",
+      "league": "all"
+    },
+    {
+      "title": "History, hunger and headline bills - why Price is box office",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/crwy8e7d5lj1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T05:32:13Z",
+      "league": "all"
+    },
     {
       "title": "Houston Texans keep playoff hopes alive as they trample hapless Indianapolis Colts",
       "source": "The Guardian Sport",
@@ -853,17 +1060,10 @@
     },
     {
       "title": "Arsenal 'have ingredients' but Europe's elite on another level",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm4gnxz8dvx1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T23:57:54Z",
-      "league": "all"
-    },
-    {
-      "title": "Trump posthumously pardons US baseball legend Pete Rose",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T23:51:50Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Sandpapergate has gone from a sporting scandal to a rolling loop of outrage and overreaction | Jonathan Horn",
@@ -887,13 +1087,6 @@
       "league": "all"
     },
     {
-      "title": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia",
-      "date": "2026-11-19T22:32:53Z",
-      "league": "all"
-    },
-    {
       "title": "England's Hull one stroke off lead at lucrative LPGA finale",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/golf/articles/cmx20gypx244o?at_medium=RSS&at_campaign=rss",
@@ -908,242 +1101,11 @@
       "league": "all"
     },
     {
-      "title": "Unbeaten Zverev hopes to be 'pain-free' after overcoming Fils at ATP Finals",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/c64gne03ykjro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T22:17:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Donald Trump issues posthumous pardon to MLB ‘superstar and legend’ Pete Rose",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/donald-trump-issues-posthumous-pardon-to-mlb-superstar-and-legend-pete-rose",
-      "date": "2026-11-19T22:09:12Z",
-      "league": "all"
-    },
-    {
       "title": "England get one-match suspended ban on away tickets for anti-pope chants in Spain",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/19/england-one-match-suspended-away-tickets-ban-anti-pope-chants-spain-uefa",
       "date": "2026-11-19T22:05:54Z",
       "league": "all"
-    },
-    {
-      "title": "OL Lyonnes show their class to hit Arsenal’s ambitions for a top-four WCL finish",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/arsenal-ol-lyonnes-womens-champions-league-match-report",
-      "date": "2026-11-19T22:05:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Barcelona target Man Utd's Martinez - Friday's gossip",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cj5y14g2wppko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T21:57:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Alexander Zverev beats Arthur Fils in ATP Finals tennis group stage – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live",
-      "date": "2026-11-19T21:48:21Z",
-      "league": "all"
-    },
-    {
-      "title": "12-year-old Little League player dies after being struck by baseball during game",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/xavier-taylor-dies-new-jersey-baseball-little-league",
-      "date": "2026-11-19T21:40:32Z",
-      "league": "all"
-    },
-    {
-      "title": "F1 to introduce full-time race stewards from 2027",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T21:39:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Shevchenko accuses Mudryk camp of 'baseless slander'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmgqx908lk44o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T20:44:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Dodgers owner Mark Walter set to sell Los Angeles Sparks for WNBA record $750m",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/dodgers-owner-mark-walter-set-to-sell-los-angeles-sparks-for-wnba-record-750m",
-      "date": "2026-11-19T20:40:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Frank happy to be 'back in the circus' at Palace",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cje3900n0vvro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T20:16:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Rugby players face anxious wait as judges consider state of concussion case",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/rugby-union-league-players-face-anxious-wait-judges-retire-consider-state-of-concussion-case",
-      "date": "2026-11-19T19:57:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Thomas Frank admits he has a point to prove after taking reins at Crystal Palace",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/thomas-frank-crystal-palace-premier-league",
-      "date": "2026-11-19T19:50:10Z",
-      "league": "all"
-    },
-    {
-      "title": "Adam Hollioake being lined up for emotional return at Surrey as head coach",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/adam-hollioake-close-to-emotional-return-at-surrey-as-head-coach-cricket",
-      "date": "2026-11-19T19:22:52Z",
-      "league": "all"
-    },
-    {
-      "title": "England braced for All Black-lash in the ultimate test of their mini-upturn",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/steve-borthwick-england-all-blacks-rugby-union-nations-championship",
-      "date": "2026-11-19T19:15:05Z",
-      "league": "all"
-    },
-    {
-      "title": "New manager Frick to take Aberdeen back to basics",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq36gw03n17jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T19:11:26Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England fined for fans' anti-Catholic chants in Spain",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmlye2n7p7d9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T19:11:03Z",
-      "league": "all"
-    },
-    {
-      "title": "Sutton's predictions v world champion boxer Lauren Price",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c50mdnxy3ry0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T18:52:00Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Pochettino's first Man Utd training session filmed by drone operator",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6wy9d7wqy7wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T18:45:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Summer signings join Lionel Messi among MLS’s top earners: Takeaways from the league’s salary release",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/19/mls-salary-release-lionel-messi-spent-per-point",
-      "date": "2026-11-19T18:01:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "We'll only sell if offer makes club blink - McInnes",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwlymr2159y5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T17:11:51Z",
-      "league": "all"
-    },
-    {
-      "title": "Struggling Blackpool sack Evatt on his birthday",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g1rzjj4v2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T16:12:14Z",
-      "league": "all"
-    },
-    {
-      "title": "Premier League clubs vote through new rules to increase legal protection for board",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/19/premier-league-vote-new-rules-financial-indemnity-lawsuits",
-      "date": "2026-11-19T16:03:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Fifa sparks tension with demand for tax-free status in UK for Women’s World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/fifa-demand-tax-free-status-in-uk-womens-world-cup-2035-government",
-      "date": "2026-11-19T16:00:06Z",
-      "league": "all"
-    },
-    {
-      "title": "Culture, defence, Fernandes - Pochettino's priorities at Man Utd",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cxlylzyg38l8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T15:05:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Cummins' Australia captaincy at a crossroads - Agnew",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c94gnev3kj4vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T14:57:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Ireland hooker Sheehan named at number eight for Springboks game",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4gnpgn3z1wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T13:59:31Z",
-      "league": "all"
-    },
-    {
-      "title": "Premier League clubs to cover legal costs if Man City sponsors sue",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T13:29:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video",
-      "date": "2026-11-19T13:18:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-      "date": "2026-11-19T12:38:05Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Will this be the tightest Championship promotion race ever?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c63ele354444o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T12:36:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Danny Kelly loved football and never forgot the absurdity of earning a living talking about it | Max Rushden",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/danny-kelly-death-football-radio",
-      "date": "2026-11-19T12:28:40Z",
-      "league": "all"
-    },
-    {
-      "title": "Gonzalo García: ‘I love Craven Cottage – the fans can reach out and touch you’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/gonzalo-garcia-fulham-spain-premier-leaue-interview",
-      "date": "2026-11-19T12:16:42Z",
-      "league": "all"
-    },
-    {
-      "title": "Washington Spirit v Kansas City Current: where the NWSL Championship will be won and lost",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/19/nwsl-championship-washington-spirit-kc-current-moving-the-goalposts",
-      "date": "2026-11-19T11:40:20Z",
-      "league": "soccer"
     }
   ]
 }
