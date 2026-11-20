@@ -55,8 +55,8 @@ jobs:
               await page.getByRole('button',{name:'Close story details'}).click();
               const t=await browser.newPage({viewport:{width:390,height:850}});
               await t.goto('https://standalonenews.com/trackers.html',{waitUntil:'domcontentloaded'});
-              await t.waitForFunction(()=>!document.querySelector('#debt-status').textContent.includes('Fetching official records.'),{timeout:22000});
-              await t.waitForFunction(()=>!document.querySelector('#btc-status').textContent.includes('Fetching current block height.'),{timeout:22000});
+              await t.waitForFunction(()=>/Official as of|Unable to read Treasury API/.test(document.querySelector('#debt-status').textContent),null,{timeout:22000});
+              await t.waitForFunction(()=>/Observed|Unable to read blockchain endpoint/.test(document.querySelector('#btc-status').textContent),null,{timeout:22000});
               console.log('Treasury:',await t.locator('#debt-status').innerText(),await t.locator('#debt-value').innerText());
               console.log('Bitcoin:',await t.locator('#btc-status').innerText(),await t.locator('#btc-height').innerText());
               assert.ok((await t.locator('#debt-value').innerText()).startsWith('$'),'Treasury data is not available');
