@@ -1,0 +1,66 @@
+name: One-time verify deployed Standalone terminal
+on:
+  push:
+    branches: [ops/verify-live-free-terminal]
+    paths: [.github/workflows/check-live-terminal.yml]
+permissions: {}
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check updated public HTML and linked pages
+        run: |
+          python3 - <<'PY'
+          from urllib.request import Request, urlopen
+          from time import sleep
+          def get(path):
+              with urlopen(Request('https://standalonenews.com'+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'}),timeout=13) as r:
+                  return r.read().decode()
+          for i in range(24):
+              try:
+                  home=get('/')
+                  if 'terminal-redesign.css?v=1' in home and 'story-dialog' in home:
+                      for path in ['/economic-calendar.html','/live-releases.html','/trackers.html','/terminal-story.js?v=1']:
+                          assert len(get(path))>120,path
+                      print('Published pages and story actions are available',flush=True)
+                      break
+              except Exception as e:
+                  print('Still checking public site:',str(e),flush=True)
+              sleep(10)
+          else:
+              raise SystemExit('Updated live pages not visible')
+          PY
+      - name: Browser check real news and public data endpoints
+        run: |
+          npm install --prefix "$RUNNER_TEMP/live" --no-audit --no-fund playwright-core@1.55.0
+          export NODE_PATH="$RUNNER_TEMP/live/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+              await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
+              await page.getByRole('button',{name:'All',exact:true}).waitFor();
+              await page.locator('#headlines .row-title').first().waitFor({timeout:25000});
+              console.log('Live headlines visible:',await page.locator('#result-count').innerText());
+              await page.locator('#headlines .row-title').first().click();
+              assert.ok(await page.getByRole('dialog').isVisible());
+              assert.ok((await page.locator('#story-source-link').getAttribute('href')).startsWith('http'));
+              await page.getByRole('button',{name:'Share via…'}).click();
+              assert.ok(await page.locator('#story-share-x').isVisible());
+              await page.getByRole('button',{name:'Close story details'}).click();
+              const t=await browser.newPage({viewport:{width:390,height:850}});
+              await t.goto('https://standalonenews.com/trackers.html',{waitUntil:'domcontentloaded'});
+              await t.waitForFunction(()=>!document.querySelector('#debt-status').textContent.includes('Fetching official records.'),{timeout:22000});
+              await t.waitForFunction(()=>!document.querySelector('#btc-status').textContent.includes('Fetching current block height.'),{timeout:22000});
+              console.log('Treasury:',await t.locator('#debt-status').innerText(),await t.locator('#debt-value').innerText());
+              console.log('Bitcoin:',await t.locator('#btc-status').innerText(),await t.locator('#btc-height').innerText());
+              assert.ok((await t.locator('#debt-value').innerText()).startsWith('$'),'Treasury data is not available');
+              assert.ok(/^[\d,]+$/.test(await t.locator('#btc-height').innerText()),'Bitcoin height not available');
+            }finally{await browser.close()}
+          })().catch(e=>{console.error(e);process.exitCode=1});
+          JS
