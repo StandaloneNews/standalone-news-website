@@ -24,3 +24,6 @@ body.theme-market.theme-broadsheet #watch-widget tv-tickers {
   background-color:#121a25!important;
   --tv-widget-background-color:#121a25;
 }
+
+/* The shared broadsheet uses an id-specific :is() group; target this panel explicitly. */
+body.theme-market.theme-broadsheet #market-watchlist-tabs{background-color:#121a25!important;--tv-widget-background-color:#121a25}
