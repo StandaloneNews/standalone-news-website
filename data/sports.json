@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T23:55:11Z",
+  "updated_at": "2026-11-20T04:50:47Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -639,48 +639,48 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475524",
+      "id": "sportsdb-2475525",
       "league": "nfl",
-      "name": "Houston Texans vs Indianapolis Colts",
-      "date": "2026-11-20T01:15:00Z",
+      "name": "Buffalo Bills vs Miami Dolphins",
+      "date": "2026-11-22T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Houston Texans",
+          "name": "Buffalo Bills",
           "score": ""
         },
         {
-          "name": "Indianapolis Colts",
+          "name": "Miami Dolphins",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601887",
+      "id": "sportsdb-2601891",
       "league": "nba",
-      "name": "Memphis Grizzlies vs Golden State Warriors",
-      "date": "2026-11-20T01:00:00Z",
+      "name": "Atlanta Hawks vs Charlotte Hornets",
+      "date": "2026-11-21T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Memphis Grizzlies",
+          "name": "Atlanta Hawks",
           "score": ""
         },
         {
-          "name": "Golden State Warriors",
+          "name": "Charlotte Hornets",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591831",
+      "id": "sportsdb-2591843",
       "league": "nhl",
-      "name": "Carolina Hurricanes vs Montreal Canadiens",
-      "date": "2026-11-20T00:00:00Z",
+      "name": "Carolina Hurricanes vs Edmonton Oilers",
+      "date": "2026-11-21T18:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
@@ -689,26 +689,26 @@
           "score": ""
         },
         {
-          "name": "Montreal Canadiens",
+          "name": "Edmonton Oilers",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2594313",
+      "id": "sportsdb-2499316",
       "league": "ncaaf",
-      "name": "Stephen F. Austin vs Northwestern State",
-      "date": "2026-11-20T00:00:00Z",
+      "name": "UCF vs Iowa State",
+      "date": "2026-11-20T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Stephen F. Austin",
+          "name": "UCF",
           "score": ""
         },
         {
-          "name": "Northwestern State",
+          "name": "Iowa State",
           "score": ""
         }
       ],
@@ -789,14 +789,87 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489558",
+      "league": "ligue1",
+      "name": "Troyes vs Le Havre",
+      "date": "2026-11-20T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Troyes",
+          "score": ""
+        },
+        {
+          "name": "Le Havre",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Houston Texans keep playoff hopes alive as they trample hapless Indianapolis Colts",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/19/colts-texans-thursday-night-football-nfl",
+      "date": "2026-11-20T04:35:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Socceroos’ future looks bright as Australia stun Argentina in U17 World Cup",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/20/joeys-australia-stun-argentina-in-u17-world-cup",
+      "date": "2026-11-20T01:31:38Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Premier League: 10 things to look out for this weekend",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
+      "date": "2026-11-20T00:00:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal 'have ingredients' but Europe's elite on another level",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gnxz8dvx1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T23:57:54Z",
+      "league": "all"
+    },
     {
       "title": "Trump posthumously pardons US baseball legend Pete Rose",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T23:51:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Sandpapergate has gone from a sporting scandal to a rolling loop of outrage and overreaction | Jonathan Horn",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/sandpapergate-australia-cricket-sporting-scandal-rolling-loop-outrage-ntwnfb",
+      "date": "2026-11-19T23:35:48Z",
       "league": "all"
     },
     {
@@ -968,13 +1041,6 @@
       "league": "all"
     },
     {
-      "title": "Ravens deactivate Marlon Humphrey after cornerback says Baltimore excels at ‘making criminals’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/marlon-humphrey-criminals-comment-baltimore-ravens",
-      "date": "2026-11-19T18:04:10Z",
-      "league": "all"
-    },
-    {
       "title": "Summer signings join Lionel Messi among MLS’s top earners: Takeaways from the league’s salary release",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/19/mls-salary-release-lionel-messi-spent-per-point",
@@ -1031,13 +1097,6 @@
       "league": "all"
     },
     {
-      "title": "Five return for Wales' World Cup play-off final",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T13:40:43Z",
-      "league": "soccer"
-    },
-    {
       "title": "Premier League clubs to cover legal costs if Man City sponsors sue",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss",
@@ -1053,10 +1112,10 @@
     },
     {
       "title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
       "date": "2026-11-19T12:38:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Will this be the tightest Championship promotion race ever?",
@@ -1080,31 +1139,10 @@
       "league": "all"
     },
     {
-      "title": "An outsider’s view of Australian cricket’s civil war: conflicting ‘truths’ and Cummins in a corner | Ali Martin",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/19/outsiders-view-australian-cricket-sandpaper-civil-war-conflicting-truths-pat-cummins-in-a-corner",
-      "date": "2026-11-19T12:00:06Z",
-      "league": "all"
-    },
-    {
       "title": "Washington Spirit v Kansas City Current: where the NWSL Championship will be won and lost",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/19/nwsl-championship-washington-spirit-kc-current-moving-the-goalposts",
       "date": "2026-11-19T11:40:20Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
-      "date": "2026-11-19T11:00:26Z",
-      "league": "all"
-    },
-    {
-      "title": "'I'm very healthy' - Kompany to return to dugout after health scare",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0rkzwgn0lro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:32:30Z",
       "league": "soccer"
     }
   ]
