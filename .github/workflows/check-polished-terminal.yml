@@ -1,0 +1,66 @@
+name: One-time verify polished live terminal and tracker routes
+on:
+  push:
+    branches: [ops/verify-polished-terminal]
+    paths: [.github/workflows/check-polished-terminal.yml]
+permissions: {}
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Confirm current production pages and assets
+        run: |
+          python3 - <<'PY'
+          from time import sleep
+          from urllib.request import Request, urlopen
+          def get(path):
+              request=Request('https://standalonenews.com'+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
+              with urlopen(request,timeout=16) as response:
+                  return response.read().decode()
+          for attempt in range(26):
+              try:
+                  home=get('/')
+                  if 'terminal-polish.css?v=1' in home and 'terminal.js?v=14' in home and 'market-polish.css?v=2' in get('/markets.html'):
+                      debt=get('/us-debt.html')
+                      btc=get('/bitcoin-halving.html')
+                      assert 'id="debt"' in debt and 'id="bitcoin"' not in debt
+                      assert 'id="bitcoin"' in btc and 'id="debt"' not in btc
+                      assert 'id="market-watchlist-tabs"' in get('/markets.html')
+                      assert 'for (let pass = 0; pass < 2' in get('/wire-feed.js?v=4')
+                      print('Live release verified: rounded interface, independent trackers, decoded headlines',flush=True)
+                      break
+              except Exception as e:
+                  print('Deployment check:',str(e),flush=True)
+              sleep(10)
+          else:
+              raise SystemExit('Live site did not serve current commit')
+          PY
+      - name: Verify live headline actions and market styles
+        run: |
+          npm install --prefix "$RUNNER_TEMP/live" --no-audit --no-fund playwright-core@1.55.0
+          export NODE_PATH="$RUNNER_TEMP/live/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try{
+              const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce'});
+              await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
+              await page.locator('#headlines .row-title').first().waitFor({timeout:30000});
+              const share=page.locator('#headlines .row-share').first();
+              assert.equal(await share.locator('svg').count(),1);
+              assert.ok((await share.boundingBox()).width>=44);
+              await share.click();
+              assert.ok(await page.getByRole('dialog').isVisible());
+              await page.getByRole('button',{name:'Share via…'}).click();
+              assert.ok(await page.getByRole('link',{name:'X',exact:true}).isVisible());
+              console.log('Live mobile share verified');
+              await page.goto('https://standalonenews.com/markets.html',{waitUntil:'domcontentloaded'});
+              assert.equal(await page.locator('#market-watchlist-tabs').evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(18, 26, 37)');
+              console.log('Live Market Desk watchlist background verified');
+            }finally{await browser.close()}
+          })().catch(err=>{console.error(err);process.exitCode=1});
+          JS
