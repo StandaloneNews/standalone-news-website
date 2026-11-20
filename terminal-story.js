@@ -44,7 +44,7 @@ async function copy(value,label){
  } catch {el.status.textContent='Copy unavailable. Use your browser to copy from the original source link.';}
 }
 $('story-copy-link').addEventListener('click',()=>copy(selected?.href||'','Link'));
-$('story-copy-headline').addEventListener('click',()=>copy(selected?.title||'','Headline'));
+$('story-copy-headline').addEventListener('click',()=>copy(el.title.textContent,'Headline'));
 $('story-share').addEventListener('click',()=>{el.options.hidden=!el.options.hidden;$('story-share').setAttribute('aria-expanded',String(!el.options.hidden));if(!el.options.hidden)el.options.querySelector('a')?.focus();});
 $('story-native-share').addEventListener('click',async()=>{if(!selected||!navigator.share)return;try{await navigator.share({title:selected.title,text:selected.title,url:selected.href});el.status.textContent='Shared.';}catch(e){if(e.name!=='AbortError')el.status.textContent='Device sharing unavailable; choose another option.';}});
 })();
