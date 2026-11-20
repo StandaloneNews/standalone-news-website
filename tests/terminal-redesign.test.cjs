@@ -1,6 +1,7 @@
 const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict');
 const axe=require('axe-core');
+const {PNG}=require('pngjs');
 const base='http://127.0.0.1:8765/';
 const sample=Array.from({length:44},(_,i)=>({
  title:'Verified '+(['Markets','World','Sports','Economy'][i%4])+' coverage update '+i,
@@ -107,6 +108,19 @@ async function main(){
     assert.equal(await page.locator('script[src*="embed-widget-events.js"]').count(),0,'obsolete iframe embed must be gone');
     await page.waitForFunction(()=>!!customElements.get('tv-economic-calendar'),null,{timeout:20000});
     console.log('ECONOMIC CALENDAR WEB COMPONENT DEFINED');
+    await page.waitForTimeout(1300);
+    const shot=PNG.sync.read(await page.locator('.economic-calendar-embed').screenshot({animations:'disabled'}));
+    let bright=0,sampled=0;
+    for(let y=0;y<shot.height;y+=6){for(let x=0;x<shot.width;x+=6){
+      const n=(y*shot.width+x)*4;
+      if(shot.data[n]>228&&shot.data[n+1]>228&&shot.data[n+2]>228)bright++;
+      sampled++;
+    }}
+    const ratio=bright/sampled;
+    console.log('CALENDAR LIGHT PIXEL RATIO',ratio.toFixed(4));
+    assert.ok(ratio<0.15,'calendar still visibly white: '+ratio);
+    const right=await page.locator('main.desk-main').evaluate(e=>e.getBoundingClientRect().right);
+    assert.ok(right>=390-26,'calendar desk leaves unused side gutter: '+right);
   }
   console.log(name,'RESPONSIVE');
   await page.close();

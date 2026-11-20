@@ -55,3 +55,16 @@
  .economic-calendar-embed{min-height:480px}
  .economic-calendar-embed tv-economic-calendar{min-height:480px;height:550px}
 }
+
+/* Give all terminal data desks the same usable viewport width as the news terminal. */
+@media(min-width:701px){
+ .desk-main {
+   box-sizing:border-box;
+   max-width:none;
+   width:calc(100% - 218px);
+   margin-left:218px;
+   margin-right:0;
+   padding-inline:clamp(1rem,2vw,3rem);
+ }
+ .desk-footer{box-sizing:border-box;width:calc(100% - 218px);margin-left:218px}
+}

@@ -38,7 +38,7 @@ jobs:
       - name: Run browser interaction and WCAG smoke tests
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/terminal-server.log 2>&1 &
-          npm install --prefix "$RUNNER_TEMP/terminal-smoke" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3
+          npm install --prefix "$RUNNER_TEMP/terminal-smoke" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3 pngjs@7.0.0
           export NODE_PATH="$RUNNER_TEMP/terminal-smoke/node_modules"
           export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
           node tests/terminal-redesign.test.cjs
