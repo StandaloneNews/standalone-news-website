@@ -1,7 +1,7 @@
 name: Terminal redesign accessibility and interaction tests
 on:
   push:
-    branches: [main, feature/free-news-terminal-redesign, feature/rounded-terminal-split-trackers]
+    branches: [main, feature/free-news-terminal-redesign, feature/rounded-terminal-split-trackers, fix/full-width-terminal-dark-calendar]
     paths:
       - "index.html"
       - "terminal.js"
@@ -9,6 +9,7 @@ on:
       - "terminal-story.js"
       - "wire-feed.js"
       - "terminal-polish.css"
+      - "economic-calendar-status.js"
       - "market-polish.css"
       - "markets.html"
       - "us-debt.html"

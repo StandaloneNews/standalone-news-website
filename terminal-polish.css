@@ -74,3 +74,25 @@ body{-webkit-font-smoothing:antialiased}
 }
 @media(max-width:360px){.headlines .row{padding:1rem .7rem}.search-line input[type=search]{font-size:.86rem}}
 @media(prefers-reduced-motion:reduce){.quick-topics{scroll-behavior:auto}}
+
+/* Use all available desktop width; the old 1600px cap left an unused right gutter,
+   particularly when readers zoomed out. Keep a stable reading rail and tool rail. */
+@media(min-width:701px){
+ body>main.shell,body>footer.shell{
+   box-sizing:border-box;
+   width:calc(100% - var(--dash-nav));
+   max-width:none;
+   margin-inline-start:var(--dash-nav);
+   margin-inline-end:0;
+   padding-inline:clamp(1.2rem,2vw,3rem);
+ }
+}
+@media(min-width:901px){
+ body>main.shell .layout{
+   grid-template-columns:minmax(0,1fr) clamp(280px,26%,380px);
+   column-gap:clamp(1rem,1.65vw,2rem);
+ }
+}
+@media(max-width:700px){
+ body>main.shell,body>footer.shell{max-width:none;width:100%;margin-inline:0}
+}

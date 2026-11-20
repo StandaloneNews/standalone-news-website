@@ -31,6 +31,12 @@ async function main(){
   assert.ok(await page.locator('.primary-nav a[href="./economic-calendar.html"]').count()>0);
   assert.ok(await page.locator('#quick-topics button').count()>6);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth+1),true,'horizontal overflow at '+width);
+  const geometry=await page.evaluate(()=>{
+    const main=document.querySelector('main.shell').getBoundingClientRect();
+    return {right:main.right,viewport:innerWidth,mainWidth:main.width};
+  });
+  assert.ok(geometry.right>=geometry.viewport-26,'unused desktop gutter at '+width+': '+JSON.stringify(geometry));
+
   await page.getByRole('group',{name:'Filter headlines by topic'}).getByRole('button',{name:'Sports',exact:true}).click();
   assert.equal(await page.locator('#headlines .row').count(),11);
   await page.locator('#quick-topics button').filter({hasText:'All'}).first().click();
@@ -92,6 +98,13 @@ async function main(){
   if(name==='markets.html'){
     assert.equal(await page.locator('#watch-widget').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
     assert.equal(await page.locator('.watch-tabs').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
+  }
+  if(name==='economic-calendar.html'){
+    const cal=page.locator('tv-economic-calendar');
+    assert.equal(await cal.getAttribute('theme'),'dark');
+    assert.equal(await cal.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
+    assert.equal(await page.locator('.economic-calendar-embed').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
+    assert.equal(await page.locator('script[src*="embed-widget-events.js"]').count(),0,'obsolete iframe embed must be gone');
   }
   console.log(name,'RESPONSIVE');
   await page.close();

@@ -15,3 +15,43 @@
 .desk-card,.source-grid a{border-radius:18px}
 .mobile-tools-nav details>summary{border-radius:999px;background:#1b2734}
 .desk-card button{border-radius:999px}
+
+/* TradingView web-component calendar: real dark theme, no embedded white iframe. */
+.economic-calendar-embed{
+  color-scheme:dark;
+  --tv-widget-background-color:#121a25;
+  --tv-widget-text-color:#edf3fa;
+  --tv-widget-price-text-color:#edf3fa;
+  --tv-widget-accent-color:#ffc500;
+  --tv-widget-tooltip-background-color:#202e40;
+  --tv-widget-tooltip-text-color:#edf3fa;
+  --tv-widget-font-family:Arial,Helvetica,sans-serif;
+  background:#121a25;
+  border-radius:14px;
+  overflow:hidden;
+  min-height:580px;
+}
+.economic-calendar-embed tv-economic-calendar{
+  display:block;
+  width:100%;
+  height:610px;
+  min-height:580px;
+  background:#121a25;
+  color-scheme:dark;
+}
+.economic-calendar-fallback{
+  margin:0;
+  background:#121a25;
+  padding:0 1rem 1rem;
+  color:#b2c2d5;
+  font-size:.86rem;
+}
+.economic-calendar-fallback p{margin:.45rem 0}
+.economic-calendar-fallback[data-loaded]{display:none}
+.economic-calendar-embed[data-unavailable] tv-economic-calendar{display:none}
+.economic-calendar-embed[data-unavailable]{min-height:unset}
+.economic-calendar-embed[data-unavailable] .economic-calendar-fallback{padding:1.5rem}
+@media(max-width:700px){
+ .economic-calendar-embed{min-height:480px}
+ .economic-calendar-embed tv-economic-calendar{min-height:480px;height:550px}
+}
