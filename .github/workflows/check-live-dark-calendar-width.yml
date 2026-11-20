@@ -1,0 +1,80 @@
+name: Verify live full-width terminal and dark economic calendar
+on:
+  push:
+    branches: [ops/verify-live-dark-calendar-width]
+    paths: [.github/workflows/check-live-dark-calendar-width.yml]
+permissions: {}
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Confirm production deployment is serving new versions
+        run: |
+          python3 - <<'PY'
+          from time import sleep
+          from urllib.request import Request,urlopen
+          def get(path):
+              with urlopen(Request('https://standalonenews.com'+path,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'}),timeout=16) as response:
+                  return response.read().decode()
+          for iteration in range(30):
+              try:
+                  home=get('/')
+                  cal=get('/economic-calendar.html')
+                  if 'terminal-polish.css?v=2' in home and 'desk-tools.css?v=4' in cal and 'tv-economic-calendar' in cal:
+                      assert 'embed-widget-events.js' not in cal
+                      print('Current production HTML and dark calendar markup confirmed',flush=True)
+                      break
+              except Exception as e:
+                  print('Checking deployment:',e,flush=True)
+              sleep(10)
+          else:
+              raise SystemExit('Updated production HTML is not visible')
+          PY
+      - name: Browser verify full width and dark calendar colors
+        run: |
+          npm install --prefix "$RUNNER_TEMP/live" --no-audit --no-fund playwright-core@1.55.0 pngjs@7.0.0
+          export NODE_PATH="$RUNNER_TEMP/live/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const {PNG}=require('pngjs');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try{
+              for(const width of [1640,1440,390]){
+                const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});
+                await page.goto('https://standalonenews.com/',{waitUntil:'domcontentloaded'});
+                await page.locator('#headlines .row-title').first().waitFor({timeout:30000});
+                const layout=await page.evaluate(()=>({
+                  right:document.querySelector('main.shell').getBoundingClientRect().right,
+                  windowWidth:innerWidth,
+                  overflow:document.documentElement.scrollWidth-innerWidth
+                }));
+                console.log('HOME WIDTH',width,JSON.stringify(layout));
+                assert.ok(layout.right>=width-26,'Right gutter remained');
+                assert.ok(layout.overflow<=1,'Horizontal overflow detected');
+                await page.close();
+              }
+              const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+              await page.goto('https://standalonenews.com/economic-calendar.html',{waitUntil:'domcontentloaded'});
+              await page.waitForFunction(()=>!!customElements.get('tv-economic-calendar'),null,{timeout:20000});
+              await page.waitForTimeout(1400);
+              const rect=await page.locator('main.desk-main').evaluate(e=>e.getBoundingClientRect().right);
+              assert.ok(rect>=1414,'Calendar page leaves wide right gutter');
+              const png=PNG.sync.read(await page.locator('.economic-calendar-embed').screenshot({animations:'disabled'}));
+              let bright=0,count=0,nonbase=0;
+              for(let y=0;y<png.height;y+=6)for(let x=0;x<png.width;x+=6){
+                const i=(y*png.width+x)*4,red=png.data[i],green=png.data[i+1],blue=png.data[i+2];
+                if(red>225&&green>225&&blue>225)bright++;
+                if(Math.abs(red-18)>20||Math.abs(green-26)>20||Math.abs(blue-37)>20)nonbase++;
+                count++;
+              }
+              console.log('LIVE CALENDAR PIXELS',JSON.stringify({brightRatio:bright/count,nonBaseRatio:nonbase/count,width:png.width,height:png.height}));
+              assert.ok(bright/count<0.15,'Calendar still white');
+              assert.ok(nonbase/count>0.01,'Calendar rendered empty background');
+              console.log('Live homepage width and economic calendar rendering verified');
+            }finally{await browser.close()}
+          })().catch(err=>{console.error(err);process.exitCode=1});
+          JS
