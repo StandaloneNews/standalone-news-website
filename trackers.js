@@ -37,6 +37,6 @@ async function loadBitcoin(){
  $('btc-progress').value=height%210000;$('btc-status').textContent='Observed '+new Date().toLocaleString()+' · Based on 10 min per block, estimate only';
  }catch(e){$('halving-target').textContent='Block data unavailable';$('btc-status').textContent='Unable to read blockchain endpoint: '+e.message+'. Use the linked source.';}
 }
-$('debt-refresh').addEventListener('click',loadDebt);$('btc-refresh').addEventListener('click',loadBitcoin);
-loadDebt();loadBitcoin();
+if ($('debt-refresh')) { $('debt-refresh').addEventListener('click',loadDebt); loadDebt(); }
+if ($('btc-refresh')) { $('btc-refresh').addEventListener('click',loadBitcoin); loadBitcoin(); }
 })();

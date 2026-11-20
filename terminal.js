@@ -1,4 +1,4 @@
-import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
+import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=3';
 
 (() => {
   'use strict';
