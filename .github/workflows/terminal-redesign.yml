@@ -1,12 +1,18 @@
 name: Terminal redesign accessibility and interaction tests
 on:
   push:
-    branches: [main, feature/free-news-terminal-redesign]
+    branches: [main, feature/free-news-terminal-redesign, feature/rounded-terminal-split-trackers]
     paths:
       - "index.html"
       - "terminal.js"
       - "terminal-redesign.css"
       - "terminal-story.js"
+      - "wire-feed.js"
+      - "terminal-polish.css"
+      - "market-polish.css"
+      - "markets.html"
+      - "us-debt.html"
+      - "bitcoin-halving.html"
       - "desk-tools.css"
       - "economic-calendar.html"
       - "live-releases.html"
