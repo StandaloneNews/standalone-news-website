@@ -105,6 +105,8 @@ async function main(){
     assert.equal(await cal.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
     assert.equal(await page.locator('.economic-calendar-embed').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
     assert.equal(await page.locator('script[src*="embed-widget-events.js"]').count(),0,'obsolete iframe embed must be gone');
+    await page.waitForFunction(()=>!!customElements.get('tv-economic-calendar'),null,{timeout:20000});
+    console.log('ECONOMIC CALENDAR WEB COMPONENT DEFINED');
   }
   console.log(name,'RESPONSIVE');
   await page.close();
