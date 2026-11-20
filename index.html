@@ -9,8 +9,10 @@
   <link rel="canonical" href="https://standalonenews.com/">
   <link rel="icon" href="./assets/favicon.png">
   <link rel="stylesheet" href="./terminal.css?v=14">
+  <link rel="stylesheet" href="./terminal-redesign.css?v=1">
   <script type="module" src="./terminal.js?v=12"></script>
   <script type="module" src="./terminal-panels.js?v=8"></script>
+  <script defer src="./terminal-story.js?v=1"></script>
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
 <script defer src="/outbound-links.js?v=1"></script>
@@ -23,13 +25,29 @@
         <img src="./assets/sn-brand-logo.png" width="36" height="36" alt="">
         <span>STANDALONE <strong>NEWS</strong></span>
       </a>
+      <p class="sidebar-label">TERMINAL</p>
       <nav class="primary-nav" aria-label="Main navigation">
+        <a class="sidebar-current" href="./" aria-current="page">News Terminal</a>
+        <a href="./economic-calendar.html">Economic Calendar</a>
+        <a href="./live-releases.html">Live Releases</a>
+        <a href="./trackers.html#debt">U.S. Debt Tracker</a>
+        <a href="./trackers.html#bitcoin">Bitcoin Halving</a>
+        <span class="sidebar-label sidebar-divider">DISCOVER</span>
+        <a href="./sports.html">Sports</a>
+        <a href="./research.html">Company Research</a>
+        <a href="./articles/">Explainers</a>
+        <a href="./discuss.html">Community</a>
         <a href="./edition.html">News edition</a>
         <a href="#markets">Markets</a>
         <a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">X posts</a>
         <details class="site-menu" id="site-menu">
           <summary>Sections</summary>
           <ul role="list">
+            <li><a href="./">News Terminal</a></li>
+            <li><a href="./economic-calendar.html">Economic Calendar</a></li>
+            <li><a href="./live-releases.html">Live Releases</a></li>
+            <li><a href="./trackers.html#debt">U.S. Debt</a></li>
+            <li><a href="./trackers.html#bitcoin">Bitcoin Halving</a></li>
             <li><a href="./edition.html#brief">Daily brief</a></li>
             <li><a href="./markets.html">Market desk</a></li>
             <li><a href="./research.html">Company research</a></li>
@@ -126,7 +144,21 @@
         </div>
       </section>
 
-      <aside class="utility-rail" aria-label="Market and social tools">
+      <aside class="utility-rail" aria-label="Economic calendar and market tools">
+        <section class="terminal-calendar" id="economic-calendar" aria-labelledby="calendar-heading">
+          <header class="calendar-header">
+            <h2 id="calendar-heading">Economic calendar</h2>
+            <a href="./economic-calendar.html">Full calendar</a>
+          </header>
+          <p class="calendar-intro">Official U.S. release schedules</p>
+          <ul class="event-list">
+            <li><a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noopener noreferrer"><span class="event-topic">INFLATION</span><strong>Consumer Price Index</strong><span>Bureau of Labor Statistics ↗</span></a></li>
+            <li><a href="https://www.bls.gov/schedule/news_release/empsit.htm" target="_blank" rel="noopener noreferrer"><span class="event-topic">JOBS</span><strong>Employment Situation</strong><span>Bureau of Labor Statistics ↗</span></a></li>
+            <li><a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer"><span class="event-topic">ECONOMY</span><strong>PCE, GDP &amp; personal income</strong><span>Bureau of Economic Analysis ↗</span></a></li>
+            <li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer"><span class="event-topic">CENTRAL BANKS</span><strong>Federal Reserve decisions</strong><span>FOMC official schedule ↗</span></a></li>
+          </ul>
+          <p class="calendar-footnote">Dates and times: check the linked official schedules. No fabricated forecasts.</p>
+        </section>
         <section class="workspace-panel market" id="markets" aria-labelledby="market-heading">
           <details class="utility-panel" id="market-panel">
             <summary><h2 id="market-heading">Markets</h2></summary>
@@ -194,6 +226,36 @@
       </aside>
     </div>
   </main>
+  <dialog id="story-dialog" class="story-dialog" aria-labelledby="story-title" aria-describedby="story-description">
+    <div class="story-dialog-inner">
+      <header class="story-dialog-header">
+        <span class="story-kicker">STANDALONE NEWS / STORY</span>
+        <button type="button" id="story-close" aria-label="Close story details">×</button>
+      </header>
+      <p class="story-metadata" id="story-meta"></p>
+      <h2 id="story-title"></h2>
+      <p id="story-description" class="story-description">Open the original report for full reporting and context.</p>
+      <a id="story-source-link" class="story-source-link" target="_blank" rel="noopener noreferrer" href="#">Read original source ↗</a>
+      <div class="story-actions" aria-label="Share this story">
+        <button type="button" id="story-copy-link">Copy link</button>
+        <button type="button" id="story-copy-headline">Copy headline</button>
+        <button type="button" id="story-share" aria-expanded="false" aria-controls="story-share-options">Share via…</button>
+      </div>
+      <div class="story-share-options" id="story-share-options" hidden>
+        <a id="story-share-email" href="#" target="_blank" rel="noopener noreferrer">Email</a>
+        <a id="story-share-x" href="#" target="_blank" rel="noopener noreferrer">X</a>
+        <a id="story-share-reddit" href="#" target="_blank" rel="noopener noreferrer">Reddit</a>
+        <a id="story-share-linkedin" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" id="story-native-share" hidden>Share from device</button>
+      </div>
+      <p id="story-action-status" class="story-action-status" role="status" aria-live="polite"></p>
+      <section class="related-headlines" aria-labelledby="story-related-heading">
+        <h3 id="story-related-heading">Related coverage</h3>
+        <ul id="story-related"></ul>
+        <p id="story-related-empty">Other reports will appear here when there is relevant coverage.</p>
+      </section>
+    </div>
+  </dialog>
   <footer class="shell page-footer">
     <a href="./feed.xml">RSS</a>
     <a href="./standards.html">Editorial standards</a>

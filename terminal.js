@@ -115,8 +115,12 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       const time = node('time', formatTime(item.time));
       time.dateTime = new Date(item.time).toISOString();
       const detail = node('div');
-      const link = node('a', item.title, 'row-title');
-      link.href = item.href;
+      const link = node('button', item.title, 'row-title');
+      link.type = 'button';
+      link.setAttribute('aria-haspopup', 'dialog');
+      link.addEventListener('click', () => document.dispatchEvent(
+        new CustomEvent('standalone-open-story', { detail: item })
+      ));
       const meta = node('p', undefined, 'row-meta');
       meta.append(node('span', item.source), node('span', item.topic));
       if (item.viaGoogleNews) {
@@ -125,7 +129,14 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
       }
       if (item.official) meta.append(node('span', 'Official source', 'official'));
       meta.append(time);
+      const quickShare = node('button', 'Share', 'row-share');
+      quickShare.type = 'button';
+      quickShare.setAttribute('aria-label', 'Share: ' + item.title);
+      quickShare.addEventListener('click', () => document.dispatchEvent(
+        new CustomEvent('standalone-open-story', { detail: item })
+      ));
       detail.append(link, meta);
+      li.append(quickShare);
       li.append(detail);
       fragment.append(li);
     }
@@ -245,7 +256,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
     page += direction;
     renderItems();
     $('feed-list').scrollIntoView({ block: 'start', behavior: 'instant' });
-    headlines.querySelector('a')?.focus({ preventScroll: true });
+    headlines.querySelector('button.row-title')?.focus({ preventScroll: true });
   }
 
   previousPage.addEventListener('click', () => changePage(-1));
