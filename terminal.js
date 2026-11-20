@@ -136,8 +136,7 @@ import { fetchHeadlines, formatTime, itemFrom } from './wire-feed.js?v=2';
         new CustomEvent('standalone-open-story', { detail: item })
       ));
       detail.append(link, meta);
-      li.append(quickShare);
-      li.append(detail);
+      li.append(detail, quickShare);
       fragment.append(li);
     }
     headlines.start = offset + 1;
