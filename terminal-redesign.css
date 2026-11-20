@@ -79,6 +79,7 @@ body > main.shell, body > footer.shell { width:auto; max-width:1600px; margin-le
 .related-headlines a { display:block; padding:.5rem 0; font-size:.83rem; line-height:1.45; }
 .related-headlines a:hover { color:var(--dash-yellow); }
 #story-related-empty { color:var(--muted); font-size:.8rem; }
+@media(min-width:701px){.site-menu ul{position:static;inset:auto;width:100%;max-height:none;overflow:visible;background:transparent;border:0;border-radius:0;padding:.15rem .4rem}.site-menu li a{padding:.45rem .8rem;font-size:.8rem;line-height:1.35}}
 @media(max-width:1100px) { .layout {grid-template-columns:minmax(0,1fr) minmax(240px,30%);} .top{width:190px} :root{--dash-nav:190px;} }
 @media(max-width:900px) { .layout {grid-template-columns:minmax(0,1fr);} .utility-rail {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;} .terminal-calendar {grid-column:1/-1;} }
 @media(max-width:700px) {
