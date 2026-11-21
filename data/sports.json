@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T21:34:16Z",
+  "updated_at": "2026-11-21T02:52:23Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -658,19 +658,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601891",
+      "id": "sportsdb-2601898",
       "league": "nba",
-      "name": "Atlanta Hawks vs Charlotte Hornets",
-      "date": "2026-11-21T00:00:00Z",
+      "name": "Denver Nuggets vs Houston Rockets",
+      "date": "2026-11-21T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Hawks",
+          "name": "Denver Nuggets",
           "score": ""
         },
         {
-          "name": "Charlotte Hornets",
+          "name": "Houston Rockets",
           "score": ""
         }
       ],
@@ -696,19 +696,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2499316",
+      "id": "sportsdb-2499319",
       "league": "ncaaf",
-      "name": "UCF vs Iowa State",
-      "date": "2026-11-20T23:00:00Z",
+      "name": "Florida vs Vanderbilt",
+      "date": "2026-11-21T17:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "UCF",
+          "name": "Florida",
           "score": ""
         },
         {
-          "name": "Iowa State",
+          "name": "Vanderbilt",
           "score": ""
         }
       ],
@@ -793,6 +793,111 @@
   ],
   "stories": [
     {
+      "title": "Drivers limited to 27 laps for tyres in Qatar",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwg7l0l313rno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T01:16:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Josh Hazlewood suggests he could quit if any action taken against Pat Cummins over ‘sandpapergate’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/21/josh-hazlewood-pat-cummins-cricket-australia-sandpapergate",
+      "date": "2026-11-20T23:33:22Z",
+      "league": "all"
+    },
+    {
+      "title": "Price beats Kotaskova to become undisputed champion",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cw808y2lrkzxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T23:30:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Cost of Man Utd hiring and firing managers nears £100m",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwd01n9z23x5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T23:18:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Kim moves clear at LPGA finale after hole-in-one",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/ck62pzd7vjr0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T23:04:34Z",
+      "league": "all"
+    },
+    {
+      "title": "First defeat and first red for Ferguson as Glentoran falter",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/articles/c3zxvnz5x7g1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T22:54:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Bayern Munich confirm Harry Kane ‘out for next few months’ with ankle injury",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/20/harry-kane-ankle-ligament-injury-bayern-munich-england",
+      "date": "2026-11-20T22:43:40Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL great Brady could buy Chelsea stake",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmg46k97k92do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T22:36:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Premier League news: Moyes demands more from Grealish, Iraola wary of United threat",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
+      "date": "2026-11-20T22:31:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Price survives match darts to reach Grand Slam semis",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/ck7928yjd1dgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T22:30:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Grand Theft Auto VI appears to mock NFL sexual misconduct scandals in radio parody",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/gta-6-deshaun-watson-justin-tucker-nfl-sexual-misconduct-parody",
+      "date": "2026-11-20T22:16:06Z",
+      "league": "all"
+    },
+    {
+      "title": "Lampard calls for fairness after Coventry penalty row",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c678299n1018o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T22:04:19Z",
+      "league": "all"
+    },
+    {
+      "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T21:58:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Shevchenko lying about drugs test claims - Mudryk",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjn502n9vqp4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T21:54:17Z",
+      "league": "all"
+    },
+    {
+      "title": "Watch: Inverness and Ayr play out goalless draw",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6zxvnzjnne4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-20T21:47:58Z",
+      "league": "all"
+    },
+    {
       "title": "Osimhen keen on Man Utd move - Saturday's gossip",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/c60qj1924wyeo?at_medium=RSS&at_campaign=rss",
@@ -814,13 +919,6 @@
       "league": "soccer"
     },
     {
-      "title": "F1 bosses agree V8 engines deal from 2030",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cvj6l7nk611jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T19:17:40Z",
-      "league": "all"
-    },
-    {
       "title": "NWSL final tickets top $350 in ‘perfect storm’ even after fall from $755 peak",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/20/nwsl-championship-final-ticket-prices-755-washington-spirit-kansas-city-current",
@@ -831,6 +929,13 @@
       "title": "Pochettino the connector: will human touch lift Manchester United?",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/20/mauricio-pochettino-manchester-united-manager-liverpool-premier-league",
+      "date": "2026-11-20T19:00:37Z",
+      "league": "all"
+    },
+    {
+      "title": "The Super Bowl of F1: how Las Vegas GP has hit the jackpot after turbulent start",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/20/super-bowl-formula-one-las-vegas-grand-prix-jackpot",
       "date": "2026-11-20T19:00:37Z",
       "league": "all"
     },
@@ -856,13 +961,6 @@
       "league": "soccer"
     },
     {
-      "title": "LA Rams star Puka Nacua faces months out after knee surgery amid NFL suspension",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/20/puka-nacua-rams-knee-surgery-suspension-daniel-jones-colts-release",
-      "date": "2026-11-20T18:32:01Z",
-      "league": "all"
-    },
-    {
       "title": "Premier League team news: predicted lineups for the weekend action",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-team-news-predicted-lineups-for-the-weekend-action",
@@ -877,18 +975,11 @@
       "league": "all"
     },
     {
-      "title": "Bowen brothers needed extra protection after threats",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/horse-racing/articles/c6x280vp1px4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T17:57:30Z",
-      "league": "all"
-    },
-    {
       "title": "Chelsea fined £150,000 for discriminatory chanting",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwyvde0n8zqyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-20T17:52:50Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "'Right time' for Smith exit - but Murray not ready for role",
@@ -912,13 +1003,6 @@
       "league": "all"
     },
     {
-      "title": "Matos accepts Swansea fans' anger over shock exit",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ckq6eyppzqgpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T16:57:06Z",
-      "league": "soccer"
-    },
-    {
       "title": "Man Utd fan criticism has gone too far at times - Berrada",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwz0k32j9kr9o?at_medium=RSS&at_campaign=rss",
@@ -931,13 +1015,6 @@
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqrmgjpp0l48o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-20T16:51:17Z",
       "league": "all"
-    },
-    {
-      "title": "Football Daily | The Premier League resumes: here’s our almost essential club-by-club recap",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-resumes-club-by-club-recap-football-daily-newsletter",
-      "date": "2026-11-20T16:32:26Z",
-      "league": "soccer"
     },
     {
       "title": "'No-one is going to break us' - defiant Boks face Ireland without Erasmus",
@@ -954,13 +1031,6 @@
       "league": "soccer"
     },
     {
-      "title": "Premier League news: Grealish available again for Everton, Maresca hints at City tweaks",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "date": "2026-11-20T16:24:12Z",
-      "league": "soccer"
-    },
-    {
       "title": "We want to have a positive impact - Pochettino",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/cw20xd2zgl0xo?at_medium=RSS&at_campaign=rss",
@@ -968,11 +1038,11 @@
       "league": "all"
     },
     {
-      "title": "10 games, 0 points & 30 goals conceded - Charlton's struggles explained",
-      "source": "BBC Sport",
+      "title": "10 games, 0 points & 30 goals conceded - why Charlton are struggling",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq0k0kxg5k4zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-20T16:00:04Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Why injured Joao Pedro may be Chelsea's most important player",
@@ -1003,13 +1073,6 @@
       "league": "all"
     },
     {
-      "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T14:55:49Z",
-      "league": "all"
-    },
-    {
       "title": "Tom Brady in talks over buying Chelsea stake after Birmingham City exit",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/20/tom-brady-chelsea-talks-stake-birmingham-city",
@@ -1031,13 +1094,6 @@
       "league": "all"
     },
     {
-      "title": "Key questions as Scottish Premiership returns",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c50mdwnn90jyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T13:53:22Z",
-      "league": "soccer"
-    },
-    {
       "title": "Victor Wembanyama has turned his NBA finals humiliation into a revenge tour for the ages",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/20/victor-wembanyama-spurs-nba-mvp-finals-redemption",
@@ -1046,66 +1102,10 @@
     },
     {
       "title": "Southampton give head coach Eckert new deal",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwm25yx3kj5lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-20T13:10:33Z",
-      "league": "all"
-    },
-    {
-      "title": "McDowall goes from farm hand to Scotland captain as Darge injured",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c5n4ey83wk9ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T13:01:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal’s Lisa Baum: ‘I believe in us. I think it’s all about the small margins’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/20/arsenal-lisa-baum-germany-brother-dennis",
-      "date": "2026-11-20T13:00:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/20/liverpool-fan-not-guilty-racial-abuse-antoine-semenyo-withdraws-from-case-bournemouth-liverpool",
-      "date": "2026-11-20T12:20:00Z",
       "league": "soccer"
-    },
-    {
-      "title": "Rotated Wales aim to turn New Zealand miracle into true momentum against Australia",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/20/rugby-union-wales-australia-steve-tandy-nations-championship",
-      "date": "2026-11-20T12:00:43Z",
-      "league": "all"
-    },
-    {
-      "title": "CJ Stroud leads Texans to comfortable win over Colts",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/videos/cq8j403rxn2po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T10:59:38Z",
-      "league": "all"
-    },
-    {
-      "title": "Bukayo Saka may not return for Arsenal before Christmas, Mikel Arteta admits",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/20/bukayo-saka-injury-may-not-play-arsenal-before-christmas-mikel-arteta",
-      "date": "2026-11-20T10:46:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Men’s tennis boosts prize money for players to more than $350m in major overhaul",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/20/major-changes-in-mens-tennis-will-take-prize-money-for-players-to-more-than-350m",
-      "date": "2026-11-20T10:36:02Z",
-      "league": "all"
-    },
-    {
-      "title": "UFC title contender Fiorot banned for three months",
-      "source": "BBC MMA",
-      "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/c6808yxx71e0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-20T10:18:35Z",
-      "league": "ufc"
     }
   ]
 }
