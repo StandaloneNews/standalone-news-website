@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-21T22:28:06Z",
+  "updated_at": "2026-11-22T02:41:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -504,57 +504,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601901",
+      "id": "sportsdb-2601905",
       "league": "nba",
-      "name": "New York Knicks vs Portland Trail Blazers",
-      "date": "2026-11-22T00:30:00Z",
+      "name": "Sacramento Kings vs Boston Celtics",
+      "date": "2026-11-22T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "New York Knicks",
+          "name": "Sacramento Kings",
           "score": ""
         },
         {
-          "name": "Portland Trail Blazers",
+          "name": "Boston Celtics",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591845",
+      "id": "sportsdb-2591855",
       "league": "nhl",
-      "name": "Florida Panthers vs Buffalo Sabres",
-      "date": "2026-11-21T23:00:00Z",
+      "name": "San Jose Sharks vs Seattle Kraken",
+      "date": "2026-11-22T03:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Florida Panthers",
+          "name": "San Jose Sharks",
           "score": ""
         },
         {
-          "name": "Buffalo Sabres",
+          "name": "Seattle Kraken",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499371",
+      "id": "sportsdb-2499331",
       "league": "ncaaf",
-      "name": "Texas State vs Washington State",
-      "date": "2026-11-21T23:00:00Z",
+      "name": "Arizona State vs Oklahoma State",
+      "date": "2026-11-22T03:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Texas State",
+          "name": "Arizona State",
           "score": ""
         },
         {
-          "name": "Washington State",
+          "name": "Oklahoma State",
           "score": ""
         }
       ],
@@ -635,9 +635,110 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489559",
+      "league": "ligue1",
+      "name": "Paris FC vs Angers",
+      "date": "2026-11-22T14:00:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Paris FC",
+          "score": ""
+        },
+        {
+          "name": "Angers",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
+    {
+      "title": "Washington Spirit v Kansas City Current: NWSL Championship – live updates",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/live/2026/nov/21/washington-spirit-kansas-city-current-nwsl-championship-live-updates",
+      "date": "2026-11-22T02:39:46Z",
+      "league": "soccer"
+    },
+    {
+      "title": "'Unbelievable' - how Spurs teenager Williams-Barnett impressed on first start",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm5y149qg4yqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T00:13:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "I wish referee had opportunity to see 'handball' again - Hart",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cme3dvk1kzgqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T00:08:13Z",
+      "league": "soccer"
+    },
+    {
+      "title": "France thrash Argentina to reach Nations Championship final",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T23:22:40Z",
+      "league": "all"
+    },
+    {
+      "title": "London City keep up title hunt with emphatic win over Crystal Palace",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6n83rrknrj2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T23:14:10Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Alcaraz to face Zverev in ATP Finals title decider",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T22:50:19Z",
+      "league": "all"
+    },
+    {
+      "title": "France beat Argentina to set up Nations Championship final with South Africa",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/21/france-beat-argentina-to-set-up-nations-championship-final-with-south-africa",
+      "date": "2026-11-21T22:46:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Kim holds one-shot lead at LPGA finale as Korda closes in",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/c3ewvg08gjggo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T22:28:26Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales fightback not enough as Australia edge thriller thanks to Gordon",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/21/wales-australia-nations-championship-rugby-union-match-report",
+      "date": "2026-11-21T22:28:08Z",
+      "league": "all"
+    },
     {
       "title": "Can win over All Blacks finally break England's boom-bust cycle?",
       "source": "BBC Sport",
@@ -646,10 +747,38 @@
       "league": "all"
     },
     {
+      "title": "Australia hold on for narrow win against Wales",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T22:25:36Z",
+      "league": "all"
+    },
+    {
       "title": "France secure Nations Championship final with Springboks",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T22:22:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Scottish Premiership roundup: Dundee left reeling after 8-0 mauling by Hearts",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/21/scottish-premiership-roundup-celtic-sweep-st-mirren-aside-to-strengthen-grip-at-top",
+      "date": "2026-11-21T22:20:19Z",
+      "league": "soccer"
+    },
+    {
+      "title": "‘I didn’t know’: former Australia Test coach Darren Lehmann denies any knowledge of sandpaper use",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/i-didnt-know-former-australian-test-coach-darren-lehmann-denies-any-knowledge-of-sandpaper-use",
+      "date": "2026-11-21T22:18:14Z",
+      "league": "all"
+    },
+    {
+      "title": "England hail ‘inspirational’ Lewis Moody after thrashing New Zealand",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/21/england-hail-inspirational-moody-after-thrashing-new-zealand",
+      "date": "2026-11-21T22:14:39Z",
       "league": "all"
     },
     {
@@ -710,10 +839,10 @@
     },
     {
       "title": "'We lost two points' - Arteta on 'unacceptable' Newcastle draw",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck1wrdd9ew11o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T20:30:50Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "European football: Doué carried off for PSG while Kane vows to return fresh",
@@ -728,13 +857,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6p9d102k4mdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T20:07:56Z",
       "league": "all"
-    },
-    {
-      "title": "Scottish Premiership roundup: Dundee left reeling after 8-0 mauling by Hearts",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/scottish-premiership-roundup-celtic-sweep-st-mirren-aside-to-strengthen-grip-at-top",
-      "date": "2026-11-21T20:05:28Z",
-      "league": "soccer"
     },
     {
       "title": "Pochettino needs New Manager Bounce to break torrid Manchester United turnover | Jonathan Wilson",
@@ -828,24 +950,10 @@
       "league": "all"
     },
     {
-      "title": "Ireland stand firm to beat South Africa but bonus point puts Erasmus’s men in final",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/21/ireland-south-africa-nations-championship-rugby-union-match-report",
-      "date": "2026-11-21T19:03:19Z",
-      "league": "all"
-    },
-    {
       "title": "Keating stars as Liverpool hold high-flying Chelsea to goalless draw",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmde1ll6pgj3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T18:34:55Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Williams-Barnett's talent bigger than performance - De Zerbi",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6wy4gg24vlno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T18:32:27Z",
       "league": "soccer"
     },
     {
@@ -854,20 +962,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T18:30:22Z",
       "league": "all"
-    },
-    {
-      "title": "England hail ‘inspirational’ Lewis Moody after thrashing New Zealand",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/21/england-hail-inspirational-moody-after-thrashing-new-zealand",
-      "date": "2026-11-21T18:22:26Z",
-      "league": "all"
-    },
-    {
-      "title": "'It's a deserved defeat' - Glasner on Bournemouth loss",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c63dg88zdzxko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T18:16:48Z",
-      "league": "soccer"
     },
     {
       "title": "England’s strength in depth finally comes together in landmark victory over All Blacks | Andy Bull",
@@ -885,10 +979,10 @@
     },
     {
       "title": "Leeds 'created piece of history' in Chelsea win - Farke",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmwy5ddwnygqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T17:42:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Championship roundup: Strelec sends Middlesbrough top; 10-man Stoke go second",
@@ -896,62 +990,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea",
       "date": "2026-11-21T17:37:09Z",
       "league": "soccer"
-    },
-    {
-      "title": "Alcaraz battles back against Shelton to reach final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T17:36:28Z",
-      "league": "all"
-    },
-    {
-      "title": "Aston Villa held at home as dogged Sunderland battle for Régis Le Bris",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/aston-villa-sunderland-premier-league-match-report",
-      "date": "2026-11-21T17:32:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Evanilson and Kluivert sink Forest to earn Bournemouth ninth win in a row",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/21/bournemouth-nottingham-forest-premier-league-match-report",
-      "date": "2026-11-21T17:10:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Coventry edge thriller to keep Crystal Palace bottom and ruin Thomas Frank’s start",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/21/coventry-crystal-palace-premier-league-match-report",
-      "date": "2026-11-21T17:09:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Teenage ace Williams-Barnett puts Tottenham on path to win over Ipswich",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/tottenham-ipswich-premier-league-match-report",
-      "date": "2026-11-21T16:58:31Z",
-      "league": "soccer"
-    },
-    {
-      "title": "England beat New Zealand by record margin",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T16:28:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Graham and McConnell inspire 11-try Scotland to crushing win against Japan",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/21/scotland-japan-nations-championship-match-report",
-      "date": "2026-11-21T16:23:53Z",
-      "league": "all"
-    },
-    {
-      "title": "Grey Dawning wins at Haydock and Lossiemouth gives Mullins third winner at Punchestown: horse racing – as it happened",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/21/horse-racing-updates-news-and-results-from-ascot-haydock-and-more-live",
-      "date": "2026-11-21T16:20:49Z",
-      "league": "all"
     }
   ]
 }
