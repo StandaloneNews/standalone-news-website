@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-22T02:41:46Z",
+  "updated_at": "2026-11-22T10:23:13Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 12,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 1
+      "events": 0
     },
     {
       "id": "brasileirao",
@@ -504,57 +504,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601905",
+      "id": "sportsdb-2601906",
       "league": "nba",
-      "name": "Sacramento Kings vs Boston Celtics",
-      "date": "2026-11-22T03:00:00Z",
+      "name": "Atlanta Hawks vs Detroit Pistons",
+      "date": "2026-11-22T20:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Sacramento Kings",
+          "name": "Atlanta Hawks",
           "score": ""
         },
         {
-          "name": "Boston Celtics",
+          "name": "Detroit Pistons",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591855",
+      "id": "sportsdb-2591857",
       "league": "nhl",
-      "name": "San Jose Sharks vs Seattle Kraken",
-      "date": "2026-11-22T03:00:00Z",
+      "name": "New York Rangers vs Carolina Hurricanes",
+      "date": "2026-11-22T17:30:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Jose Sharks",
+          "name": "New York Rangers",
           "score": ""
         },
         {
-          "name": "Seattle Kraken",
+          "name": "Carolina Hurricanes",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499331",
+      "id": "sportsdb-2499378",
       "league": "ncaaf",
-      "name": "Arizona State vs Oklahoma State",
-      "date": "2026-11-22T03:15:00Z",
+      "name": "Eastern Michigan vs Kent State",
+      "date": "2026-11-24T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Arizona State",
+          "name": "Eastern Michigan",
           "score": ""
         },
         {
-          "name": "Oklahoma State",
+          "name": "Kent State",
           "score": ""
         }
       ],
@@ -635,52 +635,147 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489559",
-      "league": "ligue1",
-      "name": "Paris FC vs Angers",
-      "date": "2026-11-22T14:00:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Paris FC",
-          "score": ""
-        },
-        {
-          "name": "Angers",
-          "score": ""
-        }
-      ],
-      "url": ""
-    },
-    {
-      "id": "sportsdb-2594602",
-      "league": "ucl",
-      "name": "Bodø/Glimt vs LASK",
-      "date": "2026-11-24T17:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Bodø/Glimt",
-          "score": ""
-        },
-        {
-          "name": "LASK",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Washington Spirit v Kansas City Current: NWSL Championship – live updates",
+      "title": "Bruno Fernandes puts Manchester United contract talks on hold – matchday live",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-buildup-and-more-premier-league-news-matchday-live",
+      "date": "2026-11-22T10:15:51Z",
+      "league": "all"
+    },
+    {
+      "title": "England aim to avoid Gold Coast traps as Will Jacks heads home with injury",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/england-australia-cricket-t20-gold-coast-will-jacks",
+      "date": "2026-11-22T10:00:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Injured Jacks out of T20 Australia tour",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T10:00:04Z",
+      "league": "all"
+    },
+    {
+      "title": "Verstappen wins extraordinary race as Ferraris collide",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cqx2ex25pvn9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T09:49:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Verstappen's superb racecraft & Russell's costly mistake - driver ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c83vg92x21vzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T09:35:05Z",
+      "league": "all"
+    },
+    {
+      "title": "Hamilton-Leclerc collision completely unacceptable, says Ferrari boss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T09:07:15Z",
+      "league": "all"
+    },
+    {
+      "title": "'Not the right time' - Fernandes pauses Man Utd contract talks",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T08:41:20Z",
+      "league": "all"
+    },
+    {
+      "title": "Robins ‘aims for the stars’ as Stoke dream of Premier League return",
       "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/live/2026/nov/21/washington-spirit-kansas-city-current-nwsl-championship-live-updates",
-      "date": "2026-11-22T02:39:46Z",
+      "url": "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
+      "date": "2026-11-22T08:00:22Z",
+      "league": "soccer"
+    },
+    {
+      "title": "César Azpilicueta: ‘At Chelsea a draw was a catastrophe – if you can’t perform, you’re out’",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/22/cesar-azpilicueta-at-chelsea-a-draw-was-a-catastrophe-if-you-cant-perform-youre-out",
+      "date": "2026-11-22T08:00:21Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Showing off for Selena Gomez’ - Wembanyama hits 50 points in Spurs win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/basketball/articles/c6x20yeqg18vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T07:42:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Guess WSL star No 13",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq770yn580j3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T07:19:58Z",
+      "league": "all"
+    },
+    {
+      "title": "Why Arsenal are behind in race for Women's Champions League spots",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8752llr1ed1o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T07:17:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Argentina midfielder Paredes collapses during TV interview",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv45818z59o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T07:13:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Who am I? Plus today's other quizzes",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq0l31gw1809o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T07:12:55Z",
+      "league": "all"
+    },
+    {
+      "title": "'He will see what Man Utd are made of' - Pulis on Pochettino's first game",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckqx5w58dgv7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T06:21:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Max Verstappen touches perfection in dramatic Las Vegas F1 GP win",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-touches-perfection-in-dramatic-las-vegas-grand-prix-win",
+      "date": "2026-11-22T06:08:03Z",
+      "league": "all"
+    },
+    {
+      "title": "'WRU like Man United' but Davies backs Faulkner",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm257rjk9v9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T05:49:02Z",
+      "league": "all"
+    },
+    {
+      "title": "Wales coach Tandy frustrated by Australia defeat",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregq87258o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T04:50:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/21/nwsl-championship-washington-spirit-kansas-city-current",
+      "date": "2026-11-22T03:55:43Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Lionel Messi at center of red-card controversy as Inter Miami face early MLS playoff exit",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
+      "date": "2026-11-22T03:01:55Z",
       "league": "soccer"
     },
     {
@@ -698,13 +793,6 @@
       "league": "soccer"
     },
     {
-      "title": "France thrash Argentina to reach Nations Championship final",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T23:22:40Z",
-      "league": "all"
-    },
-    {
       "title": "London City keep up title hunt with emphatic win over Crystal Palace",
       "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6n83rrknrj2o?at_medium=RSS&at_campaign=rss",
@@ -712,24 +800,10 @@
       "league": "soccer"
     },
     {
-      "title": "Alcaraz to face Zverev in ATP Finals title decider",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T22:50:19Z",
-      "league": "all"
-    },
-    {
       "title": "France beat Argentina to set up Nations Championship final with South Africa",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/21/france-beat-argentina-to-set-up-nations-championship-final-with-south-africa",
       "date": "2026-11-21T22:46:00Z",
-      "league": "all"
-    },
-    {
-      "title": "Kim holds one-shot lead at LPGA finale as Korda closes in",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/c3ewvg08gjggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T22:28:26Z",
       "league": "all"
     },
     {
@@ -744,20 +818,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T22:27:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Australia hold on for narrow win against Wales",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T22:25:36Z",
-      "league": "all"
-    },
-    {
-      "title": "France secure Nations Championship final with Springboks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T22:22:36Z",
       "league": "all"
     },
     {
@@ -783,9 +843,16 @@
     },
     {
       "title": "Rising star Stirling knocks out Prochazka",
-      "source": "BBC Sport",
+      "source": "BBC MMA",
       "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckgj3l8nxev5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T21:51:51Z",
+      "league": "ufc"
+    },
+    {
+      "title": "‘Obviously it’s not good’: Arteta sweating over David Raya’s fitness after injury",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/21/david-raya-shoulder-injury-arsenal-newcastle-mikel-arteta",
+      "date": "2026-11-21T21:48:21Z",
       "league": "all"
     },
     {
@@ -824,24 +891,10 @@
       "league": "all"
     },
     {
-      "title": "Hirst key for Stoke, injuries derail Millwall - Sam Parkin's EFL takeaways",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6r7g8253e3yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T20:36:43Z",
-      "league": "soccer"
-    },
-    {
       "title": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T20:35:12Z",
-      "league": "all"
-    },
-    {
-      "title": "'We lost two points' - Arteta on 'unacceptable' Newcastle draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck1wrdd9ew11o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T20:30:50Z",
       "league": "soccer"
     },
     {
@@ -853,17 +906,17 @@
     },
     {
       "title": "Nine wins in a row - Bournemouth & Evanilson continue to make history",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6p9d102k4mdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T20:07:56Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Pochettino needs New Manager Bounce to break torrid Manchester United turnover | Jonathan Wilson",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/21/pochettino-needs-new-manager-bounce-to-break-torrid-manchester-united-turnover",
       "date": "2026-11-21T20:00:06Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Arsenal go six points clear after lively draw at Newcastle",
@@ -899,97 +952,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/c3174qq2j82zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-21T19:59:02Z",
       "league": "all"
-    },
-    {
-      "title": "Villa's home woes continue as Sunderland earn point",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5j9m227l42do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:58:56Z",
-      "league": "all"
-    },
-    {
-      "title": "Coventry beat Palace in Frank's first game after late own goal",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8wy5ddky5n9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:58:52Z",
-      "league": "all"
-    },
-    {
-      "title": "Raya injured but Madueke rescues point for Arsenal in seesaw Newcastle draw",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/21/newcastle-arsenal-premier-league-match-report",
-      "date": "2026-11-21T19:47:11Z",
-      "league": "all"
-    },
-    {
-      "title": "Madueke 'a consistent threat' - Newcastle v Arsenal player ratings",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq4gn97e8ee4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:29:48Z",
-      "league": "all"
-    },
-    {
-      "title": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:21:01Z",
-      "league": "all"
-    },
-    {
-      "title": "‘Fragile’ Chelsea must toughen up after Leeds humiliation, admits Xabi Alonso",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/21/chelsea-leeds-premier-league-match-report",
-      "date": "2026-11-21T19:20:51Z",
-      "league": "all"
-    },
-    {
-      "title": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwe8944d004yo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T19:04:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Keating stars as Liverpool hold high-flying Chelsea to goalless draw",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmde1ll6pgj3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T18:34:55Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Officials can't use common sense' - was Rogers handball correct?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T18:30:22Z",
-      "league": "all"
-    },
-    {
-      "title": "England’s strength in depth finally comes together in landmark victory over All Blacks | Andy Bull",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/21/englands-thrashing-of-new-zealand-ominous-for-rivals",
-      "date": "2026-11-21T17:47:30Z",
-      "league": "all"
-    },
-    {
-      "title": "Fifpro criticises Bayern Munich for Musiala comments",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c9x2evr1rg85o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T17:43:44Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Leeds 'created piece of history' in Chelsea win - Farke",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy5ddwnygqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-21T17:42:14Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Championship roundup: Strelec sends Middlesbrough top; 10-man Stoke go second",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/championship-roundup-southampton-birmingham-middlesbrough-swansea",
-      "date": "2026-11-21T17:37:09Z",
-      "league": "soccer"
     }
   ]
 }
