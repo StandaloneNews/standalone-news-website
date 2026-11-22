@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:55:15Z",
+  "updated_at": "2026-11-22T22:57:34Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
   "sources_ok": 10,
@@ -485,57 +485,57 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475525",
+      "id": "sportsdb-2475535",
       "league": "nfl",
-      "name": "Buffalo Bills vs Miami Dolphins",
-      "date": "2026-11-22T18:00:00Z",
+      "name": "San Francisco 49ers vs Minnesota Vikings",
+      "date": "2026-11-23T01:20:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Buffalo Bills",
+          "name": "San Francisco 49ers",
           "score": ""
         },
         {
-          "name": "Miami Dolphins",
+          "name": "Minnesota Vikings",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601906",
+      "id": "sportsdb-2601907",
       "league": "nba",
-      "name": "Atlanta Hawks vs Detroit Pistons",
-      "date": "2026-11-22T20:30:00Z",
+      "name": "Miami Heat vs Oklahoma City Thunder",
+      "date": "2026-11-22T23:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atlanta Hawks",
+          "name": "Miami Heat",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Oklahoma City Thunder",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591858",
+      "id": "sportsdb-2591859",
       "league": "nhl",
-      "name": "Tampa Bay Lightning vs Buffalo Sabres",
-      "date": "2026-11-22T22:00:00Z",
+      "name": "Dallas Stars vs Pittsburgh Penguins",
+      "date": "2026-11-23T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Tampa Bay Lightning",
+          "name": "Dallas Stars",
           "score": ""
         },
         {
-          "name": "Buffalo Sabres",
+          "name": "Pittsburgh Penguins",
           "score": ""
         }
       ],
@@ -580,19 +580,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2506295",
+      "id": "sportsdb-2506292",
       "league": "laliga",
-      "name": "Getafe vs Atlético Madrid",
-      "date": "2026-11-22T20:00:00Z",
+      "name": "Levante vs Elche",
+      "date": "2026-11-23T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Getafe",
+          "name": "Levante",
           "score": ""
         },
         {
-          "name": "Atlético Madrid",
+          "name": "Elche",
           "score": ""
         }
       ],
@@ -618,19 +618,19 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2482253",
+      "id": "sportsdb-2482257",
       "league": "seriea",
-      "name": "Atalanta vs Inter Milan",
-      "date": "2026-11-22T19:45:00Z",
+      "name": "Monza vs Fiorentina",
+      "date": "2026-11-23T19:45:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Atalanta",
+          "name": "Monza",
           "score": ""
         },
         {
-          "name": "Inter Milan",
+          "name": "Fiorentina",
           "score": ""
         }
       ],
@@ -639,67 +639,214 @@
   ],
   "stories": [
     {
-      "title": "Spurs deny Man City top spot with statement win",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:54:36Z",
-      "league": "soccer"
-    },
-    {
-      "title": "NFL week 11: Dolphins v Bills, Buccaneers v Lions, Saints v Bears, and more – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/22/nfl-week-11-dolphins-v-bills-buccaneers-v-lions-saints-v-bears-and-more-live",
-      "date": "2026-11-22T17:44:09Z",
-      "league": "all"
-    },
-    {
-      "title": "Liverpool v Manchester United: Premier League – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
-      "date": "2026-11-22T17:43:16Z",
-      "league": "all"
-    },
-    {
-      "title": "ATP Finals tennis: Alexander Zverev v Carlos Alcaraz in the final – live",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/22/atp-finals-tennis-alexander-zverev-carlos-alcaraz-final-live",
-      "date": "2026-11-22T17:36:19Z",
-      "league": "all"
-    },
-    {
-      "title": "Arsenal frustrations grow as winless home run continues",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:30:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Jakirovic full of praise for Tzolakis performance",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqz0k335d0njo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:18:07Z",
-      "league": "soccer"
-    },
-    {
-      "title": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
+      "title": "Match of the Day",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:00:01Z",
+      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:22:56Z",
+      "league": "all"
+    },
+    {
+      "title": "Mets reportedly agree $450m contract with Tarik Skubal, richest deal for pitcher in MLB history",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/tarik-skubal-new-york-mets-reported-deal-contract",
+      "date": "2026-11-22T22:25:59Z",
       "league": "all"
     },
     {
       "title": "European football: Barcelona roar back from two goals down to sink Villarreal",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
-      "date": "2026-11-22T16:53:47Z",
+      "date": "2026-11-22T22:20:43Z",
+      "league": "all"
+    },
+    {
+      "title": "NFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/nfl-roundup-sunday-football-scores",
+      "date": "2026-11-22T21:57:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Gerwyn Price ends four-year barren run with Grand Slam of Darts win in Wolverhampton",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/gerwyn-price-ends-barren-run-with-grand-slam-victory-in-wolverhampton",
+      "date": "2026-11-22T21:54:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Thitikul wins third title in a row at LPGA finale",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/ckjwjvwexd12o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:54:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Fifa to confirm UK as host for 2035 Women's World Cup",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:44:37Z",
+      "league": "all"
+    },
+    {
+      "title": "'World's best could've lost 4-0' - but should Man Utd have done more at Anfield?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm782j80yypwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:36:00Z",
+      "league": "all"
+    },
+    {
+      "title": "Chaotic week, nightmare start and huge reality check for Pochettino",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:22:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Price wins Grand Slam to end wait for major title",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/darts/articles/cklye10j4z1yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:06:47Z",
+      "league": "all"
+    },
+    {
+      "title": "Pepe did not injure eyes staring at sun, say Villarreal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8zx9y6d29vyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:04:55Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd plotting Toney move - Monday's gossip",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck053nyl6399o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T21:04:15Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-matthijs-de-ligt-harry-maguire-manchester-united-liverpool-premier-league",
+      "date": "2026-11-22T20:58:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Alcaraz puts Zverev in shade as world’s best beats No 1 for first ATP Finals title",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis",
+      "date": "2026-11-22T20:43:11Z",
+      "league": "all"
+    },
+    {
+      "title": "Alcaraz outplays Zverev for first ATP Finals triumph",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T20:15:48Z",
+      "league": "all"
+    },
+    {
+      "title": "McBurnie stoppage-time double earns Hull win over 10-man Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ck62pzzezqz2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:59:38Z",
+      "league": "all"
+    },
+    {
+      "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:59:35Z",
+      "league": "all"
+    },
+    {
+      "title": "Own-goal mishap gifts Brighton first away victory",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqx2w0m8v84wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:50:33Z",
       "league": "soccer"
     },
     {
-      "title": "Spurs 'a match for anyone' as European hopes boosted",
+      "title": "Iraola 'enjoyed' big win over Man Utd",
       "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c3y0x55ey81yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:25:21Z",
+      "league": "all"
+    },
+    {
+      "title": "From conceding seven to Hull heroics - how Tzolakis recovered to defy Brighton",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gn7npqe8yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:03:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino on 'painful' defeat in first game as Man Utd boss",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8p3vyyg4d6vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:03:24Z",
+      "league": "all"
+    },
+    {
+      "title": "Kildunne returns to haunt Harlequins as Bristol get PWR season off to a flyer",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/harlequins-bristol-premiership-womens-rugby-union-match-report",
+      "date": "2026-11-22T18:42:34Z",
+      "league": "all"
+    },
+    {
+      "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
+      "date": "2026-11-22T18:35:14Z",
+      "league": "all"
+    },
+    {
+      "title": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T18:28:51Z",
+      "league": "all"
+    },
+    {
+      "title": "The red card that changed Liverpool-Man Utd: correct call?",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:55:54Z",
+      "league": "all"
+    },
+    {
+      "title": "Spurs deny Man City top spot with statement win",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:54:36Z",
+      "league": "all"
+    },
+    {
+      "title": "Man Utd score dramatic late winner to extend record run",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:54:32Z",
+      "league": "all"
+    },
+    {
+      "title": "Arsenal frustrations grow as winless home run continues",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm8e0pdw70d8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:30:45Z",
+      "league": "all"
+    },
+    {
+      "title": "'Rolls-Royce' Iqbal's 'dream' journey from Old Trafford to Tannadice",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwj05z6npze4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T17:00:01Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Spurs 'a match for anyone' as win at Man City boosts European hopes",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c6n901w453nlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T16:25:35Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "McBurnie’s added-time double snatches win for Hull to shock 10-man Brighton",
@@ -709,14 +856,7 @@
       "league": "all"
     },
     {
-      "title": "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/espn-mourns-one-of-the-best-human-beings-ever-after-nfl-analyst-tom-jackson-dies-at-75",
-      "date": "2026-11-22T16:09:22Z",
-      "league": "all"
-    },
-    {
-      "title": "Borthwick revisits England from the past as inspiration behind recent fast starts",
+      "title": "Steve Borthwick hits rewind button to inspire England’s flying starts",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/22/steve-borthwick-england-new-zealand-nations-championship-fast-start",
       "date": "2026-11-22T16:00:31Z",
@@ -724,23 +864,16 @@
     },
     {
       "title": "PSG's Doue to have surgery on ruptured ACL",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T15:50:05Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Marc Márquez claims record-equalling eighth MotoGP world title in Portugal",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/22/marc-marquez-claims-eighth-motogp-world-title",
       "date": "2026-11-22T15:26:16Z",
-      "league": "all"
-    },
-    {
-      "title": "Liu Wenwei suspended amid match-fixing investigation",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/snooker/articles/c9p83k06160xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T15:17:49Z",
       "league": "all"
     },
     {
@@ -766,10 +899,10 @@
     },
     {
       "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
       "date": "2026-11-22T14:59:23Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Marquez wins record-equalling eighth MotoGP title",
@@ -793,13 +926,6 @@
       "league": "all"
     },
     {
-      "title": "Frick delivers on 'heavy metal football' promise",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn50x95vv73o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T13:12:42Z",
-      "league": "soccer"
-    },
-    {
       "title": "England will not get carried away by beating All Blacks",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss",
@@ -808,10 +934,10 @@
     },
     {
       "title": "Watford seek sixth manager in 18 months after sacking Dionisi",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/cyvz6r4g1jqo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T12:00:45Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "‘Great coach, terrible streamer’ – Erasmus gets thumbs-down for his weird watchalong",
@@ -826,132 +952,6 @@
       "url": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-george-russell-las-vegas-gp-formula-one",
       "date": "2026-11-22T11:49:11Z",
       "league": "all"
-    },
-    {
-      "title": "Bruno Fernandes reveals talks over new Manchester United contract are on hold",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/22/bruno-fernandes-reveals-talks-over-new-manchester-united-contract-are-on-hold",
-      "date": "2026-11-22T11:33:54Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Did Springboks win change the narrative for Ireland?",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c64gnry013mko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T11:09:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Verstappen a constant amid chaos as he says Russell is 'so far below my level'",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c3n0l5p5x5x5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T11:07:32Z",
-      "league": "all"
-    },
-    {
-      "title": "Scotland must let promising McConnell loose against Pumas",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmgqxvzyq959o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T10:59:15Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL player Harrell in hospital after alleged driver assault",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/american-football/articles/c3ly71pg27wvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T10:30:36Z",
-      "league": "all"
-    },
-    {
-      "title": "England aim to avoid Gold Coast traps as Will Jacks heads home with injury",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/england-australia-cricket-t20-gold-coast-will-jacks",
-      "date": "2026-11-22T10:00:24Z",
-      "league": "all"
-    },
-    {
-      "title": "Injured Jacks out of T20 Australia tour",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c8p3v1p45360o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T10:00:04Z",
-      "league": "all"
-    },
-    {
-      "title": "Verstappen's superb racecraft & Russell's costly mistake - driver ratings",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c83vg92x21vzo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T09:35:05Z",
-      "league": "all"
-    },
-    {
-      "title": "Hamilton-Leclerc collision completely unacceptable, says Ferrari boss",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6j9mepj0j1go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T09:07:15Z",
-      "league": "all"
-    },
-    {
-      "title": "'Not the right time' - Fernandes pauses Man Utd contract talks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x2e8devk1po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T08:41:20Z",
-      "league": "all"
-    },
-    {
-      "title": "Robins ‘aims for the stars’ as Stoke dream of Premier League return",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/22/mark-robins-stoke-birmingham-championship-premier-league-promotion",
-      "date": "2026-11-22T08:00:22Z",
-      "league": "all"
-    },
-    {
-      "title": "César Azpilicueta: ‘At Chelsea a draw was a catastrophe – if you can’t perform, you’re out’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/22/cesar-azpilicueta-at-chelsea-a-draw-was-a-catastrophe-if-you-cant-perform-youre-out",
-      "date": "2026-11-22T08:00:21Z",
-      "league": "all"
-    },
-    {
-      "title": "Argentina midfielder Paredes collapses during TV interview",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwnv45818z59o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T07:13:34Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Who am I? Plus today's other quizzes",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq0l31gw1809o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T07:12:55Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Max Verstappen claims dramatic Las Vegas F1 GP win after Ferraris collide",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-touches-perfection-in-dramatic-las-vegas-grand-prix-win",
-      "date": "2026-11-22T06:08:03Z",
-      "league": "all"
-    },
-    {
-      "title": "'WRU like Man Utd' but Davies backs Faulkner",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm257rjk9v9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T05:49:02Z",
-      "league": "all"
-    },
-    {
-      "title": "Champion’s corner: KC Current win first NWSL Championship with 2-1 stunner over Spirit",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/nwsl-championship-washington-spirit-kansas-city-current",
-      "date": "2026-11-22T03:55:43Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Lionel Messi at center of red-card controversy as Inter Miami face early MLS playoff exit",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/21/lionel-messi-red-card-controversy-inter-miami-columbus-crew-mls-playoffs",
-      "date": "2026-11-22T03:01:55Z",
-      "league": "soccer"
     }
   ]
 }
