@@ -1,0 +1,70 @@
+name: Signature Design Visual and Accessibility Check
+on:
+  push:
+    branches: [design/signature-robinhood-cashapp]
+    paths: [.github/workflows/signature-visual.yml]
+permissions:
+  contents: read
+jobs:
+  signature:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run static checks
+        run: |
+          node --check terminal.js
+          node --check terminal-story.js
+          python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Browser regression and cross-page design check
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/signature-serve.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/signature" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3 pngjs@7.0.0
+          export NODE_PATH="$RUNNER_TEMP/signature/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node tests/terminal-redesign.test.cjs
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const assert=require('node:assert/strict');
+          const axe=require('axe-core');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try {
+              for(const width of [320,390,768,1280,1600,1920]){
+                const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});
+                const sample=Array.from({length:40},(_,i)=>({title:'Economy and world story #'+i,source:'Reuters',category:i%2?'World':'Markets',source_type:'Publisher RSS',url:'https://example.org/'+i,published_at:new Date(Date.now()-i*60000-120000).toISOString()}));
+                await page.route('**/api/wire',r=>r.fulfill({json:{items:sample,feeds:[],checked_at:new Date().toISOString()}}));
+                await page.route('**/data/news.json',r=>r.fulfill({json:{items:[],updated_at:new Date().toISOString()}}));
+                await page.goto('http://127.0.0.1:8765/',{waitUntil:'domcontentloaded'});
+                await page.locator('#headlines .row-title').first().waitFor();
+                const geo=await page.evaluate(()=>{
+                  const r=el=>{const x=el.getBoundingClientRect();return {left:x.left,right:x.right,width:x.width,top:x.top,height:x.height}};
+                  return {header:r(document.querySelector('.top')),hero:r(document.querySelector('.signature-hero')),art:r(document.querySelector('.signature-art')),main:r(document.querySelector('main.shell')),scroll:document.documentElement.scrollWidth,iw:innerWidth};
+                });
+                assert.ok(geo.scroll<=width+1,'overflow '+width+' '+JSON.stringify(geo));
+                assert.ok(geo.main.right>=width-2,'unused right gutter '+width);
+                assert.ok(geo.hero.height>=220,'hero was collapsed '+width);
+                const headings=await page.locator('h1').count();assert.equal(headings,1,'exactly one h1');
+                console.log('SIGNATURE VIEWPORT',width,JSON.stringify(geo));
+                if(width===390 || width===1600){
+                  await page.addScriptTag({content:axe.source});
+                  const violations=await page.evaluate(async()=> (await axe.run({runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']},iframes:false})).violations.map(x=>({id:x.id,target:x.nodes.map(n=>n.target)})));
+                  assert.deepEqual(violations,[],'WCAG signature violations '+width);
+                }
+                await page.close();
+              }
+              for(const path of ['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html','markets.html','sports.html','research.html','edition.html','discuss.html','accessibility.html','terms.html']){
+                const p=await browser.newPage({viewport:{width:1365,height:900}});
+                await p.goto('http://127.0.0.1:8765/'+path,{waitUntil:'domcontentloaded'});
+                const scroll=await p.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+                assert.ok(scroll<=1,'desktop horizontal overflow '+path+': '+scroll);
+                if(path.includes('.html') && ['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html'].includes(path)){
+                  const nav=await p.locator('.desk-nav').evaluate(e=>getComputedStyle(e).position);
+                  assert.equal(nav,'sticky','desk top navigation on '+path);
+                }
+                console.log('INTERIOR',path,'OK');
+                await p.close();
+              }
+            }finally{await browser.close()}
+          })().catch(e=>{console.error(e);process.exitCode=1});
+          JS
