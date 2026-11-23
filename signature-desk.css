@@ -1,0 +1,84 @@
+/* Shared data-desk shell: a cohesive Standalone app experience. */
+:root{
+  --bg:#0c0d10;--panel:#191c22;--ink:#f7f8f5;--muted:#bfc5cd;--border:#3b414a;--yellow:#ffc500;
+  color-scheme:dark;font-family:Arial,Helvetica,sans-serif;
+}
+body{background:#0c0d10;color:#f7f8f5;-webkit-font-smoothing:antialiased}
+.desk-nav{
+  position:sticky;inset:0 auto auto 0;width:100%;height:auto;z-index:80;
+  display:flex;flex-direction:row;align-items:center;gap:1.25rem;
+  padding:.55rem clamp(1rem,2.5vw,3rem);
+  border:0;border-bottom:1px solid #3a3f48;background:rgba(12,13,16,.98);
+  overflow:visible;
+}
+.desk-brand{flex:0 0 auto;display:flex;align-items:center;min-height:54px;font-weight:850;font-size:.9rem;letter-spacing:-.02em;color:#f5f6f7}
+.desk-brand img{border-radius:13px;width:38px;height:38px}
+.desk-nav nav{
+  flex:1 1 auto;display:flex;flex-direction:row;align-items:center;justify-content:flex-end;
+  gap:.1rem;margin:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#444950 #101216;
+}
+.desk-nav nav p{display:none}
+.desk-nav nav a{
+  flex:0 0 auto;white-space:nowrap;display:inline-flex;align-items:center;
+  min-height:44px;padding:.5rem .8rem;border-radius:999px;
+  color:#e1e4e8;font-size:.84rem;font-weight:650;
+}
+.desk-nav nav a:hover{background:#292e36;color:#ffc500}
+.desk-nav nav a[aria-current="page"]{
+  background:#282c33;box-shadow:none;color:#ffc500;border-radius:999px;
+}
+.desk-main,.desk-footer{
+  box-sizing:border-box;width:100%!important;max-width:none!important;
+  margin-left:0!important;margin-right:0!important;padding-inline:clamp(1rem,2.5vw,3rem)!important;
+}
+.desk-main{padding-top:clamp(1.05rem,2vw,1.8rem)}
+.desk-page-heading{
+  position:relative;overflow:hidden;border:0;border-radius:28px;
+  background:#ffc500;padding:clamp(1.7rem,3.2vw,3.1rem);
+  margin-bottom:clamp(1.4rem,2.5vw,2.4rem);
+}
+.desk-page-heading::after{
+  content:"SN.";position:absolute;right:clamp(0rem,5vw,5rem);top:50%;transform:translateY(-50%);
+  font:900 clamp(5rem,12vw,12rem)/1 Arial,Helvetica,sans-serif;
+  letter-spacing:-.11em;color:rgba(0,0,0,.11);pointer-events:none;
+}
+.desk-page-heading>:is(h1,p,.eyebrow){position:relative;z-index:1;color:#141414!important}
+.desk-page-heading h1{
+  font:900 clamp(2.4rem,4.9vw,5.7rem)/.99 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.065em;margin:.75rem 0 1rem;max-width:15ch;
+}
+.desk-page-heading h1 .gold{color:#141414}
+.desk-page-heading .eyebrow{letter-spacing:.09em;font-weight:850;font-size:.75rem}
+.desk-page-heading p{max-width:55ch;font-size:clamp(.96rem,1.22vw,1.15rem);line-height:1.48;font-weight:550}
+.desk-card,.source-grid a{background:#191c22;border-color:#3d434d;border-radius:23px;box-shadow:none}
+.desk-card{padding:clamp(1rem,2.2vw,1.7rem)}
+.card-heading h2,.desk-card>h2{font:800 clamp(1.12rem,1.75vw,1.7rem)/1.2 Arial,Helvetica,sans-serif;letter-spacing:-.03em}
+.source-grid a{border-radius:20px;min-height:135px;padding:1.15rem}
+.source-grid a:hover{background:#262a32;border-color:#ffc500}
+.source-grid a>span,.eyebrow{color:#ffc500}
+.source-grid a strong{font-size:1.08rem;letter-spacing:-.02em}
+.desk-card button{border-radius:999px;background:#292e36;border-color:#626b76}
+.desk-footer{border-color:#353b43;padding-top:1.5rem;padding-bottom:1.5rem}
+.desk-footer a{color:#cbd1d8}
+.economic-calendar-embed{
+  border-radius:19px;background:#191c22;
+  --tv-widget-background-color:#191c22;--tv-widget-text-color:#f7f8f5;
+}
+.economic-calendar-embed tv-economic-calendar{background:#191c22}
+.mobile-tools-nav{background:#0c0d10;border-top:0;border-bottom:1px solid #3d434d;min-height:68px}
+.mobile-tools-nav details>summary{background:#292d34;color:#fff;border-radius:999px}
+.mobile-tools-nav nav{border-radius:17px;background:#1c2026;border-color:#4a515a}
+@media(max-width:1000px){
+ .desk-nav{gap:.75rem}
+ .desk-nav nav{justify-content:flex-start}
+}
+@media(max-width:700px){
+ .desk-nav{display:none}
+ .mobile-tools-nav{display:flex}
+ .desk-main,.desk-footer{margin:0!important;width:100%!important;padding-inline:1rem!important}
+ .desk-main{padding-top:.95rem}
+ .desk-page-heading{padding:1.55rem;border-radius:24px}
+ .desk-page-heading h1{font-size:clamp(2.2rem,8.3vw,3.9rem)}
+ .desk-page-heading::after{right:-.5rem;font-size:6rem}
+ .source-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr))}
+}
