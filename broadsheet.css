@@ -770,3 +770,66 @@ body.theme-broadsheet {
     color: var(--terminal-ink) !important;
   }
 }
+
+/* Shared signature visuals also apply to existing and future article pages. */
+/* Signature Standalone surfaces across the editorial, sports, markets and community desks. */
+:root:has(body.theme-broadsheet){--sn-signature-yellow:#ffc500}
+body.theme-broadsheet{
+  background:#0c0d10!important;color:#f4f5f7!important;
+  font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;
+}
+.theme-broadsheet :is(.brand img,.sports-brand img,.site-brand img){border-radius:14px}
+.theme-broadsheet :is(.masthead,.mast,.sports-top,.site-header){
+  background:#0c0d10!important;border-bottom:1px solid #383c44!important;
+}
+.theme-broadsheet :is(.site-nav,.sports-nav,.top-nav,.topnav,.nav-wrap){
+  background:#14171b!important;border-color:#373c46!important;
+}
+.theme-broadsheet :is(.site-nav,.sports-nav,.top-nav,.topnav,.nav-wrap) a{
+  border-radius:999px!important;font-weight:650;letter-spacing:-.012em;
+}
+.theme-broadsheet :is(.site-nav,.sports-nav,.top-nav,.topnav,.nav-wrap) a[aria-current="page"]{
+  color:#ffc500!important;background:#2b2e34!important;
+}
+.theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading){
+  background:#191c22!important;border:1px solid #3c424a!important;border-radius:26px!important;
+  padding:clamp(1.5rem,3.2vw,3rem)!important;box-shadow:none!important;
+}
+.theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading) h1{
+  font:850 clamp(2.15rem,4.2vw,4.7rem)/1.04 Arial,Helvetica,sans-serif!important;
+  letter-spacing:-.058em!important;color:#f5f6f7!important;
+}
+.theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading) :is(.eyebrow,.kicker,.sports-eyebrow,.overline){
+  color:#ffc500!important;letter-spacing:.085em;font-weight:800;
+}
+.theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading) p:not(.kicker):not(.sports-eyebrow):not(.eyebrow){
+  color:#ccd2db!important;
+}
+.theme-broadsheet :is(.hero-side,.hero-chip,.sports-update,.page-head-end){
+  background:#242911!important;border:1px solid #6d5a13!important;border-radius:20px!important;box-shadow:none!important;
+}
+.theme-broadsheet :is(.chart-shell,.watch-card,.calendar-card,.sports-section,.editorial-tile,.room-card,.thread-card,.news-card,.chart-section,.calendar-section,.overview-section){
+  border-radius:21px!important;box-shadow:none!important;
+}
+.theme-broadsheet :is(.watch-tabs,.watch-widget){
+  background:#191c22!important;border-color:#3e434d!important;
+  --tv-widget-background-color:#191c22;
+}
+.theme-broadsheet :is(button,select,input:not([type="checkbox"],[type="radio"])) {
+  border-radius:14px;
+}
+.theme-broadsheet :is(.room-tab,.watch-tab,.news-filter,.sports-league-tab,.sport-filter){
+  border-radius:999px!important;
+}
+.theme-broadsheet :is(.room-tab,.watch-tab,.news-filter,.sports-league-tab,.sport-filter)[aria-pressed="true"],
+.theme-broadsheet :is(.room-tab,.watch-tab,.news-filter,.sports-league-tab,.sport-filter).active{
+  background:#ffc500!important;border-color:#ffc500!important;color:#111!important;
+}
+.theme-broadsheet :is(a,button,summary,input,select,textarea):focus-visible{
+  outline:3px solid #ffc500!important;outline-offset:3px!important;
+}
+@media(max-width:700px){
+ .theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading){padding:1.3rem!important;border-radius:21px!important}
+ .theme-broadsheet :is(.hero,.sports-intro,.page-head,.inner-heading) h1{font-size:clamp(2rem,8vw,3rem)!important}
+}
+
