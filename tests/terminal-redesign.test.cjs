@@ -123,14 +123,14 @@ async function main(){
   }
 
   if(name==='markets.html'){
-    assert.equal(await page.locator('#watch-widget').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
-    assert.equal(await page.locator('.watch-tabs').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
+    assert.equal(await page.locator('#watch-widget').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(25, 28, 34)');
+    assert.equal(await page.locator('.watch-tabs').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(25, 28, 34)');
   }
   if(name==='economic-calendar.html'){
     const cal=page.locator('tv-economic-calendar');
     assert.equal(await cal.getAttribute('theme'),'dark');
-    assert.equal(await cal.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
-    assert.equal(await page.locator('.economic-calendar-embed').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
+    assert.equal(await cal.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(25, 28, 34)');
+    assert.equal(await page.locator('.economic-calendar-embed').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(25, 28, 34)');
     assert.equal(await page.locator('script[src*="embed-widget-events.js"]').count(),0,'obsolete iframe embed must be gone');
     await page.waitForFunction(()=>!!customElements.get('tv-economic-calendar'),null,{timeout:20000});
     console.log('ECONOMIC CALENDAR WEB COMPONENT DEFINED');

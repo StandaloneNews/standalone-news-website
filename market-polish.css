@@ -2,18 +2,18 @@
 /* Explicit theme lock to prevent legacy white surfaces in market watchlists. */
 #market-quotes,.market-quotes,.market-watchlist,.market-watchlist[open],.market-watchlist .market-quotes,
 body.theme-market .watch-card,body.theme-market .watch-widget,body.theme-market .watch-tabs{
- --tv-widget-background-color:#121a25;
+ --tv-widget-background-color:#191c22;
  --tv-widget-text-color:#edf3fa;
  --tv-widget-price-text-color:#edf3fa;
  --tv-widget-accent-color:#ffc500;
- color-scheme:dark;background:#121a25!important;border-color:#35465a!important
+ color-scheme:dark;background:#191c22!important;border-color:#35465a!important
 }
-#market-quotes tv-tickers,#watch-widget tv-tickers{display:block;width:100%;color-scheme:dark;background:transparent!important;--tv-widget-background-color:#121a25}
+#market-quotes tv-tickers,#watch-widget tv-tickers{display:block;width:100%;color-scheme:dark;background:transparent!important;--tv-widget-background-color:#191c22}
 body.theme-market .watch-card{border-radius:18px!important;overflow:hidden}
 body.theme-market .watch-tabs{padding:1rem!important;gap:.5rem;border-bottom:1px solid #35465a!important}
 body.theme-market .watch-tabs button{border-radius:999px!important}
 body.theme-market .watch-widget{padding:.25rem .35rem .75rem;min-height:130px}
-body.theme-market .watch-widget .widget-loading{background:#121a25!important;color:#b2c2d5!important}
+body.theme-market .watch-widget .widget-loading{background:#191c22!important;color:#b2c2d5!important}
 @media(max-width:720px){body.theme-market .watch-widget{overflow-x:auto;max-width:100%}}
 
 /* Higher specificity than legacy broadsheet's header-panel backgrounds. */
@@ -21,9 +21,9 @@ body.theme-market.theme-broadsheet .watch-card,
 body.theme-market.theme-broadsheet .watch-tabs,
 body.theme-market.theme-broadsheet #watch-widget,
 body.theme-market.theme-broadsheet #watch-widget tv-tickers {
-  background-color:#121a25!important;
-  --tv-widget-background-color:#121a25;
+  background-color:#191c22!important;
+  --tv-widget-background-color:#191c22;
 }
 
 /* The shared broadsheet uses an id-specific :is() group; target this panel explicitly. */
-body.theme-market.theme-broadsheet #market-watchlist-tabs{background-color:#121a25!important;--tv-widget-background-color:#121a25}
+body.theme-market.theme-broadsheet #market-watchlist-tabs{background-color:#191c22!important;--tv-widget-background-color:#191c22}
