@@ -1,0 +1,74 @@
+name: Verify deployed Reading Edition and accessibility
+on:
+  push:
+    branches: [ops/verify-live-reading-edition-a11y]
+    paths: [.github/workflows/verify-live-reading-edition.yml]
+permissions: {}
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - name: Confirm deployment serves the new edition
+        run: |
+          python3 - <<'PY'
+          from urllib.request import urlopen, Request
+          from time import sleep
+          def get(path):
+            with urlopen(Request("https://standalonenews.com"+path, headers={"User-Agent":"Mozilla/5.0","Cache-Control":"no-cache"}),timeout=18) as response:
+              return response.read().decode(errors="replace")
+          for i in range(28):
+            try:
+              edition=get("/edition.html")
+              statement=get("/accessibility.html")
+              if ('reader-edition-intro' in edition
+                and 'edition-reading.css?v=1' in edition
+                and edition.index('id="brief"') < edition.index('id="top-stories"')
+                and edition.index('id="newsletter"') < edition.index('id="news-terminal"')
+                and '93 public HTML pages' in statement):
+                assert 'reading-edition-title' in edition
+                print("LIVE EDITION HTML AND ACCESSIBILITY STATUS VERIFIED",flush=True)
+                break
+            except Exception as e: print("Public deployment check:",str(e),flush=True)
+            sleep(10)
+          else: raise SystemExit("Updated Reading Edition not yet visible on public site")
+          PY
+      - name: Browser check reading flow and zoom
+        run: |
+          npm install --prefix "$RUNNER_TEMP/live-edition" --no-audit --no-fund playwright-core@1.55.0 axe-core@4.10.3
+          export NODE_PATH="$RUNNER_TEMP/live-edition/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node --input-type=commonjs - <<'JS'
+          const {chromium}=require('playwright-core');
+          const axe=require('axe-core');
+          const assert=require('node:assert/strict');
+          (async()=>{
+            const browser=await chromium.launch({executablePath:process.env.CHROME_BIN,args:['--no-sandbox']});
+            try{
+              for(const width of [320,390,1440]){
+                const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});
+                await page.goto('https://standalonenews.com/edition.html',{waitUntil:'domcontentloaded'});
+                const headings=await page.locator('h1').count();
+                assert.equal(headings,1);
+                assert.equal(await page.locator('#brief details').evaluate(e=>e.open),true);
+                const layout=await page.evaluate(()=>({
+                  overflow:document.documentElement.scrollWidth-innerWidth,
+                  lead:document.querySelector('#lead-story').getBoundingClientRect().top+scrollY,
+                  brief:document.querySelector('#brief').getBoundingClientRect().top+scrollY,
+                  newsletter:document.querySelector('#newsletter').getBoundingClientRect().top+scrollY,
+                  terminal:document.querySelector('#news-terminal').getBoundingClientRect().top+scrollY
+                }));
+                assert.ok(layout.overflow<=1,'horizontal overflow at '+width);
+                assert.ok(layout.lead<layout.brief&&layout.newsletter<layout.terminal,'wrong section order');
+                await page.addScriptTag({content:axe.source});
+                const issues=await page.evaluate(async()=>{
+                   const r=await axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']},iframes:false});
+                   return r.violations.filter(x=>['serious','critical'].includes(x.impact)).map(x=>x.id);
+                });
+                assert.deepEqual(issues,[],'live reading accessibility issues '+width);
+                console.log('LIVE READING',width,'PASSED',JSON.stringify(layout));
+                await page.close();
+              }
+            }finally{await browser.close();}
+          })().catch(e=>{console.error(e);process.exitCode=1});
+          JS
