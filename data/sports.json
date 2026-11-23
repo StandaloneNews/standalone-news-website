@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-22T22:57:34Z",
+  "updated_at": "2026-11-23T03:48:46Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 10,
+  "sources_ok": 12,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,12 +63,12 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 0
+      "events": 1
     },
     {
       "id": "ucl",
       "name": "UEFA Champions League",
-      "events": 0
+      "events": 1
     },
     {
       "id": "brasileirao",
@@ -485,57 +485,57 @@
       "source": "MMA Fighting event schedule"
     },
     {
-      "id": "sportsdb-2475535",
+      "id": "sportsdb-2475536",
       "league": "nfl",
-      "name": "San Francisco 49ers vs Minnesota Vikings",
-      "date": "2026-11-23T01:20:00Z",
+      "name": "Washington Commanders vs Cincinnati Bengals",
+      "date": "2026-11-24T01:15:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "San Francisco 49ers",
+          "name": "Washington Commanders",
           "score": ""
         },
         {
-          "name": "Minnesota Vikings",
+          "name": "Cincinnati Bengals",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2601907",
+      "id": "sportsdb-2601913",
       "league": "nba",
-      "name": "Miami Heat vs Oklahoma City Thunder",
-      "date": "2026-11-22T23:00:00Z",
+      "name": "Charlotte Hornets vs Memphis Grizzlies",
+      "date": "2026-11-24T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Miami Heat",
+          "name": "Charlotte Hornets",
           "score": ""
         },
         {
-          "name": "Oklahoma City Thunder",
+          "name": "Memphis Grizzlies",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591859",
+      "id": "sportsdb-2591862",
       "league": "nhl",
-      "name": "Dallas Stars vs Pittsburgh Penguins",
-      "date": "2026-11-23T00:00:00Z",
+      "name": "New Jersey Devils vs Columbus Blue Jackets",
+      "date": "2026-11-24T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Dallas Stars",
+          "name": "New Jersey Devils",
           "score": ""
         },
         {
-          "name": "Pittsburgh Penguins",
+          "name": "Columbus Blue Jackets",
           "score": ""
         }
       ],
@@ -635,15 +635,88 @@
         }
       ],
       "url": ""
+    },
+    {
+      "id": "sportsdb-2489566",
+      "league": "ligue1",
+      "name": "Brest vs Paris FC",
+      "date": "2026-11-27T19:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Brest",
+          "score": ""
+        },
+        {
+          "name": "Paris FC",
+          "score": ""
+        }
+      ],
+      "url": ""
+    },
+    {
+      "id": "sportsdb-2594602",
+      "league": "ucl",
+      "name": "Bodø/Glimt vs LASK",
+      "date": "2026-11-24T17:45:00Z",
+      "state": "upcoming",
+      "status": "NS",
+      "participants": [
+        {
+          "name": "Bodø/Glimt",
+          "score": ""
+        },
+        {
+          "name": "LASK",
+          "score": ""
+        }
+      ],
+      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Match of the Day",
+      "title": "Did Liverpool 'get lucky' with red card decision?",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T23:22:56Z",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:59:59Z",
       "league": "all"
+    },
+    {
+      "title": "How 'outstanding' Tzolakis kept Brighton at bay",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm702nzyl8pzo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:59:57Z",
+      "league": "all"
+    },
+    {
+      "title": "'We feel the pain': Pochettino on 4-0 defeat at Liverpool to start Manchester United era – video",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/video/2026/nov/22/we-feel-the-pain-pochettino-on-4-0-defeat-at-liverpool-to-start-manchester-united-era-video",
+      "date": "2026-11-22T23:33:33Z",
+      "league": "all"
+    },
+    {
+      "title": "‘Melbourne showed us how to welcome the world’: Australia’s Olympians reflect on 70-year legacy",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/23/brisbane-olympics-australia-70-year-legacy",
+      "date": "2026-11-22T23:28:39Z",
+      "league": "all"
+    },
+    {
+      "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:20:16Z",
+      "league": "all"
+    },
+    {
+      "title": "Football Daily",
+      "source": "BBC Football",
+      "url": "https://www.bbc.co.uk/sounds/play/p0ppcw2v?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T23:14:00Z",
+      "league": "soccer"
     },
     {
       "title": "Mets reportedly agree $450m contract with Tarik Skubal, richest deal for pitcher in MLB history",
@@ -654,10 +727,10 @@
     },
     {
       "title": "European football: Barcelona roar back from two goals down to sink Villarreal",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
       "date": "2026-11-22T22:20:43Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "NFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss",
@@ -667,7 +740,7 @@
       "league": "all"
     },
     {
-      "title": "Gerwyn Price ends four-year barren run with Grand Slam of Darts win in Wolverhampton",
+      "title": "Gerwyn Price ends barren run with Grand Slam of Darts win: ‘Now they can stop talking’",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/22/gerwyn-price-ends-barren-run-with-grand-slam-victory-in-wolverhampton",
       "date": "2026-11-22T21:54:55Z",
@@ -692,6 +765,13 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm782j80yypwo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T21:36:00Z",
+      "league": "all"
+    },
+    {
+      "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
+      "date": "2026-11-22T21:31:03Z",
       "league": "all"
     },
     {
@@ -758,18 +838,18 @@
       "league": "all"
     },
     {
-      "title": "Own-goal mishap gifts Brighton first away victory",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqx2w0m8v84wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T19:50:33Z",
-      "league": "soccer"
+      "title": "Camara to continue with Haas for final two races",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-22T19:51:49Z",
+      "league": "all"
     },
     {
       "title": "Iraola 'enjoyed' big win over Man Utd",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/videos/c3y0x55ey81yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T19:25:21Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "From conceding seven to Hull heroics - how Tzolakis recovered to defy Brighton",
@@ -794,17 +874,17 @@
     },
     {
       "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
       "date": "2026-11-22T18:35:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T18:28:51Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "The red card that changed Liverpool-Man Utd: correct call?",
@@ -818,13 +898,6 @@
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9vg2112evvdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T17:54:36Z",
-      "league": "all"
-    },
-    {
-      "title": "Man Utd score dramatic late winner to extend record run",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm0rkzzyl2ego?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T17:54:32Z",
       "league": "all"
     },
     {
@@ -853,6 +926,13 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/22/hull-brighton-premier-league-match-report",
       "date": "2026-11-22T16:10:48Z",
+      "league": "all"
+    },
+    {
+      "title": "ESPN mourns ‘one of the best human beings ever’ after NFL analyst Tom Jackson dies at 75",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/22/espn-mourns-one-of-the-best-human-beings-ever-after-nfl-analyst-tom-jackson-dies-at-75",
+      "date": "2026-11-22T16:09:22Z",
       "league": "all"
     },
     {
@@ -899,58 +979,16 @@
     },
     {
       "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
       "date": "2026-11-22T14:59:23Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Marquez wins record-equalling eighth MotoGP title",
       "source": "BBC Sport",
       "url": "https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-22T14:58:23Z",
-      "league": "all"
-    },
-    {
-      "title": "Tyson Fury looks back: ‘Once the Anthony Joshua fight is over, what will I do next? Walking the dog ain’t gonna cut it’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/22/tyson-fury-boxer-looks-back-after-anthony-joshua-fight-what-next",
-      "date": "2026-11-22T14:00:29Z",
-      "league": "all"
-    },
-    {
-      "title": "NFL’s Jaylen Harrell reportedly assaulted driver before crash that left player seriously injured",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/titans-jaylen-harrell-reportedly-assaulted-driver-before-crash-that-left-player-seriously-injured",
-      "date": "2026-11-22T13:25:37Z",
-      "league": "all"
-    },
-    {
-      "title": "England will not get carried away by beating All Blacks",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T12:45:57Z",
-      "league": "all"
-    },
-    {
-      "title": "Watford seek sixth manager in 18 months after sacking Dionisi",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cyvz6r4g1jqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-22T12:00:45Z",
-      "league": "soccer"
-    },
-    {
-      "title": "‘Great coach, terrible streamer’ – Erasmus gets thumbs-down for his weird watchalong",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/rassie-erasmus-weird-watchalong-south-africa-rugby-union",
-      "date": "2026-11-22T12:00:29Z",
-      "league": "all"
-    },
-    {
-      "title": "Max Verstappen says George Russell is ‘so far below my level’ after Vegas win",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-george-russell-las-vegas-gp-formula-one",
-      "date": "2026-11-22T11:49:11Z",
       "league": "all"
     }
   ]
