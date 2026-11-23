@@ -151,11 +151,12 @@
 <link rel="stylesheet" href="./mobile-six.css?v=1">
 <link rel="stylesheet" href="./home-sports.css?v=1">
 <script defer src="./home-sports.js?v=final-hiding-3"></script>
-<link rel="stylesheet" href="./home-terminal.css?v=2">
+<link rel="stylesheet" href="./home-terminal.css?v=3">
 <script type="module" src="./home-terminal.js?v=3"></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
 <script defer src="/outbound-links.js?v=1"></script>
 <link rel="stylesheet" href="./signature-interior.css?v=1">
+<link rel="stylesheet" href="./edition-reading.css?v=1">
 </head>
 <body class="theme-refresh theme-broadsheet home-broadsheet">
 <a class="skip" href="#main">Skip to main content</a>
@@ -175,51 +176,31 @@
 <div class="demo-warning" hidden="" id="demo-warning">DESIGN PREVIEW · The example headlines below are fictional demonstration content, not live reporting.</div>
 <div class="feed-error" hidden="" id="feed-error" role="status"></div>
 <main id="main" tabindex="-1">
-<section class="section terminal-preview" id="news-terminal" aria-labelledby="news-terminal-heading">
-  <header class="terminal-preview-header">
-    <div>
-      <h1 id="news-terminal-heading">News Terminal</h1>
-      <p>Headlines and official releases as they come in.</p>
-    </div>
-    <a class="terminal-preview-open" href="./terminal.html">Open terminal <span aria-hidden="true">↗</span></a>
-  </header>
-  <div class="terminal-preview-grid">
-    <section class="terminal-stream" aria-labelledby="terminal-stream-heading">
-      <div class="terminal-stream-header">
-        <h2 id="terminal-stream-heading">Latest headlines</h2>
-        <p class="terminal-preview-status" id="terminal-preview-status" role="status"></p>
-      </div>
-      <ol class="terminal-preview-list" id="terminal-preview-list" role="list" aria-label="Latest terminal headlines, newest first" hidden></ol>
-      <noscript><p class="terminal-preview-status"><a href="./feed.xml">Read the Standalone News RSS feed</a>.</p></noscript>
-    </section>
-    <aside class="terminal-tools" aria-labelledby="terminal-tools-heading">
-      <h2 id="terminal-tools-heading">Explore the feed</h2>
-      <form action="./terminal.html" method="get" role="search" aria-label="Search the News Terminal">
-        <label for="terminal-preview-search">Keyword</label>
-        <div class="terminal-preview-search">
-          <input id="terminal-preview-search" name="q" type="search" maxlength="160" placeholder="Headline or source">
-          <button type="submit">Search</button>
-        </div>
-      </form>
-      <nav aria-label="Terminal topics">
-        <ul role="list">
-            <li><a href="./terminal.html?topic=World">World</a></li>
-            <li><a href="./terminal.html?topic=U.S.%20news">U.S. news</a></li>
-            <li><a href="./terminal.html?topic=Markets">Markets</a></li>
-            <li><a href="./terminal.html?topic=Economy">Economy</a></li>
-            <li><a href="./terminal.html?topic=Government">Government</a></li>
-            <li><a href="./terminal.html?topic=Technology">Technology</a></li>
-          <li class="terminal-official-link"><a href="./terminal.html?official=1">Official releases</a></li>
-        </ul>
-      </nav>
-    </aside>
-  </div>
+<section class="reader-edition-intro" aria-labelledby="reading-edition-title">
+  <p class="reader-edition-overline">STANDALONE NEWS / THE READING EDITION</p>
+  <h1 id="reading-edition-title">Read the day<span aria-hidden="true">.</span></h1>
+  <p class="reader-edition-dek">The essential reporting first. Find the original source, explore the context, and decide what matters.</p>
+  <nav class="reader-edition-shortcuts" aria-label="Jump to sections of the reading edition">
+    <a href="#lead-story">Lead story</a>
+    <a href="#brief">Daily brief</a>
+    <a href="#top-stories">Featured reporting</a>
+    <a href="#wire">News wire</a>
+    <a href="#explainers">Explainers</a>
+    <a href="#news-terminal">News terminal</a>
+  </nav>
 </section>
-
 <section aria-label="Lead story and desks" class="lead-grid">
 <article class="lead-story" id="lead-story"><div class="lead-content"><div class="story-tags"><span class="red-label" id="lead-type">LEAD STORY</span><span class="soft-tag" id="lead-category">TOP NEWS</span></div><h2 id="lead-title">The stories shaping your day.</h2><p id="lead-summary">A calmer way to follow the news. Curated from attributed sources, with the original reporting one tap away.</p><details class="related-context" hidden="" id="lead-context"><summary>Why it matters · AI-assisted context</summary><p id="lead-context-summary"></p><a href="#explainers" id="lead-context-link">Read related explainer →</a></details><div class="lead-bottom"><div class="meta-line"><span id="lead-source">Standalone News</span><span class="meta-dot">·</span><time id="lead-time">—</time></div><div class="lead-actions"><button aria-describedby="lead-title" class="bookmark-btn" id="lead-save" type="button">♡ Save</button><a class="read-button" href="#wire" id="lead-link">Read original <span>↗</span></a></div><a class="photo-credit hero-photo-credit" hidden="" id="lead-photo-credit" rel="noopener noreferrer license" target="_blank"></a></div></div><div class="hero-art art-world" id="hero-art"><div class="art-lines"></div><div class="globe-shape"><i></i><b>SN</b></div><a class="hero-image-caption" hidden="" href="#top-stories">Illustrative photo</a></div></article>
 
 <aside class="broadsheet-desk" aria-label="Explore the independent news desk"><span class="folio-label">THE READER'S INDEX</span><h2>Inside this edition.</h2><p>Every story begins with a source. Follow the subjects that matter to you.</p><nav class="desk-menu" aria-label="Sections in this edition"><a href="#wire"><strong>Latest dispatches ↗</strong><span>BREAKING · VERIFIED SOURCE LINKS</span></a><a href="./markets.html"><strong>The market desk ↗</strong><span>STOCKS · ECONOMY · POLICY</span></a><a href="./sports.html"><strong>The sports desk ↗</strong><span>UFC · GAMES · SCORES</span></a><a href="./research.html"><strong>Company research ↗</strong><span>SEC DOCUMENTS & INSIDER FILINGS</span></a><a href="./discuss.html"><strong>The discussion ↗</strong><span>COMMUNITY & READER VIEWS</span></a></nav><div class="desk-note"><strong>FROM THE EDITOR'S DESK</strong><p>Independent, automated news discovery with visible attribution and human-verifiable original sources.</p><a href="./standards.html">How we work ↗</a></div></aside>
+</section>
+<section id="brief" class="section edition-reader-brief" aria-labelledby="reader-brief-heading">
+  <h2 id="reader-brief-heading">Your day, in five stories<span aria-hidden="true">.</span></h2>
+  <p class="reader-brief-dek">A quick, source-linked starting point before you explore the full coverage. Selected automatically, not independently verified.</p>
+  <details open>
+    <summary>Today’s five-story briefing — expand or collapse</summary>
+    <div class="edition-brief-content"><div class="edition-brief-actions"><button class="brief-prefs" id="brief-personalize" type="button">Choose topics</button></div><div class="brief-list" id="brief-list"><div class="brief-wait">Your briefing will appear here as new headlines arrive.</div></div><div class="brief-bottom"><span id="brief-note">Automatically selected from recent reporting.</span><a href="#wire">Full coverage →</a></div></div>
+  </details>
 </section>
 <section class="section top-stories" id="top-stories"><div class="section-header"><div><span class="section-eyebrow">DESK PRIORITY · AUTOMATICALLY RANKED · SOURCE-LINKED</span><h2>Featured reporting<span class="red-period">.</span></h2><p class="section-desc">Four important stories selected for impact and source variety. Automatic ranking is not fact-checking.</p></div><a class="see-all" href="#wire">Browse all headlines <span>→</span></a></div><div class="story-grid" id="top-grid"><div class="empty-panel">Loading top stories…</div></div></section>
 <section class="section" id="sports-today" aria-labelledby="sports-today-title">
@@ -293,14 +274,47 @@
 <a class="discussion-join-button" href="./discuss.html">Join the discussion <span aria-hidden="true">→</span></a>
 <span class="discussion-invite-note">Live chatrooms &amp; threaded discussions</span>
 </div>
-</section><section id="brief" class="section edition-reader-brief" aria-labelledby="reader-brief-heading">
-  <h2 id="reader-brief-heading">Daily brief</h2>
-  <details>
-    <summary>Show today’s five-story brief</summary>
-    <div class="edition-brief-content"><div class="edition-brief-actions"><button class="brief-prefs" id="brief-personalize" type="button">Choose topics</button></div><div class="brief-list" id="brief-list"><div class="brief-wait">Your briefing will appear here as new headlines arrive.</div></div><div class="brief-bottom"><span id="brief-note">Automatically selected from recent reporting.</span><a href="#wire">Full coverage →</a></div></div>
-  </details>
+</section><section aria-labelledby="newsletter-heading" class="newsletter-band" id="newsletter"><div><span class="section-eyebrow">STAY IN THE KNOW</span><h2 id="newsletter-heading">The five stories worth your morning.</h2><p>A source-linked daily email. Optional significant-story alerts. No automatic AI-written claims, and you can unsubscribe at any time.</p></div><form hidden="" id="newsletter-form"><label for="newsletter-email">Email address</label><div class="newsletter-signup"><input autocomplete="email" id="newsletter-email" maxlength="254" name="email" placeholder="you@example.com" required="" type="email"/><button type="submit">Subscribe →</button></div><label class="newsletter-choice"><input id="newsletter-alerts" name="alerts" type="checkbox"/> Also send occasional major-story alerts (up to one per day)</label><label class="newsletter-choice"><input id="newsletter-consent" name="consent" required="" type="checkbox"/> I agree to receive Standalone News emails. <a href="./newsletter-privacy.html" rel="noopener noreferrer" target="_blank">Privacy information</a>.</label><input aria-hidden="true" autocomplete="off" class="honey" name="website" tabindex="-1" type="text"/><p class="newsletter-message" id="newsletter-message" role="status"></p></form><p class="newsletter-wait" id="newsletter-wait">Email signup will open once delivery is configured. In the meantime, use the 5-story brief on the site.</p></section><section class="section terminal-preview" id="news-terminal" aria-labelledby="news-terminal-heading">
+  <header class="terminal-preview-header">
+    <div>
+      <h2 id="news-terminal-heading">News Terminal</h2>
+      <p>Go deeper with the full live feed, searches, and official releases.</p>
+    </div>
+    <a class="terminal-preview-open" href="./terminal.html">Open terminal <span aria-hidden="true">↗</span></a>
+  </header>
+  <div class="terminal-preview-grid">
+    <section class="terminal-stream" aria-labelledby="terminal-stream-heading">
+      <div class="terminal-stream-header">
+        <h2 id="terminal-stream-heading">Latest headlines</h2>
+        <p class="terminal-preview-status" id="terminal-preview-status" role="status"></p>
+      </div>
+      <ol class="terminal-preview-list" id="terminal-preview-list" role="list" aria-label="Latest terminal headlines, newest first" hidden></ol>
+      <noscript><p class="terminal-preview-status"><a href="./feed.xml">Read the Standalone News RSS feed</a>.</p></noscript>
+    </section>
+    <aside class="terminal-tools" aria-labelledby="terminal-tools-heading">
+      <h2 id="terminal-tools-heading">Explore the feed</h2>
+      <form action="./terminal.html" method="get" role="search" aria-label="Search the News Terminal">
+        <label for="terminal-preview-search">Keyword</label>
+        <div class="terminal-preview-search">
+          <input id="terminal-preview-search" name="q" type="search" maxlength="160" placeholder="Headline or source">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+      <nav aria-label="Terminal topics">
+        <ul role="list">
+            <li><a href="./terminal.html?topic=World">World</a></li>
+            <li><a href="./terminal.html?topic=U.S.%20news">U.S. news</a></li>
+            <li><a href="./terminal.html?topic=Markets">Markets</a></li>
+            <li><a href="./terminal.html?topic=Economy">Economy</a></li>
+            <li><a href="./terminal.html?topic=Government">Government</a></li>
+            <li><a href="./terminal.html?topic=Technology">Technology</a></li>
+          <li class="terminal-official-link"><a href="./terminal.html?official=1">Official releases</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
 </section>
-<section aria-labelledby="newsletter-heading" class="newsletter-band" id="newsletter"><div><span class="section-eyebrow">STAY IN THE KNOW</span><h2 id="newsletter-heading">The five stories worth your morning.</h2><p>A source-linked daily email. Optional significant-story alerts. No automatic AI-written claims, and you can unsubscribe at any time.</p></div><form hidden="" id="newsletter-form"><label for="newsletter-email">Email address</label><div class="newsletter-signup"><input autocomplete="email" id="newsletter-email" maxlength="254" name="email" placeholder="you@example.com" required="" type="email"/><button type="submit">Subscribe →</button></div><label class="newsletter-choice"><input id="newsletter-alerts" name="alerts" type="checkbox"/> Also send occasional major-story alerts (up to one per day)</label><label class="newsletter-choice"><input id="newsletter-consent" name="consent" required="" type="checkbox"/> I agree to receive Standalone News emails. <a href="./newsletter-privacy.html" rel="noopener noreferrer" target="_blank">Privacy information</a>.</label><input aria-hidden="true" autocomplete="off" class="honey" name="website" tabindex="-1" type="text"/><p class="newsletter-message" id="newsletter-message" role="status"></p></form><p class="newsletter-wait" id="newsletter-wait">Email signup will open once delivery is configured. In the meantime, use the 5-story brief on the site.</p></section><section class="about-band"><div><span>THE STANDALONE APPROACH</span><h2>Read widely. Know the source.</h2><p>Automated news selection is based on relevance, freshness, and source variety—not human editorial review. News from other publishers links to their reporting. Automated ranking is not fact verification. AI explainers are separate and labeled.</p></div><div class="about-links"><a href="./standards.html">How our newsroom works →</a><a href="./articles/">All explainers →</a></div></section></main></div>
+<section class="about-band"><div><span>THE STANDALONE APPROACH</span><h2>Read widely. Know the source.</h2><p>Automated news selection is based on relevance, freshness, and source variety—not human editorial review. News from other publishers links to their reporting. Automated ranking is not fact verification. AI explainers are separate and labeled.</p></div><div class="about-links"><a href="./standards.html">How our newsroom works →</a><a href="./articles/">All explainers →</a></div></section></main></div>
 <footer aria-label="Site information" class="footer">
 <div class="container footer-main">
 <div class="footer-identity">

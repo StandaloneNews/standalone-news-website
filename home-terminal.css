@@ -15,7 +15,7 @@
   padding: clamp(.8rem, 2.6vw, 2rem);
   border-block-end: 1px solid var(--edition-ink, #172c39);
 }
-#news-terminal h1 {
+#news-terminal .terminal-preview-header h2 {
   margin: 0;
   font-size: clamp(2.35rem, 6.8vw, 5.4rem);
   font-weight: 400;
