@@ -48,7 +48,7 @@ jobs:
                 await page.route('**/api/wire',r=>r.fulfill({json:{items:sample,feeds:[],checked_at:new Date().toISOString()}}));
                 await page.route('**/data/news.json',r=>r.fulfill({json:{items:[],updated_at:new Date().toISOString()}}));
                 await page.goto('http://127.0.0.1:8765/',{waitUntil:'domcontentloaded'});
-                await page.locator('#headlines .row-title').first().waitFor();
+                await page.locator('.signature-hero').waitFor();
                 const geo=await page.evaluate(()=>{
                   const r=el=>{const x=el.getBoundingClientRect();return {left:x.left,right:x.right,width:x.width,top:x.top,height:x.height}};
                   return {header:r(document.querySelector('.top')),hero:r(document.querySelector('.signature-hero')),art:r(document.querySelector('.signature-art')),main:r(document.querySelector('main.shell')),scroll:document.documentElement.scrollWidth,iw:innerWidth};
