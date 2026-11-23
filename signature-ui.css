@@ -249,3 +249,27 @@ body>main.shell .layout{grid-template-columns:minmax(0,1fr) clamp(285px,25%,395p
  .signature-actions{margin-top:.95rem}
 }
 @media(max-width:430px){.signature-secondary{display:none}}
+
+/* Compact homepage introduction: keep the brand but bring the news higher. */
+@media(min-width:761px) {
+  .signature-hero { min-height:240px; padding:clamp(1rem,1.9vw,1.9rem); gap:clamp(.75rem,2vw,1.8rem); }
+  .signature-hero h1 { font-size:clamp(2.55rem,3.75vw,3.9rem); line-height:1; }
+  .signature-eyebrow { font-size:.68rem; margin-bottom:.65rem; }
+  .signature-intro { font-size:clamp(.91rem,1vw,1rem); margin-top:.65rem; }
+  .signature-actions { margin-top:.7rem; }
+  .signature-actions a { min-height:44px; padding:.56rem 1.05rem; font-size:.85rem; }
+  .signature-art { min-height:174px; }
+  .signature-ring { width:clamp(160px,15vw,230px); }
+  .signature-core>span { font-size:clamp(3.4rem,5.5vw,5rem); }
+}
+@media(max-width:760px) {
+  .signature-hero { min-height:0; padding:1rem 1.15rem; border-radius:21px; }
+  .signature-eyebrow { font-size:.61rem; margin-bottom:.7rem; }
+  .signature-hero h1 { font-size:clamp(1.98rem,7.7vw,2.85rem); line-height:1.03; }
+  .signature-intro { font-size:.87rem; margin-top:.55rem; line-height:1.32; }
+  .signature-actions { margin-top:.75rem; }
+  .signature-actions a { min-height:44px; font-size:.81rem; padding:.55rem .95rem; }
+  .signature-ring { width:185px; }
+  .signature-art { right:-3.3rem; bottom:-5.8rem; }
+}
+@media(max-width:370px) { .signature-hero { min-height:0; } .signature-hero h1 { font-size:clamp(1.87rem,7.5vw,2.15rem); } }
