@@ -7,10 +7,13 @@ on:
       - edition-reading.css
       - home-terminal.css
       - site-accessibility.css
+      - accessibility.html
       - broadsheet.css
       - tests/edition-reader.test.cjs
       - tests/sitewide-accessibility.test.cjs
       - .github/workflows/edition-accessibility.yml
+  schedule:
+    - cron: '0 11 * * 1' # Weekly Monday, UTC; avoids costs on every automated news update.
   workflow_dispatch:
 permissions:
   contents: read
