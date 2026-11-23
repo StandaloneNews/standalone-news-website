@@ -230,3 +230,5 @@ body>main.shell .layout{grid-template-columns:minmax(0,1fr) clamp(285px,25%,395p
   .signature-secondary{padding-left:.2rem!important}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+#feed-heading::after{content:".";color:#ffc500}
