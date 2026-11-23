@@ -232,3 +232,20 @@ body>main.shell .layout{grid-template-columns:minmax(0,1fr) clamp(285px,25%,395p
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 #feed-heading::after{content:".";color:#ffc500}
+
+/* Keep the signature first impression bold without forcing readers to scroll past it. */
+@media(min-width:761px){
+ .signature-hero{min-height:292px;padding:clamp(1.4rem,2.4vw,2.5rem)}
+ .signature-hero h1{font-size:clamp(3rem,4.6vw,4.7rem);line-height:.96}
+ .signature-eyebrow{margin-bottom:.95rem}
+ .signature-intro{margin-top:.9rem;font-size:clamp(.97rem,1.08vw,1.12rem)}
+ .signature-actions{margin-top:1rem}
+}
+@media(max-width:760px){
+ .signature-hero{min-height:0;padding:1.25rem 1.4rem}
+ .signature-eyebrow{margin-bottom:1rem}
+ .signature-hero h1{font-size:clamp(2.2rem,8.5vw,3.4rem);line-height:1}
+ .signature-intro{margin-top:.75rem;line-height:1.36}
+ .signature-actions{margin-top:.95rem}
+}
+@media(max-width:430px){.signature-secondary{display:none}}
