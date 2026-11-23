@@ -16,6 +16,7 @@
   <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js" async></script>
 <link rel="stylesheet" href="/site-accessibility.css?v=1">
 <link rel="stylesheet" href="./terminal-polish.css?v=2">
+<link rel="stylesheet" href="./signature-ui.css?v=1">
 <script defer src="/outbound-links.js?v=1"></script>
 </head>
 <body>
@@ -26,36 +27,29 @@
         <img src="./assets/sn-brand-logo.png" width="36" height="36" alt="">
         <span>STANDALONE <strong>NEWS</strong></span>
       </a>
-      <p class="sidebar-label">TERMINAL</p>
       <nav class="primary-nav" aria-label="Main navigation">
-        <a class="sidebar-current" href="./" aria-current="page">News Terminal</a>
-        <a href="./economic-calendar.html">Economic Calendar</a>
-        <a href="./live-releases.html">Live Releases</a>
-        <a href="./us-debt.html">U.S. Debt Tracker</a>
-        <a href="./bitcoin-halving.html">Bitcoin Halving</a>
-        <span class="sidebar-label sidebar-divider">DISCOVER</span>
+        <a class="sidebar-current" href="./" aria-current="page">News</a>
+        <a href="./markets.html">Markets</a>
         <a href="./sports.html">Sports</a>
-        <a href="./research.html">Company Research</a>
-        <a href="./articles/">Explainers</a>
-        <a href="./discuss.html">Community</a>
-        <a href="./edition.html">News edition</a>
-        <a href="#markets">Markets</a>
+        <a href="./economic-calendar.html">Calendar</a>
+        <a href="./research.html">Research</a>
         <a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">X posts</a>
         <details class="site-menu" id="site-menu">
-          <summary>Sections</summary>
+          <summary>Explore</summary>
           <ul role="list">
-            <li><a href="./">News Terminal</a></li>
-            <li><a href="./economic-calendar.html">Economic Calendar</a></li>
-            <li><a href="./live-releases.html">Live Releases</a></li>
-            <li><a href="./us-debt.html">U.S. Debt</a></li>
-            <li><a href="./bitcoin-halving.html">Bitcoin Halving</a></li>
+            <li><a href="./">News wire</a></li>
+            <li><a href="./edition.html">News edition</a></li>
             <li><a href="./edition.html#brief">Daily brief</a></li>
             <li><a href="./markets.html">Market desk</a></li>
+            <li><a href="./sports.html">Sports</a></li>
+            <li><a href="./economic-calendar.html">Economic calendar</a></li>
+            <li><a href="./live-releases.html">Live releases</a></li>
             <li><a href="./research.html">Company research</a></li>
             <li><a href="./articles/">Explainers</a></li>
-            <li><a href="./sports.html">Sports</a></li>
             <li><a href="./discuss.html">Community</a></li>
-            <li><a href="#x-posts">X timelines</a></li>
+            <li><a href="./us-debt.html">U.S. debt</a></li>
+            <li><a href="./bitcoin-halving.html">Bitcoin halving</a></li>
+            <li><a href="https://x.com/StandaloneNews" target="_blank" rel="noopener noreferrer">X posts</a></li>
             <li><a href="./accessibility.html">Accessibility</a></li>
           </ul>
         </details>
@@ -63,7 +57,7 @@
     </div>
   </header>
   <main class="shell" id="main" tabindex="-1">
-    <h1 class="sr-only" id="news-terminal">Standalone News Terminal</h1>
+
     <section class="market-top" aria-labelledby="market-top-heading">
       <div class="market-top-heading">
         <h2 id="market-top-heading">Market quotes</h2>
@@ -79,10 +73,27 @@
         </div>
       </div>
     </section>
+    <section class="signature-hero" aria-labelledby="signature-title">
+      <div class="signature-hero-copy">
+        <p class="signature-eyebrow">STANDALONE NEWS <span aria-hidden="true">✳</span> WORLD · MARKETS · SPORTS</p>
+        <h1 id="signature-title">Stay curious.<span>Stay standalone.</span></h1>
+        <p class="signature-intro">Follow the headlines. Explore the context. Form your own perspective.</p>
+        <div class="signature-actions">
+          <a class="signature-primary" href="#wire">Explore the news <span aria-hidden="true">↗</span></a>
+          <a class="signature-secondary" href="./edition.html">Read the edition <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="signature-art" aria-hidden="true">
+        <div class="signature-ring">
+          <div class="signature-core"><span>SN<span class="signature-period">.</span></span></div>
+        </div>
+        <span class="signature-art-line">SOURCE FIRST / THINK FREELY</span>
+      </div>
+    </section>
     <div class="layout" id="workspace">
       <section class="workspace-panel wire" id="wire" aria-labelledby="feed-heading">
         <header class="feed-heading">
-          <h2 id="feed-heading">Latest headlines</h2>
+          <h2 id="feed-heading">The latest<span aria-hidden="true" class="signature-dot">.</span></h2>
         </header>
         <div class="feed-tools">
           
