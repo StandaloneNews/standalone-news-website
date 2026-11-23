@@ -14,7 +14,7 @@ const base='http://127.0.0.1:8765/';
     return {headings:document.querySelectorAll('h1').length,positions,screen:innerWidth,
      scrollWidth:document.documentElement.scrollWidth,briefOpen:document.querySelector('#brief details').open,
      terminalHeading:document.querySelector('#news-terminal-heading')?.tagName,
-     main:document.querySelector('main').getBoundingClientRect().right};
+     main:(() => { const r=document.querySelector('main').getBoundingClientRect();return {left:r.left,right:r.right,width:r.width}; })()};
    });
    const pos=state.positions;
    assert.equal(state.headings,1,'Reading edition must have exactly one H1');
@@ -24,7 +24,7 @@ const base='http://127.0.0.1:8765/';
    assert.equal(state.terminalHeading,'H2');
    assert.equal(state.briefOpen,true,'daily brief should be readily readable');
    assert.ok(state.scrollWidth<=width+1,'horizontal overflow '+width+' '+JSON.stringify(state));
-   assert.ok(state.main>=width-60,'edition right gutter '+width);
+   assert.ok(Math.abs(state.main.left-(width-state.main.right))<=8,'edition reading column must be centered at '+width+': '+JSON.stringify(state.main));
    const summary=p.locator('#brief details>summary');
    await summary.focus();
    await p.keyboard.press('Enter');

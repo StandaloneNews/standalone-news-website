@@ -46,3 +46,17 @@ body.theme-broadsheet.theme-standards header .edition-wordmark { max-inline-size
   align-items: center;
   min-block-size: 44px;
 }
+
+/* WCAG 2.2 accessible footer targets in the public Community area. */
+body.theme-community footer .footer-links {
+  display:flex;flex-wrap:wrap;align-items:center;gap:.15rem .4rem;
+}
+body.theme-community footer .footer-links a {
+  display:inline-flex;align-items:center;justify-content:center;
+  min-inline-size:44px;min-block-size:44px;
+  padding:.55rem .7rem;
+  text-decoration:underline;text-underline-offset:.2em;
+}
+body.theme-community footer .footer-links a:focus-visible {
+  outline:3px solid #ffc500;outline-offset:2px;
+}
