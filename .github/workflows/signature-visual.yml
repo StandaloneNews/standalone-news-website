@@ -8,6 +8,7 @@ on:
       - "signature-ui.css"
       - "signature-desk.css"
       - "signature-interior.css"
+      - "broadsheet.css"
       - "economic-calendar.html"
       - "markets.html"
       - "sports.html"
@@ -65,7 +66,7 @@ jobs:
                 }
                 await page.close();
               }
-              for(const path of ['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html','markets.html','sports.html','research.html','edition.html','discuss.html','accessibility.html','terms.html']){
+              for(const path of ['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html','markets.html','sports.html','research.html','edition.html','discuss.html','accessibility.html','terms.html','articles/2026-10-14-federal-reserve-finalizes-updates-to-stress-test-transparency-and-2d126dc.html']){
                 const p=await browser.newPage({viewport:{width:1365,height:900}});
                 await p.goto('http://127.0.0.1:8765/'+path,{waitUntil:'domcontentloaded'});
                 const scroll=await p.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
