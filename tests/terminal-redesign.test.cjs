@@ -24,6 +24,20 @@ async function main(){
   await page.route('**/data/news.json',r=>r.fulfill({json:{updated_at:new Date().toISOString(),items:[]}}));
   await page.goto(base,{waitUntil:'domcontentloaded'});
   await page.locator('#headlines button.row-title').first().waitFor();
+  const hero=page.locator('.signature-hero');
+  assert.equal(await hero.count(),1,'branded hero present');
+  assert.equal(await hero.evaluate(el=>getComputedStyle(el).backgroundColor),'rgb(255, 197, 0)','signature yellow');
+  assert.match(await hero.locator('h1').innerText(),/Stay curious\.[\s\S]*Stay standalone\./);
+  assert.equal(await page.locator('.top').evaluate(e=>getComputedStyle(e).position),'sticky','top navigation stays sticky');
+  assert.ok(await page.getByRole('link',{name:/Explore the news/}).count()>0);
+  if(width<=390) {
+    const menu=page.locator('#site-menu');
+    await menu.locator('summary').click();
+    assert.equal(await menu.getAttribute('open'),'','accessible mobile menu opens');
+    assert.ok(await menu.getByRole('link',{name:'Community'}).isVisible());
+    await menu.locator('summary').click();
+  }
+
   assert.equal(await page.locator('#headlines .row').count(),25);
   assert.equal(await page.locator('#headlines .row-share').first().locator('svg[aria-hidden="true"]').count(),1);
   assert.match(await page.locator('#headlines .row-share').first().getAttribute('aria-label'), /^Share: /);
@@ -67,6 +81,10 @@ async function main(){
   await page.addScriptTag({content:axe.source});
   const issues=await page.evaluate(async()=> (await axe.run({runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']},iframes:false})).violations.map(v=>({id:v.id,target:v.nodes.map(n=>n.target)})));
   assert.deepEqual(issues,[],'accessibility violations '+width+' '+JSON.stringify(issues));
+  const heroBox=await hero.boundingBox();
+  assert.ok(heroBox.width>=width*0.78,'hero should fill viewport on '+width);
+  const headingBox=await hero.locator('h1').boundingBox();
+  assert.ok(headingBox.x>=0&&headingBox.x+headingBox.width<=width+1,'hero headline not clipped');
   console.log('TERMINAL',width,'PASSED');
   await context.close();
  }
@@ -92,10 +110,18 @@ async function main(){
  await extra.goto(base+'trackers.html#bitcoin',{waitUntil:'domcontentloaded'});
  await extra.waitForURL('**/bitcoin-halving.html');
  await extra.close();
- for(const name of ['economic-calendar.html','live-releases.html','markets.html']){
+ for(const name of ['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html','markets.html','sports.html','research.html','edition.html','discuss.html','articles/index.html','accessibility.html']){
   const page=await browser.newPage({viewport:{width:390,height:850}});
   await page.goto(base+name,{waitUntil:'domcontentloaded'});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth <= innerWidth+1),true,name+' overflow');
+  if(['economic-calendar.html','live-releases.html','us-debt.html','bitcoin-halving.html'].includes(name)){
+    const header=page.locator('.desk-page-heading');
+    assert.equal(await header.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(255, 197, 0)',name+' desk banner');
+  }
+  if(['markets.html','sports.html','research.html','discuss.html'].includes(name)){
+    assert.ok(await page.locator('body.theme-broadsheet').count()>0,'interior has signature theme');
+  }
+
   if(name==='markets.html'){
     assert.equal(await page.locator('#watch-widget').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
     assert.equal(await page.locator('.watch-tabs').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(18, 26, 37)');
