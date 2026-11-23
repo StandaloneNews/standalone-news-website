@@ -2,7 +2,19 @@ name: Signature Design Visual and Accessibility Check
 on:
   push:
     branches: [design/signature-robinhood-cashapp]
-    paths: [.github/workflows/signature-visual.yml]
+    paths:
+      - ".github/workflows/signature-visual.yml"
+      - "index.html"
+      - "signature-ui.css"
+      - "signature-desk.css"
+      - "signature-interior.css"
+      - "economic-calendar.html"
+      - "markets.html"
+      - "sports.html"
+      - "research.html"
+      - "edition.html"
+      - "discuss.html"
+      - "tests/terminal-redesign.test.cjs"
 permissions:
   contents: read
 jobs:
