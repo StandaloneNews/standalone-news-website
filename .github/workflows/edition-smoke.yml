@@ -1,0 +1,20 @@
+name: Debug Reading Edition browser regression
+on:
+  push:
+    branches: [edition/reader-first-accessibility]
+    paths: [.github/workflows/edition-smoke.yml]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run focused Reading Edition interaction tests
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/reading-preview.log 2>&1 &
+          npm install --prefix "$RUNNER_TEMP/edition-smoke" --no-audit --no-fund playwright-core@1.55.0
+          export NODE_PATH="$RUNNER_TEMP/edition-smoke/node_modules"
+          export CHROME_BIN="$(command -v google-chrome || command -v chromium)"
+          node tests/edition-reader.test.cjs
