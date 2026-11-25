@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T21:22:52Z",
+  "updated_at": "2026-11-25T04:22:00Z",
   "source": "TheSportsDB v1 documented free API plus optional sourced UFC fight cards and sport publishers",
   "provider_note": "Scores and fixtures may be delayed or incomplete. TheSportsDB free tier offers limited event coverage. All kickoff times are source-provided start times.",
-  "sources_ok": 11,
+  "sources_ok": 10,
   "sources_attempted": 38,
   "leagues": [
     {
@@ -63,7 +63,7 @@
     {
       "id": "ligue1",
       "name": "French Ligue 1",
-      "events": 1
+      "events": 0
     },
     {
       "id": "ucl",
@@ -701,57 +701,57 @@
       "url": ""
     },
     {
-      "id": "sportsdb-2601923",
+      "id": "sportsdb-2601926",
       "league": "nba",
-      "name": "Orlando Magic vs Detroit Pistons",
-      "date": "2026-11-25T00:00:00Z",
+      "name": "Philadelphia 76ers vs Miami Heat",
+      "date": "2026-11-25T22:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Orlando Magic",
+          "name": "Philadelphia 76ers",
           "score": ""
         },
         {
-          "name": "Detroit Pistons",
+          "name": "Miami Heat",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2591869",
+      "id": "sportsdb-2591870",
       "league": "nhl",
-      "name": "Edmonton Oilers vs Vegas Golden Knights",
-      "date": "2026-11-25T01:00:00Z",
+      "name": "Pittsburgh Penguins vs Calgary Flames",
+      "date": "2026-11-26T00:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Edmonton Oilers",
+          "name": "Pittsburgh Penguins",
           "score": ""
         },
         {
-          "name": "Vegas Golden Knights",
+          "name": "Calgary Flames",
           "score": ""
         }
       ],
       "url": ""
     },
     {
-      "id": "sportsdb-2499378",
+      "id": "sportsdb-2598599",
       "league": "ncaaf",
-      "name": "Eastern Michigan vs Kent State",
-      "date": "2026-11-25T00:00:00Z",
+      "name": "Alabama State vs Tuskegee",
+      "date": "2026-11-26T20:00:00Z",
       "state": "upcoming",
       "status": "NS",
       "participants": [
         {
-          "name": "Eastern Michigan",
+          "name": "Alabama State",
           "score": ""
         },
         {
-          "name": "Kent State",
+          "name": "Tuskegee",
           "score": ""
         }
       ],
@@ -832,40 +832,77 @@
         }
       ],
       "url": ""
-    },
-    {
-      "id": "sportsdb-2489566",
-      "league": "ligue1",
-      "name": "Brest vs Paris FC",
-      "date": "2026-11-27T19:45:00Z",
-      "state": "upcoming",
-      "status": "NS",
-      "participants": [
-        {
-          "name": "Brest",
-          "score": ""
-        },
-        {
-          "name": "Paris FC",
-          "score": ""
-        }
-      ],
-      "url": ""
     }
   ],
   "stories": [
     {
-      "title": "Arsenal v Borussia Dortmund: Champions League – live",
+      "title": "Matildas keeper reveals head trauma-induced neurological disorder almost ended career",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/25/matildas-goalkeeper-teagan-micah-neurological-disorder-head-trauma",
+      "date": "2026-11-25T03:46:28Z",
+      "league": "soccer"
+    },
+    {
+      "title": "Sandpapergate: the six burning questions still to be answered | Martin Pegan",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/24/arsenal-v-borussia-dortmund-champions-league-live",
-      "date": "2026-11-24T21:17:44Z",
+      "url": "https://www.theguardian.com/sport/2026/nov/25/sandpapergate-six-burning-questions-unanswered",
+      "date": "2026-11-25T02:37:22Z",
       "league": "all"
     },
     {
-      "title": "Manchester City v Napoli, Real Madrid v PSV: Champions League clockwatch – live",
+      "title": "Bellingham plays down Zidane comparison after wonder goal",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c893r9kdwl91o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T23:54:10Z",
+      "league": "all"
+    },
+    {
+      "title": "Arteta says Arsenal need more luck to kill off games",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c3ewv0kdjlp9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T23:44:04Z",
+      "league": "all"
+    },
+    {
+      "title": "'Pass, pass, slow, slow' - Man City's slick machine grinding to a halt",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cj3vgdp2edpxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T23:17:42Z",
+      "league": "all"
+    },
+    {
+      "title": "Championship roundup: Boro edge Swansea, West Ham lose at Portsmouth",
       "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/live/2026/nov/24/manchester-city-v-napoli-real-madrid-v-psv-champions-league-clockwatch-live",
-      "date": "2026-11-24T21:17:08Z",
+      "url": "https://www.theguardian.com/football/2026/nov/24/championship-roundup-will-lankshear-middlesbrough-swansea-west-ham",
+      "date": "2026-11-24T22:44:08Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino leads Man Utd fury at Yoro red card ruling",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqzr5ylmeerlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T22:05:31Z",
+      "league": "all"
+    },
+    {
+      "title": "Rayan Cherki magic denies Napoli but Manchester City’s struggles continue",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
+      "date": "2026-11-24T22:01:51Z",
+      "league": "all"
+    },
+    {
+      "title": "Dortmund’s Beier halts Arsenal charge after thunderbolt from Gyökeres",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/24/arsenal-borussia-dortmund-champions-league-match-report",
+      "date": "2026-11-24T22:01:50Z",
+      "league": "all"
+    },
+    {
+      "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
+      "date": "2026-11-24T21:51:31Z",
       "league": "all"
     },
     {
@@ -897,7 +934,7 @@
       "league": "all"
     },
     {
-      "title": "Gul swoops late for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
+      "title": "Gul takes pain for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/24/galatasaray-aston-villa-champions-league-match-report",
       "date": "2026-11-24T20:03:50Z",
@@ -912,10 +949,10 @@
     },
     {
       "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
-      "source": "The Guardian Sport",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
       "date": "2026-11-24T19:02:09Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "Jannik Sinner’s Australian Open appearance in doubt after knee surgery",
@@ -929,13 +966,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/24/teen-star-sooryavanshi-blitzes-through-record-books-with-53-ball-204",
       "date": "2026-11-24T18:29:25Z",
-      "league": "all"
-    },
-    {
-      "title": "Manchester United win appeal over Yoro’s red card despite Webb backing decision",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
-      "date": "2026-11-24T18:19:37Z",
       "league": "all"
     },
     {
@@ -975,10 +1005,10 @@
     },
     {
       "title": "Yoro red card overturned, but refs' chief Webb backs decision",
-      "source": "BBC Sport",
+      "source": "BBC Football",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T17:00:32Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "FA chief signs NDA to view Fifa sell-off plot documents",
@@ -995,24 +1025,10 @@
       "league": "all"
     },
     {
-      "title": "Football Daily | The game’s gone: has fantasy football been ruined by AI gafferbots?",
-      "source": "The Guardian Football",
-      "url": "https://www.theguardian.com/football/2026/nov/24/fpl-ruined-ai-football-daily-newsletter",
-      "date": "2026-11-24T16:16:52Z",
-      "league": "soccer"
-    },
-    {
       "title": "2028 Copa América to be played in United States with six Concacaf teams",
       "source": "The Guardian Football",
       "url": "https://www.theguardian.com/football/2026/nov/24/2028-copa-america-united-states-concacaf-conmebol",
       "date": "2026-11-24T16:08:56Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Defender Heaven open to leaving Man Utd",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crd61gy4ednvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T15:56:55Z",
       "league": "soccer"
     },
     {
@@ -1031,10 +1047,10 @@
     },
     {
       "title": "Senegal restored as Africa Cup of Nations champions after court ruling",
-      "source": "The Guardian Football",
+      "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas",
       "date": "2026-11-24T14:22:36Z",
-      "league": "soccer"
+      "league": "all"
     },
     {
       "title": "Commanders claim late win to come back against Bengals",
@@ -1042,6 +1058,13 @@
       "url": "https://www.bbc.co.uk/sport/american-football/videos/cjn50y5wdy40o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T14:05:05Z",
       "league": "all"
+    },
+    {
+      "title": "Dynamic pricing to be used for games in US during 2031 Women’s World Cup",
+      "source": "The Guardian Football",
+      "url": "https://www.theguardian.com/football/2026/nov/24/dynamic-pricing-tickets-womens-world-cup-2031",
+      "date": "2026-11-24T13:33:13Z",
+      "league": "soccer"
     },
     {
       "title": "‘I’m loving it at Brugge’: Freddie Potts on going from West Ham’s bench to Champions League",
@@ -1079,13 +1102,6 @@
       "league": "soccer"
     },
     {
-      "title": "Glens boss Ferguson apologises after seven-game ban",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm0evqv7nyq5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:36:18Z",
-      "league": "soccer"
-    },
-    {
       "title": "David Squires on … Pochettino flying into a storm at Manchester United. Here we go again",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/picture/2026/nov/24/david-squires-on-mauricio-pochettino-manchester-united-here-we-go-again",
@@ -1093,11 +1109,18 @@
       "league": "all"
     },
     {
-      "title": "Barnet footballer Isiah Noel-Williams charged with three counts of rape",
+      "title": "Salt and Donald vaporise target as England crush Australia in 13.1 overs to win second T20",
       "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/nov/24/salt-donald-blast-england-crushing-twenty20-victory-australia",
+      "date": "2026-11-24T11:24:39Z",
+      "league": "all"
+    },
+    {
+      "title": "Barnet footballer Isiah Noel-Williams charged with three counts of rape",
+      "source": "The Guardian Football",
       "url": "https://www.theguardian.com/uk-news/2026/nov/24/isiah-noel-williams-barnet-footballer-charged-with-rape",
       "date": "2026-11-24T11:03:14Z",
-      "league": "all"
+      "league": "soccer"
     },
     {
       "title": "The Breakdown | North v south: who makes the cut in our fantasy XVs for a hemisphere head-to-head?",
@@ -1114,13 +1137,6 @@
       "league": "all"
     },
     {
-      "title": "UK nations in dark over whether they will get automatic entry to 2035 Women’s World Cup",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/24/uk-automatic-qualification-2035-womens-world-cup-england-northern-ireland-scotland-wales",
-      "date": "2026-11-24T11:00:43Z",
-      "league": "all"
-    },
-    {
       "title": "Nations Championship finals weekend to kick off in front of 40,000 empty seats",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/23/rugby-union-nations-championship-finals-weekend-ticket-sales-empty-seats",
@@ -1132,41 +1148,6 @@
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/nov/24/prediction-markets-sports-gambling",
       "date": "2026-11-24T10:30:13Z",
-      "league": "all"
-    },
-    {
-      "title": "Four Midlands teams in the Championship top five - can it last?",
-      "source": "BBC Football",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c32l5d5py5k5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T10:27:17Z",
-      "league": "soccer"
-    },
-    {
-      "title": "Philippe Diallo learns harsh reality of mounting global challenge to Infantino",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/24/philippe-diallo-gianni-infantino-fifa-president-confederation-african-football",
-      "date": "2026-11-24T10:07:44Z",
-      "league": "all"
-    },
-    {
-      "title": "Timothy Weah: ‘I don’t want to beg to be back in the national team’",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/nov/24/timothy-weah-i-dont-want-to-beg-to-be-back-in-the-national-team",
-      "date": "2026-11-24T10:00:13Z",
-      "league": "all"
-    },
-    {
-      "title": "Dead hippo to be honoured on football club tifo",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n90jrvxrzpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T09:43:38Z",
-      "league": "all"
-    },
-    {
-      "title": "The youngest Premier League goalscorers this season",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cme39v4w7ykqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T09:10:34Z",
       "league": "all"
     }
   ]
